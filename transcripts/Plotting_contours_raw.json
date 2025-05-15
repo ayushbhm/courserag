@@ -1,0 +1,1797 @@
+[
+  {
+    "text": "foreign",
+    "start": 0.299,
+    "duration": 3.0
+  },
+  {
+    "text": "[Music]",
+    "start": 6.62,
+    "duration": 15.34
+  },
+  {
+    "text": "okay so we are talking about the",
+    "start": 19.8,
+    "duration": 4.139
+  },
+  {
+    "text": "problems with gradient descent and as",
+    "start": 21.96,
+    "duration": 3.42
+  },
+  {
+    "text": "you go along in this lecture we'll try",
+    "start": 23.939,
+    "duration": 4.801
+  },
+  {
+    "text": "to fix some of those problems but for",
+    "start": 25.38,
+    "duration": 5.159
+  },
+  {
+    "text": "that discussion it would be useful to",
+    "start": 28.74,
+    "duration": 4.14
+  },
+  {
+    "text": "understand how to draw contour maps",
+    "start": 30.539,
+    "duration": 3.721
+  },
+  {
+    "text": "because that would just make our life",
+    "start": 32.88,
+    "duration": 3.42
+  },
+  {
+    "text": "easier in terms of drawing the plots and",
+    "start": 34.26,
+    "duration": 5.22
+  },
+  {
+    "text": "so on and also Contours as an or contour",
+    "start": 36.3,
+    "duration": 5.279
+  },
+  {
+    "text": "maps is an important concept to know if",
+    "start": 39.48,
+    "duration": 4.14
+  },
+  {
+    "text": "you're doing machine learning deep",
+    "start": 41.579,
+    "duration": 4.32
+  },
+  {
+    "text": "learning and so on right so the idea",
+    "start": 43.62,
+    "duration": 4.02
+  },
+  {
+    "text": "here is this side that visualizing",
+    "start": 45.899,
+    "duration": 3.601
+  },
+  {
+    "text": "things in 3D can sometimes become a bit",
+    "start": 47.64,
+    "duration": 5.16
+  },
+  {
+    "text": "cumbersome right and so uh at least if",
+    "start": 49.5,
+    "duration": 5.219
+  },
+  {
+    "text": "images are static then you can only view",
+    "start": 52.8,
+    "duration": 4.2
+  },
+  {
+    "text": "it from a certain angle and so on so can",
+    "start": 54.719,
+    "duration": 5.461
+  },
+  {
+    "text": "we just do a 2d visualization of this",
+    "start": 57.0,
+    "duration": 5.64
+  },
+  {
+    "text": "traversal along the error surface and so",
+    "start": 60.18,
+    "duration": 4.32
+  },
+  {
+    "text": "to do that we need to know what are",
+    "start": 62.64,
+    "duration": 4.86
+  },
+  {
+    "text": "Contours so let's look at this right so",
+    "start": 64.5,
+    "duration": 5.939
+  },
+  {
+    "text": "now again we'll start with the 3D plot",
+    "start": 67.5,
+    "duration": 6.18
+  },
+  {
+    "text": "right so this is like a complex 3D plot",
+    "start": 70.439,
+    "duration": 5.461
+  },
+  {
+    "text": "that we have here okay",
+    "start": 73.68,
+    "duration": 5.16
+  },
+  {
+    "text": "and now I'll start with this question",
+    "start": 75.9,
+    "duration": 8.039
+  },
+  {
+    "text": "right that uh if I were to take",
+    "start": 78.84,
+    "duration": 7.319
+  },
+  {
+    "text": "or let me just draw the contour map and",
+    "start": 83.939,
+    "duration": 3.781
+  },
+  {
+    "text": "then try to comment this question right",
+    "start": 86.159,
+    "duration": 3.361
+  },
+  {
+    "text": "so now what I'm going to do is I'm going",
+    "start": 87.72,
+    "duration": 3.719
+  },
+  {
+    "text": "to draw something which is called as a",
+    "start": 89.52,
+    "duration": 3.959
+  },
+  {
+    "text": "contour map corresponding to this 3D",
+    "start": 91.439,
+    "duration": 4.561
+  },
+  {
+    "text": "plot without telling you what a contour",
+    "start": 93.479,
+    "duration": 4.081
+  },
+  {
+    "text": "map is right so I'll just go ahead and",
+    "start": 96.0,
+    "duration": 4.32
+  },
+  {
+    "text": "draw it and then I'll come back and",
+    "start": 97.56,
+    "duration": 5.34
+  },
+  {
+    "text": "explain what a contour map is right so",
+    "start": 100.32,
+    "duration": 4.259
+  },
+  {
+    "text": "you can see what I've done here right so",
+    "start": 102.9,
+    "duration": 3.48
+  },
+  {
+    "text": "let me just point out a few things that",
+    "start": 104.579,
+    "duration": 3.601
+  },
+  {
+    "text": "have been done here",
+    "start": 106.38,
+    "duration": 3.54
+  },
+  {
+    "text": "so what I've done is whatever surface",
+    "start": 108.18,
+    "duration": 4.619
+  },
+  {
+    "text": "was given to me at regular intervals",
+    "start": 109.92,
+    "duration": 4.559
+  },
+  {
+    "text": "along the z-axis so let me just",
+    "start": 112.799,
+    "duration": 4.801
+  },
+  {
+    "text": "straighten this so that the z-axis is",
+    "start": 114.479,
+    "duration": 6.901
+  },
+  {
+    "text": "vertical okay whatever reasons okay this",
+    "start": 117.6,
+    "duration": 6.14
+  },
+  {
+    "text": "is good",
+    "start": 121.38,
+    "duration": 2.36
+  },
+  {
+    "text": "yeah maybe this angle is good so at",
+    "start": 126.18,
+    "duration": 7.1
+  },
+  {
+    "text": "regular intervals along the Z axis",
+    "start": 128.52,
+    "duration": 4.76
+  },
+  {
+    "text": "I have taken slices right so these are",
+    "start": 134.959,
+    "duration": 5.741
+  },
+  {
+    "text": "the slices that I have taken at regular",
+    "start": 137.64,
+    "duration": 4.92
+  },
+  {
+    "text": "intervals along the z-axis and I've also",
+    "start": 140.7,
+    "duration": 3.42
+  },
+  {
+    "text": "labeled the intervals right so this is",
+    "start": 142.56,
+    "duration": 4.679
+  },
+  {
+    "text": "minus 0.8 this is the slice at minus 0.6",
+    "start": 144.12,
+    "duration": 7.259
+  },
+  {
+    "text": "minus 0.4 minus 0.2 and this is at -1",
+    "start": 147.239,
+    "duration": 6.061
+  },
+  {
+    "text": "right so these are regular intervals",
+    "start": 151.379,
+    "duration": 3.661
+  },
+  {
+    "text": "because they are happening at intervals",
+    "start": 153.3,
+    "duration": 5.7
+  },
+  {
+    "text": "of 0.2 and similarly I keep doing so at",
+    "start": 155.04,
+    "duration": 6.18
+  },
+  {
+    "text": "every point two distance I have taken a",
+    "start": 159.0,
+    "duration": 6.78
+  },
+  {
+    "text": "slice now if I were to see this from the",
+    "start": 161.22,
+    "duration": 8.9
+  },
+  {
+    "text": "top okay and maybe I should delete",
+    "start": 165.78,
+    "duration": 4.34
+  },
+  {
+    "text": "yeah so if I were to",
+    "start": 173.16,
+    "duration": 4.34
+  },
+  {
+    "text": "um",
+    "start": 175.5,
+    "duration": 2.0
+  },
+  {
+    "text": "yeah so I've done these slices at",
+    "start": 178.08,
+    "duration": 4.019
+  },
+  {
+    "text": "regular intervals and I've also labeled",
+    "start": 180.54,
+    "duration": 3.54
+  },
+  {
+    "text": "the slices now if I were to look at it",
+    "start": 182.099,
+    "duration": 4.5
+  },
+  {
+    "text": "from the top this is what it would look",
+    "start": 184.08,
+    "duration": 3.299
+  },
+  {
+    "text": "like",
+    "start": 186.599,
+    "duration": 2.161
+  },
+  {
+    "text": "right",
+    "start": 187.379,
+    "duration": 3.72
+  },
+  {
+    "text": "and this is exactly what the contour map",
+    "start": 188.76,
+    "duration": 4.559
+  },
+  {
+    "text": "looks like which is drawn on the right",
+    "start": 191.099,
+    "duration": 4.92
+  },
+  {
+    "text": "hand side right so contour map is like",
+    "start": 193.319,
+    "duration": 6.0
+  },
+  {
+    "text": "the top view of a 3D plot such that you",
+    "start": 196.019,
+    "duration": 5.821
+  },
+  {
+    "text": "take slices at regular intervals and",
+    "start": 199.319,
+    "duration": 3.961
+  },
+  {
+    "text": "then imagine what the slices would look",
+    "start": 201.84,
+    "duration": 3.36
+  },
+  {
+    "text": "from the top and that's what you draw",
+    "start": 203.28,
+    "duration": 5.099
+  },
+  {
+    "text": "here right so at any level here right so",
+    "start": 205.2,
+    "duration": 5.1
+  },
+  {
+    "text": "any of these circles or any of the Rings",
+    "start": 208.379,
+    "duration": 3.181
+  },
+  {
+    "text": "that you see here they're not all",
+    "start": 210.3,
+    "duration": 2.7
+  },
+  {
+    "text": "perfect circles but I can call them",
+    "start": 211.56,
+    "duration": 3.72
+  },
+  {
+    "text": "Rings any of the Rings that you see on",
+    "start": 213.0,
+    "duration": 3.659
+  },
+  {
+    "text": "this side",
+    "start": 215.28,
+    "duration": 4.92
+  },
+  {
+    "text": "note that for across that ring the value",
+    "start": 216.659,
+    "duration": 6.481
+  },
+  {
+    "text": "of the z-axis is the same right because",
+    "start": 220.2,
+    "duration": 4.319
+  },
+  {
+    "text": "that's how I've taken I have taken a",
+    "start": 223.14,
+    "duration": 4.5
+  },
+  {
+    "text": "slice which is parallel to the X Y axis",
+    "start": 224.519,
+    "duration": 4.921
+  },
+  {
+    "text": "so it's at a particular level on the Z",
+    "start": 227.64,
+    "duration": 5.9
+  },
+  {
+    "text": "axis so this ring for example",
+    "start": 229.44,
+    "duration": 4.1
+  },
+  {
+    "text": "corresponds to the level one right so",
+    "start": 235.68,
+    "duration": 5.4
+  },
+  {
+    "text": "this link here is level one ring this",
+    "start": 238.08,
+    "duration": 5.939
+  },
+  {
+    "text": "ring here is level 0.8 ring point six",
+    "start": 241.08,
+    "duration": 5.879
+  },
+  {
+    "text": "point four point two and so on right so",
+    "start": 244.019,
+    "duration": 6.42
+  },
+  {
+    "text": "that's how uh this has been uh drawn",
+    "start": 246.959,
+    "duration": 5.521
+  },
+  {
+    "text": "it's every ring corresponds to one value",
+    "start": 250.439,
+    "duration": 5.22
+  },
+  {
+    "text": "along the Z axis in our case or the X Y",
+    "start": 252.48,
+    "duration": 5.7
+  },
+  {
+    "text": "axis would be like the w b axis and the",
+    "start": 255.659,
+    "duration": 5.281
+  },
+  {
+    "text": "Z axis would be the loss axis so every",
+    "start": 258.18,
+    "duration": 4.739
+  },
+  {
+    "text": "slice here would correspond to the same",
+    "start": 260.94,
+    "duration": 3.78
+  },
+  {
+    "text": "value of the loss function because R",
+    "start": 262.919,
+    "duration": 4.201
+  },
+  {
+    "text": "cross along the ring the value of the",
+    "start": 264.72,
+    "duration": 3.66
+  },
+  {
+    "text": "loss function is there because we have",
+    "start": 267.12,
+    "duration": 3.54
+  },
+  {
+    "text": "taken a slice along the vertical axis",
+    "start": 268.38,
+    "duration": 3.84
+  },
+  {
+    "text": "right so you have a parallel plane so",
+    "start": 270.66,
+    "duration": 3.599
+  },
+  {
+    "text": "the loss would be the same across that",
+    "start": 272.22,
+    "duration": 4.62
+  },
+  {
+    "text": "axis right and when you look at it from",
+    "start": 274.259,
+    "duration": 4.261
+  },
+  {
+    "text": "the top",
+    "start": 276.84,
+    "duration": 4.46
+  },
+  {
+    "text": "uh",
+    "start": 278.52,
+    "duration": 2.78
+  },
+  {
+    "text": "this is how it looks like and that's",
+    "start": 283.259,
+    "duration": 3.181
+  },
+  {
+    "text": "exactly what the contour map looks like",
+    "start": 284.94,
+    "duration": 3.36
+  },
+  {
+    "text": "now there are certain other interesting",
+    "start": 286.44,
+    "duration": 4.5
+  },
+  {
+    "text": "things to be said about the contour map",
+    "start": 288.3,
+    "duration": 6.92
+  },
+  {
+    "text": "right and let me just get a hang of this",
+    "start": 290.94,
+    "duration": 4.28
+  },
+  {
+    "text": "I want to put certain view from which",
+    "start": 298.62,
+    "duration": 5.16
+  },
+  {
+    "text": "the point that I want to explain becomes",
+    "start": 301.919,
+    "duration": 4.081
+  },
+  {
+    "text": "easy okay this is the view that I want",
+    "start": 303.78,
+    "duration": 6.06
+  },
+  {
+    "text": "now what you see here right uh",
+    "start": 306.0,
+    "duration": 6.9
+  },
+  {
+    "text": "on this plot here is that in some cases",
+    "start": 309.84,
+    "duration": 5.16
+  },
+  {
+    "text": "the distance between the Rings is large",
+    "start": 312.9,
+    "duration": 5.1
+  },
+  {
+    "text": "right not just that the distance between",
+    "start": 315.0,
+    "duration": 5.88
+  },
+  {
+    "text": "the Rings is large here but it's very",
+    "start": 318.0,
+    "duration": 5.4
+  },
+  {
+    "text": "small here right so I'm talking about",
+    "start": 320.88,
+    "duration": 4.319
+  },
+  {
+    "text": "the same two rings right so let me just",
+    "start": 323.4,
+    "duration": 5.42
+  },
+  {
+    "text": "highlight those two rings",
+    "start": 325.199,
+    "duration": 3.621
+  },
+  {
+    "text": "so I'm talking about this ring and this",
+    "start": 329.28,
+    "duration": 5.82
+  },
+  {
+    "text": "ring okay I'm not circling the full",
+    "start": 332.46,
+    "duration": 4.2
+  },
+  {
+    "text": "thing because it will just become a bit",
+    "start": 335.1,
+    "duration": 5.24
+  },
+  {
+    "text": "untidy so if I look",
+    "start": 336.66,
+    "duration": 3.68
+  },
+  {
+    "text": "here the distance between the two rings",
+    "start": 342.419,
+    "duration": 4.62
+  },
+  {
+    "text": "is large but the distance between the",
+    "start": 344.94,
+    "duration": 5.16
+  },
+  {
+    "text": "same two rings here is a bit small right",
+    "start": 347.039,
+    "duration": 4.801
+  },
+  {
+    "text": "it's quite smaller than what it is here",
+    "start": 350.1,
+    "duration": 4.2
+  },
+  {
+    "text": "so why is that happening right and you",
+    "start": 351.84,
+    "duration": 4.74
+  },
+  {
+    "text": "can see that it's relates to the idea of",
+    "start": 354.3,
+    "duration": 4.44
+  },
+  {
+    "text": "slope and that's why I wanted this other",
+    "start": 356.58,
+    "duration": 5.52
+  },
+  {
+    "text": "view here so if you look at this right",
+    "start": 358.74,
+    "duration": 4.679
+  },
+  {
+    "text": "here",
+    "start": 362.1,
+    "duration": 5.159
+  },
+  {
+    "text": "here the slope is very Steep and here",
+    "start": 363.419,
+    "duration": 7.141
+  },
+  {
+    "text": "the slope is gentle right so now if I",
+    "start": 367.259,
+    "duration": 5.28
+  },
+  {
+    "text": "look at the distance between these two",
+    "start": 370.56,
+    "duration": 4.4
+  },
+  {
+    "text": "rings",
+    "start": 372.539,
+    "duration": 2.421
+  },
+  {
+    "text": "horrible",
+    "start": 383.58,
+    "duration": 2.66
+  },
+  {
+    "text": "so if I look at the distance between",
+    "start": 387.419,
+    "duration": 4.801
+  },
+  {
+    "text": "these two rings right so let me just",
+    "start": 388.86,
+    "duration": 6.36
+  },
+  {
+    "text": "delete things yeah now what I was saying",
+    "start": 392.22,
+    "duration": 4.199
+  },
+  {
+    "text": "is that if I look at the difference",
+    "start": 395.22,
+    "duration": 3.539
+  },
+  {
+    "text": "between distance between these two rings",
+    "start": 396.419,
+    "duration": 4.321
+  },
+  {
+    "text": "okay and now imagine I am looking for",
+    "start": 398.759,
+    "duration": 4.861
+  },
+  {
+    "text": "the top then here the slope is gentle",
+    "start": 400.74,
+    "duration": 5.04
+  },
+  {
+    "text": "whereas here the slope is steep so",
+    "start": 403.62,
+    "duration": 4.32
+  },
+  {
+    "text": "wherever the slope is gentle the",
+    "start": 405.78,
+    "duration": 3.6
+  },
+  {
+    "text": "distance between the two rings would be",
+    "start": 407.94,
+    "duration": 3.9
+  },
+  {
+    "text": "large whereas whether the slope is steep",
+    "start": 409.38,
+    "duration": 4.259
+  },
+  {
+    "text": "the distance between the two rings would",
+    "start": 411.84,
+    "duration": 5.82
+  },
+  {
+    "text": "be small right so this the idea of steep",
+    "start": 413.639,
+    "duration": 5.941
+  },
+  {
+    "text": "and gentle slope was very important for",
+    "start": 417.66,
+    "duration": 3.479
+  },
+  {
+    "text": "uh the discussion that we were doing",
+    "start": 419.58,
+    "duration": 3.78
+  },
+  {
+    "text": "right we needed to know in which regions",
+    "start": 421.139,
+    "duration": 4.801
+  },
+  {
+    "text": "was the slope Steep and in which regions",
+    "start": 423.36,
+    "duration": 5.64
+  },
+  {
+    "text": "was the gentle and now the contour maps",
+    "start": 425.94,
+    "duration": 4.56
+  },
+  {
+    "text": "actually capture that information right",
+    "start": 429.0,
+    "duration": 2.819
+  },
+  {
+    "text": "so you just need to look at the contour",
+    "start": 430.5,
+    "duration": 3.24
+  },
+  {
+    "text": "map and if I see that here the distance",
+    "start": 431.819,
+    "duration": 4.021
+  },
+  {
+    "text": "is large that means the slope would have",
+    "start": 433.74,
+    "duration": 4.44
+  },
+  {
+    "text": "been gentle here the distance is small",
+    "start": 435.84,
+    "duration": 4.859
+  },
+  {
+    "text": "that means in that region the slope",
+    "start": 438.18,
+    "duration": 4.38
+  },
+  {
+    "text": "would have been very steep right so",
+    "start": 440.699,
+    "duration": 3.541
+  },
+  {
+    "text": "looking at the contour map because the",
+    "start": 442.56,
+    "duration": 3.72
+  },
+  {
+    "text": "level information is also there I can",
+    "start": 444.24,
+    "duration": 4.32
+  },
+  {
+    "text": "actually guess what the 3D surface looks",
+    "start": 446.28,
+    "duration": 3.9
+  },
+  {
+    "text": "like and there will be a contour map",
+    "start": 448.56,
+    "duration": 3.539
+  },
+  {
+    "text": "corresponding to every 3D surface right",
+    "start": 450.18,
+    "duration": 3.78
+  },
+  {
+    "text": "so let us look at one more 3D surface",
+    "start": 452.099,
+    "duration": 4.081
+  },
+  {
+    "text": "the main takeaways here are this that",
+    "start": 453.96,
+    "duration": 4.56
+  },
+  {
+    "text": "these Rings correspond to levels on the",
+    "start": 456.18,
+    "duration": 5.94
+  },
+  {
+    "text": "loss axis and they are equidistant right",
+    "start": 458.52,
+    "duration": 5.519
+  },
+  {
+    "text": "that means they have been taken at equal",
+    "start": 462.12,
+    "duration": 4.56
+  },
+  {
+    "text": "distances on the loss axis the other is",
+    "start": 464.039,
+    "duration": 4.921
+  },
+  {
+    "text": "the distance between the Rings tells us",
+    "start": 466.68,
+    "duration": 4.5
+  },
+  {
+    "text": "about the slope in that direction if the",
+    "start": 468.96,
+    "duration": 3.78
+  },
+  {
+    "text": "distance is large then the slope was",
+    "start": 471.18,
+    "duration": 3.6
+  },
+  {
+    "text": "gentle and I gave you explain it with",
+    "start": 472.74,
+    "duration": 3.78
+  },
+  {
+    "text": "the help of this example",
+    "start": 474.78,
+    "duration": 4.38
+  },
+  {
+    "text": "I have this slope was steep then the",
+    "start": 476.52,
+    "duration": 5.22
+  },
+  {
+    "text": "distance was small as we saw here right",
+    "start": 479.16,
+    "duration": 4.56
+  },
+  {
+    "text": "so that's what the contour maps capture",
+    "start": 481.74,
+    "duration": 3.48
+  },
+  {
+    "text": "so in short they capture all the",
+    "start": 483.72,
+    "duration": 3.0
+  },
+  {
+    "text": "information that we are interested in",
+    "start": 485.22,
+    "duration": 3.24
+  },
+  {
+    "text": "when we are talking about gradient",
+    "start": 486.72,
+    "duration": 3.18
+  },
+  {
+    "text": "descent based algorithms right so let me",
+    "start": 488.46,
+    "duration": 4.079
+  },
+  {
+    "text": "just look at one more example right let",
+    "start": 489.9,
+    "duration": 5.04
+  },
+  {
+    "text": "me take a different function now",
+    "start": 492.539,
+    "duration": 4.5
+  },
+  {
+    "text": "suppose I take this function okay this",
+    "start": 494.94,
+    "duration": 3.78
+  },
+  {
+    "text": "is what this function looks like right",
+    "start": 497.039,
+    "duration": 4.621
+  },
+  {
+    "text": "now let me try to guess what the contour",
+    "start": 498.72,
+    "duration": 8.0
+  },
+  {
+    "text": "map would look like right uh or other",
+    "start": 501.66,
+    "duration": 5.06
+  },
+  {
+    "text": "let me just draw the contour map right",
+    "start": 507.0,
+    "duration": 4.28
+  },
+  {
+    "text": "this is what the contour map looks like",
+    "start": 513.419,
+    "duration": 5.901
+  },
+  {
+    "text": "and here again you can see that here",
+    "start": 515.159,
+    "duration": 4.161
+  },
+  {
+    "text": "yeah here the distance is large",
+    "start": 525.0,
+    "duration": 4.98
+  },
+  {
+    "text": "and does it correspond to my intuition",
+    "start": 527.88,
+    "duration": 3.84
+  },
+  {
+    "text": "that the slope would be large in that",
+    "start": 529.98,
+    "duration": 3.9
+  },
+  {
+    "text": "region so let's see that",
+    "start": 531.72,
+    "duration": 4.86
+  },
+  {
+    "text": "right indeed the slope was sorry the",
+    "start": 533.88,
+    "duration": 4.5
+  },
+  {
+    "text": "slope would be uh gentle in that region",
+    "start": 536.58,
+    "duration": 3.24
+  },
+  {
+    "text": "right so whenever the slope is gentle",
+    "start": 538.38,
+    "duration": 3.48
+  },
+  {
+    "text": "the distance between the Rings is large",
+    "start": 539.82,
+    "duration": 4.139
+  },
+  {
+    "text": "and whenever the slope is steep for",
+    "start": 541.86,
+    "duration": 4.5
+  },
+  {
+    "text": "example here it's very steep right so in",
+    "start": 543.959,
+    "duration": 4.44
+  },
+  {
+    "text": "this region as you can see this if I",
+    "start": 546.36,
+    "duration": 4.34
+  },
+  {
+    "text": "look at the plot on the left hand side",
+    "start": 548.399,
+    "duration": 5.88
+  },
+  {
+    "text": "these here the slope is very",
+    "start": 550.7,
+    "duration": 6.36
+  },
+  {
+    "text": "uh",
+    "start": 554.279,
+    "duration": 2.781
+  },
+  {
+    "text": "yeah here the slope is very steep so the",
+    "start": 559.98,
+    "duration": 4.38
+  },
+  {
+    "text": "distance between the Rings is small here",
+    "start": 562.56,
+    "duration": 3.36
+  },
+  {
+    "text": "the slope is gentle so the distance",
+    "start": 564.36,
+    "duration": 4.38
+  },
+  {
+    "text": "between the Rings is large right so",
+    "start": 565.92,
+    "duration": 5.34
+  },
+  {
+    "text": "that's that's the idea captured in a",
+    "start": 568.74,
+    "duration": 4.86
+  },
+  {
+    "text": "contour map you could take there are",
+    "start": 571.26,
+    "duration": 4.079
+  },
+  {
+    "text": "many functions given here so I would",
+    "start": 573.6,
+    "duration": 4.62
+  },
+  {
+    "text": "encourage you to kind of go back and try",
+    "start": 575.339,
+    "duration": 4.44
+  },
+  {
+    "text": "out different functions right so this is",
+    "start": 578.22,
+    "duration": 4.2
+  },
+  {
+    "text": "yet another function I think quite uh",
+    "start": 579.779,
+    "duration": 4.56
+  },
+  {
+    "text": "complex and we can try to draw the",
+    "start": 582.42,
+    "duration": 5.22
+  },
+  {
+    "text": "contour map for that",
+    "start": 584.339,
+    "duration": 6.301
+  },
+  {
+    "text": "it looks quite horrible right but you",
+    "start": 587.64,
+    "duration": 4.44
+  },
+  {
+    "text": "could just relate it to the intuition",
+    "start": 590.64,
+    "duration": 3.84
+  },
+  {
+    "text": "that we had right and maybe inverse",
+    "start": 592.08,
+    "duration": 4.98
+  },
+  {
+    "text": "functions are a bit uh perhaps I should",
+    "start": 594.48,
+    "duration": 3.96
+  },
+  {
+    "text": "stay away from that right but this",
+    "start": 597.06,
+    "duration": 3.66
+  },
+  {
+    "text": "function now now if I try to draw the",
+    "start": 598.44,
+    "duration": 5.78
+  },
+  {
+    "text": "contour map for this function",
+    "start": 600.72,
+    "duration": 3.5
+  },
+  {
+    "text": "it again matches the intuition that we",
+    "start": 604.56,
+    "duration": 5.16
+  },
+  {
+    "text": "had that in the regions where the slope",
+    "start": 606.66,
+    "duration": 5.82
+  },
+  {
+    "text": "is uh yeah this is what the function",
+    "start": 609.72,
+    "duration": 4.799
+  },
+  {
+    "text": "looks like so here the slope is",
+    "start": 612.48,
+    "duration": 4.979
+  },
+  {
+    "text": "throughout very steep right so the",
+    "start": 614.519,
+    "duration": 5.041
+  },
+  {
+    "text": "distance between the Rings is smaller",
+    "start": 617.459,
+    "duration": 3.781
+  },
+  {
+    "text": "here",
+    "start": 619.56,
+    "duration": 3.54
+  },
+  {
+    "text": "okay so we'll come back to the original",
+    "start": 621.24,
+    "duration": 4.8
+  },
+  {
+    "text": "function that we had",
+    "start": 623.1,
+    "duration": 6.72
+  },
+  {
+    "text": "yeah and I'll draw the Contour plot here",
+    "start": 626.04,
+    "duration": 5.82
+  },
+  {
+    "text": "and this is what it looks like right so",
+    "start": 629.82,
+    "duration": 3.18
+  },
+  {
+    "text": "I think if you play around with this",
+    "start": 631.86,
+    "duration": 2.58
+  },
+  {
+    "text": "function you will get a lot of insights",
+    "start": 633.0,
+    "duration": 4.08
+  },
+  {
+    "text": "into what the Contours Maps capture and",
+    "start": 634.44,
+    "duration": 4.32
+  },
+  {
+    "text": "the main intuition is about the slopes",
+    "start": 637.08,
+    "duration": 3.24
+  },
+  {
+    "text": "and the distance between the Rings right",
+    "start": 638.76,
+    "duration": 3.6
+  },
+  {
+    "text": "so now that we understand what contour",
+    "start": 640.32,
+    "duration": 4.56
+  },
+  {
+    "text": "maps are right let's try to do this we",
+    "start": 642.36,
+    "duration": 5.94
+  },
+  {
+    "text": "will revisit uh the gradient descent",
+    "start": 644.88,
+    "duration": 4.44
+  },
+  {
+    "text": "algorithm",
+    "start": 648.3,
+    "duration": 3.599
+  },
+  {
+    "text": "and now try to explain in terms of the",
+    "start": 649.32,
+    "duration": 4.92
+  },
+  {
+    "text": "movement on the contour map right so",
+    "start": 651.899,
+    "duration": 5.641
+  },
+  {
+    "text": "this was my uh",
+    "start": 654.24,
+    "duration": 7.14
+  },
+  {
+    "text": "3D plot and what you see here and here",
+    "start": 657.54,
+    "duration": 6.299
+  },
+  {
+    "text": "is the corresponding contour map right",
+    "start": 661.38,
+    "duration": 5.82
+  },
+  {
+    "text": "and you can see that in this region",
+    "start": 663.839,
+    "duration": 5.341
+  },
+  {
+    "text": "which corresponds to this region here",
+    "start": 667.2,
+    "duration": 4.98
+  },
+  {
+    "text": "the slope is very gentle hence the",
+    "start": 669.18,
+    "duration": 5.94
+  },
+  {
+    "text": "distance between this contour line and",
+    "start": 672.18,
+    "duration": 4.26
+  },
+  {
+    "text": "the next contour line which is not even",
+    "start": 675.12,
+    "duration": 4.5
+  },
+  {
+    "text": "visible is very large right and here",
+    "start": 676.44,
+    "duration": 7.399
+  },
+  {
+    "text": "right as I am going into the valley",
+    "start": 679.62,
+    "duration": 4.219
+  },
+  {
+    "text": "as I'm going into the valley you can see",
+    "start": 686.72,
+    "duration": 4.66
+  },
+  {
+    "text": "that all the contour lines are very",
+    "start": 689.7,
+    "duration": 3.9
+  },
+  {
+    "text": "close to each other because the slope is",
+    "start": 691.38,
+    "duration": 5.699
+  },
+  {
+    "text": "very steep there again here as you can",
+    "start": 693.6,
+    "duration": 6.6
+  },
+  {
+    "text": "see the here the slope is gentle so the",
+    "start": 697.079,
+    "duration": 4.861
+  },
+  {
+    "text": "distance between the contour lines is",
+    "start": 700.2,
+    "duration": 4.74
+  },
+  {
+    "text": "high but as I keep coming down the slope",
+    "start": 701.94,
+    "duration": 5.339
+  },
+  {
+    "text": "becomes sharp and my distance between",
+    "start": 704.94,
+    "duration": 4.26
+  },
+  {
+    "text": "the contour lines decreases right and",
+    "start": 707.279,
+    "duration": 4.021
+  },
+  {
+    "text": "same thing you can see everywhere right",
+    "start": 709.2,
+    "duration": 4.379
+  },
+  {
+    "text": "wherever the slope is sharp you will see",
+    "start": 711.3,
+    "duration": 3.719
+  },
+  {
+    "text": "that the distance between the contour",
+    "start": 713.579,
+    "duration": 3.361
+  },
+  {
+    "text": "lines is smaller now this entire",
+    "start": 715.019,
+    "duration": 3.781
+  },
+  {
+    "text": "gradient descent algorithm now I could",
+    "start": 716.94,
+    "duration": 4.62
+  },
+  {
+    "text": "just visualize it on the contour map",
+    "start": 718.8,
+    "duration": 4.32
+  },
+  {
+    "text": "itself right and here you have both in",
+    "start": 721.56,
+    "duration": 3.12
+  },
+  {
+    "text": "Parable so these are the two views that",
+    "start": 723.12,
+    "duration": 4.5
+  },
+  {
+    "text": "we have the 3D surface and its contour",
+    "start": 724.68,
+    "duration": 5.159
+  },
+  {
+    "text": "map at the bottom then the contour map",
+    "start": 727.62,
+    "duration": 4.32
+  },
+  {
+    "text": "and what happens actually to the sigmoid",
+    "start": 729.839,
+    "duration": 3.421
+  },
+  {
+    "text": "function right so let's try to look at",
+    "start": 731.94,
+    "duration": 3.72
+  },
+  {
+    "text": "both this views and get comfortable with",
+    "start": 733.26,
+    "duration": 4.8
+  },
+  {
+    "text": "them right so just as the point was",
+    "start": 735.66,
+    "duration": 6.0
+  },
+  {
+    "text": "moving on the 3D loss surface you can",
+    "start": 738.06,
+    "duration": 7.14
+  },
+  {
+    "text": "also show the point moving on the 2D",
+    "start": 741.66,
+    "duration": 5.52
+  },
+  {
+    "text": "surface so now I just have the WB plane",
+    "start": 745.2,
+    "duration": 4.5
+  },
+  {
+    "text": "and I can now I can see how the loss",
+    "start": 747.18,
+    "duration": 5.04
+  },
+  {
+    "text": "function is imposed on the WB plane",
+    "start": 749.7,
+    "duration": 4.68
+  },
+  {
+    "text": "right because I can draw the contour map",
+    "start": 752.22,
+    "duration": 3.96
+  },
+  {
+    "text": "and the contour map gives me all the",
+    "start": 754.38,
+    "duration": 3.06
+  },
+  {
+    "text": "information right it tells me what the",
+    "start": 756.18,
+    "duration": 4.76
+  },
+  {
+    "text": "loss levels are right",
+    "start": 757.44,
+    "duration": 3.5
+  },
+  {
+    "text": "it tells me what the loss levels are I",
+    "start": 761.1,
+    "duration": 3.96
+  },
+  {
+    "text": "can see all the loss levels here and",
+    "start": 763.139,
+    "duration": 3.121
+  },
+  {
+    "text": "also by looking at the difference",
+    "start": 765.06,
+    "duration": 2.94
+  },
+  {
+    "text": "between the loss levels I'll know what",
+    "start": 766.26,
+    "duration": 4.199
+  },
+  {
+    "text": "the slope looks like and now here again",
+    "start": 768.0,
+    "duration": 4.98
+  },
+  {
+    "text": "I see that in this region here",
+    "start": 770.459,
+    "duration": 5.641
+  },
+  {
+    "text": "right where the slope was sharp there is",
+    "start": 772.98,
+    "duration": 4.859
+  },
+  {
+    "text": "a sharp movement there is a rapid",
+    "start": 776.1,
+    "duration": 4.64
+  },
+  {
+    "text": "movement which happens",
+    "start": 777.839,
+    "duration": 2.901
+  },
+  {
+    "text": "let's play it again so",
+    "start": 784.68,
+    "duration": 5.339
+  },
+  {
+    "text": "now the slope is gentle so it's moving",
+    "start": 787.68,
+    "duration": 5.279
+  },
+  {
+    "text": "very small slowly on the 2D contour map",
+    "start": 790.019,
+    "duration": 5.301
+  },
+  {
+    "text": "here",
+    "start": 792.959,
+    "duration": 2.361
+  },
+  {
+    "text": "and then it as it moves towards the",
+    "start": 795.48,
+    "duration": 6.56
+  },
+  {
+    "text": "steep region",
+    "start": 798.62,
+    "duration": 3.42
+  },
+  {
+    "text": "now it will speed up and then again it",
+    "start": 803.1,
+    "duration": 6.179
+  },
+  {
+    "text": "enters the shallow or the gentle slope",
+    "start": 805.62,
+    "duration": 5.94
+  },
+  {
+    "text": "region and then again it will move",
+    "start": 809.279,
+    "duration": 4.68
+  },
+  {
+    "text": "slowly right and now I can just get rid",
+    "start": 811.56,
+    "duration": 4.74
+  },
+  {
+    "text": "of this 3D view I'll just work with the",
+    "start": 813.959,
+    "duration": 4.861
+  },
+  {
+    "text": "2D view where I have the contour map I",
+    "start": 816.3,
+    "duration": 4.62
+  },
+  {
+    "text": "know what the loss is that the loss is",
+    "start": 818.82,
+    "duration": 3.84
+  },
+  {
+    "text": "high so this is color coded so whether",
+    "start": 820.92,
+    "duration": 4.32
+  },
+  {
+    "text": "for dark red means High loss functions",
+    "start": 822.66,
+    "duration": 5.94
+  },
+  {
+    "text": "the dark blue means loss low loss",
+    "start": 825.24,
+    "duration": 5.52
+  },
+  {
+    "text": "regions and there's a gradation from",
+    "start": 828.6,
+    "duration": 4.679
+  },
+  {
+    "text": "dark red to dark blue red so pink would",
+    "start": 830.76,
+    "duration": 4.379
+  },
+  {
+    "text": "mean somewhere in between and this is",
+    "start": 833.279,
+    "duration": 4.381
+  },
+  {
+    "text": "what the pink here is right and now it's",
+    "start": 835.139,
+    "duration": 4.561
+  },
+  {
+    "text": "moving on this 2D plot and I can see",
+    "start": 837.66,
+    "duration": 4.38
+  },
+  {
+    "text": "what is happening so now I have reached",
+    "start": 839.7,
+    "duration": 4.259
+  },
+  {
+    "text": "close to conversion so my points are",
+    "start": 842.04,
+    "duration": 4.38
+  },
+  {
+    "text": "almost on the sigmoid function and",
+    "start": 843.959,
+    "duration": 4.56
+  },
+  {
+    "text": "earlier I was moving very very slowly",
+    "start": 846.42,
+    "duration": 4.68
+  },
+  {
+    "text": "when I was at this point right and now",
+    "start": 848.519,
+    "duration": 4.56
+  },
+  {
+    "text": "as I am going to enter the value you",
+    "start": 851.1,
+    "duration": 4.56
+  },
+  {
+    "text": "will see a sudden change in my w and B a",
+    "start": 853.079,
+    "duration": 4.5
+  },
+  {
+    "text": "very large change in my wnb and the",
+    "start": 855.66,
+    "duration": 3.84
+  },
+  {
+    "text": "entire shape of my sigmoid function will",
+    "start": 857.579,
+    "duration": 4.921
+  },
+  {
+    "text": "change right and now I have entered the",
+    "start": 859.5,
+    "duration": 4.5
+  },
+  {
+    "text": "value I'm close to convergence and",
+    "start": 862.5,
+    "duration": 3.54
+  },
+  {
+    "text": "slowly slowly moving so that these two",
+    "start": 864.0,
+    "duration": 4.38
+  },
+  {
+    "text": "points become completely on the sigmoid",
+    "start": 866.04,
+    "duration": 4.14
+  },
+  {
+    "text": "curve they are not completely on the",
+    "start": 868.38,
+    "duration": 4.5
+  },
+  {
+    "text": "curve yet slightly off but it will",
+    "start": 870.18,
+    "duration": 4.56
+  },
+  {
+    "text": "slowly move towards that conversion okay",
+    "start": 872.88,
+    "duration": 4.139
+  },
+  {
+    "text": "so now we know how to",
+    "start": 874.74,
+    "duration": 4.62
+  },
+  {
+    "text": "see a 3D plot and imagine what its",
+    "start": 877.019,
+    "duration": 4.201
+  },
+  {
+    "text": "contour map would look like or the other",
+    "start": 879.36,
+    "duration": 3.96
+  },
+  {
+    "text": "way around that look at a contour map",
+    "start": 881.22,
+    "duration": 4.38
+  },
+  {
+    "text": "and understand what the 3D plot could",
+    "start": 883.32,
+    "duration": 3.84
+  },
+  {
+    "text": "have looked like right because we know",
+    "start": 885.6,
+    "duration": 3.239
+  },
+  {
+    "text": "that these were the regions of gentle",
+    "start": 887.16,
+    "duration": 4.26
+  },
+  {
+    "text": "slope the and the lost levels are marked",
+    "start": 888.839,
+    "duration": 4.141
+  },
+  {
+    "text": "I have not marked the actual levels but",
+    "start": 891.42,
+    "duration": 3.06
+  },
+  {
+    "text": "I've just color coded them so wherever",
+    "start": 892.98,
+    "duration": 3.479
+  },
+  {
+    "text": "you see dark red you know it's bad and",
+    "start": 894.48,
+    "duration": 3.719
+  },
+  {
+    "text": "whenever you see dark blue you know it's",
+    "start": 896.459,
+    "duration": 3.18
+  },
+  {
+    "text": "good okay",
+    "start": 898.199,
+    "duration": 2.88
+  },
+  {
+    "text": "fine",
+    "start": 899.639,
+    "duration": 3.841
+  },
+  {
+    "text": "so we'll end this module here so we know",
+    "start": 901.079,
+    "duration": 6.541
+  },
+  {
+    "text": "about Contours now and now we'll uh try",
+    "start": 903.48,
+    "duration": 6.18
+  },
+  {
+    "text": "to go back to our discussion on gradient",
+    "start": 907.62,
+    "duration": 3.899
+  },
+  {
+    "text": "descent and see whether we can fix the",
+    "start": 909.66,
+    "duration": 5.78
+  },
+  {
+    "text": "problem that we had discussed okay",
+    "start": 911.519,
+    "duration": 3.921
+  }
+]

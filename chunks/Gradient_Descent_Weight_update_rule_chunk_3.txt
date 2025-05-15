@@ -1,0 +1,10 @@
+could you do to make sure that this doesn't happen is something for all of us to figure out in.
+the next couple of lectures right now just keep trying this right I've shown you what to do you just.
+follow this and as I said it's like a setup as a game you could just keep trying this and.
+see right and now you can notice it uh so far I was moving in this direction right I started.
+here then I went to a point here then I went to a point here and now it looks like.
+I have to come in the back Direction I have to come back and so on so you just play.
+with this and you just keep following the update Rule and see that you'll slowly start moving towards the uh.
+one of the minimas that are there in this function right and you could also initialize the W from a.
+different point right you could initialize it from say this point here and then you will see that it will.
+start going towards this Minima if you initialize it to a point here it will start going towards this Minima.

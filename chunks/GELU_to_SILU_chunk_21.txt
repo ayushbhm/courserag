@@ -1,0 +1,9 @@
+has because of its nice property of zero to one which makes it like a uh something that can look.
+like a probability function it still has use in some activation functions inside in some attention functions and so on.
+uh so it's still uh in some use so sigmoid and tanh are again used despite their multiple disadvantage advantages.
+that we spoke about but they are still popular but relu and gelu are the most popular activation functions out.
+there today right so with that a quick summary so sigmoids are generally bad we saw them but whenever you.
+need something to be between 0 to 1 then we'll see a few cases where we want that uh and.
+that time sigmoids are useful uh relu is more or less a standard unit for convolutional neural networks you can.
+try some of these variants of value but they have not been so popular uh tanh is still used in.
+lstms and rnns which we'll see later and gelu is commonly used in Transformer right so I would say tannage.

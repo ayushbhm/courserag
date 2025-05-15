@@ -1,0 +1,8 @@
+can do this whether you have a one variable function or a two variable function of course three variable functions.
+I cannot I'm just trying to get the angle right yeah this is what it is and you can see.
+that the approximation is good so this is what the Taylor series does and you can do this approximation in.
+multiple Dimensions also right so it need not be a function of a single variable it can also be a.
+function of multiple variables okay um second take a pause here I'll let you reflect on this you could also.
+go back to the lecture slides right the slides are also available on my web page and you can just.
+go and try to play around with this digest this idea and then come back and watch the next video.
+okay I'll just take a pause here thank you.

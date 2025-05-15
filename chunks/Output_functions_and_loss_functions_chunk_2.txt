@@ -1,0 +1,9 @@
+the imdb rating i have the critics rating and i have the rotten tomatoes it's all three are available to.
+me and now using this input data right so this becomes my x comma y pairs i want to train.
+a model which takes in as x as input right and gives me these three ratings as output which is.
+the same as saying that it gives me a three dimensional output right so that's that's what it is now.
+here i belongs to r3 as i said so now the loss function that we want should be able to.
+deviate how much does the predicted value should be able to capture how much does the predicted value deviate from.
+the true value right now here you have a vector as the true vector of true values and vector of.
+predicted values and you want to find the difference between them so the obvious loss function would be these mean.
+squared error loss function right so you have three values that you're predicting for each of these values you calculate.

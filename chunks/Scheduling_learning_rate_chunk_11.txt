@@ -1,0 +1,9 @@
+right so it from after every Epoch you're lost when you're checking the loss it's decreasing right and suppose you.
+are here now and you so say this was Epoch six and now you ran the seventh Epoch okay and.
+you calculate the loss again and it was actually increased right so what will you do now you you had.
+you are of course saving the weights after every Epoch so you will throw away all the updates that you.
+have done in the last Epoch re-initialize the weights from what they were in the sixth epoch half the learning.
+rate and then run the cpoc again right and then hopefully the loss would decrease it's still possible that the.
+loss still increases that means your learning rate is still high so again throw away all the updates go back.
+to the value of the weights that was there at the end of sixth Epoch half the learning rate again.
+and then continue from there right so this is like more data driven learning rate that okay my validation loss.

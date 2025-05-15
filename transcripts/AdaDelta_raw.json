@@ -1,0 +1,2327 @@
+[
+  {
+    "text": "foreign",
+    "start": 0.299,
+    "duration": 3.0
+  },
+  {
+    "text": "[Music]",
+    "start": 6.62,
+    "duration": 16.239
+  },
+  {
+    "text": "Delta which avoids setting an initial",
+    "start": 20.119,
+    "duration": 4.42
+  },
+  {
+    "text": "learning rate completely right so let's",
+    "start": 22.859,
+    "duration": 5.401
+  },
+  {
+    "text": "see what it does so I have some n epochs",
+    "start": 24.539,
+    "duration": 6.541
+  },
+  {
+    "text": "or n iterations so I have Computing the",
+    "start": 28.26,
+    "duration": 5.52
+  },
+  {
+    "text": "gradient then I keep exponentially",
+    "start": 31.08,
+    "duration": 6.18
+  },
+  {
+    "text": "moving history VT okay",
+    "start": 33.78,
+    "duration": 7.2
+  },
+  {
+    "text": "then I do compute the update right so",
+    "start": 37.26,
+    "duration": 7.52
+  },
+  {
+    "text": "this is what my update is going to be",
+    "start": 40.98,
+    "duration": 3.8
+  },
+  {
+    "text": "right",
+    "start": 46.26,
+    "duration": 4.2
+  },
+  {
+    "text": "and that update is a ratio of two",
+    "start": 47.34,
+    "duration": 4.8
+  },
+  {
+    "text": "variables one is UT I have not defined",
+    "start": 50.46,
+    "duration": 5.04
+  },
+  {
+    "text": "what UT is yet but it's ratio of u t and",
+    "start": 52.14,
+    "duration": 5.16
+  },
+  {
+    "text": "VT of course the square root is there",
+    "start": 55.5,
+    "duration": 3.719
+  },
+  {
+    "text": "but there is no ETA naught here right so",
+    "start": 57.3,
+    "duration": 3.84
+  },
+  {
+    "text": "we still need to see what is UT and how",
+    "start": 59.219,
+    "duration": 3.961
+  },
+  {
+    "text": "does this ratio take care of the",
+    "start": 61.14,
+    "duration": 4.1
+  },
+  {
+    "text": "challenges that I was talking about",
+    "start": 63.18,
+    "duration": 6.439
+  },
+  {
+    "text": "yeah so let's see so UT",
+    "start": 65.24,
+    "duration": 4.379
+  },
+  {
+    "text": "then I update WT because I've computed",
+    "start": 70.14,
+    "duration": 5.64
+  },
+  {
+    "text": "the Delta which needs to be there right",
+    "start": 73.38,
+    "duration": 6.18
+  },
+  {
+    "text": "so that's uh this is simply uh",
+    "start": 75.78,
+    "duration": 6.9
+  },
+  {
+    "text": "yeah so this part is simply equivalent",
+    "start": 79.56,
+    "duration": 5.34
+  },
+  {
+    "text": "to I mean the equivalent of minus ETA",
+    "start": 82.68,
+    "duration": 4.02
+  },
+  {
+    "text": "naught divided by square root of beta",
+    "start": 84.9,
+    "duration": 4.02
+  },
+  {
+    "text": "into Del WT which I had in the previous",
+    "start": 86.7,
+    "duration": 5.279
+  },
+  {
+    "text": "algorithm and then my update tool was WT",
+    "start": 88.92,
+    "duration": 6.9
+  },
+  {
+    "text": "minus this right so this is my Delta and",
+    "start": 91.979,
+    "duration": 5.221
+  },
+  {
+    "text": "then my update tool is just going to be",
+    "start": 95.82,
+    "duration": 3.96
+  },
+  {
+    "text": "WT plus Delta so that negative sign has",
+    "start": 97.2,
+    "duration": 4.559
+  },
+  {
+    "text": "been taken care of inside and I don't",
+    "start": 99.78,
+    "duration": 3.42
+  },
+  {
+    "text": "have the initial learning rate instead I",
+    "start": 101.759,
+    "duration": 2.881
+  },
+  {
+    "text": "have this in the numerator right so all",
+    "start": 103.2,
+    "duration": 5.419
+  },
+  {
+    "text": "of this is making sense",
+    "start": 104.64,
+    "duration": 3.979
+  },
+  {
+    "text": "and this is what my UT is right so my UT",
+    "start": 109.079,
+    "duration": 6.0
+  },
+  {
+    "text": "is an accumulation of the updates that I",
+    "start": 111.78,
+    "duration": 5.58
+  },
+  {
+    "text": "have made so remember this is nabla WT",
+    "start": 115.079,
+    "duration": 4.741
+  },
+  {
+    "text": "Square I am representing the gradient as",
+    "start": 117.36,
+    "duration": 5.539
+  },
+  {
+    "text": "nabla WT",
+    "start": 119.82,
+    "duration": 3.079
+  },
+  {
+    "text": "right so derivative is knabla WT and the",
+    "start": 127.14,
+    "duration": 6.3
+  },
+  {
+    "text": "update is Delta WT right so this is what",
+    "start": 129.899,
+    "duration": 6.42
+  },
+  {
+    "text": "this is keeping track of the Deltas and",
+    "start": 133.44,
+    "duration": 5.34
+  },
+  {
+    "text": "my current derivatives are lab loss",
+    "start": 136.319,
+    "duration": 5.341
+  },
+  {
+    "text": "right so I have like two histories being",
+    "start": 138.78,
+    "duration": 5.16
+  },
+  {
+    "text": "tracked and then I'm taking a ratio of",
+    "start": 141.66,
+    "duration": 3.78
+  },
+  {
+    "text": "these histories and then adjusting the",
+    "start": 143.94,
+    "duration": 3.36
+  },
+  {
+    "text": "learning rate how does it solve my",
+    "start": 145.44,
+    "duration": 4.08
+  },
+  {
+    "text": "problem is still not clear but right now",
+    "start": 147.3,
+    "duration": 3.78
+  },
+  {
+    "text": "we are just trying to understand what",
+    "start": 149.52,
+    "duration": 3.6
+  },
+  {
+    "text": "the equations are right so instead of",
+    "start": 151.08,
+    "duration": 3.659
+  },
+  {
+    "text": "one history which was VT I have two",
+    "start": 153.12,
+    "duration": 4.38
+  },
+  {
+    "text": "histories now it's also clear that one",
+    "start": 154.739,
+    "duration": 4.86
+  },
+  {
+    "text": "history is kind of ahead of the other",
+    "start": 157.5,
+    "duration": 4.019
+  },
+  {
+    "text": "history right so VT was tracking",
+    "start": 159.599,
+    "duration": 3.481
+  },
+  {
+    "text": "everything that is happening up to this",
+    "start": 161.519,
+    "duration": 4.141
+  },
+  {
+    "text": "time step but UT is also tracking what",
+    "start": 163.08,
+    "duration": 3.9
+  },
+  {
+    "text": "has happened at this time step because",
+    "start": 165.66,
+    "duration": 2.88
+  },
+  {
+    "text": "it was also taking into account the",
+    "start": 166.98,
+    "duration": 4.14
+  },
+  {
+    "text": "current update which has been made okay",
+    "start": 168.54,
+    "duration": 6.12
+  },
+  {
+    "text": "uh so these two changes are these two",
+    "start": 171.12,
+    "duration": 6.839
+  },
+  {
+    "text": "ratios are being uh these two histories",
+    "start": 174.66,
+    "duration": 4.92
+  },
+  {
+    "text": "are being tracked and then I'm taking a",
+    "start": 177.959,
+    "duration": 3.721
+  },
+  {
+    "text": "ratio of these two histories and that is",
+    "start": 179.58,
+    "duration": 3.96
+  },
+  {
+    "text": "my effective learning rate so how does",
+    "start": 181.68,
+    "duration": 5.22
+  },
+  {
+    "text": "this help is the question okay",
+    "start": 183.54,
+    "duration": 5.66
+  },
+  {
+    "text": "foreign",
+    "start": 186.9,
+    "duration": 2.3
+  },
+  {
+    "text": "that's what I meant by that one history",
+    "start": 189.8,
+    "duration": 5.14
+  },
+  {
+    "text": "is running ahead the other St VT is",
+    "start": 192.36,
+    "duration": 3.9
+  },
+  {
+    "text": "already used in the current iteration",
+    "start": 194.94,
+    "duration": 3.54
+  },
+  {
+    "text": "but the UT that I have computed now will",
+    "start": 196.26,
+    "duration": 3.72
+  },
+  {
+    "text": "be used in the next iteration as UT",
+    "start": 198.48,
+    "duration": 3.899
+  },
+  {
+    "text": "minus 1 right so the numerator is one",
+    "start": 199.98,
+    "duration": 4.979
+  },
+  {
+    "text": "step behind the denominator",
+    "start": 202.379,
+    "duration": 4.94
+  },
+  {
+    "text": "okay",
+    "start": 204.959,
+    "duration": 2.36
+  },
+  {
+    "text": "so now the numerator uh is a function of",
+    "start": 210.18,
+    "duration": 5.1
+  },
+  {
+    "text": "the history as opposed to being a",
+    "start": 213.36,
+    "duration": 4.26
+  },
+  {
+    "text": "constant in RMS prop and add a grid so",
+    "start": 215.28,
+    "duration": 3.66
+  },
+  {
+    "text": "we have made it a function of the",
+    "start": 217.62,
+    "duration": 2.88
+  },
+  {
+    "text": "history we have got rid of the initial",
+    "start": 218.94,
+    "duration": 3.54
+  },
+  {
+    "text": "learning rate but does it really solve",
+    "start": 220.5,
+    "duration": 4.379
+  },
+  {
+    "text": "our problem is the question right and",
+    "start": 222.48,
+    "duration": 3.66
+  },
+  {
+    "text": "the other thing to note which will be",
+    "start": 224.879,
+    "duration": 2.881
+  },
+  {
+    "text": "important in understanding that it",
+    "start": 226.14,
+    "duration": 3.54
+  },
+  {
+    "text": "indeed solves our problem is that",
+    "start": 227.76,
+    "duration": 4.92
+  },
+  {
+    "text": "whatever uh derivative we have computed",
+    "start": 229.68,
+    "duration": 5.36
+  },
+  {
+    "text": "here",
+    "start": 232.68,
+    "duration": 2.36
+  },
+  {
+    "text": "whatever derivative we had computed we",
+    "start": 239.519,
+    "duration": 3.481
+  },
+  {
+    "text": "are already taking only a fraction of",
+    "start": 241.44,
+    "duration": 6.24
+  },
+  {
+    "text": "that in VT right and even the update",
+    "start": 243.0,
+    "duration": 6.18
+  },
+  {
+    "text": "that we have",
+    "start": 247.68,
+    "duration": 3.96
+  },
+  {
+    "text": "right we are only taking a fraction of",
+    "start": 249.18,
+    "duration": 4.919
+  },
+  {
+    "text": "that when we are looking at UT okay this",
+    "start": 251.64,
+    "duration": 4.379
+  },
+  {
+    "text": "is something important to note",
+    "start": 254.099,
+    "duration": 3.901
+  },
+  {
+    "text": "why and how this makes a difference is",
+    "start": 256.019,
+    "duration": 3.241
+  },
+  {
+    "text": "something that we'll see but the main",
+    "start": 258.0,
+    "duration": 3.0
+  },
+  {
+    "text": "thing to note is that we are only taking",
+    "start": 259.26,
+    "duration": 4.26
+  },
+  {
+    "text": "a fraction of the update that we have",
+    "start": 261.0,
+    "duration": 4.62
+  },
+  {
+    "text": "made and this update that we had made",
+    "start": 263.52,
+    "duration": 6.36
+  },
+  {
+    "text": "was uh a function of",
+    "start": 265.62,
+    "duration": 6.54
+  },
+  {
+    "text": "this Delta WT that we had right the",
+    "start": 269.88,
+    "duration": 4.62
+  },
+  {
+    "text": "gradient that we had okay so uh don't",
+    "start": 272.16,
+    "duration": 4.38
+  },
+  {
+    "text": "worry I will just clear these things in",
+    "start": 274.5,
+    "duration": 5.0
+  },
+  {
+    "text": "the next couple of slides",
+    "start": 276.54,
+    "duration": 2.96
+  },
+  {
+    "text": "yeah so now suppose you are in a high",
+    "start": 282.54,
+    "duration": 5.34
+  },
+  {
+    "text": "curvature region right so you are in a",
+    "start": 285.6,
+    "duration": 4.2
+  },
+  {
+    "text": "steep region and what do you want in the",
+    "start": 287.88,
+    "duration": 3.42
+  },
+  {
+    "text": "Steep region you want the effective",
+    "start": 289.8,
+    "duration": 4.26
+  },
+  {
+    "text": "learning rate to be small okay so at",
+    "start": 291.3,
+    "duration": 5.459
+  },
+  {
+    "text": "time step 0 your V 0 so your you can",
+    "start": 294.06,
+    "duration": 4.44
+  },
+  {
+    "text": "refer to the equations here the",
+    "start": 296.759,
+    "duration": 4.38
+  },
+  {
+    "text": "equations for VT uh UT and all of that",
+    "start": 298.5,
+    "duration": 5.04
+  },
+  {
+    "text": "I'll just not bother too much about",
+    "start": 301.139,
+    "duration": 4.5
+  },
+  {
+    "text": "referring to them again and again but",
+    "start": 303.54,
+    "duration": 3.719
+  },
+  {
+    "text": "these computations are according to",
+    "start": 305.639,
+    "duration": 3.06
+  },
+  {
+    "text": "these equations right so at any point",
+    "start": 307.259,
+    "duration": 2.88
+  },
+  {
+    "text": "you're confused you can just pause and",
+    "start": 308.699,
+    "duration": 3.121
+  },
+  {
+    "text": "verify that we have used the same",
+    "start": 310.139,
+    "duration": 3.961
+  },
+  {
+    "text": "equations right so V 0 is going to be",
+    "start": 311.82,
+    "duration": 5.4
+  },
+  {
+    "text": "point one into Delta W 0 squares then",
+    "start": 314.1,
+    "duration": 5.22
+  },
+  {
+    "text": "you will have the sorry nabla W zero",
+    "start": 317.22,
+    "duration": 3.96
+  },
+  {
+    "text": "square and nabla W 0 is the derivative",
+    "start": 319.32,
+    "duration": 4.14
+  },
+  {
+    "text": "then you have the update which is the",
+    "start": 321.18,
+    "duration": 3.72
+  },
+  {
+    "text": "Delta W naught the change that you're",
+    "start": 323.46,
+    "duration": 3.6
+  },
+  {
+    "text": "going to make in W naught and you're",
+    "start": 324.9,
+    "duration": 5.579
+  },
+  {
+    "text": "currently your U minus 1 is 0 right so",
+    "start": 327.06,
+    "duration": 5.1
+  },
+  {
+    "text": "then you only have Epsilon in the",
+    "start": 330.479,
+    "duration": 4.621
+  },
+  {
+    "text": "numerator U minus 1 is going to be 0. so",
+    "start": 332.16,
+    "duration": 5.52
+  },
+  {
+    "text": "we make that update then you do W 1 is",
+    "start": 335.1,
+    "duration": 4.379
+  },
+  {
+    "text": "equal to W naught plus Delta W naught",
+    "start": 337.68,
+    "duration": 4.56
+  },
+  {
+    "text": "then you compute U naught right and this",
+    "start": 339.479,
+    "duration": 4.56
+  },
+  {
+    "text": "is what I was emphasizing on right that",
+    "start": 342.24,
+    "duration": 4.64
+  },
+  {
+    "text": "this U naught",
+    "start": 344.039,
+    "duration": 2.841
+  },
+  {
+    "text": "is just taking a fraction of the",
+    "start": 347.94,
+    "duration": 6.96
+  },
+  {
+    "text": "derivative that you had right and now uh",
+    "start": 350.34,
+    "duration": 7.62
+  },
+  {
+    "text": "so yeah you U naught was actually uh",
+    "start": 354.9,
+    "duration": 5.22
+  },
+  {
+    "text": "beta times",
+    "start": 357.96,
+    "duration": 4.739
+  },
+  {
+    "text": "the old history which is 0 in this case",
+    "start": 360.12,
+    "duration": 5.04
+  },
+  {
+    "text": "and 1 minus beta time the current update",
+    "start": 362.699,
+    "duration": 4.44
+  },
+  {
+    "text": "that we have made but the current update",
+    "start": 365.16,
+    "duration": 4.979
+  },
+  {
+    "text": "which is Delta is in turn a function of",
+    "start": 367.139,
+    "duration": 4.921
+  },
+  {
+    "text": "this nabla so I've just substituted the",
+    "start": 370.139,
+    "duration": 5.161
+  },
+  {
+    "text": "value of delta uh W naught and in terms",
+    "start": 372.06,
+    "duration": 6.06
+  },
+  {
+    "text": "of uh sorry uh yeah Delta W naught in",
+    "start": 375.3,
+    "duration": 4.8
+  },
+  {
+    "text": "terms of navbla w naught right so this",
+    "start": 378.12,
+    "duration": 3.84
+  },
+  {
+    "text": "is nabla just in case you're confused",
+    "start": 380.1,
+    "duration": 6.68
+  },
+  {
+    "text": "and this is Delta okay so that's done",
+    "start": 381.96,
+    "duration": 4.82
+  },
+  {
+    "text": "okay now let's see what happens next",
+    "start": 387.0,
+    "duration": 4.94
+  },
+  {
+    "text": "I'll just keep continuing for a while",
+    "start": 392.34,
+    "duration": 4.26
+  },
+  {
+    "text": "so fraction of the history is being",
+    "start": 394.74,
+    "duration": 4.799
+  },
+  {
+    "text": "stored for the next iteration now at t",
+    "start": 396.6,
+    "duration": 5.039
+  },
+  {
+    "text": "equal to 1 again you will just apply",
+    "start": 399.539,
+    "duration": 5.1
+  },
+  {
+    "text": "this B1 is equal to 0.9 into the",
+    "start": 401.639,
+    "duration": 5.161
+  },
+  {
+    "text": "previous history plus point one into the",
+    "start": 404.639,
+    "duration": 4.261
+  },
+  {
+    "text": "current gradient and if I substitute the",
+    "start": 406.8,
+    "duration": 4.38
+  },
+  {
+    "text": "value of the prevent history then I get",
+    "start": 408.9,
+    "duration": 4.5
+  },
+  {
+    "text": "the entire equation in terms of the nav",
+    "start": 411.18,
+    "duration": 4.739
+  },
+  {
+    "text": "loss so nabla w 0 square and abla W1",
+    "start": 413.4,
+    "duration": 5.22
+  },
+  {
+    "text": "square right now I again uh do the",
+    "start": 415.919,
+    "duration": 4.381
+  },
+  {
+    "text": "update and now I'm ignoring the Epsilon",
+    "start": 418.62,
+    "duration": 3.24
+  },
+  {
+    "text": "because I have reached a state where I",
+    "start": 420.3,
+    "duration": 3.899
+  },
+  {
+    "text": "have non-zero U naught and Epsilon is",
+    "start": 421.86,
+    "duration": 4.559
+  },
+  {
+    "text": "very small so U naught plus Epsilon is",
+    "start": 424.199,
+    "duration": 3.72
+  },
+  {
+    "text": "going to be very close to U naught",
+    "start": 426.419,
+    "duration": 5.34
+  },
+  {
+    "text": "anyways right so this is what the update",
+    "start": 427.919,
+    "duration": 6.72
+  },
+  {
+    "text": "is I make this update and then I compute",
+    "start": 431.759,
+    "duration": 7.521
+  },
+  {
+    "text": "U1 right and again U1 is a function of",
+    "start": 434.639,
+    "duration": 7.68
+  },
+  {
+    "text": "Deltas remember but the Deltas in terms",
+    "start": 439.28,
+    "duration": 5.62
+  },
+  {
+    "text": "are functions of the nablas so I just",
+    "start": 442.319,
+    "duration": 4.5
+  },
+  {
+    "text": "put those values appropriately and I",
+    "start": 444.9,
+    "duration": 4.26
+  },
+  {
+    "text": "have computed this right and now if you",
+    "start": 446.819,
+    "duration": 4.561
+  },
+  {
+    "text": "look at this right so or maybe let me",
+    "start": 449.16,
+    "duration": 4.02
+  },
+  {
+    "text": "just go to one more time step t equal to",
+    "start": 451.38,
+    "duration": 4.02
+  },
+  {
+    "text": "2 again I am doing the same thing as I'm",
+    "start": 453.18,
+    "duration": 3.84
+  },
+  {
+    "text": "just mechanically substituting values",
+    "start": 455.4,
+    "duration": 3.78
+  },
+  {
+    "text": "into the formula and just making sure",
+    "start": 457.02,
+    "duration": 4.619
+  },
+  {
+    "text": "that I express everything in terms of",
+    "start": 459.18,
+    "duration": 5.28
+  },
+  {
+    "text": "Delta W I's right that's the only idea",
+    "start": 461.639,
+    "duration": 4.5
+  },
+  {
+    "text": "so that all the formulas become",
+    "start": 464.46,
+    "duration": 3.42
+  },
+  {
+    "text": "comparable right all the values become",
+    "start": 466.139,
+    "duration": 2.881
+  },
+  {
+    "text": "comparative",
+    "start": 467.88,
+    "duration": 3.12
+  },
+  {
+    "text": "so this is where I am now I'm just going",
+    "start": 469.02,
+    "duration": 6.48
+  },
+  {
+    "text": "to focus on the U's and the v's okay so",
+    "start": 471.0,
+    "duration": 7.68
+  },
+  {
+    "text": "now if you look at this at this time",
+    "start": 475.5,
+    "duration": 5.84
+  },
+  {
+    "text": "step right",
+    "start": 478.68,
+    "duration": 2.66
+  },
+  {
+    "text": "yeah so when I was here at t equal to 2",
+    "start": 485.699,
+    "duration": 7.56
+  },
+  {
+    "text": "time step I will use U1 divided by V 2",
+    "start": 489.24,
+    "duration": 7.5
+  },
+  {
+    "text": "right so this is my U1 and this is my V2",
+    "start": 493.259,
+    "duration": 5.401
+  },
+  {
+    "text": "and you can compare these two equations",
+    "start": 496.74,
+    "duration": 4.26
+  },
+  {
+    "text": "and you will know that U1 is actually",
+    "start": 498.66,
+    "duration": 4.319
+  },
+  {
+    "text": "smaller than",
+    "start": 501.0,
+    "duration": 5.58
+  },
+  {
+    "text": "V2 right so if U1 is smaller than V2",
+    "start": 502.979,
+    "duration": 5.16
+  },
+  {
+    "text": "then the numerator is smaller than the",
+    "start": 506.58,
+    "duration": 3.66
+  },
+  {
+    "text": "denominator and hence the effective",
+    "start": 508.139,
+    "duration": 4.32
+  },
+  {
+    "text": "learning rate would be small and hence",
+    "start": 510.24,
+    "duration": 3.84
+  },
+  {
+    "text": "my problem has been taken care of right",
+    "start": 512.459,
+    "duration": 4.38
+  },
+  {
+    "text": "in the Steep region I am having a",
+    "start": 514.08,
+    "duration": 5.04
+  },
+  {
+    "text": "smaller denominator a smaller effective",
+    "start": 516.839,
+    "duration": 3.841
+  },
+  {
+    "text": "learning rate right that's exactly what",
+    "start": 519.12,
+    "duration": 4.38
+  },
+  {
+    "text": "I wanted and the entire picture will",
+    "start": 520.68,
+    "duration": 4.26
+  },
+  {
+    "text": "become clear also when I talk about what",
+    "start": 523.5,
+    "duration": 4.14
+  },
+  {
+    "text": "happens in the flat regions right so",
+    "start": 524.94,
+    "duration": 4.44
+  },
+  {
+    "text": "that's also something which is coming so",
+    "start": 527.64,
+    "duration": 4.44
+  },
+  {
+    "text": "let's wait for that to happen so both VT",
+    "start": 529.38,
+    "duration": 4.26
+  },
+  {
+    "text": "and UT are increasing right because both",
+    "start": 532.08,
+    "duration": 3.9
+  },
+  {
+    "text": "are accumulating gradients but because",
+    "start": 533.64,
+    "duration": 4.86
+  },
+  {
+    "text": "of this one time step delay between them",
+    "start": 535.98,
+    "duration": 4.32
+  },
+  {
+    "text": "right one is U T minus one the other is",
+    "start": 538.5,
+    "duration": 4.019
+  },
+  {
+    "text": "VT so in the Steep regions while both",
+    "start": 540.3,
+    "duration": 4.38
+  },
+  {
+    "text": "are growing UT is growing slightly",
+    "start": 542.519,
+    "duration": 4.741
+  },
+  {
+    "text": "slower than VT and hence the effective",
+    "start": 544.68,
+    "duration": 4.5
+  },
+  {
+    "text": "learning rate is going to be smaller",
+    "start": 547.26,
+    "duration": 4.62
+  },
+  {
+    "text": "right now",
+    "start": 549.18,
+    "duration": 5.52
+  },
+  {
+    "text": "yeah that's always same here whereas in",
+    "start": 551.88,
+    "duration": 4.74
+  },
+  {
+    "text": "the RMS prop the effective learning rate",
+    "start": 554.7,
+    "duration": 4.139
+  },
+  {
+    "text": "would just have been ETA by VT and hence",
+    "start": 556.62,
+    "duration": 3.839
+  },
+  {
+    "text": "there is no adoption Happening Here",
+    "start": 558.839,
+    "duration": 3.981
+  },
+  {
+    "text": "Right",
+    "start": 560.459,
+    "duration": 2.361
+  },
+  {
+    "text": "okay so this is all that I've already",
+    "start": 565.92,
+    "duration": 3.66
+  },
+  {
+    "text": "said you could just read what there's on",
+    "start": 567.839,
+    "duration": 4.141
+  },
+  {
+    "text": "the slide now let's see what happens in",
+    "start": 569.58,
+    "duration": 6.18
+  },
+  {
+    "text": "the flat regions",
+    "start": 571.98,
+    "duration": 7.88
+  },
+  {
+    "text": "okay so now I'm in the flat region",
+    "start": 575.76,
+    "duration": 4.1
+  },
+  {
+    "text": "so this is some Delta w i right at the",
+    "start": 582.899,
+    "duration": 4.38
+  },
+  {
+    "text": "ith time step I am trying to take the",
+    "start": 585.24,
+    "duration": 4.44
+  },
+  {
+    "text": "gradient now what will happen here right",
+    "start": 587.279,
+    "duration": 6.841
+  },
+  {
+    "text": "so now if I look at uh U T minus 1 and",
+    "start": 589.68,
+    "duration": 8.46
+  },
+  {
+    "text": "VT okay now U T minus 1 remember is one",
+    "start": 594.12,
+    "duration": 8.339
+  },
+  {
+    "text": "time step behind a VT so then one way of",
+    "start": 598.14,
+    "duration": 6.48
+  },
+  {
+    "text": "looking at it is that",
+    "start": 602.459,
+    "duration": 4.401
+  },
+  {
+    "text": "in ut minus 1",
+    "start": 604.62,
+    "duration": 4.8
+  },
+  {
+    "text": "these all are participating",
+    "start": 606.86,
+    "duration": 6.22
+  },
+  {
+    "text": "right and in VT minus V T these all are",
+    "start": 609.42,
+    "duration": 6.12
+  },
+  {
+    "text": "participating because by this point the",
+    "start": 613.08,
+    "duration": 4.439
+  },
+  {
+    "text": "beta raised to K is so small that that",
+    "start": 615.54,
+    "duration": 3.9
+  },
+  {
+    "text": "guy is effectively not participating",
+    "start": 617.519,
+    "duration": 4.141
+  },
+  {
+    "text": "right because there's this one time step",
+    "start": 619.44,
+    "duration": 4.079
+  },
+  {
+    "text": "difference so this is what the situation",
+    "start": 621.66,
+    "duration": 4.02
+  },
+  {
+    "text": "is now what is happening if you look at",
+    "start": 623.519,
+    "duration": 4.201
+  },
+  {
+    "text": "this curve right so since all the",
+    "start": 625.68,
+    "duration": 3.839
+  },
+  {
+    "text": "gradients were high high and then they",
+    "start": 627.72,
+    "duration": 5.88
+  },
+  {
+    "text": "started decreasing my UT since it's",
+    "start": 629.519,
+    "duration": 7.021
+  },
+  {
+    "text": "looking at more High guys than the low",
+    "start": 633.6,
+    "duration": 5.52
+  },
+  {
+    "text": "guys right so because of this one time",
+    "start": 636.54,
+    "duration": 5.4
+  },
+  {
+    "text": "so so v v t has this current guy also",
+    "start": 639.12,
+    "duration": 4.44
+  },
+  {
+    "text": "which is again very small",
+    "start": 641.94,
+    "duration": 4.44
+  },
+  {
+    "text": "right and UT does not have this guy it",
+    "start": 643.56,
+    "duration": 4.5
+  },
+  {
+    "text": "has some other guy which was actually",
+    "start": 646.38,
+    "duration": 3.42
+  },
+  {
+    "text": "high right because it's one time step",
+    "start": 648.06,
+    "duration": 5.7
+  },
+  {
+    "text": "behind so now UT is going to be larger",
+    "start": 649.8,
+    "duration": 5.64
+  },
+  {
+    "text": "than VT",
+    "start": 653.76,
+    "duration": 3.36
+  },
+  {
+    "text": "does that make sense because VT is one",
+    "start": 655.44,
+    "duration": 4.019
+  },
+  {
+    "text": "step higher so once you enter the Steep",
+    "start": 657.12,
+    "duration": 5.159
+  },
+  {
+    "text": "regions after a while because this new",
+    "start": 659.459,
+    "duration": 6.12
+  },
+  {
+    "text": "guy is getting more weightage in VT that",
+    "start": 662.279,
+    "duration": 6.0
+  },
+  {
+    "text": "sum would stop start becoming smaller as",
+    "start": 665.579,
+    "duration": 4.921
+  },
+  {
+    "text": "compared to UT because UT still has to",
+    "start": 668.279,
+    "duration": 3.601
+  },
+  {
+    "text": "come to that step it's still in the",
+    "start": 670.5,
+    "duration": 3.42
+  },
+  {
+    "text": "older history and the older history was",
+    "start": 671.88,
+    "duration": 3.959
+  },
+  {
+    "text": "all high gradients so it's still taking",
+    "start": 673.92,
+    "duration": 3.479
+  },
+  {
+    "text": "more benefit from the older history",
+    "start": 675.839,
+    "duration": 4.141
+  },
+  {
+    "text": "whereas VT is now relying more on the",
+    "start": 677.399,
+    "duration": 4.38
+  },
+  {
+    "text": "current guy and this current guy will",
+    "start": 679.98,
+    "duration": 3.78
+  },
+  {
+    "text": "affect U T minus 1 only in the next time",
+    "start": 681.779,
+    "duration": 5.041
+  },
+  {
+    "text": "step right so now the history the U T",
+    "start": 683.76,
+    "duration": 5.94
+  },
+  {
+    "text": "minus 1 is going to be larger than VT",
+    "start": 686.82,
+    "duration": 4.38
+  },
+  {
+    "text": "and hence the ratio is going to be",
+    "start": 689.7,
+    "duration": 3.42
+  },
+  {
+    "text": "larger and hence the effective learning",
+    "start": 691.2,
+    "duration": 3.36
+  },
+  {
+    "text": "rate is increasing as you are entering",
+    "start": 693.12,
+    "duration": 4.32
+  },
+  {
+    "text": "the uh flat regions right and then you",
+    "start": 694.56,
+    "duration": 4.62
+  },
+  {
+    "text": "can continue arguing that once again if",
+    "start": 697.44,
+    "duration": 3.959
+  },
+  {
+    "text": "you enter the Steep region again because",
+    "start": 699.18,
+    "duration": 4.5
+  },
+  {
+    "text": "of this one time step delay what will",
+    "start": 701.399,
+    "duration": 4.62
+  },
+  {
+    "text": "happen is VT will start looking at a",
+    "start": 703.68,
+    "duration": 5.04
+  },
+  {
+    "text": "much bigger gradient than what UT is",
+    "start": 706.019,
+    "duration": 3.961
+  },
+  {
+    "text": "looking at right so UT might be looking",
+    "start": 708.72,
+    "duration": 4.2
+  },
+  {
+    "text": "at these guys whereas V T minus v u t",
+    "start": 709.98,
+    "duration": 6.26
+  },
+  {
+    "text": "minus 1 would be looking at sorry",
+    "start": 712.92,
+    "duration": 3.32
+  },
+  {
+    "text": "yeah U T minus 1 might be looking at",
+    "start": 716.279,
+    "duration": 5.521
+  },
+  {
+    "text": "these guys whereas VT will start looking",
+    "start": 718.44,
+    "duration": 5.22
+  },
+  {
+    "text": "at the current gradient also and this is",
+    "start": 721.8,
+    "duration": 3.96
+  },
+  {
+    "text": "a very large value so it has more",
+    "start": 723.66,
+    "duration": 4.44
+  },
+  {
+    "text": "benefit from the current large value and",
+    "start": 725.76,
+    "duration": 5.22
+  },
+  {
+    "text": "hence it would be larger than UT minus 1",
+    "start": 728.1,
+    "duration": 4.32
+  },
+  {
+    "text": "and hence the effective learning rate",
+    "start": 730.98,
+    "duration": 3.24
+  },
+  {
+    "text": "will again decrease right so that's what",
+    "start": 732.42,
+    "duration": 4.58
+  },
+  {
+    "text": "is happening here",
+    "start": 734.22,
+    "duration": 2.78
+  },
+  {
+    "text": "okay so that's that's the explanation of",
+    "start": 738.0,
+    "duration": 4.68
+  },
+  {
+    "text": "why having this two histories one",
+    "start": 740.22,
+    "duration": 4.98
+  },
+  {
+    "text": "delayed by one time step is helping",
+    "start": 742.68,
+    "duration": 4.14
+  },
+  {
+    "text": "because it allows you to catch up with",
+    "start": 745.2,
+    "duration": 2.94
+  },
+  {
+    "text": "what is happening in the history and",
+    "start": 746.82,
+    "duration": 2.579
+  },
+  {
+    "text": "then update the gradients according",
+    "start": 748.14,
+    "duration": 3.12
+  },
+  {
+    "text": "right so these values are not important",
+    "start": 749.399,
+    "duration": 3.421
+  },
+  {
+    "text": "but as long as you have understood the",
+    "start": 751.26,
+    "duration": 3.6
+  },
+  {
+    "text": "pictorial explanation you will be able",
+    "start": 752.82,
+    "duration": 3.42
+  },
+  {
+    "text": "to relate it to what is happening with",
+    "start": 754.86,
+    "duration": 3.78
+  },
+  {
+    "text": "these values right so therefore Delta",
+    "start": 756.24,
+    "duration": 3.96
+  },
+  {
+    "text": "allows the numerator to increase or",
+    "start": 758.64,
+    "duration": 3.12
+  },
+  {
+    "text": "decrease based on the current and past",
+    "start": 760.2,
+    "duration": 3.3
+  },
+  {
+    "text": "gradients and that exactly what we",
+    "start": 761.76,
+    "duration": 4.079
+  },
+  {
+    "text": "wanted now let's see what happens if we",
+    "start": 763.5,
+    "duration": 5.42
+  },
+  {
+    "text": "run Ada Delta",
+    "start": 765.839,
+    "duration": 3.081
+  },
+  {
+    "text": "so as usual RMS prop is oscillating",
+    "start": 774.839,
+    "duration": 5.461
+  },
+  {
+    "text": "Ada grad is taking more time to reach",
+    "start": 777.899,
+    "duration": 4.74
+  },
+  {
+    "text": "the Minima because it aggressively kills",
+    "start": 780.3,
+    "duration": 4.62
+  },
+  {
+    "text": "the learning rate whereas adaptive Delta",
+    "start": 782.639,
+    "duration": 6.741
+  },
+  {
+    "text": "let's just look at it again right so",
+    "start": 784.92,
+    "duration": 4.46
+  },
+  {
+    "text": "yeah so in the Steep regions as it",
+    "start": 793.019,
+    "duration": 6.0
+  },
+  {
+    "text": "became steeper it's decreased and then",
+    "start": 796.92,
+    "duration": 3.9
+  },
+  {
+    "text": "it again it did whatever was required to",
+    "start": 799.019,
+    "duration": 3.541
+  },
+  {
+    "text": "reach the Minima quickly right well the",
+    "start": 800.82,
+    "duration": 3.84
+  },
+  {
+    "text": "other two algorithms are struggling one",
+    "start": 802.56,
+    "duration": 3.66
+  },
+  {
+    "text": "is oscillating while the other one is",
+    "start": 804.66,
+    "duration": 5.179
+  },
+  {
+    "text": "slow right yeah",
+    "start": 806.22,
+    "duration": 3.619
+  },
+  {
+    "text": "okay",
+    "start": 810.3,
+    "duration": 2.599
+  },
+  {
+    "text": "yeah now let's look at uh we we are also",
+    "start": 814.92,
+    "duration": 5.28
+  },
+  {
+    "text": "plotting now the VT and the UT right so",
+    "start": 817.74,
+    "duration": 4.8
+  },
+  {
+    "text": "uh because they are delayed by one time",
+    "start": 820.2,
+    "duration": 4.74
+  },
+  {
+    "text": "step their curvature would be the same",
+    "start": 822.54,
+    "duration": 3.96
+  },
+  {
+    "text": "right they would have the same shape so",
+    "start": 824.94,
+    "duration": 3.42
+  },
+  {
+    "text": "both of them have the same shape but",
+    "start": 826.5,
+    "duration": 4.079
+  },
+  {
+    "text": "their magnitudes are different right",
+    "start": 828.36,
+    "duration": 5.039
+  },
+  {
+    "text": "because of this delay one is relying on",
+    "start": 830.579,
+    "duration": 5.521
+  },
+  {
+    "text": "more on the past history like one more",
+    "start": 833.399,
+    "duration": 4.261
+  },
+  {
+    "text": "time step from the past history whereas",
+    "start": 836.1,
+    "duration": 2.76
+  },
+  {
+    "text": "the other one is relying more on the",
+    "start": 837.66,
+    "duration": 3.299
+  },
+  {
+    "text": "current history so what is happening is",
+    "start": 838.86,
+    "duration": 6.719
+  },
+  {
+    "text": "that when you are entering this uh",
+    "start": 840.959,
+    "duration": 7.94
+  },
+  {
+    "text": "uh let's see",
+    "start": 845.579,
+    "duration": 3.32
+  },
+  {
+    "text": "so what is happening is in this curve so",
+    "start": 849.3,
+    "duration": 4.26
+  },
+  {
+    "text": "what happened was initially",
+    "start": 851.519,
+    "duration": 4.88
+  },
+  {
+    "text": "you were",
+    "start": 853.56,
+    "duration": 2.839
+  },
+  {
+    "text": "in a high loss region right or a high",
+    "start": 856.5,
+    "duration": 5.7
+  },
+  {
+    "text": "loss region but also relatively flatter",
+    "start": 859.8,
+    "duration": 3.9
+  },
+  {
+    "text": "region right here the difference between",
+    "start": 862.2,
+    "duration": 4.319
+  },
+  {
+    "text": "the Constable contour lines is higher",
+    "start": 863.7,
+    "duration": 4.98
+  },
+  {
+    "text": "than what happens as you keep going down",
+    "start": 866.519,
+    "duration": 4.32
+  },
+  {
+    "text": "towards the valley right so that means",
+    "start": 868.68,
+    "duration": 4.32
+  },
+  {
+    "text": "initially your gradients were small",
+    "start": 870.839,
+    "duration": 5.161
+  },
+  {
+    "text": "right so the guy who is going to be",
+    "start": 873.0,
+    "duration": 4.56
+  },
+  {
+    "text": "behind",
+    "start": 876.0,
+    "duration": 4.44
+  },
+  {
+    "text": "which is U T minus 1 is going to look at",
+    "start": 877.56,
+    "duration": 4.62
+  },
+  {
+    "text": "smaller gradients",
+    "start": 880.44,
+    "duration": 3.899
+  },
+  {
+    "text": "whereas the guy who is ahead is started",
+    "start": 882.18,
+    "duration": 3.659
+  },
+  {
+    "text": "looking at faster gradients higher",
+    "start": 884.339,
+    "duration": 3.12
+  },
+  {
+    "text": "gradients right so that's why what is",
+    "start": 885.839,
+    "duration": 4.081
+  },
+  {
+    "text": "happening is that the magnitude of VT is",
+    "start": 887.459,
+    "duration": 4.56
+  },
+  {
+    "text": "large here and the magnitude of u t is",
+    "start": 889.92,
+    "duration": 4.2
+  },
+  {
+    "text": "small here because UT is still looking",
+    "start": 892.019,
+    "duration": 5.461
+  },
+  {
+    "text": "at the flat history whereas BT is one",
+    "start": 894.12,
+    "duration": 6.12
+  },
+  {
+    "text": "step ahead so it has looked at more uh",
+    "start": 897.48,
+    "duration": 5.099
+  },
+  {
+    "text": "steeper history than What U T minus 1 is",
+    "start": 900.24,
+    "duration": 5.76
+  },
+  {
+    "text": "looking at right therefore V T is larger",
+    "start": 902.579,
+    "duration": 5.88
+  },
+  {
+    "text": "than UT and since we were going in a",
+    "start": 906.0,
+    "duration": 4.32
+  },
+  {
+    "text": "steep Direction all the way around this",
+    "start": 908.459,
+    "duration": 3.721
+  },
+  {
+    "text": "is a favorable situation to have right",
+    "start": 910.32,
+    "duration": 4.56
+  },
+  {
+    "text": "we want VT to be larger than UT so that",
+    "start": 912.18,
+    "duration": 5.219
+  },
+  {
+    "text": "effectively the ratio is small and the",
+    "start": 914.88,
+    "duration": 4.199
+  },
+  {
+    "text": "learning rate is accordingly smaller",
+    "start": 917.399,
+    "duration": 3.361
+  },
+  {
+    "text": "right so that's exactly what we wanted",
+    "start": 919.079,
+    "duration": 4.021
+  },
+  {
+    "text": "and that is what is happening now I can",
+    "start": 920.76,
+    "duration": 4.74
+  },
+  {
+    "text": "show you uh this more clearly on the",
+    "start": 923.1,
+    "duration": 4.88
+  },
+  {
+    "text": "next slide",
+    "start": 925.5,
+    "duration": 2.48
+  },
+  {
+    "text": "where uh if you look at the learning",
+    "start": 928.8,
+    "duration": 5.58
+  },
+  {
+    "text": "rates for Ada Delta and RMS prop then",
+    "start": 931.32,
+    "duration": 5.34
+  },
+  {
+    "text": "RMS prop it constantly decreases right",
+    "start": 934.38,
+    "duration": 4.139
+  },
+  {
+    "text": "because it does not have any adaptive",
+    "start": 936.66,
+    "duration": 6.78
+  },
+  {
+    "text": "nature as it uh kind of uh it has to",
+    "start": 938.519,
+    "duration": 7.141
+  },
+  {
+    "text": "keep uh decreasing because it's one over",
+    "start": 943.44,
+    "duration": 5.1
+  },
+  {
+    "text": "the accumulated uh history in this case",
+    "start": 945.66,
+    "duration": 4.979
+  },
+  {
+    "text": "and since the history was always steep",
+    "start": 948.54,
+    "duration": 4.2
+  },
+  {
+    "text": "whereas in other Delta you see some kind",
+    "start": 950.639,
+    "duration": 3.721
+  },
+  {
+    "text": "of adoption happening adaptation",
+    "start": 952.74,
+    "duration": 4.14
+  },
+  {
+    "text": "happening and overall Adar Delta is able",
+    "start": 954.36,
+    "duration": 4.44
+  },
+  {
+    "text": "to converge faster on the plot that we",
+    "start": 956.88,
+    "duration": 4.199
+  },
+  {
+    "text": "had see",
+    "start": 958.8,
+    "duration": 4.94
+  },
+  {
+    "text": "wow",
+    "start": 961.079,
+    "duration": 2.661
+  },
+  {
+    "text": "yeah so let's look at some of these",
+    "start": 964.44,
+    "duration": 3.72
+  },
+  {
+    "text": "values also so here we had set the",
+    "start": 966.24,
+    "duration": 4.5
+  },
+  {
+    "text": "initial learning rate to 0.013 so this",
+    "start": 968.16,
+    "duration": 4.859
+  },
+  {
+    "text": "curve is 0.013 divided by the square",
+    "start": 970.74,
+    "duration": 5.58
+  },
+  {
+    "text": "root of whatever and this both started",
+    "start": 973.019,
+    "duration": 6.361
+  },
+  {
+    "text": "at Point 20 right that's the uh what the",
+    "start": 976.32,
+    "duration": 5.819
+  },
+  {
+    "text": "initial value was but this only",
+    "start": 979.38,
+    "duration": 5.699
+  },
+  {
+    "text": "decreased up to 0.12 and hence it was",
+    "start": 982.139,
+    "duration": 5.88
+  },
+  {
+    "text": "able to kind of converge faster whereas",
+    "start": 985.079,
+    "duration": 8.221
+  },
+  {
+    "text": "this was 0.05 and then it became uh uh",
+    "start": 988.019,
+    "duration": 9.12
+  },
+  {
+    "text": "so it decayed more as compared to what",
+    "start": 993.3,
+    "duration": 6.839
+  },
+  {
+    "text": "Ada Delta DK right so this is what has",
+    "start": 997.139,
+    "duration": 5.481
+  },
+  {
+    "text": "happened here",
+    "start": 1000.139,
+    "duration": 2.481
+  },
+  {
+    "text": "and this is especially important because",
+    "start": 1003.68,
+    "duration": 6.06
+  },
+  {
+    "text": "in the uh flat regions",
+    "start": 1005.3,
+    "duration": 8.459
+  },
+  {
+    "text": "we did see a slight bump in the",
+    "start": 1009.74,
+    "duration": 6.38
+  },
+  {
+    "text": "learning rate right so it's not like",
+    "start": 1013.759,
+    "duration": 4.08
+  },
+  {
+    "text": "monotonically decreasing but in the",
+    "start": 1016.12,
+    "duration": 6.279
+  },
+  {
+    "text": "events it reached a bit closer to the uh",
+    "start": 1017.839,
+    "duration": 7.921
+  },
+  {
+    "text": "I know it's still decreasing only right",
+    "start": 1022.399,
+    "duration": 6.92
+  },
+  {
+    "text": "yeah sorry that's not correct yeah",
+    "start": 1025.76,
+    "duration": 3.559
+  },
+  {
+    "text": "so that's that's how the two decays",
+    "start": 1029.419,
+    "duration": 3.121
+  },
+  {
+    "text": "happened okay",
+    "start": 1031.22,
+    "duration": 2.94
+  },
+  {
+    "text": "so this is what the effective learning",
+    "start": 1032.54,
+    "duration": 3.299
+  },
+  {
+    "text": "rates are looking like and now let's see",
+    "start": 1034.16,
+    "duration": 4.56
+  },
+  {
+    "text": "how the algorithm proceeds",
+    "start": 1035.839,
+    "duration": 5.041
+  },
+  {
+    "text": "so as you can say that ADA Delta has",
+    "start": 1038.72,
+    "duration": 4.619
+  },
+  {
+    "text": "already converged because it was not",
+    "start": 1040.88,
+    "duration": 3.959
+  },
+  {
+    "text": "aggressively decaying the learning rate",
+    "start": 1043.339,
+    "duration": 3.24
+  },
+  {
+    "text": "it had a reasonably High Learning rate",
+    "start": 1044.839,
+    "duration": 4.741
+  },
+  {
+    "text": "which allowed it to converge RMS prop is",
+    "start": 1046.579,
+    "duration": 4.501
+  },
+  {
+    "text": "slowly getting there because it has",
+    "start": 1049.58,
+    "duration": 3.36
+  },
+  {
+    "text": "aggressively decreased the learning rate",
+    "start": 1051.08,
+    "duration": 4.5
+  },
+  {
+    "text": "right and now the maybe the usual",
+    "start": 1052.94,
+    "duration": 4.32
+  },
+  {
+    "text": "problem of oscillations may be there or",
+    "start": 1055.58,
+    "duration": 4.02
+  },
+  {
+    "text": "maybe not I think the figure has ended",
+    "start": 1057.26,
+    "duration": 3.779
+  },
+  {
+    "text": "so I don't know the animation has ended",
+    "start": 1059.6,
+    "duration": 3.18
+  },
+  {
+    "text": "so I don't know but the main thing is",
+    "start": 1061.039,
+    "duration": 3.061
+  },
+  {
+    "text": "the difference between these two plots",
+    "start": 1062.78,
+    "duration": 3.899
+  },
+  {
+    "text": "which is explained by these two products",
+    "start": 1064.1,
+    "duration": 4.079
+  },
+  {
+    "text": "these are the same two plots drawn on",
+    "start": 1066.679,
+    "duration": 3.781
+  },
+  {
+    "text": "the same scale right so now I've drawn",
+    "start": 1068.179,
+    "duration": 3.901
+  },
+  {
+    "text": "both the plots on the same scale here",
+    "start": 1070.46,
+    "duration": 4.26
+  },
+  {
+    "text": "and in the case of R Delta it was not",
+    "start": 1072.08,
+    "duration": 4.32
+  },
+  {
+    "text": "decaying aggressively whereas in this",
+    "start": 1074.72,
+    "duration": 5.54
+  },
+  {
+    "text": "case it was leaking aggressively right",
+    "start": 1076.4,
+    "duration": 3.86
+  },
+  {
+    "text": "okay",
+    "start": 1081.14,
+    "duration": 2.6
+  },
+  {
+    "text": "yeah so that's what we have already gone",
+    "start": 1084.44,
+    "duration": 4.68
+  },
+  {
+    "text": "through now let's put all the algorithms",
+    "start": 1086.72,
+    "duration": 5.22
+  },
+  {
+    "text": "together on one plot and see how they",
+    "start": 1089.12,
+    "duration": 5.22
+  },
+  {
+    "text": "behave so the same loss function same",
+    "start": 1091.94,
+    "duration": 5.22
+  },
+  {
+    "text": "starting point uh and we have these",
+    "start": 1094.34,
+    "duration": 4.68
+  },
+  {
+    "text": "different algorithms right from gradient",
+    "start": 1097.16,
+    "duration": 4.08
+  },
+  {
+    "text": "descent all the way up to Ida Delta and",
+    "start": 1099.02,
+    "duration": 3.659
+  },
+  {
+    "text": "other Delta is the only one which has",
+    "start": 1101.24,
+    "duration": 3.66
+  },
+  {
+    "text": "this adaptive learning rate in the sense",
+    "start": 1102.679,
+    "duration": 3.721
+  },
+  {
+    "text": "of not having an initial learning rate",
+    "start": 1104.9,
+    "duration": 4.7
+  },
+  {
+    "text": "right so let's see",
+    "start": 1106.4,
+    "duration": 3.2
+  },
+  {
+    "text": "and you see the expected behaviors right",
+    "start": 1110.9,
+    "duration": 5.82
+  },
+  {
+    "text": "uh okay let's see let it stabilize and",
+    "start": 1113.9,
+    "duration": 5.72
+  },
+  {
+    "text": "we'll comment on it",
+    "start": 1116.72,
+    "duration": 2.9
+  },
+  {
+    "text": "so you see all of it all the behaviors",
+    "start": 1127.7,
+    "duration": 3.66
+  },
+  {
+    "text": "that we expected the black curve is",
+    "start": 1130.039,
+    "duration": 3.061
+  },
+  {
+    "text": "gradient descent which is slowly moving",
+    "start": 1131.36,
+    "duration": 3.84
+  },
+  {
+    "text": "we know that that's does not have any",
+    "start": 1133.1,
+    "duration": 4.16
+  },
+  {
+    "text": "momentum does not have any adaptation",
+    "start": 1135.2,
+    "duration": 5.339
+  },
+  {
+    "text": "the uh the the momentum and the nestrov",
+    "start": 1137.26,
+    "duration": 5.4
+  },
+  {
+    "text": "have the usual effect of oscillations",
+    "start": 1140.539,
+    "duration": 4.981
+  },
+  {
+    "text": "and next of you can again see slightly",
+    "start": 1142.66,
+    "duration": 4.3
+  },
+  {
+    "text": "better at dealing with the oscillations",
+    "start": 1145.52,
+    "duration": 4.38
+  },
+  {
+    "text": "but all three of them have a problem in",
+    "start": 1146.96,
+    "duration": 6.0
+  },
+  {
+    "text": "moving in the W Direction because W was",
+    "start": 1149.9,
+    "duration": 5.04
+  },
+  {
+    "text": "relatively sparse so they first try to",
+    "start": 1152.96,
+    "duration": 3.42
+  },
+  {
+    "text": "move in the B Direction and then come",
+    "start": 1154.94,
+    "duration": 4.14
+  },
+  {
+    "text": "back whereas other grid RMS prop in Ada",
+    "start": 1156.38,
+    "duration": 4.799
+  },
+  {
+    "text": "Delta they all start moving in W and B",
+    "start": 1159.08,
+    "duration": 4.2
+  },
+  {
+    "text": "Direction and of these other Delta",
+    "start": 1161.179,
+    "duration": 3.901
+  },
+  {
+    "text": "converts the faster because it was able",
+    "start": 1163.28,
+    "duration": 4.44
+  },
+  {
+    "text": "to adjust the learning rate RMS prop as",
+    "start": 1165.08,
+    "duration": 4.44
+  },
+  {
+    "text": "usual had the oscillation problem right",
+    "start": 1167.72,
+    "duration": 3.959
+  },
+  {
+    "text": "so all of these effects you may again",
+    "start": 1169.52,
+    "duration": 4.86
+  },
+  {
+    "text": "wish to watch this a few times uh just",
+    "start": 1171.679,
+    "duration": 4.201
+  },
+  {
+    "text": "play the video when you go to the slides",
+    "start": 1174.38,
+    "duration": 4.56
+  },
+  {
+    "text": "and just make sure you note notice all",
+    "start": 1175.88,
+    "duration": 6.299
+  },
+  {
+    "text": "the behaviors that you are familiar with",
+    "start": 1178.94,
+    "duration": 5.52
+  },
+  {
+    "text": "okay",
+    "start": 1182.179,
+    "duration": 6.201
+  },
+  {
+    "text": "yeah so we'll end this here",
+    "start": 1184.46,
+    "duration": 3.92
+  }
+]

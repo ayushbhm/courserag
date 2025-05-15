@@ -1,0 +1,11 @@
+and two here so this was just the uh I and J right so that's what this one and two.
+are so I was trying to take the derivative of uh a I was trying to take the derivative of.
+a K2 with respect to w k this was the guy right so this was again 2 2 and my.
+the answer which I got was h one two in this case right so this is actually I minus 1.
+and this is J so that's what our formula is going to be right so let me just delete all.
+of this and show you the formula it's going to be uh K minus 1 sorry that was K minus.
+1 so I got H 1 2 so this one is for the previous layer so it's K minus 1.
+and the jth neuron in that layer so G right so that's how I got this answer so we just.
+did that derivative I'm sorry I made some mistakes there but if you go back and look at it I.
+think it should be fine so we got this as the answer so this is the derivative of the loss.
+function with one element of the weight Matrix w k right so if I look at the derivative of the.

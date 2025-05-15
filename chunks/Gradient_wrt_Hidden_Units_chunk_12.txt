@@ -1,0 +1,10 @@
+is M okay now what would that be I have written the expanded formula of a31 and I am taking.
+the derivative with respect to h 2 2 so this will disappear because this does not depend on its 2y.
+H22 this will also disappear this will also disappear so what will remain is w312 into H22 and the derivative.
+of that with respect to H to 2 would just be w312 and what is w312 what are these indices.
+3 is actually equal to I plus 1 okay one is coming from the m and this 2 is coming.
+from the J right so that's why what I get w i plus 1 M J right so this is.
+the mgth entry of the w i plus 1 made by tricks in this case it is the 2 comma.
+2 entry of W3 okay so that's how you should read this so I hope this is clear now we'll.
+move ahead so this we had already computed in the previous lecture and this we just uh proved why this.
+is equal to this way so am I done here not quite yet so let's let's uh spend some more.

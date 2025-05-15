@@ -1,0 +1,8 @@
+foreign [Music] so first let's see people who try to hint that this is perhaps due to better optimization right.
+so what is optimization problem that we're trying to solve this is the problem optimization problem we are trying to.
+reduce the mean squared error so what is the optimization problem that we're trying to solve this is the problem.
+optimization problem we are trying to reduce the mean square error cross into velocity whatever on the training data right.
+uh is it the case that in the absence of unsupervised pre-training this problem itself is hard you cannot really.
+reduce L Theta to zero but now once you do unsupervised pre-training L Theta is able to reduce to zero.
+hence earlier you had poor optimization but now you have better optimization right so let us see this right so.
+the error surface as I said for a deep neural network is highly non-connection it has these many plateaus many.

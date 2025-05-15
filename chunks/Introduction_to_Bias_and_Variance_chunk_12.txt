@@ -1,0 +1,10 @@
+of w 1 and W 9 8 so that is the same as MX plus C so I have the.
+x axis I have the X and I have the y axis and I have just drawn the line which.
+is given by this our equation right and now if I repeat it K times every time I will get.
+a different line and I will keep drawing all those K lines right so that's what I am going to.
+show you in the animation here so every time a new line let's just see what happens here oops um.
+okay so this is okay I'll come back to this animation later let's see yeah so this is what happens.
+so this is what I'm going to do now right so this optimization problem I am going to solve for.
+the simple model which is y equal to W 1 x 1 plus W naught and I am going to.
+do that a k number of times right and every time I solve that optimization problem I get a slightly.
+different value of w and W naught and I will keep plotting those lines okay so I am plotting all.

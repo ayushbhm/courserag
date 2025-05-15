@@ -1,0 +1,11 @@
+function so let's see what will happen in this network for the xor function so when you have the input.
+as 0 0 now when i say 0 0 assume minus 1 minus 1 the xor truth table says that.
+the output should be 0 right now we know that h1 h2 s3 h4 the h1 will take on the.
+value 1 everything else would be 0. so if i look at summation w i hi it will just be.
+w 1 correct right it will be w 1 into h 1 plus w 2 into h 2 and so.
+on so h 2 h 3 h 4 are 0 so the last 3 terms will be 0 and the.
+first term which is w 1 will remain now if the input is 1 0 then for the xor truth.
+table i know that the output should be 1. now my h1 h2 s3 h4 will take on these values.
+and my output would be only w2 because my output is the summation of wi-hi now 3 terms will go.
+to zero there only the w2 into h2 term will remain which will just be w2 because h2 is one.
+that okay now for the next input w3 the next input w4 right now if i go back to my.

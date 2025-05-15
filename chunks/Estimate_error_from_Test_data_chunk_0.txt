@@ -1,0 +1,10 @@
+foreign [Music] data as D which contains M plus n points where you have M ah or other n training.
+points and M test points right or the other way around as we defined on the previous slide now we.
+also know that ah some true function exists such that Y is f of x plus Epsilon what does that.
+mean that Y is is related to x i by some true function f but there is also some noise.
+Epsilon in the relationship right just like in any in relation that you might have some noise so you ideally.
+want Y is equal to f of x but there might be some minor noise and for Simplicity we assume.
+that this noise is zero Center that means it has zero mean and a small variance Sigma square right so.
+that's what we are going to assume and of course we do not know F right if you knew F.
+then there's nothing to do but we don't know f so what we do is we approximate f using F.
+hat and then we estimate the F hat the parameters of f hat using uh the training data which is.

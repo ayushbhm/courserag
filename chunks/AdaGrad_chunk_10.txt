@@ -1,0 +1,8 @@
+whereas ideally you would have wanted something which just directly travels like this which would mean that it is making.
+proportionate movements in both the direction even though the derivatives in the direction of w are small you are still.
+able to somehow jack up the learning rate so that you are able to make proportionate movements there and then.
+reach the Minima faster or at least like a more appropriate root right so that's that's what is going wrong.
+with these algorithms the algorithms that we've seen in the last lecture foreign are moving in the vertical Lexus and.
+then they start moving along the W axis and we know the reason for this we already explained I just.
+explained what the reason was and such sparsity right it is very common in large neural networks right you have.
+thousands of input features and uh you many of them might be sparse right so there's not something like a.

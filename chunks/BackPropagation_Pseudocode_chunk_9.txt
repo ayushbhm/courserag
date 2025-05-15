@@ -1,0 +1,10 @@
+3 2 comma two and so on right I just have a generic formula I'm just doing Matrix operations and.
+I get the derivatives with respect to all the you can say so that is what is the entire back.
+propagation algorithm is coded in just this these many steps at a very small Loop and all of these are.
+Matrix Vector multiplications so we are almost done one last thing that was left was uh the derivatives of the.
+uh the G primes right which I did not covers I I already told you it's easy to do so.
+this is our gz so if it's a logistic function then this is what it is and this is how.
+you can compute G Prime so this is what you will do right so you can again write a function.
+to compute G prime it takes any value as input uh foreign H is equal to G of a right.
+so you just pass that a and you substitute in this formula so you get G Dash right that's all.
+that this says and in fact it can be written even more uh simply it's just G of Z into.

@@ -1,0 +1,9 @@
+like Boolean and Y also belongs to R right so what that means is that both X and Y contain.
+real numbers right and so now let's let's uh look at an example of this right so what do I.
+mean by I want to move towards these problems so I'll take my favorite example which is the example of.
+trying to find whether I'll find oil at a particular location or what is the quantity of oil I can.
+find at that location and that would drive my uh decision on whether I should set up a drilling station.
+there that's a practical problem and I could imagine that such a decision would depend on several Factor right so.
+I'm looking let's imagine I'm looking at a location inside the ocean right and I want to decide whether this.
+is worthwhile investing in setting up a drilling station there which means I want to know the quantity of oil.
+that I can mine from here right and I would May is base my decision on several factors so say.

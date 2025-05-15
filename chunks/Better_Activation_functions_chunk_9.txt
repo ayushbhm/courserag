@@ -1,0 +1,9 @@
+very smaller so in these regions starting from here the gradient is very small and that is a problem in.
+gradient based learning methods because the updates will not be high right so that's where this discussion is headed ah.
+so let's let's try to go there now okay so this is a deep neural network ah and if I.
+have used a sigmoid non-linearity then in some point in this chain rule right suppose I am trying to find.
+the derivative of this weight with respect to the loss function at some point I am going to encounter this.
+in the chain rule I will encounter derivative of H3 with respect to A3 and you can convince yourself right.
+I mean any uh any even if W1 or W2 or W3 if I'm trying to find the derivative of.
+this with respect to the loss function then this guy is sitting in the path so you will encounter that.
+and that is nothing but the sigmoid of the derivative of the sigmoid function with respect to A3 and that.

@@ -1,0 +1,9 @@
+why this is called masked self attention is I'll I'll make these Alphas zero right so whatever Alpha is greater.
+than the current decoded word I will make those zero right so Alpha 2 to Alpha capital T will become.
+0 so these V's will not participate in the computation so S1 would only depend on the representation of go.
+right and in the first case it makes sense right but now as you go deeper at the first case.
+you might think this is just trivial right but now as you go deeper let's understand what will happen right.
+so now suppose you have decoded this much right you have go none and Transformer right so you have these.
+three inputs available to you now you are Computing a represent refined representation Z1 Z2 Z3 all the way up.
+to Z T one right now what will you do when you're Computing Z1 your formula was Alpha into v.
+j j is equal to 1 to Capital T1 but now since you have decoded up till time step 3.

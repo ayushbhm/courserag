@@ -1,0 +1,10 @@
+the valley right you will see that there's a certain fast movement there just make sure you observe that okay.
+see now I'm moving very very slowly very very slowly it's almost I mean I was for a minute worried.
+whether the video is paused right that's how slow the movement is and here I can see it's flat and.
+somehow on the flat region uh the Delta W is small why is that the case we'll see that soon.
+but now let's see what happens right fast right it went very fast that means my updates were very happening.
+were very large in that region where my slope was steep now why is it that the updates are large.
+in the Steep areas and why is it that the updates are small in the gentle areas is what I'll.
+now what we need to see in the next slide okay so that's where we'll go foreign and the video.
+and all is a bit chaotic in terms of the interface okay so now let's see right so what is.
+the derivative the derivative is the change in so I have written change in the function right so it's a.

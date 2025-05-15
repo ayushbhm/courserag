@@ -1,0 +1,10 @@
+raised to the corresponding value divided by the sum of the e raised to all the values right now even.
+if i have a negative value in my original vector e raised to that is still going to be positive.
+right so that's one thing for sure that once i compute the y i's there are going to be no.
+negative values there right the other thing for sure is that the sum of the values is going to be.
+one right so two criteria that we have for probability distributions are satisfied since the sum of the values is.
+1 and every value is going to be greater than 0 that means that each of these values is going.
+to be between 0 and 1 right it cannot be greater than 1 because then the sum cannot be 1.
+because every value is positive and it cannot be negative because it's all e raised to something and even if.
+the original value is negative so e raised to minus 10 is going to be 1 over e raised to.
+10 and this is still going to be a positive value right so i've taken the original computations al that.

@@ -1,0 +1,10 @@
+of w at one go in the previous case you had to compute a new value of w twice once.
+for the temporary look ahead and then one more time when you are updating right in this equation now all.
+this you have income passed into one single equation right so that's why you have Rewritten nag and the reason.
+we're doing this is now based on this set of equations now these are the set of equations that we.
+want to bring to Adam right and that then the update rule for Adam will look quite simpler so this.
+is what the update rule for nadum is so you have the same thing as Adam this is also same.
+as Adam this is also same as Adam this is also same as atom so nothing has changed so far.
+the only thing now you have done is at this step you're doing the look ahead the we are updating.
+basis on the history as well as the current gradient so for a minute let's just ignore this these quantities.
+right so if you ignore these quantities your update rule is simply of WT minus ETA square root of VT.

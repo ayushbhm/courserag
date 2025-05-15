@@ -1,0 +1,9 @@
+do that a k number of times right and every time I solve that optimization problem I get a slightly.
+different value of w and W naught and I will keep plotting those lines okay so I am plotting all.
+those different lines which I get right and here iteration you can think of iteration not as the iteration in.
+the case of gradient descent but this is the kth so now I have repeated the experiment 25 times 27.
+times 28 times 29 times 30 times right so I have repeated the experiment a total of 30 times from.
+0 to 29 and every time I got certain value of w 1 and W naught and I just plotted.
+those ah values right I just plotted those lines okay similarly I can do the same thing I can solve.
+the same equation or I can try to find this minimum except that now my F at X I is.
+going to be that degree 25 polynomial which I show right so that does not change anything I'll just have.

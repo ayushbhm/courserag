@@ -1,0 +1,9 @@
+all of that and then again doing the same in the next iteration so the derivative only gets computed once.
+because that does not change but you just use different learning rates to come up with different updated values and.
+then select the best updated value based on the loss right so that's what you do in line search you.
+have a bunch of learning rates and you don't get married to one learning rate but just try all of.
+them at every stage of course there's a complexity here involved here that you are trying 10 different learning rates.
+then at every step you're kind of computing 10 values so you have to do 10 times uh the work.
+and just in that update equation and then compute the loss again and then select the best one right so.
+that's an additional complexity that you have but as you can imagine this would definitely be good right so in.
+the flat surfaces you might end up choosing the larger learning rates and in the valley regions where already the.

@@ -1,0 +1,9 @@
+thing I want you to notice and I'll just play this again if required is that as Ada grid starts.
+reaching the Minima just observe from now on yeah so it's slowing down quite a bit right and what is.
+happening is that by this time despite the uh smaller derivatives of in the direction of w by this time.
+you have accumulated some history and now this effective learning rate is starting to slow down because it is getting.
+divided by this accumulated history and by that time that history has increased right so as it comes close to.
+the convergence not necessarily goes to conversions after a certain number of iterations when the history is becoming large then.
+adagrad is slowing down it so that's one observation I'm making on this slide and we'll come back to see.
+if we can somehow solve that problem okay so now let's examine this a bit more uh closely yeah so.
+you remember that we are accumulating this history now V 0 is Delta W 0 squared V1 is Delta W.

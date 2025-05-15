@@ -1,0 +1,10 @@
+but actually it hasn't because i have added this i equal to 0 right so what i am saying now.
+is that my sum earlier was w 1 x 1 plus w 2 x 2 plus blah blah blah up.
+to minus theta greater than equal to 0 right that's what this equation was saying now i am starting from.
+w naught right because it's i equal to 0 so i have w naught x naught plus all of this.
+and then the theta is disappeared there is no theta in this equation so what have i done actually all.
+i am saying is that i am going to have an imaginary input x naught which is equal to 1.
+and then another weight w naught which is actually equal to minus theta so if i substitute these values then.
+these two inequalities become the same right if i make w naught as minus theta and x naught as 1.
+and i just get minus theta as the first term of this sum of terms and then uh that these.
+two inequalities that i have here right so as i said this was same and then greater than equal to.

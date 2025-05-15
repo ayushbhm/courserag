@@ -1,0 +1,9 @@
+lines of code corresponding to update because after every data point you will make the update right and similarly for.
+nestro which I'll not show you the code for that I think it's straightforward so now let's look at uh.
+on this slide I think this is written as gradient descent and SGD but this is the momentum based versions.
+of both the stochastic momentum based gradient descent and the vanilla momentum based gradient descent okay so let's see how.
+it goes so you can see that in addition to the oscillations that you have right and this was quite.
+a complex uh surface right because it had some steep slopes remember from the Contour discussion that when you see.
+the lines are very close to each other the slope is a bit Steep and we know that there is.
+a problem in steep slopes so the green curve was going here and there because uh not is the true.
+momentum based gradient descendant so you are taking the derivative or you're taking Computing the gradient from all the points.

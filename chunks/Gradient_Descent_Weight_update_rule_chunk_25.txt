@@ -1,0 +1,10 @@
+slowed down a bit why is it slowing down in certain regions why is it not going fast in other.
+regions is something that we'll figure out but now it has started moving and you can see that the loss.
+is around 0.02 I just run it for 100 iterations I've stopped it now I could keep running it a.
+bit more of the side set to 200 so let me just make it 500 and I can keep running.
+this you can again experiment with this at your own Leisure right so now you can see that it's moving.
+further and it'll keep going patiently it'll keep going but it'll go in the right direction right I'm not worried.
+that it will eventually lease the loss function right even 500 iterations does not seem to be enough in this.
+case uh but if I just land it for a thousand two thousand iterations then it will reach there right.
+but the key thing that you need to at least be happy about right now is that unlike a random.
+gas guess algorithm here you are not making a mistake at any point at every time step your loss is.

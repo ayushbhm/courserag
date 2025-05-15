@@ -1,0 +1,3067 @@
+[
+  {
+    "text": "foreign",
+    "start": 0.299,
+    "duration": 3.0
+  },
+  {
+    "text": "[Music]",
+    "start": 6.62,
+    "duration": 3.739
+  },
+  {
+    "text": "okay so I'll just demonstrate that",
+    "start": 19.32,
+    "duration": 4.26
+  },
+  {
+    "text": "algorithm in a toy setup right now",
+    "start": 21.359,
+    "duration": 3.961
+  },
+  {
+    "text": "whatever we did right so this is a",
+    "start": 23.58,
+    "duration": 3.779
+  },
+  {
+    "text": "function that is given to us and as you",
+    "start": 25.32,
+    "duration": 4.56
+  },
+  {
+    "text": "can see that this function has multiple",
+    "start": 27.359,
+    "duration": 4.561
+  },
+  {
+    "text": "minimally that's one here there's one",
+    "start": 29.88,
+    "duration": 4.08
+  },
+  {
+    "text": "here there's one here",
+    "start": 31.92,
+    "duration": 3.9
+  },
+  {
+    "text": "and I'm just going to try to follow the",
+    "start": 33.96,
+    "duration": 4.8
+  },
+  {
+    "text": "gradient descent rule right which is",
+    "start": 35.82,
+    "duration": 5.88
+  },
+  {
+    "text": "wherever I am currently which is w",
+    "start": 38.76,
+    "duration": 6.479
+  },
+  {
+    "text": "I'm just going to do W minus",
+    "start": 41.7,
+    "duration": 5.519
+  },
+  {
+    "text": "ETA W right so that's my going to be my",
+    "start": 45.239,
+    "duration": 3.601
+  },
+  {
+    "text": "new value so right now I want a value of",
+    "start": 47.219,
+    "duration": 5.461
+  },
+  {
+    "text": "w which is 1.2 okay I have done the",
+    "start": 48.84,
+    "duration": 6.0
+  },
+  {
+    "text": "computation there I have calculated the",
+    "start": 52.68,
+    "duration": 4.559
+  },
+  {
+    "text": "derivative okay so remember that",
+    "start": 54.84,
+    "duration": 5.039
+  },
+  {
+    "text": "derivative of x square for example right",
+    "start": 57.239,
+    "duration": 4.201
+  },
+  {
+    "text": "is 2X",
+    "start": 59.879,
+    "duration": 4.441
+  },
+  {
+    "text": "but now if I compute the uh this value",
+    "start": 61.44,
+    "duration": 6.78
+  },
+  {
+    "text": "at x equal to 1.2 then I get some scalar",
+    "start": 64.32,
+    "duration": 5.04
+  },
+  {
+    "text": "number right so that's what I'm going to",
+    "start": 68.22,
+    "duration": 3.78
+  },
+  {
+    "text": "do here so my w is equal to 1.2 so",
+    "start": 69.36,
+    "duration": 4.56
+  },
+  {
+    "text": "whatever is the derivative in that",
+    "start": 72.0,
+    "duration": 3.54
+  },
+  {
+    "text": "formula I'm going to plug in W equal to",
+    "start": 73.92,
+    "duration": 4.5
+  },
+  {
+    "text": "1.2 and I'm going to get some answer for",
+    "start": 75.54,
+    "duration": 5.16
+  },
+  {
+    "text": "what the derivative is right and then my",
+    "start": 78.42,
+    "duration": 4.199
+  },
+  {
+    "text": "ETA is set to 1 so that will give me",
+    "start": 80.7,
+    "duration": 5.04
+  },
+  {
+    "text": "what n n into derivative should be and",
+    "start": 82.619,
+    "duration": 5.521
+  },
+  {
+    "text": "that value is what I'll uh keep changing",
+    "start": 85.74,
+    "duration": 4.62
+  },
+  {
+    "text": "okay so let's start and I'm not going to",
+    "start": 88.14,
+    "duration": 3.9
+  },
+  {
+    "text": "do this in um",
+    "start": 90.36,
+    "duration": 3.36
+  },
+  {
+    "text": "great detail as you can see this is like",
+    "start": 92.04,
+    "duration": 3.66
+  },
+  {
+    "text": "set up as a game for you to practice and",
+    "start": 93.72,
+    "duration": 4.079
+  },
+  {
+    "text": "try to reach at the Minima so I'll just",
+    "start": 95.7,
+    "duration": 4.44
+  },
+  {
+    "text": "show you a few steps of how to do it so",
+    "start": 97.799,
+    "duration": 4.741
+  },
+  {
+    "text": "now my 1.2 is what my value was I have",
+    "start": 100.14,
+    "duration": 5.339
+  },
+  {
+    "text": "calculated the derivative and that ETA",
+    "start": 102.54,
+    "duration": 5.7
+  },
+  {
+    "text": "into DW turns out to be 0.31 right so",
+    "start": 105.479,
+    "duration": 3.841
+  },
+  {
+    "text": "I'll have to move in the direction",
+    "start": 108.24,
+    "duration": 3.659
+  },
+  {
+    "text": "oppose it to the gradient so I'll do 1.2",
+    "start": 109.32,
+    "duration": 6.24
+  },
+  {
+    "text": "minus 0.31 so I'll just enter that in",
+    "start": 111.899,
+    "duration": 4.86
+  },
+  {
+    "text": "this uh",
+    "start": 115.56,
+    "duration": 5.879
+  },
+  {
+    "text": "box here right so 1.2 minus 0.31 is",
+    "start": 116.759,
+    "duration": 8.101
+  },
+  {
+    "text": "going to be 0.89",
+    "start": 121.439,
+    "duration": 3.421
+  },
+  {
+    "text": "okay",
+    "start": 127.86,
+    "duration": 4.26
+  },
+  {
+    "text": "so this is where I end up right so I",
+    "start": 129.479,
+    "duration": 4.501
+  },
+  {
+    "text": "have moved and looks like I have moved",
+    "start": 132.12,
+    "duration": 4.619
+  },
+  {
+    "text": "in a good direction because I'm headed",
+    "start": 133.98,
+    "duration": 5.82
+  },
+  {
+    "text": "towards one of the Minima right uh so",
+    "start": 136.739,
+    "duration": 7.261
+  },
+  {
+    "text": "zero point uh now uh at this point I",
+    "start": 139.8,
+    "duration": 7.38
+  },
+  {
+    "text": "have 0.89 is my current value I've again",
+    "start": 144.0,
+    "duration": 6.12
+  },
+  {
+    "text": "computed a derivative and my ETA into DW",
+    "start": 147.18,
+    "duration": 6.0
+  },
+  {
+    "text": "is 1.25 so I'm again just going to ah",
+    "start": 150.12,
+    "duration": 7.32
+  },
+  {
+    "text": "0.89 minus 1.25 is what I'm going to do",
+    "start": 153.18,
+    "duration": 8.24
+  },
+  {
+    "text": "and that would be around minus",
+    "start": 157.44,
+    "duration": 6.36
+  },
+  {
+    "text": "0.36 right so",
+    "start": 161.42,
+    "duration": 4.42
+  },
+  {
+    "text": "I'm going just going to set the value as",
+    "start": 163.8,
+    "duration": 3.9
+  },
+  {
+    "text": "minus 0.36",
+    "start": 165.84,
+    "duration": 3.72
+  },
+  {
+    "text": "and this is where I get right so as you",
+    "start": 167.7,
+    "duration": 5.759
+  },
+  {
+    "text": "can see I have moved a bit away right I",
+    "start": 169.56,
+    "duration": 5.399
+  },
+  {
+    "text": "should have I would have liked to end at",
+    "start": 173.459,
+    "duration": 3.481
+  },
+  {
+    "text": "the Minima but now I've gone in the",
+    "start": 174.959,
+    "duration": 4.5
+  },
+  {
+    "text": "opposite direction right and why this is",
+    "start": 176.94,
+    "duration": 5.219
+  },
+  {
+    "text": "happening what could you do to make sure",
+    "start": 179.459,
+    "duration": 4.621
+  },
+  {
+    "text": "that this doesn't happen is something",
+    "start": 182.159,
+    "duration": 3.901
+  },
+  {
+    "text": "for all of us to figure out in the next",
+    "start": 184.08,
+    "duration": 4.32
+  },
+  {
+    "text": "couple of lectures right now just keep",
+    "start": 186.06,
+    "duration": 3.84
+  },
+  {
+    "text": "trying this right I've shown you what to",
+    "start": 188.4,
+    "duration": 3.54
+  },
+  {
+    "text": "do you just follow this and as I said",
+    "start": 189.9,
+    "duration": 3.6
+  },
+  {
+    "text": "it's like a setup as a game you could",
+    "start": 191.94,
+    "duration": 4.2
+  },
+  {
+    "text": "just keep trying this and see right and",
+    "start": 193.5,
+    "duration": 5.76
+  },
+  {
+    "text": "now you can notice it uh so far I was",
+    "start": 196.14,
+    "duration": 5.64
+  },
+  {
+    "text": "moving",
+    "start": 199.26,
+    "duration": 5.6
+  },
+  {
+    "text": "in this direction",
+    "start": 201.78,
+    "duration": 3.08
+  },
+  {
+    "text": "right",
+    "start": 205.739,
+    "duration": 2.541
+  },
+  {
+    "text": "I started here then I went to a point",
+    "start": 211.68,
+    "duration": 5.04
+  },
+  {
+    "text": "here then I went to a point here and now",
+    "start": 214.379,
+    "duration": 4.561
+  },
+  {
+    "text": "it looks like I have to come in the back",
+    "start": 216.72,
+    "duration": 3.659
+  },
+  {
+    "text": "Direction I have to come back and so on",
+    "start": 218.94,
+    "duration": 2.82
+  },
+  {
+    "text": "so you just play with this and you just",
+    "start": 220.379,
+    "duration": 4.14
+  },
+  {
+    "text": "keep following the update Rule and see",
+    "start": 221.76,
+    "duration": 4.86
+  },
+  {
+    "text": "that you'll slowly start moving towards",
+    "start": 224.519,
+    "duration": 4.381
+  },
+  {
+    "text": "the uh one of the minimas that are there",
+    "start": 226.62,
+    "duration": 3.6
+  },
+  {
+    "text": "in this function right and you could",
+    "start": 228.9,
+    "duration": 3.18
+  },
+  {
+    "text": "also initialize the W from a different",
+    "start": 230.22,
+    "duration": 3.42
+  },
+  {
+    "text": "point right you could initialize it from",
+    "start": 232.08,
+    "duration": 3.9
+  },
+  {
+    "text": "say this point here and then you will",
+    "start": 233.64,
+    "duration": 3.78
+  },
+  {
+    "text": "see that it will start going towards",
+    "start": 235.98,
+    "duration": 3.36
+  },
+  {
+    "text": "this Minima if you initialize it to a",
+    "start": 237.42,
+    "duration": 3.899
+  },
+  {
+    "text": "point here it will start going towards",
+    "start": 239.34,
+    "duration": 3.78
+  },
+  {
+    "text": "this Minima right so what I've done is",
+    "start": 241.319,
+    "duration": 3.48
+  },
+  {
+    "text": "I'd initialize it at this point right",
+    "start": 243.12,
+    "duration": 4.319
+  },
+  {
+    "text": "which was on this side of the slope so",
+    "start": 244.799,
+    "duration": 3.961
+  },
+  {
+    "text": "that's why it went there if I had",
+    "start": 247.439,
+    "duration": 4.261
+  },
+  {
+    "text": "initialize it here at this value then it",
+    "start": 248.76,
+    "duration": 4.259
+  },
+  {
+    "text": "would have gone into this minimal so",
+    "start": 251.7,
+    "duration": 3.0
+  },
+  {
+    "text": "just play around with this try different",
+    "start": 253.019,
+    "duration": 3.72
+  },
+  {
+    "text": "values of w and keep following the",
+    "start": 254.7,
+    "duration": 4.68
+  },
+  {
+    "text": "formula and see whether you are able to",
+    "start": 256.739,
+    "duration": 4.68
+  },
+  {
+    "text": "reach the Minima I'm sure you will not",
+    "start": 259.38,
+    "duration": 4.5
+  },
+  {
+    "text": "be easily able to reach the Minima and",
+    "start": 261.419,
+    "duration": 4.681
+  },
+  {
+    "text": "one of the problems there is that",
+    "start": 263.88,
+    "duration": 4.56
+  },
+  {
+    "text": "ETA is a bit large so it's not helping",
+    "start": 266.1,
+    "duration": 5.94
+  },
+  {
+    "text": "you to control ETA into DW here I wanted",
+    "start": 268.44,
+    "duration": 5.34
+  },
+  {
+    "text": "the ETA to be small which so that I",
+    "start": 272.04,
+    "duration": 3.24
+  },
+  {
+    "text": "could have reached the Minima instead of",
+    "start": 273.78,
+    "duration": 3.24
+  },
+  {
+    "text": "Crossing it I've crossed the minimine",
+    "start": 275.28,
+    "duration": 3.3
+  },
+  {
+    "text": "going in the upper Direction so all of",
+    "start": 277.02,
+    "duration": 2.88
+  },
+  {
+    "text": "this is something that we'll do in",
+    "start": 278.58,
+    "duration": 3.54
+  },
+  {
+    "text": "detailer and at this point I just want",
+    "start": 279.9,
+    "duration": 3.6
+  },
+  {
+    "text": "you to kind of break your heads with",
+    "start": 282.12,
+    "duration": 3.48
+  },
+  {
+    "text": "this and try to understand the problems",
+    "start": 283.5,
+    "duration": 3.96
+  },
+  {
+    "text": "that show up right I don't want you to",
+    "start": 285.6,
+    "duration": 3.78
+  },
+  {
+    "text": "fully understand this nor do I want you",
+    "start": 287.46,
+    "duration": 4.799
+  },
+  {
+    "text": "to get the solution but I just wanted to",
+    "start": 289.38,
+    "duration": 5.34
+  },
+  {
+    "text": "see what kind of problems you face and",
+    "start": 292.259,
+    "duration": 4.621
+  },
+  {
+    "text": "how would you change them I already gave",
+    "start": 294.72,
+    "duration": 5.1
+  },
+  {
+    "text": "you a few hints right that uh you might",
+    "start": 296.88,
+    "duration": 5.64
+  },
+  {
+    "text": "think that oh this is the global Minima",
+    "start": 299.82,
+    "duration": 6.719
+  },
+  {
+    "text": "but I started from some point here 1.2",
+    "start": 302.52,
+    "duration": 5.7
+  },
+  {
+    "text": "and I'm not being able to reach there",
+    "start": 306.539,
+    "duration": 3.66
+  },
+  {
+    "text": "right then what if I had initialized it",
+    "start": 308.22,
+    "duration": 3.419
+  },
+  {
+    "text": "a bit differently would I be able to do",
+    "start": 310.199,
+    "duration": 2.521
+  },
+  {
+    "text": "that so what is the effect of",
+    "start": 311.639,
+    "duration": 3.84
+  },
+  {
+    "text": "initialization what is the effect of ETA",
+    "start": 312.72,
+    "duration": 4.68
+  },
+  {
+    "text": "as you make ETA very large what happens",
+    "start": 315.479,
+    "duration": 3.901
+  },
+  {
+    "text": "if you make ETA very small what happens",
+    "start": 317.4,
+    "duration": 3.9
+  },
+  {
+    "text": "right so just try to experiment with",
+    "start": 319.38,
+    "duration": 4.08
+  },
+  {
+    "text": "those things and just get your hands a",
+    "start": 321.3,
+    "duration": 4.5
+  },
+  {
+    "text": "bit dirty with this okay",
+    "start": 323.46,
+    "duration": 4.92
+  },
+  {
+    "text": "yeah so now we have the gradient descent",
+    "start": 325.8,
+    "duration": 5.1
+  },
+  {
+    "text": "rule that the direction U that we intend",
+    "start": 328.38,
+    "duration": 4.62
+  },
+  {
+    "text": "to move in should be at 180 degrees with",
+    "start": 330.9,
+    "duration": 3.9
+  },
+  {
+    "text": "respect to the gradient in other words",
+    "start": 333.0,
+    "duration": 3.36
+  },
+  {
+    "text": "move in the direction opposite to the",
+    "start": 334.8,
+    "duration": 3.0
+  },
+  {
+    "text": "gradient so this phrase I'm sure you",
+    "start": 336.36,
+    "duration": 3.0
+  },
+  {
+    "text": "have heard a million times but now you",
+    "start": 337.8,
+    "duration": 4.38
+  },
+  {
+    "text": "know where this phrase comes from uh and",
+    "start": 339.36,
+    "duration": 4.38
+  },
+  {
+    "text": "this is what my update would look like",
+    "start": 342.18,
+    "duration": 4.799
+  },
+  {
+    "text": "whatever is my current value of w",
+    "start": 343.74,
+    "duration": 5.28
+  },
+  {
+    "text": "uh sorry whatever is my current value of",
+    "start": 346.979,
+    "duration": 5.581
+  },
+  {
+    "text": "w I just take the gradient or the",
+    "start": 349.02,
+    "duration": 6.179
+  },
+  {
+    "text": "derivative right and then move in the",
+    "start": 352.56,
+    "duration": 4.62
+  },
+  {
+    "text": "direction opposite to that because of",
+    "start": 355.199,
+    "duration": 4.44
+  },
+  {
+    "text": "the minus here and by a small",
+    "start": 357.18,
+    "duration": 4.62
+  },
+  {
+    "text": "conservative step because of ETA and",
+    "start": 359.639,
+    "duration": 3.84
+  },
+  {
+    "text": "this ETA comes from the fact that Taylor",
+    "start": 361.8,
+    "duration": 3.42
+  },
+  {
+    "text": "series works well in a small",
+    "start": 363.479,
+    "duration": 3.901
+  },
+  {
+    "text": "neighborhood hence we are using a small",
+    "start": 365.22,
+    "duration": 5.58
+  },
+  {
+    "text": "ETA there right now",
+    "start": 367.38,
+    "duration": 5.28
+  },
+  {
+    "text": "this year",
+    "start": 370.8,
+    "duration": 3.78
+  },
+  {
+    "text": "if I put it in a vector this is nothing",
+    "start": 372.66,
+    "duration": 5.58
+  },
+  {
+    "text": "but Theta t plus 1 okay maybe not the",
+    "start": 374.58,
+    "duration": 5.58
+  },
+  {
+    "text": "best choice of colors here",
+    "start": 378.24,
+    "duration": 4.38
+  },
+  {
+    "text": "if I put this in a vector",
+    "start": 380.16,
+    "duration": 5.039
+  },
+  {
+    "text": "this is Theta t",
+    "start": 382.62,
+    "duration": 4.799
+  },
+  {
+    "text": "and if I put this quantity in a vector",
+    "start": 385.199,
+    "duration": 4.741
+  },
+  {
+    "text": "then this is the gradient",
+    "start": 387.419,
+    "duration": 4.801
+  },
+  {
+    "text": "of the loss function",
+    "start": 389.94,
+    "duration": 4.02
+  },
+  {
+    "text": "with respect to",
+    "start": 392.22,
+    "duration": 5.759
+  },
+  {
+    "text": "Theta right okay at time step T right at",
+    "start": 393.96,
+    "duration": 6.179
+  },
+  {
+    "text": "the time step T right so now let's try",
+    "start": 397.979,
+    "duration": 5.101
+  },
+  {
+    "text": "to again uh clarify the notation so this",
+    "start": 400.139,
+    "duration": 4.141
+  },
+  {
+    "text": "are the entire thing I can write in",
+    "start": 403.08,
+    "duration": 2.64
+  },
+  {
+    "text": "Vector form that's what I've just shown",
+    "start": 404.28,
+    "duration": 4.259
+  },
+  {
+    "text": "now some more clarification so what does",
+    "start": 405.72,
+    "duration": 4.919
+  },
+  {
+    "text": "this quantity Delta WT mean right so",
+    "start": 408.539,
+    "duration": 4.141
+  },
+  {
+    "text": "Delta WT is the partial derivative of",
+    "start": 410.639,
+    "duration": 3.96
+  },
+  {
+    "text": "the loss function which is a function of",
+    "start": 412.68,
+    "duration": 4.62
+  },
+  {
+    "text": "two variables W and B with respect to W",
+    "start": 414.599,
+    "duration": 6.66
+  },
+  {
+    "text": "and then evaluated at w is equal to WT",
+    "start": 417.3,
+    "duration": 5.58
+  },
+  {
+    "text": "and B is equal to BT what does that mean",
+    "start": 421.259,
+    "duration": 4.681
+  },
+  {
+    "text": "so now if I have the function is W",
+    "start": 422.88,
+    "duration": 4.98
+  },
+  {
+    "text": "square plus b square",
+    "start": 425.94,
+    "duration": 5.4
+  },
+  {
+    "text": "then the formula would be 2W 2B right",
+    "start": 427.86,
+    "duration": 5.279
+  },
+  {
+    "text": "this is what the formulaic",
+    "start": 431.34,
+    "duration": 3.18
+  },
+  {
+    "text": "representation of the gradient would be",
+    "start": 433.139,
+    "duration": 3.421
+  },
+  {
+    "text": "but now I can evaluate this at the",
+    "start": 434.52,
+    "duration": 3.78
+  },
+  {
+    "text": "current value of my w right so I'll just",
+    "start": 436.56,
+    "duration": 4.259
+  },
+  {
+    "text": "substitute the value of w and if I do",
+    "start": 438.3,
+    "duration": 4.38
+  },
+  {
+    "text": "that then I'll get a two real numbers so",
+    "start": 440.819,
+    "duration": 4.201
+  },
+  {
+    "text": "I'll get a real valued Vector right as",
+    "start": 442.68,
+    "duration": 4.139
+  },
+  {
+    "text": "opposed to a formula I'll get a vector",
+    "start": 445.02,
+    "duration": 3.54
+  },
+  {
+    "text": "so this is always this that you have the",
+    "start": 446.819,
+    "duration": 3.78
+  },
+  {
+    "text": "formula for the derivative then you can",
+    "start": 448.56,
+    "duration": 3.66
+  },
+  {
+    "text": "evaluate the derivative at a specific",
+    "start": 450.599,
+    "duration": 4.681
+  },
+  {
+    "text": "point by putting it those uh points uh",
+    "start": 452.22,
+    "duration": 4.74
+  },
+  {
+    "text": "the that point into the formula so",
+    "start": 455.28,
+    "duration": 4.62
+  },
+  {
+    "text": "that's what I mean by evaluated at w is",
+    "start": 456.96,
+    "duration": 5.1
+  },
+  {
+    "text": "equal to WT right so that's what this",
+    "start": 459.9,
+    "duration": 4.799
+  },
+  {
+    "text": "quantity is signifying that it's the",
+    "start": 462.06,
+    "duration": 5.039
+  },
+  {
+    "text": "partial derivative evaluated at that",
+    "start": 464.699,
+    "duration": 3.84
+  },
+  {
+    "text": "point and that's exactly what we are",
+    "start": 467.099,
+    "duration": 3.241
+  },
+  {
+    "text": "doing in the previous slide we are",
+    "start": 468.539,
+    "duration": 3.6
+  },
+  {
+    "text": "getting a real number at the end which",
+    "start": 470.34,
+    "duration": 3.479
+  },
+  {
+    "text": "we could add and subtract and so on",
+    "start": 472.139,
+    "duration": 3.421
+  },
+  {
+    "text": "right so that's the idea",
+    "start": 473.819,
+    "duration": 3.841
+  },
+  {
+    "text": "yeah so now we have a more principled",
+    "start": 475.56,
+    "duration": 4.02
+  },
+  {
+    "text": "way of moving in the WB plane we are no",
+    "start": 477.66,
+    "duration": 3.78
+  },
+  {
+    "text": "longer doing our guesswork we know that",
+    "start": 479.58,
+    "duration": 3.66
+  },
+  {
+    "text": "if we do we just saw a proof or we",
+    "start": 481.44,
+    "duration": 3.479
+  },
+  {
+    "text": "arrived with the formula mathematically",
+    "start": 483.24,
+    "duration": 3.54
+  },
+  {
+    "text": "that if we keep moving in the direction",
+    "start": 484.919,
+    "duration": 3.661
+  },
+  {
+    "text": "opposite to the gradient we are",
+    "start": 486.78,
+    "duration": 3.479
+  },
+  {
+    "text": "guaranteed that the loss at every step",
+    "start": 488.58,
+    "duration": 3.959
+  },
+  {
+    "text": "will uh decrease not that it will just",
+    "start": 490.259,
+    "duration": 5.641
+  },
+  {
+    "text": "decrease it will also decrease by uh the",
+    "start": 492.539,
+    "duration": 5.521
+  },
+  {
+    "text": "largest amount right now one thing you",
+    "start": 495.9,
+    "duration": 3.18
+  },
+  {
+    "text": "should have noticed on the previous",
+    "start": 498.06,
+    "duration": 4.68
+  },
+  {
+    "text": "slide in my last update actually you",
+    "start": 499.08,
+    "duration": 5.16
+  },
+  {
+    "text": "could go back and check whether the loss",
+    "start": 502.74,
+    "duration": 3.72
+  },
+  {
+    "text": "had increased or not and if the loss had",
+    "start": 504.24,
+    "duration": 3.899
+  },
+  {
+    "text": "increased what could have been the",
+    "start": 506.46,
+    "duration": 3.72
+  },
+  {
+    "text": "reason for that and the answer there is",
+    "start": 508.139,
+    "duration": 3.661
+  },
+  {
+    "text": "that the learning rate or the ETA was",
+    "start": 510.18,
+    "duration": 3.359
+  },
+  {
+    "text": "quite high but all of these are things",
+    "start": 511.8,
+    "duration": 3.179
+  },
+  {
+    "text": "that we'll come back to so don't worry",
+    "start": 513.539,
+    "duration": 2.221
+  },
+  {
+    "text": "about",
+    "start": 514.979,
+    "duration": 2.94
+  },
+  {
+    "text": "okay so this is the algorithm that we",
+    "start": 515.76,
+    "duration": 4.68
+  },
+  {
+    "text": "have created uh we'll start at time step",
+    "start": 517.919,
+    "duration": 4.92
+  },
+  {
+    "text": "0. we'll set up some Max iterations",
+    "start": 520.44,
+    "duration": 5.399
+  },
+  {
+    "text": "we'll initialize W and B randomly and",
+    "start": 522.839,
+    "duration": 4.801
+  },
+  {
+    "text": "well while we are less than the max",
+    "start": 525.839,
+    "duration": 4.261
+  },
+  {
+    "text": "iterations we'll just keep doing this uh",
+    "start": 527.64,
+    "duration": 4.08
+  },
+  {
+    "text": "repeatedly right whatever is the current",
+    "start": 530.1,
+    "duration": 3.96
+  },
+  {
+    "text": "value of w we're just going to get a new",
+    "start": 531.72,
+    "duration": 4.32
+  },
+  {
+    "text": "value of w from that by following the",
+    "start": 534.06,
+    "duration": 4.44
+  },
+  {
+    "text": "gradient descent rule right and we keep",
+    "start": 536.04,
+    "duration": 4.14
+  },
+  {
+    "text": "doing this for the max number of",
+    "start": 538.5,
+    "duration": 5.16
+  },
+  {
+    "text": "iterations and by then uh the we should",
+    "start": 540.18,
+    "duration": 5.64
+  },
+  {
+    "text": "be at a point which is very close to the",
+    "start": 543.66,
+    "duration": 6.239
+  },
+  {
+    "text": "Minima right that's what's the hope is",
+    "start": 545.82,
+    "duration": 7.86
+  },
+  {
+    "text": "okay now uh everything in this algorithm",
+    "start": 549.899,
+    "duration": 5.821
+  },
+  {
+    "text": "is known right I could have actually run",
+    "start": 553.68,
+    "duration": 3.659
+  },
+  {
+    "text": "this algorithm it's just that I don't",
+    "start": 555.72,
+    "duration": 3.72
+  },
+  {
+    "text": "know what is Delta W and Delta B is",
+    "start": 557.339,
+    "duration": 4.381
+  },
+  {
+    "text": "right for so let's see what I've given",
+    "start": 559.44,
+    "duration": 4.2
+  },
+  {
+    "text": "you the definitions of them right but",
+    "start": 561.72,
+    "duration": 3.54
+  },
+  {
+    "text": "what is that formula how do I actually",
+    "start": 563.64,
+    "duration": 4.86
+  },
+  {
+    "text": "compute this the partial derivative of w",
+    "start": 565.26,
+    "duration": 4.68
+  },
+  {
+    "text": "with respect to the loss function",
+    "start": 568.5,
+    "duration": 3.899
+  },
+  {
+    "text": "because I have not even told you very",
+    "start": 569.94,
+    "duration": 4.2
+  },
+  {
+    "text": "clearly what the loss function is in so",
+    "start": 572.399,
+    "duration": 3.12
+  },
+  {
+    "text": "far in the discussion if you're just",
+    "start": 574.14,
+    "duration": 3.3
+  },
+  {
+    "text": "working with a generic function L of w",
+    "start": 575.519,
+    "duration": 4.141
+  },
+  {
+    "text": "so we now need to look at the what the",
+    "start": 577.44,
+    "duration": 4.92
+  },
+  {
+    "text": "actual loss function is right so here's",
+    "start": 579.66,
+    "duration": 4.38
+  },
+  {
+    "text": "coming back to our original example",
+    "start": 582.36,
+    "duration": 4.68
+  },
+  {
+    "text": "where we had two parameters W and B this",
+    "start": 584.04,
+    "duration": 5.4
+  },
+  {
+    "text": "was our function okay and our loss",
+    "start": 587.04,
+    "duration": 4.68
+  },
+  {
+    "text": "function was defined as this right that",
+    "start": 589.44,
+    "duration": 4.2
+  },
+  {
+    "text": "let's assume there is only one point",
+    "start": 591.72,
+    "duration": 4.2
+  },
+  {
+    "text": "there's only one data point so a loss",
+    "start": 593.64,
+    "duration": 4.92
+  },
+  {
+    "text": "function was summed over all the points",
+    "start": 595.92,
+    "duration": 5.28
+  },
+  {
+    "text": "and then take in the average but now I",
+    "start": 598.56,
+    "duration": 4.32
+  },
+  {
+    "text": "assume that there's only one data point",
+    "start": 601.2,
+    "duration": 4.5
+  },
+  {
+    "text": "so there's no summation here and summed",
+    "start": 602.88,
+    "duration": 5.639
+  },
+  {
+    "text": "over what it was the prediction",
+    "start": 605.7,
+    "duration": 5.34
+  },
+  {
+    "text": "minus the true and the square of that",
+    "start": 608.519,
+    "duration": 4.44
+  },
+  {
+    "text": "right so that's what this formula is f",
+    "start": 611.04,
+    "duration": 4.739
+  },
+  {
+    "text": "of x is our approximation Y is the true",
+    "start": 612.959,
+    "duration": 3.961
+  },
+  {
+    "text": "value so I am taking the difference",
+    "start": 615.779,
+    "duration": 2.941
+  },
+  {
+    "text": "between the two and squaring it right",
+    "start": 616.92,
+    "duration": 3.479
+  },
+  {
+    "text": "and there's one by two I've just kept",
+    "start": 618.72,
+    "duration": 5.04
+  },
+  {
+    "text": "for some convenience it does not uh I",
+    "start": 620.399,
+    "duration": 4.921
+  },
+  {
+    "text": "could use any multiple here right it",
+    "start": 623.76,
+    "duration": 3.06
+  },
+  {
+    "text": "does not change because I'm looking for",
+    "start": 625.32,
+    "duration": 3.66
+  },
+  {
+    "text": "the lowest value of the loss whatever is",
+    "start": 626.82,
+    "duration": 4.5
+  },
+  {
+    "text": "the lowest value if I If I multiply all",
+    "start": 628.98,
+    "duration": 5.16
+  },
+  {
+    "text": "values by half that value of w comma B",
+    "start": 631.32,
+    "duration": 4.32
+  },
+  {
+    "text": "which at which I get the lowest value",
+    "start": 634.14,
+    "duration": 3.24
+  },
+  {
+    "text": "does not change right but it just makes",
+    "start": 635.64,
+    "duration": 3.36
+  },
+  {
+    "text": "it a bit convenient for me from a",
+    "start": 637.38,
+    "duration": 3.48
+  },
+  {
+    "text": "mathematical perspective I'll become",
+    "start": 639.0,
+    "duration": 4.019
+  },
+  {
+    "text": "clear why how",
+    "start": 640.86,
+    "duration": 5.34
+  },
+  {
+    "text": "okay so this is uh what our loss",
+    "start": 643.019,
+    "duration": 5.701
+  },
+  {
+    "text": "function is now I come to the definition",
+    "start": 646.2,
+    "duration": 5.22
+  },
+  {
+    "text": "of delta W which was there on the",
+    "start": 648.72,
+    "duration": 4.559
+  },
+  {
+    "text": "previous slide is the partial derivation",
+    "start": 651.42,
+    "duration": 3.359
+  },
+  {
+    "text": "of derivative of the loss function with",
+    "start": 653.279,
+    "duration": 3.961
+  },
+  {
+    "text": "respect to W which is the partial",
+    "start": 654.779,
+    "duration": 4.201
+  },
+  {
+    "text": "derivative of this function with respect",
+    "start": 657.24,
+    "duration": 3.9
+  },
+  {
+    "text": "to W so this is the quantity that I want",
+    "start": 658.98,
+    "duration": 5.4
+  },
+  {
+    "text": "to compute now right uh so this is the",
+    "start": 661.14,
+    "duration": 4.92
+  },
+  {
+    "text": "partial derivative",
+    "start": 664.38,
+    "duration": 4.079
+  },
+  {
+    "text": "now this is easy right so this I can",
+    "start": 666.06,
+    "duration": 5.459
+  },
+  {
+    "text": "just I know that this is a function of w",
+    "start": 668.459,
+    "duration": 4.741
+  },
+  {
+    "text": "comma B right this is my sigmoid",
+    "start": 671.519,
+    "duration": 3.241
+  },
+  {
+    "text": "function which has the parameters W and",
+    "start": 673.2,
+    "duration": 3.96
+  },
+  {
+    "text": "B so this is a function of w and B so",
+    "start": 674.76,
+    "duration": 3.9
+  },
+  {
+    "text": "I'll just take the derivative and then",
+    "start": 677.16,
+    "duration": 3.239
+  },
+  {
+    "text": "push the derivative inside it so this is",
+    "start": 678.66,
+    "duration": 5.94
+  },
+  {
+    "text": "the derivative of uh of fun of the",
+    "start": 680.399,
+    "duration": 6.481
+  },
+  {
+    "text": "square of a function of w so it will",
+    "start": 684.6,
+    "duration": 5.22
+  },
+  {
+    "text": "just be 2 times that function into the",
+    "start": 686.88,
+    "duration": 4.56
+  },
+  {
+    "text": "derivative of the function right you",
+    "start": 689.82,
+    "duration": 3.06
+  },
+  {
+    "text": "just you this chain rule of derivative",
+    "start": 691.44,
+    "duration": 4.019
+  },
+  {
+    "text": "that you know so this is some function",
+    "start": 692.88,
+    "duration": 4.86
+  },
+  {
+    "text": "which depends on W then you have taken",
+    "start": 695.459,
+    "duration": 4.201
+  },
+  {
+    "text": "the square of that function and now you",
+    "start": 697.74,
+    "duration": 3.48
+  },
+  {
+    "text": "are taking the derivative the first",
+    "start": 699.66,
+    "duration": 4.44
+  },
+  {
+    "text": "thing would be 2 times the function and",
+    "start": 701.22,
+    "duration": 4.38
+  },
+  {
+    "text": "then you push the derivative inside so",
+    "start": 704.1,
+    "duration": 3.239
+  },
+  {
+    "text": "you get the derivative of the function",
+    "start": 705.6,
+    "duration": 5.7
+  },
+  {
+    "text": "with respect to W okay now",
+    "start": 707.339,
+    "duration": 5.701
+  },
+  {
+    "text": "this is of course a constant right",
+    "start": 711.3,
+    "duration": 3.06
+  },
+  {
+    "text": "because this is the value True Value",
+    "start": 713.04,
+    "duration": 2.94
+  },
+  {
+    "text": "which is given to us it does not depend",
+    "start": 714.36,
+    "duration": 3.599
+  },
+  {
+    "text": "on wnb I can choose whatever W and B I",
+    "start": 715.98,
+    "duration": 3.96
+  },
+  {
+    "text": "want the True Value will not change so",
+    "start": 717.959,
+    "duration": 3.601
+  },
+  {
+    "text": "that the derivative with respect to that",
+    "start": 719.94,
+    "duration": 3.12
+  },
+  {
+    "text": "will be zero so the only thing that I am",
+    "start": 721.56,
+    "duration": 3.48
+  },
+  {
+    "text": "read is the partial derivative of the",
+    "start": 723.06,
+    "duration": 4.68
+  },
+  {
+    "text": "function with respect to uh uh the W",
+    "start": 725.04,
+    "duration": 4.62
+  },
+  {
+    "text": "right and you can see why I had chosen",
+    "start": 727.74,
+    "duration": 3.839
+  },
+  {
+    "text": "this half here because this half N2 got",
+    "start": 729.66,
+    "duration": 4.38
+  },
+  {
+    "text": "canceled it just makes my life easier",
+    "start": 731.579,
+    "duration": 5.041
+  },
+  {
+    "text": "so and now if I just substitute the",
+    "start": 734.04,
+    "duration": 4.859
+  },
+  {
+    "text": "value of f of x so this is the value and",
+    "start": 736.62,
+    "duration": 3.6
+  },
+  {
+    "text": "this is the derivative that I want to",
+    "start": 738.899,
+    "duration": 2.821
+  },
+  {
+    "text": "compute so let's try to compute right",
+    "start": 740.22,
+    "duration": 3.66
+  },
+  {
+    "text": "right so this is the derivative",
+    "start": 741.72,
+    "duration": 7.14
+  },
+  {
+    "text": "of again of the inverse of a function of",
+    "start": 743.88,
+    "duration": 7.68
+  },
+  {
+    "text": "w right so this is 1 over something",
+    "start": 748.86,
+    "duration": 4.74
+  },
+  {
+    "text": "which is a function of w so the",
+    "start": 751.56,
+    "duration": 4.38
+  },
+  {
+    "text": "derivative would be minus 1 over that",
+    "start": 753.6,
+    "duration": 4.44
+  },
+  {
+    "text": "function square and then the derivative",
+    "start": 755.94,
+    "duration": 4.5
+  },
+  {
+    "text": "pushed inside so derivative of this",
+    "start": 758.04,
+    "duration": 4.62
+  },
+  {
+    "text": "should have been 1 plus that e raised to",
+    "start": 760.44,
+    "duration": 4.56
+  },
+  {
+    "text": "minus W X plus b but 1 is a constant so",
+    "start": 762.66,
+    "duration": 3.96
+  },
+  {
+    "text": "it's anyway is going to the derivative",
+    "start": 765.0,
+    "duration": 3.24
+  },
+  {
+    "text": "will be 0 so I have not written that",
+    "start": 766.62,
+    "duration": 4.2
+  },
+  {
+    "text": "right so now derivative of e raised to",
+    "start": 768.24,
+    "duration": 5.039
+  },
+  {
+    "text": "minus W X plus b so that would be e",
+    "start": 770.82,
+    "duration": 4.62
+  },
+  {
+    "text": "raised to minus W X plus b",
+    "start": 773.279,
+    "duration": 5.761
+  },
+  {
+    "text": "into the derivative of minus W X plus b",
+    "start": 775.44,
+    "duration": 6.12
+  },
+  {
+    "text": "and now again B is a constant so that",
+    "start": 779.04,
+    "duration": 5.22
+  },
+  {
+    "text": "would just give me minus one so oh sorry",
+    "start": 781.56,
+    "duration": 5.64
+  },
+  {
+    "text": "uh minus X sorry derivative of w x with",
+    "start": 784.26,
+    "duration": 5.22
+  },
+  {
+    "text": "respect to W would be minus X so I have",
+    "start": 787.2,
+    "duration": 4.439
+  },
+  {
+    "text": "these two negatives minus 1 and minus X",
+    "start": 789.48,
+    "duration": 4.02
+  },
+  {
+    "text": "so that will become a positive okay so",
+    "start": 791.639,
+    "duration": 5.76
+  },
+  {
+    "text": "this is what I get now what is this",
+    "start": 793.5,
+    "duration": 6.48
+  },
+  {
+    "text": "this is just my original f of x right so",
+    "start": 797.399,
+    "duration": 6.0
+  },
+  {
+    "text": "this is f of x so I can just write f of",
+    "start": 799.98,
+    "duration": 5.52
+  },
+  {
+    "text": "x and you can go back and check this",
+    "start": 803.399,
+    "duration": 4.74
+  },
+  {
+    "text": "this is essentially 1 minus f of x right",
+    "start": 805.5,
+    "duration": 4.68
+  },
+  {
+    "text": "so you can go back and work it out so if",
+    "start": 808.139,
+    "duration": 5.221
+  },
+  {
+    "text": "you just take 1 minus 1 over this",
+    "start": 810.18,
+    "duration": 5.58
+  },
+  {
+    "text": "formula right then you will sorry 1",
+    "start": 813.36,
+    "duration": 4.979
+  },
+  {
+    "text": "minus this formula then you will get",
+    "start": 815.76,
+    "duration": 4.019
+  },
+  {
+    "text": "this right so I can just write it as f",
+    "start": 818.339,
+    "duration": 3.961
+  },
+  {
+    "text": "of x into 1 minus f x right so now I'm",
+    "start": 819.779,
+    "duration": 4.321
+  },
+  {
+    "text": "going to substitute this value back in",
+    "start": 822.3,
+    "duration": 4.2
+  },
+  {
+    "text": "my original equation so this is what I",
+    "start": 824.1,
+    "duration": 4.62
+  },
+  {
+    "text": "get I had this term already from earlier",
+    "start": 826.5,
+    "duration": 6.06
+  },
+  {
+    "text": "and now this entire quantity is this as",
+    "start": 828.72,
+    "duration": 5.58
+  },
+  {
+    "text": "I have just derived right so now I",
+    "start": 832.56,
+    "duration": 4.92
+  },
+  {
+    "text": "exactly know what Delta W looks like and",
+    "start": 834.3,
+    "duration": 5.039
+  },
+  {
+    "text": "now if I give if you give me a value of",
+    "start": 837.48,
+    "duration": 4.26
+  },
+  {
+    "text": "w and B I can substitute that in this",
+    "start": 839.339,
+    "duration": 5.101
+  },
+  {
+    "text": "formula and I can get a real numbered",
+    "start": 841.74,
+    "duration": 4.5
+  },
+  {
+    "text": "value right so I know the formula that I",
+    "start": 844.44,
+    "duration": 4.62
+  },
+  {
+    "text": "was looking for okay so if you have only",
+    "start": 846.24,
+    "duration": 5.279
+  },
+  {
+    "text": "one point then we have the Delta W is",
+    "start": 849.06,
+    "duration": 4.5
+  },
+  {
+    "text": "equal to this if we add more than one",
+    "start": 851.519,
+    "duration": 4.62
+  },
+  {
+    "text": "points then it will just be a sum of all",
+    "start": 853.56,
+    "duration": 4.98
+  },
+  {
+    "text": "those right so this is",
+    "start": 856.139,
+    "duration": 6.06
+  },
+  {
+    "text": "uh the derivative of uh the loss",
+    "start": 858.54,
+    "duration": 6.18
+  },
+  {
+    "text": "function with respect to W when there",
+    "start": 862.199,
+    "duration": 4.561
+  },
+  {
+    "text": "was only one one point right so in that",
+    "start": 864.72,
+    "duration": 8.82
+  },
+  {
+    "text": "case LW itself was uh just f of x",
+    "start": 866.76,
+    "duration": 10.5
+  },
+  {
+    "text": "minus y the whole square right but now",
+    "start": 873.54,
+    "duration": 5.64
+  },
+  {
+    "text": "if I have many points then I'll have a",
+    "start": 877.26,
+    "duration": 4.8
+  },
+  {
+    "text": "summation here and I'll Index this by I",
+    "start": 879.18,
+    "duration": 5.099
+  },
+  {
+    "text": "I'll Index this also by I right so I",
+    "start": 882.06,
+    "duration": 4.019
+  },
+  {
+    "text": "have a summation so I have told you the",
+    "start": 884.279,
+    "duration": 3.541
+  },
+  {
+    "text": "derivative for one term in this",
+    "start": 886.079,
+    "duration": 3.901
+  },
+  {
+    "text": "summation if there are such n terms in",
+    "start": 887.82,
+    "duration": 4.62
+  },
+  {
+    "text": "the summation then the the derivative",
+    "start": 889.98,
+    "duration": 4.08
+  },
+  {
+    "text": "will also get added up right so the",
+    "start": 892.44,
+    "duration": 4.139
+  },
+  {
+    "text": "derivative of a sum is just the sum of",
+    "start": 894.06,
+    "duration": 4.26
+  },
+  {
+    "text": "the derivatives right so that's what is",
+    "start": 896.579,
+    "duration": 3.481
+  },
+  {
+    "text": "happening here so I have just taken the",
+    "start": 898.32,
+    "duration": 3.42
+  },
+  {
+    "text": "sum now so if there are two points I'll",
+    "start": 900.06,
+    "duration": 3.959
+  },
+  {
+    "text": "have this the sum here so I have this",
+    "start": 901.74,
+    "duration": 5.52
+  },
+  {
+    "text": "right now similarly you can compute the",
+    "start": 904.019,
+    "duration": 5.161
+  },
+  {
+    "text": "derivative of B and you can see that all",
+    "start": 907.26,
+    "duration": 4.86
+  },
+  {
+    "text": "of this is same",
+    "start": 909.18,
+    "duration": 5.459
+  },
+  {
+    "text": "the only thing extra here is this x i",
+    "start": 912.12,
+    "duration": 4.2
+  },
+  {
+    "text": "and that is coming from the fact that",
+    "start": 914.639,
+    "duration": 4.44
+  },
+  {
+    "text": "you had W X plus b so when you take the",
+    "start": 916.32,
+    "duration": 5.34
+  },
+  {
+    "text": "derivative with respect to W this x is",
+    "start": 919.079,
+    "duration": 4.021
+  },
+  {
+    "text": "what you get but when you take the",
+    "start": 921.66,
+    "duration": 3.66
+  },
+  {
+    "text": "derivative with respect to B you don't",
+    "start": 923.1,
+    "duration": 4.14
+  },
+  {
+    "text": "get this x that you just get 1 here",
+    "start": 925.32,
+    "duration": 5.4
+  },
+  {
+    "text": "that's why you are having this uh into 1",
+    "start": 927.24,
+    "duration": 5.339
+  },
+  {
+    "text": "here and into X there right so now you",
+    "start": 930.72,
+    "duration": 6.6
+  },
+  {
+    "text": "have the formula for Delta uh for the uh",
+    "start": 932.579,
+    "duration": 6.481
+  },
+  {
+    "text": "partial derivative of the loss function",
+    "start": 937.32,
+    "duration": 3.66
+  },
+  {
+    "text": "with respect to W and the partial",
+    "start": 939.06,
+    "duration": 3.12
+  },
+  {
+    "text": "derivative of the loss function with",
+    "start": 940.98,
+    "duration": 3.06
+  },
+  {
+    "text": "respect to B right so you have both of",
+    "start": 942.18,
+    "duration": 3.839
+  },
+  {
+    "text": "these and now we can construct an",
+    "start": 944.04,
+    "duration": 3.719
+  },
+  {
+    "text": "algorithm out of this okay so let's see",
+    "start": 946.019,
+    "duration": 5.221
+  },
+  {
+    "text": "what that algorithm is so I started off",
+    "start": 947.759,
+    "duration": 6.061
+  },
+  {
+    "text": "wow so this",
+    "start": 951.24,
+    "duration": 4.74
+  },
+  {
+    "text": "I hope you can see it so these were the",
+    "start": 953.82,
+    "duration": 3.36
+  },
+  {
+    "text": "two points given to me these are the",
+    "start": 955.98,
+    "duration": 2.279
+  },
+  {
+    "text": "same two points that we have been",
+    "start": 957.18,
+    "duration": 3.18
+  },
+  {
+    "text": "looking at since the last lecture so x",
+    "start": 958.259,
+    "duration": 4.741
+  },
+  {
+    "text": "equal to 0.5 where the value of the",
+    "start": 960.36,
+    "duration": 4.8
+  },
+  {
+    "text": "function was 2.5 and x equal to 0.2",
+    "start": 963.0,
+    "duration": 4.32
+  },
+  {
+    "text": "where the value of the function was 0.9",
+    "start": 965.16,
+    "duration": 4.739
+  },
+  {
+    "text": "okay now I want to do gradient descent",
+    "start": 967.32,
+    "duration": 5.04
+  },
+  {
+    "text": "to find the right W's and B's so I've",
+    "start": 969.899,
+    "duration": 4.68
+  },
+  {
+    "text": "set W to minus 2 my initialization is",
+    "start": 972.36,
+    "duration": 5.159
+  },
+  {
+    "text": "minus 2 B is also minus 2 I have kept",
+    "start": 974.579,
+    "duration": 5.461
+  },
+  {
+    "text": "ETA is 1 and I have set the max epox as",
+    "start": 977.519,
+    "duration": 4.021
+  },
+  {
+    "text": "1000 right so this is what my",
+    "start": 980.04,
+    "duration": 5.28
+  },
+  {
+    "text": "initializes are now for I in range of",
+    "start": 981.54,
+    "duration": 5.58
+  },
+  {
+    "text": "Max epox that means for thousand",
+    "start": 985.32,
+    "duration": 4.079
+  },
+  {
+    "text": "iterations I have initialized the",
+    "start": 987.12,
+    "duration": 6.12
+  },
+  {
+    "text": "derivatives to zero and for X Y in my",
+    "start": 989.399,
+    "duration": 5.401
+  },
+  {
+    "text": "data points right so all the data points",
+    "start": 993.24,
+    "duration": 3.12
+  },
+  {
+    "text": "and iterate over all the data points",
+    "start": 994.8,
+    "duration": 4.2
+  },
+  {
+    "text": "I'll compute the gradient with respect",
+    "start": 996.36,
+    "duration": 4.32
+  },
+  {
+    "text": "to W or the derivative partial",
+    "start": 999.0,
+    "duration": 4.019
+  },
+  {
+    "text": "derivative with respect to W I'd also",
+    "start": 1000.68,
+    "duration": 3.779
+  },
+  {
+    "text": "compute so let's see now I want to",
+    "start": 1003.019,
+    "duration": 2.88
+  },
+  {
+    "text": "compute the partial derivative with",
+    "start": 1004.459,
+    "duration": 4.021
+  },
+  {
+    "text": "respect to W how will I do that so I",
+    "start": 1005.899,
+    "duration": 6.081
+  },
+  {
+    "text": "have this function uh",
+    "start": 1008.48,
+    "duration": 3.5
+  },
+  {
+    "text": "here and I know how to do this right so",
+    "start": 1012.139,
+    "duration": 4.2
+  },
+  {
+    "text": "I can this is the formula I just",
+    "start": 1014.6,
+    "duration": 4.2
+  },
+  {
+    "text": "computed this on the previous slide f of",
+    "start": 1016.339,
+    "duration": 5.821
+  },
+  {
+    "text": "x minus y into f of x into 1 minus f of",
+    "start": 1018.8,
+    "duration": 6.48
+  },
+  {
+    "text": "x into X right and what is my X here I",
+    "start": 1022.16,
+    "duration": 5.279
+  },
+  {
+    "text": "am looking at the first point here so my",
+    "start": 1025.28,
+    "duration": 3.899
+  },
+  {
+    "text": "X is going to be 0.5 so I can just",
+    "start": 1027.439,
+    "duration": 4.14
+  },
+  {
+    "text": "substitute that here and what is my f of",
+    "start": 1029.179,
+    "duration": 5.16
+  },
+  {
+    "text": "x let's see what f of x is so this is",
+    "start": 1031.579,
+    "duration": 5.1
+  },
+  {
+    "text": "how I'll compute f of x right so f of x",
+    "start": 1034.339,
+    "duration": 4.86
+  },
+  {
+    "text": "is I'll just substitute the value of x",
+    "start": 1036.679,
+    "duration": 4.681
+  },
+  {
+    "text": "in this formula and I'll just substitute",
+    "start": 1039.199,
+    "duration": 4.021
+  },
+  {
+    "text": "the current values of w and B right",
+    "start": 1041.36,
+    "duration": 3.959
+  },
+  {
+    "text": "which are 2. so I can compute this and",
+    "start": 1043.22,
+    "duration": 3.959
+  },
+  {
+    "text": "I'll get some real number and that is",
+    "start": 1045.319,
+    "duration": 3.781
+  },
+  {
+    "text": "what I'll put here right so now I can",
+    "start": 1047.179,
+    "duration": 4.141
+  },
+  {
+    "text": "compute that quantity similarly I can",
+    "start": 1049.1,
+    "duration": 4.02
+  },
+  {
+    "text": "compute the grad of the partial",
+    "start": 1051.32,
+    "duration": 4.14
+  },
+  {
+    "text": "derivative with respect to B again I",
+    "start": 1053.12,
+    "duration": 4.08
+  },
+  {
+    "text": "have a function written for that and the",
+    "start": 1055.46,
+    "duration": 3.839
+  },
+  {
+    "text": "same idea that I want to compute this f",
+    "start": 1057.2,
+    "duration": 3.96
+  },
+  {
+    "text": "of x which I'll compute from this",
+    "start": 1059.299,
+    "duration": 3.781
+  },
+  {
+    "text": "function here by substituting the",
+    "start": 1061.16,
+    "duration": 4.2
+  },
+  {
+    "text": "current values of w b and X that I am",
+    "start": 1063.08,
+    "duration": 5.52
+  },
+  {
+    "text": "dealing with right okay",
+    "start": 1065.36,
+    "duration": 4.92
+  },
+  {
+    "text": "so far so good",
+    "start": 1068.6,
+    "duration": 4.62
+  },
+  {
+    "text": "let me just erase it",
+    "start": 1070.28,
+    "duration": 5.7
+  },
+  {
+    "text": "okay and then I'm going to sum this over",
+    "start": 1073.22,
+    "duration": 5.16
+  },
+  {
+    "text": "all the points right because I visited",
+    "start": 1075.98,
+    "duration": 4.26
+  },
+  {
+    "text": "the first point which was x equal to 0.5",
+    "start": 1078.38,
+    "duration": 4.56
+  },
+  {
+    "text": "and Y is equal to 2.5 then the loop will",
+    "start": 1080.24,
+    "duration": 4.5
+  },
+  {
+    "text": "go to the second point this Loop will go",
+    "start": 1082.94,
+    "duration": 3.84
+  },
+  {
+    "text": "over all points and I'm just collecting",
+    "start": 1084.74,
+    "duration": 4.02
+  },
+  {
+    "text": "all the uh I'm just adding up all the",
+    "start": 1086.78,
+    "duration": 5.1
+  },
+  {
+    "text": "derivatives because as I said the this",
+    "start": 1088.76,
+    "duration": 4.86
+  },
+  {
+    "text": "derivative of a sum is just the sum of",
+    "start": 1091.88,
+    "duration": 3.659
+  },
+  {
+    "text": "the derivatives right once I've computed",
+    "start": 1093.62,
+    "duration": 3.6
+  },
+  {
+    "text": "the derivatives I'm just going to apply",
+    "start": 1095.539,
+    "duration": 3.661
+  },
+  {
+    "text": "the gradient descent formula which is W",
+    "start": 1097.22,
+    "duration": 5.16
+  },
+  {
+    "text": "is equal to W minus ETA into W did the",
+    "start": 1099.2,
+    "duration": 5.94
+  },
+  {
+    "text": "DW and B is equal to B minus ETA into d",
+    "start": 1102.38,
+    "duration": 5.1
+  },
+  {
+    "text": "w DB right so this is I'll just keep",
+    "start": 1105.14,
+    "duration": 4.08
+  },
+  {
+    "text": "doing this in the loop and I'll keep",
+    "start": 1107.48,
+    "duration": 3.6
+  },
+  {
+    "text": "moving along the error surface so this",
+    "start": 1109.22,
+    "duration": 6.319
+  },
+  {
+    "text": "is what my error surface is so I have",
+    "start": 1111.08,
+    "duration": 4.459
+  },
+  {
+    "text": "this is what my error surface looks like",
+    "start": 1119.84,
+    "duration": 4.32
+  },
+  {
+    "text": "and how have I plotted the error surface",
+    "start": 1121.82,
+    "duration": 4.44
+  },
+  {
+    "text": "I have plotted it using something like",
+    "start": 1124.16,
+    "duration": 3.48
+  },
+  {
+    "text": "this right so",
+    "start": 1126.26,
+    "duration": 4.039
+  },
+  {
+    "text": "uh",
+    "start": 1127.64,
+    "duration": 2.659
+  },
+  {
+    "text": "yeah so this is how I plotted for all",
+    "start": 1136.4,
+    "duration": 5.7
+  },
+  {
+    "text": "possible values of w comma B actually",
+    "start": 1139.1,
+    "duration": 5.04
+  },
+  {
+    "text": "I've just computed the error and then I",
+    "start": 1142.1,
+    "duration": 3.66
+  },
+  {
+    "text": "have plotted it right so don't worry too",
+    "start": 1144.14,
+    "duration": 3.419
+  },
+  {
+    "text": "much about what is happening here this",
+    "start": 1145.76,
+    "duration": 3.779
+  },
+  {
+    "text": "is just a formula for computing the loss",
+    "start": 1147.559,
+    "duration": 5.041
+  },
+  {
+    "text": "function which is f of x minus y the",
+    "start": 1149.539,
+    "duration": 4.5
+  },
+  {
+    "text": "whole square right so I've just computed",
+    "start": 1152.6,
+    "duration": 5.04
+  },
+  {
+    "text": "that and I've plotted this uh",
+    "start": 1154.039,
+    "duration": 6.481
+  },
+  {
+    "text": "so now if I just keep changing the",
+    "start": 1157.64,
+    "duration": 4.74
+  },
+  {
+    "text": "values of w and B as shown in this",
+    "start": 1160.52,
+    "duration": 3.42
+  },
+  {
+    "text": "algorithm following the gradient recent",
+    "start": 1162.38,
+    "duration": 4.38
+  },
+  {
+    "text": "rule then no matter where I start from I",
+    "start": 1163.94,
+    "duration": 5.58
+  },
+  {
+    "text": "start moving in a principled way and at",
+    "start": 1166.76,
+    "duration": 4.32
+  },
+  {
+    "text": "every point the loss will just keep",
+    "start": 1169.52,
+    "duration": 3.18
+  },
+  {
+    "text": "decreasing and I'll reach the minimum",
+    "start": 1171.08,
+    "duration": 3.36
+  },
+  {
+    "text": "that is what is going to happen and now",
+    "start": 1172.7,
+    "duration": 3.599
+  },
+  {
+    "text": "let me try to see if I can demonstrate",
+    "start": 1174.44,
+    "duration": 3.599
+  },
+  {
+    "text": "that right I'm just going to go here",
+    "start": 1176.299,
+    "duration": 4.041
+  },
+  {
+    "text": "okay",
+    "start": 1178.039,
+    "duration": 2.301
+  },
+  {
+    "text": "okay so this is what my loss function",
+    "start": 1188.24,
+    "duration": 3.48
+  },
+  {
+    "text": "looks like this is actually the same as",
+    "start": 1190.4,
+    "duration": 2.82
+  },
+  {
+    "text": "the loss on the previous slide just",
+    "start": 1191.72,
+    "duration": 4.44
+  },
+  {
+    "text": "scaled a bit differently and what I know",
+    "start": 1193.22,
+    "duration": 4.74
+  },
+  {
+    "text": "is that I want to reach somewhere here",
+    "start": 1196.16,
+    "duration": 3.48
+  },
+  {
+    "text": "because in this surface it's clear that",
+    "start": 1197.96,
+    "duration": 4.14
+  },
+  {
+    "text": "the error is minimum there but right now",
+    "start": 1199.64,
+    "duration": 4.74
+  },
+  {
+    "text": "I am way far I want to reach somewhere",
+    "start": 1202.1,
+    "duration": 4.74
+  },
+  {
+    "text": "here but I am very far my initialization",
+    "start": 1204.38,
+    "duration": 5.34
+  },
+  {
+    "text": "was randomly done right so now what I'm",
+    "start": 1206.84,
+    "duration": 5.699
+  },
+  {
+    "text": "going to do is",
+    "start": 1209.72,
+    "duration": 5.1
+  },
+  {
+    "text": "I'm going to run this algorithm and you",
+    "start": 1212.539,
+    "duration": 5.88
+  },
+  {
+    "text": "just observe how the things change",
+    "start": 1214.82,
+    "duration": 6.18
+  },
+  {
+    "text": "both on the loss surface you should see",
+    "start": 1218.419,
+    "duration": 4.321
+  },
+  {
+    "text": "that the loss at every step should keep",
+    "start": 1221.0,
+    "duration": 5.039
+  },
+  {
+    "text": "decreasing and the W should keep W comma",
+    "start": 1222.74,
+    "duration": 6.62
+  },
+  {
+    "text": "B the point on the",
+    "start": 1226.039,
+    "duration": 3.321
+  },
+  {
+    "text": "yeah on the W comma B plane right so",
+    "start": 1230.84,
+    "duration": 5.579
+  },
+  {
+    "text": "this here is the W comma B plane so the",
+    "start": 1233.72,
+    "duration": 4.62
+  },
+  {
+    "text": "W comma B plane I should keep moving",
+    "start": 1236.419,
+    "duration": 4.561
+  },
+  {
+    "text": "till I reach this nice optimal value",
+    "start": 1238.34,
+    "duration": 4.74
+  },
+  {
+    "text": "here at which the loss is minimum okay",
+    "start": 1240.98,
+    "duration": 5.78
+  },
+  {
+    "text": "so let's see if I can run this",
+    "start": 1243.08,
+    "duration": 3.68
+  },
+  {
+    "text": "so the algorithm is running it's",
+    "start": 1251.659,
+    "duration": 3.661
+  },
+  {
+    "text": "initially quite slow you can see that",
+    "start": 1253.34,
+    "duration": 4.68
+  },
+  {
+    "text": "the yellow dots are moving right it's",
+    "start": 1255.32,
+    "duration": 4.08
+  },
+  {
+    "text": "slowly slowly moving it has finished",
+    "start": 1258.02,
+    "duration": 3.06
+  },
+  {
+    "text": "some 27 iterations",
+    "start": 1259.4,
+    "duration": 4.1
+  },
+  {
+    "text": "it's the loss is still a bit high it's",
+    "start": 1261.08,
+    "duration": 6.66
+  },
+  {
+    "text": "0.81 as you can see here and it's still",
+    "start": 1263.5,
+    "duration": 6.159
+  },
+  {
+    "text": "running running running but it seems to",
+    "start": 1267.74,
+    "duration": 3.6
+  },
+  {
+    "text": "be going in the right direction at no",
+    "start": 1269.659,
+    "duration": 3.181
+  },
+  {
+    "text": "point am I seeing that the loss is",
+    "start": 1271.34,
+    "duration": 4.98
+  },
+  {
+    "text": "increasing and it keeps going I'll Just",
+    "start": 1272.84,
+    "duration": 6.66
+  },
+  {
+    "text": "Fall Down good the loss has decreased",
+    "start": 1276.32,
+    "duration": 5.7
+  },
+  {
+    "text": "quite a bit and I'm very happy that I'm",
+    "start": 1279.5,
+    "duration": 4.98
+  },
+  {
+    "text": "moving in the right direction again it",
+    "start": 1282.02,
+    "duration": 4.38
+  },
+  {
+    "text": "has slowed down a bit why is it slowing",
+    "start": 1284.48,
+    "duration": 3.78
+  },
+  {
+    "text": "down in certain regions why is it not",
+    "start": 1286.4,
+    "duration": 3.899
+  },
+  {
+    "text": "going fast in other regions is something",
+    "start": 1288.26,
+    "duration": 3.899
+  },
+  {
+    "text": "that we'll figure out but now it has",
+    "start": 1290.299,
+    "duration": 3.481
+  },
+  {
+    "text": "started moving and you can see that the",
+    "start": 1292.159,
+    "duration": 4.741
+  },
+  {
+    "text": "loss is around 0.02 I just run it for",
+    "start": 1293.78,
+    "duration": 5.399
+  },
+  {
+    "text": "100 iterations I've stopped it now I",
+    "start": 1296.9,
+    "duration": 5.82
+  },
+  {
+    "text": "could keep running it a bit more",
+    "start": 1299.179,
+    "duration": 6.061
+  },
+  {
+    "text": "of the side set to 200 so let me just",
+    "start": 1302.72,
+    "duration": 5.4
+  },
+  {
+    "text": "make it 500 and I can keep running this",
+    "start": 1305.24,
+    "duration": 4.98
+  },
+  {
+    "text": "you can again experiment with this at",
+    "start": 1308.12,
+    "duration": 3.72
+  },
+  {
+    "text": "your own Leisure right so now you can",
+    "start": 1310.22,
+    "duration": 4.02
+  },
+  {
+    "text": "see that it's moving further and it'll",
+    "start": 1311.84,
+    "duration": 4.5
+  },
+  {
+    "text": "keep going patiently it'll keep going",
+    "start": 1314.24,
+    "duration": 3.84
+  },
+  {
+    "text": "but it'll go in the right direction",
+    "start": 1316.34,
+    "duration": 3.54
+  },
+  {
+    "text": "right I'm not worried that it will",
+    "start": 1318.08,
+    "duration": 3.66
+  },
+  {
+    "text": "eventually lease the loss function right",
+    "start": 1319.88,
+    "duration": 3.659
+  },
+  {
+    "text": "even 500 iterations does not seem to be",
+    "start": 1321.74,
+    "duration": 4.38
+  },
+  {
+    "text": "enough in this case uh but if I just",
+    "start": 1323.539,
+    "duration": 3.841
+  },
+  {
+    "text": "land it for a thousand two thousand",
+    "start": 1326.12,
+    "duration": 2.82
+  },
+  {
+    "text": "iterations then it will reach there",
+    "start": 1327.38,
+    "duration": 3.6
+  },
+  {
+    "text": "right but the key thing that you need to",
+    "start": 1328.94,
+    "duration": 4.68
+  },
+  {
+    "text": "at least be happy about right now is",
+    "start": 1330.98,
+    "duration": 4.939
+  },
+  {
+    "text": "that unlike a random gas guess algorithm",
+    "start": 1333.62,
+    "duration": 6.419
+  },
+  {
+    "text": "here you are not making a mistake at any",
+    "start": 1335.919,
+    "duration": 6.341
+  },
+  {
+    "text": "point at every time step your loss is",
+    "start": 1340.039,
+    "duration": 3.721
+  },
+  {
+    "text": "definitely decrease right so that's",
+    "start": 1342.26,
+    "duration": 3.419
+  },
+  {
+    "text": "that's what is happening here so this is",
+    "start": 1343.76,
+    "duration": 3.659
+  },
+  {
+    "text": "a demonstration of the gradient descent",
+    "start": 1345.679,
+    "duration": 4.341
+  },
+  {
+    "text": "algorithm on the toy example that we had",
+    "start": 1347.419,
+    "duration": 5.101
+  },
+  {
+    "text": "using the code that I had on the",
+    "start": 1350.02,
+    "duration": 4.72
+  },
+  {
+    "text": "previous slide which was in turn based",
+    "start": 1352.52,
+    "duration": 5.34
+  },
+  {
+    "text": "on the gradient descent update right",
+    "start": 1354.74,
+    "duration": 4.679
+  },
+  {
+    "text": "um",
+    "start": 1357.86,
+    "duration": 3.72
+  },
+  {
+    "text": "so later on in this course we look at",
+    "start": 1359.419,
+    "duration": 3.721
+  },
+  {
+    "text": "gradient descent in much more detail and",
+    "start": 1361.58,
+    "duration": 3.06
+  },
+  {
+    "text": "we look at a lot of its variance right",
+    "start": 1363.14,
+    "duration": 4.14
+  },
+  {
+    "text": "so for now it suffices to know that we",
+    "start": 1364.64,
+    "duration": 4.44
+  },
+  {
+    "text": "have an algorithm for learning the",
+    "start": 1367.28,
+    "duration": 3.24
+  },
+  {
+    "text": "parameters of a sigma material and I've",
+    "start": 1369.08,
+    "duration": 2.82
+  },
+  {
+    "text": "just shown you the algorithm I have",
+    "start": 1370.52,
+    "duration": 4.139
+  },
+  {
+    "text": "shown you the Mac behind it I have shown",
+    "start": 1371.9,
+    "duration": 4.68
+  },
+  {
+    "text": "you the visual interpretation of that",
+    "start": 1374.659,
+    "duration": 3.541
+  },
+  {
+    "text": "and I've also shown you how to code it",
+    "start": 1376.58,
+    "duration": 3.78
+  },
+  {
+    "text": "and then run it so that you move on the",
+    "start": 1378.2,
+    "duration": 4.08
+  },
+  {
+    "text": "loss function in a principle way right",
+    "start": 1380.36,
+    "duration": 4.14
+  },
+  {
+    "text": "so I'll uh",
+    "start": 1382.28,
+    "duration": 5.04
+  },
+  {
+    "text": "end this video here before just telling",
+    "start": 1384.5,
+    "duration": 4.559
+  },
+  {
+    "text": "you quickly where do we head from here",
+    "start": 1387.32,
+    "duration": 3.78
+  },
+  {
+    "text": "right so now the next thing to do",
+    "start": 1389.059,
+    "duration": 4.381
+  },
+  {
+    "text": "we have done this completed this cycle",
+    "start": 1391.1,
+    "duration": 4.079
+  },
+  {
+    "text": "that we introduced sigmoid neuron just",
+    "start": 1393.44,
+    "duration": 4.14
+  },
+  {
+    "text": "as we had introduced perceptron then we",
+    "start": 1395.179,
+    "duration": 4.5
+  },
+  {
+    "text": "introduce the learning algorithm just as",
+    "start": 1397.58,
+    "duration": 3.599
+  },
+  {
+    "text": "we had introduced The perceptron",
+    "start": 1399.679,
+    "duration": 3.601
+  },
+  {
+    "text": "Learning algorithm then we discussed the",
+    "start": 1401.179,
+    "duration": 4.681
+  },
+  {
+    "text": "error and we ran the algorithms in both",
+    "start": 1403.28,
+    "duration": 4.44
+  },
+  {
+    "text": "cases in perceptron as well as in the",
+    "start": 1405.86,
+    "duration": 3.84
+  },
+  {
+    "text": "sigmoid neuron and we saw that the",
+    "start": 1407.72,
+    "duration": 3.6
+  },
+  {
+    "text": "learning algorithm actually learns well",
+    "start": 1409.7,
+    "duration": 2.88
+  },
+  {
+    "text": "and it keeps moving in the right",
+    "start": 1411.32,
+    "duration": 2.88
+  },
+  {
+    "text": "direction so all of that we have seen",
+    "start": 1412.58,
+    "duration": 3.959
+  },
+  {
+    "text": "then in the perceptron case we had moved",
+    "start": 1414.2,
+    "duration": 4.14
+  },
+  {
+    "text": "on to the representation of the power of",
+    "start": 1416.539,
+    "duration": 4.921
+  },
+  {
+    "text": "the perceptron perceptron and now we",
+    "start": 1418.34,
+    "duration": 4.5
+  },
+  {
+    "text": "want to talk about the representation",
+    "start": 1421.46,
+    "duration": 3.18
+  },
+  {
+    "text": "power of the sigmoid neuron right so",
+    "start": 1422.84,
+    "duration": 3.959
+  },
+  {
+    "text": "that's what we are going to do uh next",
+    "start": 1424.64,
+    "duration": 4.86
+  },
+  {
+    "text": "so I'll end this video here and in the",
+    "start": 1426.799,
+    "duration": 4.561
+  },
+  {
+    "text": "next class we'll continue with the",
+    "start": 1429.5,
+    "duration": 5.48
+  },
+  {
+    "text": "representation power of Sig Point here",
+    "start": 1431.36,
+    "duration": 3.62
+  }
+]

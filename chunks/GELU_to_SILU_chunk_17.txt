@@ -1,0 +1,8 @@
+of these unary and binary operators right these are easier to Define there's a limited space of unity operators that.
+I consider a limited space of binary operators that I consider of course there are many possibilities here but if.
+I restrict that search space and then try out all these combinations and then try to see which one gives.
+me the best performance then can I discover better activation functions and this requires some sort of reinforcement learning which.
+is beyond on the scope of this but what you can think right at a Layman level this is how.
+how you could understand it there's a large space of functions right and you uh You observe that these functions.
+are composed of certain operations so can you compose functions in different ways right and then try to see which.
+composition gives you a better way and do this search in an Optimum way using some ideas from RL and.

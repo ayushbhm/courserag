@@ -1,0 +1,10 @@
+terms will disappear right so then you'll just have X1 raised to p and then the pth root of that.
+which will just be X1 so what you get back is just the maximum element that you had in the.
+vector right so that's why LP Norm the L Infinity Norm is just like taking is equivalent to taking the.
+maximum value and that's all we need to do right so that's that's easy to compute there's no numerical instability.
+there right so that's uh that's an interesting result okay so now we understand about LP Norms in general and.
+we understand about L Infinity which is just taking the maximum value right now what is the point that we're.
+trying to make here right so recall the equation of VT this was the equation of VT that we had.
+and this was as we had seen equivalent to doing right uh beta so what if I just expand this.
+right then what we had seen was we are doing uh beta 2 uh raised to at time step T.
+right so T minus 1 into Delta W 0 squared Plus beta 2 into T minus 2 Delta W 1.

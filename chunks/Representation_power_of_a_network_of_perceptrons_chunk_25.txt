@@ -1,0 +1,5 @@
+a network of perceptrons and learn the waves w is in your network such that it will give you perfect.
+separation on the input data right now from here we need to go a bit ahead and see how can.
+we get rid of this exponential number of neurons and then also go a bit ahead and see if we.
+can do something about this linear decision boundary so these are things that we'll deal with in the next lecture.
+thank you.

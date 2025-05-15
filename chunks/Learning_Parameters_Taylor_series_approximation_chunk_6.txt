@@ -1,0 +1,9 @@
+differentiable right so this is a differentiable function that we are dealing with and this differentiable function may have any.
+shape right it could have a shape like this it could have any shape it just smooth and differentiable right.
+and what Taylor series does is it gives us a way of approximating this using polynomials of degree n right.
+and the higher the degree the better the approximation now this part may not be clear right what do I.
+mean by approximate using polynomials of degree N I should have circled n also that part is not clear and.
+we'll fix that right let's try to understand what we mean by that okay so I'll delete some of of.
+this okay so here's a function right so let's assume this is my w I have a single parameter for.
+a use of explanation and this is my loss function right this is L of w suppose okay and what.
+it's saying is that as W increases L seems to increase right so that's that's okay whatever this function is.

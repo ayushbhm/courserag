@@ -1,0 +1,9 @@
+the sum of this quantity that I have shown here okay now now what happens if a feature X2 is.
+passed right so X2 is one of the features so in our oil drilling example it could be salinity pressure.
+temperature Etc in our movie example it could be the director actor and so on right now if one of.
+these features is sparse what does that mean that across all the M training points that I had happen this.
+feature is always in many cases is going to be 0 right in a classic example for this would be.
+if I have data for the past say 1000 Bollywood movies right and if I have one of the features.
+as is actor Amir Khan now Amir Khan acts in very few movies so for these thousand movies maybe there.
+would be four to five movies for which this feature is on and everywhere else this feature would be zero.
+right so that's what a sparse feature looks like and again as you can imagine in real world applications there.

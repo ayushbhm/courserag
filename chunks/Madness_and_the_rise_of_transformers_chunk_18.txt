@@ -1,0 +1,8 @@
+family of models of our cnn which came out and in parallel and image classification we had rest network so.
+2015 all of this is convolutional neural network based models and we also had convolutional neural network based models for.
+object detection right and it continued for a while then in 2017 transformers came in nlp right so that's it's.
+just like slightly you have to look at different timelines here but in 2017 17 is when transformers came and.
+then by 2019 we had transformers enter uh the image classification scene and then they have entered the object detection.
+scene also so now even the image classification object detection uh models uh the state-of-the-art models are based on uh.
+transformers now right and this is kind of again replaced the convolutional neural network based models largely right i mean.
+of course it's not saying that they're completely out but since which have been around since 1980s right so we.

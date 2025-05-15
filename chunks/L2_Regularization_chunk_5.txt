@@ -1,0 +1,9 @@
+you can minimize the loss but I do not want these W values to blow up because if these W.
+values blow up my regularization term will blow up and hence my effective loss would still be high right so.
+I am telling you that here you cannot allow the weights to grow in other words I am just drawing.
+some kind of a boundary here and saying that the more you go out of this boundary right the more.
+uh bigger my W1 and W2 are going to be the more bigger my L2 Norm is going to be.
+of the weights and more bigger this loss term is going to be and hence my effective loss will not.
+be minimized right so now I am saying that you add as many parameters as you want you add more.
+model complexity you have a million parameters a billion parameters but for any given parameter I will not allow you.
+to grow those values a lot because the moment you grow those values a lot then this loss term will.

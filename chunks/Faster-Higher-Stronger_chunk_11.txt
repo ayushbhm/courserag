@@ -1,0 +1,8 @@
+but the statistical machine translation models which were popular at that time uh were almost completely replaced by these recurrent.
+neural networks and lstms right and then in 2017 came by what are known as transformer networks and we'll have.
+a separate section on them later on which then slowly started replacing these rn and lstm it was but it.
+took a couple of years at least for that transition to happen so i think around 2014 to 2019-ish is.
+when this rnns and lstms which were proposed way back in 1990s and 1997 dominated the at least the nlp.
+and speech uh scene uh as far as uh uh deep learning was considered concerned and then they were slowly.
+replaced by transformers right and today we are in the era of transformers and we'll have a separate section discovering.
+uh discussing the history of transformers later all right so i think i'll end this section here where we looked.

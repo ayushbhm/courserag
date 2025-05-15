@@ -1,0 +1,9 @@
+this does not make sense because these are some junk inputs you don't even know right this might just be.
+a special symbol saying empty right you don't know what it is right now right so when you are Computing.
+a refined representation for go right then let me call that as Z1 or rather sorry let me not make.
+those mistakes again right so I'm going to call this as S1 right uh when I'm going to compute a.
+refined representation for S1 I don't so S1 if you remember is going to be summation Alpha over all the.
+VJs where J's go from 1 to T1 right but from V2 to VT I don't trust my inputs because.
+there are some junk inputs right I don't even know what symbols should come there so it does not make.
+sense for me to compute a refined representation using V2 to VT right so what I will do and that's.
+why this is called masked self attention is I'll I'll make these Alphas zero right so whatever Alpha is greater.

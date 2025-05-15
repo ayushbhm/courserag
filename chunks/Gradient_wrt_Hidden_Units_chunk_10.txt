@@ -1,0 +1,10 @@
+the inputs plus the bias Vector right so it was just I took this as the input this red guys.
+as the input which is the entire H2 Vector then multiplied them by the weights which was W3 and then.
+added the biases which was B3 right so that's what this formula is capture now I've just expanded that formula.
+I have taken the case where I have only two units two neurons in the output layer that's why I.
+have only a31 and a32 and I have three neurons in the previous hidden layer that's why I have it's.
+2 1 h 2 2 h 2 3 so this weight Matrix would then be or 2 cross 3 Matrix.
+multiplied by a three cross one vector and the bias is I would have just two biases corresponding to the.
+two output neurons so I have this two biases right so that's how this computation is now let's write down.
+one of of these guys right so a 3 1 is what is that equal to w three one one.
+I'm just going to do the multiplication into H to 1 plus W 3 1 2 into h 2 2.

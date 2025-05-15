@@ -1,0 +1,9 @@
+is important it's a contextual representation is important what is not good is in the interest of doing this contextual.
+computation I'm not being able to do a parallel processing I have to wait every time one word at a.
+time which is significantly which reduces my computational efficiency right because I am just doing things sequentially right so now.
+my wish list would be to be able to do this to get the contextual representation that means when I'm.
+Computing the yellow box for the word movie I want to know what is happening around me I want to.
+take inputs from the other words and right now these inputs are flowing through these hidden represent additions at 0.
+H1 h2h3 so I want that to continue right and of course I'm going bi-directional so it's flowing from both.
+sides so I want that to happen I want to take the inputs from all the surrounding words but I.
+don't want to do this in a sequential manner I want a model which is not recurrent in nature because.

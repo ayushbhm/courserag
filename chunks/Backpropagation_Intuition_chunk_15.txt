@@ -1,0 +1,9 @@
+lot right hence derivative or partial derivatives is a good way of assigning responsibility to the weights for the loss.
+because it tells me if i change this weight a bit how much will the loss change and that's what.
+i want to know right how much is this guy responsible can i change its value a bit and drastically.
+reduce the loss function then let me do that and that is what the partial derivative tells right so from.
+that english discussion that we had of talking to every guy we came to this mathematical uh kind of realization.
+of that which is that you just need to compute the partial derivatives and if you want to compute the.
+partial derivative then just as we had this uh detective work that we did we went and spoke to every.
+layer and then came to the last guy we just have to do the same thing which just gives us.
+the chain rule of property right so this is what we are going to do in the remaining part of.

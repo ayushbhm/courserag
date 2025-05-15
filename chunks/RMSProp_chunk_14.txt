@@ -1,0 +1,9 @@
+say this learning rate becoming constant and then resulting in oscillations so one solution is to set the learning rate.
+initial learning rate appropriately right so this ETA that we have so remember our effective learning rate is ETA divided.
+by that square root of VT so this ETA that we have in the numerator that's the initial learning rate.
+and we could if we set that appropriately then we could solve this oscillation problem right so now for the.
+same example I will show you the case where we had set the learning rate initial learning rate to be.
+0.05 and now if I uh run this algorithm RMS prop you can see that there are no oscillations here.
+right so how does that happen so if you have this ETA set to a right value then in the.
+example that I was giving earlier what could happen is that I was showing that this okay maybe let's do.
+it again so I was saying that it was perhaps oscillating from this point to this point and then back.

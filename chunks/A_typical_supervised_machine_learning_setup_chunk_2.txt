@@ -1,0 +1,9 @@
+separable of course it is not and we had said that a single perceptron cannot deal with this data right.
+or cannot deal with linearly separable not linearly separable data but what do i mean by cannot deal right what.
+would happen if i apply perceptron algorithm suppose i blindly go and say okay i want to just apply the.
+perceptron algorithm here what would it do can you tell me what would happen in this case it'll make errors.
+for some points what's the point of a perceptron algorithm the idea of a perceptron algorithm is that you'll find.
+some separation boundary right now we know that if the data is not linearly separable this it will not converge.
+right because we'll keep toggling some points will be here and there but if i just do okay i'll just.
+do it for some thousand iterations for a fixed k i'll do it so what do you expect would happen.
+at the end it could draw some line right now there many lines possible you could draw this draw this.

@@ -1,0 +1,8 @@
+[Music] hi everyone so welcome to lecture two uh in this lecture we are going to talk about uh different.
+neurons mcculloch pits neuron thresholding logic perceptrons and even look at the learning algorithm for perceptrons and see a small.
+proof on why that algorithm would converge and then we'll end with what we call as multi-layer perceptrons or mlps.
+which you would have popularly heard of and what is the representation power of such mlps right so let's uh.
+start with the first module and we'll start with biological neurons right so why biological neurons right so what we.
+are interested in knowing about is what is known as an artificial neuron which is the most fundamental unit in.
+an artificial neural network right but now why the term artificial neuron right so where does this inspiration come from.
+so the inspiration actually comes from biology so i think you remember when we were talking about history we had.

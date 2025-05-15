@@ -1,0 +1,9 @@
+a warm restart because from uh once you come to the minimum point you quickly jump to the maximum Point.
+again as opposed to the Triangular learning rate where you are gradually increasing gradually decreasing here from the start from.
+a high point come down and then quickly go to the maximum value and then again come down so this.
+is called a warm restart because when you're restarting you're not like gradually restarting but you are starting from a.
+warm point which is a high learning rate and then coming down from there right so this uh warm uh.
+start warm restart is a popular term that you'll hear in many of the modern papers right so this is.
+in Max and Min t uh and the update change after T which is why it is called the bomb.
+resta right and there's also warm start which is quite popular in the uh uh Transformer literature and most of.
+the current literature is on Transformers I mean they're popularly used in many applications so what happens is that in.

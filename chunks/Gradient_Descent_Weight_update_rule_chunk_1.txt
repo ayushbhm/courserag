@@ -1,0 +1,10 @@
+equal to 1.2 so whatever is the derivative in that formula I'm going to plug in W equal to 1.2.
+and I'm going to get some answer for what the derivative is right and then my ETA is set to.
+1 so that will give me what n n into derivative should be and that value is what I'll uh.
+keep changing okay so let's start and I'm not going to do this in um great detail as you can.
+see this is like set up as a game for you to practice and try to reach at the Minima.
+so I'll just show you a few steps of how to do it so now my 1.2 is what my.
+value was I have calculated the derivative and that ETA into DW turns out to be 0.31 right so I'll.
+have to move in the direction oppose it to the gradient so I'll do 1.2 minus 0.31 so I'll just.
+enter that in this uh box here right so 1.2 minus 0.31 is going to be 0.89 okay so this.
+is where I end up right so I have moved and looks like I have moved in a good direction.

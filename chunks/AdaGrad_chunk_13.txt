@@ -1,0 +1,9 @@
+an algorithm at some point right but for now you see the advantage that I'm able to move uh proportionately.
+even though my derivatives are small I have adaptedly changed the learning rate ETA divided by the history of the.
+updates and that is allowing me to do that right so remember my effective learning rate oh is ETA divided.
+by square root of VT plus Epsilon and let me just ignore Epsilon for now so it's divided by the.
+square root of VT and for w this VT is going to be very small because I am not getting.
+large derivatives there hence ETA is getting divided by a very small quantity and if that quantity is less than.
+1 then effectively this learning rate is increasing right and that's what is pushing uh the derivative there right and.
+I'll just explain this in more detail on the next slide foreign but one disadvantage that not disadvantaged but one.
+thing I want you to notice and I'll just play this again if required is that as Ada grid starts.

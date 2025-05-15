@@ -1,0 +1,9 @@
+proof the formal proof uh which is beyond the scope of this lecture you could prove it in with one.
+layer right but uh it doesn't matter whether we had one or two or three i mean just a small.
+number of layers we were able to show that you could up our approximate arbitrary complex functions right and that's.
+the main takeaway that we had and that was the power of the deep uh a network of sigmoid neurons.
+so now we are going to formalize this concept of uh deep layer of sigmoid neurons by uh introducing some.
+notation and a network and then see when you have this deep network how do you learn the weights in.
+that deep network okay so before i begin some references and acknowledgements i learned this from uh from the lectures.
+that hugo larochel has on back propagation way back maybe six seven years back you could still they're still available.
+on the net and you could take a look at them right so with that i start the first module.

@@ -1,0 +1,10 @@
+atomax we did an Adam also uh we did not do AMS grad and we did not do Adam W.
+uh so these are all the things that we have seen so far but there are a few more learning.
+rate schedules that we'll see now which are based on Epoch so one is cyclical epochs or the number of.
+iterations right the other is cosine annealing bomb restart so these three are what we're going to see now right.
+uh so we'll first talk about this cyclical learning rate so uh suppose the loss surface looks like this and.
+for some of you have exposure to uh optimization uh you would know that this loss function is lost surface.
+is what is known as a saddle so what happens in a saddle uh shape loss surface that if I.
+look it from here right then this looks like a Minima right this point here looks like a Minima because.
+it's at the end of the valley right but that's clearly not where I want the algorithm to stop because.
+if I look at it this way then I would could have gone down from here I could have gone.

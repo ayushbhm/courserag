@@ -1,0 +1,10 @@
+right so it's just going to take a weight at some of the edges now you already see the advantage.
+I already have the edges with me right I just got the entire sequence of words so I just looked.
+up the word embeddings so I already have all the edges with me now there is no recurrence here right.
+so I can compute the alpha twos at the same time as alpha 1 at the same time as Alpha.
+3 because now I am not depending on one step to another right I don't need for computing Alpha once.
+I don't need to know rather for computing Alpha threes I don't need to know what happened at time step.
+two right because I am just looking at the contextual representation for this word by taking uh a vote from.
+all the other words in the sentence and I'm only looking at H's I'm not relying on S2 here right.
+so this attention equation unlike the earlier equation which was St minus 1 and H I now this is just.
+h i comma h j right so there is no dependence here I already know all the edges so I.

@@ -1,0 +1,8 @@
+neural network looks like and just do my forward propagation and backward propagation right so I'll compute the loss using.
+forward propagation and then I'll back propagate now when I do back propagation which are the parameters that need to.
+be updated I had n square plus n parameters now if I do backward propagation which are the parameters that.
+I should update yet only the ones which had participated in the computation right so this parameter for example was.
+not there this was because both these nodes were dropped so this parameter was not there this parameter was also.
+not there this parameter was also not there so obviously they did not participate in forward propagation so they will.
+not get updated in backward propagation right that's as simple as that so let's see what that means right so.
+these were the ones which were active so these will get updated these will get updated and these will get.

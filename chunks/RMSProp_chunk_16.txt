@@ -1,0 +1,9 @@
+right I mean you don't really know in this case since it's a toy example we experimented with a few.
+learning rates and we found out that for a particular learning rate it kind of uh stabilizes the point that.
+I'm trying to make here is not that hey you should use RMS prop and then try to set the.
+learning rate appropriately this may work in some examples but in some examples you may not be able to get.
+the right learning rate right the point that I'm trying to make is in fact the opposite that RMS prop.
+is indeed sensitive to the initial learning rate and if you don't set it properly then you could see oscillations.
+despite the other properties of the algorithm which allows for a more smoother DK of the learning rate despite that.
+good property it might still oscillate if the learning rate is not proper right so the main takeaway is that.
+it is sensitive to the learning rate and setting this learning rate to 0.05 and showing you that it converges.

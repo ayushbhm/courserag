@@ -1,0 +1,9 @@
+interested in knowing ah the expected value of F hat x minus f of x the whole square right so.
+this is the mean square error ah indeed so here expectation stands for the mean this is the error this.
+is the square of the error so this is the mean square error so the simply put the square of.
+the difference between the predicted value from R approximation and the True Value and this expectation computed over a large.
+number of samples right that is what we are interested in estimate but of course we cannot estimate this directly.
+right because this requires us to know f of x and we do not know f of x right so.
+how do we compute this because this has a quantity that we do not even know right but we will.
+still be able to estimate this empirically because although we do not know F we do not know the true.
+function f we have been given a lot of training points right where these y's are known so those y's.

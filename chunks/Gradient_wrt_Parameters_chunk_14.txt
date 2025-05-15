@@ -1,0 +1,3 @@
+are done we have done the derivatives of the loss function with respect to the weights and the biases that.
+is what our eventual goal was right now we are going to just recap all of this and try to.
+put this into one algorithm in the next video thank you.

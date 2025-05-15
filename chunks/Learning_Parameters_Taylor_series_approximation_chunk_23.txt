@@ -1,0 +1,10 @@
+bad but they're very good in a small neighborhood around the point right that's the main in the small neighborhood.
+yeah my approximations are quite good right so that's the main thing you need to understand about the Taylor series.
+okay so now let's go ahead uh and see what happens if you have a 2d function right so I.
+had earlier now I was just dealing with L of uh w now what if I have L of w.
+comma B right and in this case instead of w comma B I just have X comma y right for.
+convenience uh those are the two axes that I have taken okay but I just the main point is if.
+you want to move to two variables right so now yeah so this is what the curve looks like okay.
+and let me just delete my annotations yeah so this is what the curve looks like now again if I.
+do a linear approximation as you can see here I'm doing a linear approximation then what I'll get is a.
+line in 2D it would just be a plane right so I've just approximated the function by a plane and.

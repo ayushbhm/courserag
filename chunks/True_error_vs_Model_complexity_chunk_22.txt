@@ -1,0 +1,5 @@
+the model complexity by adding many parameters and many layers and that is going to give you poor generalization ah.
+capability or poor or a higher test error that's why you add regularization so that you control for model complexity.
+now what are these different regularization methods that you can use in the context of dipline learning is something that.
+we'll see in the next lecture thank you so I'll end it here and I'll see you in the next.
+lecture.

@@ -1,0 +1,11 @@
+a much higher range than zero to one right so that's what the constraint that i have and in such.
+cases when your output is going to be a real value right and not just bounded between zero to one.
+then the best thing to use is just use a linear activation function what does that mean so i have.
+done all the computations up to this point right that means up to this white portion right of the green.
+neuron right and that what i get there is a l a l is of course a l 1 a.
+l 2 a l 3 right in this case it's a collection of 3 elements now i'm going to just.
+multiply it by a matrix w o okay and what is the dimension of that w going to be it's.
+again going to be 3 cross 3 right because at the output again i want h right nh is again.
+3 cross 3 right i want 3 values there sorry 3 cross 1 right and which is just the same.
+as y hat 1 y hat 2 y hat 3 right so i want 3 values i have input which.
+is a 3 cross 1 vector so i should multiply it by a 3 cross 3 matrix right so this.

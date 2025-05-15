@@ -1,0 +1,9 @@
+so this attention equation unlike the earlier equation which was St minus 1 and H I now this is just.
+h i comma h j right so there is no dependence here I already know all the edges so I.
+can just compute this all at one go right all of this will become a bit more clear I'm just.
+giving you a trailer of what is coming right so two takeaways from this slide one is that I have.
+H's as the input and I'm going to compute this intermediate representation s and the way I'm going to compute.
+that is by taking a weighted sum of all the edges so this makes sure that my s's are contextual.
+right because they are looking at all the words in the neighborhood and while doing this I'm going to rely.
+on the attention equation this is called self-attention because I'm looking at self this is not earlier when I had.
+attention that was between decoder and encoder now I have attention within the encoder right I'm looking at all the.

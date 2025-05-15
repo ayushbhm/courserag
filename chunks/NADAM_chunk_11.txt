@@ -1,0 +1,10 @@
+i get here I just compute the gradient of that right so I'm doing the liquid in advance and then.
+sending it to the next time step that's the idea that we want to get to is it making sense.
+so this is what we will do right so now we had W1 if you look at W1 minus beta.
+M naught right so this is W1 minus beta M naught which is effectively this so you have what was.
+W1 the way you computed uh W1 was you had started with W naught minus ETA times this lookahead gradient.
+that you had computed and then you did this minus beta M naught right this is what you had done.
+to get the value of uh uh uh so this is what was happening let's say if I do W.
+1 minus beta M naught this is what you will get and this already has this look ahead incorporated into.
+this right which look ahead I was doing here what if I just do the look ahead in the previous.
+iteration itself and when I'm Computing uh W1 what if I just put in this quantity also a over there.

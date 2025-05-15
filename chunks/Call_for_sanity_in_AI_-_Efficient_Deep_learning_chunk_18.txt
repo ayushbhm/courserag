@@ -1,0 +1,9 @@
+lot of this is english centric work and a lot of computers being used for training english models so is.
+it fair that people living in maldives or sudan are paying the environmental price for training these models when similar.
+models are not being produced for their own languages right so then what is the price they are paying for.
+it's a very valid question to think about and again this is a very active area of research not trying.
+people are trying to rethink about hardware itself to make the compute uh much more efficient right uh so that.
+was slightly on a somber note right it was saying as we started off well we spoke about all the.
+successes of deep learning but then we had this somber note on hey we should be responsible fair talk about.
+green ai talk about having sanity in what we are doing just not put out models but also try to.
+explain why they work and so on so i didn't want to end on that somber note so i'll again.

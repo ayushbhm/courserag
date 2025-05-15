@@ -1,0 +1,10 @@
+that's how my or function is right now let me just expand this right so what is this first guy.
+is telling w naught plus w 1 into 0 plus w 2 into 0 should be less than 0 which.
+implies that w naught should be less than 0. similarly the second equation is saying w naught plus w 1.
+into 0 plus w 2 into 1 should be greater than equal to 0 which is just saying that w.
+2 should be greater than equal to minus w naught right similarly the third equation is this is what it.
+implies and similarly this is what the fourth equation implies right so i'll just take a pause for 10 seconds.
+here so that you could just look at the equations and convince yourself that this is indeed the case okay.
+now this is not the equations inequalities so these are the four inequalities given to me right and now i.
+could just look try different values of w one and w two and w naught and try to figure out.
+one combination of w one w two w naught which satisfies these inequalities of course in practice i would not.

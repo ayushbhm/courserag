@@ -1,0 +1,9 @@
+just call them W Feed forward Network and let me call this W1 because it's layer 1 and W2 Layer.
+Two right so the same set of parameters will be used everywhere right so each of these s1s or sis.
+will pass to the same transition and give you the corresponding zi right so that's what I'm going to show.
+with the animation that the same network is essentially being used everywhere right so you get this same output everywhere.
+right so this uh yeah so you have the same network for each position and uh you use this uh.
+as the this is the non-linearity that you're going to uh use right uh so nothing great happening within the.
+feed forward neural network whatever output the multi-headed attention gives it just projects it and then gives you back a.
+final output right so that's all we have done uh with the uh so that's all we are done with.
+the uh encoder layer right so this is one layer of the encoder and now I could stack many such.

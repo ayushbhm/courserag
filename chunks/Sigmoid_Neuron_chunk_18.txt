@@ -1,0 +1,9 @@
+start trending to Infinity rate because Z is what I've defined as double aspects X right so what what would.
+happen as it goes towards Infinity if I substitute the value Infinity here right so it is 1 over 1.
+plus e raised to minus infinity right that would be 1 over 1 plus 1 raised to e raised to.
+1 1 by E raised to Infinity right should become 1 over 1 plus 1 over e raised to Infinity.
+right that's what this would be and this term would become 0 so you'll just have 1 over 1 so.
+that would be one and that's exactly what is happening here as the value of this W transpose X is.
+increasing the function is approaching 1 right and uh what would happen if W transpose X tends to minus infinity.
+this would become 1 over 1 plus infinity right so in that case the denominator would become Infinity so 1.
+over infinity would be 0 and so as I go in this direction so as I go in uh this.

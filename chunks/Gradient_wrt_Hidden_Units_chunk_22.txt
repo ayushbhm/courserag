@@ -1,0 +1,10 @@
+I am dealing with right so I have not done that yet I've only done for the spatial case when.
+uh I is equal to l right the last layer so this part I need to do now so that.
+is what I am going to work on so this is what I said right I don't know how to.
+compute this quantity when I is less than L minus 1 that means I have only done this I have.
+not done these two guys here right so let's see how to compute it and that's going to be again.
+easy so this is what this looks like so I already know how to compute the derivative with respect to.
+each of these guys right now I want the derivative of the loss function with respect to this so again.
+I'm going to do the same thing I'm trying to compute the derivative with respect to one of the elements.
+here here okay and what would that be that would be the derivative of the loss function I've already computed.
+till here so then I can just use that part as it is and then the derivative of H I.

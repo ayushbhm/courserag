@@ -1,0 +1,10 @@
+so that if i only retain things which are greater than one suppose i could have a way of filtering.
+so that i could only retain things which are greater than one then only this part would remain right everything.
+else is either one so this is all one okay and this is all zero right so if i have.
+a thresholding such that i retain everything which is greater than one then i'll get my tower out of it.
+does that make sense right so if i do a thresholding so how will i do that i can again.
+introduce a sigmoid function there with a threshold of 1 so that the output is 0 till it reaches there.
+and then it climbs to one right so if i have a sigmoid function which is a threshold of one.
+or the switch over point set to one then when i take this output right so this is the output.
+of some function right now let me just call it as h now when i take this edge so this.
+is h and i'm going to pass it through another sigmoid okay such that it switches over at one then.

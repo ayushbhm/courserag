@@ -1,0 +1,9 @@
+I'll plug in these weights randomly and now I'll go back to my original training objective which dependent on y.
+hat and f of x right or yeah sorry not y hat Y and f of x right or this.
+is what my objective function was so now I'll train for this objective function and when I'm doing this I.
+will of course update these weights I'll do the full back propagation I'll update these weights I'll update all of.
+these weights right but when I updating these weights remember that I have not randomly initialized them I have started.
+from whatever my best configuration was while doing those individual unsupervised pre-training right so this is what I have done.
+now why does this work what is the implication all of that we will discuss right but we have understood.
+the procedure that we are training one layer at a time it's unsupervised because we are not using the final.
+label once you have done the full unsupervised pre-training we plug in the supervised objective and we train for that.

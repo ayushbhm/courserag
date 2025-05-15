@@ -1,0 +1,9 @@
+plots are intersecting right of course the I could have drawn some more uh this Contours will go on right.
+and similarly I could have expanded this Contours also so there are many places where these two plots will interact.
+intersect right it's not that this is the only uh space a place that they will intersect but this is.
+where my final solution came out for this problem this is the W tilde that I ended up with so.
+w tilde was the optimum point for L tilde where L tilde was L theta plus Omega Theta right and.
+this is L Theta and this is my Omega R Theta okay so that is what is happening here now.
+I want you to look at this plot right so I will now now we want to look at this.
+plot and try to understand how this relates to the geometry and how this relates to the idea that certain.
+weights are actually shrinking what exactly is happening here right I want us to pay attention to all of these.

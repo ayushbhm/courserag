@@ -1,0 +1,10 @@
+you increase and then again restart right so that's what capital t is and so let's see what happens so.
+this is what it looks like right so it you have is you start with a high value and then.
+it keeps decreasing and when it reaches this interval this interval here is 50. so when it reaches the 50.
+and you can substitute these values that you can substitute 50 here and you substitute 50 and substitute here so.
+you if you compute these values right so T mod 50 plus 1 would be T mod sorry 50 mod.
+51 which is going to be uh 50 and then divided by 50 so this quantity will just become 1.
+so we'll have COS of Pi which is going to be a minus 1 or sorry cos of Pi is.
+going to be uh minus 1 and then you have 1 minus 1 so this will become 0 so we'll.
+just have the minimum value here right and that's exactly what is happening here right okay and this is called.
+a warm restart because from uh once you come to the minimum point you quickly jump to the maximum Point.

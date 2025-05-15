@@ -1,0 +1,9 @@
+right and these ratings could be the imdb ratings or the critics rating or the rotten tomatoes rating right now.
+deliberately i have moved to a setup where you have an input which is n-dimensional and now you have an.
+output which is k dimensional which in this case is three dimensional right so just to make sure that you.
+understand that it may not be always the case that we're just trying to predict one value using the same.
+information about the input so just imagine that i have taken a lot of inputs a lot of movies from.
+the past right and for each of these movies i have their input representation which is who was a director.
+actor blah blah and then i also have the output and this output is just three dimensional right i have.
+the imdb rating i have the critics rating and i have the rotten tomatoes it's all three are available to.
+me and now using this input data right so this becomes my x comma y pairs i want to train.

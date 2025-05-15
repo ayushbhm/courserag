@@ -1,0 +1,9 @@
+are you are obtaining for f hat of X right and hence the variance so for the complex models the.
+variance is going to be high right so that's that's what we have observed so in summary informally what have.
+we observed that simple models have high bias low variance complex models have low bias High variance and now there.
+is always a trade-off between the bias and the variance right so now I can't say that let's always choose.
+a complex model because I know that if I choose a complex model I'll have a low bias right which.
+means I'll be able to overfit the training data but I also have a high variance that means that depending.
+on the training data that I had gone my models would be quite different from each other and that's not.
+what I want right because if my models depending on the training data that I've got if my models are.
+largely different from each other then I don't know how they'll perform on a test data so let's let's look.

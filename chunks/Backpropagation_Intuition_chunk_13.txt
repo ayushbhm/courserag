@@ -1,0 +1,9 @@
+lies between the weights and the biases right and this is what i am trying to do right so i.
+was interested in finding the responsibility of this weight right the first weight here but instead of talking to the.
+weight directly i first spoke to the output layer then i spoke to the previous hidden layer then the previous.
+hidden layer and now i am talking to the weights right so i have constructed this chain rule because directly.
+talking to the weight of interest is hard right because i've given you that function remember sine of cosine of.
+e of log of something something a long chain if i directly try to compute the derivative it's harder but.
+instead if i break it down into this chain rule it's easier right so that's what i'm trying to do.
+here you are interested in the law derivative of the loss function with respect to some weight you talk to.
+these intermediate guys find out each of their responsibility and then find using those computations find the responsibility of the.

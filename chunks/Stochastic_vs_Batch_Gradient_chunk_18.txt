@@ -1,0 +1,9 @@
+uh algorithms right which use batch updates they are often quite sensitive to this batch size you know when experimenting.
+with Transformers for example we've often seen that a batch size of thousand versus a batch size of 4000 1024.
+these bat sizes are often in multiples of two or powers of two a batch size of 1024 may give.
+you very different results from a batch size of four zero nine six right and it's common wisdom is that.
+larger batch sizes are better right so that's uh while not of course going to the full training data okay.
+so that's where we are and some things to remember so one Epoch is one pass over the entire data.
+one step is One update to the parameters n is the total number of data points that you have B.
+is the mini batch size right so now in vanilla uh gradient descent which is also called batch gradient descent.
+so number of steps in one Epoch is just one right because after uh in one Epoch you just keep.

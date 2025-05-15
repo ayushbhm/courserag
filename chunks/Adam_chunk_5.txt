@@ -1,0 +1,9 @@
+other algorithms that we have yeah so let me just see again yeah so in this case again Ada Delta.
+reached the conversions fast but atom is also uh reached faster than the other algorithms and RMS prop as usual.
+has the uh convergence problem right so this is not to show that okay Adam is always going to be.
+better than all the other algorithms but I'm just showing how Adam is behaving in this case right and there's.
+a difference between atom and Delta uh atom is more in the line of RMS prop uh with the momentum.
+whereas Adder Delta also and this uh adaptive effective learning rate whereas here you still have the initial learning rate.
+right so you still have ETA here okay yeah so you saw what happens there and it seems to behave.
+uh reasonably um okay so now I had mentioned that this Adam had this bias correction term right so uh.
+the other Concepts in the equations of Adam you already know right you already know what VT does it kind.

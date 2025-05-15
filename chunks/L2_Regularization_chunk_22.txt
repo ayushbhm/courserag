@@ -1,0 +1,10 @@
+I can write it as Q transpose inverse then Lambda plus Alpha inverse and Q inverse and this Q inverse.
+and Q will multiply out and give me I and Q transpose inverse is of course Q because Q is.
+an orthogonal Matrix right so a few things have got simplified for me now so this is where I end.
+up with right and here again I would notice that if Alpha is 0 right then this term disappears I.
+have left with Lambda I inverse into Lambda so that will also disappear that will become I then I am.
+q q transpose into W transpose q q transpose will again become I so I'll just be left with W.
+star which means in the absence of regularization my w or when I said Alpha to 0 my w tilde.
+is equal to W star which is the same as saying that if I do not ah use a regularizer.
+my optimal solution is W Star right so I am just saying this again to make sure that in the.
+steps that we have done we have not made any mistake uh things are still looking meaningful in whatever we.

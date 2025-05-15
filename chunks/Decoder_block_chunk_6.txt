@@ -1,0 +1,8 @@
+you have the encoder inputs coming right those were the E's right so in addition it's of its own inputs.
+which is the self part it also gets inputs from the encoder and helps you have a multi-headed cross attention.
+right cross because this is between the encoder and the decoder hence you have the cross attention layer then the.
+output of the Cross attention layer goes to the feed forward Network right so again I will repeat this as.
+many times as required at every stage you have I should not call it t but say suppose Capital T1.
+right because the number of words in the input may be different for the number of words in the output.
+right in Source language you might have six words in target language you might have eight words to say the.
+same thing so you'll have Capital T1 inputs here again at this point Capital T1 intermediate representations would be computed.

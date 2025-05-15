@@ -1,0 +1,9 @@
+something so that's where MaxOut gets motivated from so this is what Dropout does right so drop out at every.
+time step now you have four neurons in the hidden layer H one one H one two H one three.
+h one four so we'll apply a mask right with probability P so some of these would be on some.
+of these would be off the ones which are off will not participate in the computation so in particular if.
+I am Computing a to 1 only h11 and h14 will participate with the corresponding weights w11 and W one.
+four if I am Computing a22 then again only H 1 1 and H2 h14 will participate with the corresponding.
+weights w21 and W 2 4 right uh and now what would happen uh yeah so now now let's consider.
+a scenario right where uh uh these two outputs a21 a22 have the following relationship they're both greater than zero.
+because I'm taking them greater than zero because it's a relu activation function so I want both of them to.

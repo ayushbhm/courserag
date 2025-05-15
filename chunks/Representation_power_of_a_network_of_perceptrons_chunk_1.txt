@@ -1,0 +1,9 @@
+for this discussion right we'll assume that uh true is equal to plus 1 and false equal to minus 1.
+as opposed to 0 and 1 that we have been using so far right and we'll consider the case of.
+two inputs okay and we'll have four perceptrons so since i'm going to have a network of perceptrons it is.
+clear that i'm going to have more than one perceptron so now i'm going to start with four perceptrons right.
+and each input is connected to all the four perceptrons okay with specific weights and the red weights are minus.
+one and the blue weights are plus one okay why so all that we are not considering right now it's.
+just that you have two inputs four perceptrons every input is connected to every perceptron by specific weights some weights.
+are minus one some weights are plus one right and then the bias or w naught is equal to minus.
+two okay so w naught is minus two so what is the perceptron rule w naught plus the weighted sum.

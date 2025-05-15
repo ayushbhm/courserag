@@ -1,0 +1,2677 @@
+[
+  {
+    "text": "foreign",
+    "start": 0.299,
+    "duration": 3.0
+  },
+  {
+    "text": "[Music]",
+    "start": 6.62,
+    "duration": 14.91
+  },
+  {
+    "text": "neurons gradient descent feed forward",
+    "start": 22.699,
+    "duration": 5.201
+  },
+  {
+    "text": "neural networks and representation power",
+    "start": 25.38,
+    "duration": 4.44
+  },
+  {
+    "text": "of feed forward neural networks right so",
+    "start": 27.9,
+    "duration": 4.62
+  },
+  {
+    "text": "uh before I begin just a quick set of",
+    "start": 29.82,
+    "duration": 6.48
+  },
+  {
+    "text": "acknowledgments so for module 3.4 I have",
+    "start": 32.52,
+    "duration": 5.58
+  },
+  {
+    "text": "borrowed ideas from the videos of Ryan",
+    "start": 36.3,
+    "duration": 4.439
+  },
+  {
+    "text": "Harris on visualizing back propagation",
+    "start": 38.1,
+    "duration": 4.32
+  },
+  {
+    "text": "these are available on YouTube and",
+    "start": 40.739,
+    "duration": 4.201
+  },
+  {
+    "text": "linked on the slide here and for module",
+    "start": 42.42,
+    "duration": 4.44
+  },
+  {
+    "text": "3.4 I have borrowed ideas from this",
+    "start": 44.94,
+    "duration": 3.72
+  },
+  {
+    "text": "excellent book which is set in the see",
+    "start": 46.86,
+    "duration": 4.199
+  },
+  {
+    "text": "in the footer which is again available",
+    "start": 48.66,
+    "duration": 5.7
+  },
+  {
+    "text": "online and I'm sure I've taken ideas and",
+    "start": 51.059,
+    "duration": 5.701
+  },
+  {
+    "text": "been influenced by material elsewhere so",
+    "start": 54.36,
+    "duration": 3.9
+  },
+  {
+    "text": "I apologize if I have failed to",
+    "start": 56.76,
+    "duration": 2.7
+  },
+  {
+    "text": "acknowledge them and if you find",
+    "start": 58.26,
+    "duration": 2.819
+  },
+  {
+    "text": "anything that I should acknowledge",
+    "start": 59.46,
+    "duration": 3.06
+  },
+  {
+    "text": "please let me know I'll add it to the",
+    "start": 61.079,
+    "duration": 2.881
+  },
+  {
+    "text": "slides okay",
+    "start": 62.52,
+    "duration": 4.44
+  },
+  {
+    "text": "so let's start with the first module uh",
+    "start": 63.96,
+    "duration": 5.88
+  },
+  {
+    "text": "which is on sigmoid neurons right so",
+    "start": 66.96,
+    "duration": 5.46
+  },
+  {
+    "text": "where are we right now and what is the",
+    "start": 69.84,
+    "duration": 4.2
+  },
+  {
+    "text": "story ahead they just get that picture",
+    "start": 72.42,
+    "duration": 4.8
+  },
+  {
+    "text": "clear and then we can start uh so",
+    "start": 74.04,
+    "duration": 4.92
+  },
+  {
+    "text": "frankly enough about Boolean functions",
+    "start": 77.22,
+    "duration": 3.6
+  },
+  {
+    "text": "right so the last lecture and entire",
+    "start": 78.96,
+    "duration": 4.199
+  },
+  {
+    "text": "thing was about Boolean functions where",
+    "start": 80.82,
+    "duration": 4.2
+  },
+  {
+    "text": "we were looking at functions Y is equal",
+    "start": 83.159,
+    "duration": 5.521
+  },
+  {
+    "text": "to f of x where both X was Boolean and Y",
+    "start": 85.02,
+    "duration": 4.86
+  },
+  {
+    "text": "was Boolean of course when we were",
+    "start": 88.68,
+    "duration": 3.6
+  },
+  {
+    "text": "looking at perceptrons we said that real",
+    "start": 89.88,
+    "duration": 4.68
+  },
+  {
+    "text": "inputs are allowed but for most of the",
+    "start": 92.28,
+    "duration": 3.9
+  },
+  {
+    "text": "discussion we were focusing only on",
+    "start": 94.56,
+    "duration": 3.419
+  },
+  {
+    "text": "Boolean infosets I want to move away",
+    "start": 96.18,
+    "duration": 3.84
+  },
+  {
+    "text": "from there and where do I want to move",
+    "start": 97.979,
+    "duration": 4.441
+  },
+  {
+    "text": "right so we want to look at arbitrary",
+    "start": 100.02,
+    "duration": 5.7
+  },
+  {
+    "text": "functions of the form Y is equal to f of",
+    "start": 102.42,
+    "duration": 8.699
+  },
+  {
+    "text": "x okay where X belongs to r n instead of",
+    "start": 105.72,
+    "duration": 9.24
+  },
+  {
+    "text": "0 comma 1 or instead of like Boolean and",
+    "start": 111.119,
+    "duration": 6.061
+  },
+  {
+    "text": "Y also belongs to R right so what that",
+    "start": 114.96,
+    "duration": 6.9
+  },
+  {
+    "text": "means is that both X and Y contain real",
+    "start": 117.18,
+    "duration": 7.2
+  },
+  {
+    "text": "numbers right and",
+    "start": 121.86,
+    "duration": 6.599
+  },
+  {
+    "text": "so now let's let's uh look at an example",
+    "start": 124.38,
+    "duration": 5.7
+  },
+  {
+    "text": "of this right so what do I mean by I",
+    "start": 128.459,
+    "duration": 3.601
+  },
+  {
+    "text": "want to move towards these problems so",
+    "start": 130.08,
+    "duration": 3.6
+  },
+  {
+    "text": "I'll take my favorite example which is",
+    "start": 132.06,
+    "duration": 6.06
+  },
+  {
+    "text": "the example of trying to find whether",
+    "start": 133.68,
+    "duration": 7.52
+  },
+  {
+    "text": "I'll find oil at a particular location",
+    "start": 138.12,
+    "duration": 5.58
+  },
+  {
+    "text": "or what is the quantity of oil I can",
+    "start": 141.2,
+    "duration": 4.74
+  },
+  {
+    "text": "find at that location and that would",
+    "start": 143.7,
+    "duration": 7.74
+  },
+  {
+    "text": "drive my uh decision on whether I should",
+    "start": 145.94,
+    "duration": 7.78
+  },
+  {
+    "text": "set up a drilling station there that's a",
+    "start": 151.44,
+    "duration": 4.439
+  },
+  {
+    "text": "practical problem and I could imagine",
+    "start": 153.72,
+    "duration": 3.9
+  },
+  {
+    "text": "that such a decision would depend on",
+    "start": 155.879,
+    "duration": 3.541
+  },
+  {
+    "text": "several Factor right so I'm looking",
+    "start": 157.62,
+    "duration": 3.839
+  },
+  {
+    "text": "let's imagine I'm looking at a location",
+    "start": 159.42,
+    "duration": 4.44
+  },
+  {
+    "text": "inside the ocean right and I want to",
+    "start": 161.459,
+    "duration": 4.441
+  },
+  {
+    "text": "decide whether this is worthwhile",
+    "start": 163.86,
+    "duration": 3.659
+  },
+  {
+    "text": "investing in setting up a drilling",
+    "start": 165.9,
+    "duration": 2.94
+  },
+  {
+    "text": "station there which means I want to know",
+    "start": 167.519,
+    "duration": 2.881
+  },
+  {
+    "text": "the quantity of oil that I can mine from",
+    "start": 168.84,
+    "duration": 3.66
+  },
+  {
+    "text": "here right and I would May is base my",
+    "start": 170.4,
+    "duration": 4.44
+  },
+  {
+    "text": "decision on several factors so say",
+    "start": 172.5,
+    "duration": 6.959
+  },
+  {
+    "text": "salinity could be one right then I could",
+    "start": 174.84,
+    "duration": 7.679
+  },
+  {
+    "text": "look at the density of the water there",
+    "start": 179.459,
+    "duration": 5.341
+  },
+  {
+    "text": "right sorry this pen is not really",
+    "start": 182.519,
+    "duration": 4.22
+  },
+  {
+    "text": "working well",
+    "start": 184.8,
+    "duration": 4.439
+  },
+  {
+    "text": "but I'll just go ahead so salinity",
+    "start": 186.739,
+    "duration": 4.36
+  },
+  {
+    "text": "density you understand what I'm saying",
+    "start": 189.239,
+    "duration": 4.5
+  },
+  {
+    "text": "then maybe I can look at the pressure at",
+    "start": 191.099,
+    "duration": 4.56
+  },
+  {
+    "text": "that location I could look at the",
+    "start": 193.739,
+    "duration": 3.961
+  },
+  {
+    "text": "temperature at that location I could",
+    "start": 195.659,
+    "duration": 4.321
+  },
+  {
+    "text": "look at the Marine diversity at that",
+    "start": 197.7,
+    "duration": 5.94
+  },
+  {
+    "text": "location right so all of these are real",
+    "start": 199.98,
+    "duration": 6.78
+  },
+  {
+    "text": "values so it's all of these belong to R",
+    "start": 203.64,
+    "duration": 7.08
+  },
+  {
+    "text": "all of these are real values and I might",
+    "start": 206.76,
+    "duration": 7.619
+  },
+  {
+    "text": "base my decision on N such different",
+    "start": 210.72,
+    "duration": 5.879
+  },
+  {
+    "text": "factors right and this we have been",
+    "start": 214.379,
+    "duration": 4.201
+  },
+  {
+    "text": "discussing for a while that whenever I",
+    "start": 216.599,
+    "duration": 4.081
+  },
+  {
+    "text": "take decision I consider a lot of inputs",
+    "start": 218.58,
+    "duration": 4.68
+  },
+  {
+    "text": "and now I'm talking about n inputs each",
+    "start": 220.68,
+    "duration": 4.919
+  },
+  {
+    "text": "of them is a real number so this Vector",
+    "start": 223.26,
+    "duration": 4.619
+  },
+  {
+    "text": "that I am looking at here is a vector",
+    "start": 225.599,
+    "duration": 5.22
+  },
+  {
+    "text": "which belongs to RM right so that's the",
+    "start": 227.879,
+    "duration": 5.401
+  },
+  {
+    "text": "idea now so that's what I meant by this",
+    "start": 230.819,
+    "duration": 5.7
+  },
+  {
+    "text": "that X belongs to RN and now what is it",
+    "start": 233.28,
+    "duration": 4.86
+  },
+  {
+    "text": "that I'm trying to predict in this case",
+    "start": 236.519,
+    "duration": 4.261
+  },
+  {
+    "text": "I'm trying to predict a y which again",
+    "start": 238.14,
+    "duration": 5.64
+  },
+  {
+    "text": "belongs to R right so y again belongs to",
+    "start": 240.78,
+    "duration": 5.94
+  },
+  {
+    "text": "R because Y is again a real number I am",
+    "start": 243.78,
+    "duration": 4.8
+  },
+  {
+    "text": "trying to predict the quantity of the",
+    "start": 246.72,
+    "duration": 3.78
+  },
+  {
+    "text": "oil that I can get from that location",
+    "start": 248.58,
+    "duration": 5.1
+  },
+  {
+    "text": "right so this is a real world problem",
+    "start": 250.5,
+    "duration": 5.94
+  },
+  {
+    "text": "and you could think of various such real",
+    "start": 253.68,
+    "duration": 4.5
+  },
+  {
+    "text": "world problems right so another example",
+    "start": 256.44,
+    "duration": 5.22
+  },
+  {
+    "text": "could be if you want to decide what is",
+    "start": 258.18,
+    "duration": 4.62
+  },
+  {
+    "text": "the",
+    "start": 261.66,
+    "duration": 3.479
+  },
+  {
+    "text": "interest rate that you should set for a",
+    "start": 262.8,
+    "duration": 4.86
+  },
+  {
+    "text": "particular customer right as a bank and",
+    "start": 265.139,
+    "duration": 4.981
+  },
+  {
+    "text": "this often depends on the past history",
+    "start": 267.66,
+    "duration": 4.319
+  },
+  {
+    "text": "of the person whether he'll be able to",
+    "start": 270.12,
+    "duration": 4.079
+  },
+  {
+    "text": "pay at a certain rate pay back the",
+    "start": 271.979,
+    "duration": 3.961
+  },
+  {
+    "text": "capital and so on right so you might",
+    "start": 274.199,
+    "duration": 3.78
+  },
+  {
+    "text": "have factors like what is the salary",
+    "start": 275.94,
+    "duration": 4.86
+  },
+  {
+    "text": "what is the family size right what was",
+    "start": 277.979,
+    "duration": 5.041
+  },
+  {
+    "text": "the last loan that that person had taken",
+    "start": 280.8,
+    "duration": 4.2
+  },
+  {
+    "text": "how many years that those loan was",
+    "start": 283.02,
+    "duration": 4.5
+  },
+  {
+    "text": "repaid in what was the interest rate for",
+    "start": 285.0,
+    "duration": 4.56
+  },
+  {
+    "text": "that loan was there any defaults and all",
+    "start": 287.52,
+    "duration": 3.36
+  },
+  {
+    "text": "of these you can see are real numbers",
+    "start": 289.56,
+    "duration": 3.54
+  },
+  {
+    "text": "and then the output is also a real",
+    "start": 290.88,
+    "duration": 3.66
+  },
+  {
+    "text": "number which you want to decide an",
+    "start": 293.1,
+    "duration": 2.819
+  },
+  {
+    "text": "interest rate maybe something between",
+    "start": 294.54,
+    "duration": 3.3
+  },
+  {
+    "text": "say five to twenty percent right that's",
+    "start": 295.919,
+    "duration": 3.301
+  },
+  {
+    "text": "what you want to decide so this is",
+    "start": 297.84,
+    "duration": 3.12
+  },
+  {
+    "text": "another problem right so these are the",
+    "start": 299.22,
+    "duration": 3.3
+  },
+  {
+    "text": "kind of problems that we are interested",
+    "start": 300.96,
+    "duration": 4.079
+  },
+  {
+    "text": "in dealing with where your inputs are",
+    "start": 302.52,
+    "duration": 4.8
+  },
+  {
+    "text": "real numbers and your outputs are also",
+    "start": 305.039,
+    "duration": 4.321
+  },
+  {
+    "text": "real numbers right and we'll take this",
+    "start": 307.32,
+    "duration": 3.9
+  },
+  {
+    "text": "idea further where we'll start later on",
+    "start": 309.36,
+    "duration": 3.96
+  },
+  {
+    "text": "in the course talking about images right",
+    "start": 311.22,
+    "duration": 4.319
+  },
+  {
+    "text": "and even if you look at images what is",
+    "start": 313.32,
+    "duration": 4.26
+  },
+  {
+    "text": "an image if you look at a 100 cross 100",
+    "start": 315.539,
+    "duration": 4.741
+  },
+  {
+    "text": "image these are pixel values which tell",
+    "start": 317.58,
+    "duration": 4.8
+  },
+  {
+    "text": "you some colors right so these are all",
+    "start": 320.28,
+    "duration": 4.68
+  },
+  {
+    "text": "again real numbers and based on these",
+    "start": 322.38,
+    "duration": 3.9
+  },
+  {
+    "text": "real numbers which is a very high",
+    "start": 324.96,
+    "duration": 2.34
+  },
+  {
+    "text": "dimensional Vector because you're",
+    "start": 326.28,
+    "duration": 2.28
+  },
+  {
+    "text": "looking at a hundred cross hundred",
+    "start": 327.3,
+    "duration": 3.6
+  },
+  {
+    "text": "Vector now and I can just flatten it out",
+    "start": 328.56,
+    "duration": 3.78
+  },
+  {
+    "text": "and I'll have 10 000 values which",
+    "start": 330.9,
+    "duration": 3.0
+  },
+  {
+    "text": "correspond to the pixel values right so",
+    "start": 332.34,
+    "duration": 3.72
+  },
+  {
+    "text": "let's assume it's only a gray and white",
+    "start": 333.9,
+    "duration": 3.96
+  },
+  {
+    "text": "images right so you will have certain",
+    "start": 336.06,
+    "duration": 5.6
+  },
+  {
+    "text": "pixel values there and this is uh uh 100",
+    "start": 337.86,
+    "duration": 6.6
+  },
+  {
+    "text": "dimensional vector and based on this you",
+    "start": 341.66,
+    "duration": 5.379
+  },
+  {
+    "text": "might want to predict a certain y right",
+    "start": 344.46,
+    "duration": 5.579
+  },
+  {
+    "text": "so this is again of all of these are",
+    "start": 347.039,
+    "duration": 4.921
+  },
+  {
+    "text": "cases where your inputs are real and",
+    "start": 350.039,
+    "duration": 3.361
+  },
+  {
+    "text": "your outputs are also here and you have",
+    "start": 351.96,
+    "duration": 3.54
+  },
+  {
+    "text": "a high dimensional input where I'm just",
+    "start": 353.4,
+    "duration": 3.9
+  },
+  {
+    "text": "calling it as RN which is an N",
+    "start": 355.5,
+    "duration": 3.539
+  },
+  {
+    "text": "dimensional Vector right so this is the",
+    "start": 357.3,
+    "duration": 5.399
+  },
+  {
+    "text": "situation that we want to uh deal with",
+    "start": 359.039,
+    "duration": 5.521
+  },
+  {
+    "text": "now",
+    "start": 362.699,
+    "duration": 4.741
+  },
+  {
+    "text": "given this situation or given these",
+    "start": 364.56,
+    "duration": 4.979
+  },
+  {
+    "text": "kinds of problems what is our Quest",
+    "start": 367.44,
+    "duration": 4.199
+  },
+  {
+    "text": "right our Quest would be just as it is",
+    "start": 369.539,
+    "duration": 3.961
+  },
+  {
+    "text": "on the case of perceptrons when we are",
+    "start": 371.639,
+    "duration": 3.84
+  },
+  {
+    "text": "dealing with or in the last lecture when",
+    "start": 373.5,
+    "duration": 4.08
+  },
+  {
+    "text": "we are dealing with Boolean functions we",
+    "start": 375.479,
+    "duration": 4.581
+  },
+  {
+    "text": "wanted to know if we can have a network",
+    "start": 377.58,
+    "duration": 5.339
+  },
+  {
+    "text": "which can exactly represent such",
+    "start": 380.06,
+    "duration": 4.66
+  },
+  {
+    "text": "function right and my definition of",
+    "start": 382.919,
+    "duration": 3.78
+  },
+  {
+    "text": "exactly represent was very clear in the",
+    "start": 384.72,
+    "duration": 3.9
+  },
+  {
+    "text": "case of Boolean functions where I was",
+    "start": 386.699,
+    "duration": 3.12
+  },
+  {
+    "text": "saying that I know what the truth table",
+    "start": 388.62,
+    "duration": 3.54
+  },
+  {
+    "text": "of this function is and then when I take",
+    "start": 389.819,
+    "duration": 5.761
+  },
+  {
+    "text": "an input say 0 comma 0 right and I pass",
+    "start": 392.16,
+    "duration": 5.58
+  },
+  {
+    "text": "it through the network I should get the",
+    "start": 395.58,
+    "duration": 4.559
+  },
+  {
+    "text": "same output as is decided by this truth",
+    "start": 397.74,
+    "duration": 4.26
+  },
+  {
+    "text": "table right that was my definition of",
+    "start": 400.139,
+    "duration": 3.9
+  },
+  {
+    "text": "exactly representing the function and",
+    "start": 402.0,
+    "duration": 3.539
+  },
+  {
+    "text": "then we also moved on to slightly more",
+    "start": 404.039,
+    "duration": 3.421
+  },
+  {
+    "text": "real worldish where we said that I would",
+    "start": 405.539,
+    "duration": 4.021
+  },
+  {
+    "text": "have been given data where I would have",
+    "start": 407.46,
+    "duration": 4.739
+  },
+  {
+    "text": "different inputs right and the output",
+    "start": 409.56,
+    "duration": 5.1
+  },
+  {
+    "text": "for that input right and if this data",
+    "start": 412.199,
+    "duration": 4.741
+  },
+  {
+    "text": "was linearly separable then I should",
+    "start": 414.66,
+    "duration": 4.74
+  },
+  {
+    "text": "have a network such that it takes any",
+    "start": 416.94,
+    "duration": 4.5
+  },
+  {
+    "text": "input from this training data and it",
+    "start": 419.4,
+    "duration": 4.079
+  },
+  {
+    "text": "gives me the same output as is given to",
+    "start": 421.44,
+    "duration": 3.599
+  },
+  {
+    "text": "me in the training date right in the",
+    "start": 423.479,
+    "duration": 4.201
+  },
+  {
+    "text": "training data I'm given these X comma y",
+    "start": 425.039,
+    "duration": 5.88
+  },
+  {
+    "text": "pairs right and then I have a network I",
+    "start": 427.68,
+    "duration": 5.519
+  },
+  {
+    "text": "pass this x through the network and it",
+    "start": 430.919,
+    "duration": 5.041
+  },
+  {
+    "text": "predicts a y I'll just call it y hat so",
+    "start": 433.199,
+    "duration": 5.041
+  },
+  {
+    "text": "I wanted the Y hat and the Y to be same",
+    "start": 435.96,
+    "duration": 4.32
+  },
+  {
+    "text": "and that's what it means by this network",
+    "start": 438.24,
+    "duration": 5.16
+  },
+  {
+    "text": "can exactly represent the function right",
+    "start": 440.28,
+    "duration": 5.58
+  },
+  {
+    "text": "now I'm just losing that definition a",
+    "start": 443.4,
+    "duration": 3.66
+  },
+  {
+    "text": "bit I am saying that can I have a",
+    "start": 445.86,
+    "duration": 2.88
+  },
+  {
+    "text": "network which can approximately",
+    "start": 447.06,
+    "duration": 3.96
+  },
+  {
+    "text": "represent the function right which means",
+    "start": 448.74,
+    "duration": 4.32
+  },
+  {
+    "text": "what that I want y hat to be",
+    "start": 451.02,
+    "duration": 4.44
+  },
+  {
+    "text": "approximately equal to y y this",
+    "start": 453.06,
+    "duration": 4.139
+  },
+  {
+    "text": "approximately y naught exact we'll come",
+    "start": 455.46,
+    "duration": 3.0
+  },
+  {
+    "text": "to that later all right for now if you",
+    "start": 457.199,
+    "duration": 2.581
+  },
+  {
+    "text": "want to assume I want something which is",
+    "start": 458.46,
+    "duration": 3.359
+  },
+  {
+    "text": "exactly equal that's also fine right but",
+    "start": 459.78,
+    "duration": 4.38
+  },
+  {
+    "text": "I'm just going to be a bit more relaxed",
+    "start": 461.819,
+    "duration": 4.861
+  },
+  {
+    "text": "in this uh lecture right I would just",
+    "start": 464.16,
+    "duration": 4.259
+  },
+  {
+    "text": "say approximately is also fine right so",
+    "start": 466.68,
+    "duration": 3.48
+  },
+  {
+    "text": "that is what I want can I construct a",
+    "start": 468.419,
+    "duration": 3.96
+  },
+  {
+    "text": "network such that when I give this real",
+    "start": 470.16,
+    "duration": 5.46
+  },
+  {
+    "text": "valued inputs right and I get a",
+    "start": 472.379,
+    "duration": 4.921
+  },
+  {
+    "text": "prediction from the network that should",
+    "start": 475.62,
+    "duration": 3.6
+  },
+  {
+    "text": "be as close to what is given to me in",
+    "start": 477.3,
+    "duration": 3.72
+  },
+  {
+    "text": "the training data right that's what my",
+    "start": 479.22,
+    "duration": 4.86
+  },
+  {
+    "text": "quest is going to be okay",
+    "start": 481.02,
+    "duration": 4.98
+  },
+  {
+    "text": "and just to make it more concrete so in",
+    "start": 484.08,
+    "duration": 5.04
+  },
+  {
+    "text": "the in the oil mining example there are",
+    "start": 486.0,
+    "duration": 5.819
+  },
+  {
+    "text": "already many uh locations where drilling",
+    "start": 489.12,
+    "duration": 4.079
+  },
+  {
+    "text": "stations have been set up and oil is",
+    "start": 491.819,
+    "duration": 3.121
+  },
+  {
+    "text": "being mined for many years right so I",
+    "start": 493.199,
+    "duration": 3.961
+  },
+  {
+    "text": "know what was the quantity of oil mine",
+    "start": 494.94,
+    "duration": 4.319
+  },
+  {
+    "text": "from those stations and I know what",
+    "start": 497.16,
+    "duration": 4.02
+  },
+  {
+    "text": "their X characteristics were right so",
+    "start": 499.259,
+    "duration": 3.78
+  },
+  {
+    "text": "what did the salinity of salinity what",
+    "start": 501.18,
+    "duration": 3.18
+  },
+  {
+    "text": "was the pressure what was the density",
+    "start": 503.039,
+    "duration": 3.181
+  },
+  {
+    "text": "what was the temperature what was the",
+    "start": 504.36,
+    "duration": 3.6
+  },
+  {
+    "text": "marine diversity all I know right so",
+    "start": 506.22,
+    "duration": 4.919
+  },
+  {
+    "text": "what I want is a network such that when",
+    "start": 507.96,
+    "duration": 5.22
+  },
+  {
+    "text": "I feed any of these X's to the network",
+    "start": 511.139,
+    "duration": 4.501
+  },
+  {
+    "text": "the Y predicted by the network should be",
+    "start": 513.18,
+    "duration": 4.859
+  },
+  {
+    "text": "very close to the Y that I actually have",
+    "start": 515.64,
+    "duration": 4.319
+  },
+  {
+    "text": "right so that is what our Quest is going",
+    "start": 518.039,
+    "duration": 4.5
+  },
+  {
+    "text": "to be I'm just defining the problem I'm",
+    "start": 519.959,
+    "duration": 4.02
+  },
+  {
+    "text": "not telling you a solution at all right",
+    "start": 522.539,
+    "duration": 3.42
+  },
+  {
+    "text": "I'm just just about what the story ahead",
+    "start": 523.979,
+    "duration": 4.8
+  },
+  {
+    "text": "is going to be okay so let's move ahead",
+    "start": 525.959,
+    "duration": 6.06
+  },
+  {
+    "text": "from here uh I better delete a few of",
+    "start": 528.779,
+    "duration": 5.581
+  },
+  {
+    "text": "these things",
+    "start": 532.019,
+    "duration": 3.961
+  },
+  {
+    "text": "so before answering the above question",
+    "start": 534.36,
+    "duration": 3.419
+  },
+  {
+    "text": "right we'll first have to graduate from",
+    "start": 535.98,
+    "duration": 3.84
+  },
+  {
+    "text": "perceptrons to sigmoid neurons right so",
+    "start": 537.779,
+    "duration": 3.421
+  },
+  {
+    "text": "that's the first thing that we're going",
+    "start": 539.82,
+    "duration": 2.22
+  },
+  {
+    "text": "to do",
+    "start": 541.2,
+    "duration": 3.18
+  },
+  {
+    "text": "so uh recall that when we are dealing",
+    "start": 542.04,
+    "duration": 4.68
+  },
+  {
+    "text": "with perceptrons a perceptrons fires",
+    "start": 544.38,
+    "duration": 4.26
+  },
+  {
+    "text": "when the weighted sum of its input is",
+    "start": 546.72,
+    "duration": 3.48
+  },
+  {
+    "text": "greater than the threshold right unless",
+    "start": 548.64,
+    "duration": 3.96
+  },
+  {
+    "text": "we had this thing that Theta is equal to",
+    "start": 550.2,
+    "duration": 4.139
+  },
+  {
+    "text": "minus W naught right because we move it",
+    "start": 552.6,
+    "duration": 3.419
+  },
+  {
+    "text": "to the other side of the equation okay",
+    "start": 554.339,
+    "duration": 4.5
+  },
+  {
+    "text": "so this is what uh perceptron like a",
+    "start": 556.019,
+    "duration": 4.5
+  },
+  {
+    "text": "single input perceptron looks like I",
+    "start": 558.839,
+    "duration": 3.241
+  },
+  {
+    "text": "have an input I have a certain weight",
+    "start": 560.519,
+    "duration": 3.541
+  },
+  {
+    "text": "associated with the input I have the",
+    "start": 562.08,
+    "duration": 4.74
+  },
+  {
+    "text": "output and then I have the weight uh I",
+    "start": 564.06,
+    "duration": 4.8
+  },
+  {
+    "text": "have the bias or the threshold which is",
+    "start": 566.82,
+    "duration": 5.82
+  },
+  {
+    "text": "say uh uh the minus of the threshold is",
+    "start": 568.86,
+    "duration": 6.479
+  },
+  {
+    "text": "0.5 so minus of w naught is 5.5 right",
+    "start": 572.64,
+    "duration": 4.699
+  },
+  {
+    "text": "and now",
+    "start": 575.339,
+    "duration": 5.221
+  },
+  {
+    "text": "this uh neuron this perceptron will fire",
+    "start": 577.339,
+    "duration": 5.321
+  },
+  {
+    "text": "if the weighted sum of my input which is",
+    "start": 580.56,
+    "duration": 4.38
+  },
+  {
+    "text": "just W and X1 in this case is greater",
+    "start": 582.66,
+    "duration": 4.679
+  },
+  {
+    "text": "than 0.5 now I'm going to say that this",
+    "start": 584.94,
+    "duration": 4.8
+  },
+  {
+    "text": "logic used by a perceptron is actually",
+    "start": 587.339,
+    "duration": 4.981
+  },
+  {
+    "text": "very harsh right now what do I mean by",
+    "start": 589.74,
+    "duration": 4.62
+  },
+  {
+    "text": "harsh harsh is not like a mathematical",
+    "start": 592.32,
+    "duration": 4.74
+  },
+  {
+    "text": "term so what do I mean by that right so",
+    "start": 594.36,
+    "duration": 4.56
+  },
+  {
+    "text": "let us return to our example of deciding",
+    "start": 597.06,
+    "duration": 4.14
+  },
+  {
+    "text": "whether we would like to like or dislike",
+    "start": 598.92,
+    "duration": 4.08
+  },
+  {
+    "text": "a movie or whether uh yeah whether you",
+    "start": 601.2,
+    "duration": 4.62
+  },
+  {
+    "text": "like or dislike a movie right now let's",
+    "start": 603.0,
+    "duration": 4.92
+  },
+  {
+    "text": "say we have basing our decisions only on",
+    "start": 605.82,
+    "duration": 3.66
+  },
+  {
+    "text": "one input which is the critics rating",
+    "start": 607.92,
+    "duration": 2.76
+  },
+  {
+    "text": "and the critics rating is something",
+    "start": 609.48,
+    "duration": 2.94
+  },
+  {
+    "text": "between zero to one right on a scale of",
+    "start": 610.68,
+    "duration": 3.599
+  },
+  {
+    "text": "zero to one a Critic has given some",
+    "start": 612.42,
+    "duration": 3.359
+  },
+  {
+    "text": "rating and we look at that and decide",
+    "start": 614.279,
+    "duration": 3.961
+  },
+  {
+    "text": "whether uh we want to watch the movie or",
+    "start": 615.779,
+    "duration": 5.581
+  },
+  {
+    "text": "not right now if the threshold is 0.5",
+    "start": 618.24,
+    "duration": 5.7
+  },
+  {
+    "text": "and let's assume that the weight is one",
+    "start": 621.36,
+    "duration": 4.14
+  },
+  {
+    "text": "because there's only one input so it",
+    "start": 623.94,
+    "duration": 3.06
+  },
+  {
+    "text": "doesn't matter what the weight is so it",
+    "start": 625.5,
+    "duration": 4.279
+  },
+  {
+    "text": "will just give it one and",
+    "start": 627.0,
+    "duration": 5.1
+  },
+  {
+    "text": "uh what now in this case when the",
+    "start": 629.779,
+    "duration": 4.421
+  },
+  {
+    "text": "threshold is 0.5 and the weight is one",
+    "start": 632.1,
+    "duration": 4.38
+  },
+  {
+    "text": "so what about the case when the critics",
+    "start": 634.2,
+    "duration": 4.8
+  },
+  {
+    "text": "rating was 0.49 the output of the",
+    "start": 636.48,
+    "duration": 4.56
+  },
+  {
+    "text": "network would be dislike right because",
+    "start": 639.0,
+    "duration": 4.38
+  },
+  {
+    "text": "0.49 is less than the threshold so I",
+    "start": 641.04,
+    "duration": 4.739
+  },
+  {
+    "text": "will not like the movie but now if I had",
+    "start": 643.38,
+    "duration": 4.199
+  },
+  {
+    "text": "a movie well it's a Critic rating was",
+    "start": 645.779,
+    "duration": 4.981
+  },
+  {
+    "text": "0.51 then my output would be like right",
+    "start": 647.579,
+    "duration": 5.581
+  },
+  {
+    "text": "and this is why I say that this is very",
+    "start": 650.76,
+    "duration": 3.96
+  },
+  {
+    "text": "harsh right this is not how you would",
+    "start": 653.16,
+    "duration": 5.34
+  },
+  {
+    "text": "take decisions in real life that 0.49 is",
+    "start": 654.72,
+    "duration": 6.54
+  },
+  {
+    "text": "not like but 0.51 is like there is a",
+    "start": 658.5,
+    "duration": 4.2
+  },
+  {
+    "text": "very little difference between in these",
+    "start": 661.26,
+    "duration": 3.42
+  },
+  {
+    "text": "two right when you wouldn't base your",
+    "start": 662.7,
+    "duration": 3.24
+  },
+  {
+    "text": "decisions like that what you're looking",
+    "start": 664.68,
+    "duration": 3.659
+  },
+  {
+    "text": "for is something more smoother than this",
+    "start": 665.94,
+    "duration": 5.06
+  },
+  {
+    "text": "right which calibrates that okay 0.49 is",
+    "start": 668.339,
+    "duration": 6.0
+  },
+  {
+    "text": "uh good 0.5 minus slightly better right",
+    "start": 671.0,
+    "duration": 5.079
+  },
+  {
+    "text": "it should have that calibration right so",
+    "start": 674.339,
+    "duration": 4.321
+  },
+  {
+    "text": "that is missing it's just very harsh",
+    "start": 676.079,
+    "duration": 4.741
+  },
+  {
+    "text": "that and I'll show you a figure on the",
+    "start": 678.66,
+    "duration": 3.48
+  },
+  {
+    "text": "next slide which will make this very",
+    "start": 680.82,
+    "duration": 2.639
+  },
+  {
+    "text": "clear right and that's the point I want",
+    "start": 682.14,
+    "duration": 4.08
+  },
+  {
+    "text": "to make that is not a characteristic of",
+    "start": 683.459,
+    "duration": 4.56
+  },
+  {
+    "text": "the problem that you have chosen it's",
+    "start": 686.22,
+    "duration": 3.48
+  },
+  {
+    "text": "not that about movie ratings or it's not",
+    "start": 688.019,
+    "duration": 2.94
+  },
+  {
+    "text": "about the way I have chosen this",
+    "start": 689.7,
+    "duration": 2.759
+  },
+  {
+    "text": "threshold or the examples that I have",
+    "start": 690.959,
+    "duration": 3.601
+  },
+  {
+    "text": "given it's the nature of the function",
+    "start": 692.459,
+    "duration": 3.601
+  },
+  {
+    "text": "itself right and I'll tell you what I",
+    "start": 694.56,
+    "duration": 3.24
+  },
+  {
+    "text": "mean by that so this is what the",
+    "start": 696.06,
+    "duration": 5.219
+  },
+  {
+    "text": "perceptron function looks like so",
+    "start": 697.8,
+    "duration": 6.599
+  },
+  {
+    "text": "uh what I have",
+    "start": 701.279,
+    "duration": 5.781
+  },
+  {
+    "text": "here",
+    "start": 704.399,
+    "duration": 2.661
+  },
+  {
+    "text": "this is my z-axis okay so on this axis I",
+    "start": 707.579,
+    "duration": 5.76
+  },
+  {
+    "text": "have Z where Z is the weighted sum of",
+    "start": 710.88,
+    "duration": 4.32
+  },
+  {
+    "text": "the inputs okay so this quantity I'm",
+    "start": 713.339,
+    "duration": 3.24
+  },
+  {
+    "text": "calling Z which you have seen is the",
+    "start": 715.2,
+    "duration": 3.6
+  },
+  {
+    "text": "weighted sum of the inputs okay and this",
+    "start": 716.579,
+    "duration": 3.601
+  },
+  {
+    "text": "is my threshold",
+    "start": 718.8,
+    "duration": 4.08
+  },
+  {
+    "text": "and I know that when Z crosses the",
+    "start": 720.18,
+    "duration": 5.159
+  },
+  {
+    "text": "threshold my output is going to be 1 and",
+    "start": 722.88,
+    "duration": 4.199
+  },
+  {
+    "text": "when Z is less than the threshold my",
+    "start": 725.339,
+    "duration": 3.421
+  },
+  {
+    "text": "output is going to be 0. so there is",
+    "start": 727.079,
+    "duration": 3.901
+  },
+  {
+    "text": "going to be this sharp increase at 0.5",
+    "start": 728.76,
+    "duration": 3.6
+  },
+  {
+    "text": "and that's what was happening in our",
+    "start": 730.98,
+    "duration": 4.26
+  },
+  {
+    "text": "example still 0.49 I was not so upbeat",
+    "start": 732.36,
+    "duration": 5.219
+  },
+  {
+    "text": "about the movie the moment it cost 0.5 I",
+    "start": 735.24,
+    "duration": 4.08
+  },
+  {
+    "text": "said okay like this movie right so this",
+    "start": 737.579,
+    "duration": 3.421
+  },
+  {
+    "text": "is the nature of the function itself",
+    "start": 739.32,
+    "duration": 4.5
+  },
+  {
+    "text": "where if you take this weighted sum and",
+    "start": 741.0,
+    "duration": 4.8
+  },
+  {
+    "text": "it crosses a threshold you say one if",
+    "start": 743.82,
+    "duration": 5.1
+  },
+  {
+    "text": "not you say zeros this if else nature is",
+    "start": 745.8,
+    "duration": 5.099
+  },
+  {
+    "text": "what is bringing this discreetness right",
+    "start": 748.92,
+    "duration": 3.24
+  },
+  {
+    "text": "we're just saying that okay it will",
+    "start": 750.899,
+    "duration": 3.24
+  },
+  {
+    "text": "suddenly become one right so it's the",
+    "start": 752.16,
+    "duration": 4.38
+  },
+  {
+    "text": "nature of the function itself this is a",
+    "start": 754.139,
+    "duration": 5.76
+  },
+  {
+    "text": "step function right and",
+    "start": 756.54,
+    "duration": 4.919
+  },
+  {
+    "text": "there'll always be the sudden change",
+    "start": 759.899,
+    "duration": 3.481
+  },
+  {
+    "text": "whenever you have a set a threshold",
+    "start": 761.459,
+    "duration": 3.841
+  },
+  {
+    "text": "function right and as I said like for",
+    "start": 763.38,
+    "duration": 3.24
+  },
+  {
+    "text": "most real world applications we don't",
+    "start": 765.3,
+    "duration": 2.82
+  },
+  {
+    "text": "want this we want the decision to be",
+    "start": 766.62,
+    "duration": 3.839
+  },
+  {
+    "text": "much smoother where the difference",
+    "start": 768.12,
+    "duration": 6.779
+  },
+  {
+    "text": "between 0.49 and 0.51 is not yes and no",
+    "start": 770.459,
+    "duration": 5.94
+  },
+  {
+    "text": "right it should be something more",
+    "start": 774.899,
+    "duration": 2.821
+  },
+  {
+    "text": "smoother than that right so let's see",
+    "start": 776.399,
+    "duration": 4.141
+  },
+  {
+    "text": "how do we get there now this looks like",
+    "start": 777.72,
+    "duration": 4.679
+  },
+  {
+    "text": "a smoother version of the function right",
+    "start": 780.54,
+    "duration": 3.9
+  },
+  {
+    "text": "so what is happening here again this is",
+    "start": 782.399,
+    "duration": 6.841
+  },
+  {
+    "text": "my z-axis okay and this is what Z is",
+    "start": 784.44,
+    "duration": 7.8
+  },
+  {
+    "text": "right and now I have not explained what",
+    "start": 789.24,
+    "duration": 4.2
+  },
+  {
+    "text": "this function is I have not given you",
+    "start": 792.24,
+    "duration": 2.64
+  },
+  {
+    "text": "the formula for the perceptron I have",
+    "start": 793.44,
+    "duration": 3.18
+  },
+  {
+    "text": "given you a formula that Y is equal to 1",
+    "start": 794.88,
+    "duration": 3.18
+  },
+  {
+    "text": "if something Y is equal to zero",
+    "start": 796.62,
+    "duration": 2.76
+  },
+  {
+    "text": "something I have not given your formula",
+    "start": 798.06,
+    "duration": 3.24
+  },
+  {
+    "text": "but for now we'll just appreciate that",
+    "start": 799.38,
+    "duration": 3.899
+  },
+  {
+    "text": "this looks more realistic right that",
+    "start": 801.3,
+    "duration": 3.779
+  },
+  {
+    "text": "it's not suddenly changing its decision",
+    "start": 803.279,
+    "duration": 4.321
+  },
+  {
+    "text": "it's gradually moving from zero to one",
+    "start": 805.079,
+    "duration": 5.94
+  },
+  {
+    "text": "right it's not like query uh sharp as",
+    "start": 807.6,
+    "duration": 5.039
+  },
+  {
+    "text": "was in the case of the earlier function",
+    "start": 811.019,
+    "duration": 4.44
+  },
+  {
+    "text": "right so to get this kind of an effect",
+    "start": 812.639,
+    "duration": 4.861
+  },
+  {
+    "text": "we'll now introduce what is known as the",
+    "start": 815.459,
+    "duration": 5.701
+  },
+  {
+    "text": "sigmoid neuron and sigma 8 function the",
+    "start": 817.5,
+    "duration": 5.459
+  },
+  {
+    "text": "function Sigma is like a family of",
+    "start": 821.16,
+    "duration": 4.679
+  },
+  {
+    "text": "functions and here's one member from",
+    "start": 822.959,
+    "duration": 4.62
+  },
+  {
+    "text": "that family which is called the logistic",
+    "start": 825.839,
+    "duration": 3.541
+  },
+  {
+    "text": "function later on in the course we'll",
+    "start": 827.579,
+    "duration": 3.721
+  },
+  {
+    "text": "see the tan H function which is also a",
+    "start": 829.38,
+    "duration": 3.959
+  },
+  {
+    "text": "member of Islam right and let's see what",
+    "start": 831.3,
+    "duration": 4.5
+  },
+  {
+    "text": "is happening here so this is",
+    "start": 833.339,
+    "duration": 4.5
+  },
+  {
+    "text": "this is a quantity which is familiar to",
+    "start": 835.8,
+    "duration": 3.779
+  },
+  {
+    "text": "us right this is the weighted sum of the",
+    "start": 837.839,
+    "duration": 3.961
+  },
+  {
+    "text": "inputs and the threshold okay this",
+    "start": 839.579,
+    "duration": 5.241
+  },
+  {
+    "text": "quantity is familiar to us",
+    "start": 841.8,
+    "duration": 6.779
+  },
+  {
+    "text": "and we have been writing it as summation",
+    "start": 844.82,
+    "duration": 7.48
+  },
+  {
+    "text": "I equal to 0 to n",
+    "start": 848.579,
+    "duration": 7.26
+  },
+  {
+    "text": "W naught X naught right it is the same",
+    "start": 852.3,
+    "duration": 5.399
+  },
+  {
+    "text": "quantity that we have been writing and",
+    "start": 855.839,
+    "duration": 3.421
+  },
+  {
+    "text": "this quantity we have actually been",
+    "start": 857.699,
+    "duration": 4.08
+  },
+  {
+    "text": "writing as W transpose X if you remember",
+    "start": 859.26,
+    "duration": 4.92
+  },
+  {
+    "text": "right where X is the vector from X 0 to",
+    "start": 861.779,
+    "duration": 5.821
+  },
+  {
+    "text": "X N and W is a vector from W 0 to WN",
+    "start": 864.18,
+    "duration": 4.74
+  },
+  {
+    "text": "right so this is just the dot product",
+    "start": 867.6,
+    "duration": 2.82
+  },
+  {
+    "text": "right so the quantity that I have",
+    "start": 868.92,
+    "duration": 4.02
+  },
+  {
+    "text": "underlined is just this quantity that we",
+    "start": 870.42,
+    "duration": 4.979
+  },
+  {
+    "text": "have been dealing with so far okay now",
+    "start": 872.94,
+    "duration": 4.62
+  },
+  {
+    "text": "let's look at this function a bit",
+    "start": 875.399,
+    "duration": 5.401
+  },
+  {
+    "text": "carefully so what happens when w",
+    "start": 877.56,
+    "duration": 4.8
+  },
+  {
+    "text": "transpose X",
+    "start": 880.8,
+    "duration": 4.14
+  },
+  {
+    "text": "tends to Infinity",
+    "start": 882.36,
+    "duration": 4.68
+  },
+  {
+    "text": "okay so this is",
+    "start": 884.94,
+    "duration": 4.68
+  },
+  {
+    "text": "as I go along this axis this is where W",
+    "start": 887.04,
+    "duration": 4.32
+  },
+  {
+    "text": "transpose X will start trending to",
+    "start": 889.62,
+    "duration": 3.54
+  },
+  {
+    "text": "Infinity rate because Z is what I've",
+    "start": 891.36,
+    "duration": 3.599
+  },
+  {
+    "text": "defined as double aspects X right so",
+    "start": 893.16,
+    "duration": 3.299
+  },
+  {
+    "text": "what what would happen as it goes",
+    "start": 894.959,
+    "duration": 3.841
+  },
+  {
+    "text": "towards Infinity",
+    "start": 896.459,
+    "duration": 4.74
+  },
+  {
+    "text": "if I substitute the value Infinity here",
+    "start": 898.8,
+    "duration": 5.399
+  },
+  {
+    "text": "right so it is 1 over",
+    "start": 901.199,
+    "duration": 6.961
+  },
+  {
+    "text": "1 plus e raised to minus infinity right",
+    "start": 904.199,
+    "duration": 7.44
+  },
+  {
+    "text": "that would be 1 over 1 plus 1 raised to",
+    "start": 908.16,
+    "duration": 5.76
+  },
+  {
+    "text": "e raised to 1 1 by E raised to Infinity",
+    "start": 911.639,
+    "duration": 4.14
+  },
+  {
+    "text": "right",
+    "start": 913.92,
+    "duration": 5.4
+  },
+  {
+    "text": "should become 1 over 1 plus 1 over e",
+    "start": 915.779,
+    "duration": 5.041
+  },
+  {
+    "text": "raised to Infinity right that's what",
+    "start": 919.32,
+    "duration": 3.78
+  },
+  {
+    "text": "this would be and this term would become",
+    "start": 920.82,
+    "duration": 4.5
+  },
+  {
+    "text": "0 so you'll just have 1 over 1 so that",
+    "start": 923.1,
+    "duration": 3.66
+  },
+  {
+    "text": "would be one and that's exactly what is",
+    "start": 925.32,
+    "duration": 4.139
+  },
+  {
+    "text": "happening here as the value of this W",
+    "start": 926.76,
+    "duration": 4.92
+  },
+  {
+    "text": "transpose X is increasing the function",
+    "start": 929.459,
+    "duration": 6.06
+  },
+  {
+    "text": "is approaching 1 right and uh what would",
+    "start": 931.68,
+    "duration": 6.959
+  },
+  {
+    "text": "happen if W transpose X tends to minus",
+    "start": 935.519,
+    "duration": 5.361
+  },
+  {
+    "text": "infinity",
+    "start": 938.639,
+    "duration": 2.241
+  },
+  {
+    "text": "this would become 1 over 1 plus infinity",
+    "start": 941.16,
+    "duration": 5.46
+  },
+  {
+    "text": "right so in that case the denominator",
+    "start": 943.5,
+    "duration": 5.04
+  },
+  {
+    "text": "would become Infinity so 1 over infinity",
+    "start": 946.62,
+    "duration": 4.38
+  },
+  {
+    "text": "would be 0 and so as I go in this",
+    "start": 948.54,
+    "duration": 4.2
+  },
+  {
+    "text": "direction",
+    "start": 951.0,
+    "duration": 3.839
+  },
+  {
+    "text": "so as I go in uh",
+    "start": 952.74,
+    "duration": 3.899
+  },
+  {
+    "text": "this direction which is minus infinity",
+    "start": 954.839,
+    "duration": 4.8
+  },
+  {
+    "text": "my function starts tending to zero right",
+    "start": 956.639,
+    "duration": 5.341
+  },
+  {
+    "text": "so that's why this behavior is there and",
+    "start": 959.639,
+    "duration": 3.781
+  },
+  {
+    "text": "now again let's just do one more thing",
+    "start": 961.98,
+    "duration": 3.359
+  },
+  {
+    "text": "if W transpose X",
+    "start": 963.42,
+    "duration": 4.08
+  },
+  {
+    "text": "equal to 0 if I substitute that value",
+    "start": 965.339,
+    "duration": 6.12
+  },
+  {
+    "text": "then I get 1 over 1 plus e raised to 0.",
+    "start": 967.5,
+    "duration": 6.54
+  },
+  {
+    "text": "right and that would be half right so",
+    "start": 971.459,
+    "duration": 4.921
+  },
+  {
+    "text": "that's what you are seeing here okay",
+    "start": 974.04,
+    "duration": 4.62
+  },
+  {
+    "text": "yeah so that's that's what is happening",
+    "start": 976.38,
+    "duration": 4.379
+  },
+  {
+    "text": "here uh so for this discussion just",
+    "start": 978.66,
+    "duration": 4.56
+  },
+  {
+    "text": "let's assume that W 0 was 0 right so",
+    "start": 980.759,
+    "duration": 5.341
+  },
+  {
+    "text": "that this uh so that all of this is in",
+    "start": 983.22,
+    "duration": 4.619
+  },
+  {
+    "text": "sync right so that this is this",
+    "start": 986.1,
+    "duration": 3.78
+  },
+  {
+    "text": "disappears and all of this Falls in sync",
+    "start": 987.839,
+    "duration": 3.781
+  },
+  {
+    "text": "if you have a w naught you can have a",
+    "start": 989.88,
+    "duration": 3.18
+  },
+  {
+    "text": "similar explanation it's just that the",
+    "start": 991.62,
+    "duration": 3.06
+  },
+  {
+    "text": "graph will move a bit right so I'll",
+    "start": 993.06,
+    "duration": 3.3
+  },
+  {
+    "text": "leave it for you to figure that out but",
+    "start": 994.68,
+    "duration": 3.18
+  },
+  {
+    "text": "the what is the important thing is how",
+    "start": 996.36,
+    "duration": 4.14
+  },
+  {
+    "text": "do you get this s shape at large values",
+    "start": 997.86,
+    "duration": 4.2
+  },
+  {
+    "text": "it saturates at small values it",
+    "start": 1000.5,
+    "duration": 3.66
+  },
+  {
+    "text": "saturates and it goes smoothly from the",
+    "start": 1002.06,
+    "duration": 3.779
+  },
+  {
+    "text": "small values to the large values right",
+    "start": 1004.16,
+    "duration": 3.599
+  },
+  {
+    "text": "so that's what is happening here and we",
+    "start": 1005.839,
+    "duration": 3.781
+  },
+  {
+    "text": "no longer see this sharp transition",
+    "start": 1007.759,
+    "duration": 4.861
+  },
+  {
+    "text": "which we are seeing in the uh step",
+    "start": 1009.62,
+    "duration": 4.56
+  },
+  {
+    "text": "function earlier or the perceptron",
+    "start": 1012.62,
+    "duration": 3.959
+  },
+  {
+    "text": "function right",
+    "start": 1014.18,
+    "duration": 4.68
+  },
+  {
+    "text": "let's just delete this",
+    "start": 1016.579,
+    "duration": 5.041
+  },
+  {
+    "text": "also the output Y is no longer binary",
+    "start": 1018.86,
+    "duration": 4.979
+  },
+  {
+    "text": "right but it's a real valued output it's",
+    "start": 1021.62,
+    "duration": 4.86
+  },
+  {
+    "text": "not zero or one many values between 0",
+    "start": 1023.839,
+    "duration": 4.561
+  },
+  {
+    "text": "and 1 are possible now the other",
+    "start": 1026.48,
+    "duration": 4.14
+  },
+  {
+    "text": "interesting thing about this function is",
+    "start": 1028.4,
+    "duration": 5.039
+  },
+  {
+    "text": "that since the values are between 0 and",
+    "start": 1030.62,
+    "duration": 5.16
+  },
+  {
+    "text": "1 right so what is the other quantity of",
+    "start": 1033.439,
+    "duration": 6.5
+  },
+  {
+    "text": "Interest which lies between 0 to 1.",
+    "start": 1035.78,
+    "duration": 4.159
+  },
+  {
+    "text": "probability right so probabilities lie",
+    "start": 1040.939,
+    "duration": 4.321
+  },
+  {
+    "text": "between 0 to 1. so now this output of",
+    "start": 1042.919,
+    "duration": 4.081
+  },
+  {
+    "text": "the sigmoid function we could interpret",
+    "start": 1045.26,
+    "duration": 3.84
+  },
+  {
+    "text": "as a probability so now when it gives",
+    "start": 1047.0,
+    "duration": 4.62
+  },
+  {
+    "text": "the value 0.49 I can say that there's a",
+    "start": 1049.1,
+    "duration": 4.62
+  },
+  {
+    "text": "49 chance that I like the movie earlier",
+    "start": 1051.62,
+    "duration": 3.6
+  },
+  {
+    "text": "I was saying that there is zero chance I",
+    "start": 1053.72,
+    "duration": 3.48
+  },
+  {
+    "text": "not like the movie when it outputs a",
+    "start": 1055.22,
+    "duration": 4.62
+  },
+  {
+    "text": "value of 0.51 I can say there's a 51 so",
+    "start": 1057.2,
+    "duration": 4.44
+  },
+  {
+    "text": "one person chance that I like the movie",
+    "start": 1059.84,
+    "duration": 3.54
+  },
+  {
+    "text": "and now this makes sense right the",
+    "start": 1061.64,
+    "duration": 3.36
+  },
+  {
+    "text": "difference between 49 to 51 percent",
+    "start": 1063.38,
+    "duration": 4.38
+  },
+  {
+    "text": "makes sense right earlier it was 0 and 1",
+    "start": 1065.0,
+    "duration": 5.88
+  },
+  {
+    "text": "when it was 49 and 15 so that harshness",
+    "start": 1067.76,
+    "duration": 5.4
+  },
+  {
+    "text": "has disappeared now and more importantly",
+    "start": 1070.88,
+    "duration": 3.96
+  },
+  {
+    "text": "I can now interpret these values as",
+    "start": 1073.16,
+    "duration": 3.6
+  },
+  {
+    "text": "probability and this is something very",
+    "start": 1074.84,
+    "duration": 3.36
+  },
+  {
+    "text": "important because in most modeling",
+    "start": 1076.76,
+    "duration": 2.82
+  },
+  {
+    "text": "problems that is what we would want to",
+    "start": 1078.2,
+    "duration": 3.18
+  },
+  {
+    "text": "do that you have to predict a certain",
+    "start": 1079.58,
+    "duration": 3.959
+  },
+  {
+    "text": "binary value and you would like to",
+    "start": 1081.38,
+    "duration": 3.78
+  },
+  {
+    "text": "predict it as a probability that this",
+    "start": 1083.539,
+    "duration": 3.781
+  },
+  {
+    "text": "not harsh zero and one but this is a 49",
+    "start": 1085.16,
+    "duration": 4.86
+  },
+  {
+    "text": "chance of finding oil there there's a 49",
+    "start": 1087.32,
+    "duration": 4.38
+  },
+  {
+    "text": "chance that this person will not return",
+    "start": 1090.02,
+    "duration": 4.5
+  },
+  {
+    "text": "the rule and then as a domain expert you",
+    "start": 1091.7,
+    "duration": 5.04
+  },
+  {
+    "text": "can decide whether you want to invest in",
+    "start": 1094.52,
+    "duration": 6.12
+  },
+  {
+    "text": "that or not right okay",
+    "start": 1096.74,
+    "duration": 5.76
+  },
+  {
+    "text": "okay so that's that's what it is and",
+    "start": 1100.64,
+    "duration": 3.539
+  },
+  {
+    "text": "this is how the two functions look like",
+    "start": 1102.5,
+    "duration": 5.1
+  },
+  {
+    "text": "very similar right the inputs are",
+    "start": 1104.179,
+    "duration": 5.941
+  },
+  {
+    "text": "actually similar as you can see the",
+    "start": 1107.6,
+    "duration": 5.64
+  },
+  {
+    "text": "weights are also available you have an",
+    "start": 1110.12,
+    "duration": 5.939
+  },
+  {
+    "text": "output you know that these are all real",
+    "start": 1113.24,
+    "duration": 4.86
+  },
+  {
+    "text": "values you know that the output is real",
+    "start": 1116.059,
+    "duration": 3.781
+  },
+  {
+    "text": "value right in fact in the perceptron",
+    "start": 1118.1,
+    "duration": 3.959
+  },
+  {
+    "text": "also you could have had real values it's",
+    "start": 1119.84,
+    "duration": 3.3
+  },
+  {
+    "text": "just that we were only looking at",
+    "start": 1122.059,
+    "duration": 3.181
+  },
+  {
+    "text": "Boolean but the main difference is in",
+    "start": 1123.14,
+    "duration": 4.02
+  },
+  {
+    "text": "this function here right you have the",
+    "start": 1125.24,
+    "duration": 3.84
+  },
+  {
+    "text": "sigmoid function here and you have the",
+    "start": 1127.16,
+    "duration": 3.84
+  },
+  {
+    "text": "step function there and that step",
+    "start": 1129.08,
+    "duration": 4.28
+  },
+  {
+    "text": "function is obvious because of the",
+    "start": 1131.0,
+    "duration": 4.62
+  },
+  {
+    "text": "formula that we were using which is this",
+    "start": 1133.36,
+    "duration": 4.179
+  },
+  {
+    "text": "Y is equal to one if something Y is",
+    "start": 1135.62,
+    "duration": 4.559
+  },
+  {
+    "text": "equal to 0 if something zero then go to",
+    "start": 1137.539,
+    "duration": 4.981
+  },
+  {
+    "text": "one right whereas now you have this",
+    "start": 1140.179,
+    "duration": 4.5
+  },
+  {
+    "text": "smoother formula which we just saw on",
+    "start": 1142.52,
+    "duration": 4.5
+  },
+  {
+    "text": "the previous uh slide",
+    "start": 1144.679,
+    "duration": 5.101
+  },
+  {
+    "text": "uh which is just one over one plus",
+    "start": 1147.02,
+    "duration": 4.56
+  },
+  {
+    "text": "exponent of something right and that",
+    "start": 1149.78,
+    "duration": 4.259
+  },
+  {
+    "text": "gives you this smooth function right and",
+    "start": 1151.58,
+    "duration": 5.219
+  },
+  {
+    "text": "even if you look at the plots then you",
+    "start": 1154.039,
+    "duration": 5.941
+  },
+  {
+    "text": "see that the uh perceptron function is",
+    "start": 1156.799,
+    "duration": 5.341
+  },
+  {
+    "text": "not smooth and hence not differentiable",
+    "start": 1159.98,
+    "duration": 4.8
+  },
+  {
+    "text": "at this sharp change at the value where",
+    "start": 1162.14,
+    "duration": 5.64
+  },
+  {
+    "text": "it changes whereas the uh sigmoid",
+    "start": 1164.78,
+    "duration": 4.74
+  },
+  {
+    "text": "function is smooth it is continuous and",
+    "start": 1167.78,
+    "duration": 3.84
+  },
+  {
+    "text": "its differential so now why do we care",
+    "start": 1169.52,
+    "duration": 3.84
+  },
+  {
+    "text": "about continuity why do we care about",
+    "start": 1171.62,
+    "duration": 4.32
+  },
+  {
+    "text": "differentiability so for a large part of",
+    "start": 1173.36,
+    "duration": 4.439
+  },
+  {
+    "text": "this course calculus is going to be the",
+    "start": 1175.94,
+    "duration": 4.2
+  },
+  {
+    "text": "hero right so whatever algorithms that",
+    "start": 1177.799,
+    "duration": 4.62
+  },
+  {
+    "text": "we study today and going forward in the",
+    "start": 1180.14,
+    "duration": 4.8
+  },
+  {
+    "text": "next few lectures everywhere calculus",
+    "start": 1182.419,
+    "duration": 3.841
+  },
+  {
+    "text": "would play an important role in",
+    "start": 1184.94,
+    "duration": 2.82
+  },
+  {
+    "text": "particular derivatives would play an",
+    "start": 1186.26,
+    "duration": 3.36
+  },
+  {
+    "text": "important role and hence it's important",
+    "start": 1187.76,
+    "duration": 3.779
+  },
+  {
+    "text": "that the functions that we deal with are",
+    "start": 1189.62,
+    "duration": 3.78
+  },
+  {
+    "text": "differentiable right so that's where I",
+    "start": 1191.539,
+    "duration": 3.961
+  },
+  {
+    "text": "leave it for now I'll not delve further",
+    "start": 1193.4,
+    "duration": 3.36
+  },
+  {
+    "text": "into it and you'll get to know why",
+    "start": 1195.5,
+    "duration": 2.52
+  },
+  {
+    "text": "differentiability is important because",
+    "start": 1196.76,
+    "duration": 3.6
+  },
+  {
+    "text": "I'll soon start taking derivatives of",
+    "start": 1198.02,
+    "duration": 3.96
+  },
+  {
+    "text": "something right and if I'm taking",
+    "start": 1200.36,
+    "duration": 3.12
+  },
+  {
+    "text": "derivatives of something in everything",
+    "start": 1201.98,
+    "duration": 4.079
+  },
+  {
+    "text": "in the calculation is not differentiable",
+    "start": 1203.48,
+    "duration": 4.199
+  },
+  {
+    "text": "of all the functions in world are not",
+    "start": 1206.059,
+    "duration": 2.821
+  },
+  {
+    "text": "differentiable then you can't take the",
+    "start": 1207.679,
+    "duration": 2.88
+  },
+  {
+    "text": "derivatives right so that's why it's",
+    "start": 1208.88,
+    "duration": 3.48
+  },
+  {
+    "text": "important to have differentiable",
+    "start": 1210.559,
+    "duration": 3.841
+  },
+  {
+    "text": "functions and that's why we have it's",
+    "start": 1212.36,
+    "duration": 6.199
+  },
+  {
+    "text": "good to have the sigmoid Neutron okay",
+    "start": 1214.4,
+    "duration": 4.159
+  }
+]

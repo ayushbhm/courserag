@@ -1,0 +1,9 @@
+a plot it will become clear right so if you have a flat surface you will get better regularization why.
+why is that the case because if you have a flat surface then for a large range you have the.
+loss as the same right and now your if you cannot over fit like I mean in the sense that.
+you have figured out a value of the loss you know that for a large neighborhood any of the W's.
+would have given you a similar loss right but now in this plot where you have these bumps up and.
+down if you had over fit and selected gone into one Valley around that Valley there are many other Hills.
+right so with a small change you get a very large change in the loss so your model becomes very.
+sensitive right so one effect of regularization that people have shown is that it smoothens the Lost surface right so.
+they have analyzed the surface of lost surface of neural networks and seen that with regularization and this was in.

@@ -1,0 +1,10 @@
+what we are looking for it so this connects uh i would say the math to the geometry right so.
+the algebra to the geometry that uh when you plug in these values you get some output and this is.
+what it would mean geometrically right okay so now let us see this in more detail right so as usual.
+i never know what the w's and b's are right i've given these two points i'm going to start with.
+some random w's and b's so here i have started with uh if you can't see it let me just.
+see if it's on the file ah so w equal to three and b is equal to minus one 1..
+that's what i have started with okay and now this is the sigmoid function that we get i know that.
+intuitively i know that this is not correct why is this not correct both the points are not on the.
+function right this point is also not on the function right so both the points are not on the function.
+and just on the previous slide we saw that when the network is trained or when i have learned the.

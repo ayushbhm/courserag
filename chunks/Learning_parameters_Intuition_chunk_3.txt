@@ -1,0 +1,9 @@
+going to use this shortcut notation and hence i am elaborating what i mean by that it means just the.
+collection of the partial derivatives right so i've taken the partial derivative with this of the loss function with respect.
+to wt the partial derivative of the loss function with respect to b it's not bt or wt it's w.
+and b and then evaluated at the current values right which is at time step t and we have seen.
+this what that means in the previous lecture so this is what my this notation here means right i am.
+just clarifying that is just a collection of the partial derivatives that means it is the gradient right now this.
+was all uh good right now in this feed forward neutral network instead of theta equal to wb right which.
+was just a collection of two vectors now my theta is a collection of many more elements right it's all.
+the elements of w1 which is n square elements all the elements of w2 w3 which are again n square.

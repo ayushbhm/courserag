@@ -1,0 +1,9 @@
+here and you have the step function there and that step function is obvious because of the formula that we.
+were using which is this Y is equal to one if something Y is equal to 0 if something zero.
+then go to one right whereas now you have this smoother formula which we just saw on the previous uh.
+slide uh which is just one over one plus exponent of something right and that gives you this smooth function.
+right and even if you look at the plots then you see that the uh perceptron function is not smooth.
+and hence not differentiable at this sharp change at the value where it changes whereas the uh sigmoid function is.
+smooth it is continuous and its differential so now why do we care about continuity why do we care about.
+differentiability so for a large part of this course calculus is going to be the hero right so whatever algorithms.
+that we study today and going forward in the next few lectures everywhere calculus would play an important role in.

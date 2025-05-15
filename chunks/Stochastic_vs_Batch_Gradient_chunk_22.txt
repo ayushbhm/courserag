@@ -1,0 +1,8 @@
+and you went in that direction and then you later had to course correct and come back whereas when you're.
+looking at the full uh gradient you're always moving in the right direction that you need to go to but.
+of course you still see oscillations that is there because of the momentum related oscillations you're moving too fast and.
+hence you have to oscillate in the green curve right okay okay so now let's look at uh nag also.
+okay so stochastic version of nag so now I have all three I have nestorov right and you can see.
+the expected Behavior it's all the three algorithms are the stochastic versions of the algorithms therefore even the vanilla gradient.
+descent you still see oscillations there those oscillations are because of the stochastic nature of the updates in momentum as.
+well as nestrov you see some oscillations as we are going again ahead again because of the stochastic version of.

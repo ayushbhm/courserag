@@ -1,0 +1,2417 @@
+[
+  {
+    "text": "foreign",
+    "start": 0.299,
+    "duration": 3.0
+  },
+  {
+    "text": "[Music]",
+    "start": 6.62,
+    "duration": 17.159
+  },
+  {
+    "text": "so welcome back so we were talking about",
+    "start": 21.199,
+    "duration": 6.041
+  },
+  {
+    "text": "activation functions and we looked at a",
+    "start": 23.779,
+    "duration": 5.621
+  },
+  {
+    "text": "few popular ones starting with the",
+    "start": 27.24,
+    "duration": 4.619
+  },
+  {
+    "text": "logistic function then the tan H",
+    "start": 29.4,
+    "duration": 5.999
+  },
+  {
+    "text": "function uh then the relu and a few of",
+    "start": 31.859,
+    "duration": 5.641
+  },
+  {
+    "text": "its parameters like the Leaky relu the",
+    "start": 35.399,
+    "duration": 4.081
+  },
+  {
+    "text": "parametric uh relu and then the",
+    "start": 37.5,
+    "duration": 5.52
+  },
+  {
+    "text": "exponential uh a linear unit right and",
+    "start": 39.48,
+    "duration": 5.94
+  },
+  {
+    "text": "in all of these cases we made some",
+    "start": 43.02,
+    "duration": 4.14
+  },
+  {
+    "text": "comments about how do the gradients",
+    "start": 45.42,
+    "duration": 6.24
+  },
+  {
+    "text": "behave and then what can we uh do to uh",
+    "start": 47.16,
+    "duration": 7.32
+  },
+  {
+    "text": "how these activation functions evolved",
+    "start": 51.66,
+    "duration": 5.46
+  },
+  {
+    "text": "to take care of certain drawbacks of the",
+    "start": 54.48,
+    "duration": 4.259
+  },
+  {
+    "text": "earlier activation functions right so",
+    "start": 57.12,
+    "duration": 3.54
+  },
+  {
+    "text": "tan H was preferred because sigmoid had",
+    "start": 58.739,
+    "duration": 3.421
+  },
+  {
+    "text": "certain problems it was not zero",
+    "start": 60.66,
+    "duration": 2.399
+  },
+  {
+    "text": "centered",
+    "start": 62.16,
+    "duration": 2.94
+  },
+  {
+    "text": "so moments only in few directions were",
+    "start": 63.059,
+    "duration": 4.981
+  },
+  {
+    "text": "possible and relu is better than tanh",
+    "start": 65.1,
+    "duration": 4.379
+  },
+  {
+    "text": "and sigmoid because it's simple to",
+    "start": 68.04,
+    "duration": 3.66
+  },
+  {
+    "text": "compute and it does not saturate in the",
+    "start": 69.479,
+    "duration": 4.561
+  },
+  {
+    "text": "positive region then the variance of",
+    "start": 71.7,
+    "duration": 3.959
+  },
+  {
+    "text": "relu are better because they allow some",
+    "start": 74.04,
+    "duration": 3.899
+  },
+  {
+    "text": "gradients to power flow even when the in",
+    "start": 75.659,
+    "duration": 4.681
+  },
+  {
+    "text": "the negative region right and so on so",
+    "start": 77.939,
+    "duration": 5.641
+  },
+  {
+    "text": "we did all that and now we look at",
+    "start": 80.34,
+    "duration": 5.52
+  },
+  {
+    "text": "continue our journey on a more",
+    "start": 83.58,
+    "duration": 4.38
+  },
+  {
+    "text": "activation functions we'll do around",
+    "start": 85.86,
+    "duration": 5.34
+  },
+  {
+    "text": "three to four more uh starting with the",
+    "start": 87.96,
+    "duration": 5.4
+  },
+  {
+    "text": "max out activation function right so",
+    "start": 91.2,
+    "duration": 5.22
+  },
+  {
+    "text": "we'll motivate that uh starting with",
+    "start": 93.36,
+    "duration": 5.7
+  },
+  {
+    "text": "Dropout and then try to connect it to",
+    "start": 96.42,
+    "duration": 6.3
+  },
+  {
+    "text": "how there is some uh kind of",
+    "start": 99.06,
+    "duration": 5.58
+  },
+  {
+    "text": "I wouldn't say relationship but some",
+    "start": 102.72,
+    "duration": 3.96
+  },
+  {
+    "text": "analogy that you could draw from Dropout",
+    "start": 104.64,
+    "duration": 4.38
+  },
+  {
+    "text": "okay so we had discussed about this",
+    "start": 106.68,
+    "duration": 4.5
+  },
+  {
+    "text": "model averaging where you have a data",
+    "start": 109.02,
+    "duration": 5.16
+  },
+  {
+    "text": "set and you create sub data sets from",
+    "start": 111.18,
+    "duration": 5.219
+  },
+  {
+    "text": "here by sampling with replacement what",
+    "start": 114.18,
+    "duration": 3.84
+  },
+  {
+    "text": "do I mean by that so I have say a",
+    "start": 116.399,
+    "duration": 4.621
+  },
+  {
+    "text": "thousand data points okay I want to",
+    "start": 118.02,
+    "duration": 5.459
+  },
+  {
+    "text": "create another data set of thousand uh",
+    "start": 121.02,
+    "duration": 5.459
+  },
+  {
+    "text": "data points uh as how I will do that is",
+    "start": 123.479,
+    "duration": 5.881
+  },
+  {
+    "text": "I'll pick one training example from the",
+    "start": 126.479,
+    "duration": 4.921
+  },
+  {
+    "text": "original data set put it in this bucket",
+    "start": 129.36,
+    "duration": 5.459
+  },
+  {
+    "text": "right and then keep the training example",
+    "start": 131.4,
+    "duration": 5.16
+  },
+  {
+    "text": "here also it's not being removed so it's",
+    "start": 134.819,
+    "duration": 3.901
+  },
+  {
+    "text": "not that now you have 999 samples here",
+    "start": 136.56,
+    "duration": 4.14
+  },
+  {
+    "text": "you have the entire thousand samples I",
+    "start": 138.72,
+    "duration": 3.78
+  },
+  {
+    "text": "took one from there sample randomly one",
+    "start": 140.7,
+    "duration": 3.78
+  },
+  {
+    "text": "from there created a copy and put it in",
+    "start": 142.5,
+    "duration": 3.239
+  },
+  {
+    "text": "this bucket and I still have thousand",
+    "start": 144.48,
+    "duration": 3.36
+  },
+  {
+    "text": "here again I send them sample one",
+    "start": 145.739,
+    "duration": 4.561
+  },
+  {
+    "text": "randomly and put it in this bucket and I",
+    "start": 147.84,
+    "duration": 4.32
+  },
+  {
+    "text": "keep doing this till this bucket has",
+    "start": 150.3,
+    "duration": 3.72
+  },
+  {
+    "text": "thousand entries right so I'm create I'm",
+    "start": 152.16,
+    "duration": 4.5
+  },
+  {
+    "text": "sampling with replacement and I'm",
+    "start": 154.02,
+    "duration": 6.359
+  },
+  {
+    "text": "creating multiple such uh sub multiple",
+    "start": 156.66,
+    "duration": 6.0
+  },
+  {
+    "text": "such training sets from the original",
+    "start": 160.379,
+    "duration": 4.621
+  },
+  {
+    "text": "training set and each of these training",
+    "start": 162.66,
+    "duration": 3.9
+  },
+  {
+    "text": "sets will then be used to train a model",
+    "start": 165.0,
+    "duration": 4.14
+  },
+  {
+    "text": "and those models would have their own",
+    "start": 166.56,
+    "duration": 6.959
+  },
+  {
+    "text": "parameters like W1 to WK so here W just",
+    "start": 169.14,
+    "duration": 5.52
+  },
+  {
+    "text": "think of it as T direct it's a",
+    "start": 173.519,
+    "duration": 2.521
+  },
+  {
+    "text": "collection of all the parameters in the",
+    "start": 174.66,
+    "duration": 4.2
+  },
+  {
+    "text": "models I'm calling it W uh here all the",
+    "start": 176.04,
+    "duration": 5.699
+  },
+  {
+    "text": "parameters in the model and here W1 W2",
+    "start": 178.86,
+    "duration": 6.18
+  },
+  {
+    "text": "correspond to the parameters of these K",
+    "start": 181.739,
+    "duration": 6.301
+  },
+  {
+    "text": "different models each trained on a",
+    "start": 185.04,
+    "duration": 4.58
+  },
+  {
+    "text": "different version of the training set",
+    "start": 188.04,
+    "duration": 4.02
+  },
+  {
+    "text": "and each training set has the same size",
+    "start": 189.62,
+    "duration": 4.839
+  },
+  {
+    "text": "but it contains uh sampling with",
+    "start": 192.06,
+    "duration": 4.319
+  },
+  {
+    "text": "replacement right so what would happen",
+    "start": 194.459,
+    "duration": 5.28
+  },
+  {
+    "text": "in that case is that it is shown that if",
+    "start": 196.379,
+    "duration": 4.561
+  },
+  {
+    "text": "you do this sampling with replacement",
+    "start": 199.739,
+    "duration": 2.881
+  },
+  {
+    "text": "right so this bucket that you had the",
+    "start": 200.94,
+    "duration": 3.659
+  },
+  {
+    "text": "first bucket that you created that was",
+    "start": 202.62,
+    "duration": 4.979
+  },
+  {
+    "text": "used to train the model f hat1x which",
+    "start": 204.599,
+    "duration": 5.581
+  },
+  {
+    "text": "had a collection of parameters W1 so",
+    "start": 207.599,
+    "duration": 4.92
+  },
+  {
+    "text": "that bucket around 46 percent of the",
+    "start": 210.18,
+    "duration": 3.9
+  },
+  {
+    "text": "samples there would be duplicated and",
+    "start": 212.519,
+    "duration": 2.58
+  },
+  {
+    "text": "does make sense right because you're",
+    "start": 214.08,
+    "duration": 3.299
+  },
+  {
+    "text": "sampling with replacement so all roughly",
+    "start": 215.099,
+    "duration": 4.741
+  },
+  {
+    "text": "half the samples would get duplicated in",
+    "start": 217.379,
+    "duration": 4.14
+  },
+  {
+    "text": "this set so it won't be that all these",
+    "start": 219.84,
+    "duration": 2.759
+  },
+  {
+    "text": "thousand would be unique that should be",
+    "start": 221.519,
+    "duration": 3.421
+  },
+  {
+    "text": "obvious and there's also some analysis",
+    "start": 222.599,
+    "duration": 4.621
+  },
+  {
+    "text": "that roughly half of the samples are",
+    "start": 224.94,
+    "duration": 3.42
+  },
+  {
+    "text": "actually duplicates so we always",
+    "start": 227.22,
+    "duration": 2.879
+  },
+  {
+    "text": "expected duplicates there's a study",
+    "start": 228.36,
+    "duration": 3.42
+  },
+  {
+    "text": "which says exactly how many duplicates",
+    "start": 230.099,
+    "duration": 3.841
+  },
+  {
+    "text": "you can expect right so now you have",
+    "start": 231.78,
+    "duration": 4.319
+  },
+  {
+    "text": "1000 data points but there are",
+    "start": 233.94,
+    "duration": 4.62
+  },
+  {
+    "text": "duplicates in that so now the model has",
+    "start": 236.099,
+    "duration": 5.22
+  },
+  {
+    "text": "a better chance on overfitting on that",
+    "start": 238.56,
+    "duration": 5.94
+  },
+  {
+    "text": "right because now you have fewer samples",
+    "start": 241.319,
+    "duration": 4.92
+  },
+  {
+    "text": "than the original training data and",
+    "start": 244.5,
+    "duration": 3.18
+  },
+  {
+    "text": "you're seeing the same samples again and",
+    "start": 246.239,
+    "duration": 3.541
+  },
+  {
+    "text": "again some other model gets a chance to",
+    "start": 247.68,
+    "duration": 4.68
+  },
+  {
+    "text": "adjust on the same sample more times now",
+    "start": 249.78,
+    "duration": 5.819
+  },
+  {
+    "text": "right and hence in these models uh each",
+    "start": 252.36,
+    "duration": 6.42
+  },
+  {
+    "text": "of these models F1 hat to F2 had would",
+    "start": 255.599,
+    "duration": 6.121
+  },
+  {
+    "text": "like really better overfit to the bucket",
+    "start": 258.78,
+    "duration": 4.859
+  },
+  {
+    "text": "of training data on which it was a",
+    "start": 261.72,
+    "duration": 3.9
+  },
+  {
+    "text": "trained because that bucket is",
+    "start": 263.639,
+    "duration": 3.421
+  },
+  {
+    "text": "containing duplicates and it's each",
+    "start": 265.62,
+    "duration": 2.82
+  },
+  {
+    "text": "model is seeing the same training",
+    "start": 267.06,
+    "duration": 4.139
+  },
+  {
+    "text": "examples multiple times and then when",
+    "start": 268.44,
+    "duration": 4.38
+  },
+  {
+    "text": "you do inference you do some kind of",
+    "start": 271.199,
+    "duration": 3.481
+  },
+  {
+    "text": "model averaging it could be arithritic",
+    "start": 272.82,
+    "duration": 4.439
+  },
+  {
+    "text": "mean or geometric mean uh any of these",
+    "start": 274.68,
+    "duration": 4.2
+  },
+  {
+    "text": "are possible that we have seen it so we",
+    "start": 277.259,
+    "duration": 2.94
+  },
+  {
+    "text": "take the prediction from all the K",
+    "start": 278.88,
+    "duration": 3.66
+  },
+  {
+    "text": "models and then we take the average is 1",
+    "start": 280.199,
+    "duration": 4.44
+  },
+  {
+    "text": "possibility or you could take the max",
+    "start": 282.54,
+    "duration": 4.439
+  },
+  {
+    "text": "that is another possibility you could",
+    "start": 284.639,
+    "duration": 3.84
+  },
+  {
+    "text": "even take voting all of those",
+    "start": 286.979,
+    "duration": 3.121
+  },
+  {
+    "text": "possibilities exist right so this is",
+    "start": 288.479,
+    "duration": 5.041
+  },
+  {
+    "text": "what happens in uh model averaging and",
+    "start": 290.1,
+    "duration": 5.34
+  },
+  {
+    "text": "then in deep neural networks the way we",
+    "start": 293.52,
+    "duration": 5.16
+  },
+  {
+    "text": "had done that was using uh Dropout right",
+    "start": 295.44,
+    "duration": 6.3
+  },
+  {
+    "text": "so we had uh we knew that it's difficult",
+    "start": 298.68,
+    "duration": 4.86
+  },
+  {
+    "text": "to train multiple models so Dropout was",
+    "start": 301.74,
+    "duration": 5.58
+  },
+  {
+    "text": "a substitute for uh uh for getting the",
+    "start": 303.54,
+    "duration": 7.32
+  },
+  {
+    "text": "effect of model average okay now uh the",
+    "start": 307.32,
+    "duration": 5.52
+  },
+  {
+    "text": "same thing I'll just repeat right so the",
+    "start": 310.86,
+    "duration": 3.72
+  },
+  {
+    "text": "model weights get optimized for a",
+    "start": 312.84,
+    "duration": 3.359
+  },
+  {
+    "text": "specific set of sample each of those",
+    "start": 314.58,
+    "duration": 3.54
+  },
+  {
+    "text": "buckets corresponding to one of the",
+    "start": 316.199,
+    "duration": 4.261
+  },
+  {
+    "text": "models the model is over trained on that",
+    "start": 318.12,
+    "duration": 5.94
+  },
+  {
+    "text": "bucket so it overfits but in dropouts we",
+    "start": 320.46,
+    "duration": 5.519
+  },
+  {
+    "text": "don't have a similar luxury right so in",
+    "start": 324.06,
+    "duration": 4.199
+  },
+  {
+    "text": "dropouts what is happening is that you",
+    "start": 325.979,
+    "duration": 6.301
+  },
+  {
+    "text": "have these multiple sub models each sub",
+    "start": 328.259,
+    "duration": 6.541
+  },
+  {
+    "text": "model is getting sampled rarely right",
+    "start": 332.28,
+    "duration": 4.56
+  },
+  {
+    "text": "because there are an exponentially High",
+    "start": 334.8,
+    "duration": 4.26
+  },
+  {
+    "text": "number of sub models so each sub model",
+    "start": 336.84,
+    "duration": 4.98
+  },
+  {
+    "text": "is getting sampled rarely so each sub",
+    "start": 339.06,
+    "duration": 4.68
+  },
+  {
+    "text": "model is not getting the chance to",
+    "start": 341.82,
+    "duration": 3.96
+  },
+  {
+    "text": "overfit on specific portions of the data",
+    "start": 343.74,
+    "duration": 4.56
+  },
+  {
+    "text": "because hardly it will see the data once",
+    "start": 345.78,
+    "duration": 5.28
+  },
+  {
+    "text": "I mean forget about seeing it twice it",
+    "start": 348.3,
+    "duration": 4.739
+  },
+  {
+    "text": "may not even see it once right so this",
+    "start": 351.06,
+    "duration": 4.04
+  },
+  {
+    "text": "kind of uh",
+    "start": 353.039,
+    "duration": 3.961
+  },
+  {
+    "text": "phenomenon which happens in model",
+    "start": 355.1,
+    "duration": 5.26
+  },
+  {
+    "text": "averaging or in bagging where the each",
+    "start": 357.0,
+    "duration": 5.28
+  },
+  {
+    "text": "model gets each sub model or each",
+    "start": 360.36,
+    "duration": 3.54
+  },
+  {
+    "text": "different model gets a chance to overfit",
+    "start": 362.28,
+    "duration": 3.78
+  },
+  {
+    "text": "on the training data Dropout does not",
+    "start": 363.9,
+    "duration": 5.579
+  },
+  {
+    "text": "really get that chance right so now uh",
+    "start": 366.06,
+    "duration": 6.419
+  },
+  {
+    "text": "in the case of bagging",
+    "start": 369.479,
+    "duration": 5.101
+  },
+  {
+    "text": "the model is getting to update the",
+    "start": 372.479,
+    "duration": 3.481
+  },
+  {
+    "text": "weights again and again on the same",
+    "start": 374.58,
+    "duration": 2.88
+  },
+  {
+    "text": "training sample but in the case of",
+    "start": 375.96,
+    "duration": 3.42
+  },
+  {
+    "text": "Dropout it's not getting that chance so",
+    "start": 377.46,
+    "duration": 4.079
+  },
+  {
+    "text": "whenever it sees a sample we should try",
+    "start": 379.38,
+    "duration": 4.08
+  },
+  {
+    "text": "to do a larger update right because this",
+    "start": 381.539,
+    "duration": 4.38
+  },
+  {
+    "text": "if this data point is sensitive we",
+    "start": 383.46,
+    "duration": 4.44
+  },
+  {
+    "text": "should try to do a larger update but",
+    "start": 385.919,
+    "duration": 3.601
+  },
+  {
+    "text": "then how do you do a larger update maybe",
+    "start": 387.9,
+    "duration": 3.48
+  },
+  {
+    "text": "you could increase the learning rate but",
+    "start": 389.52,
+    "duration": 3.6
+  },
+  {
+    "text": "if you do that there could be problems",
+    "start": 391.38,
+    "duration": 3.42
+  },
+  {
+    "text": "right we have seen several problems in",
+    "start": 393.12,
+    "duration": 3.72
+  },
+  {
+    "text": "with increasing learning rate and the",
+    "start": 394.8,
+    "duration": 4.14
+  },
+  {
+    "text": "case of dropouts since these parameters",
+    "start": 396.84,
+    "duration": 3.84
+  },
+  {
+    "text": "are shared across all these sub models",
+    "start": 398.94,
+    "duration": 4.02
+  },
+  {
+    "text": "now you increase the learning rate it",
+    "start": 400.68,
+    "duration": 3.66
+  },
+  {
+    "text": "could have effects on the other sub",
+    "start": 402.96,
+    "duration": 3.299
+  },
+  {
+    "text": "models right so that's the situation",
+    "start": 404.34,
+    "duration": 5.1
+  },
+  {
+    "text": "where we are in we drop we motivated",
+    "start": 406.259,
+    "duration": 6.121
+  },
+  {
+    "text": "dropouts from model averaging but now we",
+    "start": 409.44,
+    "duration": 4.56
+  },
+  {
+    "text": "are observing that something which",
+    "start": 412.38,
+    "duration": 3.84
+  },
+  {
+    "text": "happens in model averaging where every",
+    "start": 414.0,
+    "duration": 5.819
+  },
+  {
+    "text": "model sub model gets to overfit on the",
+    "start": 416.22,
+    "duration": 5.88
+  },
+  {
+    "text": "specific training data that effect does",
+    "start": 419.819,
+    "duration": 4.561
+  },
+  {
+    "text": "not really happen in Dropout and in",
+    "start": 422.1,
+    "duration": 4.56
+  },
+  {
+    "text": "Dropout still we do model averaging",
+    "start": 424.38,
+    "duration": 4.02
+  },
+  {
+    "text": "right so now the way of model averaging",
+    "start": 426.66,
+    "duration": 4.86
+  },
+  {
+    "text": "was again that each of these neurons you",
+    "start": 428.4,
+    "duration": 5.1
+  },
+  {
+    "text": "consider their out port and you multiply",
+    "start": 431.52,
+    "duration": 3.6
+  },
+  {
+    "text": "it by a fraction P which is the number",
+    "start": 433.5,
+    "duration": 3.96
+  },
+  {
+    "text": "of times this neuron was on right so we",
+    "start": 435.12,
+    "duration": 4.94
+  },
+  {
+    "text": "are just assuming that all neurons were",
+    "start": 437.46,
+    "duration": 4.98
+  },
+  {
+    "text": "equally participating and equally",
+    "start": 440.06,
+    "duration": 4.24
+  },
+  {
+    "text": "sensitive to all the training examples",
+    "start": 442.44,
+    "duration": 4.02
+  },
+  {
+    "text": "and hence they were all on only a",
+    "start": 444.3,
+    "duration": 4.619
+  },
+  {
+    "text": "fraction of times P so we'll take all of",
+    "start": 446.46,
+    "duration": 4.38
+  },
+  {
+    "text": "their weight as P assign a weight P to",
+    "start": 448.919,
+    "duration": 3.18
+  },
+  {
+    "text": "all of them and then do the model",
+    "start": 450.84,
+    "duration": 3.54
+  },
+  {
+    "text": "averaging right but",
+    "start": 452.099,
+    "duration": 4.5
+  },
+  {
+    "text": "this Gap is still not being addressed",
+    "start": 454.38,
+    "duration": 4.259
+  },
+  {
+    "text": "that in bagging actually the model",
+    "start": 456.599,
+    "duration": 4.38
+  },
+  {
+    "text": "overfits on specific samples whereas in",
+    "start": 458.639,
+    "duration": 4.62
+  },
+  {
+    "text": "Dropout the concept of overfitting is",
+    "start": 460.979,
+    "duration": 3.901
+  },
+  {
+    "text": "not really happening on any specific",
+    "start": 463.259,
+    "duration": 3.72
+  },
+  {
+    "text": "training examples because each sub model",
+    "start": 464.88,
+    "duration": 4.14
+  },
+  {
+    "text": "is rarely seeing the training data right",
+    "start": 466.979,
+    "duration": 4.681
+  },
+  {
+    "text": "so now how do we close this Gap can we",
+    "start": 469.02,
+    "duration": 5.34
+  },
+  {
+    "text": "do something so that's where MaxOut gets",
+    "start": 471.66,
+    "duration": 4.74
+  },
+  {
+    "text": "motivated from so this is what Dropout",
+    "start": 474.36,
+    "duration": 4.86
+  },
+  {
+    "text": "does right so drop out at every time",
+    "start": 476.4,
+    "duration": 6.0
+  },
+  {
+    "text": "step now you have",
+    "start": 479.22,
+    "duration": 5.34
+  },
+  {
+    "text": "four neurons in the hidden layer H one",
+    "start": 482.4,
+    "duration": 4.199
+  },
+  {
+    "text": "one H one two H one three h one four so",
+    "start": 484.56,
+    "duration": 3.6
+  },
+  {
+    "text": "we'll apply a mask right with",
+    "start": 486.599,
+    "duration": 4.201
+  },
+  {
+    "text": "probability P so some of these would be",
+    "start": 488.16,
+    "duration": 5.099
+  },
+  {
+    "text": "on some of these would be off the ones",
+    "start": 490.8,
+    "duration": 4.2
+  },
+  {
+    "text": "which are off will not participate in",
+    "start": 493.259,
+    "duration": 4.021
+  },
+  {
+    "text": "the computation so in particular if I am",
+    "start": 495.0,
+    "duration": 7.02
+  },
+  {
+    "text": "Computing a to 1 only h11 and h14 will",
+    "start": 497.28,
+    "duration": 6.12
+  },
+  {
+    "text": "participate with the corresponding",
+    "start": 502.02,
+    "duration": 4.079
+  },
+  {
+    "text": "weights w11 and W one four if I am",
+    "start": 503.4,
+    "duration": 5.88
+  },
+  {
+    "text": "Computing a22 then again only H 1 1 and",
+    "start": 506.099,
+    "duration": 6.06
+  },
+  {
+    "text": "H2 h14 will participate with the",
+    "start": 509.28,
+    "duration": 5.4
+  },
+  {
+    "text": "corresponding weights w21 and W 2 4",
+    "start": 512.159,
+    "duration": 8.18
+  },
+  {
+    "text": "right uh and now what would happen",
+    "start": 514.68,
+    "duration": 5.659
+  },
+  {
+    "text": "uh yeah so now now let's consider a",
+    "start": 520.76,
+    "duration": 5.68
+  },
+  {
+    "text": "scenario right where uh uh these two",
+    "start": 523.44,
+    "duration": 4.86
+  },
+  {
+    "text": "outputs a21 a22 have the following",
+    "start": 526.44,
+    "duration": 3.54
+  },
+  {
+    "text": "relationship they're both greater than",
+    "start": 528.3,
+    "duration": 3.539
+  },
+  {
+    "text": "zero because I'm taking them greater",
+    "start": 529.98,
+    "duration": 3.24
+  },
+  {
+    "text": "than zero because it's a relu activation",
+    "start": 531.839,
+    "duration": 3.781
+  },
+  {
+    "text": "function so I want both of them to be uh",
+    "start": 533.22,
+    "duration": 4.86
+  },
+  {
+    "text": "active and not dead so say both of them",
+    "start": 535.62,
+    "duration": 4.08
+  },
+  {
+    "text": "are greater than zero but a two one is",
+    "start": 538.08,
+    "duration": 3.84
+  },
+  {
+    "text": "less than a to 2 right so what does that",
+    "start": 539.7,
+    "duration": 4.259
+  },
+  {
+    "text": "actually mean uh let's try to understand",
+    "start": 541.92,
+    "duration": 5.16
+  },
+  {
+    "text": "that in terms of how neurons react to",
+    "start": 543.959,
+    "duration": 6.181
+  },
+  {
+    "text": "training samples right so if a21 is",
+    "start": 547.08,
+    "duration": 7.34
+  },
+  {
+    "text": "actually uh less than a to 2",
+    "start": 550.14,
+    "duration": 4.28
+  },
+  {
+    "text": "it means that 8 to 2 is reacting more",
+    "start": 554.7,
+    "duration": 5.639
+  },
+  {
+    "text": "positively to this training sample right",
+    "start": 558.48,
+    "duration": 3.66
+  },
+  {
+    "text": "it's firing for this training sample",
+    "start": 560.339,
+    "duration": 3.721
+  },
+  {
+    "text": "even better because its output is high",
+    "start": 562.14,
+    "duration": 3.72
+  },
+  {
+    "text": "right so now if it related to our",
+    "start": 564.06,
+    "duration": 3.719
+  },
+  {
+    "text": "earlier discussions on MP neurons and so",
+    "start": 565.86,
+    "duration": 4.26
+  },
+  {
+    "text": "on we had the situation that if the",
+    "start": 567.779,
+    "duration": 4.921
+  },
+  {
+    "text": "inputs are of a certain configuration",
+    "start": 570.12,
+    "duration": 4.74
+  },
+  {
+    "text": "then this neuron fires right now this",
+    "start": 572.7,
+    "duration": 4.92
+  },
+  {
+    "text": "neuron is firing More Than This neuron",
+    "start": 574.86,
+    "duration": 5.7
+  },
+  {
+    "text": "which is firing weakly right so now that",
+    "start": 577.62,
+    "duration": 6.3
+  },
+  {
+    "text": "means this neuron is more uh sensitive",
+    "start": 580.56,
+    "duration": 5.64
+  },
+  {
+    "text": "to this training data and maybe I should",
+    "start": 583.92,
+    "duration": 3.96
+  },
+  {
+    "text": "respect that right so when I'm updating",
+    "start": 586.2,
+    "duration": 5.4
+  },
+  {
+    "text": "can I update this better as opposed to",
+    "start": 587.88,
+    "duration": 5.459
+  },
+  {
+    "text": "updating this right because this is",
+    "start": 591.6,
+    "duration": 4.919
+  },
+  {
+    "text": "reacting weekly right so can I do that",
+    "start": 593.339,
+    "duration": 7.021
+  },
+  {
+    "text": "so one option of doing that is to take",
+    "start": 596.519,
+    "duration": 6.781
+  },
+  {
+    "text": "the yeah so this is the effect that we",
+    "start": 600.36,
+    "duration": 5.76
+  },
+  {
+    "text": "want right that we want to make these we",
+    "start": 603.3,
+    "duration": 4.92
+  },
+  {
+    "text": "want to acknowledge the fact that these",
+    "start": 606.12,
+    "duration": 4.74
+  },
+  {
+    "text": "neurons are sensitive to Turning certain",
+    "start": 608.22,
+    "duration": 4.619
+  },
+  {
+    "text": "training samples one neuron is more",
+    "start": 610.86,
+    "duration": 3.84
+  },
+  {
+    "text": "sensitive than the other and hence I",
+    "start": 612.839,
+    "duration": 3.661
+  },
+  {
+    "text": "should perhaps try to get this effect",
+    "start": 614.7,
+    "duration": 4.8
+  },
+  {
+    "text": "which I had in bagging where the neurons",
+    "start": 616.5,
+    "duration": 4.98
+  },
+  {
+    "text": "were adapting to the specific bucket of",
+    "start": 619.5,
+    "duration": 4.14
+  },
+  {
+    "text": "training data and now since this neuron",
+    "start": 621.48,
+    "duration": 3.78
+  },
+  {
+    "text": "has shown such some preference for this",
+    "start": 623.64,
+    "duration": 3.66
+  },
+  {
+    "text": "training data can I give it more",
+    "start": 625.26,
+    "duration": 4.199
+  },
+  {
+    "text": "preference can I make its updates better",
+    "start": 627.3,
+    "duration": 4.62
+  },
+  {
+    "text": "so as opposed to the relative updates of",
+    "start": 629.459,
+    "duration": 4.021
+  },
+  {
+    "text": "the other neuron right I don't want that",
+    "start": 631.92,
+    "duration": 3.12
+  },
+  {
+    "text": "other neuron to specialize for this",
+    "start": 633.48,
+    "duration": 3.66
+  },
+  {
+    "text": "training sample because it has not shown",
+    "start": 635.04,
+    "duration": 3.72
+  },
+  {
+    "text": "interest in this training sample right",
+    "start": 637.14,
+    "duration": 3.42
+  },
+  {
+    "text": "so one way of doing that is now I could",
+    "start": 638.76,
+    "duration": 3.9
+  },
+  {
+    "text": "take the max of these two so max would",
+    "start": 640.56,
+    "duration": 4.92
+  },
+  {
+    "text": "turn out to be a22 right and then when",
+    "start": 642.66,
+    "duration": 4.859
+  },
+  {
+    "text": "the gradients flow back right so now",
+    "start": 645.48,
+    "duration": 4.46
+  },
+  {
+    "text": "what is uh",
+    "start": 647.519,
+    "duration": 6.56
+  },
+  {
+    "text": "h21 it's the max of",
+    "start": 649.94,
+    "duration": 4.139
+  },
+  {
+    "text": "a to 2",
+    "start": 655.68,
+    "duration": 4.08
+  },
+  {
+    "text": "and a21",
+    "start": 657.899,
+    "duration": 6.06
+  },
+  {
+    "text": "which is equal to a 2 2 right so now if",
+    "start": 659.76,
+    "duration": 7.019
+  },
+  {
+    "text": "I take the derivative of h21 with",
+    "start": 663.959,
+    "duration": 6.12
+  },
+  {
+    "text": "respect to a21 and the derivative of h21",
+    "start": 666.779,
+    "duration": 6.481
+  },
+  {
+    "text": "with respect to a22 then this would be 0",
+    "start": 670.079,
+    "duration": 5.401
+  },
+  {
+    "text": "and this would be 1 so the gradient will",
+    "start": 673.26,
+    "duration": 4.38
+  },
+  {
+    "text": "only flow to this part it will not flow",
+    "start": 675.48,
+    "duration": 4.56
+  },
+  {
+    "text": "to this part right and that's what you",
+    "start": 677.64,
+    "duration": 4.56
+  },
+  {
+    "text": "wanted to achieve that you wanted to",
+    "start": 680.04,
+    "duration": 4.32
+  },
+  {
+    "text": "make this neuron specialized by giving",
+    "start": 682.2,
+    "duration": 4.44
+  },
+  {
+    "text": "it the signal and ignore this neuron",
+    "start": 684.36,
+    "duration": 4.14
+  },
+  {
+    "text": "because it was not really showing much",
+    "start": 686.64,
+    "duration": 4.319
+  },
+  {
+    "text": "enthusiasm for this input so let it not",
+    "start": 688.5,
+    "duration": 5.82
+  },
+  {
+    "text": "fire and I'll kind of ignore it and just",
+    "start": 690.959,
+    "duration": 5.401
+  },
+  {
+    "text": "try to make this other neuron specialize",
+    "start": 694.32,
+    "duration": 4.019
+  },
+  {
+    "text": "on this training sample and if you do",
+    "start": 696.36,
+    "duration": 3.419
+  },
+  {
+    "text": "that then in some sense your different",
+    "start": 698.339,
+    "duration": 4.861
+  },
+  {
+    "text": "neurons are uh kind of getting adapted",
+    "start": 699.779,
+    "duration": 5.581
+  },
+  {
+    "text": "to specific training samples and you are",
+    "start": 703.2,
+    "duration": 4.86
+  },
+  {
+    "text": "getting the same uh effect as you expect",
+    "start": 705.36,
+    "duration": 5.82
+  },
+  {
+    "text": "in model averaging or in bagging right",
+    "start": 708.06,
+    "duration": 5.7
+  },
+  {
+    "text": "where certain neurons are certain sub",
+    "start": 711.18,
+    "duration": 5.279
+  },
+  {
+    "text": "models are specializing for certain",
+    "start": 713.76,
+    "duration": 4.38
+  },
+  {
+    "text": "training samples right so that's the",
+    "start": 716.459,
+    "duration": 3.661
+  },
+  {
+    "text": "effect that you're trying to achieve and",
+    "start": 718.14,
+    "duration": 4.86
+  },
+  {
+    "text": "hence you do this Max now what was a21",
+    "start": 720.12,
+    "duration": 7.399
+  },
+  {
+    "text": "a21 was actually this",
+    "start": 723.0,
+    "duration": 4.519
+  },
+  {
+    "text": "and a22 was this so you can think of",
+    "start": 727.62,
+    "duration": 4.68
+  },
+  {
+    "text": "these as there are two linear",
+    "start": 730.38,
+    "duration": 4.26
+  },
+  {
+    "text": "Transformations happening here and",
+    "start": 732.3,
+    "duration": 4.74
+  },
+  {
+    "text": "you're selecting the max of those linear",
+    "start": 734.64,
+    "duration": 5.46
+  },
+  {
+    "text": "Transformations and by restricted 2",
+    "start": 737.04,
+    "duration": 5.58
+  },
+  {
+    "text": "right so you could even have K linear",
+    "start": 740.1,
+    "duration": 4.739
+  },
+  {
+    "text": "Transformations and you could select the",
+    "start": 742.62,
+    "duration": 3.839
+  },
+  {
+    "text": "Max from that right so let's let's just",
+    "start": 744.839,
+    "duration": 3.601
+  },
+  {
+    "text": "delve a bit more into this over the next",
+    "start": 746.459,
+    "duration": 4.681
+  },
+  {
+    "text": "few slides to get this picture uh clear",
+    "start": 748.44,
+    "duration": 4.38
+  },
+  {
+    "text": "of what I mean by K linear",
+    "start": 751.14,
+    "duration": 3.78
+  },
+  {
+    "text": "Transformations right",
+    "start": 752.82,
+    "duration": 4.139
+  },
+  {
+    "text": "so this is what happens in Dropout right",
+    "start": 754.92,
+    "duration": 4.32
+  },
+  {
+    "text": "we're still trying to compare Dropout",
+    "start": 756.959,
+    "duration": 3.961
+  },
+  {
+    "text": "and see what was happening there so in",
+    "start": 759.24,
+    "duration": 4.38
+  },
+  {
+    "text": "Dropout what happens is uh I can divide",
+    "start": 760.92,
+    "duration": 5.4
+  },
+  {
+    "text": "this nodes in this hidden layer",
+    "start": 763.62,
+    "duration": 5.159
+  },
+  {
+    "text": "right uh this was the hidden layer I am",
+    "start": 766.32,
+    "duration": 4.38
+  },
+  {
+    "text": "dividing nodes into three parts one is",
+    "start": 768.779,
+    "duration": 3.481
+  },
+  {
+    "text": "the black nodes which have been dropped",
+    "start": 770.7,
+    "duration": 2.819
+  },
+  {
+    "text": "out so they are completely not",
+    "start": 772.26,
+    "duration": 4.56
+  },
+  {
+    "text": "participating in the uh uh in the output",
+    "start": 773.519,
+    "duration": 4.801
+  },
+  {
+    "text": "right they are not participating in the",
+    "start": 776.82,
+    "duration": 3.18
+  },
+  {
+    "text": "computation at all and then there are",
+    "start": 778.32,
+    "duration": 3.48
+  },
+  {
+    "text": "two types of nodes one are strongly",
+    "start": 780.0,
+    "duration": 3.24
+  },
+  {
+    "text": "responding nodes and the others are",
+    "start": 781.8,
+    "duration": 3.599
+  },
+  {
+    "text": "weakly responding notes and now in the",
+    "start": 783.24,
+    "duration": 3.779
+  },
+  {
+    "text": "case of Dropout irrespective whether",
+    "start": 785.399,
+    "duration": 3.12
+  },
+  {
+    "text": "you're strongly responding or weakly",
+    "start": 787.019,
+    "duration": 4.081
+  },
+  {
+    "text": "responding the gradients do flow back to",
+    "start": 788.519,
+    "duration": 4.38
+  },
+  {
+    "text": "you right and the gradients will of",
+    "start": 791.1,
+    "duration": 3.0
+  },
+  {
+    "text": "course flow back in proportion but",
+    "start": 792.899,
+    "duration": 3.481
+  },
+  {
+    "text": "you're still all of you are being",
+    "start": 794.1,
+    "duration": 4.979
+  },
+  {
+    "text": "responsible for the output and the",
+    "start": 796.38,
+    "duration": 4.68
+  },
+  {
+    "text": "certain nodes may not maybe get",
+    "start": 799.079,
+    "duration": 4.141
+  },
+  {
+    "text": "spatialized for the specific input right",
+    "start": 801.06,
+    "duration": 4.14
+  },
+  {
+    "text": "so that's what is happening in the case",
+    "start": 803.22,
+    "duration": 4.739
+  },
+  {
+    "text": "of Dropout now if you look at the sub",
+    "start": 805.2,
+    "duration": 5.1
+  },
+  {
+    "text": "model that we have in the case of max",
+    "start": 807.959,
+    "duration": 4.32
+  },
+  {
+    "text": "out what is happening here is the",
+    "start": 810.3,
+    "duration": 4.02
+  },
+  {
+    "text": "following",
+    "start": 812.279,
+    "duration": 4.081
+  },
+  {
+    "text": "right so this is what is happening in",
+    "start": 814.32,
+    "duration": 5.16
+  },
+  {
+    "text": "max out now I have considered a max out",
+    "start": 816.36,
+    "duration": 5.96
+  },
+  {
+    "text": "layer and because I can't show many uh",
+    "start": 819.48,
+    "duration": 7.14
+  },
+  {
+    "text": "neurons here this is One max out neuron",
+    "start": 822.32,
+    "duration": 7.36
+  },
+  {
+    "text": "okay this max out neuron in turn has",
+    "start": 826.62,
+    "duration": 7.159
+  },
+  {
+    "text": "three nodes each of this has some uh",
+    "start": 829.68,
+    "duration": 6.36
+  },
+  {
+    "text": "linear transformation right so this is",
+    "start": 833.779,
+    "duration": 4.721
+  },
+  {
+    "text": "W1 transpose X this is W2 transpose X",
+    "start": 836.04,
+    "duration": 5.46
+  },
+  {
+    "text": "this is W3 transpose X and then I'm only",
+    "start": 838.5,
+    "duration": 4.92
+  },
+  {
+    "text": "taking the max of these guys and",
+    "start": 841.5,
+    "duration": 4.38
+  },
+  {
+    "text": "allowing it to pass forward right so in",
+    "start": 843.42,
+    "duration": 4.32
+  },
+  {
+    "text": "essence these two nodes have been",
+    "start": 845.88,
+    "duration": 4.019
+  },
+  {
+    "text": "dropped out because of the max operation",
+    "start": 847.74,
+    "duration": 3.839
+  },
+  {
+    "text": "so you are getting the same effect as",
+    "start": 849.899,
+    "duration": 5.281
+  },
+  {
+    "text": "Dropout similarly you have these two",
+    "start": 851.579,
+    "duration": 6.481
+  },
+  {
+    "text": "nodes here three this max out neuron",
+    "start": 855.18,
+    "duration": 5.399
+  },
+  {
+    "text": "here which has inside three linear",
+    "start": 858.06,
+    "duration": 4.68
+  },
+  {
+    "text": "Transformations happening okay let me",
+    "start": 860.579,
+    "duration": 5.661
+  },
+  {
+    "text": "just call them as W1",
+    "start": 862.74,
+    "duration": 3.5
+  },
+  {
+    "text": "maybe call it w tilde transpose x w 2",
+    "start": 866.3,
+    "duration": 9.159
+  },
+  {
+    "text": "tilde transpose X and W 3 tilde",
+    "start": 871.079,
+    "duration": 8.161
+  },
+  {
+    "text": "transpose X see here again I had three",
+    "start": 875.459,
+    "duration": 5.94
+  },
+  {
+    "text": "linear Transformations then I just",
+    "start": 879.24,
+    "duration": 5.52
+  },
+  {
+    "text": "selected the max of those",
+    "start": 881.399,
+    "duration": 6.06
+  },
+  {
+    "text": "and dropped out these neurons right so",
+    "start": 884.76,
+    "duration": 5.16
+  },
+  {
+    "text": "now as opposed to Dropout where after",
+    "start": 887.459,
+    "duration": 4.981
+  },
+  {
+    "text": "dropping out all all the neurons",
+    "start": 889.92,
+    "duration": 5.279
+  },
+  {
+    "text": "participate and even during inference we",
+    "start": 892.44,
+    "duration": 5.36
+  },
+  {
+    "text": "take equal",
+    "start": 895.199,
+    "duration": 2.601
+  },
+  {
+    "text": "weightage to all the participating",
+    "start": 897.86,
+    "duration": 5.38
+  },
+  {
+    "text": "neurons now we are ensuring that the",
+    "start": 899.82,
+    "duration": 6.06
+  },
+  {
+    "text": "neurons which participate Only The",
+    "start": 903.24,
+    "duration": 4.92
+  },
+  {
+    "text": "Strongest Ones of those are actually",
+    "start": 905.88,
+    "duration": 4.079
+  },
+  {
+    "text": "active and we are further dropping out",
+    "start": 908.16,
+    "duration": 5.82
+  },
+  {
+    "text": "the weak one okay so this is uh what max",
+    "start": 909.959,
+    "duration": 5.581
+  },
+  {
+    "text": "out looks like so you have Max of",
+    "start": 913.98,
+    "duration": 3.719
+  },
+  {
+    "text": "multiple affine Transformations I've",
+    "start": 915.54,
+    "duration": 3.84
+  },
+  {
+    "text": "been saying linear but they would be a",
+    "start": 917.699,
+    "duration": 3.741
+  },
+  {
+    "text": "fine because there's a plus b also",
+    "start": 919.38,
+    "duration": 6.139
+  },
+  {
+    "text": "possible there right",
+    "start": 921.44,
+    "duration": 4.079
+  },
+  {
+    "text": "yeah so these are in multiple uh neuron",
+    "start": 930.72,
+    "duration": 5.64
+  },
+  {
+    "text": "multiple uh affine Transformations",
+    "start": 934.44,
+    "duration": 3.78
+  },
+  {
+    "text": "inside I have shown n of those and then",
+    "start": 936.36,
+    "duration": 3.9
+  },
+  {
+    "text": "you're just selecting the max of those",
+    "start": 938.22,
+    "duration": 6.179
+  },
+  {
+    "text": "two right and uh you you could even",
+    "start": 940.26,
+    "duration": 7.019
+  },
+  {
+    "text": "think of max out as a generalization of",
+    "start": 944.399,
+    "duration": 6.841
+  },
+  {
+    "text": "the relu function right so now you could",
+    "start": 947.279,
+    "duration": 8.161
+  },
+  {
+    "text": "think of uh a relu function uh any of",
+    "start": 951.24,
+    "duration": 6.539
+  },
+  {
+    "text": "the relu functions right relu or leaky",
+    "start": 955.44,
+    "duration": 4.56
+  },
+  {
+    "text": "value or parametric relu as a",
+    "start": 957.779,
+    "duration": 4.321
+  },
+  {
+    "text": "generalization of uh or as a special",
+    "start": 960.0,
+    "duration": 5.1
+  },
+  {
+    "text": "case of the max out neuron uh such that",
+    "start": 962.1,
+    "duration": 5.16
+  },
+  {
+    "text": "there are two max out I mean two neurons",
+    "start": 965.1,
+    "duration": 4.919
+  },
+  {
+    "text": "inside the max out neuron and for one of",
+    "start": 967.26,
+    "duration": 4.98
+  },
+  {
+    "text": "them the weight and the bias is zero and",
+    "start": 970.019,
+    "duration": 4.44
+  },
+  {
+    "text": "then for the other one you have W2 X",
+    "start": 972.24,
+    "duration": 7.56
+  },
+  {
+    "text": "plus b now in the case of uh relu now W2",
+    "start": 974.459,
+    "duration": 8.101
+  },
+  {
+    "text": "is again just equal to 1 and B is equal",
+    "start": 979.8,
+    "duration": 4.44
+  },
+  {
+    "text": "to zero so then you're just left with",
+    "start": 982.56,
+    "duration": 2.82
+  },
+  {
+    "text": "Max of",
+    "start": 984.24,
+    "duration": 3.719
+  },
+  {
+    "text": "uh this quantity is 0",
+    "start": 985.38,
+    "duration": 4.74
+  },
+  {
+    "text": "and the other quantity is just X right",
+    "start": 987.959,
+    "duration": 4.68
+  },
+  {
+    "text": "now in the case of the earlier leaky",
+    "start": 990.12,
+    "duration": 5.339
+  },
+  {
+    "text": "value that we had seen this was 0.1 x so",
+    "start": 992.639,
+    "duration": 5.461
+  },
+  {
+    "text": "you could think of right as again Max of",
+    "start": 995.459,
+    "duration": 4.62
+  },
+  {
+    "text": "uh zero",
+    "start": 998.1,
+    "duration": 5.76
+  },
+  {
+    "text": "comma 0.1 x",
+    "start": 1000.079,
+    "duration": 5.94
+  },
+  {
+    "text": "plus the bias again is zero right so",
+    "start": 1003.86,
+    "duration": 4.44
+  },
+  {
+    "text": "this is also a special case of the max",
+    "start": 1006.019,
+    "duration": 3.961
+  },
+  {
+    "text": "out neuron so you can think of max out",
+    "start": 1008.3,
+    "duration": 4.5
+  },
+  {
+    "text": "neuron as generalizing relu and all its",
+    "start": 1009.98,
+    "duration": 5.82
+  },
+  {
+    "text": "variance and uh",
+    "start": 1012.8,
+    "duration": 5.399
+  },
+  {
+    "text": "again it gives you more uh Power more",
+    "start": 1015.8,
+    "duration": 5.88
+  },
+  {
+    "text": "non-linearity so this is what if you",
+    "start": 1018.199,
+    "duration": 5.64
+  },
+  {
+    "text": "have these two max out neurons right so",
+    "start": 1021.68,
+    "duration": 4.499
+  },
+  {
+    "text": "if one of them learns the the value of",
+    "start": 1023.839,
+    "duration": 4.681
+  },
+  {
+    "text": "W1 as 0.5 x and the other one learns the",
+    "start": 1026.179,
+    "duration": 4.5
+  },
+  {
+    "text": "value of W2 is minus 0.5 x then",
+    "start": 1028.52,
+    "duration": 3.48
+  },
+  {
+    "text": "effectively you are getting this",
+    "start": 1030.679,
+    "duration": 3.66
+  },
+  {
+    "text": "v-shaped a non-linearity right which is",
+    "start": 1032.0,
+    "duration": 6.78
+  },
+  {
+    "text": "uh the same as the absolute function and",
+    "start": 1034.339,
+    "duration": 6.36
+  },
+  {
+    "text": "then you can also show there are certain",
+    "start": 1038.78,
+    "duration": 5.279
+  },
+  {
+    "text": "configurations possible so suppose you",
+    "start": 1040.699,
+    "duration": 7.081
+  },
+  {
+    "text": "have uh four uh affine Transformations",
+    "start": 1044.059,
+    "duration": 5.581
+  },
+  {
+    "text": "within a max out neuron right so I'm",
+    "start": 1047.78,
+    "duration": 4.019
+  },
+  {
+    "text": "talking about a max out neuron",
+    "start": 1049.64,
+    "duration": 4.26
+  },
+  {
+    "text": "this is what a max out neuron looks like",
+    "start": 1051.799,
+    "duration": 4.5
+  },
+  {
+    "text": "it has four affine Transformations and",
+    "start": 1053.9,
+    "duration": 4.62
+  },
+  {
+    "text": "I'm going to take the max of those right",
+    "start": 1056.299,
+    "duration": 4.321
+  },
+  {
+    "text": "and if those are fine Transformations",
+    "start": 1058.52,
+    "duration": 5.42
+  },
+  {
+    "text": "happen to be these",
+    "start": 1060.62,
+    "duration": 3.32
+  },
+  {
+    "text": "these are the four refined",
+    "start": 1064.039,
+    "duration": 3.421
+  },
+  {
+    "text": "Transformations if I take the max of",
+    "start": 1065.539,
+    "duration": 4.5
+  },
+  {
+    "text": "this then I almost can approximate the x",
+    "start": 1067.46,
+    "duration": 5.099
+  },
+  {
+    "text": "square function right so it's uh it's",
+    "start": 1070.039,
+    "duration": 4.26
+  },
+  {
+    "text": "giving me a higher degree of a",
+    "start": 1072.559,
+    "duration": 4.681
+  },
+  {
+    "text": "non-linearity and of course it has the",
+    "start": 1074.299,
+    "duration": 6.301
+  },
+  {
+    "text": "other benefits there is uh no saturation",
+    "start": 1077.24,
+    "duration": 5.46
+  },
+  {
+    "text": "no death now because it will flow",
+    "start": 1080.6,
+    "duration": 5.939
+  },
+  {
+    "text": "through the max path and the max at",
+    "start": 1082.7,
+    "duration": 5.339
+  },
+  {
+    "text": "least one of the neurons would be great",
+    "start": 1086.539,
+    "duration": 3.661
+  },
+  {
+    "text": "as long as it is greater than zero you",
+    "start": 1088.039,
+    "duration": 5.101
+  },
+  {
+    "text": "would have some gradients flowing and",
+    "start": 1090.2,
+    "duration": 6.78
+  },
+  {
+    "text": "for multiple affine Transformations the",
+    "start": 1093.14,
+    "duration": 5.52
+  },
+  {
+    "text": "more you have there is a proportional",
+    "start": 1096.98,
+    "duration": 3.18
+  },
+  {
+    "text": "increase in the number of parameters you",
+    "start": 1098.66,
+    "duration": 4.04
+  },
+  {
+    "text": "could think of that as a disadvantage",
+    "start": 1100.16,
+    "duration": 5.22
+  },
+  {
+    "text": "but there is a proof which also shows",
+    "start": 1102.7,
+    "duration": 5.5
+  },
+  {
+    "text": "that two max out neurons with sufficient",
+    "start": 1105.38,
+    "duration": 4.62
+  },
+  {
+    "text": "number of affine Transformations right",
+    "start": 1108.2,
+    "duration": 5.719
+  },
+  {
+    "text": "so just have two of these",
+    "start": 1110.0,
+    "duration": 3.919
+  },
+  {
+    "text": "but you have a large number of affine",
+    "start": 1114.86,
+    "duration": 4.559
+  },
+  {
+    "text": "Transformations inside them",
+    "start": 1116.9,
+    "duration": 5.12
+  },
+  {
+    "text": "right",
+    "start": 1119.419,
+    "duration": 2.601
+  },
+  {
+    "text": "then these can act as a universal",
+    "start": 1122.059,
+    "duration": 3.721
+  },
+  {
+    "text": "approximate so you just need like two",
+    "start": 1124.039,
+    "duration": 4.14
+  },
+  {
+    "text": "max out neurons to approximate any",
+    "start": 1125.78,
+    "duration": 4.8
+  },
+  {
+    "text": "function so that's a uh kind of a",
+    "start": 1128.179,
+    "duration": 5.421
+  },
+  {
+    "text": "testimony for the uh",
+    "start": 1130.58,
+    "duration": 4.86
+  },
+  {
+    "text": "non-linearity or the representation",
+    "start": 1133.6,
+    "duration": 4.12
+  },
+  {
+    "text": "power that max out neurons brings in",
+    "start": 1135.44,
+    "duration": 5.4
+  },
+  {
+    "text": "August makes out neurons uh despite",
+    "start": 1137.72,
+    "duration": 5.22
+  },
+  {
+    "text": "whatever I have explained are still not",
+    "start": 1140.84,
+    "duration": 4.38
+  },
+  {
+    "text": "very popular I think their special case",
+    "start": 1142.94,
+    "duration": 4.859
+  },
+  {
+    "text": "which is relu or any of its variants",
+    "start": 1145.22,
+    "duration": 4.68
+  },
+  {
+    "text": "they are still more popular but it's",
+    "start": 1147.799,
+    "duration": 3.901
+  },
+  {
+    "text": "good to know about them it's good to see",
+    "start": 1149.9,
+    "duration": 3.6
+  },
+  {
+    "text": "the analogy with Dropout it's also good",
+    "start": 1151.7,
+    "duration": 3.9
+  },
+  {
+    "text": "to see how they generalize relu and",
+    "start": 1153.5,
+    "duration": 3.6
+  },
+  {
+    "text": "other functions is also good to know",
+    "start": 1155.6,
+    "duration": 5.459
+  },
+  {
+    "text": "that just two max out neurons are uh can",
+    "start": 1157.1,
+    "duration": 5.88
+  },
+  {
+    "text": "act as a universal approximately so this",
+    "start": 1161.059,
+    "duration": 3.061
+  },
+  {
+    "text": "all helps you build a better",
+    "start": 1162.98,
+    "duration": 3.96
+  },
+  {
+    "text": "understanding of some of the concepts in",
+    "start": 1164.12,
+    "duration": 4.919
+  },
+  {
+    "text": "deep learning right so so that's all I",
+    "start": 1166.94,
+    "duration": 5.4
+  },
+  {
+    "text": "had to say about the max out neuron",
+    "start": 1169.039,
+    "duration": 4.681
+  },
+  {
+    "text": "um",
+    "start": 1172.34,
+    "duration": 3.42
+  },
+  {
+    "text": "I'll end this video here and then I'll",
+    "start": 1173.72,
+    "duration": 4.199
+  },
+  {
+    "text": "come back and talk about some other",
+    "start": 1175.76,
+    "duration": 5.36
+  },
+  {
+    "text": "activation functions",
+    "start": 1177.919,
+    "duration": 3.201
+  }
+]

@@ -1,0 +1,10 @@
+in notation which I had to do because now we have four inputs so it's not a change in notation.
+just a new notation so we have these four inputs so far we have been dealing with a simple neural.
+network where we had one input one bias and then the output I'm looking at four inputs X1 X2 X3.
+X4 and then the bias which is a constant input of 1 and of course each of these inputs has.
+an Associated weight W1 W2 w3w4 right so we have been using the subscript for the training instance so there.
+are M training instances X1 to xn which is X is bold which is a vector but now we have.
+these superscripts for the different uh inputs within a given training instance right so now you could think of X.
+as in X as a vector X1 X2 X3 X4 and this is one input right so let's say this.
+is the data about one movie and there would be many such movies so say this is the movie one.
+so then we have x 1 1 x 1 2 x 1 3 x 1 4. right so that's the.

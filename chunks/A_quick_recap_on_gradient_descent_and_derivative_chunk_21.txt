@@ -1,0 +1,10 @@
+trying to now and get a reasoning for this right why is this happening so what exactly is happening there.
+right so what is our movement right what do I mean by the movement so let me just make that.
+clear first right so my update rule is W is equal to W minus ETA into Delta W okay so.
+now if my this quantity is very small let's say it's 0 right then my new W would be the.
+same as the old W right I'll not be moving right hence when I was looking at this uh WB.
+plane at the bottom right now I'm trying to update the values of w as well as uh B now.
+these updates are very small right then what will happen is I was at some WB and I'll now again.
+remain very close to that right and not move very far but if these updates are large then my w.
+will change by a large value so say w was uh here it will change by a large value and.
+go somewhere here and my B will also change by a large value and go somewhere else so hence now.

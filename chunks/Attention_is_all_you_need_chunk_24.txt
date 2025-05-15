@@ -1,0 +1,9 @@
+two other vectors which in turn had gone through a linear transformation right so that is what is happening here.
+that is what the equation is and now I could do this in other ways and that's where the Transformer.
+set of equations for uh attention will drop out from right but this is what is happening here the final.
+computation is a DOT product and within that green Vector you had these two linear Transformations which were happening followed.
+by a non-linearity right so now let's look at but in the earlier case you had this St minus 1.
+which was being generated at every time step right but here now you have h i and h j which.
+is they just have one word embedding for hi and one word embedding for a j whereas here you had.
+these three vectors which were participating right so now from this h i n h j how do you get.
+these three vectors to participate in this equation right so you have these three vectors participating in the equation but.

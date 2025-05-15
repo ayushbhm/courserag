@@ -1,0 +1,9 @@
+have got a 2d tower i am convinced that we have got a 2d tower by constructing a network like.
+this i took x1 x2 i had these two sigmoids which were oriented in one direction and when i combined.
+them i got a tower open tower in one direction then i had these two sigmoids which were oriented in.
+the other direction and when i combined them here i got the tower in the other direction then when i.
+added both these structures i got this weird structure which had three levels a level zero a level one and.
+a level two and then again passed it to a sigmoid such that it allowed only the level one and.
+above outputs and hence i got the tower which was about one right so that's the tower function that i.
+got out so i got a 2d tower function from this network you can go back check out the illustration.
+check out this network and convince yourself that you can get a 2d function it's the same thing that we.

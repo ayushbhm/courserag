@@ -1,0 +1,9 @@
+of the loss function with respect to K and what do you need for that you need two quantities one.
+is the derivative of the loss function with respect to a k that we have already done in the previous.
+lecture so I can compute this the other is the activation at the K minus 1 layer and that you.
+anyways compute in the forward pass right so you compute you start with the input you do the First Transformation.
+to that which is W X plus b then you get the first activation layer preactivation layer then you apply.
+the activation on that to get the activation layer so this is does not require any derivatives any computations right.
+this is just a forward pass and you know how to compute every element in the network during the forward.
+pass so this does not have a gradient Associated it is not some derivative it's just h k minus this.
+one which is the activation at the K minus 1 at layer so that you already have so both these.

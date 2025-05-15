@@ -1,0 +1,9 @@
+need to satisfy there is no condition that is contradicting right and why is this happening because this is how.
+i have designed it every neuron here every perceptron here is firing for a specific input and hence that is.
+leading to a condition on a specific weight and two weights are not interacting with each other in any condition.
+hence there are no contradictions that are happening here right so the network has been designed in a way such.
+that you have four possible inputs and you have now these four possible weights so you have these four degrees.
+of freedom so each weight can adjust to satisfy a given input does that make sense right so that's what.
+is happening here i have come up with conditions which are not overlapping or contradicting with each other so hence.
+irrespective of what the boolean function is now you can go and try the same thing for any other boolean.
+function you can go and figure out the conditions and the same thing will happen you will have only w.

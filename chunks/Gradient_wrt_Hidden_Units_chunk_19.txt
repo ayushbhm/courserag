@@ -1,0 +1,9 @@
+what I'm doing is that every uh uh every uh element of this Vector is essentially the product of one.
+row of the Matrix with this gradient Vector right so now I can write it even more compactly I can.
+just write it as the product between the Matrix W transpose and the gradient Vector right that's what I have.
+shown here because the first element of the resulting product is going to be the dot dot product between the.
+first row of this Matrix and the gradient vector the second row of this Matrix and the gradient Vector the.
+third row of this Matrix and the gradient vector and I can write this entire thing as just very compactly.
+as a matrix Vector computation and this is what I have done here right again if you are confident with.
+your linear algebra if not there's a separate set of lectures that I put out on linear algebra you can.
+go and look at them but this I'm sure most of you would be aware of it so I have.

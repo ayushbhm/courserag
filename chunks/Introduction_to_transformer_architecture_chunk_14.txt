@@ -1,0 +1,9 @@
+be so I have these Alphas coming in here so for some reason the animations are showing up very slowly.
+yeah so I have these Alphas showing up here and then I take a weighted sum and I compute this.
+uh with a contextual representation uh C Wagner so this is called the context Vector it's also called The Thought.
+Vector uh and for the rest of the discussion I'll typically call it the context Vector if I'm calling it.
+something else I'll let you know uh at that point right so just think of this C1 as a context.
+Vector which is a weighted sum or the attention weighted sum of the inputs right so you have just taken.
+the outputs of the encoder which were these yellow representations which are context aware representations and now again to the.
+decoder you are feeding a contextual representation which is now here the context is basically where am I on the.
+output I'm producing the first word so what is the most important uh set of weights or what is the.

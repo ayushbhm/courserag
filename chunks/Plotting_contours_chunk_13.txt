@@ -1,0 +1,10 @@
+2D surface so now I just have the WB plane and I can now I can see how the loss.
+function is imposed on the WB plane right because I can draw the contour map and the contour map gives.
+me all the information right it tells me what the loss levels are right it tells me what the loss.
+levels are I can see all the loss levels here and also by looking at the difference between the loss.
+levels I'll know what the slope looks like and now here again I see that in this region here right.
+where the slope was sharp there is a sharp movement there is a rapid movement which happens let's play it.
+again so now the slope is gentle so it's moving very small slowly on the 2D contour map here and.
+then it as it moves towards the steep region now it will speed up and then again it enters the.
+shallow or the gentle slope region and then again it will move slowly right and now I can just get.
+rid of this 3D view I'll just work with the 2D view where I have the contour map I know.

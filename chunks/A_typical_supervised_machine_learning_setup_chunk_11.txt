@@ -1,0 +1,10 @@
+looks like every machine learning problem you can cast it into this matrix where you are given the x's and.
+the y's and you are given many such x comma y pairs okay now this is where now uh thinks.
+uh the challenge is right this is what the crux of machine learning is so we have a y right.
+and we have a reason to believe that this y depends on the input x right so what is the.
+y here the box office collection and it depends on the characteristics of the movie right this depends this equation.
+is still not complete y is equal to x is not what i want to write i want to write.
+something else but i'll come to that right i'm saying that y depends on x then similarly in the interest.
+rate y depends on that all the inputs that i'm taking and even in the first example of oil it.
+depends so what do you what's the mathematical way of saying that something depends on something y is equal to.
+a function of x right so i would say that y is equal to f of x right now if.

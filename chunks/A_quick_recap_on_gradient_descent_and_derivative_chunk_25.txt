@@ -1,0 +1,10 @@
+and all is a bit chaotic in terms of the interface okay so now let's see right so what is.
+the derivative the derivative is the change in so I have written change in the function right so it's a.
+change in the function by the change in the value right so what does the derivative capture as we had.
+said it captures the sensitivity of the function to a change in the variable so if I change X by.
+a small amount how much does the function change right so if you have x square then you know that.
+if you change X from 2 to 2.5 still the square changes a bit quite a bit right it changes.
+from 4 to 6.25 so although you have made only a 0.5 change in the value of x the square.
+has changed by 2.25 right uh so that's that's what happens right so now let's look at what the so.
+this is how I would note the gradient as so it is the movement in the y direction divided by.
+the moment in the X direction right so in those regions now let's see this this here is a region.

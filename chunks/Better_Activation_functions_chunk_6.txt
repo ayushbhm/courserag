@@ -1,0 +1,9 @@
+lecture like a few years back uh lecture slides from Andre carpathy's course I'm not sure if that those videos.
+are still available but they were available a few years back and I had taken material from there so Let's.
+uh let's start with the sigmoid function so sigmoid is given by this Sigma of X is equal to 1.
+over 1 plus e raised to minus X and this is what it looks like it is between 0 and.
+1. so whatever input you pass it in our case uh the input that we passed to uh the sigmoid.
+function is sum a which in turn is some linear transformation of the previous layer right we pass some Ai.
+and it is some linear transformation of the previous layer right that's what our input is going to be and.
+whatever is the input that applies element wise on this Vector a and it just squishes it or compresses it.
+between 0 to 1 right so we already have seen this in the past uh so now since we are.

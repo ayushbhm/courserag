@@ -1,0 +1,9 @@
+likelihood of the correct class right so that's what it means okay because you are going to minimize minus of.
+log of y hat l i will do this on the next slide anyways so we are minimizing the minus.
+of log of y hat l right that is the same as maximizing the negative of that which is the.
+same as maximizing the log likelihood right okay so you are minimizing the negative log likelihood which is the same.
+as maximizing the log likelihood and obvious statement so this is what the loss function and the output function looks.
+like for the classification class right but now one question here this y hat l is it a function of.
+all these parameters because if it's not a function of these parameters then how what am i doing here right.
+is it a function of all these parameters of course it's a function of all these parameters so remember that.
+y hat l is this computed like this right so you have the input x it passes through these series.

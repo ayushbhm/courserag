@@ -1,0 +1,10 @@
+way and at every point the loss will just keep decreasing and I'll reach the minimum that is what is.
+going to happen and now let me try to see if I can demonstrate that right I'm just going to.
+go here okay okay so this is what my loss function looks like this is actually the same as the.
+loss on the previous slide just scaled a bit differently and what I know is that I want to reach.
+somewhere here because in this surface it's clear that the error is minimum there but right now I am way.
+far I want to reach somewhere here but I am very far my initialization was randomly done right so now.
+what I'm going to do is I'm going to run this algorithm and you just observe how the things change.
+both on the loss surface you should see that the loss at every step should keep decreasing and the W.
+should keep W comma B the point on the yeah on the W comma B plane right so this here.
+is the W comma B plane so the W comma B plane I should keep moving till I reach this.

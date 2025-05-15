@@ -1,0 +1,9 @@
+but exponential but I don't care about that a single hidden layer can be used to represent any Boolean function.
+precisely and the meaning of that was that if you have an N variable input then you would have a.
+Boolean function of n variables and it would have a certain truth table now no matter what the truth table.
+is right and we had seen that for an N variable input you could have 2 raised to 2 raised.
+to n functions so any of these functions you can come up with a network which can precisely represent this.
+function that means when you give a certain input configuration the networking produce the same output as is mentioned in.
+the truth table right and the way we were doing that is by having these exponential number of uh neurons.
+in the hidden layer such that every neuron was like spatializing for or every perceptron was specializing for one specific.
+input right so that's what the representation power of a multi-layer network of percept transfers now my goal is to.

@@ -1,0 +1,10 @@
+you would have the Q uh query uh sorry you'd have the query key and value vectors right which are.
+coming from your projections say this should have been this is the H Matrix right which is H1 H2 all.
+the way up to h t and you get out here is q k v okay so this is again.
+the H Matrix and what you get out here is q k v right so you just have these two.
+copies now this as I said would release Z1 Z2 all the way up to Z T and I'll just.
+call it Z 1 1 and so on and this would give you Z One Z two although we have.
+to Z T and I'll call it z2s right now what do I do with this I have two representations.
+now computed for this word H1 to h t right so now what do I do with these two Z's.
+simple I just concatenate them so that's all I'm going to do so you concatenate it so you get a.
+larger representation and then you'd pass that to a linear transformation right so we'll see that uh soon and then.

@@ -1,0 +1,10 @@
+a generic uh WK that's what I'm interested in and again my recipe is going to be the same instead.
+of computing this uh gradient at one go right so this is the derivative of a scalar with respect to.
+a matrix so this is again going to be a matrix but instead of computing all the elements the entire.
+Matrix at one go I am first going to compute the derivative of one of the elements of this Matrix.
+right so what I'm going to do is I just ignore this part for now I'm going to let it.
+be I'm going to compute the derivative of the loss function with respect to one element of the Matrix so.
+that could be say w k i j right so this Matrix has n cross n or N1 cross N2.
+entries so I'm going to focus on Computing the derivative with respect to one of these entries right and now.
+let me just link it to the diagram that I have suppose this is the entry that I am looking.
+for which in this case tragically happens to be W 2 2 right so it's the yeah it's the weight.

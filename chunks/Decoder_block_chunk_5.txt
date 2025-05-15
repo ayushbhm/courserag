@@ -1,0 +1,9 @@
+up to St and maybe there's some space here maybe something else would come uh so maybe you'll get some.
+other outputs uh let me call them M1 M2 up to NT and then finally all of that will pass.
+to the feed forward Network and you will get the outputs Z1 Z2 up to set T right and then.
+this process will repeat across layers and in the final layer you will have the output projection to a soft.
+Max layer right you'll have a soft Max layer which would predict a probability distribution over the vocabulary which will.
+hopefully Peak at the right word right so this is what is happening here so I need to explain what.
+is this mask and what is happening in between here right so these are the two things that I want.
+to explain which are different than what happens in the encoder right uh yeah so this is what happens so.
+you have the encoder inputs coming right those were the E's right so in addition it's of its own inputs.

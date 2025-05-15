@@ -1,0 +1,11 @@
+to zero there only the w2 into h2 term will remain which will just be w2 because h2 is one.
+that okay now for the next input w3 the next input w4 right now if i go back to my.
+conditions what are the conditions that i want so if i want this to behave like the xor function then.
+w one should be less than w naught right in that case it will not fire and hence it will.
+be the same as the truth table of the xor function let me just clear some things so w 1.
+should be less than w naught if that is the case then it will not fire and i will get.
+the output the desired output is that ok so this is minus 1 right uh ah okay okay oh this.
+is the truth table yeah the two table has a problem so this should have been 0 1 and this.
+should have been 1 0 okay is always fine now ok so now for this to behave so this is.
+the aggregated that i get right now what is my y if the aggregation is less than w naught then.
+it will be 0 if it is greater than w naught it will be 1 right so now for this.

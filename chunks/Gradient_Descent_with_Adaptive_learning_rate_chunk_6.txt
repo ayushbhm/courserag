@@ -1,0 +1,10 @@
+X right so you can go and check this but it should also be straightforward because you have this W.
+transpose X here which is W1 X1 plus W2 X2 and so on so when you take the derivative of.
+this quantity right so finally when you apply the chain rule at some point you will take the derivative of.
+this quantity with respect to W1 and all the other quantities will disappear and the derivative of this quantity would.
+be X1 right so that's how this X1 is showing up here right so that's the idea so if there.
+are end points we can just sum the gradients over all the endpoints to get the total gradient right so.
+what does that mean that this was with respect to a single point where the input was 1X but I.
+could have inputs which are X1 x 2 all the way up to x m right so here I have.
+shown the derivative with respect to one such input but if you have many inputs then you will just sum.
+the derivative across all these inputs at this we have again done some before so the the derivative of w.

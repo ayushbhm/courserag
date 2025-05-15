@@ -1,0 +1,10 @@
+b and that's the setup that i have okay now um what is happening yeah so at the end of.
+training we've we expect to find the optimal values of w and p right what are the optimal values though.
+these are those values which minim minimize the loss function that we had defined in the previous slide right so.
+those are the values that we want to find so now suppose so now what do you expect right so.
+suppose at the end of training i told you that i found w star b star what is it that.
+you expect what would happen i'll ask a more specific question if i plug in the value 0.5 here if.
+i pass 0.5 as the input and if you have learned w and b well what do you expect to.
+happen the output should be the output should be close to 0.2 similarly if i plug in the value 2.5.
+i would want the output to be close to 0.9 right this is what i expect to be and this.
+is what i've written here right so if i plug in f of 0.5 then it should be as close.

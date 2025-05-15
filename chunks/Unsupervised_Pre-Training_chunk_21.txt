@@ -1,0 +1,9 @@
+what is happening in the other layers I just wanted to make sure that that layer is trained properly that's.
+why it was greedy and it was unsupervised and whatever was the result of that greedy and supervised training that.
+is the initialization that exists in my network right so now why does this work better is the question and.
+I'll give you two options is it due to better optimization or is it due to better regularization right now.
+the first thing that I want to ask is whether you understand the difference between these two questions so what.
+do we mean by optimization optimization deals with Dash data training data or test data training data so when you.
+are doing optimization when you are minimizing the loss function right remember that you are taking the average whatever is.
+your loss function over your Computing with respect to some um y i and F hat of X I right.
+and this loss function depends on the training data these X I's and Y i's are your training data so.

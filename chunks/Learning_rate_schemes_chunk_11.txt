@@ -1,0 +1,9 @@
+but you could just take care of that by using some kind of an early stopping or something right so.
+now let's see what this uh cosine early annealing look likes and I just see that so this is what.
+cosine annealing look like it has a different formula again this is just based on a cosine function so if.
+you substitute the time step T the value of T here right and your capital T would just be the.
+period of the uh uh uh of the wave that you have uh and if you substitute these values you.
+will get the effective learning rate right and it's better to just show this as the graph and that you.
+you'll understand what is happening here so ETA Max is the maximum value for the learning rate ETA mean is.
+the minimum value T is the current Epoch and capital t is the restart interval which is until what time.
+you increase and then again restart right so that's what capital t is and so let's see what happens so.

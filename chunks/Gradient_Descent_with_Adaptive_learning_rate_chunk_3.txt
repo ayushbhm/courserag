@@ -1,0 +1,10 @@
+is the data about one movie and there would be many such movies so say this is the movie one.
+so then we have x 1 1 x 1 2 x 1 3 x 1 4. right so that's the.
+notation that we are using so these are all the individual inputs that are going to the network and a.
+collection of such inputs forms one training point or one uh data point right so that's the idea okay uh.
+and so this is the notation and now uh so we have multiple weights now right we have W and.
+W2 w3w4 and for the minute I have ignored the bias so now given this network that it should be.
+easy that for a given a single data point right which is uh X and it should have been X.
+comma y not X comma B sorry this should have been y so a single training point is the input.
+X and the output y now if you wanted the derivative of the loss function with respect to W1 which.
+is one of the weights in this network right so remember earlier we had derived when we just had one.

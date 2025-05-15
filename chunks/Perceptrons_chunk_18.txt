@@ -1,0 +1,9 @@
+in this territory as we go to sigmoid neurons and then eventually to a deep neural networks right so that's.
+where we're slowly making a transition to right so let us first revisit some boolean functions to convince ourselves that.
+this is actually drawing a linear decision boundary right so you have the or function i know what the or.
+function looks like and now in terms of the perceptron what does it mean this is what my perceptron function.
+is right so i'm going to take a weighted sum of the two inputs plus w naught and i want.
+that to be less than zero in this case right i want that to be greater than equal to zero.
+in this case greater than equal to zero in this case greater than equal to zero in this case because.
+that's how my or function is right now let me just expand this right so what is this first guy.
+is telling w naught plus w 1 into 0 plus w 2 into 0 should be less than 0 which.

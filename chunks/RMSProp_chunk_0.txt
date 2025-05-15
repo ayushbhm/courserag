@@ -1,0 +1,8 @@
+foreign [Music] decays a learning rate very aggressively as the denominator Grows Right and we are allowing the denominator to.
+grow inhibitedly because it's just accumulating the squares right so now uh frequent parameters will start receiving small updates so.
+can we avoid this and prevent the rapid growth of the development right can we try to scale down the.
+growth of the denominator and we know how to do that right and it's a simple uh thing that we.
+could do is that instead of uh yeah instead of the original equation which was allowing the gradients to get.
+added we can just take a fraction of the gradients right so now the typical value of beta would be.
+say 0.9 so at any point you're just taking uh let me just get rid of this yeah so now.
+you are taking 1 minus beta which is 0.1 times the current gradient and also the history you are repeatedly.

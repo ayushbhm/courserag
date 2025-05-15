@@ -1,0 +1,9 @@
+is one as opposed to like really tossing it's a hundred or thousand or even more times and then trying.
+to estimate the probability right so that's what you're doing you're almost like tossing the coin once and estimating the.
+probability of heads because you're just taking one data point and estimating the derivative from that point instead of computing.
+the average over a large number of data points right and as you can imagine right as what we do.
+in the case of coin toss also we don't really do like we don't really need to do like a.
+million coin tosses that's bad you won't be able to do that similarly just doing one coin toss is also.
+bad because you cannot estimate the probability of Heads Best by doing one coin toss but somewhere in between maybe.
+100 coin tosses would have been okay right and you could get a fair estimate of what the probability of.
+heads is so a thousand may have been okay right similarly what you could do is that waiting for all.

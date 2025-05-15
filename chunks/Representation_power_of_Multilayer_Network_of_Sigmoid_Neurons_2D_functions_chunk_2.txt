@@ -1,0 +1,9 @@
+is not linearly separable but if i draw i have a function which looks like exactly what has been shown.
+here and let me just delete and use a better color you know not black maybe the function is 0.
+everywhere here and then 1 here right and then again 1 here and 0 everywhere here 0 everywhere here 0.
+everywhere here right so for all the blue points now it is predicting 0. you can see that it's also.
+obvious in the 2d version of the figure and for all the orange points it is predicting 1 and that's.
+exactly what i want because for the orange points i found oil and for the blue points i did not.
+find out right so even in two dimensions you could have this case where you have an arbitrary function now.
+this is the shape of the function the entire orange surface that you see is the shape of the true.
+function and that's what the true function looks like and now i want to approximate it right and now again.

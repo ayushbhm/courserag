@@ -1,0 +1,9 @@
+in Dropout is that you have this original Network which I have shown on the left hand side you drop.
+out some units from it that means you drop out some new neurons from it so this is I've dropped.
+on some randomly some six neurons from here and then you get a different network right so you have got.
+a different architecture now right so just as an option one uh you are training neural networks with different architectures.
+and you are training key of those I have got the same effect here by dropping some neurons so it.
+had the base architecture I dropped some neurons and I now my neural network looks a bit different right and.
+just doing it temporarily just for that current training instance I'm going to drop a few neurons or that batch.
+a mini batch I'm going to drop a few neurons right and then again do something different in the next.
+device right now each node is retained with some fixed probability right so every uh so every time I get.

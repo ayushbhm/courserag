@@ -1,0 +1,10 @@
+average computed from the m test points that you had and the test points were the points from n plus.
+1 to n plus M I know what the predicted value is I know what the true value is because.
+I was given the data as x i comma y i pairs right so I had these pairs I know.
+the what the true value is and I just compute this difference and this is of course easy to compute.
+this is expectation of Epsilon square and I just told you earlier that explain expectation Epsilon comes from 0 comma.
+Sigma Square so expected value of Epsilon square is just the variance which is Sigma Square so Sigma square is.
+going to be small so this is a small ah constant that will get added here and then you have.
+this third quantity that you still don't know how to deal with right ah so let's just see how to.
+deal with that quantity so what I've written here is that this is the covariance between uh these two uh.
+values right ah and the yeah so what I've written here is the this this quantity here I mean keeping.

@@ -1,0 +1,9 @@
+see that now instead of only one line has changed right so VW plus DW Square I am doing beta.
+into VW plus 1 minus beta into DW square right so that's the main change that I've done and now.
+let me just play this okay yeah so you can see that RMS prop is now the yellow curve is.
+RMS prop which is quickly reads the minimum right because its learning rate is not decaying and it's also following.
+this hypotenuse part as I wanted right it's making updates in the direction of w and B uh proportionately even.
+though the updates in the direction of w are smaller right but notice something and we'll come back to what.
+you notice here oops okay just play it in the minimized version here so it's reached there uh quickly but.
+now it's oscillating a bit around the Minima right so you can see the sigmoid curve it had reached the.
+solution right all the points were lying on the sigmoid curve but then the yellow curve started oscillating there now.

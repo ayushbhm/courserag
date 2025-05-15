@@ -1,0 +1,10 @@
+for that is that if you don't take the square root then these quantities become very large very quickly right.
+and maybe that kills of the learning rate in an unfavorable way right but it's there's no clear theoretical justification.
+that I have seen what's the flip side while we got an Adaptive learning rate for W and B the.
+flip side is that over time the effective learning rate for B became so small that it was having a.
+difficulty in moving in the W Direction in the B direction right so you see that now I was able.
+to reach the right value of w right I was able to reach the right value of w that's the.
+right value of w because my Minima is also here right so I'm in line with the right value of.
+w but I took longer time to find the right value of b as opposed to the other algorithms which.
+found the right value of B first and then took a longer time to find the right value of w.
+right and this is happening because the history for B has accumulated and the updates in B are now very.

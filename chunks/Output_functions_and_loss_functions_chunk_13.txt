@@ -1,0 +1,9 @@
+right point two point three point four point one right and somehow you want to be able to capture the.
+difference between these two values right so there are two problems that we need to solve here one is given.
+that i know that i'm trying to predict a probability distribution because my true output is a probability distribution right.
+the sum of the values is one right uh how do i make sure that my output is also a.
+probability distribution right that means all the values are between zero to one and they sum up to one right.
+so how do i choose an output function such that my output is also a probability distribution if i'm able.
+to do that how do i come up with a loss function right such that it tells me the difference.
+between these two now one loss function that you can always choose is the squared error loss function right you.
+can again treat these as just two vectors and try to find the difference between them but given that you.

@@ -1,0 +1,9 @@
+because there's just so much to learn that it cannot hold over fit possibly on all of this of course.
+modern deep neural networks will still over fit but it's found that doing this kind of data augmentation which comes.
+for free it's not additional cost for you then why not just try it and you would be able to.
+get uh a lesser chance of overfitting in this case right that's all there is to this technique there's nothing.
+more to be said here the only intuition here is that you have more training data you have more variants.
+of the same image and all of that you have to be able to classify as two so now this.
+chance of just memorizing and not understanding reduces a bit right that's all that happens and this works well for.
+image classification object recognition it has already also been tried well for speech now it has also been tried for.
+text there are libraries which allow you to do data augmentations but in text it's still a bit harder to.

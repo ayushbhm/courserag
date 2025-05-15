@@ -1,0 +1,9 @@
+sample we should try to do a larger update right because this if this data point is sensitive we should.
+try to do a larger update but then how do you do a larger update maybe you could increase the.
+learning rate but if you do that there could be problems right we have seen several problems in with increasing.
+learning rate and the case of dropouts since these parameters are shared across all these sub models now you increase.
+the learning rate it could have effects on the other sub models right so that's the situation where we are.
+in we drop we motivated dropouts from model averaging but now we are observing that something which happens in model.
+averaging where every model sub model gets to overfit on the specific training data that effect does not really happen.
+in Dropout and in Dropout still we do model averaging right so now the way of model averaging was again.
+that each of these neurons you consider their out port and you multiply it by a fraction P which is.

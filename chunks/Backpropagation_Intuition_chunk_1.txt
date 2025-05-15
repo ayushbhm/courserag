@@ -1,0 +1,9 @@
+there is slightly more work involved than what we had in that simple network that we had right so here's.
+our gradient descent algorithm where we had this and we were just updating the weights using the gradients and we.
+want to apply the same algorithm by replacing these by all the weights that i have in the network right.
+the large number of weights and then be able to compute the partial derivatives of all those weights the same.
+algorithm goes through right so now let's focus on one of these weights w112 and to learn this weight using.
+the gradient descent algorithm we need a formula for the derivative of the loss function with respect to this weight.
+right and that needs some work as i said right now what we want to do is first build an.
+intuition for how what would that formula look like and then do some hard work but then come back to.
+a state where we can then say okay once i know how to compute this this red guy can i.

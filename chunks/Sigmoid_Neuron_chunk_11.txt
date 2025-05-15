@@ -1,0 +1,10 @@
+the threshold right unless we had this thing that Theta is equal to minus W naught right because we move.
+it to the other side of the equation okay so this is what uh perceptron like a single input perceptron.
+looks like I have an input I have a certain weight associated with the input I have the output and.
+then I have the weight uh I have the bias or the threshold which is say uh uh the minus.
+of the threshold is 0.5 so minus of w naught is 5.5 right and now this uh neuron this perceptron.
+will fire if the weighted sum of my input which is just W and X1 in this case is greater.
+than 0.5 now I'm going to say that this logic used by a perceptron is actually very harsh right now.
+what do I mean by harsh harsh is not like a mathematical term so what do I mean by that.
+right so let us return to our example of deciding whether we would like to like or dislike a movie.
+or whether uh yeah whether you like or dislike a movie right now let's say we have basing our decisions.

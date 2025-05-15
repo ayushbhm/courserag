@@ -1,0 +1,9 @@
+this right just for illustration I have taken points from sinusoidal functions so that's it's easy for me to illustrate.
+what the true function is and how good or bad my approximation is right so now in a typical deep.
+learning machine learning setup I am going to talk about different approximations right so I will take one very simple.
+approximation and then one slightly complex approximation and then I'll try to make some comments based on the approximations that.
+I have made right so let's ah see how that goes okay yeah so we consider two models so one.
+is a simple model as I said degree one model where I assume that Y is related to X using.
+a linear function right so I just assumed that Y is equal to MX plus C or Y is equal.
+to W and X plus W naught right so I have only two parameters here clearly not an over parameterized.
+model and the relationship that I have assumed is very simple the other I am going to assume is a.

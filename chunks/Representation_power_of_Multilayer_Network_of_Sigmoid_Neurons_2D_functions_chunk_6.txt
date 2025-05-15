@@ -1,0 +1,11 @@
+2d i can adjust the w's and b's to get something which looks like a step function right so now.
+let's try to construct a tower in 3d okay now i didn't want to show you this okay right so.
+first let's see h11 right so i have taken one neuron again again the same idea i have a network.
+okay where x is my input and i have one neuron which is h11 another neuron which is h12 and.
+then both these outputs will be get added which i'm going to call as h21 right added meaning plus one.
+and minus one right so now i'm showing you but it just that both of these are now this x.
+is x 1 comma x 2 right so the functions are 1 over 1 plus e raised to minus w.
+1 x 1. plus w 2 x 2 plus b right so that's why you have w 1 w 2.
+b right i'm going to uh just use the same parameters for both h 1 1 and h 2 to.
+explain this okay so now this is what h11 is looking like i have set the w very high as.
+you can see here oops yeah i've set the w to a very high value which is 60 and hence.

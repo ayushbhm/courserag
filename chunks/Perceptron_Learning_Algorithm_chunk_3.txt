@@ -1,0 +1,9 @@
+the points for which the output should be negative or in the other half space right so we will assume.
+that the data is linearly separable and then in this real classification problem right this is not a cooked up.
+problem this is a real classification problem we are then interested in learning these weights right so that's what we.
+want to use a perceptron for for handling these kind of classification problems right ah now let's try to look.
+at the perceptron learning algorithm so i'll define some notation so let p be all the inputs for which the.
+label is one right so these are all the positive points that we have been calling uh in all our.
+discussion earlier right and n is all the inputs which have a label 0 so these are all the negative.
+points right in our discussion earlier so now i do not know what the weights are so what will i.
+do i'll just initialize the weights randomly right and while convergence or while not convergence till i reach convergence i'll.

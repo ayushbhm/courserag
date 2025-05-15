@@ -1,0 +1,10 @@
+are both less than one which means I'm scaling down right I'm not allowing the history to grow at every.
+point I am multiplying it by a exponentially decaying Factor right so that is what is happening here and that.
+will become clear as I expand this equation here right so this is what was happening for radagride at VT.
+it was Delta B 0 square plus Delta B1 square plus B2 square and so on but in the case.
+of RMS prop uh you will have this equation right where beta is between 0 to 1. so beta if.
+it's 0.9 then your V 0 is 0.1 times B 0 square B2 is 0.09 times Delta B 0 square.
+plus this and so on and when you come to uh you can already compare these two quantities right so.
+where's the pen yeah huh yeah um yeah so if I compare the V2 here with the V2 here it's.
+clear that this is going to be much smaller because my history is now exponentially decaying right here I was.
+taking the whole of b0 square whereas here I am taking a small fraction again the whole of B1 square.

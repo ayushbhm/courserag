@@ -1,0 +1,8 @@
+[Music] okay so now continuing on in our journey right so we have seen quite a few things uh we.
+have seen about the revival we have seen about more advances like optimization activation functions etc which made this revival.
+pop possible and then generated in interest in solving real-world problems and winning challenges in image tasks uh sequence labeling.
+tasks and uh even games right now just again kind of re-looking at this period right from 2010 onwards and.
+that has been absolute madness in terms of about the euphoria around ai right and the interest in ai so.
+this is a report published by stanford ai index report and you can see right the number of publications in.
+ai has dramatically increased and this has a lot of repercussions in terms of the speed which with the field.
+is moving the pressure on young graduate students nowadays and the quality of conference reviews and so on right those.

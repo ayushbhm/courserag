@@ -1,0 +1,9 @@
+see that the loss will increase right because these are probably very high learning rates and you are quickly overshooting.
+the Minima and then going into high loss regions and for some learning rates it will smoothly decrease right so.
+those would be the good learning rates and then suppose point one is one such good learning rate then you.
+will do like a zoom in around this point wanted so maybe you can do a more linear search around.
+this now so if point one was good maybe try point zero five maybe try point two point three right.
+so all of this is of course just heuristics right there's no clear winner strategy here but what you need.
+to take away from this slide is that it might happen that you just set the learning rate to some.
+value and you see that your algorithm is not converging your loss keeps increasing then you will have to kind.
+of experiment a bit around it and this is a good way of experiment you just try a few different.

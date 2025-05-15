@@ -1,0 +1,9 @@
+just have to wait out that cycle and then again you might if you want a smaller learning rate it.
+is going to come in sometime steps if you want a larger learning rate it's going to come into some.
+time steps you just have to wait out that cycle right so that's that's the simple idea that you have.
+here okay uh so now let's see whether this actually solves the problem that we started off right so we.
+have this saddle point and we started with that initialization and looks like we will get stuck in the valley.
+right so I have this exponentially decaying learning rate which is the black guy and that comes into the valley.
+and gets stuck there but this blue guy has a chance because the exponentially decayed learning rate has become very.
+small but now the blue guy because it can increase the learning rate at some point so even though the.
+gradients there are small when the learning it just waits till the learning rate increases and then it gets per.

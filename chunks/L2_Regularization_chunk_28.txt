@@ -1,0 +1,9 @@
+these quantities is just going to be the inverse of that quantity now D is actually this further multiplied by.
+Lambda right so this is what D is so now let me again try to multiply it by Lambda yeah.
+so this is what I'll get right so I had this Matrix and now I am multiplying that Matrix but.
+another diagonal matrix and it has lambdas on the diagonal so if you do this multiplication you will just get.
+the product of these diagonal elements on the product Matrix right so that's all you will get okay so this.
+is what this middle guy here looks like okay and if Alpha was 0 then the middle guy would just.
+become I or this would all disappear so we'll just get I and there is no change happening W tilde.
+is equal to W star but now if Alpha is not equal to 0 then what exactly is helping Happening.
+Here Right foreign transpose W Star right so this is the first multiplication that is happening now each element of.

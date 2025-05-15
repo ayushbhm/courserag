@@ -1,0 +1,10 @@
+it had to follow some trajectory of course both of them converged that is not a problem but this is.
+just to show that with without bias correction your initial learning rate could be very high so I'll stop here.
+uh with the discussion on Adam and now uh we'll look at uh in the next half an hour or.
+so we'll look at some variants of atom or maybe just one or two variants of atom okay thank you.
+so welcome back uh and we were talking about Adam in the last lecture and I would just like to.
+say a few more things about the bias kind Direction in Adam which may again relate to things that we.
+are going to do today so I'll start with that and then I'll go to the next algorithm which is.
+going to be Max prop right so let's start with uh let's just quickly talk about bias correction again right.
+so one way of looking at uh what is happening uh in Adam is that or in many of these.
+gradient descent based algorithms is that so you have these uh on the x-axis I have the number of iterations.

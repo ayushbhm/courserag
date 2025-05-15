@@ -1,0 +1,9 @@
+need this bias correction I am just dividing the value of m t why this term 1 minus beta T.
+because if I do that now this is actually my empty hat so now what this is telling me is.
+that the expected value of empty hat is this same as the expected value of the derivative right so that's.
+what I am doing this bias correction and you can have the similar derivation for the value of VT also.
+right so that's why we have to use bias correction in Adam so that's the main point of discussion when.
+we are talking about Adam right why do you need a bias correction all the other things in the equations.
+are familiar one is related to momentum the other VT is related to decaying the learning rate in the denominator.
+and again the vth self is an exponentially moving average as we had justified in the case of RMS prop.
+right so there are no other unknown or New Concepts in the equation of atom but this bias correction is.

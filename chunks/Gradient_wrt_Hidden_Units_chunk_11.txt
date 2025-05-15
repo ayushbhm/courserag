@@ -1,0 +1,12 @@
+one of of these guys right so a 3 1 is what is that equal to w three one one.
+I'm just going to do the multiplication into H to 1 plus W 3 1 2 into h 2 2.
+plus W3 1 3 into h 2 3 plus the bias term which was B 3 1 okay now what.
+are the indices here this is I plus 1 right so I plus 1 is equal to 3 this is.
+my M right because I am trying to take the derivative of uh a i plus 1 comma M with.
+respect to h i j right so my I plus 1 is equal to 3 and my m is 1.
+in this case and of course my I would be 2 in that case okay so my I is 2.
+Now what is my J I had taken the specific case of h 2 2 so my J is equal.
+to 2 right so now suppose I want to take the derivative of this quantity which I'll write here derivative.
+of a 3 1 with respect to H to 2 okay where this is I this is J and this.
+is M okay now what would that be I have written the expanded formula of a31 and I am taking.
+the derivative with respect to h 2 2 so this will disappear because this does not depend on its 2y.

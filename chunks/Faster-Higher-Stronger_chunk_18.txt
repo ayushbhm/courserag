@@ -1,0 +1,9 @@
+version of that which had thousand games very different environments which people could experiment with right and again complex strategy.
+games then uh similarly alpha star which uh has to balance to learn short-term and long-term goals these are all.
+games which you are aware of these are complex strategy games which you play and you can imagine as humans.
+also we take a while to understand what needs to be done and we are never perfect in any of.
+these but now rl agents are being able to learn how to be play these games on their own right.
+this was again a very interesting uh demo video which uh or of the work that they had done where.
+they had these agents the the blue orange guys that you see in the screenshot there where you have this.
+a flat floor right you can imagine it's a floor in which you could have some places where you could.
+hide you could construct a wall so that you can hide from the person who is chasing you if you.

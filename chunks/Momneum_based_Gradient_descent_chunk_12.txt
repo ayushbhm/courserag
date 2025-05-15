@@ -1,0 +1,9 @@
+that I had written let me just point out things here uh so this is my initialization so I have.
+initialized W and B to some random values for the sake of convenience minus 2 minus 2 e tabs has.
+taken one I'm not planning playing around with the learning rate and I have this uh for the u t.
+right which was storing the history so I've initialized the history for w as well as B to be equal.
+to 0 right and I have taken beta is 0.10 as I said 0.9 is the typical value now this.
+part is the same as green gradient descent for every point in my training data I am Computing the derivative.
+and just summing up the derivative so that's the derivative of the loss function and now I'm maintaining this cumulative.
+history in VW and VB and then updating according to the cumulative history as opposed to the current uh or.
+as as opposed to only using the current grade unit so that's what the code is doing it's in line.

@@ -1,0 +1,9 @@
+okay and I'll tell you why that is important okay uh now uh this function is log of w okay.
+and now I know the value of the function at this point here right this point here I am going.
+to approximate its value in a small neighborhood around it right and the value would be whatever is on the.
+Orange Line because that's the linear approximation I have made that's the line that I have drawn and I'm trying.
+to approximate the blue curve by this line now when the Epsilon is small that means when I am looking.
+at a very small neighborhood this Orange Line acts as a good approximation of the blue curve right in that.
+small neighborhood that you see between these two points here that is the orange line is very close to the.
+Blue Line but as the neighborhood increases if you come go very far from the point that you were and.
+now you're going to try it so this is your X naught right this this point here is your X.

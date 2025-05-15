@@ -1,0 +1,9 @@
+for that input right and if this data was linearly separable then I should have a network such that it.
+takes any input from this training data and it gives me the same output as is given to me in.
+the training date right in the training data I'm given these X comma y pairs right and then I have.
+a network I pass this x through the network and it predicts a y I'll just call it y hat.
+so I wanted the Y hat and the Y to be same and that's what it means by this network.
+can exactly represent the function right now I'm just losing that definition a bit I am saying that can I.
+have a network which can approximately represent the function right which means what that I want y hat to be.
+approximately equal to y y this approximately y naught exact we'll come to that later all right for now if.
+you want to assume I want something which is exactly equal that's also fine right but I'm just going to.

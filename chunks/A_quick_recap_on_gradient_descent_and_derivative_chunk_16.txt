@@ -1,0 +1,10 @@
+so this is what was happening in our gradient when we when we ran this algorithm right so let me.
+just give some uh context here ignore this for now ignore the of yeah so ignore uh this for now.
+right just focus on the uh top graph and I'll tell you what we are trying to do there okay.
+yeah so I was just trying to run the gradient descent algorithm this was my the the Flying Carpet kind.
+of a structure that you see it was what my loss function looked alike and I started with some random.
+initial value right which is the black point where I have started this is the loss and these this is.
+the point corresponding to W comma B right so my w was somewhere around -5 and my B was also.
+somewhere around minus 5 right so that's the point from which I started and as you can see my loss.
+is quite high it's around 0.4 or 0.5 something like that okay so now I run the gradient descent algorithm.
+so at every step I am going to change my w and B so this point that you see on.

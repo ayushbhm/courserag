@@ -1,0 +1,9 @@
+now I have not explained what this function is I have not given you the formula for the perceptron I.
+have given you a formula that Y is equal to 1 if something Y is equal to zero something I.
+have not given your formula but for now we'll just appreciate that this looks more realistic right that it's not.
+suddenly changing its decision it's gradually moving from zero to one right it's not like query uh sharp as was.
+in the case of the earlier function right so to get this kind of an effect we'll now introduce what.
+is known as the sigmoid neuron and sigma 8 function the function Sigma is like a family of functions and.
+here's one member from that family which is called the logistic function later on in the course we'll see the.
+tan H function which is also a member of Islam right and let's see what is happening here so this.
+is this is a quantity which is familiar to us right this is the weighted sum of the inputs and.

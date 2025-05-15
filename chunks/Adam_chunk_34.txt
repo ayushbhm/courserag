@@ -1,0 +1,4 @@
+and that's why we use this bias correction in the case of atom okay uh as we are done with.
+this so I'd skipped this part yesterday now the rest of the stuff of Adam we have already done and.
+we already did this we looked at multiple explanations for why the initial uh updates are going to be larger.
+right so we saw this these derivations then we saw this plot all of that is done right.

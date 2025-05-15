@@ -1,0 +1,9 @@
+the elements of w1 which is n square elements all the elements of w2 w3 which are again n square.
+elements and then elements of wl which is n into k then all the biases there were n biases in.
+layer one n biases in layer two and then k in layer three right all of this collected together so.
+i have a large army of parameters now instead of just two parameters right but if i'm going to write.
+theta as a collection of all the parameters i can still do that i'm just going to say that theta.
+is a collection of all the parameters earlier my vectors were of size 2 now my vectors are very large.
+right there n square plus n square plus n into k plus n plus n plus k right in this.
+specific example so it's a very large vector so what it's still just a vector and all these operations still.
+can hold it just as i can add two dimensional vectors or subtract one vector from another i can do.

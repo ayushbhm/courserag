@@ -1,0 +1,10 @@
+can be the logistic function or it can be the cumulative distribution of the standard normal distribution right so that's.
+what I already uh explained uh earlier okay so now let's uh go further yeah so what is the expected.
+value of f of x let's try to find that so expected value of f of x is the same.
+as the expected value of M into X and uh that since it follows the Bernoulli distribution I can just.
+write it with probability uh Phi X it would take on the value 1 then multiply it by X right.
+and then with probability 1 minus 5x it will take on the value 0 and then multiply it by X.
+and this effectively would just be Phi of x into X right and what was Phi of X it was.
+the cumulative density function of the normal distribution so Phi of X just basically means the probability of X being.
+less than or equal to X right that's how what that's what Phi of X means right so if I.
+were to draw the cumulative density function then if I were to this is my x axis so if I.

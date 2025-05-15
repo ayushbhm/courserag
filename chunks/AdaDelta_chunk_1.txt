@@ -1,0 +1,9 @@
+I had in the previous algorithm and then my update tool was WT minus this right so this is my.
+Delta and then my update tool is just going to be WT plus Delta so that negative sign has been.
+taken care of inside and I don't have the initial learning rate instead I have this in the numerator right.
+so all of this is making sense and this is what my UT is right so my UT is an.
+accumulation of the updates that I have made so remember this is nabla WT Square I am representing the gradient.
+as nabla WT right so derivative is knabla WT and the update is Delta WT right so this is what.
+this is keeping track of the Deltas and my current derivatives are lab loss right so I have like two.
+histories being tracked and then I'm taking a ratio of these histories and then adjusting the learning rate how does.
+it solve my problem is still not clear but right now we are just trying to understand what the equations.

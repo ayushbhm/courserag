@@ -1,0 +1,9 @@
+[Music] so welcome back uh so in the previous module we looked at this typical machine learning supervised machine learning.
+setup and the key there was to now come up with a algorithm for learning the parameters right so what.
+we'll do is now start with an infeasible algorithm right which will not really work in practice but it will.
+give us intuitions about how what should we do to make it i mean go towards the more practical approach.
+right so let's start so this is the supervised machine learning setup that i have i have n inputs okay.
+and i have some weights and then i have the output now this is the model right this is my.
+approximation of the relation between y and f y and x right so this is f hat actually this is.
+the model and now i want to know an algorithm okay which can be used to learn the parameters of.
+this model given the data that is would be given to me and using some objective function which makes sense.

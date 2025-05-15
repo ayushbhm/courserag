@@ -1,0 +1,10 @@
+this would become 1 over 1 plus infinity right so in that case the denominator would become Infinity so 1.
+over infinity would be 0 and so as I go in this direction so as I go in uh this.
+direction which is minus infinity my function starts tending to zero right so that's why this behavior is there and.
+now again let's just do one more thing if W transpose X equal to 0 if I substitute that value.
+then I get 1 over 1 plus e raised to 0. right and that would be half right so that's.
+what you are seeing here okay yeah so that's that's what is happening here uh so for this discussion just.
+let's assume that W 0 was 0 right so that this uh so that all of this is in sync.
+right so that this is this disappears and all of this Falls in sync if you have a w naught.
+you can have a similar explanation it's just that the graph will move a bit right so I'll leave it.
+for you to figure that out but the what is the important thing is how do you get this s.

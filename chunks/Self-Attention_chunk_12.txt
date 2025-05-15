@@ -1,0 +1,10 @@
+right so now can I do this in parallel so now let's see how I am Computing uh q1 q1.
+was The Matrix WQ multiplied by H1 how would I compute Q2 it would be the Matrix WQ multiplied by.
+H2 and that would give me uh Q2 how would I compute Q3 it would be the Matrix WQ multiplied.
+by H3 which would give me Q3 all the way up to h capital T so it would be WQ.
+multiplied by h t which would then give me Q capital T right so now I can just write this.
+as a matrix operation you can just put all of these vectors inside a matrix and if you multiply this.
+matrix by this Matrix then you get this Matrix as an output right so all the cues you can compute.
+at one go right you don't need to do that sequentially all the query vectors can be computed at one.
+go by just multiplying these two matrices WQ multiplied by The Matrix containing all these inputs as columns and then.
+you get the queues at one go similarly now what is the dimension of Q right so let's let's look.

@@ -1,0 +1,9 @@
+would understand is that it's through the loss function right so now if my network starts predicting the value of.
+y hat one right which was say the imdb rating as thousand whereas actually the value is somewhere between 0.
+to 10 right let's say it was 9.5 then my difference between 9.5 minus 1000 the whole square right this.
+is my loss function this is going to be very high right if this is going to be very high.
+then my loss is very high that means what is the network uh what is the signal that the network.
+is getting that the current parameter configuration which is giving me these high values of the output is not a.
+good configuration and it will start pushing it away from those configurations right using the gradient descent algorithm so if.
+i get a large loss that's an indication that i should start moving away from those configurations and the network.
+will start doing that so hence that is the reason why it will not learn to predict these high values.

@@ -1,0 +1,8 @@
+foreign [Music] module I was telling you that the next topic that we'll talk about is the representation power of.
+a multi-layer network of Sigma neurons so let's understand what I mean by that right so just a quick recap.
+right so earlier uh when we are finishing perceptrons we had introduced this multi-layer network of perceptrons and we had.
+spoken about the representation power of a multi-layer network of person drones uh analogously now we are going to talk.
+about the representation power of a multi-year network of sigmoid neurons so it's just the same template being repeated right.
+and there we had uh made an interesting statement right that a multi-layer network of perceptrons with a single hidden.
+layer and I don't care about the number of neurons in this layer I know that it can be exponentially.
+but exponential but I don't care about that a single hidden layer can be used to represent any Boolean function.

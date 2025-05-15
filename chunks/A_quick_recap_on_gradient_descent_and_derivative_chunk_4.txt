@@ -1,0 +1,9 @@
+that and some of the content is also inspired by uh the course which Henry carpathy uh used to teach.
+in cs231n right so I just wanted to make sure I mentioned those acknowledgments okay so let's uh start so.
+this part as I said module 5.1 and 5.2 is just a reputation so we had looked at the guesswork.
+algorithm so this is what our setup was we had a simple network with two ways W and B and.
+we were interested in learning these uh weights right and what was uh the intention that we wanted to find.
+a sigmoid uh function right or rather we wanted the weights to be such that that when I plot the.
+sigmoid function using those weights then these two points should lie on that sigmoid function right that's what uh training.
+uh meant that's what we meant by uh training and to do that what we decided is okay let's start.
+with some uh random guesswork right so I was trying to take these W comma B values that you see.

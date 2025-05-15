@@ -1,0 +1,9 @@
+so since H is a symmetric positive semi-definite Matrix we know that its eigenvalue decomposition will exist not just that.
+we know that its eigenvalue decomposition the eigenvectors are going to be orthogonal so I can write it as Q.
+Lambda Q transpose so uh I'm sure you have done this in a course on linear algebra if not there.
+are these other videos that I have on linear algebra you can go ahead and look at that I do.
+eigenvalue decomposition in quite a bit of detail there right so this I would assume you know that any Matrix.
+you can write the eigen value decomposition and Q is orthogonal here so q q transpose equal to Q transpose.
+Q is equal to I right we know that so now on the previous slide whatever I had I'm just.
+going to bring that back okay this pen work is fairly cumbersome I need to get rid of okay and.
+now instead of H so this is what we had on the previous slide right so this is what we.

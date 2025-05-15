@@ -1,0 +1,9 @@
+P of X taking on values less than equal to X so P of x less than equal to Infinity.
+is going to be 1 right so as this approaches Infinity uh your CDF would hit one right so that's.
+another function that you can use so you could make the this function Phi of X as uh take it.
+as the cumulative density function uh and parameterize of of the normal uh uh distribution and then parameterized by this.
+input that you have right so these are the possibilities so overall I mean I said a lot of things.
+let me quickly summarize so we first do this analogy between relu and hard activation and then rewrote a value.
+accordingly then we try to see that relu and Dropout seem to be doing something with this stochastic uh difference.
+between them right Dropout does this stochastically withdrawal DP and minus P so why not bring that stochasticity into the.
+function itself and how I brought it in I have defined a random variable M right so now this random.

@@ -1,0 +1,9 @@
+demonstrate uh this so i'll just first again illustrate with the cartoon and then go to a more real example.
+is that you might have this neuron which fires only if the visual is funny there might be other neurons.
+which fires only if the speech or the sound is funny right and another neuron which might fire if the.
+text is funny that means whatever is being said is funny and then you might these three neurons might pass.
+on the information to a fourth neuron and that neuron might fire if at least two of the three inputs.
+are on right if two of the three inputs are activated then this is enough for it to fire and.
+it in it turn would do some other action right it might just activate other neurons or might directly be.
+responsible for taking some action right and here i'd like to demonstrate the visual cortex right of the brain right.
+and it has many layers let me just delete this and then do it again yes so here you have.

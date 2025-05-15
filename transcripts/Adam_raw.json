@@ -1,0 +1,3687 @@
+[
+  {
+    "text": "foreign",
+    "start": 0.299,
+    "duration": 3.0
+  },
+  {
+    "text": "[Music]",
+    "start": 6.62,
+    "duration": 15.4
+  },
+  {
+    "text": "okay so we have seen three adaptive",
+    "start": 19.98,
+    "duration": 4.32
+  },
+  {
+    "text": "algorithms so far one the first one was",
+    "start": 22.02,
+    "duration": 3.96
+  },
+  {
+    "text": "at a grad which had this problem of",
+    "start": 24.3,
+    "duration": 3.899
+  },
+  {
+    "text": "rapidly killing the learning rate which",
+    "start": 25.98,
+    "duration": 4.639
+  },
+  {
+    "text": "was solved by RMS prop by",
+    "start": 28.199,
+    "duration": 5.641
+  },
+  {
+    "text": "making using an exponentially averaged",
+    "start": 30.619,
+    "duration": 6.041
+  },
+  {
+    "text": "history but still it is the problem of",
+    "start": 33.84,
+    "duration": 4.44
+  },
+  {
+    "text": "dependency on the initial learning rate",
+    "start": 36.66,
+    "duration": 3.899
+  },
+  {
+    "text": "so then we saw add a Delta which got rid",
+    "start": 38.28,
+    "duration": 4.619
+  },
+  {
+    "text": "of this initial learning rate and made",
+    "start": 40.559,
+    "duration": 3.961
+  },
+  {
+    "text": "the effective learning rate a ratio of",
+    "start": 42.899,
+    "duration": 3.901
+  },
+  {
+    "text": "two histories right now continuing in",
+    "start": 44.52,
+    "duration": 5.039
+  },
+  {
+    "text": "our algorithms on in continuing our",
+    "start": 46.8,
+    "duration": 4.98
+  },
+  {
+    "text": "journey towards the algorithms for with",
+    "start": 49.559,
+    "duration": 3.601
+  },
+  {
+    "text": "adaptive learning rates we'll now look",
+    "start": 51.78,
+    "duration": 3.66
+  },
+  {
+    "text": "at Adam which is expands to Adaptive",
+    "start": 53.16,
+    "duration": 4.559
+  },
+  {
+    "text": "moments and the intuition here is that",
+    "start": 55.44,
+    "duration": 4.02
+  },
+  {
+    "text": "do everything that RMS prop does right",
+    "start": 57.719,
+    "duration": 3.66
+  },
+  {
+    "text": "to solve the DK problem of ADA grad",
+    "start": 59.46,
+    "duration": 3.54
+  },
+  {
+    "text": "which is to use an exponentially",
+    "start": 61.379,
+    "duration": 4.681
+  },
+  {
+    "text": "weighted history in addition use a",
+    "start": 63.0,
+    "duration": 4.68
+  },
+  {
+    "text": "cumulative history of the gradients as",
+    "start": 66.06,
+    "duration": 5.0
+  },
+  {
+    "text": "you used in a kind of a",
+    "start": 67.68,
+    "duration": 6.66
+  },
+  {
+    "text": "momentum based algorithm side where you",
+    "start": 71.06,
+    "duration": 6.4
+  },
+  {
+    "text": "use uh exponentially weighted history of",
+    "start": 74.34,
+    "duration": 4.8
+  },
+  {
+    "text": "the gradients as opposed to only relying",
+    "start": 77.46,
+    "duration": 4.199
+  },
+  {
+    "text": "on the current gradient right so this is",
+    "start": 79.14,
+    "duration": 5.22
+  },
+  {
+    "text": "what my uh",
+    "start": 81.659,
+    "duration": 5.341
+  },
+  {
+    "text": "uh so this is what my current gradient",
+    "start": 84.36,
+    "duration": 4.2
+  },
+  {
+    "text": "is but instead of only relying on the",
+    "start": 87.0,
+    "duration": 3.78
+  },
+  {
+    "text": "current gradient I'm looking at the",
+    "start": 88.56,
+    "duration": 3.96
+  },
+  {
+    "text": "history of the gradients right this is",
+    "start": 90.78,
+    "duration": 3.36
+  },
+  {
+    "text": "similar to what we have seen in the",
+    "start": 92.52,
+    "duration": 6.779
+  },
+  {
+    "text": "momentum based gradient descent and yeah",
+    "start": 94.14,
+    "duration": 7.14
+  },
+  {
+    "text": "this is classical momentum then you do",
+    "start": 99.299,
+    "duration": 4.14
+  },
+  {
+    "text": "something known as bias correction I'll",
+    "start": 101.28,
+    "duration": 4.08
+  },
+  {
+    "text": "just tell you the formula for now and",
+    "start": 103.439,
+    "duration": 3.961
+  },
+  {
+    "text": "not comment much on it as of now right",
+    "start": 105.36,
+    "duration": 4.799
+  },
+  {
+    "text": "so it's at time step T once you have",
+    "start": 107.4,
+    "duration": 6.6
+  },
+  {
+    "text": "computed empty then you compute the bias",
+    "start": 110.159,
+    "duration": 5.581
+  },
+  {
+    "text": "corrected value of empty which is empty",
+    "start": 114.0,
+    "duration": 4.439
+  },
+  {
+    "text": "hat which is just empty divided by 1",
+    "start": 115.74,
+    "duration": 6.36
+  },
+  {
+    "text": "minus beta 1 raised to T then we have VT",
+    "start": 118.439,
+    "duration": 6.36
+  },
+  {
+    "text": "which was the usual VT which acted as a",
+    "start": 122.1,
+    "duration": 4.199
+  },
+  {
+    "text": "denominator for the effective learning",
+    "start": 124.799,
+    "duration": 3.6
+  },
+  {
+    "text": "rate this is the same as what we had in",
+    "start": 126.299,
+    "duration": 4.141
+  },
+  {
+    "text": "RMS prop right so as I said do",
+    "start": 128.399,
+    "duration": 4.441
+  },
+  {
+    "text": "everything that RMS prop does plus just",
+    "start": 130.44,
+    "duration": 4.5
+  },
+  {
+    "text": "add this classical momentum term right",
+    "start": 132.84,
+    "duration": 4.14
+  },
+  {
+    "text": "that's what Atom does so again you have",
+    "start": 134.94,
+    "duration": 5.04
+  },
+  {
+    "text": "a bias correction for VT also so you'll",
+    "start": 136.98,
+    "duration": 5.759
+  },
+  {
+    "text": "compute a VT hat which is VT divided by",
+    "start": 139.98,
+    "duration": 6.36
+  },
+  {
+    "text": "1 minus beta 2 raised to T right and",
+    "start": 142.739,
+    "duration": 8.101
+  },
+  {
+    "text": "then your update is WT",
+    "start": 146.34,
+    "duration": 4.5
+  },
+  {
+    "text": "minus the effective learning rate into",
+    "start": 154.8,
+    "duration": 5.64
+  },
+  {
+    "text": "this uh moving average right as you have",
+    "start": 157.5,
+    "duration": 5.459
+  },
+  {
+    "text": "in momentum which is the exponentially",
+    "start": 160.44,
+    "duration": 4.68
+  },
+  {
+    "text": "weighted average right so this is what",
+    "start": 162.959,
+    "duration": 5.341
+  },
+  {
+    "text": "uh the update rules update equations for",
+    "start": 165.12,
+    "duration": 6.38
+  },
+  {
+    "text": "atom look like",
+    "start": 168.3,
+    "duration": 3.2
+  },
+  {
+    "text": "and here this is looking at the L2 Norm",
+    "start": 173.34,
+    "duration": 6.24
+  },
+  {
+    "text": "what we mean by that is that if you have",
+    "start": 176.94,
+    "duration": 4.98
+  },
+  {
+    "text": "or rather exponentially weighted average",
+    "start": 179.58,
+    "duration": 7.76
+  },
+  {
+    "text": "L2 numerate so you have uh V 0",
+    "start": 181.92,
+    "duration": 5.42
+  },
+  {
+    "text": "it is simply Delta W 0 square right",
+    "start": 189.9,
+    "duration": 4.979
+  },
+  {
+    "text": "because initially you don't have any",
+    "start": 193.319,
+    "duration": 5.161
+  },
+  {
+    "text": "other term or rather 1 minus into one",
+    "start": 194.879,
+    "duration": 7.561
+  },
+  {
+    "text": "minus beta right and then if you look at",
+    "start": 198.48,
+    "duration": 9.72
+  },
+  {
+    "text": "VT it will have Delta W 0 square",
+    "start": 202.44,
+    "duration": 8.04
+  },
+  {
+    "text": "appropriately multiplied by some Decay",
+    "start": 208.2,
+    "duration": 5.399
+  },
+  {
+    "text": "Factor then Delta W 1 square again",
+    "start": 210.48,
+    "duration": 5.1
+  },
+  {
+    "text": "multiplied by some Decay factor and all",
+    "start": 213.599,
+    "duration": 5.22
+  },
+  {
+    "text": "the way up to the current gradient",
+    "start": 215.58,
+    "duration": 7.019
+  },
+  {
+    "text": "right multiplied by 1 minus beta right",
+    "start": 218.819,
+    "duration": 6.241
+  },
+  {
+    "text": "so if I just ignore the Decay factors",
+    "start": 222.599,
+    "duration": 6.241
+  },
+  {
+    "text": "and if I treat this as a collection of",
+    "start": 225.06,
+    "duration": 6.06
+  },
+  {
+    "text": "values as a vector then what I'm looking",
+    "start": 228.84,
+    "duration": 4.5
+  },
+  {
+    "text": "at is the L2 Norm of that Vector right",
+    "start": 231.12,
+    "duration": 4.02
+  },
+  {
+    "text": "so that's what I uh what is the meaning",
+    "start": 233.34,
+    "duration": 4.679
+  },
+  {
+    "text": "here and it's just not an L2 Norm it's",
+    "start": 235.14,
+    "duration": 4.86
+  },
+  {
+    "text": "an exponentially weighted L2 Norm that",
+    "start": 238.019,
+    "duration": 3.3
+  },
+  {
+    "text": "you are taking right so that's what you",
+    "start": 240.0,
+    "duration": 3.72
+  },
+  {
+    "text": "need to remember if you look at VT it",
+    "start": 241.319,
+    "duration": 4.621
+  },
+  {
+    "text": "has all the terms from Delta W 0 square",
+    "start": 243.72,
+    "duration": 5.4
+  },
+  {
+    "text": "all the way up to Delta w t square and",
+    "start": 245.94,
+    "duration": 5.159
+  },
+  {
+    "text": "they are exponentially weighted and you",
+    "start": 249.12,
+    "duration": 3.539
+  },
+  {
+    "text": "are taking the square so that's the same",
+    "start": 251.099,
+    "duration": 3.541
+  },
+  {
+    "text": "as taking like an exponentially weighted",
+    "start": 252.659,
+    "duration": 4.501
+  },
+  {
+    "text": "L2 Norm of a certain Vector right so",
+    "start": 254.64,
+    "duration": 5.04
+  },
+  {
+    "text": "that's what I wanted to indicate here uh",
+    "start": 257.16,
+    "duration": 3.9
+  },
+  {
+    "text": "and why am I saying that is something",
+    "start": 259.68,
+    "duration": 3.72
+  },
+  {
+    "text": "that will become clear I think a little",
+    "start": 261.06,
+    "duration": 5.48
+  },
+  {
+    "text": "bit later in the discussion",
+    "start": 263.4,
+    "duration": 3.14
+  },
+  {
+    "text": "and typical values for beta1 and beta 2",
+    "start": 271.02,
+    "duration": 6.48
+  },
+  {
+    "text": "are beta 1 is 0.9 and beta2 is 0.999 so",
+    "start": 273.6,
+    "duration": 8.039
+  },
+  {
+    "text": "since beta 2 is 0.999 uh so this 1 minus",
+    "start": 277.5,
+    "duration": 5.759
+  },
+  {
+    "text": "beta 2 is essentially a very small",
+    "start": 281.639,
+    "duration": 3.181
+  },
+  {
+    "text": "quantity right so you're taking a very",
+    "start": 283.259,
+    "duration": 4.021
+  },
+  {
+    "text": "small fraction of the current uh",
+    "start": 284.82,
+    "duration": 5.24
+  },
+  {
+    "text": "gradient",
+    "start": 287.28,
+    "duration": 2.78
+  },
+  {
+    "text": "okay so now let's learn Adam and try to",
+    "start": 291.9,
+    "duration": 4.5
+  },
+  {
+    "text": "compare it with the other algorithms",
+    "start": 294.66,
+    "duration": 4.28
+  },
+  {
+    "text": "that we have",
+    "start": 296.4,
+    "duration": 2.54
+  },
+  {
+    "text": "yeah",
+    "start": 300.06,
+    "duration": 6.12
+  },
+  {
+    "text": "so let me just see again yeah so in this",
+    "start": 301.979,
+    "duration": 6.121
+  },
+  {
+    "text": "case again Ada Delta reached the",
+    "start": 306.18,
+    "duration": 5.7
+  },
+  {
+    "text": "conversions fast but atom is also uh",
+    "start": 308.1,
+    "duration": 6.84
+  },
+  {
+    "text": "reached faster than the other algorithms",
+    "start": 311.88,
+    "duration": 5.94
+  },
+  {
+    "text": "and RMS prop as usual has the uh",
+    "start": 314.94,
+    "duration": 4.62
+  },
+  {
+    "text": "convergence problem right so this is not",
+    "start": 317.82,
+    "duration": 3.12
+  },
+  {
+    "text": "to show that okay Adam is always going",
+    "start": 319.56,
+    "duration": 2.34
+  },
+  {
+    "text": "to be better than all the other",
+    "start": 320.94,
+    "duration": 2.88
+  },
+  {
+    "text": "algorithms but I'm just showing how Adam",
+    "start": 321.9,
+    "duration": 4.44
+  },
+  {
+    "text": "is behaving in this case right and",
+    "start": 323.82,
+    "duration": 3.98
+  },
+  {
+    "text": "there's a difference between atom and",
+    "start": 326.34,
+    "duration": 6.06
+  },
+  {
+    "text": "Delta uh atom is more in the line of RMS",
+    "start": 327.8,
+    "duration": 6.94
+  },
+  {
+    "text": "prop uh with the momentum whereas Adder",
+    "start": 332.4,
+    "duration": 4.739
+  },
+  {
+    "text": "Delta also and this uh adaptive",
+    "start": 334.74,
+    "duration": 5.34
+  },
+  {
+    "text": "effective learning rate whereas here you",
+    "start": 337.139,
+    "duration": 4.861
+  },
+  {
+    "text": "still have the initial learning rate",
+    "start": 340.08,
+    "duration": 3.3
+  },
+  {
+    "text": "right so",
+    "start": 342.0,
+    "duration": 4.5
+  },
+  {
+    "text": "you still have ETA here okay yeah so you",
+    "start": 343.38,
+    "duration": 4.98
+  },
+  {
+    "text": "saw what happens there and it seems to",
+    "start": 346.5,
+    "duration": 4.919
+  },
+  {
+    "text": "behave uh reasonably",
+    "start": 348.36,
+    "duration": 3.96
+  },
+  {
+    "text": "um",
+    "start": 351.419,
+    "duration": 3.481
+  },
+  {
+    "text": "okay so now I had mentioned that this",
+    "start": 352.32,
+    "duration": 4.92
+  },
+  {
+    "text": "Adam had this bias correction term right",
+    "start": 354.9,
+    "duration": 5.22
+  },
+  {
+    "text": "so uh the other Concepts in the",
+    "start": 357.24,
+    "duration": 4.679
+  },
+  {
+    "text": "equations of Adam you already know right",
+    "start": 360.12,
+    "duration": 4.519
+  },
+  {
+    "text": "you already know what VT does it kind of",
+    "start": 361.919,
+    "duration": 5.761
+  },
+  {
+    "text": "decays the learning rate you also know",
+    "start": 364.639,
+    "duration": 4.9
+  },
+  {
+    "text": "what Mt does right Mt is the classical",
+    "start": 367.68,
+    "duration": 4.2
+  },
+  {
+    "text": "momentum term the only new thing which",
+    "start": 369.539,
+    "duration": 4.201
+  },
+  {
+    "text": "has come up in Adam is this bias",
+    "start": 371.88,
+    "duration": 4.379
+  },
+  {
+    "text": "correction right which is not uh clear",
+    "start": 373.74,
+    "duration": 4.799
+  },
+  {
+    "text": "to us why we are doing that bias",
+    "start": 376.259,
+    "duration": 4.081
+  },
+  {
+    "text": "correction right so let's see why we are",
+    "start": 378.539,
+    "duration": 2.94
+  },
+  {
+    "text": "doing that bias correction right so",
+    "start": 380.34,
+    "duration": 3.96
+  },
+  {
+    "text": "these are the update equations for uh",
+    "start": 381.479,
+    "duration": 5.521
+  },
+  {
+    "text": "atom so note that we are taking like a",
+    "start": 384.3,
+    "duration": 5.399
+  },
+  {
+    "text": "running average of empty right we are in",
+    "start": 387.0,
+    "duration": 4.919
+  },
+  {
+    "text": "in Mt we are taking a running average of",
+    "start": 389.699,
+    "duration": 4.801
+  },
+  {
+    "text": "the gradients right so what do I mean by",
+    "start": 391.919,
+    "duration": 3.9
+  },
+  {
+    "text": "taking a running average of the",
+    "start": 394.5,
+    "duration": 2.34
+  },
+  {
+    "text": "gradients like I have the current",
+    "start": 395.819,
+    "duration": 2.581
+  },
+  {
+    "text": "gradient I'm giving it some weightage",
+    "start": 396.84,
+    "duration": 4.199
+  },
+  {
+    "text": "and I'm also accumulating the history so",
+    "start": 398.4,
+    "duration": 4.079
+  },
+  {
+    "text": "the reason we are doing this is that we",
+    "start": 401.039,
+    "duration": 2.641
+  },
+  {
+    "text": "don't want to rely too much on the",
+    "start": 402.479,
+    "duration": 2.461
+  },
+  {
+    "text": "current gradient right because you might",
+    "start": 403.68,
+    "duration": 3.299
+  },
+  {
+    "text": "get a sudden High gradient and then you",
+    "start": 404.94,
+    "duration": 4.14
+  },
+  {
+    "text": "might take a very large step and you",
+    "start": 406.979,
+    "duration": 3.66
+  },
+  {
+    "text": "might not want to rely too much on the",
+    "start": 409.08,
+    "duration": 2.7
+  },
+  {
+    "text": "current gradient this is the same",
+    "start": 410.639,
+    "duration": 3.601
+  },
+  {
+    "text": "explanation as we have in momentum where",
+    "start": 411.78,
+    "duration": 3.78
+  },
+  {
+    "text": "you want to keep looking at the history",
+    "start": 414.24,
+    "duration": 3.0
+  },
+  {
+    "text": "if I am constantly moving in a direction",
+    "start": 415.56,
+    "duration": 3.96
+  },
+  {
+    "text": "then I want to keep some weightage for",
+    "start": 417.24,
+    "duration": 3.959
+  },
+  {
+    "text": "the history also and then not make",
+    "start": 419.52,
+    "duration": 3.36
+  },
+  {
+    "text": "sudden movements based on just the",
+    "start": 421.199,
+    "duration": 3.601
+  },
+  {
+    "text": "current derivative right so that's what",
+    "start": 422.88,
+    "duration": 3.72
+  },
+  {
+    "text": "that's why you have this exponentially",
+    "start": 424.8,
+    "duration": 4.56
+  },
+  {
+    "text": "weighted average so that you have more",
+    "start": 426.6,
+    "duration": 4.02
+  },
+  {
+    "text": "weightage for the history because",
+    "start": 429.36,
+    "duration": 3.179
+  },
+  {
+    "text": "history has accumulated over time and",
+    "start": 430.62,
+    "duration": 3.78
+  },
+  {
+    "text": "less weightage for the current point in",
+    "start": 432.539,
+    "duration": 4.621
+  },
+  {
+    "text": "time gradient right so so one way of",
+    "start": 434.4,
+    "duration": 4.32
+  },
+  {
+    "text": "looking at this is that you are actually",
+    "start": 437.16,
+    "duration": 4.62
+  },
+  {
+    "text": "right what you want in empty",
+    "start": 438.72,
+    "duration": 5.879
+  },
+  {
+    "text": "is that you want to look at the expected",
+    "start": 441.78,
+    "duration": 5.46
+  },
+  {
+    "text": "value of the gradient as opposed to this",
+    "start": 444.599,
+    "duration": 5.0
+  },
+  {
+    "text": "current value of the gradient right so",
+    "start": 447.24,
+    "duration": 4.519
+  },
+  {
+    "text": "instead of just looking at the current",
+    "start": 449.599,
+    "duration": 5.141
+  },
+  {
+    "text": "gradient I would have ideally wanted to",
+    "start": 451.759,
+    "duration": 5.081
+  },
+  {
+    "text": "look at the expected value right so",
+    "start": 454.74,
+    "duration": 4.079
+  },
+  {
+    "text": "remember that our true gradient is",
+    "start": 456.84,
+    "duration": 5.22
+  },
+  {
+    "text": "actually a sum over all the data points",
+    "start": 458.819,
+    "duration": 4.801
+  },
+  {
+    "text": "that we have right but here we are going",
+    "start": 462.06,
+    "duration": 3.3
+  },
+  {
+    "text": "to do mini batch or some such version",
+    "start": 463.62,
+    "duration": 4.199
+  },
+  {
+    "text": "and say we are doing stochastic in the",
+    "start": 465.36,
+    "duration": 3.779
+  },
+  {
+    "text": "worst case right we are just looking at",
+    "start": 467.819,
+    "duration": 3.301
+  },
+  {
+    "text": "one data point then I don't want to make",
+    "start": 469.139,
+    "duration": 3.601
+  },
+  {
+    "text": "decisions based on this one data point",
+    "start": 471.12,
+    "duration": 4.44
+  },
+  {
+    "text": "but I would like to be closer to the",
+    "start": 472.74,
+    "duration": 4.62
+  },
+  {
+    "text": "mean of the gradients or the expected",
+    "start": 475.56,
+    "duration": 3.84
+  },
+  {
+    "text": "value of the gradients right and this",
+    "start": 477.36,
+    "duration": 4.26
+  },
+  {
+    "text": "exponentially weighted average is also",
+    "start": 479.4,
+    "duration": 4.079
+  },
+  {
+    "text": "trying to capture some kind of an",
+    "start": 481.62,
+    "duration": 3.96
+  },
+  {
+    "text": "average right now the question is",
+    "start": 483.479,
+    "duration": 3.601
+  },
+  {
+    "text": "whether this exponentially weighted",
+    "start": 485.58,
+    "duration": 4.2
+  },
+  {
+    "text": "average is close to the expected value",
+    "start": 487.08,
+    "duration": 4.26
+  },
+  {
+    "text": "of the gradient right because I am",
+    "start": 489.78,
+    "duration": 3.539
+  },
+  {
+    "text": "taking a average and exponentially",
+    "start": 491.34,
+    "duration": 3.78
+  },
+  {
+    "text": "moving average is that close to the",
+    "start": 493.319,
+    "duration": 3.241
+  },
+  {
+    "text": "expected value because ideally I would",
+    "start": 495.12,
+    "duration": 3.72
+  },
+  {
+    "text": "wanted the expected value because that",
+    "start": 496.56,
+    "duration": 4.139
+  },
+  {
+    "text": "would tell me over all the data points",
+    "start": 498.84,
+    "duration": 4.02
+  },
+  {
+    "text": "if I had taken all of them what would my",
+    "start": 500.699,
+    "duration": 3.601
+  },
+  {
+    "text": "gradient be right but I'm not able to",
+    "start": 502.86,
+    "duration": 3.6
+  },
+  {
+    "text": "take the expected value for because",
+    "start": 504.3,
+    "duration": 4.079
+  },
+  {
+    "text": "there are large number of data points",
+    "start": 506.46,
+    "duration": 2.639
+  },
+  {
+    "text": "right",
+    "start": 508.379,
+    "duration": 2.88
+  },
+  {
+    "text": "so",
+    "start": 509.099,
+    "duration": 5.3
+  },
+  {
+    "text": "what that means is",
+    "start": 511.259,
+    "duration": 3.14
+  },
+  {
+    "text": "instead of expected value of the",
+    "start": 516.839,
+    "duration": 4.08
+  },
+  {
+    "text": "derivative we are Computing empty as",
+    "start": 518.52,
+    "duration": 3.78
+  },
+  {
+    "text": "some kind of an average right so",
+    "start": 520.919,
+    "duration": 2.521
+  },
+  {
+    "text": "expectation you could think of",
+    "start": 522.3,
+    "duration": 2.52
+  },
+  {
+    "text": "expectation as the mean or the average",
+    "start": 523.44,
+    "duration": 2.76
+  },
+  {
+    "text": "but instead of computing the true",
+    "start": 524.82,
+    "duration": 4.079
+  },
+  {
+    "text": "expectation we are Computing some empty",
+    "start": 526.2,
+    "duration": 4.28
+  },
+  {
+    "text": "which is an exponentially moving average",
+    "start": 528.899,
+    "duration": 4.141
+  },
+  {
+    "text": "ideally we would want that the expected",
+    "start": 530.48,
+    "duration": 4.539
+  },
+  {
+    "text": "value of empty is the same as the",
+    "start": 533.04,
+    "duration": 4.26
+  },
+  {
+    "text": "expected value of the derivative itself",
+    "start": 535.019,
+    "duration": 3.781
+  },
+  {
+    "text": "of the gradient itself right this is",
+    "start": 537.3,
+    "duration": 3.78
+  },
+  {
+    "text": "what we would want ideally now let us",
+    "start": 538.8,
+    "duration": 3.96
+  },
+  {
+    "text": "see if that is really the case that is",
+    "start": 541.08,
+    "duration": 2.939
+  },
+  {
+    "text": "that happening if that's happening then",
+    "start": 542.76,
+    "duration": 2.639
+  },
+  {
+    "text": "perhaps we don't need to do anything",
+    "start": 544.019,
+    "duration": 4.681
+  },
+  {
+    "text": "right so remember the momentum equations",
+    "start": 545.399,
+    "duration": 5.821
+  },
+  {
+    "text": "that we had where we had u t is equal to",
+    "start": 548.7,
+    "duration": 6.3
+  },
+  {
+    "text": "Beta U T minus 1 plus Delta WT now in",
+    "start": 551.22,
+    "duration": 5.46
+  },
+  {
+    "text": "and when we had expanded out those",
+    "start": 555.0,
+    "duration": 3.18
+  },
+  {
+    "text": "equations that you can go back and check",
+    "start": 556.68,
+    "duration": 4.8
+  },
+  {
+    "text": "those videos uh we had so we had written",
+    "start": 558.18,
+    "duration": 6.659
+  },
+  {
+    "text": "it as u0",
+    "start": 561.48,
+    "duration": 3.359
+  },
+  {
+    "text": "is equal to uh Delta W 0 U1 is equal to",
+    "start": 567.66,
+    "duration": 10.02
+  },
+  {
+    "text": "Beta times Delta W 0 plus Delta W 1 then",
+    "start": 572.7,
+    "duration": 9.12
+  },
+  {
+    "text": "U2 is equal to Beta Square Times Delta W",
+    "start": 577.68,
+    "duration": 9.18
+  },
+  {
+    "text": "0 plus beta times Delta W1 plus Delta W",
+    "start": 581.82,
+    "duration": 7.98
+  },
+  {
+    "text": "2 and so on right and this entire thing",
+    "start": 586.86,
+    "duration": 5.039
+  },
+  {
+    "text": "is essentially captured by this formula",
+    "start": 589.8,
+    "duration": 3.96
+  },
+  {
+    "text": "and so you can go back and look at those",
+    "start": 591.899,
+    "duration": 3.421
+  },
+  {
+    "text": "videos but now I've in fact already",
+    "start": 593.76,
+    "duration": 3.3
+  },
+  {
+    "text": "explained it here itself so you know",
+    "start": 595.32,
+    "duration": 4.94
+  },
+  {
+    "text": "what what I am talking about",
+    "start": 597.06,
+    "duration": 3.2
+  },
+  {
+    "text": "okay we now have in Adam we have a",
+    "start": 601.44,
+    "duration": 6.12
+  },
+  {
+    "text": "slight modification that we have uh",
+    "start": 604.92,
+    "duration": 5.22
+  },
+  {
+    "text": "beta1 and then 1 minus beta here right",
+    "start": 607.56,
+    "duration": 6.98
+  },
+  {
+    "text": "so here we only had the beta term",
+    "start": 610.14,
+    "duration": 4.4
+  },
+  {
+    "text": "we only had the beta term here but in",
+    "start": 616.14,
+    "duration": 3.72
+  },
+  {
+    "text": "atom we have beta and then this is also",
+    "start": 617.82,
+    "duration": 4.74
+  },
+  {
+    "text": "1 minus beta right so we will arrive at",
+    "start": 619.86,
+    "duration": 4.32
+  },
+  {
+    "text": "a similar formula but just note that",
+    "start": 622.56,
+    "duration": 3.899
+  },
+  {
+    "text": "this 1 minus beta is there so let's see",
+    "start": 624.18,
+    "duration": 4.38
+  },
+  {
+    "text": "at what formula do we arrive at in the",
+    "start": 626.459,
+    "duration": 4.761
+  },
+  {
+    "text": "case of Adam",
+    "start": 628.56,
+    "duration": 2.66
+  },
+  {
+    "text": "so we'll have Mt is beta into Mt minus 1",
+    "start": 635.58,
+    "duration": 4.699
+  },
+  {
+    "text": "so this is the 1 minus beta so m0 is 0",
+    "start": 638.04,
+    "duration": 5.52
+  },
+  {
+    "text": "M1 is going to be this M2 is going to be",
+    "start": 640.279,
+    "duration": 4.18
+  },
+  {
+    "text": "this",
+    "start": 643.56,
+    "duration": 3.3
+  },
+  {
+    "text": "and again if I substitute uh the value",
+    "start": 644.459,
+    "duration": 6.261
+  },
+  {
+    "text": "of so what I did here is that",
+    "start": 646.86,
+    "duration": 3.86
+  },
+  {
+    "text": "I started off with uh",
+    "start": 651.18,
+    "duration": 4.73
+  },
+  {
+    "text": "can I move this",
+    "start": 655.079,
+    "duration": 3.841
+  },
+  {
+    "text": "[Music]",
+    "start": 655.91,
+    "duration": 4.929
+  },
+  {
+    "text": "this yeah I started off with M 0 equal",
+    "start": 658.92,
+    "duration": 4.979
+  },
+  {
+    "text": "to 0 then my M1 was 1 minus beta times",
+    "start": 660.839,
+    "duration": 6.901
+  },
+  {
+    "text": "Delta W 1 m 2 was beta into M1 plus 1",
+    "start": 663.899,
+    "duration": 7.021
+  },
+  {
+    "text": "minus beta into Delta W 2 but then I",
+    "start": 667.74,
+    "duration": 4.92
+  },
+  {
+    "text": "have substituted the value of M1 as 1",
+    "start": 670.92,
+    "duration": 4.44
+  },
+  {
+    "text": "minus beta into Delta W 1 and I'll keep",
+    "start": 672.66,
+    "duration": 5.46
+  },
+  {
+    "text": "doing this right so as I keep doing this",
+    "start": 675.36,
+    "duration": 5.64
+  },
+  {
+    "text": "let's see where I reach I'll again reach",
+    "start": 678.12,
+    "duration": 6.18
+  },
+  {
+    "text": "at some kind of a formula and so M3 is",
+    "start": 681.0,
+    "duration": 5.22
+  },
+  {
+    "text": "going to be this and if I expand it I",
+    "start": 684.3,
+    "duration": 6.36
+  },
+  {
+    "text": "get this and so now if I look at M3 it's",
+    "start": 686.22,
+    "duration": 8.4
+  },
+  {
+    "text": "actually 1 minus beta the 1 minus beta",
+    "start": 690.66,
+    "duration": 5.94
+  },
+  {
+    "text": "factor I can take out and it is time",
+    "start": 694.62,
+    "duration": 5.219
+  },
+  {
+    "text": "Step 1 2 3 beta raised to T minus Tau",
+    "start": 696.6,
+    "duration": 5.64
+  },
+  {
+    "text": "into the derivative at that time step",
+    "start": 699.839,
+    "duration": 3.841
+  },
+  {
+    "text": "right so that's what exactly what is",
+    "start": 702.24,
+    "duration": 3.599
+  },
+  {
+    "text": "happening here so I have the 1 minus",
+    "start": 703.68,
+    "duration": 3.779
+  },
+  {
+    "text": "beta term which I have taken out common",
+    "start": 705.839,
+    "duration": 5.221
+  },
+  {
+    "text": "then I have for t equal to 1 I have beta",
+    "start": 707.459,
+    "duration": 7.82
+  },
+  {
+    "text": "square into derivative of",
+    "start": 711.06,
+    "duration": 4.219
+  },
+  {
+    "text": "letter one right then I have beta into",
+    "start": 715.32,
+    "duration": 6.42
+  },
+  {
+    "text": "derivative of Delta W 2 and then I just",
+    "start": 719.1,
+    "duration": 5.46
+  },
+  {
+    "text": "have Delta W3 right so for 3 this would",
+    "start": 721.74,
+    "duration": 5.94
+  },
+  {
+    "text": "be 3 minus 3 which would become 0 so the",
+    "start": 724.56,
+    "duration": 4.5
+  },
+  {
+    "text": "beta Factor would disappear and you'll",
+    "start": 727.68,
+    "duration": 5.46
+  },
+  {
+    "text": "just have Delta W3 for 2 it would be uh",
+    "start": 729.06,
+    "duration": 7.44
+  },
+  {
+    "text": "3 minus 2 so beta raised to 3 minus 2",
+    "start": 733.14,
+    "duration": 5.4
+  },
+  {
+    "text": "which is the same as beta and then you",
+    "start": 736.5,
+    "duration": 4.44
+  },
+  {
+    "text": "will have the Delta W 2 here so this is",
+    "start": 738.54,
+    "duration": 4.799
+  },
+  {
+    "text": "how the formula has been arrived at so",
+    "start": 740.94,
+    "duration": 6.0
+  },
+  {
+    "text": "in general for the tth time step I am",
+    "start": 743.339,
+    "duration": 6.801
+  },
+  {
+    "text": "now ready to write the formula",
+    "start": 746.94,
+    "duration": 3.2
+  },
+  {
+    "text": "the formula would just be 1 minus beta",
+    "start": 751.88,
+    "duration": 7.06
+  },
+  {
+    "text": "of factor of 1 minus beta being common",
+    "start": 755.64,
+    "duration": 5.699
+  },
+  {
+    "text": "right and then beta raised to T minus",
+    "start": 758.94,
+    "duration": 4.5
+  },
+  {
+    "text": "Tau Delta W2 and it's very similar to",
+    "start": 761.339,
+    "duration": 3.901
+  },
+  {
+    "text": "this formula except that you had this 1",
+    "start": 763.44,
+    "duration": 3.42
+  },
+  {
+    "text": "minus beta term which has shown up on",
+    "start": 765.24,
+    "duration": 3.42
+  },
+  {
+    "text": "this formula also right so nothing great",
+    "start": 766.86,
+    "duration": 3.3
+  },
+  {
+    "text": "here don't to worry too much if you have",
+    "start": 768.66,
+    "duration": 3.0
+  },
+  {
+    "text": "not understood this right away you can",
+    "start": 770.16,
+    "duration": 3.54
+  },
+  {
+    "text": "go back and look at the steps and you",
+    "start": 771.66,
+    "duration": 3.479
+  },
+  {
+    "text": "can derive this formula on your own",
+    "start": 773.7,
+    "duration": 4.02
+  },
+  {
+    "text": "right so I've derived the formula for Mt",
+    "start": 775.139,
+    "duration": 4.26
+  },
+  {
+    "text": "and this is important for the rest of",
+    "start": 777.72,
+    "duration": 5.059
+  },
+  {
+    "text": "the discussion that we'll have",
+    "start": 779.399,
+    "duration": 3.38
+  },
+  {
+    "text": "okay so now let's look at",
+    "start": 783.42,
+    "duration": 6.539
+  },
+  {
+    "text": "okay now let's take the expectation on",
+    "start": 787.56,
+    "duration": 4.079
+  },
+  {
+    "text": "both sides that I have empty on one side",
+    "start": 789.959,
+    "duration": 4.921
+  },
+  {
+    "text": "and I have uh the Delta WT quantity on",
+    "start": 791.639,
+    "duration": 4.32
+  },
+  {
+    "text": "the other side so I'm going to take",
+    "start": 794.88,
+    "duration": 3.36
+  },
+  {
+    "text": "expectation on both sides so expectation",
+    "start": 795.959,
+    "duration": 4.261
+  },
+  {
+    "text": "of m t is equal to the expected value of",
+    "start": 798.24,
+    "duration": 5.82
+  },
+  {
+    "text": "this expression now I'll just take the",
+    "start": 800.22,
+    "duration": 5.64
+  },
+  {
+    "text": "constants out and move the expectation",
+    "start": 804.06,
+    "duration": 4.019
+  },
+  {
+    "text": "inside so the expectation so 1 minus",
+    "start": 805.86,
+    "duration": 5.7
+  },
+  {
+    "text": "beta here will come out because it's a",
+    "start": 808.079,
+    "duration": 5.461
+  },
+  {
+    "text": "constant then I have the expectation of",
+    "start": 811.56,
+    "duration": 3.839
+  },
+  {
+    "text": "a sum which is the same as the sum of an",
+    "start": 813.54,
+    "duration": 4.68
+  },
+  {
+    "text": "expectation okay",
+    "start": 815.399,
+    "duration": 5.12
+  },
+  {
+    "text": "foreign",
+    "start": 818.22,
+    "duration": 2.299
+  },
+  {
+    "text": "and now again the beta term will come",
+    "start": 820.98,
+    "duration": 5.58
+  },
+  {
+    "text": "out and the expectation goes inside and",
+    "start": 823.86,
+    "duration": 4.919
+  },
+  {
+    "text": "now what I'm going to assume is that all",
+    "start": 826.56,
+    "duration": 4.68
+  },
+  {
+    "text": "the WTS they come from the same",
+    "start": 828.779,
+    "duration": 5.521
+  },
+  {
+    "text": "distribution right because I have what",
+    "start": 831.24,
+    "duration": 4.62
+  },
+  {
+    "text": "does that mean right so what does the",
+    "start": 834.3,
+    "duration": 3.659
+  },
+  {
+    "text": "distribution mean in this case so you",
+    "start": 835.86,
+    "duration": 4.64
+  },
+  {
+    "text": "could think of",
+    "start": 837.959,
+    "duration": 2.541
+  },
+  {
+    "text": "hey the gradient itself could have",
+    "start": 840.899,
+    "duration": 4.861
+  },
+  {
+    "text": "different values right and that those",
+    "start": 843.66,
+    "duration": 3.84
+  },
+  {
+    "text": "values could come from some distribution",
+    "start": 845.76,
+    "duration": 4.139
+  },
+  {
+    "text": "right so these are your derivative",
+    "start": 847.5,
+    "duration": 5.22
+  },
+  {
+    "text": "values on the x axis and you have a",
+    "start": 849.899,
+    "duration": 4.38
+  },
+  {
+    "text": "distribution that means certain values",
+    "start": 852.72,
+    "duration": 4.2
+  },
+  {
+    "text": "here have a higher density as opposed to",
+    "start": 854.279,
+    "duration": 4.86
+  },
+  {
+    "text": "other values right and now at every time",
+    "start": 856.92,
+    "duration": 5.219
+  },
+  {
+    "text": "step because your updates are changing",
+    "start": 859.139,
+    "duration": 4.32
+  },
+  {
+    "text": "and your weights are changing and you're",
+    "start": 862.139,
+    "duration": 4.26
+  },
+  {
+    "text": "moving along uh the loss surface this",
+    "start": 863.459,
+    "duration": 4.5
+  },
+  {
+    "text": "distribution might be different right at",
+    "start": 866.399,
+    "duration": 3.361
+  },
+  {
+    "text": "some time steps you might expect more",
+    "start": 867.959,
+    "duration": 3.541
+  },
+  {
+    "text": "smaller gradients at terms time trips",
+    "start": 869.76,
+    "duration": 3.78
+  },
+  {
+    "text": "you might expect larger gradients but we",
+    "start": 871.5,
+    "duration": 3.6
+  },
+  {
+    "text": "are making a simplifying assumption here",
+    "start": 873.54,
+    "duration": 3.539
+  },
+  {
+    "text": "that every time step this distribution",
+    "start": 875.1,
+    "duration": 4.32
+  },
+  {
+    "text": "looks the same right so whatever what",
+    "start": 877.079,
+    "duration": 3.721
+  },
+  {
+    "text": "does this distribution come from where",
+    "start": 879.42,
+    "duration": 3.06
+  },
+  {
+    "text": "does the randomness come from so it",
+    "start": 880.8,
+    "duration": 2.88
+  },
+  {
+    "text": "comes from the data point that I'm",
+    "start": 882.48,
+    "duration": 2.7
+  },
+  {
+    "text": "picking up right I'm picking up random",
+    "start": 883.68,
+    "duration": 3.36
+  },
+  {
+    "text": "data points at every time step so",
+    "start": 885.18,
+    "duration": 3.659
+  },
+  {
+    "text": "depending on the time data point that I",
+    "start": 887.04,
+    "duration": 3.78
+  },
+  {
+    "text": "have picked up my derivatives might be",
+    "start": 888.839,
+    "duration": 3.421
+  },
+  {
+    "text": "different and this is the distribution",
+    "start": 890.82,
+    "duration": 4.019
+  },
+  {
+    "text": "that I expect them to follow right and",
+    "start": 892.26,
+    "duration": 4.019
+  },
+  {
+    "text": "this distribution might change at",
+    "start": 894.839,
+    "duration": 3.0
+  },
+  {
+    "text": "different time steps but I am making",
+    "start": 896.279,
+    "duration": 3.661
+  },
+  {
+    "text": "this assumption that all at all time",
+    "start": 897.839,
+    "duration": 3.781
+  },
+  {
+    "text": "steps the distribution Remains the Same",
+    "start": 899.94,
+    "duration": 3.959
+  },
+  {
+    "text": "that means the expected value at any",
+    "start": 901.62,
+    "duration": 4.14
+  },
+  {
+    "text": "time step is equal to the same way so I",
+    "start": 903.899,
+    "duration": 3.901
+  },
+  {
+    "text": "am clocking that expected value of is",
+    "start": 905.76,
+    "duration": 3.78
+  },
+  {
+    "text": "the same for all the time steps that's",
+    "start": 907.8,
+    "duration": 3.539
+  },
+  {
+    "text": "one simplifying assumption that I have",
+    "start": 909.54,
+    "duration": 5.099
+  },
+  {
+    "text": "made and under that assumption now let's",
+    "start": 911.339,
+    "duration": 5.281
+  },
+  {
+    "text": "see where we reach",
+    "start": 914.639,
+    "duration": 4.56
+  },
+  {
+    "text": "so now we have made this assumption that",
+    "start": 916.62,
+    "duration": 5.519
+  },
+  {
+    "text": "all the derivatives were the same so",
+    "start": 919.199,
+    "duration": 5.161
+  },
+  {
+    "text": "then we have this expected value of",
+    "start": 922.139,
+    "duration": 4.021
+  },
+  {
+    "text": "delta w t",
+    "start": 924.36,
+    "duration": 4.74
+  },
+  {
+    "text": "now I can just it's it does not depend",
+    "start": 926.16,
+    "duration": 4.739
+  },
+  {
+    "text": "on the time safety anymore right so I",
+    "start": 929.1,
+    "duration": 3.9
+  },
+  {
+    "text": "can take it outside the summation so",
+    "start": 930.899,
+    "duration": 5.701
+  },
+  {
+    "text": "then I have 1 minus beta into expected",
+    "start": 933.0,
+    "duration": 6.48
+  },
+  {
+    "text": "value of delta W into that summation",
+    "start": 936.6,
+    "duration": 4.859
+  },
+  {
+    "text": "that I had now this summation looks",
+    "start": 939.48,
+    "duration": 4.52
+  },
+  {
+    "text": "familiar it's a summation of a series",
+    "start": 941.459,
+    "duration": 5.281
+  },
+  {
+    "text": "and this is beta raised to T minus 1",
+    "start": 944.0,
+    "duration": 4.3
+  },
+  {
+    "text": "plus beta raised to T minus 2 all the",
+    "start": 946.74,
+    "duration": 3.779
+  },
+  {
+    "text": "way up to Beta 0 and the sum of that",
+    "start": 948.3,
+    "duration": 4.2
+  },
+  {
+    "text": "series is just going to be 1 minus beta",
+    "start": 950.519,
+    "duration": 4.5
+  },
+  {
+    "text": "T divided by 1 minus beta raised to T",
+    "start": 952.5,
+    "duration": 6.0
+  },
+  {
+    "text": "divided by 1 minus beta of course so now",
+    "start": 955.019,
+    "duration": 5.401
+  },
+  {
+    "text": "I get this equation so the expected",
+    "start": 958.5,
+    "duration": 4.26
+  },
+  {
+    "text": "value of Mt is actually the expected",
+    "start": 960.42,
+    "duration": 5.219
+  },
+  {
+    "text": "value of the derivative into 1 minus",
+    "start": 962.76,
+    "duration": 5.579
+  },
+  {
+    "text": "beta T so now if I had taken the",
+    "start": 965.639,
+    "duration": 5.281
+  },
+  {
+    "text": "expected value of m t by 1 minus beta T",
+    "start": 968.339,
+    "duration": 3.901
+  },
+  {
+    "text": "then I would have got the expected value",
+    "start": 970.92,
+    "duration": 3.479
+  },
+  {
+    "text": "of the grade right hence I need this",
+    "start": 972.24,
+    "duration": 5.099
+  },
+  {
+    "text": "bias correction I am just dividing the",
+    "start": 974.399,
+    "duration": 5.341
+  },
+  {
+    "text": "value of m t why this term 1 minus beta",
+    "start": 977.339,
+    "duration": 4.44
+  },
+  {
+    "text": "T because if I do that now this is",
+    "start": 979.74,
+    "duration": 4.5
+  },
+  {
+    "text": "actually my empty hat so now what this",
+    "start": 981.779,
+    "duration": 3.901
+  },
+  {
+    "text": "is telling me is that the expected value",
+    "start": 984.24,
+    "duration": 3.719
+  },
+  {
+    "text": "of empty hat is this same as the",
+    "start": 985.68,
+    "duration": 4.26
+  },
+  {
+    "text": "expected value of the derivative right",
+    "start": 987.959,
+    "duration": 4.261
+  },
+  {
+    "text": "so that's what I am doing this bias",
+    "start": 989.94,
+    "duration": 4.139
+  },
+  {
+    "text": "correction and you can have the similar",
+    "start": 992.22,
+    "duration": 5.28
+  },
+  {
+    "text": "derivation for the value of VT also",
+    "start": 994.079,
+    "duration": 5.461
+  },
+  {
+    "text": "right so that's why we have to use bias",
+    "start": 997.5,
+    "duration": 4.92
+  },
+  {
+    "text": "correction in Adam so that's the main",
+    "start": 999.54,
+    "duration": 4.799
+  },
+  {
+    "text": "point of discussion when we are talking",
+    "start": 1002.42,
+    "duration": 4.02
+  },
+  {
+    "text": "about Adam right why do you need a bias",
+    "start": 1004.339,
+    "duration": 3.961
+  },
+  {
+    "text": "correction all the other things in the",
+    "start": 1006.44,
+    "duration": 3.6
+  },
+  {
+    "text": "equations are familiar one is related to",
+    "start": 1008.3,
+    "duration": 4.26
+  },
+  {
+    "text": "momentum the other VT is related to",
+    "start": 1010.04,
+    "duration": 4.08
+  },
+  {
+    "text": "decaying the learning rate in the",
+    "start": 1012.56,
+    "duration": 4.62
+  },
+  {
+    "text": "denominator and again the vth self is an",
+    "start": 1014.12,
+    "duration": 4.86
+  },
+  {
+    "text": "exponentially moving average as we had",
+    "start": 1017.18,
+    "duration": 3.839
+  },
+  {
+    "text": "justified in the case of RMS prop right",
+    "start": 1018.98,
+    "duration": 5.04
+  },
+  {
+    "text": "so there are no other unknown or New",
+    "start": 1021.019,
+    "duration": 4.56
+  },
+  {
+    "text": "Concepts in the equation of atom but",
+    "start": 1024.02,
+    "duration": 3.059
+  },
+  {
+    "text": "this bias correction is the main New",
+    "start": 1025.579,
+    "duration": 3.24
+  },
+  {
+    "text": "Concept which we have just understood",
+    "start": 1027.079,
+    "duration": 4.441
+  },
+  {
+    "text": "why to do that",
+    "start": 1028.819,
+    "duration": 4.681
+  },
+  {
+    "text": "okay so now let's see what would happen",
+    "start": 1031.52,
+    "duration": 3.779
+  },
+  {
+    "text": "if we don't do bias correction right so",
+    "start": 1033.5,
+    "duration": 3.78
+  },
+  {
+    "text": "we'll again look at the equations put in",
+    "start": 1035.299,
+    "duration": 3.601
+  },
+  {
+    "text": "some values and try to see what happens",
+    "start": 1037.28,
+    "duration": 4.62
+  },
+  {
+    "text": "right so this is the equation for VT",
+    "start": 1038.9,
+    "duration": 5.7
+  },
+  {
+    "text": "okay and now suppose Delta W naught is",
+    "start": 1041.9,
+    "duration": 4.74
+  },
+  {
+    "text": "equal to 0.1",
+    "start": 1044.6,
+    "duration": 4.74
+  },
+  {
+    "text": "okay uh",
+    "start": 1046.64,
+    "duration": 6.36
+  },
+  {
+    "text": "so now V naught is going to be beta 2",
+    "start": 1049.34,
+    "duration": 6.3
+  },
+  {
+    "text": "times 0 because VT minus 1 was 0 and",
+    "start": 1053.0,
+    "duration": 5.64
+  },
+  {
+    "text": "then 0.001 times 0.1 Square so it's",
+    "start": 1055.64,
+    "duration": 3.98
+  },
+  {
+    "text": "going to be",
+    "start": 1058.64,
+    "duration": 4.74
+  },
+  {
+    "text": "0.0001 okay and now ETA T the effective",
+    "start": 1059.62,
+    "duration": 5.62
+  },
+  {
+    "text": "learning rate is going to be 1 divided",
+    "start": 1063.38,
+    "duration": 3.6
+  },
+  {
+    "text": "by the square root of this which is",
+    "start": 1065.24,
+    "duration": 4.14
+  },
+  {
+    "text": "going to be 316.22 right so it already",
+    "start": 1066.98,
+    "duration": 4.74
+  },
+  {
+    "text": "looks a very high learning rate to me",
+    "start": 1069.38,
+    "duration": 5.1
+  },
+  {
+    "text": "right now let's see what V2 would be V2",
+    "start": 1071.72,
+    "duration": 6.54
+  },
+  {
+    "text": "would be 0.999 into V naught plus 0.01",
+    "start": 1074.48,
+    "duration": 7.38
+  },
+  {
+    "text": "into 0 square and that would give me",
+    "start": 1078.26,
+    "duration": 7.799
+  },
+  {
+    "text": "this quantity okay and that is again a",
+    "start": 1081.86,
+    "duration": 6.24
+  },
+  {
+    "text": "reasonably High Learning array right so",
+    "start": 1086.059,
+    "duration": 4.921
+  },
+  {
+    "text": "what we are seeing is that uh in the",
+    "start": 1088.1,
+    "duration": 5.1
+  },
+  {
+    "text": "absence of bias correction this is not",
+    "start": 1090.98,
+    "duration": 4.319
+  },
+  {
+    "text": "bias corrected I just took VT I did not",
+    "start": 1093.2,
+    "duration": 4.56
+  },
+  {
+    "text": "take VT hat right please note that so in",
+    "start": 1095.299,
+    "duration": 4.38
+  },
+  {
+    "text": "the absence of bias correction as the",
+    "start": 1097.76,
+    "duration": 4.5
+  },
+  {
+    "text": "paper says uh your initial steps could",
+    "start": 1099.679,
+    "duration": 3.901
+  },
+  {
+    "text": "be very large because your initial",
+    "start": 1102.26,
+    "duration": 3.48
+  },
+  {
+    "text": "learning rate would be very high but now",
+    "start": 1103.58,
+    "duration": 5.58
+  },
+  {
+    "text": "if I had done bias correction okay and I",
+    "start": 1105.74,
+    "duration": 5.34
+  },
+  {
+    "text": "had the same situation my w naught was",
+    "start": 1109.16,
+    "duration": 5.879
+  },
+  {
+    "text": "0.1 so now V naught is this the bias",
+    "start": 1111.08,
+    "duration": 9.18
+  },
+  {
+    "text": "collected value is 0.01 okay and now if",
+    "start": 1115.039,
+    "duration": 7.681
+  },
+  {
+    "text": "I substitute this bias corrected value",
+    "start": 1120.26,
+    "duration": 5.1
+  },
+  {
+    "text": "in ETA my effective learning rate is 10",
+    "start": 1122.72,
+    "duration": 5.88
+  },
+  {
+    "text": "as opposed to 316 here right similarly",
+    "start": 1125.36,
+    "duration": 5.22
+  },
+  {
+    "text": "V2 gives me a certain value if I bias",
+    "start": 1128.6,
+    "duration": 4.5
+  },
+  {
+    "text": "corrected it I get certain value and now",
+    "start": 1130.58,
+    "duration": 5.16
+  },
+  {
+    "text": "my learning rate is 13.8 as opposed to",
+    "start": 1133.1,
+    "duration": 4.68
+  },
+  {
+    "text": "316 here right so in the bias correction",
+    "start": 1135.74,
+    "duration": 4.02
+  },
+  {
+    "text": "when I'm doing bias correction my",
+    "start": 1137.78,
+    "duration": 4.259
+  },
+  {
+    "text": "initial learning rates are not becoming",
+    "start": 1139.76,
+    "duration": 5.279
+  },
+  {
+    "text": "very high right so that's why you need a",
+    "start": 1142.039,
+    "duration": 5.281
+  },
+  {
+    "text": "bias correction to make sure that",
+    "start": 1145.039,
+    "duration": 4.5
+  },
+  {
+    "text": "initially you are not doing some very",
+    "start": 1147.32,
+    "duration": 3.84
+  },
+  {
+    "text": "rapid movements because that could be",
+    "start": 1149.539,
+    "duration": 3.961
+  },
+  {
+    "text": "faulty and we'll see also through an",
+    "start": 1151.16,
+    "duration": 6.12
+  },
+  {
+    "text": "example what happens right so let's uh",
+    "start": 1153.5,
+    "duration": 6.66
+  },
+  {
+    "text": "look at this plot here so here I'm going",
+    "start": 1157.28,
+    "duration": 5.22
+  },
+  {
+    "text": "to compare what happens when you have",
+    "start": 1160.16,
+    "duration": 4.98
+  },
+  {
+    "text": "Adam with bias correction and Adam",
+    "start": 1162.5,
+    "duration": 4.62
+  },
+  {
+    "text": "without bias correction and remember our",
+    "start": 1165.14,
+    "duration": 3.6
+  },
+  {
+    "text": "understanding is that if you don't use",
+    "start": 1167.12,
+    "duration": 3.48
+  },
+  {
+    "text": "bias correction the initial updates",
+    "start": 1168.74,
+    "duration": 3.12
+  },
+  {
+    "text": "would be very high that means the",
+    "start": 1170.6,
+    "duration": 3.24
+  },
+  {
+    "text": "algorithm would move very fast right so",
+    "start": 1171.86,
+    "duration": 3.96
+  },
+  {
+    "text": "let's see if that is happening so notice",
+    "start": 1173.84,
+    "duration": 3.839
+  },
+  {
+    "text": "that this blue curve corresponding to",
+    "start": 1175.82,
+    "duration": 4.56
+  },
+  {
+    "text": "atom without bias correction would make",
+    "start": 1177.679,
+    "duration": 4.74
+  },
+  {
+    "text": "very large initial updates that's what",
+    "start": 1180.38,
+    "duration": 3.539
+  },
+  {
+    "text": "we expect so let's see if that is",
+    "start": 1182.419,
+    "duration": 3.541
+  },
+  {
+    "text": "happening and that is indeed the case",
+    "start": 1183.919,
+    "duration": 4.201
+  },
+  {
+    "text": "right it has like gone very fast ahead",
+    "start": 1185.96,
+    "duration": 4.8
+  },
+  {
+    "text": "and then it had to come back right it",
+    "start": 1188.12,
+    "duration": 4.74
+  },
+  {
+    "text": "still converts probably uh easily in",
+    "start": 1190.76,
+    "duration": 3.9
+  },
+  {
+    "text": "this example right because this is a toy",
+    "start": 1192.86,
+    "duration": 3.78
+  },
+  {
+    "text": "example and it had come came back from",
+    "start": 1194.66,
+    "duration": 3.3
+  },
+  {
+    "text": "the valley but you could imagine",
+    "start": 1196.64,
+    "duration": 3.96
+  },
+  {
+    "text": "situations where after making an initial",
+    "start": 1197.96,
+    "duration": 4.8
+  },
+  {
+    "text": "update it would enter some region of the",
+    "start": 1200.6,
+    "duration": 4.38
+  },
+  {
+    "text": "Lost surface from which a recovery might",
+    "start": 1202.76,
+    "duration": 3.659
+  },
+  {
+    "text": "be difficult right it would have reached",
+    "start": 1204.98,
+    "duration": 4.079
+  },
+  {
+    "text": "a region where in that region whatever",
+    "start": 1206.419,
+    "duration": 4.741
+  },
+  {
+    "text": "Minima you could get would perhaps be",
+    "start": 1209.059,
+    "duration": 3.901
+  },
+  {
+    "text": "much higher than what you could have got",
+    "start": 1211.16,
+    "duration": 4.32
+  },
+  {
+    "text": "otherwise right so hence this initially",
+    "start": 1212.96,
+    "duration": 6.18
+  },
+  {
+    "text": "the learning rate is uh very high uh in",
+    "start": 1215.48,
+    "duration": 5.28
+  },
+  {
+    "text": "the case when you do not use bias",
+    "start": 1219.14,
+    "duration": 2.76
+  },
+  {
+    "text": "connection right and that's what you're",
+    "start": 1220.76,
+    "duration": 3.419
+  },
+  {
+    "text": "seeing here in these plots also so let's",
+    "start": 1221.9,
+    "duration": 3.84
+  },
+  {
+    "text": "understand these plots so when we don't",
+    "start": 1224.179,
+    "duration": 3.421
+  },
+  {
+    "text": "have bias correction you see that your",
+    "start": 1225.74,
+    "duration": 3.72
+  },
+  {
+    "text": "learning rates are higher right there on",
+    "start": 1227.6,
+    "duration": 4.319
+  },
+  {
+    "text": "this scale you have values which are 2",
+    "start": 1229.46,
+    "duration": 5.04
+  },
+  {
+    "text": "2.5 and so on whereas when you use bias",
+    "start": 1231.919,
+    "duration": 4.681
+  },
+  {
+    "text": "correction your learning rates initially",
+    "start": 1234.5,
+    "duration": 5.039
+  },
+  {
+    "text": "are smaller and then initially the",
+    "start": 1236.6,
+    "duration": 6.54
+  },
+  {
+    "text": "learning rate was uh large uh",
+    "start": 1239.539,
+    "duration": 6.481
+  },
+  {
+    "text": "and then it starts decaying and in the",
+    "start": 1243.14,
+    "duration": 5.039
+  },
+  {
+    "text": "case of I battum with bias correction so",
+    "start": 1246.02,
+    "duration": 4.38
+  },
+  {
+    "text": "remember this brown or the red curve",
+    "start": 1248.179,
+    "duration": 3.601
+  },
+  {
+    "text": "actually corresponds to the learning",
+    "start": 1250.4,
+    "duration": 4.08
+  },
+  {
+    "text": "rate for w and W was the direction which",
+    "start": 1251.78,
+    "duration": 5.82
+  },
+  {
+    "text": "was sparse so as it uh came close to the",
+    "start": 1254.48,
+    "duration": 5.34
+  },
+  {
+    "text": "Minima and it went into the valley it",
+    "start": 1257.6,
+    "duration": 4.02
+  },
+  {
+    "text": "still had to make some updates for w so",
+    "start": 1259.82,
+    "duration": 3.239
+  },
+  {
+    "text": "the learning rate was still increasing",
+    "start": 1261.62,
+    "duration": 3.0
+  },
+  {
+    "text": "which is what we would want right so",
+    "start": 1263.059,
+    "duration": 3.601
+  },
+  {
+    "text": "this atom with bias correction was able",
+    "start": 1264.62,
+    "duration": 4.5
+  },
+  {
+    "text": "to adjust easier whereas this guy had",
+    "start": 1266.66,
+    "duration": 4.2
+  },
+  {
+    "text": "some initial very high learning rate and",
+    "start": 1269.12,
+    "duration": 3.6
+  },
+  {
+    "text": "then it had to follow some trajectory of",
+    "start": 1270.86,
+    "duration": 3.3
+  },
+  {
+    "text": "course both of them converged that is",
+    "start": 1272.72,
+    "duration": 3.18
+  },
+  {
+    "text": "not a problem but this is just to show",
+    "start": 1274.16,
+    "duration": 3.36
+  },
+  {
+    "text": "that with without bias correction your",
+    "start": 1275.9,
+    "duration": 3.36
+  },
+  {
+    "text": "initial learning rate could be very high",
+    "start": 1277.52,
+    "duration": 3.899
+  },
+  {
+    "text": "so I'll stop here uh with the discussion",
+    "start": 1279.26,
+    "duration": 6.48
+  },
+  {
+    "text": "on Adam and now uh we'll look at uh in",
+    "start": 1281.419,
+    "duration": 6.361
+  },
+  {
+    "text": "the next half an hour or so we'll look",
+    "start": 1285.74,
+    "duration": 5.7
+  },
+  {
+    "text": "at some variants of atom or maybe just",
+    "start": 1287.78,
+    "duration": 6.48
+  },
+  {
+    "text": "one or two variants of atom okay thank",
+    "start": 1291.44,
+    "duration": 5.28
+  },
+  {
+    "text": "you so welcome back uh and we were",
+    "start": 1294.26,
+    "duration": 5.1
+  },
+  {
+    "text": "talking about Adam in the last lecture",
+    "start": 1296.72,
+    "duration": 4.86
+  },
+  {
+    "text": "and I would just like to say a few more",
+    "start": 1299.36,
+    "duration": 4.439
+  },
+  {
+    "text": "things about the bias kind Direction in",
+    "start": 1301.58,
+    "duration": 4.38
+  },
+  {
+    "text": "Adam which may again relate to things",
+    "start": 1303.799,
+    "duration": 3.961
+  },
+  {
+    "text": "that we are going to do today so I'll",
+    "start": 1305.96,
+    "duration": 3.42
+  },
+  {
+    "text": "start with that and then I'll go to the",
+    "start": 1307.76,
+    "duration": 5.22
+  },
+  {
+    "text": "next algorithm which is going to be Max",
+    "start": 1309.38,
+    "duration": 6.9
+  },
+  {
+    "text": "prop right so let's start with uh let's",
+    "start": 1312.98,
+    "duration": 5.16
+  },
+  {
+    "text": "just quickly talk about bias correction",
+    "start": 1316.28,
+    "duration": 5.3
+  },
+  {
+    "text": "again right so one way of looking at uh",
+    "start": 1318.14,
+    "duration": 7.26
+  },
+  {
+    "text": "what is happening uh in Adam is that or",
+    "start": 1321.58,
+    "duration": 5.979
+  },
+  {
+    "text": "in many of these gradient descent based",
+    "start": 1325.4,
+    "duration": 6.38
+  },
+  {
+    "text": "algorithms is that so you have these uh",
+    "start": 1327.559,
+    "duration": 7.441
+  },
+  {
+    "text": "on the x-axis I have the number of",
+    "start": 1331.78,
+    "duration": 5.86
+  },
+  {
+    "text": "iterations are epochs right and at every",
+    "start": 1335.0,
+    "duration": 5.1
+  },
+  {
+    "text": "iteration maybe from a batch or in a",
+    "start": 1337.64,
+    "duration": 4.44
+  },
+  {
+    "text": "stochastic from a mini batch or in a",
+    "start": 1340.1,
+    "duration": 4.62
+  },
+  {
+    "text": "stochastic manner I am Computing the",
+    "start": 1342.08,
+    "duration": 6.66
+  },
+  {
+    "text": "gradients right so let's uh say that and",
+    "start": 1344.72,
+    "duration": 5.459
+  },
+  {
+    "text": "there is some Randomness in this there's",
+    "start": 1348.74,
+    "duration": 3.299
+  },
+  {
+    "text": "some noise in this because it depends on",
+    "start": 1350.179,
+    "duration": 3.36
+  },
+  {
+    "text": "the batch that I have picked up right so",
+    "start": 1352.039,
+    "duration": 3.781
+  },
+  {
+    "text": "now the batch is not the mini batch is",
+    "start": 1353.539,
+    "duration": 4.14
+  },
+  {
+    "text": "not a representation of the entire data",
+    "start": 1355.82,
+    "duration": 4.14
+  },
+  {
+    "text": "so depending on how good this many batch",
+    "start": 1357.679,
+    "duration": 4.261
+  },
+  {
+    "text": "is a representation of that entire data",
+    "start": 1359.96,
+    "duration": 4.079
+  },
+  {
+    "text": "the gradients that I compute from this",
+    "start": 1361.94,
+    "duration": 5.099
+  },
+  {
+    "text": "mini batch may vary as compared to what",
+    "start": 1364.039,
+    "duration": 4.561
+  },
+  {
+    "text": "I would have gotten from the full match",
+    "start": 1367.039,
+    "duration": 2.941
+  },
+  {
+    "text": "right so here what I'm trying to",
+    "start": 1368.6,
+    "duration": 2.76
+  },
+  {
+    "text": "illustrate is that suppose I had",
+    "start": 1369.98,
+    "duration": 3.12
+  },
+  {
+    "text": "computed the derivatives from the full",
+    "start": 1371.36,
+    "duration": 3.84
+  },
+  {
+    "text": "batch right suppose the red function",
+    "start": 1373.1,
+    "duration": 4.98
+  },
+  {
+    "text": "here is what my true derivative function",
+    "start": 1375.2,
+    "duration": 5.04
+  },
+  {
+    "text": "would have looked like from time step 0",
+    "start": 1378.08,
+    "duration": 4.74
+  },
+  {
+    "text": "to time step 100 right but since I'm",
+    "start": 1380.24,
+    "duration": 4.86
+  },
+  {
+    "text": "doing this mini batch version of the",
+    "start": 1382.82,
+    "duration": 4.44
+  },
+  {
+    "text": "algorithms I'm Computing the derivatives",
+    "start": 1385.1,
+    "duration": 4.62
+  },
+  {
+    "text": "from a smaller batch and hence I might",
+    "start": 1387.26,
+    "duration": 4.2
+  },
+  {
+    "text": "get noisy estimates so you can see that",
+    "start": 1389.72,
+    "duration": 3.42
+  },
+  {
+    "text": "every time step so this is the gradient",
+    "start": 1391.46,
+    "duration": 3.959
+  },
+  {
+    "text": "that I computed at time step 0 this is",
+    "start": 1393.14,
+    "duration": 3.96
+  },
+  {
+    "text": "at one this is a two and so on it's",
+    "start": 1395.419,
+    "duration": 4.321
+  },
+  {
+    "text": "every Point here corresponds to one time",
+    "start": 1397.1,
+    "duration": 4.38
+  },
+  {
+    "text": "step right so it's 0 200 so there are",
+    "start": 1399.74,
+    "duration": 5.939
+  },
+  {
+    "text": "100 points here right uh now uh as you",
+    "start": 1401.48,
+    "duration": 6.78
+  },
+  {
+    "text": "can see that it's like kind of varying",
+    "start": 1405.679,
+    "duration": 5.521
+  },
+  {
+    "text": "right it's uh not it's close to the true",
+    "start": 1408.26,
+    "duration": 4.68
+  },
+  {
+    "text": "derivatives but also there is some noise",
+    "start": 1411.2,
+    "duration": 3.359
+  },
+  {
+    "text": "right you see some up and down a",
+    "start": 1412.94,
+    "duration": 4.739
+  },
+  {
+    "text": "movement there right and one way of",
+    "start": 1414.559,
+    "duration": 5.521
+  },
+  {
+    "text": "dealing with this is to kind of say that",
+    "start": 1417.679,
+    "duration": 4.681
+  },
+  {
+    "text": "instead of just relying on this gradient",
+    "start": 1420.08,
+    "duration": 4.5
+  },
+  {
+    "text": "at this time step I will take the",
+    "start": 1422.36,
+    "duration": 4.14
+  },
+  {
+    "text": "average of all the gradients that I have",
+    "start": 1424.58,
+    "duration": 3.78
+  },
+  {
+    "text": "taken so far right or I would take the",
+    "start": 1426.5,
+    "duration": 3.9
+  },
+  {
+    "text": "moving average of all the gradients so",
+    "start": 1428.36,
+    "duration": 3.6
+  },
+  {
+    "text": "instead of just relying on this point",
+    "start": 1430.4,
+    "duration": 3.48
+  },
+  {
+    "text": "for example this should be clear right",
+    "start": 1431.96,
+    "duration": 4.5
+  },
+  {
+    "text": "suppose instead of relying on this value",
+    "start": 1433.88,
+    "duration": 4.74
+  },
+  {
+    "text": "here alone let me just use a different",
+    "start": 1436.46,
+    "duration": 4.4
+  },
+  {
+    "text": "color",
+    "start": 1438.62,
+    "duration": 2.24
+  },
+  {
+    "text": "if I take like an average of things",
+    "start": 1440.96,
+    "duration": 6.24
+  },
+  {
+    "text": "which fall in this window right and this",
+    "start": 1443.36,
+    "duration": 5.58
+  },
+  {
+    "text": "is the same as saying that I mean an",
+    "start": 1447.2,
+    "duration": 3.599
+  },
+  {
+    "text": "exponential average is almost similar",
+    "start": 1448.94,
+    "duration": 3.3
+  },
+  {
+    "text": "like to taking an average in a small",
+    "start": 1450.799,
+    "duration": 3.36
+  },
+  {
+    "text": "window because anyways outside this",
+    "start": 1452.24,
+    "duration": 4.08
+  },
+  {
+    "text": "window your beta powers are so small",
+    "start": 1454.159,
+    "duration": 4.441
+  },
+  {
+    "text": "that those points won't have much value",
+    "start": 1456.32,
+    "duration": 4.08
+  },
+  {
+    "text": "right so here is you are kind of",
+    "start": 1458.6,
+    "duration": 4.559
+  },
+  {
+    "text": "re-estimating uh the average in the case",
+    "start": 1460.4,
+    "duration": 5.94
+  },
+  {
+    "text": "of empty you're writing it as beta",
+    "start": 1463.159,
+    "duration": 8.161
+  },
+  {
+    "text": "into Mt minus 1 plus 1 minus beta into",
+    "start": 1466.34,
+    "duration": 7.68
+  },
+  {
+    "text": "the current uh derivative right so the",
+    "start": 1471.32,
+    "duration": 4.32
+  },
+  {
+    "text": "current derivative is this one blue",
+    "start": 1474.02,
+    "duration": 3.72
+  },
+  {
+    "text": "point that you have instead of relying",
+    "start": 1475.64,
+    "duration": 3.539
+  },
+  {
+    "text": "on that blue point you are also taking",
+    "start": 1477.74,
+    "duration": 3.24
+  },
+  {
+    "text": "an exponentially weighted average of the",
+    "start": 1479.179,
+    "duration": 3.961
+  },
+  {
+    "text": "history so this is your way of kind of",
+    "start": 1480.98,
+    "duration": 4.199
+  },
+  {
+    "text": "uh accounting for the fact that the",
+    "start": 1483.14,
+    "duration": 4.919
+  },
+  {
+    "text": "current batch could be uh noisy so hence",
+    "start": 1485.179,
+    "duration": 5.341
+  },
+  {
+    "text": "let me look at the history also and kind",
+    "start": 1488.059,
+    "duration": 5.641
+  },
+  {
+    "text": "of re-estimate this point right now if",
+    "start": 1490.52,
+    "duration": 5.639
+  },
+  {
+    "text": "you don't do bias correction so now what",
+    "start": 1493.7,
+    "duration": 4.08
+  },
+  {
+    "text": "I'm going to do is that for every black",
+    "start": 1496.159,
+    "duration": 2.581
+  },
+  {
+    "text": "point",
+    "start": 1497.78,
+    "duration": 4.62
+  },
+  {
+    "text": "I am going to compute the new value of",
+    "start": 1498.74,
+    "duration": 5.939
+  },
+  {
+    "text": "that Black Point using this equation",
+    "start": 1502.4,
+    "duration": 3.779
+  },
+  {
+    "text": "that means I'm going to compute this",
+    "start": 1504.679,
+    "duration": 3.061
+  },
+  {
+    "text": "weighted history right so at time step",
+    "start": 1506.179,
+    "duration": 5.581
+  },
+  {
+    "text": "40 I have 39 Blue Points below it and",
+    "start": 1507.74,
+    "duration": 5.52
+  },
+  {
+    "text": "I'm going to take the value of each of",
+    "start": 1511.76,
+    "duration": 3.6
+  },
+  {
+    "text": "those 39 blue points and I will say that",
+    "start": 1513.26,
+    "duration": 7.44
+  },
+  {
+    "text": "beta raised to 39 into the value at time",
+    "start": 1515.36,
+    "duration": 8.16
+  },
+  {
+    "text": "step or beta raised to 40 I guess right",
+    "start": 1520.7,
+    "duration": 5.339
+  },
+  {
+    "text": "maybe 39 or 40 whatever that power comes",
+    "start": 1523.52,
+    "duration": 5.519
+  },
+  {
+    "text": "to into the value at time step 0 right",
+    "start": 1526.039,
+    "duration": 6.181
+  },
+  {
+    "text": "then beta raised to 38",
+    "start": 1529.039,
+    "duration": 5.941
+  },
+  {
+    "text": "into the value of time step T1 all the",
+    "start": 1532.22,
+    "duration": 6.36
+  },
+  {
+    "text": "way up to 1 minus beta",
+    "start": 1534.98,
+    "duration": 6.42
+  },
+  {
+    "text": "into the value at this t48 time step",
+    "start": 1538.58,
+    "duration": 6.78
+  },
+  {
+    "text": "right so my new value is going to be uh",
+    "start": 1541.4,
+    "duration": 5.94
+  },
+  {
+    "text": "this exponentially weighted average",
+    "start": 1545.36,
+    "duration": 4.199
+  },
+  {
+    "text": "right that's what I'm going to do so",
+    "start": 1547.34,
+    "duration": 4.439
+  },
+  {
+    "text": "let's see if I plot that so now for each",
+    "start": 1549.559,
+    "duration": 4.201
+  },
+  {
+    "text": "of these Blue Points I could compute the",
+    "start": 1551.779,
+    "duration": 4.741
+  },
+  {
+    "text": "new uh exponentially weighted uh value",
+    "start": 1553.76,
+    "duration": 4.799
+  },
+  {
+    "text": "and then I can plot that right so let me",
+    "start": 1556.52,
+    "duration": 4.139
+  },
+  {
+    "text": "see what happens if I plot that",
+    "start": 1558.559,
+    "duration": 4.561
+  },
+  {
+    "text": "so this is what happens if I plot that",
+    "start": 1560.659,
+    "duration": 4.5
+  },
+  {
+    "text": "without the bias correction right so",
+    "start": 1563.12,
+    "duration": 4.74
+  },
+  {
+    "text": "what happens is that I get you can see",
+    "start": 1565.159,
+    "duration": 5.281
+  },
+  {
+    "text": "that my black curve now is a bit farther",
+    "start": 1567.86,
+    "duration": 4.62
+  },
+  {
+    "text": "away from the red curve at least during",
+    "start": 1570.44,
+    "duration": 3.599
+  },
+  {
+    "text": "the initial time steps right and",
+    "start": 1572.48,
+    "duration": 3.299
+  },
+  {
+    "text": "yesterday also we had seen that during",
+    "start": 1574.039,
+    "duration": 3.301
+  },
+  {
+    "text": "initial times test we have a problem",
+    "start": 1575.779,
+    "duration": 3.9
+  },
+  {
+    "text": "when we use bias correction so why does",
+    "start": 1577.34,
+    "duration": 3.959
+  },
+  {
+    "text": "that happen let's try to understand that",
+    "start": 1579.679,
+    "duration": 3.781
+  },
+  {
+    "text": "so",
+    "start": 1581.299,
+    "duration": 5.341
+  },
+  {
+    "text": "so our formula is beta into Mt minus 1",
+    "start": 1583.46,
+    "duration": 6.0
+  },
+  {
+    "text": "plus 1 minus beta",
+    "start": 1586.64,
+    "duration": 5.7
+  },
+  {
+    "text": "into the current time step value right",
+    "start": 1589.46,
+    "duration": 6.54
+  },
+  {
+    "text": "so that's it the Delta w t right now at",
+    "start": 1592.34,
+    "duration": 7.8
+  },
+  {
+    "text": "time step 0 my Delta w t was around 1",
+    "start": 1596.0,
+    "duration": 9.9
+  },
+  {
+    "text": "right but my Beta is 0.999 and this is 1",
+    "start": 1600.14,
+    "duration": 8.94
+  },
+  {
+    "text": "minus beta so this is going to be 0.001",
+    "start": 1605.9,
+    "duration": 6.84
+  },
+  {
+    "text": "right and my m t minus 1 is 0 because I",
+    "start": 1609.08,
+    "duration": 6.24
+  },
+  {
+    "text": "initialize at like so m t minus 1 since",
+    "start": 1612.74,
+    "duration": 4.26
+  },
+  {
+    "text": "T is equal to 0 this is going to be M",
+    "start": 1615.32,
+    "duration": 4.14
+  },
+  {
+    "text": "minus 1 and that I have initialized to 0",
+    "start": 1617.0,
+    "duration": 5.159
+  },
+  {
+    "text": "right so this whole sum moves towards",
+    "start": 1619.46,
+    "duration": 5.52
+  },
+  {
+    "text": "zero it becomes very small and then the",
+    "start": 1622.159,
+    "duration": 4.5
+  },
+  {
+    "text": "same thing keeps repeating right because",
+    "start": 1624.98,
+    "duration": 4.02
+  },
+  {
+    "text": "in the next time step again now at time",
+    "start": 1626.659,
+    "duration": 3.801
+  },
+  {
+    "text": "step uh",
+    "start": 1629.0,
+    "duration": 5.58
+  },
+  {
+    "text": "one again my value was around say 0.8",
+    "start": 1630.46,
+    "duration": 7.54
+  },
+  {
+    "text": "right so then I have 1 minus beta into",
+    "start": 1634.58,
+    "duration": 4.86
+  },
+  {
+    "text": "0.8",
+    "start": 1638.0,
+    "duration": 5.64
+  },
+  {
+    "text": "right and plus beta into my history so",
+    "start": 1639.44,
+    "duration": 7.619
+  },
+  {
+    "text": "far which was around say point zero zero",
+    "start": 1643.64,
+    "duration": 6.0
+  },
+  {
+    "text": "one right and now again this 1 minus",
+    "start": 1647.059,
+    "duration": 4.98
+  },
+  {
+    "text": "beta is a very small value",
+    "start": 1649.64,
+    "duration": 4.98
+  },
+  {
+    "text": "so that's why it will stay towards close",
+    "start": 1652.039,
+    "duration": 5.161
+  },
+  {
+    "text": "to zero and it'll take a while to then",
+    "start": 1654.62,
+    "duration": 4.98
+  },
+  {
+    "text": "start coming close to the two values",
+    "start": 1657.2,
+    "duration": 5.04
+  },
+  {
+    "text": "because after a while now this is your",
+    "start": 1659.6,
+    "duration": 4.98
+  },
+  {
+    "text": "history and all these initial parts are",
+    "start": 1662.24,
+    "duration": 4.5
+  },
+  {
+    "text": "getting very very small weightage and",
+    "start": 1664.58,
+    "duration": 3.54
+  },
+  {
+    "text": "these new guys are getting higher",
+    "start": 1666.74,
+    "duration": 3.48
+  },
+  {
+    "text": "weightage so then slowly it kind of gets",
+    "start": 1668.12,
+    "duration": 4.2
+  },
+  {
+    "text": "rid of its history because of the large",
+    "start": 1670.22,
+    "duration": 5.52
+  },
+  {
+    "text": "power of beta right and then it starts",
+    "start": 1672.32,
+    "duration": 5.28
+  },
+  {
+    "text": "relying more on the recent guys and",
+    "start": 1675.74,
+    "duration": 3.48
+  },
+  {
+    "text": "those recent guys are all farther away",
+    "start": 1677.6,
+    "duration": 3.78
+  },
+  {
+    "text": "from zero so then it also starts coming",
+    "start": 1679.22,
+    "duration": 4.079
+  },
+  {
+    "text": "close to the true curve right so that's",
+    "start": 1681.38,
+    "duration": 4.2
+  },
+  {
+    "text": "why what happens if you don't use bias",
+    "start": 1683.299,
+    "duration": 4.801
+  },
+  {
+    "text": "correction now the same thing if I had",
+    "start": 1685.58,
+    "duration": 4.68
+  },
+  {
+    "text": "used bias correction",
+    "start": 1688.1,
+    "duration": 4.079
+  },
+  {
+    "text": "this is what will happen right so now if",
+    "start": 1690.26,
+    "duration": 4.919
+  },
+  {
+    "text": "I use bias correction then it gets",
+    "start": 1692.179,
+    "duration": 4.98
+  },
+  {
+    "text": "divided by that one minus beta factor",
+    "start": 1695.179,
+    "duration": 4.5
+  },
+  {
+    "text": "and then I don't have a problem right so",
+    "start": 1697.159,
+    "duration": 4.801
+  },
+  {
+    "text": "in particular what happens right so I'll",
+    "start": 1699.679,
+    "duration": 7.021
+  },
+  {
+    "text": "show you so my M 0 is minus 1 okay and",
+    "start": 1701.96,
+    "duration": 7.98
+  },
+  {
+    "text": "my Mt is going to be beta",
+    "start": 1706.7,
+    "duration": 6.0
+  },
+  {
+    "text": "into oh sorry m z sorry what am I seeing",
+    "start": 1709.94,
+    "duration": 6.06
+  },
+  {
+    "text": "M minus 1 is 0 because I initialize it",
+    "start": 1712.7,
+    "duration": 6.54
+  },
+  {
+    "text": "as 0 my history uh is initialized as a 0",
+    "start": 1716.0,
+    "duration": 6.419
+  },
+  {
+    "text": "then plus 1 minus beta",
+    "start": 1719.24,
+    "duration": 8.22
+  },
+  {
+    "text": "into m t now at time step 0 uh uh my",
+    "start": 1722.419,
+    "duration": 10.321
+  },
+  {
+    "text": "value is 0.5 right so this uh",
+    "start": 1727.46,
+    "duration": 8.819
+  },
+  {
+    "text": "yeah so this value is 0.5",
+    "start": 1732.74,
+    "duration": 5.46
+  },
+  {
+    "text": "and this term is going to disappear",
+    "start": 1736.279,
+    "duration": 6.78
+  },
+  {
+    "text": "right so I'll get 1 minus beta",
+    "start": 1738.2,
+    "duration": 7.979
+  },
+  {
+    "text": "uh into 0.5 that's what my Mt is going",
+    "start": 1743.059,
+    "duration": 5.36
+  },
+  {
+    "text": "to be",
+    "start": 1746.179,
+    "duration": 2.24
+  },
+  {
+    "text": "okay the pen is not working well",
+    "start": 1750.32,
+    "duration": 5.28
+  },
+  {
+    "text": "that's what my Mt is going to be and my",
+    "start": 1753.2,
+    "duration": 5.459
+  },
+  {
+    "text": "M hat T which is the bias corrected guy",
+    "start": 1755.6,
+    "duration": 6.12
+  },
+  {
+    "text": "is going to be Mt divided by 1 minus",
+    "start": 1758.659,
+    "duration": 5.88
+  },
+  {
+    "text": "beta raised to 1 in this case and so now",
+    "start": 1761.72,
+    "duration": 4.679
+  },
+  {
+    "text": "these two betas will cancel and I get",
+    "start": 1764.539,
+    "duration": 4.62
+  },
+  {
+    "text": "0.5 and hence my approximation is close",
+    "start": 1766.399,
+    "duration": 6.121
+  },
+  {
+    "text": "to the True Value and now it stays like",
+    "start": 1769.159,
+    "duration": 5.041
+  },
+  {
+    "text": "that right because it does not have this",
+    "start": 1772.52,
+    "duration": 4.139
+  },
+  {
+    "text": "weight of 0 pulling it down at earlier",
+    "start": 1774.2,
+    "duration": 4.8
+  },
+  {
+    "text": "it it started off at zero then it got",
+    "start": 1776.659,
+    "duration": 4.081
+  },
+  {
+    "text": "stuck there and it took a while to get",
+    "start": 1779.0,
+    "duration": 3.48
+  },
+  {
+    "text": "the shape of the function but now it has",
+    "start": 1780.74,
+    "duration": 3.12
+  },
+  {
+    "text": "started from the right point and it's",
+    "start": 1782.48,
+    "duration": 3.96
+  },
+  {
+    "text": "now closer to the uh function right so",
+    "start": 1783.86,
+    "duration": 3.96
+  },
+  {
+    "text": "that's that's what happens in the case",
+    "start": 1786.44,
+    "duration": 3.839
+  },
+  {
+    "text": "of uh exponentially moving average and",
+    "start": 1787.82,
+    "duration": 4.219
+  },
+  {
+    "text": "that's why we use this bias correction",
+    "start": 1790.279,
+    "duration": 5.941
+  },
+  {
+    "text": "in the case of atom okay",
+    "start": 1792.039,
+    "duration": 7.781
+  },
+  {
+    "text": "uh as we are done with this so I'd",
+    "start": 1796.22,
+    "duration": 6.059
+  },
+  {
+    "text": "skipped this part yesterday now the rest",
+    "start": 1799.82,
+    "duration": 4.32
+  },
+  {
+    "text": "of the stuff of Adam we have already",
+    "start": 1802.279,
+    "duration": 3.601
+  },
+  {
+    "text": "done",
+    "start": 1804.14,
+    "duration": 3.72
+  },
+  {
+    "text": "and we already did this we looked at",
+    "start": 1805.88,
+    "duration": 4.38
+  },
+  {
+    "text": "multiple explanations for why the",
+    "start": 1807.86,
+    "duration": 4.74
+  },
+  {
+    "text": "initial uh updates are going to be",
+    "start": 1810.26,
+    "duration": 4.26
+  },
+  {
+    "text": "larger right so we saw this these",
+    "start": 1812.6,
+    "duration": 4.319
+  },
+  {
+    "text": "derivations then we saw this plot all of",
+    "start": 1814.52,
+    "duration": 5.12
+  },
+  {
+    "text": "that is done right",
+    "start": 1816.919,
+    "duration": 2.721
+  }
+]

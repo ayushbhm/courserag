@@ -1,0 +1,9 @@
+what I'm going to be interested in is that I have all the word representations now if I want to.
+compute a new representation for the word movie right I want to Output a new representation of the word movie.
+then can I compute this representation as a attention weighted sum of all the other representations in my sentence right.
+and if I were to do that all I need to do is I need attention function right and which.
+takes in my current representations h i and H J right so these are what I'm going to call edges.
+this change of notation is unavoidable right because I have more outputs being produced here or more intermediate outputs being.
+produced here so I'll have to use more variables earlier H was the output of the encoder itself now that.
+I am calling as Z so H is now the word embeddings that you have computed it so this is.
+H1 H2 H3 up to H5 now I want to compute a new representation for movie and I'm going to.

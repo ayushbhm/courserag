@@ -1,0 +1,9 @@
+algorithm I have shown you the Mac behind it I have shown you the visual interpretation of that and I've.
+also shown you how to code it and then run it so that you move on the loss function in.
+a principle way right so I'll uh end this video here before just telling you quickly where do we head.
+from here right so now the next thing to do we have done this completed this cycle that we introduced.
+sigmoid neuron just as we had introduced perceptron then we introduce the learning algorithm just as we had introduced The.
+perceptron Learning algorithm then we discussed the error and we ran the algorithms in both cases in perceptron as well.
+as in the sigmoid neuron and we saw that the learning algorithm actually learns well and it keeps moving in.
+the right direction so all of that we have seen then in the perceptron case we had moved on to.
+the representation of the power of the perceptron perceptron and now we want to talk about the representation power of.

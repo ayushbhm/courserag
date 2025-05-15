@@ -1,0 +1,9 @@
+these were the ones which were active so these will get updated these will get updated and these will get.
+updated right the other weights will not get updated and it's a bi-directional Arab that means in the forward propagation.
+also these only participated and the backward propagation also only those will participate right so this is what I have.
+done for the first mini batch that I received now when I received the second mini batch I again sample.
+a new neural network from my original Network that means I just drop some other set of nodes right because.
+this is a random process that every mini batch I'm going to decide for every node whether to retain it.
+or drop it so my decisions would change from one batch to another and I'll get a different version of.
+the original neutral Network and now again I'm going to update only those weights which actually participate in the computation.
+right and now if you look at it right so let's look at some weight which was there this one.

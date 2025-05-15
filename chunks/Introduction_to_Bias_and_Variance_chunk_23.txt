@@ -1,0 +1,9 @@
+the expected value of the model ah so why is there an expectation here because where is the randomness coming.
+from you are taking different random samples of the training data right so you might get if I give you.
+one lakh samples for training I I might just have gotten this random sample from somewhere and giving it to.
+you right so I might be able to depending on what random sample of the training data I have given.
+you you would get different uh F hat X which means you will get different values for the parameters so.
+across all these different ah values of the parameters if I take the expected value and then try to find.
+the difference from the True Value then that's what the bias is and you can see that the green curve.
+is ah much farther from the red curve so the bias is high whereas the blue curve is closer to.
+the red curve so the bias is low right so informally we are seeing that simple models have a high.

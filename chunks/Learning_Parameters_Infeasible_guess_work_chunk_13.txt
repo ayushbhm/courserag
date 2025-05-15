@@ -1,0 +1,10 @@
+0.5 and b is equal to minus 1 right this is also bad and how bad is it it's saying.
+it's 0.121 right so earlier my loss was 0.09 now my loss is 0.121 right so it's even worse right.
+and you can see from the figure also that's even worse right so let me try something else i'll try.
+minus 0.1 now okay like some of these values are not here but let's say i try this value right.
+again i see that my loss is increasing so then i keep changing right so i keep trying different values.
+and then i tried 0.94 and minus 0.94 and i saw that the loss is 0.0214 okay so this is.
+good okay this seems to be good so let's let's see what my rational was it it started with 0.50.
+i got a loss of 0.07 then i randomly jumped to some other point the value increased okay so then.
+i concluded that i made the w negative maybe that's a problem right this is what my thinking was this.
+is how i have come up with these numbers so let me interest increase the w so i increased the.

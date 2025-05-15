@@ -1,0 +1,9 @@
+over the next few slides to get this picture uh clear of what I mean by K linear Transformations right.
+so this is what happens in Dropout right we're still trying to compare Dropout and see what was happening there.
+so in Dropout what happens is uh I can divide this nodes in this hidden layer right uh this was.
+the hidden layer I am dividing nodes into three parts one is the black nodes which have been dropped out.
+so they are completely not participating in the uh uh in the output right they are not participating in the.
+computation at all and then there are two types of nodes one are strongly responding nodes and the others are.
+weakly responding notes and now in the case of Dropout irrespective whether you're strongly responding or weakly responding the gradients.
+do flow back to you right and the gradients will of course flow back in proportion but you're still all.
+of you are being responsible for the output and the certain nodes may not maybe get spatialized for the specific.

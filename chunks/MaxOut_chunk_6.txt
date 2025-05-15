@@ -1,0 +1,9 @@
+what is happening is that you have these multiple sub models each sub model is getting sampled rarely right because.
+there are an exponentially High number of sub models so each sub model is getting sampled rarely so each sub.
+model is not getting the chance to overfit on specific portions of the data because hardly it will see the.
+data once I mean forget about seeing it twice it may not even see it once right so this kind.
+of uh phenomenon which happens in model averaging or in bagging where the each model gets each sub model or.
+each different model gets a chance to overfit on the training data Dropout does not really get that chance right.
+so now uh in the case of bagging the model is getting to update the weights again and again on.
+the same training sample but in the case of Dropout it's not getting that chance so whenever it sees a.
+sample we should try to do a larger update right because this if this data point is sensitive we should.

@@ -1,0 +1,9 @@
+this theorem is saying is that you can come up with a network of perceptrons which will exactly implement this.
+function what does that mean is that whatever your truth table looks like and this is what your truth table.
+is looking like right you can come up with a perceptron network of perceptron so that it will exactly be.
+able to implement this boolean function so right this theorem says that you can apply this in real world examples.
+the catch of course is that you will need an exponential number of neurons uh perceptrons and we'll have to.
+get back from that situation right but for now we are happy in knowing that it can be done right.
+now how to do it more efficiently is a question for later right so that's what this is uh saying.
+same thing which has been written on the slides you can read it later on okay so what is the.
+story so far the networks of the form that we just saw are called multi-layer perceptrons or mlps in short.

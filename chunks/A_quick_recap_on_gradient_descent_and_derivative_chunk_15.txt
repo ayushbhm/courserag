@@ -1,0 +1,9 @@
+we'll initialize it randomly we'll keep doing these updates so at every Point wherever I'm I am I'll move to.
+a new Point such that from the Taylor series I know that the loss at the new point is going.
+to be less than the loss at the current point right so that's what the gradient descent update rule was.
+but the only thing we don't know here is how to compute this gradient so we actually went ahead and.
+computed that right so we did this derivation which I'll not go over but we knew how to compute the.
+derivative and uh once we knew how to compute that derivative right it was this quantity we then wrote the.
+gradient descent algorithm and what were we doing there for at every point we're Computing this gradient and then moving.
+the direction opposite to the gradient and when we did that this is what happened right so this is yeah.
+so this is what was happening in our gradient when we when we ran this algorithm right so let me.

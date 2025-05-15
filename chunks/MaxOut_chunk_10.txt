@@ -1,0 +1,9 @@
+because I'm taking them greater than zero because it's a relu activation function so I want both of them to.
+be uh active and not dead so say both of them are greater than zero but a two one is.
+less than a to 2 right so what does that actually mean uh let's try to understand that in terms.
+of how neurons react to training samples right so if a21 is actually uh less than a to 2 it.
+means that 8 to 2 is reacting more positively to this training sample right it's firing for this training sample.
+even better because its output is high right so now if it related to our earlier discussions on MP neurons.
+and so on we had the situation that if the inputs are of a certain configuration then this neuron fires.
+right now this neuron is firing More Than This neuron which is firing weakly right so now that means this.
+neuron is more uh sensitive to this training data and maybe I should respect that right so when I'm updating.

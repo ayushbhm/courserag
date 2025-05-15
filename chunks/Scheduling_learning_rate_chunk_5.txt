@@ -1,0 +1,9 @@
+know no one has actually looked at the kind of data that you're looking at or the kind of application.
+that you're looking at now how do you uh set the initial learning rate what is small what is large.
+you don't know that right so that's the context in which I'm saying this but for most practical applications if.
+you're working on these standard problems as I said machine translation speech recognition image recognition and so on then you.
+would have something to refer to in the literature which would give you a ballpark about what the learning rate.
+should be and you would follow that close right so that's the best thing to do so that's the first.
+tip this tip is more for cases where you don't have anything to go by right so what you would.
+do is you will try to try you try different learning rates and on a log scale right point zero.
+zero zero one point zero zero one and so on right and then you will run the training for a.

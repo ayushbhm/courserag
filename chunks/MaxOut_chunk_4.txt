@@ -1,0 +1,9 @@
+roughly half of the samples are actually duplicates so we always expected duplicates there's a study which says exactly how.
+many duplicates you can expect right so now you have 1000 data points but there are duplicates in that so.
+now the model has a better chance on overfitting on that right because now you have fewer samples than the.
+original training data and you're seeing the same samples again and again some other model gets a chance to adjust.
+on the same sample more times now right and hence in these models uh each of these models F1 hat.
+to F2 had would like really better overfit to the bucket of training data on which it was a trained.
+because that bucket is containing duplicates and it's each model is seeing the same training examples multiple times and then.
+when you do inference you do some kind of model averaging it could be arithritic mean or geometric mean uh.
+any of these are possible that we have seen it so we take the prediction from all the K models.

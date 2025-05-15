@@ -1,0 +1,10 @@
+different sizes also right so if you had chosen this as D1 then your output would be D1 cross T.
+right and so you could have either the D1 could either be bigger than D or smaller than D based.
+on whether you want to generate just project to a smaller space or a higher space but that is not.
+the main point here right the main point is that you had T inputs and you have t output right.
+this is not changing right this capital T Remains the Same that means you had T input representations and now.
+you have got T query representations from those t uh input representations right what do you choose the size of.
+D1 and D2 is up to you in this example I have chosen it as 64 both D1 and D.
+equal to 64. so if my input this was 64 plus T my output would also be 64 cross D.
+thank you what is important as this T that you had T inputs and you got T outputs in parallel.
+right you've got uh you did the entire computation in parallel similarly your value uh your key vectors you can.

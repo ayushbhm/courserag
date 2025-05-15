@@ -1,0 +1,10 @@
+long ish I would say a derivation right we'll just try to uh go a bit deeper uh into what.
+the Taylor series says and from there what do we derive and so on right so let's assume that W.
+star okay is the optimum yeah so let's assume that WSI is the optimum solution for LW so LW remember.
+was our unregularized loss function right so our new loss function is uh L tilde W is equal to LW.
+plus this Alpha by 2 into W transpose W so this LW as well as was our unregularized loss function.
+so let's assume that the optimal solution for that was given by some W star the sum W star which.
+exists which gave me the lowest value for l w right so that's all we are defining right and there's.
+no problem with that definition foreign now consider a point which is ah say a point w which is in.
+the neighborhood of w Star right so the way to write that would be W is equal W is equal.
+to W Star Plus U so there's a point w which is in the neighborhood of w star the other.

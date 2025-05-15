@@ -1,0 +1,9 @@
+Here Right foreign transpose W Star right so this is the first multiplication that is happening now each element of.
+that Vector is getting scaled scaled by this quantity right and after it gets scaled by that quantity it is.
+rotated back by q that is what is happening right the rotations performed by q r transpose and Q R.
+inverses of each other but in between this scaling is happening right and now if the eigen values is very.
+large if it's greater than Alpha right then this quantity that you have on the diagonal is actually going to.
+be equal to 1 right so a lot that means for those weights there will be no scaling which will.
+happen they will remain the same as their original value right so remember this W star is a vector of.
+weights and we are talking about every element of that Vector getting scaled but we're just seeing that if the.
+eigen value is large then those weights will not get Scaled let's suppose Lambda 1 was very large then nothing.

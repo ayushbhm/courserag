@@ -1,0 +1,2567 @@
+[
+  {
+    "text": "foreign",
+    "start": 0.299,
+    "duration": 3.0
+  },
+  {
+    "text": "[Music]",
+    "start": 6.62,
+    "duration": 16.239
+  },
+  {
+    "text": "function that I want to talk about is",
+    "start": 20.6,
+    "duration": 5.16
+  },
+  {
+    "text": "gelu which is gaussian error linear unit",
+    "start": 22.859,
+    "duration": 5.401
+  },
+  {
+    "text": "it was first introduced in the context",
+    "start": 25.76,
+    "duration": 4.24
+  },
+  {
+    "text": "of Transformer model the first",
+    "start": 28.26,
+    "duration": 5.88
+  },
+  {
+    "text": "Transformer model around 2017 used this",
+    "start": 30.0,
+    "duration": 6.3
+  },
+  {
+    "text": "gelu activation function so let's",
+    "start": 34.14,
+    "duration": 4.259
+  },
+  {
+    "text": "motivate that so first we'll start with",
+    "start": 36.3,
+    "duration": 5.579
+  },
+  {
+    "text": "uh noting some similarity between relu",
+    "start": 38.399,
+    "duration": 5.34
+  },
+  {
+    "text": "and this hard thresholding right so this",
+    "start": 41.879,
+    "duration": 4.02
+  },
+  {
+    "text": "is what our hard thresholding looks like",
+    "start": 43.739,
+    "duration": 5.281
+  },
+  {
+    "text": "it is 1 if x is greater than 0 and it is",
+    "start": 45.899,
+    "duration": 5.581
+  },
+  {
+    "text": "0 if x is less than or equal to zero",
+    "start": 49.02,
+    "duration": 4.379
+  },
+  {
+    "text": "right that's what the hard thresholding",
+    "start": 51.48,
+    "duration": 3.96
+  },
+  {
+    "text": "looks like and now let's look at what",
+    "start": 53.399,
+    "duration": 4.381
+  },
+  {
+    "text": "the value function looks like",
+    "start": 55.44,
+    "duration": 4.38
+  },
+  {
+    "text": "the value function can also be written",
+    "start": 57.78,
+    "duration": 5.52
+  },
+  {
+    "text": "in a similar form as f of x is equal to",
+    "start": 59.82,
+    "duration": 6.659
+  },
+  {
+    "text": "1 into x if x is greater than 0 and",
+    "start": 63.3,
+    "duration": 6.319
+  },
+  {
+    "text": "maybe 0 into X",
+    "start": 66.479,
+    "duration": 3.14
+  },
+  {
+    "text": "if x is less than or equal to 0 this is",
+    "start": 71.46,
+    "duration": 3.96
+  },
+  {
+    "text": "how I'm going to rewrite it on the next",
+    "start": 73.799,
+    "duration": 4.401
+  },
+  {
+    "text": "slide",
+    "start": 75.42,
+    "duration": 2.78
+  },
+  {
+    "text": "so main thing to note here is that both",
+    "start": 80.4,
+    "duration": 4.079
+  },
+  {
+    "text": "the activation functions the output",
+    "start": 82.38,
+    "duration": 3.66
+  },
+  {
+    "text": "depends on the sign of the input if the",
+    "start": 84.479,
+    "duration": 3.061
+  },
+  {
+    "text": "sign is positive then you get a certain",
+    "start": 86.04,
+    "duration": 3.3
+  },
+  {
+    "text": "output if the sign is negative then you",
+    "start": 87.54,
+    "duration": 4.14
+  },
+  {
+    "text": "get a certain output right and now I'm",
+    "start": 89.34,
+    "duration": 3.599
+  },
+  {
+    "text": "just going to rewrite the",
+    "start": 91.68,
+    "duration": 2.939
+  },
+  {
+    "text": "radioactivation function as I said on",
+    "start": 92.939,
+    "duration": 3.36
+  },
+  {
+    "text": "the previous slide I could think of it",
+    "start": 94.619,
+    "duration": 4.86
+  },
+  {
+    "text": "as 1 into x if x greater than 0 or 0",
+    "start": 96.299,
+    "duration": 5.28
+  },
+  {
+    "text": "into x if x is less than equal to 0",
+    "start": 99.479,
+    "duration": 5.121
+  },
+  {
+    "text": "right now uh",
+    "start": 101.579,
+    "duration": 5.761
+  },
+  {
+    "text": "the Dropout function also does the same",
+    "start": 104.6,
+    "duration": 4.9
+  },
+  {
+    "text": "right I mean the Dropout idea of Dropout",
+    "start": 107.34,
+    "duration": 4.68
+  },
+  {
+    "text": "is that you have a certain number of",
+    "start": 109.5,
+    "duration": 5.64
+  },
+  {
+    "text": "neurons and if you apply the mask then",
+    "start": 112.02,
+    "duration": 4.44
+  },
+  {
+    "text": "you could think of this mask as the",
+    "start": 115.14,
+    "duration": 2.88
+  },
+  {
+    "text": "activation function which either zeros",
+    "start": 116.46,
+    "duration": 3.54
+  },
+  {
+    "text": "out the neuron or lets it pass through",
+    "start": 118.02,
+    "duration": 4.139
+  },
+  {
+    "text": "right and then apply some activation",
+    "start": 120.0,
+    "duration": 4.14
+  },
+  {
+    "text": "function on top of that right so it also",
+    "start": 122.159,
+    "duration": 3.541
+  },
+  {
+    "text": "does the same the only difference is",
+    "start": 124.14,
+    "duration": 3.899
+  },
+  {
+    "text": "that instead of one and zero it has this",
+    "start": 125.7,
+    "duration": 4.979
+  },
+  {
+    "text": "stochastic uh uh nature right so it's",
+    "start": 128.039,
+    "duration": 4.741
+  },
+  {
+    "text": "not always one not always zero it's",
+    "start": 130.679,
+    "duration": 5.041
+  },
+  {
+    "text": "decided based on a coin toss right so it",
+    "start": 132.78,
+    "duration": 7.26
+  },
+  {
+    "text": "could be uh the output is 1 into X",
+    "start": 135.72,
+    "duration": 7.5
+  },
+  {
+    "text": "if with probability p and 0 into x with",
+    "start": 140.04,
+    "duration": 4.98
+  },
+  {
+    "text": "probability 1 minus P right so all of",
+    "start": 143.22,
+    "duration": 4.019
+  },
+  {
+    "text": "these uh you just I want you to notice",
+    "start": 145.02,
+    "duration": 4.14
+  },
+  {
+    "text": "the similarities between this right so",
+    "start": 147.239,
+    "duration": 3.961
+  },
+  {
+    "text": "this function form it's looking similar",
+    "start": 149.16,
+    "duration": 3.719
+  },
+  {
+    "text": "but the conditions are a bit different",
+    "start": 151.2,
+    "duration": 3.72
+  },
+  {
+    "text": "it is X greater than 0 x less than or",
+    "start": 152.879,
+    "duration": 4.381
+  },
+  {
+    "text": "equal to 0 here it is with probability P",
+    "start": 154.92,
+    "duration": 5.76
+  },
+  {
+    "text": "it is 1 into x with probability uh uh 1",
+    "start": 157.26,
+    "duration": 6.119
+  },
+  {
+    "text": "minus P it is 0 into X right so then it",
+    "start": 160.68,
+    "duration": 4.5
+  },
+  {
+    "text": "does make sense right it makes a case",
+    "start": 163.379,
+    "duration": 4.021
+  },
+  {
+    "text": "for combining these ideas where in the",
+    "start": 165.18,
+    "duration": 4.68
+  },
+  {
+    "text": "relu you have this uh similarity to the",
+    "start": 167.4,
+    "duration": 4.44
+  },
+  {
+    "text": "hard activation function and Dropout",
+    "start": 169.86,
+    "duration": 4.14
+  },
+  {
+    "text": "brings in this stochasticity so can you",
+    "start": 171.84,
+    "duration": 4.259
+  },
+  {
+    "text": "combine these two ideas and try to come",
+    "start": 174.0,
+    "duration": 4.5
+  },
+  {
+    "text": "up with a different activation function",
+    "start": 176.099,
+    "duration": 5.041
+  },
+  {
+    "text": "and that's where we are headed so how",
+    "start": 178.5,
+    "duration": 5.099
+  },
+  {
+    "text": "about writing the following right that I",
+    "start": 181.14,
+    "duration": 4.5
+  },
+  {
+    "text": "have an activation function which is M",
+    "start": 183.599,
+    "duration": 6.481
+  },
+  {
+    "text": "into X right and now m is a Bernoulli",
+    "start": 185.64,
+    "duration": 7.56
+  },
+  {
+    "text": "random variable so that means uh M takes",
+    "start": 190.08,
+    "duration": 6.72
+  },
+  {
+    "text": "on the value 0 or 1 with probability Phi",
+    "start": 193.2,
+    "duration": 5.28
+  },
+  {
+    "text": "X right so when I say I think you're",
+    "start": 196.8,
+    "duration": 4.2
+  },
+  {
+    "text": "used to this Bernoulli",
+    "start": 198.48,
+    "duration": 4.02
+  },
+  {
+    "text": "um",
+    "start": 201.0,
+    "duration": 4.62
+  },
+  {
+    "text": "of P which means that with probability P",
+    "start": 202.5,
+    "duration": 6.0
+  },
+  {
+    "text": "the output would be heads or 1 and with",
+    "start": 205.62,
+    "duration": 4.86
+  },
+  {
+    "text": "probability 1 minus P the output would",
+    "start": 208.5,
+    "duration": 4.319
+  },
+  {
+    "text": "be Tails or zero right so now instead of",
+    "start": 210.48,
+    "duration": 5.28
+  },
+  {
+    "text": "P the parameter is Phi X and Phi X is",
+    "start": 212.819,
+    "duration": 6.901
+  },
+  {
+    "text": "itself a function of uh the input right",
+    "start": 215.76,
+    "duration": 5.88
+  },
+  {
+    "text": "so that's how you are setting up the",
+    "start": 219.72,
+    "duration": 4.079
+  },
+  {
+    "text": "activation function and now what could",
+    "start": 221.64,
+    "duration": 3.72
+  },
+  {
+    "text": "this Phi X be right so let's make some",
+    "start": 223.799,
+    "duration": 3.541
+  },
+  {
+    "text": "observations this Phi X is supposed to",
+    "start": 225.36,
+    "duration": 4.019
+  },
+  {
+    "text": "be a probability right because it has to",
+    "start": 227.34,
+    "duration": 3.42
+  },
+  {
+    "text": "be the probability of heads or",
+    "start": 229.379,
+    "duration": 3.061
+  },
+  {
+    "text": "probability of one so it should lie",
+    "start": 230.76,
+    "duration": 4.32
+  },
+  {
+    "text": "between 0 to 1. right so that's the idea",
+    "start": 232.44,
+    "duration": 6.079
+  },
+  {
+    "text": "the Phi of x",
+    "start": 235.08,
+    "duration": 3.439
+  },
+  {
+    "text": "should lie between uh zero to one right",
+    "start": 240.06,
+    "duration": 6.239
+  },
+  {
+    "text": "that's the uh range that it can have",
+    "start": 243.12,
+    "duration": 5.16
+  },
+  {
+    "text": "right now what is the function that you",
+    "start": 246.299,
+    "duration": 3.781
+  },
+  {
+    "text": "know which gives you output between zero",
+    "start": 248.28,
+    "duration": 3.659
+  },
+  {
+    "text": "to one so the obvious choice which comes",
+    "start": 250.08,
+    "duration": 3.48
+  },
+  {
+    "text": "to minus the logistic function right so",
+    "start": 251.939,
+    "duration": 3.66
+  },
+  {
+    "text": "you could think of Phi of X as a",
+    "start": 253.56,
+    "duration": 4.2
+  },
+  {
+    "text": "logistic function of the input that you",
+    "start": 255.599,
+    "duration": 3.961
+  },
+  {
+    "text": "have now what is the input here let's",
+    "start": 257.76,
+    "duration": 3.42
+  },
+  {
+    "text": "try to understand that clearly right I",
+    "start": 259.56,
+    "duration": 4.38
+  },
+  {
+    "text": "am saying X but let's not confuse uh say",
+    "start": 261.18,
+    "duration": 5.459
+  },
+  {
+    "text": "this is your deep neural network",
+    "start": 263.94,
+    "duration": 4.5
+  },
+  {
+    "text": "and this is some hidden layer right",
+    "start": 266.639,
+    "duration": 4.321
+  },
+  {
+    "text": "let's call this the H2 hidden layer okay",
+    "start": 268.44,
+    "duration": 5.16
+  },
+  {
+    "text": "and now you have this preactivation let",
+    "start": 270.96,
+    "duration": 4.86
+  },
+  {
+    "text": "me call it a21 and this is the",
+    "start": 273.6,
+    "duration": 5.52
+  },
+  {
+    "text": "activation h21 right so this is the",
+    "start": 275.82,
+    "duration": 5.34
+  },
+  {
+    "text": "function that I am defining right h21 is",
+    "start": 279.12,
+    "duration": 5.88
+  },
+  {
+    "text": "equal to F of a to 1 and I have defined",
+    "start": 281.16,
+    "duration": 5.039
+  },
+  {
+    "text": "it as",
+    "start": 285.0,
+    "duration": 6.24
+  },
+  {
+    "text": "M into a to 1 where M itself is a",
+    "start": 286.199,
+    "duration": 8.22
+  },
+  {
+    "text": "function of a 2",
+    "start": 291.24,
+    "duration": 6.84
+  },
+  {
+    "text": "sorry M uh m is a random variable which",
+    "start": 294.419,
+    "duration": 6.0
+  },
+  {
+    "text": "is Bernoulli distributed with the",
+    "start": 298.08,
+    "duration": 4.92
+  },
+  {
+    "text": "parameter Phi E21 right so that's the",
+    "start": 300.419,
+    "duration": 4.681
+  },
+  {
+    "text": "what I'm trying to that's how this whole",
+    "start": 303.0,
+    "duration": 4.56
+  },
+  {
+    "text": "picture is right so you have a neural",
+    "start": 305.1,
+    "duration": 4.379
+  },
+  {
+    "text": "network within that you have multiple",
+    "start": 307.56,
+    "duration": 3.96
+  },
+  {
+    "text": "hidden layers I'm looking at one of",
+    "start": 309.479,
+    "duration": 3.481
+  },
+  {
+    "text": "those hidden layers I'm looking at one",
+    "start": 311.52,
+    "duration": 3.3
+  },
+  {
+    "text": "of those neurons and I want to define",
+    "start": 312.96,
+    "duration": 3.959
+  },
+  {
+    "text": "the activation function which is this",
+    "start": 314.82,
+    "duration": 3.84
+  },
+  {
+    "text": "and this is how I have defined the",
+    "start": 316.919,
+    "duration": 3.661
+  },
+  {
+    "text": "activation function and now you can see",
+    "start": 318.66,
+    "duration": 4.2
+  },
+  {
+    "text": "that X actually is a21 which is just the",
+    "start": 320.58,
+    "duration": 5.88
+  },
+  {
+    "text": "preactivation of that neuron and now I",
+    "start": 322.86,
+    "duration": 7.02
+  },
+  {
+    "text": "want to uh get a value between 0 to 1",
+    "start": 326.46,
+    "duration": 5.64
+  },
+  {
+    "text": "based on a21 so one of the simplest",
+    "start": 329.88,
+    "duration": 4.5
+  },
+  {
+    "text": "choice would be to just do one over one",
+    "start": 332.1,
+    "duration": 4.62
+  },
+  {
+    "text": "plus e raised to minus a218 this is the",
+    "start": 334.38,
+    "duration": 4.259
+  },
+  {
+    "text": "logistic function that we had seen and",
+    "start": 336.72,
+    "duration": 3.479
+  },
+  {
+    "text": "we know that it gives values between 0",
+    "start": 338.639,
+    "duration": 4.021
+  },
+  {
+    "text": "to 1 right so that is one choice the",
+    "start": 340.199,
+    "duration": 3.901
+  },
+  {
+    "text": "other choice since we are in the domain",
+    "start": 342.66,
+    "duration": 3.9
+  },
+  {
+    "text": "of probability is to use the cumulative",
+    "start": 344.1,
+    "duration": 4.5
+  },
+  {
+    "text": "distribution function of the normal",
+    "start": 346.56,
+    "duration": 3.72
+  },
+  {
+    "text": "distribution right so the probability",
+    "start": 348.6,
+    "duration": 3.599
+  },
+  {
+    "text": "density function of the normal",
+    "start": 350.28,
+    "duration": 3.9
+  },
+  {
+    "text": "distribution looks like this right this",
+    "start": 352.199,
+    "duration": 3.84
+  },
+  {
+    "text": "is a bell shaped and if you look at the",
+    "start": 354.18,
+    "duration": 4.5
+  },
+  {
+    "text": "cumulative density uh function then it",
+    "start": 356.039,
+    "duration": 5.401
+  },
+  {
+    "text": "again has this s shape right because it",
+    "start": 358.68,
+    "duration": 5.94
+  },
+  {
+    "text": "again uh at minus infinity it's around",
+    "start": 361.44,
+    "duration": 5.58
+  },
+  {
+    "text": "zero and around 1 when you have",
+    "start": 364.62,
+    "duration": 6.24
+  },
+  {
+    "text": "integrated over the entire uh",
+    "start": 367.02,
+    "duration": 6.0
+  },
+  {
+    "text": "possibility of values you will get a",
+    "start": 370.86,
+    "duration": 3.48
+  },
+  {
+    "text": "probability of one right because a",
+    "start": 373.02,
+    "duration": 3.6
+  },
+  {
+    "text": "cumulative density function tells you P",
+    "start": 374.34,
+    "duration": 5.28
+  },
+  {
+    "text": "of X taking on values less than equal to",
+    "start": 376.62,
+    "duration": 5.4
+  },
+  {
+    "text": "X so P of x",
+    "start": 379.62,
+    "duration": 5.639
+  },
+  {
+    "text": "less than equal to Infinity is going to",
+    "start": 382.02,
+    "duration": 4.92
+  },
+  {
+    "text": "be 1 right so as this approaches",
+    "start": 385.259,
+    "duration": 5.761
+  },
+  {
+    "text": "Infinity uh your CDF would hit one right",
+    "start": 386.94,
+    "duration": 5.759
+  },
+  {
+    "text": "so that's another function that you can",
+    "start": 391.02,
+    "duration": 4.739
+  },
+  {
+    "text": "use so you could make the this function",
+    "start": 392.699,
+    "duration": 6.481
+  },
+  {
+    "text": "Phi of X as uh take it as the cumulative",
+    "start": 395.759,
+    "duration": 6.72
+  },
+  {
+    "text": "density function uh and parameterize of",
+    "start": 399.18,
+    "duration": 6.18
+  },
+  {
+    "text": "of the normal uh uh distribution and",
+    "start": 402.479,
+    "duration": 4.861
+  },
+  {
+    "text": "then parameterized by this input that",
+    "start": 405.36,
+    "duration": 3.119
+  },
+  {
+    "text": "you have right so these are the",
+    "start": 407.34,
+    "duration": 3.66
+  },
+  {
+    "text": "possibilities so overall I mean I said a",
+    "start": 408.479,
+    "duration": 3.84
+  },
+  {
+    "text": "lot of things let me quickly summarize",
+    "start": 411.0,
+    "duration": 5.16
+  },
+  {
+    "text": "so we first do this analogy between relu",
+    "start": 412.319,
+    "duration": 6.361
+  },
+  {
+    "text": "and hard activation and then rewrote a",
+    "start": 416.16,
+    "duration": 4.68
+  },
+  {
+    "text": "value accordingly then we try to see",
+    "start": 418.68,
+    "duration": 4.26
+  },
+  {
+    "text": "that relu and Dropout seem to be doing",
+    "start": 420.84,
+    "duration": 4.919
+  },
+  {
+    "text": "something with this stochastic uh",
+    "start": 422.94,
+    "duration": 4.379
+  },
+  {
+    "text": "difference between them right Dropout",
+    "start": 425.759,
+    "duration": 3.361
+  },
+  {
+    "text": "does this stochastically withdrawal DP",
+    "start": 427.319,
+    "duration": 4.141
+  },
+  {
+    "text": "and minus P so why not bring that",
+    "start": 429.12,
+    "duration": 5.28
+  },
+  {
+    "text": "stochasticity into the function itself",
+    "start": 431.46,
+    "duration": 5.579
+  },
+  {
+    "text": "and how I brought it in I have defined a",
+    "start": 434.4,
+    "duration": 5.88
+  },
+  {
+    "text": "random variable M right so now this",
+    "start": 437.039,
+    "duration": 4.921
+  },
+  {
+    "text": "random variable will take on certain",
+    "start": 440.28,
+    "duration": 4.139
+  },
+  {
+    "text": "value 1 or 0 with a certain probability",
+    "start": 441.96,
+    "duration": 4.799
+  },
+  {
+    "text": "and hence the activation function would",
+    "start": 444.419,
+    "duration": 6.0
+  },
+  {
+    "text": "differ would depend on X as well as have",
+    "start": 446.759,
+    "duration": 5.421
+  },
+  {
+    "text": "this stochastic",
+    "start": 450.419,
+    "duration": 4.381
+  },
+  {
+    "text": "feature because of this random variable",
+    "start": 452.18,
+    "duration": 4.72
+  },
+  {
+    "text": "and now this random variable needs to",
+    "start": 454.8,
+    "duration": 3.839
+  },
+  {
+    "text": "follow a certain distribution so it's a",
+    "start": 456.9,
+    "duration": 2.88
+  },
+  {
+    "text": "Bernoulli distribution because this",
+    "start": 458.639,
+    "duration": 3.06
+  },
+  {
+    "text": "random variable can take on value 0 to 1",
+    "start": 459.78,
+    "duration": 3.9
+  },
+  {
+    "text": "so it's a binary random variable so it",
+    "start": 461.699,
+    "duration": 4.081
+  },
+  {
+    "text": "will follow a Bernoulli distribution and",
+    "start": 463.68,
+    "duration": 3.48
+  },
+  {
+    "text": "the bernalia distribution has a",
+    "start": 465.78,
+    "duration": 3.9
+  },
+  {
+    "text": "parameter p and now I am saying in this",
+    "start": 467.16,
+    "duration": 4.2
+  },
+  {
+    "text": "case the parameter P would just be a",
+    "start": 469.68,
+    "duration": 4.38
+  },
+  {
+    "text": "function of the input right which is as",
+    "start": 471.36,
+    "duration": 4.32
+  },
+  {
+    "text": "I and I also explained what this input",
+    "start": 474.06,
+    "duration": 3.72
+  },
+  {
+    "text": "is this input is the pre-activation at",
+    "start": 475.68,
+    "duration": 4.32
+  },
+  {
+    "text": "that neuron right so that's The quick",
+    "start": 477.78,
+    "duration": 3.9
+  },
+  {
+    "text": "summary of whatever I have said so far",
+    "start": 480.0,
+    "duration": 4.62
+  },
+  {
+    "text": "ah",
+    "start": 481.68,
+    "duration": 4.98
+  },
+  {
+    "text": "so it can be the logistic function or it",
+    "start": 484.62,
+    "duration": 3.6
+  },
+  {
+    "text": "can be the cumulative distribution of",
+    "start": 486.66,
+    "duration": 2.879
+  },
+  {
+    "text": "the standard normal distribution right",
+    "start": 488.22,
+    "duration": 4.319
+  },
+  {
+    "text": "so that's what I already uh explained",
+    "start": 489.539,
+    "duration": 4.081
+  },
+  {
+    "text": "uh",
+    "start": 492.539,
+    "duration": 3.06
+  },
+  {
+    "text": "earlier",
+    "start": 493.62,
+    "duration": 7.519
+  },
+  {
+    "text": "okay so now let's uh go further",
+    "start": 495.599,
+    "duration": 5.54
+  },
+  {
+    "text": "yeah so what is the expected value of f",
+    "start": 510.599,
+    "duration": 4.8
+  },
+  {
+    "text": "of x let's try to find that so expected",
+    "start": 512.94,
+    "duration": 4.019
+  },
+  {
+    "text": "value of f of x is the same as the",
+    "start": 515.399,
+    "duration": 5.341
+  },
+  {
+    "text": "expected value of M into X and uh that",
+    "start": 516.959,
+    "duration": 5.221
+  },
+  {
+    "text": "since it follows the Bernoulli",
+    "start": 520.74,
+    "duration": 3.78
+  },
+  {
+    "text": "distribution I can just write it with",
+    "start": 522.18,
+    "duration": 5.52
+  },
+  {
+    "text": "probability uh Phi X it would take on",
+    "start": 524.52,
+    "duration": 6.06
+  },
+  {
+    "text": "the value 1 then multiply it by X right",
+    "start": 527.7,
+    "duration": 5.28
+  },
+  {
+    "text": "and then with probability 1 minus 5x it",
+    "start": 530.58,
+    "duration": 3.84
+  },
+  {
+    "text": "will take on the value 0 and then",
+    "start": 532.98,
+    "duration": 4.02
+  },
+  {
+    "text": "multiply it by X and this effectively",
+    "start": 534.42,
+    "duration": 6.96
+  },
+  {
+    "text": "would just be Phi of x",
+    "start": 537.0,
+    "duration": 7.44
+  },
+  {
+    "text": "into X right and what was Phi of X it",
+    "start": 541.38,
+    "duration": 6.32
+  },
+  {
+    "text": "was the cumulative density function of",
+    "start": 544.44,
+    "duration": 6.48
+  },
+  {
+    "text": "the normal distribution so Phi of X just",
+    "start": 547.7,
+    "duration": 5.02
+  },
+  {
+    "text": "basically means the probability of X",
+    "start": 550.92,
+    "duration": 4.14
+  },
+  {
+    "text": "being less than or equal to X right",
+    "start": 552.72,
+    "duration": 3.96
+  },
+  {
+    "text": "that's how what that's what Phi of X",
+    "start": 555.06,
+    "duration": 3.48
+  },
+  {
+    "text": "means right so if I were to draw the",
+    "start": 556.68,
+    "duration": 4.8
+  },
+  {
+    "text": "cumulative density function then if I",
+    "start": 558.54,
+    "duration": 6.299
+  },
+  {
+    "text": "were to this is my x axis so if I take",
+    "start": 561.48,
+    "duration": 7.62
+  },
+  {
+    "text": "any X I'll get a value here and this",
+    "start": 564.839,
+    "duration": 7.44
+  },
+  {
+    "text": "value is essentially the P of X taking",
+    "start": 569.1,
+    "duration": 5.04
+  },
+  {
+    "text": "on values less than or equal to x z",
+    "start": 572.279,
+    "duration": 4.081
+  },
+  {
+    "text": "because it has been obtained by the",
+    "start": 574.14,
+    "duration": 4.56
+  },
+  {
+    "text": "integration of this curve and then till",
+    "start": 576.36,
+    "duration": 4.919
+  },
+  {
+    "text": "this point whatever was the area under",
+    "start": 578.7,
+    "duration": 4.56
+  },
+  {
+    "text": "the density curve that is what gets",
+    "start": 581.279,
+    "duration": 3.361
+  },
+  {
+    "text": "plotted here right so this is just",
+    "start": 583.26,
+    "duration": 5.639
+  },
+  {
+    "text": "probability of X less than or equal to X",
+    "start": 584.64,
+    "duration": 7.62
+  },
+  {
+    "text": "right and now this I could uh since this",
+    "start": 588.899,
+    "duration": 5.401
+  },
+  {
+    "text": "this is the probability density function",
+    "start": 592.26,
+    "duration": 4.8
+  },
+  {
+    "text": "of the uh of the normal distribution I",
+    "start": 594.3,
+    "duration": 4.14
+  },
+  {
+    "text": "know how to compute this there are",
+    "start": 597.06,
+    "duration": 2.88
+  },
+  {
+    "text": "certain approximations available for",
+    "start": 598.44,
+    "duration": 3.66
+  },
+  {
+    "text": "that and I can use those approximations",
+    "start": 599.94,
+    "duration": 6.26
+  },
+  {
+    "text": "right so what my FX actually is",
+    "start": 602.1,
+    "duration": 4.1
+  },
+  {
+    "text": "I can write F of uh I can write this",
+    "start": 608.279,
+    "duration": 5.701
+  },
+  {
+    "text": "quantity",
+    "start": 612.3,
+    "duration": 4.14
+  },
+  {
+    "text": "okay let me just draw the other one so",
+    "start": 613.98,
+    "duration": 5.64
+  },
+  {
+    "text": "so I can write this quantity okay you",
+    "start": 616.44,
+    "duration": 4.68
+  },
+  {
+    "text": "ignore the X here because this x",
+    "start": 619.62,
+    "duration": 4.08
+  },
+  {
+    "text": "corresponds to this x right so this",
+    "start": 621.12,
+    "duration": 4.92
+  },
+  {
+    "text": "quantity P of X less than or equal to is",
+    "start": 623.7,
+    "duration": 4.8
+  },
+  {
+    "text": "given by this nasty formula without this",
+    "start": 626.04,
+    "duration": 5.04
+  },
+  {
+    "text": "x right and then I can just multiply it",
+    "start": 628.5,
+    "duration": 4.86
+  },
+  {
+    "text": "by X to get the formula that I have here",
+    "start": 631.08,
+    "duration": 4.62
+  },
+  {
+    "text": "another approximation of it is this",
+    "start": 633.36,
+    "duration": 4.8
+  },
+  {
+    "text": "right so it can also be given as X into",
+    "start": 635.7,
+    "duration": 5.28
+  },
+  {
+    "text": "Sigma of 1.702 X and I've drawn both",
+    "start": 638.16,
+    "duration": 4.739
+  },
+  {
+    "text": "these formula here and you can see that",
+    "start": 640.98,
+    "duration": 4.02
+  },
+  {
+    "text": "they are very close to each other and",
+    "start": 642.899,
+    "duration": 4.741
+  },
+  {
+    "text": "look like the CDF of the normal",
+    "start": 645.0,
+    "duration": 4.68
+  },
+  {
+    "text": "distribution right so that's why",
+    "start": 647.64,
+    "duration": 4.5
+  },
+  {
+    "text": "effectively uh the gelu activation",
+    "start": 649.68,
+    "duration": 6.12
+  },
+  {
+    "text": "function turns out to be f of x is equal",
+    "start": 652.14,
+    "duration": 7.46
+  },
+  {
+    "text": "to X into Sigma of",
+    "start": 655.8,
+    "duration": 7.2
+  },
+  {
+    "text": "1.702 X quite a weird function but well",
+    "start": 659.6,
+    "duration": 6.04
+  },
+  {
+    "text": "motivated right so this formula if I",
+    "start": 663.0,
+    "duration": 3.959
+  },
+  {
+    "text": "just give you you don't you won't",
+    "start": 665.64,
+    "duration": 3.42
+  },
+  {
+    "text": "understand where it came from but now",
+    "start": 666.959,
+    "duration": 3.661
+  },
+  {
+    "text": "you from this derivation you understand",
+    "start": 669.06,
+    "duration": 5.58
+  },
+  {
+    "text": "that it's multiplying the CDF value with",
+    "start": 670.62,
+    "duration": 6.839
+  },
+  {
+    "text": "the X itself and the CD F value there",
+    "start": 674.64,
+    "duration": 4.56
+  },
+  {
+    "text": "are multiple ways of approximating it",
+    "start": 677.459,
+    "duration": 3.961
+  },
+  {
+    "text": "and we have chosen one particular way of",
+    "start": 679.2,
+    "duration": 4.5
+  },
+  {
+    "text": "approximating it which is this right so",
+    "start": 681.42,
+    "duration": 3.84
+  },
+  {
+    "text": "that's that's how the Galu activation",
+    "start": 683.7,
+    "duration": 4.98
+  },
+  {
+    "text": "function is arrived at and again The",
+    "start": 685.26,
+    "duration": 6.12
+  },
+  {
+    "text": "quick summary was that you took relu you",
+    "start": 688.68,
+    "duration": 5.219
+  },
+  {
+    "text": "wrote it as 1X into 0x you took Dropout",
+    "start": 691.38,
+    "duration": 4.98
+  },
+  {
+    "text": "you understood that it's 1 and 0 with",
+    "start": 693.899,
+    "duration": 4.68
+  },
+  {
+    "text": "probability p n minus p and then you",
+    "start": 696.36,
+    "duration": 4.38
+  },
+  {
+    "text": "combine these two ideas brought it this",
+    "start": 698.579,
+    "duration": 4.741
+  },
+  {
+    "text": "random variable M then wanted to define",
+    "start": 700.74,
+    "duration": 4.2
+  },
+  {
+    "text": "the function X so you said okay what's",
+    "start": 703.32,
+    "duration": 3.66
+  },
+  {
+    "text": "the expected value of this function so",
+    "start": 704.94,
+    "duration": 4.26
+  },
+  {
+    "text": "this is what the expected value is you",
+    "start": 706.98,
+    "duration": 3.84
+  },
+  {
+    "text": "know how to deal with this quantity you",
+    "start": 709.2,
+    "duration": 4.259
+  },
+  {
+    "text": "can just write it as the formula for the",
+    "start": 710.82,
+    "duration": 5.04
+  },
+  {
+    "text": "CDF and there are multiple choices you",
+    "start": 713.459,
+    "duration": 4.56
+  },
+  {
+    "text": "chose one of the simpler choices and you",
+    "start": 715.86,
+    "duration": 5.4
+  },
+  {
+    "text": "came up with this neat uh slightly neat",
+    "start": 718.019,
+    "duration": 5.521
+  },
+  {
+    "text": "looking formula for the Galu activation",
+    "start": 721.26,
+    "duration": 3.9
+  },
+  {
+    "text": "function right so that's how you arrive",
+    "start": 723.54,
+    "duration": 3.539
+  },
+  {
+    "text": "at gelu",
+    "start": 725.16,
+    "duration": 4.859
+  },
+  {
+    "text": "uh and this is how it would look if you",
+    "start": 727.079,
+    "duration": 5.641
+  },
+  {
+    "text": "plot it so you have seen a relu we had",
+    "start": 730.019,
+    "duration": 6.301
+  },
+  {
+    "text": "seen the exponential uh linear unit and",
+    "start": 732.72,
+    "duration": 5.64
+  },
+  {
+    "text": "now we have seen this gelu which is this",
+    "start": 736.32,
+    "duration": 6.18
+  },
+  {
+    "text": "red colored uh right uh similarly you",
+    "start": 738.36,
+    "duration": 6.539
+  },
+  {
+    "text": "could have uh another a few other",
+    "start": 742.5,
+    "duration": 3.839
+  },
+  {
+    "text": "activation functions which are again",
+    "start": 744.899,
+    "duration": 4.021
+  },
+  {
+    "text": "kind of variants of relu itself so you",
+    "start": 746.339,
+    "duration": 4.44
+  },
+  {
+    "text": "have the scale exponential linear unit",
+    "start": 748.92,
+    "duration": 4.02
+  },
+  {
+    "text": "so remember we had seen the exponential",
+    "start": 750.779,
+    "duration": 6.481
+  },
+  {
+    "text": "linear unit and now how how was scaled",
+    "start": 752.94,
+    "duration": 6.54
+  },
+  {
+    "text": "exponential linear unit motivated from",
+    "start": 757.26,
+    "duration": 4.92
+  },
+  {
+    "text": "there we observed that these leaky relu",
+    "start": 759.48,
+    "duration": 4.02
+  },
+  {
+    "text": "and those variants they are not",
+    "start": 762.18,
+    "duration": 3.839
+  },
+  {
+    "text": "completely uh zero center right and we",
+    "start": 763.5,
+    "duration": 4.86
+  },
+  {
+    "text": "will see that when we draw the plot so",
+    "start": 766.019,
+    "duration": 5.101
+  },
+  {
+    "text": "we want this to be zero centered so one",
+    "start": 768.36,
+    "duration": 5.219
+  },
+  {
+    "text": "way to do that is using uh something",
+    "start": 771.12,
+    "duration": 4.08
+  },
+  {
+    "text": "known as normalization techniques which",
+    "start": 773.579,
+    "duration": 3.541
+  },
+  {
+    "text": "we'll see later on the course the other",
+    "start": 775.2,
+    "duration": 3.84
+  },
+  {
+    "text": "way is to kind of change the activation",
+    "start": 777.12,
+    "duration": 3.42
+  },
+  {
+    "text": "function itself so it has some",
+    "start": 779.04,
+    "duration": 3.539
+  },
+  {
+    "text": "normalization in it and that's exactly",
+    "start": 780.54,
+    "duration": 4.5
+  },
+  {
+    "text": "what cellu does right so let's let's try",
+    "start": 782.579,
+    "duration": 3.961
+  },
+  {
+    "text": "to understand what I was saying right so",
+    "start": 785.04,
+    "duration": 5.06
+  },
+  {
+    "text": "if you look at relu",
+    "start": 786.54,
+    "duration": 3.56
+  },
+  {
+    "text": "none of them are zero centered right and",
+    "start": 790.339,
+    "duration": 4.06
+  },
+  {
+    "text": "we saw what zero centered means in the",
+    "start": 792.66,
+    "duration": 4.5
+  },
+  {
+    "text": "case of the tan H function that there is",
+    "start": 794.399,
+    "duration": 4.861
+  },
+  {
+    "text": "equal distribution around a negative and",
+    "start": 797.16,
+    "duration": 4.44
+  },
+  {
+    "text": "positive clearly relu is not zero",
+    "start": 799.26,
+    "duration": 4.199
+  },
+  {
+    "text": "centered because along the positive axis",
+    "start": 801.6,
+    "duration": 4.02
+  },
+  {
+    "text": "it can take very large values along the",
+    "start": 803.459,
+    "duration": 3.781
+  },
+  {
+    "text": "negative side it only takes zero value",
+    "start": 805.62,
+    "duration": 4.14
+  },
+  {
+    "text": "so it's not zero centered exponentially",
+    "start": 807.24,
+    "duration": 4.92
+  },
+  {
+    "text": "uh Lu is slightly better because it has",
+    "start": 809.76,
+    "duration": 5.34
+  },
+  {
+    "text": "some values towards uh the negative so",
+    "start": 812.16,
+    "duration": 4.859
+  },
+  {
+    "text": "it has some balance right I mean it's",
+    "start": 815.1,
+    "duration": 3.72
+  },
+  {
+    "text": "still tilted towards a positive but at",
+    "start": 817.019,
+    "duration": 3.421
+  },
+  {
+    "text": "least some weight along the negative",
+    "start": 818.82,
+    "duration": 4.259
+  },
+  {
+    "text": "same with gelu but now if you scale this",
+    "start": 820.44,
+    "duration": 4.38
+  },
+  {
+    "text": "exponential linear unit by an",
+    "start": 823.079,
+    "duration": 4.44
+  },
+  {
+    "text": "appropriate Lambda then you could have",
+    "start": 824.82,
+    "duration": 5.22
+  },
+  {
+    "text": "some of equal distribution along these",
+    "start": 827.519,
+    "duration": 5.101
+  },
+  {
+    "text": "two paths and then you get almost zero",
+    "start": 830.04,
+    "duration": 4.26
+  },
+  {
+    "text": "centering and it depends on how you",
+    "start": 832.62,
+    "duration": 3.839
+  },
+  {
+    "text": "choose the value of Lambda and a few",
+    "start": 834.3,
+    "duration": 3.9
+  },
+  {
+    "text": "values of Lambda that people have",
+    "start": 836.459,
+    "duration": 5.221
+  },
+  {
+    "text": "suggested uh empirically",
+    "start": 838.2,
+    "duration": 6.06
+  },
+  {
+    "text": "uh derived are these Lambda values are",
+    "start": 841.68,
+    "duration": 4.74
+  },
+  {
+    "text": "Lambda equal to 1.05 or Lambda equal to",
+    "start": 844.26,
+    "duration": 5.519
+  },
+  {
+    "text": "1.67 if you do this then you get some",
+    "start": 846.42,
+    "duration": 4.62
+  },
+  {
+    "text": "sort of zero centering and that's",
+    "start": 849.779,
+    "duration": 4.74
+  },
+  {
+    "text": "exactly what cellu tries to do right uh",
+    "start": 851.04,
+    "duration": 6.479
+  },
+  {
+    "text": "now upper now after these activation",
+    "start": 854.519,
+    "duration": 5.88
+  },
+  {
+    "text": "functions uh came up right then of",
+    "start": 857.519,
+    "duration": 4.26
+  },
+  {
+    "text": "course this question arises I mean till",
+    "start": 860.399,
+    "duration": 3.0
+  },
+  {
+    "text": "when can I keep discovering these",
+    "start": 861.779,
+    "duration": 3.36
+  },
+  {
+    "text": "functions right is there a better way of",
+    "start": 863.399,
+    "duration": 3.961
+  },
+  {
+    "text": "searching these activation functions can",
+    "start": 865.139,
+    "duration": 3.841
+  },
+  {
+    "text": "I automatically search for them right",
+    "start": 867.36,
+    "duration": 3.36
+  },
+  {
+    "text": "and there was this work which tried to",
+    "start": 868.98,
+    "duration": 4.74
+  },
+  {
+    "text": "search for Activation functions so think",
+    "start": 870.72,
+    "duration": 4.44
+  },
+  {
+    "text": "that there are many functions right this",
+    "start": 873.72,
+    "duration": 3.84
+  },
+  {
+    "text": "is a space of all functions possible you",
+    "start": 875.16,
+    "duration": 4.32
+  },
+  {
+    "text": "have Max you have I mean you have the",
+    "start": 877.56,
+    "duration": 4.079
+  },
+  {
+    "text": "relu here you have the logistic sigmoid",
+    "start": 879.48,
+    "duration": 3.479
+  },
+  {
+    "text": "tan H everything here right and there",
+    "start": 881.639,
+    "duration": 3.181
+  },
+  {
+    "text": "are many functions here now what they",
+    "start": 882.959,
+    "duration": 3.481
+  },
+  {
+    "text": "observed is that any such function is",
+    "start": 884.82,
+    "duration": 3.66
+  },
+  {
+    "text": "composed of two operations or unary",
+    "start": 886.44,
+    "duration": 3.72
+  },
+  {
+    "text": "operation this is what unary operation",
+    "start": 888.48,
+    "duration": 4.62
+  },
+  {
+    "text": "is so negation of x",
+    "start": 890.16,
+    "duration": 4.739
+  },
+  {
+    "text": "which you see here which operates only",
+    "start": 893.1,
+    "duration": 3.9
+  },
+  {
+    "text": "on a single input is a unary operator",
+    "start": 894.899,
+    "duration": 3.961
+  },
+  {
+    "text": "absolute value of x which again operates",
+    "start": 897.0,
+    "duration": 4.8
+  },
+  {
+    "text": "on a single input is a unary function a",
+    "start": 898.86,
+    "duration": 6.24
+  },
+  {
+    "text": "into X is again a unary function or",
+    "start": 901.8,
+    "duration": 4.74
+  },
+  {
+    "text": "exponent of all of these are unary",
+    "start": 905.1,
+    "duration": 2.94
+  },
+  {
+    "text": "functions so what are binary functions",
+    "start": 906.54,
+    "duration": 3.96
+  },
+  {
+    "text": "binary functions are functions which",
+    "start": 908.04,
+    "duration": 4.919
+  },
+  {
+    "text": "take two inputs right so this Max of X1",
+    "start": 910.5,
+    "duration": 4.98
+  },
+  {
+    "text": "comma X2 is a binary function X1 into",
+    "start": 912.959,
+    "duration": 4.68
+  },
+  {
+    "text": "sigmoid or some X2 is again a binary",
+    "start": 915.48,
+    "duration": 4.14
+  },
+  {
+    "text": "function right so either these have",
+    "start": 917.639,
+    "duration": 3.841
+  },
+  {
+    "text": "unary so these have a combination of",
+    "start": 919.62,
+    "duration": 6.3
+  },
+  {
+    "text": "unary and binary uh operators so what if",
+    "start": 921.48,
+    "duration": 7.08
+  },
+  {
+    "text": "I tried many possible combinations of",
+    "start": 925.92,
+    "duration": 4.38
+  },
+  {
+    "text": "these unary and binary operators right",
+    "start": 928.56,
+    "duration": 3.66
+  },
+  {
+    "text": "these are easier to Define there's a",
+    "start": 930.3,
+    "duration": 3.599
+  },
+  {
+    "text": "limited space of unity operators that I",
+    "start": 932.22,
+    "duration": 3.84
+  },
+  {
+    "text": "consider a limited space of binary",
+    "start": 933.899,
+    "duration": 3.721
+  },
+  {
+    "text": "operators that I consider of course",
+    "start": 936.06,
+    "duration": 3.42
+  },
+  {
+    "text": "there are many possibilities here but if",
+    "start": 937.62,
+    "duration": 3.839
+  },
+  {
+    "text": "I restrict that search space and then",
+    "start": 939.48,
+    "duration": 4.44
+  },
+  {
+    "text": "try out all these combinations and then",
+    "start": 941.459,
+    "duration": 4.261
+  },
+  {
+    "text": "try to see which one gives me the best",
+    "start": 943.92,
+    "duration": 4.14
+  },
+  {
+    "text": "performance then can I discover better",
+    "start": 945.72,
+    "duration": 5.04
+  },
+  {
+    "text": "activation functions and this requires",
+    "start": 948.06,
+    "duration": 4.56
+  },
+  {
+    "text": "some sort of reinforcement learning",
+    "start": 950.76,
+    "duration": 3.78
+  },
+  {
+    "text": "which is beyond on the scope of this but",
+    "start": 952.62,
+    "duration": 3.42
+  },
+  {
+    "text": "what you can think right at a Layman",
+    "start": 954.54,
+    "duration": 2.82
+  },
+  {
+    "text": "level this is how how you could",
+    "start": 956.04,
+    "duration": 2.76
+  },
+  {
+    "text": "understand it there's a large space of",
+    "start": 957.36,
+    "duration": 5.7
+  },
+  {
+    "text": "functions right and you uh You observe",
+    "start": 958.8,
+    "duration": 5.82
+  },
+  {
+    "text": "that these functions are composed of",
+    "start": 963.06,
+    "duration": 4.139
+  },
+  {
+    "text": "certain operations so can you compose",
+    "start": 964.62,
+    "duration": 5.04
+  },
+  {
+    "text": "functions in different ways right and",
+    "start": 967.199,
+    "duration": 4.44
+  },
+  {
+    "text": "then try to see which composition gives",
+    "start": 969.66,
+    "duration": 4.799
+  },
+  {
+    "text": "you a better way and do this search in",
+    "start": 971.639,
+    "duration": 5.281
+  },
+  {
+    "text": "an Optimum way using some ideas from RL",
+    "start": 974.459,
+    "duration": 4.141
+  },
+  {
+    "text": "and then do you arrive at better",
+    "start": 976.92,
+    "duration": 3.18
+  },
+  {
+    "text": "activation functions right so they did",
+    "start": 978.6,
+    "duration": 4.799
+  },
+  {
+    "text": "this and the many activation functions",
+    "start": 980.1,
+    "duration": 5.28
+  },
+  {
+    "text": "popped out right so you can see for",
+    "start": 983.399,
+    "duration": 4.201
+  },
+  {
+    "text": "reference here this one looks somewhat",
+    "start": 985.38,
+    "duration": 4.56
+  },
+  {
+    "text": "like the elu gelu family right but there",
+    "start": 987.6,
+    "duration": 3.72
+  },
+  {
+    "text": "are other activation functions which",
+    "start": 989.94,
+    "duration": 5.519
+  },
+  {
+    "text": "also popped out and what they uh",
+    "start": 991.32,
+    "duration": 7.319
+  },
+  {
+    "text": "arrived it as that any function of this",
+    "start": 995.459,
+    "duration": 7.981
+  },
+  {
+    "text": "form which is X into sigmoid of a beta",
+    "start": 998.639,
+    "duration": 8.521
+  },
+  {
+    "text": "into X is a good activation function and",
+    "start": 1003.44,
+    "duration": 6.54
+  },
+  {
+    "text": "this is actually uh the swish activation",
+    "start": 1007.16,
+    "duration": 6.02
+  },
+  {
+    "text": "function and if you set the constant to",
+    "start": 1009.98,
+    "duration": 7.14
+  },
+  {
+    "text": "1.702 then you get uh gelu or if you",
+    "start": 1013.18,
+    "duration": 5.92
+  },
+  {
+    "text": "make it a learnable parameter then you",
+    "start": 1017.12,
+    "duration": 4.98
+  },
+  {
+    "text": "have uh the switch activation function",
+    "start": 1019.1,
+    "duration": 4.44
+  },
+  {
+    "text": "right so they again when they try to",
+    "start": 1022.1,
+    "duration": 3.42
+  },
+  {
+    "text": "search this they again arrived at this",
+    "start": 1023.54,
+    "duration": 3.48
+  },
+  {
+    "text": "form which was similar to the form that",
+    "start": 1025.52,
+    "duration": 4.08
+  },
+  {
+    "text": "gelu had and the generic form which is",
+    "start": 1027.02,
+    "duration": 4.799
+  },
+  {
+    "text": "parametric is called Swish and if you",
+    "start": 1029.6,
+    "duration": 3.959
+  },
+  {
+    "text": "set it to a specific value then you get",
+    "start": 1031.819,
+    "duration": 5.041
+  },
+  {
+    "text": "the gelu activation function right and",
+    "start": 1033.559,
+    "duration": 5.661
+  },
+  {
+    "text": "so",
+    "start": 1036.86,
+    "duration": 2.36
+  },
+  {
+    "text": "so we call this one as swish we call the",
+    "start": 1040.64,
+    "duration": 5.039
+  },
+  {
+    "text": "specific instance as gelu now there's",
+    "start": 1042.98,
+    "duration": 4.8
+  },
+  {
+    "text": "what would we just call X Sigma x i so",
+    "start": 1045.679,
+    "duration": 3.841
+  },
+  {
+    "text": "this is a specific case where beta is",
+    "start": 1047.78,
+    "duration": 4.56
+  },
+  {
+    "text": "equal to 1 and this is called the silu",
+    "start": 1049.52,
+    "duration": 4.86
+  },
+  {
+    "text": "which is sigmoid weighted linear unit",
+    "start": 1052.34,
+    "duration": 4.5
+  },
+  {
+    "text": "right so you have the uh linear unit",
+    "start": 1054.38,
+    "duration": 4.08
+  },
+  {
+    "text": "here and then you have the sigmoid",
+    "start": 1056.84,
+    "duration": 4.62
+  },
+  {
+    "text": "weighted so that's what silu is uh so",
+    "start": 1058.46,
+    "duration": 4.62
+  },
+  {
+    "text": "many activation functions right so we",
+    "start": 1061.46,
+    "duration": 4.44
+  },
+  {
+    "text": "have seen quite a few now uh let me just",
+    "start": 1063.08,
+    "duration": 6.959
+  },
+  {
+    "text": "three calls sigmoid tan H relu then we",
+    "start": 1065.9,
+    "duration": 6.12
+  },
+  {
+    "text": "had leaky relu then we had parametric",
+    "start": 1070.039,
+    "duration": 4.981
+  },
+  {
+    "text": "relu then we had elu then we had max out",
+    "start": 1072.02,
+    "duration": 6.659
+  },
+  {
+    "text": "then we had gelu then we came to swish",
+    "start": 1075.02,
+    "duration": 6.18
+  },
+  {
+    "text": "which was a generalization of gelu then",
+    "start": 1078.679,
+    "duration": 4.38
+  },
+  {
+    "text": "we again saw silu which is yet another",
+    "start": 1081.2,
+    "duration": 3.839
+  },
+  {
+    "text": "specialization of glue so this kind of",
+    "start": 1083.059,
+    "duration": 4.321
+  },
+  {
+    "text": "covers all the popular activation",
+    "start": 1085.039,
+    "duration": 4.321
+  },
+  {
+    "text": "functions that are out there now of",
+    "start": 1087.38,
+    "duration": 3.84
+  },
+  {
+    "text": "course the main question is given so",
+    "start": 1089.36,
+    "duration": 3.96
+  },
+  {
+    "text": "many activation functions which one",
+    "start": 1091.22,
+    "duration": 4.199
+  },
+  {
+    "text": "should I actually use right so that's",
+    "start": 1093.32,
+    "duration": 6.92
+  },
+  {
+    "text": "one question of interest and uh",
+    "start": 1095.419,
+    "duration": 4.821
+  },
+  {
+    "text": "this is this plot right from the website",
+    "start": 1100.7,
+    "duration": 5.64
+  },
+  {
+    "text": "papers with code shows how these uh how",
+    "start": 1103.039,
+    "duration": 4.861
+  },
+  {
+    "text": "the use of these activation functions",
+    "start": 1106.34,
+    "duration": 3.839
+  },
+  {
+    "text": "has evolved over time so this was around",
+    "start": 1107.9,
+    "duration": 5.22
+  },
+  {
+    "text": "the time uh the Transformer idea became",
+    "start": 1110.179,
+    "duration": 5.341
+  },
+  {
+    "text": "popular and that is the context in which",
+    "start": 1113.12,
+    "duration": 3.96
+  },
+  {
+    "text": "the Galu activation function was",
+    "start": 1115.52,
+    "duration": 4.44
+  },
+  {
+    "text": "proposed and now as the as Transformers",
+    "start": 1117.08,
+    "duration": 6.0
+  },
+  {
+    "text": "are kind of popular this is one of the",
+    "start": 1119.96,
+    "duration": 5.099
+  },
+  {
+    "text": "most popular activation functions today",
+    "start": 1123.08,
+    "duration": 5.099
+  },
+  {
+    "text": "but relu over a large I mean almost",
+    "start": 1125.059,
+    "duration": 5.281
+  },
+  {
+    "text": "greater than a decade now it has",
+    "start": 1128.179,
+    "duration": 4.74
+  },
+  {
+    "text": "maintained its popularity so relu and",
+    "start": 1130.34,
+    "duration": 4.62
+  },
+  {
+    "text": "Galu are two important activation",
+    "start": 1132.919,
+    "duration": 6.0
+  },
+  {
+    "text": "functions which are uh quite uh popular",
+    "start": 1134.96,
+    "duration": 6.78
+  },
+  {
+    "text": "even today sigmoid is again used it has",
+    "start": 1138.919,
+    "duration": 4.741
+  },
+  {
+    "text": "because of its nice property of zero to",
+    "start": 1141.74,
+    "duration": 4.5
+  },
+  {
+    "text": "one which makes it like a uh something",
+    "start": 1143.66,
+    "duration": 4.2
+  },
+  {
+    "text": "that can look like a probability",
+    "start": 1146.24,
+    "duration": 4.5
+  },
+  {
+    "text": "function it still has use in some",
+    "start": 1147.86,
+    "duration": 4.98
+  },
+  {
+    "text": "activation functions inside in some",
+    "start": 1150.74,
+    "duration": 4.38
+  },
+  {
+    "text": "attention functions and so on uh so it's",
+    "start": 1152.84,
+    "duration": 5.1
+  },
+  {
+    "text": "still uh in some use so sigmoid and tanh",
+    "start": 1155.12,
+    "duration": 5.1
+  },
+  {
+    "text": "are again used despite their multiple",
+    "start": 1157.94,
+    "duration": 3.9
+  },
+  {
+    "text": "disadvantage advantages that we spoke",
+    "start": 1160.22,
+    "duration": 3.12
+  },
+  {
+    "text": "about but they are still popular but",
+    "start": 1161.84,
+    "duration": 3.24
+  },
+  {
+    "text": "relu and gelu are the most popular",
+    "start": 1163.34,
+    "duration": 4.38
+  },
+  {
+    "text": "activation functions out there today",
+    "start": 1165.08,
+    "duration": 4.26
+  },
+  {
+    "text": "right so",
+    "start": 1167.72,
+    "duration": 3.78
+  },
+  {
+    "text": "with that a quick summary so sigmoids",
+    "start": 1169.34,
+    "duration": 3.78
+  },
+  {
+    "text": "are generally bad we saw them but",
+    "start": 1171.5,
+    "duration": 2.94
+  },
+  {
+    "text": "whenever you need something to be",
+    "start": 1173.12,
+    "duration": 4.08
+  },
+  {
+    "text": "between 0 to 1 then we'll see a few",
+    "start": 1174.44,
+    "duration": 6.0
+  },
+  {
+    "text": "cases where we want that uh and that",
+    "start": 1177.2,
+    "duration": 6.66
+  },
+  {
+    "text": "time sigmoids are useful uh relu is more",
+    "start": 1180.44,
+    "duration": 4.5
+  },
+  {
+    "text": "or less a standard unit for",
+    "start": 1183.86,
+    "duration": 2.52
+  },
+  {
+    "text": "convolutional neural networks you can",
+    "start": 1184.94,
+    "duration": 3.42
+  },
+  {
+    "text": "try some of these variants of value but",
+    "start": 1186.38,
+    "duration": 5.22
+  },
+  {
+    "text": "they have not been so popular uh tanh is",
+    "start": 1188.36,
+    "duration": 5.28
+  },
+  {
+    "text": "still used in lstms and rnns which we'll",
+    "start": 1191.6,
+    "duration": 5.4
+  },
+  {
+    "text": "see later and gelu is commonly used in",
+    "start": 1193.64,
+    "duration": 6.2
+  },
+  {
+    "text": "Transformer right so I would say tannage",
+    "start": 1197.0,
+    "duration": 5.76
+  },
+  {
+    "text": "because it's required in lstm and rnns",
+    "start": 1199.84,
+    "duration": 5.32
+  },
+  {
+    "text": "it's still popular and then gelu for",
+    "start": 1202.76,
+    "duration": 4.32
+  },
+  {
+    "text": "Transformers and then relu for",
+    "start": 1205.16,
+    "duration": 3.24
+  },
+  {
+    "text": "convolutional neural networks right so",
+    "start": 1207.08,
+    "duration": 3.54
+  },
+  {
+    "text": "these are the three top activation",
+    "start": 1208.4,
+    "duration": 5.04
+  },
+  {
+    "text": "functions which are currently still",
+    "start": 1210.62,
+    "duration": 5.52
+  },
+  {
+    "text": "popular right so with that I'll end this",
+    "start": 1213.44,
+    "duration": 5.58
+  },
+  {
+    "text": "discussion on activation functions and",
+    "start": 1216.14,
+    "duration": 4.98
+  },
+  {
+    "text": "that's the end of the lectures for this",
+    "start": 1219.02,
+    "duration": 4.8
+  },
+  {
+    "text": "week and next week we'll come and talk",
+    "start": 1221.12,
+    "duration": 5.58
+  },
+  {
+    "text": "about weight initialization so that was",
+    "start": 1223.82,
+    "duration": 4.56
+  },
+  {
+    "text": "the fourth pillar along which people",
+    "start": 1226.7,
+    "duration": 6.54
+  },
+  {
+    "text": "made uh progress after this 2006 to 2009",
+    "start": 1228.38,
+    "duration": 7.28
+  },
+  {
+    "text": "period when people",
+    "start": 1233.24,
+    "duration": 5.76
+  },
+  {
+    "text": "realized that there is a way to make",
+    "start": 1235.66,
+    "duration": 5.259
+  },
+  {
+    "text": "deep learning work or deep neural",
+    "start": 1239.0,
+    "duration": 5.16
+  },
+  {
+    "text": "networks train better and to to these",
+    "start": 1240.919,
+    "duration": 4.861
+  },
+  {
+    "text": "are the four axes along which we should",
+    "start": 1244.16,
+    "duration": 3.36
+  },
+  {
+    "text": "investigate which is optimization",
+    "start": 1245.78,
+    "duration": 5.04
+  },
+  {
+    "text": "regularization activation function and",
+    "start": 1247.52,
+    "duration": 5.039
+  },
+  {
+    "text": "weight initialization so the first three",
+    "start": 1250.82,
+    "duration": 3.54
+  },
+  {
+    "text": "we are done with now we look at the",
+    "start": 1252.559,
+    "duration": 5.841
+  },
+  {
+    "text": "fourth in the next lecture thank you",
+    "start": 1254.36,
+    "duration": 4.04
+  }
+]

@@ -1,0 +1,9 @@
+foreign [Music] with respect to the parameters where are we we finished this part then we finished this part we.
+don't care how many hidden layers are there we'll just keep applying the same formula again and again so we.
+are done with this very nasty part which could have repetitions there could be many hidden layers and now we.
+are finally ready to compute this okay so let's go there okay uh so let's look at that right so.
+what do we want now we want the derivative of the loss function with respect to one of the weight.
+matrices right w k and I want this to be again generic I don't it should not the formula I.
+need not have to recompute the formula for W1 W2 W3 I should just be able to do it for.
+a generic uh WK that's what I'm interested in and again my recipe is going to be the same instead.
+of computing this uh gradient at one go right so this is the derivative of a scalar with respect to.

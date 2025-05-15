@@ -1,0 +1,9 @@
+not very far away from the average and hence the variance is going to be small for the simple models.
+right whereas for the complex models you can see that some of the blue lines are actually very far off.
+from the average that we had right so the blue curve sorry not the blue lines so the here you.
+have quite a bit of variance that you have right you can see that visually so you for the same.
+input X there's a quite a bit of difference between the predicted value based on the different models that you.
+have trained right there's quite a bit of gaps one model is predicting the value here the other model is.
+predicting a value here similarly here if you look at for this point one model is predicting the value here.
+there's another model which is predicting value here so there is quite a bit of variance in the values that.
+are you are obtaining for f hat of X right and hence the variance so for the complex models the.

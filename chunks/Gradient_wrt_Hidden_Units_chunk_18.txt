@@ -1,0 +1,10 @@
+and wherever I see a j I am going to substitute 1 2 3 all the way up to n.
+right so this is what it's going to look like it's a DOT product between the First Column of the.
+weight Matrix with the gradient Vector the dot product of the second column of the weight Matrix with respect to.
+the gradient Vector the dot product of the last column of the weight Matrix with respect to the with the.
+gradient Vector right so what is that looking like this is the so let me just try to write the.
+Matrix W transpose right w i plus 1 transpose so this would be the first column of w i plus.
+1 this would be the second column of w i plus 1 all the way up to the nth column.
+of w i plus one remember I am writing the transpose hence I am drawing rows but saying Columns of.
+w i plus 1 and all of this is getting multiplied by this gradient Vector right this gradient so essentially.
+what I'm doing is that every uh uh every uh element of this Vector is essentially the product of one.

@@ -1,0 +1,9 @@
+might choose to have Alpha was high for one case Alpha animal high in the other case and then do.
+something different in the third head and so on right so that's the motivation for having multiple heads so I.
+just already explained this I'll just skip over this the same thing whatever I explained that in one case it.
+would want to focus on walls the other case it might want to focus question animal and this is actually.
+from a actual train transformer right so we looked at the attention weights there were two heads and we looked.
+at what the attention weights were and we found that in one case it is giving higher in one of.
+the heads that is giving higher attention to animal and the other head it is giving higher attention to Wars.
+right so it does learn to do such things right so this is what a two-headed attention would look like.
+you would have the Q uh query uh sorry you'd have the query key and value vectors right which are.

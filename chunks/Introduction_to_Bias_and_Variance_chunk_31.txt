@@ -1,0 +1,8 @@
+you do other way of looking at it is that you want low variance but at the same time you.
+don't want a high bias in the model right so you want like reasonable variance reasonable bias so that your.
+different models are not far off from each other at the same time your model is not far off from.
+the true uh function that you have it so that's why this trade-off is there that you want medium variance.
+and medium bias right and turns out ah that both bias and variants actually contribute to the mean square error.
+right so let's see what the mean square error is of course we have seen it a million times but.
+let us see again in the context of bias and variance right so I'll end this video here and then.
+we'll talk about uh mean square error in the next video.

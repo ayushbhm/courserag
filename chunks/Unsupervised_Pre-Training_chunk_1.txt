@@ -1,0 +1,9 @@
+the number of lectures that we had so but you could refer to my older lectures and auto encoders if.
+you want and whatever we need I'll anyways cover in the next few slides right so I'll not have you.
+have not had a detailed discussion or to encoders but I'll just quickly brush up on whatever I need in.
+the next few slides right so two points here one is the original paper talks in the context of rbms.
+I am going to talk about this idea in the context of Auto encoders we have not done Auto encoders.
+in this offering of the course but I'll just quickly cover the concepts that I require right so now consider.
+this deep neural network where there is like a 4 layer Network plus the input and the output layer and.
+as I was saying before 2006 it was hard to train networks which are four five six layers and so.
+on it they did not converge well right now let us focus on the first two layers right now what.

@@ -1,0 +1,9 @@
+does that mean is that if I show these test images Suppose there are thousand images in the test set.
+even a human makes error on four or five percent of them right because some of those images may not.
+be clear you may not the face of the dog may not be very clearly visible so you may not.
+know be able to distinguish between two subclasses within the doc class right two different breeds of toxin and so.
+similar errors whereas the model was now able to do it at 3.6 percent and you can see that the.
+number of layers has also increased significantly starting with 8 in LX net going all the way up to 152.
+uh in the resnet model right and this is when it was I mean almost uh clear or universally accepted.
+that now deep learning has arrived and for all image problems we have to migrate to uh what are known.
+as convolutional neural networks or the Deep learning way of doing things right and similar uh inroads also started happening.

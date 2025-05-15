@@ -1,0 +1,9 @@
+used the right colors let me just use the right colors yeah so suppose I take any one of these.
+blue lines from here and then I had the green curve which was the average right and it looks something.
+like this then ah for every blue line I can find the difference from the green line right that is.
+what I am trying to do and I can take the square of that difference and then I can do.
+this for all the blue lines that I had and that's where the expectation is coming from so that's the.
+variance right so it's the difference between uh the predicted value minus sorry it's the difference between the given model.
+and the expected value of the model the square of that difference and the expectation of that right so this.
+is very similar to I mean this is the definition of variance that you know from statistic right so you.
+could look at it as suppose a fat of X you can think of it as a random variable Z.

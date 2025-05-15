@@ -1,0 +1,9 @@
+as the first one was of the form Y is equal to MX plus C right and here you have.
+a quadratic term so this is nothing but Y is equal to ax Square plus BX plus C right so.
+now I'm approximating the function as a quadratic function right and these coefficients are coming from the derivatives as was.
+the case in the first case the first first order derivative the second order derivative right so what does that.
+mean it means that now I'm approximating the red curve by this uh c n or blue colored curve right.
+and you can see that in the small neighborhood now right this neighborhood now the second order approximation is actually.
+better than the first other approximation right it's more closer the blue curve in that small neighborhood is more closer.
+to the red curve than the black curve is to the red curve right so this is you can just.
+keep cutting the formula wherever you want and that's what the approximation gives how this relates to what we are.

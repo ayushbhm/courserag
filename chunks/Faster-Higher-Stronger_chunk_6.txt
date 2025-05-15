@@ -1,0 +1,9 @@
+problems involving sequences so let's look at what these problems are so you encounter sequences everywhere right so okay so.
+we encounter sequences everywhere right if you beat videos or if you have speech a speech is like a sequence.
+of uh phonemes right and we need to do speech processing we need to do video processing and these are.
+all inputs here are naturally sequenced right so we need sequence processing angles of course this need were discovered i.
+mean reid was realized long back and he as is the case with convolutional neural networks very long back in.
+1982 we had something known as an off field network i'm not going to the details of it it's not.
+something that we'll cover in the course also but it was something which was able to uh do some kind.
+of a sequence processing right more relevant to this course is this what is known as recurrent neural networks where.
+the idea is that you have a sequence of inputs and you want to have some interaction between these inputs.

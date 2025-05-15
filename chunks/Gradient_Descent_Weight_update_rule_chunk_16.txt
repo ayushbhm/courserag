@@ -1,0 +1,11 @@
+go back and check this this is essentially 1 minus f of x right so you can go back and.
+work it out so if you just take 1 minus 1 over this formula right then you will sorry 1.
+minus this formula then you will get this right so I can just write it as f of x into.
+1 minus f x right so now I'm going to substitute this value back in my original equation so this.
+is what I get I had this term already from earlier and now this entire quantity is this as I.
+have just derived right so now I exactly know what Delta W looks like and now if I give if.
+you give me a value of w and B I can substitute that in this formula and I can get.
+a real numbered value right so I know the formula that I was looking for okay so if you have.
+only one point then we have the Delta W is equal to this if we add more than one points.
+then it will just be a sum of all those right so this is uh the derivative of uh the.
+loss function with respect to W when there was only one one point right so in that case LW itself.

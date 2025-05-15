@@ -1,0 +1,337 @@
+{
+  "zdmEzqpAG70": {
+    "title": "Brief history of Deep learning - Neuron Doctrine - AI Winter",
+    "url": "https://www.youtube.com/watch?v=zdmEzqpAG70",
+    "week": "Week 1"
+  },
+  "EifcfTLIzxc": {
+    "title": "The Deep revival - From cats to ConvNet",
+    "url": "https://www.youtube.com/watch?v=EifcfTLIzxc",
+    "week": "Week 1"
+  },
+  "csM_nCAhIQk": {
+    "title": "Faster-Higher-Stronger",
+    "url": "https://www.youtube.com/watch?v=csM_nCAhIQk",
+    "week": "Week 1"
+  },
+  "m2tyQC2qTDQ": {
+    "title": "Madness and the rise of transformers",
+    "url": "https://www.youtube.com/watch?v=m2tyQC2qTDQ",
+    "week": "Week 1"
+  },
+  "49F3moGjuwc": {
+    "title": "Call for sanity in AI - Efficient Deep learning",
+    "url": "https://www.youtube.com/watch?v=49F3moGjuwc",
+    "week": "Week 1"
+  },
+  "KjMvUwq7PdQ": {
+    "title": "Motivation from Biological Neuron",
+    "url": "https://www.youtube.com/watch?v=KjMvUwq7PdQ",
+    "week": "Week 1"
+  },
+  "-bxOadOFNYc": {
+    "title": "McCulloch Pitts Neuron and Thresholding Logic",
+    "url": "https://www.youtube.com/watch?v=-bxOadOFNYc",
+    "week": "Week 1"
+  },
+  "Ydd9TMyoG6k": {
+    "title": "Perceptrons",
+    "url": "https://www.youtube.com/watch?v=Ydd9TMyoG6k",
+    "week": "Week 1"
+  },
+  "oIjsEzG6zR0": {
+    "title": "Errors and error surfaces",
+    "url": "https://www.youtube.com/watch?v=oIjsEzG6zR0",
+    "week": "Week 1"
+  },
+  "HPfZ9lEZOj4": {
+    "title": "Perceptron Learning Algorithm",
+    "url": "https://www.youtube.com/watch?v=HPfZ9lEZOj4",
+    "week": "Week 1"
+  },
+  "9AmGI-tVCSQ": {
+    "title": "Proof of Convergence",
+    "url": "https://www.youtube.com/watch?v=9AmGI-tVCSQ",
+    "week": "Week 1"
+  },
+  "VYnzTwx3lpk": {
+    "title": "Linearly separable functions",
+    "url": "https://www.youtube.com/watch?v=VYnzTwx3lpk",
+    "week": "Week 1"
+  },
+  "dFnNoZeuKzQ": {
+    "title": "Representation power of a network of perceptrons",
+    "url": "https://www.youtube.com/watch?v=dFnNoZeuKzQ",
+    "week": "Week 1"
+  },
+  "ay402XiRrzc": {
+    "title": "Sigmoid Neuron",
+    "url": "https://www.youtube.com/watch?v=ay402XiRrzc",
+    "week": "Week 1"
+  },
+  "Evhb4HxI32I": {
+    "title": "A typical supervised machine learning setup",
+    "url": "https://www.youtube.com/watch?v=Evhb4HxI32I",
+    "week": "Week 1"
+  },
+  "LbPKf7UVkyU": {
+    "title": "Learning Parameters: (Infeasible) guess work",
+    "url": "https://www.youtube.com/watch?v=LbPKf7UVkyU",
+    "week": "Week 1"
+  },
+  "HEx-q6fkCbo": {
+    "title": "Gradient Descent: Weight update rule",
+    "url": "https://www.youtube.com/watch?v=HEx-q6fkCbo",
+    "week": "Week 1"
+  },
+  "qyn6RERiIIY": {
+    "title": "Learning Parameters: Taylor series approximation",
+    "url": "https://www.youtube.com/watch?v=qyn6RERiIIY",
+    "week": "Week 1"
+  },
+  "o2pT74Nplq0": {
+    "title": "Learning Parameters: Gradient Descent",
+    "url": "https://www.youtube.com/watch?v=o2pT74Nplq0",
+    "week": "Week 1"
+  },
+  "xHSErLWAlbU": {
+    "title": "Representation power of Multilayer Network of Sigmoid Neurons: 1D functions",
+    "url": "https://www.youtube.com/watch?v=xHSErLWAlbU",
+    "week": "Week 1"
+  },
+  "BUGi6AH1D2c": {
+    "title": "Representation power of Multilayer Network of Sigmoid Neurons: 2D functions",
+    "url": "https://www.youtube.com/watch?v=BUGi6AH1D2c",
+    "week": "Week 1"
+  },
+  "HHv6Ndo9VBU": {
+    "title": "Feed forward neural networks",
+    "url": "https://www.youtube.com/watch?v=HHv6Ndo9VBU",
+    "week": "Week 1"
+  },
+  "0Me1ywSlJE8": {
+    "title": "Learning parameters (Intuition)",
+    "url": "https://www.youtube.com/watch?v=0Me1ywSlJE8",
+    "week": "Week 1"
+  },
+  "1hefEWZHvJg": {
+    "title": "Output functions and loss functions",
+    "url": "https://www.youtube.com/watch?v=1hefEWZHvJg",
+    "week": "Week 1"
+  },
+  "i0YC2jZuxUI": {
+    "title": "Backpropagation (Intuition)",
+    "url": "https://www.youtube.com/watch?v=i0YC2jZuxUI",
+    "week": "Week 1"
+  },
+  "T6kfyQ3_JQ8": {
+    "title": "Gradient w.r.t output units",
+    "url": "https://www.youtube.com/watch?v=T6kfyQ3_JQ8",
+    "week": "Week 1"
+  },
+  "7g-THFmBpRA": {
+    "title": "Gradient w.r.t Hidden Units",
+    "url": "https://www.youtube.com/watch?v=7g-THFmBpRA",
+    "week": "Week 1"
+  },
+  "7TL_9QUIL0g": {
+    "title": "Gradient w.r.t Parameters",
+    "url": "https://www.youtube.com/watch?v=7TL_9QUIL0g",
+    "week": "Week 1"
+  },
+  "1f22ZAS-YGE": {
+    "title": "BackPropagation: Pseudocode",
+    "url": "https://www.youtube.com/watch?v=1f22ZAS-YGE",
+    "week": "Week 1"
+  },
+  "gupSH0MU7vs": {
+    "title": "A quick recap on gradient descent and derivative",
+    "url": "https://www.youtube.com/watch?v=gupSH0MU7vs",
+    "week": "Week 1"
+  },
+  "fGzJOBIxXdg": {
+    "title": "Plotting contours",
+    "url": "https://www.youtube.com/watch?v=fGzJOBIxXdg",
+    "week": "Week 1"
+  },
+  "R3jlvdclAHI": {
+    "title": "Momneum based Gradient descent",
+    "url": "https://www.youtube.com/watch?v=R3jlvdclAHI",
+    "week": "Week 1"
+  },
+  "dIYDPtHWBNA": {
+    "title": "Nesterov Accelarated Gradient Descent",
+    "url": "https://www.youtube.com/watch?v=dIYDPtHWBNA",
+    "week": "Week 1"
+  },
+  "hXK16fgWjsc": {
+    "title": "Stochastic vs Batch Gradient",
+    "url": "https://www.youtube.com/watch?v=hXK16fgWjsc",
+    "week": "Week 1"
+  },
+  "-7ET3TUWi8M": {
+    "title": "Scheduling learning rate",
+    "url": "https://www.youtube.com/watch?v=-7ET3TUWi8M",
+    "week": "Week 1"
+  },
+  "oqkfhBf71gc": {
+    "title": "Gradient Descent with Adaptive learning rate",
+    "url": "https://www.youtube.com/watch?v=oqkfhBf71gc",
+    "week": "Week 1"
+  },
+  "WSvxne3oGr0": {
+    "title": "AdaGrad",
+    "url": "https://www.youtube.com/watch?v=WSvxne3oGr0",
+    "week": "Week 1"
+  },
+  "ubOy0NPI2cY": {
+    "title": "RMSProp",
+    "url": "https://www.youtube.com/watch?v=ubOy0NPI2cY",
+    "week": "Week 1"
+  },
+  "EcX0rqjHR9k": {
+    "title": "AdaDelta",
+    "url": "https://www.youtube.com/watch?v=EcX0rqjHR9k",
+    "week": "Week 1"
+  },
+  "m9g9Hij1h1A": {
+    "title": "Adam",
+    "url": "https://www.youtube.com/watch?v=m9g9Hij1h1A",
+    "week": "Week 1"
+  },
+  "d2mSof7c4Jo": {
+    "title": "AdaMax and MaxProp",
+    "url": "https://www.youtube.com/watch?v=d2mSof7c4Jo",
+    "week": "Week 1"
+  },
+  "fsTRJeWpZ_o": {
+    "title": "NADAM",
+    "url": "https://www.youtube.com/watch?v=fsTRJeWpZ_o",
+    "week": "Week 1"
+  },
+  "Lqauh9dJzNc": {
+    "title": "Learning rate schemes",
+    "url": "https://www.youtube.com/watch?v=Lqauh9dJzNc",
+    "week": "Week 1"
+  },
+  "Wrscc4tVmVs": {
+    "title": "Introduction to Bias and Variance",
+    "url": "https://www.youtube.com/watch?v=Wrscc4tVmVs",
+    "week": "Week 1"
+  },
+  "RKo-jONCjjU": {
+    "title": "Training error vs Test error",
+    "url": "https://www.youtube.com/watch?v=RKo-jONCjjU",
+    "week": "Week 1"
+  },
+  "nu6x-L04CG4": {
+    "title": "Estimate error from Test data",
+    "url": "https://www.youtube.com/watch?v=nu6x-L04CG4",
+    "week": "Week 1"
+  },
+  "YNAq1X8b-r4": {
+    "title": "True error vs Model complexity",
+    "url": "https://www.youtube.com/watch?v=YNAq1X8b-r4",
+    "week": "Week 1"
+  },
+  "eqATcLh_X64": {
+    "title": "L2 Regularization",
+    "url": "https://www.youtube.com/watch?v=eqATcLh_X64",
+    "week": "Week 1"
+  },
+  "in9ZdGxGhW8": {
+    "title": "Dataset Augmentation and Parameter Sharing",
+    "url": "https://www.youtube.com/watch?v=in9ZdGxGhW8",
+    "week": "Week 1"
+  },
+  "S1KKaCrg0G8": {
+    "title": "Injecting Noise at Inputs",
+    "url": "https://www.youtube.com/watch?v=S1KKaCrg0G8",
+    "week": "Week 1"
+  },
+  "sUnsawJ5-zw": {
+    "title": "Injecting Noise at outputs",
+    "url": "https://www.youtube.com/watch?v=sUnsawJ5-zw",
+    "week": "Week 1"
+  },
+  "CrO__rzk9hU": {
+    "title": "Early Stopping",
+    "url": "https://www.youtube.com/watch?v=CrO__rzk9hU",
+    "week": "Week 1"
+  },
+  "Njytanc4oHY": {
+    "title": "Ensemble Methods",
+    "url": "https://www.youtube.com/watch?v=Njytanc4oHY",
+    "week": "Week 1"
+  },
+  "WzScUPDGFVA": {
+    "title": "Dropout",
+    "url": "https://www.youtube.com/watch?v=WzScUPDGFVA",
+    "week": "Week 1"
+  },
+  "_wK-MOylRtw": {
+    "title": "Summary",
+    "url": "https://www.youtube.com/watch?v=_wK-MOylRtw",
+    "week": "Week 1"
+  },
+  "PwKAEs9uuZw": {
+    "title": "Deep Learning revival",
+    "url": "https://www.youtube.com/watch?v=PwKAEs9uuZw",
+    "week": "Week 1"
+  },
+  "TNcZ5l54pLc": {
+    "title": "Unsupervised Pre-Training",
+    "url": "https://www.youtube.com/watch?v=TNcZ5l54pLc",
+    "week": "Week 1"
+  },
+  "n5ZP4Ek9cxE": {
+    "title": "Optimization or Regularization?",
+    "url": "https://www.youtube.com/watch?v=n5ZP4Ek9cxE",
+    "week": "Week 1"
+  },
+  "4eQiXN69FdQ": {
+    "title": "Better Activation functions",
+    "url": "https://www.youtube.com/watch?v=4eQiXN69FdQ",
+    "week": "Week 1"
+  },
+  "oW7ZBLss2L0": {
+    "title": "MaxOut",
+    "url": "https://www.youtube.com/watch?v=oW7ZBLss2L0",
+    "week": "Week 1"
+  },
+  "srcPpAV6Yfs": {
+    "title": "GELU to SILU",
+    "url": "https://www.youtube.com/watch?v=srcPpAV6Yfs",
+    "week": "Week 1"
+  },
+  "Dsq-fSb_lj4": {
+    "title": "Convolutional neural networks",
+    "url": "https://www.youtube.com/watch?v=Dsq-fSb_lj4",
+    "week": "Week 1"
+  },
+  "cVbGNL0N2RI": {
+    "title": "Introduction to transformer architecture",
+    "url": "https://www.youtube.com/watch?v=cVbGNL0N2RI",
+    "week": "Week 1"
+  },
+  "MVeOwsggkt4": {
+    "title": "Attention is all you need",
+    "url": "https://www.youtube.com/watch?v=MVeOwsggkt4",
+    "week": "Week 1"
+  },
+  "MLdUzA6ltEQ": {
+    "title": "Self-Attention",
+    "url": "https://www.youtube.com/watch?v=MLdUzA6ltEQ",
+    "week": "Week 1"
+  },
+  "VN2Bfi0_pbw": {
+    "title": "Multi-headed attention",
+    "url": "https://www.youtube.com/watch?v=VN2Bfi0_pbw",
+    "week": "Week 1"
+  },
+  "cVuyWE4yMBU": {
+    "title": "Decoder block",
+    "url": "https://www.youtube.com/watch?v=cVuyWE4yMBU",
+    "week": "Week 1"
+  }
+}

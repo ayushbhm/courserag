@@ -1,0 +1,8 @@
+input right so that's what the representation power of a multi-layer network of percept transfers now my goal is to.
+make a similar statement okay and this of course I had we had proven by construction or we just constructed.
+a network and we were convinced that it can actually represent any network irrespective of whether it's linearly separable or.
+not right now my intention is to make a similar statement for multi-layer network of Sigma neurons right and the.
+statement is a multi-layer network of neurons with a single hidden layer so far so good it's the same as.
+what I see on the left hand side can be used to approximate okay now here are where the differences.
+start so this was represent now I'm saying approximate right so it's that means it's not going to be exactly.
+equal any continuous function this is good news right because here I was only talking about Boolean functions now any.

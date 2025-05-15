@@ -1,0 +1,9 @@
+neuron is more uh sensitive to this training data and maybe I should respect that right so when I'm updating.
+can I update this better as opposed to updating this right because this is reacting weekly right so can I.
+do that so one option of doing that is to take the yeah so this is the effect that we.
+want right that we want to make these we want to acknowledge the fact that these neurons are sensitive to.
+Turning certain training samples one neuron is more sensitive than the other and hence I should perhaps try to get.
+this effect which I had in bagging where the neurons were adapting to the specific bucket of training data and.
+now since this neuron has shown such some preference for this training data can I give it more preference can.
+I make its updates better so as opposed to the relative updates of the other neuron right I don't want.
+that other neuron to specialize for this training sample because it has not shown interest in this training sample right.

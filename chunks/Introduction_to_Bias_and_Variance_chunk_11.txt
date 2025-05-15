@@ -1,0 +1,10 @@
+W naught right so that is the idea that's why I am not taking the entire training data but just.
+taking like a a significantly large sample of it but in every each of these K times and I'm going.
+to try to solve this optimization problem my m points are going to be different and hence the solution that.
+I lend up for W1 and W naught would be slightly different right so that is the idea that's what.
+I am trying to do here right and now let us look at one of these right so the first.
+time I took the 400 points and solved this using gradient descent or any of the other optimization algorithms then.
+I have come up with this equation that Y is equal to W 1 x 1 plus W naught and.
+I could plot that equation right so the blue line that I have here that is for a given value.
+of w 1 and W 9 8 so that is the same as MX plus C so I have the.
+x axis I have the X and I have the y axis and I have just drawn the line which.

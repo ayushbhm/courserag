@@ -1,0 +1,9 @@
+same the only difference is that instead of one and zero it has this stochastic uh uh nature right so.
+it's not always one not always zero it's decided based on a coin toss right so it could be uh.
+the output is 1 into X if with probability p and 0 into x with probability 1 minus P right.
+so all of these uh you just I want you to notice the similarities between this right so this function.
+form it's looking similar but the conditions are a bit different it is X greater than 0 x less than.
+or equal to 0 here it is with probability P it is 1 into x with probability uh uh 1.
+minus P it is 0 into X right so then it does make sense right it makes a case for.
+combining these ideas where in the relu you have this uh similarity to the hard activation function and Dropout brings.
+in this stochasticity so can you combine these two ideas and try to come up with a different activation function.

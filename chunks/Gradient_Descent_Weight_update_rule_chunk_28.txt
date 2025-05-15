@@ -1,0 +1,3 @@
+the representation of the power of the perceptron perceptron and now we want to talk about the representation power of.
+the sigmoid neuron right so that's what we are going to do uh next so I'll end this video here.
+and in the next class we'll continue with the representation power of Sig Point here.

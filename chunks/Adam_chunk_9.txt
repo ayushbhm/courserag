@@ -1,0 +1,9 @@
+close to the expected value because ideally I would wanted the expected value because that would tell me over all.
+the data points if I had taken all of them what would my gradient be right but I'm not able.
+to take the expected value for because there are large number of data points right so what that means is.
+instead of expected value of the derivative we are Computing empty as some kind of an average right so expectation.
+you could think of expectation as the mean or the average but instead of computing the true expectation we are.
+Computing some empty which is an exponentially moving average ideally we would want that the expected value of empty is.
+the same as the expected value of the derivative itself of the gradient itself right this is what we would.
+want ideally now let us see if that is really the case that is that happening if that's happening then.
+perhaps we don't need to do anything right so remember the momentum equations that we had where we had u.

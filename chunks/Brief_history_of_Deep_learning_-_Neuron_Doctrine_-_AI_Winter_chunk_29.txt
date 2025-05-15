@@ -1,0 +1,9 @@
+the help of these uh rectangular bars that you see right and what this was uh this theorem said is.
+that if you have a very deep neural network or a multi-layer in fact it said even if you have.
+a one layer network with a large number of neurons then you can approximate this very very well right and.
+that's what we want to do we had the true function which we did not know all we knew was.
+several instances of x1 and y1 x2 y2 what this theorem says is that if you have many such instances.
+you could come up with a neural network right and that those rectangular bars are in some sense the output.
+of the neural network such that that output would be very close to the real output right and the more.
+neurons you add the better your approximation would be if you had fear of neurons your approximation would be poor.
+like you see in this case but the more neurons you add it will be better right this theorem an.

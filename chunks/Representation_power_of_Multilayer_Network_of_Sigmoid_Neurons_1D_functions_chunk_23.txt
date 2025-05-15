@@ -1,0 +1,10 @@
+let me reset and show this one how did you get the tower because you are doing the red function.
+uh minus the blue function right that's what you were doing red minus blue is what you are doing right.
+so now at this point both are zero here both are zero so all of this will remain zero you.
+are doing 0 minus 0 right at this point both are 1 right so again from this point onwards you.
+will get 1 minus 1 which is 0 right and in this region the red curve is one but the.
+blue curve is zero so in this region you will get 1 minus 0 which is one so hence you.
+will get a tower like that right so that's the reason you are getting that topper function right I'll just.
+redraw it right so this is the reason you got the tower function okay so that's why we have set.
+it up it way so now I've got a network which can produce a tower function and not just any.
+network it uses my sigmoid neurons I just have to set the W's to a high value and I can.

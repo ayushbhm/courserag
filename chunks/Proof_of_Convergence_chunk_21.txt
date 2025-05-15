@@ -1,0 +1,9 @@
+cos beta is greater than equal to this quantity so i have simply substituted the numerator and i have substituted.
+the denominator the simplified denominator and this would be greater than equal to because the numerator is greater than equal.
+to this quantity and the denominator is less than equal to this quantity right so the numerator is greater than.
+something the denominator is less than something so if i put the numerator over the denominator then the end result.
+would be that cos beta is greater than equal to this quantity that you see here right so now here.
+you have a k in the numerator and a square root of k in the denominator so which means i.
+can roughly say this cos beta grows proportional to square root of k right and what is k k was.
+the number of times i have updated my weight vector and this is the quantity that i wanted to handle.
+on this is the quantity that i wanted to show was finite i wanted to show that k cannot tend.

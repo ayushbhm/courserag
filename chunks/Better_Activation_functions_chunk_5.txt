@@ -1,0 +1,8 @@
+said we have already discussed this but I just wanted to quickly refresh it because it's relevant for the discussion.
+so now if the power of deep neural networks comes from such non-linearities where do the nonlinearities come from the.
+non-linearities essentially come from the activation function and hence we need to discuss about these activation functions and what do.
+these bring and are there better activation functions possible is is any non-linear function okay or we want certain better.
+and better properties should be satisfied by these nonlinear functions so that's what we are going to focus on today.
+right so that's the reason why our discussion on activation functions is important right now we look at some of.
+the popular activation functions the quite a bit of this material at least the initial part is taken from the.
+lecture like a few years back uh lecture slides from Andre carpathy's course I'm not sure if that those videos.

@@ -1,0 +1,8 @@
+challenge a lot of work around that time which showed that it's very hard to train these networks in particular.
+there was this problem of exploding and vanishing gradients which will again cover in the course which did not allow.
+these networks at that time to be used for uh real world problems right but as things changed after 2006.
+2006 is when we discovered hey we can suddenly strain deep neural networks and in the next seven eight years.
+we made uh advances in optimization algorithms activation functions uh regularization and so on things started improving and uh again.
+in 1997 uh sorry i should have before going to 2006 i should have finished this in 1997 uh long.
+short term memory cells lstms was proposed which again alleviated this problem of uh exploding uh of vanishing gradients in.
+particular and but still they were not being used for real-world applications due to the other reasons which i had.

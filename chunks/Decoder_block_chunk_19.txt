@@ -1,0 +1,9 @@
+have not been decoded so far you don't let them participate by setting the corresponding Alphas to zero right so.
+that's all there is to learn about the decoder for now right now the Last Detail that we need is.
+the output from the decoder so you have multiple such layers within the decoder right and let's assume this is.
+the last layer which again has the same identical structure it receives the inputs from the previous layer it has.
+the Mast self-attention must cross attention then the feed forward Network and then whatever comes out right so suppose you.
+get these five and two dimensional embeddings right uh and at each stage you want to predict what the next.
+output is going to be so you take this 512 dimensional input embedding uh use a matrix of size 512.
+cross V to give you a v dimensional output and then you apply a soft Max on that to give.
+you the distribution over the vocabulary and then pick the arc Max from there to feed it as the input.

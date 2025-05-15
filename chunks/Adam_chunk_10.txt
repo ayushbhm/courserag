@@ -1,0 +1,10 @@
+perhaps we don't need to do anything right so remember the momentum equations that we had where we had u.
+t is equal to Beta U T minus 1 plus Delta WT now in and when we had expanded out.
+those equations that you can go back and check those videos uh we had so we had written it as.
+u0 is equal to uh Delta W 0 U1 is equal to Beta times Delta W 0 plus Delta W.
+1 then U2 is equal to Beta Square Times Delta W 0 plus beta times Delta W1 plus Delta W.
+2 and so on right and this entire thing is essentially captured by this formula and so you can go.
+back and look at those videos but now I've in fact already explained it here itself so you know what.
+what I am talking about okay we now have in Adam we have a slight modification that we have uh.
+beta1 and then 1 minus beta here right so here we only had the beta term we only had the.
+beta term here but in atom we have beta and then this is also 1 minus beta right so we.

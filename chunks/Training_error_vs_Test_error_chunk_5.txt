@@ -1,0 +1,9 @@
+the test data right so that's the connection between bias variance and the expected test error or the mean square.
+error that you would have on the test data right or the Unseen data yeah so this is the situation.
+that we have right the parameters of f hat X all the W's that we had they are estimated using.
+the training data because that's all you have right but now why are we training the model because at test.
+time you will get new images and you want to classify those images you want to say whether this image.
+contains a bird or a parrot or does it contain a lion and so on right and that is what.
+you want to do at test time you are going to work with unseen uh images right unseen meaning images.
+which are not seen at training time right so now this gives us to the following two quantities right one.
+is the training error right which is the error that you get on the training data so what does that.

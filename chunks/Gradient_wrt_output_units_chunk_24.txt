@@ -1,0 +1,11 @@
+this is the lth entry of the softmax vector similarly this is the ellith sorry this should not have been.
+l equal to i so this should have been l entry right not i dash this should have been the.
+l entry of the vector and now i can just write all this as this guy i can just write.
+it as y hat l this guy i can write it as y hat l and this guy i can.
+write it as y hat i right and now of course the y hat l here and here gets cancelled.
+and so i have i'm just left with this which is uh minus 1 l equal to i minus y.
+hat i right so this is what i have left with again don't fret too much if you did not.
+get it at one go you just pause the video and you will get it at this simple set of.
+steps so this is where we are right so we have the derivative of one of the loss function with.
+respect to one of the elements of my output vector right and this is what it turns out to be.
+and now i want to compute the derivative of the loss function with respect to my entire output vector so.

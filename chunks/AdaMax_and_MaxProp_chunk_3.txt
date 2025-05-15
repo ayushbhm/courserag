@@ -1,0 +1,11 @@
+Infinity then the norm just boils down to the max right so if you look at L Infinity Norm then.
+it's just taking the max of the values that you have right so in the vector you have the values.
+x 1 x 2 up to X N and L Infinity Norm is just the max of this and you.
+can quickly prove why that is the case so if if I had uh if I wanted to uh yeah.
+so let's see so I'm talking about x 1 raised to P plus X2 raised to p all the way.
+up to X n raised to P right and then the 1 by pH root of that okay and I.
+want to make a case for y this would be Infinity when P why would this be equal to the.
+max of the values x 1 x 2 x n if P tends to Infinity rate so if I take.
+limit P tends to Infinity I'll just give you a rough fight outline of the proof I will not do.
+the whole thing I'll just do the necessary part now what I can do is I can take this X1.
+by P outside right and let I'm assuming that X1 is the maximum value let's assume without loss of generality.

@@ -1,0 +1,9 @@
+right because it looks like it should not work it is also not very robust but still in very many.
+real world applications we are seeing it perform very well and give deliver results right so we still don't know.
+why this happens uh and there are many such examples right so so this is again another example right so.
+people have been able to come up with images which can fool deep neural networks right so i just i.
+mean scientists have come up with these regular patterns right but now when you feed this to a deep learning.
+based image classifier it thinks that the first image is of a king penguin right then you could just uh.
+let your imagination run a build wit and realize why it could be thinking that right i mean there are.
+some patterns here similarly the second image it classifies as starfish right so these these challenges do exist but still.
+uh that has deep learning is the current popular paradigm and delivering good results in various fields right so now.

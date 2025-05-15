@@ -1,0 +1,9 @@
+device right now each node is retained with some fixed probability right so every uh so every time I get.
+a mini batch for every node I take a decision whether I should drop it or retain it and this.
+decision is taken with a fixed probability right that means with 80 chance I'll retain it and 20 chance I'll.
+drop right so that's uh the decision that I take so that every time I receive a mini batch I.
+visit every node and decide whether to drop it or retain it of course it's not done like sequentially the.
+way I'm saying it uh you have more efficient ways of doing it but conceptually this is what you will.
+do for every mini patch right now suppose the neural network has n nodes then using this Dropout idea how.
+many neural networks can you create right so I have n nodes given to you and for every node I.
+can either retain it or drop it right so it's a binary decision I'm going to take for every node.

@@ -1,0 +1,10 @@
+right so there are no other unknown or New Concepts in the equation of atom but this bias correction is.
+the main New Concept which we have just understood why to do that okay so now let's see what would.
+happen if we don't do bias correction right so we'll again look at the equations put in some values and.
+try to see what happens right so this is the equation for VT okay and now suppose Delta W naught.
+is equal to 0.1 okay uh so now V naught is going to be beta 2 times 0 because VT.
+minus 1 was 0 and then 0.001 times 0.1 Square so it's going to be 0.0001 okay and now ETA.
+T the effective learning rate is going to be 1 divided by the square root of this which is going.
+to be 316.22 right so it already looks a very high learning rate to me right now let's see what.
+V2 would be V2 would be 0.999 into V naught plus 0.01 into 0 square and that would give me.
+this quantity okay and that is again a reasonably High Learning array right so what we are seeing is that.

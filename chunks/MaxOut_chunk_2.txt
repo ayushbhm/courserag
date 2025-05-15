@@ -1,0 +1,9 @@
+the training example here also it's not being removed so it's not that now you have 999 samples here you.
+have the entire thousand samples I took one from there sample randomly one from there created a copy and put.
+it in this bucket and I still have thousand here again I send them sample one randomly and put it.
+in this bucket and I keep doing this till this bucket has thousand entries right so I'm create I'm sampling.
+with replacement and I'm creating multiple such uh sub multiple such training sets from the original training set and each.
+of these training sets will then be used to train a model and those models would have their own parameters.
+like W1 to WK so here W just think of it as T direct it's a collection of all the.
+parameters in the models I'm calling it W uh here all the parameters in the model and here W1 W2.
+correspond to the parameters of these K different models each trained on a different version of the training set and.

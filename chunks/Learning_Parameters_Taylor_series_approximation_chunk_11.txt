@@ -1,0 +1,11 @@
+is equal to MX plus C okay and I already know y naught which is MX naught plus C right.
+I already know that right and what is uh m m is simply the slope and the slope is just.
+the derivative right so this is L Dash W right so this is what uh the slope is right now.
+I want to find the value of y1 right and I know that say uh y1 lets you see right.
+so y1 would be M into x 1 plus C right now if I subtract these two If I subtract.
+the SEC first equation from the second equation I get y1 minus y naught okay is equal to the C's.
+will cancel and you will have M into X1 minus X naught okay and if I rewrite this I'll have.
+y1 is equal to Y naught okay plus M into x 1 minus X naught right and that is exactly.
+what this formula is saying right so y naught is nothing but l w naught m is the slope and.
+W minus W naught is the same as x 1 minus X naught right so that's what it's saying that.
+now you can find y1 by assuming that this is a linear function okay and then you know the slope.

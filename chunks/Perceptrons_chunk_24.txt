@@ -1,0 +1,9 @@
+point which should have been in the negative half space is now lying in the positive half space right so.
+now my learning algorithm should be such that you should draw the line in a way that my negative points.
+are on one side and the positive points or the points which give a negative output are on one side.
+and positive output on the other side right so that's what we would want from the perceptron algorithm and this.
+uh same thing right where i have put in these uh try to substitute the values and then come up.
+with inequalities and then just hand solve for the inequalities the same thing you could have done for the mecolic.
+pits neuron there you would have had only w naught right there was no w1 and w2 so you would.
+have come up with four sets of inequalities and only one variable which is theta or w naught and then.
+you could have tried to find the value of that data so you can go home and try this try.

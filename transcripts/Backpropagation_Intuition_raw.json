@@ -1,0 +1,2017 @@
+[
+  {
+    "text": "[Music]",
+    "start": 0.33,
+    "duration": 10.029
+  },
+  {
+    "text": "okay so now let's",
+    "start": 18.0,
+    "duration": 3.279
+  },
+  {
+    "text": "build an intuition for the back",
+    "start": 20.08,
+    "duration": 3.68
+  },
+  {
+    "text": "propagation algorithm so so far we have",
+    "start": 21.279,
+    "duration": 4.24
+  },
+  {
+    "text": "answered the first part of the question",
+    "start": 23.76,
+    "duration": 3.599
+  },
+  {
+    "text": "which was how to choose the loss",
+    "start": 25.519,
+    "duration": 3.84
+  },
+  {
+    "text": "function and we have taken two popular",
+    "start": 27.359,
+    "duration": 3.68
+  },
+  {
+    "text": "problems classification and regression",
+    "start": 29.359,
+    "duration": 3.681
+  },
+  {
+    "text": "and motivated the choice for the loss",
+    "start": 31.039,
+    "duration": 4.241
+  },
+  {
+    "text": "function for both of them right",
+    "start": 33.04,
+    "duration": 3.84
+  },
+  {
+    "text": "now what we want to do is that once you",
+    "start": 35.28,
+    "duration": 3.279
+  },
+  {
+    "text": "know the loss function",
+    "start": 36.88,
+    "duration": 3.76
+  },
+  {
+    "text": "now we can start talking about the",
+    "start": 38.559,
+    "duration": 3.441
+  },
+  {
+    "text": "derivative of the loss function with",
+    "start": 40.64,
+    "duration": 2.8
+  },
+  {
+    "text": "respect to parameters right because",
+    "start": 42.0,
+    "duration": 2.8
+  },
+  {
+    "text": "that's the quantity that we are",
+    "start": 43.44,
+    "duration": 3.119
+  },
+  {
+    "text": "interested in if we know the derivative",
+    "start": 44.8,
+    "duration": 3.2
+  },
+  {
+    "text": "of the loss function with respect to the",
+    "start": 46.559,
+    "duration": 3.281
+  },
+  {
+    "text": "parameters for all the parameters on our",
+    "start": 48.0,
+    "duration": 4.0
+  },
+  {
+    "text": "network then we can simply plug it that",
+    "start": 49.84,
+    "duration": 4.64
+  },
+  {
+    "text": "back into the gradient descent algorithm",
+    "start": 52.0,
+    "duration": 4.0
+  },
+  {
+    "text": "and we are done right so that's all that",
+    "start": 54.48,
+    "duration": 4.399
+  },
+  {
+    "text": "we need to do but now in the case of a",
+    "start": 56.0,
+    "duration": 4.8
+  },
+  {
+    "text": "deep neural network this is",
+    "start": 58.879,
+    "duration": 4.401
+  },
+  {
+    "text": "i wouldn't say complicated but there is",
+    "start": 60.8,
+    "duration": 4.399
+  },
+  {
+    "text": "slightly more work involved than what we",
+    "start": 63.28,
+    "duration": 3.68
+  },
+  {
+    "text": "had in that simple network that we had",
+    "start": 65.199,
+    "duration": 3.361
+  },
+  {
+    "text": "right so here's our gradient descent",
+    "start": 66.96,
+    "duration": 2.8
+  },
+  {
+    "text": "algorithm",
+    "start": 68.56,
+    "duration": 3.44
+  },
+  {
+    "text": "where we had this and we were just",
+    "start": 69.76,
+    "duration": 4.399
+  },
+  {
+    "text": "updating the weights using the gradients",
+    "start": 72.0,
+    "duration": 3.84
+  },
+  {
+    "text": "and we want to apply the same algorithm",
+    "start": 74.159,
+    "duration": 4.241
+  },
+  {
+    "text": "by replacing these by all the weights",
+    "start": 75.84,
+    "duration": 4.24
+  },
+  {
+    "text": "that i have in the network right the",
+    "start": 78.4,
+    "duration": 3.6
+  },
+  {
+    "text": "large number of weights and then be able",
+    "start": 80.08,
+    "duration": 3.6
+  },
+  {
+    "text": "to compute the partial derivatives of",
+    "start": 82.0,
+    "duration": 4.159
+  },
+  {
+    "text": "all those weights the same algorithm",
+    "start": 83.68,
+    "duration": 4.64
+  },
+  {
+    "text": "goes through right so now let's focus on",
+    "start": 86.159,
+    "duration": 3.481
+  },
+  {
+    "text": "one of these weights",
+    "start": 88.32,
+    "duration": 2.96
+  },
+  {
+    "text": "w112",
+    "start": 89.64,
+    "duration": 4.119
+  },
+  {
+    "text": "and to learn this weight using the",
+    "start": 91.28,
+    "duration": 4.879
+  },
+  {
+    "text": "gradient descent algorithm",
+    "start": 93.759,
+    "duration": 4.4
+  },
+  {
+    "text": "we need a formula for the derivative of",
+    "start": 96.159,
+    "duration": 3.6
+  },
+  {
+    "text": "the loss function with respect to this",
+    "start": 98.159,
+    "duration": 4.881
+  },
+  {
+    "text": "weight right and",
+    "start": 99.759,
+    "duration": 3.281
+  },
+  {
+    "text": "that needs some work as i said right now",
+    "start": 103.119,
+    "duration": 3.921
+  },
+  {
+    "text": "what we want to do is first build an",
+    "start": 105.36,
+    "duration": 3.119
+  },
+  {
+    "text": "intuition for how what would that",
+    "start": 107.04,
+    "duration": 3.119
+  },
+  {
+    "text": "formula look like",
+    "start": 108.479,
+    "duration": 4.481
+  },
+  {
+    "text": "and then do some hard work but then come",
+    "start": 110.159,
+    "duration": 5.441
+  },
+  {
+    "text": "back to a state where we can then say",
+    "start": 112.96,
+    "duration": 4.88
+  },
+  {
+    "text": "okay once i know how to compute this",
+    "start": 115.6,
+    "duration": 5.04
+  },
+  {
+    "text": "this red guy can i compute all the",
+    "start": 117.84,
+    "duration": 5.44
+  },
+  {
+    "text": "weights in that network in one go right",
+    "start": 120.64,
+    "duration": 4.96
+  },
+  {
+    "text": "can i compute the derivatives uh the",
+    "start": 123.28,
+    "duration": 3.519
+  },
+  {
+    "text": "partial derivatives for the loss",
+    "start": 125.6,
+    "duration": 2.719
+  },
+  {
+    "text": "function with respect to all the weights",
+    "start": 126.799,
+    "duration": 3.68
+  },
+  {
+    "text": "in that layer once i know how to do it",
+    "start": 128.319,
+    "duration": 3.841
+  },
+  {
+    "text": "for one weight in that layer right then",
+    "start": 130.479,
+    "duration": 4.4
+  },
+  {
+    "text": "that would not not require us to compute",
+    "start": 132.16,
+    "duration": 4.56
+  },
+  {
+    "text": "these many formulae but just one formula",
+    "start": 134.879,
+    "duration": 3.36
+  },
+  {
+    "text": "and then we could generalize it and also",
+    "start": 136.72,
+    "duration": 3.519
+  },
+  {
+    "text": "not just that once i know it for one",
+    "start": 138.239,
+    "duration": 5.121
+  },
+  {
+    "text": "layer can i do apply a similar formula",
+    "start": 140.239,
+    "duration": 4.72
+  },
+  {
+    "text": "for all the layers right then we are",
+    "start": 143.36,
+    "duration": 2.959
+  },
+  {
+    "text": "coming up with a very generalized",
+    "start": 144.959,
+    "duration": 3.36
+  },
+  {
+    "text": "formula and the computations will become",
+    "start": 146.319,
+    "duration": 4.321
+  },
+  {
+    "text": "easier but that's for later for now i",
+    "start": 148.319,
+    "duration": 4.241
+  },
+  {
+    "text": "want to understand how to compute this",
+    "start": 150.64,
+    "duration": 4.48
+  },
+  {
+    "text": "right so we'll see how to calculate that",
+    "start": 152.56,
+    "duration": 4.72
+  },
+  {
+    "text": "but first let us look at a very simple",
+    "start": 155.12,
+    "duration": 4.32
+  },
+  {
+    "text": "deep neural network which is a very thin",
+    "start": 157.28,
+    "duration": 5.12
+  },
+  {
+    "text": "network but it's a deep network right",
+    "start": 159.44,
+    "duration": 4.32
+  },
+  {
+    "text": "that means that every layer i just have",
+    "start": 162.4,
+    "duration": 3.6
+  },
+  {
+    "text": "one neuron and i have just one weight",
+    "start": 163.76,
+    "duration": 4.64
+  },
+  {
+    "text": "which connects my input to that and so",
+    "start": 166.0,
+    "duration": 4.0
+  },
+  {
+    "text": "on right it just keeps computing it's a",
+    "start": 168.4,
+    "duration": 4.08
+  },
+  {
+    "text": "very simple computation so you can",
+    "start": 170.0,
+    "duration": 4.959
+  },
+  {
+    "text": "actually write y hat as a function of x",
+    "start": 172.48,
+    "duration": 4.64
+  },
+  {
+    "text": "very easily in this case right",
+    "start": 174.959,
+    "duration": 3.521
+  },
+  {
+    "text": "now",
+    "start": 177.12,
+    "duration": 2.88
+  },
+  {
+    "text": "it is easy to find the derivative by the",
+    "start": 178.48,
+    "duration": 2.88
+  },
+  {
+    "text": "chain rule so what is the derivative",
+    "start": 180.0,
+    "duration": 2.64
+  },
+  {
+    "text": "that are interested in i'm interested in",
+    "start": 181.36,
+    "duration": 2.879
+  },
+  {
+    "text": "the derivative of the loss function with",
+    "start": 182.64,
+    "duration": 3.28
+  },
+  {
+    "text": "respect to this weight right and this",
+    "start": 184.239,
+    "duration": 3.36
+  },
+  {
+    "text": "weight is very far away from the loss",
+    "start": 185.92,
+    "duration": 4.16
+  },
+  {
+    "text": "function right because it's not uh very",
+    "start": 187.599,
+    "duration": 3.761
+  },
+  {
+    "text": "close right i would say this weight is",
+    "start": 190.08,
+    "duration": 2.96
+  },
+  {
+    "text": "closer to the loss function and the",
+    "start": 191.36,
+    "duration": 3.04
+  },
+  {
+    "text": "weight that i am interested is much",
+    "start": 193.04,
+    "duration": 3.919
+  },
+  {
+    "text": "farther right but i know how to use the",
+    "start": 194.4,
+    "duration": 3.919
+  },
+  {
+    "text": "chain rule right so i can compute the",
+    "start": 196.959,
+    "duration": 2.64
+  },
+  {
+    "text": "derivative of the loss function with",
+    "start": 198.319,
+    "duration": 3.84
+  },
+  {
+    "text": "this guy which is the green guy",
+    "start": 199.599,
+    "duration": 4.481
+  },
+  {
+    "text": "dark green guy then the derivative of",
+    "start": 202.159,
+    "duration": 4.961
+  },
+  {
+    "text": "the dark green guy with respect to al1",
+    "start": 204.08,
+    "duration": 4.64
+  },
+  {
+    "text": "and then i keep going down right and",
+    "start": 207.12,
+    "duration": 2.88
+  },
+  {
+    "text": "this is something that you have done",
+    "start": 208.72,
+    "duration": 3.84
+  },
+  {
+    "text": "right so if i could write y hat",
+    "start": 210.0,
+    "duration": 5.44
+  },
+  {
+    "text": "is equal to say sine of",
+    "start": 212.56,
+    "duration": 4.399
+  },
+  {
+    "text": "cosine of",
+    "start": 215.44,
+    "duration": 4.079
+  },
+  {
+    "text": "square of",
+    "start": 216.959,
+    "duration": 5.84
+  },
+  {
+    "text": "say tan of",
+    "start": 219.519,
+    "duration": 3.28
+  },
+  {
+    "text": "e",
+    "start": 223.28,
+    "duration": 1.76
+  },
+  {
+    "text": "of",
+    "start": 224.08,
+    "duration": 4.079
+  },
+  {
+    "text": "log of something right",
+    "start": 225.04,
+    "duration": 4.32
+  },
+  {
+    "text": "then you know how to compute this",
+    "start": 228.159,
+    "duration": 2.64
+  },
+  {
+    "text": "derivative right and that's that's the",
+    "start": 229.36,
+    "duration": 3.12
+  },
+  {
+    "text": "chain this is a very long chain and you",
+    "start": 230.799,
+    "duration": 3.681
+  },
+  {
+    "text": "see a very long chain here too but you",
+    "start": 232.48,
+    "duration": 3.36
+  },
+  {
+    "text": "know how to compute that right you just",
+    "start": 234.48,
+    "duration": 3.839
+  },
+  {
+    "text": "go about it one by one you compute the",
+    "start": 235.84,
+    "duration": 3.679
+  },
+  {
+    "text": "last guy",
+    "start": 238.319,
+    "duration": 3.12
+  },
+  {
+    "text": "the derivative of y hat with the last",
+    "start": 239.519,
+    "duration": 3.841
+  },
+  {
+    "text": "guy that you had then the guy previous",
+    "start": 241.439,
+    "duration": 4.0
+  },
+  {
+    "text": "to that and so on it just keep going uh",
+    "start": 243.36,
+    "duration": 3.68
+  },
+  {
+    "text": "in a chain that's a chain rule of",
+    "start": 245.439,
+    "duration": 4.401
+  },
+  {
+    "text": "derivative that all of you know",
+    "start": 247.04,
+    "duration": 4.64
+  },
+  {
+    "text": "and now",
+    "start": 249.84,
+    "duration": 3.679
+  },
+  {
+    "text": "i could even compress this chain right",
+    "start": 251.68,
+    "duration": 6.48
+  },
+  {
+    "text": "so i could even write it as this this is",
+    "start": 253.519,
+    "duration": 5.921
+  },
+  {
+    "text": "just a compressed form of this chain",
+    "start": 258.16,
+    "duration": 2.72
+  },
+  {
+    "text": "rule and why i'm doing this i'm just",
+    "start": 259.44,
+    "duration": 3.36
+  },
+  {
+    "text": "trying to do this to build the intuition",
+    "start": 260.88,
+    "duration": 4.64
+  },
+  {
+    "text": "that somehow if i know all of this",
+    "start": 262.8,
+    "duration": 5.679
+  },
+  {
+    "text": "right then to compute this guy i don't",
+    "start": 265.52,
+    "duration": 4.8
+  },
+  {
+    "text": "need to compute all of these again right",
+    "start": 268.479,
+    "duration": 3.521
+  },
+  {
+    "text": "i have suppose i have already computed",
+    "start": 270.32,
+    "duration": 3.28
+  },
+  {
+    "text": "this right suppose i have already",
+    "start": 272.0,
+    "duration": 3.6
+  },
+  {
+    "text": "computed this which corresponds to that",
+    "start": 273.6,
+    "duration": 3.68
+  },
+  {
+    "text": "entire box here right so this",
+    "start": 275.6,
+    "duration": 4.0
+  },
+  {
+    "text": "corresponds to that entire box there so",
+    "start": 277.28,
+    "duration": 4.24
+  },
+  {
+    "text": "i can just reuse that i don't need to",
+    "start": 279.6,
+    "duration": 4.159
+  },
+  {
+    "text": "compute the whole of it again and then i",
+    "start": 281.52,
+    "duration": 4.16
+  },
+  {
+    "text": "just need to compute this red quantity",
+    "start": 283.759,
+    "duration": 4.16
+  },
+  {
+    "text": "right so that's the idea that we are",
+    "start": 285.68,
+    "duration": 4.64
+  },
+  {
+    "text": "going to use in back propagation that",
+    "start": 287.919,
+    "duration": 4.081
+  },
+  {
+    "text": "we'll have these long chains and that",
+    "start": 290.32,
+    "duration": 2.4
+  },
+  {
+    "text": "would",
+    "start": 292.0,
+    "duration": 2.88
+  },
+  {
+    "text": "make the task daunting but then we'll",
+    "start": 292.72,
+    "duration": 3.759
+  },
+  {
+    "text": "argue that some portions of this chain",
+    "start": 294.88,
+    "duration": 3.36
+  },
+  {
+    "text": "we have already computed and we're just",
+    "start": 296.479,
+    "duration": 3.521
+  },
+  {
+    "text": "going to recompute reuse them right so",
+    "start": 298.24,
+    "duration": 3.84
+  },
+  {
+    "text": "it's not as daunting as as it seems",
+    "start": 300.0,
+    "duration": 3.919
+  },
+  {
+    "text": "right and now some of you could realize",
+    "start": 302.08,
+    "duration": 3.679
+  },
+  {
+    "text": "that if there were like multiple weights",
+    "start": 303.919,
+    "duration": 4.0
+  },
+  {
+    "text": "here and if this part of the chain was",
+    "start": 305.759,
+    "duration": 4.241
+  },
+  {
+    "text": "already computed then maybe for all",
+    "start": 307.919,
+    "duration": 4.481
+  },
+  {
+    "text": "those weights you could reuse that",
+    "start": 310.0,
+    "duration": 4.24
+  },
+  {
+    "text": "computation right if it's not clear at",
+    "start": 312.4,
+    "duration": 3.2
+  },
+  {
+    "text": "this point don't worry this all will",
+    "start": 314.24,
+    "duration": 3.36
+  },
+  {
+    "text": "become clear as we keep",
+    "start": 315.6,
+    "duration": 3.12
+  },
+  {
+    "text": "discussing the back propagation",
+    "start": 317.6,
+    "duration": 2.879
+  },
+  {
+    "text": "algorithm but that's the intuition that",
+    "start": 318.72,
+    "duration": 4.0
+  },
+  {
+    "text": "i want at least on this slide whatever",
+    "start": 320.479,
+    "duration": 4.321
+  },
+  {
+    "text": "is there this you should understand that",
+    "start": 322.72,
+    "duration": 4.24
+  },
+  {
+    "text": "i had this big blue part but if i had",
+    "start": 324.8,
+    "duration": 4.239
+  },
+  {
+    "text": "already computed that then i can just",
+    "start": 326.96,
+    "duration": 5.28
+  },
+  {
+    "text": "reuse that when i'm computing this",
+    "start": 329.039,
+    "duration": 6.481
+  },
+  {
+    "text": "left-hand side here okay",
+    "start": 332.24,
+    "duration": 3.28
+  },
+  {
+    "text": "okay",
+    "start": 336.639,
+    "duration": 5.28
+  },
+  {
+    "text": "similarly for w two one one similarly",
+    "start": 338.96,
+    "duration": 5.519
+  },
+  {
+    "text": "for wl one one",
+    "start": 341.919,
+    "duration": 3.521
+  },
+  {
+    "text": "okay",
+    "start": 344.479,
+    "duration": 2.801
+  },
+  {
+    "text": "uh now let us see an intuitive",
+    "start": 345.44,
+    "duration": 3.199
+  },
+  {
+    "text": "explanation of the back propagation",
+    "start": 347.28,
+    "duration": 2.88
+  },
+  {
+    "text": "algorithm before we go into the",
+    "start": 348.639,
+    "duration": 3.441
+  },
+  {
+    "text": "mathematical details right so i've",
+    "start": 350.16,
+    "duration": 3.92
+  },
+  {
+    "text": "already told you some intuition that",
+    "start": 352.08,
+    "duration": 3.92
+  },
+  {
+    "text": "there's this large network of many",
+    "start": 354.08,
+    "duration": 3.52
+  },
+  {
+    "text": "weights and i want to compute the",
+    "start": 356.0,
+    "duration": 3.12
+  },
+  {
+    "text": "derivative of the loss function with",
+    "start": 357.6,
+    "duration": 3.52
+  },
+  {
+    "text": "respect to all these weights i took a",
+    "start": 359.12,
+    "duration": 3.84
+  },
+  {
+    "text": "weight which was like very far away from",
+    "start": 361.12,
+    "duration": 3.28
+  },
+  {
+    "text": "the",
+    "start": 362.96,
+    "duration": 3.44
+  },
+  {
+    "text": "loss function and i made a case that if",
+    "start": 364.4,
+    "duration": 4.0
+  },
+  {
+    "text": "you could have a chain from the loss",
+    "start": 366.4,
+    "duration": 3.84
+  },
+  {
+    "text": "function to that weight and you have a",
+    "start": 368.4,
+    "duration": 3.12
+  },
+  {
+    "text": "chain from the loss function to that",
+    "start": 370.24,
+    "duration": 2.16
+  },
+  {
+    "text": "weight",
+    "start": 371.52,
+    "duration": 2.799
+  },
+  {
+    "text": "then you could just apply the chain rule",
+    "start": 372.4,
+    "duration": 4.0
+  },
+  {
+    "text": "right so let's that's that intuition is",
+    "start": 374.319,
+    "duration": 4.401
+  },
+  {
+    "text": "already there now let's just strengthen",
+    "start": 376.4,
+    "duration": 4.4
+  },
+  {
+    "text": "it further right so this is what is",
+    "start": 378.72,
+    "duration": 3.68
+  },
+  {
+    "text": "happening right you had this network",
+    "start": 380.8,
+    "duration": 5.04
+  },
+  {
+    "text": "okay i gave you an example x as input",
+    "start": 382.4,
+    "duration": 5.44
+  },
+  {
+    "text": "you did all this computation because you",
+    "start": 385.84,
+    "duration": 5.359
+  },
+  {
+    "text": "had some current values of w b w 1 w 2 w",
+    "start": 387.84,
+    "duration": 5.68
+  },
+  {
+    "text": "3 b 1 b 2 b 3 these are not the final",
+    "start": 391.199,
+    "duration": 3.681
+  },
+  {
+    "text": "values these are not the final learned",
+    "start": 393.52,
+    "duration": 3.6
+  },
+  {
+    "text": "values you're somewhere in the training",
+    "start": 394.88,
+    "duration": 3.92
+  },
+  {
+    "text": "and based on your current understanding",
+    "start": 397.12,
+    "duration": 4.639
+  },
+  {
+    "text": "current values of w1 w2 w3 you computed",
+    "start": 398.8,
+    "duration": 6.239
+  },
+  {
+    "text": "y-hat l not just that you computed some",
+    "start": 401.759,
+    "duration": 4.16
+  },
+  {
+    "text": "loss",
+    "start": 405.039,
+    "duration": 3.201
+  },
+  {
+    "text": "right after having y hat l you computed",
+    "start": 405.919,
+    "duration": 4.481
+  },
+  {
+    "text": "the loss function also",
+    "start": 408.24,
+    "duration": 4.56
+  },
+  {
+    "text": "and you got a non-zero loss",
+    "start": 410.4,
+    "duration": 4.079
+  },
+  {
+    "text": "so now you're trying to find out what",
+    "start": 412.8,
+    "duration": 4.64
+  },
+  {
+    "text": "went wrong i gave the network an x okay",
+    "start": 414.479,
+    "duration": 5.601
+  },
+  {
+    "text": "it produced a certain output i computed",
+    "start": 417.44,
+    "duration": 4.4
+  },
+  {
+    "text": "the loss based on that output and my",
+    "start": 420.08,
+    "duration": 4.08
+  },
+  {
+    "text": "loss is non-zero so who is responsible",
+    "start": 421.84,
+    "duration": 4.88
+  },
+  {
+    "text": "for this so this loss was sitting here",
+    "start": 424.16,
+    "duration": 4.64
+  },
+  {
+    "text": "so i will ask these guys first",
+    "start": 426.72,
+    "duration": 3.84
+  },
+  {
+    "text": "these are the dark green guys that i'll",
+    "start": 428.8,
+    "duration": 5.119
+  },
+  {
+    "text": "ask first right i'll ask them",
+    "start": 430.56,
+    "duration": 6.359
+  },
+  {
+    "text": "sorry",
+    "start": 433.919,
+    "duration": 3.0
+  },
+  {
+    "text": "hey you are not producing the desired",
+    "start": 438.08,
+    "duration": 3.519
+  },
+  {
+    "text": "output right because if you guys were",
+    "start": 440.0,
+    "duration": 3.68
+  },
+  {
+    "text": "perfect then my loss would have been",
+    "start": 441.599,
+    "duration": 4.0
+  },
+  {
+    "text": "zero so why are you not producing the",
+    "start": 443.68,
+    "duration": 3.04
+  },
+  {
+    "text": "desired output you should take",
+    "start": 445.599,
+    "duration": 2.641
+  },
+  {
+    "text": "responsibility you should do give me",
+    "start": 446.72,
+    "duration": 2.8
+  },
+  {
+    "text": "better output",
+    "start": 448.24,
+    "duration": 3.92
+  },
+  {
+    "text": "but these dark the shaded green guys and",
+    "start": 449.52,
+    "duration": 6.16
+  },
+  {
+    "text": "they'll say hey what can i do right",
+    "start": 452.16,
+    "duration": 6.24
+  },
+  {
+    "text": "i what responsibility can i take but i",
+    "start": 455.68,
+    "duration": 4.959
+  },
+  {
+    "text": "am only as good as the hidden layer",
+    "start": 458.4,
+    "duration": 3.919
+  },
+  {
+    "text": "before me right because how did i get",
+    "start": 460.639,
+    "duration": 3.201
+  },
+  {
+    "text": "the dark green guys these are the dark",
+    "start": 462.319,
+    "duration": 4.241
+  },
+  {
+    "text": "green guys how did i get them i had",
+    "start": 463.84,
+    "duration": 5.12
+  },
+  {
+    "text": "certain values in the previous layer i",
+    "start": 466.56,
+    "duration": 3.919
+  },
+  {
+    "text": "multiplied them by the weights and the",
+    "start": 468.96,
+    "duration": 4.0
+  },
+  {
+    "text": "biases and then i get so this y hat will",
+    "start": 470.479,
+    "duration": 3.921
+  },
+  {
+    "text": "tell me i can't do anything right",
+    "start": 472.96,
+    "duration": 3.6
+  },
+  {
+    "text": "whatever these guys gave me i just",
+    "start": 474.4,
+    "duration": 3.76
+  },
+  {
+    "text": "computed soft max on that and gave you",
+    "start": 476.56,
+    "duration": 3.52
+  },
+  {
+    "text": "some values so if these guys had given",
+    "start": 478.16,
+    "duration": 4.479
+  },
+  {
+    "text": "me perfect values then i would also have",
+    "start": 480.08,
+    "duration": 5.679
+  },
+  {
+    "text": "been perfect so please go and ask them",
+    "start": 482.639,
+    "duration": 4.721
+  },
+  {
+    "text": "you say okay this is fine that sounds",
+    "start": 485.759,
+    "duration": 4.401
+  },
+  {
+    "text": "interesting sounds correct that if these",
+    "start": 487.36,
+    "duration": 4.48
+  },
+  {
+    "text": "guys are not doing the job properly then",
+    "start": 490.16,
+    "duration": 4.0
+  },
+  {
+    "text": "how will the shaded guide do its problem",
+    "start": 491.84,
+    "duration": 4.24
+  },
+  {
+    "text": "joint property so you go and talk to",
+    "start": 494.16,
+    "duration": 4.4
+  },
+  {
+    "text": "these three guys who are these guys w's",
+    "start": 496.08,
+    "duration": 5.119
+  },
+  {
+    "text": "h and b right",
+    "start": 498.56,
+    "duration": 3.84
+  },
+  {
+    "text": "so the w",
+    "start": 501.199,
+    "duration": 3.44
+  },
+  {
+    "text": "and uh b so you ask them what is wrong",
+    "start": 502.4,
+    "duration": 3.84
+  },
+  {
+    "text": "with you right so the w and b say yeah",
+    "start": 504.639,
+    "duration": 3.041
+  },
+  {
+    "text": "we understand we have made a mistake",
+    "start": 506.24,
+    "duration": 3.2
+  },
+  {
+    "text": "because we are the weights we are the",
+    "start": 507.68,
+    "duration": 3.28
+  },
+  {
+    "text": "only things that can be adjusted in the",
+    "start": 509.44,
+    "duration": 3.68
+  },
+  {
+    "text": "network and maybe we have not really",
+    "start": 510.96,
+    "duration": 4.8
+  },
+  {
+    "text": "been adjusted very well so far and hence",
+    "start": 513.12,
+    "duration": 5.76
+  },
+  {
+    "text": "the output is bad right but then hl says",
+    "start": 515.76,
+    "duration": 4.48
+  },
+  {
+    "text": "that okay i am also part of this",
+    "start": 518.88,
+    "duration": 3.599
+  },
+  {
+    "text": "computation but i can't do much right",
+    "start": 520.24,
+    "duration": 3.84
+  },
+  {
+    "text": "because i am again as good as the",
+    "start": 522.479,
+    "duration": 3.601
+  },
+  {
+    "text": "previous activation layer after all how",
+    "start": 524.08,
+    "duration": 4.08
+  },
+  {
+    "text": "do you compute hl hl is again a function",
+    "start": 526.08,
+    "duration": 4.72
+  },
+  {
+    "text": "of the previous",
+    "start": 528.16,
+    "duration": 5.2
+  },
+  {
+    "text": "guys right so it's again a function of",
+    "start": 530.8,
+    "duration": 5.12
+  },
+  {
+    "text": "what these weights were and what were",
+    "start": 533.36,
+    "duration": 4.96
+  },
+  {
+    "text": "the inputs that got passed to those",
+    "start": 535.92,
+    "duration": 4.24
+  },
+  {
+    "text": "weights right so then again you go and",
+    "start": 538.32,
+    "duration": 3.519
+  },
+  {
+    "text": "talk to these guys so again the weights",
+    "start": 540.16,
+    "duration": 2.72
+  },
+  {
+    "text": "will say",
+    "start": 541.839,
+    "duration": 2.241
+  },
+  {
+    "text": "that",
+    "start": 542.88,
+    "duration": 3.36
+  },
+  {
+    "text": "hey we are fine right okay we made a",
+    "start": 544.08,
+    "duration": 4.16
+  },
+  {
+    "text": "mistake maybe we need to get adjusted we",
+    "start": 546.24,
+    "duration": 4.32
+  },
+  {
+    "text": "take responsibilities but these shaded",
+    "start": 548.24,
+    "duration": 4.159
+  },
+  {
+    "text": "red guys they'll again say hey what can",
+    "start": 550.56,
+    "duration": 3.6
+  },
+  {
+    "text": "i do i am a function of the previous",
+    "start": 552.399,
+    "duration": 3.841
+  },
+  {
+    "text": "guys so maybe you should go and talk to",
+    "start": 554.16,
+    "duration": 4.239
+  },
+  {
+    "text": "them right and then of course you cannot",
+    "start": 556.24,
+    "duration": 3.76
+  },
+  {
+    "text": "pass the responsibility to the input",
+    "start": 558.399,
+    "duration": 3.12
+  },
+  {
+    "text": "input is whatever it is right you cannot",
+    "start": 560.0,
+    "duration": 3.04
+  },
+  {
+    "text": "say oh change your input if you want the",
+    "start": 561.519,
+    "duration": 2.961
+  },
+  {
+    "text": "right output right no i have given you a",
+    "start": 563.04,
+    "duration": 3.919
+  },
+  {
+    "text": "certain input i expect you to uh give me",
+    "start": 564.48,
+    "duration": 4.0
+  },
+  {
+    "text": "the output so the responsibility never",
+    "start": 566.959,
+    "duration": 3.921
+  },
+  {
+    "text": "goes to the input but what you realize",
+    "start": 568.48,
+    "duration": 4.4
+  },
+  {
+    "text": "is that in the entire network the",
+    "start": 570.88,
+    "duration": 5.04
+  },
+  {
+    "text": "responsibility lies with all the weights",
+    "start": 572.88,
+    "duration": 4.48
+  },
+  {
+    "text": "all the yellow things that i have shown",
+    "start": 575.92,
+    "duration": 3.84
+  },
+  {
+    "text": "here right all the weights",
+    "start": 577.36,
+    "duration": 3.919
+  },
+  {
+    "text": "and all the biases",
+    "start": 579.76,
+    "duration": 3.199
+  },
+  {
+    "text": "these guys",
+    "start": 581.279,
+    "duration": 3.281
+  },
+  {
+    "text": "although they are being computed they",
+    "start": 582.959,
+    "duration": 3.601
+  },
+  {
+    "text": "are just a function of the weights and",
+    "start": 584.56,
+    "duration": 3.76
+  },
+  {
+    "text": "the biases so their weights and biases",
+    "start": 586.56,
+    "duration": 3.52
+  },
+  {
+    "text": "are wrong then these guys are going to",
+    "start": 588.32,
+    "duration": 3.519
+  },
+  {
+    "text": "be wrong right and this argument flows",
+    "start": 590.08,
+    "duration": 3.439
+  },
+  {
+    "text": "all through the network and then you",
+    "start": 591.839,
+    "duration": 3.281
+  },
+  {
+    "text": "find out that the responsibility lies",
+    "start": 593.519,
+    "duration": 4.0
+  },
+  {
+    "text": "between the weights and the biases right",
+    "start": 595.12,
+    "duration": 4.0
+  },
+  {
+    "text": "and this is",
+    "start": 597.519,
+    "duration": 3.521
+  },
+  {
+    "text": "what i am trying to do right so i was",
+    "start": 599.12,
+    "duration": 3.76
+  },
+  {
+    "text": "interested in finding the responsibility",
+    "start": 601.04,
+    "duration": 2.56
+  },
+  {
+    "text": "of",
+    "start": 602.88,
+    "duration": 3.68
+  },
+  {
+    "text": "this weight right the first weight here",
+    "start": 603.6,
+    "duration": 4.4
+  },
+  {
+    "text": "but instead of talking to the weight",
+    "start": 606.56,
+    "duration": 4.24
+  },
+  {
+    "text": "directly i first spoke to the output",
+    "start": 608.0,
+    "duration": 4.16
+  },
+  {
+    "text": "layer",
+    "start": 610.8,
+    "duration": 2.8
+  },
+  {
+    "text": "then i spoke to the previous hidden",
+    "start": 612.16,
+    "duration": 3.52
+  },
+  {
+    "text": "layer then the previous hidden layer and",
+    "start": 613.6,
+    "duration": 3.6
+  },
+  {
+    "text": "now i am talking to the weights right so",
+    "start": 615.68,
+    "duration": 3.2
+  },
+  {
+    "text": "i have constructed this chain rule",
+    "start": 617.2,
+    "duration": 4.96
+  },
+  {
+    "text": "because directly talking to the",
+    "start": 618.88,
+    "duration": 5.12
+  },
+  {
+    "text": "weight of interest is hard right because",
+    "start": 622.16,
+    "duration": 3.28
+  },
+  {
+    "text": "i've given you that function remember",
+    "start": 624.0,
+    "duration": 4.0
+  },
+  {
+    "text": "sine of cosine of e of log of something",
+    "start": 625.44,
+    "duration": 5.04
+  },
+  {
+    "text": "something a long chain if i directly try",
+    "start": 628.0,
+    "duration": 4.079
+  },
+  {
+    "text": "to compute the derivative it's harder",
+    "start": 630.48,
+    "duration": 3.2
+  },
+  {
+    "text": "but instead if i break it down into this",
+    "start": 632.079,
+    "duration": 3.361
+  },
+  {
+    "text": "chain rule it's easier right so that's",
+    "start": 633.68,
+    "duration": 3.599
+  },
+  {
+    "text": "what i'm trying to do here you are",
+    "start": 635.44,
+    "duration": 3.36
+  },
+  {
+    "text": "interested in the law derivative of the",
+    "start": 637.279,
+    "duration": 2.721
+  },
+  {
+    "text": "loss function with respect to some",
+    "start": 638.8,
+    "duration": 3.12
+  },
+  {
+    "text": "weight you talk to these intermediate",
+    "start": 640.0,
+    "duration": 3.68
+  },
+  {
+    "text": "guys find out each of their",
+    "start": 641.92,
+    "duration": 4.479
+  },
+  {
+    "text": "responsibility and then find using those",
+    "start": 643.68,
+    "duration": 4.399
+  },
+  {
+    "text": "computations find the responsibility of",
+    "start": 646.399,
+    "duration": 3.041
+  },
+  {
+    "text": "the weight that you're interested in",
+    "start": 648.079,
+    "duration": 2.241
+  },
+  {
+    "text": "right",
+    "start": 649.44,
+    "duration": 2.639
+  },
+  {
+    "text": "now",
+    "start": 650.32,
+    "duration": 4.24
+  },
+  {
+    "text": "where did this jump happen right so it's",
+    "start": 652.079,
+    "duration": 4.481
+  },
+  {
+    "text": "still this point i was only talking",
+    "start": 654.56,
+    "duration": 4.16
+  },
+  {
+    "text": "english and then suddenly i introduced",
+    "start": 656.56,
+    "duration": 4.64
+  },
+  {
+    "text": "this math part i suddenly came to",
+    "start": 658.72,
+    "duration": 4.72
+  },
+  {
+    "text": "partial derivatives right so how did i",
+    "start": 661.2,
+    "duration": 3.6
+  },
+  {
+    "text": "make that jump",
+    "start": 663.44,
+    "duration": 3.04
+  },
+  {
+    "text": "why i want to know what is the",
+    "start": 664.8,
+    "duration": 4.159
+  },
+  {
+    "text": "responsibility of these guys so how did",
+    "start": 666.48,
+    "duration": 6.479
+  },
+  {
+    "text": "that responsibility became derivative",
+    "start": 668.959,
+    "duration": 4.0
+  },
+  {
+    "text": "what does the derivative tell us the",
+    "start": 673.04,
+    "duration": 4.08
+  },
+  {
+    "text": "derivative tells us is that if i change",
+    "start": 674.72,
+    "duration": 5.76
+  },
+  {
+    "text": "w a bit how much does the loss change",
+    "start": 677.12,
+    "duration": 4.159
+  },
+  {
+    "text": "right",
+    "start": 680.48,
+    "duration": 2.0
+  },
+  {
+    "text": "so if",
+    "start": 681.279,
+    "duration": 2.8
+  },
+  {
+    "text": "changing w",
+    "start": 682.48,
+    "duration": 5.599
+  },
+  {
+    "text": "a very tiny bit changes the loss of",
+    "start": 684.079,
+    "duration": 6.0
+  },
+  {
+    "text": "makes a large change to the loss that",
+    "start": 688.079,
+    "duration": 4.081
+  },
+  {
+    "text": "means w has a very strong influence on",
+    "start": 690.079,
+    "duration": 4.401
+  },
+  {
+    "text": "the loss w is more responsible for the",
+    "start": 692.16,
+    "duration": 4.64
+  },
+  {
+    "text": "loss if i change the w a small amount",
+    "start": 694.48,
+    "duration": 4.799
+  },
+  {
+    "text": "maybe the loss will decrease a lot right",
+    "start": 696.8,
+    "duration": 4.4
+  },
+  {
+    "text": "hence derivative or partial derivatives",
+    "start": 699.279,
+    "duration": 3.68
+  },
+  {
+    "text": "is a good way of assigning",
+    "start": 701.2,
+    "duration": 3.84
+  },
+  {
+    "text": "responsibility to the weights for the",
+    "start": 702.959,
+    "duration": 3.601
+  },
+  {
+    "text": "loss because it tells me if i change",
+    "start": 705.04,
+    "duration": 3.28
+  },
+  {
+    "text": "this weight a bit how much will the loss",
+    "start": 706.56,
+    "duration": 3.76
+  },
+  {
+    "text": "change and that's what i want to know",
+    "start": 708.32,
+    "duration": 4.079
+  },
+  {
+    "text": "right how much is this guy responsible",
+    "start": 710.32,
+    "duration": 4.0
+  },
+  {
+    "text": "can i change its value a bit and",
+    "start": 712.399,
+    "duration": 3.841
+  },
+  {
+    "text": "drastically reduce the loss function",
+    "start": 714.32,
+    "duration": 3.84
+  },
+  {
+    "text": "then let me do that and that is what the",
+    "start": 716.24,
+    "duration": 4.08
+  },
+  {
+    "text": "partial derivative tells right so from",
+    "start": 718.16,
+    "duration": 3.919
+  },
+  {
+    "text": "that english discussion that we had of",
+    "start": 720.32,
+    "duration": 4.32
+  },
+  {
+    "text": "talking to every guy we came to this",
+    "start": 722.079,
+    "duration": 4.961
+  },
+  {
+    "text": "mathematical uh",
+    "start": 724.64,
+    "duration": 4.08
+  },
+  {
+    "text": "kind of realization of that which is",
+    "start": 727.04,
+    "duration": 2.96
+  },
+  {
+    "text": "that you just need to compute the",
+    "start": 728.72,
+    "duration": 3.04
+  },
+  {
+    "text": "partial derivatives and if you want to",
+    "start": 730.0,
+    "duration": 3.36
+  },
+  {
+    "text": "compute the partial derivative then just",
+    "start": 731.76,
+    "duration": 4.319
+  },
+  {
+    "text": "as we had this uh detective work that we",
+    "start": 733.36,
+    "duration": 4.56
+  },
+  {
+    "text": "did we went and spoke to every layer and",
+    "start": 736.079,
+    "duration": 3.76
+  },
+  {
+    "text": "then came to the last guy we just have",
+    "start": 737.92,
+    "duration": 3.599
+  },
+  {
+    "text": "to do the same thing which just gives us",
+    "start": 739.839,
+    "duration": 3.921
+  },
+  {
+    "text": "the chain rule of property right so this",
+    "start": 741.519,
+    "duration": 3.921
+  },
+  {
+    "text": "is what we are going to do in the",
+    "start": 743.76,
+    "duration": 3.84
+  },
+  {
+    "text": "remaining part of this lecture",
+    "start": 745.44,
+    "duration": 4.48
+  },
+  {
+    "text": "the quantities of interest that we have",
+    "start": 747.6,
+    "duration": 4.16
+  },
+  {
+    "text": "is the gradient with respect to the",
+    "start": 749.92,
+    "duration": 5.359
+  },
+  {
+    "text": "output layer okay",
+    "start": 751.76,
+    "duration": 3.519
+  },
+  {
+    "text": "the gradients",
+    "start": 755.68,
+    "duration": 3.24
+  },
+  {
+    "text": "with respect to the hidden units",
+    "start": 759.68,
+    "duration": 4.56
+  },
+  {
+    "text": "sorry",
+    "start": 761.92,
+    "duration": 2.32
+  },
+  {
+    "text": "and there can be multiple hidden units",
+    "start": 765.36,
+    "duration": 4.24
+  },
+  {
+    "text": "and",
+    "start": 768.079,
+    "duration": 3.44
+  },
+  {
+    "text": "then",
+    "start": 769.6,
+    "duration": 4.72
+  },
+  {
+    "text": "the gradients",
+    "start": 771.519,
+    "duration": 2.801
+  },
+  {
+    "text": "with respect to oh sorry i wanted to",
+    "start": 776.32,
+    "duration": 4.72
+  },
+  {
+    "text": "change the color but",
+    "start": 778.32,
+    "duration": 2.72
+  },
+  {
+    "text": "yeah the weights and the bias right so",
+    "start": 784.839,
+    "duration": 4.281
+  },
+  {
+    "text": "these are the three",
+    "start": 787.36,
+    "duration": 3.599
+  },
+  {
+    "text": "parts to the remaining of to the",
+    "start": 789.12,
+    "duration": 3.04
+  },
+  {
+    "text": "remainder of this lecture right we'll",
+    "start": 790.959,
+    "duration": 3.201
+  },
+  {
+    "text": "first see how to compute this",
+    "start": 792.16,
+    "duration": 4.72
+  },
+  {
+    "text": "then this and then this right and we",
+    "start": 794.16,
+    "duration": 5.679
+  },
+  {
+    "text": "want to do this in a manner that once i",
+    "start": 796.88,
+    "duration": 5.28
+  },
+  {
+    "text": "do it for w11 i should somehow be able",
+    "start": 799.839,
+    "duration": 4.881
+  },
+  {
+    "text": "to do for all the w's all the weights in",
+    "start": 802.16,
+    "duration": 4.08
+  },
+  {
+    "text": "the network right this formula should",
+    "start": 804.72,
+    "duration": 4.48
+  },
+  {
+    "text": "not be painfully computed for every",
+    "start": 806.24,
+    "duration": 4.96
+  },
+  {
+    "text": "weight in the network right so that's",
+    "start": 809.2,
+    "duration": 4.16
+  },
+  {
+    "text": "what we're going to do in the",
+    "start": 811.2,
+    "duration": 4.4
+  },
+  {
+    "text": "remaining part of this lecture",
+    "start": 813.36,
+    "duration": 4.08
+  },
+  {
+    "text": "and our focus is going to be on cross",
+    "start": 815.6,
+    "duration": 3.6
+  },
+  {
+    "text": "entropy so our loss function is going to",
+    "start": 817.44,
+    "duration": 3.44
+  },
+  {
+    "text": "be cross entropy which means we are",
+    "start": 819.2,
+    "duration": 2.96
+  },
+  {
+    "text": "going to deal with classification",
+    "start": 820.88,
+    "duration": 2.72
+  },
+  {
+    "text": "problems which means we are going to",
+    "start": 822.16,
+    "duration": 3.44
+  },
+  {
+    "text": "have the output function as soft marks",
+    "start": 823.6,
+    "duration": 3.919
+  },
+  {
+    "text": "right so i'll end here and we'll come",
+    "start": 825.6,
+    "duration": 3.52
+  },
+  {
+    "text": "back and",
+    "start": 827.519,
+    "duration": 5.281
+  },
+  {
+    "text": "do the entire back propagation in its",
+    "start": 829.12,
+    "duration": 5.839
+  },
+  {
+    "text": "in the gory details of the mathematical",
+    "start": 832.8,
+    "duration": 3.599
+  },
+  {
+    "text": "details of it",
+    "start": 834.959,
+    "duration": 5.961
+  },
+  {
+    "text": "in the subsequent lectures thank you",
+    "start": 836.399,
+    "duration": 4.521
+  }
+]

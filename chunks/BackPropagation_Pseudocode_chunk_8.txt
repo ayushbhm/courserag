@@ -1,0 +1,9 @@
+on till the first layer and you just keep Computing all the uh the the gradients with respect to all.
+the weights all the activations all the pre-activations all the biases in the network so this entire Loop you could.
+write in Python you first do the forward propagation then do the backward propagation so we have the formula for.
+all the weights it does not matter it's w 1 W 2 W 3 the same formula applies similarly we.
+have the formula for all the preactivations all the activations and all the preactivations so we just keep applying this.
+formula inside a loop right so I don't have to do this painful computation where I'm trying to compute the.
+derivative of the loss function with respect to every weight w k i j or W3 1 comma 2 W.
+3 2 comma two and so on right I just have a generic formula I'm just doing Matrix operations and.
+I get the derivatives with respect to all the you can say so that is what is the entire back.

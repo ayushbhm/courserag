@@ -1,0 +1,9 @@
+see later on the course the other way is to kind of change the activation function itself so it has.
+some normalization in it and that's exactly what cellu does right so let's let's try to understand what I was.
+saying right so if you look at relu none of them are zero centered right and we saw what zero.
+centered means in the case of the tan H function that there is equal distribution around a negative and positive.
+clearly relu is not zero centered because along the positive axis it can take very large values along the negative.
+side it only takes zero value so it's not zero centered exponentially uh Lu is slightly better because it has.
+some values towards uh the negative so it has some balance right I mean it's still tilted towards a positive.
+but at least some weight along the negative same with gelu but now if you scale this exponential linear unit.
+by an appropriate Lambda then you could have some of equal distribution along these two paths and then you get.

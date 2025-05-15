@@ -1,0 +1,10 @@
+atom look like and here this is looking at the L2 Norm what we mean by that is that if.
+you have or rather exponentially weighted average L2 numerate so you have uh V 0 it is simply Delta W.
+0 square right because initially you don't have any other term or rather 1 minus into one minus beta right.
+and then if you look at VT it will have Delta W 0 square appropriately multiplied by some Decay Factor.
+then Delta W 1 square again multiplied by some Decay factor and all the way up to the current gradient.
+right multiplied by 1 minus beta right so if I just ignore the Decay factors and if I treat this.
+as a collection of values as a vector then what I'm looking at is the L2 Norm of that Vector.
+right so that's what I uh what is the meaning here and it's just not an L2 Norm it's an.
+exponentially weighted L2 Norm that you are taking right so that's what you need to remember if you look at.
+VT it has all the terms from Delta W 0 square all the way up to Delta w t square.

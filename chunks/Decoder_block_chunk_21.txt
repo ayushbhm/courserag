@@ -1,0 +1,5 @@
+only look at whatever has been decoded so far that's why you need to do this masking so that the.
+inputs which are not available so far do not participate in the computation by setting the corresponding Alphas to zero.
+right so that's all I have to say about Transformers I'll end this lecture here and this would probably be.
+the last recording for the course I will see you in the next session if to clear any doubts that.
+you might have but we are done with the syllabus for this part of the course thank you everyone.

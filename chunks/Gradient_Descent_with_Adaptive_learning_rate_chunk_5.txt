@@ -1,0 +1,9 @@
+would be uh so this quantity here is derivative of the loss function with respect to the weight W2 and.
+if you solve for that you will get this is the answer and this is not very different from what.
+we had already done right so we had this network earlier which was uh a single input x 1 and.
+then you had this com constant one and in this case when we had taken the loss function and then.
+computed the derivative of the loss function with respect to this weight the formula that we had got was this.
+multiplied by the corresponding input which is X right and all I'm saying is that now if you have four.
+different inputs and four different weights associated with each of those inputs then if you take the derivative with respect.
+to any of these weights the formula will not change only the last X will get replaced by the appropriate.
+X right so you can go and check this but it should also be straightforward because you have this W.

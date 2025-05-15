@@ -1,0 +1,8 @@
+set any value between minus infinity to Infinity 80 but now I am not allowing you to do that I.
+have given you as many weights you wanted but on each weight I've now drawn some boundary and if you.
+go out that boundary then W transpose W is going to increase and this regularization term is going to ensure.
+that some of those weights actually decrease actually actually shrink right now still we need to look at a few.
+more things here right so effectively what will happen the the significant directions where there are larger eigen values those.
+will be retained because those are not getting scaled but the directions where the eigen values are small those will.
+shrink and those weights will be heavily penalized they might almost go to zero and now if you look at.
+the effective number of parameters that your network has then this is the effective number of parameters right because your.

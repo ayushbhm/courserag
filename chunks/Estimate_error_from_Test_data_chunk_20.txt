@@ -1,0 +1,6 @@
+so that's why whenever you want to estimate the model so now you have trained the model and you want.
+to see how good the model is it does not make sense as I'll show soon to estimate it from.
+the training data because the training does is always going to be optimistic right as you keep increasing the model.
+complexity it will go to zero but your test error might still be high and your test error actually gives.
+you the true picture because if you empirically estimate the error from the test data then you are actually very.
+close to the true error is what we have just derived.

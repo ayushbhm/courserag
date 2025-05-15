@@ -1,0 +1,9 @@
+foreign [Music] descent and we'll see whether it tries to fix the problem so what were our observations about gradient.
+descent that it takes a lot of time to navigate regions having a gentle slope right so wherever we have.
+gentle slope and now again connecting it to the discussion on Contours gender slope means if you have two successive.
+Rings the distance between them would be very large and in those gentle slope regions it takes a long time.
+and the intuition is clear because on those slopes the gradients are small and if the gradients are small your.
+updates are small so at every Point you're moving like a very very very small step so it'll take a.
+lot of steps to get out of that flat surface right and this is what is explained here so can.
+we do something better so let's take a look at momentum based gradient descent okay uh so there's the intuition.
+right and uh I'll repeat the intuition which I always give for this right so uh this would be relevant.

@@ -1,0 +1,9 @@
+just estimate the gradients using fewer points instead of looking at all the endpoints so that's the idea I will.
+talk more about it right so let's not look at the code for now so so now in this stochastic.
+version of the algor I'm sorry we have to look at the code so now in the stochastic version of.
+the algorithm what I've done is just a small change right so this this part of the code has been.
+indented and bought into the loop right so what is happening is now for all points in the training data.
+I'm Computing the derivatives and immediately updating the weights right so I'm doing a greedy update so what I'm saying.
+is that my true derivative was actually the average 1 by n into the summation over the derivative for all.
+the points right so that's what my true derivative was now instead of calculating this sum I'm saying I'll just.
+look at one point and I'm just making an approximation that the average is as good as one point right.

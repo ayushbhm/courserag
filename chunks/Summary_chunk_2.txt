@@ -1,0 +1,8 @@
+they have analyzed the surface of lost surface of neural networks and seen that with regularization and this was in.
+the context of skip connection being used as a regularization we have not done skipped connections yet we'll do that.
+in the case of convolutional neural networks but they also act as some sort of regularizer and they show that.
+the loss surface actually smooth inside so that leads to better optimization so now coming to the taxonomy of things.
+right what are the regulation techniques that you have used so we had this loss function which was the empirical.
+training error and we added different regularizations to it so one is based on data so we added uh we.
+looked at data augmentation where we had different rotations of the same image that we had added similarly in speech.
+and text also you can do data augmentation and you also did this noise injection where at the output where.

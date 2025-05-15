@@ -1,0 +1,10 @@
+again becomes uh 1 right so my learning rate is not changing and the same thing will keep repeating right.
+the next input is 0 so again it will be 1.001 and so on right so this is what my.
+learning rate is looking like so remember on the x axis I have uh so this plus one you need.
+to do right so uh it was easier to draw it like this so this is a plus one so.
+this is 1.001 1.002 and so on right so my learning rate only changes from 1 to 1.001 which means.
+it almost remains constant as I am moving across and that's what I want right I don't want the learning.
+rate to change too much for the zero inputs right that's and that this is ensuring that right now let's.
+see what would have happened in the case of I'll just do the full stuff and then we start using.
+the pay point yeah so now when I'm using this L2 knob okay at time step 0 I get point.
+zero zero one and then I use the bias corrected value and then my initial learning rate at time sorry.

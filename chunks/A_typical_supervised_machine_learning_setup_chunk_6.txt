@@ -1,0 +1,9 @@
+want an island here right so it's very difficult right i mean like a very complex boundary so that all.
+the blue points are separated from the uh orange points and we'll be okay if at least i can find.
+some boundary right where the error is as small as it can be and i can live with that little.
+error right so that's what i'm going to do i'm going to now start using the term minimize the error.
+instead of saying that the error should be zero right so that's one switch i'm going to make right and.
+now with this background we are ready to discuss what a typical supervised machine learning setup looks like not machine.
+learning but supervised machine learning right so always given some data okay what is this data this is sum r.
+n right these are vectors belonging to rn okay and this is some let's for the simplicity assume that it's.
+just a real value it could again be a vector right it could be the case that given the data.

@@ -1,0 +1,6 @@
+can learn all the parameters not just the threshold w naught but also w1 to wn are all inputs equal.
+no now a perceptron allows weights what about functions which are not linearly separable so this is still not possible.
+with a single perceptron because we have seen that the boundary is linearly separable the previous proof was also that.
+it will be able to find the weights only when the data is linearly separable right but we'll see how.
+to handle this and that's what this course is about that what if data is not linearly separable okay so.
+i'll end this module here and we'll talk a bit more about linearly separable functions.

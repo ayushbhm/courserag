@@ -1,0 +1,10 @@
+are minus one some weights are plus one right and then the bias or w naught is equal to minus.
+two okay so w naught is minus two so what is the perceptron rule w naught plus the weighted sum.
+of the inputs should be greater than zero for it to be one so what does that mean if w.
+naught is minus 2 then the perceptron will fire only if the weighted sum of the inputs is greater than.
+2 because then you will have minus 2 plus a quantity which is greater than 2 so that quantity would.
+be greater than 0 greater than equal to 0 and then the perceptron will fire right so it means that.
+the weighted sum of the inputs should be greater than equal to two so this is all i have done.
+this match fixing right there is i've like hard coded everything so far okay then i have one more perceptron.
+which is my output perceptron what does that mean that the output of this perceptron will be the output of.
+the network and if i want to implement a function if i say i want to implement the xor function.

@@ -1,0 +1,9 @@
+close to 1 right uh similarly if the weights are initiates to high negative value the same would happen you.
+have a high negative value and the neuron would saturate to zero now of course you could argue that why.
+would the wage be highered I would maybe initialize them to low values but now if there are like a.
+thousand neurons in one layer right then this is a sum of thousand terms and even with very small weights.
+a sum of thousand terms reaching a value of 2 or 3 is not really surprising right so you have.
+to very carefully initialize the weights and that's why this part would be connected to the second part of this.
+lecture where we will talk about weight initialization methods and we will try to see how to initialize the weights.
+correctly so that we don't end up with saturated neurons right so the main point here is that neurons can.
+saturate and if they saturate then the training kind of becomes problematic because the gradients are not flowing through right.

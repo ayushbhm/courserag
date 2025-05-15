@@ -1,0 +1,2 @@
+conditions you just have to have some equations which inherently take care of this right so now you have to.
+convert this intuition to a mathematical equation or to an update rule right.

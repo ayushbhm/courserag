@@ -1,0 +1,10 @@
+it's saying is that as W increases L seems to increase right so that's that's okay whatever this function is.
+I don't care about it but this is how the function looks like okay now Suppose there is a point.
+uh W naught okay at which I know the loss okay and where is this coming from how does this.
+relate to our original R uh uh our goal right which is to find uh a new value of uh.
+W says that the loss is less right so that will soon get related but for now I'll give you.
+some intuition right so Suppose there was only one parameter and I timed step 0 I started with the value.
+W naught and I could compute the loss I don't know the full loss surface but I could compute the.
+loss right now I'm looking to change this value W naught right and I want to decide whether to go.
+here or here so that my loss decreases that's what the goal is and we'll relate all of this discussion.
+to that goal uh soon right in the figure it's clear that I should move to the left because there.

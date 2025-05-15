@@ -1,0 +1,10 @@
+is what my first output is going to be that is what y hat 1 is going to be what.
+is y hat 2 going to be it's going to be e raised to 10 divided by this same sum.
+then e raised to 20 divided by the same sum and then e raised to 30 divided by the same.
+sum right and now you can understand that the sum of these values is going to be one right because.
+it's the sum of all the values is the denominator so the sum of the four values that i'm going.
+to compute here is going to be 1 and each of these values is going to be between 0 and.
+1. why is that the case let's try to understand that why is that the case so my original vector.
+my original vector was say minus 10 10 20 30 right and now each value that i've computed is e.
+raised to the corresponding value divided by the sum of the e raised to all the values right now even.
+if i have a negative value in my original vector e raised to that is still going to be positive.

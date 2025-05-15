@@ -1,0 +1,9 @@
+because you are not making a true estimate of the gradient you're just making like a approximation or a stochastic.
+update here well and at this point right where it was say oscillating right at the points where you see.
+an oscillation let me just use the mouse right so this is one point where you see an oscillation and.
+what is happening there is that you approximated the gradient by one point and that point was actually very far.
+off as compared to what the true gradient would have been and hence it led to a bad update and.
+now again you come back slowly and then you go back towards the minimal right so that's why you see.
+these oscillations now uh this is when you use k equal to 1 right but uh and we understand why.
+we see many oscillations because we are making greedy decisions and what is happening is here that each point is.
+trying to push the parameter so I have a million data points right and I look at one of the.

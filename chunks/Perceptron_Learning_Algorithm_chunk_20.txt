@@ -1,0 +1,9 @@
+that's what i wanted my current angle was less than 90 degrees which was not acceptable to me i wanted.
+it to be more than 90 degrees so this step has at least ensured that my angle and new angle.
+is greater than my current angle and i'll maybe slowly keep doing this and move towards convergence slowly slowly i.
+will keep changing this angle iteratively right because i am going to do this iteratively its not that once i.
+pick up a point and i adjust my w i will never revisit that point right i'll keep doing this.
+till i read convergence that will i keep picking these points again and again cyclically right so at some point.
+i'll keep changing it and then eventually it will cross 90 degree right so that's the intuition that we have.
+here right and that's why that update makes sense still a bit more to it right i mean some of.
+you would start should start thinking oh wait when i see a positive point i make an error i change.

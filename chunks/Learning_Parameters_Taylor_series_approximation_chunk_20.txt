@@ -1,0 +1,9 @@
+is very low right whereas this was the reason where the slope was very high right that's just some observation.
+so now you can see what is actually happening in the Taylor series approximation wherever you are you are drawing.
+a tangent and you are saying that this line given by the tangent is my approximation for the original function.
+and in small windows that approximation works very well right even when the gradient is large right so if my.
+window is small oops then even as my gradient changes right my approximation is still quite good right so in.
+the small neighborhoods my approximation always remains quite good even for high values of the gradient but if my uh.
+my window is large then the approximation becomes quite bad as you can see here right so that's important that.
+Taylor series is only used in small uh Windows okay now that was one now let me just reset this.
+okay and I change the function okay I want to make it the sine function okay and now this is.

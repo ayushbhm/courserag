@@ -1,0 +1,9 @@
+anything with respect to the conditions so it's a simple step which does not change anything conceptually for me so.
+i'm just going to normalize all the inputs and that ensures that the norm of p is equal to 1.
+right and this will help me in simplifying some steps in the proof okay so and now i'll define one.
+more quantity which is w star so that let w star be the normalized solution vector what do i mean.
+by that i've started with the assumption the proof says that if the data is linearly separable so if the.
+data is linearly separable that means there exists some w right and i'm going to call that w as w.
+star such that that is the value which will linearly separate my positive points for my negative point so some.
+w exists i'm sure about that and i'm going to call that w star it's just that i don't know.
+what that w star is but i can assume the existence of such a w star right so that's the.

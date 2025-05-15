@@ -1,0 +1,10 @@
+i complicating it by adding parameters different different weightages to different features okay but something more fundamental than that right.
+let me okay so this doing this is akin to saying that y is equal to 3x plus 2. i.
+have fixed my parameters right here i'm just saying that the parameter is 1 right what is the problem with.
+this i'm not learning this i just said okay y is equal to 3x plus 2 i just cooked it.
+up now who tells me whether 3 and 2 are the right values i have to learn that from the.
+data right so if i don't have any parameters i have nothing to learn i just told you y hat.
+is equal to 1 plus e raised to minus x now throw away all the data that you have for.
+any new x that you get just plug in here and you'll get the value and live with whatever value.
+and that's not what you want to do right you want to have certain parameters so that those parameters can.
+be learned right so what would happen in the sigmoid case for example right this is what a sigmoid function.

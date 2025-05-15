@@ -1,0 +1,9 @@
+lie in the positive half space of this line right so this is my line and i'm going to look.
+at the points which lie in the positive half space what is the positive half space it means that w.
+transpose x should be greater than 0 right so here are these points now my question is what would be.
+the angle between these points and the weight vector w without knowing anything just that by looking at the picture.
+you should be able to tell me that this angle would be less than 90 degrees right it's obvious from.
+the picture right and why is oh let's let's see if i want to answer this now and now let's.
+look at some points which lie in the negative half space right which are these red points what would be.
+and by definition if it's in the negative half space and w transpose x is less than zero so what.
+would be the angle between these points and the weight vector again just by looking at the picture it is.

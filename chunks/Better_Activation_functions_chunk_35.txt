@@ -1,0 +1,9 @@
+we will see soon so this is one variant which is the Leaky relu right and as the name suggests.
+it's allowed some leakage on the negative side so earlier whenever you had a negative value you were kind of.
+making it zero now you make it small you multiply by a very small constant so it becomes small right.
+so it's close to zero but it does not die completely so it allows some gradients to flow even when.
+your X is negative right so it takes care of neurons not saturating and ah yeah and it will not.
+die because it will ensure that some gradient always flows through and it remains computationally efficient right just making it.
+0.1 x does not make it any more expensive than the value function right maybe slightly more and also it.
+gives you these close to zero centered outputs because now you have outputs which are negative also and your outputs.
+which are positive also so this problem of gradients only being in One Direction is also taken care of it.

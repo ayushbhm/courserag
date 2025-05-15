@@ -1,0 +1,9 @@
+error which is L1 then I again initialize the weights again train the network again noted the loss right so.
+I did this some 100 times and then I am Computing the variance actually I've plotted the box plot so.
+which tells me the variance which among other things tells me the variance and they're saying that for shallow networks.
+this variance is not very large right but when you have a deep neural network every time you do a.
+different regularization a different initialization and then you compute the loss then my loss varies a lot across this different.
+initializations what does that mean that these networks are not robust to initialization it is very specific to what initialization.
+I have done but now if I throw in unsupervised pre-training and then I do the same thing now again.
+I have first unsupervised pre-trained the weight so I'll just call them Wu right uh and now I am doing.
+this experiment a hundred times so what am I doing that that I have started with some uh W random.

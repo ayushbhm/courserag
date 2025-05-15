@@ -1,0 +1,10 @@
+computed by applying the soft max function which was e raised to a l 1 divided by the summation e.
+raised to a l 2 divided by the summation and so on right so this y hat is a vector.
+a l is a vector so this soft max of a l is actually a vector and what this is.
+saying is that i am looking at the lth element of that vector which is the same as y hat.
+l right so that's what this formula is saying nothing great here and what is the l element of y.
+hat l it's going to be e raised to a l again suffix with l divided by the summation of.
+all the exponents right so that's what y hat l means that's what softmax off there's a softmax of the.
+vector a l and then taking the small l component of that right so that's what that notation means okay.
+let's go ahead so i'm just going to uh as i said what i just explained that y hat l.
+which is the same as soft max a l l is essentially this guy right so i've just put in.

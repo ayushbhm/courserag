@@ -1,0 +1,9 @@
+arbitrary degree of precision right so that's what we have been able to do so now what will happen is.
+the 2d 2d towers that i got out of that tower network i can put many of these together right.
+and construct my uh function as way i desire right and i can adjust for the thickness of the towers.
+to make it more and more a better approximation right so that's the idea so this is what the universal.
+approximation theorem says and the reason it is important is that in real world you will have these complex arbitrary.
+functions and now you have a way of coming up with a neural network it still has a large number.
+of neurons right and we'll fix that it has a large number of neurons but if you keep that fact.
+aside you can what this theorem says that for any function that you have any problem that you're dealing with.
+where there's a true function x and let it be as arbitrary a function as you want right you can.

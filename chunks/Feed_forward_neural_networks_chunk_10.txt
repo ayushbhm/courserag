@@ -1,0 +1,10 @@
+w 1 for here this is w 1 as already mentioned there so w1 belongs to n cross n and.
+they'll also be a bias right so every neuron in this layer is going to have a bias connected to.
+it so i'll have n such biases so i'll have b1 equal to rn right and since i have all.
+the hidden layers have the same number of neurons and i've also assumed the input also has the same number.
+of neurons for sake of convenience all of these are going to be n cross n matrices right so i.
+have w1 which is n cross n and b1 which belongs to rn similarly i'll have w2 which is also.
+going to be n cross n because there are n neurons here connected to each of the n neurons here.
+so you'll have n square weights so that's the n cross n matrix and they'll again be n biases okay.
+then the output layer of course here there are k neurons and here there are n neurons so each of.
+these n neurons is connected to each of the k neurons in the output layer so you'll have a total.

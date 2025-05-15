@@ -1,0 +1,9 @@
+so we initialize all the weights of the network so there are in this network this is my base Network.
+right I'm not creating multiple copies of this this is my only Network so whatever weights are there so let's.
+assume there are n parameters everywhere uh sorry n nodes everywhere so you have have a n cross n weight.
+sitting here you have an N cross n weight Matrix sitting here I'm ignoring the biases for the while and.
+suppose you have only one output neuron then you are n weights sitting here right so these all these uh.
+2N squared plus n weights I have initialized okay and I have started training now I received the first mini.
+batch for training and I just drop some notes from the network right so I've got a thinned version of.
+the network for the first mini batch right and now I'm just going to assume that this is what my.
+neural network looks like and just do my forward propagation and backward propagation right so I'll compute the loss using.

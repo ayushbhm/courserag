@@ -1,0 +1,9 @@
+this V getting multiplied by everything that was happening inside is here this VA transpose damage into something something and.
+this is where St minus 1 and H J were so they were participating in Computing this and finally you.
+get a vector and then you multiply it by this right so similarly now the VJs here are participating uh.
+in the final computing station that you have right so Z1 is going to be computed this way now how.
+do you compute Z2 the same story everything Remains the Same right so now you would have Q2 as the.
+query right so your e2s would be the dot product between all the Q2 and all the vectors then you.
+will compute the alphas as the soft Max once you have computed the alphas these are all Alpha twos you.
+will compute the Z as a weighted sum of your Phi input vectors and the weights would come from the.
+alpha right so very easy to understand now you had one vector you had H1 to H5 from each of.

@@ -1,0 +1,9 @@
+boolean functions so what is it that the perceptron can be used for and what is this connection to the.
+body and functions right so let's uh let's revisit our example right so now we are again talking about the.
+case of a binary classifier and we want to decide whether to watch a movie or not right and suppose.
+we are given a list of m movies all the past movies that we had seen along with the class.
+label whether we liked this movie or did not like this ok this is based on our past data so.
+this is just a binary label on all the movies right and each movie could be represented by n features.
+so these features could simply be the inputs which are contributing to the decision so one input is actor daemon.
+the other input is the genre thriller and so on and these are all boolean inputs that we have and.
+you could also have some real valued inputs like the imdb rating the critics rating of the movie and so.

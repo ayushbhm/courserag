@@ -1,0 +1,9 @@
+again to repeat what i said earlier that if you have a function which takes certain x as input and.
+gives you y and in real world you don't know what this f is right so in real world if.
+i want to say okay what is my decision in real examples suppose f is the function that i'm using.
+to decide how to hire people or how to predict the life expectancy of a person i don't know what.
+this f is that is not really known i just know it depends on certain factors right but and what.
+i have is several examples of these inputs and outputs right i know a person who had a certain blood.
+pressure level cholesterol level and so on sugar level and then i know how long that person lived and so.
+on right so i have many such examples now what this theorem said is that you could come up with.
+a multi-layered network of neurons right not unlike what papad and minsky had said that a single neuron cannot do.

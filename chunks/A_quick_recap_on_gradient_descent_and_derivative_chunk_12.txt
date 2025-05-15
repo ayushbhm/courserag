@@ -1,0 +1,9 @@
+value of a function in a small neighborhood around the current point so if you know the value of the.
+function around the current point you could compute its value in a small neighborhood around it right so that's what.
+Taylor series was allowing us to do and the key thing for us why we needed Taylor series was this.
+right so we started off with some a random value for the loss function right and we wanted to find.
+a sorry sorry sorry sorry we started off with some random value for the parameter and we wanted a new.
+value for the parameter right so we have started somewhere we know what the loss there is now from here.
+I want to move somewhere else and what is my guiding principle that wherever I move my loss should decrease.
+right that means this is the condition that I was aiming for that my new loss should be less than.
+the current loss right and when we solved for this uh inequality uh we made some arguments and what we.

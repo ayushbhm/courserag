@@ -1,0 +1,9 @@
+each perceptron will handle one of these specific inputs and then you will have two raised to n weights in.
+the output layer and you could adjust them right yeah yeah bias will stay the same minus n right you.
+could hand code the bias right so now what does this theorem say now any boolean function of n inputs.
+can be represented exactly by a network of perceptrons containing one hidden layer with two raised to n perceptrons and.
+one output layer containing one percent how do you prove this we've already proved it right we proved it by.
+construction i gave you the network i gave you the template if you have n inputs you'll have two raised.
+to n perceptrons each perceptron will cater to a specific input then you'll have these two raised to n weights.
+in the output layer each weight will have a specific condition which you can satisfy because there'll be no contradicting.
+conditions right so note that this network which has 2 raised to n plus 1 perceptrons 2 raised to n.

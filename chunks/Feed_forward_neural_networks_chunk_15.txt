@@ -1,0 +1,10 @@
+have already computed a 1 1 a 1 2 a 1 3 okay and now i am going to pass.
+this vector to a function right a 1 1 a 1 2 a 1 3 okay and now there are.
+various functions which can operate on vectors but in this case this is going to be an element wise function.
+what does that mean that the output is just going to be g of a 1 1 g of a.
+1 2 g of a 1 3 right so i've just put the function inside that means it's just an.
+element wise function these are known as element wise functions which operate on vectors that means they operate on every.
+element of the vector right now if i choose sigmoid as the function then g of a 1 1 is.
+simply going to be 1 over 1 plus e raised to minus a 1 1 right so that's all so.
+once i have computed each of these a elements the computation of h is very simple and i'm going to.
+compute these each of the edges so i'll get these three dimensional uh h1 right so this is what my.

@@ -1,0 +1,10 @@
+times what does that mean that this is what I mean by that right so in this model let us.
+try to understand what my full procedure looks like right so I have my loss as I equal to 1.
+to M where as m is the number of training points and in this case I am going to Define.
+my loss as y i which is a true y that was given to me minus F hat of x.
+i which is my function that I have chosen right and the parameters here are all the W's that I.
+have right it's either so this is a minimization problem with respect to the W's so the W's are either.
+W 1 and W naught or they are W 25 all the way up to W 29 right and this.
+you know now how to solve this or how to ah find this Minima using the gradient descent or any.
+of the variance of the gradient descent algorithm right now let us consider the simple model which was W 1.
+x 1 plus W naught right so at the end of training suppose I I took some ah 400 points.

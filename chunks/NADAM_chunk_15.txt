@@ -1,0 +1,10 @@
+right so if you ignore these quantities your update rule is simply of WT minus ETA square root of VT.
+plus 1 the bias corrected Value Plus Epsilon right into M hat t plus 1 plus Delta WT so here.
+you have you're just taking the gradient at the current time step and the history now all the other multiplying.
+factors that you see here those are coming so this is actually uh the uh yeah let me just make.
+it Mt Plus 1. now if this if I ever to bias correct it then I would divide it by.
+1 minus beta raised to t plus 1 and I'll have to do a similar bias correction here also well.
+again divided by 1 minus beta raised to t plus 1 and then this beta and 1 minus beta are.
+simply the contributions that I have for the history and the current gradient right so that's how I get it.
+so it's a bit messy uh I I couldn't find a better way of explaining this if you have suggestions.
+I'm open to using them but the main idea here is this the takeaway is this that you add the.

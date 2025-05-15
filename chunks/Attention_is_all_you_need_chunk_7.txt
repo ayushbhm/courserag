@@ -1,0 +1,9 @@
+forward neural networks so we'll look at these in the coming slides okay starting with self attention right so this.
+is the self-attention block so this is what is happening I have the word I okay and I have the.
+word embedding for I here I have just used some random initialization but you can either do random initialization that's.
+the practice you don't really rely on any word embeddings you just do a random initialization and then these are.
+passing through something known as self attention and then producing a new representation for every word right that's what is.
+happening here so very similar to what is happening in the case of RNN you have the excise and then.
+you get some Edge Ice right so the same thing is happening here of course the advantage the only reason.
+I would be interested in discussing this is that if this overcomes the disadvantage of rnns which is sequential computation.
+can I do this in part right so that's the idea uh that's the main uh idea here right so.

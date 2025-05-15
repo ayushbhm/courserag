@@ -1,0 +1,9 @@
+had difficulties in training a deep neural network so I've ignored that problem I've said okay I'll worry about that.
+later right now let me just focus on this right so if I am able to train this entire network.
+what does that mean that this layer is producing good outputs this layer is producing good outputs this layer is.
+producing good outputs and this layer is good in producing good outputs and finally the final output is good right.
+so this entire problem was becoming difficult for me I was not able to train the entire network so I'm.
+saying let me just focus on one layer now and for this layer what is the definition of good that.
+it should capture all the characteristics of the input that is how I have defined goodness and I have designed.
+this objective function accordingly and I've reduced the problem to training a network containing just one hidden layer so input.
+hidden and output and this is a shallow Network and shallow Network training was not a challenge right so I.

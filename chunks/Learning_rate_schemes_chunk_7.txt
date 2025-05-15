@@ -1,0 +1,10 @@
+it's turning out to be T right so everything inside the bracket is T oops and now I'm looking at.
+this quantity which I had already computed everything inside the bracket which came out to be two I'm in fact.
+looking at this quantity right so then this plus 1 from here and this T by mu which is 20.
+by 20. so that quantity comes out to 0 in this case then I'm going to look at Max of.
+0 so now I'm looking at this quantity which is Max of 0 comma what I had computed earlier so.
+this is what I had computed earlier so that is going to be 1 right so then I have ETA.
+min Plus ETA Max minus ETA min and this entire thing has evaluated to 1 so this is going to.
+be 1 right so then it's going to be 0.01 plus 0.5 minus 0.01 which is just going to be.
+0.5 right and that's exactly what I get at time step t equal to 20. similarly you could substitute the.
+value 30 here and you will get uh this as the value right somewhere here as the value right so.

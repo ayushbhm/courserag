@@ -1,0 +1,10 @@
+most popular activation functions as we will see at the end of the discussion we'll show you what are the.
+popular activation functions and this is proposed almost a decade back in the context of convolutional neural networks and it's.
+still one of the de facto activation functions to be used across a wide variety of networks right the first.
+question that I have this is what the value relu function looks like right so it is simply Max of.
+0 comma X right so what does that mean that again in the context of a deep neural network so.
+say this is one of the new translate so this is suppose my H1 this is say x now I.
+have computed the A's right so this guy here lets let me call it say a 1 2 right that.
+is going to be again summation uh w i x i that we know right now that is this a.
+1 2 is going to be the input to the relu function that is the non-linearity setting here and it.
+will simply look at whether a 1 2 is greater than 0 if so it will just return a 1.

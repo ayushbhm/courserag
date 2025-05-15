@@ -1,0 +1,9 @@
+when you are doing so the key thing to realize here is that these did not participate in the computation.
+right these gave you the uh corresponding q k and V but when it was time to use those V's.
+you just zeroed out the waves right so irrespective of what your input was this did not participate in the.
+computation similarly whatever you compute here will not participate in the rest of the computation because the corresponding Alphas would.
+always be zeroed out you'll always use this masking right here also you will have a masking so only that.
+part of the input which is currently being decoded is going to participate in the computations the rest of the.
+input will get masked out because you will set the corresponding Alphas to zero right so that's what masking means.
+so we are done with the first masked self-attention block here which is it's just going to use a only.
+those many entries right one to h means the number of time steps which have been decoded so far instead.

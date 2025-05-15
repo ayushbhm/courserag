@@ -1,0 +1,8 @@
+and hence unlike the other algorithms you're proportionately moving in the direction of w Oz right of course here still.
+the momentum wage algorithm was faster because momentum of course has its Advantage right it makes mistakes but it still.
+reaches the Minima faster so let me just play that again you can see that the momentum based algorithms both.
+nestrum and all this reached faster right but compared to gradient descent adagrad was able to move faster right and.
+there is still scope to improve Ada guide because it does not have a momentum term if I had added.
+a momentum term term then I could combine the advantages of momentum as well as this adaptive learning rate and.
+we'll probably get in that direction at some point right we'll get in that direction meaning we'll get towards such.
+an algorithm at some point right but for now you see the advantage that I'm able to move uh proportionately.

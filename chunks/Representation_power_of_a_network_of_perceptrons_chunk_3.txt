@@ -1,0 +1,9 @@
+the network and if i want to implement a function if i say i want to implement the xor function.
+using this network that means that for a given input 0 0 0 1 1 0 1 1 the output.
+of this green perceptron should match the truth table of the xor function then i would say that i have.
+implemented the xor function that is what i want and now each of these perceptrons the red perceptrons is connected.
+to the green perceptron using a weight and i'm going to call those weights as w1 w2 w3 w4 okay.
+and then the output is y this is all the setup that i have now why this setup where am.
+i headed all that is not clear but you cannot stop me from having this setup all this is straight.
+forward i have two inputs four perceptrons and then one output perceptron for the first set of red perceptrons i.
+have hard coded the widths okay now i'm going to introduce some terminology and this terminology is going to stay.

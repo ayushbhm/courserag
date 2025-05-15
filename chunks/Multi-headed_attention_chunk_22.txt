@@ -1,0 +1,9 @@
+because layer 2 will take the output of layer 1 as input right so unless you have done the layer.
+1 computation you cannot do the layer to computation right so when I say it's parallelized it's only within each.
+layer right so for a given uh set of input samples right within that layer all the self attentions all.
+the alphas all these Z they'll all get computed in parallel right unless I mean earlier when uh again I'll.
+just repeat this because this is important in the case of an RNN when you are given H1 to h.
+t and you had to compute Z1 to ZT right you first had to compute Z1 z2's and ZT and.
+so on right and here we saw that using this large Matrix multiplications we get Z1 to ZT in parallel.
+right you don't have to wait for the previous time step for the next time step to be computed right.
+so this parallelism you see in every layer but of course across layers the computation is still sequential right because.

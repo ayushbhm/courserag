@@ -1,0 +1,11 @@
+of these values uh so it would be uh or even 0 0 means there is no momentum of course.
+so beta Max would be one of these values so now in this case it would be minimum of say.
+0.5 and 0.9 so your momentum would be around 0.5 okay and as you keep increasing now at time step.
+t equal to 250 uh this would evaluate to log of 1 plus 1 which would be log of 2.
+so this would become 1 so you will have 2 raised to minus 1 minus 1 which would be 2.
+raised to minus 2 which would become 0.25 so this would be 1 minus 0.25 which is equal to 0.75.
+so it would be minimum of 0.75 and beta Max so again beta max if it is something in the.
+range of 0.9 then this would be selected right and now you can keep substituting the values of T so.
+now if T is equal to 750 then this would be log of uh 3 plus 1 which would be.
+log of 4 right and that would be 2 so this will become 2 raised to minus 3 which would.
+be 0.125 and then this would become 0.875 so as you can see you are slowly increasing the momentum uh.

@@ -1,0 +1,9 @@
+uh K minus 1 so you had started with k equal to l to 1 right so now at this.
+point uh K is equal to l so K minus 1 would be L minus 1 so which would be.
+H2 so you're Computing the derivative of the loss function with respect to H2 and for that you need the.
+weights W3 which you already have and you need the derivative of the loss function with respect to A3 which.
+again you already have right so this I already explained this when I was saying that you're just going step.
+by step and then you compute the gradients with respect to the uh pre-activation layer below so this is what.
+you want to compute and for that you just need this quantity which you had just computed and this quantity.
+which you have already argued is easy to come right so you just this Loop just keeps going on and.
+on till the first layer and you just keep Computing all the uh the the gradients with respect to all.

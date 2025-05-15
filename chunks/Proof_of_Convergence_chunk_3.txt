@@ -1,0 +1,10 @@
+will not go on infinitely if your data is linearly separable the perceptron learning algorithm will find a weight vector.
+w after a finite number of steps right now how do you prove this so let's look at that so.
+let's look at the proof of this okay so i'll start with the proof uh first i'll talk about the.
+setup so if x belongs to n right it's an a it's a point for which the output is 0.
+then minus of x belongs to p this is trivial because if x belongs to n then it means that.
+w transpose x is going to be less than 0 which implies that w transpose minus x is going to.
+be greater than equal to 0 right so now what this observation allows me to do is that we can.
+just consider a single set p prime which is the union of p and n minus what is n minus.
+n minus is the negation of all the points in n right and now for every point belonging to p.
+prime right which is the union of p and your n minus i want to ensure that w transpose p.

@@ -1,0 +1,9 @@
+not just be outliers you could have other things also now this is a very good example there is no.
+outlier here the people in the inner circle maybe behave a certain way people in the outer circle behave a.
+certain way there's no outlier here but i can't draw a linear decision boundary to separate the yellow points from.
+the purple points right so this is very much common in many real world situations right so this constraint that.
+i can only deal with data which is linearly separable is something which is not acceptable in the long run.
+right so we'll have to move beyond this perceptron model because the perceptron model can clearly handle only linearly separable.
+data right okay now this can handle is again something which is to be defined what do i mean by.
+can handle we'll come back to this in a later lecture but for now i guess you have a rough.
+idea of what i mean right it cannot find a line which separates the positive points from the negative points.

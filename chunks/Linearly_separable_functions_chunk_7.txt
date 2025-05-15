@@ -1,0 +1,10 @@
+the u and here's one function that you know which is the always off function similarly the always on function.
+and you can see that from the numbering that they're going to be 16 such functions possible right and it.
+simply follows that you have these four outputs right and each output could take 0 or 1 value so you'll.
+have 2 raised to 4 which is 16 which is actually 2 raised to 2 uh raised to 2 right.
+so this is the or function and this is the and function and then similarly you can construct other functions.
+right so in uh of these how many are linearly separable so you can go and work this out on.
+your own and turns out that all except xor and the not xor function are linearly separable you can go.
+back and verify this so it's out of 16 there are two functions which are not linearly separable so in.
+general how many boolean functions can you have from n inputs it is 2 raised to 2 raised to n.
+right so that's what happened here it was n was 2 so you had 2 raised to 2 raised to.

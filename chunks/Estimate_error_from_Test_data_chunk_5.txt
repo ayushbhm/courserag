@@ -1,0 +1,10 @@
+just substitute sorry f of x plus Epsilon so I can just substitute that and now I'm just going to.
+like kind of open up this square and rearrange some terms right so I'm looking at this as a minus.
+B the whole Square where a is equal to F hat x minus f x and B is equal to.
+Epsilon right so that is how I have expanded this uh formula I just open the bracket rearrange some terms.
+and so on so a expectation of a sum is the same as the sum of the expectations so I.
+can write this expectation of the three terms that I had a square minus 2 a B plus b square.
+as the sum of the expectations of these terms so expectation of a square minus expectation of 2 a b.
+uh plus expectation of b square right with a and b as defined earlier and of course a constant I.
+can take outside ah so now if you look at it this is the quantity that I was interested in.
+and I did not know how to estimate it but now I have been able to rewrite that quantity in.

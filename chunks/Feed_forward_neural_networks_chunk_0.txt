@@ -1,0 +1,8 @@
+[Music] hi everyone uh welcome back uh today we'll uh start with feed forward neural networks and talk about the.
+back propagation algorithm right so where are we so far in the course right so we started with mp neurons.
+then we moved on to perceptrons we dived quite a bit deep into perceptrons where we spoke about the representation.
+power of perceptrons that it's just a linear separator and it can only work for data which are linearly separable.
+then we looked at the perceptron learning algorithm we also looked at why there's a guarantee that it will converge.
+for linearly separable data right and then we moved on that okay this linear boundary or this threshold kind of.
+a thing which we have in a perceptron that's that's not very convenient and in real world we take decisions.
+which are much more smoother so we move to the sigmoid neuron right and then for a single sigmoid neuron.

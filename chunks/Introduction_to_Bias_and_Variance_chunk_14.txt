@@ -1,0 +1,10 @@
+the same equation or I can try to find this minimum except that now my F at X I is.
+going to be that degree 25 polynomial which I show right so that does not change anything I'll just have.
+the gradient computed accordingly and I could still use the gradient descent based algorithms to find the W's right so.
+now I need to find 26 different values and once I find the values I can plug in those values.
+in this equation and then for every value of x on the x axis I can find what F hat.
+would be and I can plot that right and now again this I am going to repeat some 30 different.
+times each time I am going to take a different 400 samples from the training data right a different sample.
+of size 400 from the training data and I am just going to plot that curve right so let's see.
+what that curve looks like so every time you can see I am getting a different curve right you can.
+see all the different curves that I am getting here okay I am done now right so you understood the.

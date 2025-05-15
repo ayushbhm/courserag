@@ -1,0 +1,10 @@
+look at uh U T minus 1 and VT okay now U T minus 1 remember is one time step.
+behind a VT so then one way of looking at it is that in ut minus 1 these all are.
+participating right and in VT minus V T these all are participating because by this point the beta raised to.
+K is so small that that guy is effectively not participating right because there's this one time step difference so.
+this is what the situation is now what is happening if you look at this curve right so since all.
+the gradients were high high and then they started decreasing my UT since it's looking at more High guys than.
+the low guys right so because of this one time so so v v t has this current guy also.
+which is again very small right and UT does not have this guy it has some other guy which was.
+actually high right because it's one time step behind so now UT is going to be larger than VT does.
+that make sense because VT is one step higher so once you enter the Steep regions after a while because.

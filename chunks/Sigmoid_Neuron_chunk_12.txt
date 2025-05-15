@@ -1,0 +1,10 @@
+or whether uh yeah whether you like or dislike a movie right now let's say we have basing our decisions.
+only on one input which is the critics rating and the critics rating is something between zero to one right.
+on a scale of zero to one a Critic has given some rating and we look at that and decide.
+whether uh we want to watch the movie or not right now if the threshold is 0.5 and let's assume.
+that the weight is one because there's only one input so it doesn't matter what the weight is so it.
+will just give it one and uh what now in this case when the threshold is 0.5 and the weight.
+is one so what about the case when the critics rating was 0.49 the output of the network would be.
+dislike right because 0.49 is less than the threshold so I will not like the movie but now if I.
+had a movie well it's a Critic rating was 0.51 then my output would be like right and this is.
+why I say that this is very harsh right this is not how you would take decisions in real life.

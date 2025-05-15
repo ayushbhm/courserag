@@ -1,0 +1,10 @@
+layers right now maybe i'll get rid of the activations and then you have the activation which is the shaded.
+part h1 h2 and then for the last layer it could be h3 or hl i could also call it.
+as y hat because that's the output that i'm interested in so for the last guy the dark green or.
+the shaded green guys there are multiple names right i could call it h l or the y hat because.
+it's the output or i can also call it as f hat of x right because this is my approximation.
+okay so they have the pre-activation and the activation now how to compute these uh pre-activations and activations is something.
+that we'll see today but remember that each of these is a vector right so now here the entire input.
+i could call it as x and i already said that x belongs to rn and since i have assumed.
+that all these layers the hidden layers have n neurons so remember that a1 is also rn right and just.
+to clarify this is a11 this is a12 all the way up to a 1 n similarly this is a.

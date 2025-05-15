@@ -1,0 +1,10 @@
+one combination of w one w two w naught which satisfies these inequalities of course in practice i would not.
+like to do this randomly but have a learning algorithm which does it and we will go there we will.
+go to the perceptron learning algorithm but for now it's ok if i just think a bit about it and.
+i have already thought about it and this is a set of values which i am going to give you.
+if w not equal to 1 also not 1 sorry this should have been minus 1 right so this should.
+have been minus 1 so if w not equal to minus 1 if w 1 equal to 1.1 and w.
+t equal to one point one then all these equations are satisfied you can just plug in these values and.
+see that all the four inequalities are satisfied right and now i'll look at the geometric interpretation of that so.
+what is the geometric interpretation i am saying that minus 1 okay plus 1.1 into x1 plus 1.1 into x2.
+greater than equal to 0 this is the positive half space less than 0 this is the negative half space.

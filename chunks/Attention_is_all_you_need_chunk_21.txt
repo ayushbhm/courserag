@@ -1,0 +1,9 @@
+one go so you can compute all of this at one go as opposed to earlier when your sis which.
+are essentially the decoder states were getting available only one step at a time right so just to draw a.
+clear variable level analogy between what we have seen so far and what we are going to see earlier uh.
+I should say that this is actually just h i right because these are both the same representations but I.
+just wanted to connect it to the earlier discussion where we had the S and the H and the difference.
+is that now the s's are also available in at one go as opposed to the earlier case right so.
+now what is the attention function that we should choose so earlier we had this attention function right so when.
+we're discussing about rnns this was the attention function where you had St minus 1 here at J here both.
+were undergoing some linear transformation then the resulting output was going under a non-linearity so you have this tannage and.

@@ -1,0 +1,10 @@
+i will get k such deltas okay so this is what the numerator looks like okay now so so far.
+we have that w transpose pi is less than equal to zero hence we made the correction right for the.
+current point this condition was the unfavorable condition was satisfied hence i had made a correction and cos beta was.
+given by this definition of that the numerator is greater than equal to this condition right so the numerator is.
+equal to this and then i derived a series of things that the numerator is greater than equal to zero.
+okay now i'm going to focus on the denominator okay so the denominator is the norm of w t plus.
+1 so the square of the denominator would be the square of the norm okay now again w t plus.
+1 the norm i can first i'm going to expand wt plus 1 which is wt plus pi right so.
+wt plus pi norm square right that is what this is and the norm is just the dot product of.
+the vector with itself right so wt plus uh the square root of the dot product so now this would.

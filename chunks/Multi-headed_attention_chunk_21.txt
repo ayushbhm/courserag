@@ -1,0 +1,9 @@
+final output right so that's all we have done uh with the uh so that's all we are done with.
+the uh encoder layer right so this is one layer of the encoder and now I could stack many such.
+layers but each layer the internal working would remain the same just the output of the previous layer will be.
+the input to this layer so nothing else changes right so we are done with the encoder part of the.
+Transformer so the encoder is composed of n such identical layers and each layer is composed of these two sub.
+layers one is the multi-headed attention and the other is the feed forward neural network uh and so the computer.
+is computation is paralyzed in the horizontal direction right so what do I mean by that is that you of.
+course so if you have these n layers right of course you cannot compute all the layers in parallel right.
+because layer 2 will take the output of layer 1 as input right so unless you have done the layer.

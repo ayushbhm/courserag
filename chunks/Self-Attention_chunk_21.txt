@@ -1,0 +1,9 @@
+parallel as computed as compared to rnns where I was getting 1 then 2 then 3 and then four right.
+but now I have shown you that all of this can be done in parallel and you just need to.
+execute this matrix multiplication which is which is in turn has many matrix multiplication V itself comes from a matrix.
+multiplication K comes from a matrix multiplication Q comes from a matrix multiplication once you have that you do these.
+Matrix multiplications and you get the Z at one go right but all of this is parallelizable I don't need.
+to wait uh to compute ZT minus 1 to compute ZT right that's the main takeaway that I have here.
+right and you see them something here which is you're scaling it by the dimension right so this D was.
+64 in the examples that I had done so there is uh some uh there's some justification for why you.
+need to do that I'll not go into it uh but for all practical purposes you're taking the dot product.

@@ -1,0 +1,9 @@
+some derivatives so I have just a set set of steps which you can uh which one step follows from.
+the previous and you could just go back and look at this if you have any doubts but there's nothing.
+conceptually difficult that I've done here okay now uh from here let's uh now look at this loss right this.
+is our regularized loss and the derivative of the regularized loss as we had derived on the previous slide was.
+this plus Alpha W right this we are derived so remember LW is equal to L W plus Alpha by.
+2 W transpose W now if you take the derivative of this with respect to W so here this derivative.
+all of these are derivatives with respect to W it's obvious from the context so I have not suffixed it.
+explicitly but it's derivative with respect to w uh and so this would just be derivative of this quantity plus.
+the derivative of this quantity and the derivative of this quantity as we saw on the previous slide was just.

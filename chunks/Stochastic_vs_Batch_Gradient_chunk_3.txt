@@ -1,0 +1,8 @@
+because what you're doing is correct all the theoretical guarantees hold so what does that mean so when we are.
+derived gradient descent using the Taylor series approximation we had said that at every step the loss will keep decrease.
+right and that guarantee holds because you are not doing any approximation you have computed the true gradient or the.
+true partial derivative and you are moving the direction opposite to this true partial derivative right and it will become.
+K what I mean by true and not true right what true means here is that there is no approximation.
+in the formula whatever formula you derived you're using exactly the same formula hence all theoretical guarantees hold so that's.
+the good part but what's the flip side what's the bad part the bad part is that suppose you have.
+a million points in the training data right then you'll run this for Loop for all the million points okay.

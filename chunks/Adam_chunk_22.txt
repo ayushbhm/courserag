@@ -1,0 +1,9 @@
+that this blue curve corresponding to atom without bias correction would make very large initial updates that's what we expect.
+so let's see if that is happening and that is indeed the case right it has like gone very fast.
+ahead and then it had to come back right it still converts probably uh easily in this example right because.
+this is a toy example and it had come came back from the valley but you could imagine situations where.
+after making an initial update it would enter some region of the Lost surface from which a recovery might be.
+difficult right it would have reached a region where in that region whatever Minima you could get would perhaps be.
+much higher than what you could have got otherwise right so hence this initially the learning rate is uh very.
+high uh in the case when you do not use bias connection right and that's what you're seeing here in.
+these plots also so let's understand these plots so when we don't have bias correction you see that your learning.

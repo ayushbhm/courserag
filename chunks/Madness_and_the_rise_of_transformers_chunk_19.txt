@@ -1,0 +1,8 @@
+of course it's not saying that they're completely out but since which have been around since 1980s right so we.
+are seeing like uh massive paradigm shifts right in the way things are happening in these fields and now transformers.
+are the talk of the uh town as far as the state-of-the-art models for uh image speech and nlp are.
+concerned today right so yeah okay so now ah we were talking about uh the rise of the transformers now.
+this perhaps should have been a separate section but i just have it here so in parallel while we were.
+talking about image classification and object detection which are largely regression and classification problems there's also interested in generation right.
+you should be able to generate images automatically right you are able to synthesize an image and there was a.
+lot of interest in that over the past few years the first models to do this were variation auto encoders.

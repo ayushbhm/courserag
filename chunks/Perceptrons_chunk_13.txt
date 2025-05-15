@@ -1,0 +1,9 @@
+greater than zero all of these inputs will have to contribute a lot right that means many inputs may have.
+to be on and many high weighted inputs have to be on right so this theta is telling you that.
+what is your inertia for crossing the border right so if you are a very niche moviegoer who only watches.
+movies which have mad demon which are thriller and which are directed by christopher nolan right then your theta let's.
+assume all the weights are one then your theta would be -3 and only if these 3 inputs are on.
+then you will have minus theta which is minus 3 plus the actor is diamond plus the genre is thriller.
+plus the director is nolan and then this would be greater than equal to zero and only then you will.
+go and watch the movies if any of these inputs is not on right if either the actor is not.
+what you're looking for then you'll not go to watch so this is the bias right this is what it.

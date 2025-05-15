@@ -1,0 +1,9 @@
+T is equal to 4 so I'm asking whether Alpha 4 1 Alpha four two four three four four four.
+five because I can take values from one to five can they be computed in parallel right and the answer.
+is yes right because this only depends on St minus 1 which is already available and on hi which is.
+already available right so it depends only on these two values so you can compute this this in parallel right.
+and of course for normalization you need all the values but you can compute the scores in parallel and then.
+once you have this course you can again compute the normalization in parallel right so for a given T you.
+can compute the alpha tis in parallel for All Eyes no matter how many eyes you have right so no.
+matter how long your sequence is you don't need to wait on the previous computation to happen or to have.
+something happen at I minus 1 to be able to compute Alpha TI right you can just compute all of.

@@ -1,0 +1,9 @@
+[Music] so in this module now we'll focus a bit more on this uh boolean functions and when are they.
+linearly separable and not linear separate the reason that we want to delve into this is that we just saw.
+that the perceptron model or the even the perceptron learning algorithm only has guarantees when the data is linearly separable.
+so now what are these linearly separable boolean functions or rather what are boolean functions which are not linearly separable.
+so that's something that we want to understand right so let us see one such simple example and this is.
+a famous xor function that all of you know about so this is what the xor function looks like and.
+now let's see what happens right so if i want to implement this using a perceptron then these are the.
+four inequalities that my weights should satisfy right so for 0 0 inputs when i plug in this formula the.
+output should be less than 0 for 0 1 0 it should be greater than equal to 0 for 0.

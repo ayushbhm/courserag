@@ -1,0 +1,9 @@
+today and we'll end this lecture there and then in the next week I'll talk about some of the other.
+Advanced optimization algorithms okay so let's start with this tips for adjusting the learning rate and uh momentum uh yeah.
+right so now we were looking at gradient descent and this is where we had started right this was our.
+first loss function where we started on this very flat uh plane right and then we argued that when you.
+are in these flat surfaces the gradients are very small and hence your updates will be very small and you'll.
+get stuck there and that's what the motivation for using momentum and nestro and so on right but you could.
+have also argued right that instead of using momentum or nestro I could have just used a larger learning rate.
+right so if I'd increase the learning rate and if my gradient is small it the gradient multiplied by the.
+Learning rate would still have been a large quantity and I would still have got the effect of moving faster.

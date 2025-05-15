@@ -1,0 +1,10 @@
+right which means there are n inputs right and you have a function and you want to take a decision.
+and this function is of course complex that you don't know what it is right so what claims were being.
+made is that if you have this relation where you have an x you have some function which gives you.
+out y right and if you give me enough instances of this which means okay yeah if you give me.
+x 1 y 1 x 2 y 2 x 3 y 3 enough input output pairs of this function right.
+so you have decisions that you have taken in the past for certain inputs then i could train a model.
+right which could take again an input x and give out an output y which would be very close to.
+the true y that should have been there right that is the claim that was being made right and what.
+uh and that's why right i mean translation languages could be one such example you have an input which is.
+a sentence and you produce an output and what was being claimed is i can make a model which can.

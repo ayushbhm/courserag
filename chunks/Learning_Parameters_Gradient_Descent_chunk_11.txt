@@ -1,0 +1,10 @@
+uh understanding now and this is where I'm going to draw the line right so my argument for that would.
+be that ETA is small so ETA square is going to be even smaller hence I can ignore this ETA.
+Q would be even smaller so all of this I can ignore right so since ETA is small I'm just.
+going to cut the derivative or cut the formula here and I'll just use the linear approximation and we have.
+just seen previously that when ETA is small a linear approximation is good enough right so I have reason at.
+least I have shown you geometrically that I can do that okay so this is what I'm going to do.
+okay now ah this move right this is the move that I have made I was comfortably at some value.
+of theta there was a certain loss there and I decided to make this move now this move would be.
+favorable only if what is the condition that I would want I have moved and I would call the move.
+to be favorable only if so only if this value is less than this value right otherwise it's not favorable.

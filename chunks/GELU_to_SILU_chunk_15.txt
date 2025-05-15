@@ -1,0 +1,9 @@
+by an appropriate Lambda then you could have some of equal distribution along these two paths and then you get.
+almost zero centering and it depends on how you choose the value of Lambda and a few values of Lambda.
+that people have suggested uh empirically uh derived are these Lambda values are Lambda equal to 1.05 or Lambda equal.
+to 1.67 if you do this then you get some sort of zero centering and that's exactly what cellu tries.
+to do right uh now upper now after these activation functions uh came up right then of course this question.
+arises I mean till when can I keep discovering these functions right is there a better way of searching these.
+activation functions can I automatically search for them right and there was this work which tried to search for Activation.
+functions so think that there are many functions right this is a space of all functions possible you have Max.
+you have I mean you have the relu here you have the logistic sigmoid tan H everything here right and.

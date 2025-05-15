@@ -1,0 +1,11 @@
+uh decision is of course W1 it's uh sorry yeah so it's w naught plus W1 X1 plus W 2.
+x 2 greater than equal to 0 then the output would be 1 otherwise it would be zero right so.
+now let me just fix this as W naught s minus one right so that is what I have done.
+here so my w naught is fixed to minus 1 okay again I did the same thing okay okay so.
+w naught is minus one and I will try different values of w one W two right so it just.
+so happens that the first value that I tried was W one equal to minus 1 w t equal to.
+minus 1 and that is the line that I have drawn here so this since W naught is minus 1.
+of course the Y intercept is minus 1 and then I have minus x 1 minus x 2 and this.
+is the line that I get now what is wrong with this line yeah so obviously if you look at.
+the negative half space of the line which is shown in the red region right and now this is an.
+example where it's clear that it's not always correct to say lies above the line right because these are all.

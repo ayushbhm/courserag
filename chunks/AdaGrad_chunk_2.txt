@@ -1,0 +1,9 @@
+is very dense and which has got a lot of updates then this history keeps increasing right because you are.
+making large updates at every time Step at time step 0 you made an update time step one you made.
+an update time step two you made an update and all of this is getting added here and all of.
+these were large quantities because this this was say a spa a dense feature right then your VT after a.
+few iterations will grow and the learning rate would appropriately shrink right but if this was a sparse feature then.
+across iterations maybe even when I reach t equal to 100 nothing much has been accumulated here right because all.
+these updates were very very small because this was a sparse feature so hence my VT has not grown much.
+and hence my learning rate will not decrease aggressively right so now the learning rate has become uh proportional or.
+rather inversely proportional to my update history if I made large updates then I degrees the learning rate aggressively if.

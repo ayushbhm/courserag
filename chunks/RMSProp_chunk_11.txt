@@ -1,0 +1,9 @@
+right and after across 500 iterations I have plotted the uh gradients here and this is what is uh happening.
+and you have this oscillation around the Minima so if the learning rate is constant so now we have made.
+a case that the learning rate could become constant now if the learning rate becomes constant why should there be.
+oscillations right why could there be oscillation so let's try to see an explanation for that right suppose let me.
+take a simple example this is what my curve is okay and now suppose I was here okay at this.
+point okay suppose I was at this point uh yeah and I computed the derivative so this slope will give.
+me the derivative and I made the update and after the update so let me just see I'm on the.
+W axis I was here and I added the I mean I moved in the direction oppose it to the.
+gradient and I ended up here right now again I compute the derivative here again I'll move in the direction.

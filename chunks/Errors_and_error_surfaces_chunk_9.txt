@@ -1,0 +1,9 @@
+but this is okay visually to do but ideally we would want an algorithm such that I don't now I.
+can plot this visually for two inputs right but if I had n inputs I can't even plot and visualize.
+it right so now I'm looking for an algorithm just as visually by looking at this plot I can find.
+out what they write w and W two values are can I have an algorithm which allows me to find.
+one such W one W two such that if my input is linearly separable then for that value of w.
+and W 2 my positive points would be on the right side and my negative side points would also be.
+on the right side right on the correct side or in the right half space right so that's the algorithm.
+that we are looking for and that's the perceptron learning algorithm that we will see in the next module thank.
+you.

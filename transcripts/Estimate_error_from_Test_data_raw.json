@@ -1,0 +1,2182 @@
+[
+  {
+    "text": "foreign",
+    "start": 0.299,
+    "duration": 3.0
+  },
+  {
+    "text": "[Music]",
+    "start": 6.62,
+    "duration": 14.89
+  },
+  {
+    "text": "data as D which contains M plus n points",
+    "start": 22.4,
+    "duration": 6.58
+  },
+  {
+    "text": "where you have M ah or other n training",
+    "start": 25.859,
+    "duration": 5.221
+  },
+  {
+    "text": "points and M test points right or the",
+    "start": 28.98,
+    "duration": 3.72
+  },
+  {
+    "text": "other way around as we defined on the",
+    "start": 31.08,
+    "duration": 4.44
+  },
+  {
+    "text": "previous slide now we also know that ah",
+    "start": 32.7,
+    "duration": 5.34
+  },
+  {
+    "text": "some true function exists such that Y is",
+    "start": 35.52,
+    "duration": 4.98
+  },
+  {
+    "text": "f of x plus Epsilon what does that mean",
+    "start": 38.04,
+    "duration": 5.519
+  },
+  {
+    "text": "that Y is is related to x i by some true",
+    "start": 40.5,
+    "duration": 5.46
+  },
+  {
+    "text": "function f but there is also some noise",
+    "start": 43.559,
+    "duration": 4.081
+  },
+  {
+    "text": "Epsilon in the relationship right just",
+    "start": 45.96,
+    "duration": 3.599
+  },
+  {
+    "text": "like in any in relation that you might",
+    "start": 47.64,
+    "duration": 5.099
+  },
+  {
+    "text": "have some noise so you ideally want Y is",
+    "start": 49.559,
+    "duration": 5.281
+  },
+  {
+    "text": "equal to f of x but there might be some",
+    "start": 52.739,
+    "duration": 5.041
+  },
+  {
+    "text": "minor noise and for Simplicity we assume",
+    "start": 54.84,
+    "duration": 4.98
+  },
+  {
+    "text": "that this noise is zero Center that",
+    "start": 57.78,
+    "duration": 4.619
+  },
+  {
+    "text": "means it has zero mean and a small",
+    "start": 59.82,
+    "duration": 4.919
+  },
+  {
+    "text": "variance Sigma square right so that's",
+    "start": 62.399,
+    "duration": 4.981
+  },
+  {
+    "text": "what we are going to assume and of",
+    "start": 64.739,
+    "duration": 4.441
+  },
+  {
+    "text": "course we do not know F right if you",
+    "start": 67.38,
+    "duration": 4.14
+  },
+  {
+    "text": "knew F then there's nothing to do but we",
+    "start": 69.18,
+    "duration": 3.6
+  },
+  {
+    "text": "don't know f",
+    "start": 71.52,
+    "duration": 4.74
+  },
+  {
+    "text": "so what we do is we approximate f using",
+    "start": 72.78,
+    "duration": 7.019
+  },
+  {
+    "text": "F hat and then we estimate the F hat the",
+    "start": 76.26,
+    "duration": 6.12
+  },
+  {
+    "text": "parameters of f hat using uh the",
+    "start": 79.799,
+    "duration": 4.081
+  },
+  {
+    "text": "training data which is going to be a",
+    "start": 82.38,
+    "duration": 3.18
+  },
+  {
+    "text": "subset of this capital D right so I am",
+    "start": 83.88,
+    "duration": 3.18
+  },
+  {
+    "text": "going to refer to the training data as T",
+    "start": 85.56,
+    "duration": 3.48
+  },
+  {
+    "text": "and it's going to be a subset of the D",
+    "start": 87.06,
+    "duration": 5.58
+  },
+  {
+    "text": "which I have defined earlier and ah Y is",
+    "start": 89.04,
+    "duration": 5.7
+  },
+  {
+    "text": "going to be F hat of X now right so that",
+    "start": 92.64,
+    "duration": 4.2
+  },
+  {
+    "text": "is the approximation that we have made",
+    "start": 94.74,
+    "duration": 3.839
+  },
+  {
+    "text": "instead of Y is equal to F X Plus",
+    "start": 96.84,
+    "duration": 4.56
+  },
+  {
+    "text": "Epsilon which was a true relation and we",
+    "start": 98.579,
+    "duration": 4.381
+  },
+  {
+    "text": "did not know F we have come up with some",
+    "start": 101.4,
+    "duration": 3.539
+  },
+  {
+    "text": "approximation F hat and we have freedom",
+    "start": 102.96,
+    "duration": 4.74
+  },
+  {
+    "text": "in choosing what F hat we want to choose",
+    "start": 104.939,
+    "duration": 5.46
+  },
+  {
+    "text": "from like a family of functions and we",
+    "start": 107.7,
+    "duration": 4.62
+  },
+  {
+    "text": "could have different parameters for that",
+    "start": 110.399,
+    "duration": 4.381
+  },
+  {
+    "text": "right so we are",
+    "start": 112.32,
+    "duration": 5.759
+  },
+  {
+    "text": "interested in knowing ah the expected",
+    "start": 114.78,
+    "duration": 7.32
+  },
+  {
+    "text": "value of F hat x minus f of x the whole",
+    "start": 118.079,
+    "duration": 6.061
+  },
+  {
+    "text": "square right so this is the mean square",
+    "start": 122.1,
+    "duration": 4.199
+  },
+  {
+    "text": "error ah indeed",
+    "start": 124.14,
+    "duration": 4.14
+  },
+  {
+    "text": "so here expectation stands for the mean",
+    "start": 126.299,
+    "duration": 4.621
+  },
+  {
+    "text": "this is the error this is the square of",
+    "start": 128.28,
+    "duration": 3.78
+  },
+  {
+    "text": "the error so this is the mean square",
+    "start": 130.92,
+    "duration": 4.02
+  },
+  {
+    "text": "error so the simply put the square of",
+    "start": 132.06,
+    "duration": 5.7
+  },
+  {
+    "text": "the difference between the predicted",
+    "start": 134.94,
+    "duration": 5.4
+  },
+  {
+    "text": "value from R approximation and the True",
+    "start": 137.76,
+    "duration": 5.4
+  },
+  {
+    "text": "Value and this expectation computed over",
+    "start": 140.34,
+    "duration": 4.74
+  },
+  {
+    "text": "a large number of samples right that is",
+    "start": 143.16,
+    "duration": 4.98
+  },
+  {
+    "text": "what we are interested in estimate but",
+    "start": 145.08,
+    "duration": 4.56
+  },
+  {
+    "text": "of course we cannot estimate this",
+    "start": 148.14,
+    "duration": 3.179
+  },
+  {
+    "text": "directly right because this requires us",
+    "start": 149.64,
+    "duration": 4.56
+  },
+  {
+    "text": "to know f of x and we do not know f of x",
+    "start": 151.319,
+    "duration": 4.381
+  },
+  {
+    "text": "right so how do we compute this because",
+    "start": 154.2,
+    "duration": 3.06
+  },
+  {
+    "text": "this has a quantity that we do not even",
+    "start": 155.7,
+    "duration": 4.56
+  },
+  {
+    "text": "know right but we will still be able to",
+    "start": 157.26,
+    "duration": 4.8
+  },
+  {
+    "text": "estimate this empirically because",
+    "start": 160.26,
+    "duration": 4.199
+  },
+  {
+    "text": "although we do not know F we do not know",
+    "start": 162.06,
+    "duration": 4.08
+  },
+  {
+    "text": "the true function f",
+    "start": 164.459,
+    "duration": 3.541
+  },
+  {
+    "text": "we have been given a lot of training",
+    "start": 166.14,
+    "duration": 3.599
+  },
+  {
+    "text": "points right where these y's are known",
+    "start": 168.0,
+    "duration": 4.379
+  },
+  {
+    "text": "so those y's we know are coming from",
+    "start": 169.739,
+    "duration": 4.5
+  },
+  {
+    "text": "some relation f of x plus Epsilon so",
+    "start": 172.379,
+    "duration": 3.421
+  },
+  {
+    "text": "even if you don't know what the",
+    "start": 174.239,
+    "duration": 4.021
+  },
+  {
+    "text": "relationship is we are given some of",
+    "start": 175.8,
+    "duration": 4.86
+  },
+  {
+    "text": "these x's and the corresponding y's so",
+    "start": 178.26,
+    "duration": 4.92
+  },
+  {
+    "text": "we know the X comma y pairs right so we",
+    "start": 180.66,
+    "duration": 5.34
+  },
+  {
+    "text": "have some idea of what f of x looks like",
+    "start": 183.18,
+    "duration": 5.639
+  },
+  {
+    "text": "for the given X's that we have we do not",
+    "start": 186.0,
+    "duration": 4.92
+  },
+  {
+    "text": "know the full function but at least for",
+    "start": 188.819,
+    "duration": 4.021
+  },
+  {
+    "text": "the X's that are there in our training",
+    "start": 190.92,
+    "duration": 4.14
+  },
+  {
+    "text": "set we know what the Y's look like right",
+    "start": 192.84,
+    "duration": 5.64
+  },
+  {
+    "text": "so we have some of these and similarly F",
+    "start": 195.06,
+    "duration": 5.819
+  },
+  {
+    "text": "at X is also we can compute because we",
+    "start": 198.48,
+    "duration": 4.44
+  },
+  {
+    "text": "can pass the X through the function that",
+    "start": 200.879,
+    "duration": 4.561
+  },
+  {
+    "text": "we have approximated or the approximate",
+    "start": 202.92,
+    "duration": 3.959
+  },
+  {
+    "text": "function that we approximation function",
+    "start": 205.44,
+    "duration": 3.299
+  },
+  {
+    "text": "that we have used and that could give us",
+    "start": 206.879,
+    "duration": 3.901
+  },
+  {
+    "text": "y hat I right and then we could compute",
+    "start": 208.739,
+    "duration": 4.381
+  },
+  {
+    "text": "this as a difference so f x you could",
+    "start": 210.78,
+    "duration": 5.58
+  },
+  {
+    "text": "replace by Y and ah F hat X you could",
+    "start": 213.12,
+    "duration": 6.66
+  },
+  {
+    "text": "replace by this y hat right this is y",
+    "start": 216.36,
+    "duration": 6.42
+  },
+  {
+    "text": "hat which I often call it as just Y and",
+    "start": 219.78,
+    "duration": 4.739
+  },
+  {
+    "text": "it's from the context it's clear whether",
+    "start": 222.78,
+    "duration": 4.08
+  },
+  {
+    "text": "I am referring to F at X X or the",
+    "start": 224.519,
+    "duration": 3.541
+  },
+  {
+    "text": "original function there but now I will",
+    "start": 226.86,
+    "duration": 4.26
+  },
+  {
+    "text": "make it explicit that one is all I do",
+    "start": 228.06,
+    "duration": 4.62
+  },
+  {
+    "text": "not need to actually use y hat here I",
+    "start": 231.12,
+    "duration": 3.06
+  },
+  {
+    "text": "can just say F hat X which you",
+    "start": 232.68,
+    "duration": 4.32
+  },
+  {
+    "text": "understand what is and f x is just Y",
+    "start": 234.18,
+    "duration": 4.32
+  },
+  {
+    "text": "which are the training points that are",
+    "start": 237.0,
+    "duration": 4.56
+  },
+  {
+    "text": "given to me right so now ah let us go",
+    "start": 238.5,
+    "duration": 5.42
+  },
+  {
+    "text": "further",
+    "start": 241.56,
+    "duration": 2.36
+  },
+  {
+    "text": "so this is the quantity that I am",
+    "start": 250.2,
+    "duration": 3.3
+  },
+  {
+    "text": "interested in then right so I have just",
+    "start": 251.879,
+    "duration": 7.32
+  },
+  {
+    "text": "replaced f of x by Y and F hat of X by y",
+    "start": 253.5,
+    "duration": 8.16
+  },
+  {
+    "text": "hat right ah so this is what the",
+    "start": 259.199,
+    "duration": 4.741
+  },
+  {
+    "text": "quantity is that I am interested in and",
+    "start": 261.66,
+    "duration": 6.02
+  },
+  {
+    "text": "now I know that Y is actually",
+    "start": 263.94,
+    "duration": 3.74
+  },
+  {
+    "text": "f of x minus Epsilon right so I can just",
+    "start": 268.259,
+    "duration": 5.101
+  },
+  {
+    "text": "substitute sorry f of x plus Epsilon so",
+    "start": 271.44,
+    "duration": 5.539
+  },
+  {
+    "text": "I can just substitute that",
+    "start": 273.36,
+    "duration": 3.619
+  },
+  {
+    "text": "and now I'm just going to like kind of",
+    "start": 277.259,
+    "duration": 4.201
+  },
+  {
+    "text": "open up this square and rearrange some",
+    "start": 279.24,
+    "duration": 6.6
+  },
+  {
+    "text": "terms right so I'm looking at this as",
+    "start": 281.46,
+    "duration": 7.799
+  },
+  {
+    "text": "a minus B the whole Square where a is",
+    "start": 285.84,
+    "duration": 6.72
+  },
+  {
+    "text": "equal to F hat x minus f x and B is",
+    "start": 289.259,
+    "duration": 4.981
+  },
+  {
+    "text": "equal to Epsilon right so that is how I",
+    "start": 292.56,
+    "duration": 6.32
+  },
+  {
+    "text": "have expanded this uh formula",
+    "start": 294.24,
+    "duration": 4.64
+  },
+  {
+    "text": "I just open the bracket rearrange some",
+    "start": 301.74,
+    "duration": 5.399
+  },
+  {
+    "text": "terms and so on so a expectation of a",
+    "start": 304.32,
+    "duration": 4.26
+  },
+  {
+    "text": "sum is the same as the sum of the",
+    "start": 307.139,
+    "duration": 3.241
+  },
+  {
+    "text": "expectations so I can write this",
+    "start": 308.58,
+    "duration": 3.72
+  },
+  {
+    "text": "expectation of the three terms that I",
+    "start": 310.38,
+    "duration": 4.08
+  },
+  {
+    "text": "had a square minus 2 a B plus b square",
+    "start": 312.3,
+    "duration": 4.44
+  },
+  {
+    "text": "as the sum of the expectations of these",
+    "start": 314.46,
+    "duration": 4.86
+  },
+  {
+    "text": "terms so expectation of a square minus",
+    "start": 316.74,
+    "duration": 6.179
+  },
+  {
+    "text": "expectation of 2 a b uh plus expectation",
+    "start": 319.32,
+    "duration": 5.819
+  },
+  {
+    "text": "of b square right with a and b as",
+    "start": 322.919,
+    "duration": 4.5
+  },
+  {
+    "text": "defined earlier and of course a constant",
+    "start": 325.139,
+    "duration": 6.361
+  },
+  {
+    "text": "I can take outside ah",
+    "start": 327.419,
+    "duration": 4.081
+  },
+  {
+    "text": "so now if you look at it",
+    "start": 331.56,
+    "duration": 4.74
+  },
+  {
+    "text": "this is the quantity that I was",
+    "start": 334.5,
+    "duration": 3.18
+  },
+  {
+    "text": "interested in",
+    "start": 336.3,
+    "duration": 3.6
+  },
+  {
+    "text": "and I did not know how to estimate it",
+    "start": 337.68,
+    "duration": 4.68
+  },
+  {
+    "text": "but now I have been able to rewrite that",
+    "start": 339.9,
+    "duration": 5.94
+  },
+  {
+    "text": "quantity in terms of things here and",
+    "start": 342.36,
+    "duration": 6.66
+  },
+  {
+    "text": "here I see some hope now because now I",
+    "start": 345.84,
+    "duration": 5.82
+  },
+  {
+    "text": "have this y hat and Y here which is just",
+    "start": 349.02,
+    "duration": 4.38
+  },
+  {
+    "text": "the training data that was given to me",
+    "start": 351.66,
+    "duration": 4.259
+  },
+  {
+    "text": "those are the Y's and the predictions",
+    "start": 353.4,
+    "duration": 4.2
+  },
+  {
+    "text": "that are my model made so this is",
+    "start": 355.919,
+    "duration": 3.84
+  },
+  {
+    "text": "something I can estimate expectation of",
+    "start": 357.6,
+    "duration": 4.14
+  },
+  {
+    "text": "Epsilon Square I can estimate it's just",
+    "start": 359.759,
+    "duration": 4.861
+  },
+  {
+    "text": "the I'd already assumed that Epsilon",
+    "start": 361.74,
+    "duration": 6.06
+  },
+  {
+    "text": "comes from the normal distribution right",
+    "start": 364.62,
+    "duration": 5.4
+  },
+  {
+    "text": "so expect expectation of Epsilon square",
+    "start": 367.8,
+    "duration": 3.899
+  },
+  {
+    "text": "is just going to be Sigma Square so that",
+    "start": 370.02,
+    "duration": 3.959
+  },
+  {
+    "text": "I can compute again here I have a slight",
+    "start": 371.699,
+    "duration": 3.961
+  },
+  {
+    "text": "problem but we will come back to this",
+    "start": 373.979,
+    "duration": 4.741
+  },
+  {
+    "text": "right so I have just now Rewritten the",
+    "start": 375.66,
+    "duration": 6.12
+  },
+  {
+    "text": "quantity of interest in terms of a set",
+    "start": 378.72,
+    "duration": 5.34
+  },
+  {
+    "text": "of quantities of which some quantities I",
+    "start": 381.78,
+    "duration": 4.199
+  },
+  {
+    "text": "can compute and there is one quantity",
+    "start": 384.06,
+    "duration": 3.66
+  },
+  {
+    "text": "which I can still not compute but we",
+    "start": 385.979,
+    "duration": 5.121
+  },
+  {
+    "text": "will see how to deal with that",
+    "start": 387.72,
+    "duration": 3.38
+  },
+  {
+    "text": "ok so now what we will do is now we will",
+    "start": 393.12,
+    "duration": 4.26
+  },
+  {
+    "text": "take a small detour to understand how to",
+    "start": 395.46,
+    "duration": 4.44
+  },
+  {
+    "text": "empirically estimate an expectation and",
+    "start": 397.38,
+    "duration": 4.319
+  },
+  {
+    "text": "then return to our derivation let's see",
+    "start": 399.9,
+    "duration": 3.72
+  },
+  {
+    "text": "what I mean by that so suppose we have",
+    "start": 401.699,
+    "duration": 4.44
+  },
+  {
+    "text": "observed the goals scored in K matches",
+    "start": 403.62,
+    "duration": 5.639
+  },
+  {
+    "text": "you are watching some football uh a lot",
+    "start": 406.139,
+    "duration": 5.581
+  },
+  {
+    "text": "of football games and you've watched",
+    "start": 409.259,
+    "duration": 6.121
+  },
+  {
+    "text": "some 100 200 games and you have observed",
+    "start": 411.72,
+    "duration": 5.34
+  },
+  {
+    "text": "the number of goals scored say 100 200",
+    "start": 415.38,
+    "duration": 3.659
+  },
+  {
+    "text": "games between if you want the same pair",
+    "start": 417.06,
+    "duration": 6.0
+  },
+  {
+    "text": "of teams or uh all cities one team is",
+    "start": 419.039,
+    "duration": 5.701
+  },
+  {
+    "text": "constant there right so how many goals",
+    "start": 423.06,
+    "duration": 4.979
+  },
+  {
+    "text": "on average does say Brazil score or some",
+    "start": 424.74,
+    "duration": 5.34
+  },
+  {
+    "text": "other team scores right I never observed",
+    "start": 428.039,
+    "duration": 4.5
+  },
+  {
+    "text": "this and now the way you compute the",
+    "start": 430.08,
+    "duration": 4.679
+  },
+  {
+    "text": "expected value we are interested in what",
+    "start": 432.539,
+    "duration": 5.401
+  },
+  {
+    "text": "is the expected value of Z so our random",
+    "start": 434.759,
+    "duration": 6.121
+  },
+  {
+    "text": "variable here is z and it can take any",
+    "start": 437.94,
+    "duration": 6.24
+  },
+  {
+    "text": "value 0 1 2 3 4 5 6 7 maybe as many",
+    "start": 440.88,
+    "duration": 5.219
+  },
+  {
+    "text": "goals as you can score and you are",
+    "start": 444.18,
+    "duration": 3.72
+  },
+  {
+    "text": "interested in the expected value right",
+    "start": 446.099,
+    "duration": 3.961
+  },
+  {
+    "text": "now expectation as you define in",
+    "start": 447.9,
+    "duration": 4.38
+  },
+  {
+    "text": "probability of course is you have to",
+    "start": 450.06,
+    "duration": 4.38
+  },
+  {
+    "text": "have repeat this a large number of times",
+    "start": 452.28,
+    "duration": 4.259
+  },
+  {
+    "text": "but you only have like some K matches",
+    "start": 454.44,
+    "duration": 4.74
+  },
+  {
+    "text": "that you have seen the way you compute",
+    "start": 456.539,
+    "duration": 4.861
+  },
+  {
+    "text": "the estimate or you empirically estimate",
+    "start": 459.18,
+    "duration": 4.5
+  },
+  {
+    "text": "the expectation is by using this formula",
+    "start": 461.4,
+    "duration": 3.359
+  },
+  {
+    "text": "right this is something that we have",
+    "start": 463.68,
+    "duration": 4.44
+  },
+  {
+    "text": "been doing for ages right I mean in in",
+    "start": 464.759,
+    "duration": 6.84
+  },
+  {
+    "text": "our studies in high school engineering",
+    "start": 468.12,
+    "duration": 5.82
+  },
+  {
+    "text": "and so on where we just compute we are",
+    "start": 471.599,
+    "duration": 4.021
+  },
+  {
+    "text": "given a set of samples and we compute",
+    "start": 473.94,
+    "duration": 4.259
+  },
+  {
+    "text": "the average as using this formula and",
+    "start": 475.62,
+    "duration": 4.079
+  },
+  {
+    "text": "that average is actually the empirical",
+    "start": 478.199,
+    "duration": 3.9
+  },
+  {
+    "text": "estimate of the expectation right and",
+    "start": 479.699,
+    "duration": 4.581
+  },
+  {
+    "text": "the analogy to our",
+    "start": 482.099,
+    "duration": 5.461
+  },
+  {
+    "text": "our derivation where we were stuck would",
+    "start": 484.28,
+    "duration": 4.84
+  },
+  {
+    "text": "be the following that I am interested in",
+    "start": 487.56,
+    "duration": 4.68
+  },
+  {
+    "text": "the expected value of the square error",
+    "start": 489.12,
+    "duration": 6.12
+  },
+  {
+    "text": "between y hat and Y and that I can just",
+    "start": 492.24,
+    "duration": 5.459
+  },
+  {
+    "text": "approximate from the data that I have so",
+    "start": 495.24,
+    "duration": 5.1
+  },
+  {
+    "text": "I have seen M training points for each",
+    "start": 497.699,
+    "duration": 5.581
+  },
+  {
+    "text": "of those training points I know what my",
+    "start": 500.34,
+    "duration": 4.62
+  },
+  {
+    "text": "y hat is because I can pass it through",
+    "start": 503.28,
+    "duration": 4.319
+  },
+  {
+    "text": "my F at X and get the answer I know what",
+    "start": 504.96,
+    "duration": 4.26
+  },
+  {
+    "text": "the true Y is because that was given to",
+    "start": 507.599,
+    "duration": 3.361
+  },
+  {
+    "text": "me in the training data and I can",
+    "start": 509.22,
+    "duration": 3.42
+  },
+  {
+    "text": "compute the difference between them",
+    "start": 510.96,
+    "duration": 3.959
+  },
+  {
+    "text": "Square it and take the average so this",
+    "start": 512.64,
+    "duration": 4.98
+  },
+  {
+    "text": "would be my empirical estimate for the",
+    "start": 514.919,
+    "duration": 4.141
+  },
+  {
+    "text": "expectation and that's all I can do",
+    "start": 517.62,
+    "duration": 3.12
+  },
+  {
+    "text": "right I cannot really compute the true",
+    "start": 519.06,
+    "duration": 4.26
+  },
+  {
+    "text": "expectation because that would",
+    "start": 520.74,
+    "duration": 5.28
+  },
+  {
+    "text": "mean to expectation or all possible X's",
+    "start": 523.32,
+    "duration": 4.32
+  },
+  {
+    "text": "that I can get and that's not possible",
+    "start": 526.02,
+    "duration": 4.56
+  },
+  {
+    "text": "to do for all the possible X's I need to",
+    "start": 527.64,
+    "duration": 5.819
+  },
+  {
+    "text": "compute the Y hats also know the true y",
+    "start": 530.58,
+    "duration": 4.92
+  },
+  {
+    "text": "but if I already knew the true y for all",
+    "start": 533.459,
+    "duration": 3.601
+  },
+  {
+    "text": "possible X's then there's nothing to",
+    "start": 535.5,
+    "duration": 3.0
+  },
+  {
+    "text": "estimate right so I just have a small",
+    "start": 537.06,
+    "duration": 4.38
+  },
+  {
+    "text": "sample of reasonable size so I'm just",
+    "start": 538.5,
+    "duration": 4.68
+  },
+  {
+    "text": "going to empirically estimate the",
+    "start": 541.44,
+    "duration": 4.38
+  },
+  {
+    "text": "expectation using that sample right so",
+    "start": 543.18,
+    "duration": 5.04
+  },
+  {
+    "text": "wherever I see expected value of y hat",
+    "start": 545.82,
+    "duration": 4.26
+  },
+  {
+    "text": "minus y the whole Square I am going to",
+    "start": 548.22,
+    "duration": 4.559
+  },
+  {
+    "text": "replace it by this formula okay so that",
+    "start": 550.08,
+    "duration": 4.8
+  },
+  {
+    "text": "is the main idea and that's why on the",
+    "start": 552.779,
+    "duration": 3.901
+  },
+  {
+    "text": "previous slide I was saying that this is",
+    "start": 554.88,
+    "duration": 3.48
+  },
+  {
+    "text": "something that we can compute and now I",
+    "start": 556.68,
+    "duration": 3.06
+  },
+  {
+    "text": "have shown you how to compute that right",
+    "start": 558.36,
+    "duration": 3.9
+  },
+  {
+    "text": "so let us return back ah to our",
+    "start": 559.74,
+    "duration": 4.68
+  },
+  {
+    "text": "derivation now",
+    "start": 562.26,
+    "duration": 5.28
+  },
+  {
+    "text": "so this is the expectation this is the",
+    "start": 564.42,
+    "duration": 4.979
+  },
+  {
+    "text": "expected error right the true error that",
+    "start": 567.54,
+    "duration": 3.72
+  },
+  {
+    "text": "we were interested in Computing I call",
+    "start": 569.399,
+    "duration": 3.661
+  },
+  {
+    "text": "this a true error because this is the",
+    "start": 571.26,
+    "duration": 3.72
+  },
+  {
+    "text": "difference between the predicted value",
+    "start": 573.06,
+    "duration": 4.02
+  },
+  {
+    "text": "and the true function value right but we",
+    "start": 574.98,
+    "duration": 3.479
+  },
+  {
+    "text": "do not know the true function value so",
+    "start": 577.08,
+    "duration": 3.6
+  },
+  {
+    "text": "we cannot estimate this quantity and now",
+    "start": 578.459,
+    "duration": 4.021
+  },
+  {
+    "text": "we have written it as a sum of three",
+    "start": 580.68,
+    "duration": 4.2
+  },
+  {
+    "text": "terms of which I just showed you how to",
+    "start": 582.48,
+    "duration": 4.5
+  },
+  {
+    "text": "compute the first one empirically right",
+    "start": 584.88,
+    "duration": 4.44
+  },
+  {
+    "text": "so now you could compute it empirically",
+    "start": 586.98,
+    "duration": 4.62
+  },
+  {
+    "text": "from the data but there are two cases",
+    "start": 589.32,
+    "duration": 4.34
+  },
+  {
+    "text": "you can either use the test data to",
+    "start": 591.6,
+    "duration": 4.44
+  },
+  {
+    "text": "compute this or to estimate this",
+    "start": 593.66,
+    "duration": 4.239
+  },
+  {
+    "text": "quantity or you could use the training",
+    "start": 596.04,
+    "duration": 3.299
+  },
+  {
+    "text": "data right so let us look at both the",
+    "start": 597.899,
+    "duration": 4.201
+  },
+  {
+    "text": "cases so first we look at the case when",
+    "start": 599.339,
+    "duration": 5.281
+  },
+  {
+    "text": "we are looking at the test data okay so",
+    "start": 602.1,
+    "duration": 5.28
+  },
+  {
+    "text": "now suppose I look at the test data then",
+    "start": 604.62,
+    "duration": 4.32
+  },
+  {
+    "text": "this is the true error that I am",
+    "start": 607.38,
+    "duration": 3.66
+  },
+  {
+    "text": "interested in now the first quantity",
+    "start": 608.94,
+    "duration": 4.64
+  },
+  {
+    "text": "here",
+    "start": 611.04,
+    "duration": 2.54
+  },
+  {
+    "text": "I'm going to replace it by the empirical",
+    "start": 617.16,
+    "duration": 3.66
+  },
+  {
+    "text": "estimate that I just showed on the",
+    "start": 619.26,
+    "duration": 3.54
+  },
+  {
+    "text": "previous slide which is the average",
+    "start": 620.82,
+    "duration": 4.98
+  },
+  {
+    "text": "computed from the m test points that you",
+    "start": 622.8,
+    "duration": 4.979
+  },
+  {
+    "text": "had and the test points were the points",
+    "start": 625.8,
+    "duration": 4.44
+  },
+  {
+    "text": "from n plus 1 to n plus M I know what",
+    "start": 627.779,
+    "duration": 4.201
+  },
+  {
+    "text": "the predicted value is I know what the",
+    "start": 630.24,
+    "duration": 3.3
+  },
+  {
+    "text": "true value is because I was given the",
+    "start": 631.98,
+    "duration": 4.68
+  },
+  {
+    "text": "data as x i comma y i pairs right so I",
+    "start": 633.54,
+    "duration": 4.799
+  },
+  {
+    "text": "had these pairs I know the what the true",
+    "start": 636.66,
+    "duration": 4.32
+  },
+  {
+    "text": "value is and I just compute this",
+    "start": 638.339,
+    "duration": 4.141
+  },
+  {
+    "text": "difference and this is of course easy to",
+    "start": 640.98,
+    "duration": 3.66
+  },
+  {
+    "text": "compute this is expectation of Epsilon",
+    "start": 642.48,
+    "duration": 4.56
+  },
+  {
+    "text": "square and I just told you earlier that",
+    "start": 644.64,
+    "duration": 5.46
+  },
+  {
+    "text": "explain expectation Epsilon comes from 0",
+    "start": 647.04,
+    "duration": 5.46
+  },
+  {
+    "text": "comma Sigma Square so expected value of",
+    "start": 650.1,
+    "duration": 5.1
+  },
+  {
+    "text": "Epsilon square is just the variance",
+    "start": 652.5,
+    "duration": 5.519
+  },
+  {
+    "text": "which is Sigma Square so Sigma square is",
+    "start": 655.2,
+    "duration": 6.12
+  },
+  {
+    "text": "going to be small so this is a small ah",
+    "start": 658.019,
+    "duration": 5.76
+  },
+  {
+    "text": "constant that will get added here",
+    "start": 661.32,
+    "duration": 5.1
+  },
+  {
+    "text": "and then you have this third quantity",
+    "start": 663.779,
+    "duration": 4.74
+  },
+  {
+    "text": "that you still don't know how to deal",
+    "start": 666.42,
+    "duration": 5.34
+  },
+  {
+    "text": "with right ah so let's just see how to",
+    "start": 668.519,
+    "duration": 6.38
+  },
+  {
+    "text": "deal with that quantity",
+    "start": 671.76,
+    "duration": 3.139
+  },
+  {
+    "text": "so what I've written here is that this",
+    "start": 674.94,
+    "duration": 5.579
+  },
+  {
+    "text": "is the covariance between uh these two",
+    "start": 677.04,
+    "duration": 8.84
+  },
+  {
+    "text": "uh values right ah and",
+    "start": 680.519,
+    "duration": 5.361
+  },
+  {
+    "text": "the",
+    "start": 687.12,
+    "duration": 2.54
+  },
+  {
+    "text": "yeah so what I've written here is the",
+    "start": 690.12,
+    "duration": 3.839
+  },
+  {
+    "text": "this this quantity here I mean keeping",
+    "start": 691.74,
+    "duration": 4.56
+  },
+  {
+    "text": "the two aside is actually the covariance",
+    "start": 693.959,
+    "duration": 4.081
+  },
+  {
+    "text": "between these two random variables",
+    "start": 696.3,
+    "duration": 4.2
+  },
+  {
+    "text": "Epsilon which is the noise and F at x",
+    "start": 698.04,
+    "duration": 4.799
+  },
+  {
+    "text": "minus f x these two random variables and",
+    "start": 700.5,
+    "duration": 4.079
+  },
+  {
+    "text": "I'll tell you why I am saying that right",
+    "start": 702.839,
+    "duration": 4.62
+  },
+  {
+    "text": "ah so you have the covariance between X",
+    "start": 704.579,
+    "duration": 6.721
+  },
+  {
+    "text": "comma Y is e of X the expected value of",
+    "start": 707.459,
+    "duration": 7.141
+  },
+  {
+    "text": "x minus the MU mean of X and Y minus the",
+    "start": 711.3,
+    "duration": 7.26
+  },
+  {
+    "text": "mean of Y ah r x is Epsilon so the mean",
+    "start": 714.6,
+    "duration": 7.38
+  },
+  {
+    "text": "of X is of course 0 ah so the mean of X",
+    "start": 718.56,
+    "duration": 6.12
+  },
+  {
+    "text": "will disappear and then you have y minus",
+    "start": 721.98,
+    "duration": 3.96
+  },
+  {
+    "text": "mu y",
+    "start": 724.68,
+    "duration": 3.599
+  },
+  {
+    "text": "now I can open up the bracket so I get e",
+    "start": 725.94,
+    "duration": 6.6
+  },
+  {
+    "text": "of X Y minus ah X into mu X and now",
+    "start": 728.279,
+    "duration": 5.881
+  },
+  {
+    "text": "again the sum of expectations is the",
+    "start": 732.54,
+    "duration": 3.66
+  },
+  {
+    "text": "expectation of sum so I can take the two",
+    "start": 734.16,
+    "duration": 4.08
+  },
+  {
+    "text": "terms out so expectation of X Y minus",
+    "start": 736.2,
+    "duration": 5.579
+  },
+  {
+    "text": "expectation of X into mu y now mu Y is",
+    "start": 738.24,
+    "duration": 5.82
+  },
+  {
+    "text": "of course a constant right because you",
+    "start": 741.779,
+    "duration": 3.781
+  },
+  {
+    "text": "compute the expectation and then that's",
+    "start": 744.06,
+    "duration": 4.32
+  },
+  {
+    "text": "a constant so that will come out so you",
+    "start": 745.56,
+    "duration": 6.18
+  },
+  {
+    "text": "have e x y minus mu Y into e of X but",
+    "start": 748.38,
+    "duration": 6.6
+  },
+  {
+    "text": "again your V of X because X is Sigma is",
+    "start": 751.74,
+    "duration": 6.839
+  },
+  {
+    "text": "going to be 0 so your ah what you remain",
+    "start": 754.98,
+    "duration": 5.88
+  },
+  {
+    "text": "with is e of X comma y right so in this",
+    "start": 758.579,
+    "duration": 4.921
+  },
+  {
+    "text": "case when Epsilon was a random variable",
+    "start": 760.86,
+    "duration": 7.279
+  },
+  {
+    "text": "with mean 0 this product between",
+    "start": 763.5,
+    "duration": 4.639
+  },
+  {
+    "text": "treating Epsilon as X and this quantity",
+    "start": 768.42,
+    "duration": 6.419
+  },
+  {
+    "text": "as Y is actually the covariance between",
+    "start": 771.24,
+    "duration": 5.76
+  },
+  {
+    "text": "these two random variables right so",
+    "start": 774.839,
+    "duration": 4.44
+  },
+  {
+    "text": "that's that's something that we are",
+    "start": 777.0,
+    "duration": 4.32
+  },
+  {
+    "text": "noting now how do we use this fact what",
+    "start": 779.279,
+    "duration": 3.421
+  },
+  {
+    "text": "do we do with this is something that we",
+    "start": 781.32,
+    "duration": 3.54
+  },
+  {
+    "text": "will see on the next line right so so",
+    "start": 782.7,
+    "duration": 4.86
+  },
+  {
+    "text": "far ah so good uh we were interested in",
+    "start": 784.86,
+    "duration": 4.5
+  },
+  {
+    "text": "this we cannot estimate this so we",
+    "start": 787.56,
+    "duration": 4.14
+  },
+  {
+    "text": "extract estimated this as a sum of these",
+    "start": 789.36,
+    "duration": 4.68
+  },
+  {
+    "text": "three quantities of which the first two",
+    "start": 791.7,
+    "duration": 4.5
+  },
+  {
+    "text": "we know how to deal with the third one",
+    "start": 794.04,
+    "duration": 3.539
+  },
+  {
+    "text": "is still not clear right because it",
+    "start": 796.2,
+    "duration": 4.02
+  },
+  {
+    "text": "again has f of x so we need to see if we",
+    "start": 797.579,
+    "duration": 4.021
+  },
+  {
+    "text": "can somehow get rid of this third",
+    "start": 800.22,
+    "duration": 3.179
+  },
+  {
+    "text": "quantity or make some comment on that",
+    "start": 801.6,
+    "duration": 4.08
+  },
+  {
+    "text": "right so that part is still remaining so",
+    "start": 803.399,
+    "duration": 4.5
+  },
+  {
+    "text": "let us look at the third part and make",
+    "start": 805.68,
+    "duration": 5.36
+  },
+  {
+    "text": "some observations about it",
+    "start": 807.899,
+    "duration": 7.801
+  },
+  {
+    "text": "so ah remember that Epsilon here",
+    "start": 811.04,
+    "duration": 7.419
+  },
+  {
+    "text": "what is Epsilon actually so Y is equal",
+    "start": 815.7,
+    "duration": 5.4
+  },
+  {
+    "text": "to f of x plus Epsilon",
+    "start": 818.459,
+    "duration": 6.781
+  },
+  {
+    "text": "so Epsilon is actually ah",
+    "start": 821.1,
+    "duration": 10.799
+  },
+  {
+    "text": "y minus f of x right ah so now you are",
+    "start": 825.24,
+    "duration": 9.719
+  },
+  {
+    "text": "trying to find the covariance right so",
+    "start": 831.899,
+    "duration": 4.44
+  },
+  {
+    "text": "this quantity as I said is the",
+    "start": 834.959,
+    "duration": 3.921
+  },
+  {
+    "text": "covariance",
+    "start": 836.339,
+    "duration": 2.541
+  },
+  {
+    "text": "so between Epsilon and this ah other",
+    "start": 843.2,
+    "duration": 7.5
+  },
+  {
+    "text": "random variable",
+    "start": 847.86,
+    "duration": 2.84
+  },
+  {
+    "text": "and I just told you that Epsilon is",
+    "start": 852.6,
+    "duration": 4.5
+  },
+  {
+    "text": "actually equal to Y minus f of x side we",
+    "start": 854.76,
+    "duration": 4.259
+  },
+  {
+    "text": "just saw that that simply comes from the",
+    "start": 857.1,
+    "duration": 3.6
+  },
+  {
+    "text": "fact that Y is equal to f of x plus",
+    "start": 859.019,
+    "duration": 4.021
+  },
+  {
+    "text": "Epsilon now the statement that I am",
+    "start": 860.7,
+    "duration": 4.379
+  },
+  {
+    "text": "going to make is that this y minus f of",
+    "start": 863.04,
+    "duration": 4.32
+  },
+  {
+    "text": "x is actually independent of f hat x",
+    "start": 865.079,
+    "duration": 4.621
+  },
+  {
+    "text": "minus f of x why am I saying that",
+    "start": 867.36,
+    "duration": 4.38
+  },
+  {
+    "text": "because when I am talking about the Y's",
+    "start": 869.7,
+    "duration": 4.319
+  },
+  {
+    "text": "here I am talking about the Y's coming",
+    "start": 871.74,
+    "duration": 3.659
+  },
+  {
+    "text": "from the training data because this",
+    "start": 874.019,
+    "duration": 3.12
+  },
+  {
+    "text": "expectation we are Computing from the",
+    "start": 875.399,
+    "duration": 4.321
+  },
+  {
+    "text": "training data right oh sorry ah test",
+    "start": 877.139,
+    "duration": 4.2
+  },
+  {
+    "text": "data right so this expectation we are",
+    "start": 879.72,
+    "duration": 4.02
+  },
+  {
+    "text": "Computing from the test data whereas F",
+    "start": 881.339,
+    "duration": 4.921
+  },
+  {
+    "text": "hat of X was estimated from the training",
+    "start": 883.74,
+    "duration": 4.68
+  },
+  {
+    "text": "data your test points did not",
+    "start": 886.26,
+    "duration": 4.199
+  },
+  {
+    "text": "participate in the X in the estimation",
+    "start": 888.42,
+    "duration": 5.7
+  },
+  {
+    "text": "of f hat of X and these y's are actually",
+    "start": 890.459,
+    "duration": 5.88
+  },
+  {
+    "text": "corresponding to the test data right",
+    "start": 894.12,
+    "duration": 5.279
+  },
+  {
+    "text": "hence these two random variables are",
+    "start": 896.339,
+    "duration": 6.06
+  },
+  {
+    "text": "actually independent because why the Y's",
+    "start": 899.399,
+    "duration": 4.921
+  },
+  {
+    "text": "that you are seeing here did not",
+    "start": 902.399,
+    "duration": 4.5
+  },
+  {
+    "text": "participate in F hat of X that they did",
+    "start": 904.32,
+    "duration": 5.16
+  },
+  {
+    "text": "not have any say in the estimation",
+    "start": 906.899,
+    "duration": 5.161
+  },
+  {
+    "text": "estimated parameters of f hat X because",
+    "start": 909.48,
+    "duration": 4.799
+  },
+  {
+    "text": "this belongs to test data and the test",
+    "start": 912.06,
+    "duration": 3.839
+  },
+  {
+    "text": "data did not participate in the",
+    "start": 914.279,
+    "duration": 4.021
+  },
+  {
+    "text": "estimation of f hat X right so now these",
+    "start": 915.899,
+    "duration": 4.021
+  },
+  {
+    "text": "two quantities are actually independent",
+    "start": 918.3,
+    "duration": 3.779
+  },
+  {
+    "text": "that means Epsilon and this quantity is",
+    "start": 919.92,
+    "duration": 4.859
+  },
+  {
+    "text": "independent right because y Epsilon is",
+    "start": 922.079,
+    "duration": 5.461
+  },
+  {
+    "text": "simply y minus f of x and that means the",
+    "start": 924.779,
+    "duration": 4.86
+  },
+  {
+    "text": "covariance between Epsilon and this",
+    "start": 927.54,
+    "duration": 4.799
+  },
+  {
+    "text": "other quantity is going to be 0.",
+    "start": 929.639,
+    "duration": 4.76
+  },
+  {
+    "text": "right because these two are independent",
+    "start": 932.339,
+    "duration": 6.36
+  },
+  {
+    "text": "random variables so there ah",
+    "start": 934.399,
+    "duration": 7.781
+  },
+  {
+    "text": "covariance is going to be zero",
+    "start": 938.699,
+    "duration": 6.421
+  },
+  {
+    "text": "right so that's why you can say that in",
+    "start": 942.18,
+    "duration": 4.2
+  },
+  {
+    "text": "this case when you are trying to",
+    "start": 945.12,
+    "duration": 2.88
+  },
+  {
+    "text": "estimate these expectations from the",
+    "start": 946.38,
+    "duration": 5.399
+  },
+  {
+    "text": "test data your",
+    "start": 948.0,
+    "duration": 5.82
+  },
+  {
+    "text": "the covariance term is actually going to",
+    "start": 951.779,
+    "duration": 3.021
+  },
+  {
+    "text": "be",
+    "start": 953.82,
+    "duration": 3.9
+  },
+  {
+    "text": "0. yeah so I mean sorry I should have",
+    "start": 954.8,
+    "duration": 4.539
+  },
+  {
+    "text": "said it a bit differently so the",
+    "start": 957.72,
+    "duration": 4.859
+  },
+  {
+    "text": "expectation of e Epsilon comma this",
+    "start": 959.339,
+    "duration": 5.401
+  },
+  {
+    "text": "random variable can just be written as",
+    "start": 962.579,
+    "duration": 4.801
+  },
+  {
+    "text": "the product of the two expectations and",
+    "start": 964.74,
+    "duration": 5.399
+  },
+  {
+    "text": "ah so sorry I shouldn't have said that",
+    "start": 967.38,
+    "duration": 5.1
+  },
+  {
+    "text": "they are in sorry so this is correct so",
+    "start": 970.139,
+    "duration": 4.56
+  },
+  {
+    "text": "the expectation of this quantity which",
+    "start": 972.48,
+    "duration": 4.68
+  },
+  {
+    "text": "was what you had here you can now since",
+    "start": 974.699,
+    "duration": 4.38
+  },
+  {
+    "text": "Epsilon and the other random variable",
+    "start": 977.16,
+    "duration": 3.66
+  },
+  {
+    "text": "are independent you can write it as the",
+    "start": 979.079,
+    "duration": 3.841
+  },
+  {
+    "text": "product of their expectations and since",
+    "start": 980.82,
+    "duration": 4.56
+  },
+  {
+    "text": "the expected value of Epsilon is 0 you",
+    "start": 982.92,
+    "duration": 4.2
+  },
+  {
+    "text": "get the final answer as 0 right so in",
+    "start": 985.38,
+    "duration": 3.54
+  },
+  {
+    "text": "the case when you are trying to estimate",
+    "start": 987.12,
+    "duration": 5.04
+  },
+  {
+    "text": "this expectation from the test data this",
+    "start": 988.92,
+    "duration": 5.58
+  },
+  {
+    "text": "quantity disappears right so then the",
+    "start": 992.16,
+    "duration": 4.32
+  },
+  {
+    "text": "true error is actually equal to the",
+    "start": 994.5,
+    "duration": 3.959
+  },
+  {
+    "text": "empirical test error plus a small",
+    "start": 996.48,
+    "duration": 4.62
+  },
+  {
+    "text": "constant so what does this mean that if",
+    "start": 998.459,
+    "duration": 4.921
+  },
+  {
+    "text": "you are going to X going to estimate the",
+    "start": 1001.1,
+    "duration": 5.7
+  },
+  {
+    "text": "true error empirically from the test",
+    "start": 1003.38,
+    "duration": 5.459
+  },
+  {
+    "text": "data which is the first quantity that",
+    "start": 1006.8,
+    "duration": 3.719
+  },
+  {
+    "text": "you see here if you are going to",
+    "start": 1008.839,
+    "duration": 3.3
+  },
+  {
+    "text": "estimate it empirically from the test",
+    "start": 1010.519,
+    "duration": 5.581
+  },
+  {
+    "text": "data then your true error is actually",
+    "start": 1012.139,
+    "duration": 5.521
+  },
+  {
+    "text": "very close to the empirical test error",
+    "start": 1016.1,
+    "duration": 3.12
+  },
+  {
+    "text": "so if this is what your estimate is",
+    "start": 1017.66,
+    "duration": 4.739
+  },
+  {
+    "text": "going to be then you are not making a",
+    "start": 1019.22,
+    "duration": 5.64
+  },
+  {
+    "text": "very ah large gap right because there is",
+    "start": 1022.399,
+    "duration": 4.56
+  },
+  {
+    "text": "just plus a small constant right that is",
+    "start": 1024.86,
+    "duration": 3.9
+  },
+  {
+    "text": "what we derived here because it was the",
+    "start": 1026.959,
+    "duration": 3.421
+  },
+  {
+    "text": "sum of this quantity plus this quantity",
+    "start": 1028.76,
+    "duration": 3.659
+  },
+  {
+    "text": "plus this quantity we proved that this",
+    "start": 1030.38,
+    "duration": 4.439
+  },
+  {
+    "text": "quantity is 0 this is a small constant",
+    "start": 1032.419,
+    "duration": 4.681
+  },
+  {
+    "text": "so if I were to expect if if I were to",
+    "start": 1034.819,
+    "duration": 4.801
+  },
+  {
+    "text": "estimate the true error using the test",
+    "start": 1037.1,
+    "duration": 6.06
+  },
+  {
+    "text": "data then my uh exp my up my estimation",
+    "start": 1039.62,
+    "duration": 5.579
+  },
+  {
+    "text": "is actually very good right so if I",
+    "start": 1043.16,
+    "duration": 5.279
+  },
+  {
+    "text": "compute the error from the test data",
+    "start": 1045.199,
+    "duration": 5.461
+  },
+  {
+    "text": "then I'm actually very close to the true",
+    "start": 1048.439,
+    "duration": 4.921
+  },
+  {
+    "text": "error right ah now let's see what",
+    "start": 1050.66,
+    "duration": 5.879
+  },
+  {
+    "text": "happens if we had to estimate the error",
+    "start": 1053.36,
+    "duration": 4.62
+  },
+  {
+    "text": "from the training data so that's why",
+    "start": 1056.539,
+    "duration": 2.701
+  },
+  {
+    "text": "whenever you want to estimate the model",
+    "start": 1057.98,
+    "duration": 3.12
+  },
+  {
+    "text": "so now you have trained the model and",
+    "start": 1059.24,
+    "duration": 4.08
+  },
+  {
+    "text": "you want to see how good the model is it",
+    "start": 1061.1,
+    "duration": 4.8
+  },
+  {
+    "text": "does not make sense as I'll show soon to",
+    "start": 1063.32,
+    "duration": 4.26
+  },
+  {
+    "text": "estimate it from the training data",
+    "start": 1065.9,
+    "duration": 3.42
+  },
+  {
+    "text": "because the training does is always",
+    "start": 1067.58,
+    "duration": 3.36
+  },
+  {
+    "text": "going to be optimistic right as you keep",
+    "start": 1069.32,
+    "duration": 3.12
+  },
+  {
+    "text": "increasing the model complexity it will",
+    "start": 1070.94,
+    "duration": 3.78
+  },
+  {
+    "text": "go to zero but your test error might",
+    "start": 1072.44,
+    "duration": 3.72
+  },
+  {
+    "text": "still be high and your test error",
+    "start": 1074.72,
+    "duration": 2.52
+  },
+  {
+    "text": "actually gives you the true picture",
+    "start": 1076.16,
+    "duration": 3.48
+  },
+  {
+    "text": "because if you empirically estimate the",
+    "start": 1077.24,
+    "duration": 4.38
+  },
+  {
+    "text": "error from the test data then you are",
+    "start": 1079.64,
+    "duration": 4.08
+  },
+  {
+    "text": "actually very close to the true error is",
+    "start": 1081.62,
+    "duration": 5.24
+  },
+  {
+    "text": "what we have just derived",
+    "start": 1083.72,
+    "duration": 3.14
+  }
+]

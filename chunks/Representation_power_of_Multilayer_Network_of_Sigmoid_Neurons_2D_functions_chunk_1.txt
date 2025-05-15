@@ -1,0 +1,9 @@
+is simply the x1 comma x2 point on this planet where the salinity is equal to x1 and the pressure.
+is equal to x2 and same the all the points here are just the x1 x2 coordinates where x1 is.
+silent and pressure x2 is pressure right now it so happens that some of these points you have found oil.
+which are the orange points and some of these points you have not found oil which is the blue points.
+right so now what is my decision boundary should look like i cannot have a decision boundary like this right.
+because it does not separate the blue points from the orange points you can see that i cannot no matter.
+what i try i cannot separate the orange points on the blue points by drawing a line right because this.
+is not linearly separable but if i draw i have a function which looks like exactly what has been shown.
+here and let me just delete and use a better color you know not black maybe the function is 0.

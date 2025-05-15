@@ -1,0 +1,11 @@
+then we could compute this as a difference so f x you could replace by Y and ah F hat.
+X you could replace by this y hat right this is y hat which I often call it as just.
+Y and it's from the context it's clear whether I am referring to F at X X or the original.
+function there but now I will make it explicit that one is all I do not need to actually use.
+y hat here I can just say F hat X which you understand what is and f x is just.
+Y which are the training points that are given to me right so now ah let us go further so.
+this is the quantity that I am interested in then right so I have just replaced f of x by.
+Y and F hat of X by y hat right ah so this is what the quantity is that I.
+am interested in and now I know that Y is actually f of x minus Epsilon right so I can.
+just substitute sorry f of x plus Epsilon so I can just substitute that and now I'm just going to.
+like kind of open up this square and rearrange some terms right so I'm looking at this as a minus.

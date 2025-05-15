@@ -1,0 +1,9 @@
+this model given the data that is would be given to me and using some objective function which makes sense.
+right so that's what my quest is okay now then this is what my f hat of x is i.
+generally use therefore fake side i mean i've explained the difference between f of x and f dot x but.
+i'll just call it f of x and from the context it should be clear that i'm talking about my.
+approximation because the true function of course is not known right so i cannot even define that right and i'll.
+use sigma here which is written here is actually a short form or the notation for the sigmoid function okay.
+so now we'll consider a very simplified version of this model right for all that explanation that there's only one.
+input which is connected by the weight w and then there's this constantly on input which was connected by minus.
+w naught but now to be consistent with the literature going forward we are going to call it as b.

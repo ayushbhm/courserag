@@ -1,0 +1,5 @@
+have seen the success story which has led us to where we are currently in 2022 right so we will.
+talk about what happened in this initial years from 2006 to 2019 which kind of helped us train this deep.
+neural networks and what was the effect of that and how is that connected to the lecture that we are.
+looking at today right so that's going to be the focus so I'll end this video here and I'll come.
+back and talk about unsupervised pre-training which is something that happened in 2006 and enabled the training of DPR Networks.

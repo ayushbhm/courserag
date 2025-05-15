@@ -1,0 +1,3247 @@
+[
+  {
+    "text": "[Music]",
+    "start": 0.33,
+    "duration": 21.43
+  },
+  {
+    "text": "so while all this is happening great",
+    "start": 20.0,
+    "duration": 4.0
+  },
+  {
+    "text": "we're getting very good good models big",
+    "start": 21.76,
+    "duration": 4.08
+  },
+  {
+    "text": "models trained on very large amounts of",
+    "start": 24.0,
+    "duration": 5.119
+  },
+  {
+    "text": "data very good performance",
+    "start": 25.84,
+    "duration": 6.32
+  },
+  {
+    "text": "on very complex tasks like generation",
+    "start": 29.119,
+    "duration": 4.801
+  },
+  {
+    "text": "but there are also calls for sanity",
+    "start": 32.16,
+    "duration": 3.52
+  },
+  {
+    "text": "right we also need to be sure that",
+    "start": 33.92,
+    "duration": 4.24
+  },
+  {
+    "text": "whatever we are doing is interpretable",
+    "start": 35.68,
+    "duration": 4.64
+  },
+  {
+    "text": "fair responsible green right and these",
+    "start": 38.16,
+    "duration": 3.6
+  },
+  {
+    "text": "terms which are not",
+    "start": 40.32,
+    "duration": 3.919
+  },
+  {
+    "text": "uh so popular like 10 15 years back i",
+    "start": 41.76,
+    "duration": 3.92
+  },
+  {
+    "text": "mean they were just maybe",
+    "start": 44.239,
+    "duration": 3.441
+  },
+  {
+    "text": "being discussed on the sidelines now",
+    "start": 45.68,
+    "duration": 4.16
+  },
+  {
+    "text": "have become quite mainstream right",
+    "start": 47.68,
+    "duration": 4.0
+  },
+  {
+    "text": "because of these rapid advancements that",
+    "start": 49.84,
+    "duration": 4.239
+  },
+  {
+    "text": "we are making people are realizing hey",
+    "start": 51.68,
+    "duration": 4.879
+  },
+  {
+    "text": "with all this happening we need to also",
+    "start": 54.079,
+    "duration": 4.48
+  },
+  {
+    "text": "be a bit conscious about the",
+    "start": 56.559,
+    "duration": 3.601
+  },
+  {
+    "text": "implications of what we are building",
+    "start": 58.559,
+    "duration": 3.441
+  },
+  {
+    "text": "right and that's what this section would",
+    "start": 60.16,
+    "duration": 3.52
+  },
+  {
+    "text": "be about right so i'll start with the",
+    "start": 62.0,
+    "duration": 3.76
+  },
+  {
+    "text": "calls for sanity right so so this is the",
+    "start": 63.68,
+    "duration": 3.759
+  },
+  {
+    "text": "paradox of deep learning right so why",
+    "start": 65.76,
+    "duration": 4.0
+  },
+  {
+    "text": "does deep learning work so well",
+    "start": 67.439,
+    "duration": 4.561
+  },
+  {
+    "text": "despite high capacity these are very",
+    "start": 69.76,
+    "duration": 4.24
+  },
+  {
+    "text": "large models and when you start do a",
+    "start": 72.0,
+    "duration": 3.439
+  },
+  {
+    "text": "basic course on machine learning you",
+    "start": 74.0,
+    "duration": 2.88
+  },
+  {
+    "text": "will the first thing that you learn is",
+    "start": 75.439,
+    "duration": 2.801
+  },
+  {
+    "text": "that hey if you have very complex models",
+    "start": 76.88,
+    "duration": 3.2
+  },
+  {
+    "text": "then they are susceptible to overfitting",
+    "start": 78.24,
+    "duration": 3.199
+  },
+  {
+    "text": "they'll completely learn the training",
+    "start": 80.08,
+    "duration": 2.88
+  },
+  {
+    "text": "data but they'll not perform well",
+    "start": 81.439,
+    "duration": 3.441
+  },
+  {
+    "text": "untested right but this is not what is",
+    "start": 82.96,
+    "duration": 3.12
+  },
+  {
+    "text": "happening for deep learning models right",
+    "start": 84.88,
+    "duration": 2.72
+  },
+  {
+    "text": "they are high capacity but they are",
+    "start": 86.08,
+    "duration": 3.44
+  },
+  {
+    "text": "still somehow being able to overcome",
+    "start": 87.6,
+    "duration": 3.839
+  },
+  {
+    "text": "this problem of overfitting right to a",
+    "start": 89.52,
+    "duration": 3.44
+  },
+  {
+    "text": "certain extent some cases they do",
+    "start": 91.439,
+    "duration": 2.481
+  },
+  {
+    "text": "overfit",
+    "start": 92.96,
+    "duration": 2.64
+  },
+  {
+    "text": "then there is this numerical instability",
+    "start": 93.92,
+    "duration": 3.44
+  },
+  {
+    "text": "i spoke about this vanishing exploding",
+    "start": 95.6,
+    "duration": 4.24
+  },
+  {
+    "text": "gradients and even gans and diffusion",
+    "start": 97.36,
+    "duration": 4.48
+  },
+  {
+    "text": "based models they are often hard to uh",
+    "start": 99.84,
+    "duration": 3.44
+  },
+  {
+    "text": "not diffusion-based models but at least",
+    "start": 101.84,
+    "duration": 3.599
+  },
+  {
+    "text": "gans are often very hard to train and",
+    "start": 103.28,
+    "duration": 4.56
+  },
+  {
+    "text": "get unstable during uh training right",
+    "start": 105.439,
+    "duration": 4.801
+  },
+  {
+    "text": "then they have this sharp minima right",
+    "start": 107.84,
+    "duration": 4.4
+  },
+  {
+    "text": "because this",
+    "start": 110.24,
+    "duration": 3.04
+  },
+  {
+    "text": "uh the",
+    "start": 112.24,
+    "duration": 3.36
+  },
+  {
+    "text": "uh the the loss function that you have",
+    "start": 113.28,
+    "duration": 4.479
+  },
+  {
+    "text": "in deep data networks is not a good",
+    "start": 115.6,
+    "duration": 5.119
+  },
+  {
+    "text": "convex loss function right so it has a",
+    "start": 117.759,
+    "duration": 4.96
+  },
+  {
+    "text": "many multiple local minima and some of",
+    "start": 120.719,
+    "duration": 4.321
+  },
+  {
+    "text": "these are very sharp and then it leads",
+    "start": 122.719,
+    "duration": 4.4
+  },
+  {
+    "text": "to certain kind of challenges during our",
+    "start": 125.04,
+    "duration": 4.719
+  },
+  {
+    "text": "training despite all this deep learning",
+    "start": 127.119,
+    "duration": 5.681
+  },
+  {
+    "text": "works quite well in practice right it's",
+    "start": 129.759,
+    "duration": 5.521
+  },
+  {
+    "text": "also not very robust right so this is an",
+    "start": 132.8,
+    "duration": 3.6
+  },
+  {
+    "text": "example",
+    "start": 135.28,
+    "duration": 3.599
+  },
+  {
+    "text": "where you have the image of a stop",
+    "start": 136.4,
+    "duration": 4.72
+  },
+  {
+    "text": "symbol and now you just put some",
+    "start": 138.879,
+    "duration": 4.481
+  },
+  {
+    "text": "stickers on it right and for a human it",
+    "start": 141.12,
+    "duration": 3.52
+  },
+  {
+    "text": "does not matter right it's still the",
+    "start": 143.36,
+    "duration": 5.44
+  },
+  {
+    "text": "stop signal right but now uh the machine",
+    "start": 144.64,
+    "duration": 8.0
+  },
+  {
+    "text": "is reading it as a speed limit of 45",
+    "start": 148.8,
+    "duration": 5.36
+  },
+  {
+    "text": "right so now it's like completely",
+    "start": 152.64,
+    "duration": 4.0
+  },
+  {
+    "text": "different from what the intended meaning",
+    "start": 154.16,
+    "duration": 5.52
+  },
+  {
+    "text": "here was right so it's not very robust",
+    "start": 156.64,
+    "duration": 5.2
+  },
+  {
+    "text": "in practice right so we still don't know",
+    "start": 159.68,
+    "duration": 4.8
+  },
+  {
+    "text": "right why this ah this happens right",
+    "start": 161.84,
+    "duration": 5.92
+  },
+  {
+    "text": "because it looks like it should not work",
+    "start": 164.48,
+    "duration": 6.0
+  },
+  {
+    "text": "it is also not very robust but still in",
+    "start": 167.76,
+    "duration": 4.479
+  },
+  {
+    "text": "very many real world applications we are",
+    "start": 170.48,
+    "duration": 3.68
+  },
+  {
+    "text": "seeing it perform very well and give",
+    "start": 172.239,
+    "duration": 3.521
+  },
+  {
+    "text": "deliver results right so we still don't",
+    "start": 174.16,
+    "duration": 3.28
+  },
+  {
+    "text": "know why this happens",
+    "start": 175.76,
+    "duration": 3.28
+  },
+  {
+    "text": "uh and there are many such examples",
+    "start": 177.44,
+    "duration": 4.159
+  },
+  {
+    "text": "right so so this is again another",
+    "start": 179.04,
+    "duration": 3.839
+  },
+  {
+    "text": "example right so people have been able",
+    "start": 181.599,
+    "duration": 4.321
+  },
+  {
+    "text": "to come up with images which can fool",
+    "start": 182.879,
+    "duration": 4.961
+  },
+  {
+    "text": "deep neural networks right so i just i",
+    "start": 185.92,
+    "duration": 4.239
+  },
+  {
+    "text": "mean scientists have come up with these",
+    "start": 187.84,
+    "duration": 4.56
+  },
+  {
+    "text": "regular patterns right but now when you",
+    "start": 190.159,
+    "duration": 4.0
+  },
+  {
+    "text": "feed this to a",
+    "start": 192.4,
+    "duration": 4.32
+  },
+  {
+    "text": "deep learning based image classifier it",
+    "start": 194.159,
+    "duration": 4.401
+  },
+  {
+    "text": "thinks that the first image is of a king",
+    "start": 196.72,
+    "duration": 4.159
+  },
+  {
+    "text": "penguin right then you could just",
+    "start": 198.56,
+    "duration": 4.56
+  },
+  {
+    "text": "uh let your imagination run a build wit",
+    "start": 200.879,
+    "duration": 3.521
+  },
+  {
+    "text": "and",
+    "start": 203.12,
+    "duration": 2.96
+  },
+  {
+    "text": "realize why it could be thinking that",
+    "start": 204.4,
+    "duration": 3.04
+  },
+  {
+    "text": "right i mean there are some patterns",
+    "start": 206.08,
+    "duration": 3.28
+  },
+  {
+    "text": "here similarly the second image it",
+    "start": 207.44,
+    "duration": 4.159
+  },
+  {
+    "text": "classifies as starfish right so these",
+    "start": 209.36,
+    "duration": 6.879
+  },
+  {
+    "text": "these challenges do exist but still uh",
+    "start": 211.599,
+    "duration": 6.481
+  },
+  {
+    "text": "that has deep learning is the current",
+    "start": 216.239,
+    "duration": 3.441
+  },
+  {
+    "text": "popular paradigm and delivering good",
+    "start": 218.08,
+    "duration": 3.84
+  },
+  {
+    "text": "results in various fields right",
+    "start": 219.68,
+    "duration": 4.16
+  },
+  {
+    "text": "so now while there are no clear answers",
+    "start": 221.92,
+    "duration": 4.239
+  },
+  {
+    "text": "yet but slowly and steadily there is an",
+    "start": 223.84,
+    "duration": 4.0
+  },
+  {
+    "text": "increasing emphasis on explainability",
+    "start": 226.159,
+    "duration": 3.041
+  },
+  {
+    "text": "it's not just good that you tell me your",
+    "start": 227.84,
+    "duration": 3.6
+  },
+  {
+    "text": "model gives me a good accuracy you also",
+    "start": 229.2,
+    "duration": 3.92
+  },
+  {
+    "text": "need to tell me why i am getting this",
+    "start": 231.44,
+    "duration": 3.359
+  },
+  {
+    "text": "accuracy right so that then i have a",
+    "start": 233.12,
+    "duration": 3.52
+  },
+  {
+    "text": "better grasp of these kind of issues",
+    "start": 234.799,
+    "duration": 3.201
+  },
+  {
+    "text": "that why is it",
+    "start": 236.64,
+    "duration": 3.76
+  },
+  {
+    "text": "seeing a speed limit fortify just",
+    "start": 238.0,
+    "duration": 4.08
+  },
+  {
+    "text": "because i put some stickers here and",
+    "start": 240.4,
+    "duration": 5.039
+  },
+  {
+    "text": "there right so these these uh things are",
+    "start": 242.08,
+    "duration": 5.359
+  },
+  {
+    "text": "uh coming into focus and a lot of",
+    "start": 245.439,
+    "duration": 4.16
+  },
+  {
+    "text": "research is happening on uh the",
+    "start": 247.439,
+    "duration": 4.08
+  },
+  {
+    "text": "theoretical justifications for why deep",
+    "start": 249.599,
+    "duration": 5.041
+  },
+  {
+    "text": "learning works why the uh",
+    "start": 251.519,
+    "duration": 5.28
+  },
+  {
+    "text": "research on explainability of these",
+    "start": 254.64,
+    "duration": 3.52
+  },
+  {
+    "text": "models how do you explain the",
+    "start": 256.799,
+    "duration": 2.881
+  },
+  {
+    "text": "performance of a deep learning model and",
+    "start": 258.16,
+    "duration": 3.199
+  },
+  {
+    "text": "so on right and hopefully all of this",
+    "start": 259.68,
+    "duration": 4.64
+  },
+  {
+    "text": "will bring some sanity right so here are",
+    "start": 261.359,
+    "duration": 4.881
+  },
+  {
+    "text": "a few advances in that direction right",
+    "start": 264.32,
+    "duration": 3.52
+  },
+  {
+    "text": "so there's now a workshop on human",
+    "start": 266.24,
+    "duration": 3.12
+  },
+  {
+    "text": "interpretability in machine learning",
+    "start": 267.84,
+    "duration": 3.6
+  },
+  {
+    "text": "which started in 2016.",
+    "start": 269.36,
+    "duration": 4.8
+  },
+  {
+    "text": "uh there's this clever hands uh toolkit",
+    "start": 271.44,
+    "duration": 4.64
+  },
+  {
+    "text": "which was developed right so",
+    "start": 274.16,
+    "duration": 4.24
+  },
+  {
+    "text": "so clever hands was this",
+    "start": 276.08,
+    "duration": 4.96
+  },
+  {
+    "text": "horse right and i think in the",
+    "start": 278.4,
+    "duration": 5.2
+  },
+  {
+    "text": "uh last century",
+    "start": 281.04,
+    "duration": 5.36
+  },
+  {
+    "text": "where um",
+    "start": 283.6,
+    "duration": 3.92
+  },
+  {
+    "text": "so so",
+    "start": 286.4,
+    "duration": 2.88
+  },
+  {
+    "text": "the horse had an owner and then he used",
+    "start": 287.52,
+    "duration": 3.44
+  },
+  {
+    "text": "to do the street show",
+    "start": 289.28,
+    "duration": 2.56
+  },
+  {
+    "text": "where",
+    "start": 290.96,
+    "duration": 2.0
+  },
+  {
+    "text": "uh",
+    "start": 291.84,
+    "duration": 2.799
+  },
+  {
+    "text": "where someone in the audience would ask",
+    "start": 292.96,
+    "duration": 4.16
+  },
+  {
+    "text": "it uh arithmetic question right what is",
+    "start": 294.639,
+    "duration": 6.081
+  },
+  {
+    "text": "5 plus 2 right and the way the horse",
+    "start": 297.12,
+    "duration": 6.16
+  },
+  {
+    "text": "would answer is i think by nodding or by",
+    "start": 300.72,
+    "duration": 4.16
+  },
+  {
+    "text": "tapping its feet",
+    "start": 303.28,
+    "duration": 4.56
+  },
+  {
+    "text": "and it would kind of",
+    "start": 304.88,
+    "duration": 5.28
+  },
+  {
+    "text": "stop right so 5 plus two is seven so",
+    "start": 307.84,
+    "duration": 3.68
+  },
+  {
+    "text": "peop i mean",
+    "start": 310.16,
+    "duration": 3.84
+  },
+  {
+    "text": "during the shows it would do it seven",
+    "start": 311.52,
+    "duration": 4.72
+  },
+  {
+    "text": "times right and then people thought hey",
+    "start": 314.0,
+    "duration": 4.479
+  },
+  {
+    "text": "this horse is able to actually compute",
+    "start": 316.24,
+    "duration": 4.16
+  },
+  {
+    "text": "the answer and so on right but that was",
+    "start": 318.479,
+    "duration": 3.44
+  },
+  {
+    "text": "not the case what people later on",
+    "start": 320.4,
+    "duration": 4.639
+  },
+  {
+    "text": "realize is that everyone in the audience",
+    "start": 321.919,
+    "duration": 5.041
+  },
+  {
+    "text": "was giving it cues naturally they're",
+    "start": 325.039,
+    "duration": 3.921
+  },
+  {
+    "text": "cheering for it right so when the when",
+    "start": 326.96,
+    "duration": 4.16
+  },
+  {
+    "text": "when it nodded seven times",
+    "start": 328.96,
+    "duration": 4.32
+  },
+  {
+    "text": "they would all like erupt in",
+    "start": 331.12,
+    "duration": 4.56
+  },
+  {
+    "text": "say in an applause or something and the",
+    "start": 333.28,
+    "duration": 4.0
+  },
+  {
+    "text": "horse would take that as a signal oh i",
+    "start": 335.68,
+    "duration": 3.519
+  },
+  {
+    "text": "should stop now and it would get the",
+    "start": 337.28,
+    "duration": 3.919
+  },
+  {
+    "text": "right answer right so it's this thing",
+    "start": 339.199,
+    "duration": 3.041
+  },
+  {
+    "text": "where",
+    "start": 341.199,
+    "duration": 3.041
+  },
+  {
+    "text": "the answer is correct but there is no",
+    "start": 342.24,
+    "duration": 3.44
+  },
+  {
+    "text": "reason for the answer to be correct",
+    "start": 344.24,
+    "duration": 3.04
+  },
+  {
+    "text": "right so that's what was happening in",
+    "start": 345.68,
+    "duration": 3.76
+  },
+  {
+    "text": "the case of clever hands and like based",
+    "start": 347.28,
+    "duration": 3.6
+  },
+  {
+    "text": "on that",
+    "start": 349.44,
+    "duration": 3.759
+  },
+  {
+    "text": "anecdote or that incident right",
+    "start": 350.88,
+    "duration": 4.24
+  },
+  {
+    "text": "this clever hands tool kit was",
+    "start": 353.199,
+    "duration": 3.921
+  },
+  {
+    "text": "designed to again look at similar",
+    "start": 355.12,
+    "duration": 3.04
+  },
+  {
+    "text": "problems",
+    "start": 357.12,
+    "duration": 2.56
+  },
+  {
+    "text": "uh why",
+    "start": 358.16,
+    "duration": 4.24
+  },
+  {
+    "text": "do you get the answers uh right",
+    "start": 359.68,
+    "duration": 4.56
+  },
+  {
+    "text": "uh instead of just saying that oh i have",
+    "start": 362.4,
+    "duration": 4.0
+  },
+  {
+    "text": "got the answer right right so",
+    "start": 364.24,
+    "duration": 4.799
+  },
+  {
+    "text": "this toolkit allows uh machine learning",
+    "start": 366.4,
+    "duration": 3.68
+  },
+  {
+    "text": "systems",
+    "start": 369.039,
+    "duration": 3.761
+  },
+  {
+    "text": "uh to be tested on adversarial examples",
+    "start": 370.08,
+    "duration": 4.88
+  },
+  {
+    "text": "right so i showed you a few examples of",
+    "start": 372.8,
+    "duration": 3.839
+  },
+  {
+    "text": "examples on the previous slide where",
+    "start": 374.96,
+    "duration": 3.76
+  },
+  {
+    "text": "some stickers were added to the",
+    "start": 376.639,
+    "duration": 4.0
+  },
+  {
+    "text": "sign or some random patterns were",
+    "start": 378.72,
+    "duration": 5.52
+  },
+  {
+    "text": "generated and now uh the models this",
+    "start": 380.639,
+    "duration": 6.241
+  },
+  {
+    "text": "this repository allows you to benchmark",
+    "start": 384.24,
+    "duration": 5.12
+  },
+  {
+    "text": "the models on such adversarial examples",
+    "start": 386.88,
+    "duration": 3.92
+  },
+  {
+    "text": "and if they don't do well then you know",
+    "start": 389.36,
+    "duration": 2.64
+  },
+  {
+    "text": "that they're not really learning to",
+    "start": 390.8,
+    "duration": 4.08
+  },
+  {
+    "text": "solve the problem but are somewhat like",
+    "start": 392.0,
+    "duration": 4.24
+  },
+  {
+    "text": "clever hands where they are relying on",
+    "start": 394.88,
+    "duration": 3.439
+  },
+  {
+    "text": "some other cues to arrive at the right",
+    "start": 396.24,
+    "duration": 3.679
+  },
+  {
+    "text": "answers without really understanding",
+    "start": 398.319,
+    "duration": 4.0
+  },
+  {
+    "text": "what is the question being asked right",
+    "start": 399.919,
+    "duration": 3.921
+  },
+  {
+    "text": "and then there are now several workshops",
+    "start": 402.319,
+    "duration": 5.281
+  },
+  {
+    "text": "on blackbox nlp where",
+    "start": 403.84,
+    "duration": 3.76
+  },
+  {
+    "text": "the focus is on analyzing and",
+    "start": 407.759,
+    "duration": 3.361
+  },
+  {
+    "text": "interpreting the neural networks which",
+    "start": 409.36,
+    "duration": 3.279
+  },
+  {
+    "text": "are used for nlp",
+    "start": 411.12,
+    "duration": 2.56
+  },
+  {
+    "text": "and",
+    "start": 412.639,
+    "duration": 2.881
+  },
+  {
+    "text": "there's this nice uh textbook",
+    "start": 413.68,
+    "duration": 3.919
+  },
+  {
+    "text": "interpretable machine learning a guide",
+    "start": 415.52,
+    "duration": 4.399
+  },
+  {
+    "text": "for making black box models explainable",
+    "start": 417.599,
+    "duration": 4.241
+  },
+  {
+    "text": "right so the reason i'm bringing up all",
+    "start": 419.919,
+    "duration": 3.921
+  },
+  {
+    "text": "this is that",
+    "start": 421.84,
+    "duration": 4.16
+  },
+  {
+    "text": "this was not so much in focus a few",
+    "start": 423.84,
+    "duration": 3.919
+  },
+  {
+    "text": "years back right but now this has become",
+    "start": 426.0,
+    "duration": 3.84
+  },
+  {
+    "text": "quite mainstream and a lot of you who",
+    "start": 427.759,
+    "duration": 3.761
+  },
+  {
+    "text": "are looking for interesting research",
+    "start": 429.84,
+    "duration": 3.6
+  },
+  {
+    "text": "problems to solve in this space this is",
+    "start": 431.52,
+    "duration": 5.119
+  },
+  {
+    "text": "a very active area that you could pursue",
+    "start": 433.44,
+    "duration": 5.68
+  },
+  {
+    "text": "the second is about fairness and",
+    "start": 436.639,
+    "duration": 3.84
+  },
+  {
+    "text": "responsibility right so again if you",
+    "start": 439.12,
+    "duration": 3.68
+  },
+  {
+    "text": "look at a brief history around 2011",
+    "start": 440.479,
+    "duration": 3.761
+  },
+  {
+    "text": "there are hardly any papers talking",
+    "start": 442.8,
+    "duration": 3.679
+  },
+  {
+    "text": "about fairness or responsible ai and so",
+    "start": 444.24,
+    "duration": 4.959
+  },
+  {
+    "text": "on and by 2017 when deep learning had",
+    "start": 446.479,
+    "duration": 4.801
+  },
+  {
+    "text": "almost taken over completely taken over",
+    "start": 449.199,
+    "duration": 4.321
+  },
+  {
+    "text": "nlp speech and vision there was a",
+    "start": 451.28,
+    "duration": 4.16
+  },
+  {
+    "text": "massive increase in the number of papers",
+    "start": 453.52,
+    "duration": 4.239
+  },
+  {
+    "text": "talking about fairness and responsible",
+    "start": 455.44,
+    "duration": 6.479
+  },
+  {
+    "text": "ai and that has just grown in the last",
+    "start": 457.759,
+    "duration": 4.16
+  },
+  {
+    "text": "has grown further in the last three to",
+    "start": 462.24,
+    "duration": 4.32
+  },
+  {
+    "text": "four years right",
+    "start": 463.68,
+    "duration": 4.239
+  },
+  {
+    "text": "and i'll tell you what fairness and",
+    "start": 466.56,
+    "duration": 2.88
+  },
+  {
+    "text": "responsibility i why are we worrying",
+    "start": 467.919,
+    "duration": 3.441
+  },
+  {
+    "text": "about this problem right",
+    "start": 469.44,
+    "duration": 3.68
+  },
+  {
+    "text": "so look at this uh",
+    "start": 471.36,
+    "duration": 5.2
+  },
+  {
+    "text": "image right so this was passed through a",
+    "start": 473.12,
+    "duration": 5.12
+  },
+  {
+    "text": "facial recognition kind of a software",
+    "start": 476.56,
+    "duration": 3.12
+  },
+  {
+    "text": "right which looks at images and try to",
+    "start": 478.24,
+    "duration": 3.44
+  },
+  {
+    "text": "make certain judgment about the people",
+    "start": 479.68,
+    "duration": 4.079
+  },
+  {
+    "text": "right and the first image it has",
+    "start": 481.68,
+    "duration": 4.639
+  },
+  {
+    "text": "classified as low risk so this software",
+    "start": 483.759,
+    "duration": 3.921
+  },
+  {
+    "text": "was trying to",
+    "start": 486.319,
+    "duration": 3.361
+  },
+  {
+    "text": "predict whether uh",
+    "start": 487.68,
+    "duration": 5.04
+  },
+  {
+    "text": "the people in the images being shown",
+    "start": 489.68,
+    "duration": 5.199
+  },
+  {
+    "text": "could become criminals in the future or",
+    "start": 492.72,
+    "duration": 3.599
+  },
+  {
+    "text": "might commit some crime in the future",
+    "start": 494.879,
+    "duration": 3.921
+  },
+  {
+    "text": "right so the first person it's showing",
+    "start": 496.319,
+    "duration": 4.16
+  },
+  {
+    "text": "it's low risk",
+    "start": 498.8,
+    "duration": 3.44
+  },
+  {
+    "text": "on a scale of one to ten just three",
+    "start": 500.479,
+    "duration": 3.12
+  },
+  {
+    "text": "whereas for the second person it's",
+    "start": 502.24,
+    "duration": 3.6
+  },
+  {
+    "text": "showing high risk on a scale of one to",
+    "start": 503.599,
+    "duration": 4.561
+  },
+  {
+    "text": "ten it's eight right but now if you look",
+    "start": 505.84,
+    "duration": 4.96
+  },
+  {
+    "text": "at the past record of these people then",
+    "start": 508.16,
+    "duration": 4.96
+  },
+  {
+    "text": "the person in the first image has two",
+    "start": 510.8,
+    "duration": 4.56
+  },
+  {
+    "text": "armed robberies one attempted armed",
+    "start": 513.12,
+    "duration": 3.279
+  },
+  {
+    "text": "robbery",
+    "start": 515.36,
+    "duration": 4.239
+  },
+  {
+    "text": "and then after that again",
+    "start": 516.399,
+    "duration": 5.681
+  },
+  {
+    "text": "there was one grand theft right whereas",
+    "start": 519.599,
+    "duration": 4.081
+  },
+  {
+    "text": "the other person who has been marked as",
+    "start": 522.08,
+    "duration": 5.199
+  },
+  {
+    "text": "high risk had four uh juvenile offenses",
+    "start": 523.68,
+    "duration": 6.4
+  },
+  {
+    "text": "right or misdiminis and then after that",
+    "start": 527.279,
+    "duration": 4.0
+  },
+  {
+    "text": "there were no",
+    "start": 530.08,
+    "duration": 3.439
+  },
+  {
+    "text": "offenses right but what is happening",
+    "start": 531.279,
+    "duration": 3.921
+  },
+  {
+    "text": "here right is that since the second",
+    "start": 533.519,
+    "duration": 3.201
+  },
+  {
+    "text": "person is black and the model has a",
+    "start": 535.2,
+    "duration": 4.48
+  },
+  {
+    "text": "certain bias towards black people it is",
+    "start": 536.72,
+    "duration": 5.119
+  },
+  {
+    "text": "recommending or it is uh",
+    "start": 539.68,
+    "duration": 4.0
+  },
+  {
+    "text": "falsely judging right or in a very",
+    "start": 541.839,
+    "duration": 5.68
+  },
+  {
+    "text": "biased way uh judging that this person",
+    "start": 543.68,
+    "duration": 5.279
+  },
+  {
+    "text": "has a higher chance of becoming a",
+    "start": 547.519,
+    "duration": 2.88
+  },
+  {
+    "text": "criminal in the future right so it's",
+    "start": 548.959,
+    "duration": 4.241
+  },
+  {
+    "text": "biased against blacks it's not fair",
+    "start": 550.399,
+    "duration": 4.321
+  },
+  {
+    "text": "to black set and this is a repeating",
+    "start": 553.2,
+    "duration": 2.56
+  },
+  {
+    "text": "theme",
+    "start": 554.72,
+    "duration": 2.799
+  },
+  {
+    "text": "in various ai models where they are",
+    "start": 555.76,
+    "duration": 3.6
+  },
+  {
+    "text": "biased based on the biases that they see",
+    "start": 557.519,
+    "duration": 3.921
+  },
+  {
+    "text": "in the training data maybe this model",
+    "start": 559.36,
+    "duration": 4.96
+  },
+  {
+    "text": "saw a lot of images during training of",
+    "start": 561.44,
+    "duration": 4.8
+  },
+  {
+    "text": "black people who were criminals maybe",
+    "start": 564.32,
+    "duration": 3.519
+  },
+  {
+    "text": "that's the bias in the data that you had",
+    "start": 566.24,
+    "duration": 3.2
+  },
+  {
+    "text": "and most white people images that it",
+    "start": 567.839,
+    "duration": 3.361
+  },
+  {
+    "text": "show they were not criminals right and",
+    "start": 569.44,
+    "duration": 5.04
+  },
+  {
+    "text": "that bias then gets reflected in the",
+    "start": 571.2,
+    "duration": 5.36
+  },
+  {
+    "text": "outputs that the model generates uh when",
+    "start": 574.48,
+    "duration": 4.56
+  },
+  {
+    "text": "deployed in real-world situations right",
+    "start": 576.56,
+    "duration": 3.279
+  },
+  {
+    "text": "uh",
+    "start": 579.04,
+    "duration": 2.32
+  },
+  {
+    "text": "similar studies were done on facial",
+    "start": 579.839,
+    "duration": 4.641
+  },
+  {
+    "text": "recognition software and it was found",
+    "start": 581.36,
+    "duration": 5.44
+  },
+  {
+    "text": "people took the uh facial recognition",
+    "start": 584.48,
+    "duration": 3.68
+  },
+  {
+    "text": "systems from",
+    "start": 586.8,
+    "duration": 3.36
+  },
+  {
+    "text": "deep tech companies right microsoft ibm",
+    "start": 588.16,
+    "duration": 5.119
+  },
+  {
+    "text": "and so on and they found that if you are",
+    "start": 590.16,
+    "duration": 5.6
+  },
+  {
+    "text": "a white male then the",
+    "start": 593.279,
+    "duration": 4.481
+  },
+  {
+    "text": "facial recognition accuracy is very high",
+    "start": 595.76,
+    "duration": 4.079
+  },
+  {
+    "text": "right this corresponds to",
+    "start": 597.76,
+    "duration": 3.44
+  },
+  {
+    "text": "uh the",
+    "start": 599.839,
+    "duration": 3.12
+  },
+  {
+    "text": "second last column right so light no",
+    "start": 601.2,
+    "duration": 3.52
+  },
+  {
+    "text": "sorry the third last column which is",
+    "start": 602.959,
+    "duration": 3.201
+  },
+  {
+    "text": "lighter male right you are a light",
+    "start": 604.72,
+    "duration": 4.16
+  },
+  {
+    "text": "skinned or a white skinned male then all",
+    "start": 606.16,
+    "duration": 4.64
+  },
+  {
+    "text": "of these are giving you close to 100",
+    "start": 608.88,
+    "duration": 4.399
+  },
+  {
+    "text": "accuracy if you are light skinned female",
+    "start": 610.8,
+    "duration": 4.479
+  },
+  {
+    "text": "then the accuracy decreases and the",
+    "start": 613.279,
+    "duration": 4.641
+  },
+  {
+    "text": "worst accuracy is for darker females",
+    "start": 615.279,
+    "duration": 4.481
+  },
+  {
+    "text": "which is the column in which you see the",
+    "start": 617.92,
+    "duration": 4.64
+  },
+  {
+    "text": "red bars and it's like atrociously low",
+    "start": 619.76,
+    "duration": 5.12
+  },
+  {
+    "text": "right so again this shows that the model",
+    "start": 622.56,
+    "duration": 4.88
+  },
+  {
+    "text": "has not really been trained for",
+    "start": 624.88,
+    "duration": 4.639
+  },
+  {
+    "text": "black women and hence it's not able to",
+    "start": 627.44,
+    "duration": 5.12
+  },
+  {
+    "text": "do a good job of recognizing faces of",
+    "start": 629.519,
+    "duration": 3.921
+  },
+  {
+    "text": "black",
+    "start": 632.56,
+    "duration": 2.8
+  },
+  {
+    "text": "right and the huge gap between the",
+    "start": 633.44,
+    "duration": 4.72
+  },
+  {
+    "text": "performance of the best category uh or",
+    "start": 635.36,
+    "duration": 4.56
+  },
+  {
+    "text": "the best performing category right",
+    "start": 638.16,
+    "duration": 2.88
+  },
+  {
+    "text": "versus the",
+    "start": 639.92,
+    "duration": 2.56
+  },
+  {
+    "text": "category for which the model has the",
+    "start": 641.04,
+    "duration": 4.479
+  },
+  {
+    "text": "worst performance",
+    "start": 642.48,
+    "duration": 4.56
+  },
+  {
+    "text": "and then because of these things right",
+    "start": 645.519,
+    "duration": 4.241
+  },
+  {
+    "text": "because this is not fair this is biased",
+    "start": 647.04,
+    "duration": 4.4
+  },
+  {
+    "text": "many civil rights and other research",
+    "start": 649.76,
+    "duration": 2.8
+  },
+  {
+    "text": "groups",
+    "start": 651.44,
+    "duration": 2.88
+  },
+  {
+    "text": "have been writing to prominent people",
+    "start": 652.56,
+    "duration": 4.56
+  },
+  {
+    "text": "this is a letter to jeff bezos demanding",
+    "start": 654.32,
+    "duration": 4.56
+  },
+  {
+    "text": "that it should start providing facial",
+    "start": 657.12,
+    "duration": 3.6
+  },
+  {
+    "text": "recognition technology governments",
+    "start": 658.88,
+    "duration": 4.0
+  },
+  {
+    "text": "because this technology is giving you",
+    "start": 660.72,
+    "duration": 3.92
+  },
+  {
+    "text": "biased outputs and then the government",
+    "start": 662.88,
+    "duration": 3.519
+  },
+  {
+    "text": "might take actions based on those biased",
+    "start": 664.64,
+    "duration": 4.0
+  },
+  {
+    "text": "outputs for example the criminal",
+    "start": 666.399,
+    "duration": 4.56
+  },
+  {
+    "text": "classification which example which i",
+    "start": 668.64,
+    "duration": 4.0
+  },
+  {
+    "text": "showed earlier right and",
+    "start": 670.959,
+    "duration": 6.481
+  },
+  {
+    "text": "now uh around 2020 ibm amazon microsoft",
+    "start": 672.64,
+    "duration": 7.28
+  },
+  {
+    "text": "all of them have stopped",
+    "start": 677.44,
+    "duration": 4.56
+  },
+  {
+    "text": "selling uh facial recognition technology",
+    "start": 679.92,
+    "duration": 3.68
+  },
+  {
+    "text": "they have taken a public stand that will",
+    "start": 682.0,
+    "duration": 2.959
+  },
+  {
+    "text": "no longer be",
+    "start": 683.6,
+    "duration": 3.76
+  },
+  {
+    "text": "supporting facial recognition technology",
+    "start": 684.959,
+    "duration": 5.361
+  },
+  {
+    "text": "for a police purpose for",
+    "start": 687.36,
+    "duration": 5.12
+  },
+  {
+    "text": "supplying it to police or even other",
+    "start": 690.32,
+    "duration": 5.92
+  },
+  {
+    "text": "government agencies right",
+    "start": 692.48,
+    "duration": 3.76
+  },
+  {
+    "text": "again like i spoke about daily 2 this is",
+    "start": 696.56,
+    "duration": 4.24
+  },
+  {
+    "text": "a recent example now if you ask it to",
+    "start": 698.959,
+    "duration": 4.161
+  },
+  {
+    "text": "generate images of success you can see",
+    "start": 700.8,
+    "duration": 4.64
+  },
+  {
+    "text": "that most of the images are of males if",
+    "start": 703.12,
+    "duration": 3.839
+  },
+  {
+    "text": "you ask it to generate images about",
+    "start": 705.44,
+    "duration": 4.0
+  },
+  {
+    "text": "sadness most of the females are about",
+    "start": 706.959,
+    "duration": 3.921
+  },
+  {
+    "text": "most of the images are about females",
+    "start": 709.44,
+    "duration": 3.68
+  },
+  {
+    "text": "right so this kind of gender bias or",
+    "start": 710.88,
+    "duration": 4.0
+  },
+  {
+    "text": "bias towards certain",
+    "start": 713.12,
+    "duration": 3.519
+  },
+  {
+    "text": "sections of the population",
+    "start": 714.88,
+    "duration": 4.24
+  },
+  {
+    "text": "is very common in these most deep",
+    "start": 716.639,
+    "duration": 3.921
+  },
+  {
+    "text": "learning models because of the bias and",
+    "start": 719.12,
+    "duration": 3.12
+  },
+  {
+    "text": "the training data that they have been",
+    "start": 720.56,
+    "duration": 4.64
+  },
+  {
+    "text": "trained with right",
+    "start": 722.24,
+    "duration": 2.96
+  },
+  {
+    "text": "and this again happens in various",
+    "start": 726.88,
+    "duration": 4.0
+  },
+  {
+    "text": "domains right so now if you use an ai",
+    "start": 729.2,
+    "duration": 3.36
+  },
+  {
+    "text": "model to decide whether you should give",
+    "start": 730.88,
+    "duration": 3.44
+  },
+  {
+    "text": "loan to someone or not again it would be",
+    "start": 732.56,
+    "duration": 3.2
+  },
+  {
+    "text": "biased towards certain sections of the",
+    "start": 734.32,
+    "duration": 3.68
+  },
+  {
+    "text": "society because it would be the case",
+    "start": 735.76,
+    "duration": 4.16
+  },
+  {
+    "text": "that in its training data there were",
+    "start": 738.0,
+    "duration": 4.079
+  },
+  {
+    "text": "certain sections which did not often pay",
+    "start": 739.92,
+    "duration": 3.76
+  },
+  {
+    "text": "their loans back right so it's biased",
+    "start": 742.079,
+    "duration": 4.32
+  },
+  {
+    "text": "for example against women migrants or",
+    "start": 743.68,
+    "duration": 4.56
+  },
+  {
+    "text": "people of color right which is not fair",
+    "start": 746.399,
+    "duration": 3.841
+  },
+  {
+    "text": "right i mean you have to judge each case",
+    "start": 748.24,
+    "duration": 5.279
+  },
+  {
+    "text": "individually and not based on similar uh",
+    "start": 750.24,
+    "duration": 4.399
+  },
+  {
+    "text": "things that you have seen in the past",
+    "start": 753.519,
+    "duration": 3.76
+  },
+  {
+    "text": "right so there's and definitely not like",
+    "start": 754.639,
+    "duration": 4.401
+  },
+  {
+    "text": "two people who have the same profile but",
+    "start": 757.279,
+    "duration": 3.601
+  },
+  {
+    "text": "only differ in their terms of their skin",
+    "start": 759.04,
+    "duration": 3.68
+  },
+  {
+    "text": "color you cannot have a different",
+    "start": 760.88,
+    "duration": 3.759
+  },
+  {
+    "text": "decision for them right so that's what",
+    "start": 762.72,
+    "duration": 3.2
+  },
+  {
+    "text": "is happening in many of these models",
+    "start": 764.639,
+    "duration": 3.44
+  },
+  {
+    "text": "hence this calls for being fair and",
+    "start": 765.92,
+    "duration": 3.76
+  },
+  {
+    "text": "responsible",
+    "start": 768.079,
+    "duration": 3.44
+  },
+  {
+    "text": "and there is again a challenge right so",
+    "start": 769.68,
+    "duration": 3.2
+  },
+  {
+    "text": "now",
+    "start": 771.519,
+    "duration": 3.041
+  },
+  {
+    "text": "again people are becoming aware of these",
+    "start": 772.88,
+    "duration": 3.68
+  },
+  {
+    "text": "and trying to push research in these",
+    "start": 774.56,
+    "duration": 4.399
+  },
+  {
+    "text": "areas so stanford has this ai audit",
+    "start": 776.56,
+    "duration": 4.959
+  },
+  {
+    "text": "challenge where the idea is to",
+    "start": 778.959,
+    "duration": 4.481
+  },
+  {
+    "text": "build models which",
+    "start": 781.519,
+    "duration": 4.961
+  },
+  {
+    "text": "are compliant and do not do any illegal",
+    "start": 783.44,
+    "duration": 5.92
+  },
+  {
+    "text": "discrimination",
+    "start": 786.48,
+    "duration": 2.88
+  },
+  {
+    "text": "okay so while we are talking about",
+    "start": 789.44,
+    "duration": 3.44
+  },
+  {
+    "text": "fairness and responsible ai there is",
+    "start": 791.04,
+    "duration": 3.76
+  },
+  {
+    "text": "also another axis around which we need",
+    "start": 792.88,
+    "duration": 3.519
+  },
+  {
+    "text": "to talk about being",
+    "start": 794.8,
+    "duration": 4.08
+  },
+  {
+    "text": "responsible right so i was talking about",
+    "start": 796.399,
+    "duration": 4.56
+  },
+  {
+    "text": "the human brain right so it has 10 is to",
+    "start": 798.88,
+    "duration": 5.36
+  },
+  {
+    "text": "15 synapses but it only consumes 15",
+    "start": 800.959,
+    "duration": 4.961
+  },
+  {
+    "text": "watts of power right",
+    "start": 804.24,
+    "duration": 3.68
+  },
+  {
+    "text": "whereas if you look at these current",
+    "start": 805.92,
+    "duration": 3.68
+  },
+  {
+    "text": "deep learning models i showed you one",
+    "start": 807.92,
+    "duration": 4.4
+  },
+  {
+    "text": "model which was trained on 2048 tpus",
+    "start": 809.6,
+    "duration": 5.12
+  },
+  {
+    "text": "which is a huge amount of power and",
+    "start": 812.32,
+    "duration": 4.639
+  },
+  {
+    "text": "compute right and in the period from",
+    "start": 814.72,
+    "duration": 7.119
+  },
+  {
+    "text": "2012 to 2018 there has been a 300 000",
+    "start": 816.959,
+    "duration": 6.401
+  },
+  {
+    "text": "folds increase",
+    "start": 821.839,
+    "duration": 4.401
+  },
+  {
+    "text": "in the amount of uh compute compute that",
+    "start": 823.36,
+    "duration": 5.12
+  },
+  {
+    "text": "is being used for training these models",
+    "start": 826.24,
+    "duration": 3.839
+  },
+  {
+    "text": "and this has been doubling every few",
+    "start": 828.48,
+    "duration": 4.159
+  },
+  {
+    "text": "months right and you can see uh in the",
+    "start": 830.079,
+    "duration": 6.481
+  },
+  {
+    "text": "in the shaded portion here right",
+    "start": 832.639,
+    "duration": 3.921
+  },
+  {
+    "text": "that in the past few years there's a",
+    "start": 840.0,
+    "duration": 4.079
+  },
+  {
+    "text": "rapid increase in the size of these",
+    "start": 841.839,
+    "duration": 4.881
+  },
+  {
+    "text": "models or the uh computes that you're",
+    "start": 844.079,
+    "duration": 5.041
+  },
+  {
+    "text": "using uh for training these models right",
+    "start": 846.72,
+    "duration": 4.559
+  },
+  {
+    "text": "and that that has to stop right because",
+    "start": 849.12,
+    "duration": 4.079
+  },
+  {
+    "text": "you are being irresponsible in some",
+    "start": 851.279,
+    "duration": 3.36
+  },
+  {
+    "text": "sense and this should give it make it",
+    "start": 853.199,
+    "duration": 2.401
+  },
+  {
+    "text": "clear",
+    "start": 854.639,
+    "duration": 3.681
+  },
+  {
+    "text": "so if you have like a take an air travel",
+    "start": 855.6,
+    "duration": 3.679
+  },
+  {
+    "text": "from",
+    "start": 858.32,
+    "duration": 3.759
+  },
+  {
+    "text": "new york city to san francisco then this",
+    "start": 859.279,
+    "duration": 4.481
+  },
+  {
+    "text": "is the carbon footprint for one",
+    "start": 862.079,
+    "duration": 3.841
+  },
+  {
+    "text": "passenger right which you see on the",
+    "start": 863.76,
+    "duration": 3.84
+  },
+  {
+    "text": "extreme left-hand side",
+    "start": 865.92,
+    "duration": 3.84
+  },
+  {
+    "text": "and average uh",
+    "start": 867.6,
+    "duration": 3.599
+  },
+  {
+    "text": "human in",
+    "start": 869.76,
+    "duration": 2.879
+  },
+  {
+    "text": "one year",
+    "start": 871.199,
+    "duration": 2.401
+  },
+  {
+    "text": "uh",
+    "start": 872.639,
+    "duration": 2.081
+  },
+  {
+    "text": "does",
+    "start": 873.6,
+    "duration": 3.44
+  },
+  {
+    "text": "the amount of co2 emission that it does",
+    "start": 874.72,
+    "duration": 4.72
+  },
+  {
+    "text": "is marked as 11 right",
+    "start": 877.04,
+    "duration": 4.56
+  },
+  {
+    "text": "whereas if you look at the amount of co2",
+    "start": 879.44,
+    "duration": 4.32
+  },
+  {
+    "text": "emission that happens for training a",
+    "start": 881.6,
+    "duration": 5.359
+  },
+  {
+    "text": "transformer based ai model just",
+    "start": 883.76,
+    "duration": 5.04
+  },
+  {
+    "text": "unimaginable right i mean you have the",
+    "start": 886.959,
+    "duration": 4.56
+  },
+  {
+    "text": "the entire just the graph before it is",
+    "start": 888.8,
+    "duration": 3.76
+  },
+  {
+    "text": "the",
+    "start": 891.519,
+    "duration": 2.961
+  },
+  {
+    "text": "amount of co2 emission in the full",
+    "start": 892.56,
+    "duration": 4.16
+  },
+  {
+    "text": "lifetime of a car right the entire",
+    "start": 894.48,
+    "duration": 4.32
+  },
+  {
+    "text": "lifetime of a car this is the amount of",
+    "start": 896.72,
+    "duration": 4.559
+  },
+  {
+    "text": "co2 emission that it does and what you",
+    "start": 898.8,
+    "duration": 5.12
+  },
+  {
+    "text": "get by training one single transformer",
+    "start": 901.279,
+    "duration": 4.881
+  },
+  {
+    "text": "right it's just like at least five times",
+    "start": 903.92,
+    "duration": 4.4
+  },
+  {
+    "text": "that right and this is again",
+    "start": 906.16,
+    "duration": 4.96
+  },
+  {
+    "text": "irresponsible and that's it again we are",
+    "start": 908.32,
+    "duration": 4.079
+  },
+  {
+    "text": "talking about climate change we are",
+    "start": 911.12,
+    "duration": 3.839
+  },
+  {
+    "text": "talking about uh being responsible",
+    "start": 912.399,
+    "duration": 4.721
+  },
+  {
+    "text": "citizens of the earth and if you train",
+    "start": 914.959,
+    "duration": 4.56
+  },
+  {
+    "text": "such models there's clearly a problem",
+    "start": 917.12,
+    "duration": 4.079
+  },
+  {
+    "text": "there right so there's a lot of push for",
+    "start": 919.519,
+    "duration": 4.241
+  },
+  {
+    "text": "green ai now to make models smaller and",
+    "start": 921.199,
+    "duration": 5.281
+  },
+  {
+    "text": "smaller and also these issues mix right",
+    "start": 923.76,
+    "duration": 4.879
+  },
+  {
+    "text": "so this is also now uh",
+    "start": 926.48,
+    "duration": 4.479
+  },
+  {
+    "text": "not just a problem of environment it's",
+    "start": 928.639,
+    "duration": 3.841
+  },
+  {
+    "text": "also a problem of being responsible it's",
+    "start": 930.959,
+    "duration": 3.521
+  },
+  {
+    "text": "also a problem of being fair right i'll",
+    "start": 932.48,
+    "duration": 4.32
+  },
+  {
+    "text": "just read out this quote from this",
+    "start": 934.48,
+    "duration": 4.56
+  },
+  {
+    "text": "famous paper you can read google a bit",
+    "start": 936.8,
+    "duration": 3.68
+  },
+  {
+    "text": "about this paper",
+    "start": 939.04,
+    "duration": 3.76
+  },
+  {
+    "text": "so is it fair that the residence of",
+    "start": 940.48,
+    "duration": 4.08
+  },
+  {
+    "text": "maldives right which is likely to be",
+    "start": 942.8,
+    "duration": 4.56
+  },
+  {
+    "text": "underwater by 2100",
+    "start": 944.56,
+    "duration": 6.0
+  },
+  {
+    "text": "or the 800 000 people in sudan are",
+    "start": 947.36,
+    "duration": 5.12
+  },
+  {
+    "text": "affected by drastic",
+    "start": 950.56,
+    "duration": 3.76
+  },
+  {
+    "text": "floods who are affected by drastic",
+    "start": 952.48,
+    "duration": 4.0
+  },
+  {
+    "text": "floods is it fair that they pay the",
+    "start": 954.32,
+    "duration": 4.24
+  },
+  {
+    "text": "environmental price of training and",
+    "start": 956.48,
+    "duration": 4.56
+  },
+  {
+    "text": "deploying even larger english language",
+    "start": 958.56,
+    "duration": 4.8
+  },
+  {
+    "text": "models right so all a lot of this is",
+    "start": 961.04,
+    "duration": 3.919
+  },
+  {
+    "text": "english centric work and a lot of",
+    "start": 963.36,
+    "duration": 2.88
+  },
+  {
+    "text": "computers being used for training",
+    "start": 964.959,
+    "duration": 3.521
+  },
+  {
+    "text": "english models so is it fair that people",
+    "start": 966.24,
+    "duration": 4.8
+  },
+  {
+    "text": "living in maldives or sudan",
+    "start": 968.48,
+    "duration": 3.919
+  },
+  {
+    "text": "are paying the",
+    "start": 971.04,
+    "duration": 2.88
+  },
+  {
+    "text": "environmental price for training these",
+    "start": 972.399,
+    "duration": 3.841
+  },
+  {
+    "text": "models when similar models are not being",
+    "start": 973.92,
+    "duration": 4.08
+  },
+  {
+    "text": "produced for their own languages right",
+    "start": 976.24,
+    "duration": 3.039
+  },
+  {
+    "text": "so then what is the price they are",
+    "start": 978.0,
+    "duration": 4.32
+  },
+  {
+    "text": "paying for it's a very valid question to",
+    "start": 979.279,
+    "duration": 4.321
+  },
+  {
+    "text": "think about",
+    "start": 982.32,
+    "duration": 3.04
+  },
+  {
+    "text": "and again this is a very active area of",
+    "start": 983.6,
+    "duration": 3.2
+  },
+  {
+    "text": "research not trying people are trying to",
+    "start": 985.36,
+    "duration": 3.76
+  },
+  {
+    "text": "rethink about hardware itself to make",
+    "start": 986.8,
+    "duration": 5.839
+  },
+  {
+    "text": "the compute uh much more efficient right",
+    "start": 989.12,
+    "duration": 6.0
+  },
+  {
+    "text": "uh so that was slightly on a somber note",
+    "start": 992.639,
+    "duration": 4.401
+  },
+  {
+    "text": "right it was saying as we started off",
+    "start": 995.12,
+    "duration": 3.92
+  },
+  {
+    "text": "well we spoke about all the successes of",
+    "start": 997.04,
+    "duration": 4.08
+  },
+  {
+    "text": "deep learning but then we had this",
+    "start": 999.04,
+    "duration": 3.919
+  },
+  {
+    "text": "somber note on hey we should be",
+    "start": 1001.12,
+    "duration": 4.48
+  },
+  {
+    "text": "responsible fair talk about",
+    "start": 1002.959,
+    "duration": 4.961
+  },
+  {
+    "text": "green ai talk about having sanity in",
+    "start": 1005.6,
+    "duration": 3.679
+  },
+  {
+    "text": "what we are doing just not put out",
+    "start": 1007.92,
+    "duration": 3.2
+  },
+  {
+    "text": "models but also try to explain why they",
+    "start": 1009.279,
+    "duration": 3.841
+  },
+  {
+    "text": "work and so on so i didn't want to end",
+    "start": 1011.12,
+    "duration": 3.839
+  },
+  {
+    "text": "on that somber note so i'll again talk",
+    "start": 1013.12,
+    "duration": 3.6
+  },
+  {
+    "text": "about some exciting times right so the",
+    "start": 1014.959,
+    "duration": 3.68
+  },
+  {
+    "text": "ai revolution is now",
+    "start": 1016.72,
+    "duration": 4.4
+  },
+  {
+    "text": "uh driving scientific research also and",
+    "start": 1018.639,
+    "duration": 4.481
+  },
+  {
+    "text": "let me tell you what i mean by that this",
+    "start": 1021.12,
+    "duration": 6.079
+  },
+  {
+    "text": "is the uh protein folding uh uh problem",
+    "start": 1023.12,
+    "duration": 5.04
+  },
+  {
+    "text": "right and",
+    "start": 1027.199,
+    "duration": 2.961
+  },
+  {
+    "text": "deep mine in 2020",
+    "start": 1028.16,
+    "duration": 3.759
+  },
+  {
+    "text": "released a model for predicting the",
+    "start": 1030.16,
+    "duration": 4.08
+  },
+  {
+    "text": "protein structure of",
+    "start": 1031.919,
+    "duration": 4.481
+  },
+  {
+    "text": "sorry the the three structure of",
+    "start": 1034.24,
+    "duration": 3.839
+  },
+  {
+    "text": "proteins right so what do i mean by that",
+    "start": 1036.4,
+    "duration": 4.96
+  },
+  {
+    "text": "right so we uh every protein right is",
+    "start": 1038.079,
+    "duration": 6.0
+  },
+  {
+    "text": "made up of a sequence of amino acids",
+    "start": 1041.36,
+    "duration": 4.24
+  },
+  {
+    "text": "bonded together right",
+    "start": 1044.079,
+    "duration": 4.48
+  },
+  {
+    "text": "and we know these amino acids this",
+    "start": 1045.6,
+    "duration": 4.4
+  },
+  {
+    "text": "sequence for all the proteins that are",
+    "start": 1048.559,
+    "duration": 3.921
+  },
+  {
+    "text": "there in the body right but now",
+    "start": 1050.0,
+    "duration": 4.96
+  },
+  {
+    "text": "this is just like a i would say a",
+    "start": 1052.48,
+    "duration": 4.079
+  },
+  {
+    "text": "illustrative representation or just a",
+    "start": 1054.96,
+    "duration": 2.959
+  },
+  {
+    "text": "linear representation of what the",
+    "start": 1056.559,
+    "duration": 3.601
+  },
+  {
+    "text": "protein looks like but that's not the",
+    "start": 1057.919,
+    "duration": 5.041
+  },
+  {
+    "text": "reality right these amino acids they",
+    "start": 1060.16,
+    "duration": 4.96
+  },
+  {
+    "text": "actually interact with each other and",
+    "start": 1062.96,
+    "duration": 4.0
+  },
+  {
+    "text": "based on these interactions the protein",
+    "start": 1065.12,
+    "duration": 4.72
+  },
+  {
+    "text": "starts taking certain shapes and it",
+    "start": 1066.96,
+    "duration": 6.719
+  },
+  {
+    "text": "actually has this 3d structure right",
+    "start": 1069.84,
+    "duration": 5.76
+  },
+  {
+    "text": "now knowing this 3d structure is",
+    "start": 1073.679,
+    "duration": 3.601
+  },
+  {
+    "text": "important because if you know this 3d",
+    "start": 1075.6,
+    "duration": 4.079
+  },
+  {
+    "text": "structure then it helps in drug design",
+    "start": 1077.28,
+    "duration": 4.08
+  },
+  {
+    "text": "because if you develop a structure which",
+    "start": 1079.679,
+    "duration": 4.0
+  },
+  {
+    "text": "is compatible with this 3d structure",
+    "start": 1081.36,
+    "duration": 4.08
+  },
+  {
+    "text": "then it would lead to effective drug",
+    "start": 1083.679,
+    "duration": 3.601
+  },
+  {
+    "text": "delivery for example and a lot of you",
+    "start": 1085.44,
+    "duration": 4.88
+  },
+  {
+    "text": "could relate to this in terms of this",
+    "start": 1087.28,
+    "duration": 4.88
+  },
+  {
+    "text": "covet pandemic right so we heard that",
+    "start": 1090.32,
+    "duration": 4.32
+  },
+  {
+    "text": "this virus has this spike protein right",
+    "start": 1092.16,
+    "duration": 4.639
+  },
+  {
+    "text": "which has a certain crown like shape and",
+    "start": 1094.64,
+    "duration": 3.76
+  },
+  {
+    "text": "because of that it is able to attach on",
+    "start": 1096.799,
+    "duration": 3.281
+  },
+  {
+    "text": "certain things well it's a similar",
+    "start": 1098.4,
+    "duration": 3.519
+  },
+  {
+    "text": "analogy here that you have a certain",
+    "start": 1100.08,
+    "duration": 3.68
+  },
+  {
+    "text": "structure a 3d structure",
+    "start": 1101.919,
+    "duration": 3.361
+  },
+  {
+    "text": "it has a certain shape if you know what",
+    "start": 1103.76,
+    "duration": 3.36
+  },
+  {
+    "text": "that shape is then you could design",
+    "start": 1105.28,
+    "duration": 3.04
+  },
+  {
+    "text": "things which could attach or be",
+    "start": 1107.12,
+    "duration": 3.04
+  },
+  {
+    "text": "compatible with that",
+    "start": 1108.32,
+    "duration": 4.56
+  },
+  {
+    "text": "structure and that helps in drug design",
+    "start": 1110.16,
+    "duration": 5.28
+  },
+  {
+    "text": "right so this structure 3d structure is",
+    "start": 1112.88,
+    "duration": 4.32
+  },
+  {
+    "text": "not really known for all the proteins in",
+    "start": 1115.44,
+    "duration": 5.52
+  },
+  {
+    "text": "the body right and now what",
+    "start": 1117.2,
+    "duration": 5.76
+  },
+  {
+    "text": "uh deepmind has been able to do with its",
+    "start": 1120.96,
+    "duration": 4.64
+  },
+  {
+    "text": "alpha fold model that it has been able",
+    "start": 1122.96,
+    "duration": 6.16
+  },
+  {
+    "text": "to get a significant increase in the uh",
+    "start": 1125.6,
+    "duration": 5.52
+  },
+  {
+    "text": "accuracy with which we are being able to",
+    "start": 1129.12,
+    "duration": 4.64
+  },
+  {
+    "text": "predict these 3d structures right of",
+    "start": 1131.12,
+    "duration": 4.08
+  },
+  {
+    "text": "course the problem is",
+    "start": 1133.76,
+    "duration": 3.12
+  },
+  {
+    "text": "nowhere close to being solved but there",
+    "start": 1135.2,
+    "duration": 2.56
+  },
+  {
+    "text": "is a",
+    "start": 1136.88,
+    "duration": 2.799
+  },
+  {
+    "text": "remarkable increase in where we were",
+    "start": 1137.76,
+    "duration": 4.76
+  },
+  {
+    "text": "like just in 2019 versus where we are in",
+    "start": 1139.679,
+    "duration": 6.321
+  },
+  {
+    "text": "2022 today right so that's exciting and",
+    "start": 1142.52,
+    "duration": 5.399
+  },
+  {
+    "text": "maybe it would take a while for things",
+    "start": 1146.0,
+    "duration": 4.48
+  },
+  {
+    "text": "to uh because as we have again realized",
+    "start": 1147.919,
+    "duration": 4.801
+  },
+  {
+    "text": "during the pandemic that",
+    "start": 1150.48,
+    "duration": 4.48
+  },
+  {
+    "text": "things move very different in at a very",
+    "start": 1152.72,
+    "duration": 4.319
+  },
+  {
+    "text": "different pace in the scientific field",
+    "start": 1154.96,
+    "duration": 3.52
+  },
+  {
+    "text": "of medicine and so on where there are a",
+    "start": 1157.039,
+    "duration": 3.361
+  },
+  {
+    "text": "lot of regulations and a lot of other",
+    "start": 1158.48,
+    "duration": 3.6
+  },
+  {
+    "text": "things need to fall in place but at",
+    "start": 1160.4,
+    "duration": 4.72
+  },
+  {
+    "text": "least the science is getting pushed and",
+    "start": 1162.08,
+    "duration": 5.28
+  },
+  {
+    "text": "that might show soon show effects in",
+    "start": 1165.12,
+    "duration": 5.6
+  },
+  {
+    "text": "actual applications right",
+    "start": 1167.36,
+    "duration": 3.36
+  },
+  {
+    "text": "yeah",
+    "start": 1171.44,
+    "duration": 3.599
+  },
+  {
+    "text": "similarly in astronomy right so there is",
+    "start": 1173.039,
+    "duration": 3.801
+  },
+  {
+    "text": "an interest that you have",
+    "start": 1175.039,
+    "duration": 4.241
+  },
+  {
+    "text": "a certain",
+    "start": 1176.84,
+    "duration": 4.44
+  },
+  {
+    "text": "very i'll just try to explain this at a",
+    "start": 1179.28,
+    "duration": 3.84
+  },
+  {
+    "text": "very high level right because in fact",
+    "start": 1181.28,
+    "duration": 3.36
+  },
+  {
+    "text": "even i understand at a very high level",
+    "start": 1183.12,
+    "duration": 4.08
+  },
+  {
+    "text": "so suppose you have a certain",
+    "start": 1184.64,
+    "duration": 5.12
+  },
+  {
+    "text": "galaxy right and you're interested in",
+    "start": 1187.2,
+    "duration": 4.479
+  },
+  {
+    "text": "how it will age or how it will look when",
+    "start": 1189.76,
+    "duration": 3.039
+  },
+  {
+    "text": "it ages",
+    "start": 1191.679,
+    "duration": 2.88
+  },
+  {
+    "text": "now this problem people have tried for",
+    "start": 1192.799,
+    "duration": 3.521
+  },
+  {
+    "text": "human faces right they have been able to",
+    "start": 1194.559,
+    "duration": 4.24
+  },
+  {
+    "text": "generate these images of how you will",
+    "start": 1196.32,
+    "duration": 4.32
+  },
+  {
+    "text": "look like say 5 years from now 10 years",
+    "start": 1198.799,
+    "duration": 3.921
+  },
+  {
+    "text": "from now 100 years old now can you apply",
+    "start": 1200.64,
+    "duration": 4.399
+  },
+  {
+    "text": "the same at the galaxy scale and try to",
+    "start": 1202.72,
+    "duration": 4.56
+  },
+  {
+    "text": "predict about how the galaxy would look",
+    "start": 1205.039,
+    "duration": 4.801
+  },
+  {
+    "text": "right and now if you can predict that",
+    "start": 1207.28,
+    "duration": 4.0
+  },
+  {
+    "text": "then if you can generate that image",
+    "start": 1209.84,
+    "duration": 3.28
+  },
+  {
+    "text": "right then you then scientists can make",
+    "start": 1211.28,
+    "duration": 3.44
+  },
+  {
+    "text": "certain claims about what is going to",
+    "start": 1213.12,
+    "duration": 3.439
+  },
+  {
+    "text": "happen there right is that star becoming",
+    "start": 1214.72,
+    "duration": 4.24
+  },
+  {
+    "text": "older or what exactly are some of the",
+    "start": 1216.559,
+    "duration": 5.041
+  },
+  {
+    "text": "physical phenomena that might be linked",
+    "start": 1218.96,
+    "duration": 4.16
+  },
+  {
+    "text": "because of which this image is getting",
+    "start": 1221.6,
+    "duration": 3.6
+  },
+  {
+    "text": "generated right so this is again a very",
+    "start": 1223.12,
+    "duration": 4.32
+  },
+  {
+    "text": "different way of doing astronomy which",
+    "start": 1225.2,
+    "duration": 4.56
+  },
+  {
+    "text": "is not being thought about or popular a",
+    "start": 1227.44,
+    "duration": 5.52
+  },
+  {
+    "text": "few years back right",
+    "start": 1229.76,
+    "duration": 6.64
+  },
+  {
+    "text": "okay uh similar uh stuff has happened uh",
+    "start": 1232.96,
+    "duration": 4.8
+  },
+  {
+    "text": "for uh",
+    "start": 1236.4,
+    "duration": 2.8
+  },
+  {
+    "text": "uh",
+    "start": 1237.76,
+    "duration": 2.96
+  },
+  {
+    "text": "for finding",
+    "start": 1239.2,
+    "duration": 3.76
+  },
+  {
+    "text": "uh",
+    "start": 1240.72,
+    "duration": 2.24
+  },
+  {
+    "text": "fundamental variables right which are",
+    "start": 1243.679,
+    "duration": 3.201
+  },
+  {
+    "text": "hidden in experimental data right so",
+    "start": 1245.28,
+    "duration": 3.519
+  },
+  {
+    "text": "i'll not try to explain this",
+    "start": 1246.88,
+    "duration": 4.159
+  },
+  {
+    "text": "i'll just i don't think i have time to",
+    "start": 1248.799,
+    "duration": 4.161
+  },
+  {
+    "text": "play this video also but there's a very",
+    "start": 1251.039,
+    "duration": 3.601
+  },
+  {
+    "text": "interesting video here i would recommend",
+    "start": 1252.96,
+    "duration": 3.839
+  },
+  {
+    "text": "that you see the first five minutes of",
+    "start": 1254.64,
+    "duration": 5.279
+  },
+  {
+    "text": "this video to understand uh what this is",
+    "start": 1256.799,
+    "duration": 5.36
+  },
+  {
+    "text": "about right",
+    "start": 1259.919,
+    "duration": 4.161
+  },
+  {
+    "text": "okay now the last section that i want to",
+    "start": 1262.159,
+    "duration": 4.161
+  },
+  {
+    "text": "talk about is efficient deep learning so",
+    "start": 1264.08,
+    "duration": 4.079
+  },
+  {
+    "text": "we are living in the era of mobile",
+    "start": 1266.32,
+    "duration": 3.04
+  },
+  {
+    "text": "phones right and the number of",
+    "start": 1268.159,
+    "duration": 3.361
+  },
+  {
+    "text": "smartphone subscriptions has increased",
+    "start": 1269.36,
+    "duration": 3.6
+  },
+  {
+    "text": "at least in the context of a country",
+    "start": 1271.52,
+    "duration": 3.68
+  },
+  {
+    "text": "like india there is increasing",
+    "start": 1272.96,
+    "duration": 4.079
+  },
+  {
+    "text": "mobile penetration in the rural areas",
+    "start": 1275.2,
+    "duration": 4.0
+  },
+  {
+    "text": "right what that means is that now you",
+    "start": 1277.039,
+    "duration": 6.0
+  },
+  {
+    "text": "should start thinking about how do you",
+    "start": 1279.2,
+    "duration": 5.52
+  },
+  {
+    "text": "serve this population which might not",
+    "start": 1283.039,
+    "duration": 3.52
+  },
+  {
+    "text": "have computers right but they have",
+    "start": 1284.72,
+    "duration": 4.079
+  },
+  {
+    "text": "access to mobile phones so can you build",
+    "start": 1286.559,
+    "duration": 4.881
+  },
+  {
+    "text": "ai models which run for this particular",
+    "start": 1288.799,
+    "duration": 4.721
+  },
+  {
+    "text": "form factor right and people have this",
+    "start": 1291.44,
+    "duration": 4.8
+  },
+  {
+    "text": "uh good connectivity also so now there",
+    "start": 1293.52,
+    "duration": 5.84
+  },
+  {
+    "text": "is increasing uh emphasis on designing",
+    "start": 1296.24,
+    "duration": 5.439
+  },
+  {
+    "text": "models which can run on the edge right",
+    "start": 1299.36,
+    "duration": 4.64
+  },
+  {
+    "text": "so if you have a drone can you which",
+    "start": 1301.679,
+    "duration": 4.321
+  },
+  {
+    "text": "would have limited memory limited",
+    "start": 1304.0,
+    "duration": 4.4
+  },
+  {
+    "text": "compute can you take your ai models and",
+    "start": 1306.0,
+    "duration": 5.039
+  },
+  {
+    "text": "make them run on these devices right so",
+    "start": 1308.4,
+    "duration": 6.08
+  },
+  {
+    "text": "that's another push that we have and a",
+    "start": 1311.039,
+    "duration": 5.12
+  },
+  {
+    "text": "lot of things are being done",
+    "start": 1314.48,
+    "duration": 3.84
+  },
+  {
+    "text": "to address these constraints of power",
+    "start": 1316.159,
+    "duration": 4.88
+  },
+  {
+    "text": "storage you want real-time output so you",
+    "start": 1318.32,
+    "duration": 5.28
+  },
+  {
+    "text": "cannot have like you submit a sentence",
+    "start": 1321.039,
+    "duration": 4.801
+  },
+  {
+    "text": "and the result comes back after one or",
+    "start": 1323.6,
+    "duration": 3.52
+  },
+  {
+    "text": "two seconds you want it to be in",
+    "start": 1325.84,
+    "duration": 3.839
+  },
+  {
+    "text": "milliseconds right and what if you have",
+    "start": 1327.12,
+    "duration": 6.24
+  },
+  {
+    "text": "drones which are not connected to",
+    "start": 1329.679,
+    "duration": 5.041
+  },
+  {
+    "text": "internet right they're just stand alone",
+    "start": 1333.36,
+    "duration": 3.84
+  },
+  {
+    "text": "can you do computations on the devices a",
+    "start": 1334.72,
+    "duration": 3.6
+  },
+  {
+    "text": "lot of",
+    "start": 1337.2,
+    "duration": 3.359
+  },
+  {
+    "text": "research is also happening in",
+    "start": 1338.32,
+    "duration": 5.68
+  },
+  {
+    "text": "making these large models",
+    "start": 1340.559,
+    "duration": 5.681
+  },
+  {
+    "text": "work for small devices so i do how do",
+    "start": 1344.0,
+    "duration": 4.559
+  },
+  {
+    "text": "you take these multi-billion parameter",
+    "start": 1346.24,
+    "duration": 4.88
+  },
+  {
+    "text": "models and make them smaller while not",
+    "start": 1348.559,
+    "duration": 4.961
+  },
+  {
+    "text": "compromising on the accuracy right so",
+    "start": 1351.12,
+    "duration": 5.439
+  },
+  {
+    "text": "this is all i had so i'll just stop here",
+    "start": 1353.52,
+    "duration": 5.039
+  },
+  {
+    "text": "there are a few",
+    "start": 1356.559,
+    "duration": 3.681
+  },
+  {
+    "text": "reference material here that you could",
+    "start": 1358.559,
+    "duration": 4.561
+  },
+  {
+    "text": "look at but i'm done with the lecture i",
+    "start": 1360.24,
+    "duration": 4.319
+  },
+  {
+    "text": "hope you enjoyed the history of course",
+    "start": 1363.12,
+    "duration": 2.72
+  },
+  {
+    "text": "there are many other things which i",
+    "start": 1364.559,
+    "duration": 2.881
+  },
+  {
+    "text": "might not have covered in particular i",
+    "start": 1365.84,
+    "duration": 3.839
+  },
+  {
+    "text": "have not talked much about the advances",
+    "start": 1367.44,
+    "duration": 4.479
+  },
+  {
+    "text": "in things like text to speech voice",
+    "start": 1369.679,
+    "duration": 3.841
+  },
+  {
+    "text": "conversion even automatic speech",
+    "start": 1371.919,
+    "duration": 3.201
+  },
+  {
+    "text": "recognition",
+    "start": 1373.52,
+    "duration": 4.24
+  },
+  {
+    "text": "but the idea was to give you a",
+    "start": 1375.12,
+    "duration": 4.559
+  },
+  {
+    "text": "very high view of how the field has",
+    "start": 1377.76,
+    "duration": 4.32
+  },
+  {
+    "text": "evolved from early neural networks to",
+    "start": 1379.679,
+    "duration": 4.161
+  },
+  {
+    "text": "recurrent networks to transform the base",
+    "start": 1382.08,
+    "duration": 3.68
+  },
+  {
+    "text": "models gans diffusion-based models and",
+    "start": 1383.84,
+    "duration": 4.4
+  },
+  {
+    "text": "so on so with that i'll end this lecture",
+    "start": 1385.76,
+    "duration": 5.72
+  },
+  {
+    "text": "thank you",
+    "start": 1388.24,
+    "duration": 3.24
+  }
+]

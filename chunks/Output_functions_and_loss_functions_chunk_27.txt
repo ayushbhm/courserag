@@ -1,0 +1,8 @@
+to be as close to 1 because we know that for the true class the probability is 1. okay so.
+this is what we have done so far we have looked at two types of problems one problem where the.
+output values are real values these are the regression problems and the other values where the outputs are probabilities these.
+are the classification problems are two popular family of problems we have looked at for the regression problems we said.
+that the output function should just be linear because we don't want the output to be bounded between anything and.
+whatever is the natural range of the output the loss function will make sure that the network predicts something in.
+that range itself because otherwise the loss will become very large right for the classification problems the output function was.
+the soft max function and then the loss function for the regression problems for squared error and for the classification.

@@ -1,0 +1,3 @@
+that right so I'm just using W instead of using two W's so again I'm reducing the model complexity right.
+so in both these cases it should be clear how this is acting as a regularizer so I'll end this.
+video here thank you.

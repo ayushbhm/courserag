@@ -1,0 +1,9 @@
+relu function and I have just taken the difference between these two right so you could think of it in.
+terms of neurons I had two neurons both of these were relu neurons right and then I'm subtracting one from.
+the other and I'm getting some output and that output looks almost like the sigmoid function it looks like a.
+linear approximation of the sigmoid function so it is indeed a non-linear function right it's as close to almost like.
+the step function that you have and if you adjust these parameters a bit more you will get even better.
+kind of a step function and so on right so indeed a relu is a non-linear function some of you.
+have not seen it before but might just look at the line and think that it's a linear function but.
+it is not okay uh this specific function that I've drawn is called relu 6 because 6 denotes the maximum.
+value of the relu that you have here okay okay so what are the advantages of relu so it does.

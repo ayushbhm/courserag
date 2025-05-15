@@ -1,0 +1,9 @@
+light of whatever you had seen in the encoder right so now you want to take S1 as the input.
+you want to generate a q1 from that okay then using q1 and these K1 K2 up to K capital.
+T where capital T was the number of tokens in the uh encoder right you will compute the corresponding Alphas.
+right so you'll have alpha 1 1 Alpha 1 2 Alpha One T so these Alphas tell you how much.
+attention should you give to the ith input in the encoder while Computing a refined representation for the jth decoder.
+value right and now using this you will compute your Z1 as whatever Alphas you have computed Alpha 1j into.
+the values which are coming out of here right so these are going to be some VJs and you're going.
+to sum over J equal to 1 to T right the same computation happens again you have the key query.
+and value it's just that now the attention is between the encoder the decoder representation and the encoder representation and.

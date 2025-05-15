@@ -1,0 +1,2612 @@
+[
+  {
+    "text": "foreign",
+    "start": 0.299,
+    "duration": 3.0
+  },
+  {
+    "text": "[Music]",
+    "start": 6.6,
+    "duration": 3.75
+  },
+  {
+    "text": "so you had this this is what is",
+    "start": 18.72,
+    "duration": 4.74
+  },
+  {
+    "text": "happening here so you had this one word",
+    "start": 21.24,
+    "duration": 4.02
+  },
+  {
+    "text": "embedding okay",
+    "start": 23.46,
+    "duration": 3.36
+  },
+  {
+    "text": "hi",
+    "start": 25.26,
+    "duration": 3.96
+  },
+  {
+    "text": "let's just call it H1 right if you want",
+    "start": 26.82,
+    "duration": 4.199
+  },
+  {
+    "text": "H1 H1",
+    "start": 29.22,
+    "duration": 4.44
+  },
+  {
+    "text": "you did this linear transformation right",
+    "start": 31.019,
+    "duration": 7.2
+  },
+  {
+    "text": "so let's say this was an r t dimensional",
+    "start": 33.66,
+    "duration": 7.079
+  },
+  {
+    "text": "embedding then you could multiply it by",
+    "start": 38.219,
+    "duration": 5.821
+  },
+  {
+    "text": "a d cross D dimensional Matrix and again",
+    "start": 40.739,
+    "duration": 6.361
+  },
+  {
+    "text": "get a d dimensional vector and you could",
+    "start": 44.04,
+    "duration": 5.4
+  },
+  {
+    "text": "do the same thing at all these three",
+    "start": 47.1,
+    "duration": 4.92
+  },
+  {
+    "text": "places right so from now one vector you",
+    "start": 49.44,
+    "duration": 4.139
+  },
+  {
+    "text": "have been able to generate three vectors",
+    "start": 52.02,
+    "duration": 3.059
+  },
+  {
+    "text": "and you needed these three vectors",
+    "start": 53.579,
+    "duration": 3.241
+  },
+  {
+    "text": "because three vectors were participating",
+    "start": 55.079,
+    "duration": 3.96
+  },
+  {
+    "text": "in your attention equation earlier right",
+    "start": 56.82,
+    "duration": 5.34
+  },
+  {
+    "text": "so you have these three vectors now",
+    "start": 59.039,
+    "duration": 5.221
+  },
+  {
+    "text": "now what do you do with these three",
+    "start": 62.16,
+    "duration": 4.44
+  },
+  {
+    "text": "vectors so these are",
+    "start": 64.26,
+    "duration": 4.08
+  },
+  {
+    "text": "they just look at their names again so",
+    "start": 66.6,
+    "duration": 3.6
+  },
+  {
+    "text": "this was all the hi's that you had all",
+    "start": 68.34,
+    "duration": 4.8
+  },
+  {
+    "text": "the edges these were your matrices these",
+    "start": 70.2,
+    "duration": 4.32
+  },
+  {
+    "text": "were the learnable matrices the",
+    "start": 73.14,
+    "duration": 4.62
+  },
+  {
+    "text": "transformation matrices WQ for query WV",
+    "start": 74.52,
+    "duration": 6.18
+  },
+  {
+    "text": "V for value and w k k for key and what",
+    "start": 77.76,
+    "duration": 6.3
+  },
+  {
+    "text": "you get out is the query Vector Q the",
+    "start": 80.7,
+    "duration": 5.4
+  },
+  {
+    "text": "value vector",
+    "start": 84.06,
+    "duration": 4.26
+  },
+  {
+    "text": "B and the key Vector okay right so for",
+    "start": 86.1,
+    "duration": 4.14
+  },
+  {
+    "text": "each word from your perspective for each",
+    "start": 88.32,
+    "duration": 3.78
+  },
+  {
+    "text": "word you have now been able to create",
+    "start": 90.24,
+    "duration": 4.08
+  },
+  {
+    "text": "three vectors from it right now how do",
+    "start": 92.1,
+    "duration": 3.839
+  },
+  {
+    "text": "you use these vectors how do you compute",
+    "start": 94.32,
+    "duration": 2.7
+  },
+  {
+    "text": "the attention is something that will",
+    "start": 95.939,
+    "duration": 2.941
+  },
+  {
+    "text": "come later on right but for now what",
+    "start": 97.02,
+    "duration": 3.0
+  },
+  {
+    "text": "we're doing is something simple right",
+    "start": 98.88,
+    "duration": 2.58
+  },
+  {
+    "text": "for whatever reasons we are taking one",
+    "start": 100.02,
+    "duration": 3.419
+  },
+  {
+    "text": "vector and Computing three vectors from",
+    "start": 101.46,
+    "duration": 3.54
+  },
+  {
+    "text": "it and these three vectors are being",
+    "start": 103.439,
+    "duration": 3.481
+  },
+  {
+    "text": "Computing with the help of linear",
+    "start": 105.0,
+    "duration": 4.02
+  },
+  {
+    "text": "Transformations coming from a matrix",
+    "start": 106.92,
+    "duration": 3.42
+  },
+  {
+    "text": "right so and these are learnable",
+    "start": 109.02,
+    "duration": 2.34
+  },
+  {
+    "text": "parameters so you have already",
+    "start": 110.34,
+    "duration": 3.18
+  },
+  {
+    "text": "introduced some parameters into the X",
+    "start": 111.36,
+    "duration": 3.36
+  },
+  {
+    "text": "okay",
+    "start": 113.52,
+    "duration": 3.419
+  },
+  {
+    "text": "so I'm just repeating what I had said on",
+    "start": 114.72,
+    "duration": 4.079
+  },
+  {
+    "text": "the slide and these are called the",
+    "start": 116.939,
+    "duration": 3.781
+  },
+  {
+    "text": "respective transformations",
+    "start": 118.799,
+    "duration": 5.1
+  },
+  {
+    "text": "now so now let's focus on uh Computing",
+    "start": 120.72,
+    "duration": 6.96
+  },
+  {
+    "text": "the output for the first uh guy right so",
+    "start": 123.899,
+    "duration": 6.481
+  },
+  {
+    "text": "this is the first input right",
+    "start": 127.68,
+    "duration": 4.26
+  },
+  {
+    "text": "let's see",
+    "start": 130.38,
+    "duration": 4.14
+  },
+  {
+    "text": "so you have H1 H2 all the way up to H5",
+    "start": 131.94,
+    "duration": 5.34
+  },
+  {
+    "text": "and now let's see how Z1 gets computed",
+    "start": 134.52,
+    "duration": 3.78
+  },
+  {
+    "text": "right which is the contextual",
+    "start": 137.28,
+    "duration": 3.84
+  },
+  {
+    "text": "representation for the word I right and",
+    "start": 138.3,
+    "duration": 4.68
+  },
+  {
+    "text": "through the self retention layer and",
+    "start": 141.12,
+    "duration": 4.5
+  },
+  {
+    "text": "what do these key query value vectors",
+    "start": 142.98,
+    "duration": 4.8
+  },
+  {
+    "text": "that I showed how do they play a role in",
+    "start": 145.62,
+    "duration": 3.66
+  },
+  {
+    "text": "this right so let's see what is going to",
+    "start": 147.78,
+    "duration": 4.92
+  },
+  {
+    "text": "happen there yeah so just zoom into this",
+    "start": 149.28,
+    "duration": 7.34
+  },
+  {
+    "text": "I'll just clear the annotations",
+    "start": 152.7,
+    "duration": 3.92
+  },
+  {
+    "text": "so you had this single embedding",
+    "start": 158.4,
+    "duration": 7.02
+  },
+  {
+    "text": "which was H1 right and from there you",
+    "start": 161.879,
+    "duration": 4.741
+  },
+  {
+    "text": "can see there are three arrows coming",
+    "start": 165.42,
+    "duration": 2.399
+  },
+  {
+    "text": "out so you would have realized that I'm",
+    "start": 166.62,
+    "duration": 3.18
+  },
+  {
+    "text": "going to compute three different values",
+    "start": 167.819,
+    "duration": 4.321
+  },
+  {
+    "text": "from this one vector right so let's see",
+    "start": 169.8,
+    "duration": 5.719
+  },
+  {
+    "text": "what those three values are",
+    "start": 172.14,
+    "duration": 3.379
+  },
+  {
+    "text": "sorry",
+    "start": 176.58,
+    "duration": 3.72
+  },
+  {
+    "text": "so I'll first do a linear transformation",
+    "start": 178.26,
+    "duration": 5.46
+  },
+  {
+    "text": "with WQ to get a new Vector which is I'm",
+    "start": 180.3,
+    "duration": 5.46
+  },
+  {
+    "text": "going to call as the Q by Q Vector so",
+    "start": 183.72,
+    "duration": 4.32
+  },
+  {
+    "text": "this is going to be the q1 similarly",
+    "start": 185.76,
+    "duration": 4.44
+  },
+  {
+    "text": "I'll do a linear transformation with K",
+    "start": 188.04,
+    "duration": 5.64
+  },
+  {
+    "text": "and I'll call it as K1 similarly I'll do",
+    "start": 190.2,
+    "duration": 5.34
+  },
+  {
+    "text": "a linear transformation with v and I'm",
+    "start": 193.68,
+    "duration": 4.199
+  },
+  {
+    "text": "going to call it as VR right now how I'm",
+    "start": 195.54,
+    "duration": 4.32
+  },
+  {
+    "text": "going to use this q1 K1 V1 doesn't",
+    "start": 197.879,
+    "duration": 3.301
+  },
+  {
+    "text": "matter right but at least pectorially",
+    "start": 199.86,
+    "duration": 2.76
+  },
+  {
+    "text": "you get to know what is happening here I",
+    "start": 201.18,
+    "duration": 3.72
+  },
+  {
+    "text": "had one vector I did three linear",
+    "start": 202.62,
+    "duration": 3.479
+  },
+  {
+    "text": "transformations to get three different",
+    "start": 204.9,
+    "duration": 2.759
+  },
+  {
+    "text": "vectors from that I am calling them as",
+    "start": 206.099,
+    "duration": 4.621
+  },
+  {
+    "text": "q1 K1 V1 I'll continue the same for all",
+    "start": 207.659,
+    "duration": 5.94
+  },
+  {
+    "text": "the uh all my words in the input all of",
+    "start": 210.72,
+    "duration": 5.4
+  },
+  {
+    "text": "this can be done in parallel of course",
+    "start": 213.599,
+    "duration": 4.441
+  },
+  {
+    "text": "so I'll again take the last word for",
+    "start": 216.12,
+    "duration": 3.119
+  },
+  {
+    "text": "example I'll do this for all the word",
+    "start": 218.04,
+    "duration": 2.22
+  },
+  {
+    "text": "but I'm just showing it for the last",
+    "start": 219.239,
+    "duration": 4.14
+  },
+  {
+    "text": "word again so I'll take uh H Phi in this",
+    "start": 220.26,
+    "duration": 6.42
+  },
+  {
+    "text": "case pass it through WQ and I'll get my",
+    "start": 223.379,
+    "duration": 6.42
+  },
+  {
+    "text": "Q Phi similarly I'll get K Phi and",
+    "start": 226.68,
+    "duration": 5.94
+  },
+  {
+    "text": "similarly I'll get V5 right so if I had",
+    "start": 229.799,
+    "duration": 4.921
+  },
+  {
+    "text": "t words in the input I have computed",
+    "start": 232.62,
+    "duration": 5.46
+  },
+  {
+    "text": "this 3 into T vectors using these linear",
+    "start": 234.72,
+    "duration": 6.48
+  },
+  {
+    "text": "Transformations okay now what next what",
+    "start": 238.08,
+    "duration": 6.299
+  },
+  {
+    "text": "am I going to do next right so now what",
+    "start": 241.2,
+    "duration": 4.56
+  },
+  {
+    "text": "I want to do is",
+    "start": 244.379,
+    "duration": 3.661
+  },
+  {
+    "text": "I want to compute earlier I was",
+    "start": 245.76,
+    "duration": 4.5
+  },
+  {
+    "text": "Computing the score",
+    "start": 248.04,
+    "duration": 4.08
+  },
+  {
+    "text": "let me just flash the equation and then",
+    "start": 250.26,
+    "duration": 4.339
+  },
+  {
+    "text": "I can do it",
+    "start": 252.12,
+    "duration": 2.479
+  },
+  {
+    "text": "so earlier I was Computing the score",
+    "start": 255.36,
+    "duration": 2.879
+  },
+  {
+    "text": "between",
+    "start": 256.919,
+    "duration": 4.621
+  },
+  {
+    "text": "St minus 1 and HJ and this was used to",
+    "start": 258.239,
+    "duration": 5.761
+  },
+  {
+    "text": "give me the importance of the j8 word",
+    "start": 261.54,
+    "duration": 4.14
+  },
+  {
+    "text": "and the TX time step right so again now",
+    "start": 264.0,
+    "duration": 3.6
+  },
+  {
+    "text": "I'll have some score",
+    "start": 265.68,
+    "duration": 4.38
+  },
+  {
+    "text": "and my indices would be I and J right",
+    "start": 267.6,
+    "duration": 4.74
+  },
+  {
+    "text": "the ith word and the jth word but now",
+    "start": 270.06,
+    "duration": 4.56
+  },
+  {
+    "text": "what does go here that's the question",
+    "start": 272.34,
+    "duration": 6.32
+  },
+  {
+    "text": "right so let's see what goes here",
+    "start": 274.62,
+    "duration": 4.04
+  },
+  {
+    "text": "the function that I'm going to use is to",
+    "start": 278.9,
+    "duration": 6.7
+  },
+  {
+    "text": "compute the score between q1 and K J",
+    "start": 281.94,
+    "duration": 8.16
+  },
+  {
+    "text": "right so now my this is my query Vector",
+    "start": 285.6,
+    "duration": 7.56
+  },
+  {
+    "text": "so I'm interested in knowing the weights",
+    "start": 290.1,
+    "duration": 5.76
+  },
+  {
+    "text": "of all the other words with respect to",
+    "start": 293.16,
+    "duration": 5.099
+  },
+  {
+    "text": "the first one that's why that's my query",
+    "start": 295.86,
+    "duration": 4.98
+  },
+  {
+    "text": "the query is the first word and I want",
+    "start": 298.259,
+    "duration": 4.681
+  },
+  {
+    "text": "to understand the importance of all the",
+    "start": 300.84,
+    "duration": 4.2
+  },
+  {
+    "text": "words with respect to that word so I'll",
+    "start": 302.94,
+    "duration": 6.0
+  },
+  {
+    "text": "pass different values of k k 1 k 2 K 3 k",
+    "start": 305.04,
+    "duration": 6.42
+  },
+  {
+    "text": "4 K5 through it and compute the score",
+    "start": 308.94,
+    "duration": 4.74
+  },
+  {
+    "text": "right so I'm going to compute uh five",
+    "start": 311.46,
+    "duration": 5.78
+  },
+  {
+    "text": "such scores right so earlier",
+    "start": 313.68,
+    "duration": 7.34
+  },
+  {
+    "text": "this was the St minus 1 was fixed right",
+    "start": 317.24,
+    "duration": 6.34
+  },
+  {
+    "text": "uh because that was the state of the",
+    "start": 321.02,
+    "duration": 4.119
+  },
+  {
+    "text": "decoder time step T minus one that did",
+    "start": 323.58,
+    "duration": 3.3
+  },
+  {
+    "text": "not change so that was in some sense my",
+    "start": 325.139,
+    "duration": 4.5
+  },
+  {
+    "text": "query because for at time step T I was",
+    "start": 326.88,
+    "duration": 4.44
+  },
+  {
+    "text": "interested in knowing the weights of all",
+    "start": 329.639,
+    "duration": 4.62
+  },
+  {
+    "text": "the input words now with respect to my",
+    "start": 331.32,
+    "duration": 5.76
+  },
+  {
+    "text": "query or by my first word or my word of",
+    "start": 334.259,
+    "duration": 5.341
+  },
+  {
+    "text": "focus I want to know the weights of all",
+    "start": 337.08,
+    "duration": 4.14
+  },
+  {
+    "text": "the other words so that word is going to",
+    "start": 339.6,
+    "duration": 3.599
+  },
+  {
+    "text": "remain fixed I'm going to have q1 and",
+    "start": 341.22,
+    "duration": 4.5
+  },
+  {
+    "text": "I'm going to compute capital t such",
+    "start": 343.199,
+    "duration": 4.56
+  },
+  {
+    "text": "values right so each telling me the",
+    "start": 345.72,
+    "duration": 3.6
+  },
+  {
+    "text": "importance of the first word second word",
+    "start": 347.759,
+    "duration": 3.301
+  },
+  {
+    "text": "third word fourth word fifth word right",
+    "start": 349.32,
+    "duration": 3.12
+  },
+  {
+    "text": "notice that I'm also Computing the",
+    "start": 351.06,
+    "duration": 3.3
+  },
+  {
+    "text": "importance of the word itself right that",
+    "start": 352.44,
+    "duration": 4.979
+  },
+  {
+    "text": "also I'm doing so q1 with respect to K1",
+    "start": 354.36,
+    "duration": 7.08
+  },
+  {
+    "text": "K2 K3 K4 K5 right so q1 with respect to",
+    "start": 357.419,
+    "duration": 8.881
+  },
+  {
+    "text": "K1 K2 K3 K4 K5 so these five scores I'm",
+    "start": 361.44,
+    "duration": 6.24
+  },
+  {
+    "text": "going to compute and maybe I'll call",
+    "start": 366.3,
+    "duration": 5.52
+  },
+  {
+    "text": "them as is okay uh",
+    "start": 367.68,
+    "duration": 6.859
+  },
+  {
+    "text": "now",
+    "start": 371.82,
+    "duration": 2.719
+  },
+  {
+    "text": "the function that I'm going to use is",
+    "start": 376.08,
+    "duration": 3.179
+  },
+  {
+    "text": "just the dot product like what is the",
+    "start": 377.88,
+    "duration": 2.94
+  },
+  {
+    "text": "scoring function my scoring function is",
+    "start": 379.259,
+    "duration": 4.321
+  },
+  {
+    "text": "just dot product so my E's which are the",
+    "start": 380.82,
+    "duration": 5.28
+  },
+  {
+    "text": "unnormalized attention weights are just",
+    "start": 383.58,
+    "duration": 4.2
+  },
+  {
+    "text": "going to be the dot product between q1",
+    "start": 386.1,
+    "duration": 5.4
+  },
+  {
+    "text": "and K1 Q2 and q1 and K2 q1 and K3 all",
+    "start": 387.78,
+    "duration": 5.58
+  },
+  {
+    "text": "the way up to q1 and K5 right so as I",
+    "start": 391.5,
+    "duration": 4.44
+  },
+  {
+    "text": "mentioned here q1 remains fixed and I",
+    "start": 393.36,
+    "duration": 4.86
+  },
+  {
+    "text": "just keep changing the key that means",
+    "start": 395.94,
+    "duration": 4.86
+  },
+  {
+    "text": "the word or the representation with",
+    "start": 398.22,
+    "duration": 4.5
+  },
+  {
+    "text": "which I want to compute the attention",
+    "start": 400.8,
+    "duration": 4.26
+  },
+  {
+    "text": "right so that keeps changing so I'll get",
+    "start": 402.72,
+    "duration": 6.12
+  },
+  {
+    "text": "some uh dot products here it should be",
+    "start": 405.06,
+    "duration": 5.639
+  },
+  {
+    "text": "some real values and the way I'll",
+    "start": 408.84,
+    "duration": 3.479
+  },
+  {
+    "text": "compute the alphas from that is that",
+    "start": 410.699,
+    "duration": 3.72
+  },
+  {
+    "text": "I'll just do a soft Max on this Vector",
+    "start": 412.319,
+    "duration": 3.481
+  },
+  {
+    "text": "right so that's what this equation is",
+    "start": 414.419,
+    "duration": 5.461
+  },
+  {
+    "text": "saying to compute Alpha so this is e 1 1",
+    "start": 415.8,
+    "duration": 6.48
+  },
+  {
+    "text": "this is e one two all the way up to E1",
+    "start": 419.88,
+    "duration": 5.34
+  },
+  {
+    "text": "Phi so to compute alpha 1 2 I'll just",
+    "start": 422.28,
+    "duration": 5.16
+  },
+  {
+    "text": "take uh",
+    "start": 425.22,
+    "duration": 4.199
+  },
+  {
+    "text": "okay my I should have chosen my",
+    "start": 427.44,
+    "duration": 4.16
+  },
+  {
+    "text": "variables carefully so e raised to e",
+    "start": 429.419,
+    "duration": 5.361
+  },
+  {
+    "text": "Point 2 divided by the summation over",
+    "start": 431.6,
+    "duration": 6.819
+  },
+  {
+    "text": "all E's right that's what I'll do right",
+    "start": 434.78,
+    "duration": 5.5
+  },
+  {
+    "text": "so I'm just going to take the soft Max",
+    "start": 438.419,
+    "duration": 3.301
+  },
+  {
+    "text": "here",
+    "start": 440.28,
+    "duration": 3.419
+  },
+  {
+    "text": "now once I have taken the soft Max that",
+    "start": 441.72,
+    "duration": 3.72
+  },
+  {
+    "text": "gives me the alphas but how am I going",
+    "start": 443.699,
+    "duration": 5.4
+  },
+  {
+    "text": "to compute my Z my Z is going to be a",
+    "start": 445.44,
+    "duration": 5.819
+  },
+  {
+    "text": "weighted sum of the inputs right and",
+    "start": 449.099,
+    "duration": 3.6
+  },
+  {
+    "text": "what I what are the vectors that I am",
+    "start": 451.259,
+    "duration": 3.84
+  },
+  {
+    "text": "considering as input I am considering",
+    "start": 452.699,
+    "duration": 4.321
+  },
+  {
+    "text": "the v's now right so these are known as",
+    "start": 455.099,
+    "duration": 4.621
+  },
+  {
+    "text": "the value vectors right so q and K",
+    "start": 457.02,
+    "duration": 5.459
+  },
+  {
+    "text": "participated in Computing Alphas once I",
+    "start": 459.72,
+    "duration": 4.86
+  },
+  {
+    "text": "am going to compute Alphas my new",
+    "start": 462.479,
+    "duration": 4.261
+  },
+  {
+    "text": "representation which is z is going to be",
+    "start": 464.58,
+    "duration": 3.899
+  },
+  {
+    "text": "a weighted sum of the v's right so you",
+    "start": 466.74,
+    "duration": 3.359
+  },
+  {
+    "text": "have all the three vectors participating",
+    "start": 468.479,
+    "duration": 4.321
+  },
+  {
+    "text": "in this computation q and K participate",
+    "start": 470.099,
+    "duration": 4.561
+  },
+  {
+    "text": "in Computing the alpha and then there",
+    "start": 472.8,
+    "duration": 3.66
+  },
+  {
+    "text": "was a v right just as you had a v",
+    "start": 474.66,
+    "duration": 3.24
+  },
+  {
+    "text": "sitting outside if you remember right",
+    "start": 476.46,
+    "duration": 4.26
+  },
+  {
+    "text": "you had this V getting multiplied by",
+    "start": 477.9,
+    "duration": 5.4
+  },
+  {
+    "text": "everything that was happening inside is",
+    "start": 480.72,
+    "duration": 5.22
+  },
+  {
+    "text": "here this VA transpose damage into",
+    "start": 483.3,
+    "duration": 4.799
+  },
+  {
+    "text": "something something and this is where St",
+    "start": 485.94,
+    "duration": 4.74
+  },
+  {
+    "text": "minus 1 and H J were so they were",
+    "start": 488.099,
+    "duration": 4.44
+  },
+  {
+    "text": "participating in Computing this and",
+    "start": 490.68,
+    "duration": 3.359
+  },
+  {
+    "text": "finally you get a vector and then you",
+    "start": 492.539,
+    "duration": 3.66
+  },
+  {
+    "text": "multiply it by this right so similarly",
+    "start": 494.039,
+    "duration": 6.181
+  },
+  {
+    "text": "now the VJs here are participating uh in",
+    "start": 496.199,
+    "duration": 6.421
+  },
+  {
+    "text": "the final computing station that you",
+    "start": 500.22,
+    "duration": 5.52
+  },
+  {
+    "text": "have right so Z1 is going to be computed",
+    "start": 502.62,
+    "duration": 5.699
+  },
+  {
+    "text": "this way now how do you compute Z2 the",
+    "start": 505.74,
+    "duration": 3.66
+  },
+  {
+    "text": "same story",
+    "start": 508.319,
+    "duration": 4.02
+  },
+  {
+    "text": "everything Remains the Same right so now",
+    "start": 509.4,
+    "duration": 6.6
+  },
+  {
+    "text": "you would have Q2 as the query right so",
+    "start": 512.339,
+    "duration": 5.76
+  },
+  {
+    "text": "your e2s would be the dot product",
+    "start": 516.0,
+    "duration": 5.76
+  },
+  {
+    "text": "between all the Q2 and all the vectors",
+    "start": 518.099,
+    "duration": 5.581
+  },
+  {
+    "text": "then you will compute the alphas as the",
+    "start": 521.76,
+    "duration": 3.96
+  },
+  {
+    "text": "soft Max once you have computed the",
+    "start": 523.68,
+    "duration": 4.44
+  },
+  {
+    "text": "alphas these are all Alpha twos you will",
+    "start": 525.72,
+    "duration": 4.86
+  },
+  {
+    "text": "compute the Z as a weighted sum of your",
+    "start": 528.12,
+    "duration": 4.68
+  },
+  {
+    "text": "Phi input vectors and the weights would",
+    "start": 530.58,
+    "duration": 4.98
+  },
+  {
+    "text": "come from the alpha right so very easy",
+    "start": 532.8,
+    "duration": 4.74
+  },
+  {
+    "text": "to understand now you had one vector you",
+    "start": 535.56,
+    "duration": 5.219
+  },
+  {
+    "text": "had H1 to H5 from each of these H1 h2h5",
+    "start": 537.54,
+    "duration": 5.22
+  },
+  {
+    "text": "you computed three vectors using the",
+    "start": 540.779,
+    "duration": 4.381
+  },
+  {
+    "text": "carry query transformation key",
+    "start": 542.76,
+    "duration": 4.5
+  },
+  {
+    "text": "transformation and value transformation",
+    "start": 545.16,
+    "duration": 5.04
+  },
+  {
+    "text": "the query Vector is used to find the",
+    "start": 547.26,
+    "duration": 5.1
+  },
+  {
+    "text": "importance of all the words with respect",
+    "start": 550.2,
+    "duration": 4.02
+  },
+  {
+    "text": "to this word right so this is fixed and",
+    "start": 552.36,
+    "duration": 3.12
+  },
+  {
+    "text": "you're trying to find the importance of",
+    "start": 554.22,
+    "duration": 3.059
+  },
+  {
+    "text": "all the words so the vector contains the",
+    "start": 555.48,
+    "duration": 4.5
+  },
+  {
+    "text": "dot product between your query and all",
+    "start": 557.279,
+    "duration": 4.74
+  },
+  {
+    "text": "the keys that you have once you have",
+    "start": 559.98,
+    "duration": 3.96
+  },
+  {
+    "text": "computed the importance now you need to",
+    "start": 562.019,
+    "duration": 4.081
+  },
+  {
+    "text": "take a weighted sum of all the words so",
+    "start": 563.94,
+    "duration": 3.78
+  },
+  {
+    "text": "for taking the weighted sum you look at",
+    "start": 566.1,
+    "duration": 3.54
+  },
+  {
+    "text": "the value Vector right so that's how you",
+    "start": 567.72,
+    "duration": 3.42
+  },
+  {
+    "text": "have these three vectors which get used",
+    "start": 569.64,
+    "duration": 3.9
+  },
+  {
+    "text": "in this computation right so I think",
+    "start": 571.14,
+    "duration": 3.66
+  },
+  {
+    "text": "it's uh",
+    "start": 573.54,
+    "duration": 3.9
+  },
+  {
+    "text": "should be clear from the diagram and the",
+    "start": 574.8,
+    "duration": 5.159
+  },
+  {
+    "text": "equation how the zis will be computed so",
+    "start": 577.44,
+    "duration": 5.339
+  },
+  {
+    "text": "you'll just do this Z1 Z2 for all the",
+    "start": 579.959,
+    "duration": 5.581
+  },
+  {
+    "text": "cells right now let's see if we can",
+    "start": 582.779,
+    "duration": 4.141
+  },
+  {
+    "text": "vectorize all of these computations",
+    "start": 585.54,
+    "duration": 3.12
+  },
+  {
+    "text": "right that means can we compute the Z1",
+    "start": 586.92,
+    "duration": 4.2
+  },
+  {
+    "text": "to ZT in one group right so here I first",
+    "start": 588.66,
+    "duration": 4.619
+  },
+  {
+    "text": "told you how to compute Z1 then I told",
+    "start": 591.12,
+    "duration": 3.839
+  },
+  {
+    "text": "you how to compute Z2 and then similarly",
+    "start": 593.279,
+    "duration": 4.201
+  },
+  {
+    "text": "Z3 up to ZT right but my whole point was",
+    "start": 594.959,
+    "duration": 3.961
+  },
+  {
+    "text": "that I don't want to compute these",
+    "start": 597.48,
+    "duration": 3.299
+  },
+  {
+    "text": "outputs sequentially right that's why I",
+    "start": 598.92,
+    "duration": 3.9
+  },
+  {
+    "text": "didn't like rnns because the output of",
+    "start": 600.779,
+    "duration": 3.781
+  },
+  {
+    "text": "the RN and if this was the RNN block",
+    "start": 602.82,
+    "duration": 3.6
+  },
+  {
+    "text": "then these outputs were coming one by",
+    "start": 604.56,
+    "duration": 4.08
+  },
+  {
+    "text": "one and at the end of all this I don't",
+    "start": 606.42,
+    "duration": 3.72
+  },
+  {
+    "text": "want to do the same thing again right I",
+    "start": 608.64,
+    "duration": 2.819
+  },
+  {
+    "text": "want all of these to come out in",
+    "start": 610.14,
+    "duration": 3.6
+  },
+  {
+    "text": "parallel otherwise it doesn't help me",
+    "start": 611.459,
+    "duration": 4.021
+  },
+  {
+    "text": "right I might as well have stayed with",
+    "start": 613.74,
+    "duration": 3.36
+  },
+  {
+    "text": "RNs right so",
+    "start": 615.48,
+    "duration": 4.2
+  },
+  {
+    "text": "now can I do this in parallel so now",
+    "start": 617.1,
+    "duration": 5.88
+  },
+  {
+    "text": "let's see how I am Computing uh q1 q1",
+    "start": 619.68,
+    "duration": 8.04
+  },
+  {
+    "text": "was The Matrix WQ multiplied by H1 how",
+    "start": 622.98,
+    "duration": 6.6
+  },
+  {
+    "text": "would I compute Q2 it would be the",
+    "start": 627.72,
+    "duration": 6.239
+  },
+  {
+    "text": "Matrix WQ multiplied by H2 and that",
+    "start": 629.58,
+    "duration": 8.0
+  },
+  {
+    "text": "would give me uh Q2",
+    "start": 633.959,
+    "duration": 3.621
+  },
+  {
+    "text": "how would I compute Q3 it would be the",
+    "start": 638.04,
+    "duration": 5.82
+  },
+  {
+    "text": "Matrix WQ multiplied by H3 which would",
+    "start": 640.74,
+    "duration": 6.3
+  },
+  {
+    "text": "give me Q3 all the way up to h capital T",
+    "start": 643.86,
+    "duration": 6.24
+  },
+  {
+    "text": "so it would be WQ multiplied by h t",
+    "start": 647.04,
+    "duration": 7.68
+  },
+  {
+    "text": "which would then give me Q capital T",
+    "start": 650.1,
+    "duration": 6.96
+  },
+  {
+    "text": "right so now I can just write this as a",
+    "start": 654.72,
+    "duration": 4.14
+  },
+  {
+    "text": "matrix operation you can just put all of",
+    "start": 657.06,
+    "duration": 3.0
+  },
+  {
+    "text": "these vectors",
+    "start": 658.86,
+    "duration": 4.2
+  },
+  {
+    "text": "inside a matrix and if you multiply this",
+    "start": 660.06,
+    "duration": 5.76
+  },
+  {
+    "text": "matrix by this Matrix then you get this",
+    "start": 663.06,
+    "duration": 4.38
+  },
+  {
+    "text": "Matrix as an output right so all the",
+    "start": 665.82,
+    "duration": 4.62
+  },
+  {
+    "text": "cues you can compute at one go right you",
+    "start": 667.44,
+    "duration": 4.98
+  },
+  {
+    "text": "don't need to do that sequentially all",
+    "start": 670.44,
+    "duration": 4.5
+  },
+  {
+    "text": "the query vectors can be computed at one",
+    "start": 672.42,
+    "duration": 4.2
+  },
+  {
+    "text": "go by just multiplying these two",
+    "start": 674.94,
+    "duration": 3.92
+  },
+  {
+    "text": "matrices WQ multiplied by The Matrix",
+    "start": 676.62,
+    "duration": 5.7
+  },
+  {
+    "text": "containing all these inputs as columns",
+    "start": 678.86,
+    "duration": 5.159
+  },
+  {
+    "text": "and then you get the queues at one go",
+    "start": 682.32,
+    "duration": 4.32
+  },
+  {
+    "text": "similarly now what is the dimension of Q",
+    "start": 684.019,
+    "duration": 4.301
+  },
+  {
+    "text": "right so let's let's look at that right",
+    "start": 686.64,
+    "duration": 2.84
+  },
+  {
+    "text": "so",
+    "start": 688.32,
+    "duration": 5.3
+  },
+  {
+    "text": "let me see how to do that",
+    "start": 689.48,
+    "duration": 4.14
+  },
+  {
+    "text": "yeah so this is say the input Dimension",
+    "start": 697.92,
+    "duration": 7.44
+  },
+  {
+    "text": "was d right and for I'll just take d as",
+    "start": 701.94,
+    "duration": 5.82
+  },
+  {
+    "text": "64 for the purpose of explanation so",
+    "start": 705.36,
+    "duration": 6.96
+  },
+  {
+    "text": "this is a 64 cross T Matrix",
+    "start": 707.76,
+    "duration": 6.98
+  },
+  {
+    "text": "right",
+    "start": 712.32,
+    "duration": 2.42
+  },
+  {
+    "text": "so each of these is 64 Dimension and you",
+    "start": 715.68,
+    "duration": 6.899
+  },
+  {
+    "text": "have t such entries now this would get",
+    "start": 718.14,
+    "duration": 6.72
+  },
+  {
+    "text": "multiplied by",
+    "start": 722.579,
+    "duration": 5.901
+  },
+  {
+    "text": "uh say uh",
+    "start": 724.86,
+    "duration": 3.62
+  },
+  {
+    "text": "so this would say get multiplied by",
+    "start": 736.62,
+    "duration": 6.2
+  },
+  {
+    "text": "a 64 cross",
+    "start": 739.62,
+    "duration": 3.2
+  },
+  {
+    "text": "64 Matrix right so you could have just",
+    "start": 744.54,
+    "duration": 4.799
+  },
+  {
+    "text": "think thought of this as D cross D and",
+    "start": 747.48,
+    "duration": 4.56
+  },
+  {
+    "text": "this as D cross T so these two matrices",
+    "start": 749.339,
+    "duration": 5.281
+  },
+  {
+    "text": "multiply and I get a d cross D output in",
+    "start": 752.04,
+    "duration": 4.859
+  },
+  {
+    "text": "my case I have just taken d as 64 right",
+    "start": 754.62,
+    "duration": 5.04
+  },
+  {
+    "text": "so this Cube would also be of the same",
+    "start": 756.899,
+    "duration": 5.041
+  },
+  {
+    "text": "size as your input representation but",
+    "start": 759.66,
+    "duration": 3.419
+  },
+  {
+    "text": "you could have different sizes also",
+    "start": 761.94,
+    "duration": 2.639
+  },
+  {
+    "text": "right so if you had chosen this as D1",
+    "start": 763.079,
+    "duration": 3.781
+  },
+  {
+    "text": "then your output would be D1 cross T",
+    "start": 764.579,
+    "duration": 5.101
+  },
+  {
+    "text": "right and so you could have either the",
+    "start": 766.86,
+    "duration": 4.62
+  },
+  {
+    "text": "D1 could either be bigger than D or",
+    "start": 769.68,
+    "duration": 3.48
+  },
+  {
+    "text": "smaller than D based on whether you want",
+    "start": 771.48,
+    "duration": 3.599
+  },
+  {
+    "text": "to generate just project to a smaller",
+    "start": 773.16,
+    "duration": 3.78
+  },
+  {
+    "text": "space or a higher space but that is not",
+    "start": 775.079,
+    "duration": 3.241
+  },
+  {
+    "text": "the main point here right the main point",
+    "start": 776.94,
+    "duration": 4.98
+  },
+  {
+    "text": "is that you had T inputs and you have t",
+    "start": 778.32,
+    "duration": 5.579
+  },
+  {
+    "text": "output right this is not changing right",
+    "start": 781.92,
+    "duration": 4.14
+  },
+  {
+    "text": "this capital T Remains the Same that",
+    "start": 783.899,
+    "duration": 3.721
+  },
+  {
+    "text": "means you had T input representations",
+    "start": 786.06,
+    "duration": 3.48
+  },
+  {
+    "text": "and now you have got T query",
+    "start": 787.62,
+    "duration": 4.2
+  },
+  {
+    "text": "representations from those t uh input",
+    "start": 789.54,
+    "duration": 3.66
+  },
+  {
+    "text": "representations right what do you choose",
+    "start": 791.82,
+    "duration": 3.66
+  },
+  {
+    "text": "the size of D1 and D2 is up to you in",
+    "start": 793.2,
+    "duration": 4.68
+  },
+  {
+    "text": "this example I have chosen it as 64 both",
+    "start": 795.48,
+    "duration": 4.919
+  },
+  {
+    "text": "D1 and D equal to 64. so if my input",
+    "start": 797.88,
+    "duration": 5.28
+  },
+  {
+    "text": "this was 64 plus T my output would also",
+    "start": 800.399,
+    "duration": 4.921
+  },
+  {
+    "text": "be 64 cross D thank you what is",
+    "start": 803.16,
+    "duration": 4.619
+  },
+  {
+    "text": "important as this T that you had T",
+    "start": 805.32,
+    "duration": 4.86
+  },
+  {
+    "text": "inputs and you got T outputs in parallel",
+    "start": 807.779,
+    "duration": 4.62
+  },
+  {
+    "text": "right you've got uh you did the entire",
+    "start": 810.18,
+    "duration": 4.74
+  },
+  {
+    "text": "computation in parallel similarly your",
+    "start": 812.399,
+    "duration": 6.12
+  },
+  {
+    "text": "value uh your key vectors you can",
+    "start": 814.92,
+    "duration": 7.44
+  },
+  {
+    "text": "compute in parallel so you have uh",
+    "start": 818.519,
+    "duration": 6.841
+  },
+  {
+    "text": "w k multiplied by H1 gives you K1 w k",
+    "start": 822.36,
+    "duration": 5.099
+  },
+  {
+    "text": "multiplied by H2 gives you K2 and so on",
+    "start": 825.36,
+    "duration": 3.96
+  },
+  {
+    "text": "so you might as well stack them up in a",
+    "start": 827.459,
+    "duration": 3.541
+  },
+  {
+    "text": "matrix and then you do these two",
+    "start": 829.32,
+    "duration": 3.66
+  },
+  {
+    "text": "multiplications so you'll get K1 to KT",
+    "start": 831.0,
+    "duration": 4.079
+  },
+  {
+    "text": "in parallel again the key thing here is",
+    "start": 832.98,
+    "duration": 5.099
+  },
+  {
+    "text": "you had T inputs right and you got T",
+    "start": 835.079,
+    "duration": 6.181
+  },
+  {
+    "text": "outputs in parallel right so your K",
+    "start": 838.079,
+    "duration": 5.341
+  },
+  {
+    "text": "Matrix is also going to be something",
+    "start": 841.26,
+    "duration": 4.68
+  },
+  {
+    "text": "cross capital T okay that's what is",
+    "start": 843.42,
+    "duration": 4.26
+  },
+  {
+    "text": "important that you get T outputs and",
+    "start": 845.94,
+    "duration": 3.48
+  },
+  {
+    "text": "lastly same for the value Matrix also",
+    "start": 847.68,
+    "duration": 4.08
+  },
+  {
+    "text": "you'll get these T values in parallel",
+    "start": 849.42,
+    "duration": 3.5
+  },
+  {
+    "text": "right so now you have already",
+    "start": 851.76,
+    "duration": 3.6
+  },
+  {
+    "text": "parallelized the computation of the k q",
+    "start": 852.92,
+    "duration": 4.539
+  },
+  {
+    "text": "and a v right so that at least I don't",
+    "start": 855.36,
+    "duration": 4.26
+  },
+  {
+    "text": "need to do sequentially now can I do the",
+    "start": 857.459,
+    "duration": 3.721
+  },
+  {
+    "text": "rest of it also in parallel is the",
+    "start": 859.62,
+    "duration": 3.24
+  },
+  {
+    "text": "question right so let's see how I can",
+    "start": 861.18,
+    "duration": 3.599
+  },
+  {
+    "text": "compute the entire output in power right",
+    "start": 862.86,
+    "duration": 3.36
+  },
+  {
+    "text": "so this is how I can compute the entire",
+    "start": 864.779,
+    "duration": 3.601
+  },
+  {
+    "text": "output in parallel so what was I doing",
+    "start": 866.22,
+    "duration": 6.66
+  },
+  {
+    "text": "earlier right so how did I compute uh Z1",
+    "start": 868.38,
+    "duration": 6.899
+  },
+  {
+    "text": "so now can I compute the entire output",
+    "start": 872.88,
+    "duration": 4.199
+  },
+  {
+    "text": "in parallel that means can I compute all",
+    "start": 875.279,
+    "duration": 4.261
+  },
+  {
+    "text": "the Z's in parallel and yes you can so",
+    "start": 877.079,
+    "duration": 4.44
+  },
+  {
+    "text": "this is what your Z Matrix would look",
+    "start": 879.54,
+    "duration": 4.26
+  },
+  {
+    "text": "like again it would have these uh",
+    "start": 881.519,
+    "duration": 5.161
+  },
+  {
+    "text": "capital T outputs and all of them can be",
+    "start": 883.8,
+    "duration": 4.5
+  },
+  {
+    "text": "computed in parallel by using this",
+    "start": 886.68,
+    "duration": 4.08
+  },
+  {
+    "text": "equation how does that make sense so",
+    "start": 888.3,
+    "duration": 4.979
+  },
+  {
+    "text": "what was what what did I wanted if you",
+    "start": 890.76,
+    "duration": 3.96
+  },
+  {
+    "text": "remember I had started with this wish",
+    "start": 893.279,
+    "duration": 4.101
+  },
+  {
+    "text": "list that I had these words I am",
+    "start": 894.72,
+    "duration": 6.359
+  },
+  {
+    "text": "enjoying blah blah and then I am",
+    "start": 897.38,
+    "duration": 6.1
+  },
+  {
+    "text": "enjoying blah blah so this was a t cross",
+    "start": 901.079,
+    "duration": 4.801
+  },
+  {
+    "text": "T Matrix right so I had to compute this",
+    "start": 903.48,
+    "duration": 5.64
+  },
+  {
+    "text": "T cross T attention Matrix is that what",
+    "start": 905.88,
+    "duration": 4.98
+  },
+  {
+    "text": "is happening here indeed right so if you",
+    "start": 909.12,
+    "duration": 5.519
+  },
+  {
+    "text": "remember Q was 64 cross T So Q transpose",
+    "start": 910.86,
+    "duration": 7.26
+  },
+  {
+    "text": "would be T cross 64 and K was T cross",
+    "start": 914.639,
+    "duration": 7.2
+  },
+  {
+    "text": "64. oh sorry 64 cross T so when you are",
+    "start": 918.12,
+    "duration": 5.159
+  },
+  {
+    "text": "multiplying these two matrices you are",
+    "start": 921.839,
+    "duration": 3.421
+  },
+  {
+    "text": "getting a t cross T Matrix which is",
+    "start": 923.279,
+    "duration": 4.62
+  },
+  {
+    "text": "essentially the attention Matrix and now",
+    "start": 925.26,
+    "duration": 4.139
+  },
+  {
+    "text": "once you have the attention weights you",
+    "start": 927.899,
+    "duration": 3.601
+  },
+  {
+    "text": "are multiplying them by the value Matrix",
+    "start": 929.399,
+    "duration": 6.06
+  },
+  {
+    "text": "right which contains the B1 V2 up to VT",
+    "start": 931.5,
+    "duration": 6.3
+  },
+  {
+    "text": "right and now if you take the product of",
+    "start": 935.459,
+    "duration": 4.38
+  },
+  {
+    "text": "these two matrices then you will again",
+    "start": 937.8,
+    "duration": 4.44
+  },
+  {
+    "text": "get a t dimensional uh output because",
+    "start": 939.839,
+    "duration": 8.721
+  },
+  {
+    "text": "this is D cross t uh and this is uh",
+    "start": 942.24,
+    "duration": 6.32
+  },
+  {
+    "text": "sorry yeah so this is V transpose sorry",
+    "start": 953.22,
+    "duration": 5.64
+  },
+  {
+    "text": "so this is going to be T cross D and",
+    "start": 956.22,
+    "duration": 5.76
+  },
+  {
+    "text": "this is T cross T Matrix so this 2 will",
+    "start": 958.86,
+    "duration": 5.099
+  },
+  {
+    "text": "multiply to give you a t cross D output",
+    "start": 961.98,
+    "duration": 5.88
+  },
+  {
+    "text": "so you'll get a capital t z Each of",
+    "start": 963.959,
+    "duration": 5.581
+  },
+  {
+    "text": "which is going to be D dimensional right",
+    "start": 967.86,
+    "duration": 3.779
+  },
+  {
+    "text": "so you can do the entire computation in",
+    "start": 969.54,
+    "duration": 5.039
+  },
+  {
+    "text": "parallel and you can make sure right you",
+    "start": 971.639,
+    "duration": 6.0
+  },
+  {
+    "text": "can go and check this back that if I",
+    "start": 974.579,
+    "duration": 5.041
+  },
+  {
+    "text": "were to look at let's see like we can",
+    "start": 977.639,
+    "duration": 4.021
+  },
+  {
+    "text": "just do it right away",
+    "start": 979.62,
+    "duration": 3.659
+  },
+  {
+    "text": "um",
+    "start": 981.66,
+    "duration": 3.239
+  },
+  {
+    "text": "okay so what I would like to show is",
+    "start": 983.279,
+    "duration": 5.161
+  },
+  {
+    "text": "that Z2 is indeed if you do this large",
+    "start": 984.899,
+    "duration": 6.12
+  },
+  {
+    "text": "matrix multiplication Z2 indeed comes",
+    "start": 988.44,
+    "duration": 4.079
+  },
+  {
+    "text": "out to be the same as what we had seen",
+    "start": 991.019,
+    "duration": 3.481
+  },
+  {
+    "text": "in the figure right so let's try to uh",
+    "start": 992.519,
+    "duration": 4.5
+  },
+  {
+    "text": "do that so I'll just uh start from",
+    "start": 994.5,
+    "duration": 6.54
+  },
+  {
+    "text": "scratch so I had this T cross T Matrix",
+    "start": 997.019,
+    "duration": 7.021
+  },
+  {
+    "text": "which was Q transpose K right so if I",
+    "start": 1001.04,
+    "duration": 4.799
+  },
+  {
+    "text": "look at the second row of this Matrix",
+    "start": 1004.04,
+    "duration": 4.32
+  },
+  {
+    "text": "right uh so I'm let's see what is",
+    "start": 1005.839,
+    "duration": 3.901
+  },
+  {
+    "text": "happening here right so this was Q",
+    "start": 1008.36,
+    "duration": 3.96
+  },
+  {
+    "text": "transpose so this was",
+    "start": 1009.74,
+    "duration": 7.5
+  },
+  {
+    "text": "q1 transpose this was Q2 transpose and",
+    "start": 1012.32,
+    "duration": 7.259
+  },
+  {
+    "text": "so on and this was",
+    "start": 1017.24,
+    "duration": 4.56
+  },
+  {
+    "text": "K1",
+    "start": 1019.579,
+    "duration": 5.941
+  },
+  {
+    "text": "K2 and so on right so if I look at the",
+    "start": 1021.8,
+    "duration": 6.899
+  },
+  {
+    "text": "second row of so any ijth value of this",
+    "start": 1025.52,
+    "duration": 5.58
+  },
+  {
+    "text": "entry of this Matrix is just going to be",
+    "start": 1028.699,
+    "duration": 6.72
+  },
+  {
+    "text": "Qi transpose uh k j right and in",
+    "start": 1031.1,
+    "duration": 5.64
+  },
+  {
+    "text": "particular if I were to look at the",
+    "start": 1035.419,
+    "duration": 4.201
+  },
+  {
+    "text": "second row of this Matrix it is going to",
+    "start": 1036.74,
+    "duration": 4.199
+  },
+  {
+    "text": "be Q",
+    "start": 1039.62,
+    "duration": 4.1
+  },
+  {
+    "text": "2 transpose K1",
+    "start": 1040.939,
+    "duration": 7.561
+  },
+  {
+    "text": "Q2 transpose K2 and so on up to Q2",
+    "start": 1043.72,
+    "duration": 8.079
+  },
+  {
+    "text": "transpose K T right that's what the",
+    "start": 1048.5,
+    "duration": 5.22
+  },
+  {
+    "text": "second row is going to look like and now",
+    "start": 1051.799,
+    "duration": 4.561
+  },
+  {
+    "text": "that this Matrix Q transpose K this is",
+    "start": 1053.72,
+    "duration": 4.319
+  },
+  {
+    "text": "what the Q transpose K Matrix looks like",
+    "start": 1056.36,
+    "duration": 3.48
+  },
+  {
+    "text": "is going to get multiplied by V",
+    "start": 1058.039,
+    "duration": 4.101
+  },
+  {
+    "text": "transpose right so then this would have",
+    "start": 1059.84,
+    "duration": 4.98
+  },
+  {
+    "text": "V1 here",
+    "start": 1062.14,
+    "duration": 4.779
+  },
+  {
+    "text": "V2 here",
+    "start": 1064.82,
+    "duration": 5.34
+  },
+  {
+    "text": "and so on right and if I multiply these",
+    "start": 1066.919,
+    "duration": 4.981
+  },
+  {
+    "text": "two what is the second row going to be",
+    "start": 1070.16,
+    "duration": 4.139
+  },
+  {
+    "text": "the second row is going to be a linear",
+    "start": 1071.9,
+    "duration": 4.019
+  },
+  {
+    "text": "combination of all the rows of this",
+    "start": 1074.299,
+    "duration": 4.26
+  },
+  {
+    "text": "Matrix where the weights are these right",
+    "start": 1075.919,
+    "duration": 4.5
+  },
+  {
+    "text": "and that's exactly what I wanted I",
+    "start": 1078.559,
+    "duration": 6.961
+  },
+  {
+    "text": "wanted Z2 to be q1 Q2 transpose K1 right",
+    "start": 1080.419,
+    "duration": 7.441
+  },
+  {
+    "text": "which was Alpha 2 1",
+    "start": 1085.52,
+    "duration": 4.92
+  },
+  {
+    "text": "multiplied by V1",
+    "start": 1087.86,
+    "duration": 5.699
+  },
+  {
+    "text": "and then Alpha to 2 multiplied by V2 and",
+    "start": 1090.44,
+    "duration": 4.739
+  },
+  {
+    "text": "so on and that's exactly the computation",
+    "start": 1093.559,
+    "duration": 2.881
+  },
+  {
+    "text": "which is happening here right so that's",
+    "start": 1095.179,
+    "duration": 4.261
+  },
+  {
+    "text": "why this entire thing can be produced as",
+    "start": 1096.44,
+    "duration": 5.52
+  },
+  {
+    "text": "a matrix matrix multiplication and all",
+    "start": 1099.44,
+    "duration": 5.04
+  },
+  {
+    "text": "of this can be done in parallel so just",
+    "start": 1101.96,
+    "duration": 5.04
+  },
+  {
+    "text": "to recap your V's can be computed in",
+    "start": 1104.48,
+    "duration": 4.199
+  },
+  {
+    "text": "parallel your case can be computed in",
+    "start": 1107.0,
+    "duration": 3.24
+  },
+  {
+    "text": "parallel your cues can be computed in",
+    "start": 1108.679,
+    "duration": 4.081
+  },
+  {
+    "text": "parallel once you have that you get all",
+    "start": 1110.24,
+    "duration": 5.34
+  },
+  {
+    "text": "the Z's in parallel at one shot right so",
+    "start": 1112.76,
+    "duration": 5.46
+  },
+  {
+    "text": "that's what is happening here",
+    "start": 1115.58,
+    "duration": 4.62
+  },
+  {
+    "text": "which are able to compute they are able",
+    "start": 1118.22,
+    "duration": 3.66
+  },
+  {
+    "text": "to paralyze the entire computation of",
+    "start": 1120.2,
+    "duration": 3.719
+  },
+  {
+    "text": "your Z and what actually is z just in",
+    "start": 1121.88,
+    "duration": 3.84
+  },
+  {
+    "text": "case you have forgotten so you have the",
+    "start": 1123.919,
+    "duration": 4.981
+  },
+  {
+    "text": "input as H1 H2 all the way up to h t and",
+    "start": 1125.72,
+    "duration": 6.48
+  },
+  {
+    "text": "Z was the output of this network",
+    "start": 1128.9,
+    "duration": 5.639
+  },
+  {
+    "text": "right and my main goal was that this",
+    "start": 1132.2,
+    "duration": 4.74
+  },
+  {
+    "text": "output should be computed in parallel as",
+    "start": 1134.539,
+    "duration": 4.621
+  },
+  {
+    "text": "computed as compared to rnns where I was",
+    "start": 1136.94,
+    "duration": 4.979
+  },
+  {
+    "text": "getting 1 then 2 then 3 and then four",
+    "start": 1139.16,
+    "duration": 4.139
+  },
+  {
+    "text": "right but now I have shown you that all",
+    "start": 1141.919,
+    "duration": 3.361
+  },
+  {
+    "text": "of this can be done in parallel and you",
+    "start": 1143.299,
+    "duration": 3.541
+  },
+  {
+    "text": "just need to execute this matrix",
+    "start": 1145.28,
+    "duration": 4.5
+  },
+  {
+    "text": "multiplication which is which is in turn",
+    "start": 1146.84,
+    "duration": 4.74
+  },
+  {
+    "text": "has many matrix multiplication V itself",
+    "start": 1149.78,
+    "duration": 3.72
+  },
+  {
+    "text": "comes from a matrix multiplication K",
+    "start": 1151.58,
+    "duration": 3.54
+  },
+  {
+    "text": "comes from a matrix multiplication Q",
+    "start": 1153.5,
+    "duration": 3.78
+  },
+  {
+    "text": "comes from a matrix multiplication once",
+    "start": 1155.12,
+    "duration": 3.66
+  },
+  {
+    "text": "you have that you do these Matrix",
+    "start": 1157.28,
+    "duration": 3.36
+  },
+  {
+    "text": "multiplications and you get the Z at one",
+    "start": 1158.78,
+    "duration": 3.08
+  },
+  {
+    "text": "go right but all of this is",
+    "start": 1160.64,
+    "duration": 4.14
+  },
+  {
+    "text": "parallelizable I don't need to wait uh",
+    "start": 1161.86,
+    "duration": 5.38
+  },
+  {
+    "text": "to compute ZT minus 1 to compute ZT",
+    "start": 1164.78,
+    "duration": 3.84
+  },
+  {
+    "text": "right that's the main takeaway that I",
+    "start": 1167.24,
+    "duration": 3.24
+  },
+  {
+    "text": "have here right and you see them",
+    "start": 1168.62,
+    "duration": 3.84
+  },
+  {
+    "text": "something here which is you're scaling",
+    "start": 1170.48,
+    "duration": 4.319
+  },
+  {
+    "text": "it by the dimension right so this D was",
+    "start": 1172.46,
+    "duration": 4.68
+  },
+  {
+    "text": "64 in the examples that I had done so",
+    "start": 1174.799,
+    "duration": 6.061
+  },
+  {
+    "text": "there is uh some uh there's some",
+    "start": 1177.14,
+    "duration": 5.34
+  },
+  {
+    "text": "justification for why you need to do",
+    "start": 1180.86,
+    "duration": 4.5
+  },
+  {
+    "text": "that I'll not go into it uh",
+    "start": 1182.48,
+    "duration": 4.74
+  },
+  {
+    "text": "but for all practical purposes you're",
+    "start": 1185.36,
+    "duration": 3.24
+  },
+  {
+    "text": "taking the dot product and then just",
+    "start": 1187.22,
+    "duration": 3.42
+  },
+  {
+    "text": "scaling it by some value right so this",
+    "start": 1188.6,
+    "duration": 3.66
+  },
+  {
+    "text": "is what the dimensions look like as I",
+    "start": 1190.64,
+    "duration": 3.96
+  },
+  {
+    "text": "had already explained uh so you get all",
+    "start": 1192.26,
+    "duration": 4.799
+  },
+  {
+    "text": "the capital T outputs and since you're",
+    "start": 1194.6,
+    "duration": 4.079
+  },
+  {
+    "text": "taking the dot product and then scaling",
+    "start": 1197.059,
+    "duration": 3.421
+  },
+  {
+    "text": "it this is known as scaled dot product",
+    "start": 1198.679,
+    "duration": 4.141
+  },
+  {
+    "text": "attention and this is how you should",
+    "start": 1200.48,
+    "duration": 3.78
+  },
+  {
+    "text": "look at the series of operations",
+    "start": 1202.82,
+    "duration": 3.239
+  },
+  {
+    "text": "happening here right so you had Q you",
+    "start": 1204.26,
+    "duration": 4.56
+  },
+  {
+    "text": "had K and B you did a matrix",
+    "start": 1206.059,
+    "duration": 5.341
+  },
+  {
+    "text": "multiplication to get Q transpose K when",
+    "start": 1208.82,
+    "duration": 5.76
+  },
+  {
+    "text": "you did a scaling to get the scaled",
+    "start": 1211.4,
+    "duration": 5.519
+  },
+  {
+    "text": "output then you did a soft Max on that",
+    "start": 1214.58,
+    "duration": 4.86
+  },
+  {
+    "text": "and then whatever you got as soft Max",
+    "start": 1216.919,
+    "duration": 3.841
+  },
+  {
+    "text": "which would have been a matrix right",
+    "start": 1219.44,
+    "duration": 5.0
+  },
+  {
+    "text": "this soft Max of this entire thing",
+    "start": 1220.76,
+    "duration": 3.68
+  },
+  {
+    "text": "this is again going to be a t cross T",
+    "start": 1225.26,
+    "duration": 4.2
+  },
+  {
+    "text": "Matrix which is going to get multiplied",
+    "start": 1227.36,
+    "duration": 5.1
+  },
+  {
+    "text": "by a t cross 64 Matrix and that's the",
+    "start": 1229.46,
+    "duration": 4.98
+  },
+  {
+    "text": "mat mile that I'm talking about here and",
+    "start": 1232.46,
+    "duration": 6.8
+  },
+  {
+    "text": "then finally you will get a t cross",
+    "start": 1234.44,
+    "duration": 4.82
+  },
+  {
+    "text": "uh 64 output right so this is the",
+    "start": 1240.02,
+    "duration": 7.2
+  },
+  {
+    "text": "attention that you get this is the self",
+    "start": 1243.38,
+    "duration": 6.179
+  },
+  {
+    "text": "attention layer block that you have this",
+    "start": 1247.22,
+    "duration": 4.26
+  },
+  {
+    "text": "is what the full block looks like it",
+    "start": 1249.559,
+    "duration": 3.721
+  },
+  {
+    "text": "starts with these linear Transformations",
+    "start": 1251.48,
+    "duration": 4.319
+  },
+  {
+    "text": "then the matrix multiplication soft Max",
+    "start": 1253.28,
+    "duration": 4.62
+  },
+  {
+    "text": "and then again matrix multiplication to",
+    "start": 1255.799,
+    "duration": 4.081
+  },
+  {
+    "text": "give you the capital Z at the output",
+    "start": 1257.9,
+    "duration": 5.1
+  },
+  {
+    "text": "which in turn contains Z1 Z2 all the way",
+    "start": 1259.88,
+    "duration": 5.58
+  },
+  {
+    "text": "up to set T right so we have been able",
+    "start": 1263.0,
+    "duration": 4.98
+  },
+  {
+    "text": "to see the self attention layer which",
+    "start": 1265.46,
+    "duration": 5.16
+  },
+  {
+    "text": "does a parallel computation to give you",
+    "start": 1267.98,
+    "duration": 5.1
+  },
+  {
+    "text": "a contextual representation for the",
+    "start": 1270.62,
+    "duration": 4.5
+  },
+  {
+    "text": "input vectors that you had provided",
+    "start": 1273.08,
+    "duration": 5.339
+  },
+  {
+    "text": "right so I'll stop here and then uh in",
+    "start": 1275.12,
+    "duration": 5.84
+  },
+  {
+    "text": "the next lecture we'll look at uh",
+    "start": 1278.419,
+    "duration": 4.861
+  },
+  {
+    "text": "multi-headed attention and then I'll",
+    "start": 1280.96,
+    "duration": 5.02
+  },
+  {
+    "text": "talk about a few other components of the",
+    "start": 1283.28,
+    "duration": 6.56
+  },
+  {
+    "text": "Transformer Network thank you",
+    "start": 1285.98,
+    "duration": 3.86
+  }
+]

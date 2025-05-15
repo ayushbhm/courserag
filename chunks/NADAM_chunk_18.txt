@@ -1,0 +1,9 @@
+for right so that's that's all about madame uh so now which Optimizer to use I think uh uh the.
+most common I guess the default one that I have seen in most papers is Adam if you don't know.
+anything maybe just go with Adam however there are recent Works which are not so recent also there also three.
+to four years old now which do point out some issues with Adam still by far at least for all.
+the Practical work that I've seen Adam seems to be a very common choice and if not Adam one of.
+the variants of Adam right maybe an Adam or uh yeah I think Madame is another good choice right so.
+uh if you don't if you're a new learner just use off-the-shelf optimization optimizers and or Adam is as good.
+a choice as any and some of them you could then practice a bit more so people have reported that.
+just using gradient descent and then using or maybe momentum based gradient descent and then really knowing how to set.

@@ -1,0 +1,9 @@
+it has a nose right and you have dropped this guy house now there is no node in this layer.
+which is detecting noses hence the other guys will have to wake up and say that hey I cannot rely.
+on anyone else I cannot co-adapt because this guy is unreliable and sometimes he is active sometimes he is not.
+active so better I also learn how to detect nose in addition to learning how to detect say ice right.
+so every node will now have to act independently and take more responsibility right so this is what actually happens.
+in a Dropout and I'll just now Flash the content on the slides yeah so either the multiple nodes need.
+to learn how to detect noses or other nodes to need to learn how to detect noses how to detect.
+the face even if the nose detecting neuron is not active that means some other node needs to now detect.
+how to uh I mean detect a face using ice let's say what the problem here is simple and I'm.

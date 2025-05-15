@@ -1,0 +1,10 @@
+sentence right so that's what we want so we want to learn these Alphas in that manner okay so how.
+do we do that is the question what kind of a architecture do we use so to start that discussion.
+and just to be able to relate it to what we have already seen right so in the earlier case.
+we were talking about the attention function as s t minus 1 and hi right so just to kind of.
+keep the convention or the variables similar for now for for some time right and we will get rid of.
+it soon we'll just think of the rows as H I's sorry the rows as s I's and the columns.
+as at J and now what you are interested in is to compute an attention function between the s i.
+and the AJ but unlike earlier now as I said the Si's and the edges are available to you at.
+one go so you can compute all of this at one go as opposed to earlier when your sis which.
+are essentially the decoder states were getting available only one step at a time right so just to draw a.

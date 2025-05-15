@@ -1,0 +1,10 @@
+the pay point yeah so now when I'm using this L2 knob okay at time step 0 I get point.
+zero zero one and then I use the bias corrected value and then my initial learning rate at time sorry.
+my learning rate at time step uh 0 is going to be 1 okay that is same as what I.
+had earlier now at time step 0 when I got the 0 input now you see that my learning rate.
+is still changing right which should not have happened because I did not do anything at this time step so.
+why should I change my learning rate but my learning rate is changing because of this exponentially moving uh L2.
+Norm average that I'm taking right so now uh it increases the learning rate even though the gradient was zero.
+and this is what the learning rate profile looks like it was one then at time step two for no.
+reason my input was Zero still my learning rate became 1.4 right and then time step 3 it again decreased.
+but again for a zero input it increased and so on right so it's more uh it it's still making.

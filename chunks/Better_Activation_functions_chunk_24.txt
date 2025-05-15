@@ -1,0 +1,9 @@
+as the graph itself shows you that if the function value lies here then the derivative is very small or.
+zero same thing here right and if you look at the formula so when Tan x square is 1 your.
+derivative would be uh zero right or when it would be minus 1 whenever it is plus or minus 1.
+your derivative is going to be 0 right so that's again clear so the problem of the saturating neuron and.
+hence the gradient Vanishing still exist the problem of limited directions to move in has been overcome and also the.
+problem of computational expensive Still Remains it but still it has the E component in it right so tanets the.
+formula is contains the uh Eep part of it right so yeah okay so the next that will look next.
+for Activation function that we look at is the rectified linear unit and this is a very one of the.
+most popular activation functions as we will see at the end of the discussion we'll show you what are the.

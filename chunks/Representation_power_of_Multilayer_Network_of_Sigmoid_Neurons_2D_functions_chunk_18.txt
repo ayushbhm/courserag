@@ -1,0 +1,9 @@
+of some function right now let me just call it as h now when i take this edge so this.
+is h and i'm going to pass it through another sigmoid okay such that it switches over at one then.
+everything which is less than one all of this will disappear and only these things at the top right which.
+are greater than one will remain and what the result end result would be that i'll get my tower function.
+out so if i delete this and i just show you the tower so this is what will remain right.
+so this is just the part of the that entire structure which was above level one right and only that.
+part will remain and i get my tower function which is now indeed close from all sides at which we.
+were already convinced about right so you can go back play around with these visuals and convince yourself that you.
+have got a 2d tower i am convinced that we have got a 2d tower by constructing a network like.

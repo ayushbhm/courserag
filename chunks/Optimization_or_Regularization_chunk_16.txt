@@ -1,0 +1,8 @@
+led to some conclusive non-conclusive answers but it did seem like maybe it's leading to better optimization similarly people started.
+looking at it through the lens of regularization and thought oh looks like regularization is what it is doing people.
+looked at it from the lens of initialization and thought hey maybe it leads to better initialization right and then.
+these lens became important that oh all of this seem to be important so why let me focus on better.
+initialization methods better regulation better optimization methods and so on and that is what has happened right deep learning has.
+evolved since 2009 people came up with better optimization algorithms and we saw a series of those people came up.
+with better regularization methods and we saw a series of those some was already existing L2 L1 all of that.
+was existing ah uh early stopping also to an extent but it got popularized in deep learning and then Dropout.

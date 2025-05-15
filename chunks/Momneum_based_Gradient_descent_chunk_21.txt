@@ -1,0 +1,9 @@
+that uh you can play the video again and you can see that it's taking quite a few u-turns before.
+it reaches its goal and this is exactly the analogy very good if it's on a scooter or a bike.
+or a car and it is going fast an overshoot come back overshoot come back but what is happening in.
+this case as happens in real life also you will still reach your goal faster than the guy who is.
+walking right in this case so momentum base gradient descent oscillates in and out of the Minima Valley as the.
+momentum carries it out of the valley right and then it takes a lot of u-turns before finally converging despite.
+these used U turns it still converges faster than the gradient vanilla gradient descent right and I'll just quickly play.
+the video Once More to show this is important right so after 50 iterations momentum based gradient descent is at.
+a very low loss whereas gradient descent was a very high loss right and 50 iterations corresponds to two seconds.

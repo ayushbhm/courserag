@@ -1,0 +1,10 @@
+your linear algebra if not there's a separate set of lectures that I put out on linear algebra you can.
+go and look at them but this I'm sure most of you would be aware of it so I have.
+taken the Matrix and I could write the entire gradient now this is the gradient of the loss function with.
+respect to the hidden Unit H I which I can just compute as this and why am I confident of.
+computing this this I already know it whatever are my current weights what is the current W3 Matrix looking like.
+whatever it looks like I just have to take that and this I already computed in the previous lecture this.
+was the gradient of the loss function with respect to the last layer right because here I is equal to.
+2 so I plus 1 is equal to 3. but now I have a problem right I have a slight.
+problem here what is my problem now suppose this was derivative of the loss function with respect to H1 right.
+so then what would this have been so I is equal to 1 now so I'll just substitute this this.

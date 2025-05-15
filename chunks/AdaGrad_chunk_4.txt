@@ -1,0 +1,10 @@
+the code for that right so to now to see this in action right we need to First create some.
+data where one of the features is sparse right and I also remember that I can only show you a.
+2d plot that means I can have one feature on the air one axis and another feature on the other.
+axis so I'm just going to be able to work with two features one of them is going to be.
+W and the other one is going to be B right and remember the feature b or the feature corresponding.
+to B is dense because it's always on right the corresponding input is always one so I can't do much.
+about that so what I'm going to do is that I am going to create a data where my X.
+which corresponds to W is going to be very sparse right so that's how I'm going to create this data.
+so let's see this is what I'm going to do so this is what I'm saying right the third bullet.
+point here says that we just have two parameters W and B of these the input feature correspond to B.

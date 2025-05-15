@@ -1,0 +1,9 @@
+right so now instead of all the mass being on one and everything else being 0 I'm instead of using.
+those hard targets now I'm using the soft targets where there's a small non-zero probability for all the other outputs.
+also right so this I have corrupted the output in some sense but not corrupted it by a lot right.
+because still if Epsilon is small and Epsilon will be small my majority of the probability mass is still on.
+the correct level but now when I apply my formula the cross entropy formula earlier in my Pi log UI.
+if you remember only one term remained right the one which correspond to p i equal to 1 so only.
+this the label the second term would remain but now because all the other values were 0 but now all.
+the other values are not zero right so my computation is changing so the loss that I am actually trying.
+to minimize is uh changing and that will act as a regularizer right because now you are not trying to.

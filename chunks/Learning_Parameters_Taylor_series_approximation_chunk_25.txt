@@ -1,0 +1,9 @@
+that doesn't matter if you keep the ETA small then your approximations would be good right and now if I.
+make a quadratic approximation right I'll just remove the linear one and just keep the quadratic approximation uh I think.
+you're not able to see it yeah so here's the quadratic approximation right and now even if I increase the.
+W the window a bit you can see that my approximation is still quite good right so that's the idea.
+here in fact the original function itself is uh quadratic in various parts right so that's why my approximation is.
+quite good right so that's uh that's that's the idea here so the original function is of course 0.5 sine.
+X Plus 0.25 sine y but what I meant it in some parts it's Contra I mean it's looking like.
+quadratic function right so if you do a quadratic approximation it still would be very uh good right so you.
+can do this whether you have a one variable function or a two variable function of course three variable functions.

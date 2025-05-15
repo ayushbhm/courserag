@@ -1,0 +1,3 @@
+these four areas and then maybe we'll be able to better train the Deep neural networks right so today we.
+are going to focus on these two parts activation functions and weight initialization strategies so I'll end this video here.
+and we'll then start the discussion on activation functions.

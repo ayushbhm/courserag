@@ -1,0 +1,10 @@
+can take outside ah so now if you look at it this is the quantity that I was interested in.
+and I did not know how to estimate it but now I have been able to rewrite that quantity in.
+terms of things here and here I see some hope now because now I have this y hat and Y.
+here which is just the training data that was given to me those are the Y's and the predictions that.
+are my model made so this is something I can estimate expectation of Epsilon Square I can estimate it's just.
+the I'd already assumed that Epsilon comes from the normal distribution right so expect expectation of Epsilon square is just.
+going to be Sigma Square so that I can compute again here I have a slight problem but we will.
+come back to this right so I have just now Rewritten the quantity of interest in terms of a set.
+of quantities of which some quantities I can compute and there is one quantity which I can still not compute.
+but we will see how to deal with that ok so now what we will do is now we will.

@@ -1,0 +1,10 @@
+something that we'll do in detailer and at this point I just want you to kind of break your heads.
+with this and try to understand the problems that show up right I don't want you to fully understand this.
+nor do I want you to get the solution but I just wanted to see what kind of problems you.
+face and how would you change them I already gave you a few hints right that uh you might think.
+that oh this is the global Minima but I started from some point here 1.2 and I'm not being able.
+to reach there right then what if I had initialized it a bit differently would I be able to do.
+that so what is the effect of initialization what is the effect of ETA as you make ETA very large.
+what happens if you make ETA very small what happens right so just try to experiment with those things and.
+just get your hands a bit dirty with this okay yeah so now we have the gradient descent rule that.
+the direction U that we intend to move in should be at 180 degrees with respect to the gradient in.

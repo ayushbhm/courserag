@@ -1,0 +1,9 @@
+output layer although it has two parts activation and pre-activation uh i am going to call uh this layer which.
+is a the a's is what i am going to call the output layer right which i want i am.
+interested in the derivative of the output layer of the loss function with respect to this output activations or output.
+pre-activations okay so that is the quest that i have and this i know would be a collection of some.
+partial derivatives right so derivative partial derivative of the loss function with respect to the first uh output neuron with.
+respect to the second output neuron and so on right and this would be the loss function here similarly the.
+loss function here right so this is the quantity this entire vector which is the gradient vector of the loss.
+function with respect to the output layer is what i am interested in okay now to begin with right so.
+and i know what the loss function is i know that this is minus log of y hat l where.

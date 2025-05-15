@@ -1,0 +1,10 @@
+what I want to do on this slide um yeah so I have an input X let me just explain.
+what all is obvious here at the input X okay and I have two parameters W1 B1 W2 B2 so.
+you have been looking at these parameters so these two neurons that I have drawn here are going to be.
+sigmoid neurons so they're going to take an input X and they're going to just simply do 1 over 1.
+plus e raised to minus um W1 X Plus B1 that is what this neuron is going to output and.
+the other neuron is going to Output 1 over 1 plus e raised to minus W 2x plus B2 right.
+so these are both sigmoid neurons okay now having clarified that now let's see okay now what I want to.
+do I wanted to make a few changes here let's see so first thing I'll do is I'll just make.
+B1 and B 2 0 okay that will simplify some things for me nothing wrong in doing that okay it's.
+a bit hard to do this with the mouse okay so B1 B2 have made it zero okay uh now.

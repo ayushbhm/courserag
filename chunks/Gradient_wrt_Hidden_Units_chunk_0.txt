@@ -1,0 +1,9 @@
+foreign [Music] okay so now let's come to the next station in our journey which is we wanted to compute.
+the gradients with respect to the hidden unit so it's again following this outline so we are done with this.
+part right and now we want to talk to the hidden units and remember there could be many hidden layers.
+right but I want to come up with a generic formula so that irrespective of whether I am in layer.
+hidden layer 1 2 3 4 it doesn't matter I should have a similar formula or a similar set of.
+computation and I don't want to derive this formula independently for every layer right the output layer of a spatials.
+I am okay with deriving a formula for that but I don't want to do it for every hidden layer.
+right so that's what we'll focus on okay so let's start so before that right so let's try to see.
+what we are where we are headed right so this is our hidden layer okay this is the activation at.

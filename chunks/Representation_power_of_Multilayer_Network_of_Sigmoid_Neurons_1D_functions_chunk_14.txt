@@ -1,0 +1,9 @@
+something that I like about this idea here right and we're going to take it further the other thing is.
+that as I increase the number of towers which eventually will kind of connect back to increasing the number of.
+neurons that you have I can get better and better approximation so that's where the idea that if you give.
+me a particular Epsilon I'll be able to find a network we have not gone there yet right but if.
+you give me a particular Epsilon you can see that at least in this in this pictorial illustration right I.
+can get better and better right I can make the approximation as good and I've stopped the slider here but.
+you can imagine there is still scope of reducing the width of the rectangles in which case my approximation will.
+become even better and better right okay so I'll move ahead from here yeah more the number of such star.
+functions better the approximation okay so now this is what has happened in the previous slide I had this I.

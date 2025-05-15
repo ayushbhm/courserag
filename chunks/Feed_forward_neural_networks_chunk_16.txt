@@ -1,0 +1,9 @@
+once i have computed each of these a elements the computation of h is very simple and i'm going to.
+compute these each of the edges so i'll get these three dimensional uh h1 right so this is what my.
+h1 looks like it's a three dimensional vector so this is what it looks like and every element there is.
+very easy to compute because you already have the a's and you're just applying a function onto every element of.
+a right so that's that's all there is right so this is called the activation function there are many activation.
+functions uh in the deep learning literature we'll be covering a few in this course we already saw the logistic.
+function from the sigmoid family there's also tannage function that could be linear later on we'll be seeing functions like.
+relu uh leaky relu and so on and we'll be seeing a whole bunch of functions for g right and.
+all of them are going to operate element whether this one thing you need to just get into your heads.

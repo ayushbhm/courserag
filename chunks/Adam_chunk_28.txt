@@ -1,0 +1,9 @@
+you are kind of re-estimating uh the average in the case of empty you're writing it as beta into Mt.
+minus 1 plus 1 minus beta into the current uh derivative right so the current derivative is this one blue.
+point that you have instead of relying on that blue point you are also taking an exponentially weighted average of.
+the history so this is your way of kind of uh accounting for the fact that the current batch could.
+be uh noisy so hence let me look at the history also and kind of re-estimate this point right now.
+if you don't do bias correction so now what I'm going to do is that for every black point I.
+am going to compute the new value of that Black Point using this equation that means I'm going to compute.
+this weighted history right so at time step 40 I have 39 Blue Points below it and I'm going to.
+take the value of each of those 39 blue points and I will say that beta raised to 39 into.

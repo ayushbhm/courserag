@@ -1,0 +1,10 @@
+W one into X then this x is the input to the next layer and then you get W 2.
+is into W1 into X right so w 2 into H1 which is W 2 into W 1 into X.
+which is the same as H2 right because H2 is equal to a two and so on you continue and.
+your output is just a linear uh it's just a multiplication of Weights uh by the input X right and.
+now here this is as good as just having a single linear transformation right so this is just as good.
+as saying that Y is equal to sum w x where W is a product of these four W's right.
+so this is just a linear transformation this is not even though it's a deep Network it does not add.
+any value to me beyond what a linear transformation would act right so the depth of the network is not.
+what ah solely gives the Deep neural network a power of course it plays a role because then you have.
+these composite non-linearities but if you remove the non-linearities then you just have a linear transformation of X and then.

@@ -1,0 +1,9 @@
+my loss is non-zero so who is responsible for this so this loss was sitting here so i will ask.
+these guys first these are the dark green guys that i'll ask first right i'll ask them sorry hey you.
+are not producing the desired output right because if you guys were perfect then my loss would have been zero.
+so why are you not producing the desired output you should take responsibility you should do give me better output.
+but these dark the shaded green guys and they'll say hey what can i do right i what responsibility can.
+i take but i am only as good as the hidden layer before me right because how did i get.
+the dark green guys these are the dark green guys how did i get them i had certain values in.
+the previous layer i multiplied them by the weights and the biases and then i get so this y hat.
+will tell me i can't do anything right whatever these guys gave me i just computed soft max on that.

@@ -1,0 +1,9 @@
+[Music] hi uh so welcome back uh so we'll now talk about a typical supervised machine learning setup and this.
+in my opinion is the most important module of the course of course as we go along i'll say this.
+for many modules but i think this is the most important one right so please pay attention uh so this.
+is what we have right so we looked at the sigmoid neuron and we looked at one particular function within.
+this family which is the logistic function now what next right so we have seen this right so what what.
+was our pattern when we had introduced uh perceptrons we saw the perceptron model and then what did we do.
+where did it go from there we first looked at the algorithm for learning the weights right so we want.
+the same thing now i've defined this but now how do i learn the weights that's not clear right so.
+i want to have an algorithm which can learn these weights but before i had done the perceptron learning algorithm.

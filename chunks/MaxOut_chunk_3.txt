@@ -1,0 +1,8 @@
+correspond to the parameters of these K different models each trained on a different version of the training set and.
+each training set has the same size but it contains uh sampling with replacement right so what would happen in.
+that case is that it is shown that if you do this sampling with replacement right so this bucket that.
+you had the first bucket that you created that was used to train the model f hat1x which had a.
+collection of parameters W1 so that bucket around 46 percent of the samples there would be duplicated and does make.
+sense right because you're sampling with replacement so all roughly half the samples would get duplicated in this set so.
+it won't be that all these thousand would be unique that should be obvious and there's also some analysis that.
+roughly half of the samples are actually duplicates so we always expected duplicates there's a study which says exactly how.

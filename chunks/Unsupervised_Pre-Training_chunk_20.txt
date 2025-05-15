@@ -1,0 +1,9 @@
+label once you have done the full unsupervised pre-training we plug in the supervised objective and we train for that.
+supervised objective so I can think of this as L of Omega right this is what my L of Omega.
+is right this is what was the unsupervised training objective and when they did this they showed that it's possible.
+to Now train the entire Duke neural network effectively a thing which was difficult earlier and they trained quite a.
+few I mean quite a bit deep neural network I have shown still in modern terms this is still a.
+shallow network but they train quite a bit of a deep neural network right so what have we done right.
+so in effect what we have done is we have initialized the weights of the network using that greedy unsupervised.
+object right where at F why am I calling it greedy because at every layer I did not care about.
+what is happening in the other layers I just wanted to make sure that that layer is trained properly that's.

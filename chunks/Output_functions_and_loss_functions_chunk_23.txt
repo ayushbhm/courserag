@@ -1,0 +1,10 @@
+should again look at it i'm pointing you to it again and again because that's important right now notice something.
+about this formula right so that this y c right now y c can be y 1 y 2 y.
+3 all the way up to y k but it will take on the value 1 only for the correct.
+class right only when c is equal to l that means only for the true cross label in this case.
+only y one is going to be one and all the other y's are going to be zero right that.
+means when you're taking this summation and you have y one multiplied by something y two multiplied by something y.
+three multiplied by something and so on then only one of these terms is going to survive right the term.
+which had a value 1 and all the terms which had value 0 are going to disappear in the summation.
+so although i've written this as a summation it will only have one term which would be y l multiplied.
+by log of y hat l and that y hat yl is again going to be just one right so.

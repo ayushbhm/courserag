@@ -1,0 +1,8 @@
+i would like to talk about is another class of problems where deep learning became very popular which was at.
+game playing right and we started seeing various results where in extremely complex game environments uh rl reinforcement learning agents.
+started beating humans right so let's start around 2015 you have these atari games and reinforcement learning was always used.
+for uh playing games so there was many uh classical textbooks on that where you had certain gaming environments like.
+the pac-man environment or the ping-pong environment and you could train a rl agent to kind of learn how to.
+play those games so these are those console based games that were popular many years ago right and in 2015.
+came this deep reinforcement learning paradigm which was able to play all these atari games and win all of them.
+hands down right and beat humans at them what i mean by that then uh the one popular breakthrough which.

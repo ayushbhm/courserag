@@ -1,0 +1,8 @@
+interest in that the conclusions of these experiments are not as important as the research directions that they led to.
+right so this now when I look at this I feel hey maybe initialization is an important thing and I.
+should try to come up with better initialization methods and people did that and came up with better initialization methods.
+and now that started making training deep neural networks even better right so what happened roughly is this right so.
+if I were to summarize this period between ah 2006 to 2009 right uh people thought that okay first was.
+that unsupervised pre-training works right people did really completely understand why does it work but people started investigating it through.
+different lenses one set of people analyze it to the lens of optimization is it leading to better optimization it.
+led to some conclusive non-conclusive answers but it did seem like maybe it's leading to better optimization similarly people started.

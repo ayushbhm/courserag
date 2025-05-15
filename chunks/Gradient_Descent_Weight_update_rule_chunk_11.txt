@@ -1,0 +1,9 @@
+function because I have not even told you very clearly what the loss function is in so far in the.
+discussion if you're just working with a generic function L of w so we now need to look at the.
+what the actual loss function is right so here's coming back to our original example where we had two parameters.
+W and B this was our function okay and our loss function was defined as this right that let's assume.
+there is only one point there's only one data point so a loss function was summed over all the points.
+and then take in the average but now I assume that there's only one data point so there's no summation.
+here and summed over what it was the prediction minus the true and the square of that right so that's.
+what this formula is f of x is our approximation Y is the true value so I am taking the.
+difference between the two and squaring it right and there's one by two I've just kept for some convenience it.

@@ -1,0 +1,9 @@
+you'll again get a five and two dimensional output then you do an appropriate linear transformation you could choose this.
+one so that your final z's are also five and two Dimension right so that's what you could do right.
+so this is what a two-headed attention would look like and I've already told you how to extend it to.
+multi heads you will just have the same block repeated as many times as you want and then finally you.
+would just adjust all these Transformations right so as I said I could uh let's just look at it again.
+if my edges are five and two dimensional these are H's then I pass them through I multiply them by.
+a 64 cross 5 and 2 Matrix so I get 64 dimensional outputs here 64 dimensional outputs here same happens.
+in all the eight heads so when I concatenate them I get a five and two dimensional output right so.
+whatever I started with I get the same so I can just adjust the parameters accordingly and then I do.

@@ -1,0 +1,9 @@
+value is not the right thing and then what do you set the learning rate to right so here are.
+some tips so what we typically try to do is that uh at least so now just let me just.
+kind of step back and contextualize this right so nowadays like for most uh areas that you would work in.
+right suppose you're working in machine translation or say automatic speech recognition not text to speech you would be building.
+up on work which is already being done right so you would already have these Transformer based models someone has.
+trained it for many languages and so on so you would have a fair sense of what were the hyper.
+parameters they used and you would try to follow them and just experiment in a small window around it right.
+but the tips here are for the more generic case where you're looking at something new and you don't really.
+know no one has actually looked at the kind of data that you're looking at or the kind of application.

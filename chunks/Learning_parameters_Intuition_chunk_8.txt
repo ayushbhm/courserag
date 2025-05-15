@@ -1,0 +1,9 @@
+everything together in one collection i'm not saying that this is a matrix right this is just a collection of.
+partial derivatives because each layer might have different so i just assume everything is n square here but we saw.
+that other example where it could be n cross m here then m cross p here then some n here.
+m here and then k here right for the biases right so it's all going to be different across different.
+layers so this is not like a well-formed matrix it's just a collection i have put together just for illustrative.
+purpose right so these are all the partial derivatives that i need to collect and i should be able to.
+do this fairly uh conveniently and not like painfully go over every element and have to write down the formula.
+for that and compute right i should be able to at least take one entire matrix of weights and compute.
+the partial derivatives of all the elements at one goal right so that's what my quest is going to be.

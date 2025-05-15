@@ -1,0 +1,8 @@
+the flat surface so then as we had said right the is history can then start decreasing right so this.
+is the region where you had ah High gradients right this is the region where your gradients started decreasing right.
+I mean this is till this point they were increasing and from here onwards they started decreasing and if you.
+now look at this and compare it to the behavior of the learning rate in this uh let me just.
+uh change the color yeah so in this region where your gradients were increasing the learning rate is steadily decreasing.
+right and this is exactly what you want when the gradients are high you want the learning rate to decrease.
+and now in this region once your gradient started becoming small the learning rate started increasing because your denominator which.
+was accumulating the history over a period of time it starts decreasing because now all for the past many time.

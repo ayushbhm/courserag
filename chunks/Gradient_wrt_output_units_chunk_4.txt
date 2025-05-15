@@ -1,0 +1,10 @@
+y one hat there is no y one hat that shows up here if i try to compute with y.
+two hat then it would be minus 1 over y2 hat because that's the derivative of so if you want.
+to compute the derivative of log x with respect to x that's 1 over x so the same thing apply.
+here instead of x we have y 2 right if i want to compute with any of the other guys.
+y 3 hat y 4 add up to y k hat it's going to be 0 right so that's that's.
+very straight forward so what does it mean it's like an if else condition right so this is going to.
+be equal to minus 1 of 1 over y hat l if i and l tend to be is are.
+the same that means the quantity that i am taking the derivative with is also the quantity that is there.
+inside the log then it would be minus 1 over y hat l otherwise it would be 0 because then.
+there is i'm taking the derivative of one variable with respect to another and they don't depend on each other.

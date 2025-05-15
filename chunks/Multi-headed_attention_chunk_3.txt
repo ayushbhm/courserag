@@ -1,0 +1,9 @@
+of eight matrices you have similarly you could have another's repeated block right and let me just show it on.
+the next slide we just repeat these two blocks right and now you have head one head two and head.
+one is giving you representations Z1 and this is giving you representations Z2 Now by several questions here right why.
+would you have two heads and then if you are getting these two representations which one do you consider right.
+so we'll answer those two questions but first let us motivate right why would you need multiple heads and we.
+have already seen this in a different context before right so we want to motivate multi multiple heads in attention.
+right so one head is uh one uh one one scale dot product unit which gives you Z one to.
+Z T right the representation Z1 to Z T and I'm making a case for many such heads and so.
+why why is why am I doing this right so we've already seen this in the context of convolutional neural.

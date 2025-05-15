@@ -1,0 +1,8 @@
+why are they highly complex because they have many layers many non-linearities and many parameters so they are actually they.
+can completely overfit right because this we also know ah from the universal approximation theorem that you can completely overfit.
+your training data right you can get arbitrary close to your true function if you keep adding layers or if.
+you keep adding neurons right and you don't want to do that right you don't want to become very close.
+to your training data because then your test error would be high and that why that is why you do.
+not want to overfit because if you leave if you design a very deep neural network with many neurons many.
+parameters then it will be able to drive the training error to zero but while doing so you have increased.
+the model complexity by adding many parameters and many layers and that is going to give you poor generalization ah.

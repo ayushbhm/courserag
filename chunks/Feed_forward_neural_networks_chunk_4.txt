@@ -1,0 +1,10 @@
+and based on that you want to make a certain decision and this is an n dimensional input and i'll.
+soon be just referring to it i've already referred to as rn right so this is an input which belongs.
+to r n okay then we have a network which contains l minus one hidden layers okay and in the.
+example that i'm going to show there will be just two hidden layers so the network has a total of.
+l layers of which l minus one layers are hidden and i'll tell you what the ellipt layer is going.
+to be so in this case i have shown two hidden layers and each of them have n neurons right.
+and for a large part of this discussion i'll just assume n equal to three right so i'll explain with.
+the help of n equal to three but in general they're going to be n neurons right and also uh.
+it it need not be like all of these are n that's just for convenience i've taken it this could.
+be n1 this could be n2 and this could be n3 and so on that could be different the value.

@@ -1,0 +1,9 @@
+equal any continuous function this is good news right because here I was only talking about Boolean functions now any.
+continuous function it any function f of x which is continuous I can approximate it to any desired precision now.
+what does any desired Precision means right so the way you would have seen this in many mathematical proofs right.
+I would design a desire I would Define a threshold Epsilon right and what I'm saying is that you choose.
+whatever value for Epsilon right it could be 0.0001 it could be 0.100 zeros one right and I can come.
+up with a network such that if my network output right so now this is the situation right I have.
+a n dimensional input I'm calling it r x which belongs to r n okay and I'm going to design.
+a network I don't know what the network looks like and the network is going to give me a certain.
+output let me call that g of X so far I've been calling it at F hat of X and.

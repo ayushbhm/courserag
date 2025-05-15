@@ -1,0 +1,9 @@
+this is L Theta now what are these other terms here right this ETA is fine right that's our small.
+uh that multiplication will keep happening everywhere now this here is that seems to be the dot product uh between.
+two quantities right now you I have already defined here right U is the change that we want to make.
+so that's nothing much to explain there but what is this other quantity that you see here and let me.
+just underline it with a different color so this quantity so we'll try to figure out what that quantity is.
+so let me clear up the slide now what that is is the gradient right and that's where the name.
+gradient descent comes from but let's try to understand what that gradient is right so now if you have a.
+function right let's say x square okay I have y is equal to x square then I know that d.
+y d x this is called the derivative all of you know this from high school which is 2x right.

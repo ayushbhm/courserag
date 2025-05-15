@@ -1,0 +1,3592 @@
+[
+  {
+    "text": "[Music]",
+    "start": 0.33,
+    "duration": 10.029
+  },
+  {
+    "text": "hi everyone uh welcome back uh today",
+    "start": 19.199,
+    "duration": 5.521
+  },
+  {
+    "text": "we'll uh start with feed forward neural",
+    "start": 22.0,
+    "duration": 4.96
+  },
+  {
+    "text": "networks and talk about the back",
+    "start": 24.72,
+    "duration": 4.879
+  },
+  {
+    "text": "propagation algorithm right",
+    "start": 26.96,
+    "duration": 4.159
+  },
+  {
+    "text": "so where are we so far in the course",
+    "start": 29.599,
+    "duration": 3.841
+  },
+  {
+    "text": "right so we started with mp neurons then",
+    "start": 31.119,
+    "duration": 4.561
+  },
+  {
+    "text": "we moved on to perceptrons we dived",
+    "start": 33.44,
+    "duration": 4.16
+  },
+  {
+    "text": "quite a bit deep into perceptrons where",
+    "start": 35.68,
+    "duration": 2.96
+  },
+  {
+    "text": "we",
+    "start": 37.6,
+    "duration": 3.279
+  },
+  {
+    "text": "spoke about the representation power of",
+    "start": 38.64,
+    "duration": 4.2
+  },
+  {
+    "text": "perceptrons that it's just a linear",
+    "start": 40.879,
+    "duration": 4.561
+  },
+  {
+    "text": "separator and it can only work for data",
+    "start": 42.84,
+    "duration": 4.68
+  },
+  {
+    "text": "which are linearly separable then we",
+    "start": 45.44,
+    "duration": 3.279
+  },
+  {
+    "text": "looked at the perceptron learning",
+    "start": 47.52,
+    "duration": 3.12
+  },
+  {
+    "text": "algorithm we also looked at why there's",
+    "start": 48.719,
+    "duration": 3.68
+  },
+  {
+    "text": "a guarantee that it will converge for",
+    "start": 50.64,
+    "duration": 4.0
+  },
+  {
+    "text": "linearly separable data right",
+    "start": 52.399,
+    "duration": 3.281
+  },
+  {
+    "text": "and",
+    "start": 54.64,
+    "duration": 3.2
+  },
+  {
+    "text": "then we moved on that okay this linear",
+    "start": 55.68,
+    "duration": 4.399
+  },
+  {
+    "text": "boundary or this threshold kind of a",
+    "start": 57.84,
+    "duration": 3.76
+  },
+  {
+    "text": "thing which",
+    "start": 60.079,
+    "duration": 2.64
+  },
+  {
+    "text": "we have",
+    "start": 61.6,
+    "duration": 2.4
+  },
+  {
+    "text": "in a",
+    "start": 62.719,
+    "duration": 3.44
+  },
+  {
+    "text": "perceptron that's that's not very",
+    "start": 64.0,
+    "duration": 3.84
+  },
+  {
+    "text": "convenient and in real world we take",
+    "start": 66.159,
+    "duration": 3.601
+  },
+  {
+    "text": "decisions which are much more smoother",
+    "start": 67.84,
+    "duration": 3.92
+  },
+  {
+    "text": "so we move to the sigmoid neuron right",
+    "start": 69.76,
+    "duration": 3.92
+  },
+  {
+    "text": "and then for a single sigmoid neuron",
+    "start": 71.76,
+    "duration": 4.96
+  },
+  {
+    "text": "which are just two weights uh w and b",
+    "start": 73.68,
+    "duration": 4.56
+  },
+  {
+    "text": "we looked at the gradient descent",
+    "start": 76.72,
+    "duration": 4.24
+  },
+  {
+    "text": "algorithm for learning these parameters",
+    "start": 78.24,
+    "duration": 5.36
+  },
+  {
+    "text": "right and then we also spoke about the",
+    "start": 80.96,
+    "duration": 6.0
+  },
+  {
+    "text": "representation power of a",
+    "start": 83.6,
+    "duration": 5.12
+  },
+  {
+    "text": "kind of a network of sigmoid neurons",
+    "start": 86.96,
+    "duration": 4.0
+  },
+  {
+    "text": "right and so we saw that if you have",
+    "start": 88.72,
+    "duration": 4.48
+  },
+  {
+    "text": "quite many layers in fact the universal",
+    "start": 90.96,
+    "duration": 4.4
+  },
+  {
+    "text": "approximation theorem said that if you",
+    "start": 93.2,
+    "duration": 3.04
+  },
+  {
+    "text": "have",
+    "start": 95.36,
+    "duration": 2.64
+  },
+  {
+    "text": "one",
+    "start": 96.24,
+    "duration": 5.68
+  },
+  {
+    "text": "non-linear layer then you could",
+    "start": 98.0,
+    "duration": 6.72
+  },
+  {
+    "text": "approximate any arbitrary function to",
+    "start": 101.92,
+    "duration": 4.479
+  },
+  {
+    "text": "the desired degree of precision right",
+    "start": 104.72,
+    "duration": 3.52
+  },
+  {
+    "text": "and we went through that statement we",
+    "start": 106.399,
+    "duration": 4.321
+  },
+  {
+    "text": "also saw an illustrative proof of what",
+    "start": 108.24,
+    "duration": 3.919
+  },
+  {
+    "text": "that statement does",
+    "start": 110.72,
+    "duration": 4.16
+  },
+  {
+    "text": "what that statement uh means and then of",
+    "start": 112.159,
+    "duration": 4.561
+  },
+  {
+    "text": "course in the proof we had more than one",
+    "start": 114.88,
+    "duration": 3.519
+  },
+  {
+    "text": "layer but that was just an illustrative",
+    "start": 116.72,
+    "duration": 3.679
+  },
+  {
+    "text": "proof the formal proof uh which is",
+    "start": 118.399,
+    "duration": 3.36
+  },
+  {
+    "text": "beyond the scope of this lecture you",
+    "start": 120.399,
+    "duration": 2.961
+  },
+  {
+    "text": "could prove it in with one layer right",
+    "start": 121.759,
+    "duration": 3.521
+  },
+  {
+    "text": "but uh it doesn't matter whether we had",
+    "start": 123.36,
+    "duration": 4.0
+  },
+  {
+    "text": "one or two or three i mean just a small",
+    "start": 125.28,
+    "duration": 4.399
+  },
+  {
+    "text": "number of layers we were able to show",
+    "start": 127.36,
+    "duration": 4.239
+  },
+  {
+    "text": "that you could up our approximate",
+    "start": 129.679,
+    "duration": 4.321
+  },
+  {
+    "text": "arbitrary complex functions right and",
+    "start": 131.599,
+    "duration": 4.64
+  },
+  {
+    "text": "that's the main takeaway that we had and",
+    "start": 134.0,
+    "duration": 4.879
+  },
+  {
+    "text": "that was the power of the deep",
+    "start": 136.239,
+    "duration": 5.36
+  },
+  {
+    "text": "uh a network of sigmoid neurons so now",
+    "start": 138.879,
+    "duration": 4.481
+  },
+  {
+    "text": "we are going to formalize this concept",
+    "start": 141.599,
+    "duration": 4.081
+  },
+  {
+    "text": "of uh deep layer of",
+    "start": 143.36,
+    "duration": 4.16
+  },
+  {
+    "text": "sigmoid neurons by",
+    "start": 145.68,
+    "duration": 4.4
+  },
+  {
+    "text": "uh introducing some notation and a",
+    "start": 147.52,
+    "duration": 4.88
+  },
+  {
+    "text": "network and then see when you have this",
+    "start": 150.08,
+    "duration": 4.159
+  },
+  {
+    "text": "deep network how do you learn the",
+    "start": 152.4,
+    "duration": 4.559
+  },
+  {
+    "text": "weights in that deep network okay",
+    "start": 154.239,
+    "duration": 4.241
+  },
+  {
+    "text": "so",
+    "start": 156.959,
+    "duration": 3.121
+  },
+  {
+    "text": "before i begin some references and",
+    "start": 158.48,
+    "duration": 4.56
+  },
+  {
+    "text": "acknowledgements i learned this from",
+    "start": 160.08,
+    "duration": 3.84
+  },
+  {
+    "text": "uh",
+    "start": 163.04,
+    "duration": 3.68
+  },
+  {
+    "text": "from the lectures that hugo larochel has",
+    "start": 163.92,
+    "duration": 4.959
+  },
+  {
+    "text": "on back propagation way back maybe six",
+    "start": 166.72,
+    "duration": 4.32
+  },
+  {
+    "text": "seven years back you could still they're",
+    "start": 168.879,
+    "duration": 4.08
+  },
+  {
+    "text": "still available on the net and you could",
+    "start": 171.04,
+    "duration": 4.4
+  },
+  {
+    "text": "take a look at them right",
+    "start": 172.959,
+    "duration": 4.481
+  },
+  {
+    "text": "so with that i start the first module",
+    "start": 175.44,
+    "duration": 5.36
+  },
+  {
+    "text": "which is feed forward neural networks or",
+    "start": 177.44,
+    "duration": 5.92
+  },
+  {
+    "text": "a multi-layered network of neurons and",
+    "start": 180.8,
+    "duration": 5.519
+  },
+  {
+    "text": "in our case it would be",
+    "start": 183.36,
+    "duration": 5.04
+  },
+  {
+    "text": "it could be sigmoid neurons or any other",
+    "start": 186.319,
+    "duration": 3.761
+  },
+  {
+    "text": "non-linear function that we might",
+    "start": 188.4,
+    "duration": 4.0
+  },
+  {
+    "text": "consider right so let's start defining",
+    "start": 190.08,
+    "duration": 4.879
+  },
+  {
+    "text": "every uh component of this feed forward",
+    "start": 192.4,
+    "duration": 6.08
+  },
+  {
+    "text": "neural network right so at the input we",
+    "start": 194.959,
+    "duration": 4.56
+  },
+  {
+    "text": "have",
+    "start": 198.48,
+    "duration": 3.039
+  },
+  {
+    "text": "an n dimensional vector so these are",
+    "start": 199.519,
+    "duration": 4.481
+  },
+  {
+    "text": "some n inputs that we might have and we",
+    "start": 201.519,
+    "duration": 4.401
+  },
+  {
+    "text": "have uh i think in the past refer to",
+    "start": 204.0,
+    "duration": 3.36
+  },
+  {
+    "text": "this oil",
+    "start": 205.92,
+    "duration": 3.36
+  },
+  {
+    "text": "uh drilling example have you referred to",
+    "start": 207.36,
+    "duration": 3.439
+  },
+  {
+    "text": "that the or",
+    "start": 209.28,
+    "duration": 3.12
+  },
+  {
+    "text": "whether i can find oil from a given",
+    "start": 210.799,
+    "duration": 3.52
+  },
+  {
+    "text": "location i think you have done that",
+    "start": 212.4,
+    "duration": 3.759
+  },
+  {
+    "text": "where you have a bunch of parameters",
+    "start": 214.319,
+    "duration": 4.0
+  },
+  {
+    "text": "right so you might consider the",
+    "start": 216.159,
+    "duration": 3.841
+  },
+  {
+    "text": "uh",
+    "start": 218.319,
+    "duration": 4.681
+  },
+  {
+    "text": "salinity",
+    "start": 220.0,
+    "duration": 3.0
+  },
+  {
+    "text": "the pressure",
+    "start": 226.159,
+    "duration": 4.321
+  },
+  {
+    "text": "the temperature and so on right so these",
+    "start": 228.799,
+    "duration": 3.36
+  },
+  {
+    "text": "are some n variables that are given to",
+    "start": 230.48,
+    "duration": 3.039
+  },
+  {
+    "text": "you and based on that you want to make a",
+    "start": 232.159,
+    "duration": 3.921
+  },
+  {
+    "text": "certain decision and this is an n",
+    "start": 233.519,
+    "duration": 5.601
+  },
+  {
+    "text": "dimensional input and i'll soon be just",
+    "start": 236.08,
+    "duration": 4.719
+  },
+  {
+    "text": "referring to it i've already referred to",
+    "start": 239.12,
+    "duration": 4.08
+  },
+  {
+    "text": "as rn right so this is an input which",
+    "start": 240.799,
+    "duration": 3.841
+  },
+  {
+    "text": "belongs to r",
+    "start": 243.2,
+    "duration": 3.2
+  },
+  {
+    "text": "n okay",
+    "start": 244.64,
+    "duration": 5.04
+  },
+  {
+    "text": "then we have a network which contains",
+    "start": 246.4,
+    "duration": 6.08
+  },
+  {
+    "text": "l minus one hidden layers okay and in",
+    "start": 249.68,
+    "duration": 4.479
+  },
+  {
+    "text": "the example that i'm going to show there",
+    "start": 252.48,
+    "duration": 3.999
+  },
+  {
+    "text": "will be just two hidden layers",
+    "start": 254.159,
+    "duration": 4.241
+  },
+  {
+    "text": "so the network has a total of l layers",
+    "start": 256.479,
+    "duration": 4.16
+  },
+  {
+    "text": "of which l minus one layers are hidden",
+    "start": 258.4,
+    "duration": 3.92
+  },
+  {
+    "text": "and i'll tell you what the ellipt layer",
+    "start": 260.639,
+    "duration": 3.921
+  },
+  {
+    "text": "is going to be so in this case i have",
+    "start": 262.32,
+    "duration": 4.879
+  },
+  {
+    "text": "shown two hidden layers and each of them",
+    "start": 264.56,
+    "duration": 6.56
+  },
+  {
+    "text": "have n neurons right and for a large",
+    "start": 267.199,
+    "duration": 5.361
+  },
+  {
+    "text": "part of this discussion i'll just assume",
+    "start": 271.12,
+    "duration": 2.88
+  },
+  {
+    "text": "n equal to three right so i'll explain",
+    "start": 272.56,
+    "duration": 3.44
+  },
+  {
+    "text": "with the help of n equal to three but in",
+    "start": 274.0,
+    "duration": 4.0
+  },
+  {
+    "text": "general they're going to be n neurons",
+    "start": 276.0,
+    "duration": 5.759
+  },
+  {
+    "text": "right and also uh it it need not be like",
+    "start": 278.0,
+    "duration": 5.6
+  },
+  {
+    "text": "all of these are n that's just for",
+    "start": 281.759,
+    "duration": 4.081
+  },
+  {
+    "text": "convenience i've taken it this could be",
+    "start": 283.6,
+    "duration": 6.319
+  },
+  {
+    "text": "n1 this could be n2 and this could be n3",
+    "start": 285.84,
+    "duration": 5.52
+  },
+  {
+    "text": "and so on that could be different the",
+    "start": 289.919,
+    "duration": 3.041
+  },
+  {
+    "text": "value of n could be different across",
+    "start": 291.36,
+    "duration": 4.399
+  },
+  {
+    "text": "layers is what i mean but for",
+    "start": 292.96,
+    "duration": 4.16
+  },
+  {
+    "text": "introducing the concepts i'm just going",
+    "start": 295.759,
+    "duration": 4.16
+  },
+  {
+    "text": "to take n it does not have any bearing",
+    "start": 297.12,
+    "duration": 4.32
+  },
+  {
+    "text": "on the concepts that we learn it's",
+    "start": 299.919,
+    "duration": 3.201
+  },
+  {
+    "text": "without loss of generality it could be",
+    "start": 301.44,
+    "duration": 4.24
+  },
+  {
+    "text": "any n right or my explanation holds for",
+    "start": 303.12,
+    "duration": 4.799
+  },
+  {
+    "text": "any value of n so it's just for",
+    "start": 305.68,
+    "duration": 3.6
+  },
+  {
+    "text": "convenience that i'm keeping it as n",
+    "start": 307.919,
+    "duration": 3.12
+  },
+  {
+    "text": "throughout okay",
+    "start": 309.28,
+    "duration": 3.12
+  },
+  {
+    "text": "finally there is an output layer",
+    "start": 311.039,
+    "duration": 3.201
+  },
+  {
+    "text": "containing k neurons right so you have",
+    "start": 312.4,
+    "duration": 4.799
+  },
+  {
+    "text": "these l minus 1 so that is 2 and then",
+    "start": 314.24,
+    "duration": 4.88
+  },
+  {
+    "text": "the third layer is going to be the",
+    "start": 317.199,
+    "duration": 3.921
+  },
+  {
+    "text": "output layer in this example",
+    "start": 319.12,
+    "duration": 3.919
+  },
+  {
+    "text": "so i have a total of l layers in this",
+    "start": 321.12,
+    "duration": 3.6
+  },
+  {
+    "text": "case l is equal to three and n minus one",
+    "start": 323.039,
+    "duration": 4.16
+  },
+  {
+    "text": "hidden layers and one output layer right",
+    "start": 324.72,
+    "duration": 4.56
+  },
+  {
+    "text": "now each",
+    "start": 327.199,
+    "duration": 3.84
+  },
+  {
+    "text": "neuron in the hidden layer and the",
+    "start": 329.28,
+    "duration": 3.28
+  },
+  {
+    "text": "output layer i'm going to split it into",
+    "start": 331.039,
+    "duration": 3.121
+  },
+  {
+    "text": "two parts right so what are these two",
+    "start": 332.56,
+    "duration": 4.4
+  },
+  {
+    "text": "parts uh i'll let the annotations be for",
+    "start": 334.16,
+    "duration": 5.84
+  },
+  {
+    "text": "now so there's going to be a",
+    "start": 336.96,
+    "duration": 4.88
+  },
+  {
+    "text": "part called the pre-activation so the",
+    "start": 340.0,
+    "duration": 3.44
+  },
+  {
+    "text": "bottom part which is the white part that",
+    "start": 341.84,
+    "duration": 3.12
+  },
+  {
+    "text": "you see i'm going to refer it to as",
+    "start": 343.44,
+    "duration": 4.24
+  },
+  {
+    "text": "pre-activation and the shaded part is",
+    "start": 344.96,
+    "duration": 4.64
+  },
+  {
+    "text": "the activation right so this is how you",
+    "start": 347.68,
+    "duration": 3.44
+  },
+  {
+    "text": "refer to it in",
+    "start": 349.6,
+    "duration": 4.0
+  },
+  {
+    "text": "neural network terminology so you have",
+    "start": 351.12,
+    "duration": 5.04
+  },
+  {
+    "text": "the input x then you have",
+    "start": 353.6,
+    "duration": 5.039
+  },
+  {
+    "text": "a1 the bunch of",
+    "start": 356.16,
+    "duration": 3.92
+  },
+  {
+    "text": "outputs that you are producing the first",
+    "start": 358.639,
+    "duration": 3.84
+  },
+  {
+    "text": "hidden layer a2 the outputs that you are",
+    "start": 360.08,
+    "duration": 3.76
+  },
+  {
+    "text": "producing in the second hidden layer and",
+    "start": 362.479,
+    "duration": 4.16
+  },
+  {
+    "text": "a3 these are all the pre-activations",
+    "start": 363.84,
+    "duration": 5.12
+  },
+  {
+    "text": "that you have in these layers right now",
+    "start": 366.639,
+    "duration": 5.84
+  },
+  {
+    "text": "maybe i'll get rid of the activations",
+    "start": 368.96,
+    "duration": 5.92
+  },
+  {
+    "text": "and then you have the activation which",
+    "start": 372.479,
+    "duration": 5.761
+  },
+  {
+    "text": "is the shaded part h1 h2 and then for",
+    "start": 374.88,
+    "duration": 5.92
+  },
+  {
+    "text": "the last layer it could be h3 or hl i",
+    "start": 378.24,
+    "duration": 4.64
+  },
+  {
+    "text": "could also call it as y hat because",
+    "start": 380.8,
+    "duration": 3.6
+  },
+  {
+    "text": "that's the output that i'm interested in",
+    "start": 382.88,
+    "duration": 4.0
+  },
+  {
+    "text": "so for the last guy the dark green or",
+    "start": 384.4,
+    "duration": 4.799
+  },
+  {
+    "text": "the shaded green guys there are multiple",
+    "start": 386.88,
+    "duration": 5.12
+  },
+  {
+    "text": "names right i could call it h l",
+    "start": 389.199,
+    "duration": 4.961
+  },
+  {
+    "text": "or the y hat because it's the output or",
+    "start": 392.0,
+    "duration": 4.16
+  },
+  {
+    "text": "i can also call it as f",
+    "start": 394.16,
+    "duration": 3.28
+  },
+  {
+    "text": "hat of x right because this is my",
+    "start": 396.16,
+    "duration": 3.68
+  },
+  {
+    "text": "approximation okay so they have the",
+    "start": 397.44,
+    "duration": 4.879
+  },
+  {
+    "text": "pre-activation and the activation",
+    "start": 399.84,
+    "duration": 5.04
+  },
+  {
+    "text": "now how to compute these uh",
+    "start": 402.319,
+    "duration": 4.0
+  },
+  {
+    "text": "pre-activations and activations is",
+    "start": 404.88,
+    "duration": 3.2
+  },
+  {
+    "text": "something that we'll see today but",
+    "start": 406.319,
+    "duration": 3.761
+  },
+  {
+    "text": "remember that each of these is a vector",
+    "start": 408.08,
+    "duration": 4.16
+  },
+  {
+    "text": "right so now here the entire input i",
+    "start": 410.08,
+    "duration": 4.0
+  },
+  {
+    "text": "could call it as x and i already said",
+    "start": 412.24,
+    "duration": 4.16
+  },
+  {
+    "text": "that x belongs to rn",
+    "start": 414.08,
+    "duration": 4.72
+  },
+  {
+    "text": "and since i have assumed that all these",
+    "start": 416.4,
+    "duration": 4.639
+  },
+  {
+    "text": "layers the hidden layers have",
+    "start": 418.8,
+    "duration": 5.519
+  },
+  {
+    "text": "n neurons so remember that a1 is also rn",
+    "start": 421.039,
+    "duration": 6.88
+  },
+  {
+    "text": "right and just to clarify this is a11",
+    "start": 424.319,
+    "duration": 7.761
+  },
+  {
+    "text": "this is a12 all the way up to a 1 n",
+    "start": 427.919,
+    "duration": 6.0
+  },
+  {
+    "text": "similarly this is a",
+    "start": 432.08,
+    "duration": 4.64
+  },
+  {
+    "text": "2 1 a 2 2",
+    "start": 433.919,
+    "duration": 5.28
+  },
+  {
+    "text": "all the way up to a to n right and the",
+    "start": 436.72,
+    "duration": 5.199
+  },
+  {
+    "text": "same analogy for h every a has a",
+    "start": 439.199,
+    "duration": 4.081
+  },
+  {
+    "text": "corresponding",
+    "start": 441.919,
+    "duration": 3.68
+  },
+  {
+    "text": "edge so just as you have a 2 1 a 2 up to",
+    "start": 443.28,
+    "duration": 5.759
+  },
+  {
+    "text": "a 2 n you'll have h 2 1 h 2 2 up to h 2",
+    "start": 445.599,
+    "duration": 6.801
+  },
+  {
+    "text": "n right so these are vectors",
+    "start": 449.039,
+    "duration": 4.961
+  },
+  {
+    "text": "in this case they are vectors belonging",
+    "start": 452.4,
+    "duration": 3.76
+  },
+  {
+    "text": "to rn okay",
+    "start": 454.0,
+    "duration": 4.08
+  },
+  {
+    "text": "the input layer can be called the zeroth",
+    "start": 456.16,
+    "duration": 3.599
+  },
+  {
+    "text": "layer and the output layer can be called",
+    "start": 458.08,
+    "duration": 4.32
+  },
+  {
+    "text": "the l3 right so you have layer 0 hidden",
+    "start": 459.759,
+    "duration": 4.081
+  },
+  {
+    "text": "layer 1 hidden layer 2 and then the",
+    "start": 462.4,
+    "duration": 3.68
+  },
+  {
+    "text": "output layer i'm going a bit slow about",
+    "start": 463.84,
+    "duration": 3.68
+  },
+  {
+    "text": "this i'm being very deliberate about",
+    "start": 466.08,
+    "duration": 3.28
+  },
+  {
+    "text": "every statement that i'm making because",
+    "start": 467.52,
+    "duration": 3.679
+  },
+  {
+    "text": "this is something that will stay with us",
+    "start": 469.36,
+    "duration": 3.679
+  },
+  {
+    "text": "for the rest of the course so these",
+    "start": 471.199,
+    "duration": 3.521
+  },
+  {
+    "text": "small things that okay the input layer",
+    "start": 473.039,
+    "duration": 3.28
+  },
+  {
+    "text": "is actually",
+    "start": 474.72,
+    "duration": 3.919
+  },
+  {
+    "text": "layer 0 the output layer is actually",
+    "start": 476.319,
+    "duration": 3.201
+  },
+  {
+    "text": "layer",
+    "start": 478.639,
+    "duration": 2.881
+  },
+  {
+    "text": "uh l is something that you would not",
+    "start": 479.52,
+    "duration": 3.84
+  },
+  {
+    "text": "need to remember right so i'm going to",
+    "start": 481.52,
+    "duration": 4.72
+  },
+  {
+    "text": "then soon start calling this layer h",
+    "start": 483.36,
+    "duration": 6.32
+  },
+  {
+    "text": "zero right so h0 is the same as x in my",
+    "start": 486.24,
+    "duration": 6.16
+  },
+  {
+    "text": "notation okay",
+    "start": 489.68,
+    "duration": 4.079
+  },
+  {
+    "text": "okay now let's get rid of the",
+    "start": 492.4,
+    "duration": 4.16
+  },
+  {
+    "text": "annotations again",
+    "start": 493.759,
+    "duration": 3.601
+  },
+  {
+    "text": "yeah",
+    "start": 496.56,
+    "duration": 2.0
+  },
+  {
+    "text": "so now",
+    "start": 497.36,
+    "duration": 2.399
+  },
+  {
+    "text": "every",
+    "start": 498.56,
+    "duration": 2.319
+  },
+  {
+    "text": "neuron",
+    "start": 499.759,
+    "duration": 2.961
+  },
+  {
+    "text": "in the previous layer so now this is the",
+    "start": 500.879,
+    "duration": 4.801
+  },
+  {
+    "text": "previous for this layer this is going to",
+    "start": 502.72,
+    "duration": 5.36
+  },
+  {
+    "text": "be the previous layer right this is the",
+    "start": 505.68,
+    "duration": 4.4
+  },
+  {
+    "text": "previous layer so every neuron in the",
+    "start": 508.08,
+    "duration": 4.0
+  },
+  {
+    "text": "previous layer is connected to every",
+    "start": 510.08,
+    "duration": 4.48
+  },
+  {
+    "text": "neuron in the next layer by a weight",
+    "start": 512.08,
+    "duration": 5.04
+  },
+  {
+    "text": "right so there are n neurons here each",
+    "start": 514.56,
+    "duration": 4.959
+  },
+  {
+    "text": "of them is connected to n neurons",
+    "start": 517.12,
+    "duration": 4.32
+  },
+  {
+    "text": "in this layer right so how many weights",
+    "start": 519.519,
+    "duration": 4.4
+  },
+  {
+    "text": "would you have you would have n cross n",
+    "start": 521.44,
+    "duration": 4.0
+  },
+  {
+    "text": "weights right so all those weights i'm",
+    "start": 523.919,
+    "duration": 3.761
+  },
+  {
+    "text": "going to put together in a matrix and",
+    "start": 525.44,
+    "duration": 6.48
+  },
+  {
+    "text": "call it w 1 for here this is w 1 as",
+    "start": 527.68,
+    "duration": 7.36
+  },
+  {
+    "text": "already mentioned there so w1 belongs to",
+    "start": 531.92,
+    "duration": 4.64
+  },
+  {
+    "text": "n cross n",
+    "start": 535.04,
+    "duration": 3.919
+  },
+  {
+    "text": "and they'll also be a bias right so",
+    "start": 536.56,
+    "duration": 4.719
+  },
+  {
+    "text": "every neuron in this layer",
+    "start": 538.959,
+    "duration": 5.041
+  },
+  {
+    "text": "is going to have a bias connected to it",
+    "start": 541.279,
+    "duration": 6.161
+  },
+  {
+    "text": "so i'll have n such biases so i'll have",
+    "start": 544.0,
+    "duration": 7.6
+  },
+  {
+    "text": "b1 equal to rn right and since i have",
+    "start": 547.44,
+    "duration": 5.6
+  },
+  {
+    "text": "all the hidden layers have the same",
+    "start": 551.6,
+    "duration": 3.12
+  },
+  {
+    "text": "number of neurons and i've also assumed",
+    "start": 553.04,
+    "duration": 3.04
+  },
+  {
+    "text": "the input also has the same number of",
+    "start": 554.72,
+    "duration": 3.6
+  },
+  {
+    "text": "neurons for sake of convenience all of",
+    "start": 556.08,
+    "duration": 4.64
+  },
+  {
+    "text": "these are going to be n cross n",
+    "start": 558.32,
+    "duration": 4.959
+  },
+  {
+    "text": "matrices right so i have w1 which is n",
+    "start": 560.72,
+    "duration": 4.96
+  },
+  {
+    "text": "cross n and b1 which belongs to rn",
+    "start": 563.279,
+    "duration": 4.401
+  },
+  {
+    "text": "similarly i'll have w2 which is also",
+    "start": 565.68,
+    "duration": 4.0
+  },
+  {
+    "text": "going to be n cross n because there are",
+    "start": 567.68,
+    "duration": 4.88
+  },
+  {
+    "text": "n neurons here connected to each of the",
+    "start": 569.68,
+    "duration": 4.8
+  },
+  {
+    "text": "n neurons here so you'll have n square",
+    "start": 572.56,
+    "duration": 4.56
+  },
+  {
+    "text": "weights so that's the n cross n matrix",
+    "start": 574.48,
+    "duration": 5.919
+  },
+  {
+    "text": "and they'll again be n biases okay",
+    "start": 577.12,
+    "duration": 5.76
+  },
+  {
+    "text": "then the output layer of course here",
+    "start": 580.399,
+    "duration": 3.521
+  },
+  {
+    "text": "there are",
+    "start": 582.88,
+    "duration": 3.2
+  },
+  {
+    "text": "k neurons and here there are n neurons",
+    "start": 583.92,
+    "duration": 4.0
+  },
+  {
+    "text": "so each of these n neurons is connected",
+    "start": 586.08,
+    "duration": 3.52
+  },
+  {
+    "text": "to each of the k neurons in the output",
+    "start": 587.92,
+    "duration": 4.16
+  },
+  {
+    "text": "layer so you'll have a total of n cross",
+    "start": 589.6,
+    "duration": 4.4
+  },
+  {
+    "text": "k or k cross n",
+    "start": 592.08,
+    "duration": 4.72
+  },
+  {
+    "text": "weights right and you will have only k",
+    "start": 594.0,
+    "duration": 4.48
+  },
+  {
+    "text": "bias term so it's one for each of the",
+    "start": 596.8,
+    "duration": 4.32
+  },
+  {
+    "text": "output you know right so so that's the",
+    "start": 598.48,
+    "duration": 5.52
+  },
+  {
+    "text": "overall uh",
+    "start": 601.12,
+    "duration": 4.719
+  },
+  {
+    "text": "structure of the network so i'll just",
+    "start": 604.0,
+    "duration": 3.839
+  },
+  {
+    "text": "quickly summarize input layer some",
+    "start": 605.839,
+    "duration": 4.641
+  },
+  {
+    "text": "hidden layers output layers within all",
+    "start": 607.839,
+    "duration": 3.521
+  },
+  {
+    "text": "the",
+    "start": 610.48,
+    "duration": 2.24
+  },
+  {
+    "text": "layers including the output layer you",
+    "start": 611.36,
+    "duration": 3.2
+  },
+  {
+    "text": "have the pre activation and then the",
+    "start": 612.72,
+    "duration": 3.679
+  },
+  {
+    "text": "activation we'll see how to compute the",
+    "start": 614.56,
+    "duration": 4.08
+  },
+  {
+    "text": "pre-activation and the activation all of",
+    "start": 616.399,
+    "duration": 4.88
+  },
+  {
+    "text": "these are vectors the a's and the edges",
+    "start": 618.64,
+    "duration": 4.319
+  },
+  {
+    "text": "the output layer is spatial you could",
+    "start": 621.279,
+    "duration": 5.841
+  },
+  {
+    "text": "call it h l or y hat or f hat of x right",
+    "start": 622.959,
+    "duration": 6.32
+  },
+  {
+    "text": "and then you have weights every neuron",
+    "start": 627.12,
+    "duration": 4.24
+  },
+  {
+    "text": "in every layer is connected to every",
+    "start": 629.279,
+    "duration": 3.921
+  },
+  {
+    "text": "neuron in the next layer i'm going to",
+    "start": 631.36,
+    "duration": 3.76
+  },
+  {
+    "text": "refer to the input also as a spatial",
+    "start": 633.2,
+    "duration": 4.879
+  },
+  {
+    "text": "layer as h0 right so that's and you also",
+    "start": 635.12,
+    "duration": 4.719
+  },
+  {
+    "text": "have biases connected to every neuron",
+    "start": 638.079,
+    "duration": 3.2
+  },
+  {
+    "text": "right so that kind of summarizes the",
+    "start": 639.839,
+    "duration": 4.56
+  },
+  {
+    "text": "slide and you should so we'll do more of",
+    "start": 641.279,
+    "duration": 5.361
+  },
+  {
+    "text": "this but you should get used to these",
+    "start": 644.399,
+    "duration": 4.961
+  },
+  {
+    "text": "dimensions okay so now with that let's",
+    "start": 646.64,
+    "duration": 4.319
+  },
+  {
+    "text": "go to the next",
+    "start": 649.36,
+    "duration": 2.56
+  },
+  {
+    "text": "side",
+    "start": 650.959,
+    "duration": 4.401
+  },
+  {
+    "text": "now how do you compute the ai's okay so",
+    "start": 651.92,
+    "duration": 7.12
+  },
+  {
+    "text": "let's see that now remember a i is a",
+    "start": 655.36,
+    "duration": 5.919
+  },
+  {
+    "text": "vector so let me just focus on",
+    "start": 659.04,
+    "duration": 4.56
+  },
+  {
+    "text": "a 1 right so that means i am focusing on",
+    "start": 661.279,
+    "duration": 4.081
+  },
+  {
+    "text": "this",
+    "start": 663.6,
+    "duration": 4.56
+  },
+  {
+    "text": "white part here okay so there are let's",
+    "start": 665.36,
+    "duration": 4.64
+  },
+  {
+    "text": "assume n equal to 3 for this example",
+    "start": 668.16,
+    "duration": 3.2
+  },
+  {
+    "text": "there are only three neurons that have",
+    "start": 670.0,
+    "duration": 4.959
+  },
+  {
+    "text": "drawn so i'm actually a 1 1",
+    "start": 671.36,
+    "duration": 4.96
+  },
+  {
+    "text": "a 1 2",
+    "start": 674.959,
+    "duration": 3.361
+  },
+  {
+    "text": "a 1 3",
+    "start": 676.32,
+    "duration": 3.36
+  },
+  {
+    "text": "okay",
+    "start": 678.32,
+    "duration": 3.84
+  },
+  {
+    "text": "this is actually equal to the vector a",
+    "start": 679.68,
+    "duration": 5.44
+  },
+  {
+    "text": "right and how am i computing that",
+    "start": 682.16,
+    "duration": 6.16
+  },
+  {
+    "text": "i have",
+    "start": 685.12,
+    "duration": 5.6
+  },
+  {
+    "text": "b 1 1",
+    "start": 688.32,
+    "duration": 4.0
+  },
+  {
+    "text": "b 1 2",
+    "start": 690.72,
+    "duration": 3.6
+  },
+  {
+    "text": "b 1 3",
+    "start": 692.32,
+    "duration": 4.8
+  },
+  {
+    "text": "plus so this is also a vector",
+    "start": 694.32,
+    "duration": 4.4
+  },
+  {
+    "text": "okay because i have three biases one",
+    "start": 697.12,
+    "duration": 3.52
+  },
+  {
+    "text": "bias for every",
+    "start": 698.72,
+    "duration": 3.2
+  },
+  {
+    "text": "neuron in neuron",
+    "start": 700.64,
+    "duration": 3.84
+  },
+  {
+    "text": "in this layer then i have w what was the",
+    "start": 701.92,
+    "duration": 4.479
+  },
+  {
+    "text": "dimension of w it was a three cross",
+    "start": 704.48,
+    "duration": 2.799
+  },
+  {
+    "text": "three",
+    "start": 706.399,
+    "duration": 4.0
+  },
+  {
+    "text": "uh matrix i am going to squeeze it in",
+    "start": 707.279,
+    "duration": 6.401
+  },
+  {
+    "text": "here so i have w1",
+    "start": 710.399,
+    "duration": 6.401
+  },
+  {
+    "text": "this is the weight layer 1 matrix then",
+    "start": 713.68,
+    "duration": 6.159
+  },
+  {
+    "text": "the first element of it w 1",
+    "start": 716.8,
+    "duration": 7.12
+  },
+  {
+    "text": "1 2 w 1 1 3 right",
+    "start": 719.839,
+    "duration": 10.961
+  },
+  {
+    "text": "and then w 2 1 w 1 2 1 w 1 2 2 w 1 2 3 w",
+    "start": 723.92,
+    "duration": 8.56
+  },
+  {
+    "text": "1 3 1",
+    "start": 730.8,
+    "duration": 5.2
+  },
+  {
+    "text": "okay let me just write this one",
+    "start": 732.48,
+    "duration": 6.24
+  },
+  {
+    "text": "all the way up to w 1 3",
+    "start": 736.0,
+    "duration": 5.279
+  },
+  {
+    "text": "3 right so this is a 3 cross 3 matrix",
+    "start": 738.72,
+    "duration": 4.88
+  },
+  {
+    "text": "and that's going to get multiplied by x",
+    "start": 741.279,
+    "duration": 3.601
+  },
+  {
+    "text": "what is x",
+    "start": 743.6,
+    "duration": 3.919
+  },
+  {
+    "text": "x again has three components the input",
+    "start": 744.88,
+    "duration": 4.72
+  },
+  {
+    "text": "x one x two",
+    "start": 747.519,
+    "duration": 5.521
+  },
+  {
+    "text": "x three right so this is how a is going",
+    "start": 749.6,
+    "duration": 5.84
+  },
+  {
+    "text": "to be computed it's a simple matrix",
+    "start": 753.04,
+    "duration": 4.08
+  },
+  {
+    "text": "vector multiplication so this is a",
+    "start": 755.44,
+    "duration": 3.92
+  },
+  {
+    "text": "matrix vector multiplication and",
+    "start": 757.12,
+    "duration": 5.36
+  },
+  {
+    "text": "followed by a addition with a vector and",
+    "start": 759.36,
+    "duration": 5.12
+  },
+  {
+    "text": "all the dimensions here make sense right",
+    "start": 762.48,
+    "duration": 3.2
+  },
+  {
+    "text": "so a",
+    "start": 764.48,
+    "duration": 4.96
+  },
+  {
+    "text": "is equal to r a belongs to r n",
+    "start": 765.68,
+    "duration": 6.24
+  },
+  {
+    "text": "b also belongs to r n we just did that",
+    "start": 769.44,
+    "duration": 3.92
+  },
+  {
+    "text": "on the previous slide",
+    "start": 771.92,
+    "duration": 4.8
+  },
+  {
+    "text": "w belongs to r n cross n",
+    "start": 773.36,
+    "duration": 6.08
+  },
+  {
+    "text": "and i can multiply it with h i minus 1 h",
+    "start": 776.72,
+    "duration": 4.96
+  },
+  {
+    "text": "i minus 1 is h 0 in this case which is",
+    "start": 779.44,
+    "duration": 4.32
+  },
+  {
+    "text": "just the input and that also i had",
+    "start": 781.68,
+    "duration": 4.719
+  },
+  {
+    "text": "assumed belongs to r right so all this",
+    "start": 783.76,
+    "duration": 5.04
+  },
+  {
+    "text": "makes sense so this is just a simple",
+    "start": 786.399,
+    "duration": 4.961
+  },
+  {
+    "text": "matrix vector multiplication followed by",
+    "start": 788.8,
+    "duration": 4.479
+  },
+  {
+    "text": "an addition right so there's absolutely",
+    "start": 791.36,
+    "duration": 3.2
+  },
+  {
+    "text": "nothing uh",
+    "start": 793.279,
+    "duration": 3.521
+  },
+  {
+    "text": "fancy happening here right so just keep",
+    "start": 794.56,
+    "duration": 4.8
+  },
+  {
+    "text": "that in mind and that's how you compute",
+    "start": 796.8,
+    "duration": 4.56
+  },
+  {
+    "text": "a1 that's all that's there's nothing",
+    "start": 799.36,
+    "duration": 3.68
+  },
+  {
+    "text": "more to it right so this is the",
+    "start": 801.36,
+    "duration": 3.52
+  },
+  {
+    "text": "pre-activation now what is the",
+    "start": 803.04,
+    "duration": 4.16
+  },
+  {
+    "text": "activation the activation takes the",
+    "start": 804.88,
+    "duration": 4.24
+  },
+  {
+    "text": "pre-activation right so this is and",
+    "start": 807.2,
+    "duration": 3.84
+  },
+  {
+    "text": "passes it through a function so what",
+    "start": 809.12,
+    "duration": 4.159
+  },
+  {
+    "text": "does that mean i have",
+    "start": 811.04,
+    "duration": 7.599
+  },
+  {
+    "text": "already computed a 1 1 a 1 2 a 1 3",
+    "start": 813.279,
+    "duration": 7.601
+  },
+  {
+    "text": "okay and now i am going to pass this",
+    "start": 818.639,
+    "duration": 3.601
+  },
+  {
+    "text": "vector",
+    "start": 820.88,
+    "duration": 3.36
+  },
+  {
+    "text": "to a function right",
+    "start": 822.24,
+    "duration": 4.48
+  },
+  {
+    "text": "a 1 1 a 1 2",
+    "start": 824.24,
+    "duration": 4.32
+  },
+  {
+    "text": "a 1 3",
+    "start": 826.72,
+    "duration": 2.96
+  },
+  {
+    "text": "okay",
+    "start": 828.56,
+    "duration": 2.48
+  },
+  {
+    "text": "and now",
+    "start": 829.68,
+    "duration": 2.959
+  },
+  {
+    "text": "there are various",
+    "start": 831.04,
+    "duration": 4.16
+  },
+  {
+    "text": "functions which can operate on vectors",
+    "start": 832.639,
+    "duration": 4.56
+  },
+  {
+    "text": "but in this case this is going to be an",
+    "start": 835.2,
+    "duration": 3.84
+  },
+  {
+    "text": "element wise function what does that",
+    "start": 837.199,
+    "duration": 4.161
+  },
+  {
+    "text": "mean that the output is just going to be",
+    "start": 839.04,
+    "duration": 4.479
+  },
+  {
+    "text": "g of a 1 1",
+    "start": 841.36,
+    "duration": 4.32
+  },
+  {
+    "text": "g of a 1 2",
+    "start": 843.519,
+    "duration": 8.161
+  },
+  {
+    "text": "g of a 1 3 right so i've just put the",
+    "start": 845.68,
+    "duration": 7.76
+  },
+  {
+    "text": "function inside that means it's just an",
+    "start": 851.68,
+    "duration": 3.2
+  },
+  {
+    "text": "element wise function these are known as",
+    "start": 853.44,
+    "duration": 3.04
+  },
+  {
+    "text": "element wise functions which operate on",
+    "start": 854.88,
+    "duration": 4.0
+  },
+  {
+    "text": "vectors that means they operate on every",
+    "start": 856.48,
+    "duration": 4.719
+  },
+  {
+    "text": "element of the vector right now if i",
+    "start": 858.88,
+    "duration": 4.639
+  },
+  {
+    "text": "choose sigmoid as the function",
+    "start": 861.199,
+    "duration": 5.521
+  },
+  {
+    "text": "then g of a 1 1",
+    "start": 863.519,
+    "duration": 6.241
+  },
+  {
+    "text": "is simply going to be 1 over 1 plus",
+    "start": 866.72,
+    "duration": 6.08
+  },
+  {
+    "text": "e raised to minus a 1 1 right so that's",
+    "start": 869.76,
+    "duration": 5.04
+  },
+  {
+    "text": "all so once i have computed each of",
+    "start": 872.8,
+    "duration": 4.24
+  },
+  {
+    "text": "these a elements the computation of h is",
+    "start": 874.8,
+    "duration": 4.32
+  },
+  {
+    "text": "very simple and i'm going to compute",
+    "start": 877.04,
+    "duration": 2.88
+  },
+  {
+    "text": "these",
+    "start": 879.12,
+    "duration": 2.959
+  },
+  {
+    "text": "each of the edges so i'll get these",
+    "start": 879.92,
+    "duration": 4.88
+  },
+  {
+    "text": "three dimensional uh h1 right so this is",
+    "start": 882.079,
+    "duration": 5.601
+  },
+  {
+    "text": "what my h1 looks like it's a three",
+    "start": 884.8,
+    "duration": 4.32
+  },
+  {
+    "text": "dimensional",
+    "start": 887.68,
+    "duration": 3.68
+  },
+  {
+    "text": "vector so this is what it looks like and",
+    "start": 889.12,
+    "duration": 4.0
+  },
+  {
+    "text": "every element there is very easy to",
+    "start": 891.36,
+    "duration": 3.839
+  },
+  {
+    "text": "compute because you already have the a's",
+    "start": 893.12,
+    "duration": 4.079
+  },
+  {
+    "text": "and you're just applying a function onto",
+    "start": 895.199,
+    "duration": 4.32
+  },
+  {
+    "text": "every element of a right so that's",
+    "start": 897.199,
+    "duration": 6.32
+  },
+  {
+    "text": "that's all there is right so this is",
+    "start": 899.519,
+    "duration": 6.32
+  },
+  {
+    "text": "called the activation function there are",
+    "start": 903.519,
+    "duration": 4.801
+  },
+  {
+    "text": "many activation functions uh in the deep",
+    "start": 905.839,
+    "duration": 4.321
+  },
+  {
+    "text": "learning literature we'll be covering a",
+    "start": 908.32,
+    "duration": 3.92
+  },
+  {
+    "text": "few in this course we already saw the",
+    "start": 910.16,
+    "duration": 4.56
+  },
+  {
+    "text": "logistic",
+    "start": 912.24,
+    "duration": 2.48
+  },
+  {
+    "text": "function from the sigmoid family there's",
+    "start": 914.8,
+    "duration": 3.76
+  },
+  {
+    "text": "also tannage function that could be",
+    "start": 916.639,
+    "duration": 3.44
+  },
+  {
+    "text": "linear later on we'll be seeing",
+    "start": 918.56,
+    "duration": 4.639
+  },
+  {
+    "text": "functions like relu uh leaky relu and so",
+    "start": 920.079,
+    "duration": 4.721
+  },
+  {
+    "text": "on and we'll be seeing a whole bunch of",
+    "start": 923.199,
+    "duration": 3.361
+  },
+  {
+    "text": "functions for",
+    "start": 924.8,
+    "duration": 3.92
+  },
+  {
+    "text": "g right and all of them are going to",
+    "start": 926.56,
+    "duration": 3.839
+  },
+  {
+    "text": "operate element whether this one thing",
+    "start": 928.72,
+    "duration": 3.76
+  },
+  {
+    "text": "you need to just get into your heads is",
+    "start": 930.399,
+    "duration": 3.68
+  },
+  {
+    "text": "that i'm talking about non-linear",
+    "start": 932.48,
+    "duration": 2.799
+  },
+  {
+    "text": "functions and all that but at the end",
+    "start": 934.079,
+    "duration": 2.241
+  },
+  {
+    "text": "it's just simple right it's just",
+    "start": 935.279,
+    "duration": 2.56
+  },
+  {
+    "text": "operating element wise you give me a",
+    "start": 936.32,
+    "duration": 3.519
+  },
+  {
+    "text": "vector i'll take every element of the",
+    "start": 937.839,
+    "duration": 3.761
+  },
+  {
+    "text": "vector and pass it through a function",
+    "start": 939.839,
+    "duration": 2.721
+  },
+  {
+    "text": "right and",
+    "start": 941.6,
+    "duration": 2.96
+  },
+  {
+    "text": "just tan h is a function that you know",
+    "start": 942.56,
+    "duration": 3.44
+  },
+  {
+    "text": "so i'm just taking every element of the",
+    "start": 944.56,
+    "duration": 2.88
+  },
+  {
+    "text": "vector and passing it to the tanning",
+    "start": 946.0,
+    "duration": 2.88
+  },
+  {
+    "text": "function right so nothing",
+    "start": 947.44,
+    "duration": 3.44
+  },
+  {
+    "text": "very complex is happening there i mean",
+    "start": 948.88,
+    "duration": 3.6
+  },
+  {
+    "text": "in that one operation of course all of",
+    "start": 950.88,
+    "duration": 3.12
+  },
+  {
+    "text": "this gets combined and gives you a very",
+    "start": 952.48,
+    "duration": 3.919
+  },
+  {
+    "text": "complex composite function but in that",
+    "start": 954.0,
+    "duration": 4.16
+  },
+  {
+    "text": "particular computation there is nothing",
+    "start": 956.399,
+    "duration": 3.36
+  },
+  {
+    "text": "great right",
+    "start": 958.16,
+    "duration": 3.44
+  },
+  {
+    "text": "so the activation at the output layer is",
+    "start": 959.759,
+    "duration": 4.561
+  },
+  {
+    "text": "given by uh",
+    "start": 961.6,
+    "duration": 5.44
+  },
+  {
+    "text": "so you have alx right so this is your",
+    "start": 964.32,
+    "duration": 5.04
+  },
+  {
+    "text": "free activation at the output layer and",
+    "start": 967.04,
+    "duration": 4.239
+  },
+  {
+    "text": "i'm going to use a sum spatial function",
+    "start": 969.36,
+    "duration": 3.279
+  },
+  {
+    "text": "right so i have called g as the",
+    "start": 971.279,
+    "duration": 3.281
+  },
+  {
+    "text": "functions for the hidden layers the",
+    "start": 972.639,
+    "duration": 3.361
+  },
+  {
+    "text": "activation functions for the hidden",
+    "start": 974.56,
+    "duration": 3.839
+  },
+  {
+    "text": "layers but for the output i'll need some",
+    "start": 976.0,
+    "duration": 3.92
+  },
+  {
+    "text": "spatial function right so i'll tell you",
+    "start": 978.399,
+    "duration": 3.601
+  },
+  {
+    "text": "give you some intuition why so example i",
+    "start": 979.92,
+    "duration": 3.919
+  },
+  {
+    "text": "cannot always use the sigmoid function",
+    "start": 982.0,
+    "duration": 3.199
+  },
+  {
+    "text": "at the output because the sigmoid",
+    "start": 983.839,
+    "duration": 2.881
+  },
+  {
+    "text": "function will only give me values",
+    "start": 985.199,
+    "duration": 4.241
+  },
+  {
+    "text": "between 0 to 1 whereas in some cases my",
+    "start": 986.72,
+    "duration": 4.559
+  },
+  {
+    "text": "output could be greater than that so",
+    "start": 989.44,
+    "duration": 3.759
+  },
+  {
+    "text": "what if i am trying to predict",
+    "start": 991.279,
+    "duration": 3.761
+  },
+  {
+    "text": "say the rating of a movie on a scale of",
+    "start": 993.199,
+    "duration": 4.481
+  },
+  {
+    "text": "0 to 100 or the score of a test on a",
+    "start": 995.04,
+    "duration": 4.719
+  },
+  {
+    "text": "scale of 0 to 100. if i bound it to",
+    "start": 997.68,
+    "duration": 3.68
+  },
+  {
+    "text": "sigmoid function then it will only give",
+    "start": 999.759,
+    "duration": 3.921
+  },
+  {
+    "text": "me values between 0 to 1. so depending",
+    "start": 1001.36,
+    "duration": 4.159
+  },
+  {
+    "text": "on the problem that i'm handling i would",
+    "start": 1003.68,
+    "duration": 4.0
+  },
+  {
+    "text": "want some output functions which allow",
+    "start": 1005.519,
+    "duration": 3.921
+  },
+  {
+    "text": "me to cover those range right so we'll",
+    "start": 1007.68,
+    "duration": 3.04
+  },
+  {
+    "text": "do that",
+    "start": 1009.44,
+    "duration": 3.6
+  },
+  {
+    "text": "in more detail in this lecture",
+    "start": 1010.72,
+    "duration": 4.0
+  },
+  {
+    "text": "but for now just remember that all the",
+    "start": 1013.04,
+    "duration": 3.52
+  },
+  {
+    "text": "hidden activation functions i'm calling",
+    "start": 1014.72,
+    "duration": 4.16
+  },
+  {
+    "text": "as g and the output activation function",
+    "start": 1016.56,
+    "duration": 5.12
+  },
+  {
+    "text": "i'm calling as o okay",
+    "start": 1018.88,
+    "duration": 4.72
+  },
+  {
+    "text": "and one example of the output activation",
+    "start": 1021.68,
+    "duration": 3.519
+  },
+  {
+    "text": "function is softmax the other is a",
+    "start": 1023.6,
+    "duration": 3.52
+  },
+  {
+    "text": "simple linear function both of these we",
+    "start": 1025.199,
+    "duration": 4.401
+  },
+  {
+    "text": "are going to see soon right now to",
+    "start": 1027.12,
+    "duration": 4.48
+  },
+  {
+    "text": "simplify notation what i'm going to do",
+    "start": 1029.6,
+    "duration": 4.56
+  },
+  {
+    "text": "is i'm going to get rid of this right so",
+    "start": 1031.6,
+    "duration": 4.56
+  },
+  {
+    "text": "it's understood that all of these are",
+    "start": 1034.16,
+    "duration": 3.84
+  },
+  {
+    "text": "actually functions of the input right i",
+    "start": 1036.16,
+    "duration": 3.84
+  },
+  {
+    "text": "don't need to write it again and again",
+    "start": 1038.0,
+    "duration": 3.919
+  },
+  {
+    "text": "that i have an input and i'm computing a",
+    "start": 1040.0,
+    "duration": 3.199
+  },
+  {
+    "text": "function of that input right it's",
+    "start": 1041.919,
+    "duration": 2.4
+  },
+  {
+    "text": "understood that all of these are",
+    "start": 1043.199,
+    "duration": 3.441
+  },
+  {
+    "text": "functions so i'm just going to remove",
+    "start": 1044.319,
+    "duration": 4.801
+  },
+  {
+    "text": "that instead of a i of x that converts",
+    "start": 1046.64,
+    "duration": 3.84
+  },
+  {
+    "text": "something i'm just going to write it as",
+    "start": 1049.12,
+    "duration": 5.12
+  },
+  {
+    "text": "a i h i and so on right so that off x is",
+    "start": 1050.48,
+    "duration": 5.28
+  },
+  {
+    "text": "something that i have deleted but it's",
+    "start": 1054.24,
+    "duration": 4.4
+  },
+  {
+    "text": "understood that you have this input",
+    "start": 1055.76,
+    "duration": 4.72
+  },
+  {
+    "text": "everything that is getting computed here",
+    "start": 1058.64,
+    "duration": 4.08
+  },
+  {
+    "text": "all the white guys red guys",
+    "start": 1060.48,
+    "duration": 4.48
+  },
+  {
+    "text": "and the green guys they are all the",
+    "start": 1062.72,
+    "duration": 5.12
+  },
+  {
+    "text": "functions of the input right so that's",
+    "start": 1064.96,
+    "duration": 4.56
+  },
+  {
+    "text": "very obvious i'm not going to write it",
+    "start": 1067.84,
+    "duration": 3.36
+  },
+  {
+    "text": "explicitly it just makes the notation",
+    "start": 1069.52,
+    "duration": 3.44
+  },
+  {
+    "text": "more cumbersome right so i have",
+    "start": 1071.2,
+    "duration": 4.4
+  },
+  {
+    "text": "introduced a feed forward",
+    "start": 1072.96,
+    "duration": 4.32
+  },
+  {
+    "text": "neural network",
+    "start": 1075.6,
+    "duration": 3.199
+  },
+  {
+    "text": "now",
+    "start": 1077.28,
+    "duration": 3.44
+  },
+  {
+    "text": "in the previous lecture we saw this",
+    "start": 1078.799,
+    "duration": 3.841
+  },
+  {
+    "text": "supervised machine learning setup right",
+    "start": 1080.72,
+    "duration": 3.76
+  },
+  {
+    "text": "where we said that in machine learning",
+    "start": 1082.64,
+    "duration": 4.72
+  },
+  {
+    "text": "you always have an input x",
+    "start": 1084.48,
+    "duration": 4.559
+  },
+  {
+    "text": "you know there's some true function",
+    "start": 1087.36,
+    "duration": 4.0
+  },
+  {
+    "text": "which x is between x and y but you don't",
+    "start": 1089.039,
+    "duration": 4.241
+  },
+  {
+    "text": "know that so you come up with an",
+    "start": 1091.36,
+    "duration": 4.16
+  },
+  {
+    "text": "approximation of that",
+    "start": 1093.28,
+    "duration": 4.24
+  },
+  {
+    "text": "function and that is your y hat right so",
+    "start": 1095.52,
+    "duration": 4.0
+  },
+  {
+    "text": "i see a y hat here and this should have",
+    "start": 1097.52,
+    "duration": 4.399
+  },
+  {
+    "text": "been f hat of x you can ask the t is to",
+    "start": 1099.52,
+    "duration": 4.48
+  },
+  {
+    "text": "correct that with the f f x right so i",
+    "start": 1101.919,
+    "duration": 5.521
+  },
+  {
+    "text": "have the x here and i have the y hat",
+    "start": 1104.0,
+    "duration": 5.84
+  },
+  {
+    "text": "but what is the function right i see",
+    "start": 1107.44,
+    "duration": 4.239
+  },
+  {
+    "text": "what i'm seeing here is",
+    "start": 1109.84,
+    "duration": 4.959
+  },
+  {
+    "text": "some kind of a network",
+    "start": 1111.679,
+    "duration": 3.12
+  },
+  {
+    "text": "but what is the function f hat of x i",
+    "start": 1119.52,
+    "duration": 4.159
+  },
+  {
+    "text": "mean can you write the output as a",
+    "start": 1121.84,
+    "duration": 3.92
+  },
+  {
+    "text": "function of x all these arrows and all",
+    "start": 1123.679,
+    "duration": 3.841
+  },
+  {
+    "text": "make sense and i can see that somehow",
+    "start": 1125.76,
+    "duration": 3.76
+  },
+  {
+    "text": "these computations are happening but if",
+    "start": 1127.52,
+    "duration": 4.0
+  },
+  {
+    "text": "i ask you to write that function so that",
+    "start": 1129.52,
+    "duration": 3.92
+  },
+  {
+    "text": "function in the previous lecture was",
+    "start": 1131.52,
+    "duration": 3.36
+  },
+  {
+    "text": "just the sigmoid function right so i",
+    "start": 1133.44,
+    "duration": 3.28
+  },
+  {
+    "text": "could write it it's 1 over 1 plus e",
+    "start": 1134.88,
+    "duration": 4.32
+  },
+  {
+    "text": "raised to minus w transpose x plus b i",
+    "start": 1136.72,
+    "duration": 4.88
+  },
+  {
+    "text": "could write that y hat explicitly now",
+    "start": 1139.2,
+    "duration": 4.56
+  },
+  {
+    "text": "can i write this y hat explicitly or all",
+    "start": 1141.6,
+    "duration": 4.0
+  },
+  {
+    "text": "that explanation that i had in the last",
+    "start": 1143.76,
+    "duration": 4.96
+  },
+  {
+    "text": "class where f hat is your approximation",
+    "start": 1145.6,
+    "duration": 4.64
+  },
+  {
+    "text": "and now instead of telling you what f",
+    "start": 1148.72,
+    "duration": 3.44
+  },
+  {
+    "text": "hat is i've just given you a diagram",
+    "start": 1150.24,
+    "duration": 4.16
+  },
+  {
+    "text": "where is the f hat in this diagram right",
+    "start": 1152.16,
+    "duration": 4.08
+  },
+  {
+    "text": "so that's something that we should try",
+    "start": 1154.4,
+    "duration": 4.0
+  },
+  {
+    "text": "to figure out right what does the f hat",
+    "start": 1156.24,
+    "duration": 3.76
+  },
+  {
+    "text": "look like and that should give you",
+    "start": 1158.4,
+    "duration": 4.56
+  },
+  {
+    "text": "confidence that this is just yet another",
+    "start": 1160.0,
+    "duration": 4.799
+  },
+  {
+    "text": "choice of function families within the",
+    "start": 1162.96,
+    "duration": 3.2
+  },
+  {
+    "text": "machine learning paradigm where you",
+    "start": 1164.799,
+    "duration": 2.641
+  },
+  {
+    "text": "could choose different functions you",
+    "start": 1166.16,
+    "duration": 2.399
+  },
+  {
+    "text": "could choose the linear function",
+    "start": 1167.44,
+    "duration": 3.04
+  },
+  {
+    "text": "quadratic function and this is yet",
+    "start": 1168.559,
+    "duration": 3.681
+  },
+  {
+    "text": "another function it just happens to be a",
+    "start": 1170.48,
+    "duration": 3.76
+  },
+  {
+    "text": "very complex composite function but you",
+    "start": 1172.24,
+    "duration": 4.24
+  },
+  {
+    "text": "can still write down what f hat is right",
+    "start": 1174.24,
+    "duration": 4.4
+  },
+  {
+    "text": "so we will try to do that so i'll go",
+    "start": 1176.48,
+    "duration": 4.24
+  },
+  {
+    "text": "back to that setting of a typical",
+    "start": 1178.64,
+    "duration": 3.44
+  },
+  {
+    "text": "machine learning supervised machine",
+    "start": 1180.72,
+    "duration": 3.36
+  },
+  {
+    "text": "learning setup where you have data",
+    "start": 1182.08,
+    "duration": 4.32
+  },
+  {
+    "text": "which comprises of x's and y's so that",
+    "start": 1184.08,
+    "duration": 3.2
+  },
+  {
+    "text": "is",
+    "start": 1186.4,
+    "duration": 2.96
+  },
+  {
+    "text": "there i have the x",
+    "start": 1187.28,
+    "duration": 5.36
+  },
+  {
+    "text": "i have the y's and i want to now come up",
+    "start": 1189.36,
+    "duration": 5.04
+  },
+  {
+    "text": "with a model",
+    "start": 1192.64,
+    "duration": 3.52
+  },
+  {
+    "text": "okay which is my approximation of the",
+    "start": 1194.4,
+    "duration": 4.399
+  },
+  {
+    "text": "result of the relation between x and y",
+    "start": 1196.16,
+    "duration": 4.16
+  },
+  {
+    "text": "and here i'm not come up with a model",
+    "start": 1198.799,
+    "duration": 3.201
+  },
+  {
+    "text": "i'm not given you a function actually",
+    "start": 1200.32,
+    "duration": 2.8
+  },
+  {
+    "text": "i've come up with a model but i've not",
+    "start": 1202.0,
+    "duration": 2.799
+  },
+  {
+    "text": "given you what that function is i've",
+    "start": 1203.12,
+    "duration": 3.439
+  },
+  {
+    "text": "just given you a diagram right so now",
+    "start": 1204.799,
+    "duration": 3.361
+  },
+  {
+    "text": "can you write down",
+    "start": 1206.559,
+    "duration": 3.681
+  },
+  {
+    "text": "that function right can you write down f",
+    "start": 1208.16,
+    "duration": 4.0
+  },
+  {
+    "text": "hat so you could pause the video here",
+    "start": 1210.24,
+    "duration": 3.84
+  },
+  {
+    "text": "and try to write it on your own and when",
+    "start": 1212.16,
+    "duration": 3.2
+  },
+  {
+    "text": "you come back",
+    "start": 1214.08,
+    "duration": 4.08
+  },
+  {
+    "text": "i'll just talk about it",
+    "start": 1215.36,
+    "duration": 5.36
+  },
+  {
+    "text": "okay so let me talk about it so this is",
+    "start": 1218.16,
+    "duration": 5.28
+  },
+  {
+    "text": "what the function is right this is",
+    "start": 1220.72,
+    "duration": 4.8
+  },
+  {
+    "text": "exactly what the function looks like so",
+    "start": 1223.44,
+    "duration": 4.719
+  },
+  {
+    "text": "let me explain you had the input x",
+    "start": 1225.52,
+    "duration": 4.399
+  },
+  {
+    "text": "what did you do to the input you",
+    "start": 1228.159,
+    "duration": 4.241
+  },
+  {
+    "text": "multiplied it by the w1 weight",
+    "start": 1229.919,
+    "duration": 4.88
+  },
+  {
+    "text": "and added the b1 vector what did you get",
+    "start": 1232.4,
+    "duration": 5.519
+  },
+  {
+    "text": "here you got a one right you got",
+    "start": 1234.799,
+    "duration": 5.76
+  },
+  {
+    "text": "this output",
+    "start": 1237.919,
+    "duration": 5.201
+  },
+  {
+    "text": "okay then what did you do you passed",
+    "start": 1240.559,
+    "duration": 5.6
+  },
+  {
+    "text": "that through a non-linear function g",
+    "start": 1243.12,
+    "duration": 4.48
+  },
+  {
+    "text": "and that function was simple in the",
+    "start": 1246.159,
+    "duration": 3.441
+  },
+  {
+    "text": "sense that it was just operating on",
+    "start": 1247.6,
+    "duration": 7.36
+  },
+  {
+    "text": "every element of a1 and then from here",
+    "start": 1249.6,
+    "duration": 5.36
+  },
+  {
+    "text": "you got",
+    "start": 1255.52,
+    "duration": 4.68
+  },
+  {
+    "text": "sorry",
+    "start": 1257.2,
+    "duration": 3.0
+  },
+  {
+    "text": "oops",
+    "start": 1263.12,
+    "duration": 2.4
+  },
+  {
+    "text": "i",
+    "start": 1267.12,
+    "duration": 3.679
+  },
+  {
+    "text": "okay",
+    "start": 1268.48,
+    "duration": 2.319
+  },
+  {
+    "text": "so this was a one",
+    "start": 1273.28,
+    "duration": 3.96
+  },
+  {
+    "text": "this",
+    "start": 1277.36,
+    "duration": 2.96
+  },
+  {
+    "text": "gave you h1",
+    "start": 1278.48,
+    "duration": 4.48
+  },
+  {
+    "text": "once you had h1 that became the input",
+    "start": 1280.32,
+    "duration": 4.56
+  },
+  {
+    "text": "for the next layer what did you do with",
+    "start": 1282.96,
+    "duration": 5.28
+  },
+  {
+    "text": "that you again multiplied it by w2 right",
+    "start": 1284.88,
+    "duration": 7.12
+  },
+  {
+    "text": "and then you added b2 and that gave you",
+    "start": 1288.24,
+    "duration": 6.16
+  },
+  {
+    "text": "a2 then you passed it through this",
+    "start": 1292.0,
+    "duration": 4.32
+  },
+  {
+    "text": "non-linearity",
+    "start": 1294.4,
+    "duration": 3.92
+  },
+  {
+    "text": "and you got",
+    "start": 1296.32,
+    "duration": 4.88
+  },
+  {
+    "text": "not g2 sorry",
+    "start": 1298.32,
+    "duration": 2.88
+  },
+  {
+    "text": "h2 right then h2 became the input for",
+    "start": 1301.44,
+    "duration": 4.8
+  },
+  {
+    "text": "the next layer so you multiplied it by",
+    "start": 1304.159,
+    "duration": 5.921
+  },
+  {
+    "text": "w3 and then you added b3 and that gave",
+    "start": 1306.24,
+    "duration": 5.6
+  },
+  {
+    "text": "you",
+    "start": 1310.08,
+    "duration": 3.68
+  },
+  {
+    "text": "a3 and then you passed it through a",
+    "start": 1311.84,
+    "duration": 5.28
+  },
+  {
+    "text": "spatial output function to get h",
+    "start": 1313.76,
+    "duration": 5.2
+  },
+  {
+    "text": "3 which is the same as",
+    "start": 1317.12,
+    "duration": 4.0
+  },
+  {
+    "text": "y hat which is the same as",
+    "start": 1318.96,
+    "duration": 4.0
+  },
+  {
+    "text": "f hat of x right so you have actually",
+    "start": 1321.12,
+    "duration": 5.36
+  },
+  {
+    "text": "written the output as a function of the",
+    "start": 1322.96,
+    "duration": 5.52
+  },
+  {
+    "text": "input it just happens to be a very",
+    "start": 1326.48,
+    "duration": 4.0
+  },
+  {
+    "text": "complex composite function right and",
+    "start": 1328.48,
+    "duration": 4.319
+  },
+  {
+    "text": "let's just do a bit more about this so",
+    "start": 1330.48,
+    "duration": 4.16
+  },
+  {
+    "text": "just to make sure that we understand all",
+    "start": 1332.799,
+    "duration": 3.36
+  },
+  {
+    "text": "the dimensions right so remember that",
+    "start": 1334.64,
+    "duration": 2.399
+  },
+  {
+    "text": "this",
+    "start": 1336.159,
+    "duration": 2.88
+  },
+  {
+    "text": "was our n",
+    "start": 1337.039,
+    "duration": 3.201
+  },
+  {
+    "text": "okay",
+    "start": 1339.039,
+    "duration": 3.921
+  },
+  {
+    "text": "this was r",
+    "start": 1340.24,
+    "duration": 5.04
+  },
+  {
+    "text": "n cross n so i'm multiplying an n cross",
+    "start": 1342.96,
+    "duration": 5.36
+  },
+  {
+    "text": "n matrix with an n-dimensional vector",
+    "start": 1345.28,
+    "duration": 4.399
+  },
+  {
+    "text": "so the output is going to be",
+    "start": 1348.32,
+    "duration": 4.32
+  },
+  {
+    "text": "n-dimensional and then i'm adding",
+    "start": 1349.679,
+    "duration": 5.601
+  },
+  {
+    "text": "an n-dimensional vector to it so that",
+    "start": 1352.64,
+    "duration": 5.2
+  },
+  {
+    "text": "output is also going to be",
+    "start": 1355.28,
+    "duration": 4.879
+  },
+  {
+    "text": "n-dimensional then i am passing it to an",
+    "start": 1357.84,
+    "duration": 4.48
+  },
+  {
+    "text": "element-wise function so that is also",
+    "start": 1360.159,
+    "duration": 4.161
+  },
+  {
+    "text": "going to be n-dimensional now you can go",
+    "start": 1362.32,
+    "duration": 4.239
+  },
+  {
+    "text": "along this chain and convince yourself",
+    "start": 1364.32,
+    "duration": 4.479
+  },
+  {
+    "text": "that all the di all the dimensions are",
+    "start": 1366.559,
+    "duration": 4.961
+  },
+  {
+    "text": "compatible right so now that's that's",
+    "start": 1368.799,
+    "duration": 6.961
+  },
+  {
+    "text": "the main thing i wanted to say uh",
+    "start": 1371.52,
+    "duration": 6.72
+  },
+  {
+    "text": "yeah now one last thing i'll say suppose",
+    "start": 1375.76,
+    "duration": 4.159
+  },
+  {
+    "text": "i have just assumed everything is n",
+    "start": 1378.24,
+    "duration": 3.04
+  },
+  {
+    "text": "right for the sake of convince",
+    "start": 1379.919,
+    "duration": 3.921
+  },
+  {
+    "text": "convenience now let me just assume uh",
+    "start": 1381.28,
+    "duration": 4.8
+  },
+  {
+    "text": "make it different let's let this be p",
+    "start": 1383.84,
+    "duration": 5.68
+  },
+  {
+    "text": "i'm sorry m and let this b be p",
+    "start": 1386.08,
+    "duration": 6.4
+  },
+  {
+    "text": "now what would the weights w1 v",
+    "start": 1389.52,
+    "duration": 5.68
+  },
+  {
+    "text": "w1 would belong to what so you have",
+    "start": 1392.48,
+    "duration": 5.36
+  },
+  {
+    "text": "n inputs each of them connected to these",
+    "start": 1395.2,
+    "duration": 5.28
+  },
+  {
+    "text": "m neurons so you have m cross n weights",
+    "start": 1397.84,
+    "duration": 5.68
+  },
+  {
+    "text": "so this would be m cross",
+    "start": 1400.48,
+    "duration": 6.8
+  },
+  {
+    "text": "n okay and what would b1 be",
+    "start": 1403.52,
+    "duration": 6.639
+  },
+  {
+    "text": "you have one bias for every neuron in",
+    "start": 1407.28,
+    "duration": 4.08
+  },
+  {
+    "text": "this layer",
+    "start": 1410.159,
+    "duration": 3.441
+  },
+  {
+    "text": "so you will have m such",
+    "start": 1411.36,
+    "duration": 4.08
+  },
+  {
+    "text": "right and now again you can see that",
+    "start": 1413.6,
+    "duration": 4.72
+  },
+  {
+    "text": "these computations go well so this is an",
+    "start": 1415.44,
+    "duration": 6.719
+  },
+  {
+    "text": "m cross n matrix multiplied by an n",
+    "start": 1418.32,
+    "duration": 5.52
+  },
+  {
+    "text": "dimensional input",
+    "start": 1422.159,
+    "duration": 2.481
+  },
+  {
+    "text": "okay",
+    "start": 1423.84,
+    "duration": 3.04
+  },
+  {
+    "text": "and then add it with an m dimensional",
+    "start": 1424.64,
+    "duration": 4.64
+  },
+  {
+    "text": "vector right so m cross n multiplied by",
+    "start": 1426.88,
+    "duration": 4.799
+  },
+  {
+    "text": "n dimensional vector will give you an m",
+    "start": 1429.28,
+    "duration": 4.48
+  },
+  {
+    "text": "dimensional output and then you can add",
+    "start": 1431.679,
+    "duration": 4.081
+  },
+  {
+    "text": "it to a m dimensional vector and then",
+    "start": 1433.76,
+    "duration": 4.48
+  },
+  {
+    "text": "when you pass it to this element wise",
+    "start": 1435.76,
+    "duration": 4.159
+  },
+  {
+    "text": "non-linearity you will again get an m",
+    "start": 1438.24,
+    "duration": 4.24
+  },
+  {
+    "text": "dimensional vector right and now if the",
+    "start": 1439.919,
+    "duration": 7.681
+  },
+  {
+    "text": "next layer has p neurons then this w 2",
+    "start": 1442.48,
+    "duration": 5.12
+  },
+  {
+    "text": "should belong to",
+    "start": 1448.64,
+    "duration": 3.84
+  },
+  {
+    "text": "p cross m",
+    "start": 1450.559,
+    "duration": 3.761
+  },
+  {
+    "text": "and again this multiplication goes",
+    "start": 1452.48,
+    "duration": 3.679
+  },
+  {
+    "text": "through this is p cross m",
+    "start": 1454.32,
+    "duration": 3.76
+  },
+  {
+    "text": "multiplied by m which is a valid",
+    "start": 1456.159,
+    "duration": 4.161
+  },
+  {
+    "text": "operation and now you can again justify",
+    "start": 1458.08,
+    "duration": 4.16
+  },
+  {
+    "text": "the whole series of computations that",
+    "start": 1460.32,
+    "duration": 4.4
+  },
+  {
+    "text": "you are doing okay so i want you to be",
+    "start": 1462.24,
+    "duration": 3.84
+  },
+  {
+    "text": "comfortable",
+    "start": 1464.72,
+    "duration": 3.199
+  },
+  {
+    "text": "with this computation so this should",
+    "start": 1466.08,
+    "duration": 3.04
+  },
+  {
+    "text": "give you some com",
+    "start": 1467.919,
+    "duration": 2.801
+  },
+  {
+    "text": "confidence that although this network",
+    "start": 1469.12,
+    "duration": 4.08
+  },
+  {
+    "text": "diagram looks a bit complex there are so",
+    "start": 1470.72,
+    "duration": 4.16
+  },
+  {
+    "text": "many connections going from one layer to",
+    "start": 1473.2,
+    "duration": 3.52
+  },
+  {
+    "text": "the other layer at the end it's just a",
+    "start": 1474.88,
+    "duration": 4.08
+  },
+  {
+    "text": "series of matrix vector operations",
+    "start": 1476.72,
+    "duration": 3.76
+  },
+  {
+    "text": "followed by some element-wise",
+    "start": 1478.96,
+    "duration": 3.199
+  },
+  {
+    "text": "non-linearities which are very simple at",
+    "start": 1480.48,
+    "duration": 3.04
+  },
+  {
+    "text": "every element you just pass it through a",
+    "start": 1482.159,
+    "duration": 3.76
+  },
+  {
+    "text": "function and you get the output right so",
+    "start": 1483.52,
+    "duration": 4.8
+  },
+  {
+    "text": "it's not as complex as it looks you can",
+    "start": 1485.919,
+    "duration": 4.161
+  },
+  {
+    "text": "actually write it down and even if they",
+    "start": 1488.32,
+    "duration": 3.92
+  },
+  {
+    "text": "give you a hundred layered network",
+    "start": 1490.08,
+    "duration": 3.44
+  },
+  {
+    "text": "technically you could still write it",
+    "start": 1492.24,
+    "duration": 2.96
+  },
+  {
+    "text": "down it just would be a very laborious",
+    "start": 1493.52,
+    "duration": 4.159
+  },
+  {
+    "text": "equation to write down that's all right",
+    "start": 1495.2,
+    "duration": 5.359
+  },
+  {
+    "text": "now what are the parameters all the w's",
+    "start": 1497.679,
+    "duration": 5.12
+  },
+  {
+    "text": "all the b's are the parameters and those",
+    "start": 1500.559,
+    "duration": 3.281
+  },
+  {
+    "text": "are the parameters that you had",
+    "start": 1502.799,
+    "duration": 2.641
+  },
+  {
+    "text": "introduced everything else was just x",
+    "start": 1503.84,
+    "duration": 2.959
+  },
+  {
+    "text": "but these are the parameters that you",
+    "start": 1505.44,
+    "duration": 3.44
+  },
+  {
+    "text": "have introduced and now you want to",
+    "start": 1506.799,
+    "duration": 4.321
+  },
+  {
+    "text": "learn these parameters so you'll",
+    "start": 1508.88,
+    "duration": 4.399
+  },
+  {
+    "text": "use gradient descent with back",
+    "start": 1511.12,
+    "duration": 3.6
+  },
+  {
+    "text": "propagation so we'll see what back",
+    "start": 1513.279,
+    "duration": 2.721
+  },
+  {
+    "text": "propagation that is one of the main",
+    "start": 1514.72,
+    "duration": 3.52
+  },
+  {
+    "text": "topics of this lecture",
+    "start": 1516.0,
+    "duration": 3.84
+  },
+  {
+    "text": "and then what's the loss function you",
+    "start": 1518.24,
+    "duration": 4.319
+  },
+  {
+    "text": "could use uh the squared error loss",
+    "start": 1519.84,
+    "duration": 5.12
+  },
+  {
+    "text": "function right so you are predicting k",
+    "start": 1522.559,
+    "duration": 4.24
+  },
+  {
+    "text": "quantities you know what the true k",
+    "start": 1524.96,
+    "duration": 4.24
+  },
+  {
+    "text": "quantities are right so you just take",
+    "start": 1526.799,
+    "duration": 4.081
+  },
+  {
+    "text": "the squared error difference between",
+    "start": 1529.2,
+    "duration": 4.479
+  },
+  {
+    "text": "those k quantities sum it over all the n",
+    "start": 1530.88,
+    "duration": 4.96
+  },
+  {
+    "text": "training examples that you have and then",
+    "start": 1533.679,
+    "duration": 4.081
+  },
+  {
+    "text": "take the average so that's what your",
+    "start": 1535.84,
+    "duration": 3.839
+  },
+  {
+    "text": "loss function is and you want to",
+    "start": 1537.76,
+    "duration": 3.76
+  },
+  {
+    "text": "minimize this loss function that means",
+    "start": 1539.679,
+    "duration": 4.561
+  },
+  {
+    "text": "you want to learn the parameters theta",
+    "start": 1541.52,
+    "duration": 6.08
+  },
+  {
+    "text": "which is all of these such that this",
+    "start": 1544.24,
+    "duration": 5.12
+  },
+  {
+    "text": "equation or this expression gets",
+    "start": 1547.6,
+    "duration": 5.04
+  },
+  {
+    "text": "minimized or this quantity l theta gets",
+    "start": 1549.36,
+    "duration": 4.72
+  },
+  {
+    "text": "minimized right so i'm going to call",
+    "start": 1552.64,
+    "duration": 2.56
+  },
+  {
+    "text": "this as",
+    "start": 1554.08,
+    "duration": 2.8
+  },
+  {
+    "text": "l of",
+    "start": 1555.2,
+    "duration": 4.079
+  },
+  {
+    "text": "theta this quantity gets minimized so",
+    "start": 1556.88,
+    "duration": 3.679
+  },
+  {
+    "text": "you want to find theta which is a",
+    "start": 1559.279,
+    "duration": 3.201
+  },
+  {
+    "text": "collection of all these parameters such",
+    "start": 1560.559,
+    "duration": 3.681
+  },
+  {
+    "text": "that this quantity gets minimized so",
+    "start": 1562.48,
+    "duration": 4.559
+  },
+  {
+    "text": "this deep learning still fits in the",
+    "start": 1564.24,
+    "duration": 4.64
+  },
+  {
+    "text": "paradigm of machine learning that we had",
+    "start": 1567.039,
+    "duration": 4.0
+  },
+  {
+    "text": "these five components which we had data",
+    "start": 1568.88,
+    "duration": 4.56
+  },
+  {
+    "text": "model parameters algorithm objective",
+    "start": 1571.039,
+    "duration": 4.081
+  },
+  {
+    "text": "function and we'll have to come up with",
+    "start": 1573.44,
+    "duration": 3.44
+  },
+  {
+    "text": "objective functions",
+    "start": 1575.12,
+    "duration": 3.2
+  },
+  {
+    "text": "which",
+    "start": 1576.88,
+    "duration": 3.679
+  },
+  {
+    "text": "will help in guiding the training uh",
+    "start": 1578.32,
+    "duration": 4.16
+  },
+  {
+    "text": "criteria i mean guiding the training",
+    "start": 1580.559,
+    "duration": 4.561
+  },
+  {
+    "text": "right so so we'll end this module here",
+    "start": 1582.48,
+    "duration": 5.84
+  },
+  {
+    "text": "and then we'll come back and talk a bit",
+    "start": 1585.12,
+    "duration": 5.039
+  },
+  {
+    "text": "more about output functions and loss",
+    "start": 1588.32,
+    "duration": 4.839
+  },
+  {
+    "text": "functions",
+    "start": 1590.159,
+    "duration": 3.0
+  }
+]

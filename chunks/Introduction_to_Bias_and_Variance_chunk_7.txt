@@ -1,0 +1,9 @@
+clearly have more capacity here as compared to the simple model right and if I take this to the extreme.
+if I had approximated this relationship by a deep learning model extremely deep 10 layer deep model with many neurons.
+per layer then I would have had that many more parameters but I am not going there I am just.
+going to stop at this level of complexity where I have some 26 parameters and a degree 25 polynomial as.
+an approximation of the relationship right so this is what my approximation of the relationship between ah F and also.
+between X and Y is right this is what my f hat of X is okay ah ok now in.
+both cases we are making assumption right we have no idea about a true relationship again of course in this.
+case I know other two relationship is but if you had given me this problem I wouldn't know so I.
+would have just assumed something so in both cases we are making an approximation ah now ah the training data.

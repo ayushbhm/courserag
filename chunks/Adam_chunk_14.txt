@@ -1,0 +1,9 @@
+now let's look at okay now let's take the expectation on both sides that I have empty on one side.
+and I have uh the Delta WT quantity on the other side so I'm going to take expectation on both.
+sides so expectation of m t is equal to the expected value of this expression now I'll just take the.
+constants out and move the expectation inside so the expectation so 1 minus beta here will come out because it's.
+a constant then I have the expectation of a sum which is the same as the sum of an expectation.
+okay foreign and now again the beta term will come out and the expectation goes inside and now what I'm.
+going to assume is that all the WTS they come from the same distribution right because I have what does.
+that mean right so what does the distribution mean in this case so you could think of hey the gradient.
+itself could have different values right and that those values could come from some distribution right so these are your.

@@ -1,0 +1,9 @@
+as I was saying before 2006 it was hard to train networks which are four five six layers and so.
+on it they did not converge well right now let us focus on the first two layers right now what.
+I'm trying to do is I'm going to try to explain the idea of unsupervised pre-training right so now I.
+forget about training the entire network so what is my input that might be some x's that I have right.
+and this x belongs to some r n so it's an N dimensional input and I have taken the simple.
+case when I'm just trying to predict one output right so my y belongs to R right now I'm not.
+focusing on this entire and I decided that I want to use like a very complex deep neural network as.
+my function approximation that this is the relation between Y and ah X and Y right and now I am.
+focusing on this first layer where I have the input and then the first hidden layer H1 right now what.

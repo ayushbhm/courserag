@@ -1,0 +1,9 @@
+the neighborhood of w Star right so the way to write that would be W is equal W is equal.
+to W Star Plus U so there's a point w which is in the neighborhood of w star the other.
+way of saying that is that let's consider a jump such that you have W minus W Star right so.
+uh you could think of it this way this is more natural that we are looking at a point w.
+which is in the neighborhood of w star and from that equation you can derive this equation right so that's.
+that's the small jump that you have made okay now let's let's we'll now do a bit of reasoning or.
+a bit of derivation starting from there right and now let's see what the Taylor series says this is Taylor.
+series second order approximation so far in this course we have been dealing only with the first error approximation but.
+now I'm talking about second order approximation and what this says is that the loss function in this neighborhood right.

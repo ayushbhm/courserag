@@ -1,0 +1,9 @@
+just reuse that i don't need to compute the whole of it again and then i just need to compute.
+this red quantity right so that's the idea that we are going to use in back propagation that we'll have.
+these long chains and that would make the task daunting but then we'll argue that some portions of this chain.
+we have already computed and we're just going to recompute reuse them right so it's not as daunting as as.
+it seems right and now some of you could realize that if there were like multiple weights here and if.
+this part of the chain was already computed then maybe for all those weights you could reuse that computation right.
+if it's not clear at this point don't worry this all will become clear as we keep discussing the back.
+propagation algorithm but that's the intuition that i want at least on this slide whatever is there this you should.
+understand that i had this big blue part but if i had already computed that then i can just reuse.

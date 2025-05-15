@@ -1,0 +1,9 @@
+up so even if the new terms that are getting added are zero you still have the previous terms which.
+you had accumulated in the sum so your history will going to be remain large only right so that's what.
+is happening here ah and that could cause problems right and that exactly what is causing problems near the Minima.
+when your gradients are becoming small right but your history is still large and hence your effective learning rate is.
+small so now the gradients are small the effective learning rate is small and hence when you're close to the.
+Minima I'll close in these flat regions you're not able to move fast right because you are not getting rid.
+of this accumulative history that you have and we need to see if we can do something about that right.
+so let's just uh look at that is it clear what I just said okay so now by using a.
+parameter specific learning rate uh we have ensured that despite W being sparse we are still being able to move.

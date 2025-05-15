@@ -1,0 +1,10 @@
+term was showing up and if this is high low 0 and so on uh we saw what are the.
+ramifications of that right similarly now if you have a thin network but a deeper Network we still use the.
+derivative it's just that we compute the derivative using a chain rule but nothing else changes right I mean the.
+conceptually everything Remains the Same and again in this chain rule this H 0 has shown up here which is.
+again the input to the network and this is for the weight W1 but in general for any weight you.
+had some formula for the derivative we don't care what the actual formula was but all we care about is.
+there was this term h of I minus 1 uh sorry this should have been suffix it's I minus 1.
+and not like h i minus 1 right so it's just the suffix is I minus one and for w.
+one of course I minus 1 would be 0 so H 0 showed up here and at 0 was the.
+same as X the input but for any layer if I'm looking at this layer then the derivative of the.

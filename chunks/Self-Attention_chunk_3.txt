@@ -1,0 +1,10 @@
+values are sorry so I'll first do a linear transformation with WQ to get a new Vector which is I'm.
+going to call as the Q by Q Vector so this is going to be the q1 similarly I'll do.
+a linear transformation with K and I'll call it as K1 similarly I'll do a linear transformation with v and.
+I'm going to call it as VR right now how I'm going to use this q1 K1 V1 doesn't matter.
+right but at least pectorially you get to know what is happening here I had one vector I did three.
+linear transformations to get three different vectors from that I am calling them as q1 K1 V1 I'll continue the.
+same for all the uh all my words in the input all of this can be done in parallel of.
+course so I'll again take the last word for example I'll do this for all the word but I'm just.
+showing it for the last word again so I'll take uh H Phi in this case pass it through WQ.
+and I'll get my Q Phi similarly I'll get K Phi and similarly I'll get V5 right so if I.

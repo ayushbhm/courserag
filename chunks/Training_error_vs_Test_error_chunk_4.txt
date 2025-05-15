@@ -1,0 +1,9 @@
+dependent on the bias and the variance also so if you have a model which has a high bias like.
+the simple model then your expected error on the test set is going to be high if you have a.
+model which has a high variance like this High degree polynomial that you had then again your error on the.
+test set is going to be high so what you need for this quantity to be small you need the.
+bias also to be small and the variance also to be small and the intuition that we just developed is.
+that these are contradictory right you cannot have both you will either have a high bias and low variance or.
+you will have a low bias and high variance so somewhere in Middle you have to find the sweet spot.
+where you have medium bias and medium variance that would give you the minimum error that you are seeking on.
+the test data right so that's the connection between bias variance and the expected test error or the mean square.

@@ -1,0 +1,9 @@
+were stuck would be the following that I am interested in the expected value of the square error between y.
+hat and Y and that I can just approximate from the data that I have so I have seen M.
+training points for each of those training points I know what my y hat is because I can pass it.
+through my F at X and get the answer I know what the true Y is because that was given.
+to me in the training data and I can compute the difference between them Square it and take the average.
+so this would be my empirical estimate for the expectation and that's all I can do right I cannot really.
+compute the true expectation because that would mean to expectation or all possible X's that I can get and that's.
+not possible to do for all the possible X's I need to compute the Y hats also know the true.
+y but if I already knew the true y for all possible X's then there's nothing to estimate right so.

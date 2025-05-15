@@ -1,0 +1,9 @@
+history as opposed to the current update so what this is doing is as your training progresses your beta value.
+increases right and as the beta value increases you give more and more weightage to the history right and in.
+the initial phase you don't want to give lot of weightage to the history because your history is still building.
+up right in your history is as unreliable as the current update right as the training progresses you want to.
+give more value to the history right so that's the tip for adjusting the momentum so this is uh currently.
+all I have for tips for learning rate and momentum as I said I'll revisit tips for learning rate towards.
+the end of this lecture again okay so the next thing I want to do is talk about line search.
+is again a simple idea now the whole issue that we have is that if you choose one learning rate.
+and you're kind of married to it either learning rate is good then you would progress well if that learning.

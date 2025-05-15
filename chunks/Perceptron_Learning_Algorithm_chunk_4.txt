@@ -1,0 +1,9 @@
+do i'll just initialize the weights randomly right and while convergence or while not convergence till i reach convergence i'll.
+do something right now what is the meaning of convergence here so the meaning of convergence here is that if.
+i reach a point right such that my values for w are such that for all the positive points in.
+the data which is given to me my output is 1 and for all the negative points in the data.
+my output is 0 right so in other words if for all the positive points summation w i x i.
+is greater than zero and for all the negative points summation w i x is less than zero that means.
+if i have magically reached a configuration where i have learned the w is because excise i don't have a.
+control over it these are the data that have been given to me so for if all the positive points.
+this condition is satisfied and for all the negative points this condition is satisfied that means i have to been.

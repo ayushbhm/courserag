@@ -1,0 +1,10 @@
+minus 1 t minus 2 till i reach w naught right and i'll have some multiplier k here right so.
+now the question is why is this multiplier k and why is it not t t is the number of.
+steps i have taken right but at every step remember i may not have made a correction because for some.
+pis that i would have picked the right condition would have been satisfied and i wouldn't have made a correction.
+so my k the number of updates which i make is going to be less than equal to t that's.
+why i have k here and not t delta so k is a quantity which is less than equal to.
+t because every time i make an update this bracket opens up and then i replace some quantity there by.
+a delta so this bracket will open up that means this uh this in many cases this pj would not.
+have been there right i would have not changed my weight vector so this bracket will open up only that.
+many times as many times the condition was violated and the maximum number of times the condition can be violated.

@@ -1,0 +1,9 @@
+because if each of these is five and two dimensional then you concatenate you will keep going larger right and.
+typically you use eight heads so now if each of this is five and two dimensional and then you concat.
+it in them then you'll get a four zero nine six dimensional output here which is two larger because it.
+increases the size of the parameters that will go through a linear transformation and so on right so typically what.
+you do is if you want five and two dimensional size here right then you make sure that your each.
+of your eight heads gives you a 64 dimensional output so when you concatenate then you get a five and.
+two dimensional output so you start with the five and two dimensional output you adjust these Dimensions such that you.
+get a 64 dimensional output at each of these heads you have eight such heads so when you concatenate them.
+you'll again get a five and two dimensional output then you do an appropriate linear transformation you could choose this.

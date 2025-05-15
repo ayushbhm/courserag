@@ -1,0 +1,10 @@
+steps that we have done we have not made any mistake uh things are still looking meaningful in whatever we.
+have done okay ah yeah so let's just go ahead a bit now yeah so now I can write it.
+as a W tilde is q d q transpose where D is this Matrix so this is this is a.
+diagonal matrix this is also a diagonal matrix so the sum of two diagonal matrix is going to be a.
+diagonal matrix and then you are again multiplying it by a diagonal matrix so that's also going to be a.
+diagonal matrix hence I am calling it d d as the diagonal matrix so now W tilde is equal to.
+this quantity right so now I have reached somewhere that I wanted to reach and from here on I can.
+start hopefully start making some observations right so let's just work with this foreign so this is where we are.
+we had of derivation for w tilde and we have now been able to express W tilde as a function.
+of w star with these Matrix Q D and Q transpose right so what exactly is happening here right so.

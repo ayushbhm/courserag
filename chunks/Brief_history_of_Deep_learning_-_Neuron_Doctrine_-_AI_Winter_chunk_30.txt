@@ -1,0 +1,9 @@
+like you see in this case but the more neurons you add it will be better right this theorem an.
+illustrative proof of it is something that we will see but this was a real breakthrough right because now it.
+has almost the reverse effect of what we had for the proof by pepper and minsky which said that even.
+for simple functions a single neuron does not work now what this is saying is that for any arbitrary complex.
+function not even boolean functions any arbitrary function that you have no longer what the function looks like you can.
+always come up the neural network which will be able to approximate that function to any desired degree of precision.
+right and that desired degree of precision is controlled by the number of neurons that you have if you're on.
+fewer neurons my approximation would be very bad but if i keep adding neurons my approximation would become better and.
+better right so this is a real breakthrough that was there and after this of course nothing changed right but.

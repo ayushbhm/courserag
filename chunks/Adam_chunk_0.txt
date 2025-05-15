@@ -1,0 +1,8 @@
+foreign [Music] okay so we have seen three adaptive algorithms so far one the first one was at a grad.
+which had this problem of rapidly killing the learning rate which was solved by RMS prop by making using an.
+exponentially averaged history but still it is the problem of dependency on the initial learning rate so then we saw.
+add a Delta which got rid of this initial learning rate and made the effective learning rate a ratio of.
+two histories right now continuing in our algorithms on in continuing our journey towards the algorithms for with adaptive learning.
+rates we'll now look at Adam which is expands to Adaptive moments and the intuition here is that do everything.
+that RMS prop does right to solve the DK problem of ADA grad which is to use an exponentially weighted.
+history in addition use a cumulative history of the gradients as you used in a kind of a momentum based.

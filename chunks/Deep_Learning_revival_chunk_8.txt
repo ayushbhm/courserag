@@ -1,0 +1,9 @@
+early 2000s given that the algorithm used for training it existed back then right so what was stopping it from.
+becoming popular so the issue is that while this algorithm existed in theory you know that you can train a.
+deep neural network by just chaining the gradients and Computing the gradients using the chain rule in practice when you're.
+trying to train deep neural networks as deep as four or five layers it was not very successful right and.
+what I mean by successful not successful is that the networks did not converge right did not converge reliably of.
+course a lot of other things have changed now you have faster compute so earlier if you had to use.
+a certain number of flops then you would need so many days of computation now maybe you need a few.
+days of computation so that has changed but in general there were other things other more uh theoretical things because.
+of which it was hard to train deep neural network it's not just a com issue of compute right so.

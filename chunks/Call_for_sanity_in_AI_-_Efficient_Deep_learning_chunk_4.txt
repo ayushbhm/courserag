@@ -1,0 +1,9 @@
+uh that has deep learning is the current popular paradigm and delivering good results in various fields right so now.
+while there are no clear answers yet but slowly and steadily there is an increasing emphasis on explainability it's not.
+just good that you tell me your model gives me a good accuracy you also need to tell me why.
+i am getting this accuracy right so that then i have a better grasp of these kind of issues that.
+why is it seeing a speed limit fortify just because i put some stickers here and there right so these.
+these uh things are uh coming into focus and a lot of research is happening on uh the theoretical justifications.
+for why deep learning works why the uh research on explainability of these models how do you explain the performance.
+of a deep learning model and so on right and hopefully all of this will bring some sanity right so.
+here are a few advances in that direction right so there's now a workshop on human interpretability in machine learning.

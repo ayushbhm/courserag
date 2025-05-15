@@ -1,0 +1,9 @@
+one party or the other and if you make some error in that prediction like 20 of the people you.
+predict wrongly it won't make much of a difference right so it would still give you some rough idea of.
+how the election is going right and in many cases of course unless it's a very closely fought election but.
+in most cases if the error is around fighting person you can live with it right so from now on.
+we are going to live with this idea of error that error may not always go to zero and our.
+goal would be to just minimize the error as much as possible right so if i were to actually have.
+a zero error here i would need something very complex right so i would want a decision boundary uh which.
+perhaps i don't know looks something like this right and now even that is not enough uh yeah i just.
+want an island here right so it's very difficult right i mean like a very complex boundary so that all.

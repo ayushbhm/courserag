@@ -1,0 +1,8 @@
+derivative when you have a single variable function these are partial derivatives when you have a multi variable function and.
+you're just taking the derivative with one variable treating the other as constant right that's why the derivative here disappears.
+because you are taking the derivative of the b square part with w and it does not depend on W.
+so hence the derivative will be so that is the partial derivative now the question is what is the gradient.
+then the gradient is nothing but just the collection of the partial derivatives right so that gradient in this case.
+would be 2W 2B right so it's the collection of all the partial derivatives is called the gradient right and.
+in this case I have only two variables so I'll just have two partial derivatives so I'll collect them and.
+I'll get the gradient vector and the gradient Vector is a two dimensional Vector in this case right so that's.

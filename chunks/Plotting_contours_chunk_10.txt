@@ -1,0 +1,9 @@
+try to draw the contour map for that it looks quite horrible right but you could just relate it to.
+the intuition that we had right and maybe inverse functions are a bit uh perhaps I should stay away from.
+that right but this function now now if I try to draw the contour map for this function it again.
+matches the intuition that we had that in the regions where the slope is uh yeah this is what the.
+function looks like so here the slope is throughout very steep right so the distance between the Rings is smaller.
+here okay so we'll come back to the original function that we had yeah and I'll draw the Contour plot.
+here and this is what it looks like right so I think if you play around with this function you.
+will get a lot of insights into what the Contours Maps capture and the main intuition is about the slopes.
+and the distance between the Rings right so now that we understand what contour maps are right let's try to.

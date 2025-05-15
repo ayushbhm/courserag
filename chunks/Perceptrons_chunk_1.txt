@@ -1,0 +1,9 @@
+coded but it's just like you worked it out by hand and you arrive at a solution but do we.
+always have to do that is it like won't it become cumbersome in complex cases then the other more i.
+wouldn't say more important but the other slightly different point here is that when we are looking at the uh.
+mccaulick pits neuron right all the inputs were equal right and that is often not the case right when we.
+make decisions if you are making a decision based on 10 different inputs some of them would be more important.
+than the others so there's always this one like a few important things based on which you might which might.
+sway your decision one way or the other while there might be many factors on which you are basing your.
+decision and there is no notion of importance all the things like is it training am i in the mood.
+is the movie is good all of these inputs were some of given equal weights right and if you go.

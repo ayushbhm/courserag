@@ -1,0 +1,9 @@
+that but as I said it comes with an additional computational cost instead what if we'd have a simple uh.
+learning rate scheme where we alternatively vary the learning right so we start with small go to high again make.
+it small again go high again make it small just alternately slightly keep doing it so now we are not.
+looking at history or anything right we are gradually increasing it then again decreasing so if it's in a high.
+region it just has to wait out that cycle and then again the learning rate will start decreasing right if.
+it's in a low region it just has to wait out the cycle and the learning rate will increase and.
+then push it out again right this is a very simple schedule that you could use and this is one.
+such cyclic learning rate which is the Triangular schedule that you could use and this here mu which is the.
+uh period right so you could mu is 20 here so that that is the number of time steps it.

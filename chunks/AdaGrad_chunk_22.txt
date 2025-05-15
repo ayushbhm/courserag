@@ -1,0 +1,9 @@
+see this is what the learning rate curve looks like right I'm the same plot I've plotted separately so the.
+red curve I plotted in a new plot so that I can have more range on the y-axis so the.
+y-axis tells you the learning rate and the x axis is the number of iterations as the number of iterations.
+keeps increasing the learning rate keeps decreasing exponentially right so here it's continuously decreasing okay and here for example in.
+the first step the learning rate was 0.72 because I had initialized ETA to 0.1 and then the denominator turned.
+out to be 0.01 because V 0 turned out to be uh something which led to this point zero one.
+nine and then my learning rate initially was 0.72 but as I kept going down it decreased exponentially right so.
+the main thing here to show is that my I had kept my learning rate initially learning rate is 0.1.
+but it became 0.72 right because initially my history was not large and hence the learning rate increased and then.

@@ -1,0 +1,10 @@
+can see that you cannot satisfy these four inequalities right there is one quantity which is greater than minus w.
+naught another quantity which is greater than minus w two naught and i have added these two quantities and i.
+want it to be less than w naught that cannot happen right so if i just add the two eq.
+inequalities i will get w one plus w two is greater than equal to minus w naught right so i.
+cannot simultaneously satisfy all these four inequalities right so that means i cannot find a set of w i's such.
+that all my positive points will be on one side and my negative points will be on the other side.
+that means this is not a linearly separable function right okay and we can see this from the diagram right.
+so here is these four points right so you have this two negative points sitting at 0 1 and 1.
+0 and 2 positive points sitting at 0 0 and 1 1 right and now you can go home and.
+practice this you can try to adjust these weights w1 w2 as much as you want right but you will.

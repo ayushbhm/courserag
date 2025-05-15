@@ -1,0 +1,8 @@
+foreign [Music] descent momentum based gradient nestro vaccinated gradient descent and I know you are waiting for more algorithms Adam.
+madagrad and so on but in between I took a slight D2 which is I went to the stochastic and.
+minimatch gradient descent mini batch versions of these algorithms and we understood how they operate and before I go to.
+these Advanced algorithms in today's lecture I want to do two more modules one is on adjusting the learning rate.
+and momentum some tips for doing that and this I'll return back to this at the end of all the.
+optimization algorithms once I finish all the optimized algorithms I'll revisit this part and the second module that I want.
+to cover is on something known as line search right so both these are the two things that I've covered.
+today and we'll end this lecture there and then in the next week I'll talk about some of the other.

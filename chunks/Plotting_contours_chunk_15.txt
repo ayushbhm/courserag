@@ -1,0 +1,10 @@
+function will change right and now I have entered the value I'm close to convergence and slowly slowly moving so.
+that these two points become completely on the sigmoid curve they are not completely on the curve yet slightly off.
+but it will slowly move towards that conversion okay so now we know how to see a 3D plot and.
+imagine what its contour map would look like or the other way around that look at a contour map and.
+understand what the 3D plot could have looked like right because we know that these were the regions of gentle.
+slope the and the lost levels are marked I have not marked the actual levels but I've just color coded.
+them so wherever you see dark red you know it's bad and whenever you see dark blue you know it's.
+good okay fine so we'll end this module here so we know about Contours now and now we'll uh try.
+to go back to our discussion on gradient descent and see whether we can fix the problem that we had.
+discussed okay.

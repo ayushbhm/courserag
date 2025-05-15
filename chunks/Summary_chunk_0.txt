@@ -1,0 +1,9 @@
+foreign [Music] so one thing that people have shown right is and particular this paper which uses skip connections as.
+a regularizer and I'll talk about that in a bit that the effect of regularization is to smoothen the Lost.
+landscape right so typical uh and you can go on to this website right which allows you to explore typical.
+lost Landscapes that you encounter in neural networks and you can see that this is very bumpy right it's not.
+nowhere closer to the very nice loss functions that we have been dealing with which have like a single plateau.
+and then a valley and so on it there are like multiple plateaus rallies here and there are some very.
+sharp slopes here right and what happens is that if you have flat surfaces right and let me show you.
+a plot it will become clear right so if you have a flat surface you will get better regularization why.
+why is that the case because if you have a flat surface then for a large range you have the.

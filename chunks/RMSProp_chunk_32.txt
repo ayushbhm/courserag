@@ -1,0 +1,9 @@
+rate because I'm in a steep region and that I would have obtained if my initial learning rate was 0.1.
+right but now suppose I am in a uh not in a steep region okay I am in a flat.
+region and say now because I'm in a flat region my history is accumulating slowly so my VT is 0.1.
+and now if I compute the effective learning rate with 0.6 then it's high but with 0.1 it's going to.
+be low right and now in this case I might prefer uh this as the learning rate because I'm in.
+a flat region so I want the learning rate to be high which means I am preferring a different initial.
+learning rate right so across along the same loss surface your preference for which would have been a good value.
+of ETA naught that decision might change right so this is yet again uh kind of making a case that.
+you don't want the sensitivity towards eat or not right because you really want it to adapt and not get.

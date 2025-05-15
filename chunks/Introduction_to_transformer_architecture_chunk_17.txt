@@ -1,0 +1,9 @@
+like one-to-one correspondences in the translation output right so that's what the heat map shows you yeah so this is.
+how the heat map relates to what is happening in the sentence as I said that when I'm using none.
+uh the maximum attention is on I and the color coded you can understand the colors here so this blue.
+color I'm focusing here and this is the corresponding weight and so on right and you have some attention function.
+and then we had seen this function so used to compute the attention weight right as some function of the.
+previous state of the decoder and the any input vectors that you had so this was the attention to be.
+paid to input I at time step T which depended on the state of the decoder at time step T.
+minus 1. and input I right and then this had this soft Max function to make sure that this uh.
+align this Alphas form the distribution rate so they summed up to one right so that's what we have seen.

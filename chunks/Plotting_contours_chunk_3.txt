@@ -1,0 +1,10 @@
+I were to look at it from the top this is what it would look like right and this is.
+exactly what the contour map looks like which is drawn on the right hand side right so contour map is.
+like the top view of a 3D plot such that you take slices at regular intervals and then imagine what.
+the slices would look from the top and that's what you draw here right so at any level here right.
+so any of these circles or any of the Rings that you see here they're not all perfect circles but.
+I can call them Rings any of the Rings that you see on this side note that for across that.
+ring the value of the z-axis is the same right because that's how I've taken I have taken a slice.
+which is parallel to the X Y axis so it's at a particular level on the Z axis so this.
+ring for example corresponds to the level one right so this link here is level one ring this ring here.
+is level 0.8 ring point six point four point two and so on right so that's how uh this has.

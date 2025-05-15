@@ -1,0 +1,10 @@
+uh uh my value is 0.5 right so this uh yeah so this value is 0.5 and this term is.
+going to disappear right so I'll get 1 minus beta uh into 0.5 that's what my Mt is going to.
+be okay the pen is not working well that's what my Mt is going to be and my M hat.
+T which is the bias corrected guy is going to be Mt divided by 1 minus beta raised to 1.
+in this case and so now these two betas will cancel and I get 0.5 and hence my approximation is.
+close to the True Value and now it stays like that right because it does not have this weight of.
+0 pulling it down at earlier it it started off at zero then it got stuck there and it took.
+a while to get the shape of the function but now it has started from the right point and it's.
+now closer to the uh function right so that's that's what happens in the case of uh exponentially moving average.
+and that's why we use this bias correction in the case of atom okay uh as we are done with.

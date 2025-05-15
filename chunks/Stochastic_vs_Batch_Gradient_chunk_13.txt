@@ -1,0 +1,10 @@
+then moving uh in that direction right or the opposite to that the direction of the gradient but here that.
+is not what I am doing and I'm asking every point this point say hey go here go here go.
+here go here and so on that's why I'm oscillating uh that's why you see the oscillations right uh and.
+as I mean as the case and a parameter which is a favorable for one point may not be a.
+favorable for the next points that's why this point moved you here and then the next Point said no no.
+no come back here then again go back here go back here and so on and that's why you keep.
+oscillating like that right now can we reduce the oscillations by improving our stochastic estimates right so currently our estimate.
+is taken from one point right we have taken n equal to one now instead of one if I take.
+10 if I take 20 then would these oscillations reduce right what this uh I would would I please take.
+closer to the green curve right I know in the limit if I take n equal to all the points.

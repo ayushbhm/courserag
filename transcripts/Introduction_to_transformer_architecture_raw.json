@@ -1,0 +1,2692 @@
+[
+  {
+    "text": "foreign",
+    "start": 0.299,
+    "duration": 3.0
+  },
+  {
+    "text": "[Music]",
+    "start": 6.6,
+    "duration": 15.74
+  },
+  {
+    "text": "ERS so we'll do",
+    "start": 27.199,
+    "duration": 5.441
+  },
+  {
+    "text": "an introduction to Transformers and",
+    "start": 30.14,
+    "duration": 5.14
+  },
+  {
+    "text": "compare them largely with the recurrent",
+    "start": 32.64,
+    "duration": 4.82
+  },
+  {
+    "text": "neural networks which was the previous",
+    "start": 35.28,
+    "duration": 5.58
+  },
+  {
+    "text": "dominant set of models in various",
+    "start": 37.46,
+    "duration": 5.68
+  },
+  {
+    "text": "applications in NLP as well as a few",
+    "start": 40.86,
+    "duration": 4.14
+  },
+  {
+    "text": "Vision applications like image",
+    "start": 43.14,
+    "duration": 4.32
+  },
+  {
+    "text": "captioning and so on right and now a lot",
+    "start": 45.0,
+    "duration": 3.78
+  },
+  {
+    "text": "of them have been replaced by",
+    "start": 47.46,
+    "duration": 3.36
+  },
+  {
+    "text": "Transformers so that's what we're going",
+    "start": 48.78,
+    "duration": 4.32
+  },
+  {
+    "text": "to talk about today",
+    "start": 50.82,
+    "duration": 5.64
+  },
+  {
+    "text": "so to uh motivated what what is the",
+    "start": 53.1,
+    "duration": 4.92
+  },
+  {
+    "text": "content today going to look like right",
+    "start": 56.46,
+    "duration": 3.0
+  },
+  {
+    "text": "so we have seen three types of",
+    "start": 58.02,
+    "duration": 3.359
+  },
+  {
+    "text": "architectures in this course one was the",
+    "start": 59.46,
+    "duration": 4.02
+  },
+  {
+    "text": "feed forward neural networks then the",
+    "start": 61.379,
+    "duration": 3.6
+  },
+  {
+    "text": "convolutional neural networks and then",
+    "start": 63.48,
+    "duration": 3.72
+  },
+  {
+    "text": "recurrent neural networks right and in",
+    "start": 64.979,
+    "duration": 3.96
+  },
+  {
+    "text": "each of this we saw the building block",
+    "start": 67.2,
+    "duration": 4.08
+  },
+  {
+    "text": "and then once we knew understood the",
+    "start": 68.939,
+    "duration": 4.141
+  },
+  {
+    "text": "building block properly we could",
+    "start": 71.28,
+    "duration": 4.44
+  },
+  {
+    "text": "Envision deep wide networks right so in",
+    "start": 73.08,
+    "duration": 4.44
+  },
+  {
+    "text": "the case of feed forward neural networks",
+    "start": 75.72,
+    "duration": 4.079
+  },
+  {
+    "text": "the building block was essentially this",
+    "start": 77.52,
+    "duration": 5.4
+  },
+  {
+    "text": "sigmoid neuron right or any non-linear",
+    "start": 79.799,
+    "duration": 5.341
+  },
+  {
+    "text": "neuron which used to take",
+    "start": 82.92,
+    "duration": 4.28
+  },
+  {
+    "text": "um",
+    "start": 85.14,
+    "duration": 2.06
+  },
+  {
+    "text": "a bunch of inputs",
+    "start": 87.84,
+    "duration": 5.4
+  },
+  {
+    "text": "do a weighted aggregation and then pass",
+    "start": 89.939,
+    "duration": 5.161
+  },
+  {
+    "text": "it through a non-linearity right so that",
+    "start": 93.24,
+    "duration": 4.08
+  },
+  {
+    "text": "was the basic building block and then we",
+    "start": 95.1,
+    "duration": 4.44
+  },
+  {
+    "text": "had many of these connected in a layer",
+    "start": 97.32,
+    "duration": 3.9
+  },
+  {
+    "text": "and across layers to get a deep and wide",
+    "start": 99.54,
+    "duration": 3.48
+  },
+  {
+    "text": "neural network okay similarly in the",
+    "start": 101.22,
+    "duration": 3.42
+  },
+  {
+    "text": "case of convolutional neural networks",
+    "start": 103.02,
+    "duration": 3.059
+  },
+  {
+    "text": "the basic building block was the",
+    "start": 104.64,
+    "duration": 3.18
+  },
+  {
+    "text": "convolution operation and maybe even the",
+    "start": 106.079,
+    "duration": 3.18
+  },
+  {
+    "text": "max pooling operation",
+    "start": 107.82,
+    "duration": 3.0
+  },
+  {
+    "text": "then the case of recurrent neural",
+    "start": 109.259,
+    "duration": 3.54
+  },
+  {
+    "text": "networks the basic building block was",
+    "start": 110.82,
+    "duration": 5.159
+  },
+  {
+    "text": "this recurrent equation where you could",
+    "start": 112.799,
+    "duration": 5.82
+  },
+  {
+    "text": "compute HT which was a state at time t",
+    "start": 115.979,
+    "duration": 7.561
+  },
+  {
+    "text": "as a function of HT minus 1.",
+    "start": 118.619,
+    "duration": 7.801
+  },
+  {
+    "text": "and the input at that time step right so",
+    "start": 123.54,
+    "duration": 5.219
+  },
+  {
+    "text": "this is what the basic building block",
+    "start": 126.42,
+    "duration": 5.459
+  },
+  {
+    "text": "was and then we saw the attention-based",
+    "start": 128.759,
+    "duration": 5.281
+  },
+  {
+    "text": "recurrent neural network where we had",
+    "start": 131.879,
+    "duration": 5.281
+  },
+  {
+    "text": "the attention function which was like a",
+    "start": 134.04,
+    "duration": 4.44
+  },
+  {
+    "text": "basic building block which I'm calling",
+    "start": 137.16,
+    "duration": 2.76
+  },
+  {
+    "text": "these basic building blocks because if",
+    "start": 138.48,
+    "duration": 3.72
+  },
+  {
+    "text": "you understand these then it's not very",
+    "start": 139.92,
+    "duration": 3.959
+  },
+  {
+    "text": "difficult to understand the full Network",
+    "start": 142.2,
+    "duration": 4.56
+  },
+  {
+    "text": "right so similarly today we'll focus on",
+    "start": 143.879,
+    "duration": 4.201
+  },
+  {
+    "text": "the basic building blocks of",
+    "start": 146.76,
+    "duration": 3.24
+  },
+  {
+    "text": "Transformers which is lastly the",
+    "start": 148.08,
+    "duration": 4.2
+  },
+  {
+    "text": "attention uh the self attention and the",
+    "start": 150.0,
+    "duration": 5.34
+  },
+  {
+    "text": "cross attention uh layers that it uses",
+    "start": 152.28,
+    "duration": 5.58
+  },
+  {
+    "text": "and then try to relate it to what we",
+    "start": 155.34,
+    "duration": 4.259
+  },
+  {
+    "text": "have already seen in attention-based",
+    "start": 157.86,
+    "duration": 3.599
+  },
+  {
+    "text": "models in the context of recurrent",
+    "start": 159.599,
+    "duration": 4.021
+  },
+  {
+    "text": "neural networks right so that's the idea",
+    "start": 161.459,
+    "duration": 5.581
+  },
+  {
+    "text": "so with that let's zoom into uh",
+    "start": 163.62,
+    "duration": 5.699
+  },
+  {
+    "text": "the RNN based models and just see some",
+    "start": 167.04,
+    "duration": 5.46
+  },
+  {
+    "text": "limitations of it right so one challenge",
+    "start": 169.319,
+    "duration": 6.301
+  },
+  {
+    "text": "in RNN based models was that if I'm",
+    "start": 172.5,
+    "duration": 5.28
+  },
+  {
+    "text": "looking at the use case of translation",
+    "start": 175.62,
+    "duration": 6.3
+  },
+  {
+    "text": "right then my input is I am",
+    "start": 177.78,
+    "duration": 6.06
+  },
+  {
+    "text": "going",
+    "start": 181.92,
+    "duration": 3.179
+  },
+  {
+    "text": "home",
+    "start": 183.84,
+    "duration": 3.66
+  },
+  {
+    "text": "and I want to produce its translation in",
+    "start": 185.099,
+    "duration": 5.581
+  },
+  {
+    "text": "the target language right now the input",
+    "start": 187.5,
+    "duration": 5.76
+  },
+  {
+    "text": "is given to me at one go right the input",
+    "start": 190.68,
+    "duration": 4.74
+  },
+  {
+    "text": "is not like coming to me one word at a",
+    "start": 193.26,
+    "duration": 3.479
+  },
+  {
+    "text": "time where I just tell the machine hey",
+    "start": 195.42,
+    "duration": 2.52
+  },
+  {
+    "text": "this is the sentence that I want to",
+    "start": 196.739,
+    "duration": 4.08
+  },
+  {
+    "text": "translate right but the computation is",
+    "start": 197.94,
+    "duration": 4.92
+  },
+  {
+    "text": "not happening at one go right so let's",
+    "start": 200.819,
+    "duration": 4.081
+  },
+  {
+    "text": "see what I mean by that right so what",
+    "start": 202.86,
+    "duration": 6.799
+  },
+  {
+    "text": "happens here is that you get the uh",
+    "start": 204.9,
+    "duration": 4.759
+  },
+  {
+    "text": "you have the initialization Vector right",
+    "start": 210.06,
+    "duration": 5.22
+  },
+  {
+    "text": "and then you have this word I and then",
+    "start": 212.159,
+    "duration": 4.8
+  },
+  {
+    "text": "you pass it through the nuclear neural",
+    "start": 215.28,
+    "duration": 3.66
+  },
+  {
+    "text": "network so what you have here is say the",
+    "start": 216.959,
+    "duration": 3.901
+  },
+  {
+    "text": "embedding of the word I right so let's",
+    "start": 218.94,
+    "duration": 4.26
+  },
+  {
+    "text": "call this as X1 so this is the first",
+    "start": 220.86,
+    "duration": 4.26
+  },
+  {
+    "text": "words you have the embedding of that and",
+    "start": 223.2,
+    "duration": 4.679
+  },
+  {
+    "text": "then what the output is H1 right or what",
+    "start": 225.12,
+    "duration": 6.119
+  },
+  {
+    "text": "you're Computing here is H1 which is a",
+    "start": 227.879,
+    "duration": 5.42
+  },
+  {
+    "text": "function of",
+    "start": 231.239,
+    "duration": 6.0
+  },
+  {
+    "text": "h0 and x 1 right",
+    "start": 233.299,
+    "duration": 6.461
+  },
+  {
+    "text": "and now once I have done that this H1",
+    "start": 237.239,
+    "duration": 4.56
+  },
+  {
+    "text": "then becomes an input to the next",
+    "start": 239.76,
+    "duration": 5.399
+  },
+  {
+    "text": "computation because H2 will be computed",
+    "start": 241.799,
+    "duration": 6.601
+  },
+  {
+    "text": "as H1 comma x 2 right so let's see this",
+    "start": 245.159,
+    "duration": 6.66
+  },
+  {
+    "text": "in the figure now so I have which one I",
+    "start": 248.4,
+    "duration": 7.259
+  },
+  {
+    "text": "compute H1 then I get the next input",
+    "start": 251.819,
+    "duration": 5.581
+  },
+  {
+    "text": "which is enjoyed right it has some",
+    "start": 255.659,
+    "duration": 3.42
+  },
+  {
+    "text": "another sentence so I think it's I",
+    "start": 257.4,
+    "duration": 4.14
+  },
+  {
+    "text": "enjoyed the movie Transformers so I got",
+    "start": 259.079,
+    "duration": 6.301
+  },
+  {
+    "text": "H1 and now I use that and H1 right so",
+    "start": 261.54,
+    "duration": 5.159
+  },
+  {
+    "text": "essentially I'm using this function",
+    "start": 265.38,
+    "duration": 5.099
+  },
+  {
+    "text": "which is H1 comma X2 to compute this",
+    "start": 266.699,
+    "duration": 5.28
+  },
+  {
+    "text": "hidden representation or this yellow",
+    "start": 270.479,
+    "duration": 3.541
+  },
+  {
+    "text": "representation that you see here right",
+    "start": 271.979,
+    "duration": 3.901
+  },
+  {
+    "text": "so what is happening here is that my",
+    "start": 274.02,
+    "duration": 4.16
+  },
+  {
+    "text": "computations are happening sequentially",
+    "start": 275.88,
+    "duration": 5.28
+  },
+  {
+    "text": "although my input was given to me at one",
+    "start": 278.18,
+    "duration": 5.26
+  },
+  {
+    "text": "go I had the entire sentence at one go",
+    "start": 281.16,
+    "duration": 4.38
+  },
+  {
+    "text": "and now let's just get rid of some of",
+    "start": 283.44,
+    "duration": 3.9
+  },
+  {
+    "text": "these annotations and just see the whole",
+    "start": 285.54,
+    "duration": 3.48
+  },
+  {
+    "text": "thing right so I had the entire sentence",
+    "start": 287.34,
+    "duration": 4.079
+  },
+  {
+    "text": "I am still Computing it one step at a",
+    "start": 289.02,
+    "duration": 4.8
+  },
+  {
+    "text": "time and I'll compute it at Z H1 then H2",
+    "start": 291.419,
+    "duration": 5.22
+  },
+  {
+    "text": "then I am Computing H3 then H4 and so on",
+    "start": 293.82,
+    "duration": 5.58
+  },
+  {
+    "text": "right so I'm just doing all of this one",
+    "start": 296.639,
+    "duration": 5.401
+  },
+  {
+    "text": "step at a time although this entire",
+    "start": 299.4,
+    "duration": 5.4
+  },
+  {
+    "text": "sentence was available to me right at",
+    "start": 302.04,
+    "duration": 4.98
+  },
+  {
+    "text": "the beginning right so now the question",
+    "start": 304.8,
+    "duration": 4.619
+  },
+  {
+    "text": "is what's the benefit of what is",
+    "start": 307.02,
+    "duration": 3.899
+  },
+  {
+    "text": "happening here right so why am I",
+    "start": 309.419,
+    "duration": 4.441
+  },
+  {
+    "text": "Computing H2 only after I have looked at",
+    "start": 310.919,
+    "duration": 5.401
+  },
+  {
+    "text": "H1 right so the reason for that is that",
+    "start": 313.86,
+    "duration": 5.52
+  },
+  {
+    "text": "I know that for every word I already",
+    "start": 316.32,
+    "duration": 4.5
+  },
+  {
+    "text": "have the word embedding right so that's",
+    "start": 319.38,
+    "duration": 3.06
+  },
+  {
+    "text": "what my input is and this word embedding",
+    "start": 320.82,
+    "duration": 3.599
+  },
+  {
+    "text": "could be computed from your favorite",
+    "start": 322.44,
+    "duration": 4.56
+  },
+  {
+    "text": "algorithm like what to make or fast X or",
+    "start": 324.419,
+    "duration": 4.681
+  },
+  {
+    "text": "glove embedding or it could just be",
+    "start": 327.0,
+    "duration": 3.66
+  },
+  {
+    "text": "randomly initialized it could just be a",
+    "start": 329.1,
+    "duration": 3.86
+  },
+  {
+    "text": "learnable parameter in the network right",
+    "start": 330.66,
+    "duration": 5.759
+  },
+  {
+    "text": "but that is the word that is the",
+    "start": 332.96,
+    "duration": 5.38
+  },
+  {
+    "text": "embedding of the word computed from a",
+    "start": 336.419,
+    "duration": 2.821
+  },
+  {
+    "text": "corpus",
+    "start": 338.34,
+    "duration": 3.48
+  },
+  {
+    "text": "but I want to know the embedding of this",
+    "start": 339.24,
+    "duration": 4.679
+  },
+  {
+    "text": "word in the context of the center so",
+    "start": 341.82,
+    "duration": 3.48
+  },
+  {
+    "text": "that's what these Yellow Boxes are",
+    "start": 343.919,
+    "duration": 3.301
+  },
+  {
+    "text": "allowing me to compute because they are",
+    "start": 345.3,
+    "duration": 3.54
+  },
+  {
+    "text": "taking input from the rest of the",
+    "start": 347.22,
+    "duration": 3.9
+  },
+  {
+    "text": "sentence right now you might ask hey I'm",
+    "start": 348.84,
+    "duration": 4.079
+  },
+  {
+    "text": "only taking input from one side right I",
+    "start": 351.12,
+    "duration": 3.419
+  },
+  {
+    "text": "am not really considering Transformers",
+    "start": 352.919,
+    "duration": 4.441
+  },
+  {
+    "text": "when I am Computing the yellow box for",
+    "start": 354.539,
+    "duration": 5.761
+  },
+  {
+    "text": "uh movie right but there are also known",
+    "start": 357.36,
+    "duration": 4.26
+  },
+  {
+    "text": "as something known as bi-directional",
+    "start": 360.3,
+    "duration": 3.839
+  },
+  {
+    "text": "rnns or bidirectional lstms where you",
+    "start": 361.62,
+    "duration": 4.62
+  },
+  {
+    "text": "start from right to left right so this",
+    "start": 364.139,
+    "duration": 4.56
+  },
+  {
+    "text": "is how the computation proceeds for all",
+    "start": 366.24,
+    "duration": 4.5
+  },
+  {
+    "text": "practical purposes you could think of I",
+    "start": 368.699,
+    "duration": 3.661
+  },
+  {
+    "text": "have one sentence I enjoyed the movie",
+    "start": 370.74,
+    "duration": 3.66
+  },
+  {
+    "text": "Transformers so I computed these Yellow",
+    "start": 372.36,
+    "duration": 5.339
+  },
+  {
+    "text": "Boxes the way RNN does it then I reverse",
+    "start": 374.4,
+    "duration": 5.22
+  },
+  {
+    "text": "the sentence so I feed in Transformers",
+    "start": 377.699,
+    "duration": 5.101
+  },
+  {
+    "text": "movie is the Android I and I again do",
+    "start": 379.62,
+    "duration": 4.859
+  },
+  {
+    "text": "the computation and then again compute",
+    "start": 382.8,
+    "duration": 5.04
+  },
+  {
+    "text": "some other say green boxes right and now",
+    "start": 384.479,
+    "duration": 5.761
+  },
+  {
+    "text": "I have two representations for every",
+    "start": 387.84,
+    "duration": 4.199
+  },
+  {
+    "text": "word same movie I have one",
+    "start": 390.24,
+    "duration": 3.42
+  },
+  {
+    "text": "representation computed from the forward",
+    "start": 392.039,
+    "duration": 3.481
+  },
+  {
+    "text": "Direction and another representation",
+    "start": 393.66,
+    "duration": 3.84
+  },
+  {
+    "text": "computed from the backward Direction and",
+    "start": 395.52,
+    "duration": 3.66
+  },
+  {
+    "text": "I could just simply concatenate the",
+    "start": 397.5,
+    "duration": 3.36
+  },
+  {
+    "text": "those two representations to get the",
+    "start": 399.18,
+    "duration": 3.12
+  },
+  {
+    "text": "final representation of the word movie",
+    "start": 400.86,
+    "duration": 4.08
+  },
+  {
+    "text": "right and the reason I'm doing this or",
+    "start": 402.3,
+    "duration": 5.1
+  },
+  {
+    "text": "reason I am Computing this one step at a",
+    "start": 404.94,
+    "duration": 4.86
+  },
+  {
+    "text": "time is because I am interested in the",
+    "start": 407.4,
+    "duration": 4.5
+  },
+  {
+    "text": "context of the sentence right I want a",
+    "start": 409.8,
+    "duration": 3.839
+  },
+  {
+    "text": "contextual representation for the word",
+    "start": 411.9,
+    "duration": 3.9
+  },
+  {
+    "text": "movie so that's why I was doing this one",
+    "start": 413.639,
+    "duration": 3.9
+  },
+  {
+    "text": "step at a time to get the contextual",
+    "start": 415.8,
+    "duration": 4.14
+  },
+  {
+    "text": "representations for every word in the",
+    "start": 417.539,
+    "duration": 4.021
+  },
+  {
+    "text": "input right so which is also aware about",
+    "start": 419.94,
+    "duration": 3.84
+  },
+  {
+    "text": "what is happening in the words around it",
+    "start": 421.56,
+    "duration": 4.32
+  },
+  {
+    "text": "so this is important it's a contextual",
+    "start": 423.78,
+    "duration": 4.5
+  },
+  {
+    "text": "representation is important what is not",
+    "start": 425.88,
+    "duration": 4.259
+  },
+  {
+    "text": "good is in the interest of doing this",
+    "start": 428.28,
+    "duration": 4.259
+  },
+  {
+    "text": "contextual computation I'm not being",
+    "start": 430.139,
+    "duration": 4.381
+  },
+  {
+    "text": "able to do a parallel processing I have",
+    "start": 432.539,
+    "duration": 4.141
+  },
+  {
+    "text": "to wait every time one word at a time",
+    "start": 434.52,
+    "duration": 5.76
+  },
+  {
+    "text": "which is significantly which reduces my",
+    "start": 436.68,
+    "duration": 5.1
+  },
+  {
+    "text": "computational efficiency right because I",
+    "start": 440.28,
+    "duration": 3.6
+  },
+  {
+    "text": "am just doing things sequentially right",
+    "start": 441.78,
+    "duration": 4.8
+  },
+  {
+    "text": "so now my wish list would be to be able",
+    "start": 443.88,
+    "duration": 4.62
+  },
+  {
+    "text": "to do this to get the contextual",
+    "start": 446.58,
+    "duration": 3.119
+  },
+  {
+    "text": "representation that means when I'm",
+    "start": 448.5,
+    "duration": 3.539
+  },
+  {
+    "text": "Computing the yellow box for the word",
+    "start": 449.699,
+    "duration": 4.381
+  },
+  {
+    "text": "movie I want to know what is happening",
+    "start": 452.039,
+    "duration": 3.78
+  },
+  {
+    "text": "around me I want to take inputs from the",
+    "start": 454.08,
+    "duration": 3.72
+  },
+  {
+    "text": "other words and right now these inputs",
+    "start": 455.819,
+    "duration": 3.061
+  },
+  {
+    "text": "are flowing through these hidden",
+    "start": 457.8,
+    "duration": 3.959
+  },
+  {
+    "text": "represent additions at 0 H1 h2h3 so I",
+    "start": 458.88,
+    "duration": 4.68
+  },
+  {
+    "text": "want that to continue right and of",
+    "start": 461.759,
+    "duration": 3.121
+  },
+  {
+    "text": "course I'm going bi-directional so it's",
+    "start": 463.56,
+    "duration": 3.18
+  },
+  {
+    "text": "flowing from both sides so I want that",
+    "start": 464.88,
+    "duration": 3.42
+  },
+  {
+    "text": "to happen I want to take the inputs from",
+    "start": 466.74,
+    "duration": 3.42
+  },
+  {
+    "text": "all the surrounding words but I don't",
+    "start": 468.3,
+    "duration": 3.6
+  },
+  {
+    "text": "want to do this in a sequential manner I",
+    "start": 470.16,
+    "duration": 3.84
+  },
+  {
+    "text": "want a model which is not recurrent in",
+    "start": 471.9,
+    "duration": 3.96
+  },
+  {
+    "text": "nature because the idea behind a",
+    "start": 474.0,
+    "duration": 4.02
+  },
+  {
+    "text": "recurrent equation is that you do",
+    "start": 475.86,
+    "duration": 3.779
+  },
+  {
+    "text": "something at time step T minus 1 and",
+    "start": 478.02,
+    "duration": 3.42
+  },
+  {
+    "text": "then feed it as input to time step T so",
+    "start": 479.639,
+    "duration": 3.18
+  },
+  {
+    "text": "I don't want that to happen right so",
+    "start": 481.44,
+    "duration": 4.56
+  },
+  {
+    "text": "that's the basic problem I have with the",
+    "start": 482.819,
+    "duration": 5.1
+  },
+  {
+    "text": "sequencer sequence a models which I",
+    "start": 486.0,
+    "duration": 3.24
+  },
+  {
+    "text": "would like to overcome right and problem",
+    "start": 487.919,
+    "duration": 3.12
+  },
+  {
+    "text": "as well as a good thing a good thing is",
+    "start": 489.24,
+    "duration": 3.06
+  },
+  {
+    "text": "that I want contextual representations",
+    "start": 491.039,
+    "duration": 2.88
+  },
+  {
+    "text": "the bad thing is I don't want to do",
+    "start": 492.3,
+    "duration": 4.26
+  },
+  {
+    "text": "parallel sequential process right and",
+    "start": 493.919,
+    "duration": 3.961
+  },
+  {
+    "text": "once this is done then you have the",
+    "start": 496.56,
+    "duration": 4.079
+  },
+  {
+    "text": "entire Encore decoder block right which",
+    "start": 497.88,
+    "duration": 4.98
+  },
+  {
+    "text": "then takes in the final representation",
+    "start": 500.639,
+    "duration": 4.981
+  },
+  {
+    "text": "so ignore this for some reason this s2s1",
+    "start": 502.86,
+    "duration": 4.26
+  },
+  {
+    "text": "is showing up on the slide it's not",
+    "start": 505.62,
+    "duration": 5.1
+  },
+  {
+    "text": "supposed to but it continues to show up",
+    "start": 507.12,
+    "duration": 7.14
+  },
+  {
+    "text": "oh no yeah so this is the final State",
+    "start": 510.72,
+    "duration": 5.4
+  },
+  {
+    "text": "and then it's passed to the decoder and",
+    "start": 514.26,
+    "duration": 3.3
+  },
+  {
+    "text": "then the decoder again does this",
+    "start": 516.12,
+    "duration": 3.539
+  },
+  {
+    "text": "sequential processing right and then of",
+    "start": 517.56,
+    "duration": 3.479
+  },
+  {
+    "text": "course I don't have much of a choice",
+    "start": 519.659,
+    "duration": 4.021
+  },
+  {
+    "text": "because I produce the first output which",
+    "start": 521.039,
+    "duration": 5.521
+  },
+  {
+    "text": "say in this case is none and then that",
+    "start": 523.68,
+    "duration": 4.8
+  },
+  {
+    "text": "has to be fed to the next state anyways",
+    "start": 526.56,
+    "duration": 4.56
+  },
+  {
+    "text": "right so the decoder uh this processing",
+    "start": 528.48,
+    "duration": 5.1
+  },
+  {
+    "text": "will still happen sequentially because I",
+    "start": 531.12,
+    "duration": 3.899
+  },
+  {
+    "text": "need to know what was produced and then",
+    "start": 533.58,
+    "duration": 3.84
+  },
+  {
+    "text": "feed it as the next input so unlike here",
+    "start": 535.019,
+    "duration": 4.32
+  },
+  {
+    "text": "where the entire input was available at",
+    "start": 537.42,
+    "duration": 4.26
+  },
+  {
+    "text": "one go here the input itself right is",
+    "start": 539.339,
+    "duration": 4.56
+  },
+  {
+    "text": "being generated one step at a time so",
+    "start": 541.68,
+    "duration": 4.32
+  },
+  {
+    "text": "I'll have to do a sequential processing",
+    "start": 543.899,
+    "duration": 3.661
+  },
+  {
+    "text": "right but then the encoder can I do",
+    "start": 546.0,
+    "duration": 3.72
+  },
+  {
+    "text": "something to speed up the computation is",
+    "start": 547.56,
+    "duration": 5.04
+  },
+  {
+    "text": "what my uh question is right so we'll go",
+    "start": 549.72,
+    "duration": 5.94
+  },
+  {
+    "text": "towards answering that question okay so",
+    "start": 552.6,
+    "duration": 4.62
+  },
+  {
+    "text": "this is for the decoder where I'm doing",
+    "start": 555.66,
+    "duration": 3.66
+  },
+  {
+    "text": "one word at a time",
+    "start": 557.22,
+    "duration": 4.44
+  },
+  {
+    "text": "but in the traditional encoder decoder",
+    "start": 559.32,
+    "duration": 4.86
+  },
+  {
+    "text": "model the problem is that I just do this",
+    "start": 561.66,
+    "duration": 5.52
+  },
+  {
+    "text": "computation once I have computed this H1",
+    "start": 564.18,
+    "duration": 5.94
+  },
+  {
+    "text": "to H5 and then I take H5 as the like my",
+    "start": 567.18,
+    "duration": 4.56
+  },
+  {
+    "text": "final representation for the entire",
+    "start": 570.12,
+    "duration": 3.6
+  },
+  {
+    "text": "sentence and then this is the only thing",
+    "start": 571.74,
+    "duration": 5.039
+  },
+  {
+    "text": "which is fed to the uh decoder and then",
+    "start": 573.72,
+    "duration": 4.739
+  },
+  {
+    "text": "the decoder just produces the entire",
+    "start": 576.779,
+    "duration": 3.841
+  },
+  {
+    "text": "output based on this one representation",
+    "start": 578.459,
+    "duration": 4.081
+  },
+  {
+    "text": "that was given to it there's no notion",
+    "start": 580.62,
+    "duration": 3.659
+  },
+  {
+    "text": "of alignment right so there's no notion",
+    "start": 582.54,
+    "duration": 3.84
+  },
+  {
+    "text": "that when I'm producing none I should",
+    "start": 584.279,
+    "duration": 4.62
+  },
+  {
+    "text": "actually focus more on I when I am",
+    "start": 586.38,
+    "duration": 5.16
+  },
+  {
+    "text": "producing a Transformer I should",
+    "start": 588.899,
+    "duration": 4.021
+  },
+  {
+    "text": "actually pay more attention to",
+    "start": 591.54,
+    "duration": 3.18
+  },
+  {
+    "text": "Transformer and so on right so that",
+    "start": 592.92,
+    "duration": 3.84
+  },
+  {
+    "text": "notion is not there and you know where",
+    "start": 594.72,
+    "duration": 3.66
+  },
+  {
+    "text": "that notion comes from or what kind of",
+    "start": 596.76,
+    "duration": 4.139
+  },
+  {
+    "text": "models have that notion and that is the",
+    "start": 598.38,
+    "duration": 3.959
+  },
+  {
+    "text": "attention based model so it's in the",
+    "start": 600.899,
+    "duration": 3.961
+  },
+  {
+    "text": "attention-based models I have that where",
+    "start": 602.339,
+    "duration": 6.361
+  },
+  {
+    "text": "I have I compute the RNN encodings right",
+    "start": 604.86,
+    "duration": 5.46
+  },
+  {
+    "text": "and now I'm just going to look at it a",
+    "start": 608.7,
+    "duration": 3.06
+  },
+  {
+    "text": "bit differently right so once I have",
+    "start": 610.32,
+    "duration": 3.6
+  },
+  {
+    "text": "computed this I once I've computed H1 to",
+    "start": 611.76,
+    "duration": 5.88
+  },
+  {
+    "text": "H5 now I don't need the RNN block I just",
+    "start": 613.92,
+    "duration": 6.0
+  },
+  {
+    "text": "need these yellow representation that I",
+    "start": 617.64,
+    "duration": 4.68
+  },
+  {
+    "text": "have computed which are the H1 to H5",
+    "start": 619.92,
+    "duration": 4.62
+  },
+  {
+    "text": "which I can just take them out and those",
+    "start": 622.32,
+    "duration": 5.04
+  },
+  {
+    "text": "can be my those are now with me right so",
+    "start": 624.54,
+    "duration": 4.08
+  },
+  {
+    "text": "I don't need to do any further",
+    "start": 627.36,
+    "duration": 3.9
+  },
+  {
+    "text": "computation on this right and once these",
+    "start": 628.62,
+    "duration": 4.14
+  },
+  {
+    "text": "five blocks are available to me right so",
+    "start": 631.26,
+    "duration": 3.12
+  },
+  {
+    "text": "I've just made a copy of those",
+    "start": 632.76,
+    "duration": 4.44
+  },
+  {
+    "text": "representations and kept it sorry the",
+    "start": 634.38,
+    "duration": 6.26
+  },
+  {
+    "text": "network seems to be",
+    "start": 637.2,
+    "duration": 3.44
+  },
+  {
+    "text": "yeah so once all these vectors are",
+    "start": 647.399,
+    "duration": 3.301
+  },
+  {
+    "text": "available I can just throw away the",
+    "start": 649.26,
+    "duration": 3.48
+  },
+  {
+    "text": "encoder and just have the output of the",
+    "start": 650.7,
+    "duration": 3.84
+  },
+  {
+    "text": "encoder which is these five vectors in",
+    "start": 652.74,
+    "duration": 3.9
+  },
+  {
+    "text": "this case in general it would be capital",
+    "start": 654.54,
+    "duration": 5.52
+  },
+  {
+    "text": "T vectors where T is the length of my",
+    "start": 656.64,
+    "duration": 5.46
+  },
+  {
+    "text": "input sequence right so that's what I'll",
+    "start": 660.06,
+    "duration": 5.459
+  },
+  {
+    "text": "have now once I have these the I'll feed",
+    "start": 662.1,
+    "duration": 4.679
+  },
+  {
+    "text": "these as input to the attention",
+    "start": 665.519,
+    "duration": 3.481
+  },
+  {
+    "text": "mechanism right and this is what the",
+    "start": 666.779,
+    "duration": 4.321
+  },
+  {
+    "text": "attention mechanism does at every point",
+    "start": 669.0,
+    "duration": 4.86
+  },
+  {
+    "text": "it now feeds a contextual representation",
+    "start": 671.1,
+    "duration": 5.1
+  },
+  {
+    "text": "to the decoder so it will just compute",
+    "start": 673.86,
+    "duration": 4.74
+  },
+  {
+    "text": "uh what is the most important word at",
+    "start": 676.2,
+    "duration": 4.199
+  },
+  {
+    "text": "this point right so you start okay go",
+    "start": 678.6,
+    "duration": 4.2
+  },
+  {
+    "text": "start Computing the output or start",
+    "start": 680.399,
+    "duration": 4.321
+  },
+  {
+    "text": "building the output so it will just take",
+    "start": 682.8,
+    "duration": 3.599
+  },
+  {
+    "text": "a weighted representation of all the",
+    "start": 684.72,
+    "duration": 3.179
+  },
+  {
+    "text": "inputs to compute the contextual",
+    "start": 686.399,
+    "duration": 3.421
+  },
+  {
+    "text": "representation which is just going to be",
+    "start": 687.899,
+    "duration": 5.161
+  },
+  {
+    "text": "like a attention weighted uh some of the",
+    "start": 689.82,
+    "duration": 4.86
+  },
+  {
+    "text": "inputs right so that's what it's going",
+    "start": 693.06,
+    "duration": 2.64
+  },
+  {
+    "text": "to be",
+    "start": 694.68,
+    "duration": 3.96
+  },
+  {
+    "text": "so I have these Alphas coming in here so",
+    "start": 695.7,
+    "duration": 4.56
+  },
+  {
+    "text": "for some reason the animations are",
+    "start": 698.64,
+    "duration": 3.48
+  },
+  {
+    "text": "showing up very slowly yeah so I have",
+    "start": 700.26,
+    "duration": 4.38
+  },
+  {
+    "text": "these Alphas showing up here and then I",
+    "start": 702.12,
+    "duration": 4.26
+  },
+  {
+    "text": "take a weighted sum and I compute this",
+    "start": 704.64,
+    "duration": 5.28
+  },
+  {
+    "text": "uh with a contextual representation uh C",
+    "start": 706.38,
+    "duration": 5.28
+  },
+  {
+    "text": "Wagner so this is called the context",
+    "start": 709.92,
+    "duration": 3.06
+  },
+  {
+    "text": "Vector it's also called The Thought",
+    "start": 711.66,
+    "duration": 3.72
+  },
+  {
+    "text": "Vector uh and for the rest of the",
+    "start": 712.98,
+    "duration": 3.9
+  },
+  {
+    "text": "discussion I'll typically call it the",
+    "start": 715.38,
+    "duration": 2.88
+  },
+  {
+    "text": "context Vector if I'm calling it",
+    "start": 716.88,
+    "duration": 4.199
+  },
+  {
+    "text": "something else I'll let you know uh at",
+    "start": 718.26,
+    "duration": 4.199
+  },
+  {
+    "text": "that point right so just think of this",
+    "start": 721.079,
+    "duration": 3.0
+  },
+  {
+    "text": "C1 as a context Vector which is a",
+    "start": 722.459,
+    "duration": 3.601
+  },
+  {
+    "text": "weighted sum or the attention weighted",
+    "start": 724.079,
+    "duration": 3.541
+  },
+  {
+    "text": "sum of the inputs right so you have just",
+    "start": 726.06,
+    "duration": 3.839
+  },
+  {
+    "text": "taken the outputs of the encoder which",
+    "start": 727.62,
+    "duration": 3.839
+  },
+  {
+    "text": "were these yellow representations which",
+    "start": 729.899,
+    "duration": 4.021
+  },
+  {
+    "text": "are context aware representations and",
+    "start": 731.459,
+    "duration": 4.141
+  },
+  {
+    "text": "now again to the decoder you are feeding",
+    "start": 733.92,
+    "duration": 4.02
+  },
+  {
+    "text": "a contextual representation which is now",
+    "start": 735.6,
+    "duration": 4.2
+  },
+  {
+    "text": "here the context is basically where am I",
+    "start": 737.94,
+    "duration": 3.78
+  },
+  {
+    "text": "on the output I'm producing the first",
+    "start": 739.8,
+    "duration": 4.32
+  },
+  {
+    "text": "word so what is the most important uh",
+    "start": 741.72,
+    "duration": 3.9
+  },
+  {
+    "text": "set of weights or what is the most",
+    "start": 744.12,
+    "duration": 2.82
+  },
+  {
+    "text": "important words that I need to focus",
+    "start": 745.62,
+    "duration": 3.54
+  },
+  {
+    "text": "right and then you keep doing this at",
+    "start": 746.94,
+    "duration": 4.56
+  },
+  {
+    "text": "every time step so you could think of is",
+    "start": 749.16,
+    "duration": 5.1
+  },
+  {
+    "text": "that you had this H1 to H5 weights and",
+    "start": 751.5,
+    "duration": 4.92
+  },
+  {
+    "text": "then you're multiplying them uh sorry",
+    "start": 754.26,
+    "duration": 5.819
+  },
+  {
+    "text": "the H1 to H5 vector us right so you can",
+    "start": 756.42,
+    "duration": 6.06
+  },
+  {
+    "text": "think of putting them in a matrix and",
+    "start": 760.079,
+    "duration": 4.26
+  },
+  {
+    "text": "then you have this Vector of Weights so",
+    "start": 762.48,
+    "duration": 3.84
+  },
+  {
+    "text": "now you're taking the doing this Matrix",
+    "start": 764.339,
+    "duration": 4.201
+  },
+  {
+    "text": "Vector multiplication which is",
+    "start": 766.32,
+    "duration": 4.62
+  },
+  {
+    "text": "essentially taking a linear combination",
+    "start": 768.54,
+    "duration": 4.799
+  },
+  {
+    "text": "of all these columns right so alpha 1 1",
+    "start": 770.94,
+    "duration": 4.38
+  },
+  {
+    "text": "into this alpha 1 2 into this Alpha One",
+    "start": 773.339,
+    "duration": 3.24
+  },
+  {
+    "text": "three into this and so on right so",
+    "start": 775.32,
+    "duration": 3.18
+  },
+  {
+    "text": "that's the operation that is happening",
+    "start": 776.579,
+    "duration": 5.221
+  },
+  {
+    "text": "here and then you get the uh you feed it",
+    "start": 778.5,
+    "duration": 6.3
+  },
+  {
+    "text": "to the decoder RNN which then produces a",
+    "start": 781.8,
+    "duration": 5.339
+  },
+  {
+    "text": "output at the end right and you keep",
+    "start": 784.8,
+    "duration": 4.26
+  },
+  {
+    "text": "repeating this at every time step you do",
+    "start": 787.139,
+    "duration": 5.461
+  },
+  {
+    "text": "it at C2 then you compute C3 C4 C5 and",
+    "start": 789.06,
+    "duration": 6.54
+  },
+  {
+    "text": "so on right so you keep doing that now",
+    "start": 792.6,
+    "duration": 4.919
+  },
+  {
+    "text": "what I'm showing here is what is known",
+    "start": 795.6,
+    "duration": 3.78
+  },
+  {
+    "text": "as a heat map so this is what you",
+    "start": 797.519,
+    "duration": 4.56
+  },
+  {
+    "text": "typically look at when you are using an",
+    "start": 799.38,
+    "duration": 6.36
+  },
+  {
+    "text": "attention-based model so this has uh",
+    "start": 802.079,
+    "duration": 8.0
+  },
+  {
+    "text": "this is a say a T1",
+    "start": 805.74,
+    "duration": 4.339
+  },
+  {
+    "text": "cross T2 Matrix where T1 is the length",
+    "start": 811.32,
+    "duration": 5.759
+  },
+  {
+    "text": "of the input and T2 is the length of the",
+    "start": 814.62,
+    "duration": 6.0
+  },
+  {
+    "text": "output so",
+    "start": 817.079,
+    "duration": 4.981
+  },
+  {
+    "text": "or the other way around whichever way",
+    "start": 820.62,
+    "duration": 3.42
+  },
+  {
+    "text": "you can look at it and now in this",
+    "start": 822.06,
+    "duration": 4.86
+  },
+  {
+    "text": "wherever you see a light spot that is",
+    "start": 824.04,
+    "duration": 4.799
+  },
+  {
+    "text": "the place where the attention weight is",
+    "start": 826.92,
+    "duration": 4.38
+  },
+  {
+    "text": "maximum right so when I was generating I",
+    "start": 828.839,
+    "duration": 5.581
+  },
+  {
+    "text": "my attention on none was maximum when I",
+    "start": 831.3,
+    "duration": 5.219
+  },
+  {
+    "text": "was generating enjoyed my attention on",
+    "start": 834.42,
+    "duration": 5.88
+  },
+  {
+    "text": "uh Racine was maximum generating fill",
+    "start": 836.519,
+    "duration": 6.241
+  },
+  {
+    "text": "this was the maximum weighted word and",
+    "start": 840.3,
+    "duration": 3.9
+  },
+  {
+    "text": "similarly here right it makes sense",
+    "start": 842.76,
+    "duration": 3.18
+  },
+  {
+    "text": "because these are almost like one-to-one",
+    "start": 844.2,
+    "duration": 4.02
+  },
+  {
+    "text": "correspondences in the translation",
+    "start": 845.94,
+    "duration": 4.38
+  },
+  {
+    "text": "output right so that's what the heat map",
+    "start": 848.22,
+    "duration": 5.76
+  },
+  {
+    "text": "shows you yeah so this is how the heat",
+    "start": 850.32,
+    "duration": 5.34
+  },
+  {
+    "text": "map relates to what is happening in the",
+    "start": 853.98,
+    "duration": 3.599
+  },
+  {
+    "text": "sentence as I said that when I'm using",
+    "start": 855.66,
+    "duration": 4.919
+  },
+  {
+    "text": "none uh the maximum attention is on I",
+    "start": 857.579,
+    "duration": 4.44
+  },
+  {
+    "text": "and the color coded you can understand",
+    "start": 860.579,
+    "duration": 3.781
+  },
+  {
+    "text": "the colors here so this blue color I'm",
+    "start": 862.019,
+    "duration": 4.081
+  },
+  {
+    "text": "focusing here and this is the",
+    "start": 864.36,
+    "duration": 3.719
+  },
+  {
+    "text": "corresponding weight and so on right and",
+    "start": 866.1,
+    "duration": 4.62
+  },
+  {
+    "text": "you have some attention function and",
+    "start": 868.079,
+    "duration": 4.681
+  },
+  {
+    "text": "then we had seen this function so used",
+    "start": 870.72,
+    "duration": 6.359
+  },
+  {
+    "text": "to compute the attention weight right as",
+    "start": 872.76,
+    "duration": 6.36
+  },
+  {
+    "text": "some function of the previous state of",
+    "start": 877.079,
+    "duration": 5.221
+  },
+  {
+    "text": "the decoder and the any input vectors",
+    "start": 879.12,
+    "duration": 5.519
+  },
+  {
+    "text": "that you had so this was the attention",
+    "start": 882.3,
+    "duration": 5.7
+  },
+  {
+    "text": "to be paid to input I at time step T",
+    "start": 884.639,
+    "duration": 5.221
+  },
+  {
+    "text": "which depended on the state of the",
+    "start": 888.0,
+    "duration": 4.8
+  },
+  {
+    "text": "decoder at time step T minus 1. and",
+    "start": 889.86,
+    "duration": 5.64
+  },
+  {
+    "text": "input I right and then this had this",
+    "start": 892.8,
+    "duration": 4.92
+  },
+  {
+    "text": "soft Max function to make sure that this",
+    "start": 895.5,
+    "duration": 4.92
+  },
+  {
+    "text": "uh align this Alphas form the",
+    "start": 897.72,
+    "duration": 4.38
+  },
+  {
+    "text": "distribution rate so they summed up to",
+    "start": 900.42,
+    "duration": 3.479
+  },
+  {
+    "text": "one right so that's what we have seen",
+    "start": 902.1,
+    "duration": 4.02
+  },
+  {
+    "text": "and you can use any alignment function",
+    "start": 903.899,
+    "duration": 4.401
+  },
+  {
+    "text": "here uh we had seen one specific",
+    "start": 906.12,
+    "duration": 4.44
+  },
+  {
+    "text": "function in when we were discussing",
+    "start": 908.3,
+    "duration": 4.24
+  },
+  {
+    "text": "recurrent neural networks so just",
+    "start": 910.56,
+    "duration": 3.959
+  },
+  {
+    "text": "showing the alignment of function again",
+    "start": 912.54,
+    "duration": 3.96
+  },
+  {
+    "text": "right and here's a question all right so",
+    "start": 914.519,
+    "duration": 4.38
+  },
+  {
+    "text": "and this is what will lead us to our",
+    "start": 916.5,
+    "duration": 4.139
+  },
+  {
+    "text": "eventual discussion on Transformers",
+    "start": 918.899,
+    "duration": 5.761
+  },
+  {
+    "text": "right so can Alpha TI be computed in",
+    "start": 920.639,
+    "duration": 6.361
+  },
+  {
+    "text": "parallel for all I at time step T so",
+    "start": 924.66,
+    "duration": 3.66
+  },
+  {
+    "text": "what is the question that I'm asking so",
+    "start": 927.0,
+    "duration": 3.3
+  },
+  {
+    "text": "I'm at a particular time step say I'm at",
+    "start": 928.32,
+    "duration": 5.1
+  },
+  {
+    "text": "time step 4 right so I'm asking can all",
+    "start": 930.3,
+    "duration": 6.36
+  },
+  {
+    "text": "these Alphas Alpha TI and T is equal to",
+    "start": 933.42,
+    "duration": 5.58
+  },
+  {
+    "text": "4 so I'm asking whether Alpha 4 1 Alpha",
+    "start": 936.66,
+    "duration": 4.2
+  },
+  {
+    "text": "four two four three four four four five",
+    "start": 939.0,
+    "duration": 3.66
+  },
+  {
+    "text": "because I can take values from one to",
+    "start": 940.86,
+    "duration": 4.14
+  },
+  {
+    "text": "five can they be computed in parallel",
+    "start": 942.66,
+    "duration": 5.22
+  },
+  {
+    "text": "right and the answer is yes right",
+    "start": 945.0,
+    "duration": 5.76
+  },
+  {
+    "text": "because this only depends on St minus 1",
+    "start": 947.88,
+    "duration": 5.759
+  },
+  {
+    "text": "which is already available and on hi",
+    "start": 950.76,
+    "duration": 4.86
+  },
+  {
+    "text": "which is already available right so it",
+    "start": 953.639,
+    "duration": 3.961
+  },
+  {
+    "text": "depends only on these two values so you",
+    "start": 955.62,
+    "duration": 4.8
+  },
+  {
+    "text": "can compute this this in parallel right",
+    "start": 957.6,
+    "duration": 4.38
+  },
+  {
+    "text": "and of course for normalization you need",
+    "start": 960.42,
+    "duration": 3.96
+  },
+  {
+    "text": "all the values but you can compute the",
+    "start": 961.98,
+    "duration": 4.2
+  },
+  {
+    "text": "scores in parallel and then once you",
+    "start": 964.38,
+    "duration": 3.06
+  },
+  {
+    "text": "have this course you can again compute",
+    "start": 966.18,
+    "duration": 3.42
+  },
+  {
+    "text": "the normalization in parallel right so",
+    "start": 967.44,
+    "duration": 5.82
+  },
+  {
+    "text": "for a given T you can compute the alpha",
+    "start": 969.6,
+    "duration": 6.299
+  },
+  {
+    "text": "tis in parallel for All Eyes no matter",
+    "start": 973.26,
+    "duration": 3.96
+  },
+  {
+    "text": "how many eyes you have right so no",
+    "start": 975.899,
+    "duration": 3.661
+  },
+  {
+    "text": "matter how long your sequence is you",
+    "start": 977.22,
+    "duration": 4.08
+  },
+  {
+    "text": "don't need to wait on the previous",
+    "start": 979.56,
+    "duration": 3.839
+  },
+  {
+    "text": "computation to happen or to have",
+    "start": 981.3,
+    "duration": 4.32
+  },
+  {
+    "text": "something happen at I minus 1 to be able",
+    "start": 983.399,
+    "duration": 4.081
+  },
+  {
+    "text": "to compute Alpha TI right you can just",
+    "start": 985.62,
+    "duration": 4.38
+  },
+  {
+    "text": "compute all of that in well right",
+    "start": 987.48,
+    "duration": 5.64
+  },
+  {
+    "text": "now the other question is",
+    "start": 990.0,
+    "duration": 4.98
+  },
+  {
+    "text": "so the main takeaway here is that the",
+    "start": 993.12,
+    "duration": 3.24
+  },
+  {
+    "text": "attention can be paralyzed but now the",
+    "start": 994.98,
+    "duration": 3.479
+  },
+  {
+    "text": "other question that I have is that can",
+    "start": 996.36,
+    "duration": 5.099
+  },
+  {
+    "text": "you compute this in parallel for all T's",
+    "start": 998.459,
+    "duration": 5.041
+  },
+  {
+    "text": "right so I said that at a particular T",
+    "start": 1001.459,
+    "duration": 3.901
+  },
+  {
+    "text": "you can compute it in parallel right now",
+    "start": 1003.5,
+    "duration": 4.019
+  },
+  {
+    "text": "I'm asking that suppose there's this",
+    "start": 1005.36,
+    "duration": 5.039
+  },
+  {
+    "text": "time step 5 also here so can I compute",
+    "start": 1007.519,
+    "duration": 4.62
+  },
+  {
+    "text": "Alpha",
+    "start": 1010.399,
+    "duration": 3.601
+  },
+  {
+    "text": "4",
+    "start": 1012.139,
+    "duration": 4.861
+  },
+  {
+    "text": "eyes right all the alpha force and all",
+    "start": 1014.0,
+    "duration": 4.68
+  },
+  {
+    "text": "the alpha phi's",
+    "start": 1017.0,
+    "duration": 5.04
+  },
+  {
+    "text": "and all the alpha threes right so all",
+    "start": 1018.68,
+    "duration": 6.119
+  },
+  {
+    "text": "these Alphas across different T's right",
+    "start": 1022.04,
+    "duration": 4.86
+  },
+  {
+    "text": "so my T is changing here",
+    "start": 1024.799,
+    "duration": 4.741
+  },
+  {
+    "text": "can I compute them in parallel a given",
+    "start": 1026.9,
+    "duration": 5.519
+  },
+  {
+    "text": "set of values all the Alpha Four Stars",
+    "start": 1029.54,
+    "duration": 4.799
+  },
+  {
+    "text": "right Alpha Four one up to Alpha 40 I",
+    "start": 1032.419,
+    "duration": 3.0
+  },
+  {
+    "text": "can compute in parallel that we have",
+    "start": 1034.339,
+    "duration": 2.881
+  },
+  {
+    "text": "already seen but can I compute all of",
+    "start": 1035.419,
+    "duration": 4.02
+  },
+  {
+    "text": "these in parallel at one go",
+    "start": 1037.22,
+    "duration": 4.079
+  },
+  {
+    "text": "and the answer is clearly no right the",
+    "start": 1039.439,
+    "duration": 5.52
+  },
+  {
+    "text": "reason is that it depends on S T minus y",
+    "start": 1041.299,
+    "duration": 5.821
+  },
+  {
+    "text": "right so unless I have computed St minus",
+    "start": 1044.959,
+    "duration": 4.801
+  },
+  {
+    "text": "1 I cannot compute any of the alpha T's",
+    "start": 1047.12,
+    "duration": 5.22
+  },
+  {
+    "text": "right and St minus 1 actually depends on",
+    "start": 1049.76,
+    "duration": 5.039
+  },
+  {
+    "text": "Alpha T minus 1 because that's the input",
+    "start": 1052.34,
+    "duration": 6.98
+  },
+  {
+    "text": "right so St minus 1 here this one",
+    "start": 1054.799,
+    "duration": 4.521
+  },
+  {
+    "text": "would depend on",
+    "start": 1059.78,
+    "duration": 5.34
+  },
+  {
+    "text": "uh sorry this would depend on",
+    "start": 1062.36,
+    "duration": 7.14
+  },
+  {
+    "text": "c 3 and C3 in turn would be a function",
+    "start": 1065.12,
+    "duration": 9.0
+  },
+  {
+    "text": "of alpha 3 all the alpha threes right so",
+    "start": 1069.5,
+    "duration": 6.419
+  },
+  {
+    "text": "unless I have computed Alpha 3 I cannot",
+    "start": 1074.12,
+    "duration": 4.559
+  },
+  {
+    "text": "compute C3 unless I have computed C3 I",
+    "start": 1075.919,
+    "duration": 4.561
+  },
+  {
+    "text": "cannot compute S3 unless I have computed",
+    "start": 1078.679,
+    "duration": 4.321
+  },
+  {
+    "text": "S3 I cannot compute the alpha Force",
+    "start": 1080.48,
+    "duration": 4.14
+  },
+  {
+    "text": "right so all the alphas cannot be",
+    "start": 1083.0,
+    "duration": 5.039
+  },
+  {
+    "text": "computed in parallel but for a given uh",
+    "start": 1084.62,
+    "duration": 5.22
+  },
+  {
+    "text": "T the alphas can be computed in parallel",
+    "start": 1088.039,
+    "duration": 3.601
+  },
+  {
+    "text": "right so now",
+    "start": 1089.84,
+    "duration": 3.66
+  },
+  {
+    "text": "the two things to notice here right so",
+    "start": 1091.64,
+    "duration": 3.84
+  },
+  {
+    "text": "one is that the attention can be",
+    "start": 1093.5,
+    "duration": 3.48
+  },
+  {
+    "text": "parallel at least in a given T it can be",
+    "start": 1095.48,
+    "duration": 3.3
+  },
+  {
+    "text": "parallelized right it cannot be",
+    "start": 1096.98,
+    "duration": 3.84
+  },
+  {
+    "text": "paralyzed across T's but for a given T",
+    "start": 1098.78,
+    "duration": 3.6
+  },
+  {
+    "text": "it can be parallelized and this is",
+    "start": 1100.82,
+    "duration": 4.02
+  },
+  {
+    "text": "something that we would like to exploit",
+    "start": 1102.38,
+    "duration": 5.28
+  },
+  {
+    "text": "and see that if we can get rid of this",
+    "start": 1104.84,
+    "duration": 4.74
+  },
+  {
+    "text": "recurrent connection right because this",
+    "start": 1107.66,
+    "duration": 3.3
+  },
+  {
+    "text": "recurring connection is still a problem",
+    "start": 1109.58,
+    "duration": 3.719
+  },
+  {
+    "text": "for us right because because of the",
+    "start": 1110.96,
+    "duration": 3.78
+  },
+  {
+    "text": "recurrent connection we have to do",
+    "start": 1113.299,
+    "duration": 3.961
+  },
+  {
+    "text": "things sequentially but if we could get",
+    "start": 1114.74,
+    "duration": 4.74
+  },
+  {
+    "text": "rid of the recurrent connections and",
+    "start": 1117.26,
+    "duration": 3.96
+  },
+  {
+    "text": "then rely on the fact that the alphas",
+    "start": 1119.48,
+    "duration": 4.02
+  },
+  {
+    "text": "can still be computed in parallel then",
+    "start": 1121.22,
+    "duration": 4.14
+  },
+  {
+    "text": "can we get to an architecture which",
+    "start": 1123.5,
+    "duration": 4.5
+  },
+  {
+    "text": "allows us to compute these Alphas in",
+    "start": 1125.36,
+    "duration": 4.62
+  },
+  {
+    "text": "parallel right so it's still a bit hard",
+    "start": 1128.0,
+    "duration": 3.9
+  },
+  {
+    "text": "to visualize where we are headed but",
+    "start": 1129.98,
+    "duration": 3.84
+  },
+  {
+    "text": "just keep these questions in mind along",
+    "start": 1131.9,
+    "duration": 3.899
+  },
+  {
+    "text": "the way and once we read there all these",
+    "start": 1133.82,
+    "duration": 3.42
+  },
+  {
+    "text": "questions and the answers will make",
+    "start": 1135.799,
+    "duration": 3.24
+  },
+  {
+    "text": "sense so just to summarize the",
+    "start": 1137.24,
+    "duration": 3.54
+  },
+  {
+    "text": "discussion so far right so I mean",
+    "start": 1139.039,
+    "duration": 3.721
+  },
+  {
+    "text": "everything about the RNA model is good",
+    "start": 1140.78,
+    "duration": 6.24
+  },
+  {
+    "text": "right so what do I mean by that uh",
+    "start": 1142.76,
+    "duration": 7.02
+  },
+  {
+    "text": "we saw that across papers right I mean",
+    "start": 1147.02,
+    "duration": 4.5
+  },
+  {
+    "text": "we saw the architecture they are used",
+    "start": 1149.78,
+    "duration": 3.3
+  },
+  {
+    "text": "for machine translation summarization",
+    "start": 1151.52,
+    "duration": 3.24
+  },
+  {
+    "text": "video captioning image captioning right",
+    "start": 1153.08,
+    "duration": 3.66
+  },
+  {
+    "text": "so they gave very good performance and a",
+    "start": 1154.76,
+    "duration": 4.02
+  },
+  {
+    "text": "wide variety of tasks right but the only",
+    "start": 1156.74,
+    "duration": 4.799
+  },
+  {
+    "text": "uh issue that we have is that given a",
+    "start": 1158.78,
+    "duration": 4.98
+  },
+  {
+    "text": "training example we cannot paralyze the",
+    "start": 1161.539,
+    "duration": 4.201
+  },
+  {
+    "text": "sequence of computations because each of",
+    "start": 1163.76,
+    "duration": 4.62
+  },
+  {
+    "text": "these guys needs to be computed one at a",
+    "start": 1165.74,
+    "duration": 4.08
+  },
+  {
+    "text": "time that I cannot compute all of them",
+    "start": 1168.38,
+    "duration": 3.24
+  },
+  {
+    "text": "in parallel of course on top of that if",
+    "start": 1169.82,
+    "duration": 3.84
+  },
+  {
+    "text": "I have attention attention at a given",
+    "start": 1171.62,
+    "duration": 3.78
+  },
+  {
+    "text": "time step can be computed in power right",
+    "start": 1173.66,
+    "duration": 4.5
+  },
+  {
+    "text": "so now a wish list would be can we come",
+    "start": 1175.4,
+    "duration": 5.399
+  },
+  {
+    "text": "up with a new architecture right that",
+    "start": 1178.16,
+    "duration": 4.92
+  },
+  {
+    "text": "incorporates the attention mechanism and",
+    "start": 1180.799,
+    "duration": 4.081
+  },
+  {
+    "text": "also allows us to do things in parallel",
+    "start": 1183.08,
+    "duration": 3.36
+  },
+  {
+    "text": "so we don't want to get rid of the",
+    "start": 1184.88,
+    "duration": 2.64
+  },
+  {
+    "text": "attention mechanism because the",
+    "start": 1186.44,
+    "duration": 2.76
+  },
+  {
+    "text": "attention mechanism helps us to compute",
+    "start": 1187.52,
+    "duration": 3.48
+  },
+  {
+    "text": "the contextual representation but we",
+    "start": 1189.2,
+    "duration": 3.9
+  },
+  {
+    "text": "want parallelism we also don't have a",
+    "start": 1191.0,
+    "duration": 3.78
+  },
+  {
+    "text": "problem with the basic idea of",
+    "start": 1193.1,
+    "duration": 3.84
+  },
+  {
+    "text": "recurrence right that the recurrence",
+    "start": 1194.78,
+    "duration": 5.1
+  },
+  {
+    "text": "actually allows us to compute things",
+    "start": 1196.94,
+    "duration": 4.979
+  },
+  {
+    "text": "which are contextual right so we don't",
+    "start": 1199.88,
+    "duration": 4.62
+  },
+  {
+    "text": "have a problem with this here so we",
+    "start": 1201.919,
+    "duration": 4.321
+  },
+  {
+    "text": "don't have a problem with this here",
+    "start": 1204.5,
+    "duration": 3.78
+  },
+  {
+    "text": "this is fine because this is allowing us",
+    "start": 1206.24,
+    "duration": 4.439
+  },
+  {
+    "text": "to compute these recurrent uh or the",
+    "start": 1208.28,
+    "duration": 4.32
+  },
+  {
+    "text": "contextual representations but we have a",
+    "start": 1210.679,
+    "duration": 3.841
+  },
+  {
+    "text": "problem with the computational curves",
+    "start": 1212.6,
+    "duration": 3.36
+  },
+  {
+    "text": "which comes with recurrence that's the",
+    "start": 1214.52,
+    "duration": 3.539
+  },
+  {
+    "text": "problem that we want to solve okay so",
+    "start": 1215.96,
+    "duration": 3.66
+  },
+  {
+    "text": "that's the context so that's a quick",
+    "start": 1218.059,
+    "duration": 4.441
+  },
+  {
+    "text": "recap of recurrent neural networks and",
+    "start": 1219.62,
+    "duration": 4.799
+  },
+  {
+    "text": "what we see as problems in the recurrent",
+    "start": 1222.5,
+    "duration": 3.78
+  },
+  {
+    "text": "neural network and now we'll try to go",
+    "start": 1224.419,
+    "duration": 3.721
+  },
+  {
+    "text": "towards a solution for that right and",
+    "start": 1226.28,
+    "duration": 3.36
+  },
+  {
+    "text": "that might probably lead us to a new",
+    "start": 1228.14,
+    "duration": 3.6
+  },
+  {
+    "text": "architecture",
+    "start": 1229.64,
+    "duration": 4.14
+  },
+  {
+    "text": "so I'll end this video here and we'll",
+    "start": 1231.74,
+    "duration": 6.26
+  },
+  {
+    "text": "come back and continue from this point",
+    "start": 1233.78,
+    "duration": 4.22
+  }
+]

@@ -1,0 +1,8 @@
+convergence so while in theory you can use back propagation while in theory you can approximate any function but in.
+practice when you're trying to train this really deep neural networks it's not working right so uh in the next.
+few years from 1989 to not few almost two decades uh much practical progress did not happen in terms of.
+deep learning right people knew these two things but they were not really able to make them work in most.
+cases there were of course still a lot of progress happened on convolutional neural networks which you'll see soon right.
+so that's that's where we were so we started with the spring where there was a lot of hype and.
+enthusiasm around ai then things collapsed and then things kind of stabilized okay let's not completely ignore it let's keep.
+making some progress and see if you can actually use back propagation to train the steep neural networks.

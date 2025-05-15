@@ -1,0 +1,9 @@
+trying to push the parameter so I have a million data points right and I look at one of the.
+training uh instances one of the points and I compute the gradient and this point says Hey to decrease the.
+loss with respect to uh my values you need to move here right then the second Point comes I again.
+Ask it hey what should the gradient would be and it again pushes me in Direction which is favorable to.
+it so each point is acting independently and trying to move you in a direction which is most convenient for.
+itself right and that's why you see these all oscillations they're not working together as opposed to in the gradient.
+descent where all of them I'm asking all of them at one go taking the average of their consensus and.
+then moving uh in that direction right or the opposite to that the direction of the gradient but here that.
+is not what I am doing and I'm asking every point this point say hey go here go here go.

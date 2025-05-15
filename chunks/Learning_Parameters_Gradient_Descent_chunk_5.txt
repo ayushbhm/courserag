@@ -1,0 +1,9 @@
+that's what that's how you should read right so this is what this quantity is right now for this discussion.
+I think I can stop here because this is where I am going to draw a line I am going.
+to cut the formula at the linear approximation but let me not do that let me just go a bit.
+ahead and also try to tell you what this quantity is Right which is right now here if I ask.
+you what's the second order derivative that means I'm going to take the first derivative and again take the derivative.
+with respect to X again and that's going to be uh 2 right so this is the second order derivator.
+now what this is is the gradient of the gradient right that's a bit uh confusing to understand so this.
+is what your gradient looks like it's a vector containing the partial derivatives now again you are taking a derivative.
+of this Vector with respect to your parameters which is nothing but taking the gradient with respect to Theta right.

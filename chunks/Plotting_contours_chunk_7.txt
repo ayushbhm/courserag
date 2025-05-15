@@ -1,0 +1,9 @@
+to know in which regions was the slope Steep and in which regions was the gentle and now the contour.
+maps actually capture that information right so you just need to look at the contour map and if I see.
+that here the distance is large that means the slope would have been gentle here the distance is small that.
+means in that region the slope would have been very steep right so looking at the contour map because the.
+level information is also there I can actually guess what the 3D surface looks like and there will be a.
+contour map corresponding to every 3D surface right so let us look at one more 3D surface the main takeaways.
+here are this that these Rings correspond to levels on the loss axis and they are equidistant right that means.
+they have been taken at equal distances on the loss axis the other is the distance between the Rings tells.
+us about the slope in that direction if the distance is large then the slope was gentle and I gave.

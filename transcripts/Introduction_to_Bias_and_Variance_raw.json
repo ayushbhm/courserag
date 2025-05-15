@@ -1,0 +1,3432 @@
+[
+  {
+    "text": "foreign",
+    "start": 0.299,
+    "duration": 3.0
+  },
+  {
+    "text": "[Music]",
+    "start": 6.62,
+    "duration": 3.739
+  },
+  {
+    "text": "so welcome to lecture six of the course",
+    "start": 19.34,
+    "duration": 7.12
+  },
+  {
+    "text": "and in this lecture we'll be talking",
+    "start": 23.539,
+    "duration": 5.681
+  },
+  {
+    "text": "about regularization right and different",
+    "start": 26.46,
+    "duration": 5.52
+  },
+  {
+    "text": "types of regularization ah which",
+    "start": 29.22,
+    "duration": 5.28
+  },
+  {
+    "text": "includes L2 regulation early topic and a",
+    "start": 31.98,
+    "duration": 5.46
+  },
+  {
+    "text": "bunch of other things but before I talk",
+    "start": 34.5,
+    "duration": 4.559
+  },
+  {
+    "text": "about the types of regularization that",
+    "start": 37.44,
+    "duration": 3.66
+  },
+  {
+    "text": "you use in the context of deep learning",
+    "start": 39.059,
+    "duration": 4.441
+  },
+  {
+    "text": "of course some of them are also in the",
+    "start": 41.1,
+    "duration": 4.44
+  },
+  {
+    "text": "context of machine learning I'll first",
+    "start": 43.5,
+    "duration": 4.26
+  },
+  {
+    "text": "tell you give you intuition for why we",
+    "start": 45.54,
+    "duration": 4.019
+  },
+  {
+    "text": "need regularization and that's where",
+    "start": 47.76,
+    "duration": 3.54
+  },
+  {
+    "text": "we'll focus on the discussion on the",
+    "start": 49.559,
+    "duration": 3.601
+  },
+  {
+    "text": "bias various trade-off right so that's",
+    "start": 51.3,
+    "duration": 4.14
+  },
+  {
+    "text": "where we'll start we'll make a case for",
+    "start": 53.16,
+    "duration": 3.899
+  },
+  {
+    "text": "regularization understand what",
+    "start": 55.44,
+    "duration": 3.299
+  },
+  {
+    "text": "regularization is and then look at",
+    "start": 57.059,
+    "duration": 3.361
+  },
+  {
+    "text": "different types of regularization okay",
+    "start": 58.739,
+    "duration": 4.681
+  },
+  {
+    "text": "so here are some acknowledgments I have",
+    "start": 60.42,
+    "duration": 6.059
+  },
+  {
+    "text": "referred to several sources for",
+    "start": 63.42,
+    "duration": 5.879
+  },
+  {
+    "text": "preparing the this lecture this includes",
+    "start": 66.479,
+    "duration": 4.401
+  },
+  {
+    "text": "a deep learning book",
+    "start": 69.299,
+    "duration": 3.721
+  },
+  {
+    "text": "Ali goat sees video lectures and",
+    "start": 70.88,
+    "duration": 4.419
+  },
+  {
+    "text": "regularization in the context of deep",
+    "start": 73.02,
+    "duration": 5.88
+  },
+  {
+    "text": "learning then this paper on dropout",
+    "start": 75.299,
+    "duration": 7.381
+  },
+  {
+    "text": "right so all of these I have referred to",
+    "start": 78.9,
+    "duration": 6.06
+  },
+  {
+    "text": "so let's first look at what the problem",
+    "start": 82.68,
+    "duration": 4.5
+  },
+  {
+    "text": "is right so so far we have focused on",
+    "start": 84.96,
+    "duration": 4.32
+  },
+  {
+    "text": "minimizing the objective function using",
+    "start": 87.18,
+    "duration": 3.479
+  },
+  {
+    "text": "a variety of optimization algorithms",
+    "start": 89.28,
+    "duration": 3.659
+  },
+  {
+    "text": "right so we had this loss function and",
+    "start": 90.659,
+    "duration": 4.92
+  },
+  {
+    "text": "all our Focus was to how to minimize",
+    "start": 92.939,
+    "duration": 5.461
+  },
+  {
+    "text": "this loss how to minimize it faster how",
+    "start": 95.579,
+    "duration": 5.281
+  },
+  {
+    "text": "to make sure that we don't overshoot uh",
+    "start": 98.4,
+    "duration": 4.56
+  },
+  {
+    "text": "the Minima and land in the right Minima",
+    "start": 100.86,
+    "duration": 3.899
+  },
+  {
+    "text": "and so on that's what all our Focus has",
+    "start": 102.96,
+    "duration": 4.619
+  },
+  {
+    "text": "been on right but now the issue is that",
+    "start": 104.759,
+    "duration": 5.941
+  },
+  {
+    "text": "uh deep learning models uh typically",
+    "start": 107.579,
+    "duration": 4.08
+  },
+  {
+    "text": "have",
+    "start": 110.7,
+    "duration": 2.879
+  },
+  {
+    "text": "billions of parameters right I wouldn't",
+    "start": 111.659,
+    "duration": 3.6
+  },
+  {
+    "text": "say typically have billions but I would",
+    "start": 113.579,
+    "duration": 3.601
+  },
+  {
+    "text": "say typically have like hundreds of",
+    "start": 115.259,
+    "duration": 4.5
+  },
+  {
+    "text": "millions of parameters and the training",
+    "start": 117.18,
+    "duration": 4.68
+  },
+  {
+    "text": "data may have only a few millions of",
+    "start": 119.759,
+    "duration": 3.841
+  },
+  {
+    "text": "samples right so the main point here",
+    "start": 121.86,
+    "duration": 3.42
+  },
+  {
+    "text": "instead of focusing on billions and",
+    "start": 123.6,
+    "duration": 4.14
+  },
+  {
+    "text": "millions is that deep learning models",
+    "start": 125.28,
+    "duration": 4.259
+  },
+  {
+    "text": "are often over parameterized right that",
+    "start": 127.74,
+    "duration": 3.299
+  },
+  {
+    "text": "means they have a large number of",
+    "start": 129.539,
+    "duration": 3.961
+  },
+  {
+    "text": "parameters which are often more than the",
+    "start": 131.039,
+    "duration": 5.28
+  },
+  {
+    "text": "training points that you have right and",
+    "start": 133.5,
+    "duration": 6.3
+  },
+  {
+    "text": "in such over parameterized models it's a",
+    "start": 136.319,
+    "duration": 5.361
+  },
+  {
+    "text": "well-known uh",
+    "start": 139.8,
+    "duration": 4.799
+  },
+  {
+    "text": "fact right that they are prone to",
+    "start": 141.68,
+    "duration": 4.72
+  },
+  {
+    "text": "overfitting right this is true for",
+    "start": 144.599,
+    "duration": 3.0
+  },
+  {
+    "text": "machine learning that you have a large",
+    "start": 146.4,
+    "duration": 3.24
+  },
+  {
+    "text": "number of parameters and only a few",
+    "start": 147.599,
+    "duration": 4.681
+  },
+  {
+    "text": "points then you can easily over fit on",
+    "start": 149.64,
+    "duration": 4.5
+  },
+  {
+    "text": "the training data that means you can",
+    "start": 152.28,
+    "duration": 5.94
+  },
+  {
+    "text": "drive the training error to zero uh for",
+    "start": 154.14,
+    "duration": 6.959
+  },
+  {
+    "text": "all the training points right now that",
+    "start": 158.22,
+    "duration": 4.86
+  },
+  {
+    "text": "may be good but what happens is and",
+    "start": 161.099,
+    "duration": 3.241
+  },
+  {
+    "text": "that's what we will see in the bias",
+    "start": 163.08,
+    "duration": 4.86
+  },
+  {
+    "text": "variance trade-off is that if you try to",
+    "start": 164.34,
+    "duration": 5.28
+  },
+  {
+    "text": "overfit the data on the training data",
+    "start": 167.94,
+    "duration": 3.299
+  },
+  {
+    "text": "right so you're trying to kind of",
+    "start": 169.62,
+    "duration": 3.119
+  },
+  {
+    "text": "memorize everything that you see in the",
+    "start": 171.239,
+    "duration": 3.241
+  },
+  {
+    "text": "training data then you may not be able",
+    "start": 172.739,
+    "duration": 3.481
+  },
+  {
+    "text": "to generalize well on the test data",
+    "start": 174.48,
+    "duration": 3.3
+  },
+  {
+    "text": "because that is unknown data so you have",
+    "start": 176.22,
+    "duration": 4.62
+  },
+  {
+    "text": "focused so much on uh they fixated so",
+    "start": 177.78,
+    "duration": 5.459
+  },
+  {
+    "text": "much on what was given to you that you",
+    "start": 180.84,
+    "duration": 3.66
+  },
+  {
+    "text": "are now not going to be able to",
+    "start": 183.239,
+    "duration": 2.881
+  },
+  {
+    "text": "generalize on some unknown data right",
+    "start": 184.5,
+    "duration": 3.599
+  },
+  {
+    "text": "and we will see all of this in detail in",
+    "start": 186.12,
+    "duration": 4.08
+  },
+  {
+    "text": "this lecture and that's where the",
+    "start": 188.099,
+    "duration": 4.021
+  },
+  {
+    "text": "concept of bias and variance comes in",
+    "start": 190.2,
+    "duration": 4.86
+  },
+  {
+    "text": "and its relation to the capacity of the",
+    "start": 192.12,
+    "duration": 5.1
+  },
+  {
+    "text": "model and what I'm trying to say on this",
+    "start": 195.06,
+    "duration": 4.319
+  },
+  {
+    "text": "slide and which you all know is that",
+    "start": 197.22,
+    "duration": 4.019
+  },
+  {
+    "text": "deep learning models have a very high",
+    "start": 199.379,
+    "duration": 4.261
+  },
+  {
+    "text": "capacity because they have a large",
+    "start": 201.239,
+    "duration": 5.161
+  },
+  {
+    "text": "number of parameters okay",
+    "start": 203.64,
+    "duration": 4.62
+  },
+  {
+    "text": "so that was the context and with that",
+    "start": 206.4,
+    "duration": 3.66
+  },
+  {
+    "text": "context I'll start the discussion on",
+    "start": 208.26,
+    "duration": 5.94
+  },
+  {
+    "text": "bias and variance so let's look at this",
+    "start": 210.06,
+    "duration": 6.14
+  },
+  {
+    "text": "right so we look at an example",
+    "start": 214.2,
+    "duration": 4.759
+  },
+  {
+    "text": "where uh we want to",
+    "start": 216.2,
+    "duration": 6.459
+  },
+  {
+    "text": "fit a curve right so what do I mean by",
+    "start": 218.959,
+    "duration": 5.621
+  },
+  {
+    "text": "that right so I have been given some",
+    "start": 222.659,
+    "duration": 3.36
+  },
+  {
+    "text": "data points",
+    "start": 224.58,
+    "duration": 3.12
+  },
+  {
+    "text": "the data points have actually come from",
+    "start": 226.019,
+    "duration": 4.261
+  },
+  {
+    "text": "the sinusoidal function that means I",
+    "start": 227.7,
+    "duration": 4.74
+  },
+  {
+    "text": "know what the true f of x is in this",
+    "start": 230.28,
+    "duration": 5.039
+  },
+  {
+    "text": "case right so I have X and my true",
+    "start": 232.44,
+    "duration": 4.92
+  },
+  {
+    "text": "relation between X and Y which is given",
+    "start": 235.319,
+    "duration": 4.621
+  },
+  {
+    "text": "by f of x for a change for once in my",
+    "start": 237.36,
+    "duration": 4.2
+  },
+  {
+    "text": "life I know what that is that is the",
+    "start": 239.94,
+    "duration": 2.82
+  },
+  {
+    "text": "sinusoidal function because I've",
+    "start": 241.56,
+    "duration": 3.0
+  },
+  {
+    "text": "actually picked up the data points from",
+    "start": 242.76,
+    "duration": 4.199
+  },
+  {
+    "text": "there I know this right but I am going",
+    "start": 244.56,
+    "duration": 3.84
+  },
+  {
+    "text": "to assume that I do not know this I have",
+    "start": 246.959,
+    "duration": 3.601
+  },
+  {
+    "text": "just been given some points and now I'm",
+    "start": 248.4,
+    "duration": 5.759
+  },
+  {
+    "text": "going to try to fit a model to this",
+    "start": 250.56,
+    "duration": 6.12
+  },
+  {
+    "text": "points what does that mean that now I am",
+    "start": 254.159,
+    "duration": 5.42
+  },
+  {
+    "text": "going to do the following",
+    "start": 256.68,
+    "duration": 2.899
+  },
+  {
+    "text": "I'm trying to going to come up with an",
+    "start": 262.139,
+    "duration": 4.62
+  },
+  {
+    "text": "approximation of what the relation is",
+    "start": 264.12,
+    "duration": 4.32
+  },
+  {
+    "text": "I'll completely ignore the fact that I",
+    "start": 266.759,
+    "duration": 3.181
+  },
+  {
+    "text": "actually know what the true relationship",
+    "start": 268.44,
+    "duration": 3.479
+  },
+  {
+    "text": "is because in real world I wouldn't know",
+    "start": 269.94,
+    "duration": 3.84
+  },
+  {
+    "text": "this right just for illustration I have",
+    "start": 271.919,
+    "duration": 3.601
+  },
+  {
+    "text": "taken points from sinusoidal functions",
+    "start": 273.78,
+    "duration": 3.359
+  },
+  {
+    "text": "so that's it's easy for me to illustrate",
+    "start": 275.52,
+    "duration": 4.26
+  },
+  {
+    "text": "what the true function is and how good",
+    "start": 277.139,
+    "duration": 5.041
+  },
+  {
+    "text": "or bad my approximation is right so now",
+    "start": 279.78,
+    "duration": 3.9
+  },
+  {
+    "text": "in a typical deep learning machine",
+    "start": 282.18,
+    "duration": 4.14
+  },
+  {
+    "text": "learning setup I am going to talk about",
+    "start": 283.68,
+    "duration": 4.38
+  },
+  {
+    "text": "different approximations right so I will",
+    "start": 286.32,
+    "duration": 4.08
+  },
+  {
+    "text": "take one very simple approximation and",
+    "start": 288.06,
+    "duration": 4.38
+  },
+  {
+    "text": "then one slightly complex approximation",
+    "start": 290.4,
+    "duration": 4.38
+  },
+  {
+    "text": "and then I'll try to make some comments",
+    "start": 292.44,
+    "duration": 3.96
+  },
+  {
+    "text": "based on the approximations that I have",
+    "start": 294.78,
+    "duration": 6.24
+  },
+  {
+    "text": "made right so let's ah see how that goes",
+    "start": 296.4,
+    "duration": 7.34
+  },
+  {
+    "text": "okay",
+    "start": 301.02,
+    "duration": 2.72
+  },
+  {
+    "text": "yeah so we consider two models so one is",
+    "start": 304.08,
+    "duration": 5.04
+  },
+  {
+    "text": "a simple model as I said degree one",
+    "start": 307.44,
+    "duration": 4.319
+  },
+  {
+    "text": "model where I assume that Y is related",
+    "start": 309.12,
+    "duration": 5.22
+  },
+  {
+    "text": "to X using a linear function right so I",
+    "start": 311.759,
+    "duration": 4.561
+  },
+  {
+    "text": "just assumed that Y is equal to MX plus",
+    "start": 314.34,
+    "duration": 5.4
+  },
+  {
+    "text": "C or Y is equal to W and X plus W naught",
+    "start": 316.32,
+    "duration": 5.099
+  },
+  {
+    "text": "right so I have only two parameters here",
+    "start": 319.74,
+    "duration": 4.32
+  },
+  {
+    "text": "clearly not an over parameterized model",
+    "start": 321.419,
+    "duration": 5.041
+  },
+  {
+    "text": "and the relationship that I have assumed",
+    "start": 324.06,
+    "duration": 4.56
+  },
+  {
+    "text": "is very simple the other I am going to",
+    "start": 326.46,
+    "duration": 5.22
+  },
+  {
+    "text": "assume is a slightly complex model which",
+    "start": 328.62,
+    "duration": 6.84
+  },
+  {
+    "text": "is a degree 25 ah polynomial right so",
+    "start": 331.68,
+    "duration": 6.0
+  },
+  {
+    "text": "what does that mean that ah I am saying",
+    "start": 335.46,
+    "duration": 6.12
+  },
+  {
+    "text": "that my ah Y is related to X by the",
+    "start": 337.68,
+    "duration": 6.98
+  },
+  {
+    "text": "following relationship",
+    "start": 341.58,
+    "duration": 3.08
+  },
+  {
+    "text": "W 25 x raised to 25 plus W 24 x raised",
+    "start": 345.24,
+    "duration": 12.78
+  },
+  {
+    "text": "to 24 all the way up to WX then W naught",
+    "start": 352.74,
+    "duration": 8.64
+  },
+  {
+    "text": "right ah so w One X plus W naught right",
+    "start": 358.02,
+    "duration": 6.6
+  },
+  {
+    "text": "so clearly I have 26 parameters here and",
+    "start": 361.38,
+    "duration": 6.0
+  },
+  {
+    "text": "my function is also not linear it's a",
+    "start": 364.62,
+    "duration": 5.1
+  },
+  {
+    "text": "polynomial so this is clearly a complex",
+    "start": 367.38,
+    "duration": 5.46
+  },
+  {
+    "text": "function at least in relation to the ah",
+    "start": 369.72,
+    "duration": 4.56
+  },
+  {
+    "text": "first function where I have just assumed",
+    "start": 372.84,
+    "duration": 3.299
+  },
+  {
+    "text": "a linear relationship so here I have",
+    "start": 374.28,
+    "duration": 3.72
+  },
+  {
+    "text": "only two parameters here I have 26",
+    "start": 376.139,
+    "duration": 3.9
+  },
+  {
+    "text": "parameters so I clearly have more",
+    "start": 378.0,
+    "duration": 4.319
+  },
+  {
+    "text": "capacity here as compared to the simple",
+    "start": 380.039,
+    "duration": 4.141
+  },
+  {
+    "text": "model right and if I take this to the",
+    "start": 382.319,
+    "duration": 3.541
+  },
+  {
+    "text": "extreme if I had approximated this",
+    "start": 384.18,
+    "duration": 3.78
+  },
+  {
+    "text": "relationship by a deep learning model",
+    "start": 385.86,
+    "duration": 4.559
+  },
+  {
+    "text": "extremely deep 10 layer deep model with",
+    "start": 387.96,
+    "duration": 4.799
+  },
+  {
+    "text": "many neurons per layer then I would have",
+    "start": 390.419,
+    "duration": 4.141
+  },
+  {
+    "text": "had that many more parameters but I am",
+    "start": 392.759,
+    "duration": 3.06
+  },
+  {
+    "text": "not going there I am just going to stop",
+    "start": 394.56,
+    "duration": 4.38
+  },
+  {
+    "text": "at this level of complexity where I have",
+    "start": 395.819,
+    "duration": 5.241
+  },
+  {
+    "text": "some 26 parameters and a degree 25",
+    "start": 398.94,
+    "duration": 4.62
+  },
+  {
+    "text": "polynomial as an approximation of the",
+    "start": 401.06,
+    "duration": 4.32
+  },
+  {
+    "text": "relationship right so this is what my",
+    "start": 403.56,
+    "duration": 3.78
+  },
+  {
+    "text": "approximation of the relationship",
+    "start": 405.38,
+    "duration": 6.52
+  },
+  {
+    "text": "between ah F and also between X and Y is",
+    "start": 407.34,
+    "duration": 7.079
+  },
+  {
+    "text": "right this is what my f hat of X is okay",
+    "start": 411.9,
+    "duration": 5.22
+  },
+  {
+    "text": "ah",
+    "start": 414.419,
+    "duration": 5.881
+  },
+  {
+    "text": "ok now in both cases we are making",
+    "start": 417.12,
+    "duration": 5.1
+  },
+  {
+    "text": "assumption right we have no idea about a",
+    "start": 420.3,
+    "duration": 3.239
+  },
+  {
+    "text": "true relationship again of course in",
+    "start": 422.22,
+    "duration": 2.699
+  },
+  {
+    "text": "this case I know other two relationship",
+    "start": 423.539,
+    "duration": 2.821
+  },
+  {
+    "text": "is but if you had given me this problem",
+    "start": 424.919,
+    "duration": 2.941
+  },
+  {
+    "text": "I wouldn't know so I would have just",
+    "start": 426.36,
+    "duration": 3.54
+  },
+  {
+    "text": "assumed something so in both cases we",
+    "start": 427.86,
+    "duration": 5.64
+  },
+  {
+    "text": "are making an approximation ah now ah",
+    "start": 429.9,
+    "duration": 5.82
+  },
+  {
+    "text": "the training data that is given to me it",
+    "start": 433.5,
+    "duration": 4.5
+  },
+  {
+    "text": "contains some 500 points right so I have",
+    "start": 435.72,
+    "duration": 7.699
+  },
+  {
+    "text": "been given some 500 x comma y pairs",
+    "start": 438.0,
+    "duration": 5.419
+  },
+  {
+    "text": "which I have been given some",
+    "start": 444.72,
+    "duration": 5.759
+  },
+  {
+    "text": "500 of these X comma y Pairs and using",
+    "start": 446.699,
+    "duration": 6.361
+  },
+  {
+    "text": "these I have my job is to learn W1 W",
+    "start": 450.479,
+    "duration": 5.581
+  },
+  {
+    "text": "naught or these 26 parameters depending",
+    "start": 453.06,
+    "duration": 5.4
+  },
+  {
+    "text": "on which model I am going to choose",
+    "start": 456.06,
+    "duration": 4.859
+  },
+  {
+    "text": "right so that's the setup",
+    "start": 458.46,
+    "duration": 5.519
+  },
+  {
+    "text": "so now we are going to uh sample sum",
+    "start": 460.919,
+    "duration": 4.68
+  },
+  {
+    "text": "actually not 500 I think it should have",
+    "start": 463.979,
+    "duration": 5.361
+  },
+  {
+    "text": "been 100 points or",
+    "start": 465.599,
+    "duration": 3.741
+  },
+  {
+    "text": "here",
+    "start": 469.919,
+    "duration": 4.921
+  },
+  {
+    "text": "so I was maybe given okay let's assume a",
+    "start": 471.06,
+    "duration": 6.6
+  },
+  {
+    "text": "bit differently let's assume that I was",
+    "start": 474.84,
+    "duration": 5.579
+  },
+  {
+    "text": "given some 500 points and I'm going to",
+    "start": 477.66,
+    "duration": 6.0
+  },
+  {
+    "text": "sample randomly pick up some 400 or 300",
+    "start": 480.419,
+    "duration": 5.521
+  },
+  {
+    "text": "points from this and train a simple and",
+    "start": 483.66,
+    "duration": 4.2
+  },
+  {
+    "text": "a complex Point model I am going to",
+    "start": 485.94,
+    "duration": 3.84
+  },
+  {
+    "text": "repeat this process K times what does",
+    "start": 487.86,
+    "duration": 3.839
+  },
+  {
+    "text": "that mean that this is what I mean by",
+    "start": 489.78,
+    "duration": 4.259
+  },
+  {
+    "text": "that right so in this model let us try",
+    "start": 491.699,
+    "duration": 4.201
+  },
+  {
+    "text": "to understand what my full procedure",
+    "start": 494.039,
+    "duration": 4.521
+  },
+  {
+    "text": "looks like",
+    "start": 495.9,
+    "duration": 2.66
+  },
+  {
+    "text": "right so I have my loss as I equal to 1",
+    "start": 502.02,
+    "duration": 6.959
+  },
+  {
+    "text": "to M where as m is the number of",
+    "start": 506.879,
+    "duration": 4.38
+  },
+  {
+    "text": "training points and in this case I am",
+    "start": 508.979,
+    "duration": 4.92
+  },
+  {
+    "text": "going to Define my loss as y i which is",
+    "start": 511.259,
+    "duration": 5.821
+  },
+  {
+    "text": "a true y that was given to me minus",
+    "start": 513.899,
+    "duration": 7.02
+  },
+  {
+    "text": "F hat of x i which is my function that I",
+    "start": 517.08,
+    "duration": 6.18
+  },
+  {
+    "text": "have chosen right and the parameters",
+    "start": 520.919,
+    "duration": 4.86
+  },
+  {
+    "text": "here are all the W's that I have right",
+    "start": 523.26,
+    "duration": 5.16
+  },
+  {
+    "text": "it's either so this is a minimization",
+    "start": 525.779,
+    "duration": 4.981
+  },
+  {
+    "text": "problem with respect to the W's so the",
+    "start": 528.42,
+    "duration": 5.16
+  },
+  {
+    "text": "W's are either W 1 and W naught or they",
+    "start": 530.76,
+    "duration": 5.519
+  },
+  {
+    "text": "are W 25 all the way up to W 29 right",
+    "start": 533.58,
+    "duration": 5.819
+  },
+  {
+    "text": "and this you know now how to solve this",
+    "start": 536.279,
+    "duration": 5.641
+  },
+  {
+    "text": "or how to ah find this Minima using the",
+    "start": 539.399,
+    "duration": 4.201
+  },
+  {
+    "text": "gradient descent or any of the variance",
+    "start": 541.92,
+    "duration": 3.359
+  },
+  {
+    "text": "of the gradient descent algorithm right",
+    "start": 543.6,
+    "duration": 3.48
+  },
+  {
+    "text": "now let us consider the simple model",
+    "start": 545.279,
+    "duration": 6.06
+  },
+  {
+    "text": "which was W 1 x 1 plus W naught right so",
+    "start": 547.08,
+    "duration": 7.08
+  },
+  {
+    "text": "at the end of training suppose I I took",
+    "start": 551.339,
+    "duration": 5.401
+  },
+  {
+    "text": "some ah 400 points and I do just do not",
+    "start": 554.16,
+    "duration": 5.22
+  },
+  {
+    "text": "want to take all the 500 points because",
+    "start": 556.74,
+    "duration": 4.2
+  },
+  {
+    "text": "then I cannot repeat this process K",
+    "start": 559.38,
+    "duration": 2.88
+  },
+  {
+    "text": "times right because if I have the same",
+    "start": 560.94,
+    "duration": 3.78
+  },
+  {
+    "text": "500 points and I repeat the process K",
+    "start": 562.26,
+    "duration": 3.72
+  },
+  {
+    "text": "times then I am going to get very",
+    "start": 564.72,
+    "duration": 2.94
+  },
+  {
+    "text": "similar Solutions so I am just going to",
+    "start": 565.98,
+    "duration": 3.479
+  },
+  {
+    "text": "take a different random sample right so",
+    "start": 567.66,
+    "duration": 3.9
+  },
+  {
+    "text": "I have 500 points total and I'm just",
+    "start": 569.459,
+    "duration": 3.721
+  },
+  {
+    "text": "going to take some random 400 points",
+    "start": 571.56,
+    "duration": 3.779
+  },
+  {
+    "text": "from there and try to solve this",
+    "start": 573.18,
+    "duration": 3.839
+  },
+  {
+    "text": "optimization problem one which will",
+    "start": 575.339,
+    "duration": 4.261
+  },
+  {
+    "text": "result in some W one and W naught then",
+    "start": 577.019,
+    "duration": 4.38
+  },
+  {
+    "text": "again I will take a separate 400 points",
+    "start": 579.6,
+    "duration": 3.179
+  },
+  {
+    "text": "again try to solve this optimization",
+    "start": 581.399,
+    "duration": 3.301
+  },
+  {
+    "text": "problem and I might get a different W",
+    "start": 582.779,
+    "duration": 3.901
+  },
+  {
+    "text": "one and W naught right so that is the",
+    "start": 584.7,
+    "duration": 3.6
+  },
+  {
+    "text": "idea that's why I am not taking the",
+    "start": 586.68,
+    "duration": 3.18
+  },
+  {
+    "text": "entire training data but just taking",
+    "start": 588.3,
+    "duration": 4.68
+  },
+  {
+    "text": "like a a significantly large sample of",
+    "start": 589.86,
+    "duration": 5.099
+  },
+  {
+    "text": "it but in every each of these K times",
+    "start": 592.98,
+    "duration": 3.299
+  },
+  {
+    "text": "and I'm going to try to solve this",
+    "start": 594.959,
+    "duration": 3.961
+  },
+  {
+    "text": "optimization problem my m points are",
+    "start": 596.279,
+    "duration": 4.261
+  },
+  {
+    "text": "going to be different and hence the",
+    "start": 598.92,
+    "duration": 3.479
+  },
+  {
+    "text": "solution that I lend up for W1 and W",
+    "start": 600.54,
+    "duration": 3.84
+  },
+  {
+    "text": "naught would be slightly different right",
+    "start": 602.399,
+    "duration": 4.021
+  },
+  {
+    "text": "so that is the idea that's what I am",
+    "start": 604.38,
+    "duration": 4.32
+  },
+  {
+    "text": "trying to do here right and now let us",
+    "start": 606.42,
+    "duration": 4.02
+  },
+  {
+    "text": "look at one of these right so the first",
+    "start": 608.7,
+    "duration": 3.66
+  },
+  {
+    "text": "time I took the 400 points and solved",
+    "start": 610.44,
+    "duration": 3.42
+  },
+  {
+    "text": "this using gradient descent or any of",
+    "start": 612.36,
+    "duration": 2.72
+  },
+  {
+    "text": "the other",
+    "start": 613.86,
+    "duration": 3.9
+  },
+  {
+    "text": "optimization algorithms then I have come",
+    "start": 615.08,
+    "duration": 4.3
+  },
+  {
+    "text": "up with this equation that Y is equal to",
+    "start": 617.76,
+    "duration": 4.56
+  },
+  {
+    "text": "W 1 x 1 plus W naught and I could plot",
+    "start": 619.38,
+    "duration": 4.38
+  },
+  {
+    "text": "that equation right so the blue line",
+    "start": 622.32,
+    "duration": 3.9
+  },
+  {
+    "text": "that I have here that is for a given",
+    "start": 623.76,
+    "duration": 4.98
+  },
+  {
+    "text": "value of w 1 and W 9 8 so that is the",
+    "start": 626.22,
+    "duration": 5.64
+  },
+  {
+    "text": "same as MX plus C so I have the x axis I",
+    "start": 628.74,
+    "duration": 5.58
+  },
+  {
+    "text": "have the X and I have the y axis and I",
+    "start": 631.86,
+    "duration": 4.56
+  },
+  {
+    "text": "have just drawn the line which is given",
+    "start": 634.32,
+    "duration": 5.16
+  },
+  {
+    "text": "by this our equation right and now if I",
+    "start": 636.42,
+    "duration": 5.16
+  },
+  {
+    "text": "repeat it K times every time I will get",
+    "start": 639.48,
+    "duration": 4.799
+  },
+  {
+    "text": "a different line and I will keep drawing",
+    "start": 641.58,
+    "duration": 4.98
+  },
+  {
+    "text": "all those K lines right so that's what I",
+    "start": 644.279,
+    "duration": 4.141
+  },
+  {
+    "text": "am going to show you in the animation",
+    "start": 646.56,
+    "duration": 3.719
+  },
+  {
+    "text": "here",
+    "start": 648.42,
+    "duration": 5.039
+  },
+  {
+    "text": "so every time a new line let's just see",
+    "start": 650.279,
+    "duration": 4.861
+  },
+  {
+    "text": "what happens here",
+    "start": 653.459,
+    "duration": 4.161
+  },
+  {
+    "text": "oops",
+    "start": 655.14,
+    "duration": 2.48
+  },
+  {
+    "text": "um",
+    "start": 657.72,
+    "duration": 5.119
+  },
+  {
+    "text": "okay so this is",
+    "start": 659.7,
+    "duration": 3.139
+  },
+  {
+    "text": "okay I'll come back to this animation",
+    "start": 663.24,
+    "duration": 3.599
+  },
+  {
+    "text": "later",
+    "start": 665.64,
+    "duration": 4.56
+  },
+  {
+    "text": "let's see yeah so this is what happens",
+    "start": 666.839,
+    "duration": 5.161
+  },
+  {
+    "text": "so this is what I'm going to do now",
+    "start": 670.2,
+    "duration": 4.44
+  },
+  {
+    "text": "right so this optimization problem I am",
+    "start": 672.0,
+    "duration": 3.959
+  },
+  {
+    "text": "going to solve for the simple model",
+    "start": 674.64,
+    "duration": 3.36
+  },
+  {
+    "text": "which is y equal to W 1 x 1 plus W",
+    "start": 675.959,
+    "duration": 4.861
+  },
+  {
+    "text": "naught and I am going to do that a k",
+    "start": 678.0,
+    "duration": 4.98
+  },
+  {
+    "text": "number of times right and every time I",
+    "start": 680.82,
+    "duration": 4.259
+  },
+  {
+    "text": "solve that optimization problem I get a",
+    "start": 682.98,
+    "duration": 3.599
+  },
+  {
+    "text": "slightly different value of w and W",
+    "start": 685.079,
+    "duration": 3.361
+  },
+  {
+    "text": "naught and I will keep plotting those",
+    "start": 686.579,
+    "duration": 4.561
+  },
+  {
+    "text": "lines okay so I am plotting all those",
+    "start": 688.44,
+    "duration": 5.22
+  },
+  {
+    "text": "different lines which I get right and",
+    "start": 691.14,
+    "duration": 4.139
+  },
+  {
+    "text": "here iteration you can think of",
+    "start": 693.66,
+    "duration": 3.239
+  },
+  {
+    "text": "iteration not as the iteration in the",
+    "start": 695.279,
+    "duration": 4.141
+  },
+  {
+    "text": "case of gradient descent but this is the",
+    "start": 696.899,
+    "duration": 4.741
+  },
+  {
+    "text": "kth so now I have repeated the",
+    "start": 699.42,
+    "duration": 5.88
+  },
+  {
+    "text": "experiment 25 times 27 times 28 times 29",
+    "start": 701.64,
+    "duration": 5.699
+  },
+  {
+    "text": "times 30 times right so I have repeated",
+    "start": 705.3,
+    "duration": 3.84
+  },
+  {
+    "text": "the experiment a total of 30 times from",
+    "start": 707.339,
+    "duration": 4.261
+  },
+  {
+    "text": "0 to 29 and every time I got certain",
+    "start": 709.14,
+    "duration": 4.8
+  },
+  {
+    "text": "value of w 1 and W naught and I just",
+    "start": 711.6,
+    "duration": 5.64
+  },
+  {
+    "text": "plotted those ah values right I just",
+    "start": 713.94,
+    "duration": 6.6
+  },
+  {
+    "text": "plotted those lines okay similarly I can",
+    "start": 717.24,
+    "duration": 6.44
+  },
+  {
+    "text": "do the same thing",
+    "start": 720.54,
+    "duration": 3.14
+  },
+  {
+    "text": "I can solve the same equation",
+    "start": 723.72,
+    "duration": 5.52
+  },
+  {
+    "text": "or I can try to find this minimum except",
+    "start": 726.839,
+    "duration": 5.341
+  },
+  {
+    "text": "that now my F at X",
+    "start": 729.24,
+    "duration": 5.46
+  },
+  {
+    "text": "I is going to be that degree 25",
+    "start": 732.18,
+    "duration": 5.279
+  },
+  {
+    "text": "polynomial which I show right so that",
+    "start": 734.7,
+    "duration": 4.8
+  },
+  {
+    "text": "does not change anything I'll just have",
+    "start": 737.459,
+    "duration": 4.5
+  },
+  {
+    "text": "the gradient computed accordingly and I",
+    "start": 739.5,
+    "duration": 3.839
+  },
+  {
+    "text": "could still use the gradient descent",
+    "start": 741.959,
+    "duration": 4.681
+  },
+  {
+    "text": "based algorithms to find the W's right",
+    "start": 743.339,
+    "duration": 5.281
+  },
+  {
+    "text": "so now I need to find 26 different",
+    "start": 746.64,
+    "duration": 5.46
+  },
+  {
+    "text": "values and once I find the values I can",
+    "start": 748.62,
+    "duration": 5.279
+  },
+  {
+    "text": "plug in those values in this equation",
+    "start": 752.1,
+    "duration": 4.679
+  },
+  {
+    "text": "and then for every value of x on the x",
+    "start": 753.899,
+    "duration": 5.94
+  },
+  {
+    "text": "axis I can find what F hat would be and",
+    "start": 756.779,
+    "duration": 5.461
+  },
+  {
+    "text": "I can plot that right and now again this",
+    "start": 759.839,
+    "duration": 4.081
+  },
+  {
+    "text": "I am going to repeat some 30 different",
+    "start": 762.24,
+    "duration": 3.779
+  },
+  {
+    "text": "times each time I am going to take a",
+    "start": 763.92,
+    "duration": 4.919
+  },
+  {
+    "text": "different 400 samples from the training",
+    "start": 766.019,
+    "duration": 4.44
+  },
+  {
+    "text": "data right a different sample of size",
+    "start": 768.839,
+    "duration": 3.721
+  },
+  {
+    "text": "400 from the training data and I am just",
+    "start": 770.459,
+    "duration": 4.081
+  },
+  {
+    "text": "going to plot that curve right so let's",
+    "start": 772.56,
+    "duration": 5.839
+  },
+  {
+    "text": "see what that curve looks like",
+    "start": 774.54,
+    "duration": 3.859
+  },
+  {
+    "text": "so every time you can see I am getting a",
+    "start": 778.92,
+    "duration": 5.06
+  },
+  {
+    "text": "different curve",
+    "start": 780.899,
+    "duration": 3.081
+  },
+  {
+    "text": "right you can see all the different",
+    "start": 788.279,
+    "duration": 5.12
+  },
+  {
+    "text": "curves that I am getting here",
+    "start": 789.6,
+    "duration": 3.799
+  },
+  {
+    "text": "okay I am done now right so you",
+    "start": 794.519,
+    "duration": 4.741
+  },
+  {
+    "text": "understood the procedure now let's try",
+    "start": 796.8,
+    "duration": 4.979
+  },
+  {
+    "text": "to make some observations from these",
+    "start": 799.26,
+    "duration": 4.94
+  },
+  {
+    "text": "plots",
+    "start": 801.779,
+    "duration": 2.421
+  },
+  {
+    "text": "so simple methods trained on different",
+    "start": 804.839,
+    "duration": 4.261
+  },
+  {
+    "text": "samples of the data do not differ from",
+    "start": 807.12,
+    "duration": 4.86
+  },
+  {
+    "text": "each other right so I had a total of 500",
+    "start": 809.1,
+    "duration": 6.62
+  },
+  {
+    "text": "training points given to me",
+    "start": 811.98,
+    "duration": 3.74
+  },
+  {
+    "text": "and I took different random samples of",
+    "start": 816.139,
+    "duration": 5.14
+  },
+  {
+    "text": "400 multiple times I took a different",
+    "start": 819.18,
+    "duration": 4.44
+  },
+  {
+    "text": "sample of 400 and each of these lines",
+    "start": 821.279,
+    "duration": 4.981
+  },
+  {
+    "text": "corresponds to one of those sample",
+    "start": 823.62,
+    "duration": 5.279
+  },
+  {
+    "text": "training data sets and I found the",
+    "start": 826.26,
+    "duration": 4.259
+  },
+  {
+    "text": "values of w and W naught and plotted",
+    "start": 828.899,
+    "duration": 2.821
+  },
+  {
+    "text": "this and you can see that all these",
+    "start": 830.519,
+    "duration": 2.581
+  },
+  {
+    "text": "lines are very close to each other right",
+    "start": 831.72,
+    "duration": 3.179
+  },
+  {
+    "text": "they are not really giving me different",
+    "start": 833.1,
+    "duration": 4.02
+  },
+  {
+    "text": "solutions right but the same thing when",
+    "start": 834.899,
+    "duration": 4.261
+  },
+  {
+    "text": "I do with the complex function you can",
+    "start": 837.12,
+    "duration": 3.3
+  },
+  {
+    "text": "see that all of these are quite",
+    "start": 839.16,
+    "duration": 2.4
+  },
+  {
+    "text": "different right so you have something",
+    "start": 840.42,
+    "duration": 3.419
+  },
+  {
+    "text": "which is going like this you have",
+    "start": 841.56,
+    "duration": 4.56
+  },
+  {
+    "text": "something which is going like this you",
+    "start": 843.839,
+    "duration": 3.661
+  },
+  {
+    "text": "have something which is going like this",
+    "start": 846.12,
+    "duration": 3.38
+  },
+  {
+    "text": "and so on right so all these",
+    "start": 847.5,
+    "duration": 4.32
+  },
+  {
+    "text": "functions which I am getting and these",
+    "start": 849.5,
+    "duration": 5.2
+  },
+  {
+    "text": "functions are plotted by ah substituting",
+    "start": 851.82,
+    "duration": 4.8
+  },
+  {
+    "text": "values for the following equation right",
+    "start": 854.7,
+    "duration": 4.74
+  },
+  {
+    "text": "so whatever I solve whatever Minima I",
+    "start": 856.62,
+    "duration": 4.38
+  },
+  {
+    "text": "get that will give me the value of the",
+    "start": 859.44,
+    "duration": 3.36
+  },
+  {
+    "text": "parameters I just plug in those",
+    "start": 861.0,
+    "duration": 4.56
+  },
+  {
+    "text": "parameters and plot it and every time I",
+    "start": 862.8,
+    "duration": 6.779
+  },
+  {
+    "text": "use a different sample of 400 my my uh",
+    "start": 865.56,
+    "duration": 6.839
+  },
+  {
+    "text": "the the the function which I get is",
+    "start": 869.579,
+    "duration": 4.681
+  },
+  {
+    "text": "different right it's quite all these I'm",
+    "start": 872.399,
+    "duration": 4.38
+  },
+  {
+    "text": "getting a lot of variety here a lot of",
+    "start": 874.26,
+    "duration": 4.5
+  },
+  {
+    "text": "variance here as opposed to in the",
+    "start": 876.779,
+    "duration": 3.601
+  },
+  {
+    "text": "simple model right so that's the",
+    "start": 878.76,
+    "duration": 5.12
+  },
+  {
+    "text": "observation that we are making",
+    "start": 880.38,
+    "duration": 3.5
+  },
+  {
+    "text": "so simple models do not differ from each",
+    "start": 887.88,
+    "duration": 5.1
+  },
+  {
+    "text": "other but they are far from the true",
+    "start": 890.399,
+    "duration": 4.44
+  },
+  {
+    "text": "sinusoidal curve right they should have",
+    "start": 892.98,
+    "duration": 4.62
+  },
+  {
+    "text": "been very close to the red curve but I",
+    "start": 894.839,
+    "duration": 5.641
+  },
+  {
+    "text": "mean the moment I chose a simple model I",
+    "start": 897.6,
+    "duration": 4.679
+  },
+  {
+    "text": "was just going to get a line right and",
+    "start": 900.48,
+    "duration": 3.659
+  },
+  {
+    "text": "my actual function happened to be a",
+    "start": 902.279,
+    "duration": 4.441
+  },
+  {
+    "text": "sinusoidal curve so I know that my model",
+    "start": 904.139,
+    "duration": 4.801
+  },
+  {
+    "text": "is going to be very bad no matter how",
+    "start": 906.72,
+    "duration": 4.26
+  },
+  {
+    "text": "well I try to fit it it's just trying to",
+    "start": 908.94,
+    "duration": 4.259
+  },
+  {
+    "text": "pass it like through the center if you",
+    "start": 910.98,
+    "duration": 4.44
+  },
+  {
+    "text": "are I mean some sort of ah pass it",
+    "start": 913.199,
+    "duration": 4.861
+  },
+  {
+    "text": "through the average uh it's getting some",
+    "start": 915.42,
+    "duration": 4.26
+  },
+  {
+    "text": "sort of a line which is kind of",
+    "start": 918.06,
+    "duration": 3.18
+  },
+  {
+    "text": "balancing the positive and negative",
+    "start": 919.68,
+    "duration": 3.54
+  },
+  {
+    "text": "points right so that's all I would get",
+    "start": 921.24,
+    "duration": 5.339
+  },
+  {
+    "text": "right and it's very far off from the ah",
+    "start": 923.22,
+    "duration": 4.979
+  },
+  {
+    "text": "True Value so what do I mean that mean",
+    "start": 926.579,
+    "duration": 3.901
+  },
+  {
+    "text": "by that is that suppose I substitute the",
+    "start": 928.199,
+    "duration": 4.681
+  },
+  {
+    "text": "value of x",
+    "start": 930.48,
+    "duration": 6.18
+  },
+  {
+    "text": "here right then my",
+    "start": 932.88,
+    "duration": 7.38
+  },
+  {
+    "text": "my predicted value is this whereas my",
+    "start": 936.66,
+    "duration": 6.66
+  },
+  {
+    "text": "true value is this right and there is a",
+    "start": 940.26,
+    "duration": 4.74
+  },
+  {
+    "text": "clear gap between the predicted and the",
+    "start": 943.32,
+    "duration": 3.3
+  },
+  {
+    "text": "True Value this is happening for the",
+    "start": 945.0,
+    "duration": 3.959
+  },
+  {
+    "text": "simple models but for the complex models",
+    "start": 946.62,
+    "duration": 4.5
+  },
+  {
+    "text": "while there is a huge variance in them",
+    "start": 948.959,
+    "duration": 4.74
+  },
+  {
+    "text": "you can see that on average the gap",
+    "start": 951.12,
+    "duration": 4.5
+  },
+  {
+    "text": "between the True Value",
+    "start": 953.699,
+    "duration": 4.5
+  },
+  {
+    "text": "and the predicted value",
+    "start": 955.62,
+    "duration": 4.86
+  },
+  {
+    "text": "is much smaller if you look at on",
+    "start": 958.199,
+    "duration": 6.0
+  },
+  {
+    "text": "average across the entire x axis then if",
+    "start": 960.48,
+    "duration": 5.82
+  },
+  {
+    "text": "you plug in different values of X and if",
+    "start": 964.199,
+    "duration": 4.14
+  },
+  {
+    "text": "you have to compute the error for all",
+    "start": 966.3,
+    "duration": 4.32
+  },
+  {
+    "text": "the values of X it's much smaller here",
+    "start": 968.339,
+    "duration": 5.281
+  },
+  {
+    "text": "as compared to the simple model that's",
+    "start": 970.62,
+    "duration": 4.98
+  },
+  {
+    "text": "visually clear right I mean the complex",
+    "start": 973.62,
+    "duration": 3.48
+  },
+  {
+    "text": "model is at least able to give me a",
+    "start": 975.6,
+    "duration": 3.72
+  },
+  {
+    "text": "sinusoidal shape whereas the simple",
+    "start": 977.1,
+    "duration": 6.44
+  },
+  {
+    "text": "model was not even able to do that right",
+    "start": 979.32,
+    "duration": 4.22
+  },
+  {
+    "text": "okay",
+    "start": 984.0,
+    "duration": 2.6
+  },
+  {
+    "text": "so these are just observations that you",
+    "start": 988.139,
+    "duration": 2.76
+  },
+  {
+    "text": "are making and then we will try to",
+    "start": 989.76,
+    "duration": 4.019
+  },
+  {
+    "text": "formalize these observations right",
+    "start": 990.899,
+    "duration": 5.401
+  },
+  {
+    "text": "yeah so simple models very close to each",
+    "start": 993.779,
+    "duration": 4.68
+  },
+  {
+    "text": "other not much variance between them",
+    "start": 996.3,
+    "duration": 4.44
+  },
+  {
+    "text": "complex models they're far from each",
+    "start": 998.459,
+    "duration": 4.021
+  },
+  {
+    "text": "other that means there's High variance",
+    "start": 1000.74,
+    "duration": 4.26
+  },
+  {
+    "text": "but simple models tend to underfit they",
+    "start": 1002.48,
+    "duration": 3.9
+  },
+  {
+    "text": "are not even able to give me a zero",
+    "start": 1005.0,
+    "duration": 2.639
+  },
+  {
+    "text": "error on the training data itself",
+    "start": 1006.38,
+    "duration": 3.84
+  },
+  {
+    "text": "whereas complex models are able to",
+    "start": 1007.639,
+    "duration": 4.801
+  },
+  {
+    "text": "overfit they are giving me close to zero",
+    "start": 1010.22,
+    "duration": 3.78
+  },
+  {
+    "text": "error on the training data at least some",
+    "start": 1012.44,
+    "duration": 2.88
+  },
+  {
+    "text": "of them on average are giving me close",
+    "start": 1014.0,
+    "duration": 3.6
+  },
+  {
+    "text": "to zero error on the training data right",
+    "start": 1015.32,
+    "duration": 4.68
+  },
+  {
+    "text": "so this is what is happening now so now",
+    "start": 1017.6,
+    "duration": 4.739
+  },
+  {
+    "text": "what I have drawn here I have the red",
+    "start": 1020.0,
+    "duration": 3.959
+  },
+  {
+    "text": "curve which is my true sinusoidal",
+    "start": 1022.339,
+    "duration": 4.321
+  },
+  {
+    "text": "function then the green curve that you",
+    "start": 1023.959,
+    "duration": 6.781
+  },
+  {
+    "text": "see that is the that is the average",
+    "start": 1026.66,
+    "duration": 7.679
+  },
+  {
+    "text": "value of x hat for the simple model so",
+    "start": 1030.74,
+    "duration": 6.62
+  },
+  {
+    "text": "what do I mean by that",
+    "start": 1034.339,
+    "duration": 3.021
+  },
+  {
+    "text": "what do I mean by that so I have",
+    "start": 1038.0,
+    "duration": 5.339
+  },
+  {
+    "text": "computed 25 different models right I",
+    "start": 1040.28,
+    "duration": 6.0
+  },
+  {
+    "text": "have each of these models now I plug in",
+    "start": 1043.339,
+    "duration": 5.34
+  },
+  {
+    "text": "a value of x into each of these models",
+    "start": 1046.28,
+    "duration": 6.06
+  },
+  {
+    "text": "okay and I get y's from each of these",
+    "start": 1048.679,
+    "duration": 6.061
+  },
+  {
+    "text": "models right now I take the average",
+    "start": 1052.34,
+    "duration": 5.1
+  },
+  {
+    "text": "value of that Y and I plot it so if I",
+    "start": 1054.74,
+    "duration": 6.12
+  },
+  {
+    "text": "plug in x equal to 0 I compute ah sorry",
+    "start": 1057.44,
+    "duration": 5.82
+  },
+  {
+    "text": "there were 30 models not 25 right so I",
+    "start": 1060.86,
+    "duration": 6.24
+  },
+  {
+    "text": "compute ah F hat of x",
+    "start": 1063.26,
+    "duration": 6.419
+  },
+  {
+    "text": "from all the 30 models and then take the",
+    "start": 1067.1,
+    "duration": 4.74
+  },
+  {
+    "text": "average and plot it similarly I plug in",
+    "start": 1069.679,
+    "duration": 4.681
+  },
+  {
+    "text": "the value as 0.1 pass it through all the",
+    "start": 1071.84,
+    "duration": 4.74
+  },
+  {
+    "text": "30 value or 30 models I substitute x",
+    "start": 1074.36,
+    "duration": 5.4
+  },
+  {
+    "text": "equal to 0.1 I get 30 different y's I",
+    "start": 1076.58,
+    "duration": 5.219
+  },
+  {
+    "text": "take the average of that and I plot it",
+    "start": 1079.76,
+    "duration": 4.44
+  },
+  {
+    "text": "right so what I am plotting here is the",
+    "start": 1081.799,
+    "duration": 6.0
+  },
+  {
+    "text": "average value of f hat X of the simple",
+    "start": 1084.2,
+    "duration": 6.3
+  },
+  {
+    "text": "for the 30 simple models similarly the",
+    "start": 1087.799,
+    "duration": 5.221
+  },
+  {
+    "text": "blue curve is the average value of f hat",
+    "start": 1090.5,
+    "duration": 5.82
+  },
+  {
+    "text": "X for the complex model right so ah this",
+    "start": 1093.02,
+    "duration": 5.22
+  },
+  {
+    "text": "is the what what I am trying to do here",
+    "start": 1096.32,
+    "duration": 3.96
+  },
+  {
+    "text": "is the average value and you know that",
+    "start": 1098.24,
+    "duration": 3.78
+  },
+  {
+    "text": "the average I can also call it as the",
+    "start": 1100.28,
+    "duration": 4.139
+  },
+  {
+    "text": "expected value right so the mean is the",
+    "start": 1102.02,
+    "duration": 4.38
+  },
+  {
+    "text": "same as the expected value so that is",
+    "start": 1104.419,
+    "duration": 3.781
+  },
+  {
+    "text": "what I am drawing here empirically right",
+    "start": 1106.4,
+    "duration": 3.42
+  },
+  {
+    "text": "I'm just trying to draw the expected",
+    "start": 1108.2,
+    "duration": 4.14
+  },
+  {
+    "text": "value for the green curve as well as the",
+    "start": 1109.82,
+    "duration": 4.38
+  },
+  {
+    "text": "for the simple model which is the green",
+    "start": 1112.34,
+    "duration": 4.02
+  },
+  {
+    "text": "line and for the complex model which is",
+    "start": 1114.2,
+    "duration": 5.099
+  },
+  {
+    "text": "the blue curve right and now I can",
+    "start": 1116.36,
+    "duration": 5.76
+  },
+  {
+    "text": "define a quantity called bias which is",
+    "start": 1119.299,
+    "duration": 5.88
+  },
+  {
+    "text": "the difference between the average value",
+    "start": 1122.12,
+    "duration": 6.059
+  },
+  {
+    "text": "and the True Value right so it's for the",
+    "start": 1125.179,
+    "duration": 4.921
+  },
+  {
+    "text": "simple model its difference between the",
+    "start": 1128.179,
+    "duration": 5.221
+  },
+  {
+    "text": "Green curve or the green line and the",
+    "start": 1130.1,
+    "duration": 4.86
+  },
+  {
+    "text": "red curve right and how do I compute",
+    "start": 1133.4,
+    "duration": 3.779
+  },
+  {
+    "text": "that difference I can just compute it by",
+    "start": 1134.96,
+    "duration": 4.2
+  },
+  {
+    "text": "summing it up over all the points right",
+    "start": 1137.179,
+    "duration": 4.201
+  },
+  {
+    "text": "so for every Point Let's assume you just",
+    "start": 1139.16,
+    "duration": 5.04
+  },
+  {
+    "text": "have 100 points on this axis then for",
+    "start": 1141.38,
+    "duration": 6.0
+  },
+  {
+    "text": "all the hundred points I can compute",
+    "start": 1144.2,
+    "duration": 5.88
+  },
+  {
+    "text": "what the average value is going to be",
+    "start": 1147.38,
+    "duration": 6.84
+  },
+  {
+    "text": "right that is the green value minus the",
+    "start": 1150.08,
+    "duration": 6.839
+  },
+  {
+    "text": "red value and the square of that right",
+    "start": 1154.22,
+    "duration": 6.24
+  },
+  {
+    "text": "so that is what my ah average",
+    "start": 1156.919,
+    "duration": 5.581
+  },
+  {
+    "text": "error is going to be but what I am",
+    "start": 1160.46,
+    "duration": 4.92
+  },
+  {
+    "text": "defining as the bias is that whatever is",
+    "start": 1162.5,
+    "duration": 6.0
+  },
+  {
+    "text": "the average value",
+    "start": 1165.38,
+    "duration": 7.02
+  },
+  {
+    "text": "right that divided by sorry that minus",
+    "start": 1168.5,
+    "duration": 6.0
+  },
+  {
+    "text": "the True Value right so that's what the",
+    "start": 1172.4,
+    "duration": 5.1
+  },
+  {
+    "text": "bias is so the bias is defined as the",
+    "start": 1174.5,
+    "duration": 7.5
+  },
+  {
+    "text": "expected value of the prediction minus",
+    "start": 1177.5,
+    "duration": 6.72
+  },
+  {
+    "text": "the True Value that you would have had",
+    "start": 1182.0,
+    "duration": 6.799
+  },
+  {
+    "text": "right so that's what the bias is",
+    "start": 1184.22,
+    "duration": 4.579
+  },
+  {
+    "text": "so in simple terms this quantity here",
+    "start": 1189.679,
+    "duration": 8.701
+  },
+  {
+    "text": "is the green ah value and this is the",
+    "start": 1194.36,
+    "duration": 6.0
+  },
+  {
+    "text": "red value right so that is what you are",
+    "start": 1198.38,
+    "duration": 5.7
+  },
+  {
+    "text": "defining as the ah expected uh as the",
+    "start": 1200.36,
+    "duration": 6.54
+  },
+  {
+    "text": "bias okay now",
+    "start": 1204.08,
+    "duration": 6.5
+  },
+  {
+    "text": "what is clear is that",
+    "start": 1206.9,
+    "duration": 3.68
+  },
+  {
+    "text": "for the simple model",
+    "start": 1213.08,
+    "duration": 3.9
+  },
+  {
+    "text": "the average value is very far from the",
+    "start": 1215.0,
+    "duration": 4.26
+  },
+  {
+    "text": "True Value that means the bias is going",
+    "start": 1216.98,
+    "duration": 5.059
+  },
+  {
+    "text": "to be very high for a simple model",
+    "start": 1219.26,
+    "duration": 5.94
+  },
+  {
+    "text": "ah whereas for the complex model the",
+    "start": 1222.039,
+    "duration": 5.14
+  },
+  {
+    "text": "bias is going to be low because the",
+    "start": 1225.2,
+    "duration": 4.02
+  },
+  {
+    "text": "average value which is the blue curve is",
+    "start": 1227.179,
+    "duration": 4.321
+  },
+  {
+    "text": "very close to the red curve right so",
+    "start": 1229.22,
+    "duration": 4.14
+  },
+  {
+    "text": "bias is the difference between the",
+    "start": 1231.5,
+    "duration": 3.059
+  },
+  {
+    "text": "average value",
+    "start": 1233.36,
+    "duration": 4.74
+  },
+  {
+    "text": "or the expected value of the model ah so",
+    "start": 1234.559,
+    "duration": 5.521
+  },
+  {
+    "text": "why is there an expectation here because",
+    "start": 1238.1,
+    "duration": 3.54
+  },
+  {
+    "text": "where is the randomness coming from you",
+    "start": 1240.08,
+    "duration": 3.24
+  },
+  {
+    "text": "are taking different random samples of",
+    "start": 1241.64,
+    "duration": 3.48
+  },
+  {
+    "text": "the training data right so you might get",
+    "start": 1243.32,
+    "duration": 3.479
+  },
+  {
+    "text": "if I give you one lakh samples for",
+    "start": 1245.12,
+    "duration": 4.559
+  },
+  {
+    "text": "training I I might just have gotten this",
+    "start": 1246.799,
+    "duration": 4.441
+  },
+  {
+    "text": "random sample from somewhere and giving",
+    "start": 1249.679,
+    "duration": 3.061
+  },
+  {
+    "text": "it to you right so I might be able to",
+    "start": 1251.24,
+    "duration": 4.2
+  },
+  {
+    "text": "depending on what random sample of the",
+    "start": 1252.74,
+    "duration": 4.799
+  },
+  {
+    "text": "training data I have given you you would",
+    "start": 1255.44,
+    "duration": 5.099
+  },
+  {
+    "text": "get different uh F hat X which means you",
+    "start": 1257.539,
+    "duration": 4.861
+  },
+  {
+    "text": "will get different values for the",
+    "start": 1260.539,
+    "duration": 4.081
+  },
+  {
+    "text": "parameters so across all these different",
+    "start": 1262.4,
+    "duration": 4.74
+  },
+  {
+    "text": "ah values of the parameters if I take",
+    "start": 1264.62,
+    "duration": 4.32
+  },
+  {
+    "text": "the expected value and then try to find",
+    "start": 1267.14,
+    "duration": 4.74
+  },
+  {
+    "text": "the difference from the True Value then",
+    "start": 1268.94,
+    "duration": 5.34
+  },
+  {
+    "text": "that's what the bias is and you can see",
+    "start": 1271.88,
+    "duration": 4.86
+  },
+  {
+    "text": "that the green curve is ah much farther",
+    "start": 1274.28,
+    "duration": 4.08
+  },
+  {
+    "text": "from the red curve so the bias is high",
+    "start": 1276.74,
+    "duration": 4.02
+  },
+  {
+    "text": "whereas the blue curve is closer to the",
+    "start": 1278.36,
+    "duration": 5.36
+  },
+  {
+    "text": "red curve so the bias is low right so",
+    "start": 1280.76,
+    "duration": 4.799
+  },
+  {
+    "text": "informally we are seeing that simple",
+    "start": 1283.72,
+    "duration": 3.64
+  },
+  {
+    "text": "models have a high bias and complex",
+    "start": 1285.559,
+    "duration": 4.261
+  },
+  {
+    "text": "models have a low bias right so let us",
+    "start": 1287.36,
+    "duration": 4.02
+  },
+  {
+    "text": "continue with the discussion and now we",
+    "start": 1289.82,
+    "duration": 4.02
+  },
+  {
+    "text": "will Define one more quantity which is",
+    "start": 1291.38,
+    "duration": 4.08
+  },
+  {
+    "text": "the variance right and variance is",
+    "start": 1293.84,
+    "duration": 3.48
+  },
+  {
+    "text": "something that I think most of you know",
+    "start": 1295.46,
+    "duration": 5.4
+  },
+  {
+    "text": "so variance is just the expectation",
+    "start": 1297.32,
+    "duration": 6.62
+  },
+  {
+    "text": "of the",
+    "start": 1300.86,
+    "duration": 3.08
+  },
+  {
+    "text": "of how far is a given value away from",
+    "start": 1306.08,
+    "duration": 7.14
+  },
+  {
+    "text": "the expected value right so what does",
+    "start": 1310.4,
+    "duration": 5.639
+  },
+  {
+    "text": "that mean so you have this ah suppose",
+    "start": 1313.22,
+    "duration": 5.579
+  },
+  {
+    "text": "you take any one blue line from here and",
+    "start": 1316.039,
+    "duration": 5.581
+  },
+  {
+    "text": "then you had that green line or the",
+    "start": 1318.799,
+    "duration": 6.181
+  },
+  {
+    "text": "green curve which was the average right",
+    "start": 1321.62,
+    "duration": 4.5
+  },
+  {
+    "text": "maybe I should have used the right",
+    "start": 1324.98,
+    "duration": 4.319
+  },
+  {
+    "text": "colors let me just use the right colors",
+    "start": 1326.12,
+    "duration": 5.76
+  },
+  {
+    "text": "yeah so suppose I take any one of these",
+    "start": 1329.299,
+    "duration": 5.941
+  },
+  {
+    "text": "blue lines from here and then I had the",
+    "start": 1331.88,
+    "duration": 6.659
+  },
+  {
+    "text": "green curve which was the average right",
+    "start": 1335.24,
+    "duration": 6.919
+  },
+  {
+    "text": "and it looks something like this",
+    "start": 1338.539,
+    "duration": 3.62
+  },
+  {
+    "text": "then ah for every blue line I can find",
+    "start": 1343.159,
+    "duration": 8.281
+  },
+  {
+    "text": "the difference from the green line right",
+    "start": 1348.26,
+    "duration": 5.1
+  },
+  {
+    "text": "that is what I am trying to do and I can",
+    "start": 1351.44,
+    "duration": 3.9
+  },
+  {
+    "text": "take the square of that difference and",
+    "start": 1353.36,
+    "duration": 3.96
+  },
+  {
+    "text": "then I can do this for all the blue",
+    "start": 1355.34,
+    "duration": 3.6
+  },
+  {
+    "text": "lines that I had and that's where the",
+    "start": 1357.32,
+    "duration": 3.719
+  },
+  {
+    "text": "expectation is coming from so that's the",
+    "start": 1358.94,
+    "duration": 3.599
+  },
+  {
+    "text": "variance right so it's the difference",
+    "start": 1361.039,
+    "duration": 6.12
+  },
+  {
+    "text": "between uh the predicted value minus",
+    "start": 1362.539,
+    "duration": 6.541
+  },
+  {
+    "text": "sorry it's the difference between the",
+    "start": 1367.159,
+    "duration": 4.861
+  },
+  {
+    "text": "given model and the expected value of",
+    "start": 1369.08,
+    "duration": 5.04
+  },
+  {
+    "text": "the model the square of that difference",
+    "start": 1372.02,
+    "duration": 3.539
+  },
+  {
+    "text": "and the expectation of that right so",
+    "start": 1374.12,
+    "duration": 3.059
+  },
+  {
+    "text": "this is very similar to I mean this is",
+    "start": 1375.559,
+    "duration": 3.181
+  },
+  {
+    "text": "the definition of variance that you know",
+    "start": 1377.179,
+    "duration": 4.5
+  },
+  {
+    "text": "from statistic right so you could look",
+    "start": 1378.74,
+    "duration": 4.86
+  },
+  {
+    "text": "at it as suppose a fat of X you can",
+    "start": 1381.679,
+    "duration": 4.5
+  },
+  {
+    "text": "think of it as a random variable Z then",
+    "start": 1383.6,
+    "duration": 5.78
+  },
+  {
+    "text": "this is essentially expected value of Z",
+    "start": 1386.179,
+    "duration": 6.781
+  },
+  {
+    "text": "minus expected value of Z",
+    "start": 1389.38,
+    "duration": 5.32
+  },
+  {
+    "text": "the whole Square",
+    "start": 1392.96,
+    "duration": 4.38
+  },
+  {
+    "text": "and this is essentially the definition",
+    "start": 1394.7,
+    "duration": 5.4
+  },
+  {
+    "text": "of variance so all you have is here the",
+    "start": 1397.34,
+    "duration": 5.28
+  },
+  {
+    "text": "Z is the F hat X which is a random",
+    "start": 1400.1,
+    "duration": 5.579
+  },
+  {
+    "text": "variable because it is random depending",
+    "start": 1402.62,
+    "duration": 4.799
+  },
+  {
+    "text": "on the training samples that you have",
+    "start": 1405.679,
+    "duration": 3.961
+  },
+  {
+    "text": "you will get different blue lines and",
+    "start": 1407.419,
+    "duration": 3.781
+  },
+  {
+    "text": "hence there is a Randomness there right",
+    "start": 1409.64,
+    "duration": 2.46
+  },
+  {
+    "text": "so this is the standard definition",
+    "start": 1411.2,
+    "duration": 3.54
+  },
+  {
+    "text": "nothing much to say here but this is",
+    "start": 1412.1,
+    "duration": 5.76
+  },
+  {
+    "text": "what the bias looks like",
+    "start": 1414.74,
+    "duration": 7.08
+  },
+  {
+    "text": "now what do we off uh see that all the",
+    "start": 1417.86,
+    "duration": 7.439
+  },
+  {
+    "text": "blue lines are actually very close to",
+    "start": 1421.82,
+    "duration": 5.339
+  },
+  {
+    "text": "the ah green line right which was there",
+    "start": 1425.299,
+    "duration": 3.481
+  },
+  {
+    "text": "on the previous slide that means they",
+    "start": 1427.159,
+    "duration": 3.241
+  },
+  {
+    "text": "are not very far away from the average",
+    "start": 1428.78,
+    "duration": 3.779
+  },
+  {
+    "text": "and hence the variance is going to be",
+    "start": 1430.4,
+    "duration": 3.96
+  },
+  {
+    "text": "small for the simple models right",
+    "start": 1432.559,
+    "duration": 4.381
+  },
+  {
+    "text": "whereas for the complex models you can",
+    "start": 1434.36,
+    "duration": 5.28
+  },
+  {
+    "text": "see that some of the blue lines are",
+    "start": 1436.94,
+    "duration": 4.859
+  },
+  {
+    "text": "actually very far off from the average",
+    "start": 1439.64,
+    "duration": 5.399
+  },
+  {
+    "text": "that we had right so the blue curve",
+    "start": 1441.799,
+    "duration": 5.581
+  },
+  {
+    "text": "sorry not the blue lines so the here you",
+    "start": 1445.039,
+    "duration": 4.441
+  },
+  {
+    "text": "have quite a bit of variance that you",
+    "start": 1447.38,
+    "duration": 5.159
+  },
+  {
+    "text": "have right you can see that visually so",
+    "start": 1449.48,
+    "duration": 6.179
+  },
+  {
+    "text": "you for the same input X",
+    "start": 1452.539,
+    "duration": 4.62
+  },
+  {
+    "text": "there's a quite a bit of difference",
+    "start": 1455.659,
+    "duration": 4.5
+  },
+  {
+    "text": "between the predicted value based on the",
+    "start": 1457.159,
+    "duration": 4.741
+  },
+  {
+    "text": "different models that you have trained",
+    "start": 1460.159,
+    "duration": 2.76
+  },
+  {
+    "text": "right",
+    "start": 1461.9,
+    "duration": 2.88
+  },
+  {
+    "text": "there's quite a bit of gaps one model is",
+    "start": 1462.919,
+    "duration": 3.421
+  },
+  {
+    "text": "predicting the value here the other",
+    "start": 1464.78,
+    "duration": 3.0
+  },
+  {
+    "text": "model is predicting a value here",
+    "start": 1466.34,
+    "duration": 4.079
+  },
+  {
+    "text": "similarly here if you look at for this",
+    "start": 1467.78,
+    "duration": 4.74
+  },
+  {
+    "text": "point one model is predicting the value",
+    "start": 1470.419,
+    "duration": 3.481
+  },
+  {
+    "text": "here there's another model which is",
+    "start": 1472.52,
+    "duration": 3.36
+  },
+  {
+    "text": "predicting value here so there is quite",
+    "start": 1473.9,
+    "duration": 4.92
+  },
+  {
+    "text": "a bit of variance in the values that are",
+    "start": 1475.88,
+    "duration": 5.76
+  },
+  {
+    "text": "you are obtaining for f hat of X right",
+    "start": 1478.82,
+    "duration": 5.52
+  },
+  {
+    "text": "and hence the variance",
+    "start": 1481.64,
+    "duration": 4.5
+  },
+  {
+    "text": "so for the complex models the variance",
+    "start": 1484.34,
+    "duration": 3.42
+  },
+  {
+    "text": "is going to be high right so that's",
+    "start": 1486.14,
+    "duration": 3.24
+  },
+  {
+    "text": "that's what we have observed so in",
+    "start": 1487.76,
+    "duration": 3.299
+  },
+  {
+    "text": "summary informally what have we observed",
+    "start": 1489.38,
+    "duration": 3.779
+  },
+  {
+    "text": "that simple models have high bias low",
+    "start": 1491.059,
+    "duration": 4.561
+  },
+  {
+    "text": "variance complex models have low bias",
+    "start": 1493.159,
+    "duration": 4.681
+  },
+  {
+    "text": "High variance and now there is always a",
+    "start": 1495.62,
+    "duration": 3.72
+  },
+  {
+    "text": "trade-off between the bias and the",
+    "start": 1497.84,
+    "duration": 3.78
+  },
+  {
+    "text": "variance right so now I can't say that",
+    "start": 1499.34,
+    "duration": 3.6
+  },
+  {
+    "text": "let's always choose a complex model",
+    "start": 1501.62,
+    "duration": 2.58
+  },
+  {
+    "text": "because I know that if I choose a",
+    "start": 1502.94,
+    "duration": 4.619
+  },
+  {
+    "text": "complex model I'll have a low bias right",
+    "start": 1504.2,
+    "duration": 6.0
+  },
+  {
+    "text": "which means I'll be able to overfit the",
+    "start": 1507.559,
+    "duration": 4.561
+  },
+  {
+    "text": "training data but I also have a high",
+    "start": 1510.2,
+    "duration": 4.38
+  },
+  {
+    "text": "variance that means that depending on",
+    "start": 1512.12,
+    "duration": 4.62
+  },
+  {
+    "text": "the training data that I had gone my",
+    "start": 1514.58,
+    "duration": 4.079
+  },
+  {
+    "text": "models would be quite different from",
+    "start": 1516.74,
+    "duration": 3.24
+  },
+  {
+    "text": "each other and that's not what I want",
+    "start": 1518.659,
+    "duration": 3.361
+  },
+  {
+    "text": "right because if my models depending on",
+    "start": 1519.98,
+    "duration": 3.6
+  },
+  {
+    "text": "the training data that I've got if my",
+    "start": 1522.02,
+    "duration": 3.24
+  },
+  {
+    "text": "models are largely different from each",
+    "start": 1523.58,
+    "duration": 3.18
+  },
+  {
+    "text": "other then I don't know how they'll",
+    "start": 1525.26,
+    "duration": 3.299
+  },
+  {
+    "text": "perform on a test data so let's let's",
+    "start": 1526.76,
+    "duration": 4.32
+  },
+  {
+    "text": "look at what I mean by that right so",
+    "start": 1528.559,
+    "duration": 4.681
+  },
+  {
+    "text": "suppose my model has a very high",
+    "start": 1531.08,
+    "duration": 4.38
+  },
+  {
+    "text": "variance so this is one training data",
+    "start": 1533.24,
+    "duration": 3.66
+  },
+  {
+    "text": "this was the other training data right",
+    "start": 1535.46,
+    "duration": 4.56
+  },
+  {
+    "text": "and I predicted some f hat of X using",
+    "start": 1536.9,
+    "duration": 4.8
+  },
+  {
+    "text": "this training data or estimated some",
+    "start": 1540.02,
+    "duration": 4.74
+  },
+  {
+    "text": "effect of X and now again using this if",
+    "start": 1541.7,
+    "duration": 4.68
+  },
+  {
+    "text": "these two are very different from each",
+    "start": 1544.76,
+    "duration": 4.14
+  },
+  {
+    "text": "other right so now let us assume this",
+    "start": 1546.38,
+    "duration": 4.14
+  },
+  {
+    "text": "was the actual training data given to me",
+    "start": 1548.9,
+    "duration": 3.96
+  },
+  {
+    "text": "then this is what my model would have",
+    "start": 1550.52,
+    "duration": 4.5
+  },
+  {
+    "text": "been right but now if I get a test",
+    "start": 1552.86,
+    "duration": 4.679
+  },
+  {
+    "text": "instance which belongs here then this",
+    "start": 1555.02,
+    "duration": 4.56
+  },
+  {
+    "text": "model will do a bad job on that right",
+    "start": 1557.539,
+    "duration": 4.321
+  },
+  {
+    "text": "because if I had been given this as the",
+    "start": 1559.58,
+    "duration": 4.62
+  },
+  {
+    "text": "training data then my F at X would have",
+    "start": 1561.86,
+    "duration": 4.08
+  },
+  {
+    "text": "been quite different which means the",
+    "start": 1564.2,
+    "duration": 4.92
+  },
+  {
+    "text": "current F at X would not have been very",
+    "start": 1565.94,
+    "duration": 5.76
+  },
+  {
+    "text": "similar to this F hat X and that means",
+    "start": 1569.12,
+    "duration": 4.38
+  },
+  {
+    "text": "if I had a test instance from here this",
+    "start": 1571.7,
+    "duration": 3.38
+  },
+  {
+    "text": "model would perform very bad right",
+    "start": 1573.5,
+    "duration": 4.74
+  },
+  {
+    "text": "whereas if my model has a low variance",
+    "start": 1575.08,
+    "duration": 5.86
+  },
+  {
+    "text": "then irrespective of what training data",
+    "start": 1578.24,
+    "duration": 5.52
+  },
+  {
+    "text": "I have all my f hat X's would be very",
+    "start": 1580.94,
+    "duration": 4.8
+  },
+  {
+    "text": "close to each other so now if I had used",
+    "start": 1583.76,
+    "duration": 3.6
+  },
+  {
+    "text": "this as a training data and then my test",
+    "start": 1585.74,
+    "duration": 3.319
+  },
+  {
+    "text": "data comes from any of these other",
+    "start": 1587.36,
+    "duration": 4.439
+  },
+  {
+    "text": "remaining data then I do not have a",
+    "start": 1589.059,
+    "duration": 4.48
+  },
+  {
+    "text": "problem because my f hat X would have",
+    "start": 1591.799,
+    "duration": 4.081
+  },
+  {
+    "text": "been similar right but at the same time",
+    "start": 1593.539,
+    "duration": 5.041
+  },
+  {
+    "text": "it should not be the case that this low",
+    "start": 1595.88,
+    "duration": 4.799
+  },
+  {
+    "text": "variance is coming with high bias",
+    "start": 1598.58,
+    "duration": 4.199
+  },
+  {
+    "text": "because if there is high bias then I",
+    "start": 1600.679,
+    "duration": 3.901
+  },
+  {
+    "text": "know that all my f hat X's would be",
+    "start": 1602.779,
+    "duration": 3.541
+  },
+  {
+    "text": "close to each other but then they will",
+    "start": 1604.58,
+    "duration": 3.839
+  },
+  {
+    "text": "be far away from the true function which",
+    "start": 1606.32,
+    "duration": 3.479
+  },
+  {
+    "text": "is again useless to me right so there",
+    "start": 1608.419,
+    "duration": 4.14
+  },
+  {
+    "text": "has to be this balance that you want",
+    "start": 1609.799,
+    "duration": 5.821
+  },
+  {
+    "text": "like you want a low bias by the same",
+    "start": 1612.559,
+    "duration": 5.401
+  },
+  {
+    "text": "time you don't want a high variance or",
+    "start": 1615.62,
+    "duration": 4.26
+  },
+  {
+    "text": "you do other way of looking at it is",
+    "start": 1617.96,
+    "duration": 2.94
+  },
+  {
+    "text": "that",
+    "start": 1619.88,
+    "duration": 3.24
+  },
+  {
+    "text": "you want low variance but at the same",
+    "start": 1620.9,
+    "duration": 3.899
+  },
+  {
+    "text": "time you don't want a high bias in the",
+    "start": 1623.12,
+    "duration": 2.939
+  },
+  {
+    "text": "model right so you want like reasonable",
+    "start": 1624.799,
+    "duration": 3.721
+  },
+  {
+    "text": "variance reasonable bias so that your",
+    "start": 1626.059,
+    "duration": 5.401
+  },
+  {
+    "text": "different models are not far off from",
+    "start": 1628.52,
+    "duration": 5.1
+  },
+  {
+    "text": "each other at the same time your model",
+    "start": 1631.46,
+    "duration": 6.24
+  },
+  {
+    "text": "is not far off from the true uh function",
+    "start": 1633.62,
+    "duration": 5.7
+  },
+  {
+    "text": "that you have it so that's why this",
+    "start": 1637.7,
+    "duration": 4.2
+  },
+  {
+    "text": "trade-off is there that you want medium",
+    "start": 1639.32,
+    "duration": 6.0
+  },
+  {
+    "text": "variance and medium bias right and turns",
+    "start": 1641.9,
+    "duration": 6.259
+  },
+  {
+    "text": "out ah",
+    "start": 1645.32,
+    "duration": 2.839
+  },
+  {
+    "text": "that both bias and variants actually",
+    "start": 1648.38,
+    "duration": 4.08
+  },
+  {
+    "text": "contribute to the mean square error",
+    "start": 1650.72,
+    "duration": 2.88
+  },
+  {
+    "text": "right so let's see what the mean square",
+    "start": 1652.46,
+    "duration": 2.699
+  },
+  {
+    "text": "error is of course we have seen it a",
+    "start": 1653.6,
+    "duration": 3.48
+  },
+  {
+    "text": "million times but let us see again in",
+    "start": 1655.159,
+    "duration": 3.721
+  },
+  {
+    "text": "the context of bias and variance right",
+    "start": 1657.08,
+    "duration": 3.54
+  },
+  {
+    "text": "so I'll end this video here and then",
+    "start": 1658.88,
+    "duration": 4.02
+  },
+  {
+    "text": "we'll talk about uh mean square error in",
+    "start": 1660.62,
+    "duration": 4.7
+  },
+  {
+    "text": "the next video",
+    "start": 1662.9,
+    "duration": 2.42
+  }
+]

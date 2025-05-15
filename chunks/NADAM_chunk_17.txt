@@ -1,0 +1,9 @@
+the one minus beta beta terms that you see here now let me just clear the all the annotations these.
+are simply because when we are doing nag or when we are discussing whatever we discussed before coming to this.
+slide we did not have this one minus beta terms and this one minus beta term shows up here and.
+the beta term shows up here and the denominator is simply corresponding to the bias correction that we do right.
+so so that's that's all about madame and now let's see how it works in practice so look at an.
+example uh yeah so I'll just run it and you can see the same nestro effect here right so the.
+blue curve corresponds to an atom and I'll just run it again for your benefit you can see that the.
+blue curve has smaller oscillations as compared to the black curve and that's the natural effect that you were hoping.
+for right so that's that's all about madame uh so now which Optimizer to use I think uh uh the.

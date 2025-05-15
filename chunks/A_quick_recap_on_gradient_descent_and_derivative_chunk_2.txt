@@ -1,0 +1,9 @@
+right now today what we are going to do is we are going to look at various variants of the.
+gradient descent algorithm and so to do that we'll first start with quickly revising the gradient descent algorithm that we.
+had done and then we'll point out some peculiarities that we see there and then we'll keep trying to fix.
+those peculiarities right we'll say okay this looks bad let's try to work around it we'll propose something new then.
+we'll say okay this is fine but this has some other problems let's try to fix that fix that and.
+it'll keep going to a series of uh algorithms which are all variants of the basic gradient descent algorithm okay.
+so that's the agenda so with that the first 5-10 minutes is going to be like at a Brisk Pace.
+where I have these around 30 slides on gradient descent which we have already covered uh in the lecture three.
+uh like lecture three meaning the slide which had the title lecture three uh so those I'm going to rush.

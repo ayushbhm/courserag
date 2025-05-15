@@ -1,0 +1,9 @@
+when the in the negative region right and so on so we did all that and now we look at.
+continue our journey on a more activation functions we'll do around three to four more uh starting with the max.
+out activation function right so we'll motivate that uh starting with Dropout and then try to connect it to how.
+there is some uh kind of I wouldn't say relationship but some analogy that you could draw from Dropout okay.
+so we had discussed about this model averaging where you have a data set and you create sub data sets.
+from here by sampling with replacement what do I mean by that so I have say a thousand data points.
+okay I want to create another data set of thousand uh data points uh as how I will do that.
+is I'll pick one training example from the original data set put it in this bucket right and then keep.
+the training example here also it's not being removed so it's not that now you have 999 samples here you.

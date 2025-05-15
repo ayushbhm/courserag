@@ -1,0 +1,2007 @@
+[
+  {
+    "text": "foreign",
+    "start": 0.299,
+    "duration": 3.0
+  },
+  {
+    "text": "[Music]",
+    "start": 6.62,
+    "duration": 3.739
+  },
+  {
+    "text": "so first let's see people who try to",
+    "start": 19.14,
+    "duration": 3.719
+  },
+  {
+    "text": "hint that this is perhaps due to better",
+    "start": 21.3,
+    "duration": 3.54
+  },
+  {
+    "text": "optimization right so what is",
+    "start": 22.859,
+    "duration": 3.18
+  },
+  {
+    "text": "optimization problem that we're trying",
+    "start": 24.84,
+    "duration": 2.04
+  },
+  {
+    "text": "to solve this is the problem",
+    "start": 26.039,
+    "duration": 2.4
+  },
+  {
+    "text": "optimization problem we are trying to",
+    "start": 26.88,
+    "duration": 3.96
+  },
+  {
+    "text": "reduce the mean squared error so what is",
+    "start": 28.439,
+    "duration": 3.361
+  },
+  {
+    "text": "the optimization problem that we're",
+    "start": 30.84,
+    "duration": 1.98
+  },
+  {
+    "text": "trying to solve this is the problem",
+    "start": 31.8,
+    "duration": 2.58
+  },
+  {
+    "text": "optimization problem we are trying to",
+    "start": 32.82,
+    "duration": 3.96
+  },
+  {
+    "text": "reduce the mean square error cross into",
+    "start": 34.38,
+    "duration": 4.32
+  },
+  {
+    "text": "velocity whatever on the training data",
+    "start": 36.78,
+    "duration": 2.88
+  },
+  {
+    "text": "right",
+    "start": 38.7,
+    "duration": 3.6
+  },
+  {
+    "text": "uh is it the case that in the absence of",
+    "start": 39.66,
+    "duration": 4.559
+  },
+  {
+    "text": "unsupervised pre-training this problem",
+    "start": 42.3,
+    "duration": 3.66
+  },
+  {
+    "text": "itself is hard you cannot really reduce",
+    "start": 44.219,
+    "duration": 4.261
+  },
+  {
+    "text": "L Theta to zero but now once you do",
+    "start": 45.96,
+    "duration": 4.619
+  },
+  {
+    "text": "unsupervised pre-training L Theta is",
+    "start": 48.48,
+    "duration": 4.14
+  },
+  {
+    "text": "able to reduce to zero hence earlier you",
+    "start": 50.579,
+    "duration": 3.721
+  },
+  {
+    "text": "had poor optimization but now you have",
+    "start": 52.62,
+    "duration": 3.54
+  },
+  {
+    "text": "better optimization right so let us see",
+    "start": 54.3,
+    "duration": 4.5
+  },
+  {
+    "text": "this right so the error surface as I",
+    "start": 56.16,
+    "duration": 4.379
+  },
+  {
+    "text": "said for a deep neural network is highly",
+    "start": 58.8,
+    "duration": 3.18
+  },
+  {
+    "text": "non-connection it has these many",
+    "start": 60.539,
+    "duration": 4.02
+  },
+  {
+    "text": "plateaus many valleys some very steep",
+    "start": 61.98,
+    "duration": 4.139
+  },
+  {
+    "text": "points where you go in and then it's",
+    "start": 64.559,
+    "duration": 3.06
+  },
+  {
+    "text": "very hard to come out and so on right",
+    "start": 66.119,
+    "duration": 3.0
+  },
+  {
+    "text": "and somewhere there would be multiple",
+    "start": 67.619,
+    "duration": 4.32
+  },
+  {
+    "text": "Minima then possibly one Global Minima",
+    "start": 69.119,
+    "duration": 5.401
+  },
+  {
+    "text": "and so on it or multiple equal minimize",
+    "start": 71.939,
+    "duration": 4.461
+  },
+  {
+    "text": "so it's like a hardly a highly con",
+    "start": 74.52,
+    "duration": 4.68
+  },
+  {
+    "text": "complex non-convex surface as opposed to",
+    "start": 76.4,
+    "duration": 4.78
+  },
+  {
+    "text": "a nice convex surface we just have one",
+    "start": 79.2,
+    "duration": 5.76
+  },
+  {
+    "text": "Minima right so uh given the large",
+    "start": 81.18,
+    "duration": 6.299
+  },
+  {
+    "text": "capacity of deep neural networks it is",
+    "start": 84.96,
+    "duration": 5.22
+  },
+  {
+    "text": "still easy to land in one of these zero",
+    "start": 87.479,
+    "duration": 3.901
+  },
+  {
+    "text": "error regions right so there might be",
+    "start": 90.18,
+    "duration": 3.119
+  },
+  {
+    "text": "these multiple zero error regions of",
+    "start": 91.38,
+    "duration": 3.239
+  },
+  {
+    "text": "course in this diagram there is only one",
+    "start": 93.299,
+    "duration": 3.721
+  },
+  {
+    "text": "visible but there are a few behind which",
+    "start": 94.619,
+    "duration": 5.761
+  },
+  {
+    "text": "are all at a zero error level right so",
+    "start": 97.02,
+    "duration": 5.88
+  },
+  {
+    "text": "given this large capacity it's still",
+    "start": 100.38,
+    "duration": 4.62
+  },
+  {
+    "text": "possible to land in these zero error",
+    "start": 102.9,
+    "duration": 3.78
+  },
+  {
+    "text": "regions and why am I saying that which",
+    "start": 105.0,
+    "duration": 5.52
+  },
+  {
+    "text": "theorem am I using while saying this",
+    "start": 106.68,
+    "duration": 5.52
+  },
+  {
+    "text": "the universal approximation theorem",
+    "start": 110.52,
+    "duration": 3.18
+  },
+  {
+    "text": "right it said that you could sufficient",
+    "start": 112.2,
+    "duration": 2.64
+  },
+  {
+    "text": "you could consider construct a",
+    "start": 113.7,
+    "duration": 3.72
+  },
+  {
+    "text": "sufficiently large neural network to get",
+    "start": 114.84,
+    "duration": 5.04
+  },
+  {
+    "text": "an arbitrary degree of precision that",
+    "start": 117.42,
+    "duration": 4.68
+  },
+  {
+    "text": "means you could get an arbitrary degree",
+    "start": 119.88,
+    "duration": 4.5
+  },
+  {
+    "text": "of low error and in particular you could",
+    "start": 122.1,
+    "duration": 4.619
+  },
+  {
+    "text": "drive the error to Zero by just having a",
+    "start": 124.38,
+    "duration": 3.599
+  },
+  {
+    "text": "large number of neurons in your deep",
+    "start": 126.719,
+    "duration": 3.18
+  },
+  {
+    "text": "neural network so I know that despite",
+    "start": 127.979,
+    "duration": 4.021
+  },
+  {
+    "text": "this non-convex surface highly complex",
+    "start": 129.899,
+    "duration": 4.801
+  },
+  {
+    "text": "surface I can still drive the training",
+    "start": 132.0,
+    "duration": 3.9
+  },
+  {
+    "text": "error to zero right so maybe",
+    "start": 134.7,
+    "duration": 3.6
+  },
+  {
+    "text": "optimization was not a problem as long",
+    "start": 135.9,
+    "duration": 4.02
+  },
+  {
+    "text": "as the Deep neural network has a large",
+    "start": 138.3,
+    "duration": 3.659
+  },
+  {
+    "text": "capacity right for the universal",
+    "start": 139.92,
+    "duration": 3.899
+  },
+  {
+    "text": "approximation theorem it talks about",
+    "start": 141.959,
+    "duration": 4.201
+  },
+  {
+    "text": "large capacity in the term of really",
+    "start": 143.819,
+    "duration": 3.601
+  },
+  {
+    "text": "large right I mean you are talking about",
+    "start": 146.16,
+    "duration": 3.659
+  },
+  {
+    "text": "exponential number of neurons but maybe",
+    "start": 147.42,
+    "duration": 4.5
+  },
+  {
+    "text": "even not going to the exponential level",
+    "start": 149.819,
+    "duration": 4.681
+  },
+  {
+    "text": "with sufficiently large capacity which",
+    "start": 151.92,
+    "duration": 4.08
+  },
+  {
+    "text": "is reasonable I could still drive the",
+    "start": 154.5,
+    "duration": 3.239
+  },
+  {
+    "text": "training error to zero so then someone",
+    "start": 156.0,
+    "duration": 3.84
+  },
+  {
+    "text": "did experiments to prove that whether",
+    "start": 157.739,
+    "duration": 5.28
+  },
+  {
+    "text": "this is indeed the case right so what",
+    "start": 159.84,
+    "duration": 5.28
+  },
+  {
+    "text": "they did is they took a deep neural",
+    "start": 163.019,
+    "duration": 4.08
+  },
+  {
+    "text": "network and they increased the capacity",
+    "start": 165.12,
+    "duration": 4.08
+  },
+  {
+    "text": "of the last layer right so just before",
+    "start": 167.099,
+    "duration": 4.14
+  },
+  {
+    "text": "the prediction they increase the",
+    "start": 169.2,
+    "duration": 3.72
+  },
+  {
+    "text": "capacity what does that mean you add",
+    "start": 171.239,
+    "duration": 3.301
+  },
+  {
+    "text": "large number of Weights in the last year",
+    "start": 172.92,
+    "duration": 3.179
+  },
+  {
+    "text": "how do you do that you add a large",
+    "start": 174.54,
+    "duration": 3.24
+  },
+  {
+    "text": "number of neurons in the layer before it",
+    "start": 176.099,
+    "duration": 3.601
+  },
+  {
+    "text": "and now from this large number of",
+    "start": 177.78,
+    "duration": 3.42
+  },
+  {
+    "text": "neurons you're trying to predict one",
+    "start": 179.7,
+    "duration": 3.36
+  },
+  {
+    "text": "output so you have many weights here",
+    "start": 181.2,
+    "duration": 4.319
+  },
+  {
+    "text": "right so for example I could have say a",
+    "start": 183.06,
+    "duration": 4.7
+  },
+  {
+    "text": "network",
+    "start": 185.519,
+    "duration": 2.241
+  },
+  {
+    "text": "which has say some let's say 100 input",
+    "start": 188.4,
+    "duration": 6.0
+  },
+  {
+    "text": "neurons then I have a few layers which",
+    "start": 191.599,
+    "duration": 6.041
+  },
+  {
+    "text": "have 20 20 neurons right then I have the",
+    "start": 194.4,
+    "duration": 6.0
+  },
+  {
+    "text": "last layer maybe it has 100 neurons or",
+    "start": 197.64,
+    "duration": 5.22
+  },
+  {
+    "text": "even more than that right so now I have",
+    "start": 200.4,
+    "duration": 3.96
+  },
+  {
+    "text": "a lot of Weights here right I have 20",
+    "start": 202.86,
+    "duration": 5.599
+  },
+  {
+    "text": "into 100 weights here right",
+    "start": 204.36,
+    "duration": 4.099
+  },
+  {
+    "text": "so the capacity in the last layer has",
+    "start": 209.159,
+    "duration": 4.08
+  },
+  {
+    "text": "increased and from this last layer I'm",
+    "start": 211.44,
+    "duration": 3.659
+  },
+  {
+    "text": "going to again predict say 10 outputs",
+    "start": 213.239,
+    "duration": 4.441
+  },
+  {
+    "text": "right so then I again have 100 into 10",
+    "start": 215.099,
+    "duration": 4.14
+  },
+  {
+    "text": "weights there",
+    "start": 217.68,
+    "duration": 4.979
+  },
+  {
+    "text": "now if I increase this 100 to 1000 then",
+    "start": 219.239,
+    "duration": 5.22
+  },
+  {
+    "text": "my capacity increases further right so I",
+    "start": 222.659,
+    "duration": 3.181
+  },
+  {
+    "text": "can just increase the number of neurons",
+    "start": 224.459,
+    "duration": 3.541
+  },
+  {
+    "text": "in the last layer and that would result",
+    "start": 225.84,
+    "duration": 4.14
+  },
+  {
+    "text": "in an increase in the number of Weights",
+    "start": 228.0,
+    "duration": 4.5
+  },
+  {
+    "text": "associated with that layer right and",
+    "start": 229.98,
+    "duration": 3.96
+  },
+  {
+    "text": "hence your neural network would become",
+    "start": 232.5,
+    "duration": 3.12
+  },
+  {
+    "text": "large capacitor that's exactly what they",
+    "start": 233.94,
+    "duration": 3.54
+  },
+  {
+    "text": "did and they showed that if you do this",
+    "start": 235.62,
+    "duration": 3.42
+  },
+  {
+    "text": "then you're able to drive the error to",
+    "start": 237.48,
+    "duration": 3.72
+  },
+  {
+    "text": "zero even without training right so what",
+    "start": 239.04,
+    "duration": 4.44
+  },
+  {
+    "text": "are they saying that that if you have",
+    "start": 241.2,
+    "duration": 4.319
+  },
+  {
+    "text": "large capacity then you don't need",
+    "start": 243.48,
+    "duration": 4.679
+  },
+  {
+    "text": "pre-training right but large capacity of",
+    "start": 245.519,
+    "duration": 3.901
+  },
+  {
+    "text": "course comes at a cost right your",
+    "start": 248.159,
+    "duration": 3.061
+  },
+  {
+    "text": "network becomes large and training it",
+    "start": 249.42,
+    "duration": 3.959
+  },
+  {
+    "text": "takes more time and so on so maybe when",
+    "start": 251.22,
+    "duration": 3.78
+  },
+  {
+    "text": "you are not able to construct large",
+    "start": 253.379,
+    "duration": 4.08
+  },
+  {
+    "text": "capacity neural networks in that case",
+    "start": 255.0,
+    "duration": 4.799
+  },
+  {
+    "text": "pre-training is useful right so that's",
+    "start": 257.459,
+    "duration": 4.081
+  },
+  {
+    "text": "what they showed that if you don't have",
+    "start": 259.799,
+    "duration": 3.361
+  },
+  {
+    "text": "large capacity in the neural network",
+    "start": 261.54,
+    "duration": 5.52
+  },
+  {
+    "text": "then pre-training is still becoming uh",
+    "start": 263.16,
+    "duration": 6.12
+  },
+  {
+    "text": "uh useful right so what is it that",
+    "start": 267.06,
+    "duration": 4.079
+  },
+  {
+    "text": "they're seeing in effect that we always",
+    "start": 269.28,
+    "duration": 4.139
+  },
+  {
+    "text": "knew that in deep neural networks you",
+    "start": 271.139,
+    "duration": 3.721
+  },
+  {
+    "text": "can drive the error to zero because the",
+    "start": 273.419,
+    "duration": 3.121
+  },
+  {
+    "text": "universal approximation theorem says",
+    "start": 274.86,
+    "duration": 4.26
+  },
+  {
+    "text": "that but the hidden catch there was that",
+    "start": 276.54,
+    "duration": 4.56
+  },
+  {
+    "text": "you're talking about really large neural",
+    "start": 279.12,
+    "duration": 4.079
+  },
+  {
+    "text": "networks who can do that so what these",
+    "start": 281.1,
+    "duration": 3.48
+  },
+  {
+    "text": "guys showed that is indeed the case if",
+    "start": 283.199,
+    "duration": 2.701
+  },
+  {
+    "text": "you have a large neural network even",
+    "start": 284.58,
+    "duration": 2.7
+  },
+  {
+    "text": "without pre-training you can write the",
+    "start": 285.9,
+    "duration": 3.48
+  },
+  {
+    "text": "error to zero but when you have smaller",
+    "start": 287.28,
+    "duration": 4.199
+  },
+  {
+    "text": "capacity networks they are not able to",
+    "start": 289.38,
+    "duration": 3.9
+  },
+  {
+    "text": "drive the error to zero that means they",
+    "start": 291.479,
+    "duration": 3.241
+  },
+  {
+    "text": "find it hard to solve the optimization",
+    "start": 293.28,
+    "duration": 3.78
+  },
+  {
+    "text": "problem itself and then if you add",
+    "start": 294.72,
+    "duration": 4.32
+  },
+  {
+    "text": "pre-training then they are able to drive",
+    "start": 297.06,
+    "duration": 3.72
+  },
+  {
+    "text": "the error to zero that means",
+    "start": 299.04,
+    "duration": 3.3
+  },
+  {
+    "text": "pre-training is leading to better",
+    "start": 300.78,
+    "duration": 3.0
+  },
+  {
+    "text": "optimization right so that's the",
+    "start": 302.34,
+    "duration": 3.299
+  },
+  {
+    "text": "argument that they made of course this",
+    "start": 303.78,
+    "duration": 3.12
+  },
+  {
+    "text": "is empirical",
+    "start": 305.639,
+    "duration": 4.141
+  },
+  {
+    "text": "ah and these experiments maybe were much",
+    "start": 306.9,
+    "duration": 5.04
+  },
+  {
+    "text": "smaller scale as compared to what we see",
+    "start": 309.78,
+    "duration": 4.02
+  },
+  {
+    "text": "in deep learning today but that's not",
+    "start": 311.94,
+    "duration": 3.12
+  },
+  {
+    "text": "the point right I mean a lot of these",
+    "start": 313.8,
+    "duration": 2.88
+  },
+  {
+    "text": "were initial days and people were still",
+    "start": 315.06,
+    "duration": 3.78
+  },
+  {
+    "text": "figuring out what to do but it led to",
+    "start": 316.68,
+    "duration": 4.86
+  },
+  {
+    "text": "this important Insight that perhaps it",
+    "start": 318.84,
+    "duration": 4.859
+  },
+  {
+    "text": "is helping in optimization and if you",
+    "start": 321.54,
+    "duration": 3.96
+  },
+  {
+    "text": "can improve the optimization then you",
+    "start": 323.699,
+    "duration": 3.661
+  },
+  {
+    "text": "can train large neural networks so hey",
+    "start": 325.5,
+    "duration": 3.419
+  },
+  {
+    "text": "let's focus on designing better and",
+    "start": 327.36,
+    "duration": 3.36
+  },
+  {
+    "text": "better methods of optimization on",
+    "start": 328.919,
+    "duration": 3.12
+  },
+  {
+    "text": "supervised pre-training is one such",
+    "start": 330.72,
+    "duration": 2.94
+  },
+  {
+    "text": "method but what what are the other",
+    "start": 332.039,
+    "duration": 4.44
+  },
+  {
+    "text": "possibilities there",
+    "start": 333.66,
+    "duration": 5.7
+  },
+  {
+    "text": "now let us look at the other view here",
+    "start": 336.479,
+    "duration": 4.16
+  },
+  {
+    "text": "right sorry this should have been",
+    "start": 339.36,
+    "duration": 5.16
+  },
+  {
+    "text": "generalization we already saw",
+    "start": 340.639,
+    "duration": 7.981
+  },
+  {
+    "text": "it should have been regularization right",
+    "start": 344.52,
+    "duration": 4.1
+  },
+  {
+    "text": "so does it is it because of better",
+    "start": 350.94,
+    "duration": 3.78
+  },
+  {
+    "text": "regularization some people try to argue",
+    "start": 352.62,
+    "duration": 4.139
+  },
+  {
+    "text": "that too and let's see what that",
+    "start": 354.72,
+    "duration": 5.539
+  },
+  {
+    "text": "argument was right",
+    "start": 356.759,
+    "duration": 3.5
+  },
+  {
+    "text": "so what does regularization actually do",
+    "start": 360.9,
+    "duration": 4.019
+  },
+  {
+    "text": "it constrains the weights to lies within",
+    "start": 362.639,
+    "duration": 3.601
+  },
+  {
+    "text": "certain regions of the parameter space",
+    "start": 364.919,
+    "duration": 2.881
+  },
+  {
+    "text": "right we saw this when we were doing L2",
+    "start": 366.24,
+    "duration": 3.84
+  },
+  {
+    "text": "regularization that it constrains the",
+    "start": 367.8,
+    "duration": 4.44
+  },
+  {
+    "text": "weights to dry in some circle right",
+    "start": 370.08,
+    "duration": 3.78
+  },
+  {
+    "text": "because you are not allowing the",
+    "start": 372.24,
+    "duration": 3.899
+  },
+  {
+    "text": "magnitude to grow beyond that that means",
+    "start": 373.86,
+    "duration": 4.02
+  },
+  {
+    "text": "only those weight configurations which",
+    "start": 376.139,
+    "duration": 4.021
+  },
+  {
+    "text": "lie on this circle are possible or",
+    "start": 377.88,
+    "duration": 3.96
+  },
+  {
+    "text": "within that are possible you cannot go",
+    "start": 380.16,
+    "duration": 3.72
+  },
+  {
+    "text": "outside that boundary similarly Urban",
+    "start": 381.84,
+    "duration": 4.199
+  },
+  {
+    "text": "regularization restricts you within this",
+    "start": 383.88,
+    "duration": 4.98
+  },
+  {
+    "text": "diamond that you see there right and we",
+    "start": 386.039,
+    "duration": 4.741
+  },
+  {
+    "text": "even saw with early stopping that is the",
+    "start": 388.86,
+    "duration": 3.48
+  },
+  {
+    "text": "effect that you don't allow your weights",
+    "start": 390.78,
+    "duration": 2.94
+  },
+  {
+    "text": "to grow too much right so you are",
+    "start": 392.34,
+    "duration": 3.84
+  },
+  {
+    "text": "constraining the weights to lie in",
+    "start": 393.72,
+    "duration": 4.199
+  },
+  {
+    "text": "certain regions of the parameter space",
+    "start": 396.18,
+    "duration": 3.239
+  },
+  {
+    "text": "right that's one way of saying it right",
+    "start": 397.919,
+    "duration": 3.78
+  },
+  {
+    "text": "instead of saying lying in a small",
+    "start": 399.419,
+    "duration": 4.56
+  },
+  {
+    "text": "region or something it constrains it to",
+    "start": 401.699,
+    "duration": 5.761
+  },
+  {
+    "text": "rise in certain regions right now is the",
+    "start": 403.979,
+    "duration": 5.481
+  },
+  {
+    "text": "same happening in the case of",
+    "start": 407.46,
+    "duration": 4.859
+  },
+  {
+    "text": "unsupervised pre-training right",
+    "start": 409.46,
+    "duration": 5.62
+  },
+  {
+    "text": "indeed unsupervised pre-training is also",
+    "start": 412.319,
+    "duration": 4.44
+  },
+  {
+    "text": "causing the weights to lie in certain",
+    "start": 415.08,
+    "duration": 3.72
+  },
+  {
+    "text": "regions of the parameter space what are",
+    "start": 416.759,
+    "duration": 4.44
+  },
+  {
+    "text": "these weights so these are the weights",
+    "start": 418.8,
+    "duration": 5.28
+  },
+  {
+    "text": "or these are the regions where the",
+    "start": 421.199,
+    "duration": 5.241
+  },
+  {
+    "text": "weights are better able to capture",
+    "start": 424.08,
+    "duration": 4.8
+  },
+  {
+    "text": "capture the characteristics of the input",
+    "start": 426.44,
+    "duration": 4.599
+  },
+  {
+    "text": "data why am I saying that because where",
+    "start": 428.88,
+    "duration": 3.78
+  },
+  {
+    "text": "did you start with you started with this",
+    "start": 431.039,
+    "duration": 3.66
+  },
+  {
+    "text": "unsupervised objective you said that",
+    "start": 432.66,
+    "duration": 4.14
+  },
+  {
+    "text": "forget about my main loss function which",
+    "start": 434.699,
+    "duration": 4.981
+  },
+  {
+    "text": "depends on y first for every layer I",
+    "start": 436.8,
+    "duration": 5.64
+  },
+  {
+    "text": "want to solve this unsupervised",
+    "start": 439.68,
+    "duration": 5.28
+  },
+  {
+    "text": "objective the moment you do that for",
+    "start": 442.44,
+    "duration": 4.68
+  },
+  {
+    "text": "every layer you are putting the weights",
+    "start": 444.96,
+    "duration": 4.139
+  },
+  {
+    "text": "in certain region of the parameter space",
+    "start": 447.12,
+    "duration": 4.699
+  },
+  {
+    "text": "where this objective is getting",
+    "start": 449.099,
+    "duration": 5.761
+  },
+  {
+    "text": "minimized right so they are this is the",
+    "start": 451.819,
+    "duration": 5.921
+  },
+  {
+    "text": "entire say weight space now you have",
+    "start": 454.86,
+    "duration": 4.92
+  },
+  {
+    "text": "gone to some region there where this",
+    "start": 457.74,
+    "duration": 4.34
+  },
+  {
+    "text": "weights this objective is getting",
+    "start": 459.78,
+    "duration": 5.039
+  },
+  {
+    "text": "minimized once you have minimized this",
+    "start": 462.08,
+    "duration": 4.899
+  },
+  {
+    "text": "Omega Theta",
+    "start": 464.819,
+    "duration": 4.621
+  },
+  {
+    "text": "then you are throwing in L Theta right",
+    "start": 466.979,
+    "duration": 4.141
+  },
+  {
+    "text": "but you are starting from the weight",
+    "start": 469.44,
+    "duration": 3.479
+  },
+  {
+    "text": "initialization here itself now this",
+    "start": 471.12,
+    "duration": 4.199
+  },
+  {
+    "text": "entire space is not available to you at",
+    "start": 472.919,
+    "duration": 4.021
+  },
+  {
+    "text": "all right and now once you start",
+    "start": 475.319,
+    "duration": 3.6
+  },
+  {
+    "text": "optimizing L Theta from there you will",
+    "start": 476.94,
+    "duration": 3.96
+  },
+  {
+    "text": "be moving from this region right so",
+    "start": 478.919,
+    "duration": 5.101
+  },
+  {
+    "text": "again you will be constrained to region",
+    "start": 480.9,
+    "duration": 4.56
+  },
+  {
+    "text": "around that of course you may move out",
+    "start": 484.02,
+    "duration": 4.079
+  },
+  {
+    "text": "of that region right but you have done",
+    "start": 485.46,
+    "duration": 4.44
+  },
+  {
+    "text": "the initialization in a certain region",
+    "start": 488.099,
+    "duration": 4.081
+  },
+  {
+    "text": "and now from there on if you train you",
+    "start": 489.9,
+    "duration": 4.38
+  },
+  {
+    "text": "are going to move wherever you move is",
+    "start": 492.18,
+    "duration": 4.139
+  },
+  {
+    "text": "going to be governed by where you",
+    "start": 494.28,
+    "duration": 3.72
+  },
+  {
+    "text": "restricted your initial weights to B",
+    "start": 496.319,
+    "duration": 3.78
+  },
+  {
+    "text": "right so that in that sense is acting",
+    "start": 498.0,
+    "duration": 4.259
+  },
+  {
+    "text": "like a regularizer and in fact even if",
+    "start": 500.099,
+    "duration": 4.681
+  },
+  {
+    "text": "you look at the regularization ah the",
+    "start": 502.259,
+    "duration": 3.78
+  },
+  {
+    "text": "way we studied is that there is an L",
+    "start": 504.78,
+    "duration": 2.819
+  },
+  {
+    "text": "Theta and an Omega Theta the same thing",
+    "start": 506.039,
+    "duration": 3.421
+  },
+  {
+    "text": "is happening here right you first had an",
+    "start": 507.599,
+    "duration": 3.78
+  },
+  {
+    "text": "Omega Theta you said I want to minimize",
+    "start": 509.46,
+    "duration": 4.379
+  },
+  {
+    "text": "that and then I will throw in L Theta",
+    "start": 511.379,
+    "duration": 4.861
+  },
+  {
+    "text": "and then I'll try to minimize L Theta so",
+    "start": 513.839,
+    "duration": 4.2
+  },
+  {
+    "text": "in the case of regularization we were",
+    "start": 516.24,
+    "duration": 5.64
+  },
+  {
+    "text": "seeing that we wanted to minimize",
+    "start": 518.039,
+    "duration": 6.661
+  },
+  {
+    "text": "the loss function as L theta plus Omega",
+    "start": 521.88,
+    "duration": 5.1
+  },
+  {
+    "text": "Theta right this is what our regularized",
+    "start": 524.7,
+    "duration": 4.259
+  },
+  {
+    "text": "loss function was I am doing something",
+    "start": 526.98,
+    "duration": 3.539
+  },
+  {
+    "text": "similar here it's just that I am doing",
+    "start": 528.959,
+    "duration": 3.901
+  },
+  {
+    "text": "it sequentially I am first minimizing",
+    "start": 530.519,
+    "duration": 4.801
+  },
+  {
+    "text": "Omega Theta and then I'm minimizing L",
+    "start": 532.86,
+    "duration": 4.8
+  },
+  {
+    "text": "Theta so in this view it is acting as a",
+    "start": 535.32,
+    "duration": 4.32
+  },
+  {
+    "text": "regularizer right and it also matches",
+    "start": 537.66,
+    "duration": 3.66
+  },
+  {
+    "text": "this other view that you're kind of",
+    "start": 539.64,
+    "duration": 3.12
+  },
+  {
+    "text": "constraining the weights in a certain",
+    "start": 541.32,
+    "duration": 3.78
+  },
+  {
+    "text": "region and then that will govern how",
+    "start": 542.76,
+    "duration": 4.199
+  },
+  {
+    "text": "your optimization is going right so in",
+    "start": 545.1,
+    "duration": 3.96
+  },
+  {
+    "text": "L2 you add a certain way of doing that",
+    "start": 546.959,
+    "duration": 3.841
+  },
+  {
+    "text": "constraint ah constraining the weights",
+    "start": 549.06,
+    "duration": 3.48
+  },
+  {
+    "text": "to a certain region in early stopping",
+    "start": 550.8,
+    "duration": 3.719
+  },
+  {
+    "text": "you had a certain way of doing that here",
+    "start": 552.54,
+    "duration": 3.419
+  },
+  {
+    "text": "also you have a certain way that you",
+    "start": 554.519,
+    "duration": 3.781
+  },
+  {
+    "text": "first train that I want these individual",
+    "start": 555.959,
+    "duration": 4.621
+  },
+  {
+    "text": "layers to learn well wherever you end up",
+    "start": 558.3,
+    "duration": 4.56
+  },
+  {
+    "text": "now from there start optimizing for the",
+    "start": 560.58,
+    "duration": 4.02
+  },
+  {
+    "text": "main problem which is L Theta right so",
+    "start": 562.86,
+    "duration": 3.659
+  },
+  {
+    "text": "that has the same effect so if you look",
+    "start": 564.6,
+    "duration": 4.2
+  },
+  {
+    "text": "at this view then it's actually acting",
+    "start": 566.519,
+    "duration": 5.401
+  },
+  {
+    "text": "as a regularizer right so both things",
+    "start": 568.8,
+    "duration": 5.46
+  },
+  {
+    "text": "could be possible right and some other",
+    "start": 571.92,
+    "duration": 4.62
+  },
+  {
+    "text": "ah experiments have also shown that",
+    "start": 574.26,
+    "duration": 4.98
+  },
+  {
+    "text": "retaining is more robust to random",
+    "start": 576.54,
+    "duration": 4.5
+  },
+  {
+    "text": "initializations what does that mean so",
+    "start": 579.24,
+    "duration": 5.219
+  },
+  {
+    "text": "this is what it means right so they",
+    "start": 581.04,
+    "duration": 6.72
+  },
+  {
+    "text": "trained deep neural networks",
+    "start": 584.459,
+    "duration": 6.181
+  },
+  {
+    "text": "let's focus on this plot first of no",
+    "start": 587.76,
+    "duration": 4.8
+  },
+  {
+    "text": "maybe on this plot first with different",
+    "start": 590.64,
+    "duration": 4.92
+  },
+  {
+    "text": "number of layers right so I have a deep",
+    "start": 592.56,
+    "duration": 4.92
+  },
+  {
+    "text": "neural network which has some W Capital",
+    "start": 595.56,
+    "duration": 4.92
+  },
+  {
+    "text": "parameters like some large number of",
+    "start": 597.48,
+    "duration": 5.28
+  },
+  {
+    "text": "parameters and I initialize these",
+    "start": 600.48,
+    "duration": 4.5
+  },
+  {
+    "text": "parameters randomly and train the",
+    "start": 602.76,
+    "duration": 4.019
+  },
+  {
+    "text": "network once right and then I got",
+    "start": 604.98,
+    "duration": 4.08
+  },
+  {
+    "text": "certain laws I note what that loss is L1",
+    "start": 606.779,
+    "duration": 4.74
+  },
+  {
+    "text": "or the error which is L1 then I again",
+    "start": 609.06,
+    "duration": 4.56
+  },
+  {
+    "text": "initialize the weights again train the",
+    "start": 611.519,
+    "duration": 4.681
+  },
+  {
+    "text": "network again noted the loss right so I",
+    "start": 613.62,
+    "duration": 4.62
+  },
+  {
+    "text": "did this some 100 times",
+    "start": 616.2,
+    "duration": 4.079
+  },
+  {
+    "text": "and then I am Computing the variance",
+    "start": 618.24,
+    "duration": 3.599
+  },
+  {
+    "text": "actually I've plotted the box plot so",
+    "start": 620.279,
+    "duration": 3.481
+  },
+  {
+    "text": "which tells me the variance which among",
+    "start": 621.839,
+    "duration": 3.721
+  },
+  {
+    "text": "other things tells me the variance and",
+    "start": 623.76,
+    "duration": 3.24
+  },
+  {
+    "text": "they're saying that for shallow networks",
+    "start": 625.56,
+    "duration": 3.6
+  },
+  {
+    "text": "this variance is not very large right",
+    "start": 627.0,
+    "duration": 4.08
+  },
+  {
+    "text": "but when you have a deep neural network",
+    "start": 629.16,
+    "duration": 3.84
+  },
+  {
+    "text": "every time you do a different",
+    "start": 631.08,
+    "duration": 3.3
+  },
+  {
+    "text": "regularization a different",
+    "start": 633.0,
+    "duration": 4.019
+  },
+  {
+    "text": "initialization and then you compute the",
+    "start": 634.38,
+    "duration": 6.12
+  },
+  {
+    "text": "loss then my loss varies a lot across",
+    "start": 637.019,
+    "duration": 5.221
+  },
+  {
+    "text": "this different initializations what does",
+    "start": 640.5,
+    "duration": 3.779
+  },
+  {
+    "text": "that mean that these networks are not",
+    "start": 642.24,
+    "duration": 4.5
+  },
+  {
+    "text": "robust to initialization it is very",
+    "start": 644.279,
+    "duration": 4.141
+  },
+  {
+    "text": "specific to what initialization I have",
+    "start": 646.74,
+    "duration": 4.32
+  },
+  {
+    "text": "done but now if I throw in unsupervised",
+    "start": 648.42,
+    "duration": 4.08
+  },
+  {
+    "text": "pre-training and then I do the same",
+    "start": 651.06,
+    "duration": 2.459
+  },
+  {
+    "text": "thing",
+    "start": 652.5,
+    "duration": 4.14
+  },
+  {
+    "text": "now again I have first unsupervised",
+    "start": 653.519,
+    "duration": 4.801
+  },
+  {
+    "text": "pre-trained the weight so I'll just call",
+    "start": 656.64,
+    "duration": 6.36
+  },
+  {
+    "text": "them Wu right uh and now I am doing this",
+    "start": 658.32,
+    "duration": 6.18
+  },
+  {
+    "text": "experiment a hundred times so what am I",
+    "start": 663.0,
+    "duration": 3.779
+  },
+  {
+    "text": "doing that that I have started with some",
+    "start": 664.5,
+    "duration": 5.94
+  },
+  {
+    "text": "uh W random initialization okay so this",
+    "start": 666.779,
+    "duration": 7.081
+  },
+  {
+    "text": "is one experiment I end up with some w u",
+    "start": 670.44,
+    "duration": 7.32
+  },
+  {
+    "text": "after uh pre-training right and then I",
+    "start": 673.86,
+    "duration": 7.2
+  },
+  {
+    "text": "compute my final loss okay then I took",
+    "start": 677.76,
+    "duration": 5.4
+  },
+  {
+    "text": "W2 which is a different initialization",
+    "start": 681.06,
+    "duration": 5.7
+  },
+  {
+    "text": "again got a different W maybe right and",
+    "start": 683.16,
+    "duration": 6.419
+  },
+  {
+    "text": "then I computed L2 and this way I did",
+    "start": 686.76,
+    "duration": 4.8
+  },
+  {
+    "text": "this L 100 times",
+    "start": 689.579,
+    "duration": 3.481
+  },
+  {
+    "text": "so again I am doing different weight",
+    "start": 691.56,
+    "duration": 3.12
+  },
+  {
+    "text": "initializations but I am passing through",
+    "start": 693.06,
+    "duration": 3.899
+  },
+  {
+    "text": "an intermediate layer of unsupervised",
+    "start": 694.68,
+    "duration": 4.14
+  },
+  {
+    "text": "pre-training now if I look at the",
+    "start": 696.959,
+    "duration": 3.541
+  },
+  {
+    "text": "variance in these quantities then even",
+    "start": 698.82,
+    "duration": 3.66
+  },
+  {
+    "text": "for deep neural networks is actually",
+    "start": 700.5,
+    "duration": 4.2
+  },
+  {
+    "text": "quite low right so it's kind of making",
+    "start": 702.48,
+    "duration": 4.68
+  },
+  {
+    "text": "it more robust to random initializations",
+    "start": 704.7,
+    "duration": 4.98
+  },
+  {
+    "text": "right so now this led to the idea that",
+    "start": 707.16,
+    "duration": 4.919
+  },
+  {
+    "text": "maybe the whole deep neural networks are",
+    "start": 709.68,
+    "duration": 4.56
+  },
+  {
+    "text": "sensitive to initialization so now can",
+    "start": 712.079,
+    "duration": 3.601
+  },
+  {
+    "text": "we come up with better methods of",
+    "start": 714.24,
+    "duration": 3.48
+  },
+  {
+    "text": "initialization so that sparked interest",
+    "start": 715.68,
+    "duration": 4.02
+  },
+  {
+    "text": "in that the conclusions of these",
+    "start": 717.72,
+    "duration": 5.1
+  },
+  {
+    "text": "experiments are not as important as the",
+    "start": 719.7,
+    "duration": 5.04
+  },
+  {
+    "text": "research directions that they led to",
+    "start": 722.82,
+    "duration": 4.32
+  },
+  {
+    "text": "right so this now when I look at this I",
+    "start": 724.74,
+    "duration": 4.5
+  },
+  {
+    "text": "feel hey maybe initialization is an",
+    "start": 727.14,
+    "duration": 3.9
+  },
+  {
+    "text": "important thing and I should try to come",
+    "start": 729.24,
+    "duration": 3.36
+  },
+  {
+    "text": "up with better initialization methods",
+    "start": 731.04,
+    "duration": 3.18
+  },
+  {
+    "text": "and people did that and came up with",
+    "start": 732.6,
+    "duration": 3.66
+  },
+  {
+    "text": "better initialization methods and now",
+    "start": 734.22,
+    "duration": 4.559
+  },
+  {
+    "text": "that started making training deep neural",
+    "start": 736.26,
+    "duration": 4.56
+  },
+  {
+    "text": "networks even better right so what",
+    "start": 738.779,
+    "duration": 3.721
+  },
+  {
+    "text": "happened roughly is this right so if I",
+    "start": 740.82,
+    "duration": 4.86
+  },
+  {
+    "text": "were to summarize this period between ah",
+    "start": 742.5,
+    "duration": 5.76
+  },
+  {
+    "text": "2006 to 2009",
+    "start": 745.68,
+    "duration": 5.58
+  },
+  {
+    "text": "right uh",
+    "start": 748.26,
+    "duration": 5.4
+  },
+  {
+    "text": "people thought that okay first was that",
+    "start": 751.26,
+    "duration": 4.199
+  },
+  {
+    "text": "unsupervised pre-training works right",
+    "start": 753.66,
+    "duration": 3.919
+  },
+  {
+    "text": "people did really completely understand",
+    "start": 755.459,
+    "duration": 4.801
+  },
+  {
+    "text": "why does it work but people started",
+    "start": 757.579,
+    "duration": 3.88
+  },
+  {
+    "text": "investigating it through different",
+    "start": 760.26,
+    "duration": 4.5
+  },
+  {
+    "text": "lenses one set of people analyze it to",
+    "start": 761.459,
+    "duration": 4.68
+  },
+  {
+    "text": "the lens of optimization is it leading",
+    "start": 764.76,
+    "duration": 3.42
+  },
+  {
+    "text": "to better optimization it led to some",
+    "start": 766.139,
+    "duration": 4.801
+  },
+  {
+    "text": "conclusive non-conclusive answers but it",
+    "start": 768.18,
+    "duration": 4.74
+  },
+  {
+    "text": "did seem like maybe it's leading to",
+    "start": 770.94,
+    "duration": 3.839
+  },
+  {
+    "text": "better optimization similarly people",
+    "start": 772.92,
+    "duration": 3.18
+  },
+  {
+    "text": "started looking at it through the lens",
+    "start": 774.779,
+    "duration": 3.06
+  },
+  {
+    "text": "of regularization and thought oh looks",
+    "start": 776.1,
+    "duration": 3.299
+  },
+  {
+    "text": "like regularization is what it is doing",
+    "start": 777.839,
+    "duration": 3.24
+  },
+  {
+    "text": "people looked at it from the lens of",
+    "start": 779.399,
+    "duration": 3.661
+  },
+  {
+    "text": "initialization and thought hey maybe it",
+    "start": 781.079,
+    "duration": 4.141
+  },
+  {
+    "text": "leads to better initialization right and",
+    "start": 783.06,
+    "duration": 4.92
+  },
+  {
+    "text": "then these lens became important that oh",
+    "start": 785.22,
+    "duration": 4.919
+  },
+  {
+    "text": "all of this seem to be important so why",
+    "start": 787.98,
+    "duration": 3.96
+  },
+  {
+    "text": "let me focus on better initialization",
+    "start": 790.139,
+    "duration": 3.26
+  },
+  {
+    "text": "methods better regulation better",
+    "start": 791.94,
+    "duration": 4.139
+  },
+  {
+    "text": "optimization methods and so on and that",
+    "start": 793.399,
+    "duration": 4.301
+  },
+  {
+    "text": "is what has happened right deep learning",
+    "start": 796.079,
+    "duration": 4.2
+  },
+  {
+    "text": "has evolved since 2009 people came up",
+    "start": 797.7,
+    "duration": 4.02
+  },
+  {
+    "text": "with better optimization algorithms and",
+    "start": 800.279,
+    "duration": 3.601
+  },
+  {
+    "text": "we saw a series of those people came up",
+    "start": 801.72,
+    "duration": 3.78
+  },
+  {
+    "text": "with better regularization methods and",
+    "start": 803.88,
+    "duration": 3.72
+  },
+  {
+    "text": "we saw a series of those some was",
+    "start": 805.5,
+    "duration": 4.26
+  },
+  {
+    "text": "already existing L2 L1 all of that was",
+    "start": 807.6,
+    "duration": 5.64
+  },
+  {
+    "text": "existing ah uh early stopping also to an",
+    "start": 809.76,
+    "duration": 5.1
+  },
+  {
+    "text": "extent but it got popularized in deep",
+    "start": 813.24,
+    "duration": 3.539
+  },
+  {
+    "text": "learning and then Dropout was something",
+    "start": 814.86,
+    "duration": 3.3
+  },
+  {
+    "text": "which just specifically came in the",
+    "start": 816.779,
+    "duration": 3.12
+  },
+  {
+    "text": "context of deep learning right and now",
+    "start": 818.16,
+    "duration": 3.119
+  },
+  {
+    "text": "today we are going to talk about",
+    "start": 819.899,
+    "duration": 4.261
+  },
+  {
+    "text": "activation functions maybe activations",
+    "start": 821.279,
+    "duration": 5.041
+  },
+  {
+    "text": "if I change then maybe perhaps something",
+    "start": 824.16,
+    "duration": 3.78
+  },
+  {
+    "text": "could happen and better weight",
+    "start": 826.32,
+    "duration": 3.12
+  },
+  {
+    "text": "initialization strategies because some",
+    "start": 827.94,
+    "duration": 2.76
+  },
+  {
+    "text": "of these studies also saw that maybe",
+    "start": 829.44,
+    "duration": 3.36
+  },
+  {
+    "text": "initialization is what it is doing right",
+    "start": 830.7,
+    "duration": 5.34
+  },
+  {
+    "text": "so that's the context of this lecture or",
+    "start": 832.8,
+    "duration": 4.979
+  },
+  {
+    "text": "the context of the past two lectures",
+    "start": 836.04,
+    "duration": 3.06
+  },
+  {
+    "text": "also right where we looked at a series",
+    "start": 837.779,
+    "duration": 3.0
+  },
+  {
+    "text": "of optimization methods regularization",
+    "start": 839.1,
+    "duration": 4.2
+  },
+  {
+    "text": "methods so now you know that why we were",
+    "start": 840.779,
+    "duration": 4.68
+  },
+  {
+    "text": "studying that right because of this",
+    "start": 843.3,
+    "duration": 4.5
+  },
+  {
+    "text": "spark that happened in 2006 and that led",
+    "start": 845.459,
+    "duration": 4.5
+  },
+  {
+    "text": "to some investigations and pointed out",
+    "start": 847.8,
+    "duration": 4.14
+  },
+  {
+    "text": "in this direction that hey let's focus",
+    "start": 849.959,
+    "duration": 3.601
+  },
+  {
+    "text": "on these four areas and then maybe we'll",
+    "start": 851.94,
+    "duration": 3.18
+  },
+  {
+    "text": "be able to better train the Deep neural",
+    "start": 853.56,
+    "duration": 3.12
+  },
+  {
+    "text": "networks right so today we are going to",
+    "start": 855.12,
+    "duration": 3.779
+  },
+  {
+    "text": "focus on these two parts activation",
+    "start": 856.68,
+    "duration": 3.599
+  },
+  {
+    "text": "functions and weight initialization",
+    "start": 858.899,
+    "duration": 2.581
+  },
+  {
+    "text": "strategies",
+    "start": 860.279,
+    "duration": 4.021
+  },
+  {
+    "text": "so I'll end this video here and we'll",
+    "start": 861.48,
+    "duration": 4.56
+  },
+  {
+    "text": "then start the discussion on activation",
+    "start": 864.3,
+    "duration": 4.159
+  },
+  {
+    "text": "functions",
+    "start": 866.04,
+    "duration": 2.419
+  }
+]

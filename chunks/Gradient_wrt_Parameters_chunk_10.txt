@@ -1,0 +1,10 @@
+the same situation that you have uh here right if you compare all these guys were the same again all.
+of these are b1s all these guys are the same all of these are V2s all these guys are the.
+same all of these are p3s right and similarly all these three guys are the same just as these three.
+guys were the same and so on right so what I'm trying to say is that this Matrix here can.
+actually be written as the outer product of two vectors and what are those two vectors this is one vector.
+right so this will be your B vector and uh this will form your a vector right so that's how.
+I'm going to write it now the outer product between these two vectors so this is what it's going to.
+look like this is the a vector and this is the B Vector the transpose operated because that was the.
+sleeping vector and the a vector was the standing Vector right so now you have a formula for the derivative.
+of the loss function with respect to K and what do you need for that you need two quantities one.

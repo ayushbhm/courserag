@@ -1,0 +1,9 @@
+saw three scenarios one where it converges one where it oscillates around a solution which is acceptable right so this.
+is perhaps not as bad as this one right so it converges or it reaches to an acceptable solution or.
+is like really far off from the solution right all three things could happen depending on how we have chosen.
+the learning rate so this is in indeed not a favorable situation right so we may want to look at.
+Alternatives and in most cases these initial learning rates for several problems have been kind of discovered through experiments I.
+mean like for example for machine translation there are certain data sets training data sets which are used quite often.
+right across different papers and so many experiments have been done with those data sets that people now have a.
+good range of what is the right initial learning rate to use and in that case you might not set.
+such CSS problems right but if you're dealing with an esoteric problem a new data set which only you are.

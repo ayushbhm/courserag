@@ -1,0 +1,10 @@
+decaying it right so what is happening here is that you are having 1 over ETA 0 raised to KT.
+right so at time step 0 suppose your ETA 0 is 1 right so at time step 0 and let's.
+assume that K is also equal to 1. so suppose ETA 0 equal to 1 and K is also equal.
+to 1 so time step 0 this would just be 1 over 1 so your learning rate is 1 and.
+as the time steps keep increasing your learning rate will keep decreasing exponentially right so that's one simple thing to.
+do but here the issue is that now what is the initial learning rate that becomes a hyper parameter that.
+was anyways a hyper parameter but in addition this K and this K controls how quickly it will Decay right.
+so if you use a very large value of K it will Decay very quickly right so you would see.
+something like this if you use a smaller value of K it would Decay more smoothly right so now what.
+is the right value of K that also needs to be determined so this makes it even more complex right.

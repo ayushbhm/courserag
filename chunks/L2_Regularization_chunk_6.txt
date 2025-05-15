@@ -1,0 +1,9 @@
+to grow those values a lot because the moment you grow those values a lot then this loss term will.
+increase and that will increase my total loss right so in some sense I am restricting the model complexity by.
+allowing you to have have many weights but I am not giving you a lot of freedom in choosing the.
+values of those ways right so that's how this is acting as a proxy for controlling the model complexity okay.
+so now if that is the loss function then we are interested in the derivative of the loss function with.
+respect to W right because for all gradient descent methods and its variance this is what our in quantity of.
+interest is so the derivative of the quantity on the left hand side is the derivative of this quantity plus.
+the derivative of this quantity with respect to W and this quantity is actually Alpha by 2 W transpose W.
+so if you take the derivative of that with respect to W you can think of this as W Square.

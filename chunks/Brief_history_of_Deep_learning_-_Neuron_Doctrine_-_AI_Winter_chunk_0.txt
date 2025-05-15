@@ -1,0 +1,9 @@
+[Music] hi everyone uh so let's start with uh lecture one of this course uh where we'll be talking about.
+a brief and maybe a bit selective partial history of uh deep learning right so you talk about uh deep.
+learning right so most of this material uh the early material that is that at least there in these slides.
+uh is taken by from this article on deep learning in neural networks and overview by schmidtober there might be.
+some errors in my accounting of the history and if they are then i apologize for them and also feel.
+free to contact me if you think certain portions need to be corrected or there are more things which have.
+happened and you would like to uh me to add them right so i first did this history lecture almost.
+like six years back uh and it was more easier to manage but in the past four five years i.
+think there's been a much rapid explosion than what it was earlier even at that time there was quite a.

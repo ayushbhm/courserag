@@ -1,0 +1,9 @@
+it's like every network is getting trained because even if this network was never sampled there were other networks which.
+got sampled in which these weights would have been active and hence those weights were getting regular updates right and.
+since every uh weight is going to be present with an 80 probability because you are going to retain 80.
+percent with probability 80 percent you're going to retain a node right and also okay so 80 into 80 because.
+both these nodes need to be remained so with 80 probability this will be retained and with 80 probability this.
+will be retained so with 64 probability both will be retained and hence this way it would be retained right.
+so every weight with 64 probability it will be retained right and hence it will get updated many times it.
+will get 64 percent of the times that you are doing training it will get updates if you run for.
+a thousand steps every weight will get updated around 640 different uh times right at least 640 times okay so.

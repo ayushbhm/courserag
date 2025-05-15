@@ -1,0 +1,9 @@
+and it should be obvious that so this this this sum of all these towers right or this the function.
+that you see here outlined here okay and I can just go on is what my approximation of the original.
+curve is and you can see that this is a slightly poor approximation right I am close at certain points.
+but I'm also far from the curve at certain point so the case in point being this right so at.
+this value of x the actual function tells you what the orange curve tells you what the actual function value.
+should be but my approximation would predict it as this right let me just change the color right so this.
+is what my approximation would predicted as but the actual value is this right so there's a gap right but.
+now interestingly right if I I've used a certain number of towers here right and let me just delete this.
+now if I increase the number of towers okay this as you can read here is a poor approximation as.

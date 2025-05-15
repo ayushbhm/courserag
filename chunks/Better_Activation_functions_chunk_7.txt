@@ -1,0 +1,9 @@
+whatever is the input that applies element wise on this Vector a and it just squishes it or compresses it.
+between 0 to 1 right so we already have seen this in the past uh so now since we are.
+always interested in gradients right because as I said that training deep neural networks is largely about Computing gradients and.
+then based on the gradients either the training would go fast low and so on right so let's see what.
+is the gradient of the sigmoid function right and this again we have computed if you have not you can.
+just take this as an exercise and try to find the gradient of in fact we have but you can.
+just revisit it and try to compute the gradient of this function and you will end up with this formula.
+right which is Sigma X into 1 minus Sigma X right and now let's focus on this formula so what.
+what could happen if we use sigmoid in a deep neural network given that the gradient of the sigmoid is.

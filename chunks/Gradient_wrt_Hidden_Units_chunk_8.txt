@@ -1,0 +1,10 @@
+right so I want I so in the next layer the the a neuron in the next layer depends on.
+the uh H neuron in this layer so that's a i plus 1 okay and there are K of those.
+so I'll sum over M to 1 to K and then the derivative of that with respect to h i.
+j right and I'm confidently doing this because just on the previous lecture or the previous video I have actually.
+shown you how to compute the derivative of the loss function with respect to A3 so I already have this.
+quantity right so I am happy that this quantity is in the path because that quantity I have already computed.
+okay so let's go ahead so as I just said uh this quantity I have already computed in the previous.
+video right you can see that we had computed the partial derivative of the loss function with respect to every.
+neuron in the uh output layer right a31 a32 all the way up to A3 K so this quantity I.
+have already computed right here 3 is equal to I plus 1 and these are the m so this I.

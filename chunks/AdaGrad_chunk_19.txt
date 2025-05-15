@@ -1,0 +1,8 @@
+to the loss plot and I'll make some comments there and then come back here yes yes and I'm on.
+the access x-axis you have the number of iterations right yeah so if I look at the loss plot right.
+and let me just clear this and then make some comments here yeah so remember we had started from here.
+okay so initially the uh you are in a slightly it's t steep right from the beginning it's steep right.
+but the steepness is increasing that means as I keep going down my derivatives will become larger and larger right.
+in magnitude the direction may be positive or negative but the magnitude will keep increasing then when I enter this.
+Valley region my derivatives will start becoming smaller again right until they reach a point where the derivatives will become.
+close to zero right so remember initially they'll increase because I'm going down the slope and the slope is increasing.

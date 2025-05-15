@@ -1,0 +1,10 @@
+is quite high it's around 0.4 or 0.5 something like that okay so now I run the gradient descent algorithm.
+so at every step I am going to change my w and B so this point that you see on.
+the bottom is going to keep moving in the WB plane right so what you see here is the WB.
+plane right so at every point I'm Computing a new WB so I'm just going to keep plotting that right.
+and this is how it is moving right so I'll make as this I'll just play it once and then.
+make a few observations or I'll keep making the observation so right now you can see that I'm on a.
+fairly flat surface right and because of that I'm moving very slowly right my updates are very slow they're so.
+slow that when you see on the bottom you don't are not even able to distinguish between two points W.
+and B right because they're so close to each other they're just looking like a snake's body right but when.
+I come here okay it's still running okay so when I came here let's see okay now let me just.

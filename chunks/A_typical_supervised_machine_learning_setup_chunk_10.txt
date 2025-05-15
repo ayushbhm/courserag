@@ -1,0 +1,9 @@
+protection problem or the box office collection problem right so i have want to predict the box office collection of.
+a movie i have data about the movie right what was the budget of the movie how many superstars are.
+there in the movie right how good who is the music director of the movie who is the cinematographer all.
+of this i will have and based on past movies i know what what is the box office collection what.
+is the genre of the movie all of this is there right and i know this so the form i've.
+given such many such movies from past and such movies i'm characterizing each movie by an m-dimensional vector which is.
+some inputs about the movie and i want to predict the box connection right so this is what the data.
+part looks like and the main point here is that across all supervised machine learning setups this is what it.
+looks like every machine learning problem you can cast it into this matrix where you are given the x's and.

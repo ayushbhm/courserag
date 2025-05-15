@@ -1,0 +1,10 @@
+optimal value of w right this is where you want to go and suppose this is where you had initialized.
+your uh weight right so now I would want to have a possible movement like this right and reach the.
+optimum but this movement is not possible because it has one value positive one value negative and we know that.
+that is not possible we already saw that all these kind of movements are not possible right so this is.
+not going to be possible so now how will I have to reach the optimum I'll have to just take.
+the movements which are allowed so I will have to perhaps take this movement this is uh okay this is.
+the node yeah this is allowed right so this is where like 1 is 0 and the other is uh.
+negative so that is allowed this this and so on right so I'll have to move like this in a.
+zigzag pattern to kind of reach the optimum right so I'll take more steps to converge and and keeping this.
+toy example aside right the simple thing is this right so I'm asking you to go from place a to.

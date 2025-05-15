@@ -1,0 +1,9 @@
+minimum quickly and without a lot of back tracing or like going back or not back racing actually but random.
+jumps here in there which don't necessarily decrease the error at each iteration right and we don't want to do.
+this brute for search either right so that is not possible right we cannot plug in all the values of.
+the parameters and then see that value which gives us the minimum value that would be the Brute Forces we.
+cannot do that and we have argued why that is infeasible there are infinite values there okay so let's look.
+at the setup now right so we have our parameters in the toy Network where W comma B and I'm.
+just going to put them in a array or a vector and call that Vector as Theta right so now.
+Theta is my parameter of vectors and now I'm looking for changing this value right so just as is always.
+the case I don't know what the correct Theta is so I'm going to start off with some random value.

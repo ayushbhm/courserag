@@ -1,0 +1,9 @@
+input because now your input is every time a bit corrupted so it has to deal with these Corruptions also.
+and now what we can actually show right that for a simple input output Network right that means there is.
+no uh hidden layer so you have a uh so I have a bunch of inputs and then you directly.
+have the output right so there is no in no input output layer so your inputs are say X1 to.
+x n and now if you add some noise to all of your inputs right and if that noise is.
+a gaussian noise that means say that noise is coming from a gaussian distribution zero mean and some variance then.
+you can show that this is actually equal to L2 regularization right and we will see that on the next.
+slide so this is the setup that we are considering this is exactly what I drew on the previous slide.
+that you have these n inputs and to each of these inputs you have added some gaussian noise okay and.

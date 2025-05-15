@@ -1,0 +1,9 @@
+able to approximate it up to the Precision of Epsilon for any of the inputs that are possible I'll pass.
+it through my network I'll get a g of X and I am confident that it will not deviate from.
+f of x more by Epsilon and I can construct such a network you give me an Epsilon I'll give.
+you a network which will be which will produce an output which is within an Epsilon from the true output.
+right and of course as you can imagine just as we had the case there that we had this exponential.
+number of neurons you could imagine and we'll see that in more detail that as the Epsilon becomes smaller and.
+smaller you will need a more and more powerful Network that means you need more and more neurons in this.
+hidden layer this may not be obvious right away but this is something this idea is something that we will.
+develop during this lecture okay so now let me just delete this and let me just put it on the.

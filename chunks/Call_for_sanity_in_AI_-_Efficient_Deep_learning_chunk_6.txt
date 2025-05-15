@@ -1,0 +1,9 @@
+on realize is that everyone in the audience was giving it cues naturally they're cheering for it right so when.
+the when when it nodded seven times they would all like erupt in say in an applause or something and.
+the horse would take that as a signal oh i should stop now and it would get the right answer.
+right so it's this thing where the answer is correct but there is no reason for the answer to be.
+correct right so that's what was happening in the case of clever hands and like based on that anecdote or.
+that incident right this clever hands tool kit was designed to again look at similar problems uh why do you.
+get the answers uh right uh instead of just saying that oh i have got the answer right right so.
+this toolkit allows uh machine learning systems uh to be tested on adversarial examples right so i showed you a.
+few examples of examples on the previous slide where some stickers were added to the sign or some random patterns.

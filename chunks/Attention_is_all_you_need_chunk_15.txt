@@ -1,0 +1,8 @@
+inputs because that is not what we were doing earlier we are of course computer contextual representation but earlier the.
+attention was only between encoder and decoder so why do you need this self-attention why does it make sense right.
+so now if you have the sentence the elephant the animal didn't cross the street because it was too tired.
+here the word it is referring to animal and not street right so when I'm Computing a representation for it.
+it should pay more attention to animal it as opposed to stream that's why I need this self-attention because I.
+need to capture the importance of the words in context as with respect to the current word right and this.
+would change if the sentence was different if the sentence was the animal didn't cross the street because it was.
+congested so now the word it here actually represents refers to street so now when I'm Computing a contextual representation.

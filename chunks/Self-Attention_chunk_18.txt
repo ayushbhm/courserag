@@ -1,0 +1,11 @@
+you'll get a capital t z Each of which is going to be D dimensional right so you can do.
+the entire computation in parallel and you can make sure right you can go and check this back that if.
+I were to look at let's see like we can just do it right away um okay so what I.
+would like to show is that Z2 is indeed if you do this large matrix multiplication Z2 indeed comes out.
+to be the same as what we had seen in the figure right so let's try to uh do that.
+so I'll just uh start from scratch so I had this T cross T Matrix which was Q transpose K.
+right so if I look at the second row of this Matrix right uh so I'm let's see what is.
+happening here right so this was Q transpose so this was q1 transpose this was Q2 transpose and so on.
+and this was K1 K2 and so on right so if I look at the second row of so any.
+ijth value of this entry of this Matrix is just going to be Qi transpose uh k j right and.
+in particular if I were to look at the second row of this Matrix it is going to be Q.

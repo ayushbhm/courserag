@@ -1,0 +1,9 @@
+able to learn using these different deep reinforcement learning agents and while all of these specialized in like one task.
+then came this mu zero which can do multiple things right because you always aim for always one argument is.
+that hey your ai agent can do only one thing whereas a typical human and you might be able to.
+beat a human in that one thing but a human can do many other things right so if you have.
+a good go player go rl agent maybe it beats the best go player but that player can also play.
+chess that could also play badminton could also play table tennis and so many other things whether our agent is.
+doing one thing itself right and so now there's this push to have what are known as master of all.
+models so this mu zero was the first among the first step in that direction which could not only play.
+go but also chess shogi and atari right these are again all uh decision making games and so it could.

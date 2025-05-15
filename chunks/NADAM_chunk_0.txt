@@ -1,0 +1,9 @@
+foreign [Music] which looks like a obvious extension that you would do on Adam right so Adam already introduced the.
+momentum term and then we know that nag is better than momentum based gradient descent right so Adam which uses.
+momentum can we make it better by adding the nestrob effect to it which is the look ahead effect that.
+we need to do right so that's we could that is something that we could do and that's exactly what.
+Madame is which is nastrov is the nestro version of Adam so let's see how that works right so this.
+is the update tool for Adam that we had now from here we'll now revisit uh nag The nestro Accelerated.
+gradient descent and then see how to modify the update tools for Adam to get in this natural Factor here.
+okay so recall the equation so now one thing which I have done here is that I have so remember.
+that you could have beta U T minus 1 plus 1 minus beta times uh Delta WT right so both.

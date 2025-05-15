@@ -1,0 +1,9 @@
+if you look only at the empirical estimation from the training error then you are being very optimistic because you.
+are ignoring a large quantity but now why does this quantity depend on the model complexity right that is something.
+that we have not seen so that is what we will see next okay so now we will ah try.
+to wrap up the discussion on bias variance by talking about how the true error is actually uh what's the.
+relation between the error and the model complexity right so this was the quantity that was bothering us right this.
+was a quantity which did not go to zero in the case when we're trying to estimate these expectations from.
+the training data and then it ah that meant that if you just compute the empirical training error then you.
+are missing out on things right you are not really ah giving a true picture of the true error right.
+so this was the quantity that was bothering us and now this quantity again I could think of it uh.

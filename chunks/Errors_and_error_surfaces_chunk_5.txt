@@ -1,0 +1,11 @@
+so only these two red points uh which are 0 1 and 0 0 have actually been ah are in.
+the right place right they are in the negative half space and they should be in the negative half space.
+but the other two points I am making so what is happening here is that as I'm changing the value.
+of w and W 2 the error or the number of Errors is changing right so now I can think.
+of error itself why is this not working yeah I can think of error as a function of w 1.
+W 2 because I have fixed W naught right and depending on the values of w 1 W 2 y.
+that I try the error is changing so now I think of error as a function of W1 W2 and.
+now once you have digested that idea we are ready for the next slide where I have error which is.
+on the Z axis okay as a function of let me just try to see if I can zoom into.
+this yeah so error is a function of W1 and W 2 right so this is my W1 this is.
+my W2 and along the Z axis I am plotting the error and what are the values that the error.

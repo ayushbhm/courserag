@@ -1,0 +1,9 @@
+try to answer over the course of this lecture so so you had this mp neuron or the mecolic bits.
+neuron and then came this perceptron right which was proposed by frank rosenblatt again we had seen this in the.
+history around 1958 and the main differences were the falling and they are some of them are already obvious in.
+the diagram itself that earlier the neurons the inputs are only boolean but now the inputs could also be real.
+that was one difference the other was that now you have these weights right so these weights could tell you.
+which inputs are more important than the other and there's also now that you have these weights there's also a.
+mechanism or a learning algorithm to learn these weights right so you might vaguely have an idea of which inputs.
+are important which are not but typically you would want to learn this from data that in the past maybe.
+while making decisions i have given more importance to who is the actor in the movie as opposed to who.

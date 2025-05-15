@@ -1,0 +1,9 @@
+repeating this at every time step you do it at C2 then you compute C3 C4 C5 and so on.
+right so you keep doing that now what I'm showing here is what is known as a heat map so.
+this is what you typically look at when you are using an attention-based model so this has uh this is.
+a say a T1 cross T2 Matrix where T1 is the length of the input and T2 is the length.
+of the output so or the other way around whichever way you can look at it and now in this.
+wherever you see a light spot that is the place where the attention weight is maximum right so when I.
+was generating I my attention on none was maximum when I was generating enjoyed my attention on uh Racine was.
+maximum generating fill this was the maximum weighted word and similarly here right it makes sense because these are almost.
+like one-to-one correspondences in the translation output right so that's what the heat map shows you yeah so this is.

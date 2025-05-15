@@ -1,0 +1,9 @@
+alpha that means alpha nu would be less than alpha that's what i wanted whatever was my current alpha i.
+wanted my new alpha to be less than that eventually i want to get it to less than 90 degrees.
+but i may not be able to do it at one shot so i will slowly try to make it.
+less than right so that's what has happened here okay there is some hidden stuff here right so i've conveniently.
+used this proportional sign and ignored the denominator all which simplifies the calculation for me and it makes it easier.
+for me to show the intuition if you add the denominator and all you will kind of realize that it's.
+a bit more trickier calculation but the idea is just to give you the intuition right so you understand now.
+that with this update the alpha actually becomes less than what it was currently and that's exactly what i wanted.
+right let's look at the other case if x was a negative point and if i was making an error.

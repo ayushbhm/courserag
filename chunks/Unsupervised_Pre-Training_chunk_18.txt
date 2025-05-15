@@ -1,0 +1,9 @@
+this is what you are going to do so at the end right what have we achieved that all our.
+layers have been trained to compute a better representation of the input right and now I return back to my.
+original problem my original problem was that I was given some X and some y right and I wanted to.
+learn the relation between them and this was what my f x is now individual components and f x was.
+itself a composite function right I was first Computing this then passing it then Computing this and so on so.
+all these individual components of f of x now I have learned well right so I'll whatever weights I learned.
+in those individual pre-training steps I'll just retain those I'll start from there I'll not start from random initialization I'll.
+start from those right and I will plug in these weights randomly because these weights I did not learn so.
+I'll plug in these weights randomly and now I'll go back to my original training objective which dependent on y.

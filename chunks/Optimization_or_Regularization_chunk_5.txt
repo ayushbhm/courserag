@@ -1,0 +1,8 @@
+what are they saying that that if you have large capacity then you don't need pre-training right but large capacity.
+of course comes at a cost right your network becomes large and training it takes more time and so on.
+so maybe when you are not able to construct large capacity neural networks in that case pre-training is useful right.
+so that's what they showed that if you don't have large capacity in the neural network then pre-training is still.
+becoming uh uh useful right so what is it that they're seeing in effect that we always knew that in.
+deep neural networks you can drive the error to zero because the universal approximation theorem says that but the hidden.
+catch there was that you're talking about really large neural networks who can do that so what these guys showed.
+that is indeed the case if you have a large neural network even without pre-training you can write the error.

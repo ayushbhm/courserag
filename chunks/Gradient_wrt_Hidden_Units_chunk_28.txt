@@ -1,0 +1,10 @@
+already computed right so I am ready to compute derivative of H2 so this part is done I have now.
+been able to compute this then I wanted to compute the derivative of a 2 with respect to the loss.
+function and the formula on the next slide I'll just go to the next slide now the formula on the.
+next slide say is that the derivative of loss function with respect to A2 just depends on H2 and some.
+quantity right which is easy to compute right this G Prime is easy to compute and we'll compute it at.
+the end right for now just convince yourself because it's a simple function it suppose my uh my my activation.
+function was the sigmoid function then I have 1 over 1 plus e raised to minus a 2 2 right.
+H22 is equal to 1 over e raised to 1 over 1 plus e raised to minus a22 and if.
+I want to compute the derivative of H22 with respect to a22 I can do that right I can apply.
+the UV Rule and keep going and I'll be able to get it right so this quantity is easy to.

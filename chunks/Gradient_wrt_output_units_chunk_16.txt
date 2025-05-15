@@ -1,0 +1,11 @@
+of x and x squared which is very straightforward i have a l i and i have y hat and.
+just as x square is a function of x y hat is a function of a l i so the.
+same thing applies here i'll first take the derivative of log of y hat with respect to ali which would.
+be just minus 1 by y hat li and then the derivative moves inside just as what has happened here.
+right this high school calculus i am sure you know this but i just did it in some detail okay.
+now let me just replace y hat l by what exactly is y hat n right so let me explain.
+what this formula means right so what was y hat is actually the soft max of a l what does.
+that mean that a l was a vector right which had these components a l 1 a l 2 all.
+the way up to a l k and then how did i compute y hat from that y hat was.
+computed by applying the soft max function which was e raised to a l 1 divided by the summation e.
+raised to a l 2 divided by the summation and so on right so this y hat is a vector.

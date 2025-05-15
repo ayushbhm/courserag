@@ -1,0 +1,9 @@
+neat uh slightly neat looking formula for the Galu activation function right so that's how you arrive at gelu uh.
+and this is how it would look if you plot it so you have seen a relu we had seen.
+the exponential uh linear unit and now we have seen this gelu which is this red colored uh right uh.
+similarly you could have uh another a few other activation functions which are again kind of variants of relu itself.
+so you have the scale exponential linear unit so remember we had seen the exponential linear unit and now how.
+how was scaled exponential linear unit motivated from there we observed that these leaky relu and those variants they are.
+not completely uh zero center right and we will see that when we draw the plot so we want this.
+to be zero centered so one way to do that is using uh something known as normalization techniques which we'll.
+see later on the course the other way is to kind of change the activation function itself so it has.

@@ -1,0 +1,9 @@
+minus infinity to infinity right so there are infinite possibilities here of those i want one such w which if.
+i plug in if i were able to plug in all these infinite values of w into this equation right.
+this is the equation that i care about and i want that w which will give me the smallest value.
+for the loss function that's what my goal is right so that's the objective of training now the other thing.
+that i want to say here right i just want to talk a bit more about this learning algorithm and.
+the loss function right so any kind of learning as i said is always driven by some objective right and.
+i like to give this analogy let's suppose in high school you're learning trigonometry right so when you're learning the.
+chapter what are you doing you're reading the chapter because you're allowed to read this is not a test right.
+you're allowed to read the textbook and your goal would be to ensure that all the formulae which are given.

@@ -1,0 +1,10 @@
+ijth value of this entry of this Matrix is just going to be Qi transpose uh k j right and.
+in particular if I were to look at the second row of this Matrix it is going to be Q.
+2 transpose K1 Q2 transpose K2 and so on up to Q2 transpose K T right that's what the second.
+row is going to look like and now that this Matrix Q transpose K this is what the Q transpose.
+K Matrix looks like is going to get multiplied by V transpose right so then this would have V1 here.
+V2 here and so on right and if I multiply these two what is the second row going to be.
+the second row is going to be a linear combination of all the rows of this Matrix where the weights.
+are these right and that's exactly what I wanted I wanted Z2 to be q1 Q2 transpose K1 right which.
+was Alpha 2 1 multiplied by V1 and then Alpha to 2 multiplied by V2 and so on and that's.
+exactly the computation which is happening here right so that's why this entire thing can be produced as a matrix.

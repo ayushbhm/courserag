@@ -1,0 +1,9 @@
+so let's see this is what I'm going to do so this is what I'm saying right the third bullet.
+point here says that we just have two parameters W and B of these the input feature correspond to B.
+is always on so we can't really make its path so the only option is to make X pass so.
+the way I've created the data for this is that I created some random 500 random X comma y Pairs.
+and then for roughly 80 of these pairs I set X to 0 right and thereby making the feature uh.
+X very sparse because 80 percent of the times it is 0 and that's the definition of a sparse feature.
+that a majority of times are significantly more than a majority of times it's zero so that's how I created.
+this training data and then I uh so I took that data and I ran the gradient descent momentum based.
+gradient descent and nestro accelerated gradient descent algorithm on that using that data and uh the law surface was something.

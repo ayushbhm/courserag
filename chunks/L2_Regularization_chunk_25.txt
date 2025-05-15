@@ -1,0 +1,9 @@
+else is 0 and if multiply the vector by such a matrix then it's the same as taking every entry.
+of the vector and scaling it by the corresponding diagonal element so there are n diagonal elements and N entries.
+in the vector so this multiplication the result that you get is simply uh every entry of the product is.
+actually this corresponding entry multiplied or scaled by the corresponding diagonal element right so that's what is going to happen.
+here and so on right so that's what the diagonal multiplication looks like so first you rotated it then you.
+scaled it by D and then again whatever you got so let's call that Z1 right so this was my.
+z uh now I got a Z1 and again I'm taking Z and rotating it by Q again right so.
+that that's what I'm doing here so this I've made this observation now what does this mean and so on.
+it's still that's something that we need to understand but this is what is happening here from a linear algebra.

@@ -1,0 +1,9 @@
+is sitting here on the top of the structure this is the tower that i'm interested in but i have.
+these some extra scaffoldings here and there which i want to get rid of right so now how do i.
+get rid of that right so now if i look at this entire structure right i'll just get rid of.
+the annotations and also get rid of the individual h11 and h12 yeah yeah so this is what my structure.
+looks like and you can see that at the bottom while it's open yeah the structure sitting at the top.
+is closed from all sides so this structure sitting at the top is closed from all sides right now there.
+are three levels of output here there's a zero level okay which is here then there is a level one.
+and then there's a level two right and i only want to retain things which are greater than one right.
+so that if i only retain things which are greater than one suppose i could have a way of filtering.

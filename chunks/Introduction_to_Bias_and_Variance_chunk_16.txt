@@ -1,0 +1,9 @@
+can see that all of these are quite different right so you have something which is going like this you.
+have something which is going like this you have something which is going like this and so on right so.
+all these functions which I am getting and these functions are plotted by ah substituting values for the following equation.
+right so whatever I solve whatever Minima I get that will give me the value of the parameters I just.
+plug in those parameters and plot it and every time I use a different sample of 400 my my uh.
+the the the function which I get is different right it's quite all these I'm getting a lot of variety.
+here a lot of variance here as opposed to in the simple model right so that's the observation that we.
+are making so simple models do not differ from each other but they are far from the true sinusoidal curve.
+right they should have been very close to the red curve but I mean the moment I chose a simple.

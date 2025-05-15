@@ -1,0 +1,3277 @@
+[
+  {
+    "text": "[Music]",
+    "start": 0.33,
+    "duration": 10.029
+  },
+  {
+    "text": "um welcome back so we are in the next",
+    "start": 18.96,
+    "duration": 4.399
+  },
+  {
+    "text": "module now where we'll be talking about",
+    "start": 21.52,
+    "duration": 3.599
+  },
+  {
+    "text": "the perceptron learning algorithm right",
+    "start": 23.359,
+    "duration": 5.121
+  },
+  {
+    "text": "so far we introduced the perceptron",
+    "start": 25.119,
+    "duration": 5.521
+  },
+  {
+    "text": "we saw that the decision boundary that",
+    "start": 28.48,
+    "duration": 4.56
+  },
+  {
+    "text": "the perceptron learns is linear and then",
+    "start": 30.64,
+    "duration": 4.8
+  },
+  {
+    "text": "we introduce this concept of error where",
+    "start": 33.04,
+    "duration": 4.88
+  },
+  {
+    "text": "if the weights are not proper or if w1",
+    "start": 35.44,
+    "duration": 5.36
+  },
+  {
+    "text": "w2 values are not proper",
+    "start": 37.92,
+    "duration": 5.12
+  },
+  {
+    "text": "then you will make some errors in",
+    "start": 40.8,
+    "duration": 3.759
+  },
+  {
+    "text": "dividing the",
+    "start": 43.04,
+    "duration": 3.76
+  },
+  {
+    "text": "points into the right half spaces right",
+    "start": 44.559,
+    "duration": 3.761
+  },
+  {
+    "text": "so that's that's what we have learned so",
+    "start": 46.8,
+    "duration": 3.68
+  },
+  {
+    "text": "far but we did not talk about how did we",
+    "start": 48.32,
+    "duration": 4.239
+  },
+  {
+    "text": "get in this w1 wt we were mainly trying",
+    "start": 50.48,
+    "duration": 4.32
+  },
+  {
+    "text": "to adjust it by hand so now we look at",
+    "start": 52.559,
+    "duration": 4.0
+  },
+  {
+    "text": "the perceptron learning algorithm which",
+    "start": 54.8,
+    "duration": 4.32
+  },
+  {
+    "text": "allows us to learn these ways right",
+    "start": 56.559,
+    "duration": 5.041
+  },
+  {
+    "text": "so now before we do that",
+    "start": 59.12,
+    "duration": 5.119
+  },
+  {
+    "text": "let us try to understand that apart from",
+    "start": 61.6,
+    "duration": 5.04
+  },
+  {
+    "text": "implementing boolean functions right i",
+    "start": 64.239,
+    "duration": 3.681
+  },
+  {
+    "text": "mean which does not look very",
+    "start": 66.64,
+    "duration": 2.64
+  },
+  {
+    "text": "interesting right why would you care",
+    "start": 67.92,
+    "duration": 3.76
+  },
+  {
+    "text": "about boolean functions so what is it",
+    "start": 69.28,
+    "duration": 4.0
+  },
+  {
+    "text": "that the perceptron can be used for and",
+    "start": 71.68,
+    "duration": 3.36
+  },
+  {
+    "text": "what is this connection to the body and",
+    "start": 73.28,
+    "duration": 5.68
+  },
+  {
+    "text": "functions right so let's uh",
+    "start": 75.04,
+    "duration": 6.0
+  },
+  {
+    "text": "let's revisit our example right so now",
+    "start": 78.96,
+    "duration": 4.799
+  },
+  {
+    "text": "we are again talking about the case of a",
+    "start": 81.04,
+    "duration": 5.439
+  },
+  {
+    "text": "binary classifier and we want to decide",
+    "start": 83.759,
+    "duration": 5.201
+  },
+  {
+    "text": "whether to watch a movie or not right",
+    "start": 86.479,
+    "duration": 4.64
+  },
+  {
+    "text": "and suppose we are given a list of m",
+    "start": 88.96,
+    "duration": 5.119
+  },
+  {
+    "text": "movies all the past movies that we had",
+    "start": 91.119,
+    "duration": 5.121
+  },
+  {
+    "text": "seen along with the class label whether",
+    "start": 94.079,
+    "duration": 4.08
+  },
+  {
+    "text": "we liked this movie or did not like this",
+    "start": 96.24,
+    "duration": 4.239
+  },
+  {
+    "text": "ok this is based on our past data so",
+    "start": 98.159,
+    "duration": 4.64
+  },
+  {
+    "text": "this is just a binary label on all the",
+    "start": 100.479,
+    "duration": 5.041
+  },
+  {
+    "text": "movies right and each movie could be",
+    "start": 102.799,
+    "duration": 4.721
+  },
+  {
+    "text": "represented by n features so these",
+    "start": 105.52,
+    "duration": 3.68
+  },
+  {
+    "text": "features could simply be the inputs",
+    "start": 107.52,
+    "duration": 4.0
+  },
+  {
+    "text": "which are contributing to the decision",
+    "start": 109.2,
+    "duration": 5.68
+  },
+  {
+    "text": "so one input is actor daemon the other",
+    "start": 111.52,
+    "duration": 5.36
+  },
+  {
+    "text": "input is the genre thriller and so on",
+    "start": 114.88,
+    "duration": 3.599
+  },
+  {
+    "text": "and these are all",
+    "start": 116.88,
+    "duration": 3.279
+  },
+  {
+    "text": "boolean inputs that we have and you",
+    "start": 118.479,
+    "duration": 4.401
+  },
+  {
+    "text": "could also have some",
+    "start": 120.159,
+    "duration": 5.361
+  },
+  {
+    "text": "real valued inputs like the imdb rating",
+    "start": 122.88,
+    "duration": 4.08
+  },
+  {
+    "text": "the critics rating of the movie and so",
+    "start": 125.52,
+    "duration": 3.84
+  },
+  {
+    "text": "on right so all of these inputs are",
+    "start": 126.96,
+    "duration": 5.2
+  },
+  {
+    "text": "feeding into our perceptron and there",
+    "start": 129.36,
+    "duration": 5.36
+  },
+  {
+    "text": "are also weights associated with them",
+    "start": 132.16,
+    "duration": 4.56
+  },
+  {
+    "text": "it's just that we don't know what these",
+    "start": 134.72,
+    "duration": 4.08
+  },
+  {
+    "text": "weights are and we want to learn these",
+    "start": 136.72,
+    "duration": 2.96
+  },
+  {
+    "text": "weights",
+    "start": 138.8,
+    "duration": 3.439
+  },
+  {
+    "text": "such that once we learn these weights",
+    "start": 139.68,
+    "duration": 4.48
+  },
+  {
+    "text": "then for any given new input it should",
+    "start": 142.239,
+    "duration": 3.681
+  },
+  {
+    "text": "allow us to make that decision right and",
+    "start": 144.16,
+    "duration": 3.84
+  },
+  {
+    "text": "we should be able to learn these",
+    "start": 145.92,
+    "duration": 4.24
+  },
+  {
+    "text": "weights in such a way that at least for",
+    "start": 148.0,
+    "duration": 3.68
+  },
+  {
+    "text": "the given data and we'll assume that the",
+    "start": 150.16,
+    "duration": 4.159
+  },
+  {
+    "text": "data is linearly separable so whatever",
+    "start": 151.68,
+    "duration": 4.639
+  },
+  {
+    "text": "m data points that are given to us we",
+    "start": 154.319,
+    "duration": 3.601
+  },
+  {
+    "text": "will assume that they are linearly",
+    "start": 156.319,
+    "duration": 3.601
+  },
+  {
+    "text": "separable that means you can draw a line",
+    "start": 157.92,
+    "duration": 4.48
+  },
+  {
+    "text": "or a plane or a hyper plane such that",
+    "start": 159.92,
+    "duration": 4.0
+  },
+  {
+    "text": "all the points for which the output",
+    "start": 162.4,
+    "duration": 3.52
+  },
+  {
+    "text": "should be positive are in the one half",
+    "start": 163.92,
+    "duration": 4.08
+  },
+  {
+    "text": "space and all the points for which the",
+    "start": 165.92,
+    "duration": 3.36
+  },
+  {
+    "text": "output should be negative or in the",
+    "start": 168.0,
+    "duration": 3.04
+  },
+  {
+    "text": "other half space right so we will assume",
+    "start": 169.28,
+    "duration": 3.92
+  },
+  {
+    "text": "that the data is linearly separable and",
+    "start": 171.04,
+    "duration": 4.559
+  },
+  {
+    "text": "then in this real classification problem",
+    "start": 173.2,
+    "duration": 3.759
+  },
+  {
+    "text": "right this is not a cooked up problem",
+    "start": 175.599,
+    "duration": 3.36
+  },
+  {
+    "text": "this is a real classification problem we",
+    "start": 176.959,
+    "duration": 3.841
+  },
+  {
+    "text": "are then interested in learning these",
+    "start": 178.959,
+    "duration": 3.441
+  },
+  {
+    "text": "weights right so that's what we want to",
+    "start": 180.8,
+    "duration": 4.159
+  },
+  {
+    "text": "use a perceptron for for handling these",
+    "start": 182.4,
+    "duration": 5.119
+  },
+  {
+    "text": "kind of classification problems right",
+    "start": 184.959,
+    "duration": 4.64
+  },
+  {
+    "text": "ah now let's try to look at the",
+    "start": 187.519,
+    "duration": 4.401
+  },
+  {
+    "text": "perceptron learning algorithm so i'll",
+    "start": 189.599,
+    "duration": 4.241
+  },
+  {
+    "text": "define some notation",
+    "start": 191.92,
+    "duration": 5.12
+  },
+  {
+    "text": "so let p be all the inputs for which the",
+    "start": 193.84,
+    "duration": 4.72
+  },
+  {
+    "text": "label is one right so these are all the",
+    "start": 197.04,
+    "duration": 3.44
+  },
+  {
+    "text": "positive points that we have been",
+    "start": 198.56,
+    "duration": 3.2
+  },
+  {
+    "text": "calling uh",
+    "start": 200.48,
+    "duration": 3.2
+  },
+  {
+    "text": "in all our discussion earlier right and",
+    "start": 201.76,
+    "duration": 4.0
+  },
+  {
+    "text": "n is all the inputs which have a label 0",
+    "start": 203.68,
+    "duration": 3.68
+  },
+  {
+    "text": "so these are all the negative points",
+    "start": 205.76,
+    "duration": 3.759
+  },
+  {
+    "text": "right in our discussion earlier so now i",
+    "start": 207.36,
+    "duration": 3.76
+  },
+  {
+    "text": "do not know what the weights are so what",
+    "start": 209.519,
+    "duration": 2.961
+  },
+  {
+    "text": "will i do i'll just initialize the",
+    "start": 211.12,
+    "duration": 3.44
+  },
+  {
+    "text": "weights randomly right",
+    "start": 212.48,
+    "duration": 2.96
+  },
+  {
+    "text": "and",
+    "start": 214.56,
+    "duration": 3.599
+  },
+  {
+    "text": "while convergence or while not",
+    "start": 215.44,
+    "duration": 4.48
+  },
+  {
+    "text": "convergence till i reach convergence",
+    "start": 218.159,
+    "duration": 3.681
+  },
+  {
+    "text": "i'll do something right",
+    "start": 219.92,
+    "duration": 2.879
+  },
+  {
+    "text": "now",
+    "start": 221.84,
+    "duration": 2.8
+  },
+  {
+    "text": "what is the meaning of convergence here",
+    "start": 222.799,
+    "duration": 3.52
+  },
+  {
+    "text": "so the meaning of convergence here is",
+    "start": 224.64,
+    "duration": 2.8
+  },
+  {
+    "text": "that",
+    "start": 226.319,
+    "duration": 1.92
+  },
+  {
+    "text": "if",
+    "start": 227.44,
+    "duration": 3.04
+  },
+  {
+    "text": "i reach a point right such that my",
+    "start": 228.239,
+    "duration": 4.961
+  },
+  {
+    "text": "values for w are such that for all the",
+    "start": 230.48,
+    "duration": 4.959
+  },
+  {
+    "text": "positive points in the data which is",
+    "start": 233.2,
+    "duration": 3.44
+  },
+  {
+    "text": "given to me",
+    "start": 235.439,
+    "duration": 3.921
+  },
+  {
+    "text": "my output is",
+    "start": 236.64,
+    "duration": 4.799
+  },
+  {
+    "text": "1 and for all the negative points in the",
+    "start": 239.36,
+    "duration": 4.48
+  },
+  {
+    "text": "data my output is 0 right so in other",
+    "start": 241.439,
+    "duration": 7.681
+  },
+  {
+    "text": "words if for all the positive points",
+    "start": 243.84,
+    "duration": 7.759
+  },
+  {
+    "text": "summation w i x i",
+    "start": 249.12,
+    "duration": 3.44
+  },
+  {
+    "text": "is",
+    "start": 251.599,
+    "duration": 3.36
+  },
+  {
+    "text": "greater than zero and for all the",
+    "start": 252.56,
+    "duration": 5.04
+  },
+  {
+    "text": "negative points summation w i x is less",
+    "start": 254.959,
+    "duration": 4.641
+  },
+  {
+    "text": "than zero that means if i have magically",
+    "start": 257.6,
+    "duration": 3.28
+  },
+  {
+    "text": "reached a configuration where i have",
+    "start": 259.6,
+    "duration": 3.36
+  },
+  {
+    "text": "learned the w is because excise i don't",
+    "start": 260.88,
+    "duration": 3.36
+  },
+  {
+    "text": "have a control over it these are the",
+    "start": 262.96,
+    "duration": 3.519
+  },
+  {
+    "text": "data that have been given to me so for",
+    "start": 264.24,
+    "duration": 4.48
+  },
+  {
+    "text": "if all the positive points this",
+    "start": 266.479,
+    "duration": 4.081
+  },
+  {
+    "text": "condition is satisfied and for all the",
+    "start": 268.72,
+    "duration": 3.199
+  },
+  {
+    "text": "negative points this condition is",
+    "start": 270.56,
+    "duration": 3.28
+  },
+  {
+    "text": "satisfied that means i have to been able",
+    "start": 271.919,
+    "duration": 4.641
+  },
+  {
+    "text": "to clearly separate my training data",
+    "start": 273.84,
+    "duration": 4.639
+  },
+  {
+    "text": "right and that's what i will define as",
+    "start": 276.56,
+    "duration": 4.0
+  },
+  {
+    "text": "conversions okay so while not",
+    "start": 278.479,
+    "duration": 4.561
+  },
+  {
+    "text": "convergence what will i do let's see",
+    "start": 280.56,
+    "duration": 4.32
+  },
+  {
+    "text": "so i'll pick a random point from the",
+    "start": 283.04,
+    "duration": 3.52
+  },
+  {
+    "text": "given set of points so the given set of",
+    "start": 284.88,
+    "duration": 3.2
+  },
+  {
+    "text": "points are the union of the positive and",
+    "start": 286.56,
+    "duration": 3.28
+  },
+  {
+    "text": "the negative points so i'll just mix up",
+    "start": 288.08,
+    "duration": 3.28
+  },
+  {
+    "text": "all this and pick a random point from",
+    "start": 289.84,
+    "duration": 3.28
+  },
+  {
+    "text": "there i'll call it x which is the",
+    "start": 291.36,
+    "duration": 3.6
+  },
+  {
+    "text": "notation we have been using",
+    "start": 293.12,
+    "duration": 4.56
+  },
+  {
+    "text": "and now if x belongs to p so remember",
+    "start": 294.96,
+    "duration": 6.4
+  },
+  {
+    "text": "that x in itself is uh",
+    "start": 297.68,
+    "duration": 5.6
+  },
+  {
+    "text": "x naught",
+    "start": 301.36,
+    "duration": 5.44
+  },
+  {
+    "text": "x 1 all the way up to x n right so",
+    "start": 303.28,
+    "duration": 5.359
+  },
+  {
+    "text": "in our previous example these are the",
+    "start": 306.8,
+    "duration": 4.239
+  },
+  {
+    "text": "end decision features that i had is",
+    "start": 308.639,
+    "duration": 4.481
+  },
+  {
+    "text": "actor matt damon is the genre thriller",
+    "start": 311.039,
+    "duration": 4.72
+  },
+  {
+    "text": "and so on and x0 was this constant input",
+    "start": 313.12,
+    "duration": 5.359
+  },
+  {
+    "text": "which had been set to 1 right so that is",
+    "start": 315.759,
+    "duration": 5.28
+  },
+  {
+    "text": "what x the bold x looks like it's a",
+    "start": 318.479,
+    "duration": 3.521
+  },
+  {
+    "text": "vector",
+    "start": 321.039,
+    "duration": 3.841
+  },
+  {
+    "text": "and similarly you have these w naughts",
+    "start": 322.0,
+    "duration": 6.32
+  },
+  {
+    "text": "to w n right which is the vector",
+    "start": 324.88,
+    "duration": 4.72
+  },
+  {
+    "text": "uh w",
+    "start": 328.32,
+    "duration": 2.96
+  },
+  {
+    "text": "okay",
+    "start": 329.6,
+    "duration": 3.599
+  },
+  {
+    "text": "sorry about my handwriting but i think",
+    "start": 331.28,
+    "duration": 3.199
+  },
+  {
+    "text": "it's",
+    "start": 333.199,
+    "duration": 3.041
+  },
+  {
+    "text": "kind of clear from the context what i am",
+    "start": 334.479,
+    "duration": 2.641
+  },
+  {
+    "text": "saying",
+    "start": 336.24,
+    "duration": 2.239
+  },
+  {
+    "text": "so this these are the two vectors so i",
+    "start": 337.12,
+    "duration": 3.28
+  },
+  {
+    "text": "am just going to take the weighted sum",
+    "start": 338.479,
+    "duration": 4.081
+  },
+  {
+    "text": "of w i x i",
+    "start": 340.4,
+    "duration": 5.359
+  },
+  {
+    "text": "and if the point was positive",
+    "start": 342.56,
+    "duration": 5.919
+  },
+  {
+    "text": "and if this weighted sum is less than 0",
+    "start": 345.759,
+    "duration": 4.16
+  },
+  {
+    "text": "then you and i understand something bad",
+    "start": 348.479,
+    "duration": 2.801
+  },
+  {
+    "text": "has happened right because if the point",
+    "start": 349.919,
+    "duration": 2.481
+  },
+  {
+    "text": "was positive",
+    "start": 351.28,
+    "duration": 3.04
+  },
+  {
+    "text": "i wanted this weighted sum to be greater",
+    "start": 352.4,
+    "duration": 3.68
+  },
+  {
+    "text": "than zero that is what i have said here",
+    "start": 354.32,
+    "duration": 3.84
+  },
+  {
+    "text": "right so something is going wrong my",
+    "start": 356.08,
+    "duration": 4.559
+  },
+  {
+    "text": "weights are not the way they should be",
+    "start": 358.16,
+    "duration": 4.8
+  },
+  {
+    "text": "so i need to do some correction ok and",
+    "start": 360.639,
+    "duration": 3.761
+  },
+  {
+    "text": "this is the correction i am going to do",
+    "start": 362.96,
+    "duration": 3.359
+  },
+  {
+    "text": "i am just going to do w is equal to w",
+    "start": 364.4,
+    "duration": 3.28
+  },
+  {
+    "text": "plus x",
+    "start": 366.319,
+    "duration": 3.201
+  },
+  {
+    "text": "okay i am not going to say anything more",
+    "start": 367.68,
+    "duration": 4.16
+  },
+  {
+    "text": "about this at this point",
+    "start": 369.52,
+    "duration": 3.2
+  },
+  {
+    "text": "if",
+    "start": 371.84,
+    "duration": 3.359
+  },
+  {
+    "text": "the point was negative",
+    "start": 372.72,
+    "duration": 4.24
+  },
+  {
+    "text": "and if my summation was greater than",
+    "start": 375.199,
+    "duration": 3.201
+  },
+  {
+    "text": "equal to 0",
+    "start": 376.96,
+    "duration": 3.04
+  },
+  {
+    "text": "then again i know that something wrong",
+    "start": 378.4,
+    "duration": 4.079
+  },
+  {
+    "text": "has happened because for such a point i",
+    "start": 380.0,
+    "duration": 4.8
+  },
+  {
+    "text": "wanted the summation to be less than 0",
+    "start": 382.479,
+    "duration": 3.361
+  },
+  {
+    "text": "right",
+    "start": 384.8,
+    "duration": 3.04
+  },
+  {
+    "text": "but that has not happened",
+    "start": 385.84,
+    "duration": 4.0
+  },
+  {
+    "text": "so again i need to do some correction",
+    "start": 387.84,
+    "duration": 3.76
+  },
+  {
+    "text": "and my correction is going to be w equal",
+    "start": 389.84,
+    "duration": 4.56
+  },
+  {
+    "text": "to w minus x again i am not explaining",
+    "start": 391.6,
+    "duration": 5.36
+  },
+  {
+    "text": "why this magic formula right why",
+    "start": 394.4,
+    "duration": 4.96
+  },
+  {
+    "text": "am i doing plus x in one case and minus",
+    "start": 396.96,
+    "duration": 5.28
+  },
+  {
+    "text": "x in one case and how does this",
+    "start": 399.36,
+    "duration": 4.959
+  },
+  {
+    "text": "lead me to where i want to go and where",
+    "start": 402.24,
+    "duration": 3.28
+  },
+  {
+    "text": "do i want to go i want to go to",
+    "start": 404.319,
+    "duration": 3.841
+  },
+  {
+    "text": "convergence where my weights are such",
+    "start": 405.52,
+    "duration": 4.0
+  },
+  {
+    "text": "that that these two conditions are",
+    "start": 408.16,
+    "duration": 2.879
+  },
+  {
+    "text": "satisfied by all the positive and",
+    "start": 409.52,
+    "duration": 4.32
+  },
+  {
+    "text": "negative points right so how does this",
+    "start": 411.039,
+    "duration": 4.0
+  },
+  {
+    "text": "ensure",
+    "start": 413.84,
+    "duration": 4.96
+  },
+  {
+    "text": "that that is what is going to happen",
+    "start": 415.039,
+    "duration": 6.081
+  },
+  {
+    "text": "sorry",
+    "start": 418.8,
+    "duration": 2.32
+  },
+  {
+    "text": "okay yeah so why would this work right",
+    "start": 421.199,
+    "duration": 4.0
+  },
+  {
+    "text": "that's the question that i'm trying to",
+    "start": 423.84,
+    "duration": 3.52
+  },
+  {
+    "text": "ask right it's not very clear to me that",
+    "start": 425.199,
+    "duration": 4.241
+  },
+  {
+    "text": "why should this work so to understand",
+    "start": 427.36,
+    "duration": 3.52
+  },
+  {
+    "text": "this we'll have to look at a bit of",
+    "start": 429.44,
+    "duration": 3.12
+  },
+  {
+    "text": "linear algebra and a bit of geometry",
+    "start": 430.88,
+    "duration": 3.84
+  },
+  {
+    "text": "right so let's let's go there so we have",
+    "start": 432.56,
+    "duration": 4.32
+  },
+  {
+    "text": "two vectors w and x and these are what",
+    "start": 434.72,
+    "duration": 4.479
+  },
+  {
+    "text": "those vectors look like w naught up to w",
+    "start": 436.88,
+    "duration": 3.92
+  },
+  {
+    "text": "n just as i had written on the previous",
+    "start": 439.199,
+    "duration": 5.28
+  },
+  {
+    "text": "slide and x s one up to x one x two x n",
+    "start": 440.8,
+    "duration": 4.56
+  },
+  {
+    "text": "right",
+    "start": 444.479,
+    "duration": 3.041
+  },
+  {
+    "text": "and now if i consider the dot product",
+    "start": 445.36,
+    "duration": 4.72
+  },
+  {
+    "text": "between these two vectors then this is",
+    "start": 447.52,
+    "duration": 5.679
+  },
+  {
+    "text": "exactly what i get and this is what the",
+    "start": 450.08,
+    "duration": 4.32
+  },
+  {
+    "text": "expression that you are seeing on the",
+    "start": 453.199,
+    "duration": 2.881
+  },
+  {
+    "text": "previous slide i was taking some",
+    "start": 454.4,
+    "duration": 3.359
+  },
+  {
+    "text": "decisions based on whether this value",
+    "start": 456.08,
+    "duration": 3.6
+  },
+  {
+    "text": "was greater than z equal to 0 or less",
+    "start": 457.759,
+    "duration": 3.921
+  },
+  {
+    "text": "than less than 0 right so this is the",
+    "start": 459.68,
+    "duration": 3.84
+  },
+  {
+    "text": "quantity that we are dealing with and",
+    "start": 461.68,
+    "duration": 3.12
+  },
+  {
+    "text": "now i'm just telling you which is",
+    "start": 463.52,
+    "duration": 3.2
+  },
+  {
+    "text": "obvious that this quantity is nothing",
+    "start": 464.8,
+    "duration": 3.44
+  },
+  {
+    "text": "but the dot product between the weight",
+    "start": 466.72,
+    "duration": 3.28
+  },
+  {
+    "text": "vector and the data vector right the",
+    "start": 468.24,
+    "duration": 3.28
+  },
+  {
+    "text": "data point that i have",
+    "start": 470.0,
+    "duration": 3.28
+  },
+  {
+    "text": "so we can just rewrite the perceptron",
+    "start": 471.52,
+    "duration": 4.0
+  },
+  {
+    "text": "rule as the following so y is equal to 1",
+    "start": 473.28,
+    "duration": 3.84
+  },
+  {
+    "text": "if the dot product is greater than equal",
+    "start": 475.52,
+    "duration": 3.679
+  },
+  {
+    "text": "to zero and y is equal to zero if the",
+    "start": 477.12,
+    "duration": 3.519
+  },
+  {
+    "text": "dot product is less than zero nothing",
+    "start": 479.199,
+    "duration": 3.12
+  },
+  {
+    "text": "magical here the dot product is just",
+    "start": 480.639,
+    "duration": 3.521
+  },
+  {
+    "text": "equal to this so i have replaced that",
+    "start": 482.319,
+    "duration": 4.32
+  },
+  {
+    "text": "cumbersome notation of summation and w i",
+    "start": 484.16,
+    "duration": 5.28
+  },
+  {
+    "text": "x i by this more compact dot product",
+    "start": 486.639,
+    "duration": 4.4
+  },
+  {
+    "text": "right",
+    "start": 489.44,
+    "duration": 4.4
+  },
+  {
+    "text": "now this is where now we need to start",
+    "start": 491.039,
+    "duration": 4.481
+  },
+  {
+    "text": "digging on if you're looking at the dot",
+    "start": 493.84,
+    "duration": 3.68
+  },
+  {
+    "text": "product right so now i've",
+    "start": 495.52,
+    "duration": 4.16
+  },
+  {
+    "text": "gotten hold of some quantity that i can",
+    "start": 497.52,
+    "duration": 3.76
+  },
+  {
+    "text": "try to explore from a linear algebra",
+    "start": 499.68,
+    "duration": 2.799
+  },
+  {
+    "text": "perspective right what does a dot",
+    "start": 501.28,
+    "duration": 3.12
+  },
+  {
+    "text": "product mean and then try to come up",
+    "start": 502.479,
+    "duration": 4.0
+  },
+  {
+    "text": "with some explanation for why should the",
+    "start": 504.4,
+    "duration": 3.76
+  },
+  {
+    "text": "algorithm work or what does it make why",
+    "start": 506.479,
+    "duration": 3.84
+  },
+  {
+    "text": "is it making sense right",
+    "start": 508.16,
+    "duration": 3.759
+  },
+  {
+    "text": "so",
+    "start": 510.319,
+    "duration": 3.361
+  },
+  {
+    "text": "we are interested in finding this line w",
+    "start": 511.919,
+    "duration": 3.68
+  },
+  {
+    "text": "transpose x equal to zero which divides",
+    "start": 513.68,
+    "duration": 3.599
+  },
+  {
+    "text": "the input into two halves right that we",
+    "start": 515.599,
+    "duration": 3.281
+  },
+  {
+    "text": "have already understood we want to learn",
+    "start": 517.279,
+    "duration": 4.081
+  },
+  {
+    "text": "these w right so now",
+    "start": 518.88,
+    "duration": 3.92
+  },
+  {
+    "text": "any a",
+    "start": 521.36,
+    "duration": 5.36
+  },
+  {
+    "text": "point so which lies on this line",
+    "start": 522.8,
+    "duration": 6.0
+  },
+  {
+    "text": "it will satisfy this equation",
+    "start": 526.72,
+    "duration": 3.52
+  },
+  {
+    "text": "i mean that's a trivial statement to",
+    "start": 528.8,
+    "duration": 4.08
+  },
+  {
+    "text": "make right so if you have the line",
+    "start": 530.24,
+    "duration": 5.44
+  },
+  {
+    "text": "y is equal to mx plus c",
+    "start": 532.88,
+    "duration": 5.36
+  },
+  {
+    "text": "right then any point x comma y which",
+    "start": 535.68,
+    "duration": 4.48
+  },
+  {
+    "text": "lies on this slide will satisfy this",
+    "start": 538.24,
+    "duration": 3.279
+  },
+  {
+    "text": "equation that's the same thing i am",
+    "start": 540.16,
+    "duration": 4.08
+  },
+  {
+    "text": "saying is just that now my way of",
+    "start": 541.519,
+    "duration": 4.32
+  },
+  {
+    "text": "writing equations is slightly different",
+    "start": 544.24,
+    "duration": 3.279
+  },
+  {
+    "text": "i am calling this as x 1 i am calling",
+    "start": 545.839,
+    "duration": 4.481
+  },
+  {
+    "text": "this as x 2 and maybe i am calling this",
+    "start": 547.519,
+    "duration": 4.88
+  },
+  {
+    "text": "as w naught right so that is the only",
+    "start": 550.32,
+    "duration": 4.72
+  },
+  {
+    "text": "notation change that i have so i have w",
+    "start": 552.399,
+    "duration": 4.0
+  },
+  {
+    "text": "1 x 1",
+    "start": 555.04,
+    "duration": 2.72
+  },
+  {
+    "text": "right",
+    "start": 556.399,
+    "duration": 3.761
+  },
+  {
+    "text": "plus w 2 x 2",
+    "start": 557.76,
+    "duration": 5.199
+  },
+  {
+    "text": "plus w naught equal to zero so this is",
+    "start": 560.16,
+    "duration": 4.4
+  },
+  {
+    "text": "the equation of a line which is",
+    "start": 562.959,
+    "duration": 3.521
+  },
+  {
+    "text": "analogous to this equation that i have",
+    "start": 564.56,
+    "duration": 3.52
+  },
+  {
+    "text": "and all i am saying is that any point",
+    "start": 566.48,
+    "duration": 3.76
+  },
+  {
+    "text": "which lies on this line satisfies this",
+    "start": 568.08,
+    "duration": 3.68
+  },
+  {
+    "text": "equation and that's a trivial statement",
+    "start": 570.24,
+    "duration": 2.719
+  },
+  {
+    "text": "to me",
+    "start": 571.76,
+    "duration": 4.4
+  },
+  {
+    "text": "now what can you tell us about the angle",
+    "start": 572.959,
+    "duration": 5.281
+  },
+  {
+    "text": "between any such point",
+    "start": 576.16,
+    "duration": 4.08
+  },
+  {
+    "text": "right and the vector w so first of all",
+    "start": 578.24,
+    "duration": 5.36
+  },
+  {
+    "text": "we have to again realize that both x and",
+    "start": 580.24,
+    "duration": 5.599
+  },
+  {
+    "text": "w are vectors and that's exact precisely",
+    "start": 583.6,
+    "duration": 4.16
+  },
+  {
+    "text": "what is defined here so now i can ask",
+    "start": 585.839,
+    "duration": 3.281
+  },
+  {
+    "text": "this question and i am saying that any",
+    "start": 587.76,
+    "duration": 2.88
+  },
+  {
+    "text": "point which lies on the slice satisfies",
+    "start": 589.12,
+    "duration": 2.719
+  },
+  {
+    "text": "this equation",
+    "start": 590.64,
+    "duration": 2.96
+  },
+  {
+    "text": "so then if it satisfies this equation",
+    "start": 591.839,
+    "duration": 4.0
+  },
+  {
+    "text": "what can you say about the angle between",
+    "start": 593.6,
+    "duration": 5.76
+  },
+  {
+    "text": "the point and the vector w",
+    "start": 595.839,
+    "duration": 5.281
+  },
+  {
+    "text": "if it satisfies the equation w transpose",
+    "start": 599.36,
+    "duration": 3.52
+  },
+  {
+    "text": "equal to zero that means these two",
+    "start": 601.12,
+    "duration": 3.68
+  },
+  {
+    "text": "vectors are orthogonal we know that from",
+    "start": 602.88,
+    "duration": 3.36
+  },
+  {
+    "text": "linear algebra so the angle is going to",
+    "start": 604.8,
+    "duration": 3.279
+  },
+  {
+    "text": "be 90 degrees right",
+    "start": 606.24,
+    "duration": 3.52
+  },
+  {
+    "text": "and",
+    "start": 608.079,
+    "duration": 3.521
+  },
+  {
+    "text": "because we know that cos of the angle is",
+    "start": 609.76,
+    "duration": 4.079
+  },
+  {
+    "text": "equal to this formula and if w transpose",
+    "start": 611.6,
+    "duration": 4.239
+  },
+  {
+    "text": "x is 0 so the cos of the angle would be",
+    "start": 613.839,
+    "duration": 3.68
+  },
+  {
+    "text": "0 and the angle would be 90 degrees",
+    "start": 615.839,
+    "duration": 3.601
+  },
+  {
+    "text": "right so this is slowly we have now",
+    "start": 617.519,
+    "duration": 3.681
+  },
+  {
+    "text": "started moving into the territory of",
+    "start": 619.44,
+    "duration": 3.839
+  },
+  {
+    "text": "geometry and linear algebra right so now",
+    "start": 621.2,
+    "duration": 3.759
+  },
+  {
+    "text": "we know that if the point lies on the",
+    "start": 623.279,
+    "duration": 3.921
+  },
+  {
+    "text": "line then the angle is 90 degree with",
+    "start": 624.959,
+    "duration": 5.041
+  },
+  {
+    "text": "the weight vector okay",
+    "start": 627.2,
+    "duration": 5.759
+  },
+  {
+    "text": "now let's uh go ahead right so if the",
+    "start": 630.0,
+    "duration": 6.24
+  },
+  {
+    "text": "point if the vector w",
+    "start": 632.959,
+    "duration": 4.0
+  },
+  {
+    "text": "right",
+    "start": 636.24,
+    "duration": 2.64
+  },
+  {
+    "text": "if it's perpendicular to every point on",
+    "start": 636.959,
+    "duration": 3.681
+  },
+  {
+    "text": "the line then it just simply means that",
+    "start": 638.88,
+    "duration": 3.519
+  },
+  {
+    "text": "it's perpendicular right so if this is",
+    "start": 640.64,
+    "duration": 4.4
+  },
+  {
+    "text": "the line w transpose x equal to 0 then",
+    "start": 642.399,
+    "duration": 4.161
+  },
+  {
+    "text": "my weight vector is going to be",
+    "start": 645.04,
+    "duration": 3.2
+  },
+  {
+    "text": "perpendicular to that so nothing great",
+    "start": 646.56,
+    "duration": 3.04
+  },
+  {
+    "text": "again right",
+    "start": 648.24,
+    "duration": 3.44
+  },
+  {
+    "text": "now let's see some points which lie in",
+    "start": 649.6,
+    "duration": 5.52
+  },
+  {
+    "text": "the positive half space of this",
+    "start": 651.68,
+    "duration": 4.24
+  },
+  {
+    "text": "line",
+    "start": 655.12,
+    "duration": 2.64
+  },
+  {
+    "text": "right so this is my line",
+    "start": 655.92,
+    "duration": 3.12
+  },
+  {
+    "text": "and i'm going to look at the points",
+    "start": 657.76,
+    "duration": 2.8
+  },
+  {
+    "text": "which lie in the positive half space",
+    "start": 659.04,
+    "duration": 3.039
+  },
+  {
+    "text": "what is the positive half space it means",
+    "start": 660.56,
+    "duration": 3.2
+  },
+  {
+    "text": "that w transpose x should be greater",
+    "start": 662.079,
+    "duration": 5.521
+  },
+  {
+    "text": "than 0 right so here are these points",
+    "start": 663.76,
+    "duration": 5.92
+  },
+  {
+    "text": "now my question is what would be the",
+    "start": 667.6,
+    "duration": 3.28
+  },
+  {
+    "text": "angle",
+    "start": 669.68,
+    "duration": 3.2
+  },
+  {
+    "text": "between these points and the weight",
+    "start": 670.88,
+    "duration": 4.72
+  },
+  {
+    "text": "vector w",
+    "start": 672.88,
+    "duration": 4.32
+  },
+  {
+    "text": "without knowing anything just that by",
+    "start": 675.6,
+    "duration": 3.44
+  },
+  {
+    "text": "looking at the picture",
+    "start": 677.2,
+    "duration": 3.36
+  },
+  {
+    "text": "you should be able to tell me that this",
+    "start": 679.04,
+    "duration": 3.84
+  },
+  {
+    "text": "angle would be",
+    "start": 680.56,
+    "duration": 4.719
+  },
+  {
+    "text": "less than 90 degrees right it's obvious",
+    "start": 682.88,
+    "duration": 3.519
+  },
+  {
+    "text": "from the",
+    "start": 685.279,
+    "duration": 4.321
+  },
+  {
+    "text": "picture right and",
+    "start": 686.399,
+    "duration": 5.041
+  },
+  {
+    "text": "why is oh let's let's see if i want to",
+    "start": 689.6,
+    "duration": 3.84
+  },
+  {
+    "text": "answer this now and now let's look at",
+    "start": 691.44,
+    "duration": 3.36
+  },
+  {
+    "text": "some points which lie in the negative",
+    "start": 693.44,
+    "duration": 3.2
+  },
+  {
+    "text": "half space right which are these red",
+    "start": 694.8,
+    "duration": 2.96
+  },
+  {
+    "text": "points",
+    "start": 696.64,
+    "duration": 3.199
+  },
+  {
+    "text": "what would be and by definition if it's",
+    "start": 697.76,
+    "duration": 3.28
+  },
+  {
+    "text": "in the negative half space and w",
+    "start": 699.839,
+    "duration": 3.12
+  },
+  {
+    "text": "transpose x is less than zero so what",
+    "start": 701.04,
+    "duration": 3.84
+  },
+  {
+    "text": "would be the angle between these points",
+    "start": 702.959,
+    "duration": 3.281
+  },
+  {
+    "text": "and the weight vector again just by",
+    "start": 704.88,
+    "duration": 3.199
+  },
+  {
+    "text": "looking at the picture it is clear that",
+    "start": 706.24,
+    "duration": 3.44
+  },
+  {
+    "text": "the angle should be greater than 90",
+    "start": 708.079,
+    "duration": 3.281
+  },
+  {
+    "text": "degrees right so if i consider this",
+    "start": 709.68,
+    "duration": 4.159
+  },
+  {
+    "text": "point here this angle is clearly greater",
+    "start": 711.36,
+    "duration": 4.24
+  },
+  {
+    "text": "than 90 degrees because i mean you know",
+    "start": 713.839,
+    "duration": 4.8
+  },
+  {
+    "text": "it is greater than 90 degrees okay",
+    "start": 715.6,
+    "duration": 6.56
+  },
+  {
+    "text": "so that also is clear now right so now",
+    "start": 718.639,
+    "duration": 6.481
+  },
+  {
+    "text": "let us try to relate uh the expression",
+    "start": 722.16,
+    "duration": 5.359
+  },
+  {
+    "text": "that we had with this geometry right",
+    "start": 725.12,
+    "duration": 4.8
+  },
+  {
+    "text": "this simply follows from the formula so",
+    "start": 727.519,
+    "duration": 5.281
+  },
+  {
+    "text": "you had the cos alpha is the formula for",
+    "start": 729.92,
+    "duration": 4.719
+  },
+  {
+    "text": "that is w transpose x divided by the",
+    "start": 732.8,
+    "duration": 4.8
+  },
+  {
+    "text": "norm of w and norm of x right so if w",
+    "start": 734.639,
+    "duration": 5.361
+  },
+  {
+    "text": "transpose x is greater than zero right",
+    "start": 737.6,
+    "duration": 4.0
+  },
+  {
+    "text": "that means cos alpha is greater than",
+    "start": 740.0,
+    "duration": 3.92
+  },
+  {
+    "text": "zero if cos alpha is greater than 0 that",
+    "start": 741.6,
+    "duration": 4.0
+  },
+  {
+    "text": "means alpha is going to be less than 90",
+    "start": 743.92,
+    "duration": 3.919
+  },
+  {
+    "text": "degrees right so that is what it follows",
+    "start": 745.6,
+    "duration": 4.32
+  },
+  {
+    "text": "from because the points lying in the",
+    "start": 747.839,
+    "duration": 3.921
+  },
+  {
+    "text": "positive half space satisfy this",
+    "start": 749.92,
+    "duration": 3.919
+  },
+  {
+    "text": "expression this inequality that's why",
+    "start": 751.76,
+    "duration": 3.68
+  },
+  {
+    "text": "the angle is going to be less than 90",
+    "start": 753.839,
+    "duration": 3.601
+  },
+  {
+    "text": "degrees and because the points lying in",
+    "start": 755.44,
+    "duration": 4.32
+  },
+  {
+    "text": "the negative half space satisfy this",
+    "start": 757.44,
+    "duration": 4.16
+  },
+  {
+    "text": "inequality that's why the angle is going",
+    "start": 759.76,
+    "duration": 3.28
+  },
+  {
+    "text": "to be less than 90 degrees so you just",
+    "start": 761.6,
+    "duration": 4.0
+  },
+  {
+    "text": "don't know this pictorially now you also",
+    "start": 763.04,
+    "duration": 3.84
+  },
+  {
+    "text": "know that it follows from this",
+    "start": 765.6,
+    "duration": 3.6
+  },
+  {
+    "text": "inequality right so all positive points",
+    "start": 766.88,
+    "duration": 4.639
+  },
+  {
+    "text": "will have a acute angle all positive",
+    "start": 769.2,
+    "duration": 3.68
+  },
+  {
+    "text": "negative points will have an angle which",
+    "start": 771.519,
+    "duration": 3.521
+  },
+  {
+    "text": "is greater than 90 degrees right so now",
+    "start": 772.88,
+    "duration": 3.92
+  },
+  {
+    "text": "with this explanation in mind let's",
+    "start": 775.04,
+    "duration": 3.919
+  },
+  {
+    "text": "revisit the algorithm and let's try to",
+    "start": 776.8,
+    "duration": 4.56
+  },
+  {
+    "text": "see what is happening right so what was",
+    "start": 778.959,
+    "duration": 5.12
+  },
+  {
+    "text": "i doing if i had a positive point on",
+    "start": 781.36,
+    "duration": 5.44
+  },
+  {
+    "text": "which i was making an error then i was",
+    "start": 784.079,
+    "duration": 4.88
+  },
+  {
+    "text": "changing the weight vector by adding the",
+    "start": 786.8,
+    "duration": 3.44
+  },
+  {
+    "text": "point to the weight vector and that's",
+    "start": 788.959,
+    "duration": 2.641
+  },
+  {
+    "text": "what is happening if i had a positive",
+    "start": 790.24,
+    "duration": 3.68
+  },
+  {
+    "text": "point on which i was making an error",
+    "start": 791.6,
+    "duration": 4.4
+  },
+  {
+    "text": "then i was changing the weight vector by",
+    "start": 793.92,
+    "duration": 3.599
+  },
+  {
+    "text": "adding the point to it right so let's",
+    "start": 796.0,
+    "duration": 4.399
+  },
+  {
+    "text": "see what happens by that right",
+    "start": 797.519,
+    "duration": 5.44
+  },
+  {
+    "text": "so if x is belonging to p and if w",
+    "start": 800.399,
+    "duration": 4.401
+  },
+  {
+    "text": "transpose x is less than 0 that's what",
+    "start": 802.959,
+    "duration": 4.801
+  },
+  {
+    "text": "this expression means right",
+    "start": 804.8,
+    "duration": 4.96
+  },
+  {
+    "text": "then it means that the angle between",
+    "start": 807.76,
+    "duration": 3.199
+  },
+  {
+    "text": "this x",
+    "start": 809.76,
+    "duration": 3.079
+  },
+  {
+    "text": "and the current w is greater than 90",
+    "start": 810.959,
+    "duration": 4.241
+  },
+  {
+    "text": "degrees right but that is not what i",
+    "start": 812.839,
+    "duration": 4.68
+  },
+  {
+    "text": "wanted i wanted this angle to be less",
+    "start": 815.2,
+    "duration": 4.72
+  },
+  {
+    "text": "than 90 degrees so now what is it what",
+    "start": 817.519,
+    "duration": 4.081
+  },
+  {
+    "text": "should my goal be if i am in this",
+    "start": 819.92,
+    "duration": 4.96
+  },
+  {
+    "text": "situation that my w and x are such that",
+    "start": 821.6,
+    "duration": 5.2
+  },
+  {
+    "text": "the angle is greater than 90 degrees and",
+    "start": 824.88,
+    "duration": 4.079
+  },
+  {
+    "text": "i want it to be less than 90 degrees so",
+    "start": 826.8,
+    "duration": 5.279
+  },
+  {
+    "text": "i should try to adjust the w",
+    "start": 828.959,
+    "duration": 4.56
+  },
+  {
+    "text": "at least such that whatever is the",
+    "start": 832.079,
+    "duration": 3.681
+  },
+  {
+    "text": "current angle that angle should decrease",
+    "start": 833.519,
+    "duration": 4.0
+  },
+  {
+    "text": "it may not become less than 90 degrees",
+    "start": 835.76,
+    "duration": 3.6
+  },
+  {
+    "text": "at one shot but at least it should",
+    "start": 837.519,
+    "duration": 3.361
+  },
+  {
+    "text": "decrease from where it is currently",
+    "start": 839.36,
+    "duration": 2.64
+  },
+  {
+    "text": "because right now i am in a bad",
+    "start": 840.88,
+    "duration": 3.04
+  },
+  {
+    "text": "situation and that's what i should do so",
+    "start": 842.0,
+    "duration": 4.88
+  },
+  {
+    "text": "let's see if what happens",
+    "start": 843.92,
+    "duration": 4.88
+  },
+  {
+    "text": "if we do this update so this is the",
+    "start": 846.88,
+    "duration": 4.24
+  },
+  {
+    "text": "update that we do our goal was to want",
+    "start": 848.8,
+    "duration": 4.8
+  },
+  {
+    "text": "it to be less than 90 degrees",
+    "start": 851.12,
+    "duration": 4.159
+  },
+  {
+    "text": "we somehow ignored that goal and went",
+    "start": 853.6,
+    "duration": 3.84
+  },
+  {
+    "text": "ahead and said okay let me do this",
+    "start": 855.279,
+    "duration": 3.92
+  },
+  {
+    "text": "so what i need to convince you is that",
+    "start": 857.44,
+    "duration": 3.92
+  },
+  {
+    "text": "whether this is in line with my goal",
+    "start": 859.199,
+    "duration": 5.281
+  },
+  {
+    "text": "right so if my new w is w plus x so let",
+    "start": 861.36,
+    "duration": 5.44
+  },
+  {
+    "text": "me now check what my new angle would be",
+    "start": 864.48,
+    "duration": 4.0
+  },
+  {
+    "text": "right my new angle",
+    "start": 866.8,
+    "duration": 3.92
+  },
+  {
+    "text": "would be proportional to this",
+    "start": 868.48,
+    "duration": 4.159
+  },
+  {
+    "text": "right now let me just substitute the",
+    "start": 870.72,
+    "duration": 4.64
+  },
+  {
+    "text": "value of w new it's w plus x",
+    "start": 872.639,
+    "duration": 5.2
+  },
+  {
+    "text": "okay let me just open up the bracket w",
+    "start": 875.36,
+    "duration": 4.64
+  },
+  {
+    "text": "transpose x plus x transpose x",
+    "start": 877.839,
+    "duration": 5.521
+  },
+  {
+    "text": "w transpose x is cos alpha",
+    "start": 880.0,
+    "duration": 6.079
+  },
+  {
+    "text": "right so cos alpha nu",
+    "start": 883.36,
+    "duration": 5.279
+  },
+  {
+    "text": "is actually greater than cos alpha",
+    "start": 886.079,
+    "duration": 6.32
+  },
+  {
+    "text": "that means alpha nu would be",
+    "start": 888.639,
+    "duration": 5.521
+  },
+  {
+    "text": "less than alpha",
+    "start": 892.399,
+    "duration": 3.281
+  },
+  {
+    "text": "that's what i wanted whatever was my",
+    "start": 894.16,
+    "duration": 4.16
+  },
+  {
+    "text": "current alpha i wanted my new alpha to",
+    "start": 895.68,
+    "duration": 4.32
+  },
+  {
+    "text": "be less than that eventually i want to",
+    "start": 898.32,
+    "duration": 3.44
+  },
+  {
+    "text": "get it to less than 90 degrees but i may",
+    "start": 900.0,
+    "duration": 3.6
+  },
+  {
+    "text": "not be able to do it at one shot so i",
+    "start": 901.76,
+    "duration": 3.68
+  },
+  {
+    "text": "will slowly try to make it less than",
+    "start": 903.6,
+    "duration": 3.919
+  },
+  {
+    "text": "right so that's what has happened here",
+    "start": 905.44,
+    "duration": 4.16
+  },
+  {
+    "text": "okay there is",
+    "start": 907.519,
+    "duration": 3.76
+  },
+  {
+    "text": "some",
+    "start": 909.6,
+    "duration": 3.28
+  },
+  {
+    "text": "hidden stuff here right so i've",
+    "start": 911.279,
+    "duration": 3.441
+  },
+  {
+    "text": "conveniently used this proportional sign",
+    "start": 912.88,
+    "duration": 3.44
+  },
+  {
+    "text": "and ignored the denominator all which",
+    "start": 914.72,
+    "duration": 3.359
+  },
+  {
+    "text": "simplifies the calculation for me and it",
+    "start": 916.32,
+    "duration": 3.04
+  },
+  {
+    "text": "makes it easier for me to show the",
+    "start": 918.079,
+    "duration": 3.281
+  },
+  {
+    "text": "intuition if you add the denominator and",
+    "start": 919.36,
+    "duration": 3.76
+  },
+  {
+    "text": "all you will kind of realize that it's a",
+    "start": 921.36,
+    "duration": 3.36
+  },
+  {
+    "text": "bit more trickier calculation but the",
+    "start": 923.12,
+    "duration": 3.04
+  },
+  {
+    "text": "idea is just to give you the intuition",
+    "start": 924.72,
+    "duration": 3.44
+  },
+  {
+    "text": "right so you understand now that with",
+    "start": 926.16,
+    "duration": 6.0
+  },
+  {
+    "text": "this update the alpha actually becomes",
+    "start": 928.16,
+    "duration": 5.44
+  },
+  {
+    "text": "less than what it was currently and",
+    "start": 932.16,
+    "duration": 4.0
+  },
+  {
+    "text": "that's exactly what i wanted right let's",
+    "start": 933.6,
+    "duration": 4.4
+  },
+  {
+    "text": "look at the other case",
+    "start": 936.16,
+    "duration": 4.56
+  },
+  {
+    "text": "if x was a negative point",
+    "start": 938.0,
+    "duration": 5.04
+  },
+  {
+    "text": "and if i was making an error",
+    "start": 940.72,
+    "duration": 3.84
+  },
+  {
+    "text": "right so if w transpose x was greater",
+    "start": 943.04,
+    "duration": 3.68
+  },
+  {
+    "text": "than equal to 0 that means",
+    "start": 944.56,
+    "duration": 4.079
+  },
+  {
+    "text": "the current angle",
+    "start": 946.72,
+    "duration": 4.0
+  },
+  {
+    "text": "is less than 90 degrees but what do i",
+    "start": 948.639,
+    "duration": 3.841
+  },
+  {
+    "text": "want i want it to be greater than 90",
+    "start": 950.72,
+    "duration": 4.799
+  },
+  {
+    "text": "degrees right so if i look at it at one",
+    "start": 952.48,
+    "duration": 5.279
+  },
+  {
+    "text": "point one step at a time",
+    "start": 955.519,
+    "duration": 4.0
+  },
+  {
+    "text": "whatever is the current angle i want the",
+    "start": 957.759,
+    "duration": 3.921
+  },
+  {
+    "text": "new angle to be greater than this angle",
+    "start": 959.519,
+    "duration": 4.24
+  },
+  {
+    "text": "right so let's see if that happens if i",
+    "start": 961.68,
+    "duration": 4.32
+  },
+  {
+    "text": "do w nu equal to w minus x the same",
+    "start": 963.759,
+    "duration": 4.88
+  },
+  {
+    "text": "explanation cos alpha nu is going to be",
+    "start": 966.0,
+    "duration": 5.199
+  },
+  {
+    "text": "this i'll substitute the value",
+    "start": 968.639,
+    "duration": 5.041
+  },
+  {
+    "text": "i'll replace open up the bracket and now",
+    "start": 971.199,
+    "duration": 5.121
+  },
+  {
+    "text": "you can see that cos alpha nu is",
+    "start": 973.68,
+    "duration": 4.88
+  },
+  {
+    "text": "actually less than cos alpha right if",
+    "start": 976.32,
+    "duration": 5.199
+  },
+  {
+    "text": "cos alpha nu is less than cos alpha that",
+    "start": 978.56,
+    "duration": 4.8
+  },
+  {
+    "text": "means alpha nu",
+    "start": 981.519,
+    "duration": 4.24
+  },
+  {
+    "text": "is greater than alpha right and that's",
+    "start": 983.36,
+    "duration": 5.12
+  },
+  {
+    "text": "what i wanted my current angle was",
+    "start": 985.759,
+    "duration": 4.08
+  },
+  {
+    "text": "less than 90 degrees which was not",
+    "start": 988.48,
+    "duration": 2.96
+  },
+  {
+    "text": "acceptable to me i wanted it to be more",
+    "start": 989.839,
+    "duration": 3.521
+  },
+  {
+    "text": "than 90 degrees so this step has at",
+    "start": 991.44,
+    "duration": 4.399
+  },
+  {
+    "text": "least ensured that my angle and new",
+    "start": 993.36,
+    "duration": 4.8
+  },
+  {
+    "text": "angle is greater than my current angle",
+    "start": 995.839,
+    "duration": 4.8
+  },
+  {
+    "text": "and i'll maybe slowly keep doing this",
+    "start": 998.16,
+    "duration": 4.32
+  },
+  {
+    "text": "and move towards convergence slowly",
+    "start": 1000.639,
+    "duration": 3.521
+  },
+  {
+    "text": "slowly i will keep changing this angle",
+    "start": 1002.48,
+    "duration": 3.2
+  },
+  {
+    "text": "iteratively right because i am going to",
+    "start": 1004.16,
+    "duration": 2.56
+  },
+  {
+    "text": "do this",
+    "start": 1005.68,
+    "duration": 2.88
+  },
+  {
+    "text": "iteratively its not that once i pick up",
+    "start": 1006.72,
+    "duration": 4.479
+  },
+  {
+    "text": "a point and i adjust my w i will never",
+    "start": 1008.56,
+    "duration": 4.56
+  },
+  {
+    "text": "revisit that point right i'll keep doing",
+    "start": 1011.199,
+    "duration": 3.921
+  },
+  {
+    "text": "this till i read convergence that will i",
+    "start": 1013.12,
+    "duration": 3.68
+  },
+  {
+    "text": "keep picking these points again and",
+    "start": 1015.12,
+    "duration": 3.92
+  },
+  {
+    "text": "again cyclically right so at some point",
+    "start": 1016.8,
+    "duration": 3.36
+  },
+  {
+    "text": "i'll keep changing it and then",
+    "start": 1019.04,
+    "duration": 3.28
+  },
+  {
+    "text": "eventually it will cross 90 degree right",
+    "start": 1020.16,
+    "duration": 3.359
+  },
+  {
+    "text": "so that's the",
+    "start": 1022.32,
+    "duration": 3.759
+  },
+  {
+    "text": "intuition that we have here right and",
+    "start": 1023.519,
+    "duration": 5.201
+  },
+  {
+    "text": "that's why that update makes sense",
+    "start": 1026.079,
+    "duration": 4.96
+  },
+  {
+    "text": "still a bit more to it right i mean some",
+    "start": 1028.72,
+    "duration": 4.64
+  },
+  {
+    "text": "of you would start should start thinking",
+    "start": 1031.039,
+    "duration": 4.16
+  },
+  {
+    "text": "oh wait when i see a positive point i",
+    "start": 1033.36,
+    "duration": 4.319
+  },
+  {
+    "text": "make an error i change the w so that",
+    "start": 1035.199,
+    "duration": 4.401
+  },
+  {
+    "text": "this angle becomes something",
+    "start": 1037.679,
+    "duration": 3.921
+  },
+  {
+    "text": "now if the next step if i take a",
+    "start": 1039.6,
+    "duration": 3.68
+  },
+  {
+    "text": "negative point i make an error i again",
+    "start": 1041.6,
+    "duration": 4.4
+  },
+  {
+    "text": "change the w now how does this ensure",
+    "start": 1043.28,
+    "duration": 4.159
+  },
+  {
+    "text": "that i don't keep toggling like this",
+    "start": 1046.0,
+    "duration": 3.039
+  },
+  {
+    "text": "right for a positive point i change the",
+    "start": 1047.439,
+    "duration": 4.881
+  },
+  {
+    "text": "w so that the angle became",
+    "start": 1049.039,
+    "duration": 4.801
+  },
+  {
+    "text": "less than what it was earlier for a",
+    "start": 1052.32,
+    "duration": 3.68
+  },
+  {
+    "text": "negative point i changed the w so that",
+    "start": 1053.84,
+    "duration": 3.92
+  },
+  {
+    "text": "the angle became",
+    "start": 1056.0,
+    "duration": 3.44
+  },
+  {
+    "text": "greater than what it was earlier but if",
+    "start": 1057.76,
+    "duration": 3.36
+  },
+  {
+    "text": "i keep doing this then what if i just",
+    "start": 1059.44,
+    "duration": 3.04
+  },
+  {
+    "text": "keep toggling and never reach",
+    "start": 1061.12,
+    "duration": 3.12
+  },
+  {
+    "text": "convergence right so what's the proof of",
+    "start": 1062.48,
+    "duration": 3.84
+  },
+  {
+    "text": "convergence that we have not done that i",
+    "start": 1064.24,
+    "duration": 4.0
+  },
+  {
+    "text": "have just explained you the intuition",
+    "start": 1066.32,
+    "duration": 3.44
+  },
+  {
+    "text": "behind these steps why do these steps",
+    "start": 1068.24,
+    "duration": 3.439
+  },
+  {
+    "text": "make sense i still need to explain",
+    "start": 1069.76,
+    "duration": 3.52
+  },
+  {
+    "text": "whether this algorithm will converge or",
+    "start": 1071.679,
+    "duration": 4.0
+  },
+  {
+    "text": "not we will get to that later right so",
+    "start": 1073.28,
+    "duration": 4.8
+  },
+  {
+    "text": "now let's try to see this algorithm on a",
+    "start": 1075.679,
+    "duration": 3.921
+  },
+  {
+    "text": "toy data set right so to convince",
+    "start": 1078.08,
+    "duration": 3.92
+  },
+  {
+    "text": "ourselves that the explanation was",
+    "start": 1079.6,
+    "duration": 3.92
+  },
+  {
+    "text": "indeed correct right so",
+    "start": 1082.0,
+    "duration": 4.32
+  },
+  {
+    "text": "we initialize w to a random value",
+    "start": 1083.52,
+    "duration": 6.48
+  },
+  {
+    "text": "uh and so this is what my w is",
+    "start": 1086.32,
+    "duration": 5.599
+  },
+  {
+    "text": "okay i will just initialize it randomly",
+    "start": 1090.0,
+    "duration": 5.2
+  },
+  {
+    "text": "and you will observe that currently my w",
+    "start": 1091.919,
+    "duration": 5.12
+  },
+  {
+    "text": "is exactly opposite of what it should be",
+    "start": 1095.2,
+    "duration": 4.24
+  },
+  {
+    "text": "right it has a angle less than 90",
+    "start": 1097.039,
+    "duration": 3.601
+  },
+  {
+    "text": "degrees",
+    "start": 1099.44,
+    "duration": 3.359
+  },
+  {
+    "text": "with all the negative points and an",
+    "start": 1100.64,
+    "duration": 4.48
+  },
+  {
+    "text": "angle greater than 90 degrees with all",
+    "start": 1102.799,
+    "duration": 3.921
+  },
+  {
+    "text": "the positive points so this is exactly",
+    "start": 1105.12,
+    "duration": 4.559
+  },
+  {
+    "text": "opposite of what i wanted right",
+    "start": 1106.72,
+    "duration": 5.52
+  },
+  {
+    "text": "yes w n suppose x w transpose x equal to",
+    "start": 1109.679,
+    "duration": 5.441
+  },
+  {
+    "text": "0 is the equation of the yeah yeah so",
+    "start": 1112.24,
+    "duration": 4.559
+  },
+  {
+    "text": "i'm not happy with the situation because",
+    "start": 1115.12,
+    "duration": 4.559
+  },
+  {
+    "text": "my w is clearly not what i want it to be",
+    "start": 1116.799,
+    "duration": 5.12
+  },
+  {
+    "text": "so let's just run the perceptron",
+    "start": 1119.679,
+    "duration": 4.481
+  },
+  {
+    "text": "algorithm right so what will i do what",
+    "start": 1121.919,
+    "duration": 4.161
+  },
+  {
+    "text": "does the algorithm do it picks up a",
+    "start": 1124.16,
+    "duration": 4.24
+  },
+  {
+    "text": "point randomly from",
+    "start": 1126.08,
+    "duration": 4.479
+  },
+  {
+    "text": "the union of p comma n right so let's",
+    "start": 1128.4,
+    "duration": 3.84
+  },
+  {
+    "text": "say i randomly picked up a point and the",
+    "start": 1130.559,
+    "duration": 4.0
+  },
+  {
+    "text": "point was p1 okay",
+    "start": 1132.24,
+    "duration": 6.72
+  },
+  {
+    "text": "and my condition is not satisfied so w x",
+    "start": 1134.559,
+    "duration": 6.401
+  },
+  {
+    "text": "w transpose x or the dot product between",
+    "start": 1138.96,
+    "duration": 4.8
+  },
+  {
+    "text": "w and x is less than 0 right whereas i",
+    "start": 1140.96,
+    "duration": 4.719
+  },
+  {
+    "text": "want it to be greater than equal to 0 so",
+    "start": 1143.76,
+    "duration": 3.6
+  },
+  {
+    "text": "i'll have to apply a correction right so",
+    "start": 1145.679,
+    "duration": 3.201
+  },
+  {
+    "text": "now i'm going to apply the correction w",
+    "start": 1147.36,
+    "duration": 3.76
+  },
+  {
+    "text": "is equal to w plus x where x is nothing",
+    "start": 1148.88,
+    "duration": 5.28
+  },
+  {
+    "text": "but the point p 1 okay so if i apply",
+    "start": 1151.12,
+    "duration": 5.04
+  },
+  {
+    "text": "this correction let's see what happens",
+    "start": 1154.16,
+    "duration": 4.32
+  },
+  {
+    "text": "so you can see that my w has changed",
+    "start": 1156.16,
+    "duration": 4.96
+  },
+  {
+    "text": "right and you can see the",
+    "start": 1158.48,
+    "duration": 5.52
+  },
+  {
+    "text": "as i was expecting the new angle between",
+    "start": 1161.12,
+    "duration": 5.6
+  },
+  {
+    "text": "w and p1 is now less than the older",
+    "start": 1164.0,
+    "duration": 4.24
+  },
+  {
+    "text": "angle right so this",
+    "start": 1166.72,
+    "duration": 4.319
+  },
+  {
+    "text": "greedy step has worked in doing whatever",
+    "start": 1168.24,
+    "duration": 4.88
+  },
+  {
+    "text": "it was said to do right so it has",
+    "start": 1171.039,
+    "duration": 4.561
+  },
+  {
+    "text": "reduced the angle now let me do it again",
+    "start": 1173.12,
+    "duration": 4.799
+  },
+  {
+    "text": "right so now again randomly pick a point",
+    "start": 1175.6,
+    "duration": 3.84
+  },
+  {
+    "text": "and say this time the point that i pick",
+    "start": 1177.919,
+    "duration": 5.521
+  },
+  {
+    "text": "is p2 okay so i'll compute the angle",
+    "start": 1179.44,
+    "duration": 6.239
+  },
+  {
+    "text": "between",
+    "start": 1183.44,
+    "duration": 4.08
+  },
+  {
+    "text": "sorry i'll just compute the dot product",
+    "start": 1185.679,
+    "duration": 4.481
+  },
+  {
+    "text": "w transpose x and again i am seeing that",
+    "start": 1187.52,
+    "duration": 4.35
+  },
+  {
+    "text": "the uh",
+    "start": 1190.16,
+    "duration": 3.12
+  },
+  {
+    "text": "[Music]",
+    "start": 1191.87,
+    "duration": 3.65
+  },
+  {
+    "text": "sorry yeah this is where i was so i",
+    "start": 1193.28,
+    "duration": 5.04
+  },
+  {
+    "text": "picked the point p 2",
+    "start": 1195.52,
+    "duration": 5.039
+  },
+  {
+    "text": "and again you can see with this w the",
+    "start": 1198.32,
+    "duration": 3.92
+  },
+  {
+    "text": "angle is still",
+    "start": 1200.559,
+    "duration": 3.041
+  },
+  {
+    "text": "greater than 0",
+    "start": 1202.24,
+    "duration": 3.84
+  },
+  {
+    "text": "right sorry greater than 90 degrees so i",
+    "start": 1203.6,
+    "duration": 4.0
+  },
+  {
+    "text": "don't want that so i'll have to apply a",
+    "start": 1206.08,
+    "duration": 2.959
+  },
+  {
+    "text": "correction here also what will the",
+    "start": 1207.6,
+    "duration": 4.72
+  },
+  {
+    "text": "correction be i'll add p2 to w and i'll",
+    "start": 1209.039,
+    "duration": 5.76
+  },
+  {
+    "text": "get a new w so this is what my new w",
+    "start": 1212.32,
+    "duration": 4.32
+  },
+  {
+    "text": "looks like and you can again see that",
+    "start": 1214.799,
+    "duration": 3.601
+  },
+  {
+    "text": "the angle has decreased in fact here it",
+    "start": 1216.64,
+    "duration": 4.8
+  },
+  {
+    "text": "has already become less than 90 but i",
+    "start": 1218.4,
+    "duration": 4.399
+  },
+  {
+    "text": "don't care about it all i care about is",
+    "start": 1221.44,
+    "duration": 3.2
+  },
+  {
+    "text": "the angle is decreased now let me pick",
+    "start": 1222.799,
+    "duration": 4.0
+  },
+  {
+    "text": "up another point and this time maybe i",
+    "start": 1224.64,
+    "duration": 4.08
+  },
+  {
+    "text": "picked up n1 right",
+    "start": 1226.799,
+    "duration": 4.401
+  },
+  {
+    "text": "and now with n1",
+    "start": 1228.72,
+    "duration": 4.24
+  },
+  {
+    "text": "i again need to apply correction because",
+    "start": 1231.2,
+    "duration": 4.24
+  },
+  {
+    "text": "you can see that the angle",
+    "start": 1232.96,
+    "duration": 4.719
+  },
+  {
+    "text": "is actually quite small",
+    "start": 1235.44,
+    "duration": 4.719
+  },
+  {
+    "text": "right it's forget about greater than 90",
+    "start": 1237.679,
+    "duration": 4.48
+  },
+  {
+    "text": "is actually quite small so i need to",
+    "start": 1240.159,
+    "duration": 3.681
+  },
+  {
+    "text": "again change it and my adjustment would",
+    "start": 1242.159,
+    "duration": 4.481
+  },
+  {
+    "text": "be w into w is equal to w minus x and",
+    "start": 1243.84,
+    "duration": 5.76
+  },
+  {
+    "text": "when i get do that i get this new",
+    "start": 1246.64,
+    "duration": 4.64
+  },
+  {
+    "text": "w right and i can again see that the",
+    "start": 1249.6,
+    "duration": 3.76
+  },
+  {
+    "text": "angle has increased okay",
+    "start": 1251.28,
+    "duration": 3.44
+  },
+  {
+    "text": "now let me do",
+    "start": 1253.36,
+    "duration": 3.28
+  },
+  {
+    "text": "again pick a random point and say it was",
+    "start": 1254.72,
+    "duration": 3.12
+  },
+  {
+    "text": "n3",
+    "start": 1256.64,
+    "duration": 2.72
+  },
+  {
+    "text": "no correction is needed because you can",
+    "start": 1257.84,
+    "duration": 4.56
+  },
+  {
+    "text": "see that n3 is already making an obtuse",
+    "start": 1259.36,
+    "duration": 4.319
+  },
+  {
+    "text": "angle",
+    "start": 1262.4,
+    "duration": 2.48
+  },
+  {
+    "text": "with the",
+    "start": 1263.679,
+    "duration": 2.641
+  },
+  {
+    "text": "weight vector right so no correction is",
+    "start": 1264.88,
+    "duration": 2.799
+  },
+  {
+    "text": "needed because the condition is already",
+    "start": 1266.32,
+    "duration": 2.4
+  },
+  {
+    "text": "satisfied",
+    "start": 1267.679,
+    "duration": 4.24
+  },
+  {
+    "text": "again i pick up a random point it's n2",
+    "start": 1268.72,
+    "duration": 6.56
+  },
+  {
+    "text": "so again n2 is already safe because the",
+    "start": 1271.919,
+    "duration": 4.721
+  },
+  {
+    "text": "angle seems to be greater than 90",
+    "start": 1275.28,
+    "duration": 2.8
+  },
+  {
+    "text": "degrees so i don't need to do any",
+    "start": 1276.64,
+    "duration": 2.96
+  },
+  {
+    "text": "correction",
+    "start": 1278.08,
+    "duration": 4.079
+  },
+  {
+    "text": "now i pick up the point p3 and i need to",
+    "start": 1279.6,
+    "duration": 4.559
+  },
+  {
+    "text": "make a correction because with p3 i can",
+    "start": 1282.159,
+    "duration": 3.601
+  },
+  {
+    "text": "see that the angle is greater than 90",
+    "start": 1284.159,
+    "duration": 3.76
+  },
+  {
+    "text": "degrees so i will do the same correction",
+    "start": 1285.76,
+    "duration": 4.96
+  },
+  {
+    "text": "and this is what my new w looks like",
+    "start": 1287.919,
+    "duration": 3.921
+  },
+  {
+    "text": "okay",
+    "start": 1290.72,
+    "duration": 3.28
+  },
+  {
+    "text": "now let me pick up the point another",
+    "start": 1291.84,
+    "duration": 4.719
+  },
+  {
+    "text": "point randomly and say it is p 2",
+    "start": 1294.0,
+    "duration": 4.0
+  },
+  {
+    "text": "no correction is needed because you can",
+    "start": 1296.559,
+    "duration": 3.441
+  },
+  {
+    "text": "see visually that the angle is less than",
+    "start": 1298.0,
+    "duration": 5.12
+  },
+  {
+    "text": "9 2 again i pick up n1 no correction is",
+    "start": 1300.0,
+    "duration": 5.039
+  },
+  {
+    "text": "needed the angle is greater than 90",
+    "start": 1303.12,
+    "duration": 3.039
+  },
+  {
+    "text": "degrees",
+    "start": 1305.039,
+    "duration": 3.76
+  },
+  {
+    "text": "again i pick up n 3 no correction is",
+    "start": 1306.159,
+    "duration": 3.52
+  },
+  {
+    "text": "needed",
+    "start": 1308.799,
+    "duration": 2.88
+  },
+  {
+    "text": "i keep doing this i keep cycling through",
+    "start": 1309.679,
+    "duration": 4.561
+  },
+  {
+    "text": "the data and i now know that i have",
+    "start": 1311.679,
+    "duration": 4.321
+  },
+  {
+    "text": "reached conversion i cycle through the",
+    "start": 1314.24,
+    "duration": 3.919
+  },
+  {
+    "text": "entire data once and i will see that no",
+    "start": 1316.0,
+    "duration": 3.84
+  },
+  {
+    "text": "correction is needed that means i have",
+    "start": 1318.159,
+    "duration": 2.88
+  },
+  {
+    "text": "reached conversions and that is what",
+    "start": 1319.84,
+    "duration": 2.959
+  },
+  {
+    "text": "convergence means i will just cycle",
+    "start": 1321.039,
+    "duration": 3.681
+  },
+  {
+    "text": "through the entire data and if i do not",
+    "start": 1322.799,
+    "duration": 4.0
+  },
+  {
+    "text": "have to change my w that means all my",
+    "start": 1324.72,
+    "duration": 4.4
+  },
+  {
+    "text": "positive points have the right angle",
+    "start": 1326.799,
+    "duration": 4.961
+  },
+  {
+    "text": "with w a right angle meaning the correct",
+    "start": 1329.12,
+    "duration": 4.96
+  },
+  {
+    "text": "angle with w and all my negative points",
+    "start": 1331.76,
+    "duration": 3.84
+  },
+  {
+    "text": "also have the correct angle with w so i",
+    "start": 1334.08,
+    "duration": 2.719
+  },
+  {
+    "text": "don't need to change anything right so",
+    "start": 1335.6,
+    "duration": 2.72
+  },
+  {
+    "text": "that's how it has changed",
+    "start": 1336.799,
+    "duration": 3.441
+  },
+  {
+    "text": "now the question",
+    "start": 1338.32,
+    "duration": 3.839
+  },
+  {
+    "text": "whether i could have just kept toggling",
+    "start": 1340.24,
+    "duration": 3.679
+  },
+  {
+    "text": "so i picked up n2 i had to make a change",
+    "start": 1342.159,
+    "duration": 3.441
+  },
+  {
+    "text": "if i pick p1 i had to make a change at",
+    "start": 1343.919,
+    "duration": 2.88
+  },
+  {
+    "text": "the beginning you saw you were making",
+    "start": 1345.6,
+    "duration": 3.199
+  },
+  {
+    "text": "changes so what if these changes were",
+    "start": 1346.799,
+    "duration": 3.601
+  },
+  {
+    "text": "counterproductive right it just moved",
+    "start": 1348.799,
+    "duration": 3.521
+  },
+  {
+    "text": "somewhere then again it moved somewhere",
+    "start": 1350.4,
+    "duration": 3.519
+  },
+  {
+    "text": "and it ended up changing the angle with",
+    "start": 1352.32,
+    "duration": 3.2
+  },
+  {
+    "text": "the original point which i had corrected",
+    "start": 1353.919,
+    "duration": 3.921
+  },
+  {
+    "text": "in the last step right so that is not",
+    "start": 1355.52,
+    "duration": 3.92
+  },
+  {
+    "text": "yet clear right whether the algorithm",
+    "start": 1357.84,
+    "duration": 3.199
+  },
+  {
+    "text": "will keep toggling or whether it will",
+    "start": 1359.44,
+    "duration": 3.119
+  },
+  {
+    "text": "converge that is not clear that",
+    "start": 1361.039,
+    "duration": 5.561
+  },
+  {
+    "text": "something that we need to see",
+    "start": 1362.559,
+    "duration": 4.041
+  }
+]

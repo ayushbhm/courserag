@@ -1,0 +1,8 @@
+congested so now the word it here actually represents refers to street so now when I'm Computing a contextual representation.
+for it it should pay more attention to stream right so the same word but paying attention to different uh.
+input different other contextual words right that's why I cannot use like a static embedding of it which is just.
+taking the word embedding I need this contextual embedding and that's why I need to learn these Alphas here the.
+alphas should learn to focus more on street here the alpha should learn to focus more on anyway that's why.
+I need this self-attention so that's what is being said here and this is what we call it as self.
+attention and we'll distinguish this from concentration which I have already said that cross attention is between the encoder and.
+the decoder but here the attention is within the encoder inputs itself right so our goal would be that for.

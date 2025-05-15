@@ -1,0 +1,9 @@
+a certain way that you first train that I want these individual layers to learn well wherever you end up.
+now from there start optimizing for the main problem which is L Theta right so that has the same effect.
+so if you look at this view then it's actually acting as a regularizer right so both things could be.
+possible right and some other ah experiments have also shown that retaining is more robust to random initializations what does.
+that mean so this is what it means right so they trained deep neural networks let's focus on this plot.
+first of no maybe on this plot first with different number of layers right so I have a deep neural.
+network which has some W Capital parameters like some large number of parameters and I initialize these parameters randomly and.
+train the network once right and then I got certain laws I note what that loss is L1 or the.
+error which is L1 then I again initialize the weights again train the network again noted the loss right so.

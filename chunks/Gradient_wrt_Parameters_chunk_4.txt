@@ -1,0 +1,12 @@
+cross so Suppose there are only two neurons here or maybe let's take all the three neurons okay right and.
+now this so this is the AK Vector I'm going to just ignore B K I'm just going to write.
+it at the end somewhere now this is my w Matrix so this is w k 1 1 uh this.
+is going to be w k 1 3 uh this is w k 2 1 I'm just going to write.
+the second row completely w k 2 3 okay and this multiplied by h k minus 1 which is just.
+going to be h uh K minus 1 in this case uh so I had taken certain values okay let.
+me just write it as K in this case was 2 right K was equal to 2 uh so my.
+h k minus 1 is going to be H 1 1 H 1 2 H 1 3 right and plus.
+I have the B Vector which is going to be I I'll ignore the B Vector right because you'll see.
+that it does not show up in the formula right now this a K2 how do I get a K2.
+I get it by multiplying this by this right so if I open that up it's going to be w.
+k 2 1 into h11 plus w k 2 2 into H 1 2 plus w k 2 3 into.

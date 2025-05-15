@@ -1,0 +1,9 @@
+look at one point and I'm just making an approximation that the average is as good as one point right.
+whatever estimates I make from one point are actually as good as the average that I'll get from a million.
+points so that's of course a bad approximation but you do that and while it seems bad we'll see under.
+what what you could do to not make it so look so bad right foreign so now if you have.
+a million data points we'll make a million updates in each Epoch what is one Epoch Epoch is the outer.
+loop right when you are making updates so far uh every Epoch you are going over the entire data and.
+for every data point you're making an update so if there are million data points then in one Epoch you're.
+making one million updates right so one Epoch is one pass over the entire data and one step is equal.
+to one update right now what's the flip side now we have gone into bad territory right you know what.

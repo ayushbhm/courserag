@@ -1,0 +1,9 @@
+this derivation you understand that it's multiplying the CDF value with the X itself and the CD F value there.
+are multiple ways of approximating it and we have chosen one particular way of approximating it which is this right.
+so that's that's how the Galu activation function is arrived at and again The quick summary was that you took.
+relu you wrote it as 1X into 0x you took Dropout you understood that it's 1 and 0 with probability.
+p n minus p and then you combine these two ideas brought it this random variable M then wanted to.
+define the function X so you said okay what's the expected value of this function so this is what the.
+expected value is you know how to deal with this quantity you can just write it as the formula for.
+the CDF and there are multiple choices you chose one of the simpler choices and you came up with this.
+neat uh slightly neat looking formula for the Galu activation function right so that's how you arrive at gelu uh.

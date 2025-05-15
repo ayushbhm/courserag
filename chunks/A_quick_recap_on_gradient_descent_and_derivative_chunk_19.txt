@@ -1,0 +1,10 @@
+here is what I want you to look at and you can see that now my w and B are.
+actually I mean the every new W comma B point is actually farther away from my previous W comma B.
+point right what does that mean that my updates are getting bigger now because my new W is my old.
+W plus sum quantity or rather minus some quantity so if that quantity is Big then I will start moving.
+a bit uh farther away from where I was right so in this part where the slope was high right.
+where I was entering uh into the valley at that point I'm seeing that uh I am uh the distance.
+is increasing right and then again when I enter into the valley at that time again my updates become very.
+small right so this is what my observation is so let's uh keep that and let's move to move ahead.
+right so now what we have done so far is quickly revised what the gradient descent algorithm was and now.
+we have made some observations about the gradient descent algorithm right and from here I want to move forward and.

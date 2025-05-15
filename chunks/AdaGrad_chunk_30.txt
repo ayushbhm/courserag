@@ -1,0 +1,5 @@
+found the right value of B first and then took a longer time to find the right value of w.
+right and this is happening because the history for B has accumulated and the updates in B are now very.
+very small and we saw that in the plots where on the x axis on the sorry on the y-axis.
+you had very large numbers which indicated a large amount of History has been accumulated so the question now is.
+can we avoid this.

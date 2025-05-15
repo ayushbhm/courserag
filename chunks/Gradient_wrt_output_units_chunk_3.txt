@@ -1,0 +1,10 @@
+i am trying to do i am trying to take the derivative of the loss function which has the term.
+y hat l with respect to one of the y i's okay and we know that this log y hat.
+l depends only on one of the elements in this array the one which corresponds to the true loss function.
+right so in particular let's take an example suppose l is equal to 2 that means the second class was.
+the correct class then the loss function would in effect be minus log hat y2 and now i have trying.
+to take the derivatives of this with respect to any one of these right because i have considered a generic.
+i here right so this is an i so any one of those elements so if i'm trying to compute.
+with respect to y1 hat of course the loss would be zero right because this quantity does not depend on.
+y one hat there is no y one hat that shows up here if i try to compute with y.
+two hat then it would be minus 1 over y2 hat because that's the derivative of so if you want.

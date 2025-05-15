@@ -1,0 +1,8 @@
+up right of course faster convergence was always a goal all right which existed in machine learning when we had.
+the machine learning approaches which were again solved using optimization problems we always wanted faster conversions and nestrov in 1983.
+had proposed a method which does better than the gradient descent approach which i had mentioned earlier right it leads.
+to faster convergence now that idea got scaled further and a series of uh optimization algorithms all of which we.
+are going to cover and discuss on most of this not maybe all of this adagrad rms prop adam and.
+adam adam w random and so on right this continues and all of these the goals was to have models.
+or have algorithms which lead to faster and better conversions right you lead in deep learning there are multiple minima.
+possible so can you lead to the can you reach to a better minima and faster time right and there's.

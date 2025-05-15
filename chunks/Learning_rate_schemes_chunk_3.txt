@@ -1,0 +1,9 @@
+Valley here you're not able to go further down right so suppose we had we initialize the weights to this.
+yellow point right this is where you had initialized now you're coming down nicely and you'll get stuck in that.
+Valley you'll get stuck somewhere at the right point that I have marked where my mouse is currently and you.
+will not be able to go down right because your learning rate is decree amazing exponentially over iterations now uh.
+now this since the learning rate has decreased so you're you're going down and you are going on a fast.
+loop and in most algorithms the learning rate will start decaying and by the time you reach the valley the.
+learning rate would have become very small and now you won't be able to come out of that you'll be.
+stuck there right so now what if we allow the learning rate to increase after some iterations right at least.
+there's a chance that it might escape the saddle point right and that's what the idea is that you try.

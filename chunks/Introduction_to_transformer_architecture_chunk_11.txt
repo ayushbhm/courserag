@@ -1,0 +1,9 @@
+something to speed up the computation is what my uh question is right so we'll go towards answering that question.
+okay so this is for the decoder where I'm doing one word at a time but in the traditional encoder.
+decoder model the problem is that I just do this computation once I have computed this H1 to H5 and.
+then I take H5 as the like my final representation for the entire sentence and then this is the only.
+thing which is fed to the uh decoder and then the decoder just produces the entire output based on this.
+one representation that was given to it there's no notion of alignment right so there's no notion that when I'm.
+producing none I should actually focus more on I when I am producing a Transformer I should actually pay more.
+attention to Transformer and so on right so that notion is not there and you know where that notion comes.
+from or what kind of models have that notion and that is the attention based model so it's in the.

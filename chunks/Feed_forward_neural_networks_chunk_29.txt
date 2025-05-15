@@ -1,0 +1,8 @@
+and then take the average so that's what your loss function is and you want to minimize this loss function.
+that means you want to learn the parameters theta which is all of these such that this equation or this.
+expression gets minimized or this quantity l theta gets minimized right so i'm going to call this as l of.
+theta this quantity gets minimized so you want to find theta which is a collection of all these parameters such.
+that this quantity gets minimized so this deep learning still fits in the paradigm of machine learning that we had.
+these five components which we had data model parameters algorithm objective function and we'll have to come up with objective.
+functions which will help in guiding the training uh criteria i mean guiding the training right so so we'll end.
+this module here and then we'll come back and talk a bit more about output functions and loss functions.

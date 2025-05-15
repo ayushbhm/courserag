@@ -1,0 +1,10 @@
+a addition with a vector and all the dimensions here make sense right so a is equal to r a.
+belongs to r n b also belongs to r n we just did that on the previous slide w belongs.
+to r n cross n and i can multiply it with h i minus 1 h i minus 1 is.
+h 0 in this case which is just the input and that also i had assumed belongs to r right.
+so all this makes sense so this is just a simple matrix vector multiplication followed by an addition right so.
+there's absolutely nothing uh fancy happening here right so just keep that in mind and that's how you compute a1.
+that's all that's there's nothing more to it right so this is the pre-activation now what is the activation the.
+activation takes the pre-activation right so this is and passes it through a function so what does that mean i.
+have already computed a 1 1 a 1 2 a 1 3 okay and now i am going to pass.
+this vector to a function right a 1 1 a 1 2 a 1 3 okay and now there are.

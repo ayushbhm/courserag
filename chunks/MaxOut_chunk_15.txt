@@ -1,0 +1,9 @@
+of you are being responsible for the output and the certain nodes may not maybe get spatialized for the specific.
+input right so that's what is happening in the case of Dropout now if you look at the sub model.
+that we have in the case of max out what is happening here is the following right so this is.
+what is happening in max out now I have considered a max out layer and because I can't show many.
+uh neurons here this is One max out neuron okay this max out neuron in turn has three nodes each.
+of this has some uh linear transformation right so this is W1 transpose X this is W2 transpose X this.
+is W3 transpose X and then I'm only taking the max of these guys and allowing it to pass forward.
+right so in essence these two nodes have been dropped out because of the max operation so you are getting.
+the same effect as Dropout similarly you have these two nodes here three this max out neuron here which has.

@@ -1,0 +1,10 @@
+can I compute all of these in parallel at one go and the answer is clearly no right the reason.
+is that it depends on S T minus y right so unless I have computed St minus 1 I cannot.
+compute any of the alpha T's right and St minus 1 actually depends on Alpha T minus 1 because that's.
+the input right so St minus 1 here this one would depend on uh sorry this would depend on c.
+3 and C3 in turn would be a function of alpha 3 all the alpha threes right so unless I.
+have computed Alpha 3 I cannot compute C3 unless I have computed C3 I cannot compute S3 unless I have.
+computed S3 I cannot compute the alpha Force right so all the alphas cannot be computed in parallel but for.
+a given uh T the alphas can be computed in parallel right so now the two things to notice here.
+right so one is that the attention can be parallel at least in a given T it can be parallelized.
+right it cannot be paralyzed across T's but for a given T it can be parallelized and this is something.

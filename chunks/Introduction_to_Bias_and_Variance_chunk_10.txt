@@ -1,0 +1,10 @@
+of the variance of the gradient descent algorithm right now let us consider the simple model which was W 1.
+x 1 plus W naught right so at the end of training suppose I I took some ah 400 points.
+and I do just do not want to take all the 500 points because then I cannot repeat this process.
+K times right because if I have the same 500 points and I repeat the process K times then I.
+am going to get very similar Solutions so I am just going to take a different random sample right so.
+I have 500 points total and I'm just going to take some random 400 points from there and try to.
+solve this optimization problem one which will result in some W one and W naught then again I will take.
+a separate 400 points again try to solve this optimization problem and I might get a different W one and.
+W naught right so that is the idea that's why I am not taking the entire training data but just.
+taking like a a significantly large sample of it but in every each of these K times and I'm going.

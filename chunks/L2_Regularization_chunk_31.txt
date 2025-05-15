@@ -1,0 +1,9 @@
+and now what we are seeing is that if the eigen values are small right then those weights are going.
+to shrink a lot and that's exactly what we were hoping for and the other weights will remain the same.
+as what they were earlier right they will not grow but they would remain the same as what they would.
+have been in the absence of regularization right so now you are seeing the effect that certain weights are shrinking.
+here and that's a proxy for controlling the model complexity because now you are not allowing the model to do.
+what it wants you're not giving it you're given it capacity but then you have not given it the freedom.
+to fully utilize this capacity the full capacity would be I should be able to take the weight W1 and.
+set any value between minus infinity to Infinity 80 but now I am not allowing you to do that I.
+have given you as many weights you wanted but on each weight I've now drawn some boundary and if you.

@@ -1,0 +1,9 @@
+but it became 0.72 right because initially my history was not large and hence the learning rate increased and then.
+it started decreasing again and that's exactly what we wanted initially it could be high and then it starts decreasing.
+okay and the same argument for B also uh so here for yeah so the same argument for uh B.
+uh so the derivatives so here the scale is a bit different right so derivatives are on the x axis.
+you have two thousand four thousand sorry twenty thousand forty thousand sixty thousand that's why you're not able to see.
+the DWS here carefully uh so that again the same behavior happens your gradients change uh uh as you go.
+along and the history keeps getting accumulated the only thing I need you to focus on in this plot is.
+that your history is constantly increasing and as your history is increasing here your learning rate is decaying even more.
+faster right so here notice that the learning rate starts off itself with a very small value which is point.

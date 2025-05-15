@@ -1,0 +1,9 @@
+0.5 right and that's exactly what I get at time step t equal to 20. similarly you could substitute the.
+value 30 here and you will get uh this as the value right somewhere here as the value right so.
+that's that's how you compute this cyclically running rate the increase keep increasing the again decrease keep increasing then again.
+decrease right so this is uh it was almost like having like a very uh simplistic idea right you are.
+just saying that at some points I want the learning rate to increase at some points I want the learning.
+rate to decrease and to make this happen you we had all these complex algorithms which were adapting the learning.
+Aid according to when it should increase when it decreased now this is like a very uh Baseline idea right.
+you wanted to increase you wanted to decrease just make it cyclically and if you're in a bad part you.
+just have to wait out that cycle and then again you might if you want a smaller learning rate it.

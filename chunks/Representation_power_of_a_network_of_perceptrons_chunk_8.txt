@@ -1,0 +1,10 @@
+each perceptron in the middle layer fires only for a specific input let's see why that happens right so as.
+i said the red weights are minus 1 minus 1 okay now if the input is minus 1 minus 1.
+remember that 0 is minus 1 here so these are the 4 inputs that are possible minus 1 1 1.
+minus 1 and 1 1. these are the four inputs that fire now if the input is minus 1 minus.
+1 what will happen minus 1 into minus 1 will be 1 minus 1 into minus 1 will be 1..
+so the sum will be two so the weighted sum would be greater than equal to zero minus two plus.
+two hence this perceptron will fire okay and now i will show that this perceptron will not fire for any.
+of the other three inputs right if this is the input then you have minus 1 into minus 1 which.
+is 1 1 into minus 1 which is minus 1 so 1 minus 1 will become 0 and plus the.
+bias will become minus 2 which is less than 0 so this perceptron will not fire similarly you can see.

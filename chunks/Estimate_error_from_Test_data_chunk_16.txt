@@ -1,0 +1,9 @@
+statement that I am going to make is that this y minus f of x is actually independent of f.
+hat x minus f of x why am I saying that because when I am talking about the Y's here.
+I am talking about the Y's coming from the training data because this expectation we are Computing from the training.
+data right oh sorry ah test data right so this expectation we are Computing from the test data whereas F.
+hat of X was estimated from the training data your test points did not participate in the X in the.
+estimation of f hat of X and these y's are actually corresponding to the test data right hence these two.
+random variables are actually independent because why the Y's that you are seeing here did not participate in F hat.
+of X that they did not have any say in the estimation estimated parameters of f hat X because this.
+belongs to test data and the test data did not participate in the estimation of f hat X right so.

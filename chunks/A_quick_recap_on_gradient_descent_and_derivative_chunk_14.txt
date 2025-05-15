@@ -1,0 +1,9 @@
+it at w equal to WT and be equal to b or BT right so suppose your loss function is.
+x square so you have only one parameter X or let me just instead of x square let me just.
+say w Square then you have only one parameter W and the derivative of the loss function with respect to.
+W is 2W and this derivative evaluated the current value of w right which might be say w current is.
+equal to 1 would just be 2 right because I'll substitute the value W equal to 1 in this equation.
+right so that's what this means it's the derivative or the partial derivative of the loss function with respect to.
+this variable evaluated at the current value of the variable right so this is what we had and then we.
+also went ahead and computed that gradient right so we got the algorithm we this is what our algorithm is.
+we'll initialize it randomly we'll keep doing these updates so at every Point wherever I'm I am I'll move to.

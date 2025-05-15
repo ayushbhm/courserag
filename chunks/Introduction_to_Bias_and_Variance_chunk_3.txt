@@ -1,0 +1,10 @@
+well on the test data because that is unknown data so you have focused so much on uh they fixated.
+so much on what was given to you that you are now not going to be able to generalize on.
+some unknown data right and we will see all of this in detail in this lecture and that's where the.
+concept of bias and variance comes in and its relation to the capacity of the model and what I'm trying.
+to say on this slide and which you all know is that deep learning models have a very high capacity.
+because they have a large number of parameters okay so that was the context and with that context I'll start.
+the discussion on bias and variance so let's look at this right so we look at an example where uh.
+we want to fit a curve right so what do I mean by that right so I have been given.
+some data points the data points have actually come from the sinusoidal function that means I know what the true.
+f of x is in this case right so I have X and my true relation between X and Y.

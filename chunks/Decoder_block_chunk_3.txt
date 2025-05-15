@@ -1,0 +1,9 @@
+would also be a multi-layered network so it would have say typically 6 to 12 8 any I mean depending.
+on the kind of uh training data you have the amount of training data you have the kind of problem.
+that you're dealing with you would have any number of layers but the most basic ones have six eight or.
+twelve layers right so there are 12 layers of processing happening and just as in the case of encoder each.
+of these layers has an identical structure right so whatever is happening within a layer is the same is just.
+that the output of one layer acts as the input to the next layer right so that's the same as.
+what we had in the encoder but now what we need to look at is what is inside each of.
+these layers right that's what we need to understand so let's zoom into one such layer so you will have.
+the inputs so these are the uh small H number of time steps which have been decoded so far right.

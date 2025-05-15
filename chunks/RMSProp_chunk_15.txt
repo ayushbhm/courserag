@@ -1,0 +1,9 @@
+it again so I was saying that it was perhaps oscillating from this point to this point and then back.
+and forth between these two points right and if the ETA was such that uh even though the the denominator.
+has become more or less constant if the effective learning rate because of the initial learning rated so it depends.
+on the initial learning rate if that was such that instead of just moving from the two symmetric points right.
+two points on either side of the curve if it was moving like this it came here and then from.
+it here and then from here then it would still converge right so if the learning rate is appropriate says.
+that it's not uh kind of oscillating from one side to the other but it's gradually becoming uh towards the.
+Minima right so if the learning rate is set appropriately then this could happen now of course this is hard.
+right I mean you don't really know in this case since it's a toy example we experimented with a few.

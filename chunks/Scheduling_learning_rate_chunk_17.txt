@@ -1,0 +1,9 @@
+log of 4 right and that would be 2 so this will become 2 raised to minus 3 which would.
+be 0.125 and then this would become 0.875 so as you can see you are slowly increasing the momentum uh.
+term the beta term right which is the amount that you should give to the history right beta tells you.
+how much weight is to give to the history so as you are training is progressing you are planning to.
+rely more and more on the history and less on the current update and that makes sense right because now.
+if you're close to the Minima and then one faulty update will take you away from the Minima right but.
+whereas if your history is uh pointing in a certain direction you would like to rely on that because over.
+the large number of updates you have reached in this region so you want to give more weightage to your.
+history as opposed to the current update so what this is doing is as your training progresses your beta value.

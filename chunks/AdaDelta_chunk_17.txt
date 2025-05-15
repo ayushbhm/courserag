@@ -1,0 +1,9 @@
+started at Point 20 right that's the uh what the initial value was but this only decreased up to 0.12.
+and hence it was able to kind of converge faster whereas this was 0.05 and then it became uh uh.
+so it decayed more as compared to what Ada Delta DK right so this is what has happened here and.
+this is especially important because in the uh flat regions we did see a slight bump in the learning rate.
+right so it's not like monotonically decreasing but in the events it reached a bit closer to the uh I.
+know it's still decreasing only right yeah sorry that's not correct yeah so that's that's how the two decays happened.
+okay so this is what the effective learning rates are looking like and now let's see how the algorithm proceeds.
+so as you can say that ADA Delta has already converged because it was not aggressively decaying the learning rate.
+it had a reasonably High Learning rate which allowed it to converge RMS prop is slowly getting there because it.

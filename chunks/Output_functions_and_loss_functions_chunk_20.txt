@@ -1,0 +1,9 @@
+the original value is negative so e raised to minus 10 is going to be 1 over e raised to.
+10 and this is still going to be a positive value right so i've taken the original computations al that.
+i had have been able to convert that into a probability distribution using the softmax function i've also explained what.
+the softmax function looks like and just want to talk about uh one more thing here right so you could.
+have asked me that why did why did you do this e raised to x right i mean why did.
+you raise every value to the exponent and then did that why couldn't i have just taken every value here.
+right for example for this guy take 10 and then divide it by the sum of the remaining elements would.
+that have not been enough right and obviously the answer is no because then for this guy which would have.
+been minus 10 divided by minus 10 plus 10 plus 20 plus 30 the answer would have been some negative.

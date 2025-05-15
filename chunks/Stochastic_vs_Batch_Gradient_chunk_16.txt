@@ -1,0 +1,9 @@
+the probability offense right so let's see what happens when we have k equal to 25 and we'll compare k.
+equal to 25 versus k equal to 1 right so let's see that okay so we are going to run.
+gradient descent stochastic gradient descent and mini match gradient descent where the batch size was 25 and what I would.
+like to see is that the mini batch gradient descent is somewhere in between that green curve and the black.
+curve right in terms of movement and you'll understand what I mean by that so let's start this so you.
+can see that the blue curve is very close to the green curve whereas the black curve is oscillating quite.
+a bit more right of course the blue curve uh which is for mini batch also has oscillations is just.
+that it's much more smoother than the black guy because the black guy relies on one point and makes an.
+estimate whereas the blue guy is relying on 25 different points and making an estimate okay yeah so the oscillations.

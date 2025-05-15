@@ -1,0 +1,8 @@
+[Music] now so where are we in the history right we did a bit of back and forth so we.
+came from the 1950s where there was enthusiasm then the and the spring period then the winter period then the.
+more stable period where people were still looking at things there were some success in the 1990s in terms of.
+convolutional neural networks actually being used for real world problems and but still some disappointment in terms of very large.
+networks not being able to train despite back propagation being known and universal approximation theorem being understood right and then.
+2006 around that time these things changed and then from 2006 to 2012 a lot of other advances happened which.
+gave us a better understanding of deep learning and we were able to train these networks to work for the.
+image net and similar challenges and started showing uh again it's not just gain but starting winning some of these.

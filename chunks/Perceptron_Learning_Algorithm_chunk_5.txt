@@ -1,0 +1,10 @@
+this condition is satisfied and for all the negative points this condition is satisfied that means i have to been.
+able to clearly separate my training data right and that's what i will define as conversions okay so while not.
+convergence what will i do let's see so i'll pick a random point from the given set of points so.
+the given set of points are the union of the positive and the negative points so i'll just mix up.
+all this and pick a random point from there i'll call it x which is the notation we have been.
+using and now if x belongs to p so remember that x in itself is uh x naught x 1.
+all the way up to x n right so in our previous example these are the end decision features that.
+i had is actor matt damon is the genre thriller and so on and x0 was this constant input which.
+had been set to 1 right so that is what x the bold x looks like it's a vector and.
+similarly you have these w naughts to w n right which is the vector uh w okay sorry about my.

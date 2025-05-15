@@ -1,0 +1,9 @@
+in the last video is useful how do you use it in the context of deep learning right so the.
+two challenges are that at training time your cost is high and even a test time your cost is high.
+right irrespective of whether you use option one or option two right so Dropout actually addresses both these issues so.
+what it does is it effectively allows us to train several neural networks without incurring the cost of actually training.
+K neural networks right and we'll see how exactly it does that and it also at inference time we don't.
+need to pass the test instance to several networks we just need to pass it through one neural network but.
+just do a simple trick to get the averaging effect right so we'll see how that works so the idea.
+in Dropout is that you have this original Network which I have shown on the left hand side you drop.
+out some units from it that means you drop out some new neurons from it so this is I've dropped.

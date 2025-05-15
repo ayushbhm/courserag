@@ -1,0 +1,9 @@
+very small and you'll be making these tiny tiny updates W and take a long time to move away from.
+that flat surface right so imagine like a very flat surface which is quite big right in terms of the.
+W comma B neighborhood that it spans then you'll be stuck there for a very very very very long time.
+right before you move to some favorable region where you see a slope and then you start going towards the.
+Minima right and it could happen that you run so we remember we had sent said this Max iterations as.
+thousand so it could happen that you are running your algorithm for thousand iterations but you are not seeing any.
+dramatic change in the loss because indeed you are on this flat surface where the loss is more or less.
+constant or very gentle slope right it's decreasing from say maybe 0.9 to 0.8999999 over a very long distance right.
+and now if you're just stuck there and making these small changes to W you'd run the code for thousand.

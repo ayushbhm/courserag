@@ -1,0 +1,10 @@
+this and I have substituted that those values in the equation and then just counted the number of errors that.
+I made so we were doing that visually but I could just write a program to calculate those errors and.
+that's how the code there was displaying it there was two errors one errors and so on and now these.
+are the set of values for w and W2 if I plug in these values and you can go back.
+and check them the error would be 0. these are here right these are the values of w one and.
+ah W 2 right for which the error is going to be 1 and so on 2 and 3. so.
+what I have done here is I have actually ah yeah so the question here is for this particular case.
+can the error not be 4 right so now you can see so any line that you draw okay so.
+the only possibilities are that all the Four Points lie in the uh in the positive half space in which.
+case you would be making an error on three points or all the Four Points lie in the negative half.

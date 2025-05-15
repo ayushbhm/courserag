@@ -1,0 +1,10 @@
+is that the vector M naught or M minus 1 or M of T minus 1 is being used twice.
+then you're doing this temporary computation which is W1 minus beta M naught and you compute the gradient there and.
+then you forget about this temporary computation you never use that again and then again you is in the last.
+equation you Resort back to the value of W1 and then make an update from there right so that's something.
+which is we want to get rid of and simplify this right so let's see if we can rewrite the.
+equations so this is what W1 was right so W1 was W naught okay so W1 was W naught minus.
+this and this is the calculation that I don't like right because I could have done this earlier and sent.
+it a value which would have already taken care of this look ahead right and then I don't need to.
+do one more look ahead here so that's the thing because we already had beta M naught so this quantity.
+that you have here is beta M naught and I already had this at the previous iteration right so why.

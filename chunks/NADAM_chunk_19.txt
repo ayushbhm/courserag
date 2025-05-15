@@ -1,0 +1,6 @@
+just using gradient descent and then using or maybe momentum based gradient descent and then really knowing how to set.
+the learning rate initial learning rate how to set the momentum value how to set the learning rate schedule if.
+they know all of these well then they're able to get as good results as Adam right but it takes.
+a while to get that kind of an expertise in that absence of that uh just using Adam simply off.
+the shelf might be a good choice to use okay so that's all we had on the different uh optimizers.
+to use now I'll just spend some more time on talking about learning rate schedules okay.

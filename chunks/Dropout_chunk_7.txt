@@ -1,0 +1,9 @@
+this weight would remain the same in all the networks right I'll be using the same copy of the weight.
+uh that's the first trick I'm going to use what's the implication of that we will see soon and the.
+second trick that we are going to use is that we are going to sample a different network for each.
+training instance so it's not that I have like these two raised to n networks created at beginning and then.
+train all of these two raised to N I just have one network whenever I get a mini batch I'm.
+going to sample one of these two raised to a networks that means I'm going to randomly drop some nodes.
+in the network and then train using that uh Network right so let's see what that means right it's like.
+a bit difficult to understand but we will break it down into steps and then it should become clear right.
+so we initialize all the weights of the network so there are in this network this is my base Network.

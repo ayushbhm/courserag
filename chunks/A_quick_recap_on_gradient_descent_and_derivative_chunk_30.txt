@@ -1,0 +1,9 @@
+of 2x square is foreign X where is the derivative of x square is 2x right so it does make.
+sense that this is more uh steeper slope than the uh slope of the function x square right so the.
+takeaway from here is that when you have a flat surfaces the gradient would be slow so the movement would.
+be slow when you have steep surfaces the gradient would be large hence the movement or the change in W.
+would be large right now what are the repercussions of this so the repercussion of this is what we saw.
+in the previous slide that if you start off from a point as we are unfortunately done in the previous.
+slide where the surface is largely flat right then your gradients are going to be very very very very very.
+very small and you'll be making these tiny tiny updates W and take a long time to move away from.
+that flat surface right so imagine like a very flat surface which is quite big right in terms of the.

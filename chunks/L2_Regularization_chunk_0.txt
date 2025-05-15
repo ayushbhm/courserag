@@ -1,0 +1,8 @@
+foreign [Music] trade-off and from there we went on to this equation which involved the regularization term so what we.
+said is that so far we were discussing about minimizing the training error which was computed as the average error.
+over the M training examples and this was empirically computed as say the difference between the true value and the.
+predicted value right and then we realized that if you minimize this you are not actually minimizing the true error.
+because this is not a good approximation for the true error it does not account for this additional term which.
+comes from model complexity and instead of just minimizing this it's possible that you might minimize this to zero but.
+still your true error would be high because your model complexity is high right and hence instead of minimizing just.
+a training error you should minimize training error plus some regularization term and this regularization terms should serve as a.

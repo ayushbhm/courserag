@@ -1,0 +1,10 @@
+what I'm going to do is my change is going to be just given as Theta Nu is equal to.
+wherever I am currently I'll move by this change right so Theta Nu is equal to theta plus Delta Theta.
+okay so what is happening here is that I was here and I mean sorry this this is where I.
+was and I then added this vector and what has happened effectively that I moved in the direction of Delta.
+Theta right I've come closer to Delta Theta and we know this from the perceptron Rolling algorithm also when we.
+add it it comes closer to it right so now instead of uh moving fully so let me just delete.
+this right so instead of moving fully uh in the direction of Delta Theta what I'm going to do is.
+I'm going to be a bit conservative and whatever change you tell me to do I'm not going to do.
+that full change I'm just going to multiply that change by a very small value which is ETA so essentially.
+what that does is the following right so this is my Delta Theta Vector the black one I am going.

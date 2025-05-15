@@ -1,0 +1,10 @@
+shallow or the gentle slope region and then again it will move slowly right and now I can just get.
+rid of this 3D view I'll just work with the 2D view where I have the contour map I know.
+what the loss is that the loss is high so this is color coded so whether for dark red means.
+High loss functions the dark blue means loss low loss regions and there's a gradation from dark red to dark.
+blue red so pink would mean somewhere in between and this is what the pink here is right and now.
+it's moving on this 2D plot and I can see what is happening so now I have reached close to.
+conversion so my points are almost on the sigmoid function and earlier I was moving very very slowly when I.
+was at this point right and now as I am going to enter the value you will see a sudden.
+change in my w and B a very large change in my wnb and the entire shape of my sigmoid.
+function will change right and now I have entered the value I'm close to convergence and slowly slowly moving so.

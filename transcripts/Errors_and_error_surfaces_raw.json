@@ -1,0 +1,1102 @@
+[
+  {
+    "text": "foreign",
+    "start": 0.299,
+    "duration": 3.0
+  },
+  {
+    "text": "[Music]",
+    "start": 6.62,
+    "duration": 14.91
+  },
+  {
+    "text": "I just started talking a bit about",
+    "start": 21.56,
+    "duration": 4.36
+  },
+  {
+    "text": "errors I was moving the line a bit and",
+    "start": 23.76,
+    "duration": 3.42
+  },
+  {
+    "text": "saying over here we're making a few",
+    "start": 25.92,
+    "duration": 3.06
+  },
+  {
+    "text": "errors and so on let's let's just dig a",
+    "start": 27.18,
+    "duration": 4.2
+  },
+  {
+    "text": "bit deeper in this concept of errors and",
+    "start": 28.98,
+    "duration": 4.98
+  },
+  {
+    "text": "I'll also introduce error surfaces",
+    "start": 31.38,
+    "duration": 5.28
+  },
+  {
+    "text": "which will again stay with us for a long",
+    "start": 33.96,
+    "duration": 4.38
+  },
+  {
+    "text": "time in the course right today we'll see",
+    "start": 36.66,
+    "duration": 3.6
+  },
+  {
+    "text": "something which is Trivial but this",
+    "start": 38.34,
+    "duration": 4.02
+  },
+  {
+    "text": "error surface or lost surface will keep",
+    "start": 40.26,
+    "duration": 4.88
+  },
+  {
+    "text": "reefers resurfacing and we'll",
+    "start": 42.36,
+    "duration": 5.34
+  },
+  {
+    "text": "see it quite often in the course at",
+    "start": 45.14,
+    "duration": 3.64
+  },
+  {
+    "text": "least in the initial part of the course",
+    "start": 47.7,
+    "duration": 2.039
+  },
+  {
+    "text": "right",
+    "start": 48.78,
+    "duration": 3.36
+  },
+  {
+    "text": "uh so again this is the example we were",
+    "start": 49.739,
+    "duration": 4.561
+  },
+  {
+    "text": "dealing with so now I'm looking at the",
+    "start": 52.14,
+    "duration": 4.759
+  },
+  {
+    "text": "uh and function now okay",
+    "start": 54.3,
+    "duration": 5.16
+  },
+  {
+    "text": "and for the and function the output",
+    "start": 56.899,
+    "duration": 6.64
+  },
+  {
+    "text": "should be one only for one input which",
+    "start": 59.46,
+    "duration": 6.54
+  },
+  {
+    "text": "is shown in green here and it should be",
+    "start": 63.539,
+    "duration": 4.62
+  },
+  {
+    "text": "0 for the three red inputs right that's",
+    "start": 66.0,
+    "duration": 5.9
+  },
+  {
+    "text": "what the and function is and now my uh",
+    "start": 68.159,
+    "duration": 8.161
+  },
+  {
+    "text": "decision is of course W1 it's uh sorry",
+    "start": 71.9,
+    "duration": 8.28
+  },
+  {
+    "text": "yeah so it's w naught",
+    "start": 76.32,
+    "duration": 9.24
+  },
+  {
+    "text": "plus W1 X1 plus W 2 x 2",
+    "start": 80.18,
+    "duration": 7.66
+  },
+  {
+    "text": "greater than equal to 0 then the output",
+    "start": 85.56,
+    "duration": 4.14
+  },
+  {
+    "text": "would be 1 otherwise it would be zero",
+    "start": 87.84,
+    "duration": 4.739
+  },
+  {
+    "text": "right so now let me just fix this as W",
+    "start": 89.7,
+    "duration": 4.8
+  },
+  {
+    "text": "naught s minus one right so that is what",
+    "start": 92.579,
+    "duration": 4.641
+  },
+  {
+    "text": "I have done here so my w naught is",
+    "start": 94.5,
+    "duration": 7.68
+  },
+  {
+    "text": "fixed to minus 1 okay again I did the",
+    "start": 97.22,
+    "duration": 7.62
+  },
+  {
+    "text": "same thing okay",
+    "start": 102.18,
+    "duration": 2.66
+  },
+  {
+    "text": "okay so w naught is minus one and I will",
+    "start": 106.32,
+    "duration": 5.579
+  },
+  {
+    "text": "try different values of w one W two",
+    "start": 109.56,
+    "duration": 3.96
+  },
+  {
+    "text": "right so it just so happens that the",
+    "start": 111.899,
+    "duration": 3.781
+  },
+  {
+    "text": "first value that I tried was W one equal",
+    "start": 113.52,
+    "duration": 4.199
+  },
+  {
+    "text": "to minus 1 w t equal to minus 1 and that",
+    "start": 115.68,
+    "duration": 3.96
+  },
+  {
+    "text": "is the line that I have drawn here so",
+    "start": 117.719,
+    "duration": 3.841
+  },
+  {
+    "text": "this since W naught is minus 1 of course",
+    "start": 119.64,
+    "duration": 4.619
+  },
+  {
+    "text": "the Y intercept is minus 1 and then I",
+    "start": 121.56,
+    "duration": 5.339
+  },
+  {
+    "text": "have minus x 1 minus x 2 and this is the",
+    "start": 124.259,
+    "duration": 4.98
+  },
+  {
+    "text": "line that I get now what is wrong with",
+    "start": 126.899,
+    "duration": 4.7
+  },
+  {
+    "text": "this line",
+    "start": 129.239,
+    "duration": 2.36
+  },
+  {
+    "text": "yeah so obviously if you look at the",
+    "start": 132.959,
+    "duration": 3.841
+  },
+  {
+    "text": "negative half space of the line which is",
+    "start": 134.879,
+    "duration": 3.481
+  },
+  {
+    "text": "shown in the red region right and now",
+    "start": 136.8,
+    "duration": 3.0
+  },
+  {
+    "text": "this is an example where it's clear that",
+    "start": 138.36,
+    "duration": 3.36
+  },
+  {
+    "text": "it's not always correct to say lies",
+    "start": 139.8,
+    "duration": 3.659
+  },
+  {
+    "text": "above the line right because these are",
+    "start": 141.72,
+    "duration": 3.12
+  },
+  {
+    "text": "all points which are lying above the",
+    "start": 143.459,
+    "duration": 3.181
+  },
+  {
+    "text": "line but they are actually in the",
+    "start": 144.84,
+    "duration": 3.6
+  },
+  {
+    "text": "negative half space so above and below",
+    "start": 146.64,
+    "duration": 3.54
+  },
+  {
+    "text": "does not really Define negative and",
+    "start": 148.44,
+    "duration": 3.96
+  },
+  {
+    "text": "positive half space it simply boils down",
+    "start": 150.18,
+    "duration": 4.44
+  },
+  {
+    "text": "to equation the inequality right so",
+    "start": 152.4,
+    "duration": 7.86
+  },
+  {
+    "text": "minus 1 minus ah x 2 minus sorry let me",
+    "start": 154.62,
+    "duration": 7.199
+  },
+  {
+    "text": "just erase this and write it properly",
+    "start": 160.26,
+    "duration": 3.8
+  },
+  {
+    "text": "yeah so this is the equation of the line",
+    "start": 161.819,
+    "duration": 6.0
+  },
+  {
+    "text": "so all the points which satisfy this",
+    "start": 164.06,
+    "duration": 5.86
+  },
+  {
+    "text": "greater than equal to 0 lie in the",
+    "start": 167.819,
+    "duration": 4.14
+  },
+  {
+    "text": "positive half space and this happen to",
+    "start": 169.92,
+    "duration": 4.26
+  },
+  {
+    "text": "be those points or the points in this",
+    "start": 171.959,
+    "duration": 3.78
+  },
+  {
+    "text": "region and all the points which satisfy",
+    "start": 174.18,
+    "duration": 3.96
+  },
+  {
+    "text": "the inequality less than 0 are in the",
+    "start": 175.739,
+    "duration": 3.72
+  },
+  {
+    "text": "negative half space and it so happens",
+    "start": 178.14,
+    "duration": 3.9
+  },
+  {
+    "text": "that this entire red region is those",
+    "start": 179.459,
+    "duration": 4.381
+  },
+  {
+    "text": "points right so it's not above or below",
+    "start": 182.04,
+    "duration": 4.919
+  },
+  {
+    "text": "it's about ah whether greater than equal",
+    "start": 183.84,
+    "duration": 5.28
+  },
+  {
+    "text": "to zero or less than equal to zero which",
+    "start": 186.959,
+    "duration": 4.2
+  },
+  {
+    "text": "of these inequalities is satisfied okay",
+    "start": 189.12,
+    "duration": 4.38
+  },
+  {
+    "text": "so these these points line the negative",
+    "start": 191.159,
+    "duration": 4.5
+  },
+  {
+    "text": "half space as shown in the red region",
+    "start": 193.5,
+    "duration": 4.4
+  },
+  {
+    "text": "and then of course one of the points",
+    "start": 195.659,
+    "duration": 4.561
+  },
+  {
+    "text": "which should not have been in the",
+    "start": 197.9,
+    "duration": 3.82
+  },
+  {
+    "text": "negative half space which is the point",
+    "start": 200.22,
+    "duration": 3.659
+  },
+  {
+    "text": "one comma 1 is lying in the negative",
+    "start": 201.72,
+    "duration": 3.9
+  },
+  {
+    "text": "half space so with these particular",
+    "start": 203.879,
+    "duration": 4.44
+  },
+  {
+    "text": "values of the perceptron or the weights",
+    "start": 205.62,
+    "duration": 5.699
+  },
+  {
+    "text": "of the perceptron function I am making",
+    "start": 208.319,
+    "duration": 5.34
+  },
+  {
+    "text": "error on one of the four inputs right so",
+    "start": 211.319,
+    "duration": 4.321
+  },
+  {
+    "text": "if I just want to tabulate so I took the",
+    "start": 213.659,
+    "duration": 4.681
+  },
+  {
+    "text": "W and W2 values as minus 1 minus 1 and",
+    "start": 215.64,
+    "duration": 4.62
+  },
+  {
+    "text": "then I made an error of one of the",
+    "start": 218.34,
+    "duration": 4.319
+  },
+  {
+    "text": "inputs now let me take the values 1.5",
+    "start": 220.26,
+    "duration": 5.88
+  },
+  {
+    "text": "and 0 okay let me try those values so I",
+    "start": 222.659,
+    "duration": 5.72
+  },
+  {
+    "text": "will",
+    "start": 226.14,
+    "duration": 2.239
+  },
+  {
+    "text": "oops yeah I'll make this as 1.5",
+    "start": 228.84,
+    "duration": 8.479
+  },
+  {
+    "text": "ok",
+    "start": 234.78,
+    "duration": 2.539
+  },
+  {
+    "text": "so this is 1.5 and I want W2 to be 0 so",
+    "start": 239.159,
+    "duration": 7.681
+  },
+  {
+    "text": "I'll just make it 0. okay so this is the",
+    "start": 243.9,
+    "duration": 4.68
+  },
+  {
+    "text": "line that I get and I do not of course I",
+    "start": 246.84,
+    "duration": 3.959
+  },
+  {
+    "text": "have fixed at minus one and again you",
+    "start": 248.58,
+    "duration": 3.48
+  },
+  {
+    "text": "can see the negative and the positive",
+    "start": 250.799,
+    "duration": 3.901
+  },
+  {
+    "text": "half spaces so I'm again making an error",
+    "start": 252.06,
+    "duration": 4.32
+  },
+  {
+    "text": "of 1 it's a different error this time",
+    "start": 254.7,
+    "duration": 3.659
+  },
+  {
+    "text": "one of the points which should have been",
+    "start": 256.38,
+    "duration": 3.9
+  },
+  {
+    "text": "in the negative half space which is this",
+    "start": 258.359,
+    "duration": 4.501
+  },
+  {
+    "text": "point uh is actually in the positive",
+    "start": 260.28,
+    "duration": 4.32
+  },
+  {
+    "text": "half space now right so again I made an",
+    "start": 262.86,
+    "duration": 3.6
+  },
+  {
+    "text": "error of one now let us try a different",
+    "start": 264.6,
+    "duration": 4.26
+  },
+  {
+    "text": "value of w one W two so I will take the",
+    "start": 266.46,
+    "duration": 4.26
+  },
+  {
+    "text": "values 10 and minus 10 right so I'll",
+    "start": 268.86,
+    "duration": 5.04
+  },
+  {
+    "text": "just make this 10 and I'll make this as",
+    "start": 270.72,
+    "duration": 6.199
+  },
+  {
+    "text": "minus 10",
+    "start": 273.9,
+    "duration": 3.019
+  },
+  {
+    "text": "okay now this is what is happening right",
+    "start": 277.5,
+    "duration": 4.979
+  },
+  {
+    "text": "so again uh I'm making",
+    "start": 280.199,
+    "duration": 4.981
+  },
+  {
+    "text": "an error of 2 because one of the red",
+    "start": 282.479,
+    "duration": 4.921
+  },
+  {
+    "text": "points is in the positive half space and",
+    "start": 285.18,
+    "duration": 4.14
+  },
+  {
+    "text": "the Green Point is actually in the",
+    "start": 287.4,
+    "duration": 3.6
+  },
+  {
+    "text": "negative half space right so only these",
+    "start": 289.32,
+    "duration": 6.18
+  },
+  {
+    "text": "two red points uh which are 0 1 and 0 0",
+    "start": 291.0,
+    "duration": 8.46
+  },
+  {
+    "text": "have actually been ah are in the right",
+    "start": 295.5,
+    "duration": 5.1
+  },
+  {
+    "text": "place right they are in the negative",
+    "start": 299.46,
+    "duration": 2.519
+  },
+  {
+    "text": "half space and they should be in the",
+    "start": 300.6,
+    "duration": 2.52
+  },
+  {
+    "text": "negative half space but the other two",
+    "start": 301.979,
+    "duration": 3.541
+  },
+  {
+    "text": "points I am making so what is happening",
+    "start": 303.12,
+    "duration": 4.68
+  },
+  {
+    "text": "here is that as I'm changing the value",
+    "start": 305.52,
+    "duration": 6.0
+  },
+  {
+    "text": "of w and W 2 the error or the number of",
+    "start": 307.8,
+    "duration": 5.7
+  },
+  {
+    "text": "Errors is changing right so now I can",
+    "start": 311.52,
+    "duration": 5.72
+  },
+  {
+    "text": "think of error itself",
+    "start": 313.5,
+    "duration": 3.74
+  },
+  {
+    "text": "why is this not working yeah I can think",
+    "start": 320.639,
+    "duration": 7.141
+  },
+  {
+    "text": "of error as a function of w 1 W 2",
+    "start": 324.36,
+    "duration": 6.54
+  },
+  {
+    "text": "because I have fixed W naught right and",
+    "start": 327.78,
+    "duration": 5.4
+  },
+  {
+    "text": "depending on the values of w 1 W 2 y",
+    "start": 330.9,
+    "duration": 5.22
+  },
+  {
+    "text": "that I try the error is changing so now",
+    "start": 333.18,
+    "duration": 5.28
+  },
+  {
+    "text": "I think of error as a function of W1 W2",
+    "start": 336.12,
+    "duration": 5.16
+  },
+  {
+    "text": "and now once you have digested that idea",
+    "start": 338.46,
+    "duration": 7.079
+  },
+  {
+    "text": "we are ready for the next slide where I",
+    "start": 341.28,
+    "duration": 7.74
+  },
+  {
+    "text": "have error which is on the Z axis okay",
+    "start": 345.539,
+    "duration": 6.841
+  },
+  {
+    "text": "as a function of let me just try to see",
+    "start": 349.02,
+    "duration": 6.739
+  },
+  {
+    "text": "if I can zoom into this",
+    "start": 352.38,
+    "duration": 3.379
+  },
+  {
+    "text": "yeah so error is a function of W1",
+    "start": 359.46,
+    "duration": 7.799
+  },
+  {
+    "text": "and W 2 right so this is my W1 this is",
+    "start": 363.36,
+    "duration": 6.959
+  },
+  {
+    "text": "my W2 and along the Z axis I am plotting",
+    "start": 367.259,
+    "duration": 5.701
+  },
+  {
+    "text": "the error and what are the values that",
+    "start": 370.319,
+    "duration": 5.581
+  },
+  {
+    "text": "the error function can take",
+    "start": 372.96,
+    "duration": 4.56
+  },
+  {
+    "text": "integer values right it can either be",
+    "start": 375.9,
+    "duration": 4.68
+  },
+  {
+    "text": "zero error one error two error or three",
+    "start": 377.52,
+    "duration": 4.92
+  },
+  {
+    "text": "errors right those are the values that",
+    "start": 380.58,
+    "duration": 4.14
+  },
+  {
+    "text": "it can take so that is why you see this",
+    "start": 382.44,
+    "duration": 5.599
+  },
+  {
+    "text": "step function here",
+    "start": 384.72,
+    "duration": 3.319
+  },
+  {
+    "text": "so for certain values of w the error",
+    "start": 389.1,
+    "duration": 4.68
+  },
+  {
+    "text": "would be 0 which is the dark blue region",
+    "start": 391.919,
+    "duration": 3.78
+  },
+  {
+    "text": "for certain values it would be 1 which",
+    "start": 393.78,
+    "duration": 3.6
+  },
+  {
+    "text": "is the purple region for certain values",
+    "start": 395.699,
+    "duration": 3.361
+  },
+  {
+    "text": "it would be 2 which is the orange region",
+    "start": 397.38,
+    "duration": 3.42
+  },
+  {
+    "text": "and for certain values it would be 3",
+    "start": 399.06,
+    "duration": 3.72
+  },
+  {
+    "text": "which is the yellow region right so",
+    "start": 400.8,
+    "duration": 3.959
+  },
+  {
+    "text": "that's those so now what I have done is",
+    "start": 402.78,
+    "duration": 6.62
+  },
+  {
+    "text": "I've taken all possible values of oops",
+    "start": 404.759,
+    "duration": 4.641
+  },
+  {
+    "text": "yeah I've taken all possible values of w",
+    "start": 411.06,
+    "duration": 4.56
+  },
+  {
+    "text": "one W two I've just restricted to minus",
+    "start": 413.58,
+    "duration": 3.78
+  },
+  {
+    "text": "four to plus 4 because that's all I can",
+    "start": 415.62,
+    "duration": 4.56
+  },
+  {
+    "text": "show on the plot and this and I have",
+    "start": 417.36,
+    "duration": 6.239
+  },
+  {
+    "text": "substituted that those values in the",
+    "start": 420.18,
+    "duration": 4.98
+  },
+  {
+    "text": "equation and then just counted the",
+    "start": 423.599,
+    "duration": 3.0
+  },
+  {
+    "text": "number of errors that I made so we were",
+    "start": 425.16,
+    "duration": 3.3
+  },
+  {
+    "text": "doing that visually but I could just",
+    "start": 426.599,
+    "duration": 3.361
+  },
+  {
+    "text": "write a program to calculate those",
+    "start": 428.46,
+    "duration": 3.959
+  },
+  {
+    "text": "errors and that's how the code there was",
+    "start": 429.96,
+    "duration": 3.9
+  },
+  {
+    "text": "displaying it there was two errors one",
+    "start": 432.419,
+    "duration": 3.301
+  },
+  {
+    "text": "errors and so on and now these are the",
+    "start": 433.86,
+    "duration": 4.8
+  },
+  {
+    "text": "set of values for w and W2 if I plug in",
+    "start": 435.72,
+    "duration": 4.62
+  },
+  {
+    "text": "these values and you can go back and",
+    "start": 438.66,
+    "duration": 5.159
+  },
+  {
+    "text": "check them the error would be 0. these",
+    "start": 440.34,
+    "duration": 6.359
+  },
+  {
+    "text": "are here right these are the values of w",
+    "start": 443.819,
+    "duration": 7.561
+  },
+  {
+    "text": "one and ah W 2 right for which the error",
+    "start": 446.699,
+    "duration": 6.601
+  },
+  {
+    "text": "is going to be 1 and so on 2 and 3. so",
+    "start": 451.38,
+    "duration": 4.02
+  },
+  {
+    "text": "what I have done here is I have actually",
+    "start": 453.3,
+    "duration": 4.82
+  },
+  {
+    "text": "ah",
+    "start": 455.4,
+    "duration": 2.72
+  },
+  {
+    "text": "yeah so the question here is for this",
+    "start": 459.84,
+    "duration": 5.039
+  },
+  {
+    "text": "particular case can the error not be 4",
+    "start": 462.24,
+    "duration": 5.94
+  },
+  {
+    "text": "right so now you can see so any line",
+    "start": 464.879,
+    "duration": 6.181
+  },
+  {
+    "text": "that you draw okay so the only",
+    "start": 468.18,
+    "duration": 4.32
+  },
+  {
+    "text": "possibilities are that all the Four",
+    "start": 471.06,
+    "duration": 4.74
+  },
+  {
+    "text": "Points lie in the uh in the positive",
+    "start": 472.5,
+    "duration": 5.46
+  },
+  {
+    "text": "half space in which case you would be",
+    "start": 475.8,
+    "duration": 4.26
+  },
+  {
+    "text": "making an error on three points or all",
+    "start": 477.96,
+    "duration": 3.48
+  },
+  {
+    "text": "the Four Points lie in the negative half",
+    "start": 480.06,
+    "duration": 3.0
+  },
+  {
+    "text": "space that's the worst case scenario",
+    "start": 481.44,
+    "duration": 3.479
+  },
+  {
+    "text": "right in which case you will be making",
+    "start": 483.06,
+    "duration": 4.8
+  },
+  {
+    "text": "an error on three points",
+    "start": 484.919,
+    "duration": 5.821
+  },
+  {
+    "text": "right because one one of the two things",
+    "start": 487.86,
+    "duration": 4.2
+  },
+  {
+    "text": "would be right right I mean it would",
+    "start": 490.74,
+    "duration": 3.299
+  },
+  {
+    "text": "either be the positive point would be",
+    "start": 492.06,
+    "duration": 3.9
+  },
+  {
+    "text": "correct or the negative points will be",
+    "start": 494.039,
+    "duration": 3.301
+  },
+  {
+    "text": "correct so that's why it can be only",
+    "start": 495.96,
+    "duration": 3.6
+  },
+  {
+    "text": "maximum three you cannot make an error",
+    "start": 497.34,
+    "duration": 4.979
+  },
+  {
+    "text": "on all the Four Points",
+    "start": 499.56,
+    "duration": 4.859
+  },
+  {
+    "text": "um okay so now what I've done here",
+    "start": 502.319,
+    "duration": 5.401
+  },
+  {
+    "text": "actually is just uh plotted the error",
+    "start": 504.419,
+    "duration": 5.46
+  },
+  {
+    "text": "for all possible values of w one W two",
+    "start": 507.72,
+    "duration": 4.259
+  },
+  {
+    "text": "and now from the plot I can see which",
+    "start": 509.879,
+    "duration": 3.96
+  },
+  {
+    "text": "are the values which are useful right",
+    "start": 511.979,
+    "duration": 4.74
+  },
+  {
+    "text": "and I can just pick any of those W and",
+    "start": 513.839,
+    "duration": 4.801
+  },
+  {
+    "text": "W2 values which correspond to that dark",
+    "start": 516.719,
+    "duration": 6.481
+  },
+  {
+    "text": "blue region of the plot right ah",
+    "start": 518.64,
+    "duration": 7.68
+  },
+  {
+    "text": "so this is what we have done but this is",
+    "start": 523.2,
+    "duration": 5.88
+  },
+  {
+    "text": "okay visually to do but ideally we would",
+    "start": 526.32,
+    "duration": 4.98
+  },
+  {
+    "text": "want an algorithm such that I don't now",
+    "start": 529.08,
+    "duration": 4.379
+  },
+  {
+    "text": "I can plot this visually for two inputs",
+    "start": 531.3,
+    "duration": 4.38
+  },
+  {
+    "text": "right but if I had n inputs I can't even",
+    "start": 533.459,
+    "duration": 4.44
+  },
+  {
+    "text": "plot and visualize it right so now I'm",
+    "start": 535.68,
+    "duration": 4.44
+  },
+  {
+    "text": "looking for an algorithm just as",
+    "start": 537.899,
+    "duration": 3.961
+  },
+  {
+    "text": "visually by looking at this plot I can",
+    "start": 540.12,
+    "duration": 3.6
+  },
+  {
+    "text": "find out what they write w and W two",
+    "start": 541.86,
+    "duration": 4.14
+  },
+  {
+    "text": "values are can I have an algorithm which",
+    "start": 543.72,
+    "duration": 4.92
+  },
+  {
+    "text": "allows me to find one such W one W two",
+    "start": 546.0,
+    "duration": 4.8
+  },
+  {
+    "text": "such that if my input is linearly",
+    "start": 548.64,
+    "duration": 4.8
+  },
+  {
+    "text": "separable then for that value of w and W",
+    "start": 550.8,
+    "duration": 4.44
+  },
+  {
+    "text": "2 my positive points would be on the",
+    "start": 553.44,
+    "duration": 3.54
+  },
+  {
+    "text": "right side and my negative side points",
+    "start": 555.24,
+    "duration": 3.12
+  },
+  {
+    "text": "would also be on the right side right on",
+    "start": 556.98,
+    "duration": 3.539
+  },
+  {
+    "text": "the correct side or in the right half",
+    "start": 558.36,
+    "duration": 3.78
+  },
+  {
+    "text": "space right so that's the algorithm that",
+    "start": 560.519,
+    "duration": 3.241
+  },
+  {
+    "text": "we are looking for and that's the",
+    "start": 562.14,
+    "duration": 3.24
+  },
+  {
+    "text": "perceptron learning algorithm that we",
+    "start": 563.76,
+    "duration": 5.72
+  },
+  {
+    "text": "will see in the next module thank you",
+    "start": 565.38,
+    "duration": 4.1
+  }
+]

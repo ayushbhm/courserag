@@ -1,0 +1,10 @@
+to pick up a random p a random point belonging to p prime where p prime is the union defined.
+above so what am i going to do till it does not converge i'm going to pick up a random.
+point p belonging to p prime and for that point i'm going to check if the condition is not favorable.
+right this the condition should have been that the summation w i p i should have been greater than equal.
+to 0 but if that is not the case then i'm going to make an update and my update is.
+just going to be w is equal to w eclipse p right so notice that i don't need the other.
+if condition because now i have converted all points to points such that the label has to be 1 that.
+means the only condition that i care about is that for all points the dot product between w and p.
+should be greater than equal to zero if that condition is not satisfied which is what this if loop is.
+saying then i need to make a correction as i just simplified my algorithm nothing has changed conceptually it's just.

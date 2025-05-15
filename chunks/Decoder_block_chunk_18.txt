@@ -1,0 +1,9 @@
+and value it's just that now the attention is between the encoder the decoder representation and the encoder representation and.
+you're Computing a new representation for the decoder using an attention weighted sum of the encoder values right so that's.
+what is happening in the Mast uh cross attention you are doing a cross between the encoder and the decoder.
+and at this level you will then perhaps get out I don't know what I was calling it earlier but.
+maybe I'll just call it M1 up to M T1 and then these will pass through the feed forward Network.
+to give you Z1 Z2 up to Z D1 right so this is what the entire decoder block looks in.
+the new edition was this cross attention where now the key and the value come from the encoder and the.
+decoder brings the query and this Mast self-attention where the only concept was of this masking that The Words which.
+have not been decoded so far you don't let them participate by setting the corresponding Alphas to zero right so.

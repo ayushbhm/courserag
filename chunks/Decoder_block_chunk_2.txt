@@ -1,0 +1,9 @@
+here and this is the first position so you hope that at the first position Nan has the maximum uh.
+probability because that's the correct translation then at the second position Transformer has the right probability because that's the correct.
+translation and so on like you continue uh like that till you produce stop uh at the last position right.
+so your output is uh probability distribution over the entire vocabulary hence the output Dimension is one cross 37 000.
+where 37 000 is the size of the vocabulary so in general I should just say it is of size.
+V right that's what I should have said so now we understand what the inputs and outputs for the decoder.
+are so now let's just zoom into what the decoder actually contains right so just like the encoder the decoder.
+would also be a multi-layered network so it would have say typically 6 to 12 8 any I mean depending.
+on the kind of uh training data you have the amount of training data you have the kind of problem.

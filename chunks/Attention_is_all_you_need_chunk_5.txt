@@ -1,0 +1,9 @@
+not only aware of X I's they are also aware of all the other words in the uh sentence right.
+so that's that's what is happening here so the similarity is that RNN takes X1 to x y and gives.
+you H1 to H5 Transformers also takes X1 to X5 and gives you Z1 to Z5 the naming of the.
+variables may be different but just both have the same semantics in the sense that they are some kind of.
+a contextual representation of the input how this contextual representation is computed is different and the main difference is going.
+to be that we are going to do something which does not require the current connections or something which can.
+be computed in parallel so that's the main change how do we effect that change is something that we will.
+discuss as we go along okay so let's start yeah so let's look at each of these layers in detail.
+let's say my goal would be to kind of go over each of these yellow boxes that you see here.

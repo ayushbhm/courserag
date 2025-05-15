@@ -1,0 +1,8 @@
+and then after this what happened right from the period from 2007 to 2009 once this spark came in hey.
+we always knew that deep learning is good because of the universal approximation theorem the only thing that was lacking.
+was the ability to be able to train it now we have that so let's investigate this further right and.
+the next three years a lot of ideas came in a lot of Investigations were done into why unsupervised pre-training.
+works and that in turn led to insights hey maybe it works better because the optimization problem becomes simpler or.
+hey maybe it works better because it allows it to generalize better so it acts as a regularizer in some.
+sense right and these things led to developments in better optimization algorithms better regularization algorithms which then helped further in.
+improving the training of these networks and some of these ideas about what these better initializations were better regularizations were.

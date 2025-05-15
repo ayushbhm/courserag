@@ -1,0 +1,9 @@
+headed so now if we place it by Max then what it boils down to is that we're just going.
+to take the max of these quantities right and that in turn will just boil down to whatever we had.
+at the previous time step because you're taking the max let's say you're already taking the max of these two.
+guys uh when you are at time step two you have taken the max of these two guys and retained.
+one of those then again whatever was the max that you took at time step 3 and retain one of.
+those right so then it just becomes like taking a pairwise Max whatever you had at time step T minus.
+1 the history that multiplied by meter and the max with the next guy right so that's all we are.
+doing notice that here we are not scaling uh the gradient by 1 minus beta right so that's a change.
+that we have made right so then essentially now this becomes the L Infinity Norm of the history of the.

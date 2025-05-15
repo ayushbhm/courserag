@@ -1,0 +1,9 @@
+this experiment a hundred times so what am I doing that that I have started with some uh W random.
+initialization okay so this is one experiment I end up with some w u after uh pre-training right and then.
+I compute my final loss okay then I took W2 which is a different initialization again got a different W.
+maybe right and then I computed L2 and this way I did this L 100 times so again I am.
+doing different weight initializations but I am passing through an intermediate layer of unsupervised pre-training now if I look at.
+the variance in these quantities then even for deep neural networks is actually quite low right so it's kind of.
+making it more robust to random initializations right so now this led to the idea that maybe the whole deep.
+neural networks are sensitive to initialization so now can we come up with better methods of initialization so that sparked.
+interest in that the conclusions of these experiments are not as important as the research directions that they led to.

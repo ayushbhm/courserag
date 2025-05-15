@@ -1,0 +1,10 @@
+e of f hat of x minus E of f of x ah sorry the whole Square the expectation of.
+that right so these terms are there in the bias formula these terms are there here also and there is.
+a square here so if you open up the square by applying the formula for a minus B the whole.
+square and then do some rearrangement of terms you will end up with this quantity right because this bias square.
+is again going to be some square of this the variance again has the terms that you have on the.
+left hand side so if you rearrange all of this you will get this and there is of course a.
+formal derivation of this available online um which we have linked here so if you want to see the full.
+derivation you can see this but what you can show is that the expected error on unseen data is actually.
+dependent on the bias and the variance also so if you have a model which has a high bias like.
+the simple model then your expected error on the test set is going to be high if you have a.

@@ -1,0 +1,10 @@
+do these steps make sense i still need to explain whether this algorithm will converge or not we will get.
+to that later right so now let's try to see this algorithm on a toy data set right so to.
+convince ourselves that the explanation was indeed correct right so we initialize w to a random value uh and so.
+this is what my w is okay i will just initialize it randomly and you will observe that currently my.
+w is exactly opposite of what it should be right it has a angle less than 90 degrees with all.
+the negative points and an angle greater than 90 degrees with all the positive points so this is exactly opposite.
+of what i wanted right yes w n suppose x w transpose x equal to 0 is the equation of.
+the yeah yeah so i'm not happy with the situation because my w is clearly not what i want it.
+to be so let's just run the perceptron algorithm right so what will i do what does the algorithm do.
+it picks up a point randomly from the union of p comma n right so let's say i randomly picked.

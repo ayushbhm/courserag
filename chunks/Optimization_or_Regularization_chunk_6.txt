@@ -1,0 +1,8 @@
+that is indeed the case if you have a large neural network even without pre-training you can write the error.
+to zero but when you have smaller capacity networks they are not able to drive the error to zero that.
+means they find it hard to solve the optimization problem itself and then if you add pre-training then they are.
+able to drive the error to zero that means pre-training is leading to better optimization right so that's the argument.
+that they made of course this is empirical ah and these experiments maybe were much smaller scale as compared to.
+what we see in deep learning today but that's not the point right I mean a lot of these were.
+initial days and people were still figuring out what to do but it led to this important Insight that perhaps.
+it is helping in optimization and if you can improve the optimization then you can train large neural networks so.

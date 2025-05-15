@@ -1,0 +1,9 @@
+function is a smooth differentiable function and we want uh smooth differentiable functions because later on the hero of the.
+course is going to be calculus where differentiability would be important right so that's the area so now i have.
+defined an objective function and the learning algorithm should find w's such that when i plug in these values of.
+w this loss value that i get should be as small as possible what does that mean there are infinite.
+possible values of w right so w is an rn vector right it's an n dimensional real vector right m.
+okay sorry m dimensional real vector and these are real values ah that's okay m plus one right that's okay.
+not a problem uh so order m we can say right so m plus one because w naught is also.
+there so this is uh m plus one dimensional vector which can take real values each value can go from.
+minus infinity to infinity right so there are infinite possibilities here of those i want one such w which if.

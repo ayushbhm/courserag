@@ -1,0 +1,10 @@
+that other neuron to specialize for this training sample because it has not shown interest in this training sample right.
+so one way of doing that is now I could take the max of these two so max would turn.
+out to be a22 right and then when the gradients flow back right so now what is uh h21 it's.
+the max of a to 2 and a21 which is equal to a 2 2 right so now if I.
+take the derivative of h21 with respect to a21 and the derivative of h21 with respect to a22 then this.
+would be 0 and this would be 1 so the gradient will only flow to this part it will not.
+flow to this part right and that's what you wanted to achieve that you wanted to make this neuron specialized.
+by giving it the signal and ignore this neuron because it was not really showing much enthusiasm for this input.
+so let it not fire and I'll kind of ignore it and just try to make this other neuron specialize.
+on this training sample and if you do that then in some sense your different neurons are uh kind of.

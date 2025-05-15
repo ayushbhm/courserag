@@ -1,0 +1,10 @@
+should the algorithm work or what does it make why is it making sense right so we are interested in.
+finding this line w transpose x equal to zero which divides the input into two halves right that we have.
+already understood we want to learn these w right so now any a point so which lies on this line.
+it will satisfy this equation i mean that's a trivial statement to make right so if you have the line.
+y is equal to mx plus c right then any point x comma y which lies on this slide will.
+satisfy this equation that's the same thing i am saying is just that now my way of writing equations is.
+slightly different i am calling this as x 1 i am calling this as x 2 and maybe i am.
+calling this as w naught right so that is the only notation change that i have so i have w.
+1 x 1 right plus w 2 x 2 plus w naught equal to zero so this is the equation.
+of a line which is analogous to this equation that i have and all i am saying is that any.

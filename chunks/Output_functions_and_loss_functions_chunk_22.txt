@@ -1,0 +1,9 @@
+loss function right obviously as i said you could use the squared error loss function right but if you know.
+this is a probability distribution we should use something better from probability theory and that is what i explained in.
+the video that i pointed to and what you can do is you can use the cross entropy loss function.
+this is what the cross entropy loss function looks like you have k classes right so you look at the.
+true probability for each of those classes and then the predicted probability for each of these classes right so the.
+true probability for each of these classes multiplied by the log of the predicted property for probability for each of.
+these classes right so where does this formula come from this is something that is explained in that video you.
+should again look at it i'm pointing you to it again and again because that's important right now notice something.
+about this formula right so that this y c right now y c can be y 1 y 2 y.

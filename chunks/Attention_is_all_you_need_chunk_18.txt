@@ -1,0 +1,9 @@
+because in particular right when could you do that in parallel so let me call this Alpha Street right or.
+I could have used the timestamp so one two three four five six right so this is Alpha six Alpha.
+six one alpha six two three all the way up to Alpha six capital T and say this is Alpha.
+two one alpha two two all the way up to Alpha to T right now when can I compute these.
+in parallel earlier remember we had spoken that uh when we are looking at encoder decoder I could not compute.
+two rows of alpha in parallel because this row of alpha depended on everything that happened before right but now.
+I don't have that dependency to compute this Alpha I just need H2 and H1 which I already have to.
+compute this I need H6 and H3 which I already have I don't need to see what is happening here.
+to be able to compute this function right so you already have a feeling that all these rows can be.

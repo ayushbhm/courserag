@@ -1,0 +1,9 @@
+weights are actually shrinking what exactly is happening here right I want us to pay attention to all of these.
+so I'll clear these drawings because we understand what each of these plots corresponds to right now in the absence.
+of regularization this is what your W was W star so that means it has taken this value along the.
+W1 axis and a ticket taken this value along the W to axis okay so you can see that these.
+W's are relatively large right now in the presence of regularization this is what my solution looks like let me.
+just change the color so this is my value for W2 and this is my value for W1 so indeed.
+my weights have shrunk right not just that my weights have not shrunk uniformly right it's not that W1 has.
+become half its original value and W2 has also become half its original value you can see that W1 has.
+decreased much more as compared to W1 right so first observation yes indeed my weights Shrunk the second observation that.

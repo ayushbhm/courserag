@@ -1,0 +1,10 @@
+this error you can drive down to zero but now what if I do the following right so I instead.
+of using this output the true output that was given to me uh and this is what my loss this.
+is what I'm going to minimize right this is my cross entropy loss that I'm going to minimize so P.
+here is the true label and Q is the predicted label so instead of using the true distribution what if.
+I say that I don't trust the true labels they may be noisy or I don't want to trust the.
+true labels because then I am trying to map my input exactly to the output and that is what overfitting.
+is right so instead I am going to add some noise to the outputs what I'm going to do is.
+that in my original distribution all my probability Mass was on the correct label right so what I'm going to.
+do is I'm going to take away a small probability Mass from there and distribute it to the other labels.
+right so now instead of all the mass being on one and everything else being 0 I'm instead of using.

@@ -1,0 +1,9 @@
+too much on the current gradient right because you might get a sudden High gradient and then you might take.
+a very large step and you might not want to rely too much on the current gradient this is the.
+same explanation as we have in momentum where you want to keep looking at the history if I am constantly.
+moving in a direction then I want to keep some weightage for the history also and then not make sudden.
+movements based on just the current derivative right so that's what that's why you have this exponentially weighted average so.
+that you have more weightage for the history because history has accumulated over time and less weightage for the current.
+point in time gradient right so so one way of looking at this is that you are actually right what.
+you want in empty is that you want to look at the expected value of the gradient as opposed to.
+this current value of the gradient right so instead of just looking at the current gradient I would have ideally.

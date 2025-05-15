@@ -1,0 +1,10 @@
+foreign [Music] so now we are going to talk about train error versus test error so let's see ah so.
+now consider a new point x comma Y which has not been seen during training and so what I mean.
+by that that this is where I was kind of ending in the last video so you are given some.
+training data and based on that you have estimated F hat X right and now consider some new points right.
+and one such point x comma Y which was not there in the training data right and now ah you.
+want to see what is the error that this model makes on this unseen Point why unseen because it was.
+not seen during training right so that's what the setup is so if you use the model f at X.
+to predict the value of y then the mean square error is given by this quantity right so this is.
+the expected error and why do we have an expected expectation means like roughly average or mean so what is.
+it that what is it that we are taking the average on so again the situation was I had certain.

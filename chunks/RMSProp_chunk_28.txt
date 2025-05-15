@@ -1,0 +1,9 @@
+halves you see the right behavior of the learning rate initially it decreases and then it increases when the curve.
+becomes flat okay so this is what is expected right this is what we like about RMS prop but what.
+we were talking about its sensitivity to uh learning rate right so the initial learning rate so this is what.
+happened when I chose the initial learning rate to be 0.6 right now uh so this satisfies our wish list.
+whatever I just spoke is written on this slide now if we had set it to 0.1 right then let's.
+see what would have happened maybe I should maximize this right so again let me just Define the things here.
+you would have already understood but uh yeah so this is my history the blue curve is the history that.
+behavior does not change the orange curve is for the ETA node of 0.6 which we just discussed in detail.
+and the black curve is for the ETA naught of point Y right and now what is happening is that.

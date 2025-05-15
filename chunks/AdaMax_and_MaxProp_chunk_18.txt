@@ -1,0 +1,9 @@
+reason my input was Zero still my learning rate became 1.4 right and then time step 3 it again decreased.
+but again for a zero input it increased and so on right so it's more uh it it's still making.
+changes when I have a zero input and I don't want that to happen right so any have many sparse.
+features and if you want the learning rate to kind of not get affected by these parts features then Adam.
+X is useful because it's not changing the learning rate too much for such sparse features right whereas atom is.
+changing okay okay so now suppose this is what your gradient profile looks like so at time step 0 suppose.
+the derivative is this at time step one it's this and so on and so there are 100 time steps.
+here and I've just smoothed in the curve so there should have been 100 points and I have just smoothened.
+those curve drawn a curve through those hundred points right so this is what it looks like and now if.

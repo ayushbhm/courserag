@@ -1,0 +1,9 @@
+me just go back and then try to find some new Delta Theta change that and I mean change that.
+much and then find a new value I don't want to do that someone has to give me the right.
+Delta Data to use and it turns out that what is the right Delta Theta to use the answer from.
+this comes from the Taylor series right so let's see first what is Taylor series I'm sure some of you.
+have seen this in high school well let's quickly refresh this right so Taylor series as I'm just going to.
+read out the definition here is a way of approximating any continuously differentiable function right and this is important for.
+us because whatever loss function we are dealing with is a differentiable function because we have the sigmoid neuron which.
+is differentiable and then on top of that a loss function currently is the squared error loss which is again.
+differentiable right so this is a differentiable function that we are dealing with and this differentiable function may have any.

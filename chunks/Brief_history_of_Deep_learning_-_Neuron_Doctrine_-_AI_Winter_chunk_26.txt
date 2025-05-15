@@ -1,0 +1,9 @@
+this was discovered or proposed by koshi and for a very different purpose right and he was trying to use.
+gradient descent to compute the orbit of heavenly body so there's a lot of interest in astronomy at that time.
+and he was trying to look at what is the orbit of heavenly bodies and in that context he had.
+discovered gradient distance right so again whatever benefits we are enjoying today they come through the work of many great.
+scientists over centuries in different fields and that's where that has helped us reach where we are today right in.
+very unexpected uh ways so while we were still in this winter period again this 1989 what came up is.
+this universal approximation theorem which is again something that will come up in the course right and what this said.
+again to repeat what i said earlier that if you have a function which takes certain x as input and.
+gives you y and in real world you don't know what this f is right so in real world if.

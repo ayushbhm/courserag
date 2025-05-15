@@ -1,0 +1,10 @@
+interested actually we are interested in the derivative of the loss function or the gradient of the loss function with.
+respect to H2 remember H2 is a vector but I won't go to the vector directly I'll focus on one.
+element of this maybe H22 and in general I'm just going to call it as i j right where I.
+is the layer number and J is the neuron number right neuron number in that layer okay let's remember that.
+so that is the setup and based on the formula that I had there are K paths which take me.
+from an H I J to the loss function okay so I'm going to sum over all those K paths.
+and each path I'll have this chain rule which I am going to compute and sum over those chain groups.
+and what is the chain rule saying derivative of the loss function with the a unit in the next layer.
+right so I want I so in the next layer the the a neuron in the next layer depends on.
+the uh H neuron in this layer so that's a i plus 1 okay and there are K of those.

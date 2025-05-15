@@ -1,0 +1,10 @@
+uh on the positive side and it's also now again close to zero centered right and some gradient always flows.
+through but it again becomes exponentially uh it becomes expensive right because you have to compute this exponent right so.
+now all of these they were proposed in certain contexts and in those contexts they were like found to be.
+better than relu also some of them theoretically showed that why they are better than relu but at least in.
+practice many of these are not very popular right you just use the default relu and largely that works or.
+you use some of the more recent ones which is angelu and swish right so they are more popular now.
+right so that ends the discussion on three of the most popular or so of the initial activation functions which.
+were there around 2012 2014 which is the logistic activation function then the tanh and then the relu right so.
+I'll end this video here and when you come back we'll discuss a few more uh later activation functions that.
+came out.

@@ -1,0 +1,9 @@
+p so every vector belonging to p satisfies this condition and similarly every vector belonging to n satisfies the other.
+condition right and this could be greater than equal to zero right okay i have okay i fixed the uh.
+inequalities so uh every point belonging to p should satisfy the greater than equal to w naught condition and every.
+point belonging to n should satisfy the less than w naught condition right so if that happens then the points.
+are said to be linearly separable that's just a definition now um so now here's the statement of the theorem.
+right so if the sets p and n are finite and linearly separable that just means your data is finite.
+and is linearly separable the perceptron nulling algorithm updates the weight vector a finite number of times right so what.
+does it mean so you remember that in the algorithm while convergence while not convergence we are updating the weight.
+vector w is equal to w plus x in some cases w is equal to w minus x in some.

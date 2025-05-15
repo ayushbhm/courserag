@@ -1,0 +1,8 @@
+same thing so you'll have Capital T1 inputs here again at this point Capital T1 intermediate representations would be computed.
+again here Capital T1 intermediate representations would be computed and then again here Capital T1 output representations would be computed.
+this is one layer then these T1 outputs would feed to the next layer and again the same processing would.
+app right and all of this this entire block is happening in parallel right all these computations are happening in.
+parallel of course like what I mean by that is all these T1 outputs are getting computed in parallel then.
+all these T1 outputs are getting computed in parallel then all these T1 outputs are getting computers right so now.
+what is this Mast and what is the multi-head cross attention these are the two things that we need to.
+understand okay so now we'll try to understand uh what this uh uh the Mast self-attention and the multi-headed cross.

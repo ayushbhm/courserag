@@ -1,0 +1,10 @@
+if the input value is small but the weight to the input is large then still the contribution would be.
+higher right and notice that this index is over 1 to n because there are n inputs so from the.
+first input to the last input right so 1 to n that's where the indices are coming from and it's.
+going to be 0 if this weighted sum is less than threshold right so again a very similar form to.
+the mp neuron now on the rest of the slide i'm just going to do some rewriting to arrive at.
+a more neater form right i don't want to keep writing this let's see where i reach there so if.
+i rewrite the above i'm just going to take theta on one side so this minus theta greater than equal.
+to zero nothing wrong with this and minus theta less than zero right so i have just taken theta on.
+one side now uh something interesting will happen so now the theta has disappeared looks like the theta has disappeared.
+but actually it hasn't because i have added this i equal to 0 right so what i am saying now.

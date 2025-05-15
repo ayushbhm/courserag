@@ -1,0 +1,10 @@
+Matrix right so what is this I'm going to just substitute the right values of K and I so this.
+is going to be derivative of K1 and then this is going to be K minus 1 1 this is.
+the formula that we had computed on the previous slide right this was h of K minus 1 comma J.
+so I'm just going to substitute the values of I and J right so this is of K and J.
+so this is J and you already know K so this is what I get right so this uh I've.
+just substituted everything from the previous slide onto this slide okay now let's look at notice something about this Matrix.
+right so all the guys in this column all the terms that are getting multiplied are the same same for.
+the next column all of these guys are the same next for same for the next column the other interesting.
+thing is that across the rows the entries are the same right these three guys are the same these three.
+guys are the same and these three guys are the same right so if I were to take say if.

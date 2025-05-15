@@ -1,0 +1,6 @@
+data sets that he experiment with is Ms so this data set was proposed in 1998 and this is what.
+he had tested convolution neural networks on at that time right so the idea of cnns which became popular in.
+image net in around 2012 was much earlier in existence it's just that it was not applied to very large.
+scale problems like image net and then in 2012 when things were more conducive you had better optimization algorithms better.
+initialization methods better activation functions better understanding of how to train deep neural networks it started showing success in those.
+real world or other large-scale problems like image pilot had been in existence for quite a few years right.

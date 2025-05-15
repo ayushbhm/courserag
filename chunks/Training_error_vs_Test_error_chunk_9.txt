@@ -1,0 +1,9 @@
+the two sinusoidal function and on the right hand side you have the high variance models which give a low.
+error on the training data but still give you a high error on the test data right and you're looking.
+for this Sweet Spot somewhere in the middle where you have a good trade-off and you have the ideal model.
+complexity right so now let us formally ah Define the train error and the test error right so let there.
+be n training points and M test points right so these are the N training points that were given to.
+you then you can Define the training error as this right which is known to you so over all the.
+end points I'm going to take the average mean square error right so average square error or the mean square.
+error that's what I'm going to do and this is for the N training points and then for the m.
+test points which is n plus 1 to n plus 1 M points I can similarly Define the test error.

@@ -1,0 +1,9 @@
+to compute this right so we'll see how to calculate that but first let us look at a very simple.
+deep neural network which is a very thin network but it's a deep network right that means that every layer.
+i just have one neuron and i have just one weight which connects my input to that and so on.
+right it just keeps computing it's a very simple computation so you can actually write y hat as a function.
+of x very easily in this case right now it is easy to find the derivative by the chain rule.
+so what is the derivative that are interested in i'm interested in the derivative of the loss function with respect.
+to this weight right and this weight is very far away from the loss function right because it's not uh.
+very close right i would say this weight is closer to the loss function and the weight that i am.
+interested is much farther right but i know how to use the chain rule right so i can compute the.

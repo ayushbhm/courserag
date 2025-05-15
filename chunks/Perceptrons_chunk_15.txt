@@ -1,0 +1,9 @@
+not right in other situations it could be reflected to uh it could be adjusted to reflect the prior as.
+we say right so what is the without knowing the data without knowing the inputs what is the prior that.
+is about you taking this decision as a positive versus negative right zero versus one so that's why it's called.
+the prejudice and the same thing i have explained on the slides you can go back and read it later.
+right okay so now coming to the question so this is this was to motivate a few things right that.
+why are we interested in boolean functions because many real world problems you can map it to boolean functions then.
+why do we have weights because in many real function world problems you want weighted inputs you want certain inputs.
+to be more important than others and what is theta what is the prior so that has also been explained.
+right now let's move on to a different set of questions so what kind of functions can be implemented using.

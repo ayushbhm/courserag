@@ -1,0 +1,10 @@
+this is equal to 1 over 1 plus e raised to minus of 3x plus b and b i have.
+chosen s minus 1 so this is what my function looks like now in this function i'll plug in all.
+the points that i have how many points do i have only two points so for one point the value.
+would be the x is 0.5 and the other x is 2.5 so i'll plug in these values and i'll.
+be able to compute this quantity and i already know what the true y should be right so i can.
+calculate this so i'm just going to go ahead and calculate this right so this is what it looks like.
+okay i just expanded the sum now i've going to calculate those values and this is what the values turn.
+out to be now i'm just going to do the math and this is the value right so this is.
+0.099 that's the loss if it was perfect the loss would have been zero right but this is 0.099 so.
+that's how bad this is now i am able to quantify my answer using the loss value if you give.

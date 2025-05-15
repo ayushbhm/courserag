@@ -1,0 +1,10 @@
+larger representation and then you'd pass that to a linear transformation right so we'll see that uh soon and then.
+what you get is the final output right so what let's just look at this carefully right what is happening.
+here so again let me just look at some it's important that I get rid of this okay so this.
+is the H here okay and let's just focus on H1 right now H1 suppose H1 was uh five and.
+two dimensional vector right so now what I could do is uh I will choose W to be 512 cross.
+256. okay I'm just giving you some example so that means the projection which comes out right my q k.
+v would be 256 dimensional right because it's 5 and 2 multiplied by a 5 and 2 cross 256 Matrix.
+right or rather actually this would be um yeah so you get it it's I'll get I'll just project it.
+down so this will be 256 dimensional right so at the output again I'll get 256 dimensional Z's in both.
+the cases now when they concatenate I again get a five and two dimensional output right and this I could.

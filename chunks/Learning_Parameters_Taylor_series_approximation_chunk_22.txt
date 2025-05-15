@@ -1,0 +1,8 @@
+you can see that in a very larger neighborhood also right the approximation is quite good right I mean the.
+the true curve is very close uh to the orange curve right let's increase it further further further I think.
+I'm at degree 7 or degree 8 now and it's almost perfectly approximating right so as I keep increasing the.
+degree the approximation becomes better than that and if I go till the very large terms then I'm all I'm.
+constructing the entire function in by as a sum of its parts right and that's what the Taylor series actually.
+says that if I use the full formula then you get the function back right that's the beauty of the.
+Taylor series approximation if I keep decreasing then my approximations become bad and in the linear case my approximations are.
+bad but they're very good in a small neighborhood around the point right that's the main in the small neighborhood.

@@ -1,0 +1,10 @@
+1 2 is going to be the input to the relu function that is the non-linearity setting here and it.
+will simply look at whether a 1 2 is greater than 0 if so it will just return a 1.
+2 otherwise it will return 0 right so if you have any negative value being passed to it it clamps.
+it to 0 and if it's a positive value it just lets it let it be as it is right.
+so let's see what are the implications of that right so the first question is that is this really a.
+non-linear function so indeed it is a longer function the max function the way it is shown here is a.
+non-linear function a linear function would just uh behave uh linearly on both sides but this is on the negative.
+side you have uh clamped it and in fact you can show that if we combine two relu units right.
+so these are two relu units that have combined right so this is a relu function and this is another.
+relu function and I have just taken the difference between these two right so you could think of it in.

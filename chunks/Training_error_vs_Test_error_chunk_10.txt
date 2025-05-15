@@ -1,0 +1,9 @@
+error that's what I'm going to do and this is for the N training points and then for the m.
+test points which is n plus 1 to n plus 1 M points I can similarly Define the test error.
+the average test error right so this is already known to you intuitively I've just formally defined it yeah so.
+as the model complexity increases the train error becomes overly optimistic right because you saw that the blue curve was.
+showing you or the training error is zero and you would think okay perfectly I've come from I have found.
+the perfect relationship between Y and X but that's only for this training data right and as you as soon.
+as you test it on the test data you will find the error is high and so what you actually.
+want is that the validation error should be low right so the true picture of whether your F hat is.
+really good comes from the validation data or the test data and not from the training data right you want.

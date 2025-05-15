@@ -1,0 +1,9 @@
+i concluded that i made the w negative maybe that's a problem right this is what my thinking was this.
+is how i have come up with these numbers so let me interest increase the w so i increased the.
+w and i made b a bit negative and the loss decreased okay so then i assumed okay increasing the.
+w further and decreasing would be further might help and that actually helped and i kept continuing that way and.
+it had right i'm doing random guesswork but it's slightly not so random because i'm looking at the loss values.
+and slowly trying to adjust the weights right and all these values that i tried these are all the different.
+functions that i got right so you can see what had happened for w equal to 0.50 you can go.
+back and look at all these values so i was getting different uh functions and then as i kept changing.
+it i somehow found the right function right so this is what my guesswork was and you can all imagine.

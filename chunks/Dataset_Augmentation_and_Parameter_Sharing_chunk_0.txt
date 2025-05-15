@@ -1,0 +1,9 @@
+foreign [Music] simple but very effective technique so in data set augmented augmentation this is what you do right so.
+suppose your training data set was about digit classification right and many of you would have experimented with the mnist.
+dataset uh so this these are some images given in the MS data set so this is say one of.
+the images that was given and whose label is of course uh two right so this is the digit two.
+now what you could do is that from this image you could create some other images right so what what.
+are the other images you could create you could Define certain uh transitions right so you could rotate this image.
+by 20 20 degree and get a new image right and that image the label would still be two so.
+you don't need to manually label this you know that even if I rotate the image by a small amount.
+of course for some things like 6 and 9 if you rotate by 180 degrees then you will have a.

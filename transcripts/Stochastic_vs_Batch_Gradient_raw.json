@@ -1,0 +1,2977 @@
+[
+  {
+    "text": "foreign",
+    "start": 0.299,
+    "duration": 3.0
+  },
+  {
+    "text": "[Music]",
+    "start": 6.62,
+    "duration": 3.739
+  },
+  {
+    "text": "okay so now let's talk about stochastic",
+    "start": 19.44,
+    "duration": 4.44
+  },
+  {
+    "text": "and mini batch gradient descent let me",
+    "start": 21.72,
+    "duration": 4.44
+  },
+  {
+    "text": "first motivate this with some intuition",
+    "start": 23.88,
+    "duration": 5.88
+  },
+  {
+    "text": "and then we will look at how to go about",
+    "start": 26.16,
+    "duration": 5.64
+  },
+  {
+    "text": "it right so we'll dig us a bit uh",
+    "start": 29.76,
+    "duration": 4.26
+  },
+  {
+    "text": "actually after nag there are a few other",
+    "start": 31.8,
+    "duration": 4.2
+  },
+  {
+    "text": "algorithms that we should cover but",
+    "start": 34.02,
+    "duration": 4.92
+  },
+  {
+    "text": "before that since we are still in a",
+    "start": 36.0,
+    "duration": 4.62
+  },
+  {
+    "text": "slightly easier territory gradient",
+    "start": 38.94,
+    "duration": 3.72
+  },
+  {
+    "text": "descent momentum nag those are easier to",
+    "start": 40.62,
+    "duration": 4.56
+  },
+  {
+    "text": "understand so in this easier territory",
+    "start": 42.66,
+    "duration": 3.899
+  },
+  {
+    "text": "I'll talk about the stochastic version",
+    "start": 45.18,
+    "duration": 3.719
+  },
+  {
+    "text": "of these algorithms and then later on",
+    "start": 46.559,
+    "duration": 3.961
+  },
+  {
+    "text": "I'll talk about other algorithms like",
+    "start": 48.899,
+    "duration": 5.281
+  },
+  {
+    "text": "Adam adagrad at adult and so on okay",
+    "start": 50.52,
+    "duration": 7.4
+  },
+  {
+    "text": "yeah so if you look at the code for uh",
+    "start": 54.18,
+    "duration": 6.359
+  },
+  {
+    "text": "gradient descent right and the same code",
+    "start": 57.92,
+    "duration": 4.72
+  },
+  {
+    "text": "I mean with some variations was used for",
+    "start": 60.539,
+    "duration": 4.321
+  },
+  {
+    "text": "momentum as well as nag then what you're",
+    "start": 62.64,
+    "duration": 4.979
+  },
+  {
+    "text": "doing here is that for all the training",
+    "start": 64.86,
+    "duration": 5.22
+  },
+  {
+    "text": "points so this for Loop is looking at",
+    "start": 67.619,
+    "duration": 4.5
+  },
+  {
+    "text": "all the training data in this case I had",
+    "start": 70.08,
+    "duration": 4.74
+  },
+  {
+    "text": "only two training samples but the for",
+    "start": 72.119,
+    "duration": 4.081
+  },
+  {
+    "text": "Loop is going over all the training",
+    "start": 74.82,
+    "duration": 3.659
+  },
+  {
+    "text": "samples Computing the gradient keeps on",
+    "start": 76.2,
+    "duration": 5.58
+  },
+  {
+    "text": "accumulating it in the sum DW and DB and",
+    "start": 78.479,
+    "duration": 5.401
+  },
+  {
+    "text": "then comes out of the loop and makes one",
+    "start": 81.78,
+    "duration": 4.32
+  },
+  {
+    "text": "update right so that's one observation",
+    "start": 83.88,
+    "duration": 4.26
+  },
+  {
+    "text": "that I want you to make it's obvious",
+    "start": 86.1,
+    "duration": 3.78
+  },
+  {
+    "text": "from the code that it's looking over the",
+    "start": 88.14,
+    "duration": 3.72
+  },
+  {
+    "text": "entire data and then comes out of the",
+    "start": 89.88,
+    "duration": 4.5
+  },
+  {
+    "text": "loop and makes one update uh and then",
+    "start": 91.86,
+    "duration": 6.36
+  },
+  {
+    "text": "keeps going about it right so there are",
+    "start": 94.38,
+    "duration": 6.059
+  },
+  {
+    "text": "like two for Loops so the inner for Loop",
+    "start": 98.22,
+    "duration": 4.56
+  },
+  {
+    "text": "runs over the entire training data okay",
+    "start": 100.439,
+    "duration": 5.82
+  },
+  {
+    "text": "now the issue with that is that the",
+    "start": 102.78,
+    "duration": 5.28
+  },
+  {
+    "text": "question is like why are we doing this",
+    "start": 106.259,
+    "duration": 3.241
+  },
+  {
+    "text": "right so why are we going over the",
+    "start": 108.06,
+    "duration": 4.5
+  },
+  {
+    "text": "entire training Data before making one",
+    "start": 109.5,
+    "duration": 6.54
+  },
+  {
+    "text": "update to the weight parameters right so",
+    "start": 112.56,
+    "duration": 4.739
+  },
+  {
+    "text": "the reason for that is that because this",
+    "start": 116.04,
+    "duration": 2.52
+  },
+  {
+    "text": "is a true gradient right we had",
+    "start": 117.299,
+    "duration": 3.0
+  },
+  {
+    "text": "painfully computed that when we were",
+    "start": 118.56,
+    "duration": 4.379
+  },
+  {
+    "text": "doing that toy Network that to compute",
+    "start": 120.299,
+    "duration": 5.841
+  },
+  {
+    "text": "the loss function",
+    "start": 122.939,
+    "duration": 3.201
+  },
+  {
+    "text": "so the loss function is",
+    "start": 127.979,
+    "duration": 3.92
+  },
+  {
+    "text": "actually a sum over all the training",
+    "start": 132.18,
+    "duration": 5.22
+  },
+  {
+    "text": "examples and then whatever formula you",
+    "start": 134.879,
+    "duration": 4.681
+  },
+  {
+    "text": "use right squared error or cross entropy",
+    "start": 137.4,
+    "duration": 4.14
+  },
+  {
+    "text": "and then you take the average of that",
+    "start": 139.56,
+    "duration": 4.5
+  },
+  {
+    "text": "right so the true value of the loss is",
+    "start": 141.54,
+    "duration": 4.74
+  },
+  {
+    "text": "this right and it includes all the",
+    "start": 144.06,
+    "duration": 4.319
+  },
+  {
+    "text": "training examples now if I want to take",
+    "start": 146.28,
+    "duration": 3.66
+  },
+  {
+    "text": "the derivative of this with respect to",
+    "start": 148.379,
+    "duration": 3.421
+  },
+  {
+    "text": "the loss function then the derivative",
+    "start": 149.94,
+    "duration": 3.84
+  },
+  {
+    "text": "would also be a sum of all the values so",
+    "start": 151.8,
+    "duration": 3.84
+  },
+  {
+    "text": "it's also going to have a sum over all",
+    "start": 153.78,
+    "duration": 3.9
+  },
+  {
+    "text": "the N terms and that is exactly what",
+    "start": 155.64,
+    "duration": 4.5
+  },
+  {
+    "text": "this for Loop is doing here right so",
+    "start": 157.68,
+    "duration": 4.139
+  },
+  {
+    "text": "this is exactly the formula you just",
+    "start": 160.14,
+    "duration": 3.48
+  },
+  {
+    "text": "applied the formula and the formula says",
+    "start": 161.819,
+    "duration": 3.361
+  },
+  {
+    "text": "that you should sum over all the",
+    "start": 163.62,
+    "duration": 3.839
+  },
+  {
+    "text": "variables and this is the true gradient",
+    "start": 165.18,
+    "duration": 4.08
+  },
+  {
+    "text": "there's no approximation happening here",
+    "start": 167.459,
+    "duration": 4.021
+  },
+  {
+    "text": "right so what you're doing is correct",
+    "start": 169.26,
+    "duration": 3.78
+  },
+  {
+    "text": "but",
+    "start": 171.48,
+    "duration": 3.479
+  },
+  {
+    "text": "and because what you're doing is correct",
+    "start": 173.04,
+    "duration": 3.479
+  },
+  {
+    "text": "all the theoretical guarantees hold so",
+    "start": 174.959,
+    "duration": 2.881
+  },
+  {
+    "text": "what does that mean so when we are",
+    "start": 176.519,
+    "duration": 2.761
+  },
+  {
+    "text": "derived gradient descent using the",
+    "start": 177.84,
+    "duration": 3.72
+  },
+  {
+    "text": "Taylor series approximation we had said",
+    "start": 179.28,
+    "duration": 4.86
+  },
+  {
+    "text": "that at every step the loss will keep",
+    "start": 181.56,
+    "duration": 5.039
+  },
+  {
+    "text": "decrease right and that guarantee holds",
+    "start": 184.14,
+    "duration": 3.42
+  },
+  {
+    "text": "because you are not doing any",
+    "start": 186.599,
+    "duration": 3.121
+  },
+  {
+    "text": "approximation you have computed the true",
+    "start": 187.56,
+    "duration": 3.959
+  },
+  {
+    "text": "gradient or the true partial derivative",
+    "start": 189.72,
+    "duration": 3.36
+  },
+  {
+    "text": "and you are moving the direction",
+    "start": 191.519,
+    "duration": 3.961
+  },
+  {
+    "text": "opposite to this true partial derivative",
+    "start": 193.08,
+    "duration": 4.739
+  },
+  {
+    "text": "right and it will become K what I mean",
+    "start": 195.48,
+    "duration": 4.979
+  },
+  {
+    "text": "by true and not true right what true",
+    "start": 197.819,
+    "duration": 3.901
+  },
+  {
+    "text": "means here is that there is no",
+    "start": 200.459,
+    "duration": 3.0
+  },
+  {
+    "text": "approximation in the formula whatever",
+    "start": 201.72,
+    "duration": 3.54
+  },
+  {
+    "text": "formula you derived you're using exactly",
+    "start": 203.459,
+    "duration": 3.481
+  },
+  {
+    "text": "the same formula hence all theoretical",
+    "start": 205.26,
+    "duration": 3.059
+  },
+  {
+    "text": "guarantees hold",
+    "start": 206.94,
+    "duration": 3.12
+  },
+  {
+    "text": "so that's the good part but what's the",
+    "start": 208.319,
+    "duration": 3.961
+  },
+  {
+    "text": "flip side what's the bad part the bad",
+    "start": 210.06,
+    "duration": 3.959
+  },
+  {
+    "text": "part is that suppose you have a million",
+    "start": 212.28,
+    "duration": 4.319
+  },
+  {
+    "text": "points in the training data right then",
+    "start": 214.019,
+    "duration": 4.981
+  },
+  {
+    "text": "you'll run this for Loop for all the",
+    "start": 216.599,
+    "duration": 4.381
+  },
+  {
+    "text": "million points okay you will painfully",
+    "start": 219.0,
+    "duration": 4.14
+  },
+  {
+    "text": "compute this derivatives then come out",
+    "start": 220.98,
+    "duration": 4.679
+  },
+  {
+    "text": "and make one update right so now if you",
+    "start": 223.14,
+    "duration": 5.159
+  },
+  {
+    "text": "have to run the algorithm for 100 steps",
+    "start": 225.659,
+    "duration": 4.321
+  },
+  {
+    "text": "which is quite small right in terms of",
+    "start": 228.299,
+    "duration": 3.421
+  },
+  {
+    "text": "modern deep learning",
+    "start": 229.98,
+    "duration": 3.3
+  },
+  {
+    "text": "then you would be making like 100",
+    "start": 231.72,
+    "duration": 4.079
+  },
+  {
+    "text": "million computations and making 100",
+    "start": 233.28,
+    "duration": 5.459
+  },
+  {
+    "text": "steps and 100 steps your weights",
+    "start": 235.799,
+    "duration": 4.381
+  },
+  {
+    "text": "wouldn't have actually moved much right",
+    "start": 238.739,
+    "duration": 2.761
+  },
+  {
+    "text": "so you would be nowhere close to",
+    "start": 240.18,
+    "duration": 2.94
+  },
+  {
+    "text": "conversions and you have done so many",
+    "start": 241.5,
+    "duration": 3.78
+  },
+  {
+    "text": "computations right so that's the flip",
+    "start": 243.12,
+    "duration": 4.56
+  },
+  {
+    "text": "side of this to make one update you have",
+    "start": 245.28,
+    "duration": 4.679
+  },
+  {
+    "text": "to do so many calculations and obviously",
+    "start": 247.68,
+    "duration": 4.259
+  },
+  {
+    "text": "this is going to be very slow so the",
+    "start": 249.959,
+    "duration": 3.661
+  },
+  {
+    "text": "question is can we do something better",
+    "start": 251.939,
+    "duration": 4.2
+  },
+  {
+    "text": "and the answer is that we can do what is",
+    "start": 253.62,
+    "duration": 4.619
+  },
+  {
+    "text": "known as stochastic gradient descent so",
+    "start": 256.139,
+    "duration": 4.921
+  },
+  {
+    "text": "as opposed to uh the Computing the true",
+    "start": 258.239,
+    "duration": 4.74
+  },
+  {
+    "text": "gradients can we just estimate the",
+    "start": 261.06,
+    "duration": 3.84
+  },
+  {
+    "text": "gradients using fewer points instead of",
+    "start": 262.979,
+    "duration": 3.301
+  },
+  {
+    "text": "looking at all the endpoints so that's",
+    "start": 264.9,
+    "duration": 4.1
+  },
+  {
+    "text": "the idea I will talk more about it right",
+    "start": 266.28,
+    "duration": 6.3
+  },
+  {
+    "text": "so let's not look at the code for now",
+    "start": 269.0,
+    "duration": 6.82
+  },
+  {
+    "text": "so so now in this stochastic version of",
+    "start": 272.58,
+    "duration": 4.44
+  },
+  {
+    "text": "the algor I'm sorry we have to look at",
+    "start": 275.82,
+    "duration": 2.46
+  },
+  {
+    "text": "the code so now in the stochastic",
+    "start": 277.02,
+    "duration": 3.6
+  },
+  {
+    "text": "version of the algorithm",
+    "start": 278.28,
+    "duration": 4.199
+  },
+  {
+    "text": "what I've done is just a small change",
+    "start": 280.62,
+    "duration": 4.62
+  },
+  {
+    "text": "right so this this part of the code has",
+    "start": 282.479,
+    "duration": 4.801
+  },
+  {
+    "text": "been indented and bought into the loop",
+    "start": 285.24,
+    "duration": 3.959
+  },
+  {
+    "text": "right so what is happening is now for",
+    "start": 287.28,
+    "duration": 3.96
+  },
+  {
+    "text": "all points in the training data I'm",
+    "start": 289.199,
+    "duration": 3.78
+  },
+  {
+    "text": "Computing the derivatives and",
+    "start": 291.24,
+    "duration": 3.66
+  },
+  {
+    "text": "immediately updating the weights right",
+    "start": 292.979,
+    "duration": 4.921
+  },
+  {
+    "text": "so I'm doing a greedy update so what I'm",
+    "start": 294.9,
+    "duration": 5.7
+  },
+  {
+    "text": "saying is that my true derivative was",
+    "start": 297.9,
+    "duration": 6.359
+  },
+  {
+    "text": "actually the average",
+    "start": 300.6,
+    "duration": 7.68
+  },
+  {
+    "text": "1 by n into the summation over the",
+    "start": 304.259,
+    "duration": 6.301
+  },
+  {
+    "text": "derivative for all the points right so",
+    "start": 308.28,
+    "duration": 4.44
+  },
+  {
+    "text": "that's what my true derivative was now",
+    "start": 310.56,
+    "duration": 4.68
+  },
+  {
+    "text": "instead of calculating this sum I'm",
+    "start": 312.72,
+    "duration": 4.199
+  },
+  {
+    "text": "saying I'll just look at one point and",
+    "start": 315.24,
+    "duration": 3.66
+  },
+  {
+    "text": "I'm just making an approximation that",
+    "start": 316.919,
+    "duration": 3.84
+  },
+  {
+    "text": "the average is as good as one point",
+    "start": 318.9,
+    "duration": 3.54
+  },
+  {
+    "text": "right whatever estimates I make from one",
+    "start": 320.759,
+    "duration": 3.601
+  },
+  {
+    "text": "point are actually as good as the",
+    "start": 322.44,
+    "duration": 3.479
+  },
+  {
+    "text": "average that I'll get from a million",
+    "start": 324.36,
+    "duration": 3.54
+  },
+  {
+    "text": "points so that's of course a bad",
+    "start": 325.919,
+    "duration": 6.421
+  },
+  {
+    "text": "approximation but you do that and",
+    "start": 327.9,
+    "duration": 6.84
+  },
+  {
+    "text": "while it seems bad we'll see under what",
+    "start": 332.34,
+    "duration": 4.74
+  },
+  {
+    "text": "what you could do to not make it so look",
+    "start": 334.74,
+    "duration": 4.92
+  },
+  {
+    "text": "so bad right",
+    "start": 337.08,
+    "duration": 4.82
+  },
+  {
+    "text": "foreign",
+    "start": 339.66,
+    "duration": 2.24
+  },
+  {
+    "text": "so now if you have a million data points",
+    "start": 344.52,
+    "duration": 4.2
+  },
+  {
+    "text": "we'll make a million updates in each",
+    "start": 346.86,
+    "duration": 4.02
+  },
+  {
+    "text": "Epoch what is one Epoch Epoch is the",
+    "start": 348.72,
+    "duration": 3.78
+  },
+  {
+    "text": "outer loop right when you are making",
+    "start": 350.88,
+    "duration": 5.039
+  },
+  {
+    "text": "updates so far uh every Epoch you are",
+    "start": 352.5,
+    "duration": 5.34
+  },
+  {
+    "text": "going over the entire data and for every",
+    "start": 355.919,
+    "duration": 3.78
+  },
+  {
+    "text": "data point you're making an update so if",
+    "start": 357.84,
+    "duration": 3.6
+  },
+  {
+    "text": "there are million data points then in",
+    "start": 359.699,
+    "duration": 4.081
+  },
+  {
+    "text": "one Epoch you're making one million",
+    "start": 361.44,
+    "duration": 4.02
+  },
+  {
+    "text": "updates right so one Epoch is one pass",
+    "start": 363.78,
+    "duration": 3.78
+  },
+  {
+    "text": "over the entire data and one step is",
+    "start": 365.46,
+    "duration": 4.38
+  },
+  {
+    "text": "equal to one update right now what's the",
+    "start": 367.56,
+    "duration": 5.04
+  },
+  {
+    "text": "flip side now we have gone into bad",
+    "start": 369.84,
+    "duration": 3.96
+  },
+  {
+    "text": "territory right you know what you're",
+    "start": 372.6,
+    "duration": 2.939
+  },
+  {
+    "text": "Computing is an approximate gradient",
+    "start": 373.8,
+    "duration": 3.66
+  },
+  {
+    "text": "right your true gradient was the average",
+    "start": 375.539,
+    "duration": 3.961
+  },
+  {
+    "text": "of the derivative computed over all the",
+    "start": 377.46,
+    "duration": 3.84
+  },
+  {
+    "text": "points now we are approximated that",
+    "start": 379.5,
+    "duration": 4.139
+  },
+  {
+    "text": "average by using just one point estimate",
+    "start": 381.3,
+    "duration": 4.8
+  },
+  {
+    "text": "right and that's definitely bad so you",
+    "start": 383.639,
+    "duration": 5.28
+  },
+  {
+    "text": "have an approximate gradient so hence uh",
+    "start": 386.1,
+    "duration": 5.34
+  },
+  {
+    "text": "the guarantees that you had may be off",
+    "start": 388.919,
+    "duration": 3.961
+  },
+  {
+    "text": "right because this is called stochastic",
+    "start": 391.44,
+    "duration": 2.94
+  },
+  {
+    "text": "because we are estimating the total",
+    "start": 392.88,
+    "duration": 4.259
+  },
+  {
+    "text": "gradient based on a single data point so",
+    "start": 394.38,
+    "duration": 4.74
+  },
+  {
+    "text": "this is like you asked me to estimate",
+    "start": 397.139,
+    "duration": 4.381
+  },
+  {
+    "text": "the probability of suppose I give you a",
+    "start": 399.12,
+    "duration": 4.62
+  },
+  {
+    "text": "biased coin and you ask me to estimate",
+    "start": 401.52,
+    "duration": 4.32
+  },
+  {
+    "text": "the probability of heads then you'll",
+    "start": 403.74,
+    "duration": 4.44
+  },
+  {
+    "text": "just toss it once and you get heads and",
+    "start": 405.84,
+    "duration": 3.84
+  },
+  {
+    "text": "you say Okay probability of heads is one",
+    "start": 408.18,
+    "duration": 3.72
+  },
+  {
+    "text": "as opposed to like really tossing it's a",
+    "start": 409.68,
+    "duration": 4.079
+  },
+  {
+    "text": "hundred or thousand or even more times",
+    "start": 411.9,
+    "duration": 3.419
+  },
+  {
+    "text": "and then trying to estimate the",
+    "start": 413.759,
+    "duration": 2.88
+  },
+  {
+    "text": "probability right so that's what you're",
+    "start": 415.319,
+    "duration": 2.88
+  },
+  {
+    "text": "doing you're almost like tossing the",
+    "start": 416.639,
+    "duration": 3.421
+  },
+  {
+    "text": "coin once and estimating the probability",
+    "start": 418.199,
+    "duration": 3.601
+  },
+  {
+    "text": "of heads because you're just taking one",
+    "start": 420.06,
+    "duration": 3.84
+  },
+  {
+    "text": "data point and estimating the derivative",
+    "start": 421.8,
+    "duration": 3.899
+  },
+  {
+    "text": "from that point instead of computing the",
+    "start": 423.9,
+    "duration": 4.019
+  },
+  {
+    "text": "average over a large number of data",
+    "start": 425.699,
+    "duration": 4.44
+  },
+  {
+    "text": "points right and as you can imagine",
+    "start": 427.919,
+    "duration": 4.201
+  },
+  {
+    "text": "right as what we do in the case of coin",
+    "start": 430.139,
+    "duration": 4.201
+  },
+  {
+    "text": "toss also we don't really do like we",
+    "start": 432.12,
+    "duration": 3.6
+  },
+  {
+    "text": "don't really need to do like a million",
+    "start": 434.34,
+    "duration": 3.96
+  },
+  {
+    "text": "coin tosses that's bad you won't be able",
+    "start": 435.72,
+    "duration": 4.919
+  },
+  {
+    "text": "to do that similarly just doing one coin",
+    "start": 438.3,
+    "duration": 3.66
+  },
+  {
+    "text": "toss is also bad because you cannot",
+    "start": 440.639,
+    "duration": 2.641
+  },
+  {
+    "text": "estimate the probability of Heads Best",
+    "start": 441.96,
+    "duration": 3.72
+  },
+  {
+    "text": "by doing one coin toss but somewhere in",
+    "start": 443.28,
+    "duration": 4.5
+  },
+  {
+    "text": "between maybe 100 coin tosses would have",
+    "start": 445.68,
+    "duration": 3.66
+  },
+  {
+    "text": "been okay right and you could get a fair",
+    "start": 447.78,
+    "duration": 3.479
+  },
+  {
+    "text": "estimate of what the probability of",
+    "start": 449.34,
+    "duration": 3.18
+  },
+  {
+    "text": "heads is so a thousand may have been",
+    "start": 451.259,
+    "duration": 3.421
+  },
+  {
+    "text": "okay right similarly what you could do",
+    "start": 452.52,
+    "duration": 5.399
+  },
+  {
+    "text": "is that waiting for all the million data",
+    "start": 454.68,
+    "duration": 5.04
+  },
+  {
+    "text": "points to get over before you make",
+    "start": 457.919,
+    "duration": 4.5
+  },
+  {
+    "text": "update is bad making an update after one",
+    "start": 459.72,
+    "duration": 5.28
+  },
+  {
+    "text": "data point is also bad but some there in",
+    "start": 462.419,
+    "duration": 4.021
+  },
+  {
+    "text": "between maybe making an update after",
+    "start": 465.0,
+    "duration": 3.06
+  },
+  {
+    "text": "looking at 100 data points right so",
+    "start": 466.44,
+    "duration": 5.9
+  },
+  {
+    "text": "instead of computing the average as",
+    "start": 468.06,
+    "duration": 4.28
+  },
+  {
+    "text": "1 by n summation I equal to 1 by n and",
+    "start": 472.38,
+    "duration": 7.74
+  },
+  {
+    "text": "then the loss value right instead of",
+    "start": 477.3,
+    "duration": 4.739
+  },
+  {
+    "text": "that maybe instead of using n equal to 1",
+    "start": 480.12,
+    "duration": 3.419
+  },
+  {
+    "text": "million or all the training points I",
+    "start": 482.039,
+    "duration": 3.541
+  },
+  {
+    "text": "could use n equal to 100 and that might",
+    "start": 483.539,
+    "duration": 4.681
+  },
+  {
+    "text": "give me a fair approximation right so",
+    "start": 485.58,
+    "duration": 4.739
+  },
+  {
+    "text": "that's the idea that we'll head towards",
+    "start": 488.22,
+    "duration": 5.039
+  },
+  {
+    "text": "so while one approximating from one",
+    "start": 490.319,
+    "duration": 4.921
+  },
+  {
+    "text": "point really looks bad we need not do",
+    "start": 493.259,
+    "duration": 5.401
+  },
+  {
+    "text": "that that's only for illustrating uh the",
+    "start": 495.24,
+    "duration": 6.0
+  },
+  {
+    "text": "concept right so I'll do that and once",
+    "start": 498.66,
+    "duration": 3.9
+  },
+  {
+    "text": "you do that whether you approximate from",
+    "start": 501.24,
+    "duration": 3.6
+  },
+  {
+    "text": "one point ten point or 100 points as",
+    "start": 502.56,
+    "duration": 4.44
+  },
+  {
+    "text": "long as you're not using all the data",
+    "start": 504.84,
+    "duration": 3.0
+  },
+  {
+    "text": "points",
+    "start": 507.0,
+    "duration": 2.639
+  },
+  {
+    "text": "you are in trouble right because you are",
+    "start": 507.84,
+    "duration": 3.9
+  },
+  {
+    "text": "not really doing a true estimate of the",
+    "start": 509.639,
+    "duration": 4.14
+  },
+  {
+    "text": "gradient but you have to make this trade",
+    "start": 511.74,
+    "duration": 4.5
+  },
+  {
+    "text": "off between what is true which is all",
+    "start": 513.779,
+    "duration": 3.901
+  },
+  {
+    "text": "the multimedial points taken together",
+    "start": 516.24,
+    "duration": 4.38
+  },
+  {
+    "text": "versus what is approximate and let's see",
+    "start": 517.68,
+    "duration": 4.14
+  },
+  {
+    "text": "what happens when you do this",
+    "start": 520.62,
+    "duration": 4.38
+  },
+  {
+    "text": "approximate right so uh now what I'm",
+    "start": 521.82,
+    "duration": 4.92
+  },
+  {
+    "text": "going to do is I'm going to run",
+    "start": 525.0,
+    "duration": 3.959
+  },
+  {
+    "text": "stochastic gradient descent and gradient",
+    "start": 526.74,
+    "duration": 4.26
+  },
+  {
+    "text": "descent on this loss surface and we'll",
+    "start": 528.959,
+    "duration": 5.481
+  },
+  {
+    "text": "make some observations about it",
+    "start": 531.0,
+    "duration": 3.44
+  },
+  {
+    "text": "yeah",
+    "start": 538.62,
+    "duration": 5.82
+  },
+  {
+    "text": "so the green guy is gradient descent and",
+    "start": 541.08,
+    "duration": 5.4
+  },
+  {
+    "text": "the black guy is stochastic gradient",
+    "start": 544.44,
+    "duration": 4.26
+  },
+  {
+    "text": "descent and as you can see in the black",
+    "start": 546.48,
+    "duration": 5.82
+  },
+  {
+    "text": "guy there are a few oscillations whereas",
+    "start": 548.7,
+    "duration": 5.28
+  },
+  {
+    "text": "the green guy is going finer it's",
+    "start": 552.3,
+    "duration": 4.56
+  },
+  {
+    "text": "smoothly going down whereas the black",
+    "start": 553.98,
+    "duration": 4.799
+  },
+  {
+    "text": "guy is often getting off course and then",
+    "start": 556.86,
+    "duration": 3.78
+  },
+  {
+    "text": "coming back right and the reason that is",
+    "start": 558.779,
+    "duration": 3.361
+  },
+  {
+    "text": "happening is because you are not making",
+    "start": 560.64,
+    "duration": 3.78
+  },
+  {
+    "text": "a true estimate of the gradient you're",
+    "start": 562.14,
+    "duration": 4.74
+  },
+  {
+    "text": "just making like a approximation or a",
+    "start": 564.42,
+    "duration": 5.52
+  },
+  {
+    "text": "stochastic update here well and at this",
+    "start": 566.88,
+    "duration": 4.92
+  },
+  {
+    "text": "point right where it was say oscillating",
+    "start": 569.94,
+    "duration": 3.42
+  },
+  {
+    "text": "right at the points where you see an",
+    "start": 571.8,
+    "duration": 3.599
+  },
+  {
+    "text": "oscillation let me just use the mouse",
+    "start": 573.36,
+    "duration": 4.44
+  },
+  {
+    "text": "right so this is one point where you see",
+    "start": 575.399,
+    "duration": 5.461
+  },
+  {
+    "text": "an oscillation and what is happening",
+    "start": 577.8,
+    "duration": 5.34
+  },
+  {
+    "text": "there is that you approximated the",
+    "start": 580.86,
+    "duration": 4.68
+  },
+  {
+    "text": "gradient by one point and that point was",
+    "start": 583.14,
+    "duration": 4.139
+  },
+  {
+    "text": "actually very far off as compared to",
+    "start": 585.54,
+    "duration": 3.18
+  },
+  {
+    "text": "what the true gradient would have been",
+    "start": 587.279,
+    "duration": 4.021
+  },
+  {
+    "text": "and hence it led to a bad update and now",
+    "start": 588.72,
+    "duration": 4.32
+  },
+  {
+    "text": "again you come back slowly and then you",
+    "start": 591.3,
+    "duration": 3.479
+  },
+  {
+    "text": "go back towards the minimal right so",
+    "start": 593.04,
+    "duration": 3.08
+  },
+  {
+    "text": "that's why you see these oscillations",
+    "start": 594.779,
+    "duration": 5.06
+  },
+  {
+    "text": "now uh",
+    "start": 596.12,
+    "duration": 3.719
+  },
+  {
+    "text": "this is when you use k equal to 1 right",
+    "start": 599.94,
+    "duration": 4.079
+  },
+  {
+    "text": "but uh",
+    "start": 602.16,
+    "duration": 3.48
+  },
+  {
+    "text": "and we understand why we see many",
+    "start": 604.019,
+    "duration": 3.061
+  },
+  {
+    "text": "oscillations because we are making",
+    "start": 605.64,
+    "duration": 4.02
+  },
+  {
+    "text": "greedy decisions and what is happening",
+    "start": 607.08,
+    "duration": 5.1
+  },
+  {
+    "text": "is here that each point is trying to",
+    "start": 609.66,
+    "duration": 4.08
+  },
+  {
+    "text": "push the parameter so I have a million",
+    "start": 612.18,
+    "duration": 4.44
+  },
+  {
+    "text": "data points right and I look at one of",
+    "start": 613.74,
+    "duration": 4.98
+  },
+  {
+    "text": "the training uh instances one of the",
+    "start": 616.62,
+    "duration": 4.56
+  },
+  {
+    "text": "points and I compute the gradient and",
+    "start": 618.72,
+    "duration": 4.739
+  },
+  {
+    "text": "this point says Hey to decrease the loss",
+    "start": 621.18,
+    "duration": 6.599
+  },
+  {
+    "text": "with respect to uh my values you need to",
+    "start": 623.459,
+    "duration": 6.421
+  },
+  {
+    "text": "move here right then the second Point",
+    "start": 627.779,
+    "duration": 3.781
+  },
+  {
+    "text": "comes I again Ask it hey what should the",
+    "start": 629.88,
+    "duration": 3.12
+  },
+  {
+    "text": "gradient would be and it again pushes me",
+    "start": 631.56,
+    "duration": 3.48
+  },
+  {
+    "text": "in Direction which is favorable to it so",
+    "start": 633.0,
+    "duration": 4.86
+  },
+  {
+    "text": "each point is acting independently and",
+    "start": 635.04,
+    "duration": 4.38
+  },
+  {
+    "text": "trying to move you in a direction which",
+    "start": 637.86,
+    "duration": 3.9
+  },
+  {
+    "text": "is most convenient for itself right and",
+    "start": 639.42,
+    "duration": 3.419
+  },
+  {
+    "text": "that's why you see these all",
+    "start": 641.76,
+    "duration": 2.4
+  },
+  {
+    "text": "oscillations they're not working",
+    "start": 642.839,
+    "duration": 3.301
+  },
+  {
+    "text": "together as opposed to in the gradient",
+    "start": 644.16,
+    "duration": 3.96
+  },
+  {
+    "text": "descent where all of them I'm asking all",
+    "start": 646.14,
+    "duration": 4.259
+  },
+  {
+    "text": "of them at one go taking the average of",
+    "start": 648.12,
+    "duration": 4.92
+  },
+  {
+    "text": "their consensus and then moving uh in",
+    "start": 650.399,
+    "duration": 4.62
+  },
+  {
+    "text": "that direction right or the opposite to",
+    "start": 653.04,
+    "duration": 3.78
+  },
+  {
+    "text": "that the direction of the gradient but",
+    "start": 655.019,
+    "duration": 3.241
+  },
+  {
+    "text": "here that is not what I am doing and I'm",
+    "start": 656.82,
+    "duration": 3.48
+  },
+  {
+    "text": "asking every point this point say hey go",
+    "start": 658.26,
+    "duration": 3.84
+  },
+  {
+    "text": "here go here go here go here and so on",
+    "start": 660.3,
+    "duration": 4.26
+  },
+  {
+    "text": "that's why I'm oscillating uh that's why",
+    "start": 662.1,
+    "duration": 5.82
+  },
+  {
+    "text": "you see the oscillations right uh and as",
+    "start": 664.56,
+    "duration": 4.86
+  },
+  {
+    "text": "I mean as the case and a parameter which",
+    "start": 667.92,
+    "duration": 3.599
+  },
+  {
+    "text": "is a favorable for one point may not be",
+    "start": 669.42,
+    "duration": 3.9
+  },
+  {
+    "text": "a favorable for the next points that's",
+    "start": 671.519,
+    "duration": 3.661
+  },
+  {
+    "text": "why this point moved you here and then",
+    "start": 673.32,
+    "duration": 3.36
+  },
+  {
+    "text": "the next Point said no no no come back",
+    "start": 675.18,
+    "duration": 3.0
+  },
+  {
+    "text": "here then again go back here go back",
+    "start": 676.68,
+    "duration": 2.82
+  },
+  {
+    "text": "here and so on and that's why you keep",
+    "start": 678.18,
+    "duration": 3.54
+  },
+  {
+    "text": "oscillating like that right now can we",
+    "start": 679.5,
+    "duration": 4.56
+  },
+  {
+    "text": "reduce the oscillations by improving our",
+    "start": 681.72,
+    "duration": 3.9
+  },
+  {
+    "text": "stochastic estimates right so currently",
+    "start": 684.06,
+    "duration": 3.12
+  },
+  {
+    "text": "our estimate is taken from one point",
+    "start": 685.62,
+    "duration": 3.719
+  },
+  {
+    "text": "right we have taken n equal to one now",
+    "start": 687.18,
+    "duration": 4.68
+  },
+  {
+    "text": "instead of one if I take 10 if I take 20",
+    "start": 689.339,
+    "duration": 4.981
+  },
+  {
+    "text": "then would these oscillations reduce",
+    "start": 691.86,
+    "duration": 4.68
+  },
+  {
+    "text": "right what this uh I would would I",
+    "start": 694.32,
+    "duration": 4.5
+  },
+  {
+    "text": "please take closer to the green curve",
+    "start": 696.54,
+    "duration": 4.26
+  },
+  {
+    "text": "right I know in the limit if I take n",
+    "start": 698.82,
+    "duration": 4.44
+  },
+  {
+    "text": "equal to all the points then I would be",
+    "start": 700.8,
+    "duration": 4.14
+  },
+  {
+    "text": "exactly following the green curve right",
+    "start": 703.26,
+    "duration": 3.18
+  },
+  {
+    "text": "because and there's no surprise there",
+    "start": 704.94,
+    "duration": 3.839
+  },
+  {
+    "text": "right but if I look at a mini batch as",
+    "start": 706.44,
+    "duration": 4.2
+  },
+  {
+    "text": "opposed to the full data and as opposed",
+    "start": 708.779,
+    "duration": 3.661
+  },
+  {
+    "text": "to just one point if I look at a mini",
+    "start": 710.64,
+    "duration": 3.96
+  },
+  {
+    "text": "Point mini batch which is say 25 points",
+    "start": 712.44,
+    "duration": 4.62
+  },
+  {
+    "text": "100 points then what my estimates be",
+    "start": 714.6,
+    "duration": 5.46
+  },
+  {
+    "text": "better right so that's the question uh",
+    "start": 717.06,
+    "duration": 5.04
+  },
+  {
+    "text": "so let's look at that",
+    "start": 720.06,
+    "duration": 4.44
+  },
+  {
+    "text": "uh so now we are using a mini batch",
+    "start": 722.1,
+    "duration": 4.979
+  },
+  {
+    "text": "version of gradient descent so in",
+    "start": 724.5,
+    "duration": 4.38
+  },
+  {
+    "text": "stochastic gradient descent you are",
+    "start": 727.079,
+    "duration": 5.94
+  },
+  {
+    "text": "updating after every point right whereas",
+    "start": 728.88,
+    "duration": 6.54
+  },
+  {
+    "text": "here you are keeping track of the number",
+    "start": 733.019,
+    "duration": 4.56
+  },
+  {
+    "text": "of points that you have seen and if the",
+    "start": 735.42,
+    "duration": 3.9
+  },
+  {
+    "text": "number of points is equal to some mini",
+    "start": 737.579,
+    "duration": 3.361
+  },
+  {
+    "text": "batch size let's say the mini batch size",
+    "start": 739.32,
+    "duration": 4.079
+  },
+  {
+    "text": "is 100 or 200 so if the number of points",
+    "start": 740.94,
+    "duration": 4.68
+  },
+  {
+    "text": "that you have seen so far if it's equal",
+    "start": 743.399,
+    "duration": 4.801
+  },
+  {
+    "text": "to some mini batch size then you make an",
+    "start": 745.62,
+    "duration": 5.58
+  },
+  {
+    "text": "update right so after every uh batch of",
+    "start": 748.2,
+    "duration": 5.579
+  },
+  {
+    "text": "say 100 points 200 points only then you",
+    "start": 751.2,
+    "duration": 4.139
+  },
+  {
+    "text": "make update till that point you keep",
+    "start": 753.779,
+    "duration": 3.841
+  },
+  {
+    "text": "accumulating the uh gradients right so",
+    "start": 755.339,
+    "duration": 3.601
+  },
+  {
+    "text": "instead of accumulating the gradients",
+    "start": 757.62,
+    "duration": 3.0
+  },
+  {
+    "text": "for all the points you're accumulating",
+    "start": 758.94,
+    "duration": 4.019
+  },
+  {
+    "text": "the gradients for say 100 points and",
+    "start": 760.62,
+    "duration": 3.839
+  },
+  {
+    "text": "then making an update right so that's",
+    "start": 762.959,
+    "duration": 3.721
+  },
+  {
+    "text": "the only difference in the uh code and",
+    "start": 764.459,
+    "duration": 3.601
+  },
+  {
+    "text": "now these stochastic estimates are",
+    "start": 766.68,
+    "duration": 5.52
+  },
+  {
+    "text": "better because now instead of uh asking",
+    "start": 768.06,
+    "duration": 6.06
+  },
+  {
+    "text": "instead of flipping the coin once and",
+    "start": 772.2,
+    "duration": 3.54
+  },
+  {
+    "text": "then estimating the probability of heads",
+    "start": 774.12,
+    "duration": 3.719
+  },
+  {
+    "text": "maybe you are flipping it 25 times or 50",
+    "start": 775.74,
+    "duration": 3.719
+  },
+  {
+    "text": "times and then trying to estimate the",
+    "start": 777.839,
+    "duration": 3.24
+  },
+  {
+    "text": "probability offense right so let's see",
+    "start": 779.459,
+    "duration": 4.761
+  },
+  {
+    "text": "what happens when we have k equal to 25",
+    "start": 781.079,
+    "duration": 8.101
+  },
+  {
+    "text": "and we'll compare k equal to 25 versus k",
+    "start": 784.22,
+    "duration": 9.84
+  },
+  {
+    "text": "equal to 1 right so let's see that",
+    "start": 789.18,
+    "duration": 4.88
+  },
+  {
+    "text": "okay so we are going to run gradient",
+    "start": 798.0,
+    "duration": 5.1
+  },
+  {
+    "text": "descent stochastic gradient descent and",
+    "start": 800.459,
+    "duration": 4.141
+  },
+  {
+    "text": "mini match gradient descent where the",
+    "start": 803.1,
+    "duration": 4.26
+  },
+  {
+    "text": "batch size was 25 and what I would like",
+    "start": 804.6,
+    "duration": 4.62
+  },
+  {
+    "text": "to see is that the mini batch gradient",
+    "start": 807.36,
+    "duration": 4.02
+  },
+  {
+    "text": "descent is somewhere in between that",
+    "start": 809.22,
+    "duration": 4.559
+  },
+  {
+    "text": "green curve and the black curve right in",
+    "start": 811.38,
+    "duration": 3.899
+  },
+  {
+    "text": "terms of movement and you'll understand",
+    "start": 813.779,
+    "duration": 6.141
+  },
+  {
+    "text": "what I mean by that so let's start this",
+    "start": 815.279,
+    "duration": 4.641
+  },
+  {
+    "text": "so you can see that the blue curve is",
+    "start": 820.32,
+    "duration": 6.06
+  },
+  {
+    "text": "very close to the green curve whereas",
+    "start": 823.98,
+    "duration": 4.979
+  },
+  {
+    "text": "the black curve is oscillating quite a",
+    "start": 826.38,
+    "duration": 4.86
+  },
+  {
+    "text": "bit more right of course the blue curve",
+    "start": 828.959,
+    "duration": 4.38
+  },
+  {
+    "text": "uh which is for mini batch also has",
+    "start": 831.24,
+    "duration": 4.86
+  },
+  {
+    "text": "oscillations is just that it's much more",
+    "start": 833.339,
+    "duration": 5.161
+  },
+  {
+    "text": "smoother than the black guy because the",
+    "start": 836.1,
+    "duration": 3.96
+  },
+  {
+    "text": "black guy relies on one point and makes",
+    "start": 838.5,
+    "duration": 3.6
+  },
+  {
+    "text": "an estimate whereas the blue guy is",
+    "start": 840.06,
+    "duration": 4.019
+  },
+  {
+    "text": "relying on 25 different points and",
+    "start": 842.1,
+    "duration": 3.9
+  },
+  {
+    "text": "making an estimate okay",
+    "start": 844.079,
+    "duration": 3.781
+  },
+  {
+    "text": "yeah so the oscillations have reduced to",
+    "start": 846.0,
+    "duration": 4.26
+  },
+  {
+    "text": "a good extent uh",
+    "start": 847.86,
+    "duration": 4.14
+  },
+  {
+    "text": "because we now have slightly better",
+    "start": 850.26,
+    "duration": 3.3
+  },
+  {
+    "text": "estimates and as I said right it's like",
+    "start": 852.0,
+    "duration": 3.899
+  },
+  {
+    "text": "estimating the property heads from uh 25",
+    "start": 853.56,
+    "duration": 4.86
+  },
+  {
+    "text": "coin tosses as opposed to a single coin",
+    "start": 855.899,
+    "duration": 4.261
+  },
+  {
+    "text": "toss right and the higher the value of K",
+    "start": 858.42,
+    "duration": 5.28
+  },
+  {
+    "text": "the more accurate the estimates are uh",
+    "start": 860.16,
+    "duration": 5.04
+  },
+  {
+    "text": "there are still oscillations right",
+    "start": 863.7,
+    "duration": 3.18
+  },
+  {
+    "text": "there's no denying that it's just that",
+    "start": 865.2,
+    "duration": 3.9
+  },
+  {
+    "text": "it becomes more and more smooth as you",
+    "start": 866.88,
+    "duration": 3.899
+  },
+  {
+    "text": "increase the batch size and I again",
+    "start": 869.1,
+    "duration": 3.12
+  },
+  {
+    "text": "repeat in the limit when you make the",
+    "start": 870.779,
+    "duration": 3.3
+  },
+  {
+    "text": "batch size equal to the total training",
+    "start": 872.22,
+    "duration": 3.48
+  },
+  {
+    "text": "points that will just follow gradient",
+    "start": 874.079,
+    "duration": 3.241
+  },
+  {
+    "text": "descent but that is not what is desired",
+    "start": 875.7,
+    "duration": 3.6
+  },
+  {
+    "text": "we'll typically want much smaller batch",
+    "start": 877.32,
+    "duration": 3.78
+  },
+  {
+    "text": "sizes as compared to the size of the",
+    "start": 879.3,
+    "duration": 3.839
+  },
+  {
+    "text": "data that we have",
+    "start": 881.1,
+    "duration": 4.08
+  },
+  {
+    "text": "and also I should mention at this point",
+    "start": 883.139,
+    "duration": 5.281
+  },
+  {
+    "text": "that uh many of the modern uh algorithms",
+    "start": 885.18,
+    "duration": 6.3
+  },
+  {
+    "text": "right which use batch updates they are",
+    "start": 888.42,
+    "duration": 4.859
+  },
+  {
+    "text": "often quite sensitive to this batch size",
+    "start": 891.48,
+    "duration": 3.24
+  },
+  {
+    "text": "you know when experimenting with",
+    "start": 893.279,
+    "duration": 3.12
+  },
+  {
+    "text": "Transformers for example we've often",
+    "start": 894.72,
+    "duration": 3.54
+  },
+  {
+    "text": "seen that a batch size of thousand",
+    "start": 896.399,
+    "duration": 5.521
+  },
+  {
+    "text": "versus a batch size of 4000 1024 these",
+    "start": 898.26,
+    "duration": 5.939
+  },
+  {
+    "text": "bat sizes are often in multiples of two",
+    "start": 901.92,
+    "duration": 5.4
+  },
+  {
+    "text": "or powers of two a batch size of 1024",
+    "start": 904.199,
+    "duration": 4.561
+  },
+  {
+    "text": "may give you very different results from",
+    "start": 907.32,
+    "duration": 3.48
+  },
+  {
+    "text": "a batch size of four zero nine six right",
+    "start": 908.76,
+    "duration": 4.199
+  },
+  {
+    "text": "and it's common wisdom is that larger",
+    "start": 910.8,
+    "duration": 5.219
+  },
+  {
+    "text": "batch sizes are better right so that's",
+    "start": 912.959,
+    "duration": 5.94
+  },
+  {
+    "text": "uh while not of course going to the full",
+    "start": 916.019,
+    "duration": 4.801
+  },
+  {
+    "text": "training data okay",
+    "start": 918.899,
+    "duration": 4.68
+  },
+  {
+    "text": "so that's where we are and some things",
+    "start": 920.82,
+    "duration": 4.86
+  },
+  {
+    "text": "to remember so one Epoch is one pass",
+    "start": 923.579,
+    "duration": 4.56
+  },
+  {
+    "text": "over the entire data one step is One",
+    "start": 925.68,
+    "duration": 4.86
+  },
+  {
+    "text": "update to the parameters n is the total",
+    "start": 928.139,
+    "duration": 4.44
+  },
+  {
+    "text": "number of data points that you have B is",
+    "start": 930.54,
+    "duration": 4.44
+  },
+  {
+    "text": "the mini batch size right so now in",
+    "start": 932.579,
+    "duration": 4.921
+  },
+  {
+    "text": "vanilla uh gradient descent which is",
+    "start": 934.98,
+    "duration": 4.62
+  },
+  {
+    "text": "also called batch gradient descent so",
+    "start": 937.5,
+    "duration": 4.44
+  },
+  {
+    "text": "number of steps in one Epoch is just one",
+    "start": 939.6,
+    "duration": 5.64
+  },
+  {
+    "text": "right because after uh in one Epoch you",
+    "start": 941.94,
+    "duration": 4.86
+  },
+  {
+    "text": "just keep accumulating all the gradients",
+    "start": 945.24,
+    "duration": 3.839
+  },
+  {
+    "text": "and then update once",
+    "start": 946.8,
+    "duration": 4.26
+  },
+  {
+    "text": "in stochastic gradient descent the",
+    "start": 949.079,
+    "duration": 3.841
+  },
+  {
+    "text": "number of steps in one Epoch is equal to",
+    "start": 951.06,
+    "duration": 4.019
+  },
+  {
+    "text": "n right so because you are making an",
+    "start": 952.92,
+    "duration": 4.14
+  },
+  {
+    "text": "update for every data point and mini",
+    "start": 955.079,
+    "duration": 3.421
+  },
+  {
+    "text": "batch gradient is said the number of",
+    "start": 957.06,
+    "duration": 3.839
+  },
+  {
+    "text": "steps in one Epoch is n by B which is",
+    "start": 958.5,
+    "duration": 4.5
+  },
+  {
+    "text": "the total number of data points divided",
+    "start": 960.899,
+    "duration": 3.361
+  },
+  {
+    "text": "by your batch size so if you have",
+    "start": 963.0,
+    "duration": 2.88
+  },
+  {
+    "text": "thousand data points and hundred batch",
+    "start": 964.26,
+    "duration": 3.9
+  },
+  {
+    "text": "size then after every 100 points you'll",
+    "start": 965.88,
+    "duration": 3.54
+  },
+  {
+    "text": "be making an update so you'll be making",
+    "start": 968.16,
+    "duration": 3.299
+  },
+  {
+    "text": "a total of 10 updates right so that's",
+    "start": 969.42,
+    "duration": 6.659
+  },
+  {
+    "text": "what you should remember okay uh",
+    "start": 971.459,
+    "duration": 6.18
+  },
+  {
+    "text": "similarly we can have the stochastic",
+    "start": 976.079,
+    "duration": 3.181
+  },
+  {
+    "text": "versions of momentum based gradient",
+    "start": 977.639,
+    "duration": 3.301
+  },
+  {
+    "text": "descent and nest of accelerated gradient",
+    "start": 979.26,
+    "duration": 4.8
+  },
+  {
+    "text": "the same idea applies that you for",
+    "start": 980.94,
+    "duration": 4.92
+  },
+  {
+    "text": "stochastic momentum based gradient",
+    "start": 984.06,
+    "duration": 5.04
+  },
+  {
+    "text": "descent you'll just indent the update uh",
+    "start": 985.86,
+    "duration": 5.099
+  },
+  {
+    "text": "the lines of code corresponding to",
+    "start": 989.1,
+    "duration": 3.96
+  },
+  {
+    "text": "update because after every data point",
+    "start": 990.959,
+    "duration": 4.56
+  },
+  {
+    "text": "you will make the update right and",
+    "start": 993.06,
+    "duration": 4.38
+  },
+  {
+    "text": "similarly for nestro which I'll not show",
+    "start": 995.519,
+    "duration": 3.68
+  },
+  {
+    "text": "you the code for that I think it's",
+    "start": 997.44,
+    "duration": 4.92
+  },
+  {
+    "text": "straightforward so now let's look at uh",
+    "start": 999.199,
+    "duration": 5.681
+  },
+  {
+    "text": "on this slide I think this is written as",
+    "start": 1002.36,
+    "duration": 6.2
+  },
+  {
+    "text": "gradient descent and SGD but this is the",
+    "start": 1004.88,
+    "duration": 8.1
+  },
+  {
+    "text": "momentum based versions of both",
+    "start": 1008.56,
+    "duration": 7.719
+  },
+  {
+    "text": "the stochastic momentum based gradient",
+    "start": 1012.98,
+    "duration": 5.46
+  },
+  {
+    "text": "descent and the vanilla momentum based",
+    "start": 1016.279,
+    "duration": 4.56
+  },
+  {
+    "text": "gradient descent okay so let's see how",
+    "start": 1018.44,
+    "duration": 5.12
+  },
+  {
+    "text": "it goes",
+    "start": 1020.839,
+    "duration": 2.721
+  },
+  {
+    "text": "so you can see that in addition to the",
+    "start": 1032.5,
+    "duration": 7.059
+  },
+  {
+    "text": "oscillations that you have right and",
+    "start": 1036.02,
+    "duration": 6.36
+  },
+  {
+    "text": "this was quite a complex uh surface",
+    "start": 1039.559,
+    "duration": 4.5
+  },
+  {
+    "text": "right because it had some steep slopes",
+    "start": 1042.38,
+    "duration": 3.84
+  },
+  {
+    "text": "remember from the Contour discussion",
+    "start": 1044.059,
+    "duration": 4.441
+  },
+  {
+    "text": "that when you see the lines are very",
+    "start": 1046.22,
+    "duration": 4.5
+  },
+  {
+    "text": "close to each other the slope is a bit",
+    "start": 1048.5,
+    "duration": 4.5
+  },
+  {
+    "text": "Steep and we know that there is a",
+    "start": 1050.72,
+    "duration": 4.14
+  },
+  {
+    "text": "problem in steep slopes so the green",
+    "start": 1053.0,
+    "duration": 4.88
+  },
+  {
+    "text": "curve was going here and there because",
+    "start": 1054.86,
+    "duration": 6.059
+  },
+  {
+    "text": "uh not is the true momentum based",
+    "start": 1057.88,
+    "duration": 4.06
+  },
+  {
+    "text": "gradient descendant so you are taking",
+    "start": 1060.919,
+    "duration": 2.341
+  },
+  {
+    "text": "the derivative or you're taking",
+    "start": 1061.94,
+    "duration": 2.82
+  },
+  {
+    "text": "Computing the gradient from all the",
+    "start": 1063.26,
+    "duration": 3.299
+  },
+  {
+    "text": "points but the reason you still see",
+    "start": 1064.76,
+    "duration": 3.72
+  },
+  {
+    "text": "oscillations is because you have this",
+    "start": 1066.559,
+    "duration": 3.661
+  },
+  {
+    "text": "very steep slopes and you are moving",
+    "start": 1068.48,
+    "duration": 3.9
+  },
+  {
+    "text": "fast so you're over overshooting and",
+    "start": 1070.22,
+    "duration": 3.959
+  },
+  {
+    "text": "then trying to come back whereas the",
+    "start": 1072.38,
+    "duration": 4.98
+  },
+  {
+    "text": "black curve has these oscillations uh",
+    "start": 1074.179,
+    "duration": 5.101
+  },
+  {
+    "text": "because of the stochastic nature of the",
+    "start": 1077.36,
+    "duration": 3.12
+  },
+  {
+    "text": "estimates right so you're not making",
+    "start": 1079.28,
+    "duration": 2.82
+  },
+  {
+    "text": "perfect estimates so you are going here",
+    "start": 1080.48,
+    "duration": 3.0
+  },
+  {
+    "text": "and there and then coming back right and",
+    "start": 1082.1,
+    "duration": 3.66
+  },
+  {
+    "text": "also see that they diverse right",
+    "start": 1083.48,
+    "duration": 3.48
+  },
+  {
+    "text": "initially they both Go in different",
+    "start": 1085.76,
+    "duration": 2.58
+  },
+  {
+    "text": "directions and the reason for that is",
+    "start": 1086.96,
+    "duration": 3.54
+  },
+  {
+    "text": "that maybe the first few points that you",
+    "start": 1088.34,
+    "duration": 4.68
+  },
+  {
+    "text": "selected in the stochastic version",
+    "start": 1090.5,
+    "duration": 4.5
+  },
+  {
+    "text": "they were not a true representation of",
+    "start": 1093.02,
+    "duration": 3.6
+  },
+  {
+    "text": "the total gradient right so they said",
+    "start": 1095.0,
+    "duration": 3.6
+  },
+  {
+    "text": "okay I need to go in this direction and",
+    "start": 1096.62,
+    "duration": 3.66
+  },
+  {
+    "text": "you went in that direction and then you",
+    "start": 1098.6,
+    "duration": 3.84
+  },
+  {
+    "text": "later had to course correct and come",
+    "start": 1100.28,
+    "duration": 3.96
+  },
+  {
+    "text": "back whereas when you're looking at the",
+    "start": 1102.44,
+    "duration": 4.26
+  },
+  {
+    "text": "full uh gradient you're always moving in",
+    "start": 1104.24,
+    "duration": 4.14
+  },
+  {
+    "text": "the right direction that you need to go",
+    "start": 1106.7,
+    "duration": 3.24
+  },
+  {
+    "text": "to but of course you still see",
+    "start": 1108.38,
+    "duration": 3.48
+  },
+  {
+    "text": "oscillations that is there because of",
+    "start": 1109.94,
+    "duration": 3.96
+  },
+  {
+    "text": "the momentum related oscillations you're",
+    "start": 1111.86,
+    "duration": 3.54
+  },
+  {
+    "text": "moving too fast and hence you have to",
+    "start": 1113.9,
+    "duration": 4.32
+  },
+  {
+    "text": "oscillate in the green curve right",
+    "start": 1115.4,
+    "duration": 5.36
+  },
+  {
+    "text": "okay",
+    "start": 1118.22,
+    "duration": 2.54
+  },
+  {
+    "text": "okay so now let's look at uh",
+    "start": 1129.74,
+    "duration": 5.88
+  },
+  {
+    "text": "nag also okay",
+    "start": 1132.16,
+    "duration": 7.019
+  },
+  {
+    "text": "so stochastic version of",
+    "start": 1135.62,
+    "duration": 3.559
+  },
+  {
+    "text": "nag",
+    "start": 1139.22,
+    "duration": 2.72
+  },
+  {
+    "text": "so now I have all three I have nestorov",
+    "start": 1143.24,
+    "duration": 4.76
+  },
+  {
+    "text": "right and you can see the expected",
+    "start": 1152.0,
+    "duration": 4.44
+  },
+  {
+    "text": "Behavior it's all the three algorithms",
+    "start": 1154.4,
+    "duration": 4.08
+  },
+  {
+    "text": "are the stochastic versions of the",
+    "start": 1156.44,
+    "duration": 4.5
+  },
+  {
+    "text": "algorithms therefore even the vanilla",
+    "start": 1158.48,
+    "duration": 4.439
+  },
+  {
+    "text": "gradient descent you still see",
+    "start": 1160.94,
+    "duration": 3.479
+  },
+  {
+    "text": "oscillations there those oscillations",
+    "start": 1162.919,
+    "duration": 3.0
+  },
+  {
+    "text": "are because of the stochastic nature of",
+    "start": 1164.419,
+    "duration": 2.64
+  },
+  {
+    "text": "the updates",
+    "start": 1165.919,
+    "duration": 4.441
+  },
+  {
+    "text": "in momentum as well as nestrov you see",
+    "start": 1167.059,
+    "duration": 4.98
+  },
+  {
+    "text": "some oscillations as we are going again",
+    "start": 1170.36,
+    "duration": 3.3
+  },
+  {
+    "text": "ahead again because of the stochastic",
+    "start": 1172.039,
+    "duration": 3.481
+  },
+  {
+    "text": "version of the algorithms but the",
+    "start": 1173.66,
+    "duration": 3.36
+  },
+  {
+    "text": "relative strengths remain the same right",
+    "start": 1175.52,
+    "duration": 4.2
+  },
+  {
+    "text": "so you can see that the moment of curve",
+    "start": 1177.02,
+    "duration": 4.32
+  },
+  {
+    "text": "which is green",
+    "start": 1179.72,
+    "duration": 4.319
+  },
+  {
+    "text": "it takes a longer U-turn as compared to",
+    "start": 1181.34,
+    "duration": 5.04
+  },
+  {
+    "text": "the Maestra one which is blue it quickly",
+    "start": 1184.039,
+    "duration": 3.901
+  },
+  {
+    "text": "comes back right and that is the",
+    "start": 1186.38,
+    "duration": 3.72
+  },
+  {
+    "text": "expected behavior of nestra versus",
+    "start": 1187.94,
+    "duration": 4.5
+  },
+  {
+    "text": "momentum right so the relative qualities",
+    "start": 1190.1,
+    "duration": 4.5
+  },
+  {
+    "text": "remain the same in addition you see this",
+    "start": 1192.44,
+    "duration": 4.26
+  },
+  {
+    "text": "stochastic related uh oscillations",
+    "start": 1194.6,
+    "duration": 4.26
+  },
+  {
+    "text": "because your estimates are not perfect",
+    "start": 1196.7,
+    "duration": 4.32
+  },
+  {
+    "text": "right so that's the only difference that",
+    "start": 1198.86,
+    "duration": 3.36
+  },
+  {
+    "text": "you have and I'll make the same",
+    "start": 1201.02,
+    "duration": 3.899
+  },
+  {
+    "text": "commentary on the next like yeah so",
+    "start": 1202.22,
+    "duration": 4.98
+  },
+  {
+    "text": "while the stochastic versions uh retain",
+    "start": 1204.919,
+    "duration": 4.981
+  },
+  {
+    "text": "their relative advantages of Nag over",
+    "start": 1207.2,
+    "duration": 5.88
+  },
+  {
+    "text": "momentum uh there is still this",
+    "start": 1209.9,
+    "duration": 6.0
+  },
+  {
+    "text": "oscillation Behavior which is there and",
+    "start": 1213.08,
+    "duration": 6.36
+  },
+  {
+    "text": "both of them converge much faster than",
+    "start": 1215.9,
+    "duration": 5.519
+  },
+  {
+    "text": "the stochastic gradient descent right so",
+    "start": 1219.44,
+    "duration": 4.2
+  },
+  {
+    "text": "after 500 steps you can see that the",
+    "start": 1221.419,
+    "duration": 3.601
+  },
+  {
+    "text": "black guy is still somewhere on the",
+    "start": 1223.64,
+    "duration": 3.0
+  },
+  {
+    "text": "plateau it has not even entered the",
+    "start": 1225.02,
+    "duration": 3.48
+  },
+  {
+    "text": "valley whereas of both of these",
+    "start": 1226.64,
+    "duration": 3.899
+  },
+  {
+    "text": "algorithms have conversed despite the",
+    "start": 1228.5,
+    "duration": 3.539
+  },
+  {
+    "text": "stochastic nature of the algorithm and",
+    "start": 1230.539,
+    "duration": 3.0
+  },
+  {
+    "text": "despite their own problems with",
+    "start": 1232.039,
+    "duration": 3.661
+  },
+  {
+    "text": "oscillations they're still much faster",
+    "start": 1233.539,
+    "duration": 4.861
+  },
+  {
+    "text": "than grain gradient descent which is",
+    "start": 1235.7,
+    "duration": 3.96
+  },
+  {
+    "text": "again nothing new this is what is",
+    "start": 1238.4,
+    "duration": 3.54
+  },
+  {
+    "text": "expected uh where we have discussed this",
+    "start": 1239.66,
+    "duration": 4.8
+  },
+  {
+    "text": "during uh while discussing the vanilla",
+    "start": 1241.94,
+    "duration": 3.96
+  },
+  {
+    "text": "versions of these algorithms as opposed",
+    "start": 1244.46,
+    "duration": 3.12
+  },
+  {
+    "text": "to the stochastic or not the vanilla the",
+    "start": 1245.9,
+    "duration": 3.5
+  },
+  {
+    "text": "full batch version of these algorithms",
+    "start": 1247.58,
+    "duration": 6.12
+  },
+  {
+    "text": "as opposed to the stochastic versions",
+    "start": 1249.4,
+    "duration": 6.46
+  },
+  {
+    "text": "okay and of course you could also have",
+    "start": 1253.7,
+    "duration": 4.02
+  },
+  {
+    "text": "the mini batch versions of momentum and",
+    "start": 1255.86,
+    "duration": 3.24
+  },
+  {
+    "text": "nag so what I showed on the previous",
+    "start": 1257.72,
+    "duration": 4.14
+  },
+  {
+    "text": "slide was uh stochastic but you can also",
+    "start": 1259.1,
+    "duration": 4.5
+  },
+  {
+    "text": "have mini batch the same thing after a",
+    "start": 1261.86,
+    "duration": 5.52
+  },
+  {
+    "text": "batch you compute the uh derivatives and",
+    "start": 1263.6,
+    "duration": 6.6
+  },
+  {
+    "text": "then make the update uh and again you",
+    "start": 1267.38,
+    "duration": 4.38
+  },
+  {
+    "text": "will see the same relative advantage",
+    "start": 1270.2,
+    "duration": 3.78
+  },
+  {
+    "text": "that the oscillations due to the",
+    "start": 1271.76,
+    "duration": 4.14
+  },
+  {
+    "text": "stochastic nature would reduce because",
+    "start": 1273.98,
+    "duration": 3.54
+  },
+  {
+    "text": "now your estimates are getting better",
+    "start": 1275.9,
+    "duration": 3.18
+  },
+  {
+    "text": "they are not coming from a single point",
+    "start": 1277.52,
+    "duration": 4.62
+  },
+  {
+    "text": "but from a collection of points so that",
+    "start": 1279.08,
+    "duration": 5.76
+  },
+  {
+    "text": "ends our discussion on the stochastic",
+    "start": 1282.14,
+    "duration": 4.62
+  },
+  {
+    "text": "and the mini batch version of these",
+    "start": 1284.84,
+    "duration": 4.319
+  },
+  {
+    "text": "algorithms and the same ideas will apply",
+    "start": 1286.76,
+    "duration": 4.38
+  },
+  {
+    "text": "to all the optimization algorithms that",
+    "start": 1289.159,
+    "duration": 4.981
+  },
+  {
+    "text": "you see and in practice we use the mini",
+    "start": 1291.14,
+    "duration": 5.1
+  },
+  {
+    "text": "batch versions of all these algorithms",
+    "start": 1294.14,
+    "duration": 3.419
+  },
+  {
+    "text": "because you will have a large number of",
+    "start": 1296.24,
+    "duration": 3.96
+  },
+  {
+    "text": "training points so you'll have to use a",
+    "start": 1297.559,
+    "duration": 4.381
+  },
+  {
+    "text": "batch and make updates instead of",
+    "start": 1300.2,
+    "duration": 4.02
+  },
+  {
+    "text": "waiting for all the data to be seen and",
+    "start": 1301.94,
+    "duration": 3.66
+  },
+  {
+    "text": "similarly you'll not use the stochastic",
+    "start": 1304.22,
+    "duration": 3.54
+  },
+  {
+    "text": "version which is just like one data",
+    "start": 1305.6,
+    "duration": 3.48
+  },
+  {
+    "text": "point so you'll use the mini batch",
+    "start": 1307.76,
+    "duration": 3.299
+  },
+  {
+    "text": "version and this mini batch size would",
+    "start": 1309.08,
+    "duration": 3.959
+  },
+  {
+    "text": "be a bit dependent on the application",
+    "start": 1311.059,
+    "duration": 3.901
+  },
+  {
+    "text": "that you're using and as I said in NLP",
+    "start": 1313.039,
+    "duration": 3.841
+  },
+  {
+    "text": "when you're using Transformers some",
+    "start": 1314.96,
+    "duration": 6.92
+  },
+  {
+    "text": "popular batch sizes are force uh around",
+    "start": 1316.88,
+    "duration": 7.86
+  },
+  {
+    "text": "4096 but it again there's nothing to",
+    "start": 1321.88,
+    "duration": 4.6
+  },
+  {
+    "text": "memorize here or tell you this is a good",
+    "start": 1324.74,
+    "duration": 5.1
+  },
+  {
+    "text": "value as you read papers and look at",
+    "start": 1326.48,
+    "duration": 6.14
+  },
+  {
+    "text": "existing implementations of uh",
+    "start": 1329.84,
+    "duration": 5.1
+  },
+  {
+    "text": "these algorithms you will understand",
+    "start": 1332.62,
+    "duration": 4.179
+  },
+  {
+    "text": "what the right batch size is to use is",
+    "start": 1334.94,
+    "duration": 3.78
+  },
+  {
+    "text": "all I'm saying is that in practice",
+    "start": 1336.799,
+    "duration": 3.601
+  },
+  {
+    "text": "you'll use the mini batch version of",
+    "start": 1338.72,
+    "duration": 3.36
+  },
+  {
+    "text": "these algorithms and there would be",
+    "start": 1340.4,
+    "duration": 6.74
+  },
+  {
+    "text": "slight sensitivity to the bats size okay",
+    "start": 1342.08,
+    "duration": 5.06
+  },
+  {
+    "text": "yeah so now again before going to uh",
+    "start": 1348.02,
+    "duration": 4.98
+  },
+  {
+    "text": "some of the other algorithms which I",
+    "start": 1351.14,
+    "duration": 3.96
+  },
+  {
+    "text": "want to cover I'll talk a bit about",
+    "start": 1353.0,
+    "duration": 4.26
+  },
+  {
+    "text": "adjusting the learning rate and the",
+    "start": 1355.1,
+    "duration": 4.74
+  },
+  {
+    "text": "moment right uh",
+    "start": 1357.26,
+    "duration": 6.14
+  },
+  {
+    "text": "so uh",
+    "start": 1359.84,
+    "duration": 3.56
+  },
+  {
+    "text": "so let's look at what the problem is",
+    "start": 1364.1,
+    "duration": 4.28
+  }
+]

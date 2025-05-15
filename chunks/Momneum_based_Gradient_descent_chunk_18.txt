@@ -1,0 +1,10 @@
+right so now we have this kind of an input and we have a very weird looking 3D surface here.
+right and this is what the contour map looks like and now I'm just going to focus on the contour.
+map because the contour map tells me everything this is a flat surface and from this flat surface I am.
+quickly moving into a value rate so there's a steep slope which takes me to a valley similarly here I.
+have a flat surface and I am going into a Valley from a steep slope so this is a Surface.
+where you have like flat surfaces here and then you quickly move into a Valley from both sides right so.
+from all sides you have flat surfaces and then you quickly move into a valley so this is what it.
+looks like is it's a very steep valley and now you can imagine right so if I put a ball.
+here it will roll down it will not stop here it'll go up then again come back go up then.
+again come back and it will keep oscillating it so let's see if this effect is what we see in.

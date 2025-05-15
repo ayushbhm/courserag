@@ -1,0 +1,10 @@
+so then what would this have been so I is equal to 1 now so I'll just substitute this this.
+would just be W2 transpose this is not a problem for me I know the weight Vector whatever is the.
+weight Vector I'll use that but this would have been derivative of a 2 with respect to loss function right.
+that means this guy and this I have not computed yet right so if I compute this if I have.
+a generic formula for computing this I already have a jumbled formula for computing the derivative of the loss function.
+with respect to h i right if I have a generic formula for computing the derivative of the loss function.
+with respect to any AI then I am done right because if I have any AI that I could be.
+1 I could be 2 I could be 3 I can just substitute it here depending on which h i.
+I am dealing with right so I have not done that yet I've only done for the spatial case when.
+uh I is equal to l right the last layer so this part I need to do now so that.

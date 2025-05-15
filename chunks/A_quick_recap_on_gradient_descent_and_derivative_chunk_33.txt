@@ -1,0 +1,10 @@
+that's the drawback that we want to solve okay so that's where we are headed and just to convince you.
+that is not like uh I mean this is not a characteristic of where I started with and so on.
+and just to give you a different starting point right and if you see a convenient starting point so this.
+here was an example of me getting stuck right on I mean I just happened to start with this yellow.
+Point here which was on a flat surface right so I'll take a while to come out of that flat.
+surface now let me just try some different uh initialization right and there was some suggestion on the uh slides.
+I'll just follow that suggestion oops yeah so the suggestion was to uh try W as minus 2 and B.
+as 2 right so I'll just start that I'll just try that okay so I'll set this to -2 I'll.
+set this to 2. okay so this is where I'm going to start now and now you can see that.
+it's a slightly favorable point because I'm on a slope I'm not in a flat surface I am on a.

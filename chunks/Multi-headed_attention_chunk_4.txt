@@ -1,0 +1,9 @@
+Z T right the representation Z1 to Z T and I'm making a case for many such heads and so.
+why why is why am I doing this right so we've already seen this in the context of convolutional neural.
+networks right so where we had multiple filters right so these are three different filters uh operating on the same.
+image right and each filter essentially does the same thing it has parameters say W1 W2 W3 it just goes.
+over the image and gives you an output feature map right and the reason we wanted to capture have multiple.
+filters is that we were hoping that each filter May capture a different characteristic from the image right some may.
+detect edges some may detect blurs and so on right so that's why you had multiple filters right and more.
+the filters the more abstract representations you could compute right the same argument holds here if you have one self.
+attention then it will capture uh we'll learn one way of capturing the contextual information right but there might be.

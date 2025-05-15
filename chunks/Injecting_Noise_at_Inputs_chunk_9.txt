@@ -1,0 +1,10 @@
+of these guys A1 square plus a 2 square all the way up to a n square and then you.
+are going to get these uh and choose two terms where you will have a 1 a 2 of course.
+multiplied by something plus ah A2 A3 again multiplied by something and so on right and so this is going.
+to be a very long sum and you are taking the expectation of that sum so it's going to be.
+a sum of the expectations so this is what it would look like right and my a a one a.
+two here is of course W 1 Epsilon 1 W 2 Epsilon 2 and so on right now wherever you.
+encounter A1 A2 remember that a one a two here is Epsilon some Epsilon I Epsilon J and since the.
+epsilons are independent then all these except all these could be written as expectation of Epsilon I into expectation of.
+Epsilon J and of course some other quantities here but the main thing here is that Epsilon expectation of Epsilon.
+is zero because Epsilon is a zero mean noise so all those terms which contain A1 A2 are going to.

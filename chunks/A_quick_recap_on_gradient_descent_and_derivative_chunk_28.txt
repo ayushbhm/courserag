@@ -1,0 +1,10 @@
+and Y but now when I'm around 2 right or maybe say around yeah let's look at around 2 here.
+here I see that the slope is much more steeper what is happening there when I change X from 2.
+to 2.5 my y changes much more rapidly right so y changes from 4 to 6.25 so the difference here.
+is 2.25 as opposed to 1.25 here so I did the same change in X my change in X was.
+constant which was 0.5 but in one uh neighborhood my y change is very a lot the change in y.
+is very high right that means d y by D X would be high in that region that means the.
+gradient would be high and that gradient is essentially the slope uh of the function uh at that point right.
+so in those regions the slope is very high and the slope is essentially the derivative so wherever I have.
+steep slopes there my d y by DX or the derivative would be high and hence this quantity would be.
+high so if this quantity is high my update or the change in W would be high and when I'm.

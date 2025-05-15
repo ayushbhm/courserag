@@ -1,0 +1,9 @@
+a more and more abstract representation of the input right so now again you have focused on layer H2 and.
+made sure that this computes good representations that means you have cap and ensure that these weights that are sitting.
+here are now some good or well initialized ways right so that's what you have done and now you will.
+continue this process in the next iteration now you will freeze H1 and H2 now H2 becomes your input and.
+now we will throw in H3 right and then you will try to learn these weights such that from H3.
+you are able to reconstruct H2 perfectly right and you keep doing this till all the L layers that you.
+have so you are learning one layer at a time and each layer is trying to learn some weights which.
+are an abstract representation which give you allow you to compute an abstract representation of the input right so now.
+this is what you are going to do so at the end right what have we achieved that all our.

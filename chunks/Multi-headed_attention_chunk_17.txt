@@ -1,0 +1,10 @@
+block that we had so this is what we had we had these uh inputs coming in here right and.
+then now we have seen this self attention in detail which could be a multi-headed self attention and I gave.
+it inputs H1 H2 h t and then through all the processing that happens inside I get outputs I think.
+I was calling these as S1 S2 all the way up to s t right so once I have got.
+this now I need to understand what happens in the feed forward neural network right so let's uh focus on.
+that now right and this encoder is typically a stacked encoder so you'll have six such blocks here that's why.
+I'm calling this a basic building block this is one layer right so you passed in H1 to h t.
+you got out Z1 to ZT now this Z1 to ZT becomes input to another such layer and again you.
+get a new set of representations out from your capital T representations out right this way I've seen that the.
+output of one layer acts as the input to the next layer right so all of this this looks identical.

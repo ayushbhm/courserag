@@ -1,0 +1,9 @@
+as as opposed to only using the current grade unit so that's what the code is doing it's in line.
+with the uh set of equations that you had if you want you can pause at this point and look.
+at the code more carefully um but it's pretty uh straight forward okay so now let's try to run uh.
+momentum based gradient okay and now you will see that right earlier it was very slow now it started moving.
+very fast and it has gone like somewhere and it's coming back now whether that's a problem or not is.
+something that we'll discuss soon but what is clear it's that definitely moving much faster than the gradient descent algorithm.
+right and later on we'll have some uh comment on both gradient descent and momentum starting together and you will.
+see the difference in one moving faster than the other moving slower okay but here it's clear that the momentum.
+base algorithm is moving faster and we understand why that is also happening right let's look at the other view.

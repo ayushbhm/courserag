@@ -1,0 +1,9 @@
+then takes in the final representation so ignore this for some reason this s2s1 is showing up on the slide.
+it's not supposed to but it continues to show up oh no yeah so this is the final State and.
+then it's passed to the decoder and then the decoder again does this sequential processing right and then of course.
+I don't have much of a choice because I produce the first output which say in this case is none.
+and then that has to be fed to the next state anyways right so the decoder uh this processing will.
+still happen sequentially because I need to know what was produced and then feed it as the next input so.
+unlike here where the entire input was available at one go here the input itself right is being generated one.
+step at a time so I'll have to do a sequential processing right but then the encoder can I do.
+something to speed up the computation is what my uh question is right so we'll go towards answering that question.

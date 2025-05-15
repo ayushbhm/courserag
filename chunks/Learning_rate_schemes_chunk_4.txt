@@ -1,0 +1,8 @@
+there's a chance that it might escape the saddle point right and that's what the idea is that you try.
+to have this adaptive learning rate which will change but that so that is often expensive right because you're doing.
+these computations WT the history all of that you are maintaining then you're doing ETA T ETA are divided by.
+this history so you're creating a lot of keeping a lot of variables and making things a bit complex right.
+and uh this often happens right that the minimizing the loss arises because of the saddle points so therefore it.
+is beneficial to have these learning rate schemes which could increase the learning rate near the saddle point right and.
+adaptive learning rate schemes that we have seen are actually trying to do that right they are trying to do.
+that but as I said it comes with an additional computational cost instead what if we'd have a simple uh.

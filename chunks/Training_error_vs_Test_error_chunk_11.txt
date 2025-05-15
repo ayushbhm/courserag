@@ -1,0 +1,8 @@
+really good comes from the validation data or the test data and not from the training data right you want.
+the test error to be small that means the error on unknown points to be small driving the error to.
+zero on the known points is easy you can just keep increasing the model complexity and it will go to.
+zero right but what you want is to keep track of that sweet spot and to keep track of that.
+sweet spot you need the test error because the moment the test error increases you need to stop you see.
+I don't want more complexity than this because my test error is increasing right now whatever intuition we have developed.
+so far we will try to convert this into a mathematical formulation and then we will try to make a.
+case for regularization okay so I'll end this video here.

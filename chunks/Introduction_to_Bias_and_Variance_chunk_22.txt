@@ -1,0 +1,10 @@
+that is what my ah average error is going to be but what I am defining as the bias is.
+that whatever is the average value right that divided by sorry that minus the True Value right so that's what.
+the bias is so the bias is defined as the expected value of the prediction minus the True Value that.
+you would have had right so that's what the bias is so in simple terms this quantity here is the.
+green ah value and this is the red value right so that is what you are defining as the ah.
+expected uh as the bias okay now what is clear is that for the simple model the average value is.
+very far from the True Value that means the bias is going to be very high for a simple model.
+ah whereas for the complex model the bias is going to be low because the average value which is the.
+blue curve is very close to the red curve right so bias is the difference between the average value or.
+the expected value of the model ah so why is there an expectation here because where is the randomness coming.

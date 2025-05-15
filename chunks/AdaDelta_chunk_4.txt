@@ -1,0 +1,10 @@
+difference is something that we'll see but the main thing to note is that we are only taking a fraction.
+of the update that we have made and this update that we had made was uh a function of this.
+Delta WT that we had right the gradient that we had okay so uh don't worry I will just clear.
+these things in the next couple of slides yeah so now suppose you are in a high curvature region right.
+so you are in a steep region and what do you want in the Steep region you want the effective.
+learning rate to be small okay so at time step 0 your V 0 so your you can refer to.
+the equations here the equations for VT uh UT and all of that I'll just not bother too much about.
+referring to them again and again but these computations are according to these equations right so at any point you're.
+confused you can just pause and verify that we have used the same equations right so V 0 is going.
+to be point one into Delta W 0 squares then you will have the sorry nabla W zero square and.

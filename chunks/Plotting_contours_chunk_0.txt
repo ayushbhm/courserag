@@ -1,0 +1,9 @@
+foreign [Music] okay so we are talking about the problems with gradient descent and as you go along in this.
+lecture we'll try to fix some of those problems but for that discussion it would be useful to understand how.
+to draw contour maps because that would just make our life easier in terms of drawing the plots and so.
+on and also Contours as an or contour maps is an important concept to know if you're doing machine learning.
+deep learning and so on right so the idea here is this side that visualizing things in 3D can sometimes.
+become a bit cumbersome right and so uh at least if images are static then you can only view it.
+from a certain angle and so on so can we just do a 2d visualization of this traversal along the.
+error surface and so to do that we need to know what are Contours so let's look at this right.
+so now again we'll start with the 3D plot right so this is like a complex 3D plot that we.

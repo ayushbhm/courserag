@@ -1,0 +1,10 @@
+i would want the output to be close to 0.9 right this is what i expect to be and this.
+is what i've written here right so if i plug in f of 0.5 then it should be as close.
+to 0.2 right tending to 0.2 and f of 2.5 should be as close to 0.9 right now let's try.
+to relate this algebra to the geometry right so now geometrically i know that i am looking for a sigmoid.
+function which is a s-shaped function right now algebraically what i am telling you is that when i plug in.
+these values they should be as close to 0.2 and as close to 0.9 so now can you tell me.
+what is the geometric interpretation of that i'm going to get some function because this actually defines a sigmoid function.
+right and now i'm found on w and b so i'm going to plug in those values right and then.
+i can draw that function so what should that function look like or what should be a characteristic of that.
+function of course it will be a sigmoid function of course it will have s shaped but there is respect.

@@ -1,0 +1,9 @@
+almost reached there but then again it has moved far and then again come to something which is some things.
+are happening here which many of you might be realizing that it's oscillating around the solution and we'll see why.
+that is happening and how to fix that right what is clear for now is that it's moving faster than.
+gradient descent right so some observations and questions even in the regions having gentle slopes momentum based gradientation is able.
+to take large steps because the momentum carries it along right because it is having the entire history behind it.
+it just goes faster now but is moving fast always so good right would there be a situation where momentum.
+would cause us to run past our goal right and again I'll go back to my analogy so you're going.
+towards the Phoenix Market City a lot of momentum has been built many people have asked you to go in.
+the right right right right and now suppose imagine you are on a scooter because now you are fast and.

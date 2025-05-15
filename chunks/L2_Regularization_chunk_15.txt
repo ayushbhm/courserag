@@ -1,0 +1,9 @@
+the derivative of this quantity and the derivative of this quantity as we saw on the previous slide was just.
+Alpha W right so again nothing new that I have written here but now what I'm going to do is.
+I'm going to try to use this value instead of this quantity here right that's the main change I am.
+going to do as I go ahead okay now let there be another W which is the optimal solution for.
+the regularized loss right so now if there's such a w tilde exist then the derivative of the loss function.
+at that point would be zero right and now we have seen that the derivative of the loss function at.
+any point was given by this formula we just saw this on the previous slide so I've just substituted that.
+formula instead of this formula and instead of the generic W I have substituted W tilde right that's the only.
+change that I have done here right yeah again I'm just doing a lot of steps but there's nothing much.

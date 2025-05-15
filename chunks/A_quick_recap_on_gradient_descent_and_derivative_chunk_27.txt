@@ -1,0 +1,10 @@
+X you are getting a large change in y and that's what the derivative captures but here when you're closer.
+to 1 right let me come this side so when you're closer to 1 when you're changing X by a.
+small amount and the change in X is constant right I'm just changing X by 0.5 right so when I'm.
+changing X by 0.5 my uh y would uh is uh the the change in y divided by the change.
+in X is 1.17 in this region but as I go up right now when I'm around two as I.
+was saying right so so when I change the gradient for example when I change from 1 . yeah so.
+when I'm in this region around one okay so when I change to 1 say X from 1 to 1.5.
+right my uh my x square changes from 1 to 2.25 okay so that's the change that happens in X.
+and Y but now when I'm around 2 right or maybe say around yeah let's look at around 2 here.
+here I see that the slope is much more steeper what is happening there when I change X from 2.

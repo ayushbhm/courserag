@@ -1,0 +1,10 @@
+greater than equal to 0 this is the positive half space less than 0 this is the negative half space.
+so if i eq look at the line equal to 0 that's the separating line which is separating my inputs.
+into this positive and negative half space right so let's see what that line is looking like so here i.
+have this line so this is the line minus one plus one point one x one plus one point one.
+x two equal to zero as i said earlier uh this is minus one right so this i already mentioned.
+so that is why this is minus one here ok oh it is already deleted okay so now uh what.
+is happening here right so the green shaded region is actually the positive half space of the line all the.
+points in this half space will satisfy the equation minus 1 plus one point one x one plus one point.
+one x two greater than equal to zero they'll satisfy that inequality hence there is a positive half space and.
+all the points which are in the red zone and in my boolean world there is only one such point.

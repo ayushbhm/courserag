@@ -1,0 +1,10 @@
+it's still that's something that we need to understand but this is what is happening here from a linear algebra.
+perspective right so w style first gets rotated by Q transpose to give Q transpose W star however if Alpha.
+is equal to 0 right if Alpha was 0 then this just becomes this whole thing here just becomes I.
+right if Alpha is equal to 0 and then Q transpose rotated W star then Q rotated it back in.
+its original position and we got uh Q right because q and Q transpose are inverses of each other hence.
+uh because Q is a orthogonal matrix so there was no effect of alpha is zero again just saying this.
+for the sake of showing that whatever we are doing is sounding correct right ah but if Alpha is not.
+equal to 0 then what is happening is the question right then what does D look like so first D.
+has two components so first component is this so let us look at what that component looks like right ah.
+by this I mean the whole of it right so first Lambda plus Alpha I so you have so you.

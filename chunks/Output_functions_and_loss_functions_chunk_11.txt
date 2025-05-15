@@ -1,0 +1,9 @@
+of regression now the next thing i'm going to do is talk about classification and to understand the loss function.
+in the classification context you need to know about cross entropy so i have a separate video which is from.
+a previous course which will point to so that would be kind of the preparation video for this lecture which.
+talks about information content cross entropy and so on so you could see that video first before you look at.
+the next part and we'll just put a link to that video here right okay so assuming that you have.
+seen that video let's go to this discussion so now let us consider another example which is a classification problem.
+so you are given an image and you want to classify it into say one of four categories right and.
+now again what would uh what would the output you want to predict is you want to predict a probability.
+distribution right so in the previous video the helper video that i just pointed you to uh we see that.

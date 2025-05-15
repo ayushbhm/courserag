@@ -1,0 +1,9 @@
+decreased much more as compared to W1 right so first observation yes indeed my weights Shrunk the second observation that.
+the weights have not shrunk uniformly they have shrunk by certain different factors and that is expected because those factors.
+depend on the eigen values so those factors are Lambda 2 Lambda 2 by S Alpha right now the question.
+is why did W1 shrink more than W2 right and to understand that you need to look at this loss.
+surface here now that if you look at that you should be able to understand why if W2s shrunk more.
+then that means W2 is not so important as compared to W1 so if you look at this loss surface.
+the solid loss surface does it give you that impression that's the question I'm trying to ask and indeed it.
+does right so I'll tell you why so if you look at this direction which is the W2 Direction then.
+here you can see that the distance between the contour lines is very smaller as compared to the distance between.

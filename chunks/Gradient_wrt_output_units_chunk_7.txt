@@ -1,0 +1,10 @@
+derivative of the loss function with respect to the ith shaded green guy right but we are all we are.
+not interested in one partial derivative we are interested in the entire collection of partial derivatives so i want to.
+talk about the gradient with respect to the vector y hat not just the partial derivative with respect to one.
+of the elements of the screen right so what do i mean by that so this is i'm going to.
+write the gradient of the loss function with respect to y hat right so this is what my notation is.
+and what does this mean right this is what it means it's just a collection of the partial derivatives of.
+the loss function with respect to all the elements of y hat and what are all the elements of y.
+hat y 1 hat y 2 hat all the way up to y k hat right so it's just a.
+collection of all these guys and i have the formula for any one of them right so this is what.
+the formula looks like the formula was indicator variable l equal to i divided by y hat l and the.

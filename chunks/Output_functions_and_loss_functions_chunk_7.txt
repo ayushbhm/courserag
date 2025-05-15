@@ -1,0 +1,10 @@
+as y hat 1 y hat 2 y hat 3 right so i want 3 values i have input which.
+is a 3 cross 1 vector so i should multiply it by a 3 cross 3 matrix right so this.
+is the transformation that i'm going to do i have some values computed here now i am going to just.
+multiply it by weight vector w and now plus add the bias right so that's always there i'm going to.
+add the bias also and i'll get a three dimensional output and those are my values and these are not.
+going to be bounded between 0 to 1 because my w is not bounded my a is not bounded my.
+b is not bounded right so that's that's what i'm going to use but now the question that you could.
+ask is that if a is not bounded b is not bounded w is not bounded this could take out.
+any values then how am i sure that my uh algorithm will not start or my y hats which i.
+am predicting it which is the output here why would it be like thousand ten thousand 100 and so on.

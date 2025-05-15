@@ -1,0 +1,9 @@
+weights means these are two different networks conceptually but actually it's the same network from which certain weights have been.
+dropped right and those weights which are participated in all in the first batch as well as the second batch.
+for those weights I have done two updates and for those weights which only participated in the first batch or.
+only participated in the second batch I would have done only one update right so the main thing to notice.
+here is that even though I am kind of it looks like I'm using a different neural network at every.
+time step it's not the case because the weights are the same they are the shared weights and I just.
+start from the previous value of the weight which was at the say the kth iteration and then update that.
+value I don't start with the value which was at the zero titration right okay yeah yeah so that's what.
+is being said in this slide so each thinned Network will get trained rarely because there are two raised to.

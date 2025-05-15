@@ -1,0 +1,9 @@
+are looking for All Points which satisfy this equation and of course they will lie on a circle right so.
+that's that's the how the norm works now what happens is that as uh you take larger and larger Norms.
+right greater than 2 3 4 10 hundred then if you have small values of x 1 x 2 right.
+then these computations become numerically unstable right because any small value raised to a large value will become very very.
+small or the other way around right if they are greater than one again if you do 1.1 raise to.
+100 it will just blow up right not maybe 100 but a slightly higher power than that it might blow.
+up right and then you don't want that right so that's why L2 Norm is the most preferred uh Norm.
+uh but as P keeps increasing and it tends to Infinity then something interesting happens so it's as P becomes.
+Infinity then the norm just boils down to the max right so if you look at L Infinity Norm then.

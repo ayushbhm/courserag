@@ -1,0 +1,10 @@
+foreign [Music] okay so I'll just demonstrate that algorithm in a toy setup right now whatever we did right so.
+this is a function that is given to us and as you can see that this function has multiple minimally.
+that's one here there's one here there's one here and I'm just going to try to follow the gradient descent.
+rule right which is wherever I am currently which is w I'm just going to do W minus ETA W.
+right so that's my going to be my new value so right now I want a value of w which.
+is 1.2 okay I have done the computation there I have calculated the derivative okay so remember that derivative of.
+x square for example right is 2X but now if I compute the uh this value at x equal to.
+1.2 then I get some scalar number right so that's what I'm going to do here so my w is.
+equal to 1.2 so whatever is the derivative in that formula I'm going to plug in W equal to 1.2.
+and I'm going to get some answer for what the derivative is right and then my ETA is set to.

@@ -1,0 +1,9 @@
+I had said and then started out decreasing from there and that's exactly what we wanted because W is a.
+sparse feature so let the learning rate be higher and then let it decay as the gradients accumulate B is.
+a dense feature so let the learning rate be small because anyways which are going to get large gradients there.
+right so that adaptive Behavior has been seen here right okay yeah now one more thing to note is that.
+even though as you come close to the Minima right as you Class come close to the Minima your derivatives.
+have become zero you here you can't see them also because the scale here is very uh large uh so.
+the derivatives have become zero that means these these quantities right that means these quantities have become zero right but.
+your history does not become zero and that makes sense right because it's a running sum you're continuously summing it.
+up so even if the new terms that are getting added are zero you still have the previous terms which.

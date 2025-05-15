@@ -1,0 +1,10 @@
+foreign [Music] Delta which avoids setting an initial learning rate completely right so let's see what it does so I.
+have some n epochs or n iterations so I have Computing the gradient then I keep exponentially moving history VT.
+okay then I do compute the update right so this is what my update is going to be right and.
+that update is a ratio of two variables one is UT I have not defined what UT is yet but.
+it's ratio of u t and VT of course the square root is there but there is no ETA naught.
+here right so we still need to see what is UT and how does this ratio take care of the.
+challenges that I was talking about yeah so let's see so UT then I update WT because I've computed the.
+Delta which needs to be there right so that's uh this is simply uh yeah so this part is simply.
+equivalent to I mean the equivalent of minus ETA naught divided by square root of beta into Del WT which.
+I had in the previous algorithm and then my update tool was WT minus this right so this is my.

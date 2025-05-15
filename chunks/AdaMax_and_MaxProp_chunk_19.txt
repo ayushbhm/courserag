@@ -1,0 +1,10 @@
+those curve drawn a curve through those hundred points right so this is what it looks like and now if.
+I um foreign so this is what happens for RMS property so sorry earlier uh yeah when we're looking at.
+the case of uh VT using the average norm in even in RMS prop we use our average normal so.
+I'm comparing RMS prop with a version of RMS prop which uses L Infinity Norm instead of the L2 Norm.
+right so in the case of RMS prop the learning rate is continuously increasing in this case okay and now.
+let's see what is happening in the case of uh the max version of RMS Pro right so the learning.
+rate is increasing more smoothly in this case as opposed to uh in the case of RMS okay so that's.
+that brings us to the update rule of this Max prop right which is the version of RMS prop with.
+the using the max Norm for VT as opposed to the L2 norm and that's it right so this is.
+as simple as it gets you just replace the uh L to num by the max norm and we can.

@@ -1,0 +1,9 @@
+are reconstructing the n-dimensional input yeah right yeah yeah okay so ah so this is what we have done now.
+once we have understood this we're just going to repeat this process again right and let's see what I mean.
+by repeat this process again yeah this is all written in words whatever I had said and yeah and one.
+important thing is where is the word unsupervised coming in here right so remember that in this problem that I.
+have I'm currently interested in solving there is no y There Is No Label here hence it is in unsupervised.
+I am just having the inputs and my loss function completely depends on the input so I don't care right.
+even if you had not given me y I don't care so there is no label or supervision being used.
+here and this is whatever I am doing right now is unsupervised later on of course I will move to.
+a supervised objective but right now whatever I am doing is unsupervised ok now once I have done this I.

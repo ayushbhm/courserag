@@ -1,0 +1,10 @@
+something happen at I minus 1 to be able to compute Alpha TI right you can just compute all of.
+that in well right now the other question is so the main takeaway here is that the attention can be.
+paralyzed but now the other question that I have is that can you compute this in parallel for all T's.
+right so I said that at a particular T you can compute it in parallel right now I'm asking that.
+suppose there's this time step 5 also here so can I compute Alpha 4 eyes right all the alpha force.
+and all the alpha phi's and all the alpha threes right so all these Alphas across different T's right so.
+my T is changing here can I compute them in parallel a given set of values all the Alpha Four.
+Stars right Alpha Four one up to Alpha 40 I can compute in parallel that we have already seen but.
+can I compute all of these in parallel at one go and the answer is clearly no right the reason.
+is that it depends on S T minus y right so unless I have computed St minus 1 I cannot.

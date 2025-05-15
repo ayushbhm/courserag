@@ -1,0 +1,9 @@
+while making decisions i have given more importance to who is the actor in the movie as opposed to who.
+is the director in the movie right so maybe these things you want to learn from data so these weights.
+are now learnable right so you have when we're going to look at a learning algorithm for learning these obvious.
+so like three main differences now you have weights the inputs are no longer boolean you could have real input.
+so that was one action item that we had and we have taken care of that in this model and.
+the third is a learning algorithm so far we were talking about hard coding or like like mentally calculating what.
+the threshold is but now we look at a good learning algorithm for learning the weights right so what we're.
+going to learn in this course is not the original perceptron or the classical perceptron model but more the perceptron.
+model which was later refined and analyzed by minsky and pappered again we had referred to this in the history.

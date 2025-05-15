@@ -1,0 +1,10 @@
+w naught but now to be consistent with the literature going forward we are going to call it as b.
+right b stands for bias so instead of w naught we are going to use b and our function would.
+then become minus of w x plus b earlier it was minus of w x plus w naught right so.
+you're just changing that notation and i'll stick to this notation for the rest of the course now right yeah.
+and lastly right so so far what we have been doing is we have been trying to talk about the.
+problem that you are given one input and you are trying to predict the value of the uh zero or.
+one right whether this movie are going to like it or not but now i'm going to make it uh.
+make it a problem where you're trying to predict a real value instead of a boolean value and you're trying.
+to predict the imdb rating on a scale of zero to one right so it could take values like zero.
+point zero five point one point two whatever right it could take any of these values so it's a real.

@@ -1,0 +1,9 @@
+uh like lecture three meaning the slide which had the title lecture three uh so those I'm going to rush.
+through right is just to give you the context of what was gradient descent and then I'll start with identifying.
+some problems in gradient descent and then move on to the other algorithms okay so don't uh be worried if.
+you're thinking I'm going to first that's the intention because we've already done it in the past okay um yeah.
+I should mention these acknowledgments I got the ideas for some of the visualizations uh from uh the videos by.
+Ryan Harris this is long back uh six seven years I had seen that and then uh those were there.
+initially in whatever visualizations they had the idea of this sort of uh the new version of this course is.
+to make some of those visualizations even uh better so that's why I hope you have been able to do.
+that and some of the content is also inspired by uh the course which Henry carpathy uh used to teach.

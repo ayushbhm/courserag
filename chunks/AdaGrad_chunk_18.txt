@@ -1,0 +1,9 @@
+becomes zero then there's no more additions happening right so that's why this will saturate here in this region right.
+and that you can see here if you look at the derivative right in that region the derivatives have now.
+almost become zero and hence no additions are happening to the history right no large additions are happening to the.
+history it is very close to zero so some small small additions are happening but it's not reflecting in the.
+uh plot right and uh looking at this also so initially remember that the way your plot was and this.
+this itself is interesting and we should try to look at it in the context of the uh now the.
+last plot that we had right how is the derivative uh changing so I'll make some comments I'll go back.
+to the loss plot and I'll make some comments there and then come back here yes yes and I'm on.
+the access x-axis you have the number of iterations right yeah so if I look at the loss plot right.

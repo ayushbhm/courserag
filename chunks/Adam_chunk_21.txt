@@ -1,0 +1,9 @@
+learning rate is 10 as opposed to 316 here right similarly V2 gives me a certain value if I bias.
+corrected it I get certain value and now my learning rate is 13.8 as opposed to 316 here right so.
+in the bias correction when I'm doing bias correction my initial learning rates are not becoming very high right so.
+that's why you need a bias correction to make sure that initially you are not doing some very rapid movements.
+because that could be faulty and we'll see also through an example what happens right so let's uh look at.
+this plot here so here I'm going to compare what happens when you have Adam with bias correction and Adam.
+without bias correction and remember our understanding is that if you don't use bias correction the initial updates would be.
+very high that means the algorithm would move very fast right so let's see if that is happening so notice.
+that this blue curve corresponding to atom without bias correction would make very large initial updates that's what we expect.

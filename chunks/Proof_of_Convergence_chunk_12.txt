@@ -1,0 +1,10 @@
+have the points p1 p2 all the way up to some pm right these are all the points which belong.
+to my p prime okay now i can compute the dot product between each of these points and w star.
+okay i don't know what w star is but i can define the dot product i can say that this.
+is the dot product okay and now what is dot product dot product is some scalar value right so for.
+each of these i'll get some value belonging to r right some scalar value i will get now i can.
+define the minimum of all these quantities okay right so let me call that minimum as delta so what is.
+delta i have computed the dot product between w star and each of the points in p prime and whatever.
+is the minimum value i am calling that as delta okay so what does that mean that any of these.
+quantities here are going to be sorry [Music] yeah are going to be greater than equal to delta right because.
+delta is the minimum value so all these values are going to be greater than equal to delta so that's.

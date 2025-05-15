@@ -1,0 +1,10 @@
+zero or less than equal to zero which of these inequalities is satisfied okay so these these points line the.
+negative half space as shown in the red region and then of course one of the points which should not.
+have been in the negative half space which is the point one comma 1 is lying in the negative half.
+space so with these particular values of the perceptron or the weights of the perceptron function I am making error.
+on one of the four inputs right so if I just want to tabulate so I took the W and.
+W2 values as minus 1 minus 1 and then I made an error of one of the inputs now let.
+me take the values 1.5 and 0 okay let me try those values so I will oops yeah I'll make.
+this as 1.5 ok so this is 1.5 and I want W2 to be 0 so I'll just make it.
+0. okay so this is the line that I get and I do not of course I have fixed at.
+minus one and again you can see the negative and the positive half spaces so I'm again making an error.

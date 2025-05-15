@@ -1,0 +1,9 @@
+case of perceptrons when we are dealing with or in the last lecture when we are dealing with Boolean functions.
+we wanted to know if we can have a network which can exactly represent such function right and my definition.
+of exactly represent was very clear in the case of Boolean functions where I was saying that I know what.
+the truth table of this function is and then when I take an input say 0 comma 0 right and.
+I pass it through the network I should get the same output as is decided by this truth table right.
+that was my definition of exactly representing the function and then we also moved on to slightly more real worldish.
+where we said that I would have been given data where I would have different inputs right and the output.
+for that input right and if this data was linearly separable then I should have a network such that it.
+takes any input from this training data and it gives me the same output as is given to me in.

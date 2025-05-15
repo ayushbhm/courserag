@@ -1,0 +1,10 @@
+what that does is the following right so this is my Delta Theta Vector the black one I am going.
+to multiply by a small scalar so essentially the magnitude of the vector will decrease the direction does not change.
+so I'm still going to move in that direction but I'm just going to be a bit conservative and take.
+a small step right one small step at a time right so that gives me my update rule which is.
+if you tell me what is Delta Theta then I'm going to move by a small value in that direction.
+right that's that's what my update rule is going to be now the question of course is what is the.
+right Delta Theta to use right I was earlier what was my algorithm in the random guess I was just.
+coming up with some Delta Theta just moving there oh and then realizing oh the error has decreased so let.
+me just go back and then try to find some new Delta Theta change that and I mean change that.
+much and then find a new value I don't want to do that someone has to give me the right.

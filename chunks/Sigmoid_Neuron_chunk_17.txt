@@ -1,0 +1,10 @@
+tan H function which is also a member of Islam right and let's see what is happening here so this.
+is this is a quantity which is familiar to us right this is the weighted sum of the inputs and.
+the threshold okay this quantity is familiar to us and we have been writing it as summation I equal to.
+0 to n W naught X naught right it is the same quantity that we have been writing and this.
+quantity we have actually been writing as W transpose X if you remember right where X is the vector from.
+X 0 to X N and W is a vector from W 0 to WN right so this is just.
+the dot product right so the quantity that I have underlined is just this quantity that we have been dealing.
+with so far okay now let's look at this function a bit carefully so what happens when w transpose X.
+tends to Infinity okay so this is as I go along this axis this is where W transpose X will.
+start trending to Infinity rate because Z is what I've defined as double aspects X right so what what would.

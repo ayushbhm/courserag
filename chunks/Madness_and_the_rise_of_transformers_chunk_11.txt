@@ -1,0 +1,9 @@
+access to a large amount of unlabeled corporate so if you think of a language like english you have the.
+entire wikipedia you have so many news articles you have tons of data available online which you can escape from.
+the web even for languages indian languages some of the indian languages like hindi marathi and so on you could.
+get a lot of data on the web and you could just train using this data right this is not.
+labeled data these are just sentences so this allows you to train really large uh models and then fine-tune them.
+using small amounts of data right and then came gpt which is a lot all of you might be aware.
+of this this is like a massive 175 parameter billion parameter model and it just takes a prompt and generates.
+interesting things so there are exam there are entire websites uh dedicated to this i'm forgetting the name thinking just.
+google for uh examples from gp33 or something and like you could just type a prompt right you could type.

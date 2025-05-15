@@ -1,0 +1,10 @@
+output right this is not y hat remember this is not y hat this is the true output the true.
+label that was given to me right and we are interested in this expected error this is what we have.
+been doing throughout when we are looking at bias variance trade-off right so this is the quantity that I am.
+interested in so let me try to find out what that quantity is so I'm just going to now the.
+rest of it is just now going to be a set of steps so I'll just maybe write down everything.
+first yeah so I'll just now go over it one by one this will be easier to do it that.
+way so I had y tilde okay so now what I have done is I have written y tilde as.
+y hat plus this quantity so no uh no issues there then I have three quantities here A B and.
+C so I have grouped them so I have a minus B plus sorry A minus C plus this B.
+quantity and of course there was the whole Square outside always okay so now this now Becomes of the form.

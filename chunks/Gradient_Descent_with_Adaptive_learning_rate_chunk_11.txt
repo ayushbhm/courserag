@@ -1,0 +1,9 @@
+then still my updates would have been larger right so this is one more case for having an Adaptive learning.
+rate so we talked about two cases one is in the Steep regions I want the learning rate to adopt.
+and in the flat regions again I wanted to increase and the Steep regions I wanted to be small the.
+other cases which is again related is that if you have sparse features where you know that the when you.
+compute the total derivative it's going to be very small because in most cases this x i the circled x.
+i is going to be 0 and then hence my total derivative is small and if my total derivative is.
+small can and I just jack up the learning rate so that my updates are a bit larger right because.
+now I don't need to be conservative because anyways I'm going to get very sparse updates for this feature okay.
+so that's the overall idea yeah so that's what is happening here now why is this important right so my.

@@ -1,0 +1,9 @@
+lstms and rnns which we'll see later and gelu is commonly used in Transformer right so I would say tannage.
+because it's required in lstm and rnns it's still popular and then gelu for Transformers and then relu for convolutional.
+neural networks right so these are the three top activation functions which are currently still popular right so with that.
+I'll end this discussion on activation functions and that's the end of the lectures for this week and next week.
+we'll come and talk about weight initialization so that was the fourth pillar along which people made uh progress after.
+this 2006 to 2009 period when people realized that there is a way to make deep learning work or deep.
+neural networks train better and to to these are the four axes along which we should investigate which is optimization.
+regularization activation function and weight initialization so the first three we are done with now we look at the fourth.
+in the next lecture thank you.

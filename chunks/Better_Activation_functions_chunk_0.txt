@@ -1,0 +1,9 @@
+foreign [Music] so this is where we were when we left off yesterday we were talking about how deep learning.
+has evolved and there are these four axes that we were considering and we have already talked in detail about.
+the first two and today we'll start a discussion on better activation functions right so that's where we are so.
+with that let me just go to the next module uh yeah so so before we look at these activation.
+functions right so let's try to uh first motivate why do we need to talk about activation functions and the.
+motivation comes if we try to introspect this question what makes deep neural Nets powerful right and we already saw.
+this uh briefly when we were talking about the universal not briefly actually quite in detail when we are talking.
+about the universal approximation theorems I just want to revisit that and emphasize on uh some a component of the.
+deep neural network which is important in granting it its power right so let's see what that is so now.

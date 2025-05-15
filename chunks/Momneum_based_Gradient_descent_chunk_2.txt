@@ -1,0 +1,9 @@
+to go in that direction someone said go to the right again someone said go to the right so now.
+maybe you'll start want to increase your speed a bit right because you have two uh validations for uh this.
+direction that this is the right direction right then you again walk a few steps and then you ask someone.
+where to go again that person points you in that direction so then you again start your confidence increases and.
+you gain more momentum right so what we are trying to say here is that if you're repeatedly being asked.
+to go in the same direction then you should probably gain confidence and start taking bigger steps in that direction.
+right so at this step when you are Computing the gradient maybe the gradient is small because you're on a.
+gentle surface but you have been moving in this direction for a long time right so this is what your.
+uh surface looked like okay this is very gentle slope here so here every step is small right but you.

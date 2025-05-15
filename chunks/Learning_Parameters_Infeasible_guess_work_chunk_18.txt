@@ -1,0 +1,10 @@
+try to look at the geometric interpretation of what was happening in my guesswork algorithm right so we will try.
+to do that okay so what had i done i had initially chosen 3 and one as my values right.
+and then uh three and one or was it three n minus one i guess right so three n minus.
+one is what i had chosen right so this is where i was on the lost surface this is my.
+three comma minus one point and my loss was very high right and then from there i randomly jumped to.
+this point uh 0.5 uh comma 0. and before i click enter just see that when the value of x.
+w1 wnb is 3 comma minus 1 this is what the sigmoid function looks like and it's obvious that the.
+error is high because it's nowhere close to fitting the two points that i have right so then i tried.
+0.5 comma 0 and let's see what happened now if you look at the sigmoid function it looks a bit.
+more favorable right and you can see that the loss has also decreased right but since i was randomly guessing.

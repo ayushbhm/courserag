@@ -1,0 +1,8 @@
+here right instead of directly going to the uh minimum all right so that's what can happen if your learning.
+rate becomes constant and that's why you're seeing those oscillations in the case of RMS prop where the learning rate.
+is indeed becoming constant uh after a while because your denominator VT is not changing right so it's accumulated history.
+has also become like close to a very small number and your current derivatives are also small so now when.
+you are adding all these terms from one time step to another nothing much is changing there right that's what.
+is happening and that was not the case in Ada grad because you were just adding the gradients so the.
+previous terms always remain right they are not getting exponentially weighted out right so what is the solution for this.
+say this learning rate becoming constant and then resulting in oscillations so one solution is to set the learning rate.

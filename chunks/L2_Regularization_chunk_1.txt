@@ -1,0 +1,8 @@
+a training error you should minimize training error plus some regularization term and this regularization terms should serve as a.
+proxy for the model complexity means which means that if the model complexity is high then this value should be.
+high if the model complexity is low then this value should be low right so then you are aiming to.
+not just minimize the training error the empirical training error but also minimize the model complexity and find some sweet.
+spot in this trade-off right that's where we were and then I said that this kind of forms the basis.
+for many regularization methods and today we are going to look at a a few regularization methods starting with L2.
+regularization then we look at data set augmentation parameter sharing adding noise to the inputs adding noise to the outputs.
+early stopping Ensemble methods drop out right so quite a bit of a long list and we will maybe look.

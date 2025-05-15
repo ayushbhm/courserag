@@ -1,0 +1,9 @@
+what I had shown on the previous slide was good so even with ETA not equal to 0.1 the learning.
+rate is still high right so the numerator is still high so this is now point one this is still.
+high enough to cause the oscillations it's just that the oscillations are slightly better now they are between these two.
+low loss regions right and when I change it to 0.05 as I had shown on the previous slide then.
+it was better it was perhaps able to get here and then converge quickly from that point right so that's.
+that's what the sensitivity to the initial learning rate is right so the point to note here is that everything.
+else here is remaining the same right the Lost surface is the same the training points are the same the.
+only thing that has changed is my initial learning rate and that is causing a difference between convergence and we.
+saw three scenarios one where it converges one where it oscillates around a solution which is acceptable right so this.

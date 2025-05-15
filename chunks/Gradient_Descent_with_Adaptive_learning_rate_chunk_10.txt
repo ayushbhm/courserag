@@ -1,0 +1,9 @@
+features now what's the consequence of that the consequence consequence of that is that in my any gradient descent based.
+update my new weight is going to be my old weight right so let me just call this new and.
+this old minus ETA times whatever derivative I compute and I've just told you that if X is sparse or.
+that feature is pass then the derivative is going to be small and if the derivative is going to be.
+small then it means that my updates are going to be small and if my updates are going to be.
+small then I'm not making much changes along that direction right and that is not something that I desire right.
+and now a wish list here would be that if I know my derivatives are going to be small can.
+my learning rate would have been high for such sparse features so if the learning rate would have been high.
+then still my updates would have been larger right so this is one more case for having an Adaptive learning.

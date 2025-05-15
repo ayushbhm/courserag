@@ -1,0 +1,11 @@
+let's go ahead so i'm just going to uh as i said what i just explained that y hat l.
+which is the same as soft max a l l is essentially this guy right so i've just put in.
+the formula for that sorry this should have been i right because here the index is over i uh so.
+i'm summing over all the exponents okay now this is the derivative of the form u by v or i.
+can call it as derivative of the form g x by h x right and we all know the formula.
+for that this is the formula for the derivative of u by v right and you would have again known.
+this formula i will not go into the details of that you can refer to it if you don't know.
+this just maybe quickly brush up some calculus and you will realize that this is the formula okay okay so.
+let's go ahead now uh so i'm just going to supply substitute this formula blindly right so this is g.
+of x for me and this is h of x for me so i'm just going to substitute g of.
+x and h of x so this is derivative of g of x with respect to x so i'll have.

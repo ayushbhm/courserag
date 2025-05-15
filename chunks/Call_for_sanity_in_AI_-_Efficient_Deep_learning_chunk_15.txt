@@ -1,0 +1,9 @@
+is also another axis around which we need to talk about being responsible right so i was talking about the.
+human brain right so it has 10 is to 15 synapses but it only consumes 15 watts of power right.
+whereas if you look at these current deep learning models i showed you one model which was trained on 2048.
+tpus which is a huge amount of power and compute right and in the period from 2012 to 2018 there.
+has been a 300 000 folds increase in the amount of uh compute compute that is being used for training.
+these models and this has been doubling every few months right and you can see uh in the in the.
+shaded portion here right that in the past few years there's a rapid increase in the size of these models.
+or the uh computes that you're using uh for training these models right and that that has to stop right.
+because you are being irresponsible in some sense and this should give it make it clear so if you have.

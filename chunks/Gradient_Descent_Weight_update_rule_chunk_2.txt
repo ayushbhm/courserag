@@ -1,0 +1,10 @@
+enter that in this uh box here right so 1.2 minus 0.31 is going to be 0.89 okay so this.
+is where I end up right so I have moved and looks like I have moved in a good direction.
+because I'm headed towards one of the Minima right uh so zero point uh now uh at this point I.
+have 0.89 is my current value I've again computed a derivative and my ETA into DW is 1.25 so I'm.
+again just going to ah 0.89 minus 1.25 is what I'm going to do and that would be around minus.
+0.36 right so I'm going just going to set the value as minus 0.36 and this is where I get.
+right so as you can see I have moved a bit away right I should have I would have liked.
+to end at the Minima but now I've gone in the opposite direction right and why this is happening what.
+could you do to make sure that this doesn't happen is something for all of us to figure out in.
+the next couple of lectures right now just keep trying this right I've shown you what to do you just.

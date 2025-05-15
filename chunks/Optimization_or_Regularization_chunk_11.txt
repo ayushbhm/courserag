@@ -1,0 +1,9 @@
+had an Omega Theta you said I want to minimize that and then I will throw in L Theta and.
+then I'll try to minimize L Theta so in the case of regularization we were seeing that we wanted to.
+minimize the loss function as L theta plus Omega Theta right this is what our regularized loss function was I.
+am doing something similar here it's just that I am doing it sequentially I am first minimizing Omega Theta and.
+then I'm minimizing L Theta so in this view it is acting as a regularizer right and it also matches.
+this other view that you're kind of constraining the weights in a certain region and then that will govern how.
+your optimization is going right so in L2 you add a certain way of doing that constraint ah constraining the.
+weights to a certain region in early stopping you had a certain way of doing that here also you have.
+a certain way that you first train that I want these individual layers to learn well wherever you end up.

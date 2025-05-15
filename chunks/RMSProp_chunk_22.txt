@@ -1,0 +1,10 @@
+such CSS problems right but if you're dealing with an esoteric problem a new data set which only you are.
+looking at for the first time or if not me enough people have looked at then you might not really.
+know what the right ETA naught should be and then you could land up in any of these situations right.
+so let's just talk about it a bit more so this is what the effective learning rate is this is.
+what VT is and which value of ETA naught is a good one right so uh we don't know that.
+and what we really want is that some ETA not might be better some eat or not may not be.
+better right and it's also not often that one ETA naught is always better right so let's see what I.
+mean by that right so in this again uh suppose ETA naught was set to 0.6 okay that's the animation.
+that I'm going to show you now and I'll tell you what all I'm going to show you in this.
+animation right so this is VT oops yeah so this is VT which is the accumulation right so remember your.

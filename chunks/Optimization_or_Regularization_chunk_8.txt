@@ -1,0 +1,8 @@
+the magnitude to grow beyond that that means only those weight configurations which lie on this circle are possible or.
+within that are possible you cannot go outside that boundary similarly Urban regularization restricts you within this diamond that you.
+see there right and we even saw with early stopping that is the effect that you don't allow your weights.
+to grow too much right so you are constraining the weights to lie in certain regions of the parameter space.
+right that's one way of saying it right instead of saying lying in a small region or something it constrains.
+it to rise in certain regions right now is the same happening in the case of unsupervised pre-training right indeed.
+unsupervised pre-training is also causing the weights to lie in certain regions of the parameter space what are these weights.
+so these are the weights or these are the regions where the weights are better able to capture capture the.

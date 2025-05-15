@@ -1,0 +1,9 @@
+right which is Sigma X into 1 minus Sigma X right and now let's focus on this formula so what.
+what could happen if we use sigmoid in a deep neural network given that the gradient of the sigmoid is.
+given by this formula right in particular note that at the extremes ah when the sigmoid neuron saturates what do.
+I mean by saturate it takes its maximum value which is 1 or if it takes its minimum value which.
+is 0 right or close to 0 in those cases the gradient vanishes right so if I put Sigma x.
+equal to 1 then I'll get 1 into 1 minus 1 so the gradient will vanish that is in this.
+region or if I put Sigma x equal to 0 which is corresponding to this region then again 0 into.
+anything is 0 right so the gradient actually vanishes and we know that if the gradient vanishes or if it's.
+very smaller so in these regions starting from here the gradient is very small and that is a problem in.

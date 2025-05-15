@@ -1,0 +1,10 @@
+this is how this quantity is defined it's the average difference of the predictions from the two values for all.
+the training points right so that's a clear notation right now suppose i was given only two training points okay.
+these are the two training points given to me these are the x's and these are the y's so this.
+is one x one comma y one pair and this is the other x2 comma y2 pair i'm just given.
+two training examples okay and these are the values also right i mean these are actual points on the graph.
+so i can see that one point is 0.5 comma 0.2 right so this is the point 0.5 comma 0.2.
+as you can see and the other point is 2.5 comma 0.9 right so these are the points which are.
+given to me okay this is my input training data and using this data i want to learn w and.
+b and that's the setup that i have okay now um what is happening yeah so at the end of.
+training we've we expect to find the optimal values of w and p right what are the optimal values though.

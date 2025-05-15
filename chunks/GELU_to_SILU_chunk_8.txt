@@ -1,0 +1,9 @@
+function itself and how I brought it in I have defined a random variable M right so now this random.
+variable will take on certain value 1 or 0 with a certain probability and hence the activation function would differ.
+would depend on X as well as have this stochastic feature because of this random variable and now this random.
+variable needs to follow a certain distribution so it's a Bernoulli distribution because this random variable can take on value.
+0 to 1 so it's a binary random variable so it will follow a Bernoulli distribution and the bernalia distribution.
+has a parameter p and now I am saying in this case the parameter P would just be a function.
+of the input right which is as I and I also explained what this input is this input is the.
+pre-activation at that neuron right so that's The quick summary of whatever I have said so far ah so it.
+can be the logistic function or it can be the cumulative distribution of the standard normal distribution right so that's.

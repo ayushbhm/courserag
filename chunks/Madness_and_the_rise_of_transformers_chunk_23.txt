@@ -1,0 +1,9 @@
+it a text it is able to generate an appropriate image corresponding to that text right and dali was a.
+transformer based model it was not a diffusion based model and now dalit 2 has come which is a diffusion.
+based model and it has exceeded i would say expectations as i said it is very recent 2022 and improvements.
+on top of that which is the stable diffusion model and a few other computing models are are quite the.
+rage now right people are coming up with these prompts and feeding them these to these models and trying to.
+generate very realistic images there's an astronaut riding a horse in a photorealistic style right i mean this of course.
+this image perhaps wouldn't exist anywhere right but the but the model is able to imagine and generate these kind.
+of image so it's quite exciting times for what are known as generative models and we won't cover uh in.
+this first part of the course right i may do a subsequent course but in the first course unfortunately we.

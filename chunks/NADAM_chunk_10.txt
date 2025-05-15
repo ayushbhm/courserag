@@ -1,0 +1,10 @@
+that you have here is beta M naught and I already had this at the previous iteration right so why.
+am I doing this in the next iteration why am I coming up and Computing this in the next iteration.
+here why am I doing it that's the question that we are trying to answer right so can we uh.
+sorry I should have let me just go back sorry I Circle it the wrong so I'll start my expression.
+again so when I'm Computing G1 I am doing this temporary computation which I don't want to do right and.
+the what my argument is that at the previous time step I already had this beta m not right because.
+that was already computed at the previous time step could I have done something at the previous time step and.
+got an effective value of w which had already encompassed this beta I am not movement and then whatever w.
+i get here I just compute the gradient of that right so I'm doing the liquid in advance and then.
+sending it to the next time step that's the idea that we want to get to is it making sense.

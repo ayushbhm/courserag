@@ -1,0 +1,10 @@
+right you've got uh you did the entire computation in parallel similarly your value uh your key vectors you can.
+compute in parallel so you have uh w k multiplied by H1 gives you K1 w k multiplied by H2.
+gives you K2 and so on so you might as well stack them up in a matrix and then you.
+do these two multiplications so you'll get K1 to KT in parallel again the key thing here is you had.
+T inputs right and you got T outputs in parallel right so your K Matrix is also going to be.
+something cross capital T okay that's what is important that you get T outputs and lastly same for the value.
+Matrix also you'll get these T values in parallel right so now you have already parallelized the computation of the.
+k q and a v right so that at least I don't need to do sequentially now can I do.
+the rest of it also in parallel is the question right so let's see how I can compute the entire.
+output in power right so this is how I can compute the entire output in parallel so what was I.

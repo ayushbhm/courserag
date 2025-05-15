@@ -1,0 +1,9 @@
+wnb and subconsciously I was actually moving on this lost surface without actually knowing what the loss surface was that's.
+what I was doing in the uh in the in the guesswork algorithm and Computing this entire loss surface is.
+difficult because you have values from minus infinity to Infinity right okay so then uh we said we want a.
+more principled way such that I don't need to do Brute Force I don't need to compute all values of.
+the loss function for or rather the value of the loss function for all values of w and B nor.
+do I want to do this random guessing so that's where we went to gradient descent and the key I.
+idea here was to rely on Taylor series right and I'll just skip all this part which was setting up.
+the context for the Taylor series right so we all understand what Taylor series is allows us to compute the.
+value of a function in a small neighborhood around the current point so if you know the value of the.

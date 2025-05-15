@@ -1,0 +1,9 @@
+rather inversely proportional to my update history if I made large updates then I degrees the learning rate aggressively if.
+I made only a few updates I don't decrease it aggressive right so that's what is happening here so just.
+as have you have the update equations for w you can also have the update equations for uh B right.
+okay so this is the algorithm from now on I'll not spend too much time on the code right I'll.
+just uh uh modification of the codes that you have seen so far so in this place here this is.
+where I'm accumulating the history right I'm just taking the previous update plus the current update square right that's what.
+the equation said and then my learning rate here is going to be divided by this update right so now.
+I think these are small code Snippets which you are comfortable with and you can take the equation and write.
+the code for that right so to now to see this in action right we need to First create some.

@@ -1,0 +1,2212 @@
+[
+  {
+    "text": "foreign",
+    "start": 0.299,
+    "duration": 3.0
+  },
+  {
+    "text": "[Music]",
+    "start": 6.62,
+    "duration": 18.159
+  },
+  {
+    "text": "which looks like a obvious extension",
+    "start": 20.72,
+    "duration": 6.639
+  },
+  {
+    "text": "that you would do on Adam right so Adam",
+    "start": 24.779,
+    "duration": 5.461
+  },
+  {
+    "text": "already introduced the momentum term and",
+    "start": 27.359,
+    "duration": 5.461
+  },
+  {
+    "text": "then we know that nag is better than",
+    "start": 30.24,
+    "duration": 4.26
+  },
+  {
+    "text": "momentum based gradient descent right so",
+    "start": 32.82,
+    "duration": 4.56
+  },
+  {
+    "text": "Adam which uses momentum can we make it",
+    "start": 34.5,
+    "duration": 4.92
+  },
+  {
+    "text": "better by adding the nestrob effect to",
+    "start": 37.38,
+    "duration": 3.66
+  },
+  {
+    "text": "it which is the look ahead effect that",
+    "start": 39.42,
+    "duration": 4.2
+  },
+  {
+    "text": "we need to do right so that's we could",
+    "start": 41.04,
+    "duration": 4.74
+  },
+  {
+    "text": "that is something that we could do and",
+    "start": 43.62,
+    "duration": 4.68
+  },
+  {
+    "text": "that's exactly what Madame is which is",
+    "start": 45.78,
+    "duration": 6.119
+  },
+  {
+    "text": "nastrov is the nestro version of Adam so",
+    "start": 48.3,
+    "duration": 5.939
+  },
+  {
+    "text": "let's see how that works right so this",
+    "start": 51.899,
+    "duration": 4.261
+  },
+  {
+    "text": "is the update tool for Adam that we had",
+    "start": 54.239,
+    "duration": 6.0
+  },
+  {
+    "text": "now from here we'll now revisit uh nag",
+    "start": 56.16,
+    "duration": 6.239
+  },
+  {
+    "text": "The nestro Accelerated gradient descent",
+    "start": 60.239,
+    "duration": 4.74
+  },
+  {
+    "text": "and then see how to modify the update",
+    "start": 62.399,
+    "duration": 4.861
+  },
+  {
+    "text": "tools for Adam to get in this natural",
+    "start": 64.979,
+    "duration": 4.581
+  },
+  {
+    "text": "Factor here okay",
+    "start": 67.26,
+    "duration": 4.92
+  },
+  {
+    "text": "so recall the equation so now one thing",
+    "start": 69.56,
+    "duration": 6.66
+  },
+  {
+    "text": "which I have done here is that I have",
+    "start": 72.18,
+    "duration": 4.04
+  },
+  {
+    "text": "so remember that you could have beta",
+    "start": 78.0,
+    "duration": 4.979
+  },
+  {
+    "text": "U T minus 1",
+    "start": 80.52,
+    "duration": 5.7
+  },
+  {
+    "text": "plus 1 minus beta times",
+    "start": 82.979,
+    "duration": 5.041
+  },
+  {
+    "text": "uh",
+    "start": 86.22,
+    "duration": 6.0
+  },
+  {
+    "text": "Delta WT right so both these forms are",
+    "start": 88.02,
+    "duration": 6.06
+  },
+  {
+    "text": "popular right so where you have beta and",
+    "start": 92.22,
+    "duration": 4.56
+  },
+  {
+    "text": "1 minus beta where of course they sum up",
+    "start": 94.08,
+    "duration": 5.28
+  },
+  {
+    "text": "to one or you could just have beta and",
+    "start": 96.78,
+    "duration": 4.86
+  },
+  {
+    "text": "then no weight multiplied by the",
+    "start": 99.36,
+    "duration": 4.2
+  },
+  {
+    "text": "derivative of WT right so when we had",
+    "start": 101.64,
+    "duration": 3.659
+  },
+  {
+    "text": "originally introduced momentum we had",
+    "start": 103.56,
+    "duration": 4.32
+  },
+  {
+    "text": "used this equation but from when you",
+    "start": 105.299,
+    "duration": 4.201
+  },
+  {
+    "text": "used it in atom we were using this",
+    "start": 107.88,
+    "duration": 3.9
+  },
+  {
+    "text": "equation so both are popular so when I",
+    "start": 109.5,
+    "duration": 4.38
+  },
+  {
+    "text": "start off I will stick to this but at",
+    "start": 111.78,
+    "duration": 3.78
+  },
+  {
+    "text": "some point I will switch to this",
+    "start": 113.88,
+    "duration": 3.599
+  },
+  {
+    "text": "equation so just remember that both of",
+    "start": 115.56,
+    "duration": 3.839
+  },
+  {
+    "text": "these can be used interchangeably right",
+    "start": 117.479,
+    "duration": 3.361
+  },
+  {
+    "text": "so when I start off I'll just use this",
+    "start": 119.399,
+    "duration": 3.601
+  },
+  {
+    "text": "because it's easier to convey what I",
+    "start": 120.84,
+    "duration": 4.2
+  },
+  {
+    "text": "want to convey but at a later point I'll",
+    "start": 123.0,
+    "duration": 4.32
+  },
+  {
+    "text": "switch back to the this version of",
+    "start": 125.04,
+    "duration": 4.38
+  },
+  {
+    "text": "momentum okay",
+    "start": 127.32,
+    "duration": 3.24
+  },
+  {
+    "text": "um",
+    "start": 129.42,
+    "duration": 4.02
+  },
+  {
+    "text": "now you recall the equation for Mac the",
+    "start": 130.56,
+    "duration": 5.22
+  },
+  {
+    "text": "main idea in nag was that instead of",
+    "start": 133.44,
+    "duration": 4.019
+  },
+  {
+    "text": "looking at",
+    "start": 135.78,
+    "duration": 4.02
+  },
+  {
+    "text": "the gradient at time step T you first",
+    "start": 137.459,
+    "duration": 4.981
+  },
+  {
+    "text": "did the look ahead and then computed the",
+    "start": 139.8,
+    "duration": 4.5
+  },
+  {
+    "text": "gradient right that was the main idea in",
+    "start": 142.44,
+    "duration": 4.46
+  },
+  {
+    "text": "nag",
+    "start": 144.3,
+    "duration": 2.6
+  },
+  {
+    "text": "and then the rest of it of course",
+    "start": 148.26,
+    "duration": 3.119
+  },
+  {
+    "text": "Remains the Same right now what we're",
+    "start": 149.64,
+    "duration": 3.12
+  },
+  {
+    "text": "going to do is we're going to rewrite",
+    "start": 151.379,
+    "duration": 4.44
+  },
+  {
+    "text": "nag in a more convenient way and then",
+    "start": 152.76,
+    "duration": 6.059
+  },
+  {
+    "text": "import it into atom right or that rather",
+    "start": 155.819,
+    "duration": 4.681
+  },
+  {
+    "text": "than Port it to atom right so this is",
+    "start": 158.819,
+    "duration": 4.081
+  },
+  {
+    "text": "what we were doing in nag we were",
+    "start": 160.5,
+    "duration": 5.099
+  },
+  {
+    "text": "Computing a quantity called GT which was",
+    "start": 162.9,
+    "duration": 5.64
+  },
+  {
+    "text": "the gradient",
+    "start": 165.599,
+    "duration": 4.561
+  },
+  {
+    "text": "okay let me just write down the",
+    "start": 168.54,
+    "duration": 3.6
+  },
+  {
+    "text": "equations all of it first and then that",
+    "start": 170.16,
+    "duration": 4.14
+  },
+  {
+    "text": "becomes easier for me too",
+    "start": 172.14,
+    "duration": 4.02
+  },
+  {
+    "text": "explain okay",
+    "start": 174.3,
+    "duration": 3.36
+  },
+  {
+    "text": "okay",
+    "start": 176.16,
+    "duration": 3.42
+  },
+  {
+    "text": "so I'll just now walk you through the",
+    "start": 177.66,
+    "duration": 4.14
+  },
+  {
+    "text": "slide so we were Computing the gradient",
+    "start": 179.58,
+    "duration": 6.18
+  },
+  {
+    "text": "at the lookahead value right and once",
+    "start": 181.8,
+    "duration": 5.159
+  },
+  {
+    "text": "you compute the gradient at the look",
+    "start": 185.76,
+    "duration": 4.559
+  },
+  {
+    "text": "ahead value then you are Computing uh",
+    "start": 186.959,
+    "duration": 6.0
+  },
+  {
+    "text": "empty as the history plus the gradient",
+    "start": 190.319,
+    "duration": 4.681
+  },
+  {
+    "text": "at the look ahead value and then you are",
+    "start": 192.959,
+    "duration": 6.721
+  },
+  {
+    "text": "updating the new value as uh uh as this",
+    "start": 195.0,
+    "duration": 6.659
+  },
+  {
+    "text": "updated history right that's what you",
+    "start": 199.68,
+    "duration": 3.779
+  },
+  {
+    "text": "were doing now one thing I want you to",
+    "start": 201.659,
+    "duration": 3.541
+  },
+  {
+    "text": "notice here is the time steps that you",
+    "start": 203.459,
+    "duration": 4.621
+  },
+  {
+    "text": "have you have t you have T minus 1 and",
+    "start": 205.2,
+    "duration": 4.86
+  },
+  {
+    "text": "you have P plus 1 also right and it",
+    "start": 208.08,
+    "duration": 4.439
+  },
+  {
+    "text": "looks a bit cumbersome and we're going",
+    "start": 210.06,
+    "duration": 4.56
+  },
+  {
+    "text": "to try to rewrite that a bit more",
+    "start": 212.519,
+    "duration": 4.561
+  },
+  {
+    "text": "compact it that's one challenge the",
+    "start": 214.62,
+    "duration": 3.839
+  },
+  {
+    "text": "other challenge is what is written here",
+    "start": 217.08,
+    "duration": 3.299
+  },
+  {
+    "text": "but I'll come come to that right so",
+    "start": 218.459,
+    "duration": 4.56
+  },
+  {
+    "text": "let's now see what happens uh maybe I'll",
+    "start": 220.379,
+    "duration": 6.021
+  },
+  {
+    "text": "just go back a bit",
+    "start": 223.019,
+    "duration": 3.381
+  },
+  {
+    "text": "yeah so let's say you started at w0 okay",
+    "start": 233.64,
+    "duration": 5.58
+  },
+  {
+    "text": "and you computed a derivative at this",
+    "start": 236.58,
+    "duration": 4.439
+  },
+  {
+    "text": "point so which would be somewhere here",
+    "start": 239.22,
+    "duration": 3.239
+  },
+  {
+    "text": "it'll just screw it on the plot so",
+    "start": 241.019,
+    "duration": 3.0
+  },
+  {
+    "text": "that's where you have computed the",
+    "start": 242.459,
+    "duration": 5.461
+  },
+  {
+    "text": "derivative then at m0 uh since you have",
+    "start": 244.019,
+    "duration": 5.28
+  },
+  {
+    "text": "remember that we have kept the learning",
+    "start": 247.92,
+    "duration": 3.36
+  },
+  {
+    "text": "rate as one I have initialized it here",
+    "start": 249.299,
+    "duration": 4.261
+  },
+  {
+    "text": "in the top right corner",
+    "start": 251.28,
+    "duration": 5.94
+  },
+  {
+    "text": "here right uh so ETA is equal to 1 and",
+    "start": 253.56,
+    "duration": 5.82
+  },
+  {
+    "text": "of course n minus 1 is 0 at time step",
+    "start": 257.22,
+    "duration": 4.44
+  },
+  {
+    "text": "minus 1 you don't have any history so",
+    "start": 259.38,
+    "duration": 5.58
+  },
+  {
+    "text": "here m0 is going to be beta times 0 plus",
+    "start": 261.66,
+    "duration": 6.36
+  },
+  {
+    "text": "G 0 so it's just going to be G 0",
+    "start": 264.96,
+    "duration": 6.78
+  },
+  {
+    "text": "so far so good and then W1 is going to",
+    "start": 268.02,
+    "duration": 5.48
+  },
+  {
+    "text": "be W 0",
+    "start": 271.74,
+    "duration": 5.16
+  },
+  {
+    "text": "minus uh let me just choose the pen",
+    "start": 273.5,
+    "duration": 5.32
+  },
+  {
+    "text": "so I'll just do this once so there",
+    "start": 276.9,
+    "duration": 3.72
+  },
+  {
+    "text": "should have been an ETA here but ETA is",
+    "start": 278.82,
+    "duration": 3.659
+  },
+  {
+    "text": "set to 1 that's why I'm not using ETA",
+    "start": 280.62,
+    "duration": 3.54
+  },
+  {
+    "text": "right so remember that ETA is always",
+    "start": 282.479,
+    "duration": 3.481
+  },
+  {
+    "text": "there in all all the stuff that I'll do",
+    "start": 284.16,
+    "duration": 3.539
+  },
+  {
+    "text": "in the next two slides is just that the",
+    "start": 285.96,
+    "duration": 4.32
+  },
+  {
+    "text": "value of ETA is equal to 1 right and",
+    "start": 287.699,
+    "duration": 6.381
+  },
+  {
+    "text": "then you w 0 minus the derivative",
+    "start": 290.28,
+    "duration": 7.94
+  },
+  {
+    "text": "computed at uh",
+    "start": 294.08,
+    "duration": 4.14
+  },
+  {
+    "text": "yep uh",
+    "start": 299.16,
+    "duration": 6.539
+  },
+  {
+    "text": "yeah so instead of calling it GT GT in",
+    "start": 302.16,
+    "duration": 4.68
+  },
+  {
+    "text": "this case of course turns out to be",
+    "start": 305.699,
+    "duration": 3.841
+  },
+  {
+    "text": "Delta is of 0 itself but actually it",
+    "start": 306.84,
+    "duration": 4.38
+  },
+  {
+    "text": "would have been as if I follow this",
+    "start": 309.54,
+    "duration": 4.02
+  },
+  {
+    "text": "equation it would have been Delta W 0",
+    "start": 311.22,
+    "duration": 5.4
+  },
+  {
+    "text": "minus ETA into beta",
+    "start": 313.56,
+    "duration": 5.82
+  },
+  {
+    "text": "into M minus 1 and this quantity just",
+    "start": 316.62,
+    "duration": 4.44
+  },
+  {
+    "text": "turned out to be 0 so that's how I am",
+    "start": 319.38,
+    "duration": 3.48
+  },
+  {
+    "text": "writing it here okay so that's what your",
+    "start": 321.06,
+    "duration": 4.46
+  },
+  {
+    "text": "W1 is now",
+    "start": 322.86,
+    "duration": 4.8
+  },
+  {
+    "text": "let's go ahead",
+    "start": 325.52,
+    "duration": 4.36
+  },
+  {
+    "text": "so if so this is where I have reached",
+    "start": 327.66,
+    "duration": 6.539
+  },
+  {
+    "text": "now now at G1 I am doing this look ahead",
+    "start": 329.88,
+    "duration": 6.96
+  },
+  {
+    "text": "right so when I'm Computing G1 I am",
+    "start": 334.199,
+    "duration": 6.981
+  },
+  {
+    "text": "actually looking at the derivative",
+    "start": 336.84,
+    "duration": 4.34
+  },
+  {
+    "text": "at a slightly further Point I've already",
+    "start": 341.4,
+    "duration": 4.799
+  },
+  {
+    "text": "moved by the history and then computed",
+    "start": 343.86,
+    "duration": 5.059
+  },
+  {
+    "text": "the derivative",
+    "start": 346.199,
+    "duration": 2.72
+  },
+  {
+    "text": "so that's where the lookup is happening",
+    "start": 349.919,
+    "duration": 3.601
+  },
+  {
+    "text": "right so that this is the point so now",
+    "start": 351.84,
+    "duration": 3.359
+  },
+  {
+    "text": "I'm looking ahead",
+    "start": 353.52,
+    "duration": 3.959
+  },
+  {
+    "text": "and Computing the derivative and now",
+    "start": 355.199,
+    "duration": 5.041
+  },
+  {
+    "text": "that is where look ahead happens in the",
+    "start": 357.479,
+    "duration": 4.741
+  },
+  {
+    "text": "original nag equation right and we are",
+    "start": 360.24,
+    "duration": 4.019
+  },
+  {
+    "text": "going to slightly modify that so now",
+    "start": 362.22,
+    "duration": 6.56
+  },
+  {
+    "text": "what is happening is that this",
+    "start": 364.259,
+    "duration": 4.521
+  },
+  {
+    "text": "yeah so now I have after doing the look",
+    "start": 374.759,
+    "duration": 4.38
+  },
+  {
+    "text": "ahead I have reached somewhere I have",
+    "start": 376.979,
+    "duration": 4.381
+  },
+  {
+    "text": "made that updates uh and then I've read",
+    "start": 379.139,
+    "duration": 4.56
+  },
+  {
+    "text": "somewhere and then I have computed my",
+    "start": 381.36,
+    "duration": 4.26
+  },
+  {
+    "text": "history Vector again this is my history",
+    "start": 383.699,
+    "duration": 4.141
+  },
+  {
+    "text": "Vector that I have computed again and",
+    "start": 385.62,
+    "duration": 4.38
+  },
+  {
+    "text": "then I've used that to make my final",
+    "start": 387.84,
+    "duration": 5.34
+  },
+  {
+    "text": "update right and this is what my final",
+    "start": 390.0,
+    "duration": 5.58
+  },
+  {
+    "text": "update looks like it's w 1 minus M1",
+    "start": 393.18,
+    "duration": 5.519
+  },
+  {
+    "text": "right because I'm just substituting uh",
+    "start": 395.58,
+    "duration": 5.1
+  },
+  {
+    "text": "values in this equation now let me just",
+    "start": 398.699,
+    "duration": 3.72
+  },
+  {
+    "text": "use the pen so I'm just substituting",
+    "start": 400.68,
+    "duration": 3.6
+  },
+  {
+    "text": "values in this equation my ETA is equal",
+    "start": 402.419,
+    "duration": 4.801
+  },
+  {
+    "text": "to 1 and time step is 1 so W1 minus M1",
+    "start": 404.28,
+    "duration": 4.919
+  },
+  {
+    "text": "is what I get and now if I substitute",
+    "start": 407.22,
+    "duration": 4.5
+  },
+  {
+    "text": "the value of M1 it turns out to be this",
+    "start": 409.199,
+    "duration": 4.861
+  },
+  {
+    "text": "quantity right it's beta M naught plus",
+    "start": 411.72,
+    "duration": 5.34
+  },
+  {
+    "text": "Delta W 1 minus beta M naught okay so",
+    "start": 414.06,
+    "duration": 5.28
+  },
+  {
+    "text": "now what is happening here is that if",
+    "start": 417.06,
+    "duration": 5.22
+  },
+  {
+    "text": "you look at this m naught right which is",
+    "start": 419.34,
+    "duration": 6.84
+  },
+  {
+    "text": "M of T minus 1 it is used twice right",
+    "start": 422.28,
+    "duration": 5.52
+  },
+  {
+    "text": "first it is being used to make this",
+    "start": 426.18,
+    "duration": 4.859
+  },
+  {
+    "text": "temporary update to the value okay you",
+    "start": 427.8,
+    "duration": 4.98
+  },
+  {
+    "text": "make that temporary update and then",
+    "start": 431.039,
+    "duration": 3.301
+  },
+  {
+    "text": "switch back to the original value again",
+    "start": 432.78,
+    "duration": 3.06
+  },
+  {
+    "text": "right we because you are not using the",
+    "start": 434.34,
+    "duration": 3.54
+  },
+  {
+    "text": "temporary value again right so you're",
+    "start": 435.84,
+    "duration": 3.84
+  },
+  {
+    "text": "switching back to the original value so",
+    "start": 437.88,
+    "duration": 4.68
+  },
+  {
+    "text": "using the B time not here and then again",
+    "start": 439.68,
+    "duration": 4.919
+  },
+  {
+    "text": "you are using beta I am not here and",
+    "start": 442.56,
+    "duration": 3.78
+  },
+  {
+    "text": "then again you are switching back from",
+    "start": 444.599,
+    "duration": 3.54
+  },
+  {
+    "text": "this temporary computed value that you",
+    "start": 446.34,
+    "duration": 3.479
+  },
+  {
+    "text": "had to the original value that you have",
+    "start": 448.139,
+    "duration": 4.321
+  },
+  {
+    "text": "right so you're making some extra",
+    "start": 449.819,
+    "duration": 5.28
+  },
+  {
+    "text": "computations here which could be our uh",
+    "start": 452.46,
+    "duration": 5.7
+  },
+  {
+    "text": "kind of done away with that's the goal",
+    "start": 455.099,
+    "duration": 5.1
+  },
+  {
+    "text": "that we want to achieve while giving you",
+    "start": 458.16,
+    "duration": 3.78
+  },
+  {
+    "text": "the same effect right so now what is",
+    "start": 460.199,
+    "duration": 3.56
+  },
+  {
+    "text": "happening here is that you look at G1",
+    "start": 461.94,
+    "duration": 5.759
+  },
+  {
+    "text": "and it's getting some input which was W1",
+    "start": 463.759,
+    "duration": 6.461
+  },
+  {
+    "text": "and then it is subtracting some quantity",
+    "start": 467.699,
+    "duration": 3.681
+  },
+  {
+    "text": "from it",
+    "start": 470.22,
+    "duration": 4.8
+  },
+  {
+    "text": "instead if I already had passed it a",
+    "start": 471.38,
+    "duration": 5.56
+  },
+  {
+    "text": "value which was already equal to this",
+    "start": 475.02,
+    "duration": 3.66
+  },
+  {
+    "text": "right because this I already had the",
+    "start": 476.94,
+    "duration": 3.18
+  },
+  {
+    "text": "previous time Step at the previous time",
+    "start": 478.68,
+    "duration": 4.139
+  },
+  {
+    "text": "step I already had M naught so if at the",
+    "start": 480.12,
+    "duration": 4.5
+  },
+  {
+    "text": "previous time previous time step itself",
+    "start": 482.819,
+    "duration": 3.78
+  },
+  {
+    "text": "I could have computed an updated value",
+    "start": 484.62,
+    "duration": 4.44
+  },
+  {
+    "text": "and send it here then I wouldn't have",
+    "start": 486.599,
+    "duration": 4.32
+  },
+  {
+    "text": "had to do this here right so that's the",
+    "start": 489.06,
+    "duration": 3.24
+  },
+  {
+    "text": "idea and you can see that what is",
+    "start": 490.919,
+    "duration": 3.12
+  },
+  {
+    "text": "happening here is that you have t t",
+    "start": 492.3,
+    "duration": 4.38
+  },
+  {
+    "text": "minus 1 and t plus 1 uh these are the",
+    "start": 494.039,
+    "duration": 4.44
+  },
+  {
+    "text": "three time steps that you see here right",
+    "start": 496.68,
+    "duration": 3.72
+  },
+  {
+    "text": "and instead can we write everything in",
+    "start": 498.479,
+    "duration": 4.801
+  },
+  {
+    "text": "terms of t and t plus 1 and push the",
+    "start": 500.4,
+    "duration": 5.46
+  },
+  {
+    "text": "look ahead uh such that I don't have to",
+    "start": 503.28,
+    "duration": 4.02
+  },
+  {
+    "text": "do these computations again right so",
+    "start": 505.86,
+    "duration": 3.66
+  },
+  {
+    "text": "that's what we want to do so let's see",
+    "start": 507.3,
+    "duration": 5.48
+  },
+  {
+    "text": "what we are going to do about it",
+    "start": 509.52,
+    "duration": 3.26
+  },
+  {
+    "text": "so the key thing here is that the vector",
+    "start": 512.94,
+    "duration": 5.339
+  },
+  {
+    "text": "M naught or M minus 1 or M of T minus 1",
+    "start": 515.82,
+    "duration": 5.339
+  },
+  {
+    "text": "is being used twice then you're doing",
+    "start": 518.279,
+    "duration": 5.041
+  },
+  {
+    "text": "this temporary computation which is W1",
+    "start": 521.159,
+    "duration": 4.981
+  },
+  {
+    "text": "minus beta M naught and you compute the",
+    "start": 523.32,
+    "duration": 4.019
+  },
+  {
+    "text": "gradient there and then you forget about",
+    "start": 526.14,
+    "duration": 2.879
+  },
+  {
+    "text": "this temporary computation you never use",
+    "start": 527.339,
+    "duration": 4.56
+  },
+  {
+    "text": "that again and then again you is in the",
+    "start": 529.019,
+    "duration": 4.681
+  },
+  {
+    "text": "last equation you Resort back to the",
+    "start": 531.899,
+    "duration": 4.141
+  },
+  {
+    "text": "value of W1 and then make an update from",
+    "start": 533.7,
+    "duration": 4.199
+  },
+  {
+    "text": "there right so that's something which is",
+    "start": 536.04,
+    "duration": 4.5
+  },
+  {
+    "text": "we want to get rid of and simplify this",
+    "start": 537.899,
+    "duration": 4.201
+  },
+  {
+    "text": "right so let's see if we can rewrite the",
+    "start": 540.54,
+    "duration": 4.5
+  },
+  {
+    "text": "equations so this is what W1 was right",
+    "start": 542.1,
+    "duration": 7.02
+  },
+  {
+    "text": "so W1 was W naught",
+    "start": 545.04,
+    "duration": 6.68
+  },
+  {
+    "text": "okay",
+    "start": 549.12,
+    "duration": 2.6
+  },
+  {
+    "text": "so W1 was W naught minus this and this",
+    "start": 553.56,
+    "duration": 4.2
+  },
+  {
+    "text": "is the calculation that I don't like",
+    "start": 556.26,
+    "duration": 3.72
+  },
+  {
+    "text": "right because I could have done this",
+    "start": 557.76,
+    "duration": 5.04
+  },
+  {
+    "text": "earlier and sent it a value which would",
+    "start": 559.98,
+    "duration": 4.62
+  },
+  {
+    "text": "have already taken care of this look",
+    "start": 562.8,
+    "duration": 3.36
+  },
+  {
+    "text": "ahead right and then I don't need to do",
+    "start": 564.6,
+    "duration": 3.66
+  },
+  {
+    "text": "one more look ahead here so that's the",
+    "start": 566.16,
+    "duration": 3.9
+  },
+  {
+    "text": "thing because we already had beta M",
+    "start": 568.26,
+    "duration": 3.24
+  },
+  {
+    "text": "naught so this quantity that you have",
+    "start": 570.06,
+    "duration": 4.32
+  },
+  {
+    "text": "here is beta M naught and I already had",
+    "start": 571.5,
+    "duration": 4.62
+  },
+  {
+    "text": "this at the previous iteration right so",
+    "start": 574.38,
+    "duration": 3.18
+  },
+  {
+    "text": "why am I doing this in the next",
+    "start": 576.12,
+    "duration": 2.94
+  },
+  {
+    "text": "iteration why am I coming up and",
+    "start": 577.56,
+    "duration": 3.6
+  },
+  {
+    "text": "Computing this in the next iteration",
+    "start": 579.06,
+    "duration": 4.14
+  },
+  {
+    "text": "here why am I doing it that's the",
+    "start": 581.16,
+    "duration": 3.54
+  },
+  {
+    "text": "question that we are trying to answer",
+    "start": 583.2,
+    "duration": 3.96
+  },
+  {
+    "text": "right so can we uh sorry I should have",
+    "start": 584.7,
+    "duration": 6.62
+  },
+  {
+    "text": "let me just go back",
+    "start": 587.16,
+    "duration": 4.16
+  },
+  {
+    "text": "sorry I Circle it the wrong so I'll",
+    "start": 593.04,
+    "duration": 3.6
+  },
+  {
+    "text": "start my expression again so when I'm",
+    "start": 595.019,
+    "duration": 3.901
+  },
+  {
+    "text": "Computing G1 I am doing this temporary",
+    "start": 596.64,
+    "duration": 3.96
+  },
+  {
+    "text": "computation which I don't want to do",
+    "start": 598.92,
+    "duration": 4.62
+  },
+  {
+    "text": "right and the what my argument is that",
+    "start": 600.6,
+    "duration": 5.94
+  },
+  {
+    "text": "at the previous time step I already had",
+    "start": 603.54,
+    "duration": 4.68
+  },
+  {
+    "text": "this beta m not right because that was",
+    "start": 606.54,
+    "duration": 3.239
+  },
+  {
+    "text": "already computed at the previous time",
+    "start": 608.22,
+    "duration": 3.78
+  },
+  {
+    "text": "step could I have done something at the",
+    "start": 609.779,
+    "duration": 4.321
+  },
+  {
+    "text": "previous time step and got an effective",
+    "start": 612.0,
+    "duration": 4.98
+  },
+  {
+    "text": "value of w which had already encompassed",
+    "start": 614.1,
+    "duration": 4.98
+  },
+  {
+    "text": "this beta I am not movement and then",
+    "start": 616.98,
+    "duration": 4.56
+  },
+  {
+    "text": "whatever w i get here I just compute the",
+    "start": 619.08,
+    "duration": 3.9
+  },
+  {
+    "text": "gradient of that right so I'm doing the",
+    "start": 621.54,
+    "duration": 3.419
+  },
+  {
+    "text": "liquid in advance and then sending it to",
+    "start": 622.98,
+    "duration": 3.96
+  },
+  {
+    "text": "the next time step that's the idea that",
+    "start": 624.959,
+    "duration": 6.921
+  },
+  {
+    "text": "we want to get to is it making sense",
+    "start": 626.94,
+    "duration": 4.94
+  },
+  {
+    "text": "so this is what we will do right so now",
+    "start": 633.42,
+    "duration": 5.7
+  },
+  {
+    "text": "we had W1 if you look at W1 minus beta M",
+    "start": 635.399,
+    "duration": 6.38
+  },
+  {
+    "text": "naught right",
+    "start": 639.12,
+    "duration": 2.659
+  },
+  {
+    "text": "so this is W1 minus beta M naught which",
+    "start": 642.0,
+    "duration": 4.32
+  },
+  {
+    "text": "is effectively this so you have what was",
+    "start": 644.279,
+    "duration": 6.18
+  },
+  {
+    "text": "W1 the way you computed uh W1 was you",
+    "start": 646.32,
+    "duration": 8.1
+  },
+  {
+    "text": "had started with W naught minus",
+    "start": 650.459,
+    "duration": 6.481
+  },
+  {
+    "text": "ETA times this lookahead gradient that",
+    "start": 654.42,
+    "duration": 4.979
+  },
+  {
+    "text": "you had computed and then you did this",
+    "start": 656.94,
+    "duration": 4.5
+  },
+  {
+    "text": "minus beta M naught right this is what",
+    "start": 659.399,
+    "duration": 5.041
+  },
+  {
+    "text": "you had done to get the value of uh uh",
+    "start": 661.44,
+    "duration": 5.1
+  },
+  {
+    "text": "uh so this is what was happening let's",
+    "start": 664.44,
+    "duration": 4.2
+  },
+  {
+    "text": "say if I do W 1 minus beta M naught this",
+    "start": 666.54,
+    "duration": 4.44
+  },
+  {
+    "text": "is what you will get and this already",
+    "start": 668.64,
+    "duration": 5.4
+  },
+  {
+    "text": "has this look ahead incorporated into",
+    "start": 670.98,
+    "duration": 4.56
+  },
+  {
+    "text": "this right which look ahead I was doing",
+    "start": 674.04,
+    "duration": 4.02
+  },
+  {
+    "text": "here what if I just do the look ahead in",
+    "start": 675.54,
+    "duration": 4.56
+  },
+  {
+    "text": "the previous iteration itself and when",
+    "start": 678.06,
+    "duration": 4.74
+  },
+  {
+    "text": "I'm Computing uh W1 what if I just put",
+    "start": 680.1,
+    "duration": 6.6
+  },
+  {
+    "text": "in this quantity also a over there",
+    "start": 682.8,
+    "duration": 6.5
+  },
+  {
+    "text": "foreign",
+    "start": 686.7,
+    "duration": 2.6
+  },
+  {
+    "text": "so now I am rewriting the equations and",
+    "start": 696.48,
+    "duration": 4.2
+  },
+  {
+    "text": "this is how I'm going to do when I",
+    "start": 699.12,
+    "duration": 3.42
+  },
+  {
+    "text": "compute GT plus 1 I'm just going to",
+    "start": 700.68,
+    "duration": 3.42
+  },
+  {
+    "text": "compute the derivative at the current",
+    "start": 702.54,
+    "duration": 3.18
+  },
+  {
+    "text": "value of w there is no look ahead",
+    "start": 704.1,
+    "duration": 3.78
+  },
+  {
+    "text": "happening here then I'm going to just",
+    "start": 705.72,
+    "duration": 5.52
+  },
+  {
+    "text": "compute the Mt plus 1 using the",
+    "start": 707.88,
+    "duration": 6.66
+  },
+  {
+    "text": "equations that I have okay and then I'm",
+    "start": 711.24,
+    "duration": 6.3
+  },
+  {
+    "text": "going to compute WT plus 1 as WT minus",
+    "start": 714.54,
+    "duration": 5.7
+  },
+  {
+    "text": "ETA so I have taken the look ahead value",
+    "start": 717.54,
+    "duration": 5.1
+  },
+  {
+    "text": "here and then the GT plus one right so",
+    "start": 720.24,
+    "duration": 4.08
+  },
+  {
+    "text": "now what the effectively what I'm doing",
+    "start": 722.64,
+    "duration": 4.759
+  },
+  {
+    "text": "is the following",
+    "start": 724.32,
+    "duration": 3.079
+  },
+  {
+    "text": "foreign",
+    "start": 728.519,
+    "duration": 3.0
+  },
+  {
+    "text": "I computed the look I had now look at is",
+    "start": 732.54,
+    "duration": 4.979
+  },
+  {
+    "text": "computed only at the momentum step which",
+    "start": 735.899,
+    "duration": 6.481
+  },
+  {
+    "text": "is Mt plus 1 and then I look at W1",
+    "start": 737.519,
+    "duration": 6.721
+  },
+  {
+    "text": "and I'm going to compute the look ahead",
+    "start": 742.38,
+    "duration": 3.66
+  },
+  {
+    "text": "of the gradient in the next time step",
+    "start": 744.24,
+    "duration": 3.12
+  },
+  {
+    "text": "right so I've just changed the time",
+    "start": 746.04,
+    "duration": 3.0
+  },
+  {
+    "text": "steps a bit now notice in my new",
+    "start": 747.36,
+    "duration": 5.46
+  },
+  {
+    "text": "equations uh there is no WT minus one",
+    "start": 749.04,
+    "duration": 5.52
+  },
+  {
+    "text": "right everything in terms of t and t",
+    "start": 752.82,
+    "duration": 3.959
+  },
+  {
+    "text": "plus 1 so an easier way to look at this",
+    "start": 754.56,
+    "duration": 4.38
+  },
+  {
+    "text": "is that if you have a while loop if you",
+    "start": 756.779,
+    "duration": 4.201
+  },
+  {
+    "text": "put one step outside the while loop",
+    "start": 758.94,
+    "duration": 3.959
+  },
+  {
+    "text": "right then all your computations go like",
+    "start": 760.98,
+    "duration": 4.14
+  },
+  {
+    "text": "one step behind that right so that's",
+    "start": 762.899,
+    "duration": 3.721
+  },
+  {
+    "text": "that's what you are doing here you're",
+    "start": 765.12,
+    "duration": 3.42
+  },
+  {
+    "text": "just doing the look ahead before and",
+    "start": 766.62,
+    "duration": 3.779
+  },
+  {
+    "text": "then coming into the while loop so then",
+    "start": 768.54,
+    "duration": 3.479
+  },
+  {
+    "text": "you don't have to do the look ahead here",
+    "start": 770.399,
+    "duration": 2.94
+  },
+  {
+    "text": "and that is simplifying all your",
+    "start": 772.019,
+    "duration": 3.661
+  },
+  {
+    "text": "computations because now T minus 1 is",
+    "start": 773.339,
+    "duration": 4.981
+  },
+  {
+    "text": "nowhere here at this point you are not",
+    "start": 775.68,
+    "duration": 5.04
+  },
+  {
+    "text": "Computing a temporary value of w you are",
+    "start": 778.32,
+    "duration": 4.56
+  },
+  {
+    "text": "just Computing a new value of w at one",
+    "start": 780.72,
+    "duration": 4.14
+  },
+  {
+    "text": "go in the previous case you had to",
+    "start": 782.88,
+    "duration": 4.5
+  },
+  {
+    "text": "compute a new value of w twice once for",
+    "start": 784.86,
+    "duration": 4.32
+  },
+  {
+    "text": "the temporary look ahead and then one",
+    "start": 787.38,
+    "duration": 3.54
+  },
+  {
+    "text": "more time when you are updating right in",
+    "start": 789.18,
+    "duration": 3.839
+  },
+  {
+    "text": "this equation now all this you have",
+    "start": 790.92,
+    "duration": 4.02
+  },
+  {
+    "text": "income passed into one single equation",
+    "start": 793.019,
+    "duration": 4.141
+  },
+  {
+    "text": "right so that's why you have Rewritten",
+    "start": 794.94,
+    "duration": 4.32
+  },
+  {
+    "text": "nag and the reason we're doing this is",
+    "start": 797.16,
+    "duration": 4.679
+  },
+  {
+    "text": "now based on this set of equations now",
+    "start": 799.26,
+    "duration": 4.199
+  },
+  {
+    "text": "these are the set of equations that we",
+    "start": 801.839,
+    "duration": 4.981
+  },
+  {
+    "text": "want to bring to Adam right and that",
+    "start": 803.459,
+    "duration": 5.521
+  },
+  {
+    "text": "then the update rule for Adam will look",
+    "start": 806.82,
+    "duration": 3.84
+  },
+  {
+    "text": "quite simpler",
+    "start": 808.98,
+    "duration": 3.24
+  },
+  {
+    "text": "so this is what the update rule for",
+    "start": 810.66,
+    "duration": 4.26
+  },
+  {
+    "text": "nadum is",
+    "start": 812.22,
+    "duration": 5.16
+  },
+  {
+    "text": "so you have the same thing as Adam this",
+    "start": 814.92,
+    "duration": 4.919
+  },
+  {
+    "text": "is also same as Adam this is also same",
+    "start": 817.38,
+    "duration": 4.5
+  },
+  {
+    "text": "as Adam this is also same as atom so",
+    "start": 819.839,
+    "duration": 3.781
+  },
+  {
+    "text": "nothing has changed so far the only",
+    "start": 821.88,
+    "duration": 4.8
+  },
+  {
+    "text": "thing now you have done is at this step",
+    "start": 823.62,
+    "duration": 5.76
+  },
+  {
+    "text": "you're doing the look ahead the we are",
+    "start": 826.68,
+    "duration": 4.8
+  },
+  {
+    "text": "updating basis on the history as well as",
+    "start": 829.38,
+    "duration": 3.6
+  },
+  {
+    "text": "the current gradient so for a minute",
+    "start": 831.48,
+    "duration": 3.599
+  },
+  {
+    "text": "let's just ignore",
+    "start": 832.98,
+    "duration": 4.859
+  },
+  {
+    "text": "this these quantities right so if you",
+    "start": 835.079,
+    "duration": 5.041
+  },
+  {
+    "text": "ignore these quantities your update rule",
+    "start": 837.839,
+    "duration": 5.341
+  },
+  {
+    "text": "is simply of WT minus ETA",
+    "start": 840.12,
+    "duration": 6.12
+  },
+  {
+    "text": "square root of VT plus 1 the bias",
+    "start": 843.18,
+    "duration": 6.959
+  },
+  {
+    "text": "corrected Value Plus Epsilon right into",
+    "start": 846.24,
+    "duration": 8.12
+  },
+  {
+    "text": "M hat t plus 1 plus",
+    "start": 850.139,
+    "duration": 8.281
+  },
+  {
+    "text": "Delta WT so here you have you're just",
+    "start": 854.36,
+    "duration": 5.8
+  },
+  {
+    "text": "taking the gradient at the current time",
+    "start": 858.42,
+    "duration": 3.96
+  },
+  {
+    "text": "step and the history now all the other",
+    "start": 860.16,
+    "duration": 4.02
+  },
+  {
+    "text": "multiplying factors that you see here",
+    "start": 862.38,
+    "duration": 5.759
+  },
+  {
+    "text": "those are coming so this is actually uh",
+    "start": 864.18,
+    "duration": 6.42
+  },
+  {
+    "text": "the uh yeah let me just make it Mt Plus",
+    "start": 868.139,
+    "duration": 3.481
+  },
+  {
+    "text": "1.",
+    "start": 870.6,
+    "duration": 4.2
+  },
+  {
+    "text": "now if this if I ever to bias correct it",
+    "start": 871.62,
+    "duration": 6.899
+  },
+  {
+    "text": "then I would divide it by 1 minus beta",
+    "start": 874.8,
+    "duration": 6.779
+  },
+  {
+    "text": "raised to t plus 1 and I'll have to do a",
+    "start": 878.519,
+    "duration": 5.221
+  },
+  {
+    "text": "similar bias correction here also well",
+    "start": 881.579,
+    "duration": 3.961
+  },
+  {
+    "text": "again divided by 1 minus beta raised to",
+    "start": 883.74,
+    "duration": 4.44
+  },
+  {
+    "text": "t plus 1 and then this beta and 1 minus",
+    "start": 885.54,
+    "duration": 5.099
+  },
+  {
+    "text": "beta are simply the contributions that I",
+    "start": 888.18,
+    "duration": 4.14
+  },
+  {
+    "text": "have for the history and the current",
+    "start": 890.639,
+    "duration": 4.38
+  },
+  {
+    "text": "gradient right so that's how I get it so",
+    "start": 892.32,
+    "duration": 6.3
+  },
+  {
+    "text": "it's a bit messy uh I I couldn't find a",
+    "start": 895.019,
+    "duration": 5.161
+  },
+  {
+    "text": "better way of explaining this if you",
+    "start": 898.62,
+    "duration": 3.68
+  },
+  {
+    "text": "have suggestions I'm open to using them",
+    "start": 900.18,
+    "duration": 4.86
+  },
+  {
+    "text": "but the main idea here is this the",
+    "start": 902.3,
+    "duration": 6.279
+  },
+  {
+    "text": "takeaway is this that you add the",
+    "start": 905.04,
+    "duration": 6.359
+  },
+  {
+    "text": "nestrov factor into the atom equations",
+    "start": 908.579,
+    "duration": 5.041
+  },
+  {
+    "text": "which means you do a look ahead and to",
+    "start": 911.399,
+    "duration": 4.261
+  },
+  {
+    "text": "make this look ahead a bit less Messier",
+    "start": 913.62,
+    "duration": 4.68
+  },
+  {
+    "text": "in terms of writing and making sure that",
+    "start": 915.66,
+    "duration": 4.679
+  },
+  {
+    "text": "most of your equations are same as atom",
+    "start": 918.3,
+    "duration": 3.779
+  },
+  {
+    "text": "and you just push your head into the",
+    "start": 920.339,
+    "duration": 4.341
+  },
+  {
+    "text": "last look ahead into the last equation",
+    "start": 922.079,
+    "duration": 6.0
+  },
+  {
+    "text": "uh we did that rewriting of Nag and we",
+    "start": 924.68,
+    "duration": 5.2
+  },
+  {
+    "text": "just explained that instead of doing",
+    "start": 928.079,
+    "duration": 4.26
+  },
+  {
+    "text": "something at T minus 1 then t and t plus",
+    "start": 929.88,
+    "duration": 4.259
+  },
+  {
+    "text": "1 we had everything in terms of t and t",
+    "start": 932.339,
+    "duration": 3.781
+  },
+  {
+    "text": "plus one so the look ahead was already",
+    "start": 934.139,
+    "duration": 4.081
+  },
+  {
+    "text": "done before I went to the next iteration",
+    "start": 936.12,
+    "duration": 4.14
+  },
+  {
+    "text": "hence I did not need to do a look ahead",
+    "start": 938.22,
+    "duration": 3.78
+  },
+  {
+    "text": "again in the next iteration right and",
+    "start": 940.26,
+    "duration": 3.66
+  },
+  {
+    "text": "once you understand that then this",
+    "start": 942.0,
+    "duration": 4.98
+  },
+  {
+    "text": "equation is just the just a",
+    "start": 943.92,
+    "duration": 4.74
+  },
+  {
+    "text": "manifestation of that and the all the",
+    "start": 946.98,
+    "duration": 3.719
+  },
+  {
+    "text": "one minus beta beta terms that you see",
+    "start": 948.66,
+    "duration": 4.44
+  },
+  {
+    "text": "here now let me just clear the all the",
+    "start": 950.699,
+    "duration": 4.38
+  },
+  {
+    "text": "annotations these are simply because",
+    "start": 953.1,
+    "duration": 4.38
+  },
+  {
+    "text": "when we are doing nag or when we are",
+    "start": 955.079,
+    "duration": 3.781
+  },
+  {
+    "text": "discussing whatever we discussed before",
+    "start": 957.48,
+    "duration": 3.24
+  },
+  {
+    "text": "coming to this slide we did not have",
+    "start": 958.86,
+    "duration": 3.96
+  },
+  {
+    "text": "this one minus beta terms and this one",
+    "start": 960.72,
+    "duration": 3.96
+  },
+  {
+    "text": "minus beta term shows up here and the",
+    "start": 962.82,
+    "duration": 3.72
+  },
+  {
+    "text": "beta term shows up here and the",
+    "start": 964.68,
+    "duration": 3.48
+  },
+  {
+    "text": "denominator is simply corresponding to",
+    "start": 966.54,
+    "duration": 4.02
+  },
+  {
+    "text": "the bias correction that we do right so",
+    "start": 968.16,
+    "duration": 5.34
+  },
+  {
+    "text": "so that's that's all about madame",
+    "start": 970.56,
+    "duration": 5.16
+  },
+  {
+    "text": "and now let's see how it works in",
+    "start": 973.5,
+    "duration": 3.66
+  },
+  {
+    "text": "practice so",
+    "start": 975.72,
+    "duration": 3.179
+  },
+  {
+    "text": "look at an example",
+    "start": 977.16,
+    "duration": 4.58
+  },
+  {
+    "text": "uh",
+    "start": 978.899,
+    "duration": 2.841
+  },
+  {
+    "text": "yeah so I'll just run it",
+    "start": 992.339,
+    "duration": 5.581
+  },
+  {
+    "text": "and you can see the same nestro effect",
+    "start": 994.88,
+    "duration": 5.079
+  },
+  {
+    "text": "here right so the blue curve corresponds",
+    "start": 997.92,
+    "duration": 4.5
+  },
+  {
+    "text": "to an atom and I'll just run it again",
+    "start": 999.959,
+    "duration": 5.421
+  },
+  {
+    "text": "for your benefit",
+    "start": 1002.42,
+    "duration": 2.96
+  },
+  {
+    "text": "you can see that the blue curve has",
+    "start": 1007.759,
+    "duration": 4.32
+  },
+  {
+    "text": "smaller oscillations as compared to the",
+    "start": 1009.98,
+    "duration": 3.299
+  },
+  {
+    "text": "black curve and that's the natural",
+    "start": 1012.079,
+    "duration": 4.2
+  },
+  {
+    "text": "effect that you were hoping for right so",
+    "start": 1013.279,
+    "duration": 6.12
+  },
+  {
+    "text": "that's that's all about madame uh so now",
+    "start": 1016.279,
+    "duration": 7.4
+  },
+  {
+    "text": "which Optimizer to use I think uh",
+    "start": 1019.399,
+    "duration": 7.741
+  },
+  {
+    "text": "uh the most common I guess the default",
+    "start": 1023.679,
+    "duration": 5.561
+  },
+  {
+    "text": "one that I have seen in most papers is",
+    "start": 1027.14,
+    "duration": 4.559
+  },
+  {
+    "text": "Adam if you don't know anything maybe",
+    "start": 1029.24,
+    "duration": 4.8
+  },
+  {
+    "text": "just go with Adam however there are",
+    "start": 1031.699,
+    "duration": 4.38
+  },
+  {
+    "text": "recent Works which are not so recent",
+    "start": 1034.04,
+    "duration": 3.6
+  },
+  {
+    "text": "also there also three to four years old",
+    "start": 1036.079,
+    "duration": 4.561
+  },
+  {
+    "text": "now which do point out some issues with",
+    "start": 1037.64,
+    "duration": 5.699
+  },
+  {
+    "text": "Adam still by far at least for all the",
+    "start": 1040.64,
+    "duration": 5.159
+  },
+  {
+    "text": "Practical work that I've seen Adam seems",
+    "start": 1043.339,
+    "duration": 4.921
+  },
+  {
+    "text": "to be a very common choice and if not",
+    "start": 1045.799,
+    "duration": 4.5
+  },
+  {
+    "text": "Adam one of the variants of Adam right",
+    "start": 1048.26,
+    "duration": 5.039
+  },
+  {
+    "text": "maybe an Adam or uh yeah I think Madame",
+    "start": 1050.299,
+    "duration": 5.581
+  },
+  {
+    "text": "is another good choice right so uh if",
+    "start": 1053.299,
+    "duration": 4.141
+  },
+  {
+    "text": "you don't if you're a new learner just",
+    "start": 1055.88,
+    "duration": 2.88
+  },
+  {
+    "text": "use off-the-shelf optimization",
+    "start": 1057.44,
+    "duration": 3.72
+  },
+  {
+    "text": "optimizers and or Adam is as good a",
+    "start": 1058.76,
+    "duration": 5.34
+  },
+  {
+    "text": "choice as any and some of them you could",
+    "start": 1061.16,
+    "duration": 5.34
+  },
+  {
+    "text": "then practice a bit more so people have",
+    "start": 1064.1,
+    "duration": 4.98
+  },
+  {
+    "text": "reported that just using gradient",
+    "start": 1066.5,
+    "duration": 5.64
+  },
+  {
+    "text": "descent and then using or maybe momentum",
+    "start": 1069.08,
+    "duration": 4.68
+  },
+  {
+    "text": "based gradient descent and then really",
+    "start": 1072.14,
+    "duration": 3.72
+  },
+  {
+    "text": "knowing how to set the learning rate",
+    "start": 1073.76,
+    "duration": 4.08
+  },
+  {
+    "text": "initial learning rate how to set the",
+    "start": 1075.86,
+    "duration": 5.16
+  },
+  {
+    "text": "momentum value how to set the learning",
+    "start": 1077.84,
+    "duration": 5.219
+  },
+  {
+    "text": "rate schedule if they know all of these",
+    "start": 1081.02,
+    "duration": 4.68
+  },
+  {
+    "text": "well then they're able to get as good",
+    "start": 1083.059,
+    "duration": 4.681
+  },
+  {
+    "text": "results as Adam right but it takes a",
+    "start": 1085.7,
+    "duration": 3.599
+  },
+  {
+    "text": "while to get that kind of an expertise",
+    "start": 1087.74,
+    "duration": 4.26
+  },
+  {
+    "text": "in that absence of that uh just using",
+    "start": 1089.299,
+    "duration": 4.681
+  },
+  {
+    "text": "Adam simply off the shelf might be a",
+    "start": 1092.0,
+    "duration": 4.44
+  },
+  {
+    "text": "good choice to use okay so that's all we",
+    "start": 1093.98,
+    "duration": 5.04
+  },
+  {
+    "text": "had on the different uh optimizers to",
+    "start": 1096.44,
+    "duration": 4.8
+  },
+  {
+    "text": "use now I'll just spend some more time",
+    "start": 1099.02,
+    "duration": 4.86
+  },
+  {
+    "text": "on talking about learning rate schedules",
+    "start": 1101.24,
+    "duration": 4.88
+  },
+  {
+    "text": "okay",
+    "start": 1103.88,
+    "duration": 2.24
+  }
+]

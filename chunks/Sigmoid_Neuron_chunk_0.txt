@@ -1,0 +1,8 @@
+foreign [Music] neurons gradient descent feed forward neural networks and representation power of feed forward neural networks right so uh.
+before I begin just a quick set of acknowledgments so for module 3.4 I have borrowed ideas from the videos.
+of Ryan Harris on visualizing back propagation these are available on YouTube and linked on the slide here and for.
+module 3.4 I have borrowed ideas from this excellent book which is set in the see in the footer which.
+is again available online and I'm sure I've taken ideas and been influenced by material elsewhere so I apologize if.
+I have failed to acknowledge them and if you find anything that I should acknowledge please let me know I'll.
+add it to the slides okay so let's start with the first module uh which is on sigmoid neurons right.
+so where are we right now and what is the story ahead they just get that picture clear and then.

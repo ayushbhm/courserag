@@ -1,0 +1,10 @@
+in this stochasticity so can you combine these two ideas and try to come up with a different activation function.
+and that's where we are headed so how about writing the following right that I have an activation function which.
+is M into X right and now m is a Bernoulli random variable so that means uh M takes on.
+the value 0 or 1 with probability Phi X right so when I say I think you're used to this.
+Bernoulli um of P which means that with probability P the output would be heads or 1 and with probability.
+1 minus P the output would be Tails or zero right so now instead of P the parameter is Phi.
+X and Phi X is itself a function of uh the input right so that's how you are setting up.
+the activation function and now what could this Phi X be right so let's make some observations this Phi X.
+is supposed to be a probability right because it has to be the probability of heads or probability of one.
+so it should lie between 0 to 1. right so that's the idea the Phi of x should lie between.

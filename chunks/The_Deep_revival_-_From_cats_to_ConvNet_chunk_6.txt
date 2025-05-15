@@ -1,0 +1,8 @@
+as convolutional neural networks or the Deep learning way of doing things right and similar uh inroads also started happening.
+in the field of NLP and speech right slowly deep neural networks started penetrating and overtaking or rather replacing all.
+the older methods right so this is like the golden period where everyone of course maybe you could say that.
+the golden period is now where even just talks about deep learning and nothing else but this is the time.
+where the real boom or the shift happened and you could talk of this as a transition uh period 2012.
+to 2016 right so while we are talking about the success on image Network right what image net data set.
+the key deep Learning Network there was what are known as convolutional neural networks and this section is interestingly titled.
+as from cats to convolutional neural networks so let's see if I use that title so again going back 1959.

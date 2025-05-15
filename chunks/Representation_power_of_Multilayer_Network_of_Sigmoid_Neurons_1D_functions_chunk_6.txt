@@ -1,0 +1,9 @@
+develop during this lecture okay so now let me just delete this and let me just put it on the.
+slides so in other words I'm just going to read it out as it is in other words there's a.
+guarantee that for any function f of x that's what I was showing that is a function which takes an.
+N variable input and produces an M variable output in my example uh sorry M dimensional output in my example.
+M was just one right I was just producing a single dimensional output we can always find a neural network.
+with one single hidden layer and many neurons right I don't know how many neurons it would have but I.
+can find a network with a with a single hidden layer and a large number of neurons such that the.
+output would always satisfy this condition right now this is a very very powerful theorem right and this is what.
+uh makes deep learning so attractor right so what is it saying right we are take any complex reliable function.

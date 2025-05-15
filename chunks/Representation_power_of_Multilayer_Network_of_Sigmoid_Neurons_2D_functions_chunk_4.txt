@@ -1,0 +1,10 @@
+and then a bias right so now let's adjust a w1 and see what happens so if i increase w1.
+right again as i keep you can see that as i keep increasing i'll do okay maybe i'll just use.
+the yeah this is better so it's flat at zero and as i increase it starts becoming s right now.
+the slope is very gentle right and as i keep increasing the value of w it becomes steep and steep.
+till it becomes like a step function right so this w1 controls the uh movement in this direction right the.
+slope in this direction okay now let's see what w2 does and for that i'll again make w one as.
+zero okay and i'll start increasing w two you can see that w two is adjusting the slope in the.
+other orientation right oh coordination so now what w 2 is doing is it's adjusting the slope in this direction.
+right so as i keep increasing w 2 now oops as i keep increasing it it will become flatter and.
+flatter in this direction right and now you can see b again just helps in movement along the direction right.

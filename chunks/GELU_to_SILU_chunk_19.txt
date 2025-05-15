@@ -1,0 +1,9 @@
+the generic form which is parametric is called Swish and if you set it to a specific value then you.
+get the gelu activation function right and so so we call this one as swish we call the specific instance.
+as gelu now there's what would we just call X Sigma x i so this is a specific case where.
+beta is equal to 1 and this is called the silu which is sigmoid weighted linear unit right so you.
+have the uh linear unit here and then you have the sigmoid weighted so that's what silu is uh so.
+many activation functions right so we have seen quite a few now uh let me just three calls sigmoid tan.
+H relu then we had leaky relu then we had parametric relu then we had elu then we had max.
+out then we had gelu then we came to swish which was a generalization of gelu then we again saw.
+silu which is yet another specialization of glue so this kind of covers all the popular activation functions that are.

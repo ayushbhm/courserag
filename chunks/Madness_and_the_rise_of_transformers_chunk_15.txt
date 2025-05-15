@@ -1,0 +1,9 @@
+for humans brains it has 10 to 15 synapses right on these synapses i would roughly equate them to the.
+number of weights that are there in a neural network right if i used to if i were to take.
+the brain analogy of neurons and how the neurons are connected and then apply it to the neural network analogy.
+of artificial neurons and weights between neurons or weights connecting neurons then then synapses would correspond to the number of.
+parameters that a model has right so we had this transformer model the first model which came out 2017 it.
+had roughly 400 mil 400 million parameters so that's where it would fall on the axis just to the left.
+of honeybee then came the 1.5 billion parameter model gpt 2 then you had the 10 billion megatron uh model.
+then you have the 175 billion gpd3 model and you have the 1.1 trillion g shard model right which is.
+for translation and then you have this recent 1.6 trillion parameter model uh which is the switch model right which.

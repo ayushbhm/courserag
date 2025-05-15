@@ -1,0 +1,10 @@
+right so that's what we'll focus on okay so let's start so before that right so let's try to see.
+what we are where we are headed right so this is our hidden layer okay this is the activation at.
+the hidden layer so in particular this is say h to 2 because is the second hidden layer and the.
+second neuron in the second hidden layer and I want to take the derivative of the loss function with respect.
+to H22 and what this diagram is saying that there are multiple paths from the loss function to this H2.
+2 right that's what it is saying and there is some significance of that so what we'll try to do.
+right um suppose I have variable Z okay and I compute say one function of Z right and let me.
+call the function as q1 and suppose Q 1 of Z is just Z squared okay so I compute that.
+so I've computed uh q1 of Z from Z similarly I say have another function right say Q2 of Z.
+let that be Z Cube and I have computed that also from Z right and then let me have say.

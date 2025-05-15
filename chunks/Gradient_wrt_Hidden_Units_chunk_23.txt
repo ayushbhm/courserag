@@ -1,0 +1,10 @@
+here here okay and what would that be that would be the derivative of the loss function I've already computed.
+till here so then I can just use that part as it is and then the derivative of H I.
+J with respect to a i j right and remember that uh how did we compute the edges so this.
+is suppose I look at H2 I had h21 H22 H2 3 and how did I compute that I had.
+computed that from the a vector and there was a one-to-one correspondence right so H22 was just the G function.
+applied to a22 h21 was just the G function applied to a to 1 and h23 was just the G.
+function applied to a to 3. so if I am trying to compute the derivative of H I J with.
+respect to a i j it's just the derivative of this G function that I had used right so I'm.
+just trying to compute the derivative of this with respect to a i j I'm just going to call that.
+as G Dash right because it could be any function but I am just taking the derivative so this is.

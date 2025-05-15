@@ -1,0 +1,9 @@
+it you can you can understand that this is like a conditional distribution that you're trying to model and they.
+came up with a model of how to how to do this right and also there were a lot of.
+inference challenges in the process and they proposed various techniques for doing that and this model right which is quite.
+a revolution at that time uh dominated nlp for the next 20 years right 1993 to almost 2012 13 till.
+deep learning uh eventually took over right and so the first uh i mean of course deep learning in small.
+ways was there before there were these word vectors and other things ah but the sequence to sequence model right.
+which was introduced sequence to sequence with attention right and if i may i think attention was perhaps the idea.
+of the decay right and it led to a paradigm shift in nlp uh which i showed in a era.
+of like very big models very data hungry models and also pushed the boundary in terms of the performance of.

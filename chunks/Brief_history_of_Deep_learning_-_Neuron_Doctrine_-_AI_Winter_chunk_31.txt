@@ -1,0 +1,8 @@
+better right so this is a real breakthrough that was there and after this of course nothing changed right but.
+for nothing changed much in the sense that people realize okay there is a lot of power in deep neural.
+networks but for the next uh 20 years or so or maybe 17 18 years on the back of these.
+two discoveries one is back propagation which allows you to train deep neural networks and the other is this universal.
+approximation theorem which says that there is value in training deep neural networks because then you can approximate arbitrary real.
+world functions uh people try to apply these ideas right to real world problems but what they notice is that.
+training a multi-layer network of neurons using back propagation is not very stable and it often does not lead to.
+convergence so while in theory you can use back propagation while in theory you can approximate any function but in.

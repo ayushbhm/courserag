@@ -1,0 +1,9 @@
+parts here right which are labeled as v1 v2 uh v4 right and i'll tell you a bit about uh.
+what they do right again a very simplified uh explanation of what they try to do right so here layer.
+one might just be responsible for detecting edges and corners so i'm looking at people sitting in front of me.
+and this layer might just tell me okay there are some dots there are some edges and that's all that's.
+all the information it will process i'll pass on this information to the next layer and this next layer might.
+now start looking at this information in a more organized or grouped manner that there are feature groups or these.
+two edges together seem to form a nose these two edges together seem to form eyes and these two sorry.
+these two edges form a mouth and these two dots were actually eyes and the next layer might again look.
+at bigger objects coming out from these smaller groups here all of these combine to make a face actually right.

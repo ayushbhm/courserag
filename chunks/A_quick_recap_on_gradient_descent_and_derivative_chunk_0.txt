@@ -1,0 +1,9 @@
+foreign [Music] welcome back so we we cover are we currently right so we started with a simple Network which.
+was only one neuron and he had two weights W and B and today for the first five ten minutes.
+I'll actually revisit that and we'll you learn about the gradient descent algorithm for learning the parameters of this simple.
+Network right and then we took this idea and went to a more complex setup when instead of a single.
+one neurons with just two weights wnb we had a very deep neural network with many arbitrary number of hidden.
+layers and arbitrary number of neurons in each layer and we saw that the same gradient descent algorithm we could.
+extend it for this complex case also using what is known as back propagation and black propagation is essentially about.
+Computing the gradients or the partial derivatives or of the loss function with respect to the parameters in an efficient.
+manner right and we saw that we just move one layer at a time in the backward Direction in so.

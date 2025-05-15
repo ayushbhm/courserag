@@ -1,0 +1,10 @@
+1 x 1 right plus w 2 x 2 plus w naught equal to zero so this is the equation.
+of a line which is analogous to this equation that i have and all i am saying is that any.
+point which lies on this line satisfies this equation and that's a trivial statement to me now what can you.
+tell us about the angle between any such point right and the vector w so first of all we have.
+to again realize that both x and w are vectors and that's exact precisely what is defined here so now.
+i can ask this question and i am saying that any point which lies on the slice satisfies this equation.
+so then if it satisfies this equation what can you say about the angle between the point and the vector.
+w if it satisfies the equation w transpose equal to zero that means these two vectors are orthogonal we know.
+that from linear algebra so the angle is going to be 90 degrees right and because we know that cos.
+of the angle is equal to this formula and if w transpose x is 0 so the cos of the.

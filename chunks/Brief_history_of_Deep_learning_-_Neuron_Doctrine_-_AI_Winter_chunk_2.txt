@@ -1,0 +1,9 @@
+over the years okay so with that uh primer let me just start so as i was trying to say.
+that when we talk about deep learning uh we're talking about neural networks and at least we hear that keep.
+hearing that a lot of inspiration comes from the biological neurons or at least we are also currently uh still.
+striving right to try to understand how the brain does things and maybe come up with models of that right.
+so let's start that history uh from biology actually and we go back uh quite a bit of quite a.
+few years 150 years in time uh to around 1871 right and this was a time when people are trying.
+to understand what does our nervous system look like right and joseph von gerlach who was one of the researchers.
+or scientists in this field he came up with this idea that our nervous system is a continuous network right.
+as opposed to being composed of various discrete cells which are connected to each other right and this view of.

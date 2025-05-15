@@ -1,0 +1,10 @@
+just constructed the single set which is a collection of all the points for which the only condition that i.
+need to satisfy now is w transpose p should be greater than equal to zero for all the points in.
+p prime where p prime is as defined on this slide right so just a simple change nothing uh great.
+here right this will just uh simplify some of the proof that some of the steps in the proof right.
+okay so i'll start with the algorithm so p is all the inputs with label one n is all the.
+inputs with label zero n is this negative of and minus is the set which contains the negations of all.
+points in n and now i'm defining p prime as a union of p and n minus right and now.
+i'm going to initialize w randomly again i'll have this convergence condition and what i'm going to do i'm going.
+to pick up a random p a random point belonging to p prime where p prime is the union defined.
+above so what am i going to do till it does not converge i'm going to pick up a random.

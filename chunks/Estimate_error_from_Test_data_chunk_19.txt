@@ -1,0 +1,9 @@
+actually very close to the empirical test error so if this is what your estimate is going to be then.
+you are not making a very ah large gap right because there is just plus a small constant right that.
+is what we derived here because it was the sum of this quantity plus this quantity plus this quantity we.
+proved that this quantity is 0 this is a small constant so if I were to expect if if I.
+were to estimate the true error using the test data then my uh exp my up my estimation is actually.
+very good right so if I compute the error from the test data then I'm actually very close to the.
+true error right ah now let's see what happens if we had to estimate the error from the training data.
+so that's why whenever you want to estimate the model so now you have trained the model and you want.
+to see how good the model is it does not make sense as I'll show soon to estimate it from.

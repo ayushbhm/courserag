@@ -1,0 +1,9 @@
+for translation and then you have this recent 1.6 trillion parameter model uh which is the switch model right which.
+is like slightly the to the to the right of ah mouse now so in terms of of course these.
+are just for the sake of formulative it doesn't i mean the analogy only holds from the point of view.
+of drawing a diagram of brains of living organisms are quite more complex and capable of doing much more things.
+but if i was just to uh have fun with this then this is where we are in terms of.
+evolution of neural networks right and this model was strained on 2048 tpus it is an insane amount of compute.
+that is being used and insane amount of model size that has been used okay so this this was to.
+kind of tell you about the era of transformers that we have if we have entered since 2017 where models.
+are getting bigger and bigger and bigger and of course it's also reflecting in the performance of these models is.

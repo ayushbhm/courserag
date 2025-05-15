@@ -1,0 +1,9 @@
+can hold it just as i can add two dimensional vectors or subtract one vector from another i can do.
+the same for these very large dimensional vectors also right so you can still use the same algorithm for learning.
+the parameters of our model except that now earlier remember there were only these two quantities and we still had.
+to derive this side we still had derived painfully what is the equation or what is the expression for the.
+derivative of the loss function with respect to w what is the expression for the derivative of the loss function.
+with respect to b and then substituted values in that right so we still have to do that computation right.
+so it's just that our gradient of del theta now looks like a very very big vector and we should.
+know how to compute every quantity in this vector right and we did this for those two simple values w.
+and b and that itself was quite a bit of a derivation so our quest would be somehow come up.

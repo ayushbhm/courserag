@@ -1,0 +1,9 @@
+uh how these different blocks interact what exactly is there in each of these blocks is something that we'll have.
+to study and that's what the focus of the next uh half an hour to one hour would be right.
+so before we focus on the differences right this clearly looks at least in the diagram a bit different from.
+the recurrent neural network architecture or The Recoil neural network with attention architecture that we were used to uh there's.
+still some similarities which come out right and I'll tell you the few easy ones right the input is still.
+given to me fully right and the output again will be produced one word at a time right the other.
+uh similarity is that in RN and also I had said that at the input you could just feed in.
+your uh favorite uh word Vector so for word embedding so you have again your feeding word embeddings and this.
+block right if I were to look at it as an encoder as same as what I had in the.

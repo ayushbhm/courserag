@@ -1,0 +1,8 @@
+time as the ai winter right so this also contributed to that saying that hey all this hype is not.
+really meaningful and we should look at other ways of solving this problem or maybe the time is not even.
+right for looking at these problems right but research in machine translation continued this era was largely the yellow era.
+that i have shown here on the timeline was largely the rule-based era of rule-based systems then around 1990s came.
+what are known as the ibm models for machine translation which were probabilistic models right so they cast this entire.
+problem of translation as the probability of finding the french sequence given an english sequence and the way i'm saying.
+it you can you can understand that this is like a conditional distribution that you're trying to model and they.
+came up with a model of how to how to do this right and also there were a lot of.

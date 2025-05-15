@@ -1,0 +1,10 @@
+that all these layers the hidden layers have n neurons so remember that a1 is also rn right and just.
+to clarify this is a11 this is a12 all the way up to a 1 n similarly this is a.
+2 1 a 2 2 all the way up to a to n right and the same analogy for h.
+every a has a corresponding edge so just as you have a 2 1 a 2 up to a 2.
+n you'll have h 2 1 h 2 2 up to h 2 n right so these are vectors in.
+this case they are vectors belonging to rn okay the input layer can be called the zeroth layer and the.
+output layer can be called the l3 right so you have layer 0 hidden layer 1 hidden layer 2 and.
+then the output layer i'm going a bit slow about this i'm being very deliberate about every statement that i'm.
+making because this is something that will stay with us for the rest of the course so these small things.
+that okay the input layer is actually layer 0 the output layer is actually layer uh l is something that.

@@ -1,0 +1,2052 @@
+[
+  {
+    "text": "foreign",
+    "start": 0.299,
+    "duration": 3.0
+  },
+  {
+    "text": "[Music]",
+    "start": 6.62,
+    "duration": 16.6
+  },
+  {
+    "text": "let's go ahead with our original goal",
+    "start": 20.539,
+    "duration": 6.461
+  },
+  {
+    "text": "right which was to find that Delta Theta",
+    "start": 23.22,
+    "duration": 6.54
+  },
+  {
+    "text": "which is good now what do we mean by",
+    "start": 27.0,
+    "duration": 4.619
+  },
+  {
+    "text": "good is something that we discover now",
+    "start": 29.76,
+    "duration": 4.38
+  },
+  {
+    "text": "right so for ease of notation let's just",
+    "start": 31.619,
+    "duration": 4.261
+  },
+  {
+    "text": "call that Delta Theta by U I don't want",
+    "start": 34.14,
+    "duration": 4.56
+  },
+  {
+    "text": "to write this Delta Theta every time so",
+    "start": 35.88,
+    "duration": 5.76
+  },
+  {
+    "text": "then from Taylor series we have the",
+    "start": 38.7,
+    "duration": 6.06
+  },
+  {
+    "text": "following right that we have uh L of",
+    "start": 41.64,
+    "duration": 4.739
+  },
+  {
+    "text": "theta",
+    "start": 44.76,
+    "duration": 5.22
+  },
+  {
+    "text": "plus and it's this is where that Epsilon",
+    "start": 46.379,
+    "duration": 5.52
+  },
+  {
+    "text": "comes into play right I was saying that",
+    "start": 49.98,
+    "duration": 4.259
+  },
+  {
+    "text": "we want the",
+    "start": 51.899,
+    "duration": 5.041
+  },
+  {
+    "text": "difference to be small right so I am at",
+    "start": 54.239,
+    "duration": 6.12
+  },
+  {
+    "text": "some point Theta and this is some point",
+    "start": 56.94,
+    "duration": 5.279
+  },
+  {
+    "text": "Theta Nu",
+    "start": 60.359,
+    "duration": 4.861
+  },
+  {
+    "text": "right this is what this point is and I'm",
+    "start": 62.219,
+    "duration": 5.461
+  },
+  {
+    "text": "saying that it's just a small distance",
+    "start": 65.22,
+    "duration": 4.079
+  },
+  {
+    "text": "away",
+    "start": 67.68,
+    "duration": 3.6
+  },
+  {
+    "text": "and this is where this ETA is important",
+    "start": 69.299,
+    "duration": 3.36
+  },
+  {
+    "text": "right it makes sure that the distance is",
+    "start": 71.28,
+    "duration": 2.519
+  },
+  {
+    "text": "small because we know that the",
+    "start": 72.659,
+    "duration": 3.0
+  },
+  {
+    "text": "approximations are good in the small",
+    "start": 73.799,
+    "duration": 6.801
+  },
+  {
+    "text": "neighborhood okay now this is L Theta",
+    "start": 75.659,
+    "duration": 4.941
+  },
+  {
+    "text": "now what are these other terms here",
+    "start": 80.64,
+    "duration": 3.54
+  },
+  {
+    "text": "right this ETA is fine right that's our",
+    "start": 82.32,
+    "duration": 4.619
+  },
+  {
+    "text": "small uh that multiplication will keep",
+    "start": 84.18,
+    "duration": 7.399
+  },
+  {
+    "text": "happening everywhere now this here",
+    "start": 86.939,
+    "duration": 4.64
+  },
+  {
+    "text": "is that seems to be the dot product uh",
+    "start": 91.799,
+    "duration": 5.881
+  },
+  {
+    "text": "between two quantities right now you I",
+    "start": 94.68,
+    "duration": 4.86
+  },
+  {
+    "text": "have already defined here right U is the",
+    "start": 97.68,
+    "duration": 3.299
+  },
+  {
+    "text": "change that we want to make so that's",
+    "start": 99.54,
+    "duration": 3.78
+  },
+  {
+    "text": "nothing much to explain there but what",
+    "start": 100.979,
+    "duration": 4.261
+  },
+  {
+    "text": "is this other quantity that you see here",
+    "start": 103.32,
+    "duration": 3.54
+  },
+  {
+    "text": "and let me just underline it with a",
+    "start": 105.24,
+    "duration": 3.659
+  },
+  {
+    "text": "different color so this quantity so",
+    "start": 106.86,
+    "duration": 3.6
+  },
+  {
+    "text": "we'll try to figure out what that",
+    "start": 108.899,
+    "duration": 3.981
+  },
+  {
+    "text": "quantity is so let me clear up the slide",
+    "start": 110.46,
+    "duration": 6.24
+  },
+  {
+    "text": "now what that is is the gradient right",
+    "start": 112.88,
+    "duration": 4.96
+  },
+  {
+    "text": "and that's where the name gradient",
+    "start": 116.7,
+    "duration": 3.239
+  },
+  {
+    "text": "descent comes from but let's try to",
+    "start": 117.84,
+    "duration": 4.52
+  },
+  {
+    "text": "understand what that gradient is right",
+    "start": 119.939,
+    "duration": 4.741
+  },
+  {
+    "text": "so now if you have a function right",
+    "start": 122.36,
+    "duration": 4.899
+  },
+  {
+    "text": "let's say x square",
+    "start": 124.68,
+    "duration": 6.12
+  },
+  {
+    "text": "okay I have y is equal to x square then",
+    "start": 127.259,
+    "duration": 6.06
+  },
+  {
+    "text": "I know that d y",
+    "start": 130.8,
+    "duration": 5.82
+  },
+  {
+    "text": "d x this is called the derivative all of",
+    "start": 133.319,
+    "duration": 5.341
+  },
+  {
+    "text": "you know this from high school which is",
+    "start": 136.62,
+    "duration": 4.02
+  },
+  {
+    "text": "2x right so this is fine this everyone",
+    "start": 138.66,
+    "duration": 5.52
+  },
+  {
+    "text": "knows right but now suppose I have a",
+    "start": 140.64,
+    "duration": 5.76
+  },
+  {
+    "text": "function y",
+    "start": 144.18,
+    "duration": 6.96
+  },
+  {
+    "text": "is equal to W square plus b square right",
+    "start": 146.4,
+    "duration": 8.1
+  },
+  {
+    "text": "now this is a function of two variables",
+    "start": 151.14,
+    "duration": 6.72
+  },
+  {
+    "text": "so now I can say and node is a change in",
+    "start": 154.5,
+    "duration": 6.0
+  },
+  {
+    "text": "notation right",
+    "start": 157.86,
+    "duration": 5.58
+  },
+  {
+    "text": "it's not D now it's do",
+    "start": 160.5,
+    "duration": 5.28
+  },
+  {
+    "text": "is 2W",
+    "start": 163.44,
+    "duration": 4.86
+  },
+  {
+    "text": "and dou Y",
+    "start": 165.78,
+    "duration": 6.06
+  },
+  {
+    "text": "by dou B it is 2 b",
+    "start": 168.3,
+    "duration": 5.28
+  },
+  {
+    "text": "and what have I done here this is known",
+    "start": 171.84,
+    "duration": 4.14
+  },
+  {
+    "text": "as the partial derivative so I have",
+    "start": 173.58,
+    "duration": 4.379
+  },
+  {
+    "text": "taken the partial derivative of this",
+    "start": 175.98,
+    "duration": 4.38
+  },
+  {
+    "text": "function once with respect to W the",
+    "start": 177.959,
+    "duration": 3.661
+  },
+  {
+    "text": "other time with respect to B because",
+    "start": 180.36,
+    "duration": 2.94
+  },
+  {
+    "text": "these are the two variables on which the",
+    "start": 181.62,
+    "duration": 4.08
+  },
+  {
+    "text": "function depends right so these are the",
+    "start": 183.3,
+    "duration": 4.62
+  },
+  {
+    "text": "partial derivatives so this is",
+    "start": 185.7,
+    "duration": 3.72
+  },
+  {
+    "text": "derivative when you have a single",
+    "start": 187.92,
+    "duration": 3.66
+  },
+  {
+    "text": "variable function these are partial",
+    "start": 189.42,
+    "duration": 3.959
+  },
+  {
+    "text": "derivatives when you have a multi",
+    "start": 191.58,
+    "duration": 3.72
+  },
+  {
+    "text": "variable function and you're just taking",
+    "start": 193.379,
+    "duration": 3.421
+  },
+  {
+    "text": "the derivative with one variable",
+    "start": 195.3,
+    "duration": 3.06
+  },
+  {
+    "text": "treating the other as constant right",
+    "start": 196.8,
+    "duration": 2.82
+  },
+  {
+    "text": "that's why the derivative here",
+    "start": 198.36,
+    "duration": 2.519
+  },
+  {
+    "text": "disappears because you are taking the",
+    "start": 199.62,
+    "duration": 4.38
+  },
+  {
+    "text": "derivative of the b square part with w",
+    "start": 200.879,
+    "duration": 5.341
+  },
+  {
+    "text": "and it does not depend on W so hence the",
+    "start": 204.0,
+    "duration": 3.54
+  },
+  {
+    "text": "derivative will be",
+    "start": 206.22,
+    "duration": 3.0
+  },
+  {
+    "text": "so that is the partial derivative now",
+    "start": 207.54,
+    "duration": 3.18
+  },
+  {
+    "text": "the question is what is the gradient",
+    "start": 209.22,
+    "duration": 3.72
+  },
+  {
+    "text": "then the gradient is nothing but just",
+    "start": 210.72,
+    "duration": 3.72
+  },
+  {
+    "text": "the collection of the partial",
+    "start": 212.94,
+    "duration": 3.42
+  },
+  {
+    "text": "derivatives right so that gradient in",
+    "start": 214.44,
+    "duration": 5.219
+  },
+  {
+    "text": "this case would be 2W 2B right so it's",
+    "start": 216.36,
+    "duration": 5.7
+  },
+  {
+    "text": "the collection of all the partial",
+    "start": 219.659,
+    "duration": 5.281
+  },
+  {
+    "text": "derivatives is called the gradient right",
+    "start": 222.06,
+    "duration": 4.38
+  },
+  {
+    "text": "and in this case I have only two",
+    "start": 224.94,
+    "duration": 2.64
+  },
+  {
+    "text": "variables",
+    "start": 226.44,
+    "duration": 2.4
+  },
+  {
+    "text": "so I'll just have two partial",
+    "start": 227.58,
+    "duration": 3.0
+  },
+  {
+    "text": "derivatives so I'll collect them and",
+    "start": 228.84,
+    "duration": 3.599
+  },
+  {
+    "text": "I'll get the gradient vector and the",
+    "start": 230.58,
+    "duration": 3.84
+  },
+  {
+    "text": "gradient Vector is a two dimensional",
+    "start": 232.439,
+    "duration": 3.66
+  },
+  {
+    "text": "Vector in this case right so that's what",
+    "start": 234.42,
+    "duration": 4.08
+  },
+  {
+    "text": "this quantity is",
+    "start": 236.099,
+    "duration": 5.521
+  },
+  {
+    "text": "you have the loss function Theta",
+    "start": 238.5,
+    "duration": 5.939
+  },
+  {
+    "text": "and you are taking the gradient of theta",
+    "start": 241.62,
+    "duration": 4.679
+  },
+  {
+    "text": "of the loss function with respect to",
+    "start": 244.439,
+    "duration": 3.841
+  },
+  {
+    "text": "Theta and we know that Theta is nothing",
+    "start": 246.299,
+    "duration": 4.86
+  },
+  {
+    "text": "but W comma B",
+    "start": 248.28,
+    "duration": 6.06
+  },
+  {
+    "text": "and this Theta is also W comma B so this",
+    "start": 251.159,
+    "duration": 5.281
+  },
+  {
+    "text": "is just a vectorial way of writing it",
+    "start": 254.34,
+    "duration": 3.6
+  },
+  {
+    "text": "that you're taking the partial",
+    "start": 256.44,
+    "duration": 3.72
+  },
+  {
+    "text": "derivatives with respect to W and B you",
+    "start": 257.94,
+    "duration": 3.66
+  },
+  {
+    "text": "put those partial derivatives in a",
+    "start": 260.16,
+    "duration": 3.18
+  },
+  {
+    "text": "vector that Vector is called the",
+    "start": 261.6,
+    "duration": 3.84
+  },
+  {
+    "text": "gradient and this is the quantity that",
+    "start": 263.34,
+    "duration": 4.62
+  },
+  {
+    "text": "we are using to denote that gradient and",
+    "start": 265.44,
+    "duration": 4.199
+  },
+  {
+    "text": "now it makes sense because you're taking",
+    "start": 267.96,
+    "duration": 3.84
+  },
+  {
+    "text": "the gradient of a function which is a",
+    "start": 269.639,
+    "duration": 4.201
+  },
+  {
+    "text": "function of a vector with respect to",
+    "start": 271.8,
+    "duration": 4.26
+  },
+  {
+    "text": "that Vector right that's what that's how",
+    "start": 273.84,
+    "duration": 4.32
+  },
+  {
+    "text": "you should read right so this is what",
+    "start": 276.06,
+    "duration": 4.8
+  },
+  {
+    "text": "this quantity is right now for this",
+    "start": 278.16,
+    "duration": 4.44
+  },
+  {
+    "text": "discussion I think I can stop here",
+    "start": 280.86,
+    "duration": 3.24
+  },
+  {
+    "text": "because this is where I am going to draw",
+    "start": 282.6,
+    "duration": 3.72
+  },
+  {
+    "text": "a line I am going to cut the formula at",
+    "start": 284.1,
+    "duration": 4.14
+  },
+  {
+    "text": "the linear approximation but let me not",
+    "start": 286.32,
+    "duration": 4.56
+  },
+  {
+    "text": "do that let me just go a bit ahead and",
+    "start": 288.24,
+    "duration": 4.679
+  },
+  {
+    "text": "also try to tell you what this quantity",
+    "start": 290.88,
+    "duration": 5.48
+  },
+  {
+    "text": "is Right which is",
+    "start": 292.919,
+    "duration": 3.441
+  },
+  {
+    "text": "right now here if I ask you what's the",
+    "start": 299.46,
+    "duration": 4.44
+  },
+  {
+    "text": "second order derivative that means I'm",
+    "start": 302.039,
+    "duration": 4.261
+  },
+  {
+    "text": "going to take the first derivative and",
+    "start": 303.9,
+    "duration": 4.5
+  },
+  {
+    "text": "again take the derivative with respect",
+    "start": 306.3,
+    "duration": 6.239
+  },
+  {
+    "text": "to X again and that's going to be uh",
+    "start": 308.4,
+    "duration": 6.0
+  },
+  {
+    "text": "2 right so this is the second order",
+    "start": 312.539,
+    "duration": 4.861
+  },
+  {
+    "text": "derivator now what this is is the",
+    "start": 314.4,
+    "duration": 5.28
+  },
+  {
+    "text": "gradient of the gradient right that's a",
+    "start": 317.4,
+    "duration": 4.5
+  },
+  {
+    "text": "bit uh confusing to understand so this",
+    "start": 319.68,
+    "duration": 4.68
+  },
+  {
+    "text": "is what your gradient looks like it's a",
+    "start": 321.9,
+    "duration": 4.44
+  },
+  {
+    "text": "vector containing the partial",
+    "start": 324.36,
+    "duration": 4.2
+  },
+  {
+    "text": "derivatives now again you are taking a",
+    "start": 326.34,
+    "duration": 4.44
+  },
+  {
+    "text": "derivative of this Vector with respect",
+    "start": 328.56,
+    "duration": 6.0
+  },
+  {
+    "text": "to your parameters which is",
+    "start": 330.78,
+    "duration": 5.52
+  },
+  {
+    "text": "nothing but taking the gradient with",
+    "start": 334.56,
+    "duration": 3.66
+  },
+  {
+    "text": "respect to Theta right so what would",
+    "start": 336.3,
+    "duration": 7.28
+  },
+  {
+    "text": "this look like so you have ah",
+    "start": 338.22,
+    "duration": 5.36
+  },
+  {
+    "text": "two elements in this Vector right so for",
+    "start": 344.22,
+    "duration": 5.1
+  },
+  {
+    "text": "each element you will take a derivative",
+    "start": 347.34,
+    "duration": 3.48
+  },
+  {
+    "text": "with respect to W you will take a",
+    "start": 349.32,
+    "duration": 3.3
+  },
+  {
+    "text": "valuator with respect to B for the",
+    "start": 350.82,
+    "duration": 3.12
+  },
+  {
+    "text": "second element also you will take a",
+    "start": 352.62,
+    "duration": 3.12
+  },
+  {
+    "text": "derivative with respect to W and you'll",
+    "start": 353.94,
+    "duration": 3.72
+  },
+  {
+    "text": "also take a derivative with respect to B",
+    "start": 355.74,
+    "duration": 4.5
+  },
+  {
+    "text": "so what you will get is",
+    "start": 357.66,
+    "duration": 5.36
+  },
+  {
+    "text": "dou Square l",
+    "start": 360.24,
+    "duration": 6.959
+  },
+  {
+    "text": "by dou W square right so you had the",
+    "start": 363.02,
+    "duration": 7.239
+  },
+  {
+    "text": "first partial derivative",
+    "start": 367.199,
+    "duration": 4.62
+  },
+  {
+    "text": "you are taking the derivative of that",
+    "start": 370.259,
+    "duration": 3.481
+  },
+  {
+    "text": "again with respect to W so that's what",
+    "start": 371.819,
+    "duration": 3.961
+  },
+  {
+    "text": "you will get now the same partial",
+    "start": 373.74,
+    "duration": 3.42
+  },
+  {
+    "text": "derivative you will be taking a",
+    "start": 375.78,
+    "duration": 3.3
+  },
+  {
+    "text": "derivative with respect to",
+    "start": 377.16,
+    "duration": 5.479
+  },
+  {
+    "text": "B now so you'll have",
+    "start": 379.08,
+    "duration": 3.559
+  },
+  {
+    "text": "dou dou b dou w and similarly you could",
+    "start": 382.74,
+    "duration": 4.98
+  },
+  {
+    "text": "fill the remaining two entries here",
+    "start": 385.8,
+    "duration": 5.64
+  },
+  {
+    "text": "right so this would be dou b square and",
+    "start": 387.72,
+    "duration": 7.259
+  },
+  {
+    "text": "this would be dou w dou b right so the",
+    "start": 391.44,
+    "duration": 5.64
+  },
+  {
+    "text": "way you should remember this is the",
+    "start": 394.979,
+    "duration": 3.78
+  },
+  {
+    "text": "following right so when you are",
+    "start": 397.08,
+    "duration": 5.52
+  },
+  {
+    "text": "taking the derivative of a vector",
+    "start": 398.759,
+    "duration": 8.94
+  },
+  {
+    "text": "okay with respect to some another vector",
+    "start": 402.6,
+    "duration": 7.439
+  },
+  {
+    "text": "okay what are you trying to do you're",
+    "start": 407.699,
+    "duration": 6.961
+  },
+  {
+    "text": "trying to say that if this value changes",
+    "start": 410.039,
+    "duration": 7.201
+  },
+  {
+    "text": "how much does this value change how much",
+    "start": 414.66,
+    "duration": 5.34
+  },
+  {
+    "text": "does this value change right and if this",
+    "start": 417.24,
+    "duration": 4.98
+  },
+  {
+    "text": "value changes how much does this value",
+    "start": 420.0,
+    "duration": 4.139
+  },
+  {
+    "text": "change how much does this value change",
+    "start": 422.22,
+    "duration": 4.86
+  },
+  {
+    "text": "right so the derivative of a vector with",
+    "start": 424.139,
+    "duration": 5.28
+  },
+  {
+    "text": "respect to a vector would thus be a",
+    "start": 427.08,
+    "duration": 3.6
+  },
+  {
+    "text": "matrix right and what would the",
+    "start": 429.419,
+    "duration": 3.421
+  },
+  {
+    "text": "dimension of the Matrix be if this was M",
+    "start": 430.68,
+    "duration": 4.56
+  },
+  {
+    "text": "dimensional and this was n dimensional",
+    "start": 432.84,
+    "duration": 5.28
+  },
+  {
+    "text": "then this would be an M cross n Matrix",
+    "start": 435.24,
+    "duration": 5.1
+  },
+  {
+    "text": "right so if you had for example three",
+    "start": 438.12,
+    "duration": 4.68
+  },
+  {
+    "text": "elements in this vector",
+    "start": 440.34,
+    "duration": 4.56
+  },
+  {
+    "text": "okay and you're taking the derivative of",
+    "start": 442.8,
+    "duration": 3.959
+  },
+  {
+    "text": "that Vector with respect to two elements",
+    "start": 444.9,
+    "duration": 3.299
+  },
+  {
+    "text": "so what would happen is that each of",
+    "start": 446.759,
+    "duration": 3.961
+  },
+  {
+    "text": "these elements suppose these uh two",
+    "start": 448.199,
+    "duration": 3.9
+  },
+  {
+    "text": "elements that you have here are your",
+    "start": 450.72,
+    "duration": 4.02
+  },
+  {
+    "text": "parameters W and B right so each of",
+    "start": 452.099,
+    "duration": 4.38
+  },
+  {
+    "text": "these elements would be a function of w",
+    "start": 454.74,
+    "duration": 4.32
+  },
+  {
+    "text": "comma B and hence you can take that",
+    "start": 456.479,
+    "duration": 5.641
+  },
+  {
+    "text": "derivative so when you're changing W you",
+    "start": 459.06,
+    "duration": 4.32
+  },
+  {
+    "text": "want to see how much does this value",
+    "start": 462.12,
+    "duration": 3.0
+  },
+  {
+    "text": "change because it's a value function of",
+    "start": 463.38,
+    "duration": 3.3
+  },
+  {
+    "text": "w comma B so how much does this value",
+    "start": 465.12,
+    "duration": 3.359
+  },
+  {
+    "text": "change how much does this value change",
+    "start": 466.68,
+    "duration": 3.299
+  },
+  {
+    "text": "how much does this value change right so",
+    "start": 468.479,
+    "duration": 3.0
+  },
+  {
+    "text": "you're asking for three calculating",
+    "start": 469.979,
+    "duration": 3.84
+  },
+  {
+    "text": "these three changes and then we change",
+    "start": 471.479,
+    "duration": 4.62
+  },
+  {
+    "text": "the value of B again you want to change",
+    "start": 473.819,
+    "duration": 3.841
+  },
+  {
+    "text": "how much does this change how much does",
+    "start": 476.099,
+    "duration": 2.82
+  },
+  {
+    "text": "this change how much does this change",
+    "start": 477.66,
+    "duration": 3.12
+  },
+  {
+    "text": "right so there are six values that",
+    "start": 478.919,
+    "duration": 3.18
+  },
+  {
+    "text": "you're trying to compute so then set",
+    "start": 480.78,
+    "duration": 3.3
+  },
+  {
+    "text": "what we are three cross two or two cross",
+    "start": 482.099,
+    "duration": 4.32
+  },
+  {
+    "text": "three depending on how your uh",
+    "start": 484.08,
+    "duration": 5.339
+  },
+  {
+    "text": "uh seeing it right so it could uh so it",
+    "start": 486.419,
+    "duration": 5.101
+  },
+  {
+    "text": "that's what it would be right so that's",
+    "start": 489.419,
+    "duration": 4.68
+  },
+  {
+    "text": "what and this second order derivative is",
+    "start": 491.52,
+    "duration": 6.06
+  },
+  {
+    "text": "called the Hessian uh uh Matrix and then",
+    "start": 494.099,
+    "duration": 5.22
+  },
+  {
+    "text": "similarly you could imagine what would",
+    "start": 497.58,
+    "duration": 3.959
+  },
+  {
+    "text": "be here there would be a third order uh",
+    "start": 499.319,
+    "duration": 4.261
+  },
+  {
+    "text": "derivative here and you can again",
+    "start": 501.539,
+    "duration": 4.44
+  },
+  {
+    "text": "imagine that you have a matrix and now",
+    "start": 503.58,
+    "duration": 3.72
+  },
+  {
+    "text": "you're taking the derivative of every",
+    "start": 505.979,
+    "duration": 3.601
+  },
+  {
+    "text": "element in that Matrix with respect to a",
+    "start": 507.3,
+    "duration": 4.079
+  },
+  {
+    "text": "vector and so on it but that that I know",
+    "start": 509.58,
+    "duration": 3.78
+  },
+  {
+    "text": "I won't go that far I'll just stop here",
+    "start": 511.379,
+    "duration": 3.96
+  },
+  {
+    "text": "although even this we don't need for the",
+    "start": 513.36,
+    "duration": 3.84
+  },
+  {
+    "text": "current lecture okay so I hope that is",
+    "start": 515.339,
+    "duration": 5.301
+  },
+  {
+    "text": "clear so uh partial derivatives",
+    "start": 517.2,
+    "duration": 6.24
+  },
+  {
+    "text": "derivatives sorry derivatives",
+    "start": 520.64,
+    "duration": 4.78
+  },
+  {
+    "text": "partial derivatives collection of",
+    "start": 523.44,
+    "duration": 4.26
+  },
+  {
+    "text": "partial derivatives is the gradient",
+    "start": 525.42,
+    "duration": 4.62
+  },
+  {
+    "text": "the gradient of the gradient is the",
+    "start": 527.7,
+    "duration": 5.52
+  },
+  {
+    "text": "Hessian right and here are a few things",
+    "start": 530.04,
+    "duration": 5.64
+  },
+  {
+    "text": "to note now right so if you have a",
+    "start": 533.22,
+    "duration": 3.96
+  },
+  {
+    "text": "scalar quantity right so if I have a",
+    "start": 535.68,
+    "duration": 4.26
+  },
+  {
+    "text": "function which is Y is equal to x square",
+    "start": 537.18,
+    "duration": 5.64
+  },
+  {
+    "text": "okay then the derivative would be 2x so",
+    "start": 539.94,
+    "duration": 4.32
+  },
+  {
+    "text": "if I were to compute this at a",
+    "start": 542.82,
+    "duration": 3.48
+  },
+  {
+    "text": "particular value of x then I'll get a",
+    "start": 544.26,
+    "duration": 3.66
+  },
+  {
+    "text": "square right so derivative of a scalar",
+    "start": 546.3,
+    "duration": 4.74
+  },
+  {
+    "text": "with respect to a single variable is a",
+    "start": 547.92,
+    "duration": 6.06
+  },
+  {
+    "text": "scalar but now if you have a vector or",
+    "start": 551.04,
+    "duration": 5.72
+  },
+  {
+    "text": "if you have a quantity uh x square okay",
+    "start": 553.98,
+    "duration": 6.68
+  },
+  {
+    "text": "all this is x square",
+    "start": 556.76,
+    "duration": 3.9
+  },
+  {
+    "text": "plus Z square right then I can take the",
+    "start": 561.66,
+    "duration": 4.859
+  },
+  {
+    "text": "derivative with respect to X and I can",
+    "start": 564.6,
+    "duration": 3.359
+  },
+  {
+    "text": "also take the derivative with respect to",
+    "start": 566.519,
+    "duration": 4.021
+  },
+  {
+    "text": "Z so then I'll get a vector right so the",
+    "start": 567.959,
+    "duration": 4.38
+  },
+  {
+    "text": "derivative of this would be a vector",
+    "start": 570.54,
+    "duration": 3.479
+  },
+  {
+    "text": "which will be basically the gradient",
+    "start": 572.339,
+    "duration": 4.44
+  },
+  {
+    "text": "right so that's that's what uh we are uh",
+    "start": 574.019,
+    "duration": 5.341
+  },
+  {
+    "text": "understanding now and this is where I'm",
+    "start": 576.779,
+    "duration": 4.381
+  },
+  {
+    "text": "going to draw the line right so my",
+    "start": 579.36,
+    "duration": 3.9
+  },
+  {
+    "text": "argument for that would be that ETA is",
+    "start": 581.16,
+    "duration": 4.44
+  },
+  {
+    "text": "small so ETA square is going to be even",
+    "start": 583.26,
+    "duration": 4.98
+  },
+  {
+    "text": "smaller hence I can ignore this ETA Q",
+    "start": 585.6,
+    "duration": 4.739
+  },
+  {
+    "text": "would be even smaller so all of this I",
+    "start": 588.24,
+    "duration": 3.96
+  },
+  {
+    "text": "can ignore right so since ETA is small",
+    "start": 590.339,
+    "duration": 4.5
+  },
+  {
+    "text": "I'm just going to cut the derivative or",
+    "start": 592.2,
+    "duration": 4.92
+  },
+  {
+    "text": "cut the formula here and I'll just use",
+    "start": 594.839,
+    "duration": 4.081
+  },
+  {
+    "text": "the linear approximation and we have",
+    "start": 597.12,
+    "duration": 3.719
+  },
+  {
+    "text": "just seen previously that when ETA is",
+    "start": 598.92,
+    "duration": 3.84
+  },
+  {
+    "text": "small a linear approximation is good",
+    "start": 600.839,
+    "duration": 3.601
+  },
+  {
+    "text": "enough right so I have reason at least I",
+    "start": 602.76,
+    "duration": 3.54
+  },
+  {
+    "text": "have shown you geometrically that I can",
+    "start": 604.44,
+    "duration": 3.899
+  },
+  {
+    "text": "do that okay so this is what I'm going",
+    "start": 606.3,
+    "duration": 7.099
+  },
+  {
+    "text": "to do okay now ah",
+    "start": 608.339,
+    "duration": 5.06
+  },
+  {
+    "text": "this move right this is the move that I",
+    "start": 614.82,
+    "duration": 5.1
+  },
+  {
+    "text": "have made I was comfortably at some",
+    "start": 617.7,
+    "duration": 4.079
+  },
+  {
+    "text": "value of theta there was a certain loss",
+    "start": 619.92,
+    "duration": 4.56
+  },
+  {
+    "text": "there and I decided to make this move",
+    "start": 621.779,
+    "duration": 6.361
+  },
+  {
+    "text": "now this move would be favorable only if",
+    "start": 624.48,
+    "duration": 6.66
+  },
+  {
+    "text": "what is the condition that I would want",
+    "start": 628.14,
+    "duration": 5.58
+  },
+  {
+    "text": "I have moved and I would call the move",
+    "start": 631.14,
+    "duration": 6.36
+  },
+  {
+    "text": "to be favorable only if",
+    "start": 633.72,
+    "duration": 5.34
+  },
+  {
+    "text": "so only if",
+    "start": 637.5,
+    "duration": 3.36
+  },
+  {
+    "text": "this value",
+    "start": 639.06,
+    "duration": 3.839
+  },
+  {
+    "text": "is less than this value",
+    "start": 640.86,
+    "duration": 4.32
+  },
+  {
+    "text": "right otherwise it's not favorable I was",
+    "start": 642.899,
+    "duration": 5.101
+  },
+  {
+    "text": "at certain loss now I have moved",
+    "start": 645.18,
+    "duration": 4.92
+  },
+  {
+    "text": "and if the loss increases then that's",
+    "start": 648.0,
+    "duration": 3.54
+  },
+  {
+    "text": "not a favorable move right why I should",
+    "start": 650.1,
+    "duration": 2.76
+  },
+  {
+    "text": "have why would a better State there",
+    "start": 651.54,
+    "duration": 4.739
+  },
+  {
+    "text": "right so I would like uh you",
+    "start": 652.86,
+    "duration": 7.38
+  },
+  {
+    "text": "only if uh the new loss is less than the",
+    "start": 656.279,
+    "duration": 5.161
+  },
+  {
+    "text": "previous loss right so that's the",
+    "start": 660.24,
+    "duration": 3.599
+  },
+  {
+    "text": "condition that I want so what I want is",
+    "start": 661.44,
+    "duration": 4.92
+  },
+  {
+    "text": "that if I do the subtraction If I",
+    "start": 663.839,
+    "duration": 4.74
+  },
+  {
+    "text": "subtract the new loss from the old loss",
+    "start": 666.36,
+    "duration": 4.14
+  },
+  {
+    "text": "then I should get a value less than 0",
+    "start": 668.579,
+    "duration": 3.481
+  },
+  {
+    "text": "which is a simpler I mean it's just",
+    "start": 670.5,
+    "duration": 4.079
+  },
+  {
+    "text": "another way of saying that the new loss",
+    "start": 672.06,
+    "duration": 4.019
+  },
+  {
+    "text": "is less than the Old Law so that's all",
+    "start": 674.579,
+    "duration": 3.661
+  },
+  {
+    "text": "I'm seeing right and now if I just look",
+    "start": 676.079,
+    "duration": 4.44
+  },
+  {
+    "text": "at this equation here what is this",
+    "start": 678.24,
+    "duration": 4.38
+  },
+  {
+    "text": "quantity so I just take L Theta to the",
+    "start": 680.519,
+    "duration": 4.32
+  },
+  {
+    "text": "other side and I am left with this right",
+    "start": 682.62,
+    "duration": 4.14
+  },
+  {
+    "text": "so what I am saying is that this",
+    "start": 684.839,
+    "duration": 3.661
+  },
+  {
+    "text": "quantity",
+    "start": 686.76,
+    "duration": 3.42
+  },
+  {
+    "text": "should be less than zero that's what I'm",
+    "start": 688.5,
+    "duration": 3.0
+  },
+  {
+    "text": "effectively saying right so I'll just",
+    "start": 690.18,
+    "duration": 3.24
+  },
+  {
+    "text": "delete some stuff so this is the",
+    "start": 691.5,
+    "duration": 3.54
+  },
+  {
+    "text": "quantity that I want to be less than 0",
+    "start": 693.42,
+    "duration": 4.2
+  },
+  {
+    "text": "if I take L Theta this side then that is",
+    "start": 695.04,
+    "duration": 4.739
+  },
+  {
+    "text": "the quantity that I get and that is just",
+    "start": 697.62,
+    "duration": 4.5
+  },
+  {
+    "text": "equal to this quantity right so if I",
+    "start": 699.779,
+    "duration": 3.961
+  },
+  {
+    "text": "want this quantity to be less than equal",
+    "start": 702.12,
+    "duration": 4.32
+  },
+  {
+    "text": "to 0 that means essentially I want this",
+    "start": 703.74,
+    "duration": 5.099
+  },
+  {
+    "text": "quantity to be less than zero right and",
+    "start": 706.44,
+    "duration": 4.44
+  },
+  {
+    "text": "I have omitted the ETA here because ETA",
+    "start": 708.839,
+    "duration": 5.101
+  },
+  {
+    "text": "is a positive scale right that's uh you",
+    "start": 710.88,
+    "duration": 4.8
+  },
+  {
+    "text": "we don't take a negative scalar there so",
+    "start": 713.94,
+    "duration": 3.66
+  },
+  {
+    "text": "ETA is positive so that will not affect",
+    "start": 715.68,
+    "duration": 4.5
+  },
+  {
+    "text": "so I can ignore ETA here and this",
+    "start": 717.6,
+    "duration": 4.799
+  },
+  {
+    "text": "quantity should be less than zero okay",
+    "start": 720.18,
+    "duration": 5.459
+  },
+  {
+    "text": "so that is what I have arrived at from",
+    "start": 722.399,
+    "duration": 8.461
+  },
+  {
+    "text": "the uh Taylor series and why is this why",
+    "start": 725.639,
+    "duration": 6.661
+  },
+  {
+    "text": "am I interested in this because this is",
+    "start": 730.86,
+    "duration": 3.18
+  },
+  {
+    "text": "a condition which depends on you right",
+    "start": 732.3,
+    "duration": 4.14
+  },
+  {
+    "text": "so now I'm what is being told to me that",
+    "start": 734.04,
+    "duration": 5.46
+  },
+  {
+    "text": "you have to select a u such that U",
+    "start": 736.44,
+    "duration": 5.459
+  },
+  {
+    "text": "transpose the dot product of U with the",
+    "start": 739.5,
+    "duration": 4.139
+  },
+  {
+    "text": "gradient Vector would be less than zero",
+    "start": 741.899,
+    "duration": 3.781
+  },
+  {
+    "text": "only then your U would be good so this",
+    "start": 743.639,
+    "duration": 3.721
+  },
+  {
+    "text": "is a condition that has been imposed on",
+    "start": 745.68,
+    "duration": 4.26
+  },
+  {
+    "text": "my U Now using this condition I want to",
+    "start": 747.36,
+    "duration": 4.979
+  },
+  {
+    "text": "find a good U which not only satisfies",
+    "start": 749.94,
+    "duration": 4.199
+  },
+  {
+    "text": "this condition but satisfies this",
+    "start": 752.339,
+    "duration": 3.3
+  },
+  {
+    "text": "condition in the best possible way right",
+    "start": 754.139,
+    "duration": 3.061
+  },
+  {
+    "text": "and I'll tell you what best possible way",
+    "start": 755.639,
+    "duration": 4.32
+  },
+  {
+    "text": "it means right so what is the range of",
+    "start": 757.2,
+    "duration": 5.639
+  },
+  {
+    "text": "this right so this is the dot product uh",
+    "start": 759.959,
+    "duration": 4.62
+  },
+  {
+    "text": "between uh",
+    "start": 762.839,
+    "duration": 3.421
+  },
+  {
+    "text": "two vectors I think this should not be",
+    "start": 764.579,
+    "duration": 3.601
+  },
+  {
+    "text": "there this is the dot product so what is",
+    "start": 766.26,
+    "duration": 3.78
+  },
+  {
+    "text": "the range of this right so let's try to",
+    "start": 768.18,
+    "duration": 3.42
+  },
+  {
+    "text": "understand that",
+    "start": 770.04,
+    "duration": 4.2
+  },
+  {
+    "text": "so let beta be the angle between U",
+    "start": 771.6,
+    "duration": 6.239
+  },
+  {
+    "text": "transpose and the gradient vector then",
+    "start": 774.24,
+    "duration": 6.24
+  },
+  {
+    "text": "we know this right this is the COS of",
+    "start": 777.839,
+    "duration": 4.201
+  },
+  {
+    "text": "the angle this is just the formula for",
+    "start": 780.48,
+    "duration": 3.9
+  },
+  {
+    "text": "the COS of the angle and this quantity",
+    "start": 782.04,
+    "duration": 4.56
+  },
+  {
+    "text": "which I was interested in luckily shows",
+    "start": 784.38,
+    "duration": 4.199
+  },
+  {
+    "text": "up in this formula hence I am interested",
+    "start": 786.6,
+    "duration": 6.239
+  },
+  {
+    "text": "in it right so this is what uh cos beta",
+    "start": 788.579,
+    "duration": 6.0
+  },
+  {
+    "text": "is and the good thing is that cos beta",
+    "start": 792.839,
+    "duration": 4.201
+  },
+  {
+    "text": "is bounded right so that means this",
+    "start": 794.579,
+    "duration": 6.421
+  },
+  {
+    "text": "quantity is also bounded okay good",
+    "start": 797.04,
+    "duration": 6.78
+  },
+  {
+    "text": "so if I multiply throughout by this the",
+    "start": 801.0,
+    "duration": 5.1
+  },
+  {
+    "text": "denominator that you have here I'm just",
+    "start": 803.82,
+    "duration": 3.78
+  },
+  {
+    "text": "calling it K so that I don't have to",
+    "start": 806.1,
+    "duration": 3.96
+  },
+  {
+    "text": "write this large quantity every time so",
+    "start": 807.6,
+    "duration": 5.039
+  },
+  {
+    "text": "this is what I get right so the quantity",
+    "start": 810.06,
+    "duration": 4.5
+  },
+  {
+    "text": "that I am interested in I know that it",
+    "start": 812.639,
+    "duration": 4.981
+  },
+  {
+    "text": "lies between minus K and K right and I",
+    "start": 814.56,
+    "duration": 6.24
+  },
+  {
+    "text": "don't care about uh the positive values",
+    "start": 817.62,
+    "duration": 4.68
+  },
+  {
+    "text": "of this quantity right I want this",
+    "start": 820.8,
+    "duration": 4.2
+  },
+  {
+    "text": "quality quantity to be less than 0 right",
+    "start": 822.3,
+    "duration": 4.86
+  },
+  {
+    "text": "so I just care about the negative side",
+    "start": 825.0,
+    "duration": 4.74
+  },
+  {
+    "text": "because I want my condition was that U",
+    "start": 827.16,
+    "duration": 7.039
+  },
+  {
+    "text": "transpose into this gradient",
+    "start": 829.74,
+    "duration": 4.459
+  },
+  {
+    "text": "should be less than 0 that's the",
+    "start": 835.8,
+    "duration": 3.36
+  },
+  {
+    "text": "condition that I have right so I am",
+    "start": 837.66,
+    "duration": 3.78
+  },
+  {
+    "text": "interested in the values which are less",
+    "start": 839.16,
+    "duration": 4.44
+  },
+  {
+    "text": "than 0. so now if I'm interested in",
+    "start": 841.44,
+    "duration": 4.68
+  },
+  {
+    "text": "values less than 0 I should ask this",
+    "start": 843.6,
+    "duration": 5.46
+  },
+  {
+    "text": "question right how less can I be and the",
+    "start": 846.12,
+    "duration": 4.2
+  },
+  {
+    "text": "more or less the better right because",
+    "start": 849.06,
+    "duration": 3.06
+  },
+  {
+    "text": "what is what is this quantity this",
+    "start": 850.32,
+    "duration": 4.199
+  },
+  {
+    "text": "quantity is the difference between the",
+    "start": 852.12,
+    "duration": 3.6
+  },
+  {
+    "text": "new loss",
+    "start": 854.519,
+    "duration": 3.961
+  },
+  {
+    "text": "and the current loss right and I the",
+    "start": 855.72,
+    "duration": 4.32
+  },
+  {
+    "text": "more negative this difference the better",
+    "start": 858.48,
+    "duration": 3.84
+  },
+  {
+    "text": "right that means my new loss is as low",
+    "start": 860.04,
+    "duration": 4.859
+  },
+  {
+    "text": "as it can be from the current loss right",
+    "start": 862.32,
+    "duration": 6.12
+  },
+  {
+    "text": "and when would this be when would this",
+    "start": 864.899,
+    "duration": 7.081
+  },
+  {
+    "text": "difference be maximum when uh this",
+    "start": 868.44,
+    "duration": 6.3
+  },
+  {
+    "text": "quantity is as low as it can be right",
+    "start": 871.98,
+    "duration": 4.38
+  },
+  {
+    "text": "because this quantity can be as negative",
+    "start": 874.74,
+    "duration": 3.959
+  },
+  {
+    "text": "as it can be and this is that quantity",
+    "start": 876.36,
+    "duration": 4.68
+  },
+  {
+    "text": "it can be as this is how negative it can",
+    "start": 878.699,
+    "duration": 4.861
+  },
+  {
+    "text": "be and when will be that negative when",
+    "start": 881.04,
+    "duration": 4.859
+  },
+  {
+    "text": "the angle or the cosine of the angle is",
+    "start": 883.56,
+    "duration": 3.779
+  },
+  {
+    "text": "minus 1 because this condition is",
+    "start": 885.899,
+    "duration": 3.661
+  },
+  {
+    "text": "directly been derived from here right so",
+    "start": 887.339,
+    "duration": 3.961
+  },
+  {
+    "text": "if the cosine of the angle is minus 1",
+    "start": 889.56,
+    "duration": 5.639
+  },
+  {
+    "text": "that's when I will get the most negative",
+    "start": 891.3,
+    "duration": 6.0
+  },
+  {
+    "text": "value for this quantity which is my",
+    "start": 895.199,
+    "duration": 4.2
+  },
+  {
+    "text": "quantity of Interest right and when",
+    "start": 897.3,
+    "duration": 4.14
+  },
+  {
+    "text": "would the cosine be minus 1 when the",
+    "start": 899.399,
+    "duration": 4.261
+  },
+  {
+    "text": "angle between the two vectors is 180",
+    "start": 901.44,
+    "duration": 4.68
+  },
+  {
+    "text": "degrees which two vectors the vector U",
+    "start": 903.66,
+    "duration": 5.46
+  },
+  {
+    "text": "and the gradient vector so that's where",
+    "start": 906.12,
+    "duration": 7.32
+  },
+  {
+    "text": "I get my U now I want you to be at 180",
+    "start": 909.12,
+    "duration": 6.48
+  },
+  {
+    "text": "degrees with the gradient Vector that",
+    "start": 913.44,
+    "duration": 5.04
+  },
+  {
+    "text": "means I Want U to be opposite to the",
+    "start": 915.6,
+    "duration": 4.919
+  },
+  {
+    "text": "gradient Vector hence in gradient",
+    "start": 918.48,
+    "duration": 3.24
+  },
+  {
+    "text": "descent and this is something you would",
+    "start": 920.519,
+    "duration": 3.601
+  },
+  {
+    "text": "have heard a hundred times I move in the",
+    "start": 921.72,
+    "duration": 3.78
+  },
+  {
+    "text": "direction oppose it to the gradient",
+    "start": 924.12,
+    "duration": 4.5
+  },
+  {
+    "text": "right so this is how that formula or how",
+    "start": 925.5,
+    "duration": 6.12
+  },
+  {
+    "text": "that rule comes we started off with the",
+    "start": 928.62,
+    "duration": 5.399
+  },
+  {
+    "text": "Taylor series that gave us a certain",
+    "start": 931.62,
+    "duration": 4.68
+  },
+  {
+    "text": "condition on what a good use should be",
+    "start": 934.019,
+    "duration": 4.38
+  },
+  {
+    "text": "then we've pushed that condition to be",
+    "start": 936.3,
+    "duration": 3.659
+  },
+  {
+    "text": "to its limit right we wanted it to be",
+    "start": 938.399,
+    "duration": 3.721
+  },
+  {
+    "text": "less than zero but we said let it be as",
+    "start": 939.959,
+    "duration": 4.62
+  },
+  {
+    "text": "less as newer as it can be and we found",
+    "start": 942.12,
+    "duration": 6.3
+  },
+  {
+    "text": "that that happens when this happens okay",
+    "start": 944.579,
+    "duration": 5.461
+  },
+  {
+    "text": "and that happens when beta is equal to",
+    "start": 948.42,
+    "duration": 3.539
+  },
+  {
+    "text": "180 degrees and beta is the angle",
+    "start": 950.04,
+    "duration": 3.359
+  },
+  {
+    "text": "between these two vectors so that",
+    "start": 951.959,
+    "duration": 3.601
+  },
+  {
+    "text": "happens when U is exactly opposite to",
+    "start": 953.399,
+    "duration": 4.081
+  },
+  {
+    "text": "the gradient Vector right so that's why",
+    "start": 955.56,
+    "duration": 3.779
+  },
+  {
+    "text": "you move in the direction oppose it to",
+    "start": 957.48,
+    "duration": 4.2
+  },
+  {
+    "text": "the gradient vector",
+    "start": 959.339,
+    "duration": 5.94
+  },
+  {
+    "text": "let me just delete this",
+    "start": 961.68,
+    "duration": 5.64
+  },
+  {
+    "text": "is more negative is the most negative",
+    "start": 965.279,
+    "duration": 3.841
+  },
+  {
+    "text": "right not just more negative it's the",
+    "start": 967.32,
+    "duration": 3.72
+  },
+  {
+    "text": "most negative",
+    "start": 969.12,
+    "duration": 3.959
+  },
+  {
+    "text": "when cos beta is equal to minus 1 that",
+    "start": 971.04,
+    "duration": 5.539
+  },
+  {
+    "text": "is when beta is equal to 180 degrees",
+    "start": 973.079,
+    "duration": 3.5
+  }
+]

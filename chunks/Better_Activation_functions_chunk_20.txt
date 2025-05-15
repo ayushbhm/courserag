@@ -1,0 +1,9 @@
+partial derivative of W1 and W2 so now which are the quadrants which are possible either the quadrant where both.
+the values are positive or the quadrant where both the values are negative right so you can never have a.
+vector in this direction your gradient Vector cannot be in this direction nor can be it in any of these.
+directions it can only be in these directions or these directions right that is what this previous explanation is telling.
+you so you can already see that when you're doing gradient descent you're moving in directions now half the directions.
+have been thrown away because of using the sigmoid neuron these directions are not possible at all right so you.
+can only move in certain directions and that already looks like a problem and here's a toy example to show.
+that it is indeed a problem right so suppose you have initialized suppose this this Arrow here this is the.
+optimal value of w right this is where you want to go and suppose this is where you had initialized.

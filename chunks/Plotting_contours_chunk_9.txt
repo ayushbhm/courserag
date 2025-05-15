@@ -1,0 +1,9 @@
+that the slope would be large in that region so let's see that right indeed the slope was sorry the.
+slope would be uh gentle in that region right so whenever the slope is gentle the distance between the Rings.
+is large and whenever the slope is steep for example here it's very steep right so in this region as.
+you can see this if I look at the plot on the left hand side these here the slope is.
+very uh yeah here the slope is very steep so the distance between the Rings is small here the slope.
+is gentle so the distance between the Rings is large right so that's that's the idea captured in a contour.
+map you could take there are many functions given here so I would encourage you to kind of go back.
+and try out different functions right so this is yet another function I think quite uh complex and we can.
+try to draw the contour map for that it looks quite horrible right but you could just relate it to.

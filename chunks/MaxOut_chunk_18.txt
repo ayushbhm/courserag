@@ -1,0 +1,10 @@
+now W2 is again just equal to 1 and B is equal to zero so then you're just left with.
+Max of uh this quantity is 0 and the other quantity is just X right now in the case of.
+the earlier leaky value that we had seen this was 0.1 x so you could think of right as again.
+Max of uh zero comma 0.1 x plus the bias again is zero right so this is also a special.
+case of the max out neuron so you can think of max out neuron as generalizing relu and all its.
+variance and uh again it gives you more uh Power more non-linearity so this is what if you have these.
+two max out neurons right so if one of them learns the the value of W1 as 0.5 x and.
+the other one learns the value of W2 is minus 0.5 x then effectively you are getting this v-shaped a.
+non-linearity right which is uh the same as the absolute function and then you can also show there are certain.
+configurations possible so suppose you have uh four uh affine Transformations within a max out neuron right so I'm talking.

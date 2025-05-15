@@ -1,0 +1,10 @@
+neuron in the uh output layer right a31 a32 all the way up to A3 K so this quantity I.
+have already computed right here 3 is equal to I plus 1 and these are the m so this I.
+have already computed right what I didn't know was this right so what is this saying let's see I want.
+to compute the derivative of one of these guys okay with respect to one of these guys that's what I.
+want to do and I am saying that that derivative is this quantity most of you would get that if.
+you don't get it let's try to see how we get it so give me a couple of minutes while.
+I write a few things on the slide foreign how I went from here to here right so let's first.
+understand how did we compute A3 this is what our formula for A3 was it was the weighted sum of.
+the inputs plus the bias Vector right so it was just I took this as the input this red guys.
+as the input which is the entire H2 Vector then multiplied them by the weights which was W3 and then.

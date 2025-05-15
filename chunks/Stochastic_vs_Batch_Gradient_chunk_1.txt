@@ -1,0 +1,9 @@
+in this case I had only two training samples but the for Loop is going over all the training samples.
+Computing the gradient keeps on accumulating it in the sum DW and DB and then comes out of the loop.
+and makes one update right so that's one observation that I want you to make it's obvious from the code.
+that it's looking over the entire data and then comes out of the loop and makes one update uh and.
+then keeps going about it right so there are like two for Loops so the inner for Loop runs over.
+the entire training data okay now the issue with that is that the question is like why are we doing.
+this right so why are we going over the entire training Data before making one update to the weight parameters.
+right so the reason for that is that because this is a true gradient right we had painfully computed that.
+when we were doing that toy Network that to compute the loss function so the loss function is actually a.

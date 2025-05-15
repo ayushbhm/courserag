@@ -1,0 +1,9 @@
+the product of the two expectations and ah so sorry I shouldn't have said that they are in sorry so.
+this is correct so the expectation of this quantity which was what you had here you can now since Epsilon.
+and the other random variable are independent you can write it as the product of their expectations and since the.
+expected value of Epsilon is 0 you get the final answer as 0 right so in the case when you.
+are trying to estimate this expectation from the test data this quantity disappears right so then the true error is.
+actually equal to the empirical test error plus a small constant so what does this mean that if you are.
+going to X going to estimate the true error empirically from the test data which is the first quantity that.
+you see here if you are going to estimate it empirically from the test data then your true error is.
+actually very close to the empirical test error so if this is what your estimate is going to be then.

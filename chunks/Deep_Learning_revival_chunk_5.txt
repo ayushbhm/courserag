@@ -1,0 +1,8 @@
+with respect to any weight by using this chain rule applied across multiple Parts not just one path but three.
+different parts here and again we saw uh some uh formula for this and we derived this in quite detail.
+when we studied the back propagation algorithm right so now the question is are the points to remember right now.
+are that training neural networks is a game of gradients you have you compute gradients at every layer and then.
+you use whatever variant or your favorite variant of the gradient based approach it could be momentum nag atom add.
+a Max whatever you want to use but the derivators will get used inside them right and this gradient is.
+the way of quantifying the responsibility of the parameter towards the loss the higher the gradient higher the responsibility lower.
+the gradient lower the responsibility right and the gradient with respect to a parameter is proportional to the input connected.

@@ -1,0 +1,10 @@
+it's also going to have his self inputs right which is the inputs of the words that have been decoded.
+so far right so it'll have these two types of inputs and let's see how it deals with these two.
+types of right so so what would be the output Dimension right so let's first look at that too so.
+we know what the inputs are now we look at the output so the output and what do I need.
+to generate at the output again this is not new to you we have already seen this in the context.
+of rnns so each output here would tell you a probability distribution over the vocabulary right and you will take.
+the arc Max from there right so you would want that if there are 37 000 words so that's what.
+the number 37 000 is then you'll get the probability of each of these 37 000 tokens and hopefully uh.
+at the first position uh this should have been go actually right so let's assume there is a go input.
+here and this is the first position so you hope that at the first position Nan has the maximum uh.

@@ -1,0 +1,10 @@
+the derivatives along these three parts right I'm just going to apply the chain rule along these three parts and.
+then sum the derivatives right so that's what you do when you have this kind of a situation this is.
+just from basic calculus I've just revised that and now I'll just write this as a more compact formula right.
+so this is the formula that I would write that if I want to compute the derivative of P of.
+Z with Z such that there are multiple paths right there could be as many rights as such m paths.
+such that I have Z I am Computing some intermediate quantities q1 Q2 up to q m using this Z.
+then if I want to compute the derivative of p with respect to Z then it would be p with.
+respect to q1 into q1 with respect to Z plus p with respect to Q2 into derivative of Q2 with.
+respect to Z and I'm just going to sum all these parts that means there are M such parts and.
+I'm going to sum the chain rule across each of these parts set and in any One path the chain.

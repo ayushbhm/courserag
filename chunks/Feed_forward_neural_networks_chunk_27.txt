@@ -1,0 +1,9 @@
+dimensional vector and then when you pass it to this element wise non-linearity you will again get an m dimensional.
+vector right and now if the next layer has p neurons then this w 2 should belong to p cross.
+m and again this multiplication goes through this is p cross m multiplied by m which is a valid operation.
+and now you can again justify the whole series of computations that you are doing okay so i want you.
+to be comfortable with this computation so this should give you some com confidence that although this network diagram looks.
+a bit complex there are so many connections going from one layer to the other layer at the end it's.
+just a series of matrix vector operations followed by some element-wise non-linearities which are very simple at every element you.
+just pass it through a function and you get the output right so it's not as complex as it looks.
+you can actually write it down and even if they give you a hundred layered network technically you could still.

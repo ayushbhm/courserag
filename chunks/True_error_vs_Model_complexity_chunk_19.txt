@@ -1,0 +1,9 @@
+you will be sure that this term that was bothering you is going to be reduced right so this actually.
+is the basis for all regularization methods right so this is what you do in regularization instead of just minimizing.
+L train Theta which is the empirical training error you actually add some regularization term to that and then you.
+see that I am going to minimize the empirical train error as well as the regularization error because that will.
+make sure that my expected error which is what I was interested in is actually going to be small right.
+and the pictorial view of this this is the same so this is what would happen if I were to.
+just look at the training error right so this is L train which is computed just using those n training.
+samples then my as I keep increasing the model complexity this will keep decreasing but what will happen is as.
+I increase the model complexity this quantity is going to increase and hence my error is actually going to be.

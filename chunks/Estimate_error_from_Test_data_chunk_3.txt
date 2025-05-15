@@ -1,0 +1,10 @@
+function f we have been given a lot of training points right where these y's are known so those y's.
+we know are coming from some relation f of x plus Epsilon so even if you don't know what the.
+relationship is we are given some of these x's and the corresponding y's so we know the X comma y.
+pairs right so we have some idea of what f of x looks like for the given X's that we.
+have we do not know the full function but at least for the X's that are there in our training.
+set we know what the Y's look like right so we have some of these and similarly F at X.
+is also we can compute because we can pass the X through the function that we have approximated or the.
+approximate function that we approximation function that we have used and that could give us y hat I right and.
+then we could compute this as a difference so f x you could replace by Y and ah F hat.
+X you could replace by this y hat right this is y hat which I often call it as just.

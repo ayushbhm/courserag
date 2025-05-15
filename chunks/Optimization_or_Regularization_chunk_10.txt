@@ -1,0 +1,9 @@
+weight initialization here itself now this entire space is not available to you at all right and now once you.
+start optimizing L Theta from there you will be moving from this region right so again you will be constrained.
+to region around that of course you may move out of that region right but you have done the initialization.
+in a certain region and now from there on if you train you are going to move wherever you move.
+is going to be governed by where you restricted your initial weights to B right so that in that sense.
+is acting like a regularizer and in fact even if you look at the regularization ah the way we studied.
+is that there is an L Theta and an Omega Theta the same thing is happening here right you first.
+had an Omega Theta you said I want to minimize that and then I will throw in L Theta and.
+then I'll try to minimize L Theta so in the case of regularization we were seeing that we wanted to.

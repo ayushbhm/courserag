@@ -1,0 +1,9 @@
+n minus one hidden layers and one output layer right now each neuron in the hidden layer and the output.
+layer i'm going to split it into two parts right so what are these two parts uh i'll let the.
+annotations be for now so there's going to be a part called the pre-activation so the bottom part which is.
+the white part that you see i'm going to refer it to as pre-activation and the shaded part is the.
+activation right so this is how you refer to it in neural network terminology so you have the input x.
+then you have a1 the bunch of outputs that you are producing the first hidden layer a2 the outputs that.
+you are producing in the second hidden layer and a3 these are all the pre-activations that you have in these.
+layers right now maybe i'll get rid of the activations and then you have the activation which is the shaded.
+part h1 h2 and then for the last layer it could be h3 or hl i could also call it.

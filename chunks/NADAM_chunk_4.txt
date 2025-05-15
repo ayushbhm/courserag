@@ -1,0 +1,11 @@
+here it'll just screw it on the plot so that's where you have computed the derivative then at m0 uh.
+since you have remember that we have kept the learning rate as one I have initialized it here in the.
+top right corner here right uh so ETA is equal to 1 and of course n minus 1 is 0.
+at time step minus 1 you don't have any history so here m0 is going to be beta times 0.
+plus G 0 so it's just going to be G 0 so far so good and then W1 is going.
+to be W 0 minus uh let me just choose the pen so I'll just do this once so there.
+should have been an ETA here but ETA is set to 1 that's why I'm not using ETA right so.
+remember that ETA is always there in all all the stuff that I'll do in the next two slides is.
+just that the value of ETA is equal to 1 right and then you w 0 minus the derivative computed.
+at uh yep uh yeah so instead of calling it GT GT in this case of course turns out to.
+be Delta is of 0 itself but actually it would have been as if I follow this equation it would.

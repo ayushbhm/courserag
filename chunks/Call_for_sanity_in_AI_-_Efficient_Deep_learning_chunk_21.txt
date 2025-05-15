@@ -1,0 +1,9 @@
+a certain structure a 3d structure it has a certain shape if you know what that shape is then you.
+could design things which could attach or be compatible with that structure and that helps in drug design right so.
+this structure 3d structure is not really known for all the proteins in the body right and now what uh.
+deepmind has been able to do with its alpha fold model that it has been able to get a significant.
+increase in the uh accuracy with which we are being able to predict these 3d structures right of course the.
+problem is nowhere close to being solved but there is a remarkable increase in where we were like just in.
+2019 versus where we are in 2022 today right so that's exciting and maybe it would take a while for.
+things to uh because as we have again realized during the pandemic that things move very different in at a.
+very different pace in the scientific field of medicine and so on where there are a lot of regulations and.

@@ -1,0 +1,9 @@
+been minus 10 divided by minus 10 plus 10 plus 20 plus 30 the answer would have been some negative.
+value right and you cannot have the probabilities as negative values right so that's why you use e because once.
+you raise it to e then all the negative values even the the answer for those will also be positive.
+right so that's why you're using the exponent here and that's why the form of the softmax function right so.
+for classification functions once you have done this computation you will then pass it through the softmax function to get.
+a probability distribution right so now the first part of the problem is solved that my actual outputs were a.
+probability distribution so now i have chosen an output function which also gives me a a probability distribution right so.
+this part has been done so now given that both of these are probability distributions can we choose a good.
+loss function right obviously as i said you could use the squared error loss function right but if you know.

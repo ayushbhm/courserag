@@ -1,0 +1,10 @@
+q and then q q transpose is again equal to I so there is no harm in writing this this.
+is uh correct right and now once I have done that I can now regroup some terms and I can.
+write it as the product of three matrices here right so I have taken the middle part as common which.
+was Alpha the Triangular Matrix Lambda which is the Matrix of eigen values of H then Alpha I and then.
+I have q here and Q transpose here right so I have just regrouped the terms now this becomes like.
+the product of three matrices a b c and I am trying to find the inverse of this product then.
+the inverse is going to be C inverse into B inverse into a inverse right so that's what it's going.
+to be so I can just do that's where I'm headed now right so I'll just do that yeah so.
+I can write it as Q transpose inverse then Lambda plus Alpha inverse and Q inverse and this Q inverse.
+and Q will multiply out and give me I and Q transpose inverse is of course Q because Q is.

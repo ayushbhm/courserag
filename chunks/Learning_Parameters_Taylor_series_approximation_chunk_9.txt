@@ -1,0 +1,10 @@
+the interesting thing about this formula is that it has this uh first order term it has a second order.
+term third order term and so on and I can cut off the formula wherever I want if I cut.
+off the formula here I am doing a second order approximation if I cut off the formula here I'm doing.
+a first order or a linear approximation so let's see what happens when I do a linear approximation okay so.
+again uh delete stuff on the slide so this is what the formula looks like I've just cut off the.
+formula at uh the first order terms right so I just have this much okay and now I want to.
+find the value of w and I'm saying that I already know this right I already know what LW naught.
+is right that is given to me now I'm saying that LW is just going to be this oh sorry.
+LW is just going to be this which is whatever was my current value plus some quantity okay and what.
+is this quantity this is L Dash W naught L Dash W naught is nothing but the first order derivative.

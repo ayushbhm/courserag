@@ -1,0 +1,2322 @@
+[
+  {
+    "text": "foreign",
+    "start": 0.299,
+    "duration": 3.0
+  },
+  {
+    "text": "[Music]",
+    "start": 6.62,
+    "duration": 17.499
+  },
+  {
+    "text": "move to a different algorithm and before",
+    "start": 20.24,
+    "duration": 6.82
+  },
+  {
+    "text": "doing that we are going to revisit the",
+    "start": 24.119,
+    "duration": 7.801
+  },
+  {
+    "text": "lp Norm right so LP Norm is Gen the",
+    "start": 27.06,
+    "duration": 8.04
+  },
+  {
+    "text": "general formula for LP Norm is as given",
+    "start": 31.92,
+    "duration": 5.1
+  },
+  {
+    "text": "here",
+    "start": 35.1,
+    "duration": 5.42
+  },
+  {
+    "text": "right and now if uh",
+    "start": 37.02,
+    "duration": 8.039
+  },
+  {
+    "text": "your p is equal to 2 then you get the L2",
+    "start": 40.52,
+    "duration": 5.859
+  },
+  {
+    "text": "Norm right so then you get take the",
+    "start": 45.059,
+    "duration": 2.881
+  },
+  {
+    "text": "squares of the values and then take the",
+    "start": 46.379,
+    "duration": 3.061
+  },
+  {
+    "text": "square root right so that's the L2 norm",
+    "start": 47.94,
+    "duration": 3.48
+  },
+  {
+    "text": "and remember when we had introduced Adam",
+    "start": 49.44,
+    "duration": 3.9
+  },
+  {
+    "text": "I had said that actually we were using",
+    "start": 51.42,
+    "duration": 4.26
+  },
+  {
+    "text": "uh L to Norm they're the exponentially",
+    "start": 53.34,
+    "duration": 5.16
+  },
+  {
+    "text": "weighted uh L2 Norm there and that's why",
+    "start": 55.68,
+    "duration": 4.379
+  },
+  {
+    "text": "I'm revisiting this because now we are",
+    "start": 58.5,
+    "duration": 3.42
+  },
+  {
+    "text": "going to see the possibility of using",
+    "start": 60.059,
+    "duration": 4.981
+  },
+  {
+    "text": "something other than the L2 Norm okay uh",
+    "start": 61.92,
+    "duration": 5.04
+  },
+  {
+    "text": "all of this will become clear soon so",
+    "start": 65.04,
+    "duration": 3.66
+  },
+  {
+    "text": "this is the uh",
+    "start": 66.96,
+    "duration": 3.9
+  },
+  {
+    "text": "yeah so we can visualize this so let's",
+    "start": 68.7,
+    "duration": 4.919
+  },
+  {
+    "text": "let's fix",
+    "start": 70.86,
+    "duration": 4.86
+  },
+  {
+    "text": "the norm let's take vectors which have",
+    "start": 73.619,
+    "duration": 4.82
+  },
+  {
+    "text": "Norm one right and now if you try to",
+    "start": 75.72,
+    "duration": 6.48
+  },
+  {
+    "text": "visualize it now for L one the shape",
+    "start": 78.439,
+    "duration": 5.5
+  },
+  {
+    "text": "looks like this right so what does that",
+    "start": 82.2,
+    "duration": 6.18
+  },
+  {
+    "text": "mean that for any point on this surface",
+    "start": 83.939,
+    "duration": 7.081
+  },
+  {
+    "text": "the norm is going to be 1 right and you",
+    "start": 88.38,
+    "duration": 5.22
+  },
+  {
+    "text": "can see that so this point for example",
+    "start": 91.02,
+    "duration": 5.12
+  },
+  {
+    "text": "here",
+    "start": 93.6,
+    "duration": 2.54
+  },
+  {
+    "text": "is minus 0.5 sorry 0.5 comma minus 0.5",
+    "start": 96.6,
+    "duration": 6.44
+  },
+  {
+    "text": "foreign",
+    "start": 109.14,
+    "duration": 4.799
+  },
+  {
+    "text": "with this",
+    "start": 111.2,
+    "duration": 4.84
+  },
+  {
+    "text": "right and now if I substitute that in",
+    "start": 113.939,
+    "duration": 4.561
+  },
+  {
+    "text": "this formula I'll get the answer as 1.",
+    "start": 116.04,
+    "duration": 4.439
+  },
+  {
+    "text": "right so all the points which lie on",
+    "start": 118.5,
+    "duration": 5.46
+  },
+  {
+    "text": "this uh uh Square they all are going to",
+    "start": 120.479,
+    "duration": 7.56
+  },
+  {
+    "text": "have the norm as uh one right and now if",
+    "start": 123.96,
+    "duration": 6.48
+  },
+  {
+    "text": "you look at L2 Norm you would have seen",
+    "start": 128.039,
+    "duration": 4.7
+  },
+  {
+    "text": "this",
+    "start": 130.44,
+    "duration": 2.299
+  },
+  {
+    "text": "oops",
+    "start": 134.76,
+    "duration": 2.54
+  },
+  {
+    "text": "yeah so if you look at LD Norm now all",
+    "start": 140.16,
+    "duration": 4.74
+  },
+  {
+    "text": "the points lying on this circle would",
+    "start": 142.68,
+    "duration": 4.32
+  },
+  {
+    "text": "have are the enormous one and it makes",
+    "start": 144.9,
+    "duration": 3.96
+  },
+  {
+    "text": "sense right because the equation that",
+    "start": 147.0,
+    "duration": 3.84
+  },
+  {
+    "text": "you get is the following right",
+    "start": 148.86,
+    "duration": 5.16
+  },
+  {
+    "text": "so I'm saying that X1 I'll not use the",
+    "start": 150.84,
+    "duration": 4.92
+  },
+  {
+    "text": "mod here because anyways I'm squaring",
+    "start": 154.02,
+    "duration": 4.56
+  },
+  {
+    "text": "okay let me just write the mod plus X2",
+    "start": 155.76,
+    "duration": 5.1
+  },
+  {
+    "text": "Square equal to 1 right you are looking",
+    "start": 158.58,
+    "duration": 3.72
+  },
+  {
+    "text": "for All Points which satisfy this",
+    "start": 160.86,
+    "duration": 3.12
+  },
+  {
+    "text": "equation and of course they will lie on",
+    "start": 162.3,
+    "duration": 4.38
+  },
+  {
+    "text": "a circle right so that's that's the how",
+    "start": 163.98,
+    "duration": 5.399
+  },
+  {
+    "text": "the norm works now what happens is that",
+    "start": 166.68,
+    "duration": 5.94
+  },
+  {
+    "text": "as uh you take larger and larger Norms",
+    "start": 169.379,
+    "duration": 6.841
+  },
+  {
+    "text": "right greater than 2 3 4 10 hundred then",
+    "start": 172.62,
+    "duration": 6.06
+  },
+  {
+    "text": "if you have small values of x 1 x 2",
+    "start": 176.22,
+    "duration": 4.68
+  },
+  {
+    "text": "right then these computations become",
+    "start": 178.68,
+    "duration": 3.9
+  },
+  {
+    "text": "numerically unstable right because any",
+    "start": 180.9,
+    "duration": 4.199
+  },
+  {
+    "text": "small value raised to a large value will",
+    "start": 182.58,
+    "duration": 4.019
+  },
+  {
+    "text": "become very very small or the other way",
+    "start": 185.099,
+    "duration": 2.581
+  },
+  {
+    "text": "around right if they are greater than",
+    "start": 186.599,
+    "duration": 3.121
+  },
+  {
+    "text": "one again if you do 1.1 raise to 100 it",
+    "start": 187.68,
+    "duration": 4.38
+  },
+  {
+    "text": "will just blow up right not maybe 100",
+    "start": 189.72,
+    "duration": 4.5
+  },
+  {
+    "text": "but a slightly higher power than that it",
+    "start": 192.06,
+    "duration": 3.78
+  },
+  {
+    "text": "might blow up right and then you don't",
+    "start": 194.22,
+    "duration": 4.2
+  },
+  {
+    "text": "want that right so that's why L2 Norm is",
+    "start": 195.84,
+    "duration": 6.84
+  },
+  {
+    "text": "the most preferred uh Norm uh but as P",
+    "start": 198.42,
+    "duration": 6.06
+  },
+  {
+    "text": "keeps increasing and it tends to",
+    "start": 202.68,
+    "duration": 3.96
+  },
+  {
+    "text": "Infinity then something interesting",
+    "start": 204.48,
+    "duration": 4.28
+  },
+  {
+    "text": "happens so it's as P becomes Infinity",
+    "start": 206.64,
+    "duration": 5.519
+  },
+  {
+    "text": "then the norm just boils down to the max",
+    "start": 208.76,
+    "duration": 7.119
+  },
+  {
+    "text": "right so if you look at L Infinity Norm",
+    "start": 212.159,
+    "duration": 5.94
+  },
+  {
+    "text": "then it's just taking the max of the",
+    "start": 215.879,
+    "duration": 3.661
+  },
+  {
+    "text": "values that you have right so in the",
+    "start": 218.099,
+    "duration": 3.72
+  },
+  {
+    "text": "vector you have the values x 1 x 2 up to",
+    "start": 219.54,
+    "duration": 5.4
+  },
+  {
+    "text": "X N and L Infinity Norm is just the max",
+    "start": 221.819,
+    "duration": 5.041
+  },
+  {
+    "text": "of this and you can quickly prove why",
+    "start": 224.94,
+    "duration": 4.76
+  },
+  {
+    "text": "that is the case",
+    "start": 226.86,
+    "duration": 2.84
+  },
+  {
+    "text": "so if if I had uh if I wanted to",
+    "start": 235.2,
+    "duration": 6.66
+  },
+  {
+    "text": "uh yeah so let's see so I'm talking",
+    "start": 239.04,
+    "duration": 7.38
+  },
+  {
+    "text": "about x 1 raised to P plus X2 raised to",
+    "start": 241.86,
+    "duration": 6.799
+  },
+  {
+    "text": "p",
+    "start": 246.42,
+    "duration": 2.239
+  },
+  {
+    "text": "all the way up to X",
+    "start": 249.12,
+    "duration": 8.1
+  },
+  {
+    "text": "n raised to P right and then the 1 by pH",
+    "start": 252.48,
+    "duration": 6.42
+  },
+  {
+    "text": "root of that",
+    "start": 257.22,
+    "duration": 4.38
+  },
+  {
+    "text": "okay and I want to make a case for y",
+    "start": 258.9,
+    "duration": 5.7
+  },
+  {
+    "text": "this would be Infinity when P why would",
+    "start": 261.6,
+    "duration": 4.86
+  },
+  {
+    "text": "this be equal to the max of the values x",
+    "start": 264.6,
+    "duration": 4.62
+  },
+  {
+    "text": "1 x 2 x n if P tends to Infinity rate so",
+    "start": 266.46,
+    "duration": 5.16
+  },
+  {
+    "text": "if I take limit P tends to Infinity I'll",
+    "start": 269.22,
+    "duration": 3.84
+  },
+  {
+    "text": "just give you a rough fight outline of",
+    "start": 271.62,
+    "duration": 2.7
+  },
+  {
+    "text": "the proof I will not do the whole thing",
+    "start": 273.06,
+    "duration": 3.72
+  },
+  {
+    "text": "I'll just do the necessary part now what",
+    "start": 274.32,
+    "duration": 5.599
+  },
+  {
+    "text": "I can do is I can take this X1",
+    "start": 276.78,
+    "duration": 6.12
+  },
+  {
+    "text": "by P outside",
+    "start": 279.919,
+    "duration": 5.741
+  },
+  {
+    "text": "right and let I'm assuming that X1 is",
+    "start": 282.9,
+    "duration": 4.26
+  },
+  {
+    "text": "the maximum value let's assume without",
+    "start": 285.66,
+    "duration": 3.42
+  },
+  {
+    "text": "loss of generality we can assume that X1",
+    "start": 287.16,
+    "duration": 4.88
+  },
+  {
+    "text": "is the maximum value",
+    "start": 289.08,
+    "duration": 2.96
+  },
+  {
+    "text": "so this would become X2 by X1 raised to",
+    "start": 295.38,
+    "duration": 5.94
+  },
+  {
+    "text": "p and so on and you will have",
+    "start": 297.6,
+    "duration": 5.7
+  },
+  {
+    "text": "x n",
+    "start": 301.32,
+    "duration": 4.2
+  },
+  {
+    "text": "by X1",
+    "start": 303.3,
+    "duration": 5.339
+  },
+  {
+    "text": "raised to p and then the 1 by P at the",
+    "start": 305.52,
+    "duration": 5.76
+  },
+  {
+    "text": "root of the whole thing right now as P",
+    "start": 308.639,
+    "duration": 4.741
+  },
+  {
+    "text": "tends to Infinity what will happen is as",
+    "start": 311.28,
+    "duration": 5.46
+  },
+  {
+    "text": "each of these quantities is uh",
+    "start": 313.38,
+    "duration": 5.099
+  },
+  {
+    "text": "each of these quantities is actually",
+    "start": 316.74,
+    "duration": 3.48
+  },
+  {
+    "text": "less than one right because X1 is the",
+    "start": 318.479,
+    "duration": 3.421
+  },
+  {
+    "text": "largest value so all the other",
+    "start": 320.22,
+    "duration": 3.419
+  },
+  {
+    "text": "quantities divided by X1 is going to be",
+    "start": 321.9,
+    "duration": 3.6
+  },
+  {
+    "text": "a quantity less than one so now if",
+    "start": 323.639,
+    "duration": 3.06
+  },
+  {
+    "text": "you're going to raise this to the power",
+    "start": 325.5,
+    "duration": 3.72
+  },
+  {
+    "text": "of P all of NP tends to Infinity then",
+    "start": 326.699,
+    "duration": 4.321
+  },
+  {
+    "text": "all of these terms will disappear right",
+    "start": 329.22,
+    "duration": 4.08
+  },
+  {
+    "text": "so then you'll just have X1 raised to p",
+    "start": 331.02,
+    "duration": 4.44
+  },
+  {
+    "text": "and then the pth root of that which will",
+    "start": 333.3,
+    "duration": 4.38
+  },
+  {
+    "text": "just be X1 so what you get back is just",
+    "start": 335.46,
+    "duration": 4.019
+  },
+  {
+    "text": "the maximum element that you had in the",
+    "start": 337.68,
+    "duration": 4.2
+  },
+  {
+    "text": "vector right so that's why LP Norm the L",
+    "start": 339.479,
+    "duration": 4.261
+  },
+  {
+    "text": "Infinity Norm is just like taking is",
+    "start": 341.88,
+    "duration": 3.86
+  },
+  {
+    "text": "equivalent to taking the maximum value",
+    "start": 343.74,
+    "duration": 5.94
+  },
+  {
+    "text": "and that's all we need to do right so",
+    "start": 345.74,
+    "duration": 5.62
+  },
+  {
+    "text": "that's that's easy to compute there's no",
+    "start": 349.68,
+    "duration": 3.6
+  },
+  {
+    "text": "numerical instability there right so",
+    "start": 351.36,
+    "duration": 5.82
+  },
+  {
+    "text": "that's uh that's an interesting result",
+    "start": 353.28,
+    "duration": 7.139
+  },
+  {
+    "text": "okay so now we understand about LP Norms",
+    "start": 357.18,
+    "duration": 4.799
+  },
+  {
+    "text": "in general and we understand about L",
+    "start": 360.419,
+    "duration": 3.481
+  },
+  {
+    "text": "Infinity which is just taking the",
+    "start": 361.979,
+    "duration": 3.841
+  },
+  {
+    "text": "maximum value right now what is the",
+    "start": 363.9,
+    "duration": 3.06
+  },
+  {
+    "text": "point that we're trying to make here",
+    "start": 365.82,
+    "duration": 3.42
+  },
+  {
+    "text": "right so recall the equation of VT this",
+    "start": 366.96,
+    "duration": 5.579
+  },
+  {
+    "text": "was the equation of VT that we had and",
+    "start": 369.24,
+    "duration": 5.7
+  },
+  {
+    "text": "this was as we had seen equivalent to",
+    "start": 372.539,
+    "duration": 6.361
+  },
+  {
+    "text": "doing right uh beta",
+    "start": 374.94,
+    "duration": 6.479
+  },
+  {
+    "text": "so what if I just expand this right then",
+    "start": 378.9,
+    "duration": 4.859
+  },
+  {
+    "text": "what we had seen was we are doing uh",
+    "start": 381.419,
+    "duration": 7.261
+  },
+  {
+    "text": "beta 2 uh raised to at time step T right",
+    "start": 383.759,
+    "duration": 8.16
+  },
+  {
+    "text": "so T minus 1 into Delta",
+    "start": 388.68,
+    "duration": 7.26
+  },
+  {
+    "text": "W 0 squared Plus",
+    "start": 391.919,
+    "duration": 6.661
+  },
+  {
+    "text": "beta 2 into T minus 2",
+    "start": 395.94,
+    "duration": 4.199
+  },
+  {
+    "text": "Delta",
+    "start": 398.58,
+    "duration": 3.54
+  },
+  {
+    "text": "W 1 square",
+    "start": 400.139,
+    "duration": 3.601
+  },
+  {
+    "text": "Plus",
+    "start": 402.12,
+    "duration": 5.94
+  },
+  {
+    "text": "all the way up to 1 minus beta",
+    "start": 403.74,
+    "duration": 6.239
+  },
+  {
+    "text": "Delta",
+    "start": 408.06,
+    "duration": 5.639
+  },
+  {
+    "text": "WT square right so this is what we had",
+    "start": 409.979,
+    "duration": 7.56
+  },
+  {
+    "text": "seen so your history VT is actually if I",
+    "start": 413.699,
+    "duration": 5.461
+  },
+  {
+    "text": "just ignore all the beta right let me",
+    "start": 417.539,
+    "duration": 4.021
+  },
+  {
+    "text": "just ignore all the betas then this is",
+    "start": 419.16,
+    "duration": 4.14
+  },
+  {
+    "text": "just like the L2 now right you're just",
+    "start": 421.56,
+    "duration": 3.54
+  },
+  {
+    "text": "taking the keeping the history of",
+    "start": 423.3,
+    "duration": 3.959
+  },
+  {
+    "text": "gradients and then you are taking the L2",
+    "start": 425.1,
+    "duration": 4.2
+  },
+  {
+    "text": "Norm of that is just exponentially",
+    "start": 427.259,
+    "duration": 4.5
+  },
+  {
+    "text": "weighted average L2 Norm that you are",
+    "start": 429.3,
+    "duration": 4.44
+  },
+  {
+    "text": "taking right now the point is instead of",
+    "start": 431.759,
+    "duration": 4.861
+  },
+  {
+    "text": "doing that can we replace this by L",
+    "start": 433.74,
+    "duration": 4.739
+  },
+  {
+    "text": "Infinity norm and does it have any",
+    "start": 436.62,
+    "duration": 3.479
+  },
+  {
+    "text": "parameters that's the thing that we want",
+    "start": 438.479,
+    "duration": 4.861
+  },
+  {
+    "text": "to check okay uh yeah so that's where we",
+    "start": 440.099,
+    "duration": 4.741
+  },
+  {
+    "text": "are headed",
+    "start": 443.34,
+    "duration": 4.199
+  },
+  {
+    "text": "so now if we place it by Max then what",
+    "start": 444.84,
+    "duration": 5.04
+  },
+  {
+    "text": "it boils down to is that we're just",
+    "start": 447.539,
+    "duration": 3.78
+  },
+  {
+    "text": "going to take the max of these",
+    "start": 449.88,
+    "duration": 3.9
+  },
+  {
+    "text": "quantities right and that in turn will",
+    "start": 451.319,
+    "duration": 5.22
+  },
+  {
+    "text": "just boil down to whatever we had at the",
+    "start": 453.78,
+    "duration": 4.259
+  },
+  {
+    "text": "previous time step because you're taking",
+    "start": 456.539,
+    "duration": 2.701
+  },
+  {
+    "text": "the max let's say you're already taking",
+    "start": 458.039,
+    "duration": 3.901
+  },
+  {
+    "text": "the max of these two guys uh when you",
+    "start": 459.24,
+    "duration": 4.26
+  },
+  {
+    "text": "are at time step two you have taken the",
+    "start": 461.94,
+    "duration": 3.12
+  },
+  {
+    "text": "max of these two guys and retained one",
+    "start": 463.5,
+    "duration": 3.9
+  },
+  {
+    "text": "of those then again whatever was the max",
+    "start": 465.06,
+    "duration": 4.259
+  },
+  {
+    "text": "that you took at time step 3 and retain",
+    "start": 467.4,
+    "duration": 3.66
+  },
+  {
+    "text": "one of those right so then it just",
+    "start": 469.319,
+    "duration": 3.901
+  },
+  {
+    "text": "becomes like taking a pairwise Max",
+    "start": 471.06,
+    "duration": 4.56
+  },
+  {
+    "text": "whatever you had at time step T minus 1",
+    "start": 473.22,
+    "duration": 5.4
+  },
+  {
+    "text": "the history that multiplied by meter and",
+    "start": 475.62,
+    "duration": 4.68
+  },
+  {
+    "text": "the max with the next guy right so",
+    "start": 478.62,
+    "duration": 3.18
+  },
+  {
+    "text": "that's all we are doing notice that here",
+    "start": 480.3,
+    "duration": 5.7
+  },
+  {
+    "text": "we are not scaling uh the gradient by 1",
+    "start": 481.8,
+    "duration": 6.179
+  },
+  {
+    "text": "minus beta right so that's a change that",
+    "start": 486.0,
+    "duration": 4.56
+  },
+  {
+    "text": "we have made right so then essentially",
+    "start": 487.979,
+    "duration": 4.981
+  },
+  {
+    "text": "now this becomes the L Infinity Norm of",
+    "start": 490.56,
+    "duration": 3.96
+  },
+  {
+    "text": "the history of the gradients the",
+    "start": 492.96,
+    "duration": 3.66
+  },
+  {
+    "text": "exponentially weighted L Infinity Norm",
+    "start": 494.52,
+    "duration": 4.799
+  },
+  {
+    "text": "that you are taking here",
+    "start": 496.62,
+    "duration": 5.1
+  },
+  {
+    "text": "and if you're doing that uh let's see",
+    "start": 499.319,
+    "duration": 3.66
+  },
+  {
+    "text": "what happens",
+    "start": 501.72,
+    "duration": 2.759
+  },
+  {
+    "text": "so that's a change we are making right",
+    "start": 502.979,
+    "duration": 2.641
+  },
+  {
+    "text": "we are saying that instead of using the",
+    "start": 504.479,
+    "duration": 4.081
+  },
+  {
+    "text": "L2 Norm for VT we can use the uh L",
+    "start": 505.62,
+    "duration": 4.38
+  },
+  {
+    "text": "Infinity Norm which is just like taking",
+    "start": 508.56,
+    "duration": 3.899
+  },
+  {
+    "text": "the max it's also computationally very",
+    "start": 510.0,
+    "duration": 4.68
+  },
+  {
+    "text": "simple and let's see if that leads to",
+    "start": 512.459,
+    "duration": 4.08
+  },
+  {
+    "text": "some benefits right and now we don't",
+    "start": 514.68,
+    "duration": 3.359
+  },
+  {
+    "text": "need to take the square root because in",
+    "start": 516.539,
+    "duration": 5.161
+  },
+  {
+    "text": "the L Infinity Norm the max value comes",
+    "start": 518.039,
+    "duration": 5.88
+  },
+  {
+    "text": "out by P raised to 1 by P right so I",
+    "start": 521.7,
+    "duration": 3.78
+  },
+  {
+    "text": "have already taken the p through it and",
+    "start": 523.919,
+    "duration": 2.941
+  },
+  {
+    "text": "then you have got the max value so there",
+    "start": 525.48,
+    "duration": 2.82
+  },
+  {
+    "text": "is no more square root here square root",
+    "start": 526.86,
+    "duration": 3.0
+  },
+  {
+    "text": "is only associated associated with the",
+    "start": 528.3,
+    "duration": 3.78
+  },
+  {
+    "text": "L2 Norm but the proof that we saw on the",
+    "start": 529.86,
+    "duration": 4.62
+  },
+  {
+    "text": "previous slide said that the lp Norm is",
+    "start": 532.08,
+    "duration": 3.9
+  },
+  {
+    "text": "just the max right this after that there",
+    "start": 534.48,
+    "duration": 3.18
+  },
+  {
+    "text": "is no squaring square root of any of",
+    "start": 535.98,
+    "duration": 2.94
+  },
+  {
+    "text": "those things right so we do not need the",
+    "start": 537.66,
+    "duration": 4.44
+  },
+  {
+    "text": "square root here so this is what the WT",
+    "start": 538.92,
+    "duration": 7.919
+  },
+  {
+    "text": "plus 1 would be and we did not uh do any",
+    "start": 542.1,
+    "duration": 8.16
+  },
+  {
+    "text": "bias correction for VT right we just",
+    "start": 546.839,
+    "duration": 5.881
+  },
+  {
+    "text": "took we are just going to take VT as it",
+    "start": 550.26,
+    "duration": 4.8
+  },
+  {
+    "text": "is because it turns out that the max",
+    "start": 552.72,
+    "duration": 4.5
+  },
+  {
+    "text": "Norm is not susceptible to the initial",
+    "start": 555.06,
+    "duration": 4.02
+  },
+  {
+    "text": "zero bias as opposed to the",
+    "start": 557.22,
+    "duration": 3.96
+  },
+  {
+    "text": "exponentially weighted average norm that",
+    "start": 559.08,
+    "duration": 3.42
+  },
+  {
+    "text": "we have right so let's see why that is",
+    "start": 561.18,
+    "duration": 3.18
+  },
+  {
+    "text": "the case so this is what happens right",
+    "start": 562.5,
+    "duration": 4.14
+  },
+  {
+    "text": "so now if you have the max Norm so again",
+    "start": 564.36,
+    "duration": 5.84
+  },
+  {
+    "text": "what will happen is that your m",
+    "start": 566.64,
+    "duration": 3.56
+  },
+  {
+    "text": "0 is sorry",
+    "start": 570.3,
+    "duration": 4.099
+  },
+  {
+    "text": "M minus 1 at initialization is 0 and now",
+    "start": 575.94,
+    "duration": 6.66
+  },
+  {
+    "text": "in this case my at time step 0 I had the",
+    "start": 579.6,
+    "duration": 6.419
+  },
+  {
+    "text": "value 0.5 so my Max Norm is going to be",
+    "start": 582.6,
+    "duration": 6.0
+  },
+  {
+    "text": "the max of these two quantities right",
+    "start": 586.019,
+    "duration": 4.681
+  },
+  {
+    "text": "and then it will end up being 0.5 so",
+    "start": 588.6,
+    "duration": 4.799
+  },
+  {
+    "text": "I'll start from here right and so max is",
+    "start": 590.7,
+    "duration": 5.28
+  },
+  {
+    "text": "of course more uh zigzag it's not as",
+    "start": 593.399,
+    "duration": 4.201
+  },
+  {
+    "text": "smooth as you had in the L2 Norm it's",
+    "start": 595.98,
+    "duration": 3.0
+  },
+  {
+    "text": "understandable because you're just",
+    "start": 597.6,
+    "duration": 5.28
+  },
+  {
+    "text": "moving to the maximum values and say",
+    "start": 598.98,
+    "duration": 6.0
+  },
+  {
+    "text": "this is so so that's why it's not",
+    "start": 602.88,
+    "duration": 4.56
+  },
+  {
+    "text": "susceptible to the initial zero bias so",
+    "start": 604.98,
+    "duration": 4.02
+  },
+  {
+    "text": "we don't need bias correction when we",
+    "start": 607.44,
+    "duration": 3.06
+  },
+  {
+    "text": "are using the max knob right and we are",
+    "start": 609.0,
+    "duration": 4.26
+  },
+  {
+    "text": "taking the max between beta V time uh",
+    "start": 610.5,
+    "duration": 6.12
+  },
+  {
+    "text": "beta times the history uh that means",
+    "start": 613.26,
+    "duration": 5.46
+  },
+  {
+    "text": "beta times the max up till time step T",
+    "start": 616.62,
+    "duration": 5.339
+  },
+  {
+    "text": "minus 1 and then the current value right",
+    "start": 618.72,
+    "duration": 5.58
+  },
+  {
+    "text": "so this history is again decaying",
+    "start": 621.959,
+    "duration": 3.961
+  },
+  {
+    "text": "exponentially right because every time",
+    "start": 624.3,
+    "duration": 3.659
+  },
+  {
+    "text": "beta gets multiplied by the history but",
+    "start": 625.92,
+    "duration": 3.18
+  },
+  {
+    "text": "the current gradient you are not",
+    "start": 627.959,
+    "duration": 4.761
+  },
+  {
+    "text": "multiplying by anything okay",
+    "start": 629.1,
+    "duration": 3.62
+  },
+  {
+    "text": "okay so that's the justification for not",
+    "start": 634.019,
+    "duration": 5.581
+  },
+  {
+    "text": "having bias correction",
+    "start": 637.26,
+    "duration": 4.68
+  },
+  {
+    "text": "okay now let's see now suppose we",
+    "start": 639.6,
+    "duration": 4.5
+  },
+  {
+    "text": "initialize w0 so that's that so now we",
+    "start": 641.94,
+    "duration": 3.6
+  },
+  {
+    "text": "are trying to see so we have proposed",
+    "start": 644.1,
+    "duration": 3.84
+  },
+  {
+    "text": "that we'll use the max Norm of for VT",
+    "start": 645.54,
+    "duration": 5.34
+  },
+  {
+    "text": "instead of using the L2 Norm now we want",
+    "start": 647.94,
+    "duration": 4.62
+  },
+  {
+    "text": "to see is there any benefit of doing",
+    "start": 650.88,
+    "duration": 3.48
+  },
+  {
+    "text": "that right so suppose that we initialize",
+    "start": 652.56,
+    "duration": 5.04
+  },
+  {
+    "text": "W such that the gradient at w0 is higher",
+    "start": 654.36,
+    "duration": 5.88
+  },
+  {
+    "text": "we just did a random initialization and",
+    "start": 657.6,
+    "duration": 4.739
+  },
+  {
+    "text": "it turns out that your initial gradient",
+    "start": 660.24,
+    "duration": 4.98
+  },
+  {
+    "text": "was high right and now suppose further",
+    "start": 662.339,
+    "duration": 4.62
+  },
+  {
+    "text": "that the gradients for the subsequent",
+    "start": 665.22,
+    "duration": 3.96
+  },
+  {
+    "text": "iterations are all zero right for a few",
+    "start": 666.959,
+    "duration": 3.961
+  },
+  {
+    "text": "iterations they are zero so this is what",
+    "start": 669.18,
+    "duration": 4.14
+  },
+  {
+    "text": "is pectorially depicted here right so",
+    "start": 670.92,
+    "duration": 4.919
+  },
+  {
+    "text": "you have the gradient along this axis",
+    "start": 673.32,
+    "duration": 4.92
+  },
+  {
+    "text": "your initial gradient was high and then",
+    "start": 675.839,
+    "duration": 4.141
+  },
+  {
+    "text": "for the next few time steps your",
+    "start": 678.24,
+    "duration": 3.539
+  },
+  {
+    "text": "gradient is zero and this could be",
+    "start": 679.98,
+    "duration": 3.96
+  },
+  {
+    "text": "possible because X is part so it's a x",
+    "start": 681.779,
+    "duration": 4.68
+  },
+  {
+    "text": "is passed so you in the next time steps",
+    "start": 683.94,
+    "duration": 4.079
+  },
+  {
+    "text": "when you are seeing the input that x is",
+    "start": 686.459,
+    "duration": 3.841
+  },
+  {
+    "text": "0 so the gradient is going to be zero",
+    "start": 688.019,
+    "duration": 4.26
+  },
+  {
+    "text": "okay so this is again a typical",
+    "start": 690.3,
+    "duration": 3.36
+  },
+  {
+    "text": "situation that you encounter in fact",
+    "start": 692.279,
+    "duration": 2.821
+  },
+  {
+    "text": "this is the situation that we have been",
+    "start": 693.66,
+    "duration": 4.14
+  },
+  {
+    "text": "arguing about ever since we started the",
+    "start": 695.1,
+    "duration": 4.56
+  },
+  {
+    "text": "uh discussion on",
+    "start": 697.8,
+    "duration": 4.14
+  },
+  {
+    "text": "adaptive learning race right so now",
+    "start": 699.66,
+    "duration": 4.08
+  },
+  {
+    "text": "ideally we don't want the learning rate",
+    "start": 701.94,
+    "duration": 5.339
+  },
+  {
+    "text": "to change right uh when the gradient is",
+    "start": 703.74,
+    "duration": 5.64
+  },
+  {
+    "text": "zero so now you have looked at uh an",
+    "start": 707.279,
+    "duration": 3.12
+  },
+  {
+    "text": "update",
+    "start": 709.38,
+    "duration": 3.6
+  },
+  {
+    "text": "and your gradient was Zero you are in",
+    "start": 710.399,
+    "duration": 4.68
+  },
+  {
+    "text": "this time step and your gradient is zero",
+    "start": 712.98,
+    "duration": 3.419
+  },
+  {
+    "text": "you don't want to do anything to the",
+    "start": 715.079,
+    "duration": 2.521
+  },
+  {
+    "text": "learning rate right why do you want to",
+    "start": 716.399,
+    "duration": 2.581
+  },
+  {
+    "text": "change the learning rate at this time",
+    "start": 717.6,
+    "duration": 3.0
+  },
+  {
+    "text": "step right because you have not doing",
+    "start": 718.98,
+    "duration": 3.78
+  },
+  {
+    "text": "anything you did not get any update but",
+    "start": 720.6,
+    "duration": 4.919
+  },
+  {
+    "text": "now in the case of uh in the case of the",
+    "start": 722.76,
+    "duration": 5.94
+  },
+  {
+    "text": "max value this is what will happen right",
+    "start": 725.519,
+    "duration": 5.641
+  },
+  {
+    "text": "it will not change",
+    "start": 728.7,
+    "duration": 6.18
+  },
+  {
+    "text": "right because you're taking uh sorry",
+    "start": 731.16,
+    "duration": 5.94
+  },
+  {
+    "text": "please since you're using the max your",
+    "start": 734.88,
+    "duration": 5.6
+  },
+  {
+    "text": "current gradient is 0",
+    "start": 737.1,
+    "duration": 3.38
+  },
+  {
+    "text": "right so then your goal is just going to",
+    "start": 743.04,
+    "duration": 4.68
+  },
+  {
+    "text": "go by the max value so far and hence the",
+    "start": 744.899,
+    "duration": 4.741
+  },
+  {
+    "text": "the history is not going to change right",
+    "start": 747.72,
+    "duration": 4.559
+  },
+  {
+    "text": "because this is going to be uh zero so",
+    "start": 749.64,
+    "duration": 5.28
+  },
+  {
+    "text": "that is uh uh what happens in the case",
+    "start": 752.279,
+    "duration": 4.321
+  },
+  {
+    "text": "of Max now let's see what happens in the",
+    "start": 754.92,
+    "duration": 4.919
+  },
+  {
+    "text": "case if you are using the L2 Norm right",
+    "start": 756.6,
+    "duration": 6.0
+  },
+  {
+    "text": "as we were using earlier let's see so",
+    "start": 759.839,
+    "duration": 6.06
+  },
+  {
+    "text": "let's look at the example now I've just",
+    "start": 762.6,
+    "duration": 5.4
+  },
+  {
+    "text": "changed the example a bit suppose that",
+    "start": 765.899,
+    "duration": 4.44
+  },
+  {
+    "text": "50 of the inputs that you see are zero",
+    "start": 768.0,
+    "duration": 5.22
+  },
+  {
+    "text": "right so after every uh input here every",
+    "start": 770.339,
+    "duration": 4.68
+  },
+  {
+    "text": "time step you are seeing a every",
+    "start": 773.22,
+    "duration": 3.059
+  },
+  {
+    "text": "alternate time step you are seeing a",
+    "start": 775.019,
+    "duration": 3.12
+  },
+  {
+    "text": "zero input and hence the gradient is",
+    "start": 776.279,
+    "duration": 4.56
+  },
+  {
+    "text": "also zero right and let's say the other",
+    "start": 778.139,
+    "duration": 3.901
+  },
+  {
+    "text": "time steps you are seeing a high",
+    "start": 780.839,
+    "duration": 2.94
+  },
+  {
+    "text": "gradient it's just an artificial example",
+    "start": 782.04,
+    "duration": 4.2
+  },
+  {
+    "text": "constructed to prove a point so let's",
+    "start": 783.779,
+    "duration": 5.901
+  },
+  {
+    "text": "just see what the point is",
+    "start": 786.24,
+    "duration": 3.44
+  },
+  {
+    "text": "so ideally we don't want the learning",
+    "start": 790.92,
+    "duration": 3.24
+  },
+  {
+    "text": "rate to change as I said when the",
+    "start": 792.42,
+    "duration": 3.479
+  },
+  {
+    "text": "gradient is 0 or when the input is zero",
+    "start": 794.16,
+    "duration": 4.799
+  },
+  {
+    "text": "so in the case of Max initially you had",
+    "start": 795.899,
+    "duration": 6.541
+  },
+  {
+    "text": "say V 0 at time step V 0 you had Max of",
+    "start": 798.959,
+    "duration": 5.88
+  },
+  {
+    "text": "0 comma the current gradient so your V 0",
+    "start": 802.44,
+    "duration": 5.459
+  },
+  {
+    "text": "was 1 and your ETA was one over one so",
+    "start": 804.839,
+    "duration": 7.821
+  },
+  {
+    "text": "it was one right so ETA was uh",
+    "start": 807.899,
+    "duration": 7.321
+  },
+  {
+    "text": "I assume that the initial learning rate",
+    "start": 812.66,
+    "duration": 4.239
+  },
+  {
+    "text": "ETA naught is also set to 1 so it will",
+    "start": 815.22,
+    "duration": 5.1
+  },
+  {
+    "text": "be ETA naught divided by VT and since V",
+    "start": 816.899,
+    "duration": 5.88
+  },
+  {
+    "text": "T is one it would also be one right this",
+    "start": 820.32,
+    "duration": 5.4
+  },
+  {
+    "text": "is this clear yeah it's just a minute",
+    "start": 822.779,
+    "duration": 5.281
+  },
+  {
+    "text": "I'll just write it down remember that",
+    "start": 825.72,
+    "duration": 7.08
+  },
+  {
+    "text": "ETA T is ETA naught divided by VT right",
+    "start": 828.06,
+    "duration": 6.779
+  },
+  {
+    "text": "and I assumed that ETA naught is equal",
+    "start": 832.8,
+    "duration": 3.9
+  },
+  {
+    "text": "to 1 just for the sake of Simplicity",
+    "start": 834.839,
+    "duration": 5.821
+  },
+  {
+    "text": "okay so now ETA T remains 1 in this case",
+    "start": 836.7,
+    "duration": 6.0
+  },
+  {
+    "text": "uh",
+    "start": 840.66,
+    "duration": 4.38
+  },
+  {
+    "text": "becomes one in this case now let's see",
+    "start": 842.7,
+    "duration": 4.56
+  },
+  {
+    "text": "what happens at the next time Step at",
+    "start": 845.04,
+    "duration": 4.32
+  },
+  {
+    "text": "the next time step my derivative was 0",
+    "start": 847.26,
+    "duration": 8.4
+  },
+  {
+    "text": "right so my V1 is just uh 0.999 times my",
+    "start": 849.36,
+    "duration": 9.06
+  },
+  {
+    "text": "history right so that's almost one so my",
+    "start": 855.66,
+    "duration": 4.5
+  },
+  {
+    "text": "effective learning rate again becomes 1",
+    "start": 858.42,
+    "duration": 4.919
+  },
+  {
+    "text": "by V T which is 1.001 so my effective",
+    "start": 860.16,
+    "duration": 5.28
+  },
+  {
+    "text": "learning rate has not changed much right",
+    "start": 863.339,
+    "duration": 6.841
+  },
+  {
+    "text": "and same for time Step 2 now the",
+    "start": 865.44,
+    "duration": 8.36
+  },
+  {
+    "text": "gradient is one right",
+    "start": 870.18,
+    "duration": 3.62
+  },
+  {
+    "text": "oops",
+    "start": 877.079,
+    "duration": 5.88
+  },
+  {
+    "text": "yeah now the derivative is one and my",
+    "start": 879.42,
+    "duration": 7.2
+  },
+  {
+    "text": "history was 0.999 sorry this should have",
+    "start": 882.959,
+    "duration": 8.88
+  },
+  {
+    "text": "been Max of 0.999 uh multiplied by 0.99",
+    "start": 886.62,
+    "duration": 8.04
+  },
+  {
+    "text": "because it is beta times VT minus 1 but",
+    "start": 891.839,
+    "duration": 4.261
+  },
+  {
+    "text": "it doesn't matter the max would anyways",
+    "start": 894.66,
+    "duration": 3.9
+  },
+  {
+    "text": "have been one so my V2 is 1 and my",
+    "start": 896.1,
+    "duration": 6.32
+  },
+  {
+    "text": "learning rate again becomes uh",
+    "start": 898.56,
+    "duration": 3.86
+  },
+  {
+    "text": "1 right so my learning rate is not",
+    "start": 906.06,
+    "duration": 3.839
+  },
+  {
+    "text": "changing and the same thing will keep",
+    "start": 908.579,
+    "duration": 3.421
+  },
+  {
+    "text": "repeating right the next input is 0 so",
+    "start": 909.899,
+    "duration": 4.321
+  },
+  {
+    "text": "again it will be 1.001 and so on right",
+    "start": 912.0,
+    "duration": 3.42
+  },
+  {
+    "text": "so this is what my learning rate is",
+    "start": 914.22,
+    "duration": 3.72
+  },
+  {
+    "text": "looking like so remember on the x axis I",
+    "start": 915.42,
+    "duration": 4.8
+  },
+  {
+    "text": "have uh so this plus one you need to do",
+    "start": 917.94,
+    "duration": 3.6
+  },
+  {
+    "text": "right so",
+    "start": 920.22,
+    "duration": 4.02
+  },
+  {
+    "text": "uh it was easier to draw it like this so",
+    "start": 921.54,
+    "duration": 5.539
+  },
+  {
+    "text": "this is a plus one so this is 1.001",
+    "start": 924.24,
+    "duration": 6.24
+  },
+  {
+    "text": "1.002 and so on right",
+    "start": 927.079,
+    "duration": 5.56
+  },
+  {
+    "text": "so my learning rate only changes from 1",
+    "start": 930.48,
+    "duration": 4.919
+  },
+  {
+    "text": "to 1.001 which means it almost remains",
+    "start": 932.639,
+    "duration": 5.221
+  },
+  {
+    "text": "constant as I am moving across and",
+    "start": 935.399,
+    "duration": 3.841
+  },
+  {
+    "text": "that's what I want right I don't want",
+    "start": 937.86,
+    "duration": 3.0
+  },
+  {
+    "text": "the learning rate to change too much for",
+    "start": 939.24,
+    "duration": 4.02
+  },
+  {
+    "text": "the zero inputs right that's and that",
+    "start": 940.86,
+    "duration": 4.44
+  },
+  {
+    "text": "this is ensuring that right now let's",
+    "start": 943.26,
+    "duration": 4.019
+  },
+  {
+    "text": "see what would have happened in the case",
+    "start": 945.3,
+    "duration": 3.24
+  },
+  {
+    "text": "of",
+    "start": 947.279,
+    "duration": 4.021
+  },
+  {
+    "text": "I'll just do the full stuff and then we",
+    "start": 948.54,
+    "duration": 5.94
+  },
+  {
+    "text": "start using the pay point",
+    "start": 951.3,
+    "duration": 4.8
+  },
+  {
+    "text": "yeah",
+    "start": 954.48,
+    "duration": 4.68
+  },
+  {
+    "text": "so now when I'm using this L2 knob okay",
+    "start": 956.1,
+    "duration": 6.359
+  },
+  {
+    "text": "at time step 0 I get point zero zero one",
+    "start": 959.16,
+    "duration": 5.58
+  },
+  {
+    "text": "and then I use the bias corrected value",
+    "start": 962.459,
+    "duration": 4.62
+  },
+  {
+    "text": "and then my initial learning rate at",
+    "start": 964.74,
+    "duration": 4.02
+  },
+  {
+    "text": "time sorry my learning rate at time step",
+    "start": 967.079,
+    "duration": 5.341
+  },
+  {
+    "text": "uh 0 is going to be 1 okay that is same",
+    "start": 968.76,
+    "duration": 6.0
+  },
+  {
+    "text": "as what I had earlier now at time step 0",
+    "start": 972.42,
+    "duration": 5.64
+  },
+  {
+    "text": "when I got the 0 input now you see that",
+    "start": 974.76,
+    "duration": 5.22
+  },
+  {
+    "text": "my learning rate is still changing right",
+    "start": 978.06,
+    "duration": 3.3
+  },
+  {
+    "text": "which should not have happened because I",
+    "start": 979.98,
+    "duration": 3.479
+  },
+  {
+    "text": "did not do anything at this time step so",
+    "start": 981.36,
+    "duration": 3.779
+  },
+  {
+    "text": "why should I change my learning rate but",
+    "start": 983.459,
+    "duration": 3.301
+  },
+  {
+    "text": "my learning rate is changing because of",
+    "start": 985.139,
+    "duration": 4.44
+  },
+  {
+    "text": "this exponentially moving uh L2 Norm",
+    "start": 986.76,
+    "duration": 5.879
+  },
+  {
+    "text": "average that I'm taking right so now uh",
+    "start": 989.579,
+    "duration": 5.281
+  },
+  {
+    "text": "it increases the learning rate even",
+    "start": 992.639,
+    "duration": 3.661
+  },
+  {
+    "text": "though the gradient was zero and this is",
+    "start": 994.86,
+    "duration": 2.82
+  },
+  {
+    "text": "what the learning rate profile looks",
+    "start": 996.3,
+    "duration": 3.719
+  },
+  {
+    "text": "like it was one then at time step two",
+    "start": 997.68,
+    "duration": 5.219
+  },
+  {
+    "text": "for no reason my input was Zero still my",
+    "start": 1000.019,
+    "duration": 5.101
+  },
+  {
+    "text": "learning rate became 1.4 right and then",
+    "start": 1002.899,
+    "duration": 4.62
+  },
+  {
+    "text": "time step 3 it again decreased but again",
+    "start": 1005.12,
+    "duration": 4.5
+  },
+  {
+    "text": "for a zero input it increased and so on",
+    "start": 1007.519,
+    "duration": 4.801
+  },
+  {
+    "text": "right so it's more uh it it's still",
+    "start": 1009.62,
+    "duration": 4.68
+  },
+  {
+    "text": "making changes when I have a zero input",
+    "start": 1012.32,
+    "duration": 3.6
+  },
+  {
+    "text": "and I don't want that to happen right so",
+    "start": 1014.3,
+    "duration": 4.26
+  },
+  {
+    "text": "any have many sparse features and if you",
+    "start": 1015.92,
+    "duration": 4.38
+  },
+  {
+    "text": "want the learning rate to kind of not",
+    "start": 1018.56,
+    "duration": 3.66
+  },
+  {
+    "text": "get affected by these parts features",
+    "start": 1020.3,
+    "duration": 4.68
+  },
+  {
+    "text": "then Adam X is useful because it's not",
+    "start": 1022.22,
+    "duration": 4.26
+  },
+  {
+    "text": "changing the learning rate too much for",
+    "start": 1024.98,
+    "duration": 3.839
+  },
+  {
+    "text": "such sparse features right whereas atom",
+    "start": 1026.48,
+    "duration": 5.12
+  },
+  {
+    "text": "is changing",
+    "start": 1028.819,
+    "duration": 2.781
+  },
+  {
+    "text": "okay",
+    "start": 1035.299,
+    "duration": 2.54
+  },
+  {
+    "text": "okay so now suppose this is what your",
+    "start": 1037.88,
+    "duration": 3.48
+  },
+  {
+    "text": "gradient profile looks like so at time",
+    "start": 1039.5,
+    "duration": 4.459
+  },
+  {
+    "text": "step 0",
+    "start": 1041.36,
+    "duration": 2.599
+  },
+  {
+    "text": "suppose the derivative is this at time",
+    "start": 1045.14,
+    "duration": 3.539
+  },
+  {
+    "text": "step one it's this and so on and so",
+    "start": 1047.12,
+    "duration": 3.299
+  },
+  {
+    "text": "there are 100 time steps here and I've",
+    "start": 1048.679,
+    "duration": 3.061
+  },
+  {
+    "text": "just smoothed in the curve so there",
+    "start": 1050.419,
+    "duration": 3.361
+  },
+  {
+    "text": "should have been 100 points and I have",
+    "start": 1051.74,
+    "duration": 3.9
+  },
+  {
+    "text": "just smoothened those curve drawn a",
+    "start": 1053.78,
+    "duration": 3.42
+  },
+  {
+    "text": "curve through those hundred points right",
+    "start": 1055.64,
+    "duration": 4.38
+  },
+  {
+    "text": "so this is what it looks like and now if",
+    "start": 1057.2,
+    "duration": 5.28
+  },
+  {
+    "text": "I um",
+    "start": 1060.02,
+    "duration": 4.64
+  },
+  {
+    "text": "foreign",
+    "start": 1062.48,
+    "duration": 2.18
+  },
+  {
+    "text": "so this is what happens for RMS property",
+    "start": 1066.74,
+    "duration": 5.04
+  },
+  {
+    "text": "so sorry earlier uh yeah when we're",
+    "start": 1069.799,
+    "duration": 5.101
+  },
+  {
+    "text": "looking at the case of uh VT using the",
+    "start": 1071.78,
+    "duration": 5.1
+  },
+  {
+    "text": "average norm in even in RMS prop we use",
+    "start": 1074.9,
+    "duration": 5.04
+  },
+  {
+    "text": "our average normal so I'm comparing RMS",
+    "start": 1076.88,
+    "duration": 6.0
+  },
+  {
+    "text": "prop with a version of RMS prop which",
+    "start": 1079.94,
+    "duration": 6.119
+  },
+  {
+    "text": "uses L Infinity Norm instead of the L2",
+    "start": 1082.88,
+    "duration": 5.34
+  },
+  {
+    "text": "Norm right so in the case of RMS prop",
+    "start": 1086.059,
+    "duration": 5.401
+  },
+  {
+    "text": "the learning rate is continuously",
+    "start": 1088.22,
+    "duration": 6.0
+  },
+  {
+    "text": "increasing in this case okay and now",
+    "start": 1091.46,
+    "duration": 4.14
+  },
+  {
+    "text": "let's see what is happening in the case",
+    "start": 1094.22,
+    "duration": 3.44
+  },
+  {
+    "text": "of",
+    "start": 1095.6,
+    "duration": 5.4
+  },
+  {
+    "text": "uh the max version of RMS Pro right so",
+    "start": 1097.66,
+    "duration": 5.44
+  },
+  {
+    "text": "the learning rate is increasing more",
+    "start": 1101.0,
+    "duration": 5.52
+  },
+  {
+    "text": "smoothly in this case as opposed to uh",
+    "start": 1103.1,
+    "duration": 5.34
+  },
+  {
+    "text": "in the case of RMS",
+    "start": 1106.52,
+    "duration": 4.44
+  },
+  {
+    "text": "okay so that's that brings us to the",
+    "start": 1108.44,
+    "duration": 5.099
+  },
+  {
+    "text": "update rule of this Max prop right which",
+    "start": 1110.96,
+    "duration": 4.8
+  },
+  {
+    "text": "is the version of RMS prop with the",
+    "start": 1113.539,
+    "duration": 4.921
+  },
+  {
+    "text": "using the max Norm for VT as opposed to",
+    "start": 1115.76,
+    "duration": 4.98
+  },
+  {
+    "text": "the L2 norm and that's it right so this",
+    "start": 1118.46,
+    "duration": 4.02
+  },
+  {
+    "text": "is as simple as it gets you just replace",
+    "start": 1120.74,
+    "duration": 6.66
+  },
+  {
+    "text": "the uh L to num by the max norm and we",
+    "start": 1122.48,
+    "duration": 6.42
+  },
+  {
+    "text": "can also extend this to Adam when",
+    "start": 1127.4,
+    "duration": 3.36
+  },
+  {
+    "text": "calling Adam access atom X is actually",
+    "start": 1128.9,
+    "duration": 4.019
+  },
+  {
+    "text": "an algorithm that is used in practice",
+    "start": 1130.76,
+    "duration": 4.74
+  },
+  {
+    "text": "right so the key idea here was to use",
+    "start": 1132.919,
+    "duration": 4.741
+  },
+  {
+    "text": "the maximum instead of the editor right",
+    "start": 1135.5,
+    "duration": 5.16
+  },
+  {
+    "text": "okay",
+    "start": 1137.66,
+    "duration": 3.0
+  },
+  {
+    "text": "so this is what the update rule for Adam",
+    "start": 1141.26,
+    "duration": 5.46
+  },
+  {
+    "text": "Max would be so this is Adam you had the",
+    "start": 1143.48,
+    "duration": 4.86
+  },
+  {
+    "text": "momentum term you had the bias",
+    "start": 1146.72,
+    "duration": 3.54
+  },
+  {
+    "text": "correction that will remain the same",
+    "start": 1148.34,
+    "duration": 4.68
+  },
+  {
+    "text": "then you had VT which was",
+    "start": 1150.26,
+    "duration": 5.7
+  },
+  {
+    "text": "uh L to Norm and then you had the bias",
+    "start": 1153.02,
+    "duration": 5.1
+  },
+  {
+    "text": "correction but here you will have me T",
+    "start": 1155.96,
+    "duration": 3.599
+  },
+  {
+    "text": "which is going to be the max knob and",
+    "start": 1158.12,
+    "duration": 2.939
+  },
+  {
+    "text": "since its Max Norm you don't need the",
+    "start": 1159.559,
+    "duration": 3.301
+  },
+  {
+    "text": "bias correction and then you will have",
+    "start": 1161.059,
+    "duration": 3.721
+  },
+  {
+    "text": "that update tool for WT right so",
+    "start": 1162.86,
+    "duration": 3.54
+  },
+  {
+    "text": "everything Remains the Same it's just",
+    "start": 1164.78,
+    "duration": 4.5
+  },
+  {
+    "text": "the equation of VT that changes and VT",
+    "start": 1166.4,
+    "duration": 4.8
+  },
+  {
+    "text": "does not need bias correction in atom X",
+    "start": 1169.28,
+    "duration": 5.24
+  },
+  {
+    "text": "right so that's all there is",
+    "start": 1171.2,
+    "duration": 3.32
+  }
+]

@@ -1,0 +1,5 @@
+2 and W 1 is equal to 1 and W2 is equal to -1 right so that's all that h21.
+is doing right just taking the weighted sum of its input and the weights have been hand coded right so.
+now this network has been constructed which can give you a tar function which I can have a neural network.
+which gives me a tar function and now now I'm happy right because that is the tower block is what.
+I was looking for I have my tower Maker Now.

@@ -1,0 +1,9 @@
+text there are libraries which allow you to do data augmentations but in text it's still a bit harder to.
+come up with very meaningful augmentations uh the main difference is in image and speech you have like continuous signals.
+whereas in text you have discrete uh you have just words whether the speech you have a continuous signal similarly.
+in image you have these pixels and so on so that's the main uh difference but even for text nowadays.
+there are certain annotation techniques available right so that's all to be said about data set augmentation the next technique.
+is about parameter sharing and tying and we will see this a bit more detail when we talk about ah.
+convolutional neural networks so in convolutional neural networks you have if you want to process an image you do what.
+is you use what is known as a convolutional filter and the same filter is applied to different parts of.
+the image right so what I'm trying to show you here and this is of course become much more clear.

@@ -1,0 +1,8 @@
+faster right so here notice that the learning rate starts off itself with a very small value which is point.
+zero one zero right and again I'd initialize the learning rate to the same value right so here again so.
+here see remember the learning rate was 0.1 but your initial gradients were high because B is a very Spa.
+dense feature so V 0 itself was 84.45 right and since that was high your initial learning rate itself was.
+small and hence you are moving less aggressive in the direction of b as compared to gradient descent and uh.
+nestro and moment right and that's why right these gradients are also getting accumulated very quickly it's already 84 this.
+history right the blue curve that you see already starts off at 84 and it keeps growing from there on.
+right that's why it reaches very high digits right it treats reaches five digit numbers and that's why your learning.

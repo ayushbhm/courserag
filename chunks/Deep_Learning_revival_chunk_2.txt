@@ -1,0 +1,9 @@
+and so on right so this observation we have made a column of couple of times before about the derivative.
+formula having this X as a factor and hence if x is large something can happen if x is small.
+something can happen and so on right yeah so uh then from this very thin and very shallow Network we.
+went to wider Network which had many inputs but it's still a shallow Network there's only one layer input and.
+now in fact there's no layer input and output that's it and even in this case when the update rule.
+Remains the Same it's just that the same update will applies to all the parameters and the derivative for any.
+parameter again shows up this red term here which is the input connected to that way right so again this.
+term was showing up and if this is high low 0 and so on uh we saw what are the.
+ramifications of that right similarly now if you have a thin network but a deeper Network we still use the.

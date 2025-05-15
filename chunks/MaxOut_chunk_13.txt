@@ -1,0 +1,9 @@
+so let it not fire and I'll kind of ignore it and just try to make this other neuron specialize.
+on this training sample and if you do that then in some sense your different neurons are uh kind of.
+getting adapted to specific training samples and you are getting the same uh effect as you expect in model averaging.
+or in bagging right where certain neurons are certain sub models are specializing for certain training samples right so that's.
+the effect that you're trying to achieve and hence you do this Max now what was a21 a21 was actually.
+this and a22 was this so you can think of these as there are two linear Transformations happening here and.
+you're selecting the max of those linear Transformations and by restricted 2 right so you could even have K linear.
+Transformations and you could select the Max from that right so let's let's just delve a bit more into this.
+over the next few slides to get this picture uh clear of what I mean by K linear Transformations right.

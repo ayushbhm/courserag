@@ -1,0 +1,9 @@
+function right let's say x square okay I have y is equal to x square then I know that d.
+y d x this is called the derivative all of you know this from high school which is 2x right.
+so this is fine this everyone knows right but now suppose I have a function y is equal to W.
+square plus b square right now this is a function of two variables so now I can say and node.
+is a change in notation right it's not D now it's do is 2W and dou Y by dou B.
+it is 2 b and what have I done here this is known as the partial derivative so I have.
+taken the partial derivative of this function once with respect to W the other time with respect to B because.
+these are the two variables on which the function depends right so these are the partial derivatives so this is.
+derivative when you have a single variable function these are partial derivatives when you have a multi variable function and.

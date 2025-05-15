@@ -1,0 +1,9 @@
+the true value of y1 right so hence this as the neighborhood goes this approximation becomes bad so that is.
+a key thing that you can do this only in a small neighborhood that means the difference between X1 and.
+X naught should be very small that is one okay now let's see something else also the other thing is.
+that as I increase uh W naught right I mean I'm just changing the value of w naught and you.
+can see that the orange curve is a very good approximation let me just increase the Delta but let me.
+reset this yeah uh now I'm just going to increase uh the neighborhood right okay now even with this increase.
+in neighborhood the orange line still seems to be a very good approximation of the blue curve and why is.
+that happening because the slope in that region right is quite less so my Delta or my M right it's.
+very less and that's helping right but now if I change the value of w a bit right if I.

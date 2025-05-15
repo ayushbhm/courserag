@@ -1,0 +1,8 @@
+are getting bigger and bigger and bigger and of course it's also reflecting in the performance of these models is.
+not just like a race of building the biggest model but also show performance improvements by doing that right and.
+then while these were happening in language transformers have also entered vision and here on the dark yellow axis i'm.
+going to show you the evolution of image classification so you had this 2012 you had lx net which was.
+first participated in the image net and won that competition although it was still around 16 percent or so error.
+rate and then we had multiple convolutional neural network based models around the same time in object detection there was.
+this move from the traditional object detection methods to a cnn based method rcnn and then there was an entire.
+family of models of our cnn which came out and in parallel and image classification we had rest network so.

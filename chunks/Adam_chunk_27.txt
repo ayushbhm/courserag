@@ -1,0 +1,9 @@
+but also there is some noise right you see some up and down a movement there right and one way.
+of dealing with this is to kind of say that instead of just relying on this gradient at this time.
+step I will take the average of all the gradients that I have taken so far right or I would.
+take the moving average of all the gradients so instead of just relying on this point for example this should.
+be clear right suppose instead of relying on this value here alone let me just use a different color if.
+I take like an average of things which fall in this window right and this is the same as saying.
+that I mean an exponential average is almost similar like to taking an average in a small window because anyways.
+outside this window your beta powers are so small that those points won't have much value right so here is.
+you are kind of re-estimating uh the average in the case of empty you're writing it as beta into Mt.

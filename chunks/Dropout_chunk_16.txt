@@ -1,0 +1,9 @@
+participated in 80 of the discussions so whatever it says I only trust it with 80 value that's the same.
+as saying that whatever output this guy gives just scale it by that fraction as simple as that right so.
+you participated only in 80 of the discussions so I'm going to trust your output with only 80 confidence that's.
+the same as saying that whatever output you give which is going to be passed to the next layer I'm.
+just going to scale it down by B right so that's all you do at test time so again at.
+test time you're just passing through a single Network and every weight in the network is going to get Scaled.
+or the output of every neuron in that network is going to be scaled by this probability P okay that's.
+all you are doing right uh so now what let's let's try to get some more intuition right into what.
+Dropout is actually trying to do and why does it act as a regularizer right so it actually applies a.

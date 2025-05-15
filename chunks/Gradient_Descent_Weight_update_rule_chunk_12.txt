@@ -1,0 +1,9 @@
+difference between the two and squaring it right and there's one by two I've just kept for some convenience it.
+does not uh I could use any multiple here right it does not change because I'm looking for the lowest.
+value of the loss whatever is the lowest value if I If I multiply all values by half that value.
+of w comma B which at which I get the lowest value does not change right but it just makes.
+it a bit convenient for me from a mathematical perspective I'll become clear why how okay so this is uh.
+what our loss function is now I come to the definition of delta W which was there on the previous.
+slide is the partial derivation of derivative of the loss function with respect to W which is the partial derivative.
+of this function with respect to W so this is the quantity that I want to compute now right uh.
+so this is the partial derivative now this is easy right so this I can just I know that this.

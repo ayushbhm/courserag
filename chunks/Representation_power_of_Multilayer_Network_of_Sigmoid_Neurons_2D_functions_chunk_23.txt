@@ -1,0 +1,7 @@
+again added it but it's all a function of x it's a composite function of x you could construct these.
+composite functions such that you could approximate any real function that you are dealing right so that's the basic idea.
+so i think i'm done with this one i just leave you with this thought so for one dimensional input.
+we needed two neurons for two dimensional input we needed four neurons for n-dimensional inputs how many neurons will you.
+need and the answer is obvious but i'll let you think about it right so that's where we end uh.
+lecture three and the next lecture we'll start with uh start talking about deep neural networks and then the back.
+propagation acronym thank you.

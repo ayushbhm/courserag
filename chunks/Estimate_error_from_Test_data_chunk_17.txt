@@ -1,0 +1,9 @@
+of X that they did not have any say in the estimation estimated parameters of f hat X because this.
+belongs to test data and the test data did not participate in the estimation of f hat X right so.
+now these two quantities are actually independent that means Epsilon and this quantity is independent right because y Epsilon is.
+simply y minus f of x and that means the covariance between Epsilon and this other quantity is going to.
+be 0. right because these two are independent random variables so there ah covariance is going to be zero right.
+so that's why you can say that in this case when you are trying to estimate these expectations from the.
+test data your the covariance term is actually going to be 0. yeah so I mean sorry I should have.
+said it a bit differently so the expectation of e Epsilon comma this random variable can just be written as.
+the product of the two expectations and ah so sorry I shouldn't have said that they are in sorry so.

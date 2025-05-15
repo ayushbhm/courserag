@@ -1,0 +1,9 @@
+you could also have some real valued inputs like the imdb rating the critics rating of the movie and so.
+on right so all of these inputs are feeding into our perceptron and there are also weights associated with them.
+it's just that we don't know what these weights are and we want to learn these weights such that once.
+we learn these weights then for any given new input it should allow us to make that decision right and.
+we should be able to learn these weights in such a way that at least for the given data and.
+we'll assume that the data is linearly separable so whatever m data points that are given to us we will.
+assume that they are linearly separable that means you can draw a line or a plane or a hyper plane.
+such that all the points for which the output should be positive are in the one half space and all.
+the points for which the output should be negative or in the other half space right so we will assume.

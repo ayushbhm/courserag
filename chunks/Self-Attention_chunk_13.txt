@@ -1,0 +1,10 @@
+you get the queues at one go similarly now what is the dimension of Q right so let's let's look.
+at that right so let me see how to do that yeah so this is say the input Dimension was.
+d right and for I'll just take d as 64 for the purpose of explanation so this is a 64.
+cross T Matrix right so each of these is 64 Dimension and you have t such entries now this would.
+get multiplied by uh say uh so this would say get multiplied by a 64 cross 64 Matrix right so.
+you could have just think thought of this as D cross D and this as D cross T so these.
+two matrices multiply and I get a d cross D output in my case I have just taken d as.
+64 right so this Cube would also be of the same size as your input representation but you could have.
+different sizes also right so if you had chosen this as D1 then your output would be D1 cross T.
+right and so you could have either the D1 could either be bigger than D or smaller than D based.

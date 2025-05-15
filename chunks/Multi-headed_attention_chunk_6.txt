@@ -1,0 +1,10 @@
+let's look at it a bit more carefully right so here's an example so the animal didn't cross the street.
+because it was too tired right and I have the same copy of the sentence here and now I'm trying.
+to learn a contextual representation for it and now I want to focus more on walks right because I want.
+to know was what is the subject of it right so it is the subject here so I want to.
+know that so I want to capture that information by paying more attention to Vos right but I also earlier.
+made a case so what does that mean if I'm learning the alphas right so if I'm learning say let's.
+this is one two three four five six seven eight nine ten this is the tenth word so if I'm.
+learning Alpha 10 then this is Alpha 10 1 Alpha 10 2 right and this is Alpha 10 11 right.
+so this is the uh attention that should be paid on the 11th word when you are Computing a refined.
+representation for the tenth word right and I want this to be high right but I had also earlier made.

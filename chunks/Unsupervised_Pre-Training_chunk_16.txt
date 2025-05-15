@@ -1,0 +1,8 @@
+of X similarly now H2 is capturing all the important information of H1 so it's yet another level of abstract.
+representation of the original input right so this was already an abstract representation of the input which had discarded all.
+the unimportant information and totally everything that you need to know about X and I can fully reconstruct X from.
+here now H2 is an abstract representation of H1 which kind of captures every information in H1 and it's enough.
+to cap reconstruct H1 from there so H1 is an abstract representation of x and it's to in turn is.
+an abstract representation of H 1 so H2 is like a deeper abstract representation of X right so that is.
+what you are doing and that's what the idea and a feed forward neural network is right every layer captures.
+a more and more abstract representation of the input right so now again you have focused on layer H2 and.

@@ -1,0 +1,9 @@
+notation capital n for the number of training pairs and small n for the number of inputs that i have.
+the small n is equal to 1 in this case right so this is the training data that i have.
+now my training objective as i said is going to be that when i make predictions and these are the.
+true values and these are the prediction values i want the difference between them to be as small as possible.
+so this is my difference function and this i'm going to calculate over all the training points take the average.
+and i'm going to define that as my loss function and my objective is to find w and b right.
+such that my loss function is minimized right so that's an english explanation of this entire expression written here minimize.
+with respect to w and b which means find the values of w and b which minimizes this quantity and.
+this is how this quantity is defined it's the average difference of the predictions from the two values for all.

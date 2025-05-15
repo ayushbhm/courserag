@@ -1,0 +1,9 @@
+video here i would recommend that you see the first five minutes of this video to understand uh what this.
+is about right okay now the last section that i want to talk about is efficient deep learning so we.
+are living in the era of mobile phones right and the number of smartphone subscriptions has increased at least in.
+the context of a country like india there is increasing mobile penetration in the rural areas right what that means.
+is that now you should start thinking about how do you serve this population which might not have computers right.
+but they have access to mobile phones so can you build ai models which run for this particular form factor.
+right and people have this uh good connectivity also so now there is increasing uh emphasis on designing models which.
+can run on the edge right so if you have a drone can you which would have limited memory limited.
+compute can you take your ai models and make them run on these devices right so that's another push that.

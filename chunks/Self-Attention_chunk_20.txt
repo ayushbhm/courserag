@@ -1,0 +1,9 @@
+exactly the computation which is happening here right so that's why this entire thing can be produced as a matrix.
+matrix multiplication and all of this can be done in parallel so just to recap your V's can be computed.
+in parallel your case can be computed in parallel your cues can be computed in parallel once you have that.
+you get all the Z's in parallel at one shot right so that's what is happening here which are able.
+to compute they are able to paralyze the entire computation of your Z and what actually is z just in.
+case you have forgotten so you have the input as H1 H2 all the way up to h t and.
+Z was the output of this network right and my main goal was that this output should be computed in.
+parallel as computed as compared to rnns where I was getting 1 then 2 then 3 and then four right.
+but now I have shown you that all of this can be done in parallel and you just need to.

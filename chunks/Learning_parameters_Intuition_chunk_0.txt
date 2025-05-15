@@ -1,0 +1,9 @@
+[Music] okay so now let's talk about some intuition behind the intuition behind uh learning parameters for a feed forward.
+neural network right and how do we connect it to what we already know right we have already seen how.
+to learn parameters of a very simple network i mean it's not even a network but for a single neuron.
+which had a w and a b and a single input and there was a y hat we had seen.
+how to learn the parameters of this network using gradient descent now this thing that we know and understand well.
+can we somehow stretch it and extend it to help us learn the parameters of all the parameters of a.
+feed forward neural network right so that's what we'll try to focus on okay uh so the story so far.
+is that we have introduced feed forward neural networks and now we are interested in finding an algorithm for learning.
+the parameter right so this is what our feed forward neural network looks like now let's just quickly recall our.

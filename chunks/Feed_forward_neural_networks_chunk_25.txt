@@ -1,0 +1,9 @@
+through a spatial output function to get h 3 which is the same as y hat which is the same.
+as f hat of x right so you have actually written the output as a function of the input it.
+just happens to be a very complex composite function right and let's just do a bit more about this so.
+just to make sure that we understand all the dimensions right so remember that this was our n okay this.
+was r n cross n so i'm multiplying an n cross n matrix with an n-dimensional vector so the output.
+is going to be n-dimensional and then i'm adding an n-dimensional vector to it so that output is also going.
+to be n-dimensional then i am passing it to an element-wise function so that is also going to be n-dimensional.
+now you can go along this chain and convince yourself that all the di all the dimensions are compatible right.
+so now that's that's the main thing i wanted to say uh yeah now one last thing i'll say suppose.

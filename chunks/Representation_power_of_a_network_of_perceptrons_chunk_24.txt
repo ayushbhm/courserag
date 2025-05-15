@@ -1,0 +1,9 @@
+all that we have for today so we have been talking about the perceptrons we went a bit deeper uh.
+into the perceptron learning algorithm we saw the saw that it actually converges then we saw that a perceptron has.
+a limitation it cannot deal with functions which are not linearly separable then we made a case that in many.
+real-world examples functions would be not would not be linearly separable so we need to deal with that situation and.
+we dealt with that situation with a network of perceptrons we are still not completely happy because we have an.
+exponential number of perceptrons but we are able to map this again to a real-world problem where you are given.
+some data and that data may not be linearly separable but now given this template you can come up with.
+a network of perceptrons and learn the waves w is in your network such that it will give you perfect.
+separation on the input data right now from here we need to go a bit ahead and see how can.

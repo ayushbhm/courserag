@@ -1,0 +1,10 @@
+this T cross T attention Matrix is that what is happening here indeed right so if you remember Q was.
+64 cross T So Q transpose would be T cross 64 and K was T cross 64. oh sorry 64.
+cross T so when you are multiplying these two matrices you are getting a t cross T Matrix which is.
+essentially the attention Matrix and now once you have the attention weights you are multiplying them by the value Matrix.
+right which contains the B1 V2 up to VT right and now if you take the product of these two.
+matrices then you will again get a t dimensional uh output because this is D cross t uh and this.
+is uh sorry yeah so this is V transpose sorry so this is going to be T cross D and.
+this is T cross T Matrix so this 2 will multiply to give you a t cross D output so.
+you'll get a capital t z Each of which is going to be D dimensional right so you can do.
+the entire computation in parallel and you can make sure right you can go and check this back that if.

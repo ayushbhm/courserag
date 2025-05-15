@@ -1,0 +1,9 @@
+so one way of looking at uh what is happening uh in Adam is that or in many of these.
+gradient descent based algorithms is that so you have these uh on the x-axis I have the number of iterations.
+are epochs right and at every iteration maybe from a batch or in a stochastic from a mini batch or.
+in a stochastic manner I am Computing the gradients right so let's uh say that and there is some Randomness.
+in this there's some noise in this because it depends on the batch that I have picked up right so.
+now the batch is not the mini batch is not a representation of the entire data so depending on how.
+good this many batch is a representation of that entire data the gradients that I compute from this mini batch.
+may vary as compared to what I would have gotten from the full match right so here what I'm trying.
+to illustrate is that suppose I had computed the derivatives from the full batch right suppose the red function here.

@@ -1,0 +1,9 @@
+maximum number hence we have shown that k is a finite number so if the data is linearly separable right.
+that means after a finite number of iterations the perceptron rolling algorithm will converge so although in our toy example.
+it does not seem intuitive right that's easy to build this intuition that okay for one point i changed it.
+for the second point again i changed it why were these updates not counterproductive so now we have a proof.
+which says that the number of updates you will make will be finite if the data is linearly separable okay.
+so that's what the perceptron uh this that's what the proof for the perceptron's learning algorithm say that it will.
+converge okay so now coming back to our questions which we had started out so what about non-boolean inputs yes.
+so real valued inputs are allowed in perceptron do we always need to hand code the threshold no now we.
+can learn all the parameters not just the threshold w naught but also w1 to wn are all inputs equal.

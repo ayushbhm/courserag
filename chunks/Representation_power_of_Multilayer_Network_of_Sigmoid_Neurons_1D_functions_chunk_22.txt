@@ -1,0 +1,9 @@
+now let me just hide the other ones I'll reset everything and just show you HD one so this is.
+looking like a tar function now right so this is the kind of tower that I wanted it's not a.
+perfect Tower but it's also because my two functions did not become completely step function if I make W's very.
+high then you can see that it will become closer and closer to a tower function right it'll start looking.
+like an Impulse right and I could increase B to increase the width of the track so now it's looking.
+more and more like a tower function so I've got my tower maker what is my tower maker take one.
+sigmoid neuron take another sigmoid neuron set the W is very high right if you set the W is very.
+high then you recover the step function and then what you are essentially doing let me just show that also.
+let me reset and show this one how did you get the tower because you are doing the red function.

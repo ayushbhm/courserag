@@ -1,0 +1,10 @@
+which is 0 in this case and 1 minus beta time the current update that we have made but the.
+current update which is Delta is in turn a function of this nabla so I've just substituted the value of.
+delta uh W naught and in terms of uh sorry uh yeah Delta W naught in terms of navbla w.
+naught right so this is nabla just in case you're confused and this is Delta okay so that's done okay.
+now let's see what happens next I'll just keep continuing for a while so fraction of the history is being.
+stored for the next iteration now at t equal to 1 again you will just apply this B1 is equal.
+to 0.9 into the previous history plus point one into the current gradient and if I substitute the value of.
+the prevent history then I get the entire equation in terms of the nav loss so nabla w 0 square.
+and abla W1 square right now I again uh do the update and now I'm ignoring the Epsilon because I.
+have reached a state where I have non-zero U naught and Epsilon is very small so U naught plus Epsilon.

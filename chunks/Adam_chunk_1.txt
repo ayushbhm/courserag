@@ -1,0 +1,9 @@
+history in addition use a cumulative history of the gradients as you used in a kind of a momentum based.
+algorithm side where you use uh exponentially weighted history of the gradients as opposed to only relying on the current.
+gradient right so this is what my uh uh so this is what my current gradient is but instead of.
+only relying on the current gradient I'm looking at the history of the gradients right this is similar to what.
+we have seen in the momentum based gradient descent and yeah this is classical momentum then you do something known.
+as bias correction I'll just tell you the formula for now and not comment much on it as of now.
+right so it's at time step T once you have computed empty then you compute the bias corrected value of.
+empty which is empty hat which is just empty divided by 1 minus beta 1 raised to T then we.
+have VT which was the usual VT which acted as a denominator for the effective learning rate this is the.

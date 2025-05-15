@@ -1,0 +1,10 @@
+how to deal with the third one is still not clear right because it again has f of x so.
+we need to see if we can somehow get rid of this third quantity or make some comment on that.
+right so that part is still remaining so let us look at the third part and make some observations about.
+it so ah remember that Epsilon here what is Epsilon actually so Y is equal to f of x plus.
+Epsilon so Epsilon is actually ah y minus f of x right ah so now you are trying to find.
+the covariance right so this quantity as I said is the covariance so between Epsilon and this ah other random.
+variable and I just told you that Epsilon is actually equal to Y minus f of x side we just.
+saw that that simply comes from the fact that Y is equal to f of x plus Epsilon now the.
+statement that I am going to make is that this y minus f of x is actually independent of f.
+hat x minus f of x why am I saying that because when I am talking about the Y's here.

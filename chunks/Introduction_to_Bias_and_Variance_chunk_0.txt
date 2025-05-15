@@ -1,0 +1,8 @@
+foreign [Music] so welcome to lecture six of the course and in this lecture we'll be talking about regularization right.
+and different types of regularization ah which includes L2 regulation early topic and a bunch of other things but before.
+I talk about the types of regularization that you use in the context of deep learning of course some of.
+them are also in the context of machine learning I'll first tell you give you intuition for why we need.
+regularization and that's where we'll focus on the discussion on the bias various trade-off right so that's where we'll start.
+we'll make a case for regularization understand what regularization is and then look at different types of regularization okay so.
+here are some acknowledgments I have referred to several sources for preparing the this lecture this includes a deep learning.
+book Ali goat sees video lectures and regularization in the context of deep learning then this paper on dropout right.

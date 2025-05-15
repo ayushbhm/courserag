@@ -1,0 +1,10 @@
+so what if it's not zero center right what could the possible what could the problem be right so now.
+let us try to again see that through an example suppose I have this output layer and before that I.
+have this one sigmoid neuron right and it is connected to two inputs h21 and H22 so I'll have the.
+A3 would be this and then I'll passing it through the sigmoid neuron right now again if I were to.
+update the weights W1 or W2 let's see what chain rule I will use there so this is what my.
+derivative would be right so it would be derivative of the loss function which is sitting here with respect to.
+Y right then the derivative of y with respect to H3 so the output is H3 then the derivative of.
+H3 with respect to A3 right and then the uh oh sorry this and then the derivative of uh A3.
+with respect to W1 which I have already written as h21 so this is what A3 is if I take.
+the derivative of this with respect to W 1 this quantity disappears because it's a constant and the derivative of.

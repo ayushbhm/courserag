@@ -1,0 +1,10 @@
+a multi-layered network of neurons right not unlike what papad and minsky had said that a single neuron cannot do.
+it they said that if you have a multi-layered network of neurons right then you could take an x given.
+many such examples you could learn a model such that now if you feed an x to it the y.
+that it predicts would be very close to f of x which is the true value of the y that.
+you would have got if you knew what that function is right so what it means is that what i'm.
+trying to show in this diagram is this orange curve that you see here right okay somehow the pen is.
+behaving a bit strange yeah the orange curve that you see here suppose this is what my actual f is.
+and i don't know that right and now i'm trying to approximate it and those i'm doing that approximation with.
+the help of these uh rectangular bars that you see right and what this was uh this theorem said is.
+that if you have a very deep neural network or a multi-layer in fact it said even if you have.

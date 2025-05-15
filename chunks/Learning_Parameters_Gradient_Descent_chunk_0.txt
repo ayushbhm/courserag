@@ -1,0 +1,9 @@
+foreign [Music] let's go ahead with our original goal right which was to find that Delta Theta which is good.
+now what do we mean by good is something that we discover now right so for ease of notation let's.
+just call that Delta Theta by U I don't want to write this Delta Theta every time so then from.
+Taylor series we have the following right that we have uh L of theta plus and it's this is where.
+that Epsilon comes into play right I was saying that we want the difference to be small right so I.
+am at some point Theta and this is some point Theta Nu right this is what this point is and.
+I'm saying that it's just a small distance away and this is where this ETA is important right it makes.
+sure that the distance is small because we know that the approximations are good in the small neighborhood okay now.
+this is L Theta now what are these other terms here right this ETA is fine right that's our small.

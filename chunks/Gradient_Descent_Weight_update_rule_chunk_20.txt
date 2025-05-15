@@ -1,0 +1,10 @@
+compute the partial derivative with respect to W how will I do that so I have this function uh here.
+and I know how to do this right so I can this is the formula I just computed this on.
+the previous slide f of x minus y into f of x into 1 minus f of x into X.
+right and what is my X here I am looking at the first point here so my X is going.
+to be 0.5 so I can just substitute that here and what is my f of x let's see what.
+f of x is so this is how I'll compute f of x right so f of x is I'll.
+just substitute the value of x in this formula and I'll just substitute the current values of w and B.
+right which are 2. so I can compute this and I'll get some real number and that is what I'll.
+put here right so now I can compute that quantity similarly I can compute the grad of the partial derivative.
+with respect to B again I have a function written for that and the same idea that I want to.

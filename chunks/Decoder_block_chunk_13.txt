@@ -1,0 +1,10 @@
+Computing a refined representation of a Z1 you will set all the other Alphas to zero right similarly so this.
+I should call as alpha 1 J so this is Alpha 1 1 Alpha 1 2 Alpha One three now.
+similarly when you're Computing the defined representation for Z2 your equation would be Alpha to J into v j and.
+again Alpha 2 1 Alpha 2 2 Alpha 2 3 is what you care about and all the other Alphas.
+you will set to zero right so that all that's all that masking does right now the question would be.
+that what happens to Z4 right so I will I'm going to compute Z4 right Z4 would also have a.
+formula so in that formula what do I do right so you you will again have only these Alphas ready.
+in that formula all the other Alphas would not be of use but actually it doesn't matter right because again.
+when you are doing so the key thing to realize here is that these did not participate in the computation.
+right these gave you the uh corresponding q k and V but when it was time to use those V's.

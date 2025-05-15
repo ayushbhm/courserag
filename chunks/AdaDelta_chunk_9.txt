@@ -1,0 +1,10 @@
+to happen so both VT and UT are increasing right because both are accumulating gradients but because of this one.
+time step delay between them right one is U T minus one the other is VT so in the Steep.
+regions while both are growing UT is growing slightly slower than VT and hence the effective learning rate is going.
+to be smaller right now yeah that's always same here whereas in the RMS prop the effective learning rate would.
+just have been ETA by VT and hence there is no adoption Happening Here Right okay so this is all.
+that I've already said you could just read what there's on the slide now let's see what happens in the.
+flat regions okay so now I'm in the flat region so this is some Delta w i right at the.
+ith time step I am trying to take the gradient now what will happen here right so now if I.
+look at uh U T minus 1 and VT okay now U T minus 1 remember is one time step.
+behind a VT so then one way of looking at it is that in ut minus 1 these all are.

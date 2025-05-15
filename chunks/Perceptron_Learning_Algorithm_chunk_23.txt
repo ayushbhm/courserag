@@ -1,0 +1,10 @@
+to be so let's just run the perceptron algorithm right so what will i do what does the algorithm do.
+it picks up a point randomly from the union of p comma n right so let's say i randomly picked.
+up a point and the point was p1 okay and my condition is not satisfied so w x w transpose.
+x or the dot product between w and x is less than 0 right whereas i want it to be.
+greater than equal to 0 so i'll have to apply a correction right so now i'm going to apply the.
+correction w is equal to w plus x where x is nothing but the point p 1 okay so if.
+i apply this correction let's see what happens so you can see that my w has changed right and you.
+can see the as i was expecting the new angle between w and p1 is now less than the older.
+angle right so this greedy step has worked in doing whatever it was said to do right so it has.
+reduced the angle now let me do it again right so now again randomly pick a point and say this.

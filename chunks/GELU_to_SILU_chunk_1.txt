@@ -1,0 +1,10 @@
+if x is less than or equal to 0 this is how I'm going to rewrite it on the next.
+slide so main thing to note here is that both the activation functions the output depends on the sign of.
+the input if the sign is positive then you get a certain output if the sign is negative then you.
+get a certain output right and now I'm just going to rewrite the radioactivation function as I said on the.
+previous slide I could think of it as 1 into x if x greater than 0 or 0 into x.
+if x is less than equal to 0 right now uh the Dropout function also does the same right I.
+mean the Dropout idea of Dropout is that you have a certain number of neurons and if you apply the.
+mask then you could think of this mask as the activation function which either zeros out the neuron or lets.
+it pass through right and then apply some activation function on top of that right so it also does the.
+same the only difference is that instead of one and zero it has this stochastic uh uh nature right so.

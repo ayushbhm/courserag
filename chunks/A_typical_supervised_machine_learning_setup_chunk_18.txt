@@ -1,0 +1,9 @@
+of this assumption is equally good or bad right now in deep learning you are going to we'll see that.
+later on again you assume some f right and as the name suggests this f is going to be very.
+deep what it means in mathematical terms is going to be a very complex composite function right and we'll get.
+there but again in deep learning there's nothing different it's just that as you had certain forms of f hat.
+here deep learning has a certain form and that form we will see later as we go on okay now.
+one question so why are parameters important here why can't i just assume that y hat is equal to 1.
+over 1 plus e raised to minus x why do i need the parameter this is also a function it.
+y hat depends on x because this is a function of x why can't i just use this why am.
+i complicating it by adding parameters different different weightages to different features okay but something more fundamental than that right.

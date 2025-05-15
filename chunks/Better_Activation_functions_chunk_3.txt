@@ -1,0 +1,8 @@
+these composite non-linearities but if you remove the non-linearities then you just have a linear transformation of X and then.
+you are just going to learn linear decision boundaries right because you have just said that Y is equal to.
+w x so your y you are just assuming that the relationship between Y and X is given by a.
+line or a hyperplane in higher Dimensions right so then in particular if you have these complex decision boundaries like.
+that we had here where you really need something long linear right so here you are not learning a line.
+you need something like a circular either a decision boundary which separates the positive points which are inside the brown.
+points from the negative points which are the blue points right I cannot draw any line which suitably separates my.
+uh the brown points from the blue points right without giving me a high error so that is not possible.

@@ -1,0 +1,10 @@
+J comes from here the jth column of the weight Matrix and the gradient Vector right the gradient Vector is.
+the uh what we had already computed earlier okay so where do I go from here I have the formula.
+for one of these guys I want the formula for all of these guys right I want now to compute.
+the derivative of the loss function with respect to any hidden layer h i okay so what will it be.
+it will just be the collection of the partial derivatives with respect to all elements of those that hidden layer.
+which is h i y and h i 2 all the way up to h i n and I just.
+know the formula for one of these guys at h i j so I can just substitute the value of.
+h i of I and J accordingly so I'll keep the I as it is because I have I here.
+and wherever I see a j I am going to substitute 1 2 3 all the way up to n.
+right so this is what it's going to look like it's a DOT product between the First Column of the.

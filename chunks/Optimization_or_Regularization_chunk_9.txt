@@ -1,0 +1,8 @@
+so these are the weights or these are the regions where the weights are better able to capture capture the.
+characteristics of the input data why am I saying that because where did you start with you started with this.
+unsupervised objective you said that forget about my main loss function which depends on y first for every layer I.
+want to solve this unsupervised objective the moment you do that for every layer you are putting the weights in.
+certain region of the parameter space where this objective is getting minimized right so they are this is the entire.
+say weight space now you have gone to some region there where this weights this objective is getting minimized once.
+you have minimized this Omega Theta then you are throwing in L Theta right but you are starting from the.
+weight initialization here itself now this entire space is not available to you at all right and now once you.

@@ -1,0 +1,9 @@
+how much does this change right so there are six values that you're trying to compute so then set what.
+we are three cross two or two cross three depending on how your uh uh seeing it right so it.
+could uh so it that's what it would be right so that's what and this second order derivative is called.
+the Hessian uh uh Matrix and then similarly you could imagine what would be here there would be a third.
+order uh derivative here and you can again imagine that you have a matrix and now you're taking the derivative.
+of every element in that Matrix with respect to a vector and so on it but that that I know.
+I won't go that far I'll just stop here although even this we don't need for the current lecture okay.
+so I hope that is clear so uh partial derivatives derivatives sorry derivatives partial derivatives collection of partial derivatives is.
+the gradient the gradient of the gradient is the Hessian right and here are a few things to note now.

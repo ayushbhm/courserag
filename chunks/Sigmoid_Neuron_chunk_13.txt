@@ -1,0 +1,9 @@
+had a movie well it's a Critic rating was 0.51 then my output would be like right and this is.
+why I say that this is very harsh right this is not how you would take decisions in real life.
+that 0.49 is not like but 0.51 is like there is a very little difference between in these two right.
+when you wouldn't base your decisions like that what you're looking for is something more smoother than this right which.
+calibrates that okay 0.49 is uh good 0.5 minus slightly better right it should have that calibration right so that.
+is missing it's just very harsh that and I'll show you a figure on the next slide which will make.
+this very clear right and that's the point I want to make that is not a characteristic of the problem.
+that you have chosen it's not that about movie ratings or it's not about the way I have chosen this.
+threshold or the examples that I have given it's the nature of the function itself right and I'll tell you.

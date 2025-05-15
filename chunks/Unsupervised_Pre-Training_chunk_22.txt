@@ -1,0 +1,9 @@
+your loss function over your Computing with respect to some um y i and F hat of X I right.
+and this loss function depends on the training data these X I's and Y i's are your training data so.
+optimization you only have access to training data you don't have access to test it but during regularization what do.
+you mean by regularization regularization is used for better generalization So when you say better generalization it means that of.
+course I know you will do well on the training data you will be able to drive the error to.
+zero but what I care about is generalization which means on test data your performance should be better right so.
+what is happening here is it that IFD did not do unsupervised pre-training you are not able to do better.
+optimization itself that means even for the training uh data for which I have been assuming in all our discussions.
+hey training data we can easily drive to zero we just improve the complexity of the model and we can.

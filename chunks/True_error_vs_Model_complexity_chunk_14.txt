@@ -1,0 +1,9 @@
+I've done is uh I have changed one of these data points only one of the data points right I.
+have instead of taking X comma y I have taken this x comma y right and now you can see.
+that my simple model has not changed much right so my f hat of x so I changed y but.
+my f hat of X did not change much that means this quantity is going to be small right but.
+for the complex model my my estimation has changed quite a bit right so now when I changed a y.
+by a small quantity my f hat X has also changed dramatically right in this region it's very different uh.
+from what it was originally right so hence for complex models small changes in the training data could cause a.
+large change in the estimated function right the F at X or the estimated values of the parameters right so.
+that is just a empirical demonstration or an anecdotal demonstration of this idea that complex models are more sensitive to.

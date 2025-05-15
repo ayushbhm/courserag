@@ -1,0 +1,9 @@
+data points increases just computing this loss would be very difficult for all the infinite values of w and b.
+right and here although i'm saying infinite i've actually plotted this only from minus 6 to plus 6. right those.
+are the only values i'm not really plot i mean i cannot plot for minus infinity so what if there.
+was a value here right going forward this side for which the loss was even lower right so what would.
+what why i could have chosen that also right so this kind of just plotting the error surface and looking.
+at it and figuring out the value that does not work in practice right even although this is a good.
+way of seeing what is happening it does not you cannot do this in practice right you won't be able.
+to get anywhere okay so now let us with that plot in mind and my guesswork in mind let us.
+try to look at the geometric interpretation of what was happening in my guesswork algorithm right so we will try.

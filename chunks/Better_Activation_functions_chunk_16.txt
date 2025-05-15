@@ -1,0 +1,9 @@
+the derivative of this with respect to W 1 this quantity disappears because it's a constant and the derivative of.
+W1 h21 is just h21 similarly the derivative of W2 or rather eighth of the loss function with respect to.
+W 2 would have an H22 here right again because derivative of A3 with respect to W2 this quantity would.
+disappear and you will get an H22 right so this is fine this formula you understand now what's with the.
+color coding right what's the red part and what's the blue part so the red part is common for both.
+the derivatives right so this part is actually the same in both the derivatives okay and this part is changing.
+okay this is h21 and H22 now what is h21 h21 is the output of the previous sigmoid neuron right.
+so I know that this is going to be positive right both the blue quantities I know are going to.
+be positive right now if both the blue quantities are going to be positive then the sign of these two.

@@ -1,0 +1,9 @@
+to n sorry I keep changing M and M but I assure you understand what I mean this is what.
+L train is and what I was trying to do is I was just trying to minimize this but now.
+I've realized that if I try to minimize this and make it to zero there's this another quantity which is.
+dependent on the model complexity which keeps increasing so in effect my expected error is increasing right so I might.
+have done a great job of reducing this to zero but the cost of increasing this significantly and then the.
+net effect is as my model is still bad when I am going to pass it test instances which were.
+not seen during training this expectation is going to be this error is going to be still very high right.
+so that's why you should not try to just minimize the train error but train error plus the model complexity.
+is what you should try to minimize now how do you encode this model complexity drive just Define a generic.

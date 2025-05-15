@@ -1,0 +1,9 @@
+correction okay now let's see now suppose we initialize w0 so that's that so now we are trying to see.
+so we have proposed that we'll use the max Norm of for VT instead of using the L2 Norm now.
+we want to see is there any benefit of doing that right so suppose that we initialize W such that.
+the gradient at w0 is higher we just did a random initialization and it turns out that your initial gradient.
+was high right and now suppose further that the gradients for the subsequent iterations are all zero right for a.
+few iterations they are zero so this is what is pectorially depicted here right so you have the gradient along.
+this axis your initial gradient was high and then for the next few time steps your gradient is zero and.
+this could be possible because X is part so it's a x is passed so you in the next time.
+steps when you are seeing the input that x is 0 so the gradient is going to be zero okay.

@@ -1,0 +1,9 @@
+go out of the valley because in the Steep regions a smaller learning rate would have worked and it would.
+have not selected the larger learning rate which would have taken it out of the value right so it kind.
+of works very nicely and it of course converges much faster than the gradient descent which was used with a.
+fixed learning rate of one in this case right so I think that's the that advantage of line search is.
+clear so that's all I have for uh today uh we are just going going over the slides the convergence.
+is much faster we see some oscillations but these are not as bad as uh what we had in momentum.
+and nag and overall the line search worked better right so that's where I'll end uh for today and in.
+the next week we'll see uh some uh variations of gradient descent algorithm which use an Adaptive learning array okay.
+so I'll see you next week thank you.

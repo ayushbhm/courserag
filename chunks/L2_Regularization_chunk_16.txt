@@ -1,0 +1,10 @@
+change that I have done here right yeah again I'm just doing a lot of steps but there's nothing much.
+going on here right just like I'm defining some quantities and then using those quantities and at points I'm at.
+some points I'm using the properties that the derivative is zero right so again uh there's nothing to uh really.
+say much about here right at this point once we reach uh the final answer that we're looking for then.
+I'll have significant things to say now this I can rewrite it as I've just opened up the brackets here.
+so this is h w tilde minus h W Star Plus sorry W's plus Alpha W tilde equal to 0.
+so I have taken all the W tilde terms on one side right so it's h w tilde minus the.
+plus sorry plus ah Alpha W tilde is equal to H W star right and this Alpha I can write.
+it as Alpha I it does not make a difference it's just multiplying by the identity Vector so I into.
+any Vector is the same as that Vector right so it does not make a difference so that's all I'm.

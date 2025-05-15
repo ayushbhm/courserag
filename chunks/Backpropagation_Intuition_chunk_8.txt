@@ -1,0 +1,9 @@
+strengthen it further right so this is what is happening right you had this network okay i gave you an.
+example x as input you did all this computation because you had some current values of w b w 1.
+w 2 w 3 b 1 b 2 b 3 these are not the final values these are not the.
+final learned values you're somewhere in the training and based on your current understanding current values of w1 w2 w3.
+you computed y-hat l not just that you computed some loss right after having y hat l you computed the.
+loss function also and you got a non-zero loss so now you're trying to find out what went wrong i.
+gave the network an x okay it produced a certain output i computed the loss based on that output and.
+my loss is non-zero so who is responsible for this so this loss was sitting here so i will ask.
+these guys first these are the dark green guys that i'll ask first right i'll ask them sorry hey you.

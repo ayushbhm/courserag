@@ -1,0 +1,10 @@
+of w and B to be um say minus Phi and Phi then it's very high if I choose it.
+to be 4 and minus 4 close to 4 and minus 4 then the loss seems to be low right.
+I can do all this but this is not again feasible right so I just had two parameters and I.
+just uh did this cheating of restricting the weights between minus six to six but actually the values are wnb.
+can take our minus infinity to infinity and if you have like a large number of parameters that we had.
+in that complex neural network then you can't really draw this plot that means Brute Force compute all the values.
+for the loss and find that value which is the smallest and then go and find the W and B.
+which will corresponding so you can't do this right so this guesswork or just Computing a Brute Force both are.
+infeasible the guesswork can lead you to uh false Direction so when I was guessed trying to guess the values.
+are W and B at some points I was making a guess such that my loss was actually more than.

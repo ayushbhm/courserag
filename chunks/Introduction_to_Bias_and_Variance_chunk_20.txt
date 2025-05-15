@@ -1,0 +1,10 @@
+if I plug in x equal to 0 I compute ah sorry there were 30 models not 25 right so.
+I compute ah F hat of x from all the 30 models and then take the average and plot it.
+similarly I plug in the value as 0.1 pass it through all the 30 value or 30 models I substitute.
+x equal to 0.1 I get 30 different y's I take the average of that and I plot it right.
+so what I am plotting here is the average value of f hat X of the simple for the 30.
+simple models similarly the blue curve is the average value of f hat X for the complex model right so.
+ah this is the what what I am trying to do here is the average value and you know that.
+the average I can also call it as the expected value right so the mean is the same as the.
+expected value so that is what I am drawing here empirically right I'm just trying to draw the expected value.
+for the green curve as well as the for the simple model which is the green line and for the.

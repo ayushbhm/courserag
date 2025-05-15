@@ -1,0 +1,9 @@
+of which it was hard to train deep neural network it's not just a com issue of compute right so.
+there are three things that have changed since the 1990s right one is of course we have much more data.
+now so if you have many parameters to train as a deep neural network would have you need larger amount.
+of data that we have you need faster compute we have that but there were some other things also which.
+needed to fall in place and that's what we'll focus on in this lecture right so it's not that this.
+suddenly got discovered in 2019 and then people started using deep learning right so until 2006 it was very hard.
+to train them and in 2006 there was a seminal work that I'll talk about which allowed us to train.
+deep neural networks and that suddenly sparked or revived the interest in deep neural networks and from then on we.
+have seen the success story which has led us to where we are currently in 2022 right so we will.

@@ -1,0 +1,10 @@
+of the training it will never become alive again right so why is that the case so this is all.
+just the explanation that I gave in uh just I was speaking through it this is all on the slides.
+also and this is the main point that I'm talking about now right that the neuron will stay Dead Forever.
+right so why would that happen yeah so weights are never getting updated right so once it became dead W1.
+W2 and B all three will not get updated right so B Still Remains this large negative value now the.
+next input comes in again the same will happen the B is large negative value so this sum W 1.
+x 1 plus W 2 x 2 plus b would again be less than zero again the neuron is dead.
+and then again the gradient does not flow through again W and W2 B don't get updated again the next.
+input comes in it's the same story right so once it becomes dead it stays Dead Forever right and in.
+practice people have observed that uh as high as greater than 50 percent of the relu units can die if.

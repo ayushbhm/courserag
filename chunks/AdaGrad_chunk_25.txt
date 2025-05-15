@@ -1,0 +1,8 @@
+right that's why it reaches very high digits right it treats reaches five digit numbers and that's why your learning.
+rate gets killed off aggressively right because your denominator has now become five digit number right the square root of.
+a five digit number okay and that's again in line with what the intuition that we had right so these.
+plots are again an explanation of everything that we saw right we're just seeing how the learning rate is changing.
+how the gradients are accumulating aggressively in the case of B and hence the learning rate is decreasing aggressively right.
+and the main main point is that in B the learning rate started off itself with 0.010 and then kept.
+decreasing from there whereas for w the learning rate started off with 0.72 which was higher than the ETA which.
+I had said and then started out decreasing from there and that's exactly what we wanted because W is a.

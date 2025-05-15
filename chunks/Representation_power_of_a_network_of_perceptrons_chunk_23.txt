@@ -1,0 +1,8 @@
+story so far the networks of the form that we just saw are called multi-layer perceptrons or mlps in short.
+you would have heard about this in several contexts the more appropriate terminology is actually multi-layered network of perceptrons why.
+because you have perceptrons there's a network of perceptrons and there are many layers so it's a multi-layered network of.
+perceptrons multi-layer perceptron does not make sense and there's a single perceptron it is not multi-layer it's a multi-layered network.
+of perceptrons but more commonly mlp is the common terminology that is used right the theorem we just saw gives.
+us the representation power of a mlp what does that mean what kind of functions can represent it says that.
+it can represent any boolean function so that's the representation power with a single hidden layer right yeah so that's.
+all that we have for today so we have been talking about the perceptrons we went a bit deeper uh.

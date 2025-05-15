@@ -1,0 +1,9 @@
+does it mean so you remember that in the algorithm while convergence while not convergence we are updating the weight.
+vector w is equal to w plus x in some cases w is equal to w minus x in some.
+cases right and the question was what if this keeps toggling and then we keep updating the vector infinitely or.
+we never exit the loop like the loop becomes an infinite loop so this theorem is saying that will not.
+happen right it will update it a finite number of times right so what is it saying that if the.
+vectors in p and n are tested cyclically one after the other and that's what we are doing we're picking.
+up vectors randomly for p and n our weight vector w is found after a finite number of steps t.
+such that it can separate the two sets p and n right so that's what this is saying that this.
+will not go on infinitely if your data is linearly separable the perceptron learning algorithm will find a weight vector.

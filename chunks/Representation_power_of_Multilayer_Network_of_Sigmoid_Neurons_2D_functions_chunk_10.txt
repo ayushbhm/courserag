@@ -1,0 +1,10 @@
+for two more walls and all of this will become clear when i show you the illustration on the next.
+slide okay so this is what my network is right it's the same thing i have two sigmoid neurons and.
+then one addition and i'm getting f of x one but at this i'm getting only open tower right i'm.
+not still getting the fully uh closed tower right so now let's see if you can get a come up.
+with a network for the entire thing okay let me just do some adjustments here first i guess this should.
+be fine uh i think i've already pre-adjusted the values you can play with them later on so i already.
+showed you h11 and h12 okay and when i do h11 minus h12 i get a tower so this is.
+something that you are convinced about so i will not show you these two right now i'll take h13 where.
+i am going to so if you look at this right so w11 was set to 200 right so that.
+is and w one two are set to zero that's why it's a step in a particular direction but now.

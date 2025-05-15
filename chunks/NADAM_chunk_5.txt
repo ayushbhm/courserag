@@ -1,0 +1,10 @@
+at uh yep uh yeah so instead of calling it GT GT in this case of course turns out to.
+be Delta is of 0 itself but actually it would have been as if I follow this equation it would.
+have been Delta W 0 minus ETA into beta into M minus 1 and this quantity just turned out to.
+be 0 so that's how I am writing it here okay so that's what your W1 is now let's go.
+ahead so if so this is where I have reached now now at G1 I am doing this look ahead.
+right so when I'm Computing G1 I am actually looking at the derivative at a slightly further Point I've already.
+moved by the history and then computed the derivative so that's where the lookup is happening right so that this.
+is the point so now I'm looking ahead and Computing the derivative and now that is where look ahead happens.
+in the original nag equation right and we are going to slightly modify that so now what is happening is.
+that this yeah so now I have after doing the look ahead I have reached somewhere I have made that.

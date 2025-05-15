@@ -1,0 +1,10 @@
+interpretation also of this so now what I'm showing you here are two loss Contours so and we are using.
+the same uh oops so this is my uh LW so this is what my unregularized loss looks like this.
+is my Alpha W transpose sorry not Alpha Dot this is what my w transpose W looks like so this.
+is the regularization loss and you can see that that loss has this uh if you look at this this.
+Contour here this is the Contour of a bowel which is the Contour of a square function and indeed it.
+should be the Contour of a square function because this is a square function right so this is the place.
+where W transfer transpose W is equal to say one W transpose W equal to two three and so on.
+right so these are the Contours that you have here and these are the Contours of w right now let's.
+make some observation about these plots right and what is w tilde W tilde is the place where these two.
+plots are intersecting right of course the I could have drawn some more uh this Contours will go on right.

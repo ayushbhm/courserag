@@ -1,0 +1,9 @@
+on my v0 V1 itself would be large and then my effective learning rate right from the beginning would become.
+very small and then there's no way for me to recover from there because my VT has become very large.
+and in other grad it never decreases again right it keeps growing because I don't take an exponential decay right.
+so that's clearly a disadvantage of ADA grad and that we were able to kind of alleviate using RMS prop.
+then if a gentle curvature is encountered in Ada grad but there is no way to increase the learning rate.
+because your history has again accumulated right and now I want uh my history has been accumulated and now I.
+really want this to be small VT to be small only then my effective learning rate will increase but that.
+cannot happen because once VT starts getting big it never comes back down right so again the same problem in.
+order grad that as you once you start accumulating a lot of history then your learning rate is bound to.

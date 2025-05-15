@@ -1,0 +1,9 @@
+right now of course this is slightly make believe right we understand that because we have already visited this in.
+the case of recurrent neural networks now there is no signal right we are not telling the model that hey.
+you need to pay more attention to was or hey you need to pay more attention to animal we just.
+hope that when we are looking at the final loss function and if it indeed is beneficial to focus more.
+on Wars right that means have a higher weight for Alpha which in turn will contribute uh accordingly when we.
+try to compute the refined representation for say the tenth word right and that effectively reduces the loss so it.
+would then learn to have a higher weight for wash right similarly if it helps so this is z 110.
+similarly if you had Z coming out from the other attention head and this will also participate in the fuel.
+computation and then participate in the loss so if it helps that now this set of Alphas should be such.

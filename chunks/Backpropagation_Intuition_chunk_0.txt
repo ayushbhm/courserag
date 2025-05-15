@@ -1,0 +1,9 @@
+[Music] okay so now let's build an intuition for the back propagation algorithm so so far we have answered the.
+first part of the question which was how to choose the loss function and we have taken two popular problems.
+classification and regression and motivated the choice for the loss function for both of them right now what we want.
+to do is that once you know the loss function now we can start talking about the derivative of the.
+loss function with respect to parameters right because that's the quantity that we are interested in if we know the.
+derivative of the loss function with respect to the parameters for all the parameters on our network then we can.
+simply plug it that back into the gradient descent algorithm and we are done right so that's all that we.
+need to do but now in the case of a deep neural network this is i wouldn't say complicated but.
+there is slightly more work involved than what we had in that simple network that we had right so here's.

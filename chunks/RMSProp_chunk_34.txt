@@ -1,0 +1,9 @@
+that I get a good effective learning rate and if I'm in a flat region again I want to want.
+them to adjust in kind of correlation so that I have have a good effective learning rate right right now.
+the only the denominator is adjusting the numerator is not adjusting so let's quickly summarize the drawbacks of adagrad and.
+RMS prop so both are sensitive to the initial learning rate uh then if the initial learning rates are great.
+if the initial gradients are large right if the initial gradients are large my VT would be large if my.
+V 0 was large right so my VT would be uh so V 0 itself would be Delta V 0.
+square right so if and then after that it will keep adding so this is at a grad where there.
+is no exponential decay so if my initial gradients are large my VT takes on a large value very early.
+on my v0 V1 itself would be large and then my effective learning rate right from the beginning would become.

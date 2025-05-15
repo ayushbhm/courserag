@@ -1,0 +1,10 @@
+steep slopes there my d y by DX or the derivative would be high and hence this quantity would be.
+high so if this quantity is high my update or the change in W would be high and when I'm.
+in gentle regions my derivative would be small and hence the change in W would be small because this quantity.
+is small so whatever am I updating by is going to be small okay so that's the intuition and you.
+could just play around with this curve a bit so I have kept the change to be constant at 0.5.
+you could also try with changing one and you could also try with different function right so currently the function.
+is f x equal to 0.6 X square if I make it 2x square right then you can see that.
+now the function has a even bigger slope in these regions and it does make sense right because the derivative.
+of 2x square is foreign X where is the derivative of x square is 2x right so it does make.
+sense that this is more uh steeper slope than the uh slope of the function x square right so the.

@@ -1,0 +1,8 @@
+then people also thought maybe there are other things maybe you could initialize the weights better because looks like unsupervised.
+pre-training is doing some kind of initialization of the baits so why don't I come up with better initialization methods.
+then people said okay maybe there are something to do with activation functions because we're talking about gradients and maybe.
+something happens and if you change the activation functions we might get better gradients and maybe things would improve right.
+so all of that whatever work happened in this 2006 to 2009 period which I'm going to talk about for.
+the next 15-20 minutes none of this I will be able to give you very conclusive answers hey it was.
+definitely due to optimization or definitely due to regulation but that does not matter what matters is it opened up.
+these possibilities and following this work we saw a lot of other advances half of which we have already seen.

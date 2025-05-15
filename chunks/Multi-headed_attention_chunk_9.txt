@@ -1,0 +1,9 @@
+computation and then participate in the loss so if it helps that now this set of Alphas should be such.
+that it should focus more on the word animal and if the loss dictates that then the machine would learn.
+that or the model would learn that right so that we're not giving it an explicit signal we're just hoping.
+that by Trying to minimize the loss it has more freedom now in some cases it can learn to put.
+a high alpha here in some cases it can put a learn to put a high alpha here right so.
+you're making a better design Choice by allowing it more uh choices right or allowing it more parameters in terms.
+of the W's the projection matrices which in turn result in different Alphas right so just making it a more.
+flexible model which has more choices or more options to how to adjust the alpha in different cases so it.
+might choose to have Alpha was high for one case Alpha animal high in the other case and then do.

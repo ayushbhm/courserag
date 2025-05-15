@@ -1,0 +1,9 @@
+these intermediate guys find out each of their responsibility and then find using those computations find the responsibility of the.
+weight that you're interested in right now where did this jump happen right so it's still this point i was.
+only talking english and then suddenly i introduced this math part i suddenly came to partial derivatives right so how.
+did i make that jump why i want to know what is the responsibility of these guys so how did.
+that responsibility became derivative what does the derivative tell us the derivative tells us is that if i change w.
+a bit how much does the loss change right so if changing w a very tiny bit changes the loss.
+of makes a large change to the loss that means w has a very strong influence on the loss w.
+is more responsible for the loss if i change the w a small amount maybe the loss will decrease a.
+lot right hence derivative or partial derivatives is a good way of assigning responsibility to the weights for the loss.

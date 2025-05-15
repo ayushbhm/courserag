@@ -1,0 +1,9 @@
+here are a few advances in that direction right so there's now a workshop on human interpretability in machine learning.
+which started in 2016. uh there's this clever hands uh toolkit which was developed right so so clever hands was.
+this horse right and i think in the uh last century where um so so the horse had an owner.
+and then he used to do the street show where uh where someone in the audience would ask it uh.
+arithmetic question right what is 5 plus 2 right and the way the horse would answer is i think by.
+nodding or by tapping its feet and it would kind of stop right so 5 plus two is seven so.
+peop i mean during the shows it would do it seven times right and then people thought hey this horse.
+is able to actually compute the answer and so on right but that was not the case what people later.
+on realize is that everyone in the audience was giving it cues naturally they're cheering for it right so when.

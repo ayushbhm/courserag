@@ -1,0 +1,9 @@
+basic building block was and then we saw the attention-based recurrent neural network where we had the attention function which.
+was like a basic building block which I'm calling these basic building blocks because if you understand these then it's.
+not very difficult to understand the full Network right so similarly today we'll focus on the basic building blocks of.
+Transformers which is lastly the attention uh the self attention and the cross attention uh layers that it uses and.
+then try to relate it to what we have already seen in attention-based models in the context of recurrent neural.
+networks right so that's the idea so with that let's zoom into uh the RNN based models and just see.
+some limitations of it right so one challenge in RNN based models was that if I'm looking at the use.
+case of translation right then my input is I am going home and I want to produce its translation in.
+the target language right now the input is given to me at one go right the input is not like.

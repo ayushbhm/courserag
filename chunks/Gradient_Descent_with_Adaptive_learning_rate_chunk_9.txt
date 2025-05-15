@@ -1,0 +1,9 @@
+right so that's what a sparse feature looks like and again as you can imagine in real world applications there.
+are many features which are sparse now what's the consequence of that right so if my derivative formula that I.
+just showed you as the sum right is summation I equal to 1 to M then that quantity that I.
+just mentioned multiplied by this feature value right this is what my derivative is going to be right and now.
+if this feature is very sparse that means when I am taking the sum for if this m is equal.
+to thousand and out of 1000 times if 990 times this feature is going to be 0 then 990 terms.
+in this derivative are going to be 0 right that means my total derivative that I am going to compute.
+is going to be very sparse for features uh is going to be very small for weights corresponding to sparse.
+features now what's the consequence of that the consequence consequence of that is that in my any gradient descent based.

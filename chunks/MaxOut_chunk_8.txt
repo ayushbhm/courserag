@@ -1,0 +1,9 @@
+that each of these neurons you consider their out port and you multiply it by a fraction P which is.
+the number of times this neuron was on right so we are just assuming that all neurons were equally participating.
+and equally sensitive to all the training examples and hence they were all on only a fraction of times P.
+so we'll take all of their weight as P assign a weight P to all of them and then do.
+the model averaging right but this Gap is still not being addressed that in bagging actually the model overfits on.
+specific samples whereas in Dropout the concept of overfitting is not really happening on any specific training examples because each.
+sub model is rarely seeing the training data right so now how do we close this Gap can we do.
+something so that's where MaxOut gets motivated from so this is what Dropout does right so drop out at every.
+time step now you have four neurons in the hidden layer H one one H one two H one three.

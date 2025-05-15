@@ -1,0 +1,10 @@
+can see that the loss is rapidly changing so now if I ever to aggressively shrink W2 that even for.
+small shrinks in W2 my loss will go increase right and that is not not acceptable to me because I.
+want to shrink it but I also want to maintain this trade-off that this law should also be small I.
+want my W's to be small but I also want this loss to be small hence I have ended up.
+with this trade-off that the weights which are more significant right which is W1 in this case I am shrinking.
+it less because if I shrink it a bit more if I had brought it down to this value then.
+my loss would have been even higher right and that is not something that I want right whereas when I'm.
+shrinking W1 I have more leeway because along this axis my loss is less sensitive to changes in W because.
+by a small change in W my loss is also decreasing slowly that's what is you can indicated by the.
+slope right so this Gap if you remember indicates the slope the slope here is smaller that means a small.

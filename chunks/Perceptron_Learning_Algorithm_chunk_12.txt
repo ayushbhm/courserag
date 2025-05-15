@@ -1,0 +1,10 @@
+that from linear algebra so the angle is going to be 90 degrees right and because we know that cos.
+of the angle is equal to this formula and if w transpose x is 0 so the cos of the.
+angle would be 0 and the angle would be 90 degrees right so this is slowly we have now started.
+moving into the territory of geometry and linear algebra right so now we know that if the point lies on.
+the line then the angle is 90 degree with the weight vector okay now let's uh go ahead right so.
+if the point if the vector w right if it's perpendicular to every point on the line then it just.
+simply means that it's perpendicular right so if this is the line w transpose x equal to 0 then my.
+weight vector is going to be perpendicular to that so nothing great again right now let's see some points which.
+lie in the positive half space of this line right so this is my line and i'm going to look.
+at the points which lie in the positive half space what is the positive half space it means that w.

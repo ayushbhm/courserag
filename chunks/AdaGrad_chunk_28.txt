@@ -1,0 +1,9 @@
+so let's just uh look at that is it clear what I just said okay so now by using a.
+parameter specific learning rate uh we have ensured that despite W being sparse we are still being able to move.
+in that direction and also we have ensured that uh B is going undergoing a lot of updates but its.
+effective learning rate is decreasing uh and there is this was something which is to ponder about which is not.
+theoretically Justified now you could imagine that in the denominator I could have had ETA divided by VT as opposed.
+to square root of VT right I would have got the same effect that my learning rate is inversely proportional.
+the effective learning rate is inversely proportional to the accumulated history right but if you replace square root by just.
+V T then this algorithm does not work so well and at least my guess is one of the reasons.
+for that is that if you don't take the square root then these quantities become very large very quickly right.

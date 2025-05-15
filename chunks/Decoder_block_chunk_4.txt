@@ -1,0 +1,9 @@
+the inputs so these are the uh small H number of time steps which have been decoded so far right.
+all the inputs have not been available because whatever has been decoded that comes in as input so whatever how.
+many steps have been decoded so far only that many inputs would exist right then you have something known as.
+the Mast multi-head self attention right uh so there's this Mast word which has been introduced here okay then again.
+at the output of one layer you have the feed power Network so this as I said is the same.
+exactly the same as what we saw earlier right so again the same thing is going to happen here you.
+would have these inputs H1 up to h capital T right which would give you some intermediate outputs S1 S2.
+up to St and maybe there's some space here maybe something else would come uh so maybe you'll get some.
+other outputs uh let me call them M1 M2 up to NT and then finally all of that will pass.

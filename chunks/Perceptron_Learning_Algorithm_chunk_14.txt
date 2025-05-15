@@ -1,0 +1,9 @@
+would be the angle between these points and the weight vector again just by looking at the picture it is.
+clear that the angle should be greater than 90 degrees right so if i consider this point here this angle.
+is clearly greater than 90 degrees because i mean you know it is greater than 90 degrees okay so that.
+also is clear now right so now let us try to relate uh the expression that we had with this.
+geometry right this simply follows from the formula so you had the cos alpha is the formula for that is.
+w transpose x divided by the norm of w and norm of x right so if w transpose x is.
+greater than zero right that means cos alpha is greater than zero if cos alpha is greater than 0 that.
+means alpha is going to be less than 90 degrees right so that is what it follows from because the.
+points lying in the positive half space satisfy this expression this inequality that's why the angle is going to be.

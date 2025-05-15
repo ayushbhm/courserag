@@ -1,0 +1,10 @@
+satisfied again i pick up a random point it's n2 so again n2 is already safe because the angle seems.
+to be greater than 90 degrees so i don't need to do any correction now i pick up the point.
+p3 and i need to make a correction because with p3 i can see that the angle is greater than.
+90 degrees so i will do the same correction and this is what my new w looks like okay now.
+let me pick up the point another point randomly and say it is p 2 no correction is needed because.
+you can see visually that the angle is less than 9 2 again i pick up n1 no correction is.
+needed the angle is greater than 90 degrees again i pick up n 3 no correction is needed i keep.
+doing this i keep cycling through the data and i now know that i have reached conversion i cycle through.
+the entire data once and i will see that no correction is needed that means i have reached conversions and.
+that is what convergence means i will just cycle through the entire data and if i do not have to.

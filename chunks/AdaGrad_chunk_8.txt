@@ -1,0 +1,9 @@
+horizontal axis is the W axis and my vertical axis is the B axis as has been appropriately labeled on.
+the plot right now with that information can you tell me what peculiar behavior is happening here okay good so.
+what what you're saying is this right that uh I mean as I say it it looks like these algorithms.
+went to a school where no one taught them greed in descent or no one taught them Pythagoras Theorem right.
+so what what I mean by that is uh if you look here uh initially all the three algorithms are.
+moving in the direction of B right they are not they have moved only till this point right till this.
+year they've moved only little bit in the direction of w right so till this point is where they have.
+reached so they have not much move from the initial value of w right but where they have moved a.
+lot in the direction of B right and that is expected because B was the dense feature hence its gradients.

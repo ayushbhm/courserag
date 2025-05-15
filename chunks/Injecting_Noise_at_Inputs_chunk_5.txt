@@ -1,0 +1,9 @@
+that you have these n inputs and to each of these inputs you have added some gaussian noise okay and.
+the noise added to each input is independent of the other inputs and then you're trying to predict a y.
+okay and the noise is coming from zero mean and some variance so now your X tilde that the corrupted.
+X is the original X plus this noise and now your original y hat right without the corruption your this.
+is what your y hat should have looked like right there's no surprising here no surprising I have not used.
+any non-linearity this is just like a linear transformation right so your model is simply Y is equal to W.
+transpose X this is a linear model that you're using here right and so this is what your y hat.
+should be but now instead of Y hat you are actually Computing y tilde and why do I say y.
+tilde because now you don't have X's you have X tildas right you have the corrupted axis now for the.

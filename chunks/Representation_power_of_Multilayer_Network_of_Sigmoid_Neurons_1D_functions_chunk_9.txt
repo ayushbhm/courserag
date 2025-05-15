@@ -1,0 +1,9 @@
+is true I'm going to do something similar here right and whatever I'm going to do here is based on.
+this excellent illustration right this link that you see in the bottom which is an online textbook one of the.
+very earlier early online textbooks on deep learning and it has a very good uh Tech stand and accompanying illustration.
+explaining whatever I'm going to do explain on the slide so all the material that I have presenting here the.
+ideas are borrowed from there right so uh just wanted to acknowledge that as well as point you to that.
+okay so so this is what an arbitrary function looks like right so I have my input X I'm dealing.
+with so this is the x axis and this is my f of x r y axis right and you.
+can see that I have a very arbitrary looking function right it's maybe I I it's not a sine X.
+it's not a cosine X it's maybe a mixture of some of these functions right uh it's not x square.

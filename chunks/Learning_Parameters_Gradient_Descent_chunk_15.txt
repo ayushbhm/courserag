@@ -1,0 +1,9 @@
+just the formula for the COS of the angle and this quantity which I was interested in luckily shows up.
+in this formula hence I am interested in it right so this is what uh cos beta is and the.
+good thing is that cos beta is bounded right so that means this quantity is also bounded okay good so.
+if I multiply throughout by this the denominator that you have here I'm just calling it K so that I.
+don't have to write this large quantity every time so this is what I get right so the quantity that.
+I am interested in I know that it lies between minus K and K right and I don't care about.
+uh the positive values of this quantity right I want this quality quantity to be less than 0 right so.
+I just care about the negative side because I want my condition was that U transpose into this gradient should.
+be less than 0 that's the condition that I have right so I am interested in the values which are.

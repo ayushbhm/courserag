@@ -1,0 +1,8 @@
+there was a lot of interest in that and making them better and better and that's where better activation functions.
+better optimization functions better regularizations i forgot to include a slide on that so regularization in the terms of a.
+dropout or even batch normalization you could think of it as a regularization in some sense have been proposed to.
+improve the training and stability of these networks right so that's what this uh period was about okay so so.
+far we have discussed about uh the progress of deep learning in general and then zoomed into a bit of.
+image processing where we uh or image applications where we talked about convolutional neural networks right the other important category.
+of problems that you deal with in your life and which are popular in the deep learning context is the.
+problems involving sequences so let's look at what these problems are so you encounter sequences everywhere right so okay so.

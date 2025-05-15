@@ -1,0 +1,9 @@
+some mini batch size let's say the mini batch size is 100 or 200 so if the number of points.
+that you have seen so far if it's equal to some mini batch size then you make an update right.
+so after every uh batch of say 100 points 200 points only then you make update till that point you.
+keep accumulating the uh gradients right so instead of accumulating the gradients for all the points you're accumulating the gradients.
+for say 100 points and then making an update right so that's the only difference in the uh code and.
+now these stochastic estimates are better because now instead of uh asking instead of flipping the coin once and then.
+estimating the probability of heads maybe you are flipping it 25 times or 50 times and then trying to estimate.
+the probability offense right so let's see what happens when we have k equal to 25 and we'll compare k.
+equal to 25 versus k equal to 1 right so let's see that okay so we are going to run.

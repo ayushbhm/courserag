@@ -1,0 +1,10 @@
+because of the large power of beta right and then it starts relying more on the recent guys and those.
+recent guys are all farther away from zero so then it also starts coming close to the true curve right.
+so that's why what happens if you don't use bias correction now the same thing if I had used bias.
+correction this is what will happen right so now if I use bias correction then it gets divided by that.
+one minus beta factor and then I don't have a problem right so in particular what happens right so I'll.
+show you so my M 0 is minus 1 okay and my Mt is going to be beta into oh.
+sorry m z sorry what am I seeing M minus 1 is 0 because I initialize it as 0 my.
+history uh is initialized as a 0 then plus 1 minus beta into m t now at time step 0.
+uh uh my value is 0.5 right so this uh yeah so this value is 0.5 and this term is.
+going to disappear right so I'll get 1 minus beta uh into 0.5 that's what my Mt is going to.

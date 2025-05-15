@@ -1,0 +1,10 @@
+output I'm producing the first word so what is the most important uh set of weights or what is the.
+most important words that I need to focus right and then you keep doing this at every time step so.
+you could think of is that you had this H1 to H5 weights and then you're multiplying them uh sorry.
+the H1 to H5 vector us right so you can think of putting them in a matrix and then you.
+have this Vector of Weights so now you're taking the doing this Matrix Vector multiplication which is essentially taking a.
+linear combination of all these columns right so alpha 1 1 into this alpha 1 2 into this Alpha One.
+three into this and so on right so that's the operation that is happening here and then you get the.
+uh you feed it to the decoder RNN which then produces a output at the end right and you keep.
+repeating this at every time step you do it at C2 then you compute C3 C4 C5 and so on.
+right so you keep doing that now what I'm showing here is what is known as a heat map so.

@@ -1,0 +1,9 @@
+have alx right so this is your free activation at the output layer and i'm going to use a sum.
+spatial function right so i have called g as the functions for the hidden layers the activation functions for the.
+hidden layers but for the output i'll need some spatial function right so i'll tell you give you some intuition.
+why so example i cannot always use the sigmoid function at the output because the sigmoid function will only give.
+me values between 0 to 1 whereas in some cases my output could be greater than that so what if.
+i am trying to predict say the rating of a movie on a scale of 0 to 100 or the.
+score of a test on a scale of 0 to 100. if i bound it to sigmoid function then it.
+will only give me values between 0 to 1. so depending on the problem that i'm handling i would want.
+some output functions which allow me to cover those range right so we'll do that in more detail in this.

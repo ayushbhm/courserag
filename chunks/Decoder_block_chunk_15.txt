@@ -1,0 +1,9 @@
+those many entries right one to h means the number of time steps which have been decoded so far instead.
+of using one to Capital T1 it will only use those many entries which have already been decoded right so.
+that's what you will have here at this point you'll have Z1 Z2 Z3 it also have some other things.
+but you don't care about them because they will not participate in the rest of the computation right so now.
+going forward you have the encoder representation coming up so this was the Mast self attention now this is the.
+Mast cross attention right this is the layer which is new I need to understand what is happening in that.
+layer right so let's see what happens there yeah so you have this S1 to T right all the s.
+representations are computed and now again the ease that you had right the uh you had these capital T representations.
+coming out from the encoder you'll again pass them through your standard QE uh key and value matrices right and.

@@ -1,0 +1,9 @@
+the number of times i have updated my weight vector and this is the quantity that i wanted to handle.
+on this is the quantity that i wanted to show was finite i wanted to show that k cannot tend.
+to infinity okay now cos beta is going to be greater than or cos beta is going to grow proportional.
+to square root of k so now as k increases cos beta will increase right now if k becomes arbitrarily.
+large if it goes to infinite that means my algorithm is not converging it's it's keeping on updating then what.
+will happen to cos beta cos beta will keep on increasing but can cos beta keep on increasing no cos.
+beta is bounded between uh minus one and one right so cos beta has to be less than equal to.
+one so cos beta cannot grow infinitely that means k cannot go infinitely k has to be bounded by a.
+maximum number hence we have shown that k is a finite number so if the data is linearly separable right.

@@ -1,0 +1,10 @@
+step right because you have not doing anything you did not get any update but now in the case of.
+uh in the case of the max value this is what will happen right it will not change right because.
+you're taking uh sorry please since you're using the max your current gradient is 0 right so then your goal.
+is just going to go by the max value so far and hence the the history is not going to.
+change right because this is going to be uh zero so that is uh uh what happens in the case.
+of Max now let's see what happens in the case if you are using the L2 Norm right as we.
+were using earlier let's see so let's look at the example now I've just changed the example a bit suppose.
+that 50 of the inputs that you see are zero right so after every uh input here every time step.
+you are seeing a every alternate time step you are seeing a zero input and hence the gradient is also.
+zero right and let's say the other time steps you are seeing a high gradient it's just an artificial example.

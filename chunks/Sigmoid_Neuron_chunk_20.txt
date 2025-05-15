@@ -1,0 +1,9 @@
+you can have a similar explanation it's just that the graph will move a bit right so I'll leave it.
+for you to figure that out but the what is the important thing is how do you get this s.
+shape at large values it saturates at small values it saturates and it goes smoothly from the small values to.
+the large values right so that's what is happening here and we no longer see this sharp transition which we.
+are seeing in the uh step function earlier or the perceptron function right let's just delete this also the output.
+Y is no longer binary right but it's a real valued output it's not zero or one many values between.
+0 and 1 are possible now the other interesting thing about this function is that since the values are between.
+0 and 1 right so what is the other quantity of Interest which lies between 0 to 1. probability right.
+so probabilities lie between 0 to 1. so now this output of the sigmoid function we could interpret as a.

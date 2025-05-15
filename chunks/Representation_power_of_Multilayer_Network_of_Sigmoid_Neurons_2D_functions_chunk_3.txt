@@ -1,0 +1,9 @@
+function and that's what the true function looks like and now i want to approximate it right and now again.
+if i had these small two dimensional toggles right so then i could just construct all of them side by.
+side right and get the original figure back right original function back so now i want to have a two.
+dimensional tower so how do i get a two dimensional toggle and once we understand two dimensional we will just.
+say we can do this in three dimensions four dimensions n dimensions right so once the idea and two dimension.
+becomes clear okay so now again i i'll just take this function which is a function of two inputs this.
+is a sigmoid neuron function which takes two inputs x1 and x2 each input would have a weight w1 w2.
+and then a bias right so now let's adjust a w1 and see what happens so if i increase w1.
+right again as i keep you can see that as i keep increasing i'll do okay maybe i'll just use.

@@ -1,0 +1,9 @@
+your inputs right so that's what is happening here it should be clear that even for a mecca for a.
+perceptron you're just learning a line and then you will have some points which lie in the positive half space.
+of the line and for those points the output would be one and some points which lie in the negative.
+half space of the line and for those points the output would be zero so just in case this is.
+not very clear we'll look at an example and it will become clear but then the question which already comes.
+up is that if it's not different if it's also learning a decision boundary then what's linear decision boundary then.
+what's the difference the difference is that now we have weights and we also have a learning algorithm for learning.
+those weights right so we are slowly moving in the territory of learning with the perceptron and we'll go deeper.
+in this territory as we go to sigmoid neurons and then eventually to a deep neural networks right so that's.

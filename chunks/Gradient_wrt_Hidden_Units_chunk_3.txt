@@ -1,0 +1,9 @@
+question do can I ask you to compute the derivative of P of Z with respect to Z what do.
+I mean by that would this derivative exist like or would it just be 0 the derivative would exist right.
+because I just said that P of Z is a function of Z right because it is computed using quantities.
+which in turn depend on zerlet so this function this question is a valid question now how will you compute.
+this derivative this derivative would simply be the derivative of P right I'm just going to use shortcuts now with.
+respect to q1 into the derivative of q1 with respect to Z plus the derivative of p with respect to.
+Q2 into the derivative of Q2 with respect to Z Plus the derivative of p with respect to Q3 into.
+the derivative of Q3 with respect to Z right so what am I telling you I am going to sum.
+the derivatives along these three parts right I'm just going to apply the chain rule along these three parts and.

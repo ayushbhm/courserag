@@ -1,0 +1,8 @@
+so on and not many clear answers emerged right but what got reinforced that hey indeed something is happening and.
+now it is possible to train the Deep neural networks and it could be because of optimization it could be.
+because of regularization so why don't we design better methods of optimization why don't we design method methods of regularization.
+and so on and that's the effect that we saw from 2009 onwards our 2011-12 onwards we saw a series.
+of better optimization rhythms right we saw all of that converging into Adam and then Adam and then again a.
+few variants of that right so this sparked interest so whatever happened in this period maybe people did not have.
+correct answers because these were again early days but these investigations suggested that hey maybe there is uh there is.
+Merit in going after better optimization algorithms hey maybe there is better Merit in going after better regularization methods and.

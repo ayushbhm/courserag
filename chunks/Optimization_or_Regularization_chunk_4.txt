@@ -1,0 +1,9 @@
+then I have a few layers which have 20 20 neurons right then I have the last layer maybe it.
+has 100 neurons or even more than that right so now I have a lot of Weights here right I.
+have 20 into 100 weights here right so the capacity in the last layer has increased and from this last.
+layer I'm going to again predict say 10 outputs right so then I again have 100 into 10 weights there.
+now if I increase this 100 to 1000 then my capacity increases further right so I can just increase the.
+number of neurons in the last layer and that would result in an increase in the number of Weights associated.
+with that layer right and hence your neural network would become large capacitor that's exactly what they did and they.
+showed that if you do this then you're able to drive the error to zero even without training right so.
+what are they saying that that if you have large capacity then you don't need pre-training right but large capacity.

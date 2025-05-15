@@ -1,0 +1,9 @@
+it by the large learning rate and hence you see that there's this oscillation effect right so we don't really.
+want that it's just increasing the learning rate is not really the solution always right and what we want is.
+something which kind of adapts to the slope if the slope is small then you want a larger learning rate.
+if the slope is large then maybe you want the learning rate to decrease right and this is exactly what.
+we'll see in the advanced optimization algorithms which will be have an Adaptive flavor to them right so but for.
+now I just want to mention that it's not just about increasing the learning rate you can't just set it.
+to be of high value always right so that's not right so that setting the learning rate to a high.
+value is not the right thing and then what do you set the learning rate to right so here are.
+some tips so what we typically try to do is that uh at least so now just let me just.

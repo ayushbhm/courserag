@@ -1,0 +1,9 @@
+loan that that person had taken how many years that those loan was repaid in what was the interest rate.
+for that loan was there any defaults and all of these you can see are real numbers and then the.
+output is also a real number which you want to decide an interest rate maybe something between say five to.
+twenty percent right that's what you want to decide so this is another problem right so these are the kind.
+of problems that we are interested in dealing with where your inputs are real numbers and your outputs are also.
+real numbers right and we'll take this idea further where we'll start later on in the course talking about images.
+right and even if you look at images what is an image if you look at a 100 cross 100.
+image these are pixel values which tell you some colors right so these are all again real numbers and based.
+on these real numbers which is a very high dimensional Vector because you're looking at a hundred cross hundred Vector.

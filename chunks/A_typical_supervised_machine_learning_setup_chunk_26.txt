@@ -1,0 +1,9 @@
+function the way i want to right so the difference between y hat and y sum across all the training.
+examples should be as small as possible right that's the same as saying that minimize this difference right so this.
+is my loss function now okay and i want to minimize this okay and i could choose different ways of.
+defining this distance or the d function right and i could choose the squared error loss for example so what.
+is this saying that this is my loss function which is i look at all the training examples i look.
+at the difference between y hat and y and i take the square of the difference why do we take.
+the square of the difference so that the positive errors don't cancel the negative errors right so now suppose i.
+wanted the value to be 1 okay and it predicted it as 0.5 then my error is minus 0.5 okay.
+yeah this was y hat this was y so y hat minus y is minus 0.5 but there was another.

@@ -1,0 +1,9 @@
+this equation right so to look at the points and then come up with this equation right then you have.
+to find the values of w and b so that's the same idea here that's why you need these parameters.
+okay now learning algorithm right so once you have set up the model you have the data now you need.
+an algorithm so that you can learn these parameters template in the case of y is equal to mx plus.
+c our algorithm was simple just have two points plug them in get two simultaneous equations solve that right so.
+the algorithm is the algorithm for solving the simultaneous equation and we are done right but in large parameters large.
+data we need something better something more principled and we have already seen one example which is the perceptron learning.
+algorithm and now we are going to see gradient descent in some time right so that's what we need now.
+what should the goal of this learning algorithm be so when would you say that the parameters that i have.

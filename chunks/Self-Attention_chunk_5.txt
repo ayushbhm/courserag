@@ -1,0 +1,10 @@
+here that's the question right so let's see what goes here the function that I'm going to use is to.
+compute the score between q1 and K J right so now my this is my query Vector so I'm interested.
+in knowing the weights of all the other words with respect to the first one that's why that's my query.
+the query is the first word and I want to understand the importance of all the words with respect to.
+that word so I'll pass different values of k k 1 k 2 K 3 k 4 K5 through it.
+and compute the score right so I'm going to compute uh five such scores right so earlier this was the.
+St minus 1 was fixed right uh because that was the state of the decoder time step T minus one.
+that did not change so that was in some sense my query because for at time step T I was.
+interested in knowing the weights of all the input words now with respect to my query or by my first.
+word or my word of focus I want to know the weights of all the other words so that word.

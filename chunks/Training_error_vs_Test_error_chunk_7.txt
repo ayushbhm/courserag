@@ -1,0 +1,9 @@
+error would have gone 0 as my model complexity increased right but what would happen is the test error would.
+behave like this right if my model is not complex like the like the linear model that I had had.
+which is the one which is the one extreme then my test error is going to be high as the.
+red error red curve is I there right but if my model is very complex then also my test error.
+is going to be high for reasons that I mentioned earlier because now I have trained the model to completely.
+overfit on one training data that I had seen and now if I have another point which are not similar.
+to this or which are not like which were not seen during training then I don't know whether it will.
+be able to perform well because its entire universe was restricted to these points and it did like everything that.
+it could to fit those points properly and in that effort it might have now missed uh considering the other.

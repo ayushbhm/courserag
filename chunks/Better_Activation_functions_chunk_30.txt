@@ -1,0 +1,10 @@
+now uh although this all sounds good right so what all sounds good one is it does not saturate at.
+least half the time so it does not saturate as opposed to sigmoid and tanets which have two saturation regions.
+uh it's of computationally efficient so these two things are taken care of but still there is some challenges here.
+right and we'll see what those are so if you look at the derivative of relu then it is going.
+to be 0 if x is less than 0 and it is going to be 1 if x is greater.
+than 0 right that simply follows from the fact that relu is equal to 0 or X so when it's.
+X the derivative of this with respect to X is just going to be 1 right so this is what.
+the derivative looks like and now if this is what the derivative looks like uh let's see what's the implication.
+that we have right so I've given you some toy example here a toy Network now at some point Suppose.
+there is a large gradient which flows through the network right there is a large gradient which flows and it.

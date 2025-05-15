@@ -1,0 +1,10 @@
+and you're kind of married to it either learning rate is good then you would progress well if that learning.
+rate is too high or too low then either you will keep oscillating if it's too high or if it's.
+too low then you will not be making Fast movements right so instead of sticking to one learning rate why.
+not try a bunch of learning reads right so that's what we are trying to do here that you're trying.
+different learning rates okay now you compute the derivative and your w t plus 1 is equal to WT minus.
+ETA times the derivative right now the derivative of course does not change but you can plug in different values.
+of ETA you can plug in the value 0.1 you can plug in the value 0.5 plug in the value.
+1 to 10 all of these values right and for each of these you will get a new value for.
+2 w t plus 1 right so this would be w t plus 1 corresponding to Eta 1 another WT.
+plus 1 corresponding to ETA two and so on so now we have found a new value for weight and.

@@ -1,0 +1,10 @@
+so how does this ensure that that is what is going to happen sorry okay yeah so why would this.
+work right that's the question that i'm trying to ask right it's not very clear to me that why should.
+this work so to understand this we'll have to look at a bit of linear algebra and a bit of.
+geometry right so let's let's go there so we have two vectors w and x and these are what those.
+vectors look like w naught up to w n just as i had written on the previous slide and x.
+s one up to x one x two x n right and now if i consider the dot product between.
+these two vectors then this is exactly what i get and this is what the expression that you are seeing.
+on the previous slide i was taking some decisions based on whether this value was greater than z equal to.
+0 or less than less than 0 right so this is the quantity that we are dealing with and now.
+i'm just telling you which is obvious that this quantity is nothing but the dot product between the weight vector.

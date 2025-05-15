@@ -1,0 +1,10 @@
+the decoder but here the attention is within the encoder inputs itself right so our goal would be that for.
+a given word I want to be able to compute the similarity score or the attention score with all the.
+other words in the sentence right so this Matrix is what I want to fill that I want to compute.
+a representation for street and I'm going to compute it as a weighted sum of all these representations so in.
+my weighted sum what should the alphas be right that's what I want to compute okay that is what my.
+goal is so this entire Matrix which is a t cross T Matrix is what I want to compute I.
+want to compute all these Alphas if I have all these Alphas then I compute the SS by just taking.
+a weighted Alpha weighted sum of the edges right so that's what my goal is okay and I want to.
+be able to do this in parallel which you already have a feeling that you can do this in parallel.
+because in particular right when could you do that in parallel so let me call this Alpha Street right or.

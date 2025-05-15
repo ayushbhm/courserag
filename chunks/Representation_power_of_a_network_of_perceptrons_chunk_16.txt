@@ -1,0 +1,9 @@
+and try this out okay now what if we have more than three inputs can you think of the same.
+template now and adapt it for the case of more than three inputs the same idea will repeat you will.
+have x1 x2 x3 now instead of four perceptrons in the middle layer you will have eight why because there.
+are eight possible inputs now zero zero zero up to one one one so each of these perceptrons will adjust.
+these red and blue weights in a way that for each perceptron only fires for a specific input right the.
+first perceptron will fire when it's zero zero zero second will fire when it's zero zero one and so on.
+right so now each perceptron again fires for a specific input each perceptron interacts with the green perceptron by one.
+of the weights w1 to w8 so again when you write down the conditions in the truth table you'll have.
+conditions like w1 has a specific condition w 2 has a specific condition none of these conditions will contradict none.

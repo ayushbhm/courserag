@@ -1,0 +1,9 @@
+hidden layer i am denoting them as h1 h2 h3h4 the output of the final layer i am denoting it.
+as y and the red and blue edges are called the layer 1 weights and w1 w2 w3 w4 are.
+called layer 2 weights okay so there are two layers one hidden layer one output layer and i'm not counting.
+the input layer because it's there right so this layer one weights are called the red and blue edges are.
+the layer 1 weights and w 1 w 2 w 3 4 are the layer 2 panes okay this is.
+all definition all terminology now is the interesting part i'm going to claim that this network can be used to.
+implement any boolean function whether that function is linearly separable or not what does that mean it means what i'm.
+trying to say is that i can i have this generic template which has now four weights w1 w2 w3.
+w4 everything else in the network has been hard coded right the only four variables are w1 w2 w34 using.

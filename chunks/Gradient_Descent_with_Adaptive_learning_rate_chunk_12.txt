@@ -1,0 +1,9 @@
+so that's the overall idea yeah so that's what is happening here now why is this important right so my.
+uh my weight now you might say that if this feature is passed then why do I care about it.
+right I mean let it not get updates let those weights not get updated because then maybe this feature will.
+not contribute much to my final classification but that's not the case right so there could be a case that.
+a feature is passed as well as important so returning back to the movie example right there could be an.
+actor or a director right take maybe Christopher Nolan who directs very few movies right maybe one in few years.
+right so if I look at all the data for the past 10 years we will have four to five.
+of his movies right but this would be a very important deciding fact uh feature because his movies are generally.
+good right so now if you completely ignore that feature if you are not bothered that hey this weights are.

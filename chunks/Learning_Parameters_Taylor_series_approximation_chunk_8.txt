@@ -1,0 +1,10 @@
+to that goal uh soon right in the figure it's clear that I should move to the left because there.
+is where the loss is decreasing right but that's that's what we are trying to do so now if I.
+know this W naught what the Taylor series does is that if I know a point w okay which is.
+W naught plus sum Delta okay if that is the point right so then Delta is equal to W minus.
+W naught right and you see that W minus W naught quantity everywhere here right so if I know the.
+value of the loss at a certain point then I can approximate the value of the function in a neighborhood.
+around that what do I mean by that this w if this Delta is very solid then W lies in.
+the neighborhood of w naught right so in that neighborhood I can approximate it by using this formula right and.
+the interesting thing about this formula is that it has this uh first order term it has a second order.
+term third order term and so on and I can cut off the formula wherever I want if I cut.

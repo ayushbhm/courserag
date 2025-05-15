@@ -1,0 +1,9 @@
+can again treat these as just two vectors and try to find the difference between them but given that you.
+know that these are probabilities what is the special thing that you can do and the video that i pointed.
+out says that you can use the cross entropy loss function so i'm going to rely on that and come.
+back to the discussion on cross country right so this is the intuition that i want you to build that.
+in the case of classification problems you have a true probability distribution which looks like one and all zeros that.
+one will be on the class which is the probability mass of one would be on the correct class and.
+zero on all other classes whereas your network will also predict some probability distribution because you will make an appropriate.
+choice of the output function and now you're looking for a loss function which finds the difference between these two.
+probability distributions so that's what you want to do in the case of classification so now let's fill in the.

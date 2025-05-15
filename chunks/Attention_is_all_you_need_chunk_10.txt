@@ -1,0 +1,10 @@
+I am calling as Z so H is now the word embeddings that you have computed it so this is.
+H1 H2 H3 up to H5 now I want to compute a new representation for movie and I'm going to.
+call it as S4 so I want to compute S4 as an attention weighted sum of all the Phi inputs.
+that I have that means first I need to compute the attention weights and what how am I going to.
+compute the attention weights everything is only on the encoder side so I want to compute the attention weight between.
+the words I and J and that would be a function of just h i and H J now what.
+function do I choose how do I use that all that we'll see as we go along but this is.
+the basic idea right so once I have these Alpha ijs I'm just going to compute S4 as the attention.
+weighted sum so Alpha 4 J J equal to 1 to capital T into h j right so now I.
+am just taking a weighted aggregate of all these representations right and these are the alphas for the time step.

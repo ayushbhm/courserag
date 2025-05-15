@@ -1,0 +1,9 @@
+what that curve looks like so every time you can see I am getting a different curve right you can.
+see all the different curves that I am getting here okay I am done now right so you understood the.
+procedure now let's try to make some observations from these plots so simple methods trained on different samples of the.
+data do not differ from each other right so I had a total of 500 training points given to me.
+and I took different random samples of 400 multiple times I took a different sample of 400 and each of.
+these lines corresponds to one of those sample training data sets and I found the values of w and W.
+naught and plotted this and you can see that all these lines are very close to each other right they.
+are not really giving me different solutions right but the same thing when I do with the complex function you.
+can see that all of these are quite different right so you have something which is going like this you.

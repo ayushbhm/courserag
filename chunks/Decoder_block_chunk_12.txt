@@ -1,0 +1,10 @@
+to Z T one right now what will you do when you're Computing Z1 your formula was Alpha into v.
+j j is equal to 1 to Capital T1 but now since you have decoded up till time step 3.
+you will set you will let alpha 1 Alpha 2 Alpha 3 be whatever they were right and then you.
+will set the remaining ones to zero right that's what you will do that's what masking does so the masking.
+means that zeroing out the attention weights which do not matter right I'm just doing a slight uh abuse of.
+explanation here in the sense that uh the alphas need to sum up to one right so while you mask.
+out the zero you'll also do something so that these three now scale them up so that they become they.
+sum up to one right but that is internal detail what you need to understand conceptually is that when you're.
+Computing a refined representation of a Z1 you will set all the other Alphas to zero right similarly so this.
+I should call as alpha 1 J so this is Alpha 1 1 Alpha 1 2 Alpha One three now.

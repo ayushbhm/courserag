@@ -1,0 +1,9 @@
+uh wheat at time step T my v t is going to be given by this formula and what you.
+see at V2 is just a manifestation of this formula applied at time Step 2 with the value of beta.
+set to 0.9 right and the main takeaway here right this formula you can go back and ponder about but.
+the main takeaway here is that you're using an exponentially decaying average and hence now your denominator is going to.
+grow less aggressively and hence now your effective learning rate right and remember this is what I refer to was.
+the effective learning rate my effective learning rate is going to Decay slowly okay so now let's see what the.
+effect of this is yeah again I'm not going to ponder too much about the code here but you can.
+see that now instead of only one line has changed right so VW plus DW Square I am doing beta.
+into VW plus 1 minus beta into DW square right so that's the main change that I've done and now.

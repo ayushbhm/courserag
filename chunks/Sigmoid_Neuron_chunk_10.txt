@@ -1,0 +1,9 @@
+was the pressure what was the density what was the temperature what was the marine diversity all I know right.
+so what I want is a network such that when I feed any of these X's to the network the.
+Y predicted by the network should be very close to the Y that I actually have right so that is.
+what our Quest is going to be I'm just defining the problem I'm not telling you a solution at all.
+right I'm just just about what the story ahead is going to be okay so let's move ahead from here.
+uh I better delete a few of these things so before answering the above question right we'll first have to.
+graduate from perceptrons to sigmoid neurons right so that's the first thing that we're going to do so uh recall.
+that when we are dealing with perceptrons a perceptrons fires when the weighted sum of its input is greater than.
+the threshold right unless we had this thing that Theta is equal to minus W naught right because we move.

@@ -1,0 +1,9 @@
+the cases now when they concatenate I again get a five and two dimensional output right and this I could.
+again pass it through whatever uh transformation I want right for example I could choose a 512 cross 1024 I.
+could choose a 512 plus 256 or I could choose a 512 cross 512 right and depending on that I.
+will know what my output Dimension would be if I choose this then my Z final Z is coming out.
+of here would be 5 and 2 dimensional right so let's just understand it correctly so this H1 gave me.
+a 256 dimensional Z1 this through this network or through this self-attention it I got another 256 dimensional H1 and.
+then I got 512 dimensional uh output here which then again I pass it through a linear transformation right so.
+it's because you're going to concatenate it makes sense that you the output of each of these is small right.
+because if each of these is five and two dimensional then you concatenate you will keep going larger right and.

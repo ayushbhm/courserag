@@ -1,0 +1,9 @@
+the effective number of parameters that your network has then this is the effective number of parameters right because your.
+total number of parameters was n now many of those parameters are getting scaled down significantly by this Factor right.
+now the depending on how many are getting scaled down if you take this summation this would be less than.
+n so effectively you have you have ended up reducing the complexity of the model right because you started off.
+with n parameters but now because of the scaling not all of your n parameters are fully effective and hence.
+the effective number of parameters that you have is actually much less than M right so that's what is happening.
+that's how it is controlling the model uh complexity okay now let's just look at a bit more of geometric.
+interpretation also of this so now what I'm showing you here are two loss Contours so and we are using.
+the same uh oops so this is my uh LW so this is what my unregularized loss looks like this.

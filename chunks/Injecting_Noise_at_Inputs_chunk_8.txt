@@ -1,0 +1,11 @@
+C so I have grouped them so I have a minus B plus sorry A minus C plus this B.
+quantity and of course there was the whole Square outside always okay so now this now Becomes of the form.
+let me just say p plus Q the whole Square so it is going to be p square plus Q.
+squared plus 2 p q so it is going to be the expectation of p square plus Q squared plus.
+2 PQ this is an expectation of a sum so I can write it as the sum of expectations so.
+expectation of P Square expectation of 2pq and expectation of our Q square right now let's make a few observations.
+so this quantity here there are n terms here right so you could think of it as a 1 plus.
+a two plus plus all the way up to a n square right so now when you expand this what.
+are the kind of terms that you are going to get you are going to get the squares of all.
+of these guys A1 square plus a 2 square all the way up to a n square and then you.
+are going to get these uh and choose two terms where you will have a 1 a 2 of course.

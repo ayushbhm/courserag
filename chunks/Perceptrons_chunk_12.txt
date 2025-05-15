@@ -1,0 +1,9 @@
+have a very high weight for this and because the weight is high even though there's only one input which.
+is on the weighted sum might still cross the threshold right and that's that's what the weights help you and.
+that's the notion of importance encoded in an inequality right so that's where the weights are helping right now coming.
+to the bias why is w naught called the uh why is w naught called the bias so w naught.
+actually refers to the prior or the prejudice so what's the role that it is playing right it is one.
+of the terms in the summation and it's like the blockage right so if w naught or or if theta.
+is a very high value right so then your sum has started off with a very low value it's a.
+high negative value that you have started off and now to cross this so that your total weighted sum is.
+greater than zero all of these inputs will have to contribute a lot right that means many inputs may have.

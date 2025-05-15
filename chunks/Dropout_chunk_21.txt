@@ -1,0 +1,10 @@
+the face even if the nose detecting neuron is not active that means some other node needs to now detect.
+how to uh I mean detect a face using ice let's say what the problem here is simple and I'm.
+showing you an image and I want to tell you whether there's a human face in it or not and.
+you can use the features of a human face to detect right so some neurons could fire if their eyes.
+is there some neurons could fire if nose is there but now if you drop out things then some of.
+these guys will no longer be available so then the other guys have to become creative and earlier maybe the.
+network was never learning to rely on the eyebrows to detect a face but now some neurons will start picking.
+that up because the other guys are not working so I better become more creative right so that way the.
+network is becoming more robust right so that's all I had about Dropout and what I'll do next is I'll.
+quickly give you a summary of all the regularization techniques that we have studied need.

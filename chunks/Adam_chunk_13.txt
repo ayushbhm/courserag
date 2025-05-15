@@ -1,0 +1,10 @@
+2 so beta raised to 3 minus 2 which is the same as beta and then you will have the.
+Delta W 2 here so this is how the formula has been arrived at so in general for the tth.
+time step I am now ready to write the formula the formula would just be 1 minus beta of factor.
+of 1 minus beta being common right and then beta raised to T minus Tau Delta W2 and it's very.
+similar to this formula except that you had this 1 minus beta term which has shown up on this formula.
+also right so nothing great here don't to worry too much if you have not understood this right away you.
+can go back and look at the steps and you can derive this formula on your own right so I've.
+derived the formula for Mt and this is important for the rest of the discussion that we'll have okay so.
+now let's look at okay now let's take the expectation on both sides that I have empty on one side.
+and I have uh the Delta WT quantity on the other side so I'm going to take expectation on both.

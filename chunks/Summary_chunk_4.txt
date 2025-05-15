@@ -1,0 +1,8 @@
+for the sake of completeness but we'll see them in the context of cnns and that that time it will.
+become clear that these act as regularizers because they help in reducing the number of parameters they help in reducing.
+the model complexity right at least these two here okay uh then uh it has also been shown that the.
+optimization process itself can act as a regularizer right so some papers have shown that gradient descent has prefers less.
+complex Solutions as compared to more complex Solutions and that is a bit more nuanced statement and it's a discussion.
+in itself so I'll not go into the details of it but there's also some kind of implicit regularization happens.
+because of these gradient descent based methods which prefer simpler Solutions as opposed to more complex Solutions then early stopping.
+is again a kind of Regulation that we have discussed and then we have looked at penalizing the law cost.

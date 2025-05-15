@@ -1,0 +1,8 @@
+and we had this intuition that training error as computed from the training data this is the empirical training error.
+is actually very over optimistic because it does not consider this other quantity sitting here right and test error is.
+not optimistic because in that case this quantity disappears so whatever you get from the test error is actually very.
+close to the true error that you might get from the expectation but now how is this related to ah.
+model complexity right so I said that there is when you are trying to estimate it from the training error.
+this quantity sits here but then I also said that as your training model complexity increases your training error is.
+overly optimistic what does that mean that as your model complexity increases this quantity is actually very high and hence.
+if you look only at the empirical estimation from the training error then you are being very optimistic because you.

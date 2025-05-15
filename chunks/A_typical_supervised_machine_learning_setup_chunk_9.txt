@@ -1,0 +1,9 @@
+the person and this history is being characterized by various things what is the salary of the person what is.
+the education level of the person what is the family size of the person does he have any past loans.
+what was the interest rate on the past loans how soon did he dispose of that loan and so on.
+right so all of those are the past history and based on that for my existing customers i know what.
+was the rate at which it was suitable to give them right and now this training data is given to.
+me and there are uh n such training points each of which is m dimensional and i'm trying to predict.
+a real valued output right and now you can think of on and on of so many such problems right.
+so all the machine learning supervised machine learning problems have this form i'll give one more which is the movie.
+protection problem or the box office collection problem right so i have want to predict the box office collection of.

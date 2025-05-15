@@ -1,0 +1,10 @@
+of quantities of which some quantities I can compute and there is one quantity which I can still not compute.
+but we will see how to deal with that ok so now what we will do is now we will.
+take a small detour to understand how to empirically estimate an expectation and then return to our derivation let's see.
+what I mean by that so suppose we have observed the goals scored in K matches you are watching some.
+football uh a lot of football games and you've watched some 100 200 games and you have observed the number.
+of goals scored say 100 200 games between if you want the same pair of teams or uh all cities.
+one team is constant there right so how many goals on average does say Brazil score or some other team.
+scores right I never observed this and now the way you compute the expected value we are interested in what.
+is the expected value of Z so our random variable here is z and it can take any value 0.
+1 2 3 4 5 6 7 maybe as many goals as you can score and you are interested in.

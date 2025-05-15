@@ -1,0 +1,10 @@
+that if I just move along this line right so instead of moving along this curve which is what you.
+should have done you are moving along that line and whatever value you get on that line that is the.
+value you are assuming for y1 right so that's an approximation and you can already see right that this value.
+here let me just mark it with a different color right so this blue value here is what you would.
+get right that's the point on the line it's slightly above the red curve right so it's an approximation you.
+will get some error there because you have done a linear approximation right now let me just get rid of.
+all this content and now let's see if I had done a quadratic approximation that means if I had cut.
+the formula here right so what happens in that case this is what the formula looks like right and just.
+as the first one was of the form Y is equal to MX plus C right and here you have.
+a quadratic term so this is nothing but Y is equal to ax Square plus BX plus C right so.

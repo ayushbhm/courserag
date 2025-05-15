@@ -1,0 +1,9 @@
+functions better the approximation okay so now this is what has happened in the previous slide I had this I.
+constructed a tower and I placed it at a certain position on the x-axis and that is where it is.
+I constructed one more Tower it was at a different position one more Tower at a different position so I've.
+just shown you some of the towers in those large number of towers that I had right now I could.
+you could imagine that I would have one more uh right say one more Tower here which would look something.
+like this and it should go up and come here like this right so I've not shown you all the.
+towers that were there on the previous slide but this is what is happening right you are constructing many of.
+these towers independently then just adding them all up to get the main function that you are trying to approximate.
+right and all of these are similar except for their position on the x-axis and for their Heights or lengths.

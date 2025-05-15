@@ -1,0 +1,9 @@
+sides so I want that to happen I want to take the inputs from all the surrounding words but I.
+don't want to do this in a sequential manner I want a model which is not recurrent in nature because.
+the idea behind a recurrent equation is that you do something at time step T minus 1 and then feed.
+it as input to time step T so I don't want that to happen right so that's the basic problem.
+I have with the sequencer sequence a models which I would like to overcome right and problem as well as.
+a good thing a good thing is that I want contextual representations the bad thing is I don't want to.
+do parallel sequential process right and once this is done then you have the entire Encore decoder block right which.
+then takes in the final representation so ignore this for some reason this s2s1 is showing up on the slide.
+it's not supposed to but it continues to show up oh no yeah so this is the final State and.

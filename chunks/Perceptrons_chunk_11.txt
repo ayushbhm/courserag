@@ -1,0 +1,9 @@
+get clear over a series of lectures right so this is something that we would like to learn and now.
+this model has these placeholders for weights which could potentially be learned right and these weights could be such that.
+what do we want right we want the weighted sum to be greater than some threshold right or the weighted.
+sum including the threshold to be greater than equal to 0 that's what we want right so now you could.
+imagine that there's an input signal which is weak but the weight for that input signal is so high that.
+collectively it crosses the border right and so it's possible that you only have one input which is on right.
+which is the director is nolan and all the other inputs are off but the weight of this input might.
+be very high based on your data because you have always liked movies directed by christopher nolan so you would.
+have a very high weight for this and because the weight is high even though there's only one input which.

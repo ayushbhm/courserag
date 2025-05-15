@@ -1,0 +1,9 @@
+Dropout is actually trying to do and why does it act as a regularizer right so it actually applies a.
+masking noise to the hidden knit so what does that mean is that in every you could think that Suppose.
+there are n vectors n nodes here at every mini batch I am creating an N dimensional uh Vector where.
+some values are one say 80 of the values are one and the remaining 20 are zeros right and that's.
+the same as whatever output you produced here I'm going to multiply this by this mask right so if you.
+were a masked out then you are not going to participate in the computation that means your output would be.
+zero because I'm just multiplying You by this Mass Vector so that is what is happening here some units are.
+getting dropped and this is how you actually implement it it's not that every time you visit every node and.
+decide whether to keep it or not you just create this random vector by saying that I want 20 of.

@@ -1,0 +1,2942 @@
+[
+  {
+    "text": "[Music]",
+    "start": 0.33,
+    "duration": 10.029
+  },
+  {
+    "text": "so welcome back uh we're now going to",
+    "start": 18.88,
+    "duration": 3.84
+  },
+  {
+    "text": "talk about the proof of uh convergence",
+    "start": 20.56,
+    "duration": 3.92
+  },
+  {
+    "text": "right so the idea is that you have some",
+    "start": 22.72,
+    "duration": 4.08
+  },
+  {
+    "text": "intuition about how this algorithm works",
+    "start": 24.48,
+    "duration": 3.92
+  },
+  {
+    "text": "so let's now formalize it right whether",
+    "start": 26.8,
+    "duration": 3.68
+  },
+  {
+    "text": "it will actually converge or not right",
+    "start": 28.4,
+    "duration": 4.08
+  },
+  {
+    "text": "so i'm going to first state the theorem",
+    "start": 30.48,
+    "duration": 5.36
+  },
+  {
+    "text": "and before that i'll define something so",
+    "start": 32.48,
+    "duration": 5.28
+  },
+  {
+    "text": "two sets p and n",
+    "start": 35.84,
+    "duration": 4.48
+  },
+  {
+    "text": "of points in n-dimensional space are",
+    "start": 37.76,
+    "duration": 4.799
+  },
+  {
+    "text": "called absolutely linearly separable and",
+    "start": 40.32,
+    "duration": 3.12
+  },
+  {
+    "text": "i'm just going to read out the",
+    "start": 42.559,
+    "duration": 1.84
+  },
+  {
+    "text": "definition",
+    "start": 43.44,
+    "duration": 2.799
+  },
+  {
+    "text": "if",
+    "start": 44.399,
+    "duration": 4.961
+  },
+  {
+    "text": "n plus 1 real numbers w naught to w 9",
+    "start": 46.239,
+    "duration": 5.521
+  },
+  {
+    "text": "exist and you recognize these numbers or",
+    "start": 49.36,
+    "duration": 4.16
+  },
+  {
+    "text": "these variables as the weights that i",
+    "start": 51.76,
+    "duration": 3.76
+  },
+  {
+    "text": "want right so that's what i want to find",
+    "start": 53.52,
+    "duration": 3.519
+  },
+  {
+    "text": "so of course the definition will contain",
+    "start": 55.52,
+    "duration": 4.4
+  },
+  {
+    "text": "these ways right so if such numbers",
+    "start": 57.039,
+    "duration": 4.401
+  },
+  {
+    "text": "exist",
+    "start": 59.92,
+    "duration": 3.92
+  },
+  {
+    "text": "such that for every point right and",
+    "start": 61.44,
+    "duration": 4.719
+  },
+  {
+    "text": "remember the points are themselves",
+    "start": 63.84,
+    "duration": 5.92
+  },
+  {
+    "text": "vectors right so this is oops",
+    "start": 66.159,
+    "duration": 3.601
+  },
+  {
+    "text": "a vector",
+    "start": 69.84,
+    "duration": 4.16
+  },
+  {
+    "text": "x 1 to x n belonging to p so every",
+    "start": 71.04,
+    "duration": 5.36
+  },
+  {
+    "text": "vector belonging to p",
+    "start": 74.0,
+    "duration": 4.56
+  },
+  {
+    "text": "satisfies this condition",
+    "start": 76.4,
+    "duration": 4.96
+  },
+  {
+    "text": "and similarly every vector belonging to",
+    "start": 78.56,
+    "duration": 5.04
+  },
+  {
+    "text": "n satisfies the other condition right",
+    "start": 81.36,
+    "duration": 3.84
+  },
+  {
+    "text": "and this could be greater than equal to",
+    "start": 83.6,
+    "duration": 3.04
+  },
+  {
+    "text": "zero right",
+    "start": 85.2,
+    "duration": 2.8
+  },
+  {
+    "text": "okay i have",
+    "start": 86.64,
+    "duration": 3.2
+  },
+  {
+    "text": "okay i fixed the uh",
+    "start": 88.0,
+    "duration": 3.6
+  },
+  {
+    "text": "inequalities so",
+    "start": 89.84,
+    "duration": 4.48
+  },
+  {
+    "text": "uh every point belonging to p should",
+    "start": 91.6,
+    "duration": 5.04
+  },
+  {
+    "text": "satisfy the greater than equal to w",
+    "start": 94.32,
+    "duration": 4.4
+  },
+  {
+    "text": "naught condition and every point",
+    "start": 96.64,
+    "duration": 4.4
+  },
+  {
+    "text": "belonging to n should satisfy the less",
+    "start": 98.72,
+    "duration": 3.84
+  },
+  {
+    "text": "than w naught condition right so if that",
+    "start": 101.04,
+    "duration": 2.88
+  },
+  {
+    "text": "happens then the points are said to be",
+    "start": 102.56,
+    "duration": 2.64
+  },
+  {
+    "text": "linearly separable that's just a",
+    "start": 103.92,
+    "duration": 2.64
+  },
+  {
+    "text": "definition",
+    "start": 105.2,
+    "duration": 3.44
+  },
+  {
+    "text": "now um",
+    "start": 106.56,
+    "duration": 3.519
+  },
+  {
+    "text": "so now here's the statement of the",
+    "start": 108.64,
+    "duration": 3.68
+  },
+  {
+    "text": "theorem right so if the sets p and n are",
+    "start": 110.079,
+    "duration": 3.921
+  },
+  {
+    "text": "finite and linearly separable that just",
+    "start": 112.32,
+    "duration": 3.28
+  },
+  {
+    "text": "means your data is finite and is",
+    "start": 114.0,
+    "duration": 3.2
+  },
+  {
+    "text": "linearly separable",
+    "start": 115.6,
+    "duration": 3.44
+  },
+  {
+    "text": "the perceptron nulling algorithm updates",
+    "start": 117.2,
+    "duration": 3.44
+  },
+  {
+    "text": "the weight vector a finite number of",
+    "start": 119.04,
+    "duration": 3.679
+  },
+  {
+    "text": "times right so what does it mean so you",
+    "start": 120.64,
+    "duration": 3.519
+  },
+  {
+    "text": "remember that in the algorithm while",
+    "start": 122.719,
+    "duration": 2.801
+  },
+  {
+    "text": "convergence",
+    "start": 124.159,
+    "duration": 2.96
+  },
+  {
+    "text": "while not convergence we are updating",
+    "start": 125.52,
+    "duration": 3.519
+  },
+  {
+    "text": "the weight vector w is equal to w plus x",
+    "start": 127.119,
+    "duration": 4.001
+  },
+  {
+    "text": "in some cases w is equal to w minus x in",
+    "start": 129.039,
+    "duration": 4.001
+  },
+  {
+    "text": "some cases right and the question was",
+    "start": 131.12,
+    "duration": 3.52
+  },
+  {
+    "text": "what if this keeps toggling and then we",
+    "start": 133.04,
+    "duration": 3.68
+  },
+  {
+    "text": "keep updating the vector infinitely or",
+    "start": 134.64,
+    "duration": 4.239
+  },
+  {
+    "text": "we never exit the loop like the loop",
+    "start": 136.72,
+    "duration": 4.08
+  },
+  {
+    "text": "becomes an infinite loop so this theorem",
+    "start": 138.879,
+    "duration": 3.121
+  },
+  {
+    "text": "is saying that will not happen right it",
+    "start": 140.8,
+    "duration": 2.96
+  },
+  {
+    "text": "will update it a finite number of times",
+    "start": 142.0,
+    "duration": 4.08
+  },
+  {
+    "text": "right so what is it saying that if the",
+    "start": 143.76,
+    "duration": 4.96
+  },
+  {
+    "text": "vectors in p and n are tested cyclically",
+    "start": 146.08,
+    "duration": 3.92
+  },
+  {
+    "text": "one after the other and that's what we",
+    "start": 148.72,
+    "duration": 2.56
+  },
+  {
+    "text": "are doing we're picking up vectors",
+    "start": 150.0,
+    "duration": 3.36
+  },
+  {
+    "text": "randomly for p and n",
+    "start": 151.28,
+    "duration": 4.4
+  },
+  {
+    "text": "our weight vector w is found after a",
+    "start": 153.36,
+    "duration": 4.08
+  },
+  {
+    "text": "finite number of steps",
+    "start": 155.68,
+    "duration": 2.72
+  },
+  {
+    "text": "t",
+    "start": 157.44,
+    "duration": 2.72
+  },
+  {
+    "text": "such that",
+    "start": 158.4,
+    "duration": 3.839
+  },
+  {
+    "text": "it can separate the two sets p and n",
+    "start": 160.16,
+    "duration": 4.24
+  },
+  {
+    "text": "right so that's what this is saying that",
+    "start": 162.239,
+    "duration": 3.921
+  },
+  {
+    "text": "this will not go on infinitely if your",
+    "start": 164.4,
+    "duration": 3.119
+  },
+  {
+    "text": "data is linearly separable the",
+    "start": 166.16,
+    "duration": 3.2
+  },
+  {
+    "text": "perceptron learning algorithm",
+    "start": 167.519,
+    "duration": 3.681
+  },
+  {
+    "text": "will find a weight vector w after a",
+    "start": 169.36,
+    "duration": 3.92
+  },
+  {
+    "text": "finite number of steps right now how do",
+    "start": 171.2,
+    "duration": 3.84
+  },
+  {
+    "text": "you prove this so let's look at that so",
+    "start": 173.28,
+    "duration": 3.76
+  },
+  {
+    "text": "let's look at the proof of this okay so",
+    "start": 175.04,
+    "duration": 4.0
+  },
+  {
+    "text": "i'll start with the proof uh first i'll",
+    "start": 177.04,
+    "duration": 4.16
+  },
+  {
+    "text": "talk about the setup",
+    "start": 179.04,
+    "duration": 4.64
+  },
+  {
+    "text": "so if x belongs to n right it's an a",
+    "start": 181.2,
+    "duration": 4.56
+  },
+  {
+    "text": "it's a point for which the output is 0",
+    "start": 183.68,
+    "duration": 4.16
+  },
+  {
+    "text": "then minus of x belongs to p this is",
+    "start": 185.76,
+    "duration": 4.399
+  },
+  {
+    "text": "trivial because if x belongs to n then",
+    "start": 187.84,
+    "duration": 4.08
+  },
+  {
+    "text": "it means that w transpose x is going to",
+    "start": 190.159,
+    "duration": 3.681
+  },
+  {
+    "text": "be less than 0 which implies that w",
+    "start": 191.92,
+    "duration": 4.0
+  },
+  {
+    "text": "transpose minus x is going to be greater",
+    "start": 193.84,
+    "duration": 4.96
+  },
+  {
+    "text": "than equal to 0 right so now what this",
+    "start": 195.92,
+    "duration": 4.56
+  },
+  {
+    "text": "observation allows me to do is that we",
+    "start": 198.8,
+    "duration": 5.04
+  },
+  {
+    "text": "can just consider a single set p prime",
+    "start": 200.48,
+    "duration": 6.0
+  },
+  {
+    "text": "which is the union of p and n minus what",
+    "start": 203.84,
+    "duration": 5.2
+  },
+  {
+    "text": "is n minus n minus is the negation of",
+    "start": 206.48,
+    "duration": 5.52
+  },
+  {
+    "text": "all the points in n right and now for",
+    "start": 209.04,
+    "duration": 6.08
+  },
+  {
+    "text": "every point belonging to p prime right",
+    "start": 212.0,
+    "duration": 5.92
+  },
+  {
+    "text": "which is the union of p and your n minus",
+    "start": 215.12,
+    "duration": 4.88
+  },
+  {
+    "text": "i want to ensure that w transpose p",
+    "start": 217.92,
+    "duration": 3.52
+  },
+  {
+    "text": "should be greater than equal to zero",
+    "start": 220.0,
+    "duration": 3.28
+  },
+  {
+    "text": "right so this is just sim just changing",
+    "start": 221.44,
+    "duration": 4.4
+  },
+  {
+    "text": "the notation so earlier if i",
+    "start": 223.28,
+    "duration": 4.8
+  },
+  {
+    "text": "wanted w transpose p should be greater",
+    "start": 225.84,
+    "duration": 4.399
+  },
+  {
+    "text": "than equal to 0 right",
+    "start": 228.08,
+    "duration": 4.48
+  },
+  {
+    "text": "and w transpose",
+    "start": 230.239,
+    "duration": 4.401
+  },
+  {
+    "text": "n which is an n is a point which belongs",
+    "start": 232.56,
+    "duration": 3.599
+  },
+  {
+    "text": "to the negative side should be less than",
+    "start": 234.64,
+    "duration": 3.84
+  },
+  {
+    "text": "0 right but now what i've done is from",
+    "start": 236.159,
+    "duration": 5.681
+  },
+  {
+    "text": "every n i have constructed another p",
+    "start": 238.48,
+    "duration": 5.679
+  },
+  {
+    "text": "right which is just the negative of n so",
+    "start": 241.84,
+    "duration": 4.88
+  },
+  {
+    "text": "now every point in my data set has the",
+    "start": 244.159,
+    "duration": 4.72
+  },
+  {
+    "text": "output to be plus one right it has the",
+    "start": 246.72,
+    "duration": 4.719
+  },
+  {
+    "text": "output to be p right",
+    "start": 248.879,
+    "duration": 4.961
+  },
+  {
+    "text": "one sorry uh because i've just take the",
+    "start": 251.439,
+    "duration": 3.921
+  },
+  {
+    "text": "negative other point so for whatever",
+    "start": 253.84,
+    "duration": 3.919
+  },
+  {
+    "text": "point for the original point the output",
+    "start": 255.36,
+    "duration": 4.64
+  },
+  {
+    "text": "was zero so for the negative of that",
+    "start": 257.759,
+    "duration": 3.841
+  },
+  {
+    "text": "point the output should be one right so",
+    "start": 260.0,
+    "duration": 3.68
+  },
+  {
+    "text": "i've just constructed the single set",
+    "start": 261.6,
+    "duration": 4.4
+  },
+  {
+    "text": "which is a collection of all the points",
+    "start": 263.68,
+    "duration": 4.239
+  },
+  {
+    "text": "for which the only condition that i need",
+    "start": 266.0,
+    "duration": 3.919
+  },
+  {
+    "text": "to satisfy now is w transpose p should",
+    "start": 267.919,
+    "duration": 3.761
+  },
+  {
+    "text": "be greater than equal to zero for all",
+    "start": 269.919,
+    "duration": 4.081
+  },
+  {
+    "text": "the points in p prime where p prime is",
+    "start": 271.68,
+    "duration": 4.88
+  },
+  {
+    "text": "as defined on this slide right so just",
+    "start": 274.0,
+    "duration": 4.96
+  },
+  {
+    "text": "a simple change nothing uh great here",
+    "start": 276.56,
+    "duration": 4.639
+  },
+  {
+    "text": "right this will just uh simplify some of",
+    "start": 278.96,
+    "duration": 3.04
+  },
+  {
+    "text": "the",
+    "start": 281.199,
+    "duration": 2.401
+  },
+  {
+    "text": "proof that some of the steps in the",
+    "start": 282.0,
+    "duration": 3.28
+  },
+  {
+    "text": "proof right okay so i'll start with the",
+    "start": 283.6,
+    "duration": 3.68
+  },
+  {
+    "text": "algorithm so p is all the inputs with",
+    "start": 285.28,
+    "duration": 3.199
+  },
+  {
+    "text": "label one",
+    "start": 287.28,
+    "duration": 3.44
+  },
+  {
+    "text": "n is all the inputs with label zero n is",
+    "start": 288.479,
+    "duration": 5.361
+  },
+  {
+    "text": "this negative of and minus is the set",
+    "start": 290.72,
+    "duration": 4.8
+  },
+  {
+    "text": "which contains the negations of all",
+    "start": 293.84,
+    "duration": 4.4
+  },
+  {
+    "text": "points in n and now i'm defining p prime",
+    "start": 295.52,
+    "duration": 4.16
+  },
+  {
+    "text": "as a union of",
+    "start": 298.24,
+    "duration": 2.32
+  },
+  {
+    "text": "p",
+    "start": 299.68,
+    "duration": 4.56
+  },
+  {
+    "text": "and n minus right",
+    "start": 300.56,
+    "duration": 5.52
+  },
+  {
+    "text": "and",
+    "start": 304.24,
+    "duration": 3.6
+  },
+  {
+    "text": "now i'm going to initialize w randomly",
+    "start": 306.08,
+    "duration": 3.679
+  },
+  {
+    "text": "again i'll have this convergence",
+    "start": 307.84,
+    "duration": 3.919
+  },
+  {
+    "text": "condition and what i'm going to do i'm",
+    "start": 309.759,
+    "duration": 4.321
+  },
+  {
+    "text": "going to pick up a random p a random",
+    "start": 311.759,
+    "duration": 4.401
+  },
+  {
+    "text": "point belonging to p prime where p prime",
+    "start": 314.08,
+    "duration": 4.0
+  },
+  {
+    "text": "is the union defined above",
+    "start": 316.16,
+    "duration": 3.759
+  },
+  {
+    "text": "so what am i going to do till it does",
+    "start": 318.08,
+    "duration": 3.28
+  },
+  {
+    "text": "not converge i'm going to pick up a",
+    "start": 319.919,
+    "duration": 4.56
+  },
+  {
+    "text": "random point p belonging to p prime",
+    "start": 321.36,
+    "duration": 5.839
+  },
+  {
+    "text": "and for that point i'm going to check",
+    "start": 324.479,
+    "duration": 3.681
+  },
+  {
+    "text": "if",
+    "start": 327.199,
+    "duration": 2.56
+  },
+  {
+    "text": "the condition is not favorable right",
+    "start": 328.16,
+    "duration": 3.84
+  },
+  {
+    "text": "this the condition should have been that",
+    "start": 329.759,
+    "duration": 4.641
+  },
+  {
+    "text": "the summation w i p i should have been",
+    "start": 332.0,
+    "duration": 4.72
+  },
+  {
+    "text": "greater than equal to 0 but if that is",
+    "start": 334.4,
+    "duration": 4.32
+  },
+  {
+    "text": "not the case then i'm going to make an",
+    "start": 336.72,
+    "duration": 3.84
+  },
+  {
+    "text": "update and my update is just going to be",
+    "start": 338.72,
+    "duration": 4.0
+  },
+  {
+    "text": "w is equal to w eclipse p right so",
+    "start": 340.56,
+    "duration": 3.68
+  },
+  {
+    "text": "notice that i don't need the other if",
+    "start": 342.72,
+    "duration": 3.84
+  },
+  {
+    "text": "condition because now i have converted",
+    "start": 344.24,
+    "duration": 3.92
+  },
+  {
+    "text": "all points",
+    "start": 346.56,
+    "duration": 3.84
+  },
+  {
+    "text": "to points such that the label has to be",
+    "start": 348.16,
+    "duration": 3.84
+  },
+  {
+    "text": "1 that means the only condition that i",
+    "start": 350.4,
+    "duration": 4.48
+  },
+  {
+    "text": "care about is that for all points the",
+    "start": 352.0,
+    "duration": 4.72
+  },
+  {
+    "text": "dot product between w and p should be",
+    "start": 354.88,
+    "duration": 3.52
+  },
+  {
+    "text": "greater than equal to zero if that",
+    "start": 356.72,
+    "duration": 4.0
+  },
+  {
+    "text": "condition is not satisfied which is what",
+    "start": 358.4,
+    "duration": 4.32
+  },
+  {
+    "text": "this if loop is saying then i need to",
+    "start": 360.72,
+    "duration": 3.68
+  },
+  {
+    "text": "make a correction as i just simplified",
+    "start": 362.72,
+    "duration": 3.919
+  },
+  {
+    "text": "my algorithm nothing has changed",
+    "start": 364.4,
+    "duration": 4.239
+  },
+  {
+    "text": "conceptually it's just that i've",
+    "start": 366.639,
+    "duration": 4.241
+  },
+  {
+    "text": "conveniently changed all the ends to n",
+    "start": 368.639,
+    "duration": 3.201
+  },
+  {
+    "text": "minus",
+    "start": 370.88,
+    "duration": 3.28
+  },
+  {
+    "text": "and then that's why all my points in the",
+    "start": 371.84,
+    "duration": 4.799
+  },
+  {
+    "text": "data become positive points that means",
+    "start": 374.16,
+    "duration": 4.879
+  },
+  {
+    "text": "for all of them the label is one now and",
+    "start": 376.639,
+    "duration": 4.161
+  },
+  {
+    "text": "then in that case i only need to worry",
+    "start": 379.039,
+    "duration": 3.121
+  },
+  {
+    "text": "about one condition right that's what i",
+    "start": 380.8,
+    "duration": 2.32
+  },
+  {
+    "text": "have done",
+    "start": 382.16,
+    "duration": 2.4
+  },
+  {
+    "text": "further for convenience what i'm going",
+    "start": 383.12,
+    "duration": 3.28
+  },
+  {
+    "text": "to do is that i'm going to normalize all",
+    "start": 384.56,
+    "duration": 3.6
+  },
+  {
+    "text": "my inputs i can do that right whatever",
+    "start": 386.4,
+    "duration": 4.72
+  },
+  {
+    "text": "inputs i have i'll just normalize them",
+    "start": 388.16,
+    "duration": 4.08
+  },
+  {
+    "text": "and",
+    "start": 391.12,
+    "duration": 3.84
+  },
+  {
+    "text": "that does not change anything because my",
+    "start": 392.24,
+    "duration": 4.799
+  },
+  {
+    "text": "original point was p",
+    "start": 394.96,
+    "duration": 3.6
+  },
+  {
+    "text": "and i have normalized it so it has",
+    "start": 397.039,
+    "duration": 4.0
+  },
+  {
+    "text": "become p divided by the norm of p that's",
+    "start": 398.56,
+    "duration": 4.16
+  },
+  {
+    "text": "what normalization mean",
+    "start": 401.039,
+    "duration": 3.521
+  },
+  {
+    "text": "and if w transpose p is greater than",
+    "start": 402.72,
+    "duration": 3.52
+  },
+  {
+    "text": "equal to zero then this is also greater",
+    "start": 404.56,
+    "duration": 3.199
+  },
+  {
+    "text": "than equal to zero so it does not change",
+    "start": 406.24,
+    "duration": 3.359
+  },
+  {
+    "text": "anything with respect to the conditions",
+    "start": 407.759,
+    "duration": 3.361
+  },
+  {
+    "text": "so it's a simple",
+    "start": 409.599,
+    "duration": 3.121
+  },
+  {
+    "text": "step which does not change anything",
+    "start": 411.12,
+    "duration": 3.6
+  },
+  {
+    "text": "conceptually for me so i'm just going to",
+    "start": 412.72,
+    "duration": 3.84
+  },
+  {
+    "text": "normalize all the inputs and that",
+    "start": 414.72,
+    "duration": 4.16
+  },
+  {
+    "text": "ensures that the norm of p is equal to 1",
+    "start": 416.56,
+    "duration": 3.6
+  },
+  {
+    "text": "right and this will help me in",
+    "start": 418.88,
+    "duration": 4.24
+  },
+  {
+    "text": "simplifying some steps in the proof okay",
+    "start": 420.16,
+    "duration": 5.2
+  },
+  {
+    "text": "so and now",
+    "start": 423.12,
+    "duration": 4.24
+  },
+  {
+    "text": "i'll define one more quantity which is w",
+    "start": 425.36,
+    "duration": 4.48
+  },
+  {
+    "text": "star so that let w star be the",
+    "start": 427.36,
+    "duration": 4.399
+  },
+  {
+    "text": "normalized solution vector what do i",
+    "start": 429.84,
+    "duration": 3.759
+  },
+  {
+    "text": "mean by that i've started with the",
+    "start": 431.759,
+    "duration": 4.321
+  },
+  {
+    "text": "assumption the proof says that if the",
+    "start": 433.599,
+    "duration": 4.641
+  },
+  {
+    "text": "data is linearly separable so if the",
+    "start": 436.08,
+    "duration": 3.679
+  },
+  {
+    "text": "data is linearly separable that means",
+    "start": 438.24,
+    "duration": 3.519
+  },
+  {
+    "text": "there exists some w right and i'm going",
+    "start": 439.759,
+    "duration": 4.321
+  },
+  {
+    "text": "to call that w as w star",
+    "start": 441.759,
+    "duration": 3.84
+  },
+  {
+    "text": "such that",
+    "start": 444.08,
+    "duration": 3.519
+  },
+  {
+    "text": "that is the value which will linearly",
+    "start": 445.599,
+    "duration": 3.6
+  },
+  {
+    "text": "separate my positive points for my",
+    "start": 447.599,
+    "duration": 4.16
+  },
+  {
+    "text": "negative point so some w exists i'm sure",
+    "start": 449.199,
+    "duration": 4.4
+  },
+  {
+    "text": "about that and i'm going to call that w",
+    "start": 451.759,
+    "duration": 4.321
+  },
+  {
+    "text": "star it's just that i don't know what",
+    "start": 453.599,
+    "duration": 4.561
+  },
+  {
+    "text": "that w star is but i can assume the",
+    "start": 456.08,
+    "duration": 4.559
+  },
+  {
+    "text": "existence of such a w star right so",
+    "start": 458.16,
+    "duration": 5.2
+  },
+  {
+    "text": "that's the w star that i'm going to use",
+    "start": 460.639,
+    "duration": 5.201
+  },
+  {
+    "text": "right",
+    "start": 463.36,
+    "duration": 2.48
+  },
+  {
+    "text": "we don't know what it is but it exists",
+    "start": 466.4,
+    "duration": 4.72
+  },
+  {
+    "text": "right now suppose at some time step t",
+    "start": 467.919,
+    "duration": 6.161
+  },
+  {
+    "text": "uh we inspected the point p i right what",
+    "start": 471.12,
+    "duration": 6.16
+  },
+  {
+    "text": "does that mean i have points p1 p2 all",
+    "start": 474.08,
+    "duration": 6.0
+  },
+  {
+    "text": "the way up to such some pm which are",
+    "start": 477.28,
+    "duration": 5.44
+  },
+  {
+    "text": "belonging to my set p prime right these",
+    "start": 480.08,
+    "duration": 4.799
+  },
+  {
+    "text": "are all the points and at every point",
+    "start": 482.72,
+    "duration": 4.479
+  },
+  {
+    "text": "inside that loop i'm going to randomly",
+    "start": 484.879,
+    "duration": 4.241
+  },
+  {
+    "text": "pick up one point right so that lets",
+    "start": 487.199,
+    "duration": 4.881
+  },
+  {
+    "text": "that point be pi so i'm at the t",
+    "start": 489.12,
+    "duration": 4.96
+  },
+  {
+    "text": "iteration of the loop and the point",
+    "start": 492.08,
+    "duration": 4.48
+  },
+  {
+    "text": "which i have picked up is p i okay and",
+    "start": 494.08,
+    "duration": 4.72
+  },
+  {
+    "text": "we found that the condition",
+    "start": 496.56,
+    "duration": 4.639
+  },
+  {
+    "text": "is violated we wanted w transpose p to",
+    "start": 498.8,
+    "duration": 4.72
+  },
+  {
+    "text": "be greater than equal to 0 and suppose",
+    "start": 501.199,
+    "duration": 4.081
+  },
+  {
+    "text": "it's less than 0 right suppose the",
+    "start": 503.52,
+    "duration": 5.519
+  },
+  {
+    "text": "condition has been violated okay so now",
+    "start": 505.28,
+    "duration": 5.039
+  },
+  {
+    "text": "what will i do",
+    "start": 509.039,
+    "duration": 3.12
+  },
+  {
+    "text": "we make the correction that my new",
+    "start": 510.319,
+    "duration": 3.921
+  },
+  {
+    "text": "weight vector is going to be the weight",
+    "start": 512.159,
+    "duration": 4.481
+  },
+  {
+    "text": "vector the current time step plus pi",
+    "start": 514.24,
+    "duration": 3.76
+  },
+  {
+    "text": "right that's what the correction that we",
+    "start": 516.64,
+    "duration": 4.48
+  },
+  {
+    "text": "are going to do is that correct okay now",
+    "start": 518.0,
+    "duration": 5.2
+  },
+  {
+    "text": "if i am going to make that correction",
+    "start": 521.12,
+    "duration": 5.2
+  },
+  {
+    "text": "so now let beta be the angle between",
+    "start": 523.2,
+    "duration": 5.44
+  },
+  {
+    "text": "w and w t plus 1.",
+    "start": 526.32,
+    "duration": 4.639
+  },
+  {
+    "text": "okay now what does cos of beta going to",
+    "start": 528.64,
+    "duration": 4.56
+  },
+  {
+    "text": "be it's going to be this dot product",
+    "start": 530.959,
+    "duration": 4.721
+  },
+  {
+    "text": "okay and why don't i have",
+    "start": 533.2,
+    "duration": 3.92
+  },
+  {
+    "text": "a",
+    "start": 535.68,
+    "duration": 4.08
+  },
+  {
+    "text": "w star here the norm of w star in the",
+    "start": 537.12,
+    "duration": 5.68
+  },
+  {
+    "text": "denominator because i had already",
+    "start": 539.76,
+    "duration": 5.04
+  },
+  {
+    "text": "assumed that w star is the normalized",
+    "start": 542.8,
+    "duration": 4.0
+  },
+  {
+    "text": "wake twitter right that means the norm",
+    "start": 544.8,
+    "duration": 3.68
+  },
+  {
+    "text": "is equal to 1 so i don't need to write",
+    "start": 546.8,
+    "duration": 4.159
+  },
+  {
+    "text": "that in the denominator okay so this is",
+    "start": 548.48,
+    "duration": 6.0
+  },
+  {
+    "text": "what cost beta is",
+    "start": 550.959,
+    "duration": 5.521
+  },
+  {
+    "text": "now let's just try to expand this right",
+    "start": 554.48,
+    "duration": 4.88
+  },
+  {
+    "text": "so i'll now look at the numerator alone",
+    "start": 556.48,
+    "duration": 4.799
+  },
+  {
+    "text": "uh let me just get rid of some stuff",
+    "start": 559.36,
+    "duration": 4.479
+  },
+  {
+    "text": "here so the numerator is",
+    "start": 561.279,
+    "duration": 4.401
+  },
+  {
+    "text": "uh w star",
+    "start": 563.839,
+    "duration": 3.841
+  },
+  {
+    "text": "the dot product between w star and w t",
+    "start": 565.68,
+    "duration": 4.32
+  },
+  {
+    "text": "plus one remember that w star and w t",
+    "start": 567.68,
+    "duration": 4.4
+  },
+  {
+    "text": "plus one are weight vectors right these",
+    "start": 570.0,
+    "duration": 4.32
+  },
+  {
+    "text": "are vectors so i can talk about the dot",
+    "start": 572.08,
+    "duration": 4.24
+  },
+  {
+    "text": "product and now i can just substitute",
+    "start": 574.32,
+    "duration": 4.56
+  },
+  {
+    "text": "the value of w t plus 1 which is nothing",
+    "start": 576.32,
+    "duration": 4.639
+  },
+  {
+    "text": "but w t plus p i which is again of",
+    "start": 578.88,
+    "duration": 3.6
+  },
+  {
+    "text": "course a vector it's the addition of two",
+    "start": 580.959,
+    "duration": 4.32
+  },
+  {
+    "text": "vectors now i'm going to open up these",
+    "start": 582.48,
+    "duration": 4.32
+  },
+  {
+    "text": "brackets",
+    "start": 585.279,
+    "duration": 3.841
+  },
+  {
+    "text": "so i get w star the dot product between",
+    "start": 586.8,
+    "duration": 4.56
+  },
+  {
+    "text": "w star and w t and the dot product",
+    "start": 589.12,
+    "duration": 5.2
+  },
+  {
+    "text": "between w star and p i okay now i'm",
+    "start": 591.36,
+    "duration": 5.68
+  },
+  {
+    "text": "going to define a new quantity so let me",
+    "start": 594.32,
+    "duration": 4.72
+  },
+  {
+    "text": "just explain something before i define",
+    "start": 597.04,
+    "duration": 5.919
+  },
+  {
+    "text": "that quantity so i have the points p1 p2",
+    "start": 599.04,
+    "duration": 6.64
+  },
+  {
+    "text": "all the way up to some pm right these",
+    "start": 602.959,
+    "duration": 6.0
+  },
+  {
+    "text": "are all the points which belong to my p",
+    "start": 605.68,
+    "duration": 4.8
+  },
+  {
+    "text": "prime okay",
+    "start": 608.959,
+    "duration": 4.0
+  },
+  {
+    "text": "now i can compute the dot product",
+    "start": 610.48,
+    "duration": 6.24
+  },
+  {
+    "text": "between each of these points and w star",
+    "start": 612.959,
+    "duration": 4.641
+  },
+  {
+    "text": "okay",
+    "start": 616.72,
+    "duration": 2.64
+  },
+  {
+    "text": "i don't know what w star is but i can",
+    "start": 617.6,
+    "duration": 3.52
+  },
+  {
+    "text": "define the dot product i can say that",
+    "start": 619.36,
+    "duration": 3.36
+  },
+  {
+    "text": "this is the dot product",
+    "start": 621.12,
+    "duration": 3.839
+  },
+  {
+    "text": "okay and now what is dot product dot",
+    "start": 622.72,
+    "duration": 5.28
+  },
+  {
+    "text": "product is some scalar value right so",
+    "start": 624.959,
+    "duration": 5.12
+  },
+  {
+    "text": "for each of these i'll get some value",
+    "start": 628.0,
+    "duration": 4.48
+  },
+  {
+    "text": "belonging to r right some scalar value i",
+    "start": 630.079,
+    "duration": 5.361
+  },
+  {
+    "text": "will get now i can define the minimum of",
+    "start": 632.48,
+    "duration": 4.56
+  },
+  {
+    "text": "all these quantities",
+    "start": 635.44,
+    "duration": 2.48
+  },
+  {
+    "text": "okay",
+    "start": 637.04,
+    "duration": 2.56
+  },
+  {
+    "text": "right so let me call that minimum as",
+    "start": 637.92,
+    "duration": 3.919
+  },
+  {
+    "text": "delta so what is delta i have computed",
+    "start": 639.6,
+    "duration": 4.32
+  },
+  {
+    "text": "the dot product between w star and each",
+    "start": 641.839,
+    "duration": 4.721
+  },
+  {
+    "text": "of the points in p prime and whatever is",
+    "start": 643.92,
+    "duration": 4.64
+  },
+  {
+    "text": "the minimum value i am calling that as",
+    "start": 646.56,
+    "duration": 3.04
+  },
+  {
+    "text": "delta",
+    "start": 648.56,
+    "duration": 3.12
+  },
+  {
+    "text": "okay so what does that mean that any of",
+    "start": 649.6,
+    "duration": 5.52
+  },
+  {
+    "text": "these quantities here are going to be",
+    "start": 651.68,
+    "duration": 5.71
+  },
+  {
+    "text": "sorry",
+    "start": 655.12,
+    "duration": 4.399
+  },
+  {
+    "text": "[Music]",
+    "start": 657.39,
+    "duration": 3.33
+  },
+  {
+    "text": "yeah",
+    "start": 659.519,
+    "duration": 2.801
+  },
+  {
+    "text": "are going to be greater than equal to",
+    "start": 660.72,
+    "duration": 2.72
+  },
+  {
+    "text": "delta",
+    "start": 662.32,
+    "duration": 3.199
+  },
+  {
+    "text": "right because delta is the minimum value",
+    "start": 663.44,
+    "duration": 3.519
+  },
+  {
+    "text": "so all these values are going to be",
+    "start": 665.519,
+    "duration": 3.121
+  },
+  {
+    "text": "greater than equal to delta so that's",
+    "start": 666.959,
+    "duration": 3.921
+  },
+  {
+    "text": "how i'm going to define delta so now",
+    "start": 668.64,
+    "duration": 4.96
+  },
+  {
+    "text": "with that definition i can say that",
+    "start": 670.88,
+    "duration": 4.88
+  },
+  {
+    "text": "this quantity here is going to be",
+    "start": 673.6,
+    "duration": 4.239
+  },
+  {
+    "text": "greater than equal to this quantity",
+    "start": 675.76,
+    "duration": 4.24
+  },
+  {
+    "text": "this directly follows for my argument",
+    "start": 677.839,
+    "duration": 4.481
+  },
+  {
+    "text": "that all of these quantities are going",
+    "start": 680.0,
+    "duration": 4.0
+  },
+  {
+    "text": "to be greater than equal to delta so",
+    "start": 682.32,
+    "duration": 3.68
+  },
+  {
+    "text": "irrespective of which of these pi's i",
+    "start": 684.0,
+    "duration": 4.56
+  },
+  {
+    "text": "have picked up p1 to pm",
+    "start": 686.0,
+    "duration": 5.839
+  },
+  {
+    "text": "the wstar.pi is going to be greater than",
+    "start": 688.56,
+    "duration": 5.6
+  },
+  {
+    "text": "equal to delta hence this sum",
+    "start": 691.839,
+    "duration": 4.161
+  },
+  {
+    "text": "here is going to be greater than equal",
+    "start": 694.16,
+    "duration": 3.76
+  },
+  {
+    "text": "to the sum here right follows simply",
+    "start": 696.0,
+    "duration": 4.0
+  },
+  {
+    "text": "from the definition right where delta is",
+    "start": 697.92,
+    "duration": 4.96
+  },
+  {
+    "text": "the minimum dot product between w star",
+    "start": 700.0,
+    "duration": 5.519
+  },
+  {
+    "text": "and all the points that i have okay is",
+    "start": 702.88,
+    "duration": 4.399
+  },
+  {
+    "text": "this definition clear",
+    "start": 705.519,
+    "duration": 5.521
+  },
+  {
+    "text": "okay so now let's proceed",
+    "start": 707.279,
+    "duration": 3.761
+  },
+  {
+    "text": "so now i can again for w",
+    "start": 711.36,
+    "duration": 6.8
+  },
+  {
+    "text": "t again replace it by the definition",
+    "start": 714.8,
+    "duration": 6.719
+  },
+  {
+    "text": "right so wt was again wt minus 1 plus",
+    "start": 718.16,
+    "duration": 5.119
+  },
+  {
+    "text": "some pj so at the previous time step i",
+    "start": 721.519,
+    "duration": 4.241
+  },
+  {
+    "text": "would have taken some pj right",
+    "start": 723.279,
+    "duration": 3.281
+  },
+  {
+    "text": "and",
+    "start": 725.76,
+    "duration": 3.519
+  },
+  {
+    "text": "wt minus 1 i would have adjusted by",
+    "start": 726.56,
+    "duration": 5.04
+  },
+  {
+    "text": "adding some pj so pj is again one of",
+    "start": 729.279,
+    "duration": 4.56
+  },
+  {
+    "text": "these p points that you see here so",
+    "start": 731.6,
+    "duration": 4.08
+  },
+  {
+    "text": "again i'll do that expansion so i'll",
+    "start": 733.839,
+    "duration": 4.961
+  },
+  {
+    "text": "have i let me just",
+    "start": 735.68,
+    "duration": 3.12
+  },
+  {
+    "text": "yeah so this is what the expansion will",
+    "start": 739.76,
+    "duration": 3.28
+  },
+  {
+    "text": "look like",
+    "start": 742.0,
+    "duration": 3.2
+  },
+  {
+    "text": "and now again this quantity",
+    "start": 743.04,
+    "duration": 3.76
+  },
+  {
+    "text": "i know that this quantity is going to be",
+    "start": 745.2,
+    "duration": 3.36
+  },
+  {
+    "text": "greater than equal to delta the same",
+    "start": 746.8,
+    "duration": 3.599
+  },
+  {
+    "text": "argument so this quantity is the dot",
+    "start": 748.56,
+    "duration": 4.0
+  },
+  {
+    "text": "product between w star and one of these",
+    "start": 750.399,
+    "duration": 3.201
+  },
+  {
+    "text": "points",
+    "start": 752.56,
+    "duration": 3.12
+  },
+  {
+    "text": "and if delta is the minimum of those dot",
+    "start": 753.6,
+    "duration": 4.0
+  },
+  {
+    "text": "products so this quantity is going to be",
+    "start": 755.68,
+    "duration": 3.76
+  },
+  {
+    "text": "greater than equal to delta so i can",
+    "start": 757.6,
+    "duration": 5.52
+  },
+  {
+    "text": "replace that by delta",
+    "start": 759.44,
+    "duration": 3.68
+  },
+  {
+    "text": "and now i will have 2 delta",
+    "start": 765.6,
+    "duration": 6.0
+  },
+  {
+    "text": "is that ok and i can keep going like",
+    "start": 769.04,
+    "duration": 3.68
+  },
+  {
+    "text": "this",
+    "start": 771.6,
+    "duration": 4.16
+  },
+  {
+    "text": "unless a till from t i'll have t t minus",
+    "start": 772.72,
+    "duration": 6.239
+  },
+  {
+    "text": "1 t minus 2 till i reach w naught right",
+    "start": 775.76,
+    "duration": 5.92
+  },
+  {
+    "text": "and i'll have some multiplier k here",
+    "start": 778.959,
+    "duration": 4.481
+  },
+  {
+    "text": "right so now the question is why is this",
+    "start": 781.68,
+    "duration": 4.88
+  },
+  {
+    "text": "multiplier k and why is it not t",
+    "start": 783.44,
+    "duration": 5.519
+  },
+  {
+    "text": "t is the number of steps i have taken",
+    "start": 786.56,
+    "duration": 4.56
+  },
+  {
+    "text": "right but at every step remember i may",
+    "start": 788.959,
+    "duration": 4.081
+  },
+  {
+    "text": "not have made a correction because for",
+    "start": 791.12,
+    "duration": 3.92
+  },
+  {
+    "text": "some pis that i would have picked the",
+    "start": 793.04,
+    "duration": 3.12
+  },
+  {
+    "text": "right condition would have been",
+    "start": 795.04,
+    "duration": 2.64
+  },
+  {
+    "text": "satisfied and i wouldn't have made a",
+    "start": 796.16,
+    "duration": 4.08
+  },
+  {
+    "text": "correction so my k the number of updates",
+    "start": 797.68,
+    "duration": 4.56
+  },
+  {
+    "text": "which i make is going to be less than",
+    "start": 800.24,
+    "duration": 4.48
+  },
+  {
+    "text": "equal to t that's why i have k here and",
+    "start": 802.24,
+    "duration": 5.279
+  },
+  {
+    "text": "not t delta so k is a quantity which is",
+    "start": 804.72,
+    "duration": 5.2
+  },
+  {
+    "text": "less than equal to t because every time",
+    "start": 807.519,
+    "duration": 5.281
+  },
+  {
+    "text": "i make an update this bracket opens up",
+    "start": 809.92,
+    "duration": 5.039
+  },
+  {
+    "text": "and then i replace some quantity there",
+    "start": 812.8,
+    "duration": 4.88
+  },
+  {
+    "text": "by a delta so this bracket will open up",
+    "start": 814.959,
+    "duration": 4.721
+  },
+  {
+    "text": "that means this uh this",
+    "start": 817.68,
+    "duration": 3.92
+  },
+  {
+    "text": "in many cases this pj would not have",
+    "start": 819.68,
+    "duration": 3.44
+  },
+  {
+    "text": "been there right i would have not",
+    "start": 821.6,
+    "duration": 3.76
+  },
+  {
+    "text": "changed my weight vector so this bracket",
+    "start": 823.12,
+    "duration": 4.8
+  },
+  {
+    "text": "will open up only that many times as",
+    "start": 825.36,
+    "duration": 4.479
+  },
+  {
+    "text": "many times the condition was violated",
+    "start": 827.92,
+    "duration": 3.359
+  },
+  {
+    "text": "and the maximum number of times the",
+    "start": 829.839,
+    "duration": 3.521
+  },
+  {
+    "text": "condition can be violated is t because i",
+    "start": 831.279,
+    "duration": 4.081
+  },
+  {
+    "text": "have made t update so far so i would",
+    "start": 833.36,
+    "duration": 4.4
+  },
+  {
+    "text": "have made some k less than t updates is",
+    "start": 835.36,
+    "duration": 4.719
+  },
+  {
+    "text": "that okay",
+    "start": 837.76,
+    "duration": 4.96
+  },
+  {
+    "text": "less than equal to t updates right",
+    "start": 840.079,
+    "duration": 5.44
+  },
+  {
+    "text": "ah let's see",
+    "start": 842.72,
+    "duration": 2.799
+  },
+  {
+    "text": "yeah so we do not make a correction at",
+    "start": 845.76,
+    "duration": 4.16
+  },
+  {
+    "text": "every time step so we make a correction",
+    "start": 847.68,
+    "duration": 5.76
+  },
+  {
+    "text": "only if this condition is satisfied and",
+    "start": 849.92,
+    "duration": 5.52
+  },
+  {
+    "text": "so at time step p we would have made k",
+    "start": 853.44,
+    "duration": 3.44
+  },
+  {
+    "text": "less than equal to t corrections this is",
+    "start": 855.44,
+    "duration": 3.519
+  },
+  {
+    "text": "exactly what i had said and every time",
+    "start": 856.88,
+    "duration": 4.0
+  },
+  {
+    "text": "we make a correction we get a delta term",
+    "start": 858.959,
+    "duration": 3.68
+  },
+  {
+    "text": "here right in this equation right",
+    "start": 860.88,
+    "duration": 4.079
+  },
+  {
+    "text": "because here i made a correction so",
+    "start": 862.639,
+    "duration": 4.32
+  },
+  {
+    "text": "because of that i got a delta here here",
+    "start": 864.959,
+    "duration": 3.521
+  },
+  {
+    "text": "i made a correction so because of that i",
+    "start": 866.959,
+    "duration": 3.841
+  },
+  {
+    "text": "got a delta again here right every time",
+    "start": 868.48,
+    "duration": 3.76
+  },
+  {
+    "text": "i make a correction i get delta so i",
+    "start": 870.8,
+    "duration": 3.76
+  },
+  {
+    "text": "will get k such deltas okay so this is",
+    "start": 872.24,
+    "duration": 5.36
+  },
+  {
+    "text": "what the numerator looks like okay",
+    "start": 874.56,
+    "duration": 5.04
+  },
+  {
+    "text": "now so so far",
+    "start": 877.6,
+    "duration": 4.4
+  },
+  {
+    "text": "we have that w transpose pi is less than",
+    "start": 879.6,
+    "duration": 3.76
+  },
+  {
+    "text": "equal to zero hence we made the",
+    "start": 882.0,
+    "duration": 3.279
+  },
+  {
+    "text": "correction right for the current point",
+    "start": 883.36,
+    "duration": 3.68
+  },
+  {
+    "text": "this condition was",
+    "start": 885.279,
+    "duration": 4.401
+  },
+  {
+    "text": "the unfavorable condition was satisfied",
+    "start": 887.04,
+    "duration": 4.799
+  },
+  {
+    "text": "hence i had made a correction",
+    "start": 889.68,
+    "duration": 3.36
+  },
+  {
+    "text": "and",
+    "start": 891.839,
+    "duration": 4.321
+  },
+  {
+    "text": "cos beta was given by this definition of",
+    "start": 893.04,
+    "duration": 6.4
+  },
+  {
+    "text": "that the numerator",
+    "start": 896.16,
+    "duration": 5.359
+  },
+  {
+    "text": "is greater than equal to this condition",
+    "start": 899.44,
+    "duration": 3.199
+  },
+  {
+    "text": "right so",
+    "start": 901.519,
+    "duration": 4.0
+  },
+  {
+    "text": "the numerator is equal to this and then",
+    "start": 902.639,
+    "duration": 3.921
+  },
+  {
+    "text": "i",
+    "start": 905.519,
+    "duration": 2.801
+  },
+  {
+    "text": "derived a series of things that the",
+    "start": 906.56,
+    "duration": 3.44
+  },
+  {
+    "text": "numerator is greater than equal to zero",
+    "start": 908.32,
+    "duration": 3.28
+  },
+  {
+    "text": "okay now i'm going to focus on the",
+    "start": 910.0,
+    "duration": 2.8
+  },
+  {
+    "text": "denominator",
+    "start": 911.6,
+    "duration": 3.84
+  },
+  {
+    "text": "okay so the denominator is the norm of w",
+    "start": 912.8,
+    "duration": 4.32
+  },
+  {
+    "text": "t plus 1 so the square of the",
+    "start": 915.44,
+    "duration": 3.519
+  },
+  {
+    "text": "denominator would be the square of the",
+    "start": 917.12,
+    "duration": 3.12
+  },
+  {
+    "text": "norm okay",
+    "start": 918.959,
+    "duration": 3.041
+  },
+  {
+    "text": "now",
+    "start": 920.24,
+    "duration": 4.0
+  },
+  {
+    "text": "again w t plus 1",
+    "start": 922.0,
+    "duration": 5.04
+  },
+  {
+    "text": "the norm i can first i'm going to expand",
+    "start": 924.24,
+    "duration": 6.32
+  },
+  {
+    "text": "wt plus 1 which is wt plus pi right so",
+    "start": 927.04,
+    "duration": 7.12
+  },
+  {
+    "text": "wt plus pi",
+    "start": 930.56,
+    "duration": 5.44
+  },
+  {
+    "text": "norm",
+    "start": 934.16,
+    "duration": 2.88
+  },
+  {
+    "text": "square",
+    "start": 936.0,
+    "duration": 3.36
+  },
+  {
+    "text": "right that is what this is and the norm",
+    "start": 937.04,
+    "duration": 3.919
+  },
+  {
+    "text": "is just the dot product of the vector",
+    "start": 939.36,
+    "duration": 4.8
+  },
+  {
+    "text": "with itself right so wt plus uh the",
+    "start": 940.959,
+    "duration": 4.481
+  },
+  {
+    "text": "square root of the dot product so now",
+    "start": 944.16,
+    "duration": 3.599
+  },
+  {
+    "text": "this would be wt plus pi and dot product",
+    "start": 945.44,
+    "duration": 5.12
+  },
+  {
+    "text": "with wt plus pi okay now again i'll just",
+    "start": 947.759,
+    "duration": 6.76
+  },
+  {
+    "text": "open up the brackets",
+    "start": 950.56,
+    "duration": 3.959
+  },
+  {
+    "text": "okay so i get",
+    "start": 956.56,
+    "duration": 4.88
+  },
+  {
+    "text": "the square of the norm of wt plus 2",
+    "start": 958.72,
+    "duration": 7.039
+  },
+  {
+    "text": "times wt dot pi okay plus pi square",
+    "start": 961.44,
+    "duration": 6.399
+  },
+  {
+    "text": "and i'd assume that the pi's are",
+    "start": 965.759,
+    "duration": 3.841
+  },
+  {
+    "text": "normalized",
+    "start": 967.839,
+    "duration": 3.761
+  },
+  {
+    "text": "so the norm of pi is going to be 1 so",
+    "start": 969.6,
+    "duration": 4.799
+  },
+  {
+    "text": "i'm just going to replace that by 1 okay",
+    "start": 971.6,
+    "duration": 6.72
+  },
+  {
+    "text": "and i'm going to do something else also",
+    "start": 974.399,
+    "duration": 6.161
+  },
+  {
+    "text": "so how did i get from here to here",
+    "start": 978.32,
+    "duration": 4.48
+  },
+  {
+    "text": "because of this condition i know that w",
+    "start": 980.56,
+    "duration": 4.399
+  },
+  {
+    "text": "t p i is less than equal to 0 that's why",
+    "start": 982.8,
+    "duration": 3.839
+  },
+  {
+    "text": "i am here right",
+    "start": 984.959,
+    "duration": 3.761
+  },
+  {
+    "text": "and if that is the case then 2 times w t",
+    "start": 986.639,
+    "duration": 3.76
+  },
+  {
+    "text": "p is also going to be less than equal to",
+    "start": 988.72,
+    "duration": 4.559
+  },
+  {
+    "text": "0 that means this sum",
+    "start": 990.399,
+    "duration": 4.481
+  },
+  {
+    "text": "is going to be less than or equal to",
+    "start": 993.279,
+    "duration": 4.081
+  },
+  {
+    "text": "this sum",
+    "start": 994.88,
+    "duration": 4.879
+  },
+  {
+    "text": "let me just get rid of all the marks",
+    "start": 997.36,
+    "duration": 3.2
+  },
+  {
+    "text": "so",
+    "start": 999.759,
+    "duration": 2.32
+  },
+  {
+    "text": "this sum",
+    "start": 1000.56,
+    "duration": 2.48
+  },
+  {
+    "text": "okay",
+    "start": 1002.079,
+    "duration": 4.081
+  },
+  {
+    "text": "has a quantity which is negative",
+    "start": 1003.04,
+    "duration": 4.08
+  },
+  {
+    "text": "okay",
+    "start": 1006.16,
+    "duration": 3.52
+  },
+  {
+    "text": "this sum does not have that quantity",
+    "start": 1007.12,
+    "duration": 4.56
+  },
+  {
+    "text": "so it follows that this sum is going to",
+    "start": 1009.68,
+    "duration": 4.24
+  },
+  {
+    "text": "be less than equal to this sum that okay",
+    "start": 1011.68,
+    "duration": 3.04
+  },
+  {
+    "text": "because",
+    "start": 1013.92,
+    "duration": 2.719
+  },
+  {
+    "text": "it's just this sum plus a negative",
+    "start": 1014.72,
+    "duration": 3.28
+  },
+  {
+    "text": "quantity so it's going to be less than",
+    "start": 1016.639,
+    "duration": 3.361
+  },
+  {
+    "text": "equal to okay",
+    "start": 1018.0,
+    "duration": 3.519
+  },
+  {
+    "text": "now the next step of course is to",
+    "start": 1020.0,
+    "duration": 4.64
+  },
+  {
+    "text": "replace p i squared by 1",
+    "start": 1021.519,
+    "duration": 4.641
+  },
+  {
+    "text": "because p i's are normalized this was",
+    "start": 1024.64,
+    "duration": 3.919
+  },
+  {
+    "text": "the simple assumption i had made",
+    "start": 1026.16,
+    "duration": 4.0
+  },
+  {
+    "text": "now by induction again the same thing",
+    "start": 1028.559,
+    "duration": 3.601
+  },
+  {
+    "text": "will happen i'm going to now i started",
+    "start": 1030.16,
+    "duration": 5.6
+  },
+  {
+    "text": "with wt plus 1 and i ended up with this",
+    "start": 1032.16,
+    "duration": 5.44
+  },
+  {
+    "text": "now i'm at wt i'll again do the same",
+    "start": 1035.76,
+    "duration": 4.799
+  },
+  {
+    "text": "step there itself right and what will i",
+    "start": 1037.6,
+    "duration": 3.68
+  },
+  {
+    "text": "get",
+    "start": 1040.559,
+    "duration": 3.921
+  },
+  {
+    "text": "this is going to be wt minus 1",
+    "start": 1041.28,
+    "duration": 5.919
+  },
+  {
+    "text": "plus 1 right this will again happen this",
+    "start": 1044.48,
+    "duration": 4.64
+  },
+  {
+    "text": "one which i had come here again the same",
+    "start": 1047.199,
+    "duration": 4.961
+  },
+  {
+    "text": "thing will come here and i'll get 2 and",
+    "start": 1049.12,
+    "duration": 5.12
+  },
+  {
+    "text": "how many such ones will get added the",
+    "start": 1052.16,
+    "duration": 4.32
+  },
+  {
+    "text": "same argument as many times i make an",
+    "start": 1054.24,
+    "duration": 4.559
+  },
+  {
+    "text": "update a 1 will be added right where is",
+    "start": 1056.48,
+    "duration": 3.92
+  },
+  {
+    "text": "the one coming from the one is coming",
+    "start": 1058.799,
+    "duration": 4.081
+  },
+  {
+    "text": "from this quantity if i made an update",
+    "start": 1060.4,
+    "duration": 4.639
+  },
+  {
+    "text": "then i had added a pi if i had added a",
+    "start": 1062.88,
+    "duration": 4.32
+  },
+  {
+    "text": "pi then i'll get this p i squared term",
+    "start": 1065.039,
+    "duration": 4.161
+  },
+  {
+    "text": "and i'll get a 1 there so again here",
+    "start": 1067.2,
+    "duration": 4.0
+  },
+  {
+    "text": "i'll have k",
+    "start": 1069.2,
+    "duration": 3.839
+  },
+  {
+    "text": "right i'll keep simplifying this and",
+    "start": 1071.2,
+    "duration": 4.0
+  },
+  {
+    "text": "i'll get to w naught square plus k by",
+    "start": 1073.039,
+    "duration": 3.76
+  },
+  {
+    "text": "the same observation that we made about",
+    "start": 1075.2,
+    "duration": 3.52
+  },
+  {
+    "text": "delta while dealing with the numerator",
+    "start": 1076.799,
+    "duration": 4.88
+  },
+  {
+    "text": "okay so now we have the numerator is",
+    "start": 1078.72,
+    "duration": 5.12
+  },
+  {
+    "text": "greater than equal to a certain quantity",
+    "start": 1081.679,
+    "duration": 3.921
+  },
+  {
+    "text": "and the denominator square is less than",
+    "start": 1083.84,
+    "duration": 3.68
+  },
+  {
+    "text": "or equal to certain quantity so now",
+    "start": 1085.6,
+    "duration": 3.84
+  },
+  {
+    "text": "these two conditions combined with the",
+    "start": 1087.52,
+    "duration": 4.08
+  },
+  {
+    "text": "definition of cos beta will give us the",
+    "start": 1089.44,
+    "duration": 5.04
+  },
+  {
+    "text": "condition this cos beta is greater than",
+    "start": 1091.6,
+    "duration": 4.48
+  },
+  {
+    "text": "equal to this quantity so i have simply",
+    "start": 1094.48,
+    "duration": 4.079
+  },
+  {
+    "text": "substituted the numerator",
+    "start": 1096.08,
+    "duration": 4.08
+  },
+  {
+    "text": "and i have substituted the denominator",
+    "start": 1098.559,
+    "duration": 3.761
+  },
+  {
+    "text": "the simplified denominator and this",
+    "start": 1100.16,
+    "duration": 3.519
+  },
+  {
+    "text": "would be greater than equal to because",
+    "start": 1102.32,
+    "duration": 3.04
+  },
+  {
+    "text": "the numerator is greater than equal to",
+    "start": 1103.679,
+    "duration": 3.921
+  },
+  {
+    "text": "this quantity and the denominator is",
+    "start": 1105.36,
+    "duration": 3.679
+  },
+  {
+    "text": "less than equal to this quantity right",
+    "start": 1107.6,
+    "duration": 2.64
+  },
+  {
+    "text": "so the numerator is greater than",
+    "start": 1109.039,
+    "duration": 3.121
+  },
+  {
+    "text": "something the denominator is less than",
+    "start": 1110.24,
+    "duration": 3.52
+  },
+  {
+    "text": "something so if i put the numerator over",
+    "start": 1112.16,
+    "duration": 2.96
+  },
+  {
+    "text": "the denominator then the end result",
+    "start": 1113.76,
+    "duration": 3.2
+  },
+  {
+    "text": "would be that cos beta is greater than",
+    "start": 1115.12,
+    "duration": 4.24
+  },
+  {
+    "text": "equal to this quantity that you see here",
+    "start": 1116.96,
+    "duration": 4.32
+  },
+  {
+    "text": "right so now here",
+    "start": 1119.36,
+    "duration": 4.559
+  },
+  {
+    "text": "you have a k in the numerator and a",
+    "start": 1121.28,
+    "duration": 4.88
+  },
+  {
+    "text": "square root of k in the denominator so",
+    "start": 1123.919,
+    "duration": 4.801
+  },
+  {
+    "text": "which means i can roughly say this cos",
+    "start": 1126.16,
+    "duration": 4.399
+  },
+  {
+    "text": "beta grows proportional to square root",
+    "start": 1128.72,
+    "duration": 4.56
+  },
+  {
+    "text": "of k right and what is k",
+    "start": 1130.559,
+    "duration": 5.601
+  },
+  {
+    "text": "k was the number of times i have updated",
+    "start": 1133.28,
+    "duration": 4.8
+  },
+  {
+    "text": "my weight vector and this is the",
+    "start": 1136.16,
+    "duration": 4.08
+  },
+  {
+    "text": "quantity that i wanted to handle on this",
+    "start": 1138.08,
+    "duration": 3.92
+  },
+  {
+    "text": "is the quantity that i wanted to show",
+    "start": 1140.24,
+    "duration": 4.08
+  },
+  {
+    "text": "was finite i wanted to show that k",
+    "start": 1142.0,
+    "duration": 4.72
+  },
+  {
+    "text": "cannot tend to infinity okay now cos",
+    "start": 1144.32,
+    "duration": 4.16
+  },
+  {
+    "text": "beta is going to be greater than or cos",
+    "start": 1146.72,
+    "duration": 3.28
+  },
+  {
+    "text": "beta is going to grow proportional to",
+    "start": 1148.48,
+    "duration": 5.92
+  },
+  {
+    "text": "square root of k so now as k increases",
+    "start": 1150.0,
+    "duration": 6.24
+  },
+  {
+    "text": "cos beta will increase",
+    "start": 1154.4,
+    "duration": 4.72
+  },
+  {
+    "text": "right now if k becomes arbitrarily large",
+    "start": 1156.24,
+    "duration": 4.64
+  },
+  {
+    "text": "if it goes to infinite that means my",
+    "start": 1159.12,
+    "duration": 4.16
+  },
+  {
+    "text": "algorithm is not converging it's",
+    "start": 1160.88,
+    "duration": 4.48
+  },
+  {
+    "text": "it's keeping on updating then what will",
+    "start": 1163.28,
+    "duration": 4.24
+  },
+  {
+    "text": "happen to cos beta",
+    "start": 1165.36,
+    "duration": 4.08
+  },
+  {
+    "text": "cos beta will keep on increasing but can",
+    "start": 1167.52,
+    "duration": 4.48
+  },
+  {
+    "text": "cos beta keep on increasing no cos beta",
+    "start": 1169.44,
+    "duration": 5.599
+  },
+  {
+    "text": "is bounded between uh minus one and one",
+    "start": 1172.0,
+    "duration": 4.48
+  },
+  {
+    "text": "right so cos beta has to be less than",
+    "start": 1175.039,
+    "duration": 4.0
+  },
+  {
+    "text": "equal to one so cos beta cannot grow",
+    "start": 1176.48,
+    "duration": 4.72
+  },
+  {
+    "text": "infinitely that means k cannot go",
+    "start": 1179.039,
+    "duration": 4.081
+  },
+  {
+    "text": "infinitely k has to be bounded by a",
+    "start": 1181.2,
+    "duration": 5.44
+  },
+  {
+    "text": "maximum number hence we have shown that",
+    "start": 1183.12,
+    "duration": 6.08
+  },
+  {
+    "text": "k is a finite number so if the data is",
+    "start": 1186.64,
+    "duration": 4.159
+  },
+  {
+    "text": "linearly separable",
+    "start": 1189.2,
+    "duration": 4.08
+  },
+  {
+    "text": "right that means after a finite number",
+    "start": 1190.799,
+    "duration": 4.24
+  },
+  {
+    "text": "of iterations the perceptron rolling",
+    "start": 1193.28,
+    "duration": 4.08
+  },
+  {
+    "text": "algorithm will converge so although in",
+    "start": 1195.039,
+    "duration": 4.401
+  },
+  {
+    "text": "our toy example it does not seem",
+    "start": 1197.36,
+    "duration": 3.679
+  },
+  {
+    "text": "intuitive right that's easy to build",
+    "start": 1199.44,
+    "duration": 3.68
+  },
+  {
+    "text": "this intuition that okay for one point i",
+    "start": 1201.039,
+    "duration": 4.161
+  },
+  {
+    "text": "changed it for the second point again i",
+    "start": 1203.12,
+    "duration": 3.919
+  },
+  {
+    "text": "changed it why were these updates not",
+    "start": 1205.2,
+    "duration": 4.08
+  },
+  {
+    "text": "counterproductive so now we have a proof",
+    "start": 1207.039,
+    "duration": 4.321
+  },
+  {
+    "text": "which says that the number of updates",
+    "start": 1209.28,
+    "duration": 4.399
+  },
+  {
+    "text": "you will make will be finite if the data",
+    "start": 1211.36,
+    "duration": 5.04
+  },
+  {
+    "text": "is linearly separable okay so that's",
+    "start": 1213.679,
+    "duration": 3.681
+  },
+  {
+    "text": "what the",
+    "start": 1216.4,
+    "duration": 3.2
+  },
+  {
+    "text": "perceptron uh this that's what the proof",
+    "start": 1217.36,
+    "duration": 4.24
+  },
+  {
+    "text": "for the perceptron's learning algorithm",
+    "start": 1219.6,
+    "duration": 5.76
+  },
+  {
+    "text": "say that it will converge",
+    "start": 1221.6,
+    "duration": 3.76
+  },
+  {
+    "text": "okay so now coming back to our questions",
+    "start": 1226.4,
+    "duration": 3.519
+  },
+  {
+    "text": "which we had started out so what about",
+    "start": 1228.32,
+    "duration": 4.239
+  },
+  {
+    "text": "non-boolean inputs yes so real valued",
+    "start": 1229.919,
+    "duration": 4.561
+  },
+  {
+    "text": "inputs are allowed in perceptron",
+    "start": 1232.559,
+    "duration": 3.36
+  },
+  {
+    "text": "do we always need to hand code the",
+    "start": 1234.48,
+    "duration": 3.439
+  },
+  {
+    "text": "threshold no now we can learn all the",
+    "start": 1235.919,
+    "duration": 3.76
+  },
+  {
+    "text": "parameters not just the threshold w",
+    "start": 1237.919,
+    "duration": 4.321
+  },
+  {
+    "text": "naught but also w1 to wn",
+    "start": 1239.679,
+    "duration": 5.041
+  },
+  {
+    "text": "are all inputs equal no now a perceptron",
+    "start": 1242.24,
+    "duration": 4.72
+  },
+  {
+    "text": "allows weights what about functions",
+    "start": 1244.72,
+    "duration": 4.959
+  },
+  {
+    "text": "which are not linearly separable so this",
+    "start": 1246.96,
+    "duration": 4.16
+  },
+  {
+    "text": "is still not possible with a single",
+    "start": 1249.679,
+    "duration": 2.88
+  },
+  {
+    "text": "perceptron because we have seen that the",
+    "start": 1251.12,
+    "duration": 3.36
+  },
+  {
+    "text": "boundary is linearly separable the",
+    "start": 1252.559,
+    "duration": 3.681
+  },
+  {
+    "text": "previous proof was also that it will be",
+    "start": 1254.48,
+    "duration": 3.28
+  },
+  {
+    "text": "able to find the weights only when the",
+    "start": 1256.24,
+    "duration": 3.76
+  },
+  {
+    "text": "data is linearly separable right",
+    "start": 1257.76,
+    "duration": 4.0
+  },
+  {
+    "text": "but we'll see how to handle this and",
+    "start": 1260.0,
+    "duration": 3.2
+  },
+  {
+    "text": "that's what this course is about that",
+    "start": 1261.76,
+    "duration": 4.08
+  },
+  {
+    "text": "what if data is not linearly separable",
+    "start": 1263.2,
+    "duration": 4.88
+  },
+  {
+    "text": "okay",
+    "start": 1265.84,
+    "duration": 2.24
+  },
+  {
+    "text": "so i'll end this module here and we'll",
+    "start": 1268.64,
+    "duration": 5.519
+  },
+  {
+    "text": "talk a bit more about linearly separable",
+    "start": 1271.52,
+    "duration": 5.639
+  },
+  {
+    "text": "functions",
+    "start": 1274.159,
+    "duration": 3.0
+  }
+]

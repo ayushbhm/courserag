@@ -1,0 +1,8 @@
+am I saying that which theorem am I using while saying this the universal approximation theorem right it said that.
+you could sufficient you could consider construct a sufficiently large neural network to get an arbitrary degree of precision that.
+means you could get an arbitrary degree of low error and in particular you could drive the error to Zero.
+by just having a large number of neurons in your deep neural network so I know that despite this non-convex.
+surface highly complex surface I can still drive the training error to zero right so maybe optimization was not a.
+problem as long as the Deep neural network has a large capacity right for the universal approximation theorem it talks.
+about large capacity in the term of really large right I mean you are talking about exponential number of neurons.
+but maybe even not going to the exponential level with sufficiently large capacity which is reasonable I could still drive.

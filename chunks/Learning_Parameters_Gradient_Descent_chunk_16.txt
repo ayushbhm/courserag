@@ -1,0 +1,10 @@
+be less than 0 that's the condition that I have right so I am interested in the values which are.
+less than 0. so now if I'm interested in values less than 0 I should ask this question right how.
+less can I be and the more or less the better right because what is what is this quantity this.
+quantity is the difference between the new loss and the current loss right and I the more negative this difference.
+the better right that means my new loss is as low as it can be from the current loss right.
+and when would this be when would this difference be maximum when uh this quantity is as low as it.
+can be right because this quantity can be as negative as it can be and this is that quantity it.
+can be as this is how negative it can be and when will be that negative when the angle or.
+the cosine of the angle is minus 1 because this condition is directly been derived from here right so if.
+the cosine of the angle is minus 1 that's when I will get the most negative value for this quantity.

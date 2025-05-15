@@ -1,0 +1,9 @@
+right it cannot be paralyzed across T's but for a given T it can be parallelized and this is something.
+that we would like to exploit and see that if we can get rid of this recurrent connection right because.
+this recurring connection is still a problem for us right because because of the recurrent connection we have to do.
+things sequentially but if we could get rid of the recurrent connections and then rely on the fact that the.
+alphas can still be computed in parallel then can we get to an architecture which allows us to compute these.
+Alphas in parallel right so it's still a bit hard to visualize where we are headed but just keep these.
+questions in mind along the way and once we read there all these questions and the answers will make sense.
+so just to summarize the discussion so far right so I mean everything about the RNA model is good right.
+so what do I mean by that uh we saw that across papers right I mean we saw the architecture.

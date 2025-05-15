@@ -1,0 +1,10 @@
+right because you compute the expectation and then that's a constant so that will come out so you have e.
+x y minus mu Y into e of X but again your V of X because X is Sigma is.
+going to be 0 so your ah what you remain with is e of X comma y right so in.
+this case when Epsilon was a random variable with mean 0 this product between treating Epsilon as X and this.
+quantity as Y is actually the covariance between these two random variables right so that's that's something that we are.
+noting now how do we use this fact what do we do with this is something that we will see.
+on the next line right so so far ah so good uh we were interested in this we cannot estimate.
+this so we extract estimated this as a sum of these three quantities of which the first two we know.
+how to deal with the third one is still not clear right because it again has f of x so.
+we need to see if we can somehow get rid of this third quantity or make some comment on that.

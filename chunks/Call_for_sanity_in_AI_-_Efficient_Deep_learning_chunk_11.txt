@@ -1,0 +1,9 @@
+uh similar studies were done on facial recognition software and it was found people took the uh facial recognition systems.
+from deep tech companies right microsoft ibm and so on and they found that if you are a white male.
+then the facial recognition accuracy is very high right this corresponds to uh the second last column right so light.
+no sorry the third last column which is lighter male right you are a light skinned or a white skinned.
+male then all of these are giving you close to 100 accuracy if you are light skinned female then the.
+accuracy decreases and the worst accuracy is for darker females which is the column in which you see the red.
+bars and it's like atrociously low right so again this shows that the model has not really been trained for.
+black women and hence it's not able to do a good job of recognizing faces of black right and the.
+huge gap between the performance of the best category uh or the best performing category right versus the category for.

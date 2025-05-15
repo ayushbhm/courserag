@@ -1,0 +1,9 @@
+foreign [Music] observations right so the case two was when you are going to estimate the so now we are.
+looking at what happens if we look at the training observations right so again we are interested in this quantity.
+we cannot estimate it because of this so we have approximated using these three terms and now the first term.
+so now we look at the case when we try to estimate that expectation from the training data right so.
+what do I mean by that again making things clear we are interested in this quantity I cannot estimate it.
+because of this f of x here so I have expressed it as a sum of these three quantities and.
+now the first quantity which was an expectation I am going to empirically estimate it using the training data so.
+using the N training points okay that's what I have put here right so this is the empirical estimation of.
+the error from the training data this is again a small constant and now we have this quantity here now.

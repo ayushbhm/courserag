@@ -1,0 +1,8 @@
+I increase the model complexity this quantity is going to increase and hence my error is actually going to be.
+high right so I need to find this sweet spot and this Omega Theta should ensure that this model model.
+complexity is reasonable so that you have low training error but at the same time this this quantity is also.
+not high and hence your expected error is also not high right that is why we use regularization now why.
+do we care about regularization in the context of deep learning right why am I teaching you this in the.
+context of deep learning so the answer to that is simple right so deep learning we said that regularization is.
+basically trying to control for model complexity and in deep neural networks you know that these are highly complex models.
+why are they highly complex because they have many layers many non-linearities and many parameters so they are actually they.

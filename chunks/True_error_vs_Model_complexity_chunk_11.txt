@@ -1,0 +1,9 @@
+0 in the case of training data is actually equal to this quantity and now we see that this quantity.
+has this sensitivity term which says that if the small change in y i what happens to the change in.
+F hat and we are making this observation that this quantity would be high for complex models because a small.
+change in y I was causing a lot of changes in the estimated value of f hat X or the.
+estimated values of the parameters whereas for simple models it was not causing a lot of change right so connecting.
+these observations now we can say that this quantity that you see here is actually going to be high for.
+complex models as compared to simple models right ah in complex model would be more changes so just to ah.
+so what does that eventually mean right so on the previous slide we had that true error is equal to.
+empirical train error plus a small constant plus some term and now we are seeing that this term is actually.

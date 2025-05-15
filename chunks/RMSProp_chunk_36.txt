@@ -1,0 +1,6 @@
+order grad that as you once you start accumulating a lot of history then your learning rate is bound to.
+get killed right and that's what we saw in that initial diagram that when I had come close to my.
+Minima my movement had become very slow in the B direction right because my effective learning rate was I cannot.
+increase it now because I'm not taking an exponential average right so this is also kind of resolved in RMS.
+Prof but this sensitivity to the initial learning rate still exists and we would like to get rid of that.
+okay.

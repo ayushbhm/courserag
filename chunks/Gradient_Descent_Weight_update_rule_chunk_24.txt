@@ -1,0 +1,10 @@
+should keep W comma B the point on the yeah on the W comma B plane right so this here.
+is the W comma B plane so the W comma B plane I should keep moving till I reach this.
+nice optimal value here at which the loss is minimum okay so let's see if I can run this so.
+the algorithm is running it's initially quite slow you can see that the yellow dots are moving right it's slowly.
+slowly moving it has finished some 27 iterations it's the loss is still a bit high it's 0.81 as you.
+can see here and it's still running running running but it seems to be going in the right direction at.
+no point am I seeing that the loss is increasing and it keeps going I'll Just Fall Down good the.
+loss has decreased quite a bit and I'm very happy that I'm moving in the right direction again it has.
+slowed down a bit why is it slowing down in certain regions why is it not going fast in other.
+regions is something that we'll figure out but now it has started moving and you can see that the loss.

@@ -1,0 +1,10 @@
+minus log y hat 2 okay and that's why this i am trying to compute the derivative of y hat.
+2 with respect to some ith element right it could be a l 1 a l 2 a l 3.
+anything right so now i'm asking does y hat to depend on all these a's or does it only depend.
+on one of them right because earlier we saw that the loss function depended on only on one of the.
+y hats and not the entire vector for all the other elements the derivative was 0 but now for y.
+hat 2 which is this green guy not the loss function right this shaded green guy does it depend on.
+everything every element of a it does right because how did you compute y hat y hat was computed using.
+the soft max function so y hat 2 in particular was e raised to a l 2 divided by the.
+summation of e raised to all a i's right so it depends on all the ais because all the ai.
+ali's appear in the denominator right so it's a function of all the allies right this is how we had.

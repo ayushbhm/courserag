@@ -1,0 +1,9 @@
+configurations possible so suppose you have uh four uh affine Transformations within a max out neuron right so I'm talking.
+about a max out neuron this is what a max out neuron looks like it has four affine Transformations and.
+I'm going to take the max of those right and if those are fine Transformations happen to be these these.
+are the four refined Transformations if I take the max of this then I almost can approximate the x square.
+function right so it's uh it's giving me a higher degree of a non-linearity and of course it has the.
+other benefits there is uh no saturation no death now because it will flow through the max path and the.
+max at least one of the neurons would be great as long as it is greater than zero you would.
+have some gradients flowing and for multiple affine Transformations the more you have there is a proportional increase in the.
+number of parameters you could think of that as a disadvantage but there is a proof which also shows that.

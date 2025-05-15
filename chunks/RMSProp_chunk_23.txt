@@ -1,0 +1,9 @@
+that I'm going to show you now and I'll tell you what all I'm going to show you in this.
+animation right so this is VT oops yeah so this is VT which is the accumulation right so remember your.
+I don't know how many times I have written this formula now yeah so this is VT the blue curve.
+is going to be VT which is not coming yet this green curve is your initial ETA naught in my.
+example it has been set to 0.6 so that's why the green line does not change across iterations and this.
+is going to be your effective learning rate or I have not taken the square root here but it's going.
+to be proportional to the effective learning rate right so now uh so far so good [Music] let's see what.
+is happening as the iterations go along we are seeing some behavior of the plots right in uh before I.
+comment on that I just want you to look at what is happening here right so you started off with.

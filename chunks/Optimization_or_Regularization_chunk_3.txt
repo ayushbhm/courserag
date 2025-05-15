@@ -1,0 +1,9 @@
+but maybe even not going to the exponential level with sufficiently large capacity which is reasonable I could still drive.
+the training error to zero so then someone did experiments to prove that whether this is indeed the case right.
+so what they did is they took a deep neural network and they increased the capacity of the last layer.
+right so just before the prediction they increase the capacity what does that mean you add large number of Weights.
+in the last year how do you do that you add a large number of neurons in the layer before.
+it and now from this large number of neurons you're trying to predict one output so you have many weights.
+here right so for example I could have say a network which has say some let's say 100 input neurons.
+then I have a few layers which have 20 20 neurons right then I have the last layer maybe it.
+has 100 neurons or even more than that right so now I have a lot of Weights here right I.

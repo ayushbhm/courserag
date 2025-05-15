@@ -1,0 +1,10 @@
+function you can go and figure out the conditions and the same thing will happen you will have only w.
+one in one condition w two in another condition w three in another condition w four in another condition right.
+and hence you can always satisfy this by adjusting the w one to w four in a particular manner is.
+that okay fine so that is why since there are no conditions each input is being handled by a specific.
+perceptron hence you can implement any boolean function in this case right and not just the xr function as i.
+said you can implement any of the 16 boolean functions so for each boolean function you will get a different.
+set of conditions for w 1 w 2 w 3 w 4 and you can find some values of w.
+1 w 2 w 3 w 4 which will satisfy that particular boolean function right so you can go back.
+and try this out okay now what if we have more than three inputs can you think of the same.
+template now and adapt it for the case of more than three inputs the same idea will repeat you will.

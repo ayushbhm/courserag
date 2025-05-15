@@ -1,0 +1,10 @@
+error surface and so to do that we need to know what are Contours so let's look at this right.
+so now again we'll start with the 3D plot right so this is like a complex 3D plot that we.
+have here okay and now I'll start with this question right that uh if I were to take or let.
+me just draw the contour map and then try to comment this question right so now what I'm going to.
+do is I'm going to draw something which is called as a contour map corresponding to this 3D plot without.
+telling you what a contour map is right so I'll just go ahead and draw it and then I'll come.
+back and explain what a contour map is right so you can see what I've done here right so let.
+me just point out a few things that have been done here so what I've done is whatever surface was.
+given to me at regular intervals along the z-axis so let me just straighten this so that the z-axis is.
+vertical okay whatever reasons okay this is good yeah maybe this angle is good so at regular intervals along the.

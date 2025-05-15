@@ -1,0 +1,9 @@
+it'll be anyway standardize the inputs that means we divide by the subtract the mean and then divide by the.
+variance so all our inputs are between 0 to 1. so the inputs are typically standardized that's anyways recommended for.
+using gradient based methods so the inputs will not cause a problem there will be anyway small between zero to.
+one but if the weights are initialized to high value then this sub w i Sigma I is w i.
+x is going to be high and remember see in the plot even for values like 2.5 the sigmoid neuron.
+has already saturated right on the x axis you have 2.5 and the y axis you have almost one right.
+so if your weights are initialized even reasonably High then your neurons your uh the sigma this the quantity pass.
+through the sigmoid neuron is going to be high quantity and then for that the sigma is going to be.
+close to 1 right uh similarly if the weights are initiates to high negative value the same would happen you.

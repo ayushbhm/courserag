@@ -1,0 +1,8 @@
+so this parallelism you see in every layer but of course across layers the computation is still sequential right because.
+you need the previous layers output to do the next layers computation you have the input then the layer one.
+outputs get computed then it feeds to Layer Two and so on till the end and each of these T.
+cross 5 and 2 outputs get computed in parallel right and now this final output of the uh encoder right.
+which is the output from the last layer we are going to denote it as e right so we'll refer.
+to it as E1 to E capital T because there are t such tokens in the input and for each.
+token you get this final refine representation which is contextual as well as gone through several layers of abstraction or.
+several deep layers right.

@@ -1,0 +1,10 @@
+zero right and let's say the other time steps you are seeing a high gradient it's just an artificial example.
+constructed to prove a point so let's just see what the point is so ideally we don't want the learning.
+rate to change as I said when the gradient is 0 or when the input is zero so in the.
+case of Max initially you had say V 0 at time step V 0 you had Max of 0 comma.
+the current gradient so your V 0 was 1 and your ETA was one over one so it was one.
+right so ETA was uh I assume that the initial learning rate ETA naught is also set to 1 so.
+it will be ETA naught divided by VT and since V T is one it would also be one right.
+this is this clear yeah it's just a minute I'll just write it down remember that ETA T is ETA.
+naught divided by VT right and I assumed that ETA naught is equal to 1 just for the sake of.
+Simplicity okay so now ETA T remains 1 in this case uh becomes one in this case now let's see.

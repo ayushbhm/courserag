@@ -1,0 +1,9 @@
+close to zero right so remember initially they'll increase because I'm going down the slope and the slope is increasing.
+so the derivatives will increase and I'm showing it this way because they are increasing in the negative direction right.
+so the slope here is negative uh so this is what the curve is like so here the slope at.
+this point it's negative right because you're going down as you are going down or as you are moving in.
+the X Direction the value of y is decreasing right or as so that's why the slope is going to.
+be negative so it's going to increase in the negative Direction then again it's going to start decreasing and then.
+it will come to zero right and that's exactly what is happening in the derivative plot that we just saw.
+now let me go back to the plot yeah so this is what is happening right so initially uh here.
+your derivatives as you keep going down it keeps increasing in magnitude right I mean remember that you are increasing.

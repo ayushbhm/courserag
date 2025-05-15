@@ -1,0 +1,9 @@
+possible so can you lead to the can you reach to a better minima and faster time right and there's.
+been a series of algorithms proposed to that which has led to now deep learning models being able to train.
+faster in parallel that also be in progress in what are known as learning rate schedules now we have much.
+more complex learning rate schedules than what we use 10 years back and all of that has led to stable.
+as well as faster training of deep neural networks of course still much more is desired but we have made.
+a lot of progress and these advances are something that we'll cover in the course uh yeah this is still.
+about the better optimization methods and then we also had better activation functions right so earlier uh in the 1980s.
+to 90s there's only the logistic function right this is the first function the blue colored function that you see.
+on the slide here right but since then there's been like an industry of activation functions that has been proposed.

@@ -1,0 +1,10 @@
+foreign [Music] technique that we are going to look at is adding noise to the outputs so we saw adding.
+noise to the inputs but you could also add noise to the output so let's see how what that means.
+so this is what your output is right so you are given a certain image so let's look at the.
+classification problem and this is what your true Y is going to look like all the probability masses on the.
+correct level which is 2 in this case so 0 1 2 all the way up to 9 and everything.
+else is 0 right and now this is what your true Y is and you are trying to predict uh.
+y hat or f x ah F hat of X which is very close to this 2 y right and.
+that could lead to overfitting because if you have you if you have a lot of parameters you know that.
+this error you can drive down to zero but now what if I do the following right so I instead.
+of using this output the true output that was given to me uh and this is what my loss this.

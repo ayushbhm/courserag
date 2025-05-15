@@ -1,0 +1,9 @@
+output of one layer acts as the input to the next layer right so all of this this looks identical.
+in all these blocks and there could be 6 8 12 such blocks depending on the transform architecture that you.
+are looking at now let's see what happens in the feed forward Network so now you had uh you so.
+these are what the final output is of the feed forward network is z this intermediate output coming out of.
+the self attention I should have called it s and this is the input H1 right so now what exactly.
+happens in the feed forward neural network right nothing it's quite simple so remember that each of these guys here.
+is a five and two dimensional representation or some D dimensional representation it is going to pass through a feed.
+forward neutral Network and again give you a d dimensional representation at the output right that's all that is happening.
+here so feed forward neural network is only acting as a projection layer here right so uh so this is.

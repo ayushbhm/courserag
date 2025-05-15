@@ -1,0 +1,10 @@
+had been set to 1 right so that is what x the bold x looks like it's a vector and.
+similarly you have these w naughts to w n right which is the vector uh w okay sorry about my.
+handwriting but i think it's kind of clear from the context what i am saying so this these are the.
+two vectors so i am just going to take the weighted sum of w i x i and if the.
+point was positive and if this weighted sum is less than 0 then you and i understand something bad has.
+happened right because if the point was positive i wanted this weighted sum to be greater than zero that is.
+what i have said here right so something is going wrong my weights are not the way they should be.
+so i need to do some correction ok and this is the correction i am going to do i am.
+just going to do w is equal to w plus x okay i am not going to say anything more.
+about this at this point if the point was negative and if my summation was greater than equal to 0.

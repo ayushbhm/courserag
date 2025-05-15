@@ -1,0 +1,9 @@
+were small right so the guy who is going to be behind which is U T minus 1 is going.
+to look at smaller gradients whereas the guy who is ahead is started looking at faster gradients higher gradients right.
+so that's why what is happening is that the magnitude of VT is large here and the magnitude of u.
+t is small here because UT is still looking at the flat history whereas BT is one step ahead so.
+it has looked at more uh steeper history than What U T minus 1 is looking at right therefore V.
+T is larger than UT and since we were going in a steep Direction all the way around this is.
+a favorable situation to have right we want VT to be larger than UT so that effectively the ratio is.
+small and the learning rate is accordingly smaller right so that's exactly what we wanted and that is what is.
+happening now I can show you uh this more clearly on the next slide where uh if you look at.

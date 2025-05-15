@@ -1,0 +1,9 @@
+the derivative across all these inputs at this we have again done some before so the the derivative of w.
+derivative of the loss function that will secure W 2 would be summation I equal to 1 to M right.
+and then uh you will have this entire quantity inside and in the end that would be multiplied by x.
+2 of the appropriate I right so that's what the derivative would look like right so uh maybe this is.
+not clear here let me just undo that yeah so you'll have this so you'll have this term which is.
+in the bracket and then multiplied by x 2 of the corresponding input right so that's what the total derivative.
+would look like right so you're just the derivative of the loss function with respect to W2 is going to.
+the sum of this quantity that I have shown here okay now now what happens if a feature X2 is.
+passed right so X2 is one of the features so in our oil drilling example it could be salinity pressure.

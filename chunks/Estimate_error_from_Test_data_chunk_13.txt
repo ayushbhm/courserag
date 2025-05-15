@@ -1,0 +1,11 @@
+values right ah and the yeah so what I've written here is the this this quantity here I mean keeping.
+the two aside is actually the covariance between these two random variables Epsilon which is the noise and F at.
+x minus f x these two random variables and I'll tell you why I am saying that right ah so.
+you have the covariance between X comma Y is e of X the expected value of x minus the MU.
+mean of X and Y minus the mean of Y ah r x is Epsilon so the mean of X.
+is of course 0 ah so the mean of X will disappear and then you have y minus mu y.
+now I can open up the bracket so I get e of X Y minus ah X into mu X.
+and now again the sum of expectations is the expectation of sum so I can take the two terms out.
+so expectation of X Y minus expectation of X into mu y now mu Y is of course a constant.
+right because you compute the expectation and then that's a constant so that will come out so you have e.
+x y minus mu Y into e of X but again your V of X because X is Sigma is.

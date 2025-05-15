@@ -1,0 +1,10 @@
+realize it wouldn't be a good choice because the logistic function i know is going to clamp all my outputs.
+between zero to one right so the logistic function as we had seen is something like this right so it.
+the output goes just from zero to one right so no matter what the input is my outputs are going.
+to lie between 0 to 1 right now why is that not good here because here i know that the.
+ratings are on a scale of 0 to 10 in fact they could also be on a scale of 0.
+to 100 so then if i choose the output as sigmoid function then my network is always going to predict.
+values between zero to one whereas my true values are between zero to ten or zero to hundred and then.
+that doesn't make sense right so i need to predict be able to predict uh unbounded values or values having.
+a much higher range than zero to one right so that's what the constraint that i have and in such.
+cases when your output is going to be a real value right and not just bounded between zero to one.

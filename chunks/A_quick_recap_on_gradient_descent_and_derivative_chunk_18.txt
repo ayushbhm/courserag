@@ -1,0 +1,10 @@
+I come here okay it's still running okay so when I came here let's see okay now let me just.
+annotate this right so in this region I was moving very very slowly and you can uh okay so in.
+this region I was moving very slowly and you can see here the the change in wnb was so small.
+that the two consecutive points were so close to each other that they're almost seeming connected right that's what is.
+happening at the bottom and then when here in this region when I went inside the valley right so I.
+was at the plateau at the top you can see that now my w and B are changing fast right.
+so maybe it's not visible clearly now let me just uh so you know which region I want you to.
+look at so now let me just try to expand this or rather make maximize this right so this region.
+here is what I want you to look at and you can see that now my w and B are.
+actually I mean the every new W comma B point is actually farther away from my previous W comma B.

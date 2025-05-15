@@ -1,0 +1,10 @@
+to the weight vector and that's what is happening if i had a positive point on which i was making.
+an error then i was changing the weight vector by adding the point to it right so let's see what.
+happens by that right so if x is belonging to p and if w transpose x is less than 0.
+that's what this expression means right then it means that the angle between this x and the current w is.
+greater than 90 degrees right but that is not what i wanted i wanted this angle to be less than.
+90 degrees so now what is it what should my goal be if i am in this situation that my.
+w and x are such that the angle is greater than 90 degrees and i want it to be less.
+than 90 degrees so i should try to adjust the w at least such that whatever is the current angle.
+that angle should decrease it may not become less than 90 degrees at one shot but at least it should.
+decrease from where it is currently because right now i am in a bad situation and that's what i should.

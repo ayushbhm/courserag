@@ -1,0 +1,9 @@
+you have I mean you have the relu here you have the logistic sigmoid tan H everything here right and.
+there are many functions here now what they observed is that any such function is composed of two operations or.
+unary operation this is what unary operation is so negation of x which you see here which operates only on.
+a single input is a unary operator absolute value of x which again operates on a single input is a.
+unary function a into X is again a unary function or exponent of all of these are unary functions so.
+what are binary functions binary functions are functions which take two inputs right so this Max of X1 comma X2.
+is a binary function X1 into sigmoid or some X2 is again a binary function right so either these have.
+unary so these have a combination of unary and binary uh operators so what if I tried many possible combinations.
+of these unary and binary operators right these are easier to Define there's a limited space of unity operators that.

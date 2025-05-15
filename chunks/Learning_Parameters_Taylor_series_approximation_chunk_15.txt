@@ -1,0 +1,9 @@
+keep cutting the formula wherever you want and that's what the approximation gives how this relates to what we are.
+trying to do all that is not clear right now right now we just want to understand what Taylor series.
+is Taylor series just gives a way of approximating uh the function and you can use any order of approximation.
+n equal to 1 n equal to n equal to three the higher the order the better the approximation okay.
+so now let's uh kind of move ahead from here and see way to go yeah so now here's the.
+same plot right and now I'll do some uh stuff here so this Epsilon actually defines the neighborhood oops right.
+so the smaller the value of Epsilon you can see that smaller is the neighborhood that I am considering here.
+okay and I'll tell you why that is important okay uh now uh this function is log of w okay.
+and now I know the value of the function at this point here right this point here I am going.

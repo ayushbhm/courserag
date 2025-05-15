@@ -1,0 +1,9 @@
+so probabilities lie between 0 to 1. so now this output of the sigmoid function we could interpret as a.
+probability so now when it gives the value 0.49 I can say that there's a 49 chance that I like.
+the movie earlier I was saying that there is zero chance I not like the movie when it outputs a.
+value of 0.51 I can say there's a 51 so one person chance that I like the movie and now.
+this makes sense right the difference between 49 to 51 percent makes sense right earlier it was 0 and 1.
+when it was 49 and 15 so that harshness has disappeared now and more importantly I can now interpret these.
+values as probability and this is something very important because in most modeling problems that is what we would want.
+to do that you have to predict a certain binary value and you would like to predict it as a.
+probability that this not harsh zero and one but this is a 49 chance of finding oil there there's a.

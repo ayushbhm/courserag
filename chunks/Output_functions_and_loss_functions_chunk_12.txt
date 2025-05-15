@@ -1,0 +1,9 @@
+distribution right so in the previous video the helper video that i just pointed you to uh we see that.
+in the case when the class is known right you could still think of this as y being a random.
+variable which can take on four values one two three four one for apple two for banana three for mango.
+four for orange and so on right so it can take on these four values right and what your network.
+will do is it will predict what is the probability of each of these values right whereas from the true.
+label you know what the actual probability distribution is if this is an apple image then you know with 100.
+certain because that's what the label has already told you so you know with probability one that it's an apple.
+image and the probability of mango orange and banana is zero whereas your network is going to predict some values.
+right point two point three point four point one right and somehow you want to be able to capture the.

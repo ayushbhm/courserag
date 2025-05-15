@@ -1,0 +1,10 @@
+the gradient with respect to the entire vector but we didn't go there directly we first computed the partial derivative.
+with respect to one of the elements and then once we had that we were able to write down the.
+formula for the entire vector right uh so this same recipe is going to repeat everywhere we are going to.
+first try to if you have any interest in a derivative of some quantity with respect to vector we'll first.
+try to find out the partial derivative with respect to one element of that vector right and then generalize for.
+the entire vector okay that's what we are going to do so now with that let me just try to.
+find the derivative of the loss function with respect to a l and what i am going to do is.
+first try to find the derivative with respect to one of the elements which is the ith element so again.
+a l is actually a l 1 a l 2 all the way up to a l k right so.
+from with respect to any generic element of that vector i am trying to find the derivative of the loss.

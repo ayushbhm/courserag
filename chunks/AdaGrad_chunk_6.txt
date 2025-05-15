@@ -1,0 +1,9 @@
+gradient descent and nestro accelerated gradient descent algorithm on that using that data and uh the law surface was something.
+like this and I am showing the 2D loss surface but let's try to understand uh let's try to make.
+a commentary on it and try to see what it actually is right so as you know this red means.
+high so these are the regions here where the loss is a bit high and also in those regions you.
+see that there's a slightly larger difference between consecutive contour lines that means they are a bit flat region right.
+and this region is blue here okay so that means in that region the loss is very low and and.
+also from going from here to here as we go down let me just change the color going from here.
+to here as we go down the slope is very Steep and that is obvious because the difference between two.
+consecutive contour lines is now very small right so then this is essentially a surface like this which is peaking.

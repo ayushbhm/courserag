@@ -1,0 +1,9 @@
+principled way of moving in the WB plane we are no longer doing our guesswork we know that if we.
+do we just saw a proof or we arrived with the formula mathematically that if we keep moving in the.
+direction opposite to the gradient we are guaranteed that the loss at every step will uh decrease not that it.
+will just decrease it will also decrease by uh the largest amount right now one thing you should have noticed.
+on the previous slide in my last update actually you could go back and check whether the loss had increased.
+or not and if the loss had increased what could have been the reason for that and the answer there.
+is that the learning rate or the ETA was quite high but all of these are things that we'll come.
+back to so don't worry about okay so this is the algorithm that we have created uh we'll start at.
+time step 0. we'll set up some Max iterations we'll initialize W and B randomly and well while we are.

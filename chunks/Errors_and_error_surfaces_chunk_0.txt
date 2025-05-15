@@ -1,0 +1,10 @@
+foreign [Music] I just started talking a bit about errors I was moving the line a bit and saying over.
+here we're making a few errors and so on let's let's just dig a bit deeper in this concept of.
+errors and I'll also introduce error surfaces which will again stay with us for a long time in the course.
+right today we'll see something which is Trivial but this error surface or lost surface will keep reefers resurfacing and.
+we'll see it quite often in the course at least in the initial part of the course right uh so.
+again this is the example we were dealing with so now I'm looking at the uh and function now okay.
+and for the and function the output should be one only for one input which is shown in green here.
+and it should be 0 for the three red inputs right that's what the and function is and now my.
+uh decision is of course W1 it's uh sorry yeah so it's w naught plus W1 X1 plus W 2.
+x 2 greater than equal to 0 then the output would be 1 otherwise it would be zero right so.

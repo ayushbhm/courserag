@@ -1,0 +1,3812 @@
+[
+  {
+    "text": "[Music]",
+    "start": 0.33,
+    "duration": 10.029
+  },
+  {
+    "text": "hi uh so welcome back",
+    "start": 19.199,
+    "duration": 4.881
+  },
+  {
+    "text": "uh so we'll now talk about a typical",
+    "start": 21.359,
+    "duration": 4.801
+  },
+  {
+    "text": "supervised machine learning setup and",
+    "start": 24.08,
+    "duration": 3.92
+  },
+  {
+    "text": "this in my opinion is",
+    "start": 26.16,
+    "duration": 3.439
+  },
+  {
+    "text": "the most important module of the course",
+    "start": 28.0,
+    "duration": 3.039
+  },
+  {
+    "text": "of course as we go along i'll say this",
+    "start": 29.599,
+    "duration": 3.921
+  },
+  {
+    "text": "for many modules but i think this is the",
+    "start": 31.039,
+    "duration": 3.921
+  },
+  {
+    "text": "most important one right so please pay",
+    "start": 33.52,
+    "duration": 2.4
+  },
+  {
+    "text": "attention",
+    "start": 34.96,
+    "duration": 3.04
+  },
+  {
+    "text": "uh so this is what we have right so we",
+    "start": 35.92,
+    "duration": 3.44
+  },
+  {
+    "text": "looked at the sigmoid neuron and we",
+    "start": 38.0,
+    "duration": 3.52
+  },
+  {
+    "text": "looked at one particular function within",
+    "start": 39.36,
+    "duration": 3.92
+  },
+  {
+    "text": "this family which is the logistic",
+    "start": 41.52,
+    "duration": 4.24
+  },
+  {
+    "text": "function now what next right so we have",
+    "start": 43.28,
+    "duration": 4.64
+  },
+  {
+    "text": "seen this right so what what was our",
+    "start": 45.76,
+    "duration": 4.16
+  },
+  {
+    "text": "pattern when we had introduced uh",
+    "start": 47.92,
+    "duration": 4.639
+  },
+  {
+    "text": "perceptrons we saw the perceptron model",
+    "start": 49.92,
+    "duration": 6.0
+  },
+  {
+    "text": "and then what did we do",
+    "start": 52.559,
+    "duration": 6.241
+  },
+  {
+    "text": "where did it go from there we first",
+    "start": 55.92,
+    "duration": 4.319
+  },
+  {
+    "text": "looked at the",
+    "start": 58.8,
+    "duration": 2.96
+  },
+  {
+    "text": "algorithm for learning the weights right",
+    "start": 60.239,
+    "duration": 2.721
+  },
+  {
+    "text": "so we want the same thing now i've",
+    "start": 61.76,
+    "duration": 3.039
+  },
+  {
+    "text": "defined this but now how do i learn the",
+    "start": 62.96,
+    "duration": 3.44
+  },
+  {
+    "text": "weights that's not clear right so i want",
+    "start": 64.799,
+    "duration": 4.161
+  },
+  {
+    "text": "to have an algorithm which can learn",
+    "start": 66.4,
+    "duration": 3.84
+  },
+  {
+    "text": "these weights",
+    "start": 68.96,
+    "duration": 2.88
+  },
+  {
+    "text": "but before i had done the perceptron",
+    "start": 70.24,
+    "duration": 3.68
+  },
+  {
+    "text": "learning algorithm i had taken a slight",
+    "start": 71.84,
+    "duration": 4.0
+  },
+  {
+    "text": "detour and spoken about errors right",
+    "start": 73.92,
+    "duration": 3.44
+  },
+  {
+    "text": "because that was important to understand",
+    "start": 75.84,
+    "duration": 3.12
+  },
+  {
+    "text": "the error because the whole point of the",
+    "start": 77.36,
+    "duration": 3.2
+  },
+  {
+    "text": "algorithm was that whenever you make an",
+    "start": 78.96,
+    "duration": 3.199
+  },
+  {
+    "text": "error you do some correction right and",
+    "start": 80.56,
+    "duration": 2.96
+  },
+  {
+    "text": "that's why understanding error was",
+    "start": 82.159,
+    "duration": 3.28
+  },
+  {
+    "text": "important here also there is something",
+    "start": 83.52,
+    "duration": 3.68
+  },
+  {
+    "text": "similar so i'm going to revisit the",
+    "start": 85.439,
+    "duration": 4.0
+  },
+  {
+    "text": "concept of error again and then from",
+    "start": 87.2,
+    "duration": 4.559
+  },
+  {
+    "text": "there start working towards the",
+    "start": 89.439,
+    "duration": 5.201
+  },
+  {
+    "text": "algorithm right so but uh in this video",
+    "start": 91.759,
+    "duration": 4.4
+  },
+  {
+    "text": "we'll not do the algorithm we'll just do",
+    "start": 94.64,
+    "duration": 3.36
+  },
+  {
+    "text": "the machine learning setup right so",
+    "start": 96.159,
+    "duration": 4.32
+  },
+  {
+    "text": "let's look at that so coming going back",
+    "start": 98.0,
+    "duration": 4.32
+  },
+  {
+    "text": "to the perceptron algorithms and seen",
+    "start": 100.479,
+    "duration": 4.241
+  },
+  {
+    "text": "these kind of data",
+    "start": 102.32,
+    "duration": 5.439
+  },
+  {
+    "text": "distributions there and i had said that",
+    "start": 104.72,
+    "duration": 5.359
+  },
+  {
+    "text": "this is not linearly separable of course",
+    "start": 107.759,
+    "duration": 5.36
+  },
+  {
+    "text": "it is not and we had said that a single",
+    "start": 110.079,
+    "duration": 5.841
+  },
+  {
+    "text": "perceptron cannot deal with this data",
+    "start": 113.119,
+    "duration": 4.721
+  },
+  {
+    "text": "right or cannot deal with linearly",
+    "start": 115.92,
+    "duration": 4.159
+  },
+  {
+    "text": "separable not linearly separable data",
+    "start": 117.84,
+    "duration": 4.08
+  },
+  {
+    "text": "but what do i mean by cannot deal right",
+    "start": 120.079,
+    "duration": 3.761
+  },
+  {
+    "text": "what would happen if i apply perceptron",
+    "start": 121.92,
+    "duration": 4.159
+  },
+  {
+    "text": "algorithm suppose i blindly go and say",
+    "start": 123.84,
+    "duration": 4.16
+  },
+  {
+    "text": "okay i want to just apply the perceptron",
+    "start": 126.079,
+    "duration": 4.721
+  },
+  {
+    "text": "algorithm here what would it do",
+    "start": 128.0,
+    "duration": 4.16
+  },
+  {
+    "text": "can you tell me what would happen in",
+    "start": 130.8,
+    "duration": 2.799
+  },
+  {
+    "text": "this case it'll make errors for some",
+    "start": 132.16,
+    "duration": 3.12
+  },
+  {
+    "text": "points what's the point of a perceptron",
+    "start": 133.599,
+    "duration": 3.441
+  },
+  {
+    "text": "algorithm the idea of a perceptron",
+    "start": 135.28,
+    "duration": 3.039
+  },
+  {
+    "text": "algorithm is that you'll find some",
+    "start": 137.04,
+    "duration": 4.32
+  },
+  {
+    "text": "separation boundary right now we know",
+    "start": 138.319,
+    "duration": 4.401
+  },
+  {
+    "text": "that if the data is not linearly",
+    "start": 141.36,
+    "duration": 3.12
+  },
+  {
+    "text": "separable this it will not converge",
+    "start": 142.72,
+    "duration": 3.12
+  },
+  {
+    "text": "right because we'll keep toggling some",
+    "start": 144.48,
+    "duration": 2.96
+  },
+  {
+    "text": "points will be here and there but if i",
+    "start": 145.84,
+    "duration": 2.96
+  },
+  {
+    "text": "just do okay i'll just do it for some",
+    "start": 147.44,
+    "duration": 3.439
+  },
+  {
+    "text": "thousand iterations for a fixed k i'll",
+    "start": 148.8,
+    "duration": 4.32
+  },
+  {
+    "text": "do it so what do you expect would happen",
+    "start": 150.879,
+    "duration": 4.801
+  },
+  {
+    "text": "at the end it could draw some line right",
+    "start": 153.12,
+    "duration": 4.0
+  },
+  {
+    "text": "now there many lines possible you could",
+    "start": 155.68,
+    "duration": 3.52
+  },
+  {
+    "text": "draw this draw this or this many things",
+    "start": 157.12,
+    "duration": 4.72
+  },
+  {
+    "text": "right so what do you think is",
+    "start": 159.2,
+    "duration": 4.8
+  },
+  {
+    "text": "a line a possible line here that it",
+    "start": 161.84,
+    "duration": 3.84
+  },
+  {
+    "text": "would end up with if i just run the",
+    "start": 164.0,
+    "duration": 3.2
+  },
+  {
+    "text": "perceptron algorithm",
+    "start": 165.68,
+    "duration": 3.6
+  },
+  {
+    "text": "just think about it okay i don't i mean",
+    "start": 167.2,
+    "duration": 3.28
+  },
+  {
+    "text": "it's hard for you to tell me what you're",
+    "start": 169.28,
+    "duration": 2.8
+  },
+  {
+    "text": "thinking but just think about it and",
+    "start": 170.48,
+    "duration": 3.119
+  },
+  {
+    "text": "then when i show you the answer just see",
+    "start": 172.08,
+    "duration": 4.08
+  },
+  {
+    "text": "whether you are in agreement with that",
+    "start": 173.599,
+    "duration": 3.761
+  },
+  {
+    "text": "sorry",
+    "start": 176.16,
+    "duration": 2.96
+  },
+  {
+    "text": "somewhere in the middle of the data and",
+    "start": 177.36,
+    "duration": 3.76
+  },
+  {
+    "text": "uh we all understand what he means by",
+    "start": 179.12,
+    "duration": 3.6
+  },
+  {
+    "text": "middle of the data right",
+    "start": 181.12,
+    "duration": 4.08
+  },
+  {
+    "text": "so let's see",
+    "start": 182.72,
+    "duration": 4.159
+  },
+  {
+    "text": "so this is what it would do in the upper",
+    "start": 185.2,
+    "duration": 3.759
+  },
+  {
+    "text": "case right where",
+    "start": 186.879,
+    "duration": 4.161
+  },
+  {
+    "text": "most points are i mean some there are",
+    "start": 188.959,
+    "duration": 3.441
+  },
+  {
+    "text": "errors i mean there's that's a hard",
+    "start": 191.04,
+    "duration": 3.36
+  },
+  {
+    "text": "problem given it cannot really separate",
+    "start": 192.4,
+    "duration": 3.52
+  },
+  {
+    "text": "by a linear boundary but it'll draw some",
+    "start": 194.4,
+    "duration": 3.52
+  },
+  {
+    "text": "boundary right in the second case also",
+    "start": 195.92,
+    "duration": 3.36
+  },
+  {
+    "text": "it will draw some boundary and here the",
+    "start": 197.92,
+    "duration": 3.599
+  },
+  {
+    "text": "situation is better as you can see it's",
+    "start": 199.28,
+    "duration": 4.319
+  },
+  {
+    "text": "making an error on some three orange",
+    "start": 201.519,
+    "duration": 3.601
+  },
+  {
+    "text": "points which are getting classified as",
+    "start": 203.599,
+    "duration": 4.401
+  },
+  {
+    "text": "blue and maybe a couple of blue points",
+    "start": 205.12,
+    "duration": 5.039
+  },
+  {
+    "text": "which are getting classified as orange",
+    "start": 208.0,
+    "duration": 3.92
+  },
+  {
+    "text": "right and in most real-world",
+    "start": 210.159,
+    "duration": 3.281
+  },
+  {
+    "text": "applications we could deal with this",
+    "start": 211.92,
+    "duration": 3.039
+  },
+  {
+    "text": "kind of an error right so there are like",
+    "start": 213.44,
+    "duration": 4.56
+  },
+  {
+    "text": "maybe uh 10 uh blue points here of its",
+    "start": 214.959,
+    "duration": 4.801
+  },
+  {
+    "text": "two are wrong and 10 orange points of",
+    "start": 218.0,
+    "duration": 4.319
+  },
+  {
+    "text": "which two or three are wrong so 20 error",
+    "start": 219.76,
+    "duration": 4.08
+  },
+  {
+    "text": "we could deal with unless this is like a",
+    "start": 222.319,
+    "duration": 4.721
+  },
+  {
+    "text": "mission critical uh application in which",
+    "start": 223.84,
+    "duration": 4.56
+  },
+  {
+    "text": "case it might be difficult but in most",
+    "start": 227.04,
+    "duration": 3.199
+  },
+  {
+    "text": "real world applications we might be okay",
+    "start": 228.4,
+    "duration": 3.04
+  },
+  {
+    "text": "with it right for example if you're",
+    "start": 230.239,
+    "duration": 3.36
+  },
+  {
+    "text": "predicting whether this person is likely",
+    "start": 231.44,
+    "duration": 3.519
+  },
+  {
+    "text": "to vote for",
+    "start": 233.599,
+    "duration": 3.441
+  },
+  {
+    "text": "one party or the other and if you make",
+    "start": 234.959,
+    "duration": 4.48
+  },
+  {
+    "text": "some error in that prediction like 20 of",
+    "start": 237.04,
+    "duration": 3.919
+  },
+  {
+    "text": "the people you predict wrongly it won't",
+    "start": 239.439,
+    "duration": 3.201
+  },
+  {
+    "text": "make much of a difference right so it",
+    "start": 240.959,
+    "duration": 3.601
+  },
+  {
+    "text": "would still give you some rough idea of",
+    "start": 242.64,
+    "duration": 3.519
+  },
+  {
+    "text": "how the election is going right and in",
+    "start": 244.56,
+    "duration": 3.36
+  },
+  {
+    "text": "many cases of course unless it's a very",
+    "start": 246.159,
+    "duration": 3.681
+  },
+  {
+    "text": "closely fought election but in most",
+    "start": 247.92,
+    "duration": 3.36
+  },
+  {
+    "text": "cases if the error is around fighting",
+    "start": 249.84,
+    "duration": 2.959
+  },
+  {
+    "text": "person you can live with it right so",
+    "start": 251.28,
+    "duration": 3.76
+  },
+  {
+    "text": "from now on we are going to",
+    "start": 252.799,
+    "duration": 4.321
+  },
+  {
+    "text": "live with this idea of error that error",
+    "start": 255.04,
+    "duration": 5.28
+  },
+  {
+    "text": "may not always go to zero and our goal",
+    "start": 257.12,
+    "duration": 5.6
+  },
+  {
+    "text": "would be to just minimize the error as",
+    "start": 260.32,
+    "duration": 4.8
+  },
+  {
+    "text": "much as possible right so if i were to",
+    "start": 262.72,
+    "duration": 4.72
+  },
+  {
+    "text": "actually have a zero error here i would",
+    "start": 265.12,
+    "duration": 4.4
+  },
+  {
+    "text": "need something very complex right so i",
+    "start": 267.44,
+    "duration": 5.039
+  },
+  {
+    "text": "would want a decision boundary uh which",
+    "start": 269.52,
+    "duration": 6.32
+  },
+  {
+    "text": "perhaps i don't know",
+    "start": 272.479,
+    "duration": 3.361
+  },
+  {
+    "text": "looks something like this right",
+    "start": 276.4,
+    "duration": 4.16
+  },
+  {
+    "text": "and now",
+    "start": 279.44,
+    "duration": 4.16
+  },
+  {
+    "text": "even that is not enough uh",
+    "start": 280.56,
+    "duration": 5.359
+  },
+  {
+    "text": "yeah i just want an island here right so",
+    "start": 283.6,
+    "duration": 3.84
+  },
+  {
+    "text": "it's very difficult right i mean like a",
+    "start": 285.919,
+    "duration": 3.121
+  },
+  {
+    "text": "very complex boundary so that all the",
+    "start": 287.44,
+    "duration": 4.479
+  },
+  {
+    "text": "blue points are separated from the uh",
+    "start": 289.04,
+    "duration": 5.599
+  },
+  {
+    "text": "orange points and we'll be okay if at",
+    "start": 291.919,
+    "duration": 5.361
+  },
+  {
+    "text": "least i can find some boundary right",
+    "start": 294.639,
+    "duration": 4.481
+  },
+  {
+    "text": "where the error is as",
+    "start": 297.28,
+    "duration": 4.72
+  },
+  {
+    "text": "small as it can be and i can live with",
+    "start": 299.12,
+    "duration": 4.24
+  },
+  {
+    "text": "that little error right so that's what",
+    "start": 302.0,
+    "duration": 3.28
+  },
+  {
+    "text": "i'm going to do i'm going to now start",
+    "start": 303.36,
+    "duration": 3.2
+  },
+  {
+    "text": "using the term",
+    "start": 305.28,
+    "duration": 3.04
+  },
+  {
+    "text": "minimize the error instead of saying",
+    "start": 306.56,
+    "duration": 3.199
+  },
+  {
+    "text": "that the error should be zero right so",
+    "start": 308.32,
+    "duration": 3.04
+  },
+  {
+    "text": "that's one switch i'm going to make",
+    "start": 309.759,
+    "duration": 3.44
+  },
+  {
+    "text": "right and now with this background we",
+    "start": 311.36,
+    "duration": 4.48
+  },
+  {
+    "text": "are ready to discuss what a typical",
+    "start": 313.199,
+    "duration": 4.241
+  },
+  {
+    "text": "supervised machine learning setup looks",
+    "start": 315.84,
+    "duration": 3.04
+  },
+  {
+    "text": "like not machine learning but supervised",
+    "start": 317.44,
+    "duration": 3.52
+  },
+  {
+    "text": "machine learning right",
+    "start": 318.88,
+    "duration": 4.319
+  },
+  {
+    "text": "so always given some data",
+    "start": 320.96,
+    "duration": 4.56
+  },
+  {
+    "text": "okay what is this data this is",
+    "start": 323.199,
+    "duration": 3.121
+  },
+  {
+    "text": "sum",
+    "start": 325.52,
+    "duration": 2.08
+  },
+  {
+    "text": "r",
+    "start": 326.32,
+    "duration": 3.04
+  },
+  {
+    "text": "n right these are vectors belonging to",
+    "start": 327.6,
+    "duration": 5.12
+  },
+  {
+    "text": "rn okay and this is some",
+    "start": 329.36,
+    "duration": 4.88
+  },
+  {
+    "text": "let's for the simplicity assume that",
+    "start": 332.72,
+    "duration": 3.199
+  },
+  {
+    "text": "it's just a real value it could again be",
+    "start": 334.24,
+    "duration": 3.92
+  },
+  {
+    "text": "a vector right it could be the case that",
+    "start": 335.919,
+    "duration": 5.201
+  },
+  {
+    "text": "given the data about uh movie i am",
+    "start": 338.16,
+    "duration": 4.64
+  },
+  {
+    "text": "trying to predict the",
+    "start": 341.12,
+    "duration": 3.84
+  },
+  {
+    "text": "uh box office collection of the movie i",
+    "start": 342.8,
+    "duration": 4.08
+  },
+  {
+    "text": "am also trying to predict the imdb",
+    "start": 344.96,
+    "duration": 3.2
+  },
+  {
+    "text": "rating of the move right so i could be",
+    "start": 346.88,
+    "duration": 3.28
+  },
+  {
+    "text": "predicting two things here right but for",
+    "start": 348.16,
+    "duration": 4.08
+  },
+  {
+    "text": "now i'll just assume that we're just",
+    "start": 350.16,
+    "duration": 3.52
+  },
+  {
+    "text": "dealing with a",
+    "start": 352.24,
+    "duration": 4.56
+  },
+  {
+    "text": "real valued output and not a vector okay",
+    "start": 353.68,
+    "duration": 5.84
+  },
+  {
+    "text": "now we have already seen what this data",
+    "start": 356.8,
+    "duration": 5.28
+  },
+  {
+    "text": "also could look like right so",
+    "start": 359.52,
+    "duration": 4.48
+  },
+  {
+    "text": "uh",
+    "start": 362.08,
+    "duration": 3.52
+  },
+  {
+    "text": "and this is where the most important",
+    "start": 364.0,
+    "duration": 3.28
+  },
+  {
+    "text": "part comes in let me just quickly go",
+    "start": 365.6,
+    "duration": 3.2
+  },
+  {
+    "text": "ahead okay this is not what i want to do",
+    "start": 367.28,
+    "duration": 3.199
+  },
+  {
+    "text": "right so this",
+    "start": 368.8,
+    "duration": 3.36
+  },
+  {
+    "text": "we have seen application right so let me",
+    "start": 370.479,
+    "duration": 3.361
+  },
+  {
+    "text": "just",
+    "start": 372.16,
+    "duration": 4.8
+  },
+  {
+    "text": "define all of these right so these are",
+    "start": 373.84,
+    "duration": 5.199
+  },
+  {
+    "text": "my x's",
+    "start": 376.96,
+    "duration": 4.48
+  },
+  {
+    "text": "okay this is a vector",
+    "start": 379.039,
+    "duration": 5.681
+  },
+  {
+    "text": "which belongs to r",
+    "start": 381.44,
+    "duration": 5.44
+  },
+  {
+    "text": "let me just call it m right because i'm",
+    "start": 384.72,
+    "duration": 5.28
+  },
+  {
+    "text": "using n for something else and i have n",
+    "start": 386.88,
+    "duration": 8.96
+  },
+  {
+    "text": "such data points right so in my uh",
+    "start": 390.0,
+    "duration": 5.84
+  },
+  {
+    "text": "just",
+    "start": 395.919,
+    "duration": 3.84
+  },
+  {
+    "text": "i have n such data points so in my oil",
+    "start": 397.039,
+    "duration": 4.081
+  },
+  {
+    "text": "mining case",
+    "start": 399.759,
+    "duration": 3.601
+  },
+  {
+    "text": "uh i'm assuming that there are already n",
+    "start": 401.12,
+    "duration": 4.799
+  },
+  {
+    "text": "drilling stations set up somewhere and i",
+    "start": 403.36,
+    "duration": 4.88
+  },
+  {
+    "text": "have all the data about them right what",
+    "start": 405.919,
+    "duration": 4.0
+  },
+  {
+    "text": "was the pressure what was the salinity",
+    "start": 408.24,
+    "duration": 3.84
+  },
+  {
+    "text": "these end points by which i am defining",
+    "start": 409.919,
+    "duration": 4.641
+  },
+  {
+    "text": "a location or characterizing a location",
+    "start": 412.08,
+    "duration": 4.88
+  },
+  {
+    "text": "and i also know the y for them right so",
+    "start": 414.56,
+    "duration": 5.44
+  },
+  {
+    "text": "i have a m dimensional input",
+    "start": 416.96,
+    "duration": 5.44
+  },
+  {
+    "text": "i have a single dimensional output",
+    "start": 420.0,
+    "duration": 4.0
+  },
+  {
+    "text": "which is the amount of oil in mind for",
+    "start": 422.4,
+    "duration": 3.44
+  },
+  {
+    "text": "them and i have given some n such",
+    "start": 424.0,
+    "duration": 3.68
+  },
+  {
+    "text": "training points right so this is what a",
+    "start": 425.84,
+    "duration": 3.44
+  },
+  {
+    "text": "typical machine learning setup looks",
+    "start": 427.68,
+    "duration": 3.6
+  },
+  {
+    "text": "like similarly if i look at the other",
+    "start": 429.28,
+    "duration": 4.319
+  },
+  {
+    "text": "example where i had",
+    "start": 431.28,
+    "duration": 3.84
+  },
+  {
+    "text": "the credit card",
+    "start": 433.599,
+    "duration": 3.44
+  },
+  {
+    "text": "or maybe i had the",
+    "start": 435.12,
+    "duration": 3.919
+  },
+  {
+    "text": "bank interest rate that i wanted to",
+    "start": 437.039,
+    "duration": 4.72
+  },
+  {
+    "text": "decide right so i have the past history",
+    "start": 439.039,
+    "duration": 4.56
+  },
+  {
+    "text": "of the person and this history is being",
+    "start": 441.759,
+    "duration": 3.28
+  },
+  {
+    "text": "characterized by various things what is",
+    "start": 443.599,
+    "duration": 3.121
+  },
+  {
+    "text": "the salary of the person what is the",
+    "start": 445.039,
+    "duration": 3.121
+  },
+  {
+    "text": "education level of the person what is",
+    "start": 446.72,
+    "duration": 3.039
+  },
+  {
+    "text": "the family size of the person does he",
+    "start": 448.16,
+    "duration": 3.52
+  },
+  {
+    "text": "have any past loans what was the",
+    "start": 449.759,
+    "duration": 3.84
+  },
+  {
+    "text": "interest rate on the past loans how soon",
+    "start": 451.68,
+    "duration": 3.6
+  },
+  {
+    "text": "did he dispose of that loan and so on",
+    "start": 453.599,
+    "duration": 2.961
+  },
+  {
+    "text": "right so all of those are the past",
+    "start": 455.28,
+    "duration": 3.44
+  },
+  {
+    "text": "history and based on that for my",
+    "start": 456.56,
+    "duration": 4.96
+  },
+  {
+    "text": "existing customers i know what was the",
+    "start": 458.72,
+    "duration": 4.479
+  },
+  {
+    "text": "rate at which",
+    "start": 461.52,
+    "duration": 4.16
+  },
+  {
+    "text": "it was suitable to give them right and",
+    "start": 463.199,
+    "duration": 4.881
+  },
+  {
+    "text": "now this training data is given to me",
+    "start": 465.68,
+    "duration": 5.76
+  },
+  {
+    "text": "and there are uh n such training points",
+    "start": 468.08,
+    "duration": 5.119
+  },
+  {
+    "text": "each of which is",
+    "start": 471.44,
+    "duration": 3.84
+  },
+  {
+    "text": "m dimensional and i'm trying to predict",
+    "start": 473.199,
+    "duration": 4.161
+  },
+  {
+    "text": "a real valued output right and now you",
+    "start": 475.28,
+    "duration": 4.88
+  },
+  {
+    "text": "can think of on and on of so many such",
+    "start": 477.36,
+    "duration": 4.8
+  },
+  {
+    "text": "problems right so all the machine",
+    "start": 480.16,
+    "duration": 3.439
+  },
+  {
+    "text": "learning supervised machine learning",
+    "start": 482.16,
+    "duration": 3.52
+  },
+  {
+    "text": "problems have this form i'll give one",
+    "start": 483.599,
+    "duration": 3.921
+  },
+  {
+    "text": "more which is the movie protection",
+    "start": 485.68,
+    "duration": 3.76
+  },
+  {
+    "text": "problem or the box office collection",
+    "start": 487.52,
+    "duration": 3.6
+  },
+  {
+    "text": "problem right so i have want to predict",
+    "start": 489.44,
+    "duration": 3.84
+  },
+  {
+    "text": "the box office collection of a movie i",
+    "start": 491.12,
+    "duration": 4.079
+  },
+  {
+    "text": "have data about the movie right what was",
+    "start": 493.28,
+    "duration": 3.84
+  },
+  {
+    "text": "the budget of the movie how many",
+    "start": 495.199,
+    "duration": 4.0
+  },
+  {
+    "text": "superstars are there in the movie right",
+    "start": 497.12,
+    "duration": 4.0
+  },
+  {
+    "text": "how good who is the music director of",
+    "start": 499.199,
+    "duration": 3.601
+  },
+  {
+    "text": "the movie who is the cinematographer all",
+    "start": 501.12,
+    "duration": 3.919
+  },
+  {
+    "text": "of this i will have and based on past",
+    "start": 502.8,
+    "duration": 3.839
+  },
+  {
+    "text": "movies i know what",
+    "start": 505.039,
+    "duration": 2.961
+  },
+  {
+    "text": "what is the box office collection what",
+    "start": 506.639,
+    "duration": 3.041
+  },
+  {
+    "text": "is the genre of the movie all of this is",
+    "start": 508.0,
+    "duration": 3.68
+  },
+  {
+    "text": "there right and i know this so the form",
+    "start": 509.68,
+    "duration": 3.919
+  },
+  {
+    "text": "i've given such many such movies from",
+    "start": 511.68,
+    "duration": 4.4
+  },
+  {
+    "text": "past and such movies i'm characterizing",
+    "start": 513.599,
+    "duration": 4.401
+  },
+  {
+    "text": "each movie by an m-dimensional vector",
+    "start": 516.08,
+    "duration": 3.6
+  },
+  {
+    "text": "which is some inputs about the movie and",
+    "start": 518.0,
+    "duration": 3.039
+  },
+  {
+    "text": "i want to predict the box connection",
+    "start": 519.68,
+    "duration": 3.599
+  },
+  {
+    "text": "right so this is what the data part",
+    "start": 521.039,
+    "duration": 4.321
+  },
+  {
+    "text": "looks like and the main point here is",
+    "start": 523.279,
+    "duration": 2.961
+  },
+  {
+    "text": "that",
+    "start": 525.36,
+    "duration": 2.72
+  },
+  {
+    "text": "across all supervised machine learning",
+    "start": 526.24,
+    "duration": 3.68
+  },
+  {
+    "text": "setups this is what it looks like every",
+    "start": 528.08,
+    "duration": 3.6
+  },
+  {
+    "text": "machine learning problem you can cast it",
+    "start": 529.92,
+    "duration": 3.76
+  },
+  {
+    "text": "into this matrix where you are given the",
+    "start": 531.68,
+    "duration": 4.24
+  },
+  {
+    "text": "x's and the y's and you are given many",
+    "start": 533.68,
+    "duration": 4.96
+  },
+  {
+    "text": "such x comma y pairs okay",
+    "start": 535.92,
+    "duration": 4.24
+  },
+  {
+    "text": "now",
+    "start": 538.64,
+    "duration": 4.0
+  },
+  {
+    "text": "this is where now uh thinks uh the",
+    "start": 540.16,
+    "duration": 4.239
+  },
+  {
+    "text": "challenge is right this is what the crux",
+    "start": 542.64,
+    "duration": 5.04
+  },
+  {
+    "text": "of machine learning is so we have a y",
+    "start": 544.399,
+    "duration": 4.161
+  },
+  {
+    "text": "right",
+    "start": 547.68,
+    "duration": 3.279
+  },
+  {
+    "text": "and we have a reason to believe that",
+    "start": 548.56,
+    "duration": 4.16
+  },
+  {
+    "text": "this y",
+    "start": 550.959,
+    "duration": 4.0
+  },
+  {
+    "text": "depends on the input x",
+    "start": 552.72,
+    "duration": 4.0
+  },
+  {
+    "text": "right so what is the y here the box",
+    "start": 554.959,
+    "duration": 3.681
+  },
+  {
+    "text": "office collection and it depends on the",
+    "start": 556.72,
+    "duration": 3.679
+  },
+  {
+    "text": "characteristics of the movie right this",
+    "start": 558.64,
+    "duration": 3.52
+  },
+  {
+    "text": "depends this equation is still not",
+    "start": 560.399,
+    "duration": 3.44
+  },
+  {
+    "text": "complete y is equal to x is not what i",
+    "start": 562.16,
+    "duration": 2.88
+  },
+  {
+    "text": "want to write i want to write something",
+    "start": 563.839,
+    "duration": 3.12
+  },
+  {
+    "text": "else but i'll come to that right i'm",
+    "start": 565.04,
+    "duration": 4.0
+  },
+  {
+    "text": "saying that y depends on x",
+    "start": 566.959,
+    "duration": 4.0
+  },
+  {
+    "text": "then similarly in the interest rate y",
+    "start": 569.04,
+    "duration": 3.84
+  },
+  {
+    "text": "depends on that all the inputs that i'm",
+    "start": 570.959,
+    "duration": 4.0
+  },
+  {
+    "text": "taking and even in the first example of",
+    "start": 572.88,
+    "duration": 3.68
+  },
+  {
+    "text": "oil it depends so what do you what's the",
+    "start": 574.959,
+    "duration": 2.88
+  },
+  {
+    "text": "mathematical way of saying that",
+    "start": 576.56,
+    "duration": 2.959
+  },
+  {
+    "text": "something depends on something y is",
+    "start": 577.839,
+    "duration": 3.68
+  },
+  {
+    "text": "equal to a",
+    "start": 579.519,
+    "duration": 4.161
+  },
+  {
+    "text": "function of x right so i would say that",
+    "start": 581.519,
+    "duration": 5.281
+  },
+  {
+    "text": "y is equal to f of x right",
+    "start": 583.68,
+    "duration": 4.24
+  },
+  {
+    "text": "now if",
+    "start": 586.8,
+    "duration": 4.32
+  },
+  {
+    "text": "i knew this f there's no problem in the",
+    "start": 587.92,
+    "duration": 5.44
+  },
+  {
+    "text": "world right if i knew",
+    "start": 591.12,
+    "duration": 4.159
+  },
+  {
+    "text": "what is the function",
+    "start": 593.36,
+    "duration": 3.52
+  },
+  {
+    "text": "such that i plug in the values of",
+    "start": 595.279,
+    "duration": 3.68
+  },
+  {
+    "text": "salinity pressure density all of these",
+    "start": 596.88,
+    "duration": 4.16
+  },
+  {
+    "text": "factors and just tells me what the y",
+    "start": 598.959,
+    "duration": 4.32
+  },
+  {
+    "text": "would be if i had such a function all of",
+    "start": 601.04,
+    "duration": 3.359
+  },
+  {
+    "text": "us would be billionaires right we will",
+    "start": 603.279,
+    "duration": 2.721
+  },
+  {
+    "text": "just look at different locations plug in",
+    "start": 604.399,
+    "duration": 3.521
+  },
+  {
+    "text": "those values and wherever we get the",
+    "start": 606.0,
+    "duration": 3.44
+  },
+  {
+    "text": "highest mining we'll go and set up",
+    "start": 607.92,
+    "duration": 3.84
+  },
+  {
+    "text": "drilling stations there right but that",
+    "start": 609.44,
+    "duration": 4.959
+  },
+  {
+    "text": "function is not known right so this is",
+    "start": 611.76,
+    "duration": 4.96
+  },
+  {
+    "text": "the beauty of the problem we know",
+    "start": 614.399,
+    "duration": 4.88
+  },
+  {
+    "text": "that a function exists the output has to",
+    "start": 616.72,
+    "duration": 4.4
+  },
+  {
+    "text": "depend on certain inputs right these are",
+    "start": 619.279,
+    "duration": 3.68
+  },
+  {
+    "text": "the inputs and you could argue about oh",
+    "start": 621.12,
+    "duration": 3.279
+  },
+  {
+    "text": "but maybe you have not considered all",
+    "start": 622.959,
+    "duration": 2.961
+  },
+  {
+    "text": "the x's i would argue by saying okay",
+    "start": 624.399,
+    "duration": 3.281
+  },
+  {
+    "text": "consider all the x's if you have",
+    "start": 625.92,
+    "duration": 4.0
+  },
+  {
+    "text": "forgotten to consider the parent salary",
+    "start": 627.68,
+    "duration": 3.599
+  },
+  {
+    "text": "okay put it in you might say that it",
+    "start": 629.92,
+    "duration": 3.12
+  },
+  {
+    "text": "would depend on the parent salary you",
+    "start": 631.279,
+    "duration": 2.881
+  },
+  {
+    "text": "would say that you depend on the",
+    "start": 633.04,
+    "duration": 2.96
+  },
+  {
+    "text": "children's education okay put all of",
+    "start": 634.16,
+    "duration": 4.16
+  },
+  {
+    "text": "that in right and construct as",
+    "start": 636.0,
+    "duration": 4.72
+  },
+  {
+    "text": "comprehensive and x as you can and then",
+    "start": 638.32,
+    "duration": 4.88
+  },
+  {
+    "text": "i would say that the y depends on this x",
+    "start": 640.72,
+    "duration": 4.32
+  },
+  {
+    "text": "so y is a function of x",
+    "start": 643.2,
+    "duration": 3.759
+  },
+  {
+    "text": "so that is known that y is a function of",
+    "start": 645.04,
+    "duration": 3.76
+  },
+  {
+    "text": "x but what is not known is what is this",
+    "start": 646.959,
+    "duration": 4.0
+  },
+  {
+    "text": "function so now what do you do in this",
+    "start": 648.8,
+    "duration": 4.56
+  },
+  {
+    "text": "situation right so you want to now your",
+    "start": 650.959,
+    "duration": 4.241
+  },
+  {
+    "text": "goal is to come up with this function so",
+    "start": 653.36,
+    "duration": 4.24
+  },
+  {
+    "text": "that for new x's so for a new location",
+    "start": 655.2,
+    "duration": 4.48
+  },
+  {
+    "text": "which i say the shell company has hired",
+    "start": 657.6,
+    "duration": 3.28
+  },
+  {
+    "text": "you and said okay this is the location",
+    "start": 659.68,
+    "duration": 2.64
+  },
+  {
+    "text": "i'm considering can you tell me what is",
+    "start": 660.88,
+    "duration": 3.12
+  },
+  {
+    "text": "the oil that i could mine from there so",
+    "start": 662.32,
+    "duration": 3.759
+  },
+  {
+    "text": "you want to plug in that here and tell",
+    "start": 664.0,
+    "duration": 3.92
+  },
+  {
+    "text": "the company that this is what the",
+    "start": 666.079,
+    "duration": 4.561
+  },
+  {
+    "text": "quantity of oil i estimate right so you",
+    "start": 667.92,
+    "duration": 4.4
+  },
+  {
+    "text": "want to do that so what do you do in",
+    "start": 670.64,
+    "duration": 3.28
+  },
+  {
+    "text": "this case and this is the crux of",
+    "start": 672.32,
+    "duration": 4.639
+  },
+  {
+    "text": "machine learning that you assume some",
+    "start": 673.92,
+    "duration": 4.159
+  },
+  {
+    "text": "function",
+    "start": 676.959,
+    "duration": 1.921
+  },
+  {
+    "text": "okay",
+    "start": 678.079,
+    "duration": 4.88
+  },
+  {
+    "text": "you assume there is a function x",
+    "start": 678.88,
+    "duration": 4.079
+  },
+  {
+    "text": "parameterized by some parameters w or",
+    "start": 683.12,
+    "duration": 4.8
+  },
+  {
+    "text": "more generically we call it theta also",
+    "start": 686.079,
+    "duration": 4.32
+  },
+  {
+    "text": "at times so i'll just use theta maybe",
+    "start": 687.92,
+    "duration": 5.2
+  },
+  {
+    "text": "okay so you assume some form and that",
+    "start": 690.399,
+    "duration": 5.601
+  },
+  {
+    "text": "assumption is up to you right you assume",
+    "start": 693.12,
+    "duration": 5.76
+  },
+  {
+    "text": "that there is a function f hat which",
+    "start": 696.0,
+    "duration": 5.04
+  },
+  {
+    "text": "relates the inputs to the outputs it has",
+    "start": 698.88,
+    "duration": 3.519
+  },
+  {
+    "text": "certain parameters",
+    "start": 701.04,
+    "duration": 4.16
+  },
+  {
+    "text": "and now your job is to learn these",
+    "start": 702.399,
+    "duration": 4.401
+  },
+  {
+    "text": "parameters",
+    "start": 705.2,
+    "duration": 3.6
+  },
+  {
+    "text": "from the given data",
+    "start": 706.8,
+    "duration": 2.96
+  },
+  {
+    "text": "okay",
+    "start": 708.8,
+    "duration": 3.839
+  },
+  {
+    "text": "now let's look at a simple k so suppose",
+    "start": 709.76,
+    "duration": 5.84
+  },
+  {
+    "text": "you assume that y is equal to",
+    "start": 712.639,
+    "duration": 6.32
+  },
+  {
+    "text": "w x plus b this is a function",
+    "start": 715.6,
+    "duration": 4.16
+  },
+  {
+    "text": "okay",
+    "start": 718.959,
+    "duration": 3.201
+  },
+  {
+    "text": "and you have assumed that y depends on x",
+    "start": 719.76,
+    "duration": 4.319
+  },
+  {
+    "text": "it's capturing that and you have some",
+    "start": 722.16,
+    "duration": 3.2
+  },
+  {
+    "text": "parameters",
+    "start": 724.079,
+    "duration": 3.601
+  },
+  {
+    "text": "now how would you estimate the values of",
+    "start": 725.36,
+    "duration": 5.2
+  },
+  {
+    "text": "w and b if i give you two points",
+    "start": 727.68,
+    "duration": 4.56
+  },
+  {
+    "text": "maybe i should use a different form",
+    "start": 730.56,
+    "duration": 2.8
+  },
+  {
+    "text": "which is",
+    "start": 732.24,
+    "duration": 3.039
+  },
+  {
+    "text": "y is equal to mx plus c and now you",
+    "start": 733.36,
+    "duration": 3.44
+  },
+  {
+    "text": "would remember from my school that how",
+    "start": 735.279,
+    "duration": 2.881
+  },
+  {
+    "text": "do you estimate m and c if you're given",
+    "start": 736.8,
+    "duration": 3.12
+  },
+  {
+    "text": "two points you can get these two",
+    "start": 738.16,
+    "duration": 3.359
+  },
+  {
+    "text": "simultaneous equations and then you can",
+    "start": 739.92,
+    "duration": 3.52
+  },
+  {
+    "text": "find the values of m and c right so that",
+    "start": 741.519,
+    "duration": 3.201
+  },
+  {
+    "text": "is how we could do",
+    "start": 743.44,
+    "duration": 3.519
+  },
+  {
+    "text": "now in real-world applications it won't",
+    "start": 744.72,
+    "duration": 3.6
+  },
+  {
+    "text": "be like i mean i've taken a very",
+    "start": 746.959,
+    "duration": 3.201
+  },
+  {
+    "text": "simplistic example but what would happen",
+    "start": 748.32,
+    "duration": 3.519
+  },
+  {
+    "text": "is that you'll be given many such data",
+    "start": 750.16,
+    "duration": 3.84
+  },
+  {
+    "text": "points the key takeaway from the example",
+    "start": 751.839,
+    "duration": 3.68
+  },
+  {
+    "text": "is that if you're given data points",
+    "start": 754.0,
+    "duration": 4.32
+  },
+  {
+    "text": "which was two x comma y pairs right i",
+    "start": 755.519,
+    "duration": 5.521
+  },
+  {
+    "text": "have n x comma y pairs here if i just",
+    "start": 758.32,
+    "duration": 4.56
+  },
+  {
+    "text": "had 2 x comma y plus then i could",
+    "start": 761.04,
+    "duration": 3.919
+  },
+  {
+    "text": "predict the values of w and p right i",
+    "start": 762.88,
+    "duration": 3.519
+  },
+  {
+    "text": "could find out the values",
+    "start": 764.959,
+    "duration": 2.961
+  },
+  {
+    "text": "right and",
+    "start": 766.399,
+    "duration": 3.44
+  },
+  {
+    "text": "from that i just want you to extrapolate",
+    "start": 767.92,
+    "duration": 3.28
+  },
+  {
+    "text": "your belief and say that if you have",
+    "start": 769.839,
+    "duration": 3.841
+  },
+  {
+    "text": "many data points and many parameters you",
+    "start": 771.2,
+    "duration": 4.639
+  },
+  {
+    "text": "could come up with algorithms",
+    "start": 773.68,
+    "duration": 4.24
+  },
+  {
+    "text": "to find the values of these parameters",
+    "start": 775.839,
+    "duration": 3.921
+  },
+  {
+    "text": "okay in this case our algorithm was",
+    "start": 777.92,
+    "duration": 3.28
+  },
+  {
+    "text": "simple let's just construct a",
+    "start": 779.76,
+    "duration": 3.04
+  },
+  {
+    "text": "simultaneous equation and solve that",
+    "start": 781.2,
+    "duration": 3.36
+  },
+  {
+    "text": "simultaneous equation right but you",
+    "start": 782.8,
+    "duration": 3.2
+  },
+  {
+    "text": "could extrapolate this idea and you",
+    "start": 784.56,
+    "duration": 3.279
+  },
+  {
+    "text": "could say that if you have many data",
+    "start": 786.0,
+    "duration": 3.279
+  },
+  {
+    "text": "points given to you where the values of",
+    "start": 787.839,
+    "duration": 3.68
+  },
+  {
+    "text": "y and x are known and now you have some",
+    "start": 789.279,
+    "duration": 4.0
+  },
+  {
+    "text": "parameters to find you could estimate",
+    "start": 791.519,
+    "duration": 4.641
+  },
+  {
+    "text": "these parameters from the data okay so",
+    "start": 793.279,
+    "duration": 4.56
+  },
+  {
+    "text": "that's the game in machine learning",
+    "start": 796.16,
+    "duration": 3.52
+  },
+  {
+    "text": "there are few more details i'll now",
+    "start": 797.839,
+    "duration": 4.721
+  },
+  {
+    "text": "erase this whatever i have here and go",
+    "start": 799.68,
+    "duration": 5.2
+  },
+  {
+    "text": "into those details okay",
+    "start": 802.56,
+    "duration": 4.24
+  },
+  {
+    "text": "okay",
+    "start": 804.88,
+    "duration": 5.04
+  },
+  {
+    "text": "so our approximation of the relation",
+    "start": 806.8,
+    "duration": 5.52
+  },
+  {
+    "text": "between x and y is called the model",
+    "start": 809.92,
+    "duration": 3.599
+  },
+  {
+    "text": "right so when i say that i have a",
+    "start": 812.32,
+    "duration": 3.28
+  },
+  {
+    "text": "machine learning model what does a model",
+    "start": 813.519,
+    "duration": 4.88
+  },
+  {
+    "text": "mean model means your belief of what is",
+    "start": 815.6,
+    "duration": 4.72
+  },
+  {
+    "text": "the relation between y and x right and",
+    "start": 818.399,
+    "duration": 3.521
+  },
+  {
+    "text": "it could be anything it could be this",
+    "start": 820.32,
+    "duration": 3.6
+  },
+  {
+    "text": "function we just saw this",
+    "start": 821.92,
+    "duration": 4.159
+  },
+  {
+    "text": "that why it does it satisfy the criteria",
+    "start": 823.92,
+    "duration": 4.88
+  },
+  {
+    "text": "that i have y is a function of x",
+    "start": 826.079,
+    "duration": 5.361
+  },
+  {
+    "text": "it also has some parameters okay",
+    "start": 828.8,
+    "duration": 4.479
+  },
+  {
+    "text": "what is this have you seen this before",
+    "start": 831.44,
+    "duration": 3.68
+  },
+  {
+    "text": "in machine learning",
+    "start": 833.279,
+    "duration": 3.92
+  },
+  {
+    "text": "in machine learning what is this called",
+    "start": 835.12,
+    "duration": 3.92
+  },
+  {
+    "text": "it's called logistic regression right",
+    "start": 837.199,
+    "duration": 4.08
+  },
+  {
+    "text": "this is the logistic regression model",
+    "start": 839.04,
+    "duration": 3.919
+  },
+  {
+    "text": "what is this",
+    "start": 841.279,
+    "duration": 3.041
+  },
+  {
+    "text": "linear regression you are assuming there",
+    "start": 842.959,
+    "duration": 4.0
+  },
+  {
+    "text": "is a linear relationship between y and x",
+    "start": 844.32,
+    "duration": 4.0
+  },
+  {
+    "text": "this is you are assuming there is a",
+    "start": 846.959,
+    "duration": 3.12
+  },
+  {
+    "text": "quadratic relation right",
+    "start": 848.32,
+    "duration": 3.92
+  },
+  {
+    "text": "any of this assumption is equally good",
+    "start": 850.079,
+    "duration": 4.0
+  },
+  {
+    "text": "or bad right now in deep learning you",
+    "start": 852.24,
+    "duration": 4.08
+  },
+  {
+    "text": "are going to we'll see that later on",
+    "start": 854.079,
+    "duration": 4.0
+  },
+  {
+    "text": "again you assume",
+    "start": 856.32,
+    "duration": 4.319
+  },
+  {
+    "text": "some f",
+    "start": 858.079,
+    "duration": 2.56
+  },
+  {
+    "text": "right and as the name suggests this f is",
+    "start": 861.92,
+    "duration": 5.279
+  },
+  {
+    "text": "going to be very deep",
+    "start": 865.519,
+    "duration": 3.68
+  },
+  {
+    "text": "what it means in mathematical terms is",
+    "start": 867.199,
+    "duration": 3.681
+  },
+  {
+    "text": "going to be a very complex composite",
+    "start": 869.199,
+    "duration": 3.681
+  },
+  {
+    "text": "function right and we'll get there but",
+    "start": 870.88,
+    "duration": 3.44
+  },
+  {
+    "text": "again in deep learning there's nothing",
+    "start": 872.88,
+    "duration": 3.84
+  },
+  {
+    "text": "different it's just that as you had",
+    "start": 874.32,
+    "duration": 3.6
+  },
+  {
+    "text": "certain",
+    "start": 876.72,
+    "duration": 4.32
+  },
+  {
+    "text": "forms of f hat here deep learning has a",
+    "start": 877.92,
+    "duration": 4.4
+  },
+  {
+    "text": "certain form",
+    "start": 881.04,
+    "duration": 3.359
+  },
+  {
+    "text": "and that form we will see later as we go",
+    "start": 882.32,
+    "duration": 4.319
+  },
+  {
+    "text": "on okay now one question so why are",
+    "start": 884.399,
+    "duration": 4.081
+  },
+  {
+    "text": "parameters important here why can't i",
+    "start": 886.639,
+    "duration": 4.64
+  },
+  {
+    "text": "just assume that y hat is equal to 1",
+    "start": 888.48,
+    "duration": 3.68
+  },
+  {
+    "text": "over",
+    "start": 891.279,
+    "duration": 5.281
+  },
+  {
+    "text": "1 plus e raised to minus x",
+    "start": 892.16,
+    "duration": 4.4
+  },
+  {
+    "text": "why do i need the parameter this is also",
+    "start": 897.6,
+    "duration": 2.72
+  },
+  {
+    "text": "a function",
+    "start": 899.199,
+    "duration": 2.0
+  },
+  {
+    "text": "it",
+    "start": 900.32,
+    "duration": 2.879
+  },
+  {
+    "text": "y hat depends on x because this is a",
+    "start": 901.199,
+    "duration": 4.561
+  },
+  {
+    "text": "function of x why can't i just use this",
+    "start": 903.199,
+    "duration": 4.721
+  },
+  {
+    "text": "why am i complicating it by adding",
+    "start": 905.76,
+    "duration": 4.8
+  },
+  {
+    "text": "parameters",
+    "start": 907.92,
+    "duration": 2.64
+  },
+  {
+    "text": "different",
+    "start": 911.6,
+    "duration": 3.52
+  },
+  {
+    "text": "different weightages to different",
+    "start": 913.519,
+    "duration": 3.281
+  },
+  {
+    "text": "features okay",
+    "start": 915.12,
+    "duration": 3.839
+  },
+  {
+    "text": "but something more fundamental than that",
+    "start": 916.8,
+    "duration": 4.56
+  },
+  {
+    "text": "right let me",
+    "start": 918.959,
+    "duration": 2.401
+  },
+  {
+    "text": "okay",
+    "start": 923.519,
+    "duration": 3.0
+  },
+  {
+    "text": "so this",
+    "start": 926.56,
+    "duration": 3.36
+  },
+  {
+    "text": "doing this is akin to saying that y is",
+    "start": 927.68,
+    "duration": 4.8
+  },
+  {
+    "text": "equal to 3x plus",
+    "start": 929.92,
+    "duration": 4.159
+  },
+  {
+    "text": "2.",
+    "start": 932.48,
+    "duration": 3.2
+  },
+  {
+    "text": "i have fixed my parameters right here",
+    "start": 934.079,
+    "duration": 3.841
+  },
+  {
+    "text": "i'm just saying that the parameter is 1",
+    "start": 935.68,
+    "duration": 4.24
+  },
+  {
+    "text": "right what is the problem with this i'm",
+    "start": 937.92,
+    "duration": 4.08
+  },
+  {
+    "text": "not learning this i just said okay y is",
+    "start": 939.92,
+    "duration": 4.479
+  },
+  {
+    "text": "equal to 3x plus 2 i just cooked it up",
+    "start": 942.0,
+    "duration": 3.199
+  },
+  {
+    "text": "now",
+    "start": 944.399,
+    "duration": 2.481
+  },
+  {
+    "text": "who tells me whether 3 and 2 are the",
+    "start": 945.199,
+    "duration": 3.521
+  },
+  {
+    "text": "right values i have to learn that from",
+    "start": 946.88,
+    "duration": 4.319
+  },
+  {
+    "text": "the data right so if i don't have any",
+    "start": 948.72,
+    "duration": 4.799
+  },
+  {
+    "text": "parameters i have nothing to learn i",
+    "start": 951.199,
+    "duration": 3.841
+  },
+  {
+    "text": "just told you y hat is equal to 1 plus e",
+    "start": 953.519,
+    "duration": 3.281
+  },
+  {
+    "text": "raised to minus x now throw away all the",
+    "start": 955.04,
+    "duration": 3.84
+  },
+  {
+    "text": "data that you have for any new x that",
+    "start": 956.8,
+    "duration": 3.52
+  },
+  {
+    "text": "you get just plug in here and you'll get",
+    "start": 958.88,
+    "duration": 3.36
+  },
+  {
+    "text": "the value and live with whatever value",
+    "start": 960.32,
+    "duration": 3.6
+  },
+  {
+    "text": "and that's not what you want to do right",
+    "start": 962.24,
+    "duration": 3.599
+  },
+  {
+    "text": "you want to have certain parameters so",
+    "start": 963.92,
+    "duration": 3.599
+  },
+  {
+    "text": "that those parameters can be learned",
+    "start": 965.839,
+    "duration": 3.041
+  },
+  {
+    "text": "right so what would happen in the",
+    "start": 967.519,
+    "duration": 4.081
+  },
+  {
+    "text": "sigmoid case for example right",
+    "start": 968.88,
+    "duration": 5.36
+  },
+  {
+    "text": "this is what a sigmoid function looks",
+    "start": 971.6,
+    "duration": 4.72
+  },
+  {
+    "text": "like right and it will look like this",
+    "start": 974.24,
+    "duration": 3.36
+  },
+  {
+    "text": "s-shaped",
+    "start": 976.32,
+    "duration": 3.519
+  },
+  {
+    "text": "but depending on the values of w and b",
+    "start": 977.6,
+    "duration": 3.919
+  },
+  {
+    "text": "it will decide whether this",
+    "start": 979.839,
+    "duration": 4.161
+  },
+  {
+    "text": "is something like this",
+    "start": 981.519,
+    "duration": 4.0
+  },
+  {
+    "text": "something like this",
+    "start": 984.0,
+    "duration": 2.88
+  },
+  {
+    "text": "or is it",
+    "start": 985.519,
+    "duration": 3.76
+  },
+  {
+    "text": "something like this right so all of this",
+    "start": 986.88,
+    "duration": 4.16
+  },
+  {
+    "text": "will depend on your values of them so",
+    "start": 989.279,
+    "duration": 3.92
+  },
+  {
+    "text": "you can have a function form",
+    "start": 991.04,
+    "duration": 3.76
+  },
+  {
+    "text": "but you can adjust that form of the",
+    "start": 993.199,
+    "duration": 4.0
+  },
+  {
+    "text": "function by or adjust the shape of the",
+    "start": 994.8,
+    "duration": 4.479
+  },
+  {
+    "text": "function by using these parameters right",
+    "start": 997.199,
+    "duration": 2.88
+  },
+  {
+    "text": "so that's why if you don't have",
+    "start": 999.279,
+    "duration": 2.24
+  },
+  {
+    "text": "parameters and all your data is useless",
+    "start": 1000.079,
+    "duration": 2.88
+  },
+  {
+    "text": "right if you just say my equation is",
+    "start": 1001.519,
+    "duration": 3.281
+  },
+  {
+    "text": "this you have not even looked at the two",
+    "start": 1002.959,
+    "duration": 2.961
+  },
+  {
+    "text": "points how do you know that those two",
+    "start": 1004.8,
+    "duration": 2.64
+  },
+  {
+    "text": "points will satisfy this equation right",
+    "start": 1005.92,
+    "duration": 3.68
+  },
+  {
+    "text": "so to look at the points and then come",
+    "start": 1007.44,
+    "duration": 3.519
+  },
+  {
+    "text": "up with this equation right then you",
+    "start": 1009.6,
+    "duration": 3.039
+  },
+  {
+    "text": "have to find the values of w and b so",
+    "start": 1010.959,
+    "duration": 3.601
+  },
+  {
+    "text": "that's the same idea here that's why you",
+    "start": 1012.639,
+    "duration": 5.041
+  },
+  {
+    "text": "need these parameters",
+    "start": 1014.56,
+    "duration": 3.12
+  },
+  {
+    "text": "okay now",
+    "start": 1017.759,
+    "duration": 4.161
+  },
+  {
+    "text": "learning algorithm right so once",
+    "start": 1019.44,
+    "duration": 3.839
+  },
+  {
+    "text": "you have set up the model you have the",
+    "start": 1021.92,
+    "duration": 3.999
+  },
+  {
+    "text": "data now you need an algorithm so that",
+    "start": 1023.279,
+    "duration": 5.52
+  },
+  {
+    "text": "you can learn these parameters template",
+    "start": 1025.919,
+    "duration": 4.64
+  },
+  {
+    "text": "in the case of y is equal to mx plus c",
+    "start": 1028.799,
+    "duration": 3.52
+  },
+  {
+    "text": "our algorithm was simple just have two",
+    "start": 1030.559,
+    "duration": 3.681
+  },
+  {
+    "text": "points plug them in get two simultaneous",
+    "start": 1032.319,
+    "duration": 3.201
+  },
+  {
+    "text": "equations solve that right so the",
+    "start": 1034.24,
+    "duration": 3.28
+  },
+  {
+    "text": "algorithm is the algorithm for solving",
+    "start": 1035.52,
+    "duration": 3.279
+  },
+  {
+    "text": "the simultaneous equation and we are",
+    "start": 1037.52,
+    "duration": 3.76
+  },
+  {
+    "text": "done right but in large parameters large",
+    "start": 1038.799,
+    "duration": 4.561
+  },
+  {
+    "text": "data we need something better something",
+    "start": 1041.28,
+    "duration": 3.84
+  },
+  {
+    "text": "more principled and we have already seen",
+    "start": 1043.36,
+    "duration": 3.199
+  },
+  {
+    "text": "one example which is the perceptron",
+    "start": 1045.12,
+    "duration": 3.12
+  },
+  {
+    "text": "learning algorithm and now we are going",
+    "start": 1046.559,
+    "duration": 3.841
+  },
+  {
+    "text": "to see gradient descent in some time",
+    "start": 1048.24,
+    "duration": 5.2
+  },
+  {
+    "text": "right so that's what we need now what",
+    "start": 1050.4,
+    "duration": 4.639
+  },
+  {
+    "text": "should the goal of this learning",
+    "start": 1053.44,
+    "duration": 4.08
+  },
+  {
+    "text": "algorithm be so when would you say",
+    "start": 1055.039,
+    "duration": 4.321
+  },
+  {
+    "text": "that the parameters that i have learnt",
+    "start": 1057.52,
+    "duration": 3.44
+  },
+  {
+    "text": "are good right so in the case of",
+    "start": 1059.36,
+    "duration": 4.0
+  },
+  {
+    "text": "perceptron algorithm we had this loop",
+    "start": 1060.96,
+    "duration": 5.04
+  },
+  {
+    "text": "which said while not convergence to this",
+    "start": 1063.36,
+    "duration": 3.439
+  },
+  {
+    "text": "right",
+    "start": 1066.0,
+    "duration": 3.12
+  },
+  {
+    "text": "and there we had assumed that the data",
+    "start": 1066.799,
+    "duration": 4.88
+  },
+  {
+    "text": "is linearly separable so i will keep",
+    "start": 1069.12,
+    "duration": 4.08
+  },
+  {
+    "text": "running the algorithm",
+    "start": 1071.679,
+    "duration": 4.401
+  },
+  {
+    "text": "till no point moves right or still the w",
+    "start": 1073.2,
+    "duration": 4.64
+  },
+  {
+    "text": "the new value of w does not move because",
+    "start": 1076.08,
+    "duration": 3.599
+  },
+  {
+    "text": "all the points are on the correct side",
+    "start": 1077.84,
+    "duration": 4.16
+  },
+  {
+    "text": "of the line or the play right that was",
+    "start": 1079.679,
+    "duration": 4.801
+  },
+  {
+    "text": "fine but that was that means you were",
+    "start": 1082.0,
+    "duration": 5.52
+  },
+  {
+    "text": "going for zero error right but now there",
+    "start": 1084.48,
+    "duration": 5.439
+  },
+  {
+    "text": "is no idea of zero error as i said in",
+    "start": 1087.52,
+    "duration": 3.84
+  },
+  {
+    "text": "most available applications we'll have",
+    "start": 1089.919,
+    "duration": 4.401
+  },
+  {
+    "text": "to deal with minimum error right so then",
+    "start": 1091.36,
+    "duration": 5.199
+  },
+  {
+    "text": "what should your learning algorithm do",
+    "start": 1094.32,
+    "duration": 4.56
+  },
+  {
+    "text": "it should have a certain objective right",
+    "start": 1096.559,
+    "duration": 4.321
+  },
+  {
+    "text": "in the case of perceptron the objective",
+    "start": 1098.88,
+    "duration": 5.12
+  },
+  {
+    "text": "was to separate the data that means no",
+    "start": 1100.88,
+    "duration": 5.36
+  },
+  {
+    "text": "point misclassified that means zero",
+    "start": 1104.0,
+    "duration": 3.2
+  },
+  {
+    "text": "error",
+    "start": 1106.24,
+    "duration": 2.72
+  },
+  {
+    "text": "now your objective function which is",
+    "start": 1107.2,
+    "duration": 4.16
+  },
+  {
+    "text": "going to guide the learning algorithm",
+    "start": 1108.96,
+    "duration": 4.959
+  },
+  {
+    "text": "has to be something about minimizing the",
+    "start": 1111.36,
+    "duration": 4.96
+  },
+  {
+    "text": "error right how to do that what is error",
+    "start": 1113.919,
+    "duration": 3.841
+  },
+  {
+    "text": "all of that we'll see in the subsequent",
+    "start": 1116.32,
+    "duration": 3.68
+  },
+  {
+    "text": "slides right but that should what the",
+    "start": 1117.76,
+    "duration": 4.88
+  },
+  {
+    "text": "goal be right",
+    "start": 1120.0,
+    "duration": 3.6
+  },
+  {
+    "text": "and",
+    "start": 1122.64,
+    "duration": 2.96
+  },
+  {
+    "text": "let's see",
+    "start": 1123.6,
+    "duration": 3.84
+  },
+  {
+    "text": "yeah so the learning algorithm should",
+    "start": 1125.6,
+    "duration": 4.079
+  },
+  {
+    "text": "aim to minimize the loss function right",
+    "start": 1127.44,
+    "duration": 4.64
+  },
+  {
+    "text": "there is more to be said here but i'll",
+    "start": 1129.679,
+    "duration": 3.921
+  },
+  {
+    "text": "not say those things in this slide we",
+    "start": 1132.08,
+    "duration": 2.959
+  },
+  {
+    "text": "are going to come back to this slide",
+    "start": 1133.6,
+    "duration": 3.68
+  },
+  {
+    "text": "again in a different form and then i'll",
+    "start": 1135.039,
+    "duration": 4.081
+  },
+  {
+    "text": "say a bit more right so right now i",
+    "start": 1137.28,
+    "duration": 3.68
+  },
+  {
+    "text": "think what should be clear is the data",
+    "start": 1139.12,
+    "duration": 3.6
+  },
+  {
+    "text": "set up those three examples that i",
+    "start": 1140.96,
+    "duration": 3.68
+  },
+  {
+    "text": "showed the model which is our",
+    "start": 1142.72,
+    "duration": 3.839
+  },
+  {
+    "text": "approximation of the relation between x",
+    "start": 1144.64,
+    "duration": 4.399
+  },
+  {
+    "text": "and y the learning algorithm which whole",
+    "start": 1146.559,
+    "duration": 4.321
+  },
+  {
+    "text": "point is to learn w",
+    "start": 1149.039,
+    "duration": 3.841
+  },
+  {
+    "text": "any learning has to be driven by an",
+    "start": 1150.88,
+    "duration": 4.96
+  },
+  {
+    "text": "objective right so that the objective is",
+    "start": 1152.88,
+    "duration": 5.36
+  },
+  {
+    "text": "to minimize the error function and",
+    "start": 1155.84,
+    "duration": 5.04
+  },
+  {
+    "text": "that's what the objective is now",
+    "start": 1158.24,
+    "duration": 3.92
+  },
+  {
+    "text": "how do you come up with the learning",
+    "start": 1160.88,
+    "duration": 3.039
+  },
+  {
+    "text": "algorithm how do you define the",
+    "start": 1162.16,
+    "duration": 3.28
+  },
+  {
+    "text": "objective function right so up till this",
+    "start": 1163.919,
+    "duration": 3.12
+  },
+  {
+    "text": "point i have defined everything",
+    "start": 1165.44,
+    "duration": 2.88
+  },
+  {
+    "text": "mathematically",
+    "start": 1167.039,
+    "duration": 3.361
+  },
+  {
+    "text": "right but now objective function have",
+    "start": 1168.32,
+    "duration": 3.76
+  },
+  {
+    "text": "objective function i have not defined so",
+    "start": 1170.4,
+    "duration": 2.56
+  },
+  {
+    "text": "i will have to tell you what the",
+    "start": 1172.08,
+    "duration": 2.08
+  },
+  {
+    "text": "objective function is but we will come",
+    "start": 1172.96,
+    "duration": 2.56
+  },
+  {
+    "text": "back to that okay",
+    "start": 1174.16,
+    "duration": 3.28
+  },
+  {
+    "text": "so now",
+    "start": 1175.52,
+    "duration": 3.92
+  },
+  {
+    "text": "consider our movie example",
+    "start": 1177.44,
+    "duration": 3.92
+  },
+  {
+    "text": "so this is the",
+    "start": 1179.44,
+    "duration": 4.0
+  },
+  {
+    "text": "movie data given to me right x i is",
+    "start": 1181.36,
+    "duration": 4.16
+  },
+  {
+    "text": "equal to movie i'm just using a shortcut",
+    "start": 1183.44,
+    "duration": 4.16
+  },
+  {
+    "text": "when i say x is equal to movie i i mean",
+    "start": 1185.52,
+    "duration": 4.56
+  },
+  {
+    "text": "that entire vector right all the actor",
+    "start": 1187.6,
+    "duration": 4.72
+  },
+  {
+    "text": "information budget information number of",
+    "start": 1190.08,
+    "duration": 4.64
+  },
+  {
+    "text": "superstars blah blah and y i is equal to",
+    "start": 1192.32,
+    "duration": 6.479
+  },
+  {
+    "text": "0 comma 1 right so that's what it is",
+    "start": 1194.72,
+    "duration": 4.079
+  },
+  {
+    "text": "our approximation of the relation",
+    "start": 1202.159,
+    "duration": 4.0
+  },
+  {
+    "text": "between x and y so our approximation was",
+    "start": 1203.6,
+    "duration": 6.16
+  },
+  {
+    "text": "that y hat is equal to the sigmoid",
+    "start": 1206.159,
+    "duration": 5.921
+  },
+  {
+    "text": "function of x right with the parameters",
+    "start": 1209.76,
+    "duration": 4.399
+  },
+  {
+    "text": "being w okay",
+    "start": 1212.08,
+    "duration": 3.12
+  },
+  {
+    "text": "then",
+    "start": 1214.159,
+    "duration": 3.041
+  },
+  {
+    "text": "learning algorithm is gradient decent we",
+    "start": 1215.2,
+    "duration": 3.92
+  },
+  {
+    "text": "don't know that but the idea of gradient",
+    "start": 1217.2,
+    "duration": 5.359
+  },
+  {
+    "text": "descent is to find the w right and what",
+    "start": 1219.12,
+    "duration": 5.36
+  },
+  {
+    "text": "is the objective function what should my",
+    "start": 1222.559,
+    "duration": 4.401
+  },
+  {
+    "text": "objective function be right we can let's",
+    "start": 1224.48,
+    "duration": 4.64
+  },
+  {
+    "text": "try to arrive at an objective function",
+    "start": 1226.96,
+    "duration": 4.32
+  },
+  {
+    "text": "so i am given some data",
+    "start": 1229.12,
+    "duration": 6.0
+  },
+  {
+    "text": "okay x comma y and now i have this",
+    "start": 1231.28,
+    "duration": 5.44
+  },
+  {
+    "text": "approximation",
+    "start": 1235.12,
+    "duration": 4.0
+  },
+  {
+    "text": "at the end of learning what would you",
+    "start": 1236.72,
+    "duration": 4.079
+  },
+  {
+    "text": "want",
+    "start": 1239.12,
+    "duration": 3.6
+  },
+  {
+    "text": "you would want that this y hat should be",
+    "start": 1240.799,
+    "duration": 5.041
+  },
+  {
+    "text": "as close to y right that means the",
+    "start": 1242.72,
+    "duration": 5.92
+  },
+  {
+    "text": "difference between y hat and y should be",
+    "start": 1245.84,
+    "duration": 5.12
+  },
+  {
+    "text": "as small as possible okay",
+    "start": 1248.64,
+    "duration": 4.0
+  },
+  {
+    "text": "for",
+    "start": 1250.96,
+    "duration": 5.599
+  },
+  {
+    "text": "all the training examples that i have",
+    "start": 1252.64,
+    "duration": 6.64
+  },
+  {
+    "text": "maybe n right",
+    "start": 1256.559,
+    "duration": 4.881
+  },
+  {
+    "text": "if i sum up this difference okay and",
+    "start": 1259.28,
+    "duration": 4.24
+  },
+  {
+    "text": "i'll not i'll just call it as difference",
+    "start": 1261.44,
+    "duration": 4.4
+  },
+  {
+    "text": "right so difference between y hat and y",
+    "start": 1263.52,
+    "duration": 3.76
+  },
+  {
+    "text": "and i can now define the difference the",
+    "start": 1265.84,
+    "duration": 3.6
+  },
+  {
+    "text": "function the way i want to right so the",
+    "start": 1267.28,
+    "duration": 4.56
+  },
+  {
+    "text": "difference between y hat and y sum",
+    "start": 1269.44,
+    "duration": 4.239
+  },
+  {
+    "text": "across all the",
+    "start": 1271.84,
+    "duration": 3.28
+  },
+  {
+    "text": "training examples",
+    "start": 1273.679,
+    "duration": 3.441
+  },
+  {
+    "text": "should be as small as possible right",
+    "start": 1275.12,
+    "duration": 3.919
+  },
+  {
+    "text": "that's the same as saying that",
+    "start": 1277.12,
+    "duration": 4.88
+  },
+  {
+    "text": "minimize this difference right so this",
+    "start": 1279.039,
+    "duration": 5.041
+  },
+  {
+    "text": "is my loss function now",
+    "start": 1282.0,
+    "duration": 4.48
+  },
+  {
+    "text": "okay and i want to minimize this",
+    "start": 1284.08,
+    "duration": 5.52
+  },
+  {
+    "text": "okay and i could choose different ways",
+    "start": 1286.48,
+    "duration": 4.64
+  },
+  {
+    "text": "of",
+    "start": 1289.6,
+    "duration": 3.68
+  },
+  {
+    "text": "defining this distance",
+    "start": 1291.12,
+    "duration": 4.16
+  },
+  {
+    "text": "or the d function right and i could",
+    "start": 1293.28,
+    "duration": 3.36
+  },
+  {
+    "text": "choose the squared error loss for",
+    "start": 1295.28,
+    "duration": 3.44
+  },
+  {
+    "text": "example so what is this saying that",
+    "start": 1296.64,
+    "duration": 4.08
+  },
+  {
+    "text": "this is my loss function which is i look",
+    "start": 1298.72,
+    "duration": 4.16
+  },
+  {
+    "text": "at all the training examples i look at",
+    "start": 1300.72,
+    "duration": 4.319
+  },
+  {
+    "text": "the difference between y hat and y and i",
+    "start": 1302.88,
+    "duration": 3.919
+  },
+  {
+    "text": "take the square of the difference why do",
+    "start": 1305.039,
+    "duration": 3.52
+  },
+  {
+    "text": "we take the square of the difference so",
+    "start": 1306.799,
+    "duration": 3.441
+  },
+  {
+    "text": "that the positive errors don't cancel",
+    "start": 1308.559,
+    "duration": 3.281
+  },
+  {
+    "text": "the negative errors right so now suppose",
+    "start": 1310.24,
+    "duration": 4.319
+  },
+  {
+    "text": "i wanted the value to be 1",
+    "start": 1311.84,
+    "duration": 5.52
+  },
+  {
+    "text": "okay and it predicted it as 0.5",
+    "start": 1314.559,
+    "duration": 5.201
+  },
+  {
+    "text": "then my error is",
+    "start": 1317.36,
+    "duration": 5.76
+  },
+  {
+    "text": "minus 0.5 okay",
+    "start": 1319.76,
+    "duration": 6.32
+  },
+  {
+    "text": "yeah this was y hat this was y so y hat",
+    "start": 1323.12,
+    "duration": 5.12
+  },
+  {
+    "text": "minus y is minus 0.5 but there was",
+    "start": 1326.08,
+    "duration": 4.56
+  },
+  {
+    "text": "another example where i wanted y",
+    "start": 1328.24,
+    "duration": 6.0
+  },
+  {
+    "text": "and y hat was predicted as 1.5 so now my",
+    "start": 1330.64,
+    "duration": 6.399
+  },
+  {
+    "text": "difference would be 0.5 plus 0.5 so if i",
+    "start": 1334.24,
+    "duration": 4.799
+  },
+  {
+    "text": "just take the sum of the differences",
+    "start": 1337.039,
+    "duration": 4.801
+  },
+  {
+    "text": "then this minus 0.5 will cancel this 0.5",
+    "start": 1339.039,
+    "duration": 4.481
+  },
+  {
+    "text": "and it will look like i have zero error",
+    "start": 1341.84,
+    "duration": 3.199
+  },
+  {
+    "text": "whereas actually i have made two errors",
+    "start": 1343.52,
+    "duration": 3.2
+  },
+  {
+    "text": "and two horrible errors right both by",
+    "start": 1345.039,
+    "duration": 4.801
+  },
+  {
+    "text": "off by 0.5 so the moment you square it",
+    "start": 1346.72,
+    "duration": 5.04
+  },
+  {
+    "text": "that sign disappears right so you could",
+    "start": 1349.84,
+    "duration": 4.0
+  },
+  {
+    "text": "take the square and the other you could",
+    "start": 1351.76,
+    "duration": 3.6
+  },
+  {
+    "text": "have argued that why not just take the",
+    "start": 1353.84,
+    "duration": 4.079
+  },
+  {
+    "text": "norm right it's just the absolute value",
+    "start": 1355.36,
+    "duration": 4.16
+  },
+  {
+    "text": "right but the problem with the absolute",
+    "start": 1357.919,
+    "duration": 3.521
+  },
+  {
+    "text": "value is that it's not a smooth",
+    "start": 1359.52,
+    "duration": 3.92
+  },
+  {
+    "text": "differentiable function whereas a square",
+    "start": 1361.44,
+    "duration": 3.44
+  },
+  {
+    "text": "function is a smooth differentiable",
+    "start": 1363.44,
+    "duration": 2.4
+  },
+  {
+    "text": "function",
+    "start": 1364.88,
+    "duration": 3.44
+  },
+  {
+    "text": "and we want uh smooth differentiable",
+    "start": 1365.84,
+    "duration": 3.92
+  },
+  {
+    "text": "functions because later on the hero of",
+    "start": 1368.32,
+    "duration": 2.96
+  },
+  {
+    "text": "the course is going to be calculus where",
+    "start": 1369.76,
+    "duration": 3.2
+  },
+  {
+    "text": "differentiability would be important",
+    "start": 1371.28,
+    "duration": 3.2
+  },
+  {
+    "text": "right so that's the area so now i have",
+    "start": 1372.96,
+    "duration": 3.76
+  },
+  {
+    "text": "defined an objective function",
+    "start": 1374.48,
+    "duration": 3.199
+  },
+  {
+    "text": "and",
+    "start": 1376.72,
+    "duration": 4.48
+  },
+  {
+    "text": "the learning algorithm should find w's",
+    "start": 1377.679,
+    "duration": 5.441
+  },
+  {
+    "text": "such that when i plug in these values of",
+    "start": 1381.2,
+    "duration": 2.959
+  },
+  {
+    "text": "w",
+    "start": 1383.12,
+    "duration": 3.6
+  },
+  {
+    "text": "this loss value that i get should be as",
+    "start": 1384.159,
+    "duration": 4.4
+  },
+  {
+    "text": "small as possible what does that mean",
+    "start": 1386.72,
+    "duration": 4.079
+  },
+  {
+    "text": "there are infinite possible values of w",
+    "start": 1388.559,
+    "duration": 5.281
+  },
+  {
+    "text": "right so w is an",
+    "start": 1390.799,
+    "duration": 3.041
+  },
+  {
+    "text": "rn vector right it's an n dimensional",
+    "start": 1394.0,
+    "duration": 3.919
+  },
+  {
+    "text": "real vector right",
+    "start": 1395.84,
+    "duration": 3.839
+  },
+  {
+    "text": "m okay",
+    "start": 1397.919,
+    "duration": 4.161
+  },
+  {
+    "text": "sorry m dimensional real vector and",
+    "start": 1399.679,
+    "duration": 5.201
+  },
+  {
+    "text": "these are real values",
+    "start": 1402.08,
+    "duration": 4.64
+  },
+  {
+    "text": "ah that's okay m plus one right that's",
+    "start": 1404.88,
+    "duration": 4.08
+  },
+  {
+    "text": "okay not a problem uh so",
+    "start": 1406.72,
+    "duration": 4.079
+  },
+  {
+    "text": "order m we can say right so m plus one",
+    "start": 1408.96,
+    "duration": 4.079
+  },
+  {
+    "text": "because w naught is also there so this",
+    "start": 1410.799,
+    "duration": 3.521
+  },
+  {
+    "text": "is uh",
+    "start": 1413.039,
+    "duration": 2.561
+  },
+  {
+    "text": "m plus one dimensional vector which can",
+    "start": 1414.32,
+    "duration": 2.88
+  },
+  {
+    "text": "take real values each value can go from",
+    "start": 1415.6,
+    "duration": 3.12
+  },
+  {
+    "text": "minus infinity to infinity right so",
+    "start": 1417.2,
+    "duration": 4.88
+  },
+  {
+    "text": "there are infinite possibilities here of",
+    "start": 1418.72,
+    "duration": 4.4
+  },
+  {
+    "text": "those",
+    "start": 1422.08,
+    "duration": 3.28
+  },
+  {
+    "text": "i want one such w",
+    "start": 1423.12,
+    "duration": 4.32
+  },
+  {
+    "text": "which if i plug in if i were able to",
+    "start": 1425.36,
+    "duration": 4.08
+  },
+  {
+    "text": "plug in all these infinite values of w",
+    "start": 1427.44,
+    "duration": 3.839
+  },
+  {
+    "text": "into this equation right this is the",
+    "start": 1429.44,
+    "duration": 3.68
+  },
+  {
+    "text": "equation that i care about and i want",
+    "start": 1431.279,
+    "duration": 4.0
+  },
+  {
+    "text": "that w which will give me the smallest",
+    "start": 1433.12,
+    "duration": 3.919
+  },
+  {
+    "text": "value for the loss function that's what",
+    "start": 1435.279,
+    "duration": 3.52
+  },
+  {
+    "text": "my goal is right so that's the objective",
+    "start": 1437.039,
+    "duration": 3.76
+  },
+  {
+    "text": "of training now the other thing that i",
+    "start": 1438.799,
+    "duration": 4.561
+  },
+  {
+    "text": "want to say here right i just want to",
+    "start": 1440.799,
+    "duration": 4.24
+  },
+  {
+    "text": "talk a bit more about this learning",
+    "start": 1443.36,
+    "duration": 4.24
+  },
+  {
+    "text": "algorithm and the loss function right so",
+    "start": 1445.039,
+    "duration": 4.64
+  },
+  {
+    "text": "any kind of learning as i said is always",
+    "start": 1447.6,
+    "duration": 4.24
+  },
+  {
+    "text": "driven by some objective right and i",
+    "start": 1449.679,
+    "duration": 4.24
+  },
+  {
+    "text": "like to give this analogy let's suppose",
+    "start": 1451.84,
+    "duration": 2.959
+  },
+  {
+    "text": "in high school you're learning",
+    "start": 1453.919,
+    "duration": 2.961
+  },
+  {
+    "text": "trigonometry right so when you're",
+    "start": 1454.799,
+    "duration": 3.841
+  },
+  {
+    "text": "learning the chapter what are you doing",
+    "start": 1456.88,
+    "duration": 2.96
+  },
+  {
+    "text": "you're reading the chapter because",
+    "start": 1458.64,
+    "duration": 2.399
+  },
+  {
+    "text": "you're allowed to read this is not a",
+    "start": 1459.84,
+    "duration": 2.719
+  },
+  {
+    "text": "test right you're allowed to read the",
+    "start": 1461.039,
+    "duration": 2.561
+  },
+  {
+    "text": "textbook",
+    "start": 1462.559,
+    "duration": 2.561
+  },
+  {
+    "text": "and your goal",
+    "start": 1463.6,
+    "duration": 3.84
+  },
+  {
+    "text": "would be to ensure that all the formulae",
+    "start": 1465.12,
+    "duration": 4.799
+  },
+  {
+    "text": "which are given in the chapter",
+    "start": 1467.44,
+    "duration": 4.8
+  },
+  {
+    "text": "you don't make any errors on that is",
+    "start": 1469.919,
+    "duration": 4.0
+  },
+  {
+    "text": "that correct that's what your goal would",
+    "start": 1472.24,
+    "duration": 4.4
+  },
+  {
+    "text": "be that is akin to saying that",
+    "start": 1473.919,
+    "duration": 4.64
+  },
+  {
+    "text": "for all the training points that i am",
+    "start": 1476.64,
+    "duration": 4.0
+  },
+  {
+    "text": "given i should not make any error or i",
+    "start": 1478.559,
+    "duration": 3.841
+  },
+  {
+    "text": "should make minimum errors the minimum",
+    "start": 1480.64,
+    "duration": 4.08
+  },
+  {
+    "text": "possible errors right so that's what",
+    "start": 1482.4,
+    "duration": 4.8
+  },
+  {
+    "text": "training is then at the end of the",
+    "start": 1484.72,
+    "duration": 4.64
+  },
+  {
+    "text": "chapter you have exercises",
+    "start": 1487.2,
+    "duration": 4.8
+  },
+  {
+    "text": "right that's your validation set",
+    "start": 1489.36,
+    "duration": 5.52
+  },
+  {
+    "text": "okay because now",
+    "start": 1492.0,
+    "duration": 5.52
+  },
+  {
+    "text": "you you you have not seen this formula",
+    "start": 1494.88,
+    "duration": 3.919
+  },
+  {
+    "text": "you have just learned the formula in the",
+    "start": 1497.52,
+    "duration": 3.12
+  },
+  {
+    "text": "training data but using that you should",
+    "start": 1498.799,
+    "duration": 4.0
+  },
+  {
+    "text": "be able to solve this exercise and you",
+    "start": 1500.64,
+    "duration": 3.84
+  },
+  {
+    "text": "might make some mistakes here so you're",
+    "start": 1502.799,
+    "duration": 4.161
+  },
+  {
+    "text": "again allowed to go back and relearn the",
+    "start": 1504.48,
+    "duration": 3.679
+  },
+  {
+    "text": "chapter right you could say oh i'm not",
+    "start": 1506.96,
+    "duration": 2.56
+  },
+  {
+    "text": "able to figure this out maybe go back",
+    "start": 1508.159,
+    "duration": 2.481
+  },
+  {
+    "text": "and look at this right so that's your",
+    "start": 1509.52,
+    "duration": 3.12
+  },
+  {
+    "text": "validation set and then you have a test",
+    "start": 1510.64,
+    "duration": 4.639
+  },
+  {
+    "text": "set which is your exam so now you have",
+    "start": 1512.64,
+    "duration": 4.24
+  },
+  {
+    "text": "done the training you have done the",
+    "start": 1515.279,
+    "duration": 3.52
+  },
+  {
+    "text": "validation set again toggle between",
+    "start": 1516.88,
+    "duration": 3.36
+  },
+  {
+    "text": "training and validation and maybe you",
+    "start": 1518.799,
+    "duration": 3.281
+  },
+  {
+    "text": "have some confidence now once you go to",
+    "start": 1520.24,
+    "duration": 3.2
+  },
+  {
+    "text": "the test set once you go to write the",
+    "start": 1522.08,
+    "duration": 2.959
+  },
+  {
+    "text": "exam you're not again allowed to do the",
+    "start": 1523.44,
+    "duration": 2.8
+  },
+  {
+    "text": "training right so you have a training",
+    "start": 1525.039,
+    "duration": 3.041
+  },
+  {
+    "text": "error you have a validation error and",
+    "start": 1526.24,
+    "duration": 4.319
+  },
+  {
+    "text": "you have a test error during training",
+    "start": 1528.08,
+    "duration": 3.68
+  },
+  {
+    "text": "what we are talking about is the",
+    "start": 1530.559,
+    "duration": 3.6
+  },
+  {
+    "text": "training error which means the error on",
+    "start": 1531.76,
+    "duration": 4.56
+  },
+  {
+    "text": "the training data right which is the",
+    "start": 1534.159,
+    "duration": 4.321
+  },
+  {
+    "text": "error on the chapter that you have read",
+    "start": 1536.32,
+    "duration": 3.599
+  },
+  {
+    "text": "right the contents of the chapter you",
+    "start": 1538.48,
+    "duration": 3.679
+  },
+  {
+    "text": "should know all everything well or you",
+    "start": 1539.919,
+    "duration": 3.921
+  },
+  {
+    "text": "have minimum errors right so that's the",
+    "start": 1542.159,
+    "duration": 3.921
+  },
+  {
+    "text": "analogy you should keep in mind okay",
+    "start": 1543.84,
+    "duration": 3.6
+  },
+  {
+    "text": "uh",
+    "start": 1546.08,
+    "duration": 4.959
+  },
+  {
+    "text": "yeah so i'll end this uh module here and",
+    "start": 1547.44,
+    "duration": 4.8
+  },
+  {
+    "text": "we'll",
+    "start": 1551.039,
+    "duration": 3.601
+  },
+  {
+    "text": "come back and talk about",
+    "start": 1552.24,
+    "duration": 3.6
+  },
+  {
+    "text": "and",
+    "start": 1554.64,
+    "duration": 3.279
+  },
+  {
+    "text": "ways of learning these parameters right",
+    "start": 1555.84,
+    "duration": 5.88
+  },
+  {
+    "text": "so let's let's do that",
+    "start": 1557.919,
+    "duration": 3.801
+  }
+]

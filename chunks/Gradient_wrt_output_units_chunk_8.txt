@@ -1,0 +1,10 @@
+collection of all these guys and i have the formula for any one of them right so this is what.
+the formula looks like the formula was indicator variable l equal to i divided by y hat l and the.
+minus of that right so uh if i want to compute the derivative of the loss function with respect to.
+y 1 hat in that case i is equal to 1 so hence i will write i equal to 1.
+here and l of course remains the same right l does not change so that 1 by y hat l.
+and the negative of that comes outside and this indicator variable just changes as i go down the vector the.
+condition associated with the indicator variable changes right and since only one of the uh i mean l could take.
+on any one of the k values this vector will have one in only one position and zero everywhere else.
+right for example uh on the previous slide we were discussing that suppose l equal to two that means the.
+correct class is the second class then when i evaluate this indicator variable which is l equal to 1 i'll.

@@ -1,0 +1,9 @@
+picking up random data points at every time step so depending on the time data point that I have picked.
+up my derivatives might be different and this is the distribution that I expect them to follow right and this.
+distribution might change at different time steps but I am making this assumption that all at all time steps the.
+distribution Remains the Same that means the expected value at any time step is equal to the same way so.
+I am clocking that expected value of is the same for all the time steps that's one simplifying assumption that.
+I have made and under that assumption now let's see where we reach so now we have made this assumption.
+that all the derivatives were the same so then we have this expected value of delta w t now I.
+can just it's it does not depend on the time safety anymore right so I can take it outside the.
+summation so then I have 1 minus beta into expected value of delta W into that summation that I had.

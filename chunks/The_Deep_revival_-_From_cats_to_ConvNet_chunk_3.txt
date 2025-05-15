@@ -1,0 +1,8 @@
+improving the training of these networks and some of these ideas about what these better initializations were better regularizations were.
+better optimizations work all of this is things that we'll cover in the course right and then now at this.
+point deep learning started becoming useful where people started winning uh a fairly competitive competitions right on handwriting recognition on.
+mnist data set right then on a speech recognition and then uh visual pattern recognition this was on the traffic.
+sign data so all of this now started materializing that now you just don't have it in theory that okay.
+I'm able to train a deep network but using that I'm able to compete with the best models at that.
+time and outperformed right so that's what happened around that time and then the image net famous image net challenge.
+which came around which is I think around 2008 or 10 when it was first there and then in 2012.

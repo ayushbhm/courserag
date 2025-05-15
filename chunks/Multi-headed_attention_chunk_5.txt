@@ -1,0 +1,9 @@
+attention then it will capture uh we'll learn one way of capturing the contextual information right but there might be.
+more than one way of capturing this contextual information right so you might also want to have a situation where.
+it focuses on animal with a very high attention and you might also want it to focus on some verb.
+with a very high attention right and both of these might be important because one is indicating that it is.
+a pronoun for animal and the other might be indicating that it is the object of this verb right and.
+so in both both of these you might want to capture so one head could learn to give more attention.
+to animal the other I had could learn to give more attention to this war right so just as you.
+had multiple free filters to capture multiple characteristics from the image you could have this multiple attention headset and let's.
+let's look at it a bit more carefully right so here's an example so the animal didn't cross the street.

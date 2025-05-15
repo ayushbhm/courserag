@@ -1,0 +1,9 @@
+is ah much farther from the red curve so the bias is high whereas the blue curve is closer to.
+the red curve so the bias is low right so informally we are seeing that simple models have a high.
+bias and complex models have a low bias right so let us continue with the discussion and now we will.
+Define one more quantity which is the variance right and variance is something that I think most of you know.
+so variance is just the expectation of the of how far is a given value away from the expected value.
+right so what does that mean so you have this ah suppose you take any one blue line from here.
+and then you had that green line or the green curve which was the average right maybe I should have.
+used the right colors let me just use the right colors yeah so suppose I take any one of these.
+blue lines from here and then I had the green curve which was the average right and it looks something.

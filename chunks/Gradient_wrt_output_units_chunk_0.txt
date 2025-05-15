@@ -1,0 +1,9 @@
+[Music] okay so we have done the intuition behind back propagation now we want to take this intuition forward and.
+get into the mathematical details of how back propagation or how do you compute these partial derivatives or gradients that.
+you're interested right so this was the outline so we said that we are going to slowly talk to all.
+stakeholders in the neural network and we had divided this into three parts talk to the output layer talk to.
+the hidden layers and talk to the weights so i'll start with the first part which is talk to the.
+output layer right so that's what we're going to do now right so let's see what's what do you what.
+do you mean by talk to the output layer i am interested in computing the derivative of the loss function.
+with respect to the output layer right so this is the output layer right i collectively call it as the.
+output layer although it has two parts activation and pre-activation uh i am going to call uh this layer which.

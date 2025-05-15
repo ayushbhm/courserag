@@ -1,0 +1,9 @@
+solution right all the points were lying on the sigmoid curve but then the yellow curve started oscillating there now.
+why does that happen is not clear but for this Slide the takeaway is that RMS prop converged more quickly.
+than attack rad because it is being less aggressive in decaying the learning rate right that's the main takeaway why.
+are there oscillations right so that is something that we need to understand right so one of the implications could.
+be that maybe the learning rate is becoming constant and that is causing of oscillations right why the two questions.
+to be answered here right why is the learning rate becoming constant and if the learning rate becomes constant why.
+should there be oscillations right so these are the two questions that we need to okay so now recall that.
+in adagrad uh this VT was uh sorry this should have been Square so this Delta WT Square should have.
+been there and I when I had shown you the plots I had shown that VT never decreases right it.

@@ -1,0 +1,11 @@
+a l is actually a l 1 a l 2 all the way up to a l k right so.
+from with respect to any generic element of that vector i am trying to find the derivative of the loss.
+function what is the loss function minus log y hat l so now what is this going to be i.
+can split it into two parts i can write it as the derivative of the loss function with respect to.
+y hat l and then the derivative of y hat l with respect to a l i right they can.
+split it into these two paths okay and now the question is does y hat l depend on a l.
+i right so what am i asking this is what i'm trying to ask right so this is what my.
+a vector looks like okay and my i here in this is anything from 1 to k right and let.
+us again consider the case when the correct output was uh 2 right so that means my loss function is.
+minus log y hat 2 okay and that's why this i am trying to compute the derivative of y hat.
+2 with respect to some ith element right it could be a l 1 a l 2 a l 3.

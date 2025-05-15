@@ -1,0 +1,742 @@
+[
+  {
+    "text": "foreign",
+    "start": 0.299,
+    "duration": 3.0
+  },
+  {
+    "text": "[Music]",
+    "start": 6.62,
+    "duration": 3.739
+  },
+  {
+    "text": "so one thing that people have shown",
+    "start": 19.08,
+    "duration": 5.039
+  },
+  {
+    "text": "right is and particular this paper which",
+    "start": 21.18,
+    "duration": 6.359
+  },
+  {
+    "text": "uses skip connections as a regularizer",
+    "start": 24.119,
+    "duration": 5.521
+  },
+  {
+    "text": "and I'll talk about that in a bit that",
+    "start": 27.539,
+    "duration": 4.381
+  },
+  {
+    "text": "the effect of regularization is to",
+    "start": 29.64,
+    "duration": 4.02
+  },
+  {
+    "text": "smoothen the Lost landscape right so",
+    "start": 31.92,
+    "duration": 4.02
+  },
+  {
+    "text": "typical uh and you can go on to this",
+    "start": 33.66,
+    "duration": 3.6
+  },
+  {
+    "text": "website right which allows you to",
+    "start": 35.94,
+    "duration": 4.139
+  },
+  {
+    "text": "explore typical lost Landscapes that you",
+    "start": 37.26,
+    "duration": 4.74
+  },
+  {
+    "text": "encounter in neural networks and you can",
+    "start": 40.079,
+    "duration": 4.14
+  },
+  {
+    "text": "see that this is very bumpy right it's",
+    "start": 42.0,
+    "duration": 5.399
+  },
+  {
+    "text": "not nowhere closer to the very nice loss",
+    "start": 44.219,
+    "duration": 4.741
+  },
+  {
+    "text": "functions that we have been dealing with",
+    "start": 47.399,
+    "duration": 4.261
+  },
+  {
+    "text": "which have like a single plateau and",
+    "start": 48.96,
+    "duration": 4.259
+  },
+  {
+    "text": "then a valley and so on it there are",
+    "start": 51.66,
+    "duration": 4.26
+  },
+  {
+    "text": "like multiple plateaus rallies here and",
+    "start": 53.219,
+    "duration": 5.701
+  },
+  {
+    "text": "there are some very sharp slopes here",
+    "start": 55.92,
+    "duration": 6.36
+  },
+  {
+    "text": "right and what happens is that if you",
+    "start": 58.92,
+    "duration": 7.019
+  },
+  {
+    "text": "have flat surfaces right and let me show",
+    "start": 62.28,
+    "duration": 5.699
+  },
+  {
+    "text": "you a plot it will become clear right so",
+    "start": 65.939,
+    "duration": 4.081
+  },
+  {
+    "text": "if you have a flat surface you will get",
+    "start": 67.979,
+    "duration": 4.561
+  },
+  {
+    "text": "better regularization why why is that",
+    "start": 70.02,
+    "duration": 4.74
+  },
+  {
+    "text": "the case because if you have a flat",
+    "start": 72.54,
+    "duration": 5.82
+  },
+  {
+    "text": "surface then for a large range you have",
+    "start": 74.76,
+    "duration": 6.899
+  },
+  {
+    "text": "the loss as the same right and now your",
+    "start": 78.36,
+    "duration": 5.82
+  },
+  {
+    "text": "if you cannot over fit like I mean in",
+    "start": 81.659,
+    "duration": 4.14
+  },
+  {
+    "text": "the sense that you have figured out a",
+    "start": 84.18,
+    "duration": 4.32
+  },
+  {
+    "text": "value of the loss you know that for a",
+    "start": 85.799,
+    "duration": 5.041
+  },
+  {
+    "text": "large neighborhood any of the W's would",
+    "start": 88.5,
+    "duration": 4.619
+  },
+  {
+    "text": "have given you a similar loss right but",
+    "start": 90.84,
+    "duration": 5.279
+  },
+  {
+    "text": "now in this plot where you have these",
+    "start": 93.119,
+    "duration": 6.0
+  },
+  {
+    "text": "bumps up and down if you had over fit",
+    "start": 96.119,
+    "duration": 5.341
+  },
+  {
+    "text": "and selected gone into one Valley around",
+    "start": 99.119,
+    "duration": 4.261
+  },
+  {
+    "text": "that Valley there are many other Hills",
+    "start": 101.46,
+    "duration": 4.86
+  },
+  {
+    "text": "right so with a small change you get a",
+    "start": 103.38,
+    "duration": 4.44
+  },
+  {
+    "text": "very large change in the loss so your",
+    "start": 106.32,
+    "duration": 3.36
+  },
+  {
+    "text": "model becomes very sensitive right so",
+    "start": 107.82,
+    "duration": 3.6
+  },
+  {
+    "text": "one effect of regularization that people",
+    "start": 109.68,
+    "duration": 4.2
+  },
+  {
+    "text": "have shown is that it smoothens the Lost",
+    "start": 111.42,
+    "duration": 4.199
+  },
+  {
+    "text": "surface right so they have analyzed the",
+    "start": 113.88,
+    "duration": 4.559
+  },
+  {
+    "text": "surface of lost surface of neural",
+    "start": 115.619,
+    "duration": 4.081
+  },
+  {
+    "text": "networks and seen that with",
+    "start": 118.439,
+    "duration": 3.18
+  },
+  {
+    "text": "regularization and this was in the",
+    "start": 119.7,
+    "duration": 3.54
+  },
+  {
+    "text": "context of skip connection being used as",
+    "start": 121.619,
+    "duration": 2.701
+  },
+  {
+    "text": "a regularization we have not done",
+    "start": 123.24,
+    "duration": 2.699
+  },
+  {
+    "text": "skipped connections yet we'll do that in",
+    "start": 124.32,
+    "duration": 2.939
+  },
+  {
+    "text": "the case of convolutional neural",
+    "start": 125.939,
+    "duration": 3.481
+  },
+  {
+    "text": "networks but they also act as some sort",
+    "start": 127.259,
+    "duration": 4.801
+  },
+  {
+    "text": "of regularizer and they show that the",
+    "start": 129.42,
+    "duration": 4.62
+  },
+  {
+    "text": "loss surface actually smooth inside so",
+    "start": 132.06,
+    "duration": 5.66
+  },
+  {
+    "text": "that leads to better optimization",
+    "start": 134.04,
+    "duration": 3.68
+  },
+  {
+    "text": "so now coming to the taxonomy of things",
+    "start": 138.72,
+    "duration": 3.72
+  },
+  {
+    "text": "right what are the regulation techniques",
+    "start": 141.06,
+    "duration": 2.94
+  },
+  {
+    "text": "that you have used so we had this loss",
+    "start": 142.44,
+    "duration": 2.939
+  },
+  {
+    "text": "function which was the empirical",
+    "start": 144.0,
+    "duration": 3.42
+  },
+  {
+    "text": "training error and we added different",
+    "start": 145.379,
+    "duration": 4.021
+  },
+  {
+    "text": "regularizations to it so one is based on",
+    "start": 147.42,
+    "duration": 5.22
+  },
+  {
+    "text": "data so we added uh we looked at data",
+    "start": 149.4,
+    "duration": 4.5
+  },
+  {
+    "text": "augmentation where we had different",
+    "start": 152.64,
+    "duration": 3.06
+  },
+  {
+    "text": "rotations of the same image that we had",
+    "start": 153.9,
+    "duration": 4.02
+  },
+  {
+    "text": "added similarly in speech and text also",
+    "start": 155.7,
+    "duration": 4.2
+  },
+  {
+    "text": "you can do data augmentation and you",
+    "start": 157.92,
+    "duration": 3.84
+  },
+  {
+    "text": "also did this noise injection where at",
+    "start": 159.9,
+    "duration": 3.78
+  },
+  {
+    "text": "the output where the input we were",
+    "start": 161.76,
+    "duration": 3.9
+  },
+  {
+    "text": "adding some noise to the inputs right so",
+    "start": 163.68,
+    "duration": 4.32
+  },
+  {
+    "text": "both at the input and output we had",
+    "start": 165.66,
+    "duration": 4.74
+  },
+  {
+    "text": "manipulated the data a bit so that you",
+    "start": 168.0,
+    "duration": 4.379
+  },
+  {
+    "text": "add some noise and now the model cannot",
+    "start": 170.4,
+    "duration": 4.199
+  },
+  {
+    "text": "overfit because your data itself has",
+    "start": 172.379,
+    "duration": 4.801
+  },
+  {
+    "text": "some noise right the other is you could",
+    "start": 174.599,
+    "duration": 4.5
+  },
+  {
+    "text": "change the architecture right so there",
+    "start": 177.18,
+    "duration": 4.559
+  },
+  {
+    "text": "we saw Dropout is one such change then",
+    "start": 179.099,
+    "duration": 3.901
+  },
+  {
+    "text": "skip connections which are used in",
+    "start": 181.739,
+    "duration": 2.761
+  },
+  {
+    "text": "convolutional neural networks is another",
+    "start": 183.0,
+    "duration": 3.599
+  },
+  {
+    "text": "such thing and weight sharing right",
+    "start": 184.5,
+    "duration": 4.739
+  },
+  {
+    "text": "which we just briefly touched upon we",
+    "start": 186.599,
+    "duration": 3.961
+  },
+  {
+    "text": "again looked at it in the case of",
+    "start": 189.239,
+    "duration": 2.881
+  },
+  {
+    "text": "Dropout but weight sharing is again",
+    "start": 190.56,
+    "duration": 3.179
+  },
+  {
+    "text": "something which is used in convolutional",
+    "start": 192.12,
+    "duration": 3.42
+  },
+  {
+    "text": "neural networks and it acts as a good",
+    "start": 193.739,
+    "duration": 4.621
+  },
+  {
+    "text": "regularizer right",
+    "start": 195.54,
+    "duration": 4.86
+  },
+  {
+    "text": "and then again pooling which is used in",
+    "start": 198.36,
+    "duration": 3.42
+  },
+  {
+    "text": "the context of convolutional neural",
+    "start": 200.4,
+    "duration": 3.419
+  },
+  {
+    "text": "networks all of these three I am",
+    "start": 201.78,
+    "duration": 3.12
+  },
+  {
+    "text": "mentioning here for the sake of",
+    "start": 203.819,
+    "duration": 2.941
+  },
+  {
+    "text": "completeness but we'll see them in the",
+    "start": 204.9,
+    "duration": 4.199
+  },
+  {
+    "text": "context of cnns and that that time it",
+    "start": 206.76,
+    "duration": 3.96
+  },
+  {
+    "text": "will become clear that these act as",
+    "start": 209.099,
+    "duration": 3.601
+  },
+  {
+    "text": "regularizers because they help in",
+    "start": 210.72,
+    "duration": 3.78
+  },
+  {
+    "text": "reducing the number of parameters they",
+    "start": 212.7,
+    "duration": 3.78
+  },
+  {
+    "text": "help in reducing the model complexity",
+    "start": 214.5,
+    "duration": 5.22
+  },
+  {
+    "text": "right at least these two here",
+    "start": 216.48,
+    "duration": 5.72
+  },
+  {
+    "text": "okay",
+    "start": 219.72,
+    "duration": 2.48
+  },
+  {
+    "text": "uh then uh it has also been shown that",
+    "start": 223.86,
+    "duration": 5.519
+  },
+  {
+    "text": "the optimization process itself can act",
+    "start": 226.86,
+    "duration": 4.14
+  },
+  {
+    "text": "as a regularizer right so some papers",
+    "start": 229.379,
+    "duration": 5.461
+  },
+  {
+    "text": "have shown that gradient descent has",
+    "start": 231.0,
+    "duration": 6.48
+  },
+  {
+    "text": "prefers less complex Solutions as",
+    "start": 234.84,
+    "duration": 4.38
+  },
+  {
+    "text": "compared to more complex Solutions and",
+    "start": 237.48,
+    "duration": 4.259
+  },
+  {
+    "text": "that is a bit more nuanced statement and",
+    "start": 239.22,
+    "duration": 4.56
+  },
+  {
+    "text": "it's a discussion in itself so I'll not",
+    "start": 241.739,
+    "duration": 3.541
+  },
+  {
+    "text": "go into the details of it but there's",
+    "start": 243.78,
+    "duration": 2.76
+  },
+  {
+    "text": "also some kind of implicit",
+    "start": 245.28,
+    "duration": 2.819
+  },
+  {
+    "text": "regularization happens because of these",
+    "start": 246.54,
+    "duration": 3.779
+  },
+  {
+    "text": "gradient descent based methods which",
+    "start": 248.099,
+    "duration": 4.2
+  },
+  {
+    "text": "prefer simpler Solutions as opposed to",
+    "start": 250.319,
+    "duration": 4.741
+  },
+  {
+    "text": "more complex Solutions then early",
+    "start": 252.299,
+    "duration": 4.62
+  },
+  {
+    "text": "stopping is again a kind of Regulation",
+    "start": 255.06,
+    "duration": 4.079
+  },
+  {
+    "text": "that we have discussed and then we have",
+    "start": 256.919,
+    "duration": 4.38
+  },
+  {
+    "text": "looked at penalizing the law cost itself",
+    "start": 259.139,
+    "duration": 3.78
+  },
+  {
+    "text": "right which is adding this Omega Theta",
+    "start": 261.299,
+    "duration": 3.241
+  },
+  {
+    "text": "term that we have seen L well regulation",
+    "start": 262.919,
+    "duration": 3.661
+  },
+  {
+    "text": "is something you can use we have studied",
+    "start": 264.54,
+    "duration": 4.14
+  },
+  {
+    "text": "L2 but similarly you could use L1",
+    "start": 266.58,
+    "duration": 4.26
+  },
+  {
+    "text": "regularization right so this is one way",
+    "start": 268.68,
+    "duration": 3.239
+  },
+  {
+    "text": "of grouping the regularization",
+    "start": 270.84,
+    "duration": 2.52
+  },
+  {
+    "text": "techniques the other way of grouping",
+    "start": 271.919,
+    "duration": 3.72
+  },
+  {
+    "text": "them is into explicit regularization and",
+    "start": 273.36,
+    "duration": 4.619
+  },
+  {
+    "text": "implicit regularization so we have",
+    "start": 275.639,
+    "duration": 5.221
+  },
+  {
+    "text": "looked at mainly looked at explicit",
+    "start": 277.979,
+    "duration": 5.22
+  },
+  {
+    "text": "regularization like L2 regulation data",
+    "start": 280.86,
+    "duration": 5.7
+  },
+  {
+    "text": "augmentation all of these we have looked",
+    "start": 283.199,
+    "duration": 5.641
+  },
+  {
+    "text": "at and these two we will look at when we",
+    "start": 286.56,
+    "duration": 4.62
+  },
+  {
+    "text": "look at convolutional neural networks in",
+    "start": 288.84,
+    "duration": 3.9
+  },
+  {
+    "text": "the case of implicit regularization we",
+    "start": 291.18,
+    "duration": 3.12
+  },
+  {
+    "text": "have mainly looked at early stopping",
+    "start": 292.74,
+    "duration": 3.54
+  },
+  {
+    "text": "right but but the gradient descent based",
+    "start": 294.3,
+    "duration": 4.8
+  },
+  {
+    "text": "methods that we have looked at also have",
+    "start": 296.28,
+    "duration": 4.919
+  },
+  {
+    "text": "an implicit regularization in terms of",
+    "start": 299.1,
+    "duration": 4.44
+  },
+  {
+    "text": "their preference for like less complex",
+    "start": 301.199,
+    "duration": 5.821
+  },
+  {
+    "text": "Solutions and then even the initial",
+    "start": 303.54,
+    "duration": 5.939
+  },
+  {
+    "text": "learning rates that you set up in these",
+    "start": 307.02,
+    "duration": 3.959
+  },
+  {
+    "text": "methods in the gradient descent the",
+    "start": 309.479,
+    "duration": 3.66
+  },
+  {
+    "text": "based methods they also kind of act as",
+    "start": 310.979,
+    "duration": 3.601
+  },
+  {
+    "text": "some kind of a regularizer right because",
+    "start": 313.139,
+    "duration": 3.181
+  },
+  {
+    "text": "they also control how your training is",
+    "start": 314.58,
+    "duration": 3.72
+  },
+  {
+    "text": "going to proceed right so we have not",
+    "start": 316.32,
+    "duration": 4.68
+  },
+  {
+    "text": "looked at this in detail we will not",
+    "start": 318.3,
+    "duration": 4.739
+  },
+  {
+    "text": "cover that also but just wanted to give",
+    "start": 321.0,
+    "duration": 3.539
+  },
+  {
+    "text": "you a picture of this explicit and",
+    "start": 323.039,
+    "duration": 4.561
+  },
+  {
+    "text": "implicit regulation that happens right",
+    "start": 324.539,
+    "duration": 4.741
+  },
+  {
+    "text": "so this is all that I had to say about",
+    "start": 327.6,
+    "duration": 4.74
+  },
+  {
+    "text": "regularization I'll end this lecture",
+    "start": 329.28,
+    "duration": 6.18
+  },
+  {
+    "text": "here and in the next lecture we'll talk",
+    "start": 332.34,
+    "duration": 5.639
+  },
+  {
+    "text": "about activation functions and a few",
+    "start": 335.46,
+    "duration": 6.44
+  },
+  {
+    "text": "other things thank you",
+    "start": 337.979,
+    "duration": 3.921
+  }
+]

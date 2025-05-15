@@ -1,0 +1,9 @@
+my function approximation that this is the relation between Y and ah X and Y right and now I am.
+focusing on this first layer where I have the input and then the first hidden layer H1 right now what.
+we do in unsupervised pre-training or at least as it was introduced in this paper now today unsupervised pre-training still.
+still exist but in a much different form which is conceptually similar but with a lot of moving Parts having.
+changed right this is in the context of feed forward neural networks today we typically talk about it in the.
+context of Transformers and the loss functions that evolved none of that matters at this point but I'm just saying.
+that when I'm talking about unsupervised pre-tuning right now I'm talking in the context of this work in 2006 right.
+ah ok so what we will do is we will take X as the input okay and we will focus.
+on a very simple problem first right so this x is the input I have just taken the first hidden.

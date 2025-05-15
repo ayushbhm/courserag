@@ -1,0 +1,9 @@
+estimate whereas the blue guy is relying on 25 different points and making an estimate okay yeah so the oscillations.
+have reduced to a good extent uh because we now have slightly better estimates and as I said right it's.
+like estimating the property heads from uh 25 coin tosses as opposed to a single coin toss right and the.
+higher the value of K the more accurate the estimates are uh there are still oscillations right there's no denying.
+that it's just that it becomes more and more smooth as you increase the batch size and I again repeat.
+in the limit when you make the batch size equal to the total training points that will just follow gradient.
+descent but that is not what is desired we'll typically want much smaller batch sizes as compared to the size.
+of the data that we have and also I should mention at this point that uh many of the modern.
+uh algorithms right which use batch updates they are often quite sensitive to this batch size you know when experimenting.

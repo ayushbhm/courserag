@@ -1,0 +1,8 @@
+separable right and if that is the case with the simple boolean functions and i said in real world we.
+have more complex cases where the data will not be linearly separable right so we need to have a way.
+of dealing with not linearly separable functions we need to have a way of dealing with them in the generic.
+case when your inputs and outputs are not boolean at all but for now in this lecture at least try.
+to see if you can have a solution for the case where your inputs and outputs are a boolean so.
+that's what we'll do for now okay so i'll end this module here and in the next module we'll try.
+to come up with a network of perceptrons which can handle boolean functions which are not linearly separable even though.
+we know that a single perceptron cannot handle boolean functions which are not linearly.

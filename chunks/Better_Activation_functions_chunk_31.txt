@@ -1,0 +1,10 @@
+there is a large gradient which flows through the network right there is a large gradient which flows and it.
+makes B's value uh a very negative right suppose B takes on a large negative value okay that is what.
+happens and this is not like cooked up this is conceivable that this could happen you have some training example.
+which causes B to update and then B becomes a very large negative value right now if that happens what.
+would the consequence of it be so now your uh A1 right which is the input to the value function.
+right the value function is sitting here would is just W and X1 plus W 2 x 2 plus b.
+now if B is very negative irrespective of what W1 X1 and W 2 x 2 are right this b.
+a very large negative quantity would get added so this is going to be 0. so this is going to.
+be 0 then the derivative is going to be 0. so if the derivative is 0 again you have this.
+problem that when you are trying to update W1 at some point in the chain you have this derivative of.

@@ -1,0 +1,10 @@
+entire network so you have X you have two sigmoid neurons the first one will give you a step function.
+because you set the W to very high the second one will also give you a step function which will.
+give you a w very high then you subtract one from the other right so you have plus one as.
+the weight and minus 1 as the weight so that's the same as h11 minus h12 and that would give.
+you a Tau function right so that's I've come up with a neural network now right which will give you.
+the Tau function and what is h21 what will you use for h21 nothing it's just a linear function right.
+so it's just taking this input it's just taking the uh weighted sum of its input so I'll just call.
+it as w i H 1 I is what it is doing where w i is equal to 1 to.
+2 and W 1 is equal to 1 and W2 is equal to -1 right so that's all that h21.
+is doing right just taking the weighted sum of its input and the weights have been hand coded right so.

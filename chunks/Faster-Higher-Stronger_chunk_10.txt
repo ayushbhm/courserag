@@ -1,0 +1,8 @@
+particular and but still they were not being used for real-world applications due to the other reasons which i had.
+said right i mean compute was a challenge large scale data sets were a challenge but now when we enter.
+2014 a lot of things fell into place right deep learning got better we had a better understanding of how.
+to stabilize the training we had much more compute by this time gpus had already entered the scene we had.
+much more data large-scale data sets which allowed training these networks right so and that's when in 2014 uh deep.
+neural networks or recurrent neural network based models entered nlp and since then there's been almost no looking back right.
+all these traditional models which were probabilistic and statistical in nature of course you also have some probabilistic modeling here.
+but the statistical machine translation models which were popular at that time uh were almost completely replaced by these recurrent.

@@ -1,0 +1,10 @@
+n right these are vectors belonging to rn okay and this is some let's for the simplicity assume that it's.
+just a real value it could again be a vector right it could be the case that given the data.
+about uh movie i am trying to predict the uh box office collection of the movie i am also trying.
+to predict the imdb rating of the move right so i could be predicting two things here right but for.
+now i'll just assume that we're just dealing with a real valued output and not a vector okay now we.
+have already seen what this data also could look like right so uh and this is where the most important.
+part comes in let me just quickly go ahead okay this is not what i want to do right so.
+this we have seen application right so let me just define all of these right so these are my x's.
+okay this is a vector which belongs to r let me just call it m right because i'm using n.
+for something else and i have n such data points right so in my uh just i have n such.

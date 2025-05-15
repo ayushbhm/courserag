@@ -1,0 +1,9 @@
+it is not okay uh this specific function that I've drawn is called relu 6 because 6 denotes the maximum.
+value of the relu that you have here okay okay so what are the advantages of relu so it does.
+not saturate in the positive region right what do I mean by that so as long as your A3 right.
+was or a was positive the output would remain positive and it will not saturated there is no saturation here.
+there is no clamping on this side as opposed to what you had in the sigmoid or any of the.
+sigmoid shaped functions right so that is what I mean here but in the negative region it can still saturate.
+right so in the if your contribution is negative right if the a is negative then it will be clamped.
+to zero and of course the derivative would again then be zero right so it does saturate in the negative.
+region so roughly half the problem solved but computational is of course very efficient right there is no exponent here.

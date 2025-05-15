@@ -1,0 +1,10 @@
+week some million other images will get generated and now these are all of these images are not seen by.
+the train by the model during training and now all of this if you feed it to this model you.
+are interested in knowing what your expected error would be right which means the average error across all these unseen.
+images that you have right and average you can represent as expectation right so this is the quantity that you.
+are interested in and if you can show that this quantity is actually equal to bias square plus variance plus.
+Sigma square and it's not I mean uh kind of I mean hard to see how you'll go from here.
+to there because this is f of x right and we had seen that in the formula of bias you.
+had e of f hat of x minus f of x and similarly in the formula of variance you had.
+e of f hat of x minus E of f of x ah sorry the whole Square the expectation of.
+that right so these terms are there in the bias formula these terms are there here also and there is.

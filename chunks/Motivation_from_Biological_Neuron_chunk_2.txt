@@ -1,0 +1,9 @@
+the synapse which is the point of connection of the two neurons so dendrite is the part from which one.
+neuron receives signals from the other neurons and the point of connection is called synapse and then you have soma.
+which is the kind of you could think of with the central processing unit where all the information gets processed.
+and then you have the axon once the information has been persist the exon is responsible for uh carrying it.
+out to the other neurons right so dendrite to receive signals then synapse is the point of connection between neurons.
+soma is where the processing happens in the neurons and exons is where you give the output out or transmit.
+the output to the other neuron so this is what a biological neuron looks like right and let's see like.
+a very cartoonish illustration of how this uh works and how a neuron works right so our uh sense organs.
+they interact with uh the outside world right so we see we hear and so on so now let's assume.

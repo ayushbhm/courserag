@@ -1,0 +1,9 @@
+uh the brown points from the blue points right without giving me a high error so that is not possible.
+right so uh the reason uh deep neural network can learn such arbitrary boundaries and hence act as a universal.
+approximator right because now we have a very complex function between Y and X which is looking like this right.
+this is the function that we are interested in and as we had seen while looking at the universal approximation.
+theorem and the illustrative proof of it where we are drawn these towers we could do that because we had.
+a lean a non-linear layer it what the theorem said is that if you have even a single sigmoid layer.
+then you can then the then the network can act as a universe Universal approximator so sigmoid was important there.
+right so these non-linearities are what give deep neural networks their power right so there's nothing new that I have.
+said we have already discussed this but I just wanted to quickly refresh it because it's relevant for the discussion.

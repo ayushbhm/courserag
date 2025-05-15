@@ -1,0 +1,10 @@
+n minus is the negation of all the points in n right and now for every point belonging to p.
+prime right which is the union of p and your n minus i want to ensure that w transpose p.
+should be greater than equal to zero right so this is just sim just changing the notation so earlier if.
+i wanted w transpose p should be greater than equal to 0 right and w transpose n which is an.
+n is a point which belongs to the negative side should be less than 0 right but now what i've.
+done is from every n i have constructed another p right which is just the negative of n so now.
+every point in my data set has the output to be plus one right it has the output to be.
+p right one sorry uh because i've just take the negative other point so for whatever point for the original.
+point the output was zero so for the negative of that point the output should be one right so i've.
+just constructed the single set which is a collection of all the points for which the only condition that i.

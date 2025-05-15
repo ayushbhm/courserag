@@ -1,0 +1,9 @@
+let's assume your inputs were say binary for the sake of simplicity right now what you do is you add.
+a noise process such that for every input say with probability 80 percent it will keep the input as it.
+is and with probability 20 percent it will flip the input right that is a very simple noise process so.
+if you have like 100 uh digits as input or an input belongs to R 100 or in this case.
+uh 0 comma 1 raised to 100 because there are only binary inputs then uh with probability eighty percent it.
+will keep each of those hundred values as they were and with probability 20 it will flip it so in.
+effect what you would expect is that twenty percent of your inputs has been corrupted right because twenty percent of.
+it will get a change right so now you have added noise to the input and now once you have.
+added noise to the input what is a deep neural network good at it is good at mapping x to.

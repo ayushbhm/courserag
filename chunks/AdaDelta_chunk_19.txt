@@ -1,0 +1,9 @@
+these different algorithms right from gradient descent all the way up to Ida Delta and other Delta is the only.
+one which has this adaptive learning rate in the sense of not having an initial learning rate right so let's.
+see and you see the expected behaviors right uh okay let's see let it stabilize and we'll comment on it.
+so you see all of it all the behaviors that we expected the black curve is gradient descent which is.
+slowly moving we know that that's does not have any momentum does not have any adaptation the uh the the.
+momentum and the nestrov have the usual effect of oscillations and next of you can again see slightly better at.
+dealing with the oscillations but all three of them have a problem in moving in the W Direction because W.
+was relatively sparse so they first try to move in the B Direction and then come back whereas other grid.
+RMS prop in Ada Delta they all start moving in W and B Direction and of these other Delta converts.

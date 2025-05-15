@@ -1,0 +1,8 @@
+the gradient lower the responsibility right and the gradient with respect to a parameter is proportional to the input connected.
+to that parameter in the single or the input output Network this input was just X in a multi-layer network.
+it's just the input from the previous layer which is h i minus 1 right so that's these are things.
+to remember now things to uh wonder about are that we learned this back propagation algorithm right and we said.
+that this is the basis for training all the Deep neural networks right and we saw feed forward neural networks.
+already later on in the course we will see convolutional neural networks recurrent neural networks and then Transformers and for.
+all of them training happens using the back propagation algorithm right so is it that this back propagation algorithm was.
+something that was discovered in the last decade maybe around 2009 2010 and then deep learning became so popular because.

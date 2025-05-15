@@ -1,0 +1,11 @@
+B1 and B 2 0 okay that will simplify some things for me nothing wrong in doing that okay it's.
+a bit hard to do this with the mouse okay so B1 B2 have made it zero okay uh now.
+you can see I can show h11 I can show h12 I have show h21 all of these are hidden.
+right now okay so let me just say uh uh show h11 okay so I'll just show h11 so it's.
+looking like a straight line as I said it's a sigmoid function but surprisingly it's looking like a straight line.
+and it's not hard to see why because oops the formula for the sigmoid function is 1 over 1 plus.
+e raised to minus W 1 X Plus B1 right and now if W1 is 0 right then the X.
+does not matter irrespective of what x is it will give the same value and what is that value going.
+to be 1 over 1 plus e raised to minus B and B is also B1 is also 0 in.
+this case so it's just going to be 0.5 irrespective about the x is hence throughout the x axis the.
+value of the Y function is a 0.5 or the value of H1 is 0.5 it makes sense right now.

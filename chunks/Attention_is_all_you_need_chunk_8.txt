@@ -1,0 +1,9 @@
+can I do this in part right so that's the idea uh that's the main uh idea here right so.
+the self attention mechanism once you understand it fully we'll realize that it can be computed in parallel and still.
+give the same flavor that means it still computes a contextual representation that means it's aware of all the other.
+words in the input right so that's the main thing that we'll be discussing so now this is called self.
+attention and what does the attention how do you compute attention right so the attention just requires two inputs so.
+in the attention that we have seen so far we had St minus 1 comma h i right which was.
+used to compute the attention at time step t for the input I right but here there is no decoder.
+we're just talking about encoder and now the word self should tell you what is going to happen here right.
+what I'm going to be interested in is that I have all the word representations now if I want to.

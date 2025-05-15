@@ -1,0 +1,10 @@
+foreign [Music] move to a different algorithm and before doing that we are going to revisit the lp Norm right.
+so LP Norm is Gen the general formula for LP Norm is as given here right and now if uh.
+your p is equal to 2 then you get the L2 Norm right so then you get take the squares.
+of the values and then take the square root right so that's the L2 norm and remember when we had.
+introduced Adam I had said that actually we were using uh L to Norm they're the exponentially weighted uh L2.
+Norm there and that's why I'm revisiting this because now we are going to see the possibility of using something.
+other than the L2 Norm okay uh all of this will become clear soon so this is the uh yeah.
+so we can visualize this so let's let's fix the norm let's take vectors which have Norm one right and.
+now if you try to visualize it now for L one the shape looks like this right so what does.
+that mean that for any point on this surface the norm is going to be 1 right and you can.

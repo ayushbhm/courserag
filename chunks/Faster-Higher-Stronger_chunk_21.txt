@@ -1,0 +1,7 @@
+go but also chess shogi and atari right these are again all uh decision making games and so it could.
+do multiple of these games uh in a single rl agent right so going towards more uh general intelligence right.
+and becoming a master of many uh traits right and similar research is progressing where you now have this player.
+of games a general purpose algorithm which learns to play in different conditions it's a lot of progress has happened.
+in this deep reinforcement learning over the years none of this will cover in the course but this is important.
+for you to know as i said and you could explore this on your own once you understand the other.
+basic concepts in the course so i'll end this module here.

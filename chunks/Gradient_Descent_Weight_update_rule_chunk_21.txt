@@ -1,0 +1,10 @@
+with respect to B again I have a function written for that and the same idea that I want to.
+compute this f of x which I'll compute from this function here by substituting the current values of w b.
+and X that I am dealing with right okay so far so good let me just erase it okay and.
+then I'm going to sum this over all the points right because I visited the first point which was x.
+equal to 0.5 and Y is equal to 2.5 then the loop will go to the second point this Loop.
+will go over all points and I'm just collecting all the uh I'm just adding up all the derivatives because.
+as I said the this derivative of a sum is just the sum of the derivatives right once I've computed.
+the derivatives I'm just going to apply the gradient descent formula which is W is equal to W minus ETA.
+into W did the DW and B is equal to B minus ETA into d w DB right so this.
+is I'll just keep doing this in the loop and I'll keep moving along the error surface so this is.

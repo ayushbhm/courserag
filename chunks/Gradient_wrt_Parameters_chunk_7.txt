@@ -1,0 +1,10 @@
+think it should be fine so we got this as the answer so this is the derivative of the loss.
+function with one element of the weight Matrix w k right so if I look at the derivative of the.
+loss function with respect to the entire Matrix then it's going to be a collection of these entries and for.
+any guy here I now have the formula I can just substitute those formula right so that's what I'm going.
+to do now and I'm going to do that for this simple case when w k is 3 cross 3.
+Matrix right so the derivative of the loss function with respect to w k is going to be a part.
+collection of the partial derivatives with respect to all elements of w k and there are nine such elements okay.
+and the formula for any such guy was this so now I'm going to substitute this formula to get this.
+Matrix right so what is this I'm going to just substitute the right values of K and I so this.
+is going to be derivative of K1 and then this is going to be K minus 1 1 this is.

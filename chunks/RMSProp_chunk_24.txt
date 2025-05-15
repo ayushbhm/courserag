@@ -1,0 +1,9 @@
+is happening as the iterations go along we are seeing some behavior of the plots right in uh before I.
+comment on that I just want you to look at what is happening here right so you started off with.
+some Eternal which was 0.6 initially your gradients your history was accumulating right this VT was accumulating and you ended.
+up with some effective learning rate right so remember this orange curve is the effective learning rate as what is.
+happening in these regions these are the regions where your uh slope was high so your VT was accumulating right.
+and even though this is uh exponentially weighted average you have beta into VT minus 1 plus 1 minus beta.
+into VT as long as you are in regions uh where not really sorry current gradient as long as you.
+are in regions where the current gradient is high this will keep accumulating right so as you are going down.
+steep regions your history was also high and your current thing is also high so your VT will keep increasing.

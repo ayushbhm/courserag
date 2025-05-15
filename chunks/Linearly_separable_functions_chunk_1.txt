@@ -1,0 +1,10 @@
+four inequalities that my weights should satisfy right so for 0 0 inputs when i plug in this formula the.
+output should be less than 0 for 0 1 0 it should be greater than equal to 0 for 0.
+1 greater than equal to 0 and for 1 1 again less than 0 right so let's just expand this.
+so this is what the first condition says right i'll just expand the first one and not do it for.
+the others w naught plus w 1 into 0 because x 1 is 0 plus w two into zero because.
+x two is zero should be less than zero and that leaves us with the condition that w naught should.
+be less than zero similarly i'll expand the other condition and leaves me with the condition that w two should.
+be greater than equal to minus w naught w one should be greater than equal to minus w naught and.
+then the last condition is w one plus w two should be less than minus w naught right and you.
+can see that you cannot satisfy these four inequalities right there is one quantity which is greater than minus w.

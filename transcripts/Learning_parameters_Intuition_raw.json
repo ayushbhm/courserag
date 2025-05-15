@@ -1,0 +1,1257 @@
+[
+  {
+    "text": "[Music]",
+    "start": 0.33,
+    "duration": 10.029
+  },
+  {
+    "text": "okay so now let's talk about some",
+    "start": 19.279,
+    "duration": 5.201
+  },
+  {
+    "text": "intuition behind the intuition behind uh",
+    "start": 21.359,
+    "duration": 5.041
+  },
+  {
+    "text": "learning parameters for a feed forward",
+    "start": 24.48,
+    "duration": 3.6
+  },
+  {
+    "text": "neural network right and how do we",
+    "start": 26.4,
+    "duration": 3.76
+  },
+  {
+    "text": "connect it to what we already know right",
+    "start": 28.08,
+    "duration": 3.199
+  },
+  {
+    "text": "we have already seen how to learn",
+    "start": 30.16,
+    "duration": 3.919
+  },
+  {
+    "text": "parameters of a very simple network i",
+    "start": 31.279,
+    "duration": 4.401
+  },
+  {
+    "text": "mean it's not even a network but for a",
+    "start": 34.079,
+    "duration": 5.201
+  },
+  {
+    "text": "single neuron which had a w and a b and",
+    "start": 35.68,
+    "duration": 6.64
+  },
+  {
+    "text": "a single input and there was a y hat we",
+    "start": 39.28,
+    "duration": 4.959
+  },
+  {
+    "text": "had seen how to learn the parameters of",
+    "start": 42.32,
+    "duration": 4.399
+  },
+  {
+    "text": "this network using gradient descent now",
+    "start": 44.239,
+    "duration": 4.16
+  },
+  {
+    "text": "this thing that we know and understand",
+    "start": 46.719,
+    "duration": 4.0
+  },
+  {
+    "text": "well can we somehow stretch it and",
+    "start": 48.399,
+    "duration": 3.521
+  },
+  {
+    "text": "extend it to",
+    "start": 50.719,
+    "duration": 3.601
+  },
+  {
+    "text": "help us learn the parameters of all the",
+    "start": 51.92,
+    "duration": 3.76
+  },
+  {
+    "text": "parameters of a feed forward neural",
+    "start": 54.32,
+    "duration": 2.64
+  },
+  {
+    "text": "network right so that's what we'll try",
+    "start": 55.68,
+    "duration": 3.84
+  },
+  {
+    "text": "to focus on okay",
+    "start": 56.96,
+    "duration": 4.48
+  },
+  {
+    "text": "uh so the story so far is that we have",
+    "start": 59.52,
+    "duration": 3.359
+  },
+  {
+    "text": "introduced feed forward neural networks",
+    "start": 61.44,
+    "duration": 3.039
+  },
+  {
+    "text": "and now we are interested in finding an",
+    "start": 62.879,
+    "duration": 2.961
+  },
+  {
+    "text": "algorithm for learning the parameter",
+    "start": 64.479,
+    "duration": 2.64
+  },
+  {
+    "text": "right so this is what our feed forward",
+    "start": 65.84,
+    "duration": 3.52
+  },
+  {
+    "text": "neural network looks like",
+    "start": 67.119,
+    "duration": 3.841
+  },
+  {
+    "text": "now let's just quickly recall our",
+    "start": 69.36,
+    "duration": 3.28
+  },
+  {
+    "text": "gradient descent algorithm and make some",
+    "start": 70.96,
+    "duration": 3.28
+  },
+  {
+    "text": "commentary on that right so this is what",
+    "start": 72.64,
+    "duration": 3.6
+  },
+  {
+    "text": "our gradient descent algorithm was we",
+    "start": 74.24,
+    "duration": 4.0
+  },
+  {
+    "text": "had initialized the weights and then at",
+    "start": 76.24,
+    "duration": 4.32
+  },
+  {
+    "text": "every step we were updating the weights",
+    "start": 78.24,
+    "duration": 4.32
+  },
+  {
+    "text": "right and now i can think of writing",
+    "start": 80.56,
+    "duration": 3.84
+  },
+  {
+    "text": "this a bit more compactly right in fact",
+    "start": 82.56,
+    "duration": 4.16
+  },
+  {
+    "text": "we had looked at it already i know that",
+    "start": 84.4,
+    "duration": 5.2
+  },
+  {
+    "text": "this i could write it as a vector theta",
+    "start": 86.72,
+    "duration": 4.0
+  },
+  {
+    "text": "t plus",
+    "start": 89.6,
+    "duration": 3.44
+  },
+  {
+    "text": "1 similarly this i could write it as",
+    "start": 90.72,
+    "duration": 4.48
+  },
+  {
+    "text": "theta t and this i could write it as a",
+    "start": 93.04,
+    "duration": 4.8
+  },
+  {
+    "text": "vector gradient right the gradient and",
+    "start": 95.2,
+    "duration": 4.64
+  },
+  {
+    "text": "this also i could write it as a vector",
+    "start": 97.84,
+    "duration": 3.76
+  },
+  {
+    "text": "theta naught right so i am going now",
+    "start": 99.84,
+    "duration": 3.52
+  },
+  {
+    "text": "going to",
+    "start": 101.6,
+    "duration": 3.839
+  },
+  {
+    "text": "change this equation and write it more",
+    "start": 103.36,
+    "duration": 4.0
+  },
+  {
+    "text": "compactly where i am going to replace",
+    "start": 105.439,
+    "duration": 4.241
+  },
+  {
+    "text": "the collection of w and b by theta right",
+    "start": 107.36,
+    "duration": 4.24
+  },
+  {
+    "text": "that's the only change i am going to do",
+    "start": 109.68,
+    "duration": 2.799
+  },
+  {
+    "text": "and",
+    "start": 111.6,
+    "duration": 4.24
+  },
+  {
+    "text": "that's fair enough",
+    "start": 112.479,
+    "duration": 3.361
+  },
+  {
+    "text": "this is how i'm going to write it more",
+    "start": 116.56,
+    "duration": 4.0
+  },
+  {
+    "text": "compactly so theta naught is the",
+    "start": 118.56,
+    "duration": 4.08
+  },
+  {
+    "text": "collection of w naught b naught and once",
+    "start": 120.56,
+    "duration": 4.159
+  },
+  {
+    "text": "you understand that this falls in place",
+    "start": 122.64,
+    "duration": 4.32
+  },
+  {
+    "text": "right so theta t plus 1 is just now w t",
+    "start": 124.719,
+    "duration": 3.441
+  },
+  {
+    "text": "plus one",
+    "start": 126.96,
+    "duration": 3.519
+  },
+  {
+    "text": "comma b t plus one and you're just doing",
+    "start": 128.16,
+    "duration": 5.04
+  },
+  {
+    "text": "vector uh operations now instead of like",
+    "start": 130.479,
+    "duration": 5.281
+  },
+  {
+    "text": "individual uh element wise operations",
+    "start": 133.2,
+    "duration": 4.64
+  },
+  {
+    "text": "right and that's perfectly fine as we",
+    "start": 135.76,
+    "duration": 3.76
+  },
+  {
+    "text": "saw in the previous",
+    "start": 137.84,
+    "duration": 3.52
+  },
+  {
+    "text": "slide where i had annotated the vectors",
+    "start": 139.52,
+    "duration": 4.799
+  },
+  {
+    "text": "right so there's nothing wrong here and",
+    "start": 141.36,
+    "duration": 5.12
+  },
+  {
+    "text": "where the gradient right so when i say",
+    "start": 144.319,
+    "duration": 5.841
+  },
+  {
+    "text": "grad delta theta right i am going to",
+    "start": 146.48,
+    "duration": 6.16
+  },
+  {
+    "text": "use this notation right the more",
+    "start": 150.16,
+    "duration": 4.48
+  },
+  {
+    "text": "appropriate elaborate notation would be",
+    "start": 152.64,
+    "duration": 5.28
+  },
+  {
+    "text": "gradient of the loss function",
+    "start": 154.64,
+    "duration": 6.64
+  },
+  {
+    "text": "with theta evaluated at",
+    "start": 157.92,
+    "duration": 5.84
+  },
+  {
+    "text": "time t right but i'm just going to use",
+    "start": 161.28,
+    "duration": 4.56
+  },
+  {
+    "text": "this shortcut notation and hence i am",
+    "start": 163.76,
+    "duration": 4.4
+  },
+  {
+    "text": "elaborating what i mean by that it means",
+    "start": 165.84,
+    "duration": 4.24
+  },
+  {
+    "text": "just the collection of the partial",
+    "start": 168.16,
+    "duration": 3.6
+  },
+  {
+    "text": "derivatives right so i've taken the",
+    "start": 170.08,
+    "duration": 3.92
+  },
+  {
+    "text": "partial derivative with this of the loss",
+    "start": 171.76,
+    "duration": 4.24
+  },
+  {
+    "text": "function with respect to wt",
+    "start": 174.0,
+    "duration": 2.879
+  },
+  {
+    "text": "the",
+    "start": 176.0,
+    "duration": 2.239
+  },
+  {
+    "text": "partial derivative of the loss function",
+    "start": 176.879,
+    "duration": 2.72
+  },
+  {
+    "text": "with respect to b",
+    "start": 178.239,
+    "duration": 3.681
+  },
+  {
+    "text": "it's not bt or wt it's w and b and then",
+    "start": 179.599,
+    "duration": 4.321
+  },
+  {
+    "text": "evaluated at the current values right",
+    "start": 181.92,
+    "duration": 3.92
+  },
+  {
+    "text": "which is at time step t and we have seen",
+    "start": 183.92,
+    "duration": 2.8
+  },
+  {
+    "text": "this",
+    "start": 185.84,
+    "duration": 3.36
+  },
+  {
+    "text": "what that means in the previous lecture",
+    "start": 186.72,
+    "duration": 5.76
+  },
+  {
+    "text": "so this is what my",
+    "start": 189.2,
+    "duration": 3.28
+  },
+  {
+    "text": "this notation here",
+    "start": 192.64,
+    "duration": 3.36
+  },
+  {
+    "text": "means right i am just clarifying that is",
+    "start": 194.48,
+    "duration": 2.72
+  },
+  {
+    "text": "just a collection of the partial",
+    "start": 196.0,
+    "duration": 2.8
+  },
+  {
+    "text": "derivatives that means it is the",
+    "start": 197.2,
+    "duration": 5.2
+  },
+  {
+    "text": "gradient right now",
+    "start": 198.8,
+    "duration": 3.6
+  },
+  {
+    "text": "this was all uh good right now in this",
+    "start": 202.72,
+    "duration": 5.28
+  },
+  {
+    "text": "feed forward neutral network instead of",
+    "start": 205.92,
+    "duration": 4.08
+  },
+  {
+    "text": "theta equal to wb right which was just a",
+    "start": 208.0,
+    "duration": 4.48
+  },
+  {
+    "text": "collection of two vectors now my theta",
+    "start": 210.0,
+    "duration": 4.799
+  },
+  {
+    "text": "is a collection of many more elements",
+    "start": 212.48,
+    "duration": 4.64
+  },
+  {
+    "text": "right it's all the elements of w1 which",
+    "start": 214.799,
+    "duration": 5.041
+  },
+  {
+    "text": "is n square elements all the elements of",
+    "start": 217.12,
+    "duration": 5.679
+  },
+  {
+    "text": "w2 w3 which are again n square elements",
+    "start": 219.84,
+    "duration": 5.28
+  },
+  {
+    "text": "and then elements of wl which is n into",
+    "start": 222.799,
+    "duration": 4.641
+  },
+  {
+    "text": "k then all the biases there were n",
+    "start": 225.12,
+    "duration": 4.399
+  },
+  {
+    "text": "biases in layer one n biases in layer",
+    "start": 227.44,
+    "duration": 4.56
+  },
+  {
+    "text": "two and then k in layer three right all",
+    "start": 229.519,
+    "duration": 4.481
+  },
+  {
+    "text": "of this collected together so i have a",
+    "start": 232.0,
+    "duration": 4.4
+  },
+  {
+    "text": "large army of parameters now instead of",
+    "start": 234.0,
+    "duration": 4.239
+  },
+  {
+    "text": "just two parameters right but if i'm",
+    "start": 236.4,
+    "duration": 3.44
+  },
+  {
+    "text": "going to write theta as a collection of",
+    "start": 238.239,
+    "duration": 3.36
+  },
+  {
+    "text": "all the parameters i can still do that",
+    "start": 239.84,
+    "duration": 2.959
+  },
+  {
+    "text": "i'm just going to say that theta is a",
+    "start": 241.599,
+    "duration": 3.041
+  },
+  {
+    "text": "collection of all the parameters earlier",
+    "start": 242.799,
+    "duration": 4.401
+  },
+  {
+    "text": "my vectors were of size 2 now my vectors",
+    "start": 244.64,
+    "duration": 4.239
+  },
+  {
+    "text": "are very large right there n square plus",
+    "start": 247.2,
+    "duration": 3.84
+  },
+  {
+    "text": "n square plus n into k plus n plus n",
+    "start": 248.879,
+    "duration": 4.161
+  },
+  {
+    "text": "plus k right in this specific example so",
+    "start": 251.04,
+    "duration": 3.44
+  },
+  {
+    "text": "it's a very large vector so what it's",
+    "start": 253.04,
+    "duration": 3.28
+  },
+  {
+    "text": "still just a vector and all these",
+    "start": 254.48,
+    "duration": 3.599
+  },
+  {
+    "text": "operations still can hold it just as i",
+    "start": 256.32,
+    "duration": 3.68
+  },
+  {
+    "text": "can add two dimensional vectors or",
+    "start": 258.079,
+    "duration": 3.761
+  },
+  {
+    "text": "subtract one vector from another i can",
+    "start": 260.0,
+    "duration": 3.44
+  },
+  {
+    "text": "do the same for these very large",
+    "start": 261.84,
+    "duration": 3.68
+  },
+  {
+    "text": "dimensional vectors also right so you",
+    "start": 263.44,
+    "duration": 4.0
+  },
+  {
+    "text": "can still use the same algorithm for",
+    "start": 265.52,
+    "duration": 3.92
+  },
+  {
+    "text": "learning the parameters of our model",
+    "start": 267.44,
+    "duration": 3.28
+  },
+  {
+    "text": "except that",
+    "start": 269.44,
+    "duration": 3.36
+  },
+  {
+    "text": "now earlier remember there were only",
+    "start": 270.72,
+    "duration": 4.4
+  },
+  {
+    "text": "these two quantities and we still had to",
+    "start": 272.8,
+    "duration": 4.08
+  },
+  {
+    "text": "derive this side we still had derived",
+    "start": 275.12,
+    "duration": 4.0
+  },
+  {
+    "text": "painfully what is the equation or what",
+    "start": 276.88,
+    "duration": 4.56
+  },
+  {
+    "text": "is the expression for the derivative of",
+    "start": 279.12,
+    "duration": 4.56
+  },
+  {
+    "text": "the loss function with respect to w what",
+    "start": 281.44,
+    "duration": 3.84
+  },
+  {
+    "text": "is the expression for the derivative of",
+    "start": 283.68,
+    "duration": 3.44
+  },
+  {
+    "text": "the loss function with respect to b and",
+    "start": 285.28,
+    "duration": 4.0
+  },
+  {
+    "text": "then substituted values in that right so",
+    "start": 287.12,
+    "duration": 3.92
+  },
+  {
+    "text": "we still have to do",
+    "start": 289.28,
+    "duration": 3.76
+  },
+  {
+    "text": "that computation right so it's just that",
+    "start": 291.04,
+    "duration": 3.68
+  },
+  {
+    "text": "our",
+    "start": 293.04,
+    "duration": 3.92
+  },
+  {
+    "text": "gradient of del theta now looks like a",
+    "start": 294.72,
+    "duration": 5.12
+  },
+  {
+    "text": "very very big vector and we should know",
+    "start": 296.96,
+    "duration": 6.0
+  },
+  {
+    "text": "how to compute every quantity in this",
+    "start": 299.84,
+    "duration": 4.4
+  },
+  {
+    "text": "vector right",
+    "start": 302.96,
+    "duration": 3.28
+  },
+  {
+    "text": "and we did this for those two simple",
+    "start": 304.24,
+    "duration": 4.16
+  },
+  {
+    "text": "values w and b and that itself was quite",
+    "start": 306.24,
+    "duration": 4.88
+  },
+  {
+    "text": "a bit of a derivation so our quest would",
+    "start": 308.4,
+    "duration": 4.72
+  },
+  {
+    "text": "be somehow come up",
+    "start": 311.12,
+    "duration": 5.04
+  },
+  {
+    "text": "with a formula which allows us to",
+    "start": 313.12,
+    "duration": 5.359
+  },
+  {
+    "text": "compute all of this at one go right",
+    "start": 316.16,
+    "duration": 4.08
+  },
+  {
+    "text": "without painfully deriving that in fact",
+    "start": 318.479,
+    "duration": 4.0
+  },
+  {
+    "text": "we'll derive it but we derive it in such",
+    "start": 320.24,
+    "duration": 4.64
+  },
+  {
+    "text": "a way that we could compute an entire",
+    "start": 322.479,
+    "duration": 4.72
+  },
+  {
+    "text": "matrix of their partial derivatives at",
+    "start": 324.88,
+    "duration": 4.48
+  },
+  {
+    "text": "one go instead of computing each of",
+    "start": 327.199,
+    "duration": 4.161
+  },
+  {
+    "text": "those n square values one by one right",
+    "start": 329.36,
+    "duration": 3.92
+  },
+  {
+    "text": "so that's what one of the quests of this",
+    "start": 331.36,
+    "duration": 3.92
+  },
+  {
+    "text": "lecture is going to be but that's all",
+    "start": 333.28,
+    "duration": 4.0
+  },
+  {
+    "text": "for later for now i want you to focus on",
+    "start": 335.28,
+    "duration": 4.639
+  },
+  {
+    "text": "this graduation from theta naught being",
+    "start": 337.28,
+    "duration": 4.72
+  },
+  {
+    "text": "a collection of two elements to theta",
+    "start": 339.919,
+    "duration": 3.361
+  },
+  {
+    "text": "naught being a collection of many",
+    "start": 342.0,
+    "duration": 2.32
+  },
+  {
+    "text": "elements",
+    "start": 343.28,
+    "duration": 3.68
+  },
+  {
+    "text": "but as long as",
+    "start": 344.32,
+    "duration": 5.12
+  },
+  {
+    "text": "i can tell you what these are the same",
+    "start": 346.96,
+    "duration": 4.239
+  },
+  {
+    "text": "algorithm still applies right because",
+    "start": 349.44,
+    "duration": 4.0
+  },
+  {
+    "text": "you just want to compute the derivative",
+    "start": 351.199,
+    "duration": 3.84
+  },
+  {
+    "text": "of the loss function with respect to",
+    "start": 353.44,
+    "duration": 3.68
+  },
+  {
+    "text": "each parameter and update the parameter",
+    "start": 355.039,
+    "duration": 4.321
+  },
+  {
+    "text": "accordingly right so insects now our",
+    "start": 357.12,
+    "duration": 4.24
+  },
+  {
+    "text": "delta theta looks much more complex so",
+    "start": 359.36,
+    "duration": 3.119
+  },
+  {
+    "text": "we have",
+    "start": 361.36,
+    "duration": 4.0
+  },
+  {
+    "text": "delta t the loss derivative of the loss",
+    "start": 362.479,
+    "duration": 4.081
+  },
+  {
+    "text": "partial derivative of the loss function",
+    "start": 365.36,
+    "duration": 2.959
+  },
+  {
+    "text": "with respect to w 1",
+    "start": 366.56,
+    "duration": 3.84
+  },
+  {
+    "text": "1 1 that is the first weight in w1",
+    "start": 368.319,
+    "duration": 3.201
+  },
+  {
+    "text": "matrix",
+    "start": 370.4,
+    "duration": 3.519
+  },
+  {
+    "text": "all the way up to the n square weights",
+    "start": 371.52,
+    "duration": 4.72
+  },
+  {
+    "text": "that you have in the w1 matrix similarly",
+    "start": 373.919,
+    "duration": 3.601
+  },
+  {
+    "text": "the n square weights that you have in",
+    "start": 376.24,
+    "duration": 4.72
+  },
+  {
+    "text": "the w2 matrix similarly the n into k",
+    "start": 377.52,
+    "duration": 5.6
+  },
+  {
+    "text": "weights that you had in the last layer",
+    "start": 380.96,
+    "duration": 3.6
+  },
+  {
+    "text": "similarly the",
+    "start": 383.12,
+    "duration": 3.919
+  },
+  {
+    "text": "n biases that you had in each layer and",
+    "start": 384.56,
+    "duration": 4.56
+  },
+  {
+    "text": "the k biases that you had in the last",
+    "start": 387.039,
+    "duration": 3.44
+  },
+  {
+    "text": "layer right so this is",
+    "start": 389.12,
+    "duration": 3.44
+  },
+  {
+    "text": "not like a",
+    "start": 390.479,
+    "duration": 3.921
+  },
+  {
+    "text": "something cross n matrix right because",
+    "start": 392.56,
+    "duration": 3.12
+  },
+  {
+    "text": "this last",
+    "start": 394.4,
+    "duration": 2.88
+  },
+  {
+    "text": "row has only k right so it will not be",
+    "start": 395.68,
+    "duration": 3.28
+  },
+  {
+    "text": "like uh i just put everything together",
+    "start": 397.28,
+    "duration": 3.28
+  },
+  {
+    "text": "in one collection i'm not saying that",
+    "start": 398.96,
+    "duration": 3.12
+  },
+  {
+    "text": "this is a matrix right this is just a",
+    "start": 400.56,
+    "duration": 3.84
+  },
+  {
+    "text": "collection of partial derivatives",
+    "start": 402.08,
+    "duration": 3.92
+  },
+  {
+    "text": "because each layer might have different",
+    "start": 404.4,
+    "duration": 3.28
+  },
+  {
+    "text": "so i just assume everything is n square",
+    "start": 406.0,
+    "duration": 3.759
+  },
+  {
+    "text": "here but we saw that other example where",
+    "start": 407.68,
+    "duration": 4.799
+  },
+  {
+    "text": "it could be n cross m here then m cross",
+    "start": 409.759,
+    "duration": 5.921
+  },
+  {
+    "text": "p here then some n here m here and then",
+    "start": 412.479,
+    "duration": 4.961
+  },
+  {
+    "text": "k here right for the biases right so",
+    "start": 415.68,
+    "duration": 3.359
+  },
+  {
+    "text": "it's all going to be different across",
+    "start": 417.44,
+    "duration": 3.68
+  },
+  {
+    "text": "different layers so this is not like a",
+    "start": 419.039,
+    "duration": 3.201
+  },
+  {
+    "text": "well-formed matrix it's just a",
+    "start": 421.12,
+    "duration": 2.799
+  },
+  {
+    "text": "collection i have put together just for",
+    "start": 422.24,
+    "duration": 3.679
+  },
+  {
+    "text": "illustrative purpose right so these are",
+    "start": 423.919,
+    "duration": 3.921
+  },
+  {
+    "text": "all the partial derivatives that i need",
+    "start": 425.919,
+    "duration": 3.361
+  },
+  {
+    "text": "to collect",
+    "start": 427.84,
+    "duration": 4.72
+  },
+  {
+    "text": "and i should be able to do this fairly",
+    "start": 429.28,
+    "duration": 4.24
+  },
+  {
+    "text": "uh",
+    "start": 432.56,
+    "duration": 3.28
+  },
+  {
+    "text": "conveniently and not like painfully go",
+    "start": 433.52,
+    "duration": 4.239
+  },
+  {
+    "text": "over every element and have to write",
+    "start": 435.84,
+    "duration": 3.84
+  },
+  {
+    "text": "down the formula for that and compute",
+    "start": 437.759,
+    "duration": 3.521
+  },
+  {
+    "text": "right i should be able to at least take",
+    "start": 439.68,
+    "duration": 4.0
+  },
+  {
+    "text": "one entire matrix of weights and compute",
+    "start": 441.28,
+    "duration": 3.84
+  },
+  {
+    "text": "the partial derivatives of all the",
+    "start": 443.68,
+    "duration": 3.2
+  },
+  {
+    "text": "elements at one goal right so that's",
+    "start": 445.12,
+    "duration": 3.919
+  },
+  {
+    "text": "what my quest is going to be but if i",
+    "start": 446.88,
+    "duration": 4.319
+  },
+  {
+    "text": "can do that then i am done right so this",
+    "start": 449.039,
+    "duration": 4.641
+  },
+  {
+    "text": "is where we are this is what the",
+    "start": 451.199,
+    "duration": 4.081
+  },
+  {
+    "text": "intuition is you can use the gradient",
+    "start": 453.68,
+    "duration": 3.76
+  },
+  {
+    "text": "descent algorithm as it is provided you",
+    "start": 455.28,
+    "duration": 5.199
+  },
+  {
+    "text": "have these quantities",
+    "start": 457.44,
+    "duration": 4.8
+  },
+  {
+    "text": "so we need to answer two questions how",
+    "start": 460.479,
+    "duration": 3.12
+  },
+  {
+    "text": "to choose the loss function why do we",
+    "start": 462.24,
+    "duration": 2.959
+  },
+  {
+    "text": "need to answer this question because we",
+    "start": 463.599,
+    "duration": 3.201
+  },
+  {
+    "text": "need to compute the partial derivatives",
+    "start": 465.199,
+    "duration": 2.72
+  },
+  {
+    "text": "of the",
+    "start": 466.8,
+    "duration": 2.48
+  },
+  {
+    "text": "loss function with respect to the",
+    "start": 467.919,
+    "duration": 2.641
+  },
+  {
+    "text": "weights right so unless i know what the",
+    "start": 469.28,
+    "duration": 2.72
+  },
+  {
+    "text": "loss function is i can't even start",
+    "start": 470.56,
+    "duration": 2.88
+  },
+  {
+    "text": "writing down what that formula is going",
+    "start": 472.0,
+    "duration": 3.039
+  },
+  {
+    "text": "to be so i need to know how to choose",
+    "start": 473.44,
+    "duration": 3.92
+  },
+  {
+    "text": "the loss function and once we choose the",
+    "start": 475.039,
+    "duration": 3.6
+  },
+  {
+    "text": "loss function",
+    "start": 477.36,
+    "duration": 5.279
+  },
+  {
+    "text": "i need to compute every element of",
+    "start": 478.639,
+    "duration": 5.921
+  },
+  {
+    "text": "the gradient vector right which is the",
+    "start": 482.639,
+    "duration": 3.921
+  },
+  {
+    "text": "partial derivatives with respect to all",
+    "start": 484.56,
+    "duration": 3.44
+  },
+  {
+    "text": "the weights that i had in the network",
+    "start": 486.56,
+    "duration": 3.52
+  },
+  {
+    "text": "right so if i know these two then i'll",
+    "start": 488.0,
+    "duration": 3.44
+  },
+  {
+    "text": "just come back to my gradient descent",
+    "start": 490.08,
+    "duration": 4.0
+  },
+  {
+    "text": "algorithm and i can find the i can learn",
+    "start": 491.44,
+    "duration": 4.08
+  },
+  {
+    "text": "the parameters right so that's the",
+    "start": 494.08,
+    "duration": 4.88
+  },
+  {
+    "text": "intuition this idea should be clear that",
+    "start": 495.52,
+    "duration": 6.0
+  },
+  {
+    "text": "while we have graduated from that two",
+    "start": 498.96,
+    "duration": 4.4
+  },
+  {
+    "text": "parameter case to like a very large",
+    "start": 501.52,
+    "duration": 4.16
+  },
+  {
+    "text": "number of parameters case the basic idea",
+    "start": 503.36,
+    "duration": 4.32
+  },
+  {
+    "text": "still remains the same i just need to be",
+    "start": 505.68,
+    "duration": 3.68
+  },
+  {
+    "text": "able to compute the partial derivatives",
+    "start": 507.68,
+    "duration": 3.04
+  },
+  {
+    "text": "of the loss function with respect to the",
+    "start": 509.36,
+    "duration": 3.2
+  },
+  {
+    "text": "weights if i can do that i can run",
+    "start": 510.72,
+    "duration": 3.84
+  },
+  {
+    "text": "gradient descent and to compute that i",
+    "start": 512.56,
+    "duration": 3.44
+  },
+  {
+    "text": "need to know the loss function and i",
+    "start": 514.56,
+    "duration": 2.88
+  },
+  {
+    "text": "need to know how to compute the partial",
+    "start": 516.0,
+    "duration": 3.12
+  },
+  {
+    "text": "derivative so that's what we are going",
+    "start": 517.44,
+    "duration": 3.92
+  },
+  {
+    "text": "to do uh in today's lecture right so",
+    "start": 519.12,
+    "duration": 3.839
+  },
+  {
+    "text": "this is going to be a very long lecture",
+    "start": 521.36,
+    "duration": 6.68
+  },
+  {
+    "text": "but this is what we are going to do okay",
+    "start": 522.959,
+    "duration": 5.081
+  }
+]

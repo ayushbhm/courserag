@@ -1,0 +1,8 @@
+the stick is in a different position say the top right corner instead of the top left corner then a.
+different portion of the brain fires right that means as we're talking about this distributed processing so different parts of.
+the brain are actually looking at different things in the uh scene in front of you right and this is.
+essentially the motivation behind the convolutional neural networks right which is uh okay I think this slide statement is wrong.
+this is uh from a different place we'll fix it in the slides later on uh this was the neocognitron.
+model right which is uh uh which essentially if you look at it right here again the same idea inspired.
+by the cat experiment that different parts in the image are being handled by different parts of the network right.
+so the receptive field as a concept emerged here that for different parts you could use different portions of the.

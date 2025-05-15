@@ -1,0 +1,9 @@
+right but that is the word that is the embedding of the word computed from a corpus but I want.
+to know the embedding of this word in the context of the center so that's what these Yellow Boxes are.
+allowing me to compute because they are taking input from the rest of the sentence right now you might ask.
+hey I'm only taking input from one side right I am not really considering Transformers when I am Computing the.
+yellow box for uh movie right but there are also known as something known as bi-directional rnns or bidirectional lstms.
+where you start from right to left right so this is how the computation proceeds for all practical purposes you.
+could think of I have one sentence I enjoyed the movie Transformers so I computed these Yellow Boxes the way.
+RNN does it then I reverse the sentence so I feed in Transformers movie is the Android I and I.
+again do the computation and then again compute some other say green boxes right and now I have two representations.

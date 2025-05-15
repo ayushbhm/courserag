@@ -1,0 +1,11 @@
+0.099 that's the loss if it was perfect the loss would have been zero right but this is 0.099 so.
+that's how bad this is now i am able to quantify my answer using the loss value if you give.
+me a w comma b i can tell you how bad that is right that's right what i am able.
+to do right now we want the loss to be as close to zero as possible ideally zero but as.
+i said i would settle for approximately zero also right so that's what we want to do so let us.
+try some other values of w comma b right and we'll change we'll use the slider to change it okay.
+so first i'll try uh let me just see if i can do that so first i'm going to try.
+w is equal to 0.5 okay okay this is 0.5 and b is equal to 0 right so let me.
+just oh for some reason i'm not able to change it okay so suppose i do w is equal to.
+0.5 and b is equal to minus 1 right this is also bad and how bad is it it's saying.
+it's 0.121 right so earlier my loss was 0.09 now my loss is 0.121 right so it's even worse right.

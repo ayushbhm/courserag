@@ -1,0 +1,9 @@
+elements in this vector okay and you're taking the derivative of that Vector with respect to two elements so what.
+would happen is that each of these elements suppose these uh two elements that you have here are your parameters.
+W and B right so each of these elements would be a function of w comma B and hence you.
+can take that derivative so when you're changing W you want to see how much does this value change because.
+it's a value function of w comma B so how much does this value change how much does this value.
+change how much does this value change right so you're asking for three calculating these three changes and then we.
+change the value of B again you want to change how much does this change how much does this change.
+how much does this change right so there are six values that you're trying to compute so then set what.
+we are three cross two or two cross three depending on how your uh uh seeing it right so it.

@@ -1,0 +1,7 @@
+to happen right so the problem that you want to solve is that in regions where you have a gentle.
+slope you should be able to move faster right so we'll try to solve that problem but before that we'll.
+perhaps take a D2 let me see what we have planned yeah so we uh okay so then what I'll.
+do is I'll end this video here it's already been a long video and when we come back we'll first.
+take a D2 try to understand what contos are uh then look at gradient distance in the context of Contours.
+and then try to solve the problem that we just described which is on flat surfaces gradient descent moves very.
+slowly okay thank you.

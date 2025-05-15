@@ -1,0 +1,8 @@
+to one update right now what's the flip side now we have gone into bad territory right you know what.
+you're Computing is an approximate gradient right your true gradient was the average of the derivative computed over all the.
+points now we are approximated that average by using just one point estimate right and that's definitely bad so you.
+have an approximate gradient so hence uh the guarantees that you had may be off right because this is called.
+stochastic because we are estimating the total gradient based on a single data point so this is like you asked.
+me to estimate the probability of suppose I give you a biased coin and you ask me to estimate the.
+probability of heads then you'll just toss it once and you get heads and you say Okay probability of heads.
+is one as opposed to like really tossing it's a hundred or thousand or even more times and then trying.

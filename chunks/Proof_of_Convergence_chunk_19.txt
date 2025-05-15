@@ -1,0 +1,10 @@
+than or equal to this sum let me just get rid of all the marks so this sum okay has.
+a quantity which is negative okay this sum does not have that quantity so it follows that this sum is.
+going to be less than equal to this sum that okay because it's just this sum plus a negative quantity.
+so it's going to be less than equal to okay now the next step of course is to replace p.
+i squared by 1 because p i's are normalized this was the simple assumption i had made now by induction.
+again the same thing will happen i'm going to now i started with wt plus 1 and i ended up.
+with this now i'm at wt i'll again do the same step there itself right and what will i get.
+this is going to be wt minus 1 plus 1 right this will again happen this one which i had.
+come here again the same thing will come here and i'll get 2 and how many such ones will get.
+added the same argument as many times i make an update a 1 will be added right where is the.

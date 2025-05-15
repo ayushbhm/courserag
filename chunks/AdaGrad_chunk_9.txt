@@ -1,0 +1,9 @@
+lot in the direction of B right and that is expected because B was the dense feature hence its gradients.
+were larger and hence you were making larger movements in the direction of B whereas W was the sparse feature.
+intentionally made sparse as explained on the previous slide so the gradients for w are smaller and hence you are.
+making smaller movements in the direction of w right and after you reach the valley then the algorithms realize that.
+now there is no more uh value in moving in the direction of B right anyways the gradients that are.
+becoming smaller now because you have reached the Steep region and then it slowly starts moving very very slow steps.
+in the direction of w because there again the gradients are small what can you do but then it still.
+moves in that direction and then it reaches the minimum all right so it takes a right angled path right.
+whereas ideally you would have wanted something which just directly travels like this which would mean that it is making.

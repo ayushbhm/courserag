@@ -1,0 +1,8 @@
+image net and similar challenges and started showing uh again it's not just gain but starting winning some of these.
+uh prestigious competitions right so that's where we are and then after that from 2016 onwards there was further acceleration.
+right so we wanted to come with better optimization methods so now we know that it's possible to train deep.
+neural networks but now can we do it faster can we lead to convergence faster right what this animation here.
+is trying to show that i want to come to this configuration where the two points on the left-hand side.
+figure exactly fit or the sigmoid function exactly fits to those two points and i'm trying to solve some optimization.
+problem for that and it's taking me a while to reach to the solution right so can i speed that.
+up right of course faster convergence was always a goal all right which existed in machine learning when we had.

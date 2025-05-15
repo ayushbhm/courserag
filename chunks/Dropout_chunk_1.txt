@@ -1,0 +1,9 @@
+you're going to train it using different subsets of the training data right now both these options are obviously expensive.
+right because training a deep neural network is going to be expensive and now you're talking about training K of.
+those right and even if I were able to train K neural networks at test time again I have a.
+problem right because in test time typically I need results faster but again every test instance that I'm going to.
+get I'm going to pass it through all the K uh neural networks and then combine their output rate so.
+it's not just a training time I have to have a lot of compute but even at test time I'm.
+going to have a challenge right so how do we then use this model averaging idea which we just saw.
+in the last video is useful how do you use it in the context of deep learning right so the.
+two challenges are that at training time your cost is high and even a test time your cost is high.

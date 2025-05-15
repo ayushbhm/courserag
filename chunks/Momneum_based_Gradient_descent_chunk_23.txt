@@ -1,0 +1,4 @@
+we would like to see next now is that can we the oscillations are a part of the life now.
+right given that we are moving fast but can we do something to reduce these oscillations and that's the idea.
+behind nestro based uh gradient nest of accelerated gradient descent so that is what we'll see in the next video.
+thank you.

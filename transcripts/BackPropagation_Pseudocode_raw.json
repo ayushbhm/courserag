@@ -1,0 +1,1252 @@
+[
+  {
+    "text": "foreign",
+    "start": 0.299,
+    "duration": 3.0
+  },
+  {
+    "text": "[Music]",
+    "start": 6.62,
+    "duration": 3.739
+  },
+  {
+    "text": "okay so now we are ready to wrap up this",
+    "start": 19.38,
+    "duration": 3.479
+  },
+  {
+    "text": "discussion on back propagation we'll",
+    "start": 21.359,
+    "duration": 3.18
+  },
+  {
+    "text": "take everything that we have done so far",
+    "start": 22.859,
+    "duration": 3.121
+  },
+  {
+    "text": "and put it together into a nice",
+    "start": 24.539,
+    "duration": 4.201
+  },
+  {
+    "text": "algorithm so why we have all the pieces",
+    "start": 25.98,
+    "duration": 5.58
+  },
+  {
+    "text": "of the puzzle so we have the derivative",
+    "start": 28.74,
+    "duration": 4.2
+  },
+  {
+    "text": "of the loss function with respect to the",
+    "start": 31.56,
+    "duration": 2.999
+  },
+  {
+    "text": "output layer we have the derivative of",
+    "start": 32.94,
+    "duration": 3.18
+  },
+  {
+    "text": "the loss function with respect to any",
+    "start": 34.559,
+    "duration": 3.481
+  },
+  {
+    "text": "hidden layer activation and",
+    "start": 36.12,
+    "duration": 4.02
+  },
+  {
+    "text": "pre-activation we have the derivative of",
+    "start": 38.04,
+    "duration": 3.48
+  },
+  {
+    "text": "the loss function with respect to the",
+    "start": 40.14,
+    "duration": 4.439
+  },
+  {
+    "text": "weights and the biases right now we can",
+    "start": 41.52,
+    "duration": 4.859
+  },
+  {
+    "text": "write all of this into a full learning",
+    "start": 44.579,
+    "duration": 3.241
+  },
+  {
+    "text": "algorithm so this is what it looks like",
+    "start": 46.379,
+    "duration": 2.581
+  },
+  {
+    "text": "I'm going to start with the gradient",
+    "start": 47.82,
+    "duration": 3.3
+  },
+  {
+    "text": "descent algorithm so you had start at",
+    "start": 48.96,
+    "duration": 4.2
+  },
+  {
+    "text": "time step 0 you run it for some thousand",
+    "start": 51.12,
+    "duration": 3.9
+  },
+  {
+    "text": "iterations you initialize all the",
+    "start": 53.16,
+    "duration": 3.18
+  },
+  {
+    "text": "weights in the network",
+    "start": 55.02,
+    "duration": 3.179
+  },
+  {
+    "text": "at every stage what will you do you will",
+    "start": 56.34,
+    "duration": 4.8
+  },
+  {
+    "text": "first compute all the activations and",
+    "start": 58.199,
+    "duration": 4.2
+  },
+  {
+    "text": "all the actually should have been the",
+    "start": 61.14,
+    "duration": 2.399
+  },
+  {
+    "text": "other way around all the pre-activations",
+    "start": 62.399,
+    "duration": 3.54
+  },
+  {
+    "text": "and the activations and the output using",
+    "start": 63.539,
+    "duration": 4.201
+  },
+  {
+    "text": "the forward pass right and you know the",
+    "start": 65.939,
+    "duration": 3.421
+  },
+  {
+    "text": "formula for this right you start with X",
+    "start": 67.74,
+    "duration": 6.66
+  },
+  {
+    "text": "you compute A1 as W1 X plus b and you",
+    "start": 69.36,
+    "duration": 7.74
+  },
+  {
+    "text": "compute H1 as",
+    "start": 74.4,
+    "duration": 9.12
+  },
+  {
+    "text": "G of A1 then you compute A2 as W 2 H1",
+    "start": 77.1,
+    "duration": 9.6
+  },
+  {
+    "text": "plus v and so on right so this all is",
+    "start": 83.52,
+    "duration": 4.68
+  },
+  {
+    "text": "simple Matrix Vector multiplication",
+    "start": 86.7,
+    "duration": 2.88
+  },
+  {
+    "text": "there are no gradients involved this is",
+    "start": 88.2,
+    "duration": 2.88
+  },
+  {
+    "text": "just taking the input and passing it",
+    "start": 89.58,
+    "duration": 3.359
+  },
+  {
+    "text": "through a series of Transformations and",
+    "start": 91.08,
+    "duration": 3.66
+  },
+  {
+    "text": "all of this is coming from a formula",
+    "start": 92.939,
+    "duration": 3.481
+  },
+  {
+    "text": "that you can Implement right you know",
+    "start": 94.74,
+    "duration": 3.12
+  },
+  {
+    "text": "how to implement these functions right",
+    "start": 96.42,
+    "duration": 3.54
+  },
+  {
+    "text": "you know how to implement this you know",
+    "start": 97.86,
+    "duration": 4.259
+  },
+  {
+    "text": "how to compute the element wise uh",
+    "start": 99.96,
+    "duration": 4.14
+  },
+  {
+    "text": "logistic for example if G is equal to",
+    "start": 102.119,
+    "duration": 3.661
+  },
+  {
+    "text": "the logistic function okay so this is",
+    "start": 104.1,
+    "duration": 3.24
+  },
+  {
+    "text": "straightforward you'll just do a forward",
+    "start": 105.78,
+    "duration": 3.9
+  },
+  {
+    "text": "propagation on the input right this",
+    "start": 107.34,
+    "duration": 5.099
+  },
+  {
+    "text": "should have been comma X8 because you're",
+    "start": 109.68,
+    "duration": 3.96
+  },
+  {
+    "text": "taking the inputs",
+    "start": 112.439,
+    "duration": 3.301
+  },
+  {
+    "text": "now once you have done the forward",
+    "start": 113.64,
+    "duration": 3.42
+  },
+  {
+    "text": "propagation you do the backward",
+    "start": 115.74,
+    "duration": 2.94
+  },
+  {
+    "text": "propagation so once you have done the",
+    "start": 117.06,
+    "duration": 4.26
+  },
+  {
+    "text": "forward propagation you compute y hat",
+    "start": 118.68,
+    "duration": 6.06
+  },
+  {
+    "text": "you also know y right so using that you",
+    "start": 121.32,
+    "duration": 6.18
+  },
+  {
+    "text": "can compute the loss function okay loss",
+    "start": 124.74,
+    "duration": 5.4
+  },
+  {
+    "text": "function depends on y hat and Y",
+    "start": 127.5,
+    "duration": 5.099
+  },
+  {
+    "text": "and you will need",
+    "start": 130.14,
+    "duration": 3.959
+  },
+  {
+    "text": "all of these things right they were",
+    "start": 132.599,
+    "duration": 2.881
+  },
+  {
+    "text": "showing up in the back propagation",
+    "start": 134.099,
+    "duration": 2.881
+  },
+  {
+    "text": "formula that you had seen right so we",
+    "start": 135.48,
+    "duration": 3.3
+  },
+  {
+    "text": "will see that again so all of these",
+    "start": 136.98,
+    "duration": 2.94
+  },
+  {
+    "text": "quantities you will need right so",
+    "start": 138.78,
+    "duration": 2.459
+  },
+  {
+    "text": "everything that you have computed in the",
+    "start": 139.92,
+    "duration": 3.12
+  },
+  {
+    "text": "forward propagation you will need it in",
+    "start": 141.239,
+    "duration": 3.601
+  },
+  {
+    "text": "the backward propagation also and what",
+    "start": 143.04,
+    "duration": 2.76
+  },
+  {
+    "text": "is the output of the backward",
+    "start": 144.84,
+    "duration": 2.759
+  },
+  {
+    "text": "propagation it's the derivative of the",
+    "start": 145.8,
+    "duration": 3.96
+  },
+  {
+    "text": "loss function with respect to all the",
+    "start": 147.599,
+    "duration": 3.481
+  },
+  {
+    "text": "weights in the network and I'm just",
+    "start": 149.76,
+    "duration": 2.88
+  },
+  {
+    "text": "collectively calling it as a derivative",
+    "start": 151.08,
+    "duration": 3.299
+  },
+  {
+    "text": "of the loss function with respect to",
+    "start": 152.64,
+    "duration": 3.179
+  },
+  {
+    "text": "Theta whereas the Theta is a large",
+    "start": 154.379,
+    "duration": 3.301
+  },
+  {
+    "text": "collection of Weights once you have that",
+    "start": 155.819,
+    "duration": 3.481
+  },
+  {
+    "text": "you can just update the weights using",
+    "start": 157.68,
+    "duration": 4.199
+  },
+  {
+    "text": "the gradient descent update right so now",
+    "start": 159.3,
+    "duration": 4.2
+  },
+  {
+    "text": "let's zoom into the forward propagation",
+    "start": 161.879,
+    "duration": 3.061
+  },
+  {
+    "text": "and the backward propagation right so",
+    "start": 163.5,
+    "duration": 3.0
+  },
+  {
+    "text": "this is the forward propagation",
+    "start": 164.94,
+    "duration": 4.019
+  },
+  {
+    "text": "for k equal to 1 to L minus 1 this is",
+    "start": 166.5,
+    "duration": 5.16
+  },
+  {
+    "text": "what you will do you will compute a k as",
+    "start": 168.959,
+    "duration": 6.901
+  },
+  {
+    "text": "so A1 is equal to B1 plus w k w 1 into H",
+    "start": 171.66,
+    "duration": 7.32
+  },
+  {
+    "text": "0 and H 0 as I had said is going to be",
+    "start": 175.86,
+    "duration": 6.239
+  },
+  {
+    "text": "equal to X right and then once you have",
+    "start": 178.98,
+    "duration": 4.8
+  },
+  {
+    "text": "that",
+    "start": 182.099,
+    "duration": 4.92
+  },
+  {
+    "text": "you can compute h k as the uh by",
+    "start": 183.78,
+    "duration": 4.86
+  },
+  {
+    "text": "applying the activation function on the",
+    "start": 187.019,
+    "duration": 3.661
+  },
+  {
+    "text": "AK Vector this is all you just need to",
+    "start": 188.64,
+    "duration": 4.379
+  },
+  {
+    "text": "run this Loop l minus 1 times and what",
+    "start": 190.68,
+    "duration": 5.22
+  },
+  {
+    "text": "happens to the lth layer",
+    "start": 193.019,
+    "duration": 7.561
+  },
+  {
+    "text": "there you will first compute uh Al okay",
+    "start": 195.9,
+    "duration": 7.14
+  },
+  {
+    "text": "I've just computed I've just put the",
+    "start": 200.58,
+    "duration": 4.86
+  },
+  {
+    "text": "output layer outside because for the",
+    "start": 203.04,
+    "duration": 3.96
+  },
+  {
+    "text": "output layer you need to use a spatial",
+    "start": 205.44,
+    "duration": 3.18
+  },
+  {
+    "text": "function you don't use the same G",
+    "start": 207.0,
+    "duration": 2.94
+  },
+  {
+    "text": "function right that's why I put it out",
+    "start": 208.62,
+    "duration": 3.18
+  },
+  {
+    "text": "so now we have computed everything you",
+    "start": 209.94,
+    "duration": 3.6
+  },
+  {
+    "text": "have computed the activations for all",
+    "start": 211.8,
+    "duration": 3.9
+  },
+  {
+    "text": "the layers including the output layer",
+    "start": 213.54,
+    "duration": 4.199
+  },
+  {
+    "text": "activations and free activations and",
+    "start": 215.7,
+    "duration": 3.48
+  },
+  {
+    "text": "then you have computed the output also",
+    "start": 217.739,
+    "duration": 3.06
+  },
+  {
+    "text": "and this is all you need to compute the",
+    "start": 219.18,
+    "duration": 4.02
+  },
+  {
+    "text": "loss so if you have y hat you can also",
+    "start": 220.799,
+    "duration": 6.381
+  },
+  {
+    "text": "compute the loss right",
+    "start": 223.2,
+    "duration": 3.98
+  },
+  {
+    "text": "so once you do the forward propagation",
+    "start": 230.099,
+    "duration": 4.021
+  },
+  {
+    "text": "you have all the edges all the A's and",
+    "start": 231.9,
+    "duration": 4.44
+  },
+  {
+    "text": "the Y hat now you start doing the",
+    "start": 234.12,
+    "duration": 3.78
+  },
+  {
+    "text": "backward propagation so first what will",
+    "start": 236.34,
+    "duration": 3.66
+  },
+  {
+    "text": "you do you will compute the gradient",
+    "start": 237.9,
+    "duration": 3.6
+  },
+  {
+    "text": "with respect to the output layer and",
+    "start": 240.0,
+    "duration": 3.78
+  },
+  {
+    "text": "this is what our formula was now this",
+    "start": 241.5,
+    "duration": 3.42
+  },
+  {
+    "text": "you already know because you have",
+    "start": 243.78,
+    "duration": 3.3
+  },
+  {
+    "text": "computed in the forward propagation this",
+    "start": 244.92,
+    "duration": 4.679
+  },
+  {
+    "text": "is just the one hot Vector where there",
+    "start": 247.08,
+    "duration": 4.56
+  },
+  {
+    "text": "will be a one in the correct class and",
+    "start": 249.599,
+    "duration": 3.42
+  },
+  {
+    "text": "this you know from the training data",
+    "start": 251.64,
+    "duration": 3.06
+  },
+  {
+    "text": "right you know for this example what is",
+    "start": 253.019,
+    "duration": 3.84
+  },
+  {
+    "text": "the correct class right so this entire",
+    "start": 254.7,
+    "duration": 4.2
+  },
+  {
+    "text": "algorithm is run for one example for now",
+    "start": 256.859,
+    "duration": 5.1
+  },
+  {
+    "text": "okay one input X so that input you know",
+    "start": 258.9,
+    "duration": 5.4
+  },
+  {
+    "text": "what the Y Vector is and that's why you",
+    "start": 261.959,
+    "duration": 4.68
+  },
+  {
+    "text": "can compute the one hot Vector okay to",
+    "start": 264.3,
+    "duration": 4.02
+  },
+  {
+    "text": "this you know",
+    "start": 266.639,
+    "duration": 5.161
+  },
+  {
+    "text": "now from k equal to this is actually",
+    "start": 268.32,
+    "duration": 5.7
+  },
+  {
+    "text": "wrong",
+    "start": 271.8,
+    "duration": 5.16
+  },
+  {
+    "text": "this should have been L minus 1 2 1",
+    "start": 274.02,
+    "duration": 4.98
+  },
+  {
+    "text": "right because you always start from the",
+    "start": 276.96,
+    "duration": 3.66
+  },
+  {
+    "text": "last layer and keep going on to the",
+    "start": 279.0,
+    "duration": 4.08
+  },
+  {
+    "text": "first layer so you compute the gradients",
+    "start": 280.62,
+    "duration": 4.74
+  },
+  {
+    "text": "with respect to the parameters I want to",
+    "start": 283.08,
+    "duration": 3.66
+  },
+  {
+    "text": "compute the derivative of the loss",
+    "start": 285.36,
+    "duration": 3.0
+  },
+  {
+    "text": "function with respect to the parameter",
+    "start": 286.74,
+    "duration": 4.44
+  },
+  {
+    "text": "in the last layer so this is k equal to",
+    "start": 288.36,
+    "duration": 4.86
+  },
+  {
+    "text": "l minus 1 to 1 is what you are doing",
+    "start": 291.18,
+    "duration": 3.299
+  },
+  {
+    "text": "right so I want to compute the",
+    "start": 293.22,
+    "duration": 4.52
+  },
+  {
+    "text": "derivative of the loss function",
+    "start": 294.479,
+    "duration": 3.261
+  },
+  {
+    "text": "yeah so now you want to compute the",
+    "start": 303.12,
+    "duration": 4.26
+  },
+  {
+    "text": "derivative of the loss function with",
+    "start": 304.74,
+    "duration": 4.739
+  },
+  {
+    "text": "respect to the weights in the last rear",
+    "start": 307.38,
+    "duration": 5.759
+  },
+  {
+    "text": "which is W3 so this will be a from L uh",
+    "start": 309.479,
+    "duration": 7.141
+  },
+  {
+    "text": "going from L to 1 right so w 3",
+    "start": 313.139,
+    "duration": 6.661
+  },
+  {
+    "text": "uh which will depend on",
+    "start": 316.62,
+    "duration": 5.76
+  },
+  {
+    "text": "the derivative of the loss function with",
+    "start": 319.8,
+    "duration": 5.28
+  },
+  {
+    "text": "respect to A3 and",
+    "start": 322.38,
+    "duration": 4.92
+  },
+  {
+    "text": "uh",
+    "start": 325.08,
+    "duration": 4.08
+  },
+  {
+    "text": "H2 right so this you have already",
+    "start": 327.3,
+    "duration": 4.02
+  },
+  {
+    "text": "computed in the forward pass this you",
+    "start": 329.16,
+    "duration": 4.2
+  },
+  {
+    "text": "have already computed this is just",
+    "start": 331.32,
+    "duration": 3.78
+  },
+  {
+    "text": "computed outside the loop so you have",
+    "start": 333.36,
+    "duration": 3.899
+  },
+  {
+    "text": "all the elements that you require to",
+    "start": 335.1,
+    "duration": 4.379
+  },
+  {
+    "text": "compute this right similarly you can",
+    "start": 337.259,
+    "duration": 3.481
+  },
+  {
+    "text": "compute the derivative of the loss",
+    "start": 339.479,
+    "duration": 3.361
+  },
+  {
+    "text": "function with respect to the weights in",
+    "start": 340.74,
+    "duration": 4.08
+  },
+  {
+    "text": "the layer three so this also you can do",
+    "start": 342.84,
+    "duration": 3.359
+  },
+  {
+    "text": "because you just need this quantity",
+    "start": 344.82,
+    "duration": 3.54
+  },
+  {
+    "text": "which you have already computed because",
+    "start": 346.199,
+    "duration": 4.201
+  },
+  {
+    "text": "K is equal to l right now we are running",
+    "start": 348.36,
+    "duration": 4.92
+  },
+  {
+    "text": "the loop from L to 1 okay so this is",
+    "start": 350.4,
+    "duration": 4.98
+  },
+  {
+    "text": "done",
+    "start": 353.28,
+    "duration": 4.02
+  },
+  {
+    "text": "now you compute the ingredients with",
+    "start": 355.38,
+    "duration": 4.08
+  },
+  {
+    "text": "respect to the layer below so now you",
+    "start": 357.3,
+    "duration": 3.899
+  },
+  {
+    "text": "can compute the derivative of the loss",
+    "start": 359.46,
+    "duration": 5.7
+  },
+  {
+    "text": "function with respect to K uh K minus 1",
+    "start": 361.199,
+    "duration": 6.961
+  },
+  {
+    "text": "so you had started with k equal to l to",
+    "start": 365.16,
+    "duration": 7.62
+  },
+  {
+    "text": "1 right so now at this point uh K is",
+    "start": 368.16,
+    "duration": 7.259
+  },
+  {
+    "text": "equal to l so K minus 1 would be L minus",
+    "start": 372.78,
+    "duration": 4.38
+  },
+  {
+    "text": "1 so which would be H2 so you're",
+    "start": 375.419,
+    "duration": 3.12
+  },
+  {
+    "text": "Computing the derivative of the loss",
+    "start": 377.16,
+    "duration": 3.599
+  },
+  {
+    "text": "function with respect to H2 and for that",
+    "start": 378.539,
+    "duration": 5.1
+  },
+  {
+    "text": "you need the weights W3 which you",
+    "start": 380.759,
+    "duration": 4.801
+  },
+  {
+    "text": "already have and you need the derivative",
+    "start": 383.639,
+    "duration": 4.62
+  },
+  {
+    "text": "of the loss function with respect to A3",
+    "start": 385.56,
+    "duration": 5.22
+  },
+  {
+    "text": "which again you already have right so",
+    "start": 388.259,
+    "duration": 4.741
+  },
+  {
+    "text": "this I already explained this when I was",
+    "start": 390.78,
+    "duration": 3.72
+  },
+  {
+    "text": "saying that you're just going step by",
+    "start": 393.0,
+    "duration": 2.46
+  },
+  {
+    "text": "step",
+    "start": 394.5,
+    "duration": 2.58
+  },
+  {
+    "text": "and then you compute the gradients with",
+    "start": 395.46,
+    "duration": 3.48
+  },
+  {
+    "text": "respect to the uh",
+    "start": 397.08,
+    "duration": 4.619
+  },
+  {
+    "text": "pre-activation layer below so this is",
+    "start": 398.94,
+    "duration": 4.08
+  },
+  {
+    "text": "what you want to compute and for that",
+    "start": 401.699,
+    "duration": 2.94
+  },
+  {
+    "text": "you just need this quantity which you",
+    "start": 403.02,
+    "duration": 3.6
+  },
+  {
+    "text": "had just computed and this quantity",
+    "start": 404.639,
+    "duration": 3.961
+  },
+  {
+    "text": "which you have already argued is easy to",
+    "start": 406.62,
+    "duration": 3.9
+  },
+  {
+    "text": "come right so you just this Loop just",
+    "start": 408.6,
+    "duration": 4.379
+  },
+  {
+    "text": "keeps going on and on till the first",
+    "start": 410.52,
+    "duration": 4.739
+  },
+  {
+    "text": "layer and you just keep Computing all",
+    "start": 412.979,
+    "duration": 4.921
+  },
+  {
+    "text": "the uh the the gradients with respect to",
+    "start": 415.259,
+    "duration": 5.101
+  },
+  {
+    "text": "all the weights all the activations all",
+    "start": 417.9,
+    "duration": 4.2
+  },
+  {
+    "text": "the pre-activations all the biases in",
+    "start": 420.36,
+    "duration": 3.66
+  },
+  {
+    "text": "the network so this entire Loop you",
+    "start": 422.1,
+    "duration": 3.78
+  },
+  {
+    "text": "could write in Python you first do the",
+    "start": 424.02,
+    "duration": 3.36
+  },
+  {
+    "text": "forward propagation then do the backward",
+    "start": 425.88,
+    "duration": 3.96
+  },
+  {
+    "text": "propagation so we have the formula for",
+    "start": 427.38,
+    "duration": 4.5
+  },
+  {
+    "text": "all the weights it does not matter it's",
+    "start": 429.84,
+    "duration": 4.74
+  },
+  {
+    "text": "w 1 W 2 W 3 the same formula applies",
+    "start": 431.88,
+    "duration": 4.92
+  },
+  {
+    "text": "similarly we have the formula for all",
+    "start": 434.58,
+    "duration": 3.959
+  },
+  {
+    "text": "the preactivations all the activations",
+    "start": 436.8,
+    "duration": 3.72
+  },
+  {
+    "text": "and all the preactivations so we just",
+    "start": 438.539,
+    "duration": 3.841
+  },
+  {
+    "text": "keep applying this formula inside a loop",
+    "start": 440.52,
+    "duration": 3.899
+  },
+  {
+    "text": "right so I don't have to do this painful",
+    "start": 442.38,
+    "duration": 3.78
+  },
+  {
+    "text": "computation where I'm trying to compute",
+    "start": 444.419,
+    "duration": 3.12
+  },
+  {
+    "text": "the derivative of the loss function with",
+    "start": 446.16,
+    "duration": 5.039
+  },
+  {
+    "text": "respect to every weight w k i j or W3 1",
+    "start": 447.539,
+    "duration": 6.0
+  },
+  {
+    "text": "comma 2 W 3 2 comma two and so on right",
+    "start": 451.199,
+    "duration": 3.961
+  },
+  {
+    "text": "I just have a generic formula I'm just",
+    "start": 453.539,
+    "duration": 3.841
+  },
+  {
+    "text": "doing Matrix operations and I get the",
+    "start": 455.16,
+    "duration": 4.08
+  },
+  {
+    "text": "derivatives with respect to all the you",
+    "start": 457.38,
+    "duration": 3.9
+  },
+  {
+    "text": "can say so that is what is the entire",
+    "start": 459.24,
+    "duration": 4.019
+  },
+  {
+    "text": "back propagation algorithm is coded in",
+    "start": 461.28,
+    "duration": 4.319
+  },
+  {
+    "text": "just this these many steps at a very",
+    "start": 463.259,
+    "duration": 4.38
+  },
+  {
+    "text": "small Loop and all of these are Matrix",
+    "start": 465.599,
+    "duration": 3.421
+  },
+  {
+    "text": "Vector multiplications",
+    "start": 467.639,
+    "duration": 3.541
+  },
+  {
+    "text": "so we are almost done one last thing",
+    "start": 469.02,
+    "duration": 4.14
+  },
+  {
+    "text": "that was left was",
+    "start": 471.18,
+    "duration": 4.859
+  },
+  {
+    "text": "uh the derivatives of the",
+    "start": 473.16,
+    "duration": 3.72
+  },
+  {
+    "text": "uh",
+    "start": 476.039,
+    "duration": 3.0
+  },
+  {
+    "text": "the G primes right which I did not",
+    "start": 476.88,
+    "duration": 4.62
+  },
+  {
+    "text": "covers I I already told you it's easy to",
+    "start": 479.039,
+    "duration": 5.28
+  },
+  {
+    "text": "do so this is our gz so if it's a",
+    "start": 481.5,
+    "duration": 4.44
+  },
+  {
+    "text": "logistic function then this is what it",
+    "start": 484.319,
+    "duration": 3.541
+  },
+  {
+    "text": "is and this is how you can compute G",
+    "start": 485.94,
+    "duration": 4.379
+  },
+  {
+    "text": "Prime so this is what you will do right",
+    "start": 487.86,
+    "duration": 4.2
+  },
+  {
+    "text": "so you can again write a function to",
+    "start": 490.319,
+    "duration": 4.141
+  },
+  {
+    "text": "compute G prime it takes any value as",
+    "start": 492.06,
+    "duration": 6.199
+  },
+  {
+    "text": "input uh foreign",
+    "start": 494.46,
+    "duration": 8.76
+  },
+  {
+    "text": "H is equal to G of a right so you just",
+    "start": 498.259,
+    "duration": 7.361
+  },
+  {
+    "text": "pass that a and you substitute in this",
+    "start": 503.22,
+    "duration": 4.68
+  },
+  {
+    "text": "formula so you get G Dash right that's",
+    "start": 505.62,
+    "duration": 4.919
+  },
+  {
+    "text": "all that this says and in fact it can be",
+    "start": 507.9,
+    "duration": 5.34
+  },
+  {
+    "text": "written even more uh simply it's just G",
+    "start": 510.539,
+    "duration": 5.221
+  },
+  {
+    "text": "of Z into 1 minus G of Z you can derive",
+    "start": 513.24,
+    "duration": 4.2
+  },
+  {
+    "text": "this this is not and similarly for this",
+    "start": 515.76,
+    "duration": 3.48
+  },
+  {
+    "text": "you can derive and it's just 1 minus U",
+    "start": 517.44,
+    "duration": 4.5
+  },
+  {
+    "text": "of Z square right so those G primes are",
+    "start": 519.24,
+    "duration": 5.82
+  },
+  {
+    "text": "easy to compute",
+    "start": 521.94,
+    "duration": 5.399
+  },
+  {
+    "text": "so that's all I had",
+    "start": 525.06,
+    "duration": 4.2
+  },
+  {
+    "text": "so if I got this formula as saying right",
+    "start": 527.339,
+    "duration": 6.541
+  },
+  {
+    "text": "so if I had H already right and if I",
+    "start": 529.26,
+    "duration": 7.139
+  },
+  {
+    "text": "want to compute G then I already have G",
+    "start": 533.88,
+    "duration": 3.84
+  },
+  {
+    "text": "Prime then I already have everything",
+    "start": 536.399,
+    "duration": 3.781
+  },
+  {
+    "text": "that I wanted to compute right so this",
+    "start": 537.72,
+    "duration": 4.38
+  },
+  {
+    "text": "is all we are done with the entire back",
+    "start": 540.18,
+    "duration": 4.44
+  },
+  {
+    "text": "propagation algorithm uh we have seen it",
+    "start": 542.1,
+    "duration": 5.88
+  },
+  {
+    "text": "in quite gory details uh you have to",
+    "start": 544.62,
+    "duration": 5.76
+  },
+  {
+    "text": "watch these videos a few times to get a",
+    "start": 547.98,
+    "duration": 4.5
+  },
+  {
+    "text": "complete grasp on it but everything that",
+    "start": 550.38,
+    "duration": 3.6
+  },
+  {
+    "text": "you need to understand it is there in",
+    "start": 552.48,
+    "duration": 3.539
+  },
+  {
+    "text": "the videos and the slides so please look",
+    "start": 553.98,
+    "duration": 4.02
+  },
+  {
+    "text": "at it so I'll end here and the next",
+    "start": 556.019,
+    "duration": 4.021
+  },
+  {
+    "text": "class we'll go back to gradient descent",
+    "start": 558.0,
+    "duration": 4.019
+  },
+  {
+    "text": "and look at a few variants of your data",
+    "start": 560.04,
+    "duration": 5.0
+  },
+  {
+    "text": "so thank you",
+    "start": 562.019,
+    "duration": 3.021
+  }
+]

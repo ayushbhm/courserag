@@ -1,0 +1,9 @@
+[Music] okay so now let's talk about output functions and loss functions right so this is where we were we.
+wanted to understand how to choose a loss function and that in turn would depend on what your output function.
+is so let's look at that right so the choice of loss function depends on the problem at hand and.
+what i'm going to do is that i'm going to talk about two very popular problems side one is regression.
+and this other is classification and in most cases like 90 of the problems that you deal with would fall.
+in one of these two categories right so if you do these then we are largely covered from an application.
+or perspective right even from the understanding perspective right so let's look at what these two examples are so the.
+first example is that i have an input about movies and i want to predict the ratings for the movies.
+right and these ratings could be the imdb ratings or the critics rating or the rotten tomatoes rating right now.

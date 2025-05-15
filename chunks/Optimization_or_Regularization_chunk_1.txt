@@ -1,0 +1,9 @@
+the error surface as I said for a deep neural network is highly non-connection it has these many plateaus many.
+valleys some very steep points where you go in and then it's very hard to come out and so on.
+right and somewhere there would be multiple Minima then possibly one Global Minima and so on it or multiple equal.
+minimize so it's like a hardly a highly con complex non-convex surface as opposed to a nice convex surface we.
+just have one Minima right so uh given the large capacity of deep neural networks it is still easy to.
+land in one of these zero error regions right so there might be these multiple zero error regions of course.
+in this diagram there is only one visible but there are a few behind which are all at a zero.
+error level right so given this large capacity it's still possible to land in these zero error regions and why.
+am I saying that which theorem am I using while saying this the universal approximation theorem right it said that.

@@ -1,0 +1,10 @@
+into W did the DW and B is equal to B minus ETA into d w DB right so this.
+is I'll just keep doing this in the loop and I'll keep moving along the error surface so this is.
+what my error surface is so I have this is what my error surface looks like and how have I.
+plotted the error surface I have plotted it using something like this right so uh yeah so this is how.
+I plotted for all possible values of w comma B actually I've just computed the error and then I have.
+plotted it right so don't worry too much about what is happening here this is just a formula for computing.
+the loss function which is f of x minus y the whole square right so I've just computed that and.
+I've plotted this uh so now if I just keep changing the values of w and B as shown in.
+this algorithm following the gradient recent rule then no matter where I start from I start moving in a principled.
+way and at every point the loss will just keep decreasing and I'll reach the minimum that is what is.

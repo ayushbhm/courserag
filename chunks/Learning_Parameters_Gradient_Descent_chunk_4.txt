@@ -1,0 +1,9 @@
+I'll get the gradient vector and the gradient Vector is a two dimensional Vector in this case right so that's.
+what this quantity is you have the loss function Theta and you are taking the gradient of theta of the.
+loss function with respect to Theta and we know that Theta is nothing but W comma B and this Theta.
+is also W comma B so this is just a vectorial way of writing it that you're taking the partial.
+derivatives with respect to W and B you put those partial derivatives in a vector that Vector is called the.
+gradient and this is the quantity that we are using to denote that gradient and now it makes sense because.
+you're taking the gradient of a function which is a function of a vector with respect to that Vector right.
+that's what that's how you should read right so this is what this quantity is right now for this discussion.
+I think I can stop here because this is where I am going to draw a line I am going.

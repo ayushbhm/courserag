@@ -1,0 +1,10 @@
+[Music] now what would happen if you have more than one input right so now this was all for a.
+single input right i just had the x axis and the y axis so x was input and y was.
+the output but now i have a situation where i have two inputs right and what is happening here is.
+interesting right so this is my uh the orient oops i know intention of doing this so now here again.
+this now let me be careful and do it well yeah so this is this orange plane that you see.
+that is my x1 x2 plane right and i have points on this plane right which you can see are.
+some the blue points and the orange points right and what is this i've just taken my oil mining example.
+again and suppose this is the salinity axis and this is the pressure axis right so a blue point here.
+is simply the x1 comma x2 point on this planet where the salinity is equal to x1 and the pressure.
+is equal to x2 and same the all the points here are just the x1 x2 coordinates where x1 is.

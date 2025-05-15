@@ -1,0 +1,9 @@
+foreign [Music] block within the Transformer architecture and we saw that the entire self-attention can be done in parallel for.
+all the capital T tokens and it all happens to these Matrix multiplications right so in effect what is happening.
+is the following right so this is what is known as a scaled dot product self-attention and this is called.
+one head and soon we'll see multiple such heads but we'll get there when we get there but for now.
+just remember this is called cell scaled dot product based self attention so what exactly is happening here uh so.
+this so this purple box here right this is a scale dot product unit right so this is what is.
+lying inside this purple block Here and Now what is the input to the Box let's see uh so you.
+get the key uh query and the value matrices how are these constructed originally remember at the input all you.
+had were these H1 to HT right so you had these word representations for the keywords and we were calling.

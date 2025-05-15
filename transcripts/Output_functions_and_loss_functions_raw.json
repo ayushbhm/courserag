@@ -1,0 +1,3497 @@
+[
+  {
+    "text": "[Music]",
+    "start": 0.37,
+    "duration": 9.999
+  },
+  {
+    "text": "okay so now let's talk about output",
+    "start": 19.279,
+    "duration": 4.24
+  },
+  {
+    "text": "functions and loss functions right so",
+    "start": 21.6,
+    "duration": 4.56
+  },
+  {
+    "text": "this is where we were we wanted to",
+    "start": 23.519,
+    "duration": 4.321
+  },
+  {
+    "text": "understand how to choose a loss function",
+    "start": 26.16,
+    "duration": 3.119
+  },
+  {
+    "text": "and that in turn would depend on what",
+    "start": 27.84,
+    "duration": 4.399
+  },
+  {
+    "text": "your output function is so let's look at",
+    "start": 29.279,
+    "duration": 4.881
+  },
+  {
+    "text": "that right so the choice of loss",
+    "start": 32.239,
+    "duration": 3.761
+  },
+  {
+    "text": "function depends on the problem at hand",
+    "start": 34.16,
+    "duration": 3.36
+  },
+  {
+    "text": "and what i'm going to do is that i'm",
+    "start": 36.0,
+    "duration": 3.36
+  },
+  {
+    "text": "going to talk about two very popular",
+    "start": 37.52,
+    "duration": 3.84
+  },
+  {
+    "text": "problems side one is regression and this",
+    "start": 39.36,
+    "duration": 4.24
+  },
+  {
+    "text": "other is classification and in",
+    "start": 41.36,
+    "duration": 4.16
+  },
+  {
+    "text": "most cases like 90 of the problems that",
+    "start": 43.6,
+    "duration": 3.84
+  },
+  {
+    "text": "you deal with would fall in one of these",
+    "start": 45.52,
+    "duration": 3.519
+  },
+  {
+    "text": "two categories right so if you do these",
+    "start": 47.44,
+    "duration": 4.08
+  },
+  {
+    "text": "then we are largely covered from an",
+    "start": 49.039,
+    "duration": 4.321
+  },
+  {
+    "text": "application or perspective right even",
+    "start": 51.52,
+    "duration": 4.16
+  },
+  {
+    "text": "from the understanding perspective right",
+    "start": 53.36,
+    "duration": 4.48
+  },
+  {
+    "text": "so let's look at what these two examples",
+    "start": 55.68,
+    "duration": 4.08
+  },
+  {
+    "text": "are so the first example is that i have",
+    "start": 57.84,
+    "duration": 3.12
+  },
+  {
+    "text": "an input",
+    "start": 59.76,
+    "duration": 2.72
+  },
+  {
+    "text": "about movies",
+    "start": 60.96,
+    "duration": 4.159
+  },
+  {
+    "text": "and i want to predict the ratings for",
+    "start": 62.48,
+    "duration": 4.16
+  },
+  {
+    "text": "the movies right and",
+    "start": 65.119,
+    "duration": 4.081
+  },
+  {
+    "text": "these ratings could be the imdb ratings",
+    "start": 66.64,
+    "duration": 4.799
+  },
+  {
+    "text": "or the critics rating or the rotten",
+    "start": 69.2,
+    "duration": 4.4
+  },
+  {
+    "text": "tomatoes rating right",
+    "start": 71.439,
+    "duration": 5.441
+  },
+  {
+    "text": "now deliberately i have moved to a setup",
+    "start": 73.6,
+    "duration": 5.44
+  },
+  {
+    "text": "where",
+    "start": 76.88,
+    "duration": 4.879
+  },
+  {
+    "text": "you have an input",
+    "start": 79.04,
+    "duration": 4.8
+  },
+  {
+    "text": "which is",
+    "start": 81.759,
+    "duration": 5.281
+  },
+  {
+    "text": "n-dimensional and now you have an output",
+    "start": 83.84,
+    "duration": 5.68
+  },
+  {
+    "text": "which is",
+    "start": 87.04,
+    "duration": 2.48
+  },
+  {
+    "text": "k dimensional which in this case is",
+    "start": 89.92,
+    "duration": 3.28
+  },
+  {
+    "text": "three dimensional right so just to make",
+    "start": 91.68,
+    "duration": 3.759
+  },
+  {
+    "text": "sure that you understand that it may not",
+    "start": 93.2,
+    "duration": 3.599
+  },
+  {
+    "text": "be always the case that we're just",
+    "start": 95.439,
+    "duration": 3.841
+  },
+  {
+    "text": "trying to predict one value using the",
+    "start": 96.799,
+    "duration": 4.32
+  },
+  {
+    "text": "same information about the input so just",
+    "start": 99.28,
+    "duration": 3.04
+  },
+  {
+    "text": "imagine that i have taken a lot of",
+    "start": 101.119,
+    "duration": 3.68
+  },
+  {
+    "text": "inputs a lot of movies from the past",
+    "start": 102.32,
+    "duration": 4.96
+  },
+  {
+    "text": "right and for each of these movies i",
+    "start": 104.799,
+    "duration": 4.881
+  },
+  {
+    "text": "have their input representation which is",
+    "start": 107.28,
+    "duration": 5.119
+  },
+  {
+    "text": "who was a director actor blah blah and",
+    "start": 109.68,
+    "duration": 6.079
+  },
+  {
+    "text": "then i also have the output",
+    "start": 112.399,
+    "duration": 4.561
+  },
+  {
+    "text": "and this output is just three",
+    "start": 115.759,
+    "duration": 3.761
+  },
+  {
+    "text": "dimensional right i have the imdb rating",
+    "start": 116.96,
+    "duration": 4.4
+  },
+  {
+    "text": "i have the critics rating and i have the",
+    "start": 119.52,
+    "duration": 4.72
+  },
+  {
+    "text": "rotten tomatoes it's all three are",
+    "start": 121.36,
+    "duration": 5.439
+  },
+  {
+    "text": "available to me and now using this input",
+    "start": 124.24,
+    "duration": 5.359
+  },
+  {
+    "text": "data right so this becomes my x comma y",
+    "start": 126.799,
+    "duration": 6.241
+  },
+  {
+    "text": "pairs i want to train a model which",
+    "start": 129.599,
+    "duration": 7.201
+  },
+  {
+    "text": "takes in as x as input right",
+    "start": 133.04,
+    "duration": 5.919
+  },
+  {
+    "text": "and gives me",
+    "start": 136.8,
+    "duration": 3.76
+  },
+  {
+    "text": "these three ratings as output which is",
+    "start": 138.959,
+    "duration": 3.041
+  },
+  {
+    "text": "the same as saying that it gives me a",
+    "start": 140.56,
+    "duration": 3.28
+  },
+  {
+    "text": "three dimensional output right so that's",
+    "start": 142.0,
+    "duration": 3.28
+  },
+  {
+    "text": "that's what it is",
+    "start": 143.84,
+    "duration": 4.56
+  },
+  {
+    "text": "now here i belongs to r3 as i said so",
+    "start": 145.28,
+    "duration": 5.36
+  },
+  {
+    "text": "now",
+    "start": 148.4,
+    "duration": 2.24
+  },
+  {
+    "text": "the loss function that we want should be",
+    "start": 150.8,
+    "duration": 5.12
+  },
+  {
+    "text": "able to deviate how much does the",
+    "start": 153.12,
+    "duration": 5.52
+  },
+  {
+    "text": "predicted value",
+    "start": 155.92,
+    "duration": 4.56
+  },
+  {
+    "text": "should be able to capture how much does",
+    "start": 158.64,
+    "duration": 3.599
+  },
+  {
+    "text": "the predicted value",
+    "start": 160.48,
+    "duration": 4.479
+  },
+  {
+    "text": "deviate from the true value right now",
+    "start": 162.239,
+    "duration": 4.881
+  },
+  {
+    "text": "here you have a vector as the true",
+    "start": 164.959,
+    "duration": 3.761
+  },
+  {
+    "text": "vector of true values and vector of",
+    "start": 167.12,
+    "duration": 2.96
+  },
+  {
+    "text": "predicted values and you want to find",
+    "start": 168.72,
+    "duration": 3.04
+  },
+  {
+    "text": "the difference between them so the",
+    "start": 170.08,
+    "duration": 4.0
+  },
+  {
+    "text": "obvious loss function would be these",
+    "start": 171.76,
+    "duration": 4.24
+  },
+  {
+    "text": "mean squared error loss function right",
+    "start": 174.08,
+    "duration": 3.12
+  },
+  {
+    "text": "so you have three values that you're",
+    "start": 176.0,
+    "duration": 3.599
+  },
+  {
+    "text": "predicting for each of these values you",
+    "start": 177.2,
+    "duration": 3.92
+  },
+  {
+    "text": "calculate the square of the difference",
+    "start": 179.599,
+    "duration": 3.201
+  },
+  {
+    "text": "between the true value and the predicted",
+    "start": 181.12,
+    "duration": 2.56
+  },
+  {
+    "text": "value",
+    "start": 182.8,
+    "duration": 2.719
+  },
+  {
+    "text": "you sum it over all the n training",
+    "start": 183.68,
+    "duration": 3.44
+  },
+  {
+    "text": "examples that you have and then take the",
+    "start": 185.519,
+    "duration": 3.761
+  },
+  {
+    "text": "mean or the average so this is the mean",
+    "start": 187.12,
+    "duration": 4.32
+  },
+  {
+    "text": "squared error that you would compute so",
+    "start": 189.28,
+    "duration": 3.52
+  },
+  {
+    "text": "this we have already seen it when you're",
+    "start": 191.44,
+    "duration": 3.28
+  },
+  {
+    "text": "trying to predict real values it's best",
+    "start": 192.8,
+    "duration": 3.6
+  },
+  {
+    "text": "to take the squared error loss because",
+    "start": 194.72,
+    "duration": 3.2
+  },
+  {
+    "text": "it computes the deviation between the",
+    "start": 196.4,
+    "duration": 4.24
+  },
+  {
+    "text": "true value and the captured value right",
+    "start": 197.92,
+    "duration": 4.48
+  },
+  {
+    "text": "now",
+    "start": 200.64,
+    "duration": 3.84
+  },
+  {
+    "text": "a related question here should be what",
+    "start": 202.4,
+    "duration": 4.32
+  },
+  {
+    "text": "should the output function be right so",
+    "start": 204.48,
+    "duration": 4.24
+  },
+  {
+    "text": "you have the output function sitting",
+    "start": 206.72,
+    "duration": 4.48
+  },
+  {
+    "text": "here right so this dark green guy",
+    "start": 208.72,
+    "duration": 5.84
+  },
+  {
+    "text": "is the output right and i'm taking a3",
+    "start": 211.2,
+    "duration": 5.039
+  },
+  {
+    "text": "and i'm going to pass it through some",
+    "start": 214.56,
+    "duration": 3.12
+  },
+  {
+    "text": "output function",
+    "start": 216.239,
+    "duration": 4.401
+  },
+  {
+    "text": "and that is going to give me uh the",
+    "start": 217.68,
+    "duration": 4.88
+  },
+  {
+    "text": "output y hat",
+    "start": 220.64,
+    "duration": 3.92
+  },
+  {
+    "text": "which is shown as the dark or the shaded",
+    "start": 222.56,
+    "duration": 4.319
+  },
+  {
+    "text": "green part here right so what should my",
+    "start": 224.56,
+    "duration": 4.64
+  },
+  {
+    "text": "output function be right so now let me",
+    "start": 226.879,
+    "duration": 4.72
+  },
+  {
+    "text": "ask you a question it can it be the",
+    "start": 229.2,
+    "duration": 3.92
+  },
+  {
+    "text": "logistic function right so we had seen",
+    "start": 231.599,
+    "duration": 4.161
+  },
+  {
+    "text": "the logistic function which takes any",
+    "start": 233.12,
+    "duration": 5.36
+  },
+  {
+    "text": "input right so a3 would be the input and",
+    "start": 235.76,
+    "duration": 4.399
+  },
+  {
+    "text": "i am asking whether o can be the",
+    "start": 238.48,
+    "duration": 3.759
+  },
+  {
+    "text": "logistic function right and what would",
+    "start": 240.159,
+    "duration": 4.561
+  },
+  {
+    "text": "that mean it would just take",
+    "start": 242.239,
+    "duration": 6.08
+  },
+  {
+    "text": "the input and it would compute the",
+    "start": 244.72,
+    "duration": 6.799
+  },
+  {
+    "text": "logistic function for that right now can",
+    "start": 248.319,
+    "duration": 4.521
+  },
+  {
+    "text": "that",
+    "start": 251.519,
+    "duration": 4.72
+  },
+  {
+    "text": "uh is is that okay is the question right",
+    "start": 252.84,
+    "duration": 5.079
+  },
+  {
+    "text": "so it just should be",
+    "start": 256.239,
+    "duration": 3.441
+  },
+  {
+    "text": "it will compute it element wise eight so",
+    "start": 257.919,
+    "duration": 3.681
+  },
+  {
+    "text": "a three one a three two a three three is",
+    "start": 259.68,
+    "duration": 4.079
+  },
+  {
+    "text": "what it will compute and that would be y",
+    "start": 261.6,
+    "duration": 3.92
+  },
+  {
+    "text": "hat one y hat two y hat three right",
+    "start": 263.759,
+    "duration": 3.041
+  },
+  {
+    "text": "because the three values that i'm trying",
+    "start": 265.52,
+    "duration": 3.76
+  },
+  {
+    "text": "to predict so is that a good choice",
+    "start": 266.8,
+    "duration": 3.44
+  },
+  {
+    "text": "right",
+    "start": 269.28,
+    "duration": 3.76
+  },
+  {
+    "text": "and as all of you realize it wouldn't be",
+    "start": 270.24,
+    "duration": 4.08
+  },
+  {
+    "text": "a good choice",
+    "start": 273.04,
+    "duration": 2.32
+  },
+  {
+    "text": "because",
+    "start": 274.32,
+    "duration": 3.439
+  },
+  {
+    "text": "the logistic function i know is going to",
+    "start": 275.36,
+    "duration": 5.92
+  },
+  {
+    "text": "clamp all my outputs between zero to one",
+    "start": 277.759,
+    "duration": 5.681
+  },
+  {
+    "text": "right so the logistic function as we had",
+    "start": 281.28,
+    "duration": 2.96
+  },
+  {
+    "text": "seen",
+    "start": 283.44,
+    "duration": 4.08
+  },
+  {
+    "text": "is something like this right so it",
+    "start": 284.24,
+    "duration": 5.76
+  },
+  {
+    "text": "the output goes just from",
+    "start": 287.52,
+    "duration": 3.76
+  },
+  {
+    "text": "zero to",
+    "start": 290.0,
+    "duration": 4.16
+  },
+  {
+    "text": "one right so no matter what the input is",
+    "start": 291.28,
+    "duration": 5.6
+  },
+  {
+    "text": "my outputs are going to lie between 0 to",
+    "start": 294.16,
+    "duration": 5.12
+  },
+  {
+    "text": "1 right now why is that not good here",
+    "start": 296.88,
+    "duration": 4.24
+  },
+  {
+    "text": "because here i know that the ratings are",
+    "start": 299.28,
+    "duration": 3.6
+  },
+  {
+    "text": "on a scale of 0 to 10 in fact they could",
+    "start": 301.12,
+    "duration": 4.16
+  },
+  {
+    "text": "also be on a scale of 0 to 100 so then",
+    "start": 302.88,
+    "duration": 4.96
+  },
+  {
+    "text": "if i choose the output as sigmoid",
+    "start": 305.28,
+    "duration": 4.4
+  },
+  {
+    "text": "function then my network is always going",
+    "start": 307.84,
+    "duration": 3.52
+  },
+  {
+    "text": "to predict values between zero to one",
+    "start": 309.68,
+    "duration": 3.44
+  },
+  {
+    "text": "whereas my true values are between zero",
+    "start": 311.36,
+    "duration": 4.16
+  },
+  {
+    "text": "to ten or zero to hundred and then that",
+    "start": 313.12,
+    "duration": 4.24
+  },
+  {
+    "text": "doesn't make sense right so i need to",
+    "start": 315.52,
+    "duration": 4.56
+  },
+  {
+    "text": "predict be able to predict uh unbounded",
+    "start": 317.36,
+    "duration": 4.72
+  },
+  {
+    "text": "values or values having a much higher",
+    "start": 320.08,
+    "duration": 3.76
+  },
+  {
+    "text": "range than zero to one right so that's",
+    "start": 322.08,
+    "duration": 4.0
+  },
+  {
+    "text": "what the constraint that i have and in",
+    "start": 323.84,
+    "duration": 4.16
+  },
+  {
+    "text": "such cases when your output is going to",
+    "start": 326.08,
+    "duration": 5.28
+  },
+  {
+    "text": "be a real value right and not just",
+    "start": 328.0,
+    "duration": 5.68
+  },
+  {
+    "text": "bounded between zero to one then the",
+    "start": 331.36,
+    "duration": 4.399
+  },
+  {
+    "text": "best thing to use is just use a linear",
+    "start": 333.68,
+    "duration": 4.32
+  },
+  {
+    "text": "activation function what does that mean",
+    "start": 335.759,
+    "duration": 4.401
+  },
+  {
+    "text": "so i have done all the computations up",
+    "start": 338.0,
+    "duration": 3.919
+  },
+  {
+    "text": "to this point right that means up to",
+    "start": 340.16,
+    "duration": 2.72
+  },
+  {
+    "text": "this",
+    "start": 341.919,
+    "duration": 1.84
+  },
+  {
+    "text": "white",
+    "start": 342.88,
+    "duration": 3.44
+  },
+  {
+    "text": "portion right of the green neuron right",
+    "start": 343.759,
+    "duration": 5.361
+  },
+  {
+    "text": "and that what i get there is a l a l is",
+    "start": 346.32,
+    "duration": 5.12
+  },
+  {
+    "text": "of course a l 1",
+    "start": 349.12,
+    "duration": 4.56
+  },
+  {
+    "text": "a l 2 a l",
+    "start": 351.44,
+    "duration": 4.0
+  },
+  {
+    "text": "3 right in this case it's a collection",
+    "start": 353.68,
+    "duration": 2.88
+  },
+  {
+    "text": "of",
+    "start": 355.44,
+    "duration": 2.56
+  },
+  {
+    "text": "3 elements",
+    "start": 356.56,
+    "duration": 3.76
+  },
+  {
+    "text": "now i'm going to just multiply it by a",
+    "start": 358.0,
+    "duration": 4.0
+  },
+  {
+    "text": "matrix w o",
+    "start": 360.32,
+    "duration": 3.92
+  },
+  {
+    "text": "okay and what is the dimension of that w",
+    "start": 362.0,
+    "duration": 3.84
+  },
+  {
+    "text": "going to be it's again going to be 3",
+    "start": 364.24,
+    "duration": 2.799
+  },
+  {
+    "text": "cross 3",
+    "start": 365.84,
+    "duration": 4.0
+  },
+  {
+    "text": "right because at the output again i want",
+    "start": 367.039,
+    "duration": 5.201
+  },
+  {
+    "text": "h right nh is again",
+    "start": 369.84,
+    "duration": 4.479
+  },
+  {
+    "text": "3 cross 3 right i want 3 values there",
+    "start": 372.24,
+    "duration": 5.2
+  },
+  {
+    "text": "sorry 3 cross 1",
+    "start": 374.319,
+    "duration": 3.121
+  },
+  {
+    "text": "right and which is just the same as y",
+    "start": 378.0,
+    "duration": 6.0
+  },
+  {
+    "text": "hat 1 y hat 2 y hat 3 right so i want 3",
+    "start": 380.8,
+    "duration": 5.679
+  },
+  {
+    "text": "values i have input which is a 3 cross 1",
+    "start": 384.0,
+    "duration": 4.479
+  },
+  {
+    "text": "vector so i should multiply it by a 3",
+    "start": 386.479,
+    "duration": 3.761
+  },
+  {
+    "text": "cross 3 matrix right so this is the",
+    "start": 388.479,
+    "duration": 3.201
+  },
+  {
+    "text": "transformation that i'm going to do i",
+    "start": 390.24,
+    "duration": 3.76
+  },
+  {
+    "text": "have some values computed here now i am",
+    "start": 391.68,
+    "duration": 3.76
+  },
+  {
+    "text": "going to just multiply it by weight",
+    "start": 394.0,
+    "duration": 4.0
+  },
+  {
+    "text": "vector w and now",
+    "start": 395.44,
+    "duration": 4.96
+  },
+  {
+    "text": "plus add the bias right so that's always",
+    "start": 398.0,
+    "duration": 4.24
+  },
+  {
+    "text": "there i'm going to add the bias also and",
+    "start": 400.4,
+    "duration": 3.84
+  },
+  {
+    "text": "i'll get a three dimensional output and",
+    "start": 402.24,
+    "duration": 3.679
+  },
+  {
+    "text": "those are my values and these are not",
+    "start": 404.24,
+    "duration": 3.679
+  },
+  {
+    "text": "going to be bounded between 0 to 1",
+    "start": 405.919,
+    "duration": 4.321
+  },
+  {
+    "text": "because my w is not bounded my a is not",
+    "start": 407.919,
+    "duration": 4.241
+  },
+  {
+    "text": "bounded my b is not bounded right so",
+    "start": 410.24,
+    "duration": 3.76
+  },
+  {
+    "text": "that's that's what i'm going to use but",
+    "start": 412.16,
+    "duration": 5.92
+  },
+  {
+    "text": "now the question that you could ask is",
+    "start": 414.0,
+    "duration": 4.08
+  },
+  {
+    "text": "that if a is not bounded b is not",
+    "start": 418.88,
+    "duration": 4.159
+  },
+  {
+    "text": "bounded w is not bounded this could take",
+    "start": 421.28,
+    "duration": 4.16
+  },
+  {
+    "text": "out any values then how am i sure that",
+    "start": 423.039,
+    "duration": 3.681
+  },
+  {
+    "text": "my uh",
+    "start": 425.44,
+    "duration": 4.319
+  },
+  {
+    "text": "algorithm will not start or my",
+    "start": 426.72,
+    "duration": 4.8
+  },
+  {
+    "text": "y hats which i am predicting it which is",
+    "start": 429.759,
+    "duration": 3.921
+  },
+  {
+    "text": "the output here why would it be like",
+    "start": 431.52,
+    "duration": 4.399
+  },
+  {
+    "text": "thousand ten thousand 100 and so on",
+    "start": 433.68,
+    "duration": 3.84
+  },
+  {
+    "text": "whereas actually i just want values",
+    "start": 435.919,
+    "duration": 3.84
+  },
+  {
+    "text": "between 0 to 10 right so i want that the",
+    "start": 437.52,
+    "duration": 4.64
+  },
+  {
+    "text": "output should be 0 to 10 right that's",
+    "start": 439.759,
+    "duration": 3.681
+  },
+  {
+    "text": "why i did not choose the logistic",
+    "start": 442.16,
+    "duration": 2.319
+  },
+  {
+    "text": "function because i told you that",
+    "start": 443.44,
+    "duration": 2.479
+  },
+  {
+    "text": "logistic function will give you between",
+    "start": 444.479,
+    "duration": 3.761
+  },
+  {
+    "text": "0 to 1 right then perhaps i should have",
+    "start": 445.919,
+    "duration": 3.761
+  },
+  {
+    "text": "chosen something which gives me values",
+    "start": 448.24,
+    "duration": 3.359
+  },
+  {
+    "text": "between 0 to 10 i did not do that i",
+    "start": 449.68,
+    "duration": 4.079
+  },
+  {
+    "text": "chose it choose a linear function which",
+    "start": 451.599,
+    "duration": 3.6
+  },
+  {
+    "text": "is not bounded it could give me any",
+    "start": 453.759,
+    "duration": 3.28
+  },
+  {
+    "text": "values it could give me 10 thousands 1",
+    "start": 455.199,
+    "duration": 4.56
+  },
+  {
+    "text": "lakhs and so on so then how how how",
+    "start": 457.039,
+    "duration": 4.081
+  },
+  {
+    "text": "would you how would the network deal",
+    "start": 459.759,
+    "duration": 3.201
+  },
+  {
+    "text": "with the situation right",
+    "start": 461.12,
+    "duration": 3.519
+  },
+  {
+    "text": "so the answer to this as most of you",
+    "start": 462.96,
+    "duration": 3.519
+  },
+  {
+    "text": "would understand is that",
+    "start": 464.639,
+    "duration": 3.28
+  },
+  {
+    "text": "it's through the",
+    "start": 466.479,
+    "duration": 4.081
+  },
+  {
+    "text": "loss function right so now if my network",
+    "start": 467.919,
+    "duration": 5.201
+  },
+  {
+    "text": "starts predicting the value of y hat one",
+    "start": 470.56,
+    "duration": 4.88
+  },
+  {
+    "text": "right which was say the imdb rating as",
+    "start": 473.12,
+    "duration": 3.68
+  },
+  {
+    "text": "thousand",
+    "start": 475.44,
+    "duration": 3.36
+  },
+  {
+    "text": "whereas actually the value is somewhere",
+    "start": 476.8,
+    "duration": 4.0
+  },
+  {
+    "text": "between 0 to 10 right let's say it was",
+    "start": 478.8,
+    "duration": 6.0
+  },
+  {
+    "text": "9.5 then my difference between 9.5 minus",
+    "start": 480.8,
+    "duration": 5.119
+  },
+  {
+    "text": "1000",
+    "start": 484.8,
+    "duration": 2.88
+  },
+  {
+    "text": "the whole square right this is my loss",
+    "start": 485.919,
+    "duration": 4.081
+  },
+  {
+    "text": "function this is going to be very high",
+    "start": 487.68,
+    "duration": 4.72
+  },
+  {
+    "text": "right if this is going to be very high",
+    "start": 490.0,
+    "duration": 3.199
+  },
+  {
+    "text": "then",
+    "start": 492.4,
+    "duration": 2.479
+  },
+  {
+    "text": "my loss is very high that means what is",
+    "start": 493.199,
+    "duration": 3.761
+  },
+  {
+    "text": "the network uh what is the signal that",
+    "start": 494.879,
+    "duration": 3.841
+  },
+  {
+    "text": "the network is getting that the current",
+    "start": 496.96,
+    "duration": 3.679
+  },
+  {
+    "text": "parameter configuration which is giving",
+    "start": 498.72,
+    "duration": 3.84
+  },
+  {
+    "text": "me these high values of",
+    "start": 500.639,
+    "duration": 4.481
+  },
+  {
+    "text": "the output is not a good configuration",
+    "start": 502.56,
+    "duration": 5.12
+  },
+  {
+    "text": "and it will start pushing it away from",
+    "start": 505.12,
+    "duration": 4.16
+  },
+  {
+    "text": "those configurations right using the",
+    "start": 507.68,
+    "duration": 3.44
+  },
+  {
+    "text": "gradient descent algorithm so if i get a",
+    "start": 509.28,
+    "duration": 4.16
+  },
+  {
+    "text": "large loss that's an indication that i",
+    "start": 511.12,
+    "duration": 3.839
+  },
+  {
+    "text": "should start moving away from those",
+    "start": 513.44,
+    "duration": 3.279
+  },
+  {
+    "text": "configurations and the network will",
+    "start": 514.959,
+    "duration": 3.601
+  },
+  {
+    "text": "start doing that so hence that is the",
+    "start": 516.719,
+    "duration": 4.161
+  },
+  {
+    "text": "reason why it will not learn to predict",
+    "start": 518.56,
+    "duration": 3.919
+  },
+  {
+    "text": "these high values the only way it can",
+    "start": 520.88,
+    "duration": 4.079
+  },
+  {
+    "text": "get minimize the loss is by staying",
+    "start": 522.479,
+    "duration": 4.081
+  },
+  {
+    "text": "within that range the moment it goes",
+    "start": 524.959,
+    "duration": 4.401
+  },
+  {
+    "text": "very far from that range it will not uh",
+    "start": 526.56,
+    "duration": 4.32
+  },
+  {
+    "text": "uh the",
+    "start": 529.36,
+    "duration": 3.44
+  },
+  {
+    "text": "the loss values would become very high",
+    "start": 530.88,
+    "duration": 3.44
+  },
+  {
+    "text": "and it will be pushed away from those",
+    "start": 532.8,
+    "duration": 3.12
+  },
+  {
+    "text": "configurations and so the loss will make",
+    "start": 534.32,
+    "duration": 3.68
+  },
+  {
+    "text": "sure that my values stay in that range",
+    "start": 535.92,
+    "duration": 4.24
+  },
+  {
+    "text": "but if i chosen the logistic function",
+    "start": 538.0,
+    "duration": 3.68
+  },
+  {
+    "text": "even if the loss is giving me that",
+    "start": 540.16,
+    "duration": 3.679
+  },
+  {
+    "text": "signal i can't do much because no matter",
+    "start": 541.68,
+    "duration": 3.44
+  },
+  {
+    "text": "what happens the logistic function is",
+    "start": 543.839,
+    "duration": 3.281
+  },
+  {
+    "text": "only going to give me values between 0",
+    "start": 545.12,
+    "duration": 4.159
+  },
+  {
+    "text": "to 1. it doesn't matter how i adjust w1",
+    "start": 547.12,
+    "duration": 5.52
+  },
+  {
+    "text": "w2 w3 b1 b2 b3 at the end my values are",
+    "start": 549.279,
+    "duration": 5.12
+  },
+  {
+    "text": "always going to be 0 right hence that",
+    "start": 552.64,
+    "duration": 5.12
+  },
+  {
+    "text": "wouldn't have worked out okay",
+    "start": 554.399,
+    "duration": 5.12
+  },
+  {
+    "text": "okay",
+    "start": 557.76,
+    "duration": 3.6
+  },
+  {
+    "text": "so that's what you would do in the case",
+    "start": 559.519,
+    "duration": 3.361
+  },
+  {
+    "text": "of regression",
+    "start": 561.36,
+    "duration": 2.4
+  },
+  {
+    "text": "now",
+    "start": 562.88,
+    "duration": 2.88
+  },
+  {
+    "text": "the next thing i'm going to do is talk",
+    "start": 563.76,
+    "duration": 4.4
+  },
+  {
+    "text": "about classification and to understand",
+    "start": 565.76,
+    "duration": 4.639
+  },
+  {
+    "text": "the loss function in the classification",
+    "start": 568.16,
+    "duration": 3.84
+  },
+  {
+    "text": "context you need to know about cross",
+    "start": 570.399,
+    "duration": 4.88
+  },
+  {
+    "text": "entropy so i have a separate video which",
+    "start": 572.0,
+    "duration": 5.279
+  },
+  {
+    "text": "is from a previous course which will",
+    "start": 575.279,
+    "duration": 4.24
+  },
+  {
+    "text": "point to so that would be kind of the",
+    "start": 577.279,
+    "duration": 5.441
+  },
+  {
+    "text": "preparation video for this lecture",
+    "start": 579.519,
+    "duration": 5.201
+  },
+  {
+    "text": "which talks about information content",
+    "start": 582.72,
+    "duration": 4.0
+  },
+  {
+    "text": "cross entropy and so on so you could",
+    "start": 584.72,
+    "duration": 4.16
+  },
+  {
+    "text": "see that video first before you look at",
+    "start": 586.72,
+    "duration": 4.239
+  },
+  {
+    "text": "the next part and we'll just put a link",
+    "start": 588.88,
+    "duration": 4.959
+  },
+  {
+    "text": "to that video here right okay so",
+    "start": 590.959,
+    "duration": 4.641
+  },
+  {
+    "text": "assuming that you have seen that video",
+    "start": 593.839,
+    "duration": 3.44
+  },
+  {
+    "text": "let's go to this",
+    "start": 595.6,
+    "duration": 3.6
+  },
+  {
+    "text": "discussion so now let us consider",
+    "start": 597.279,
+    "duration": 3.921
+  },
+  {
+    "text": "another example",
+    "start": 599.2,
+    "duration": 3.84
+  },
+  {
+    "text": "which is",
+    "start": 601.2,
+    "duration": 3.36
+  },
+  {
+    "text": "a classification problem so you are",
+    "start": 603.04,
+    "duration": 4.0
+  },
+  {
+    "text": "given an image and you want to classify",
+    "start": 604.56,
+    "duration": 5.2
+  },
+  {
+    "text": "it into say one of four categories right",
+    "start": 607.04,
+    "duration": 5.919
+  },
+  {
+    "text": "and now again what would uh what would",
+    "start": 609.76,
+    "duration": 5.6
+  },
+  {
+    "text": "the output you want to predict is you",
+    "start": 612.959,
+    "duration": 4.241
+  },
+  {
+    "text": "want to predict a probability",
+    "start": 615.36,
+    "duration": 3.52
+  },
+  {
+    "text": "distribution right so in the previous",
+    "start": 617.2,
+    "duration": 2.96
+  },
+  {
+    "text": "video the",
+    "start": 618.88,
+    "duration": 3.84
+  },
+  {
+    "text": "helper video that i just",
+    "start": 620.16,
+    "duration": 5.679
+  },
+  {
+    "text": "pointed you to uh we see that in the",
+    "start": 622.72,
+    "duration": 4.4
+  },
+  {
+    "text": "case when",
+    "start": 625.839,
+    "duration": 3.281
+  },
+  {
+    "text": "the class is known right you could still",
+    "start": 627.12,
+    "duration": 4.0
+  },
+  {
+    "text": "think of this as y",
+    "start": 629.12,
+    "duration": 3.839
+  },
+  {
+    "text": "being a random variable which can take",
+    "start": 631.12,
+    "duration": 5.2
+  },
+  {
+    "text": "on four values one two three four one",
+    "start": 632.959,
+    "duration": 5.521
+  },
+  {
+    "text": "for apple two for banana three for mango",
+    "start": 636.32,
+    "duration": 4.24
+  },
+  {
+    "text": "four for orange and so on right so it",
+    "start": 638.48,
+    "duration": 4.4
+  },
+  {
+    "text": "can take on these four values right and",
+    "start": 640.56,
+    "duration": 4.32
+  },
+  {
+    "text": "what your network will do is it will",
+    "start": 642.88,
+    "duration": 4.24
+  },
+  {
+    "text": "predict what is the probability of each",
+    "start": 644.88,
+    "duration": 4.72
+  },
+  {
+    "text": "of these values right whereas from the",
+    "start": 647.12,
+    "duration": 4.719
+  },
+  {
+    "text": "true label you know what the actual",
+    "start": 649.6,
+    "duration": 3.679
+  },
+  {
+    "text": "probability distribution is if this is",
+    "start": 651.839,
+    "duration": 4.161
+  },
+  {
+    "text": "an apple image then you know with 100",
+    "start": 653.279,
+    "duration": 4.0
+  },
+  {
+    "text": "certain because that's what the label",
+    "start": 656.0,
+    "duration": 3.279
+  },
+  {
+    "text": "has already told you so you know with",
+    "start": 657.279,
+    "duration": 4.401
+  },
+  {
+    "text": "probability one that it's an apple image",
+    "start": 659.279,
+    "duration": 4.321
+  },
+  {
+    "text": "and the probability of mango orange and",
+    "start": 661.68,
+    "duration": 4.32
+  },
+  {
+    "text": "banana is zero whereas your network is",
+    "start": 663.6,
+    "duration": 4.16
+  },
+  {
+    "text": "going to predict some values right point",
+    "start": 666.0,
+    "duration": 3.44
+  },
+  {
+    "text": "two point three",
+    "start": 667.76,
+    "duration": 4.48
+  },
+  {
+    "text": "point four point one right and somehow",
+    "start": 669.44,
+    "duration": 4.32
+  },
+  {
+    "text": "you want to be able to capture the",
+    "start": 672.24,
+    "duration": 2.88
+  },
+  {
+    "text": "difference between these two values",
+    "start": 673.76,
+    "duration": 3.28
+  },
+  {
+    "text": "right so there are two problems that we",
+    "start": 675.12,
+    "duration": 4.56
+  },
+  {
+    "text": "need to solve here one is given that i",
+    "start": 677.04,
+    "duration": 3.84
+  },
+  {
+    "text": "know that i'm trying to predict a",
+    "start": 679.68,
+    "duration": 3.44
+  },
+  {
+    "text": "probability distribution because my true",
+    "start": 680.88,
+    "duration": 4.0
+  },
+  {
+    "text": "output is a probability distribution",
+    "start": 683.12,
+    "duration": 3.12
+  },
+  {
+    "text": "right the sum of the",
+    "start": 684.88,
+    "duration": 3.519
+  },
+  {
+    "text": "values is one right",
+    "start": 686.24,
+    "duration": 4.8
+  },
+  {
+    "text": "uh how do i make sure that my output is",
+    "start": 688.399,
+    "duration": 4.481
+  },
+  {
+    "text": "also a probability distribution right",
+    "start": 691.04,
+    "duration": 3.28
+  },
+  {
+    "text": "that means all the values are between",
+    "start": 692.88,
+    "duration": 3.6
+  },
+  {
+    "text": "zero to one and they sum up to one right",
+    "start": 694.32,
+    "duration": 4.32
+  },
+  {
+    "text": "so how do i choose an output function",
+    "start": 696.48,
+    "duration": 4.08
+  },
+  {
+    "text": "such that my output is also a",
+    "start": 698.64,
+    "duration": 4.16
+  },
+  {
+    "text": "probability distribution if i'm able to",
+    "start": 700.56,
+    "duration": 4.32
+  },
+  {
+    "text": "do that how do i come up with a loss",
+    "start": 702.8,
+    "duration": 4.64
+  },
+  {
+    "text": "function right such that it tells me the",
+    "start": 704.88,
+    "duration": 4.72
+  },
+  {
+    "text": "difference between these two now one",
+    "start": 707.44,
+    "duration": 4.0
+  },
+  {
+    "text": "loss function that you can always choose",
+    "start": 709.6,
+    "duration": 3.28
+  },
+  {
+    "text": "is the squared error loss function right",
+    "start": 711.44,
+    "duration": 3.2
+  },
+  {
+    "text": "you can again treat these as just two",
+    "start": 712.88,
+    "duration": 3.68
+  },
+  {
+    "text": "vectors and try to find the difference",
+    "start": 714.64,
+    "duration": 3.84
+  },
+  {
+    "text": "between them but given that you know",
+    "start": 716.56,
+    "duration": 4.08
+  },
+  {
+    "text": "that these are probabilities what is the",
+    "start": 718.48,
+    "duration": 3.919
+  },
+  {
+    "text": "special thing that you can do and the",
+    "start": 720.64,
+    "duration": 3.92
+  },
+  {
+    "text": "video that i pointed out says that you",
+    "start": 722.399,
+    "duration": 4.081
+  },
+  {
+    "text": "can use the cross entropy loss function",
+    "start": 724.56,
+    "duration": 4.16
+  },
+  {
+    "text": "so i'm going to rely on that and",
+    "start": 726.48,
+    "duration": 3.68
+  },
+  {
+    "text": "come back to the discussion on cross",
+    "start": 728.72,
+    "duration": 3.119
+  },
+  {
+    "text": "country right so this is the intuition",
+    "start": 730.16,
+    "duration": 3.6
+  },
+  {
+    "text": "that i want you to build that in the",
+    "start": 731.839,
+    "duration": 3.921
+  },
+  {
+    "text": "case of classification problems you have",
+    "start": 733.76,
+    "duration": 4.0
+  },
+  {
+    "text": "a true probability distribution which",
+    "start": 735.76,
+    "duration": 4.56
+  },
+  {
+    "text": "looks like one and all zeros that one",
+    "start": 737.76,
+    "duration": 4.4
+  },
+  {
+    "text": "will be on the class which is the",
+    "start": 740.32,
+    "duration": 3.759
+  },
+  {
+    "text": "probability mass of one would be on the",
+    "start": 742.16,
+    "duration": 3.679
+  },
+  {
+    "text": "correct class and zero on all other",
+    "start": 744.079,
+    "duration": 4.0
+  },
+  {
+    "text": "classes whereas your network will also",
+    "start": 745.839,
+    "duration": 3.761
+  },
+  {
+    "text": "predict some probability distribution",
+    "start": 748.079,
+    "duration": 2.88
+  },
+  {
+    "text": "because you will make an appropriate",
+    "start": 749.6,
+    "duration": 3.76
+  },
+  {
+    "text": "choice of the output function and now",
+    "start": 750.959,
+    "duration": 3.841
+  },
+  {
+    "text": "you're looking for a loss function which",
+    "start": 753.36,
+    "duration": 3.039
+  },
+  {
+    "text": "finds the",
+    "start": 754.8,
+    "duration": 3.36
+  },
+  {
+    "text": "difference between these two probability",
+    "start": 756.399,
+    "duration": 3.201
+  },
+  {
+    "text": "distributions so that's what you want to",
+    "start": 758.16,
+    "duration": 3.6
+  },
+  {
+    "text": "do in the case of classification so now",
+    "start": 759.6,
+    "duration": 5.28
+  },
+  {
+    "text": "let's fill in the glaps gaps",
+    "start": 761.76,
+    "duration": 4.879
+  },
+  {
+    "text": "suppose you want to classify an image",
+    "start": 764.88,
+    "duration": 3.6
+  },
+  {
+    "text": "into one of k classes",
+    "start": 766.639,
+    "duration": 3.121
+  },
+  {
+    "text": "here again we could use the squared",
+    "start": 768.48,
+    "duration": 3.28
+  },
+  {
+    "text": "error loss to capture the deviation but",
+    "start": 769.76,
+    "duration": 3.6
+  },
+  {
+    "text": "can you think of a better function right",
+    "start": 771.76,
+    "duration": 3.36
+  },
+  {
+    "text": "so that's the idea that's the motivation",
+    "start": 773.36,
+    "duration": 3.52
+  },
+  {
+    "text": "that i have set up",
+    "start": 775.12,
+    "duration": 3.36
+  },
+  {
+    "text": "now notice that y is a probability",
+    "start": 776.88,
+    "duration": 3.12
+  },
+  {
+    "text": "distribution where the two y is a",
+    "start": 778.48,
+    "duration": 3.12
+  },
+  {
+    "text": "probability distribution as i said all",
+    "start": 780.0,
+    "duration": 3.6
+  },
+  {
+    "text": "the mass is on the correct class and",
+    "start": 781.6,
+    "duration": 4.16
+  },
+  {
+    "text": "zero on the other class right that is",
+    "start": 783.6,
+    "duration": 4.239
+  },
+  {
+    "text": "something that you understand therefore",
+    "start": 785.76,
+    "duration": 4.079
+  },
+  {
+    "text": "we should ensure that whatever y hat we",
+    "start": 787.839,
+    "duration": 3.521
+  },
+  {
+    "text": "are going to predict should also be a",
+    "start": 789.839,
+    "duration": 2.8
+  },
+  {
+    "text": "probability distribution again i've",
+    "start": 791.36,
+    "duration": 3.68
+  },
+  {
+    "text": "already explained all this just re doing",
+    "start": 792.639,
+    "duration": 6.161
+  },
+  {
+    "text": "it so now what is the choice of the",
+    "start": 795.04,
+    "duration": 5.52
+  },
+  {
+    "text": "output function that you should choose",
+    "start": 798.8,
+    "duration": 4.24
+  },
+  {
+    "text": "right and",
+    "start": 800.56,
+    "duration": 5.04
+  },
+  {
+    "text": "this is what we have so far right again",
+    "start": 803.04,
+    "duration": 4.56
+  },
+  {
+    "text": "up to this point",
+    "start": 805.6,
+    "duration": 3.84
+  },
+  {
+    "text": "we have done all the computations and",
+    "start": 807.6,
+    "duration": 3.76
+  },
+  {
+    "text": "i'm trying to understand what should be",
+    "start": 809.44,
+    "duration": 4.399
+  },
+  {
+    "text": "the output function so that i get this",
+    "start": 811.36,
+    "duration": 4.4
+  },
+  {
+    "text": "shaded green part right so i've done up",
+    "start": 813.839,
+    "duration": 5.521
+  },
+  {
+    "text": "to a l and what should o be right so the",
+    "start": 815.76,
+    "duration": 5.68
+  },
+  {
+    "text": "choice of o that we are going to make is",
+    "start": 819.36,
+    "duration": 4.96
+  },
+  {
+    "text": "what is known as the soft mac function",
+    "start": 821.44,
+    "duration": 5.12
+  },
+  {
+    "text": "and this is how you write the softmax",
+    "start": 824.32,
+    "duration": 4.16
+  },
+  {
+    "text": "function and let me now explain",
+    "start": 826.56,
+    "duration": 3.6
+  },
+  {
+    "text": "what we are trying to do here right what",
+    "start": 828.48,
+    "duration": 3.68
+  },
+  {
+    "text": "does this function trying to say right",
+    "start": 830.16,
+    "duration": 3.919
+  },
+  {
+    "text": "so let's just look at an explanation of",
+    "start": 832.16,
+    "duration": 4.32
+  },
+  {
+    "text": "that so",
+    "start": 834.079,
+    "duration": 4.88
+  },
+  {
+    "text": "i can do it i need some space to do that",
+    "start": 836.48,
+    "duration": 5.12
+  },
+  {
+    "text": "let me just make some space okay so i",
+    "start": 838.959,
+    "duration": 5.601
+  },
+  {
+    "text": "can use this so now suppose our a l",
+    "start": 841.6,
+    "duration": 5.52
+  },
+  {
+    "text": "right this is a l",
+    "start": 844.56,
+    "duration": 5.519
+  },
+  {
+    "text": "okay now suppose it had again",
+    "start": 847.12,
+    "duration": 4.48
+  },
+  {
+    "text": "we had say in this case we were looking",
+    "start": 850.079,
+    "duration": 3.44
+  },
+  {
+    "text": "at a four class classification problem",
+    "start": 851.6,
+    "duration": 5.039
+  },
+  {
+    "text": "right so let's see it at a l the all the",
+    "start": 853.519,
+    "duration": 5.201
+  },
+  {
+    "text": "computations that have happened so far",
+    "start": 856.639,
+    "duration": 4.0
+  },
+  {
+    "text": "this is what my al vector looks like",
+    "start": 858.72,
+    "duration": 4.16
+  },
+  {
+    "text": "right suppose it's minus 10",
+    "start": 860.639,
+    "duration": 3.2
+  },
+  {
+    "text": "10",
+    "start": 862.88,
+    "duration": 2.079
+  },
+  {
+    "text": "20",
+    "start": 863.839,
+    "duration": 3.841
+  },
+  {
+    "text": "30 right",
+    "start": 864.959,
+    "duration": 2.721
+  },
+  {
+    "text": "so this is what my a l",
+    "start": 868.48,
+    "duration": 4.08
+  },
+  {
+    "text": "looks like",
+    "start": 871.279,
+    "duration": 3.36
+  },
+  {
+    "text": "and from that i am not happy with this",
+    "start": 872.56,
+    "duration": 3.44
+  },
+  {
+    "text": "because this is clearly not a",
+    "start": 874.639,
+    "duration": 2.801
+  },
+  {
+    "text": "probability distribution it has values",
+    "start": 876.0,
+    "duration": 2.88
+  },
+  {
+    "text": "greater than one it has also negative",
+    "start": 877.44,
+    "duration": 3.199
+  },
+  {
+    "text": "values right so this is not what i want",
+    "start": 878.88,
+    "duration": 4.399
+  },
+  {
+    "text": "from here i want to go to a y hat which",
+    "start": 880.639,
+    "duration": 3.76
+  },
+  {
+    "text": "is looking like a probability",
+    "start": 883.279,
+    "duration": 2.881
+  },
+  {
+    "text": "distribution right and what i have",
+    "start": 884.399,
+    "duration": 4.081
+  },
+  {
+    "text": "chosen is the soft max function so what",
+    "start": 886.16,
+    "duration": 3.679
+  },
+  {
+    "text": "i'm going to do how am i going to",
+    "start": 888.48,
+    "duration": 3.68
+  },
+  {
+    "text": "compute y hat from here so this is what",
+    "start": 889.839,
+    "duration": 4.321
+  },
+  {
+    "text": "my y hat is going to be so i'm just",
+    "start": 892.16,
+    "duration": 4.679
+  },
+  {
+    "text": "going to do e raised to minus 10",
+    "start": 894.16,
+    "duration": 5.359
+  },
+  {
+    "text": "okay divided by",
+    "start": 896.839,
+    "duration": 6.601
+  },
+  {
+    "text": "uh and i'm just going to write it here",
+    "start": 899.519,
+    "duration": 7.44
+  },
+  {
+    "text": "e raised to minus 10 plus e raised to 10",
+    "start": 903.44,
+    "duration": 7.199
+  },
+  {
+    "text": "plus e raised to 20 plus e raised to 30",
+    "start": 906.959,
+    "duration": 6.56
+  },
+  {
+    "text": "right so this is what my first output is",
+    "start": 910.639,
+    "duration": 4.56
+  },
+  {
+    "text": "going to be that is what y hat 1 is",
+    "start": 913.519,
+    "duration": 3.76
+  },
+  {
+    "text": "going to be what is y hat 2 going to be",
+    "start": 915.199,
+    "duration": 4.64
+  },
+  {
+    "text": "it's going to be e raised to 10",
+    "start": 917.279,
+    "duration": 5.36
+  },
+  {
+    "text": "divided by this same sum then e raised",
+    "start": 919.839,
+    "duration": 5.201
+  },
+  {
+    "text": "to 20 divided by the same sum and then e",
+    "start": 922.639,
+    "duration": 5.121
+  },
+  {
+    "text": "raised to 30 divided by the same sum",
+    "start": 925.04,
+    "duration": 4.72
+  },
+  {
+    "text": "right and now you can",
+    "start": 927.76,
+    "duration": 4.319
+  },
+  {
+    "text": "understand that the sum of these values",
+    "start": 929.76,
+    "duration": 4.079
+  },
+  {
+    "text": "is going to be one right because it's",
+    "start": 932.079,
+    "duration": 3.281
+  },
+  {
+    "text": "the sum of all the values is the",
+    "start": 933.839,
+    "duration": 4.081
+  },
+  {
+    "text": "denominator so the sum of the four",
+    "start": 935.36,
+    "duration": 5.36
+  },
+  {
+    "text": "values that i'm going to compute here is",
+    "start": 937.92,
+    "duration": 4.8
+  },
+  {
+    "text": "going to be 1",
+    "start": 940.72,
+    "duration": 4.72
+  },
+  {
+    "text": "and each of these values is going to be",
+    "start": 942.72,
+    "duration": 4.72
+  },
+  {
+    "text": "between 0 and 1. why is that the case",
+    "start": 945.44,
+    "duration": 5.199
+  },
+  {
+    "text": "let's try to understand that",
+    "start": 947.44,
+    "duration": 3.199
+  },
+  {
+    "text": "why is that the case so my original",
+    "start": 952.24,
+    "duration": 3.92
+  },
+  {
+    "text": "vector",
+    "start": 953.759,
+    "duration": 2.401
+  },
+  {
+    "text": "my original vector was say minus 10 10",
+    "start": 961.36,
+    "duration": 3.839
+  },
+  {
+    "text": "20",
+    "start": 964.079,
+    "duration": 3.921
+  },
+  {
+    "text": "30 right and now each value that i've",
+    "start": 965.199,
+    "duration": 4.161
+  },
+  {
+    "text": "computed is e raised to the",
+    "start": 968.0,
+    "duration": 3.759
+  },
+  {
+    "text": "corresponding value divided by the sum",
+    "start": 969.36,
+    "duration": 6.08
+  },
+  {
+    "text": "of the e raised to all the values right",
+    "start": 971.759,
+    "duration": 5.361
+  },
+  {
+    "text": "now even if i have a negative value in",
+    "start": 975.44,
+    "duration": 3.04
+  },
+  {
+    "text": "my original",
+    "start": 977.12,
+    "duration": 2.32
+  },
+  {
+    "text": "vector",
+    "start": 978.48,
+    "duration": 2.56
+  },
+  {
+    "text": "e raised to that is still going to be",
+    "start": 979.44,
+    "duration": 3.6
+  },
+  {
+    "text": "positive right so that's one thing for",
+    "start": 981.04,
+    "duration": 3.919
+  },
+  {
+    "text": "sure that once i compute the y i's there",
+    "start": 983.04,
+    "duration": 3.599
+  },
+  {
+    "text": "are going to be no negative values there",
+    "start": 984.959,
+    "duration": 3.521
+  },
+  {
+    "text": "right the other thing for sure is that",
+    "start": 986.639,
+    "duration": 3.44
+  },
+  {
+    "text": "the sum of the values is going to be one",
+    "start": 988.48,
+    "duration": 4.32
+  },
+  {
+    "text": "right so two criteria that we have",
+    "start": 990.079,
+    "duration": 4.161
+  },
+  {
+    "text": "for probability distributions are",
+    "start": 992.8,
+    "duration": 3.52
+  },
+  {
+    "text": "satisfied since the sum of the values is",
+    "start": 994.24,
+    "duration": 4.08
+  },
+  {
+    "text": "1 and every value is going to be greater",
+    "start": 996.32,
+    "duration": 3.92
+  },
+  {
+    "text": "than 0 that means that each of these",
+    "start": 998.32,
+    "duration": 3.68
+  },
+  {
+    "text": "values is going to be between 0 and 1",
+    "start": 1000.24,
+    "duration": 3.599
+  },
+  {
+    "text": "right it cannot be greater than 1",
+    "start": 1002.0,
+    "duration": 3.6
+  },
+  {
+    "text": "because then the sum cannot be 1 because",
+    "start": 1003.839,
+    "duration": 3.44
+  },
+  {
+    "text": "every value is positive",
+    "start": 1005.6,
+    "duration": 2.56
+  },
+  {
+    "text": "and",
+    "start": 1007.279,
+    "duration": 2.881
+  },
+  {
+    "text": "it cannot be negative because it's all e",
+    "start": 1008.16,
+    "duration": 3.599
+  },
+  {
+    "text": "raised to something and even if the",
+    "start": 1010.16,
+    "duration": 3.119
+  },
+  {
+    "text": "original value is negative so e raised",
+    "start": 1011.759,
+    "duration": 3.681
+  },
+  {
+    "text": "to minus 10 is going to be 1 over e",
+    "start": 1013.279,
+    "duration": 4.081
+  },
+  {
+    "text": "raised to 10 and this is still going to",
+    "start": 1015.44,
+    "duration": 4.48
+  },
+  {
+    "text": "be a positive value right so i've taken",
+    "start": 1017.36,
+    "duration": 5.68
+  },
+  {
+    "text": "the original computations al that i had",
+    "start": 1019.92,
+    "duration": 4.639
+  },
+  {
+    "text": "have been able to convert that into a",
+    "start": 1023.04,
+    "duration": 3.279
+  },
+  {
+    "text": "probability distribution using the",
+    "start": 1024.559,
+    "duration": 3.36
+  },
+  {
+    "text": "softmax function i've also explained",
+    "start": 1026.319,
+    "duration": 3.76
+  },
+  {
+    "text": "what the softmax function looks like",
+    "start": 1027.919,
+    "duration": 5.441
+  },
+  {
+    "text": "and just want to talk about uh",
+    "start": 1030.079,
+    "duration": 4.72
+  },
+  {
+    "text": "one more thing here right so you could",
+    "start": 1033.36,
+    "duration": 3.599
+  },
+  {
+    "text": "have asked me that why did why did you",
+    "start": 1034.799,
+    "duration": 3.841
+  },
+  {
+    "text": "do this e raised to",
+    "start": 1036.959,
+    "duration": 3.281
+  },
+  {
+    "text": "x right i mean why did you raise every",
+    "start": 1038.64,
+    "duration": 3.6
+  },
+  {
+    "text": "value to the exponent and then did that",
+    "start": 1040.24,
+    "duration": 3.52
+  },
+  {
+    "text": "why couldn't i have just taken every",
+    "start": 1042.24,
+    "duration": 3.04
+  },
+  {
+    "text": "value here right for example for this",
+    "start": 1043.76,
+    "duration": 3.919
+  },
+  {
+    "text": "guy take 10 and then divide it by the",
+    "start": 1045.28,
+    "duration": 4.0
+  },
+  {
+    "text": "sum of the remaining elements would that",
+    "start": 1047.679,
+    "duration": 4.161
+  },
+  {
+    "text": "have not been enough right and obviously",
+    "start": 1049.28,
+    "duration": 4.639
+  },
+  {
+    "text": "the answer is no because then for this",
+    "start": 1051.84,
+    "duration": 4.24
+  },
+  {
+    "text": "guy which would have been minus 10",
+    "start": 1053.919,
+    "duration": 5.681
+  },
+  {
+    "text": "divided by minus 10 plus 10 plus 20 plus",
+    "start": 1056.08,
+    "duration": 5.52
+  },
+  {
+    "text": "30 the answer would have been some",
+    "start": 1059.6,
+    "duration": 3.84
+  },
+  {
+    "text": "negative value right and you cannot have",
+    "start": 1061.6,
+    "duration": 3.28
+  },
+  {
+    "text": "the probabilities as negative values",
+    "start": 1063.44,
+    "duration": 3.44
+  },
+  {
+    "text": "right so that's why you use e because",
+    "start": 1064.88,
+    "duration": 3.919
+  },
+  {
+    "text": "once you raise it to e then all the",
+    "start": 1066.88,
+    "duration": 4.32
+  },
+  {
+    "text": "negative values even the the answer for",
+    "start": 1068.799,
+    "duration": 4.0
+  },
+  {
+    "text": "those will also be positive right so",
+    "start": 1071.2,
+    "duration": 3.28
+  },
+  {
+    "text": "that's why you're using the",
+    "start": 1072.799,
+    "duration": 3.521
+  },
+  {
+    "text": "exponent here and that's why the form of",
+    "start": 1074.48,
+    "duration": 3.199
+  },
+  {
+    "text": "the softmax function right so for",
+    "start": 1076.32,
+    "duration": 3.44
+  },
+  {
+    "text": "classification functions once you have",
+    "start": 1077.679,
+    "duration": 5.281
+  },
+  {
+    "text": "done this computation",
+    "start": 1079.76,
+    "duration": 4.64
+  },
+  {
+    "text": "you will then pass it through the",
+    "start": 1082.96,
+    "duration": 3.2
+  },
+  {
+    "text": "softmax function to get a probability",
+    "start": 1084.4,
+    "duration": 3.84
+  },
+  {
+    "text": "distribution right so now the first part",
+    "start": 1086.16,
+    "duration": 4.8
+  },
+  {
+    "text": "of the problem is solved that my actual",
+    "start": 1088.24,
+    "duration": 5.36
+  },
+  {
+    "text": "outputs were a probability distribution",
+    "start": 1090.96,
+    "duration": 4.88
+  },
+  {
+    "text": "so now i have chosen an output function",
+    "start": 1093.6,
+    "duration": 5.04
+  },
+  {
+    "text": "which also gives me a",
+    "start": 1095.84,
+    "duration": 4.8
+  },
+  {
+    "text": "a probability distribution right so this",
+    "start": 1098.64,
+    "duration": 4.72
+  },
+  {
+    "text": "part has been done so now given that",
+    "start": 1100.64,
+    "duration": 3.68
+  },
+  {
+    "text": "both of these are probability",
+    "start": 1103.36,
+    "duration": 3.12
+  },
+  {
+    "text": "distributions can we choose a good loss",
+    "start": 1104.32,
+    "duration": 4.4
+  },
+  {
+    "text": "function right obviously as i said you",
+    "start": 1106.48,
+    "duration": 4.079
+  },
+  {
+    "text": "could use the squared error loss",
+    "start": 1108.72,
+    "duration": 5.12
+  },
+  {
+    "text": "function right but if you know this is a",
+    "start": 1110.559,
+    "duration": 4.961
+  },
+  {
+    "text": "probability distribution we should use",
+    "start": 1113.84,
+    "duration": 3.6
+  },
+  {
+    "text": "something better from probability theory",
+    "start": 1115.52,
+    "duration": 4.08
+  },
+  {
+    "text": "and that is what i explained in the",
+    "start": 1117.44,
+    "duration": 4.32
+  },
+  {
+    "text": "video that i pointed to and what you can",
+    "start": 1119.6,
+    "duration": 4.8
+  },
+  {
+    "text": "do is you can use the cross entropy loss",
+    "start": 1121.76,
+    "duration": 4.56
+  },
+  {
+    "text": "function this is what the cross entropy",
+    "start": 1124.4,
+    "duration": 4.08
+  },
+  {
+    "text": "loss function looks like you have k",
+    "start": 1126.32,
+    "duration": 5.68
+  },
+  {
+    "text": "classes right so you look at the",
+    "start": 1128.48,
+    "duration": 5.199
+  },
+  {
+    "text": "true probability for each of those",
+    "start": 1132.0,
+    "duration": 2.799
+  },
+  {
+    "text": "classes",
+    "start": 1133.679,
+    "duration": 2.88
+  },
+  {
+    "text": "and then the predicted probability for",
+    "start": 1134.799,
+    "duration": 3.361
+  },
+  {
+    "text": "each of these classes right so the true",
+    "start": 1136.559,
+    "duration": 3.36
+  },
+  {
+    "text": "probability for each of these classes",
+    "start": 1138.16,
+    "duration": 4.32
+  },
+  {
+    "text": "multiplied by the log of the predicted",
+    "start": 1139.919,
+    "duration": 3.921
+  },
+  {
+    "text": "property for probability for each of",
+    "start": 1142.48,
+    "duration": 2.72
+  },
+  {
+    "text": "these classes right so where does this",
+    "start": 1143.84,
+    "duration": 3.28
+  },
+  {
+    "text": "formula come from this is something that",
+    "start": 1145.2,
+    "duration": 3.599
+  },
+  {
+    "text": "is explained in that video you should",
+    "start": 1147.12,
+    "duration": 3.679
+  },
+  {
+    "text": "again look at it i'm pointing you to it",
+    "start": 1148.799,
+    "duration": 3.441
+  },
+  {
+    "text": "again and again because that's important",
+    "start": 1150.799,
+    "duration": 2.721
+  },
+  {
+    "text": "right",
+    "start": 1152.24,
+    "duration": 2.88
+  },
+  {
+    "text": "now",
+    "start": 1153.52,
+    "duration": 3.92
+  },
+  {
+    "text": "notice something about this formula",
+    "start": 1155.12,
+    "duration": 5.72
+  },
+  {
+    "text": "right so",
+    "start": 1157.44,
+    "duration": 3.4
+  },
+  {
+    "text": "that this y c right now y c can be y 1 y",
+    "start": 1164.0,
+    "duration": 6.48
+  },
+  {
+    "text": "2 y 3 all the way up to y k but it will",
+    "start": 1167.84,
+    "duration": 5.04
+  },
+  {
+    "text": "take on the value 1",
+    "start": 1170.48,
+    "duration": 4.16
+  },
+  {
+    "text": "only for the correct class right only",
+    "start": 1172.88,
+    "duration": 3.919
+  },
+  {
+    "text": "when c is equal to l that means only for",
+    "start": 1174.64,
+    "duration": 4.8
+  },
+  {
+    "text": "the true cross label in this case only y",
+    "start": 1176.799,
+    "duration": 5.281
+  },
+  {
+    "text": "one is going to be one and all the other",
+    "start": 1179.44,
+    "duration": 5.2
+  },
+  {
+    "text": "y's are going to be zero right that",
+    "start": 1182.08,
+    "duration": 4.16
+  },
+  {
+    "text": "means when you're taking this summation",
+    "start": 1184.64,
+    "duration": 3.12
+  },
+  {
+    "text": "and you have y one",
+    "start": 1186.24,
+    "duration": 3.36
+  },
+  {
+    "text": "multiplied by something y two multiplied",
+    "start": 1187.76,
+    "duration": 3.12
+  },
+  {
+    "text": "by something y three multiplied by",
+    "start": 1189.6,
+    "duration": 3.28
+  },
+  {
+    "text": "something and so on then only one of",
+    "start": 1190.88,
+    "duration": 3.84
+  },
+  {
+    "text": "these terms is going to survive right",
+    "start": 1192.88,
+    "duration": 3.44
+  },
+  {
+    "text": "the term which had",
+    "start": 1194.72,
+    "duration": 2.88
+  },
+  {
+    "text": "a",
+    "start": 1196.32,
+    "duration": 3.28
+  },
+  {
+    "text": "value 1 and all the terms which had",
+    "start": 1197.6,
+    "duration": 3.52
+  },
+  {
+    "text": "value 0 are going to disappear in the",
+    "start": 1199.6,
+    "duration": 3.199
+  },
+  {
+    "text": "summation so although i've written this",
+    "start": 1201.12,
+    "duration": 3.84
+  },
+  {
+    "text": "as a summation it will only have one",
+    "start": 1202.799,
+    "duration": 3.681
+  },
+  {
+    "text": "term which would be",
+    "start": 1204.96,
+    "duration": 2.48
+  },
+  {
+    "text": "y",
+    "start": 1206.48,
+    "duration": 2.0
+  },
+  {
+    "text": "l",
+    "start": 1207.44,
+    "duration": 4.239
+  },
+  {
+    "text": "multiplied by log of y hat l",
+    "start": 1208.48,
+    "duration": 5.6
+  },
+  {
+    "text": "and that y hat yl is again going to be",
+    "start": 1211.679,
+    "duration": 4.401
+  },
+  {
+    "text": "just one right so because l is the true",
+    "start": 1214.08,
+    "duration": 4.56
+  },
+  {
+    "text": "class and for the true class y l is",
+    "start": 1216.08,
+    "duration": 4.88
+  },
+  {
+    "text": "equal to 1 right so then what remains",
+    "start": 1218.64,
+    "duration": 3.6
+  },
+  {
+    "text": "and of course there's a negative sign",
+    "start": 1220.96,
+    "duration": 4.48
+  },
+  {
+    "text": "here is just log of y hat n right so",
+    "start": 1222.24,
+    "duration": 4.0
+  },
+  {
+    "text": "this",
+    "start": 1225.44,
+    "duration": 3.04
+  },
+  {
+    "text": "is what remain it's and let's understand",
+    "start": 1226.24,
+    "duration": 4.559
+  },
+  {
+    "text": "what that quantity is right so it is",
+    "start": 1228.48,
+    "duration": 3.6
+  },
+  {
+    "text": "negative",
+    "start": 1230.799,
+    "duration": 2.24
+  },
+  {
+    "text": "log",
+    "start": 1232.08,
+    "duration": 4.0
+  },
+  {
+    "text": "of the predicted probability of the true",
+    "start": 1233.039,
+    "duration": 4.321
+  },
+  {
+    "text": "class",
+    "start": 1236.08,
+    "duration": 2.64
+  },
+  {
+    "text": "right",
+    "start": 1237.36,
+    "duration": 3.679
+  },
+  {
+    "text": "negative log predicted probability of",
+    "start": 1238.72,
+    "duration": 4.0
+  },
+  {
+    "text": "the true class and hence this is also",
+    "start": 1241.039,
+    "duration": 4.081
+  },
+  {
+    "text": "called the negative",
+    "start": 1242.72,
+    "duration": 3.36
+  },
+  {
+    "text": "log",
+    "start": 1245.12,
+    "duration": 2.559
+  },
+  {
+    "text": "likelihood right because likelihood",
+    "start": 1246.08,
+    "duration": 3.92
+  },
+  {
+    "text": "meaning it's telling you the probability",
+    "start": 1247.679,
+    "duration": 4.401
+  },
+  {
+    "text": "of the true class the predicted",
+    "start": 1250.0,
+    "duration": 4.159
+  },
+  {
+    "text": "probability of the true class so cross",
+    "start": 1252.08,
+    "duration": 3.92
+  },
+  {
+    "text": "entropy minimizing the cross entropy is",
+    "start": 1254.159,
+    "duration": 3.041
+  },
+  {
+    "text": "the same as",
+    "start": 1256.0,
+    "duration": 2.88
+  },
+  {
+    "text": "uh",
+    "start": 1257.2,
+    "duration": 5.68
+  },
+  {
+    "text": "maximizing or the log likelihood of the",
+    "start": 1258.88,
+    "duration": 6.159
+  },
+  {
+    "text": "correct class right so that's what it",
+    "start": 1262.88,
+    "duration": 3.6
+  },
+  {
+    "text": "means okay",
+    "start": 1265.039,
+    "duration": 4.88
+  },
+  {
+    "text": "because you are going to minimize",
+    "start": 1266.48,
+    "duration": 3.439
+  },
+  {
+    "text": "minus of log of y hat",
+    "start": 1270.08,
+    "duration": 4.64
+  },
+  {
+    "text": "l i will do this on the next slide",
+    "start": 1272.88,
+    "duration": 4.32
+  },
+  {
+    "text": "anyways so we are minimizing",
+    "start": 1274.72,
+    "duration": 4.8
+  },
+  {
+    "text": "the minus of",
+    "start": 1277.2,
+    "duration": 5.44
+  },
+  {
+    "text": "log of y hat l right that is the same as",
+    "start": 1279.52,
+    "duration": 5.2
+  },
+  {
+    "text": "maximizing the negative of that which is",
+    "start": 1282.64,
+    "duration": 4.8
+  },
+  {
+    "text": "the same as maximizing the log",
+    "start": 1284.72,
+    "duration": 4.12
+  },
+  {
+    "text": "likelihood",
+    "start": 1287.44,
+    "duration": 3.92
+  },
+  {
+    "text": "right okay so you are minimizing the",
+    "start": 1288.84,
+    "duration": 3.88
+  },
+  {
+    "text": "negative log likelihood which is the",
+    "start": 1291.36,
+    "duration": 3.12
+  },
+  {
+    "text": "same as maximizing the log likelihood",
+    "start": 1292.72,
+    "duration": 4.079
+  },
+  {
+    "text": "and obvious statement so this is what",
+    "start": 1294.48,
+    "duration": 3.92
+  },
+  {
+    "text": "the loss function",
+    "start": 1296.799,
+    "duration": 3.601
+  },
+  {
+    "text": "and the output function looks like for",
+    "start": 1298.4,
+    "duration": 4.32
+  },
+  {
+    "text": "the classification class right but now",
+    "start": 1300.4,
+    "duration": 5.279
+  },
+  {
+    "text": "one question here this y hat l",
+    "start": 1302.72,
+    "duration": 4.8
+  },
+  {
+    "text": "is it a function of all these parameters",
+    "start": 1305.679,
+    "duration": 3.281
+  },
+  {
+    "text": "because if it's not a function of these",
+    "start": 1307.52,
+    "duration": 2.8
+  },
+  {
+    "text": "parameters",
+    "start": 1308.96,
+    "duration": 3.44
+  },
+  {
+    "text": "then how what am i doing here right is",
+    "start": 1310.32,
+    "duration": 3.68
+  },
+  {
+    "text": "it a function of all these parameters of",
+    "start": 1312.4,
+    "duration": 2.72
+  },
+  {
+    "text": "course it's a function of all these",
+    "start": 1314.0,
+    "duration": 4.88
+  },
+  {
+    "text": "parameters so remember that y hat l is",
+    "start": 1315.12,
+    "duration": 5.12
+  },
+  {
+    "text": "this",
+    "start": 1318.88,
+    "duration": 2.88
+  },
+  {
+    "text": "computed like this right so you have the",
+    "start": 1320.24,
+    "duration": 4.0
+  },
+  {
+    "text": "input x it passes through these series",
+    "start": 1321.76,
+    "duration": 4.08
+  },
+  {
+    "text": "of transformations at the end you have",
+    "start": 1324.24,
+    "duration": 3.04
+  },
+  {
+    "text": "the output function",
+    "start": 1325.84,
+    "duration": 3.68
+  },
+  {
+    "text": "and then you're looking you get this",
+    "start": 1327.28,
+    "duration": 4.399
+  },
+  {
+    "text": "vector of y's",
+    "start": 1329.52,
+    "duration": 3.6
+  },
+  {
+    "text": "right",
+    "start": 1331.679,
+    "duration": 3.441
+  },
+  {
+    "text": "and then you're looking at the l element",
+    "start": 1333.12,
+    "duration": 4.96
+  },
+  {
+    "text": "of that vector right so all of this is",
+    "start": 1335.12,
+    "duration": 4.799
+  },
+  {
+    "text": "of course connected all of this is",
+    "start": 1338.08,
+    "duration": 3.839
+  },
+  {
+    "text": "dependent on the parameters hence the",
+    "start": 1339.919,
+    "duration": 4.561
+  },
+  {
+    "text": "loss function depends on the parameters",
+    "start": 1341.919,
+    "duration": 4.961
+  },
+  {
+    "text": "and now once you have this all you need",
+    "start": 1344.48,
+    "duration": 4.72
+  },
+  {
+    "text": "to do is know how to compute the",
+    "start": 1346.88,
+    "duration": 4.24
+  },
+  {
+    "text": "derivative of the loss function with",
+    "start": 1349.2,
+    "duration": 3.92
+  },
+  {
+    "text": "respect to the parameters and that's",
+    "start": 1351.12,
+    "duration": 5.2
+  },
+  {
+    "text": "something that we'll do later",
+    "start": 1353.12,
+    "duration": 3.2
+  },
+  {
+    "text": "yeah so this is what y hat l encodes it",
+    "start": 1357.84,
+    "duration": 5.12
+  },
+  {
+    "text": "encodes the probability that x belongs",
+    "start": 1360.64,
+    "duration": 4.56
+  },
+  {
+    "text": "to the ellith class so we want to bring",
+    "start": 1362.96,
+    "duration": 4.4
+  },
+  {
+    "text": "it as close to 1 right because that's",
+    "start": 1365.2,
+    "duration": 3.12
+  },
+  {
+    "text": "the",
+    "start": 1367.36,
+    "duration": 2.88
+  },
+  {
+    "text": "probability of the predicted probability",
+    "start": 1368.32,
+    "duration": 3.599
+  },
+  {
+    "text": "of the true class so you want that",
+    "start": 1370.24,
+    "duration": 3.2
+  },
+  {
+    "text": "predicted probability to be as close to",
+    "start": 1371.919,
+    "duration": 2.961
+  },
+  {
+    "text": "1 because we know that for the true",
+    "start": 1373.44,
+    "duration": 4.0
+  },
+  {
+    "text": "class the probability is 1. okay",
+    "start": 1374.88,
+    "duration": 3.84
+  },
+  {
+    "text": "so",
+    "start": 1377.44,
+    "duration": 3.04
+  },
+  {
+    "text": "this is what we have done so far we have",
+    "start": 1378.72,
+    "duration": 3.68
+  },
+  {
+    "text": "looked at",
+    "start": 1380.48,
+    "duration": 4.16
+  },
+  {
+    "text": "two types of problems one problem where",
+    "start": 1382.4,
+    "duration": 4.639
+  },
+  {
+    "text": "the output values are real values these",
+    "start": 1384.64,
+    "duration": 3.84
+  },
+  {
+    "text": "are the regression problems",
+    "start": 1387.039,
+    "duration": 3.681
+  },
+  {
+    "text": "and the other values where the outputs",
+    "start": 1388.48,
+    "duration": 3.52
+  },
+  {
+    "text": "are probabilities these are the",
+    "start": 1390.72,
+    "duration": 3.6
+  },
+  {
+    "text": "classification problems are two popular",
+    "start": 1392.0,
+    "duration": 4.24
+  },
+  {
+    "text": "family of problems we have looked at for",
+    "start": 1394.32,
+    "duration": 3.839
+  },
+  {
+    "text": "the regression",
+    "start": 1396.24,
+    "duration": 3.2
+  },
+  {
+    "text": "problems we said that the output",
+    "start": 1398.159,
+    "duration": 2.721
+  },
+  {
+    "text": "function should just be linear because",
+    "start": 1399.44,
+    "duration": 3.119
+  },
+  {
+    "text": "we don't want the output to be bounded",
+    "start": 1400.88,
+    "duration": 3.52
+  },
+  {
+    "text": "between anything and whatever is the",
+    "start": 1402.559,
+    "duration": 3.841
+  },
+  {
+    "text": "natural range of the output the loss",
+    "start": 1404.4,
+    "duration": 3.68
+  },
+  {
+    "text": "function will make sure that the network",
+    "start": 1406.4,
+    "duration": 4.08
+  },
+  {
+    "text": "predicts something in that range itself",
+    "start": 1408.08,
+    "duration": 3.839
+  },
+  {
+    "text": "because otherwise the loss will become",
+    "start": 1410.48,
+    "duration": 4.4
+  },
+  {
+    "text": "very large right for the classification",
+    "start": 1411.919,
+    "duration": 5.041
+  },
+  {
+    "text": "problems the output function was the",
+    "start": 1414.88,
+    "duration": 3.76
+  },
+  {
+    "text": "soft max function",
+    "start": 1416.96,
+    "duration": 3.92
+  },
+  {
+    "text": "and then the loss function for the",
+    "start": 1418.64,
+    "duration": 3.919
+  },
+  {
+    "text": "regression problems for squared error",
+    "start": 1420.88,
+    "duration": 3.52
+  },
+  {
+    "text": "and for the classification problems was",
+    "start": 1422.559,
+    "duration": 3.36
+  },
+  {
+    "text": "cross entry right",
+    "start": 1424.4,
+    "duration": 3.2
+  },
+  {
+    "text": "there could be other loss functions but",
+    "start": 1425.919,
+    "duration": 3.521
+  },
+  {
+    "text": "these are the most popular loss",
+    "start": 1427.6,
+    "duration": 4.559
+  },
+  {
+    "text": "functions that you will encounter in a",
+    "start": 1429.44,
+    "duration": 3.92
+  },
+  {
+    "text": "very large number of problems are",
+    "start": 1432.159,
+    "duration": 2.721
+  },
+  {
+    "text": "greater than 90 of the problems that you",
+    "start": 1433.36,
+    "duration": 3.76
+  },
+  {
+    "text": "will encounter these two loss functions",
+    "start": 1434.88,
+    "duration": 5.36
+  },
+  {
+    "text": "uh should suffice right or some",
+    "start": 1437.12,
+    "duration": 5.28
+  },
+  {
+    "text": "variant of these two loss functions",
+    "start": 1440.24,
+    "duration": 4.319
+  },
+  {
+    "text": "for the rest of this lecture we are",
+    "start": 1442.4,
+    "duration": 3.84
+  },
+  {
+    "text": "going to focus on the case where the",
+    "start": 1444.559,
+    "duration": 4.24
+  },
+  {
+    "text": "output activation is soft max and the",
+    "start": 1446.24,
+    "duration": 4.319
+  },
+  {
+    "text": "loss function is cross entropy",
+    "start": 1448.799,
+    "duration": 3.921
+  },
+  {
+    "text": "everything that we learn for that case",
+    "start": 1450.559,
+    "duration": 5.681
+  },
+  {
+    "text": "is also applicable for this case by just",
+    "start": 1452.72,
+    "duration": 5.92
+  },
+  {
+    "text": "one small tweak right so that's i'm just",
+    "start": 1456.24,
+    "duration": 3.84
+  },
+  {
+    "text": "going to focus on the",
+    "start": 1458.64,
+    "duration": 4.72
+  },
+  {
+    "text": "uh softmax and cross entropy part okay",
+    "start": 1460.08,
+    "duration": 4.719
+  },
+  {
+    "text": "so",
+    "start": 1463.36,
+    "duration": 4.0
+  },
+  {
+    "text": "i'll end this module here and then i'll",
+    "start": 1464.799,
+    "duration": 4.801
+  },
+  {
+    "text": "come back and talk about the intuition",
+    "start": 1467.36,
+    "duration": 4.4
+  },
+  {
+    "text": "behind back propagation and then we'll",
+    "start": 1469.6,
+    "duration": 6.52
+  },
+  {
+    "text": "do the back propagation algorithm in g2",
+    "start": 1471.76,
+    "duration": 4.36
+  }
+]

@@ -1,0 +1,7 @@
+an implicit regularization in terms of their preference for like less complex Solutions and then even the initial learning rates.
+that you set up in these methods in the gradient descent the based methods they also kind of act as.
+some kind of a regularizer right because they also control how your training is going to proceed right so we.
+have not looked at this in detail we will not cover that also but just wanted to give you a.
+picture of this explicit and implicit regulation that happens right so this is all that I had to say about.
+regularization I'll end this lecture here and in the next lecture we'll talk about activation functions and a few other.
+things thank you.

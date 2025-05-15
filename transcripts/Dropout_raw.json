@@ -1,0 +1,2427 @@
+[
+  {
+    "text": "foreign",
+    "start": 0.299,
+    "duration": 3.0
+  },
+  {
+    "text": "[Music]",
+    "start": 6.62,
+    "duration": 14.93
+  },
+  {
+    "text": "methods are good right so what does that",
+    "start": 28.58,
+    "duration": 4.6
+  },
+  {
+    "text": "mean that if we average the output of",
+    "start": 30.84,
+    "duration": 4.8
+  },
+  {
+    "text": "several models then it always helps",
+    "start": 33.18,
+    "duration": 4.2
+  },
+  {
+    "text": "right but now in the context of deep",
+    "start": 35.64,
+    "duration": 3.12
+  },
+  {
+    "text": "neural networks this is of course a",
+    "start": 37.38,
+    "duration": 2.82
+  },
+  {
+    "text": "challenge right so if you have to train",
+    "start": 38.76,
+    "duration": 4.26
+  },
+  {
+    "text": "several large neural networks then it is",
+    "start": 40.2,
+    "duration": 4.14
+  },
+  {
+    "text": "going to be prohibitively expensive",
+    "start": 43.02,
+    "duration": 2.219
+  },
+  {
+    "text": "right because then you are going to",
+    "start": 44.34,
+    "duration": 2.34
+  },
+  {
+    "text": "combine these neural networks but then",
+    "start": 45.239,
+    "duration": 3.241
+  },
+  {
+    "text": "you have to train so many of those right",
+    "start": 46.68,
+    "duration": 4.14
+  },
+  {
+    "text": "and what uh there are two options here",
+    "start": 48.48,
+    "duration": 4.38
+  },
+  {
+    "text": "right one is you train several neural",
+    "start": 50.82,
+    "duration": 3.36
+  },
+  {
+    "text": "networks having different architectures",
+    "start": 52.86,
+    "duration": 2.58
+  },
+  {
+    "text": "so that's what I've shown in the first",
+    "start": 54.18,
+    "duration": 4.199
+  },
+  {
+    "text": "figure here where you have all of these",
+    "start": 55.44,
+    "duration": 4.139
+  },
+  {
+    "text": "are neural networks but they have",
+    "start": 58.379,
+    "duration": 3.0
+  },
+  {
+    "text": "different architectures or the other",
+    "start": 59.579,
+    "duration": 4.44
+  },
+  {
+    "text": "option is that you have the same neural",
+    "start": 61.379,
+    "duration": 5.161
+  },
+  {
+    "text": "network same architecture rather and",
+    "start": 64.019,
+    "duration": 4.021
+  },
+  {
+    "text": "you're going to train it using different",
+    "start": 66.54,
+    "duration": 4.259
+  },
+  {
+    "text": "subsets of the training data right now",
+    "start": 68.04,
+    "duration": 4.5
+  },
+  {
+    "text": "both these options are obviously",
+    "start": 70.799,
+    "duration": 3.301
+  },
+  {
+    "text": "expensive right because training a deep",
+    "start": 72.54,
+    "duration": 3.78
+  },
+  {
+    "text": "neural network is going to be expensive",
+    "start": 74.1,
+    "duration": 4.379
+  },
+  {
+    "text": "and now you're talking about training K",
+    "start": 76.32,
+    "duration": 4.979
+  },
+  {
+    "text": "of those right and even if I were able",
+    "start": 78.479,
+    "duration": 5.64
+  },
+  {
+    "text": "to train K neural networks at test time",
+    "start": 81.299,
+    "duration": 4.5
+  },
+  {
+    "text": "again I have a problem right because in",
+    "start": 84.119,
+    "duration": 3.121
+  },
+  {
+    "text": "test time typically I need results",
+    "start": 85.799,
+    "duration": 4.021
+  },
+  {
+    "text": "faster but again every test instance",
+    "start": 87.24,
+    "duration": 3.96
+  },
+  {
+    "text": "that I'm going to get I'm going to pass",
+    "start": 89.82,
+    "duration": 4.02
+  },
+  {
+    "text": "it through all the K uh neural networks",
+    "start": 91.2,
+    "duration": 4.26
+  },
+  {
+    "text": "and then combine their output rate so",
+    "start": 93.84,
+    "duration": 3.3
+  },
+  {
+    "text": "it's not just a training time I have to",
+    "start": 95.46,
+    "duration": 3.72
+  },
+  {
+    "text": "have a lot of compute but even at test",
+    "start": 97.14,
+    "duration": 4.619
+  },
+  {
+    "text": "time I'm going to have a challenge right",
+    "start": 99.18,
+    "duration": 5.82
+  },
+  {
+    "text": "so how do we then use this model",
+    "start": 101.759,
+    "duration": 5.341
+  },
+  {
+    "text": "averaging idea which we just saw in the",
+    "start": 105.0,
+    "duration": 4.619
+  },
+  {
+    "text": "last video is useful how do you use it",
+    "start": 107.1,
+    "duration": 4.62
+  },
+  {
+    "text": "in the context of deep learning right so",
+    "start": 109.619,
+    "duration": 4.68
+  },
+  {
+    "text": "the two challenges are that at training",
+    "start": 111.72,
+    "duration": 4.259
+  },
+  {
+    "text": "time your cost is high and even a test",
+    "start": 114.299,
+    "duration": 3.121
+  },
+  {
+    "text": "time your cost is high right",
+    "start": 115.979,
+    "duration": 3.121
+  },
+  {
+    "text": "irrespective of whether you use option",
+    "start": 117.42,
+    "duration": 4.379
+  },
+  {
+    "text": "one or option two right so Dropout",
+    "start": 119.1,
+    "duration": 5.879
+  },
+  {
+    "text": "actually addresses both these issues so",
+    "start": 121.799,
+    "duration": 5.341
+  },
+  {
+    "text": "what it does is it effectively allows us",
+    "start": 124.979,
+    "duration": 4.381
+  },
+  {
+    "text": "to train several neural networks without",
+    "start": 127.14,
+    "duration": 4.739
+  },
+  {
+    "text": "incurring the cost of actually training",
+    "start": 129.36,
+    "duration": 4.2
+  },
+  {
+    "text": "K neural networks right and we'll see",
+    "start": 131.879,
+    "duration": 4.141
+  },
+  {
+    "text": "how exactly it does that and it also at",
+    "start": 133.56,
+    "duration": 4.56
+  },
+  {
+    "text": "inference time we don't need to pass the",
+    "start": 136.02,
+    "duration": 4.14
+  },
+  {
+    "text": "test instance to several networks we",
+    "start": 138.12,
+    "duration": 3.36
+  },
+  {
+    "text": "just need to pass it through one neural",
+    "start": 140.16,
+    "duration": 4.5
+  },
+  {
+    "text": "network but just do a simple trick to",
+    "start": 141.48,
+    "duration": 4.979
+  },
+  {
+    "text": "get the averaging effect right so we'll",
+    "start": 144.66,
+    "duration": 4.02
+  },
+  {
+    "text": "see how that works so the idea in",
+    "start": 146.459,
+    "duration": 4.261
+  },
+  {
+    "text": "Dropout is that",
+    "start": 148.68,
+    "duration": 3.84
+  },
+  {
+    "text": "you have this original Network which I",
+    "start": 150.72,
+    "duration": 3.659
+  },
+  {
+    "text": "have shown on the left hand side you",
+    "start": 152.52,
+    "duration": 4.5
+  },
+  {
+    "text": "drop out some units from it that means",
+    "start": 154.379,
+    "duration": 4.681
+  },
+  {
+    "text": "you drop out some new neurons from it so",
+    "start": 157.02,
+    "duration": 4.02
+  },
+  {
+    "text": "this is I've dropped on some randomly",
+    "start": 159.06,
+    "duration": 4.74
+  },
+  {
+    "text": "some six neurons from here and then you",
+    "start": 161.04,
+    "duration": 4.02
+  },
+  {
+    "text": "get a different network right so you",
+    "start": 163.8,
+    "duration": 2.82
+  },
+  {
+    "text": "have got a different architecture now",
+    "start": 165.06,
+    "duration": 4.319
+  },
+  {
+    "text": "right so just as an option one uh you",
+    "start": 166.62,
+    "duration": 4.32
+  },
+  {
+    "text": "are training neural networks with",
+    "start": 169.379,
+    "duration": 3.0
+  },
+  {
+    "text": "different architectures and you are",
+    "start": 170.94,
+    "duration": 3.48
+  },
+  {
+    "text": "training key of those I have got the",
+    "start": 172.379,
+    "duration": 3.781
+  },
+  {
+    "text": "same effect here by dropping some",
+    "start": 174.42,
+    "duration": 3.3
+  },
+  {
+    "text": "neurons so it had the base architecture",
+    "start": 176.16,
+    "duration": 3.359
+  },
+  {
+    "text": "I dropped some neurons and I now my",
+    "start": 177.72,
+    "duration": 3.299
+  },
+  {
+    "text": "neural network looks a bit different",
+    "start": 179.519,
+    "duration": 4.44
+  },
+  {
+    "text": "right and just doing it temporarily just",
+    "start": 181.019,
+    "duration": 4.5
+  },
+  {
+    "text": "for that current training instance I'm",
+    "start": 183.959,
+    "duration": 3.241
+  },
+  {
+    "text": "going to drop a few neurons or that",
+    "start": 185.519,
+    "duration": 3.421
+  },
+  {
+    "text": "batch a mini batch I'm going to drop a",
+    "start": 187.2,
+    "duration": 3.66
+  },
+  {
+    "text": "few neurons right and then again do",
+    "start": 188.94,
+    "duration": 3.12
+  },
+  {
+    "text": "something different in the next device",
+    "start": 190.86,
+    "duration": 4.26
+  },
+  {
+    "text": "right now each node is retained with",
+    "start": 192.06,
+    "duration": 5.58
+  },
+  {
+    "text": "some fixed probability right so every uh",
+    "start": 195.12,
+    "duration": 4.86
+  },
+  {
+    "text": "so every time I get a mini batch for",
+    "start": 197.64,
+    "duration": 4.379
+  },
+  {
+    "text": "every node I take a decision whether I",
+    "start": 199.98,
+    "duration": 4.44
+  },
+  {
+    "text": "should drop it or retain it and this",
+    "start": 202.019,
+    "duration": 4.201
+  },
+  {
+    "text": "decision is taken with a fixed",
+    "start": 204.42,
+    "duration": 2.94
+  },
+  {
+    "text": "probability right that means with 80",
+    "start": 206.22,
+    "duration": 4.08
+  },
+  {
+    "text": "chance I'll retain it and 20 chance I'll",
+    "start": 207.36,
+    "duration": 5.7
+  },
+  {
+    "text": "drop right so that's uh the decision",
+    "start": 210.3,
+    "duration": 4.5
+  },
+  {
+    "text": "that I take so that every time I receive",
+    "start": 213.06,
+    "duration": 4.56
+  },
+  {
+    "text": "a mini batch I visit every node and",
+    "start": 214.8,
+    "duration": 4.439
+  },
+  {
+    "text": "decide whether to drop it or retain it",
+    "start": 217.62,
+    "duration": 3.06
+  },
+  {
+    "text": "of course it's not done like",
+    "start": 219.239,
+    "duration": 3.601
+  },
+  {
+    "text": "sequentially the way I'm saying it uh",
+    "start": 220.68,
+    "duration": 3.6
+  },
+  {
+    "text": "you have more efficient ways of doing it",
+    "start": 222.84,
+    "duration": 3.06
+  },
+  {
+    "text": "but conceptually this is what you will",
+    "start": 224.28,
+    "duration": 4.379
+  },
+  {
+    "text": "do for every mini patch right",
+    "start": 225.9,
+    "duration": 4.619
+  },
+  {
+    "text": "now suppose the neural network has n",
+    "start": 228.659,
+    "duration": 4.741
+  },
+  {
+    "text": "nodes then using this Dropout idea",
+    "start": 230.519,
+    "duration": 5.161
+  },
+  {
+    "text": "how many neural networks can you create",
+    "start": 233.4,
+    "duration": 4.32
+  },
+  {
+    "text": "right so I have n nodes given to you and",
+    "start": 235.68,
+    "duration": 5.1
+  },
+  {
+    "text": "for every node I can either retain it or",
+    "start": 237.72,
+    "duration": 4.98
+  },
+  {
+    "text": "drop it right so it's a binary decision",
+    "start": 240.78,
+    "duration": 4.679
+  },
+  {
+    "text": "I'm going to take for every node and",
+    "start": 242.7,
+    "duration": 4.8
+  },
+  {
+    "text": "each such configuration gives me a new",
+    "start": 245.459,
+    "duration": 3.661
+  },
+  {
+    "text": "neural network right so I just think of",
+    "start": 247.5,
+    "duration": 6.08
+  },
+  {
+    "text": "it that I have these n nodes here",
+    "start": 249.12,
+    "duration": 4.46
+  },
+  {
+    "text": "right and I'm going to write a 0 if I'm",
+    "start": 254.4,
+    "duration": 4.98
+  },
+  {
+    "text": "going to drop that node and a 1 if I am",
+    "start": 257.34,
+    "duration": 4.56
+  },
+  {
+    "text": "going to retain that load right so now",
+    "start": 259.38,
+    "duration": 4.86
+  },
+  {
+    "text": "this is my n dimensional vector and this",
+    "start": 261.9,
+    "duration": 4.26
+  },
+  {
+    "text": "will decide which neurons here get",
+    "start": 264.24,
+    "duration": 5.34
+  },
+  {
+    "text": "dropped or uh retained right and there",
+    "start": 266.16,
+    "duration": 5.46
+  },
+  {
+    "text": "are such two raised to n vectors that I",
+    "start": 269.58,
+    "duration": 4.08
+  },
+  {
+    "text": "can construct right which means there",
+    "start": 271.62,
+    "duration": 4.68
+  },
+  {
+    "text": "are 2 raised to n networks that I can",
+    "start": 273.66,
+    "duration": 4.62
+  },
+  {
+    "text": "construct from a given neural network",
+    "start": 276.3,
+    "duration": 4.38
+  },
+  {
+    "text": "right so if I use the Dropout idea and",
+    "start": 278.28,
+    "duration": 4.32
+  },
+  {
+    "text": "if I have n neurons then I can actually",
+    "start": 280.68,
+    "duration": 5.04
+  },
+  {
+    "text": "construct 2 raised to n different neural",
+    "start": 282.6,
+    "duration": 5.159
+  },
+  {
+    "text": "networks right but then how does it help",
+    "start": 285.72,
+    "duration": 5.58
+  },
+  {
+    "text": "me I just said that ah",
+    "start": 287.759,
+    "duration": 6.361
+  },
+  {
+    "text": "even if I have like K different neural",
+    "start": 291.3,
+    "duration": 4.5
+  },
+  {
+    "text": "networks and K was of course much",
+    "start": 294.12,
+    "duration": 3.9
+  },
+  {
+    "text": "smaller than 2 raised to n then I have a",
+    "start": 295.8,
+    "duration": 3.6
+  },
+  {
+    "text": "challenge in training it so now I'm",
+    "start": 298.02,
+    "duration": 3.0
+  },
+  {
+    "text": "talking about two raised to n different",
+    "start": 299.4,
+    "duration": 3.72
+  },
+  {
+    "text": "neural networks which are possible so",
+    "start": 301.02,
+    "duration": 4.8
+  },
+  {
+    "text": "how am I going to train these uh many",
+    "start": 303.12,
+    "duration": 4.5
+  },
+  {
+    "text": "networks right so the trick that we use",
+    "start": 305.82,
+    "duration": 4.8
+  },
+  {
+    "text": "is that you share the weights across all",
+    "start": 307.62,
+    "duration": 4.32
+  },
+  {
+    "text": "the networks so you have two raised to n",
+    "start": 310.62,
+    "duration": 3.72
+  },
+  {
+    "text": "networks but the weight matrices are the",
+    "start": 311.94,
+    "duration": 4.14
+  },
+  {
+    "text": "same right so now suppose this weight",
+    "start": 314.34,
+    "duration": 4.44
+  },
+  {
+    "text": "exists",
+    "start": 316.08,
+    "duration": 5.88
+  },
+  {
+    "text": "or this node is retained suppose in such",
+    "start": 318.78,
+    "duration": 6.66
+  },
+  {
+    "text": "uh 2 raised to n by 2 of the networks",
+    "start": 321.96,
+    "duration": 5.28
+  },
+  {
+    "text": "right because half the networks if you",
+    "start": 325.44,
+    "duration": 3.0
+  },
+  {
+    "text": "are retaining and dropping with 50",
+    "start": 327.24,
+    "duration": 2.82
+  },
+  {
+    "text": "probability then half the networks would",
+    "start": 328.44,
+    "duration": 3.18
+  },
+  {
+    "text": "have this node how the networks would",
+    "start": 330.06,
+    "duration": 3.24
+  },
+  {
+    "text": "not have this node right so that means",
+    "start": 331.62,
+    "duration": 3.78
+  },
+  {
+    "text": "this weight will be retained in half the",
+    "start": 333.3,
+    "duration": 3.899
+  },
+  {
+    "text": "networks right but this weight would",
+    "start": 335.4,
+    "duration": 3.18
+  },
+  {
+    "text": "remain the same in all the networks",
+    "start": 337.199,
+    "duration": 3.06
+  },
+  {
+    "text": "right I'll be using the same copy of the",
+    "start": 338.58,
+    "duration": 3.54
+  },
+  {
+    "text": "weight uh that's the first trick I'm",
+    "start": 340.259,
+    "duration": 3.361
+  },
+  {
+    "text": "going to use what's the implication of",
+    "start": 342.12,
+    "duration": 3.359
+  },
+  {
+    "text": "that we will see soon and the second",
+    "start": 343.62,
+    "duration": 4.079
+  },
+  {
+    "text": "trick that we are going to use is that",
+    "start": 345.479,
+    "duration": 3.78
+  },
+  {
+    "text": "we are going to sample a different",
+    "start": 347.699,
+    "duration": 3.72
+  },
+  {
+    "text": "network for each training instance so",
+    "start": 349.259,
+    "duration": 3.541
+  },
+  {
+    "text": "it's not that I have like these two",
+    "start": 351.419,
+    "duration": 3.06
+  },
+  {
+    "text": "raised to n networks created at",
+    "start": 352.8,
+    "duration": 3.48
+  },
+  {
+    "text": "beginning and then train all of these",
+    "start": 354.479,
+    "duration": 3.961
+  },
+  {
+    "text": "two raised to N I just have one network",
+    "start": 356.28,
+    "duration": 4.62
+  },
+  {
+    "text": "whenever I get a mini batch I'm going to",
+    "start": 358.44,
+    "duration": 3.96
+  },
+  {
+    "text": "sample one of these two raised to a",
+    "start": 360.9,
+    "duration": 2.7
+  },
+  {
+    "text": "networks that means I'm going to",
+    "start": 362.4,
+    "duration": 3.299
+  },
+  {
+    "text": "randomly drop some nodes in the network",
+    "start": 363.6,
+    "duration": 4.98
+  },
+  {
+    "text": "and then train using that uh Network",
+    "start": 365.699,
+    "duration": 4.5
+  },
+  {
+    "text": "right so let's see what that means right",
+    "start": 368.58,
+    "duration": 3.5
+  },
+  {
+    "text": "it's like a bit",
+    "start": 370.199,
+    "duration": 4.021
+  },
+  {
+    "text": "difficult to understand but we will",
+    "start": 372.08,
+    "duration": 3.58
+  },
+  {
+    "text": "break it down into steps and then it",
+    "start": 374.22,
+    "duration": 2.88
+  },
+  {
+    "text": "should become clear right so we",
+    "start": 375.66,
+    "duration": 2.94
+  },
+  {
+    "text": "initialize all the weights of the",
+    "start": 377.1,
+    "duration": 3.84
+  },
+  {
+    "text": "network so there are in this network",
+    "start": 378.6,
+    "duration": 4.08
+  },
+  {
+    "text": "this is my base Network right I'm not",
+    "start": 380.94,
+    "duration": 4.319
+  },
+  {
+    "text": "creating multiple copies of this this is",
+    "start": 382.68,
+    "duration": 4.799
+  },
+  {
+    "text": "my only Network so whatever weights are",
+    "start": 385.259,
+    "duration": 3.601
+  },
+  {
+    "text": "there so let's assume there are n",
+    "start": 387.479,
+    "duration": 4.201
+  },
+  {
+    "text": "parameters everywhere uh sorry n nodes",
+    "start": 388.86,
+    "duration": 5.76
+  },
+  {
+    "text": "everywhere so you have have a n cross n",
+    "start": 391.68,
+    "duration": 5.459
+  },
+  {
+    "text": "weight sitting here",
+    "start": 394.62,
+    "duration": 4.44
+  },
+  {
+    "text": "you have an N cross n weight Matrix",
+    "start": 397.139,
+    "duration": 4.021
+  },
+  {
+    "text": "sitting here I'm ignoring the biases for",
+    "start": 399.06,
+    "duration": 3.78
+  },
+  {
+    "text": "the while and suppose you have only one",
+    "start": 401.16,
+    "duration": 3.9
+  },
+  {
+    "text": "output neuron then you are n weights",
+    "start": 402.84,
+    "duration": 4.56
+  },
+  {
+    "text": "sitting here right so these all these uh",
+    "start": 405.06,
+    "duration": 4.32
+  },
+  {
+    "text": "2N squared plus n weights I have",
+    "start": 407.4,
+    "duration": 3.9
+  },
+  {
+    "text": "initialized okay and I have started",
+    "start": 409.38,
+    "duration": 4.259
+  },
+  {
+    "text": "training",
+    "start": 411.3,
+    "duration": 5.0
+  },
+  {
+    "text": "now",
+    "start": 413.639,
+    "duration": 2.661
+  },
+  {
+    "text": "I received the first mini batch for",
+    "start": 417.24,
+    "duration": 3.12
+  },
+  {
+    "text": "training",
+    "start": 419.4,
+    "duration": 3.96
+  },
+  {
+    "text": "and I just drop some notes from the",
+    "start": 420.36,
+    "duration": 5.459
+  },
+  {
+    "text": "network right so I've got a thinned",
+    "start": 423.36,
+    "duration": 4.619
+  },
+  {
+    "text": "version of the network for the first",
+    "start": 425.819,
+    "duration": 4.32
+  },
+  {
+    "text": "mini batch right and now I'm just going",
+    "start": 427.979,
+    "duration": 3.66
+  },
+  {
+    "text": "to assume that this is what my neural",
+    "start": 430.139,
+    "duration": 2.881
+  },
+  {
+    "text": "network looks like and just do my",
+    "start": 431.639,
+    "duration": 2.701
+  },
+  {
+    "text": "forward propagation and backward",
+    "start": 433.02,
+    "duration": 2.76
+  },
+  {
+    "text": "propagation right so I'll compute the",
+    "start": 434.34,
+    "duration": 3.359
+  },
+  {
+    "text": "loss using forward propagation and then",
+    "start": 435.78,
+    "duration": 3.9
+  },
+  {
+    "text": "I'll back propagate now when I do back",
+    "start": 437.699,
+    "duration": 3.661
+  },
+  {
+    "text": "propagation which are the parameters",
+    "start": 439.68,
+    "duration": 3.66
+  },
+  {
+    "text": "that need to be updated I had n square",
+    "start": 441.36,
+    "duration": 4.38
+  },
+  {
+    "text": "plus n parameters now if I do backward",
+    "start": 443.34,
+    "duration": 3.84
+  },
+  {
+    "text": "propagation which are the parameters",
+    "start": 445.74,
+    "duration": 4.28
+  },
+  {
+    "text": "that I should update",
+    "start": 447.18,
+    "duration": 2.84
+  },
+  {
+    "text": "yet only the ones which had participated",
+    "start": 450.06,
+    "duration": 3.66
+  },
+  {
+    "text": "in the computation right so this",
+    "start": 452.28,
+    "duration": 3.66
+  },
+  {
+    "text": "parameter for example",
+    "start": 453.72,
+    "duration": 4.259
+  },
+  {
+    "text": "was not there this was because both",
+    "start": 455.94,
+    "duration": 3.24
+  },
+  {
+    "text": "these nodes were dropped so this",
+    "start": 457.979,
+    "duration": 3.06
+  },
+  {
+    "text": "parameter was not there this parameter",
+    "start": 459.18,
+    "duration": 3.78
+  },
+  {
+    "text": "was also not there this parameter was",
+    "start": 461.039,
+    "duration": 3.361
+  },
+  {
+    "text": "also not there so obviously they did not",
+    "start": 462.96,
+    "duration": 3.54
+  },
+  {
+    "text": "participate in forward propagation so",
+    "start": 464.4,
+    "duration": 3.66
+  },
+  {
+    "text": "they will not get updated in backward",
+    "start": 466.5,
+    "duration": 3.12
+  },
+  {
+    "text": "propagation right that's as simple as",
+    "start": 468.06,
+    "duration": 3.24
+  },
+  {
+    "text": "that",
+    "start": 469.62,
+    "duration": 4.32
+  },
+  {
+    "text": "so let's see what that means right so",
+    "start": 471.3,
+    "duration": 4.56
+  },
+  {
+    "text": "these were the ones which were active so",
+    "start": 473.94,
+    "duration": 3.96
+  },
+  {
+    "text": "these will get updated these will get",
+    "start": 475.86,
+    "duration": 3.899
+  },
+  {
+    "text": "updated and these will get updated right",
+    "start": 477.9,
+    "duration": 3.18
+  },
+  {
+    "text": "the other weights will not get updated",
+    "start": 479.759,
+    "duration": 3.06
+  },
+  {
+    "text": "and it's a bi-directional Arab that",
+    "start": 481.08,
+    "duration": 3.6
+  },
+  {
+    "text": "means in the forward propagation also",
+    "start": 482.819,
+    "duration": 4.081
+  },
+  {
+    "text": "these only participated and the backward",
+    "start": 484.68,
+    "duration": 3.72
+  },
+  {
+    "text": "propagation also only those will",
+    "start": 486.9,
+    "duration": 3.419
+  },
+  {
+    "text": "participate right so this is what I have",
+    "start": 488.4,
+    "duration": 4.019
+  },
+  {
+    "text": "done for the first mini batch that I",
+    "start": 490.319,
+    "duration": 3.961
+  },
+  {
+    "text": "received now when I received the second",
+    "start": 492.419,
+    "duration": 5.161
+  },
+  {
+    "text": "mini batch I again sample a new neural",
+    "start": 494.28,
+    "duration": 4.62
+  },
+  {
+    "text": "network from my original Network that",
+    "start": 497.58,
+    "duration": 3.059
+  },
+  {
+    "text": "means I just drop some other set of",
+    "start": 498.9,
+    "duration": 3.06
+  },
+  {
+    "text": "nodes right because this is a random",
+    "start": 500.639,
+    "duration": 3.301
+  },
+  {
+    "text": "process that every mini batch I'm going",
+    "start": 501.96,
+    "duration": 3.72
+  },
+  {
+    "text": "to decide for every node whether to",
+    "start": 503.94,
+    "duration": 3.42
+  },
+  {
+    "text": "retain it or drop it so my decisions",
+    "start": 505.68,
+    "duration": 3.06
+  },
+  {
+    "text": "would change from one batch to another",
+    "start": 507.36,
+    "duration": 3.239
+  },
+  {
+    "text": "and I'll get a different version of the",
+    "start": 508.74,
+    "duration": 3.84
+  },
+  {
+    "text": "original neutral Network and now again",
+    "start": 510.599,
+    "duration": 5.041
+  },
+  {
+    "text": "I'm going to update only those weights",
+    "start": 512.58,
+    "duration": 5.42
+  },
+  {
+    "text": "which actually participate in the",
+    "start": 515.64,
+    "duration": 5.459
+  },
+  {
+    "text": "computation right and now if you look at",
+    "start": 518.0,
+    "duration": 5.38
+  },
+  {
+    "text": "it right so let's look at some weight",
+    "start": 521.099,
+    "duration": 5.341
+  },
+  {
+    "text": "which was there",
+    "start": 523.38,
+    "duration": 6.38
+  },
+  {
+    "text": "this one right",
+    "start": 526.44,
+    "duration": 3.32
+  },
+  {
+    "text": "so if you look at this weight",
+    "start": 530.04,
+    "duration": 3.9
+  },
+  {
+    "text": "this was present in both the networks",
+    "start": 532.08,
+    "duration": 2.879
+  },
+  {
+    "text": "there were some other weights also which",
+    "start": 533.94,
+    "duration": 2.22
+  },
+  {
+    "text": "were present in both the networks maybe",
+    "start": 534.959,
+    "duration": 4.221
+  },
+  {
+    "text": "I should use a different color",
+    "start": 536.16,
+    "duration": 3.02
+  },
+  {
+    "text": "right so this weight",
+    "start": 541.56,
+    "duration": 4.44
+  },
+  {
+    "text": "participated in both the networks so let",
+    "start": 543.899,
+    "duration": 4.94
+  },
+  {
+    "text": "me just call that weight as W okay",
+    "start": 546.0,
+    "duration": 6.48
+  },
+  {
+    "text": "so uh at time step one",
+    "start": 548.839,
+    "duration": 6.641
+  },
+  {
+    "text": "I had updated the value of w using",
+    "start": 552.48,
+    "duration": 6.479
+  },
+  {
+    "text": "whatever update rule I wanted right",
+    "start": 555.48,
+    "duration": 5.22
+  },
+  {
+    "text": "let's assume I was just using gradient",
+    "start": 558.959,
+    "duration": 5.341
+  },
+  {
+    "text": "descent so my value of w has changed now",
+    "start": 560.7,
+    "duration": 5.88
+  },
+  {
+    "text": "at time Step 2 since my weights are",
+    "start": 564.3,
+    "duration": 4.74
+  },
+  {
+    "text": "shared I will start with the updated",
+    "start": 566.58,
+    "duration": 4.08
+  },
+  {
+    "text": "value of w I will not start from W",
+    "start": 569.04,
+    "duration": 3.96
+  },
+  {
+    "text": "naught I'll start with W 1 because that",
+    "start": 570.66,
+    "duration": 4.26
+  },
+  {
+    "text": "weight has already been upgraded and",
+    "start": 573.0,
+    "duration": 4.44
+  },
+  {
+    "text": "then update it again using",
+    "start": 574.92,
+    "duration": 4.68
+  },
+  {
+    "text": "this equation right so that's what",
+    "start": 577.44,
+    "duration": 4.019
+  },
+  {
+    "text": "sharing weights means these are two",
+    "start": 579.6,
+    "duration": 4.5
+  },
+  {
+    "text": "different networks conceptually but",
+    "start": 581.459,
+    "duration": 4.081
+  },
+  {
+    "text": "actually it's the same network from",
+    "start": 584.1,
+    "duration": 3.06
+  },
+  {
+    "text": "which certain weights have been dropped",
+    "start": 585.54,
+    "duration": 4.56
+  },
+  {
+    "text": "right and those weights which are",
+    "start": 587.16,
+    "duration": 5.04
+  },
+  {
+    "text": "participated in all in the first batch",
+    "start": 590.1,
+    "duration": 3.96
+  },
+  {
+    "text": "as well as the second batch for those",
+    "start": 592.2,
+    "duration": 4.319
+  },
+  {
+    "text": "weights I have done two updates and for",
+    "start": 594.06,
+    "duration": 4.14
+  },
+  {
+    "text": "those weights which only participated in",
+    "start": 596.519,
+    "duration": 3.601
+  },
+  {
+    "text": "the first batch or only participated in",
+    "start": 598.2,
+    "duration": 3.3
+  },
+  {
+    "text": "the second batch I would have done only",
+    "start": 600.12,
+    "duration": 3.42
+  },
+  {
+    "text": "one update right so the main thing to",
+    "start": 601.5,
+    "duration": 4.08
+  },
+  {
+    "text": "notice here is that even though I am",
+    "start": 603.54,
+    "duration": 3.6
+  },
+  {
+    "text": "kind of it looks like I'm using a",
+    "start": 605.58,
+    "duration": 2.879
+  },
+  {
+    "text": "different neural network at every time",
+    "start": 607.14,
+    "duration": 2.699
+  },
+  {
+    "text": "step it's not the case because the",
+    "start": 608.459,
+    "duration": 2.94
+  },
+  {
+    "text": "weights are the same they are the shared",
+    "start": 609.839,
+    "duration": 3.18
+  },
+  {
+    "text": "weights and I just start from the",
+    "start": 611.399,
+    "duration": 3.661
+  },
+  {
+    "text": "previous value of the weight which was",
+    "start": 613.019,
+    "duration": 4.32
+  },
+  {
+    "text": "at the say the kth iteration and then",
+    "start": 615.06,
+    "duration": 4.56
+  },
+  {
+    "text": "update that value I don't start with the",
+    "start": 617.339,
+    "duration": 4.081
+  },
+  {
+    "text": "value which was at the zero titration",
+    "start": 619.62,
+    "duration": 5.12
+  },
+  {
+    "text": "right okay",
+    "start": 621.42,
+    "duration": 3.32
+  },
+  {
+    "text": "yeah",
+    "start": 629.64,
+    "duration": 4.139
+  },
+  {
+    "text": "yeah so that's what is being said in",
+    "start": 632.1,
+    "duration": 5.16
+  },
+  {
+    "text": "this slide so each thinned Network",
+    "start": 633.779,
+    "duration": 5.161
+  },
+  {
+    "text": "will get trained rarely because there",
+    "start": 637.26,
+    "duration": 3.24
+  },
+  {
+    "text": "are two raised to end networks right so",
+    "start": 638.94,
+    "duration": 4.2
+  },
+  {
+    "text": "it's very unlikely that this network if",
+    "start": 640.5,
+    "duration": 4.32
+  },
+  {
+    "text": "n is very large right which is typically",
+    "start": 643.14,
+    "duration": 4.139
+  },
+  {
+    "text": "the case that the same network will get",
+    "start": 644.82,
+    "duration": 4.199
+  },
+  {
+    "text": "sampled many times because there are two",
+    "start": 647.279,
+    "duration": 3.24
+  },
+  {
+    "text": "ways to end different configurations",
+    "start": 649.019,
+    "duration": 3.721
+  },
+  {
+    "text": "possible so it was also possible that",
+    "start": 650.519,
+    "duration": 3.721
+  },
+  {
+    "text": "some of these networks will never get",
+    "start": 652.74,
+    "duration": 3.599
+  },
+  {
+    "text": "sampled at all right because if your",
+    "start": 654.24,
+    "duration": 4.14
+  },
+  {
+    "text": "number of steps which you run the data",
+    "start": 656.339,
+    "duration": 3.901
+  },
+  {
+    "text": "for is less that run the training for is",
+    "start": 658.38,
+    "duration": 3.78
+  },
+  {
+    "text": "less than 2 raised to n right suppose",
+    "start": 660.24,
+    "duration": 3.839
+  },
+  {
+    "text": "you have a million nodes the two raised",
+    "start": 662.16,
+    "duration": 3.72
+  },
+  {
+    "text": "to million is going to be very large and",
+    "start": 664.079,
+    "duration": 3.061
+  },
+  {
+    "text": "you're going to train for much fewer",
+    "start": 665.88,
+    "duration": 2.82
+  },
+  {
+    "text": "steps than that right so all these two",
+    "start": 667.14,
+    "duration": 3.42
+  },
+  {
+    "text": "raised to million networks will not even",
+    "start": 668.7,
+    "duration": 3.36
+  },
+  {
+    "text": "get sampled some of them would get",
+    "start": 670.56,
+    "duration": 4.2
+  },
+  {
+    "text": "sample right but still because of its",
+    "start": 672.06,
+    "duration": 4.92
+  },
+  {
+    "text": "weight sharing it's like every network",
+    "start": 674.76,
+    "duration": 4.199
+  },
+  {
+    "text": "is getting trained because even if this",
+    "start": 676.98,
+    "duration": 4.14
+  },
+  {
+    "text": "network was never sampled there were",
+    "start": 678.959,
+    "duration": 3.841
+  },
+  {
+    "text": "other networks which got sampled in",
+    "start": 681.12,
+    "duration": 2.94
+  },
+  {
+    "text": "which these weights would have been",
+    "start": 682.8,
+    "duration": 3.0
+  },
+  {
+    "text": "active and hence those weights were",
+    "start": 684.06,
+    "duration": 4.2
+  },
+  {
+    "text": "getting regular updates right and since",
+    "start": 685.8,
+    "duration": 4.56
+  },
+  {
+    "text": "every uh weight is going to be present",
+    "start": 688.26,
+    "duration": 4.079
+  },
+  {
+    "text": "with an 80 probability because you are",
+    "start": 690.36,
+    "duration": 3.78
+  },
+  {
+    "text": "going to retain 80 percent with",
+    "start": 692.339,
+    "duration": 3.06
+  },
+  {
+    "text": "probability 80 percent you're going to",
+    "start": 694.14,
+    "duration": 4.62
+  },
+  {
+    "text": "retain a node right and also okay so 80",
+    "start": 695.399,
+    "duration": 5.581
+  },
+  {
+    "text": "into 80 because both these nodes need to",
+    "start": 698.76,
+    "duration": 4.079
+  },
+  {
+    "text": "be remained so with 80 probability this",
+    "start": 700.98,
+    "duration": 4.02
+  },
+  {
+    "text": "will be retained and with 80 probability",
+    "start": 702.839,
+    "duration": 3.961
+  },
+  {
+    "text": "this will be retained so with 64",
+    "start": 705.0,
+    "duration": 3.899
+  },
+  {
+    "text": "probability both will be retained and",
+    "start": 706.8,
+    "duration": 3.36
+  },
+  {
+    "text": "hence this way it would be retained",
+    "start": 708.899,
+    "duration": 3.12
+  },
+  {
+    "text": "right so every weight with 64",
+    "start": 710.16,
+    "duration": 3.9
+  },
+  {
+    "text": "probability it will be retained right",
+    "start": 712.019,
+    "duration": 3.961
+  },
+  {
+    "text": "and hence it will get updated many times",
+    "start": 714.06,
+    "duration": 4.2
+  },
+  {
+    "text": "it will get 64 percent of the times that",
+    "start": 715.98,
+    "duration": 3.84
+  },
+  {
+    "text": "you are doing training it will get",
+    "start": 718.26,
+    "duration": 4.079
+  },
+  {
+    "text": "updates if you run for a thousand steps",
+    "start": 719.82,
+    "duration": 4.8
+  },
+  {
+    "text": "every weight will get updated around 640",
+    "start": 722.339,
+    "duration": 4.201
+  },
+  {
+    "text": "different uh times right at least 640",
+    "start": 724.62,
+    "duration": 4.279
+  },
+  {
+    "text": "times okay",
+    "start": 726.54,
+    "duration": 2.359
+  },
+  {
+    "text": "so now what do you do at test time this",
+    "start": 733.86,
+    "duration": 4.08
+  },
+  {
+    "text": "is what you are doing at training time",
+    "start": 736.38,
+    "duration": 4.92
+  },
+  {
+    "text": "at training time every node was present",
+    "start": 737.94,
+    "duration": 7.2
+  },
+  {
+    "text": "only with probability P right now what",
+    "start": 741.3,
+    "duration": 6.12
+  },
+  {
+    "text": "do you do at test time at test time now",
+    "start": 745.14,
+    "duration": 4.02
+  },
+  {
+    "text": "again you cannot sample these two raised",
+    "start": 747.42,
+    "duration": 3.479
+  },
+  {
+    "text": "to n networks past the output through",
+    "start": 749.16,
+    "duration": 3.419
+  },
+  {
+    "text": "all of those and then take the final",
+    "start": 750.899,
+    "duration": 3.601
+  },
+  {
+    "text": "decision right so at test time you can",
+    "start": 752.579,
+    "duration": 4.681
+  },
+  {
+    "text": "use this neat trick which is saying that",
+    "start": 754.5,
+    "duration": 5.399
+  },
+  {
+    "text": "hey every node was only present with",
+    "start": 757.26,
+    "duration": 4.259
+  },
+  {
+    "text": "probability P that means it was only",
+    "start": 759.899,
+    "duration": 4.081
+  },
+  {
+    "text": "present P faction of the times right so",
+    "start": 761.519,
+    "duration": 4.56
+  },
+  {
+    "text": "that's let's say 80 percent of the times",
+    "start": 763.98,
+    "duration": 3.599
+  },
+  {
+    "text": "or sixty percent of times whatever is",
+    "start": 766.079,
+    "duration": 2.94
+  },
+  {
+    "text": "the probability that you have chosen",
+    "start": 767.579,
+    "duration": 3.901
+  },
+  {
+    "text": "right so then I should trust the output",
+    "start": 769.019,
+    "duration": 4.801
+  },
+  {
+    "text": "of this node with only that fraction",
+    "start": 771.48,
+    "duration": 4.979
+  },
+  {
+    "text": "this guy only participated in 80 of the",
+    "start": 773.82,
+    "duration": 4.86
+  },
+  {
+    "text": "discussions so whatever it says I only",
+    "start": 776.459,
+    "duration": 5.281
+  },
+  {
+    "text": "trust it with 80 value that's the same",
+    "start": 778.68,
+    "duration": 4.8
+  },
+  {
+    "text": "as saying that whatever output this guy",
+    "start": 781.74,
+    "duration": 6.5
+  },
+  {
+    "text": "gives just scale it by that fraction",
+    "start": 783.48,
+    "duration": 4.76
+  },
+  {
+    "text": "as simple as that right so you",
+    "start": 790.56,
+    "duration": 2.94
+  },
+  {
+    "text": "participated only in 80 of the",
+    "start": 792.0,
+    "duration": 3.36
+  },
+  {
+    "text": "discussions so I'm going to trust your",
+    "start": 793.5,
+    "duration": 3.959
+  },
+  {
+    "text": "output with only 80 confidence that's",
+    "start": 795.36,
+    "duration": 3.719
+  },
+  {
+    "text": "the same as saying that whatever output",
+    "start": 797.459,
+    "duration": 3.421
+  },
+  {
+    "text": "you give which is going to be passed to",
+    "start": 799.079,
+    "duration": 3.781
+  },
+  {
+    "text": "the next layer I'm just going to scale",
+    "start": 800.88,
+    "duration": 4.32
+  },
+  {
+    "text": "it down by B right so that's all you do",
+    "start": 802.86,
+    "duration": 4.02
+  },
+  {
+    "text": "at test time so again at test time",
+    "start": 805.2,
+    "duration": 3.3
+  },
+  {
+    "text": "you're just passing through a single",
+    "start": 806.88,
+    "duration": 4.019
+  },
+  {
+    "text": "Network and every weight in the network",
+    "start": 808.5,
+    "duration": 4.68
+  },
+  {
+    "text": "is going to get Scaled or the output of",
+    "start": 810.899,
+    "duration": 3.961
+  },
+  {
+    "text": "every neuron in that network is going to",
+    "start": 813.18,
+    "duration": 4.08
+  },
+  {
+    "text": "be scaled by this probability P okay",
+    "start": 814.86,
+    "duration": 5.7
+  },
+  {
+    "text": "that's all you are doing right uh",
+    "start": 817.26,
+    "duration": 5.579
+  },
+  {
+    "text": "so now what let's let's try to get some",
+    "start": 820.56,
+    "duration": 4.079
+  },
+  {
+    "text": "more intuition right into what Dropout",
+    "start": 822.839,
+    "duration": 3.781
+  },
+  {
+    "text": "is actually trying to do and why does it",
+    "start": 824.639,
+    "duration": 4.38
+  },
+  {
+    "text": "act as a regularizer right so it",
+    "start": 826.62,
+    "duration": 4.44
+  },
+  {
+    "text": "actually applies a masking noise to the",
+    "start": 829.019,
+    "duration": 3.481
+  },
+  {
+    "text": "hidden knit so what does that mean is",
+    "start": 831.06,
+    "duration": 3.48
+  },
+  {
+    "text": "that in every you could think that",
+    "start": 832.5,
+    "duration": 5.0
+  },
+  {
+    "text": "Suppose there are n vectors n nodes here",
+    "start": 834.54,
+    "duration": 5.7
+  },
+  {
+    "text": "at every mini batch I am creating an N",
+    "start": 837.5,
+    "duration": 5.86
+  },
+  {
+    "text": "dimensional uh Vector where some values",
+    "start": 840.24,
+    "duration": 4.2
+  },
+  {
+    "text": "are one",
+    "start": 843.36,
+    "duration": 3.9
+  },
+  {
+    "text": "say 80 of the values are one and the",
+    "start": 844.44,
+    "duration": 5.639
+  },
+  {
+    "text": "remaining 20 are zeros right and that's",
+    "start": 847.26,
+    "duration": 4.74
+  },
+  {
+    "text": "the same as whatever output you produced",
+    "start": 850.079,
+    "duration": 4.44
+  },
+  {
+    "text": "here I'm going to multiply this by this",
+    "start": 852.0,
+    "duration": 5.16
+  },
+  {
+    "text": "mask right so if you were a masked out",
+    "start": 854.519,
+    "duration": 4.26
+  },
+  {
+    "text": "then you are not going to participate in",
+    "start": 857.16,
+    "duration": 3.06
+  },
+  {
+    "text": "the computation that means your output",
+    "start": 858.779,
+    "duration": 2.641
+  },
+  {
+    "text": "would be zero because I'm just",
+    "start": 860.22,
+    "duration": 2.88
+  },
+  {
+    "text": "multiplying You by this Mass Vector so",
+    "start": 861.42,
+    "duration": 3.3
+  },
+  {
+    "text": "that is what is happening here some",
+    "start": 863.1,
+    "duration": 3.179
+  },
+  {
+    "text": "units are getting dropped and this is",
+    "start": 864.72,
+    "duration": 2.94
+  },
+  {
+    "text": "how you actually implement it it's not",
+    "start": 866.279,
+    "duration": 3.421
+  },
+  {
+    "text": "that every time you visit every node and",
+    "start": 867.66,
+    "duration": 3.78
+  },
+  {
+    "text": "decide whether to keep it or not you",
+    "start": 869.7,
+    "duration": 4.56
+  },
+  {
+    "text": "just create this random vector by saying",
+    "start": 871.44,
+    "duration": 4.98
+  },
+  {
+    "text": "that I want 20 of the units to be off",
+    "start": 874.26,
+    "duration": 4.5
+  },
+  {
+    "text": "and then at this layer whatever output",
+    "start": 876.42,
+    "duration": 4.44
+  },
+  {
+    "text": "you have computed you just multiply it",
+    "start": 878.76,
+    "duration": 4.319
+  },
+  {
+    "text": "by this mask so 20 of the outputs will",
+    "start": 880.86,
+    "duration": 4.14
+  },
+  {
+    "text": "be set to zero that's the same as this",
+    "start": 883.079,
+    "duration": 3.361
+  },
+  {
+    "text": "node not participating in the",
+    "start": 885.0,
+    "duration": 4.26
+  },
+  {
+    "text": "computation at all right now when you're",
+    "start": 886.44,
+    "duration": 5.04
+  },
+  {
+    "text": "masking it",
+    "start": 889.26,
+    "duration": 3.84
+  },
+  {
+    "text": "what is it that you are effectively",
+    "start": 891.48,
+    "duration": 3.96
+  },
+  {
+    "text": "doing right so what happens is it",
+    "start": 893.1,
+    "duration": 4.739
+  },
+  {
+    "text": "prevents the nodes from co-adapting",
+    "start": 895.44,
+    "duration": 5.1
+  },
+  {
+    "text": "right so what does co-adapting mean that",
+    "start": 897.839,
+    "duration": 5.341
+  },
+  {
+    "text": "if you have all the nodes active right",
+    "start": 900.54,
+    "duration": 4.44
+  },
+  {
+    "text": "then there could be this one lazy guy",
+    "start": 903.18,
+    "duration": 4.44
+  },
+  {
+    "text": "who says that okay I mean this other guy",
+    "start": 904.98,
+    "duration": 5.099
+  },
+  {
+    "text": "suppose I'm trying to detect faces and",
+    "start": 907.62,
+    "duration": 5.1
+  },
+  {
+    "text": "this other guy is going to detect noses",
+    "start": 910.079,
+    "duration": 4.801
+  },
+  {
+    "text": "a nose and someone is going to detect",
+    "start": 912.72,
+    "duration": 4.559
+  },
+  {
+    "text": "eyes and I don't need to do anything",
+    "start": 914.88,
+    "duration": 4.86
+  },
+  {
+    "text": "then right I can slack I can I did not",
+    "start": 917.279,
+    "duration": 4.8
+  },
+  {
+    "text": "actually work much the other guys can do",
+    "start": 919.74,
+    "duration": 3.659
+  },
+  {
+    "text": "the work right so that's what",
+    "start": 922.079,
+    "duration": 3.901
+  },
+  {
+    "text": "co-adapting means right or it could be",
+    "start": 923.399,
+    "duration": 4.8
+  },
+  {
+    "text": "that hey you detect knows and I will",
+    "start": 925.98,
+    "duration": 4.26
+  },
+  {
+    "text": "detect ice I will only fire if there is",
+    "start": 928.199,
+    "duration": 4.26
+  },
+  {
+    "text": "a clear eyes in the picture if it's",
+    "start": 930.24,
+    "duration": 3.719
+  },
+  {
+    "text": "taken from the side maybe the eyes are",
+    "start": 932.459,
+    "duration": 3.841
+  },
+  {
+    "text": "not visible and you fire only when there",
+    "start": 933.959,
+    "duration": 4.201
+  },
+  {
+    "text": "is no sweat of course this is not that",
+    "start": 936.3,
+    "duration": 3.12
+  },
+  {
+    "text": "the neurons are talking to each other",
+    "start": 938.16,
+    "duration": 2.7
+  },
+  {
+    "text": "but this kind of co-adapting could",
+    "start": 939.42,
+    "duration": 3.659
+  },
+  {
+    "text": "happen where every neuron just focuses",
+    "start": 940.86,
+    "duration": 5.64
+  },
+  {
+    "text": "on doing one thing right but now if you",
+    "start": 943.079,
+    "duration": 6.361
+  },
+  {
+    "text": "are going to drop the nodes randomly",
+    "start": 946.5,
+    "duration": 4.56
+  },
+  {
+    "text": "right so what will happen in that case",
+    "start": 949.44,
+    "duration": 3.839
+  },
+  {
+    "text": "suppose this was the guy",
+    "start": 951.06,
+    "duration": 6.42
+  },
+  {
+    "text": "which was focusing on detecting noses",
+    "start": 953.279,
+    "duration": 6.12
+  },
+  {
+    "text": "now you have received a training",
+    "start": 957.48,
+    "duration": 3.84
+  },
+  {
+    "text": "instance and that training instance say",
+    "start": 959.399,
+    "duration": 4.68
+  },
+  {
+    "text": "it has a nose right and you have dropped",
+    "start": 961.32,
+    "duration": 4.019
+  },
+  {
+    "text": "this guy house",
+    "start": 964.079,
+    "duration": 3.721
+  },
+  {
+    "text": "now there is no node in this layer which",
+    "start": 965.339,
+    "duration": 4.68
+  },
+  {
+    "text": "is detecting noses hence the other guys",
+    "start": 967.8,
+    "duration": 4.26
+  },
+  {
+    "text": "will have to wake up and say that hey I",
+    "start": 970.019,
+    "duration": 3.661
+  },
+  {
+    "text": "cannot rely on anyone else I cannot",
+    "start": 972.06,
+    "duration": 3.719
+  },
+  {
+    "text": "co-adapt because this guy is unreliable",
+    "start": 973.68,
+    "duration": 3.719
+  },
+  {
+    "text": "and sometimes he is active sometimes he",
+    "start": 975.779,
+    "duration": 3.961
+  },
+  {
+    "text": "is not active so better I also learn how",
+    "start": 977.399,
+    "duration": 4.261
+  },
+  {
+    "text": "to detect nose in addition to learning",
+    "start": 979.74,
+    "duration": 4.2
+  },
+  {
+    "text": "how to detect say ice right so every",
+    "start": 981.66,
+    "duration": 4.56
+  },
+  {
+    "text": "node will now have to act independently",
+    "start": 983.94,
+    "duration": 4.32
+  },
+  {
+    "text": "and take more responsibility right so",
+    "start": 986.22,
+    "duration": 4.2
+  },
+  {
+    "text": "this is what actually happens in a",
+    "start": 988.26,
+    "duration": 4.62
+  },
+  {
+    "text": "Dropout and I'll just now Flash the",
+    "start": 990.42,
+    "duration": 5.419
+  },
+  {
+    "text": "content on the slides",
+    "start": 992.88,
+    "duration": 2.959
+  },
+  {
+    "text": "yeah so either the multiple nodes need",
+    "start": 1000.32,
+    "duration": 5.699
+  },
+  {
+    "text": "to learn how to detect noses or other",
+    "start": 1002.54,
+    "duration": 5.039
+  },
+  {
+    "text": "nodes to need to learn how to detect",
+    "start": 1006.019,
+    "duration": 4.201
+  },
+  {
+    "text": "noses how to detect the face even if the",
+    "start": 1007.579,
+    "duration": 4.56
+  },
+  {
+    "text": "nose detecting neuron is not active that",
+    "start": 1010.22,
+    "duration": 3.239
+  },
+  {
+    "text": "means some other node needs to now",
+    "start": 1012.139,
+    "duration": 3.901
+  },
+  {
+    "text": "detect how to uh I mean detect a face",
+    "start": 1013.459,
+    "duration": 4.981
+  },
+  {
+    "text": "using ice let's say what the problem",
+    "start": 1016.04,
+    "duration": 3.78
+  },
+  {
+    "text": "here is simple and I'm showing you an",
+    "start": 1018.44,
+    "duration": 2.339
+  },
+  {
+    "text": "image and I want to tell you whether",
+    "start": 1019.82,
+    "duration": 2.579
+  },
+  {
+    "text": "there's a human face in it or not and",
+    "start": 1020.779,
+    "duration": 3.841
+  },
+  {
+    "text": "you can use the features of a human face",
+    "start": 1022.399,
+    "duration": 4.261
+  },
+  {
+    "text": "to detect right so some neurons could",
+    "start": 1024.62,
+    "duration": 4.679
+  },
+  {
+    "text": "fire if their eyes is there some neurons",
+    "start": 1026.66,
+    "duration": 4.62
+  },
+  {
+    "text": "could fire if nose is there but now if",
+    "start": 1029.299,
+    "duration": 3.961
+  },
+  {
+    "text": "you drop out things then some of these",
+    "start": 1031.28,
+    "duration": 4.08
+  },
+  {
+    "text": "guys will no longer be available so then",
+    "start": 1033.26,
+    "duration": 4.199
+  },
+  {
+    "text": "the other guys have to become creative",
+    "start": 1035.36,
+    "duration": 4.439
+  },
+  {
+    "text": "and earlier maybe the network was never",
+    "start": 1037.459,
+    "duration": 4.441
+  },
+  {
+    "text": "learning to rely on the eyebrows to",
+    "start": 1039.799,
+    "duration": 4.201
+  },
+  {
+    "text": "detect a face but now some neurons will",
+    "start": 1041.9,
+    "duration": 3.539
+  },
+  {
+    "text": "start picking that up because the other",
+    "start": 1044.0,
+    "duration": 3.24
+  },
+  {
+    "text": "guys are not working so I better become",
+    "start": 1045.439,
+    "duration": 3.721
+  },
+  {
+    "text": "more creative right so that way the",
+    "start": 1047.24,
+    "duration": 4.62
+  },
+  {
+    "text": "network is becoming more robust right so",
+    "start": 1049.16,
+    "duration": 6.48
+  },
+  {
+    "text": "that's all I had about Dropout and what",
+    "start": 1051.86,
+    "duration": 5.699
+  },
+  {
+    "text": "I'll do next is I'll quickly give you a",
+    "start": 1055.64,
+    "duration": 3.539
+  },
+  {
+    "text": "summary of all the regularization",
+    "start": 1057.559,
+    "duration": 5.12
+  },
+  {
+    "text": "techniques that we have studied need",
+    "start": 1059.179,
+    "duration": 3.5
+  }
+]

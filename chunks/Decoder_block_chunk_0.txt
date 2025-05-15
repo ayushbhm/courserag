@@ -1,0 +1,9 @@
+foreign [Music] ER and we start looking at the decoder right so the decoder of course operates in the sequence.
+here it will operate sequentially because it generates one output then that output feeds in as the input while generating.
+the next output and so on right so now what does the decoder look like right so the decoder of.
+course takes input from the encoder also so as I said the output of the encoder is E1 up to.
+e t right this layer so this is of course fed as the decode right because the decoder needs the.
+context of what the input was what is it translating right so that contextual representation you have captured at the.
+last layer and that you feed to the decoder so the decoder is going to get inputs from the encoder.
+it's also going to have his self inputs right which is the inputs of the words that have been decoded.
+so far right so it'll have these two types of inputs and let's see how it deals with these two.

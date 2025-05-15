@@ -1,0 +1,9 @@
+the parameter right so this is what our feed forward neural network looks like now let's just quickly recall our.
+gradient descent algorithm and make some commentary on that right so this is what our gradient descent algorithm was we.
+had initialized the weights and then at every step we were updating the weights right and now i can think.
+of writing this a bit more compactly right in fact we had looked at it already i know that this.
+i could write it as a vector theta t plus 1 similarly this i could write it as theta t.
+and this i could write it as a vector gradient right the gradient and this also i could write it.
+as a vector theta naught right so i am going now going to change this equation and write it more.
+compactly where i am going to replace the collection of w and b by theta right that's the only change.
+i am going to do and that's fair enough this is how i'm going to write it more compactly so.

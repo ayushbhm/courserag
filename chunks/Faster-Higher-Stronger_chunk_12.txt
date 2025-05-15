@@ -1,0 +1,8 @@
+uh discussing the history of transformers later all right so i think i'll end this section here where we looked.
+at a new type of input sequences and again the same story nothing new these models the need for processing.
+sequences was felt much earlier the relevant neural network models itself for proposing speech were proposed in 1986 1990 1997.
+but at that time due to various reasons it was not conducive to train them on large scale data sets.
+with good compute trained for longer durations they had also this vanishing exploding gradient problem some of these things were.
+fixed in the period of 2006 to 2014 and then they became popular in the sequence learning problems in nlp.
+and speech it and even envision for example captioning a video or an image okay now the next thing that.
+i would like to talk about is another class of problems where deep learning became very popular which was at.

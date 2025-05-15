@@ -1,0 +1,9 @@
+the derivative of y hat with the last guy that you had then the guy previous to that and so.
+on it just keep going uh in a chain that's a chain rule of derivative that all of you know.
+and now i could even compress this chain right so i could even write it as this this is just.
+a compressed form of this chain rule and why i'm doing this i'm just trying to do this to build.
+the intuition that somehow if i know all of this right then to compute this guy i don't need to.
+compute all of these again right i have suppose i have already computed this right suppose i have already computed.
+this which corresponds to that entire box here right so this corresponds to that entire box there so i can.
+just reuse that i don't need to compute the whole of it again and then i just need to compute.
+this red quantity right so that's the idea that we are going to use in back propagation that we'll have.

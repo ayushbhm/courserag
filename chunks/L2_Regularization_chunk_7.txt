@@ -1,0 +1,9 @@
+the derivative of this quantity with respect to W and this quantity is actually Alpha by 2 W transpose W.
+so if you take the derivative of that with respect to W you can think of this as W Square.
+so one of the W's will disappear and you'll have a two term here which will cancel with this so.
+w square is the derivative is 2W so you the twos will cancel and you'll just be left with Alpha.
+W right so that's that's how you can think of how we arrived at this formula right now ah so.
+now what happens to your update rule right so your update rule earlier was the new value of loss is.
+equal to the old value minus ETA times the derivative and now this is what your derivative looks like right.
+and I've just opened up the brackets so this is what your earlier update rule would have looked like if.
+you did not have the alpha term now since you have the alpha term this term gets added right so.

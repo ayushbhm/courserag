@@ -1,0 +1,10 @@
+interested in knowing the weights of all the input words now with respect to my query or by my first.
+word or my word of focus I want to know the weights of all the other words so that word.
+is going to remain fixed I'm going to have q1 and I'm going to compute capital t such values right.
+so each telling me the importance of the first word second word third word fourth word fifth word right notice.
+that I'm also Computing the importance of the word itself right that also I'm doing so q1 with respect to.
+K1 K2 K3 K4 K5 right so q1 with respect to K1 K2 K3 K4 K5 so these five scores.
+I'm going to compute and maybe I'll call them as is okay uh now the function that I'm going to.
+use is just the dot product like what is the scoring function my scoring function is just dot product so.
+my E's which are the unnormalized attention weights are just going to be the dot product between q1 and K1.
+Q2 and q1 and K2 q1 and K3 all the way up to q1 and K5 right so as I.

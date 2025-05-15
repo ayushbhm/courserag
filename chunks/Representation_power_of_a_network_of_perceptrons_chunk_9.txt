@@ -1,0 +1,10 @@
+is 1 1 into minus 1 which is minus 1 so 1 minus 1 will become 0 and plus the.
+bias will become minus 2 which is less than 0 so this perceptron will not fire similarly you can see.
+that for these two inputs this perceptron will not fire so this specific perceptron is only going to fire for.
+this input because that's how i have confided the weights that's why i had this two red edges there minus.
+one minus 1 because with that set of weights the only way this perceptron can fire is for the input.
+minus 1 minus is that okay right similarly you can now go back and check right that the second perceptron.
+the first perceptron will only fire from minus one minus one with the same argument the second perceptron will only.
+fire for minus one one i'll show you how so this is minus one this is one so if your.
+input is minus one minus 1 so we'll get minus 1 into 1 is 1 1 into 1 is 1.
+so 1 plus 1 is 2 plus the bias is minus 2 so this quantity would be greater than equal.

@@ -1,0 +1,10 @@
+many neural networks can you create right so I have n nodes given to you and for every node I.
+can either retain it or drop it right so it's a binary decision I'm going to take for every node.
+and each such configuration gives me a new neural network right so I just think of it that I have.
+these n nodes here right and I'm going to write a 0 if I'm going to drop that node and.
+a 1 if I am going to retain that load right so now this is my n dimensional vector and.
+this will decide which neurons here get dropped or uh retained right and there are such two raised to n.
+vectors that I can construct right which means there are 2 raised to n networks that I can construct from.
+a given neural network right so if I use the Dropout idea and if I have n neurons then I.
+can actually construct 2 raised to n different neural networks right but then how does it help me I just.
+said that ah even if I have like K different neural networks and K was of course much smaller than.

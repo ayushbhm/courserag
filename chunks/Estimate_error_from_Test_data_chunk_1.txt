@@ -1,0 +1,10 @@
+then there's nothing to do but we don't know f so what we do is we approximate f using F.
+hat and then we estimate the F hat the parameters of f hat using uh the training data which is.
+going to be a subset of this capital D right so I am going to refer to the training data.
+as T and it's going to be a subset of the D which I have defined earlier and ah Y.
+is going to be F hat of X now right so that is the approximation that we have made instead.
+of Y is equal to F X Plus Epsilon which was a true relation and we did not know F.
+we have come up with some approximation F hat and we have freedom in choosing what F hat we want.
+to choose from like a family of functions and we could have different parameters for that right so we are.
+interested in knowing ah the expected value of F hat x minus f of x the whole square right so.
+this is the mean square error ah indeed so here expectation stands for the mean this is the error this.

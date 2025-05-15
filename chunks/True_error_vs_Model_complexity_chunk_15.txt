@@ -1,0 +1,9 @@
+that is just a empirical demonstration or an anecdotal demonstration of this idea that complex models are more sensitive to.
+changes in the training data and that is the quantity that bothers us so thus quantity uh maybe I should.
+go to the next slide I'll go to the next slide okay I can just do this slide first right.
+okay so hence while training instead of minimizing the train error we should minimize this error right so now if.
+you're going to just focus on minimizing the train error okay you might make it zero okay so now what.
+is the what is your true error was the expected value on the right hand side is actually equal to.
+the train error so this is what my train error is right my train error is I equal to 1.
+to n sorry I keep changing M and M but I assure you understand what I mean this is what.
+L train is and what I was trying to do is I was just trying to minimize this but now.

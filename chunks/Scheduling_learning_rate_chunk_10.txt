@@ -1,0 +1,9 @@
+done one Epoch calculate what the validation loss is and let's say the value is some X okay now with.
+the same learning rate run the second Epoch right so now you are you have already computed some values of.
+the weights you have made a lot of updates after one Epoch and you have some value of w just.
+start from there run the second Epoch and keep the same learning rate and at the end of this Epoch.
+again look at the validation error so the validation error is also decrease that means things are going fine right.
+your training error is definitely decreasing and your validation error is also decreasing so maybe this learning rate is not.
+so high you can continue with it but if the validation loss starts increasing right then what would you do.
+in that case uh let me just illustrate this what I mean right so this is a good validation loss.
+right so it from after every Epoch you're lost when you're checking the loss it's decreasing right and suppose you.

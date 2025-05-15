@@ -1,0 +1,2612 @@
+[
+  {
+    "text": "foreign",
+    "start": 0.299,
+    "duration": 3.0
+  },
+  {
+    "text": "[Music]",
+    "start": 6.62,
+    "duration": 14.95
+  },
+  {
+    "text": "descent momentum based gradient nestro",
+    "start": 21.8,
+    "duration": 4.18
+  },
+  {
+    "text": "vaccinated gradient descent and I know",
+    "start": 24.6,
+    "duration": 3.96
+  },
+  {
+    "text": "you are waiting for more algorithms Adam",
+    "start": 25.98,
+    "duration": 4.92
+  },
+  {
+    "text": "madagrad and so on but in between I took",
+    "start": 28.56,
+    "duration": 4.019
+  },
+  {
+    "text": "a slight D2 which is I went to the",
+    "start": 30.9,
+    "duration": 3.42
+  },
+  {
+    "text": "stochastic and minimatch gradient",
+    "start": 32.579,
+    "duration": 3.66
+  },
+  {
+    "text": "descent mini batch versions of these",
+    "start": 34.32,
+    "duration": 3.78
+  },
+  {
+    "text": "algorithms and we understood how they",
+    "start": 36.239,
+    "duration": 3.961
+  },
+  {
+    "text": "operate and before I go to these",
+    "start": 38.1,
+    "duration": 4.02
+  },
+  {
+    "text": "Advanced algorithms in today's lecture I",
+    "start": 40.2,
+    "duration": 4.92
+  },
+  {
+    "text": "want to do two more modules one is on",
+    "start": 42.12,
+    "duration": 5.279
+  },
+  {
+    "text": "adjusting the learning rate and momentum",
+    "start": 45.12,
+    "duration": 4.86
+  },
+  {
+    "text": "some tips for doing that and this I'll",
+    "start": 47.399,
+    "duration": 5.041
+  },
+  {
+    "text": "return back to this at the end of all",
+    "start": 49.98,
+    "duration": 3.899
+  },
+  {
+    "text": "the optimization algorithms once I",
+    "start": 52.44,
+    "duration": 2.88
+  },
+  {
+    "text": "finish all the optimized algorithms I'll",
+    "start": 53.879,
+    "duration": 4.081
+  },
+  {
+    "text": "revisit this part and the second module",
+    "start": 55.32,
+    "duration": 5.1
+  },
+  {
+    "text": "that I want to cover is on something",
+    "start": 57.96,
+    "duration": 4.439
+  },
+  {
+    "text": "known as line search right so both these",
+    "start": 60.42,
+    "duration": 3.06
+  },
+  {
+    "text": "are the two things that I've covered",
+    "start": 62.399,
+    "duration": 3.961
+  },
+  {
+    "text": "today and we'll end this lecture there",
+    "start": 63.48,
+    "duration": 6.959
+  },
+  {
+    "text": "and then in the next week I'll talk",
+    "start": 66.36,
+    "duration": 5.579
+  },
+  {
+    "text": "about some of the other Advanced",
+    "start": 70.439,
+    "duration": 2.941
+  },
+  {
+    "text": "optimization algorithms okay so let's",
+    "start": 71.939,
+    "duration": 3.241
+  },
+  {
+    "text": "start with this tips for adjusting the",
+    "start": 73.38,
+    "duration": 5.52
+  },
+  {
+    "text": "learning rate and uh momentum uh",
+    "start": 75.18,
+    "duration": 6.119
+  },
+  {
+    "text": "yeah right so now we were looking at",
+    "start": 78.9,
+    "duration": 4.38
+  },
+  {
+    "text": "gradient descent and this is where we",
+    "start": 81.299,
+    "duration": 3.36
+  },
+  {
+    "text": "had started right this was our first",
+    "start": 83.28,
+    "duration": 4.62
+  },
+  {
+    "text": "loss function where we started on this",
+    "start": 84.659,
+    "duration": 6.901
+  },
+  {
+    "text": "very flat uh plane right and then we",
+    "start": 87.9,
+    "duration": 5.1
+  },
+  {
+    "text": "argued that when you are in these flat",
+    "start": 91.56,
+    "duration": 3.36
+  },
+  {
+    "text": "surfaces the gradients are very small",
+    "start": 93.0,
+    "duration": 3.36
+  },
+  {
+    "text": "and hence your updates will be very",
+    "start": 94.92,
+    "duration": 3.6
+  },
+  {
+    "text": "small and you'll get stuck there and",
+    "start": 96.36,
+    "duration": 3.78
+  },
+  {
+    "text": "that's what the motivation for using",
+    "start": 98.52,
+    "duration": 4.86
+  },
+  {
+    "text": "momentum and nestro and so on right but",
+    "start": 100.14,
+    "duration": 5.82
+  },
+  {
+    "text": "you could have also argued right that",
+    "start": 103.38,
+    "duration": 5.279
+  },
+  {
+    "text": "instead of using momentum or nestro I",
+    "start": 105.96,
+    "duration": 4.14
+  },
+  {
+    "text": "could have just used a larger learning",
+    "start": 108.659,
+    "duration": 2.701
+  },
+  {
+    "text": "rate right so if I'd increase the",
+    "start": 110.1,
+    "duration": 3.18
+  },
+  {
+    "text": "learning rate and if my gradient is",
+    "start": 111.36,
+    "duration": 4.439
+  },
+  {
+    "text": "small it the gradient multiplied by the",
+    "start": 113.28,
+    "duration": 3.659
+  },
+  {
+    "text": "Learning rate would still have been a",
+    "start": 115.799,
+    "duration": 2.401
+  },
+  {
+    "text": "large quantity and I would still have",
+    "start": 116.939,
+    "duration": 3.36
+  },
+  {
+    "text": "got the effect of moving faster right",
+    "start": 118.2,
+    "duration": 3.959
+  },
+  {
+    "text": "and it does make sense that learning",
+    "start": 120.299,
+    "duration": 3.6
+  },
+  {
+    "text": "rate is how fast you move so maybe that",
+    "start": 122.159,
+    "duration": 3.541
+  },
+  {
+    "text": "would have helped so now let's see what",
+    "start": 123.899,
+    "duration": 4.2
+  },
+  {
+    "text": "happens if we had gone by this intuition",
+    "start": 125.7,
+    "duration": 5.58
+  },
+  {
+    "text": "and set the learning rate to 10 instead",
+    "start": 128.099,
+    "duration": 6.601
+  },
+  {
+    "text": "of 1 right and it's like 10 times what I",
+    "start": 131.28,
+    "duration": 4.92
+  },
+  {
+    "text": "had set it otherwise right so let's see",
+    "start": 134.7,
+    "duration": 3.6
+  },
+  {
+    "text": "what happens in that case",
+    "start": 136.2,
+    "duration": 4.8
+  },
+  {
+    "text": "so my learning rate is set to 10 now of",
+    "start": 138.3,
+    "duration": 4.799
+  },
+  {
+    "text": "course it's moving fast but then again",
+    "start": 141.0,
+    "duration": 3.9
+  },
+  {
+    "text": "you see the problem of oscillation right",
+    "start": 143.099,
+    "duration": 4.741
+  },
+  {
+    "text": "so it kind of uh on this you want it to",
+    "start": 144.9,
+    "duration": 6.18
+  },
+  {
+    "text": "be fast on the gentle places but you",
+    "start": 147.84,
+    "duration": 4.92
+  },
+  {
+    "text": "don't want it to be fast once it enters",
+    "start": 151.08,
+    "duration": 3.6
+  },
+  {
+    "text": "the value right because on the Steep",
+    "start": 152.76,
+    "duration": 3.78
+  },
+  {
+    "text": "surfaces anyways the gradient is large",
+    "start": 154.68,
+    "duration": 3.779
+  },
+  {
+    "text": "so it's going to move fast but now we",
+    "start": 156.54,
+    "duration": 4.199
+  },
+  {
+    "text": "have multiplied it by the large learning",
+    "start": 158.459,
+    "duration": 4.021
+  },
+  {
+    "text": "rate and hence you see that there's this",
+    "start": 160.739,
+    "duration": 3.181
+  },
+  {
+    "text": "oscillation effect right so we don't",
+    "start": 162.48,
+    "duration": 3.78
+  },
+  {
+    "text": "really want that it's just increasing",
+    "start": 163.92,
+    "duration": 5.22
+  },
+  {
+    "text": "the learning rate is not really the",
+    "start": 166.26,
+    "duration": 6.0
+  },
+  {
+    "text": "solution always right and what we want",
+    "start": 169.14,
+    "duration": 5.48
+  },
+  {
+    "text": "is something which kind of adapts to the",
+    "start": 172.26,
+    "duration": 5.22
+  },
+  {
+    "text": "slope if the slope is small then you",
+    "start": 174.62,
+    "duration": 5.02
+  },
+  {
+    "text": "want a larger learning rate if the slope",
+    "start": 177.48,
+    "duration": 3.78
+  },
+  {
+    "text": "is large then maybe you want the",
+    "start": 179.64,
+    "duration": 4.44
+  },
+  {
+    "text": "learning rate to decrease right and this",
+    "start": 181.26,
+    "duration": 4.199
+  },
+  {
+    "text": "is exactly what we'll see in the",
+    "start": 184.08,
+    "duration": 3.36
+  },
+  {
+    "text": "advanced optimization algorithms which",
+    "start": 185.459,
+    "duration": 5.581
+  },
+  {
+    "text": "will be have an Adaptive flavor to them",
+    "start": 187.44,
+    "duration": 5.82
+  },
+  {
+    "text": "right so but for now I just want to",
+    "start": 191.04,
+    "duration": 3.6
+  },
+  {
+    "text": "mention that it's not just about",
+    "start": 193.26,
+    "duration": 3.0
+  },
+  {
+    "text": "increasing the learning rate you can't",
+    "start": 194.64,
+    "duration": 3.599
+  },
+  {
+    "text": "just set it to be of high value always",
+    "start": 196.26,
+    "duration": 4.32
+  },
+  {
+    "text": "right so that's not right so that",
+    "start": 198.239,
+    "duration": 4.381
+  },
+  {
+    "text": "setting the learning rate to a high",
+    "start": 200.58,
+    "duration": 5.1
+  },
+  {
+    "text": "value is not the right thing and then",
+    "start": 202.62,
+    "duration": 4.8
+  },
+  {
+    "text": "what do you set the learning rate to",
+    "start": 205.68,
+    "duration": 4.32
+  },
+  {
+    "text": "right so here are some tips so what we",
+    "start": 207.42,
+    "duration": 5.16
+  },
+  {
+    "text": "typically try to do is that uh at least",
+    "start": 210.0,
+    "duration": 4.739
+  },
+  {
+    "text": "so now just let me just kind of step",
+    "start": 212.58,
+    "duration": 4.2
+  },
+  {
+    "text": "back and contextualize this right so",
+    "start": 214.739,
+    "duration": 5.041
+  },
+  {
+    "text": "nowadays like for most uh",
+    "start": 216.78,
+    "duration": 4.98
+  },
+  {
+    "text": "areas that you would work in right",
+    "start": 219.78,
+    "duration": 3.0
+  },
+  {
+    "text": "suppose you're working in machine",
+    "start": 221.76,
+    "duration": 2.88
+  },
+  {
+    "text": "translation or say automatic speech",
+    "start": 222.78,
+    "duration": 3.9
+  },
+  {
+    "text": "recognition not text to speech",
+    "start": 224.64,
+    "duration": 4.679
+  },
+  {
+    "text": "you would be building up on work which",
+    "start": 226.68,
+    "duration": 4.68
+  },
+  {
+    "text": "is already being done right so you would",
+    "start": 229.319,
+    "duration": 3.48
+  },
+  {
+    "text": "already have these Transformer based",
+    "start": 231.36,
+    "duration": 3.0
+  },
+  {
+    "text": "models someone has trained it for many",
+    "start": 232.799,
+    "duration": 3.66
+  },
+  {
+    "text": "languages and so on so you would have a",
+    "start": 234.36,
+    "duration": 3.54
+  },
+  {
+    "text": "fair sense of what were the hyper",
+    "start": 236.459,
+    "duration": 3.181
+  },
+  {
+    "text": "parameters they used and you would try",
+    "start": 237.9,
+    "duration": 4.44
+  },
+  {
+    "text": "to follow them and just experiment in a",
+    "start": 239.64,
+    "duration": 5.159
+  },
+  {
+    "text": "small window around it right but the",
+    "start": 242.34,
+    "duration": 4.319
+  },
+  {
+    "text": "tips here are for the more generic case",
+    "start": 244.799,
+    "duration": 3.241
+  },
+  {
+    "text": "where you're looking at something new",
+    "start": 246.659,
+    "duration": 2.761
+  },
+  {
+    "text": "and you don't really know no one has",
+    "start": 248.04,
+    "duration": 2.699
+  },
+  {
+    "text": "actually looked at the kind of data that",
+    "start": 249.42,
+    "duration": 2.399
+  },
+  {
+    "text": "you're looking at or the kind of",
+    "start": 250.739,
+    "duration": 2.941
+  },
+  {
+    "text": "application that you're looking at now",
+    "start": 251.819,
+    "duration": 4.14
+  },
+  {
+    "text": "how do you uh set the initial learning",
+    "start": 253.68,
+    "duration": 3.779
+  },
+  {
+    "text": "rate what is small what is large you",
+    "start": 255.959,
+    "duration": 2.761
+  },
+  {
+    "text": "don't know that right so that's the",
+    "start": 257.459,
+    "duration": 3.301
+  },
+  {
+    "text": "context in which I'm saying this but for",
+    "start": 258.72,
+    "duration": 3.54
+  },
+  {
+    "text": "most practical applications if you're",
+    "start": 260.76,
+    "duration": 4.02
+  },
+  {
+    "text": "working on these standard problems as I",
+    "start": 262.26,
+    "duration": 3.78
+  },
+  {
+    "text": "said machine translation speech",
+    "start": 264.78,
+    "duration": 2.88
+  },
+  {
+    "text": "recognition image recognition and so on",
+    "start": 266.04,
+    "duration": 3.96
+  },
+  {
+    "text": "then you would have something to refer",
+    "start": 267.66,
+    "duration": 3.78
+  },
+  {
+    "text": "to in the literature which would give",
+    "start": 270.0,
+    "duration": 3.12
+  },
+  {
+    "text": "you a ballpark about what the learning",
+    "start": 271.44,
+    "duration": 3.24
+  },
+  {
+    "text": "rate should be and you would follow that",
+    "start": 273.12,
+    "duration": 3.42
+  },
+  {
+    "text": "close right so that's the best thing to",
+    "start": 274.68,
+    "duration": 4.62
+  },
+  {
+    "text": "do so that's the first tip this tip is",
+    "start": 276.54,
+    "duration": 4.32
+  },
+  {
+    "text": "more for cases where you don't have",
+    "start": 279.3,
+    "duration": 3.959
+  },
+  {
+    "text": "anything to go by right so what you",
+    "start": 280.86,
+    "duration": 4.74
+  },
+  {
+    "text": "would do is you will try to try you try",
+    "start": 283.259,
+    "duration": 4.681
+  },
+  {
+    "text": "different learning rates and on a log",
+    "start": 285.6,
+    "duration": 4.02
+  },
+  {
+    "text": "scale right point zero zero zero one",
+    "start": 287.94,
+    "duration": 4.08
+  },
+  {
+    "text": "point zero zero one and so on right and",
+    "start": 289.62,
+    "duration": 4.74
+  },
+  {
+    "text": "then you will run the training for a few",
+    "start": 292.02,
+    "duration": 3.72
+  },
+  {
+    "text": "epochs with all of these algorithms",
+    "start": 294.36,
+    "duration": 2.88
+  },
+  {
+    "text": "you'll not do the full training you just",
+    "start": 295.74,
+    "duration": 3.239
+  },
+  {
+    "text": "run it for a few epochs and you'll",
+    "start": 297.24,
+    "duration": 4.2
+  },
+  {
+    "text": "observe the loss uh how the loss behaves",
+    "start": 298.979,
+    "duration": 5.28
+  },
+  {
+    "text": "right and based on observing this loss",
+    "start": 301.44,
+    "duration": 5.759
+  },
+  {
+    "text": "curve you will get a sense of which is",
+    "start": 304.259,
+    "duration": 5.281
+  },
+  {
+    "text": "the best learning rate among these four",
+    "start": 307.199,
+    "duration": 4.261
+  },
+  {
+    "text": "five values that you have chosen on the",
+    "start": 309.54,
+    "duration": 4.26
+  },
+  {
+    "text": "log scale and now suppose point one",
+    "start": 311.46,
+    "duration": 4.26
+  },
+  {
+    "text": "turns out to be the best learning rate",
+    "start": 313.8,
+    "duration": 4.74
+  },
+  {
+    "text": "that means the loss uh the behavior on",
+    "start": 315.72,
+    "duration": 4.5
+  },
+  {
+    "text": "the loss function so you could plot how",
+    "start": 318.54,
+    "duration": 4.379
+  },
+  {
+    "text": "the loss is decreasing from one Epoch to",
+    "start": 320.22,
+    "duration": 4.08
+  },
+  {
+    "text": "another or from One update to another",
+    "start": 322.919,
+    "duration": 4.56
+  },
+  {
+    "text": "you can keep losing the loss for some uh",
+    "start": 324.3,
+    "duration": 4.619
+  },
+  {
+    "text": "learning rates you'll see that the loss",
+    "start": 327.479,
+    "duration": 2.641
+  },
+  {
+    "text": "will increase right because these are",
+    "start": 328.919,
+    "duration": 3.301
+  },
+  {
+    "text": "probably very high learning rates and",
+    "start": 330.12,
+    "duration": 4.019
+  },
+  {
+    "text": "you are quickly overshooting the Minima",
+    "start": 332.22,
+    "duration": 3.419
+  },
+  {
+    "text": "and then going into high loss regions",
+    "start": 334.139,
+    "duration": 3.241
+  },
+  {
+    "text": "and for some learning rates it will",
+    "start": 335.639,
+    "duration": 3.84
+  },
+  {
+    "text": "smoothly decrease right so those would",
+    "start": 337.38,
+    "duration": 3.3
+  },
+  {
+    "text": "be the good learning rates and then",
+    "start": 339.479,
+    "duration": 2.881
+  },
+  {
+    "text": "suppose point one is one such good",
+    "start": 340.68,
+    "duration": 3.78
+  },
+  {
+    "text": "learning rate then you will do like a",
+    "start": 342.36,
+    "duration": 4.92
+  },
+  {
+    "text": "zoom in around this point wanted so",
+    "start": 344.46,
+    "duration": 4.62
+  },
+  {
+    "text": "maybe you can do a more linear search",
+    "start": 347.28,
+    "duration": 4.02
+  },
+  {
+    "text": "around this now so if point one was good",
+    "start": 349.08,
+    "duration": 3.899
+  },
+  {
+    "text": "maybe try point zero five maybe try",
+    "start": 351.3,
+    "duration": 3.6
+  },
+  {
+    "text": "point two point three right so all of",
+    "start": 352.979,
+    "duration": 3.541
+  },
+  {
+    "text": "this is of course just heuristics right",
+    "start": 354.9,
+    "duration": 3.2
+  },
+  {
+    "text": "there's no clear winner strategy here",
+    "start": 356.52,
+    "duration": 4.8
+  },
+  {
+    "text": "but what you need to take away from this",
+    "start": 358.1,
+    "duration": 6.039
+  },
+  {
+    "text": "slide is that it might happen that you",
+    "start": 361.32,
+    "duration": 5.64
+  },
+  {
+    "text": "just set the learning rate to some value",
+    "start": 364.139,
+    "duration": 4.5
+  },
+  {
+    "text": "and you see that your algorithm is not",
+    "start": 366.96,
+    "duration": 3.239
+  },
+  {
+    "text": "converging your loss keeps increasing",
+    "start": 368.639,
+    "duration": 4.081
+  },
+  {
+    "text": "then you will have to kind of experiment",
+    "start": 370.199,
+    "duration": 4.44
+  },
+  {
+    "text": "a bit around it and this is a good way",
+    "start": 372.72,
+    "duration": 3.539
+  },
+  {
+    "text": "of experiment you just try a few",
+    "start": 374.639,
+    "duration": 3.661
+  },
+  {
+    "text": "different values and then narrow down on",
+    "start": 376.259,
+    "duration": 3.541
+  },
+  {
+    "text": "what a good value is and then just maybe",
+    "start": 378.3,
+    "duration": 3.3
+  },
+  {
+    "text": "zoom in a bit around that right so",
+    "start": 379.8,
+    "duration": 2.76
+  },
+  {
+    "text": "that's why",
+    "start": 381.6,
+    "duration": 3.9
+  },
+  {
+    "text": "uh the other is uh",
+    "start": 382.56,
+    "duration": 5.46
+  },
+  {
+    "text": "as you initially when you start off",
+    "start": 385.5,
+    "duration": 4.319
+  },
+  {
+    "text": "maybe you don't know anything right",
+    "start": 388.02,
+    "duration": 2.88
+  },
+  {
+    "text": "because the weights are completely",
+    "start": 389.819,
+    "duration": 3.541
+  },
+  {
+    "text": "random so may you some learning rate",
+    "start": 390.9,
+    "duration": 4.32
+  },
+  {
+    "text": "even slightly higher might work right",
+    "start": 393.36,
+    "duration": 3.6
+  },
+  {
+    "text": "but as you have started moving towards",
+    "start": 395.22,
+    "duration": 5.22
+  },
+  {
+    "text": "the uh Minima you don't want to retain a",
+    "start": 396.96,
+    "duration": 4.62
+  },
+  {
+    "text": "very high learning rate right because",
+    "start": 400.44,
+    "duration": 2.46
+  },
+  {
+    "text": "then there's always this chance of",
+    "start": 401.58,
+    "duration": 3.36
+  },
+  {
+    "text": "overshooting the Minima so they you",
+    "start": 402.9,
+    "duration": 3.84
+  },
+  {
+    "text": "should do what is known as Anil the",
+    "start": 404.94,
+    "duration": 3.24
+  },
+  {
+    "text": "learning rate right which means keep",
+    "start": 406.74,
+    "duration": 3.48
+  },
+  {
+    "text": "reducing the learning rate as the",
+    "start": 408.18,
+    "duration": 4.139
+  },
+  {
+    "text": "training progresses right so one",
+    "start": 410.22,
+    "duration": 3.599
+  },
+  {
+    "text": "strategy there is to use what is known",
+    "start": 412.319,
+    "duration": 3.66
+  },
+  {
+    "text": "as a step Decay and you could use some",
+    "start": 413.819,
+    "duration": 3.961
+  },
+  {
+    "text": "fixed number of epochs right after every",
+    "start": 415.979,
+    "duration": 3.961
+  },
+  {
+    "text": "five epochs or ten epochs I'll keep",
+    "start": 417.78,
+    "duration": 3.9
+  },
+  {
+    "text": "having the learning array right so as",
+    "start": 419.94,
+    "duration": 3.96
+  },
+  {
+    "text": "you are training is progressing your",
+    "start": 421.68,
+    "duration": 3.72
+  },
+  {
+    "text": "learning rate is becoming smaller and",
+    "start": 423.9,
+    "duration": 3.0
+  },
+  {
+    "text": "smaller so you're making more",
+    "start": 425.4,
+    "duration": 3.6
+  },
+  {
+    "text": "conservative updates especially when you",
+    "start": 426.9,
+    "duration": 3.66
+  },
+  {
+    "text": "are closer to the Minima you're not",
+    "start": 429.0,
+    "duration": 3.36
+  },
+  {
+    "text": "making a large update so that you cross",
+    "start": 430.56,
+    "duration": 3.479
+  },
+  {
+    "text": "the minimum right and your approximation",
+    "start": 432.36,
+    "duration": 4.26
+  },
+  {
+    "text": "for here I am close to the Minima is",
+    "start": 434.039,
+    "duration": 4.021
+  },
+  {
+    "text": "just that hey I've been training for",
+    "start": 436.62,
+    "duration": 3.359
+  },
+  {
+    "text": "five epochs now so maybe let me just",
+    "start": 438.06,
+    "duration": 3.06
+  },
+  {
+    "text": "reduce the learning rate so you're just",
+    "start": 439.979,
+    "duration": 3.181
+  },
+  {
+    "text": "using the number of epochs as an",
+    "start": 441.12,
+    "duration": 4.019
+  },
+  {
+    "text": "approximation for how close you are to",
+    "start": 443.16,
+    "duration": 4.259
+  },
+  {
+    "text": "the uh Minima that you want to use right",
+    "start": 445.139,
+    "duration": 5.521
+  },
+  {
+    "text": "reach another strategy is that",
+    "start": 447.419,
+    "duration": 6.301
+  },
+  {
+    "text": "you keep the learning rate uh you had",
+    "start": 450.66,
+    "duration": 6.0
+  },
+  {
+    "text": "finished one Epoch you compute the loss",
+    "start": 453.72,
+    "duration": 4.979
+  },
+  {
+    "text": "over your validation data right so you",
+    "start": 456.66,
+    "duration": 3.479
+  },
+  {
+    "text": "have the training data using which you",
+    "start": 458.699,
+    "duration": 4.261
+  },
+  {
+    "text": "are training keep some data aside and",
+    "start": 460.139,
+    "duration": 4.801
+  },
+  {
+    "text": "now after you have done one Epoch",
+    "start": 462.96,
+    "duration": 4.019
+  },
+  {
+    "text": "calculate what the validation loss is",
+    "start": 464.94,
+    "duration": 5.819
+  },
+  {
+    "text": "and let's say the value is some X okay",
+    "start": 466.979,
+    "duration": 6.78
+  },
+  {
+    "text": "now with the same learning rate run the",
+    "start": 470.759,
+    "duration": 5.701
+  },
+  {
+    "text": "second Epoch right so now you are you",
+    "start": 473.759,
+    "duration": 4.44
+  },
+  {
+    "text": "have already computed some values of the",
+    "start": 476.46,
+    "duration": 2.88
+  },
+  {
+    "text": "weights you have made a lot of updates",
+    "start": 478.199,
+    "duration": 2.641
+  },
+  {
+    "text": "after one Epoch and you have some value",
+    "start": 479.34,
+    "duration": 3.84
+  },
+  {
+    "text": "of w just start from there run the",
+    "start": 480.84,
+    "duration": 4.079
+  },
+  {
+    "text": "second Epoch and keep the same learning",
+    "start": 483.18,
+    "duration": 3.72
+  },
+  {
+    "text": "rate and at the end of this Epoch again",
+    "start": 484.919,
+    "duration": 4.201
+  },
+  {
+    "text": "look at the validation error so the",
+    "start": 486.9,
+    "duration": 4.32
+  },
+  {
+    "text": "validation error is also decrease that",
+    "start": 489.12,
+    "duration": 3.6
+  },
+  {
+    "text": "means things are going fine right your",
+    "start": 491.22,
+    "duration": 3.18
+  },
+  {
+    "text": "training error is definitely decreasing",
+    "start": 492.72,
+    "duration": 2.94
+  },
+  {
+    "text": "and your validation error is also",
+    "start": 494.4,
+    "duration": 2.88
+  },
+  {
+    "text": "decreasing so maybe this learning rate",
+    "start": 495.66,
+    "duration": 3.36
+  },
+  {
+    "text": "is not so high you can continue with it",
+    "start": 497.28,
+    "duration": 3.539
+  },
+  {
+    "text": "but if the validation loss starts",
+    "start": 499.02,
+    "duration": 4.2
+  },
+  {
+    "text": "increasing right then what would you do",
+    "start": 500.819,
+    "duration": 4.56
+  },
+  {
+    "text": "in that case uh let me just illustrate",
+    "start": 503.22,
+    "duration": 5.18
+  },
+  {
+    "text": "this what I mean",
+    "start": 505.379,
+    "duration": 3.021
+  },
+  {
+    "text": "right so this is a good validation loss",
+    "start": 508.68,
+    "duration": 6.18
+  },
+  {
+    "text": "right so it from after every Epoch",
+    "start": 512.7,
+    "duration": 3.66
+  },
+  {
+    "text": "you're lost when you're checking the",
+    "start": 514.86,
+    "duration": 3.84
+  },
+  {
+    "text": "loss it's decreasing right and suppose",
+    "start": 516.36,
+    "duration": 5.76
+  },
+  {
+    "text": "you are here now and you so say this was",
+    "start": 518.7,
+    "duration": 6.72
+  },
+  {
+    "text": "Epoch six and now you ran the seventh",
+    "start": 522.12,
+    "duration": 6.42
+  },
+  {
+    "text": "Epoch okay and you calculate the loss",
+    "start": 525.42,
+    "duration": 4.8
+  },
+  {
+    "text": "again and it was actually increased",
+    "start": 528.54,
+    "duration": 5.16
+  },
+  {
+    "text": "right so what will you do now you you",
+    "start": 530.22,
+    "duration": 6.0
+  },
+  {
+    "text": "had you are of course saving the weights",
+    "start": 533.7,
+    "duration": 4.86
+  },
+  {
+    "text": "after every Epoch so you will throw away",
+    "start": 536.22,
+    "duration": 3.84
+  },
+  {
+    "text": "all the updates that you have done in",
+    "start": 538.56,
+    "duration": 3.779
+  },
+  {
+    "text": "the last Epoch re-initialize the weights",
+    "start": 540.06,
+    "duration": 4.68
+  },
+  {
+    "text": "from what they were in the sixth epoch",
+    "start": 542.339,
+    "duration": 4.921
+  },
+  {
+    "text": "half the learning rate and then run the",
+    "start": 544.74,
+    "duration": 4.8
+  },
+  {
+    "text": "cpoc again right and then hopefully the",
+    "start": 547.26,
+    "duration": 4.139
+  },
+  {
+    "text": "loss would decrease it's still possible",
+    "start": 549.54,
+    "duration": 3.479
+  },
+  {
+    "text": "that the loss still increases that means",
+    "start": 551.399,
+    "duration": 3.421
+  },
+  {
+    "text": "your learning rate is still high so",
+    "start": 553.019,
+    "duration": 3.721
+  },
+  {
+    "text": "again throw away all the updates go back",
+    "start": 554.82,
+    "duration": 3.18
+  },
+  {
+    "text": "to the value of the weights that was",
+    "start": 556.74,
+    "duration": 3.84
+  },
+  {
+    "text": "there at the end of sixth Epoch half the",
+    "start": 558.0,
+    "duration": 4.56
+  },
+  {
+    "text": "learning rate again and then continue",
+    "start": 560.58,
+    "duration": 3.78
+  },
+  {
+    "text": "from there right so this is like more",
+    "start": 562.56,
+    "duration": 3.779
+  },
+  {
+    "text": "data driven learning rate that okay my",
+    "start": 564.36,
+    "duration": 4.14
+  },
+  {
+    "text": "validation loss is increasing that means",
+    "start": 566.339,
+    "duration": 4.56
+  },
+  {
+    "text": "my training is not helping me to",
+    "start": 568.5,
+    "duration": 5.399
+  },
+  {
+    "text": "generalize well so let me just not make",
+    "start": 570.899,
+    "duration": 5.041
+  },
+  {
+    "text": "a aggressive updates because my updates",
+    "start": 573.899,
+    "duration": 3.541
+  },
+  {
+    "text": "are according to the training data not",
+    "start": 575.94,
+    "duration": 3.3
+  },
+  {
+    "text": "according to the validation data so let",
+    "start": 577.44,
+    "duration": 3.42
+  },
+  {
+    "text": "me not make aggressive updates and one",
+    "start": 579.24,
+    "duration": 3.3
+  },
+  {
+    "text": "way of ensuring that is to just halve",
+    "start": 580.86,
+    "duration": 3.06
+  },
+  {
+    "text": "the learning rate and then run okay",
+    "start": 582.54,
+    "duration": 3.54
+  },
+  {
+    "text": "right and if it keeps increasing after",
+    "start": 583.92,
+    "duration": 3.84
+  },
+  {
+    "text": "that then maybe you have just conversed",
+    "start": 586.08,
+    "duration": 3.18
+  },
+  {
+    "text": "then you should stop training at that",
+    "start": 587.76,
+    "duration": 3.48
+  },
+  {
+    "text": "point right so that's one strategy for",
+    "start": 589.26,
+    "duration": 4.139
+  },
+  {
+    "text": "annealing the learning rate another way",
+    "start": 591.24,
+    "duration": 4.5
+  },
+  {
+    "text": "of annealing the learning rate is to use",
+    "start": 593.399,
+    "duration": 4.201
+  },
+  {
+    "text": "an exponentially decaying learning rate",
+    "start": 595.74,
+    "duration": 4.62
+  },
+  {
+    "text": "so you have some initial learning rate",
+    "start": 597.6,
+    "duration": 5.34
+  },
+  {
+    "text": "and then you keep exponentially decaying",
+    "start": 600.36,
+    "duration": 4.02
+  },
+  {
+    "text": "it right so what is happening here is",
+    "start": 602.94,
+    "duration": 5.519
+  },
+  {
+    "text": "that you are having 1 over ETA 0 raised",
+    "start": 604.38,
+    "duration": 7.26
+  },
+  {
+    "text": "to KT right so at time step 0 suppose",
+    "start": 608.459,
+    "duration": 5.82
+  },
+  {
+    "text": "your ETA 0 is 1 right so at time step 0",
+    "start": 611.64,
+    "duration": 5.04
+  },
+  {
+    "text": "and let's assume that K is also equal to",
+    "start": 614.279,
+    "duration": 3.961
+  },
+  {
+    "text": "1.",
+    "start": 616.68,
+    "duration": 4.14
+  },
+  {
+    "text": "so suppose ETA 0 equal to 1 and K is",
+    "start": 618.24,
+    "duration": 5.7
+  },
+  {
+    "text": "also equal to 1 so time step 0 this",
+    "start": 620.82,
+    "duration": 4.8
+  },
+  {
+    "text": "would just be 1 over 1 so your learning",
+    "start": 623.94,
+    "duration": 3.66
+  },
+  {
+    "text": "rate is 1 and as the time steps keep",
+    "start": 625.62,
+    "duration": 4.2
+  },
+  {
+    "text": "increasing your learning rate will keep",
+    "start": 627.6,
+    "duration": 4.2
+  },
+  {
+    "text": "decreasing exponentially right so that's",
+    "start": 629.82,
+    "duration": 4.26
+  },
+  {
+    "text": "one simple thing to do but here the",
+    "start": 631.8,
+    "duration": 4.68
+  },
+  {
+    "text": "issue is that now what is the initial",
+    "start": 634.08,
+    "duration": 4.199
+  },
+  {
+    "text": "learning rate that becomes a hyper",
+    "start": 636.48,
+    "duration": 3.12
+  },
+  {
+    "text": "parameter that was anyways a hyper",
+    "start": 638.279,
+    "duration": 3.721
+  },
+  {
+    "text": "parameter but in addition this K and",
+    "start": 639.6,
+    "duration": 4.739
+  },
+  {
+    "text": "this K controls how quickly it will",
+    "start": 642.0,
+    "duration": 3.899
+  },
+  {
+    "text": "Decay right so if you use a very large",
+    "start": 644.339,
+    "duration": 3.781
+  },
+  {
+    "text": "value of K it will Decay very quickly",
+    "start": 645.899,
+    "duration": 3.481
+  },
+  {
+    "text": "right so you would see something like",
+    "start": 648.12,
+    "duration": 3.3
+  },
+  {
+    "text": "this",
+    "start": 649.38,
+    "duration": 4.68
+  },
+  {
+    "text": "if you use a smaller value of K it would",
+    "start": 651.42,
+    "duration": 4.919
+  },
+  {
+    "text": "Decay more smoothly right so now what is",
+    "start": 654.06,
+    "duration": 3.959
+  },
+  {
+    "text": "the right value of K that also needs to",
+    "start": 656.339,
+    "duration": 3.961
+  },
+  {
+    "text": "be determined so this makes it even more",
+    "start": 658.019,
+    "duration": 5.221
+  },
+  {
+    "text": "complex right so I typically do not uh",
+    "start": 660.3,
+    "duration": 5.7
+  },
+  {
+    "text": "recommend uh this to be used and there's",
+    "start": 663.24,
+    "duration": 5.58
+  },
+  {
+    "text": "another way of doing this exponential uh",
+    "start": 666.0,
+    "duration": 4.38
+  },
+  {
+    "text": "learning rate",
+    "start": 668.82,
+    "duration": 4.199
+  },
+  {
+    "text": "uh which is to use the 1 by t d k right",
+    "start": 670.38,
+    "duration": 4.74
+  },
+  {
+    "text": "which is again similarly you had some",
+    "start": 673.019,
+    "duration": 3.961
+  },
+  {
+    "text": "initial learning rate and then you",
+    "start": 675.12,
+    "duration": 3.959
+  },
+  {
+    "text": "divide it by the number of time steps",
+    "start": 676.98,
+    "duration": 4.2
+  },
+  {
+    "text": "that you have done so far and again K",
+    "start": 679.079,
+    "duration": 4.921
+  },
+  {
+    "text": "helps you decide how fast the DK will",
+    "start": 681.18,
+    "duration": 4.56
+  },
+  {
+    "text": "happen right so again you have this K to",
+    "start": 684.0,
+    "duration": 4.32
+  },
+  {
+    "text": "decide which makes it a bit uh tricky",
+    "start": 685.74,
+    "duration": 4.38
+  },
+  {
+    "text": "right so again this any kind of this",
+    "start": 688.32,
+    "duration": 5.28
+  },
+  {
+    "text": "exponential decay which introduces this",
+    "start": 690.12,
+    "duration": 5.76
+  },
+  {
+    "text": "parameter K which controls how fast the",
+    "start": 693.6,
+    "duration": 5.16
+  },
+  {
+    "text": "DK will happen is again tricky to fix it",
+    "start": 695.88,
+    "duration": 4.26
+  },
+  {
+    "text": "because you could have different values",
+    "start": 698.76,
+    "duration": 5.16
+  },
+  {
+    "text": "of K so my personal choice is always to",
+    "start": 700.14,
+    "duration": 5.939
+  },
+  {
+    "text": "go by the validation loss and decrease",
+    "start": 703.92,
+    "duration": 4.62
+  },
+  {
+    "text": "the learning rate if the validation loss",
+    "start": 706.079,
+    "duration": 4.82
+  },
+  {
+    "text": "is increasing right so that's the first",
+    "start": 708.54,
+    "duration": 5.76
+  },
+  {
+    "text": "method that we had looked at right",
+    "start": 710.899,
+    "duration": 6.221
+  },
+  {
+    "text": "now similarly you could have adjust the",
+    "start": 714.3,
+    "duration": 4.979
+  },
+  {
+    "text": "momentum right and for momentum there",
+    "start": 717.12,
+    "duration": 4.8
+  },
+  {
+    "text": "was this method suggested in uh this",
+    "start": 719.279,
+    "duration": 4.821
+  },
+  {
+    "text": "paper",
+    "start": 721.92,
+    "duration": 2.18
+  },
+  {
+    "text": "and this looks very uh complex equation",
+    "start": 724.92,
+    "duration": 5.46
+  },
+  {
+    "text": "but it is not really very complex so",
+    "start": 727.8,
+    "duration": 4.86
+  },
+  {
+    "text": "let's try to decode what it is right so",
+    "start": 730.38,
+    "duration": 4.38
+  },
+  {
+    "text": "there's a log here",
+    "start": 732.66,
+    "duration": 5.04
+  },
+  {
+    "text": "so let's and this T here the T stands",
+    "start": 734.76,
+    "duration": 5.819
+  },
+  {
+    "text": "for time step so at time step 0 you",
+    "start": 737.7,
+    "duration": 6.9
+  },
+  {
+    "text": "would have log of 0 Plus 1. and log of 1",
+    "start": 740.579,
+    "duration": 6.421
+  },
+  {
+    "text": "is 0 so this term would disappear so",
+    "start": 744.6,
+    "duration": 4.739
+  },
+  {
+    "text": "we'll just have 1 minus 2 raised to",
+    "start": 747.0,
+    "duration": 5.04
+  },
+  {
+    "text": "minus 1 right which would just be 0.5",
+    "start": 749.339,
+    "duration": 5.881
+  },
+  {
+    "text": "right and this says minimum of 0.5 and",
+    "start": 752.04,
+    "duration": 5.7
+  },
+  {
+    "text": "beta Max so beta Max is typically one of",
+    "start": 755.22,
+    "duration": 6.66
+  },
+  {
+    "text": "these values uh so it would be uh or",
+    "start": 757.74,
+    "duration": 6.3
+  },
+  {
+    "text": "even 0 0 means there is no momentum of",
+    "start": 761.88,
+    "duration": 4.259
+  },
+  {
+    "text": "course so beta Max would be one of these",
+    "start": 764.04,
+    "duration": 4.08
+  },
+  {
+    "text": "values so now in this case it would be",
+    "start": 766.139,
+    "duration": 4.741
+  },
+  {
+    "text": "minimum of say 0.5 and 0.9 so your",
+    "start": 768.12,
+    "duration": 6.42
+  },
+  {
+    "text": "momentum would be around 0.5 okay and as",
+    "start": 770.88,
+    "duration": 5.94
+  },
+  {
+    "text": "you keep increasing now at time step t",
+    "start": 774.54,
+    "duration": 4.08
+  },
+  {
+    "text": "equal to 250",
+    "start": 776.82,
+    "duration": 4.519
+  },
+  {
+    "text": "uh this would evaluate to log of",
+    "start": 778.62,
+    "duration": 5.82
+  },
+  {
+    "text": "1 plus 1 which would be log of 2 so this",
+    "start": 781.339,
+    "duration": 5.921
+  },
+  {
+    "text": "would become 1 so you will have 2 raised",
+    "start": 784.44,
+    "duration": 4.74
+  },
+  {
+    "text": "to minus 1 minus 1 which would be 2",
+    "start": 787.26,
+    "duration": 3.78
+  },
+  {
+    "text": "raised to minus 2 which would become",
+    "start": 789.18,
+    "duration": 5.399
+  },
+  {
+    "text": "0.25 so this would be 1 minus 0.25 which",
+    "start": 791.04,
+    "duration": 6.539
+  },
+  {
+    "text": "is equal to 0.75 so it would be minimum",
+    "start": 794.579,
+    "duration": 6.301
+  },
+  {
+    "text": "of 0.75 and beta Max so again beta max",
+    "start": 797.579,
+    "duration": 5.161
+  },
+  {
+    "text": "if it is something in the range of 0.9",
+    "start": 800.88,
+    "duration": 3.899
+  },
+  {
+    "text": "then this would be selected right and",
+    "start": 802.74,
+    "duration": 3.539
+  },
+  {
+    "text": "now you can keep substituting the values",
+    "start": 804.779,
+    "duration": 5.401
+  },
+  {
+    "text": "of T so now if T is equal to 750 then",
+    "start": 806.279,
+    "duration": 6.721
+  },
+  {
+    "text": "this would be log of uh 3 plus 1 which",
+    "start": 810.18,
+    "duration": 5.399
+  },
+  {
+    "text": "would be log of 4 right and that would",
+    "start": 813.0,
+    "duration": 5.48
+  },
+  {
+    "text": "be 2 so this will become 2 raised to",
+    "start": 815.579,
+    "duration": 6.781
+  },
+  {
+    "text": "minus 3 which would be 0.125 and then",
+    "start": 818.48,
+    "duration": 6.94
+  },
+  {
+    "text": "this would become 0.875 so as you can",
+    "start": 822.36,
+    "duration": 6.5
+  },
+  {
+    "text": "see you are slowly increasing the",
+    "start": 825.42,
+    "duration": 6.419
+  },
+  {
+    "text": "momentum uh term the beta term right",
+    "start": 828.86,
+    "duration": 6.279
+  },
+  {
+    "text": "which is the amount that you should give",
+    "start": 831.839,
+    "duration": 5.94
+  },
+  {
+    "text": "to the history right beta tells you how",
+    "start": 835.139,
+    "duration": 5.161
+  },
+  {
+    "text": "much weight is to give to the history so",
+    "start": 837.779,
+    "duration": 5.581
+  },
+  {
+    "text": "as you are training is progressing you",
+    "start": 840.3,
+    "duration": 4.74
+  },
+  {
+    "text": "are planning to rely more and more on",
+    "start": 843.36,
+    "duration": 3.479
+  },
+  {
+    "text": "the history and less on the current",
+    "start": 845.04,
+    "duration": 3.06
+  },
+  {
+    "text": "update and that makes sense right",
+    "start": 846.839,
+    "duration": 2.821
+  },
+  {
+    "text": "because now if you're close to the",
+    "start": 848.1,
+    "duration": 4.02
+  },
+  {
+    "text": "Minima and then one faulty update will",
+    "start": 849.66,
+    "duration": 4.56
+  },
+  {
+    "text": "take you away from the Minima right but",
+    "start": 852.12,
+    "duration": 4.32
+  },
+  {
+    "text": "whereas if your history is uh pointing",
+    "start": 854.22,
+    "duration": 3.6
+  },
+  {
+    "text": "in a certain direction you would like to",
+    "start": 856.44,
+    "duration": 3.42
+  },
+  {
+    "text": "rely on that because over the large",
+    "start": 857.82,
+    "duration": 3.9
+  },
+  {
+    "text": "number of updates you have reached in",
+    "start": 859.86,
+    "duration": 3.599
+  },
+  {
+    "text": "this region so you want to give more",
+    "start": 861.72,
+    "duration": 3.239
+  },
+  {
+    "text": "weightage to your history as opposed to",
+    "start": 863.459,
+    "duration": 3.361
+  },
+  {
+    "text": "the current update so what this is doing",
+    "start": 864.959,
+    "duration": 4.62
+  },
+  {
+    "text": "is as your training progresses your beta",
+    "start": 866.82,
+    "duration": 5.88
+  },
+  {
+    "text": "value increases right and as the beta",
+    "start": 869.579,
+    "duration": 4.56
+  },
+  {
+    "text": "value increases you give more and more",
+    "start": 872.7,
+    "duration": 3.6
+  },
+  {
+    "text": "weightage to the history right and in",
+    "start": 874.139,
+    "duration": 4.081
+  },
+  {
+    "text": "the initial phase you don't want to give",
+    "start": 876.3,
+    "duration": 3.839
+  },
+  {
+    "text": "lot of weightage to the history because",
+    "start": 878.22,
+    "duration": 3.66
+  },
+  {
+    "text": "your history is still building up right",
+    "start": 880.139,
+    "duration": 3.661
+  },
+  {
+    "text": "in your history is as unreliable as the",
+    "start": 881.88,
+    "duration": 3.959
+  },
+  {
+    "text": "current update right as the training",
+    "start": 883.8,
+    "duration": 3.779
+  },
+  {
+    "text": "progresses you want to give more value",
+    "start": 885.839,
+    "duration": 3.721
+  },
+  {
+    "text": "to the history right so that's the tip",
+    "start": 887.579,
+    "duration": 5.94
+  },
+  {
+    "text": "for adjusting the momentum so this is uh",
+    "start": 889.56,
+    "duration": 6.42
+  },
+  {
+    "text": "currently all I have for tips for",
+    "start": 893.519,
+    "duration": 3.961
+  },
+  {
+    "text": "learning rate and momentum as I said",
+    "start": 895.98,
+    "duration": 3.78
+  },
+  {
+    "text": "I'll revisit tips for learning rate",
+    "start": 897.48,
+    "duration": 5.96
+  },
+  {
+    "text": "towards the end of this lecture again",
+    "start": 899.76,
+    "duration": 3.68
+  },
+  {
+    "text": "okay so the next thing I want to do is",
+    "start": 903.66,
+    "duration": 6.06
+  },
+  {
+    "text": "talk about line search is again a simple",
+    "start": 906.72,
+    "duration": 4.559
+  },
+  {
+    "text": "idea",
+    "start": 909.72,
+    "duration": 4.559
+  },
+  {
+    "text": "now the whole issue that we have is that",
+    "start": 911.279,
+    "duration": 5.101
+  },
+  {
+    "text": "if you choose one learning rate and",
+    "start": 914.279,
+    "duration": 3.841
+  },
+  {
+    "text": "you're kind of married to it either",
+    "start": 916.38,
+    "duration": 4.62
+  },
+  {
+    "text": "learning rate is good then you would",
+    "start": 918.12,
+    "duration": 4.56
+  },
+  {
+    "text": "progress well if that learning rate is",
+    "start": 921.0,
+    "duration": 4.019
+  },
+  {
+    "text": "too high or too low then either you will",
+    "start": 922.68,
+    "duration": 4.14
+  },
+  {
+    "text": "keep oscillating if it's too high or if",
+    "start": 925.019,
+    "duration": 3.301
+  },
+  {
+    "text": "it's too low then you will not be making",
+    "start": 926.82,
+    "duration": 4.259
+  },
+  {
+    "text": "Fast movements right so instead of",
+    "start": 928.32,
+    "duration": 5.519
+  },
+  {
+    "text": "sticking to one learning rate why not",
+    "start": 931.079,
+    "duration": 4.921
+  },
+  {
+    "text": "try a bunch of learning reads right so",
+    "start": 933.839,
+    "duration": 5.041
+  },
+  {
+    "text": "that's what we are trying to do here",
+    "start": 936.0,
+    "duration": 4.32
+  },
+  {
+    "text": "that you're trying different learning",
+    "start": 938.88,
+    "duration": 4.259
+  },
+  {
+    "text": "rates okay now you compute the",
+    "start": 940.32,
+    "duration": 6.06
+  },
+  {
+    "text": "derivative and your w t plus 1",
+    "start": 943.139,
+    "duration": 7.021
+  },
+  {
+    "text": "is equal to WT minus ETA times the",
+    "start": 946.38,
+    "duration": 7.38
+  },
+  {
+    "text": "derivative right now the derivative of",
+    "start": 950.16,
+    "duration": 5.34
+  },
+  {
+    "text": "course does not change but you can plug",
+    "start": 953.76,
+    "duration": 3.54
+  },
+  {
+    "text": "in different values of ETA you can plug",
+    "start": 955.5,
+    "duration": 4.019
+  },
+  {
+    "text": "in the value 0.1 you can plug in the",
+    "start": 957.3,
+    "duration": 5.58
+  },
+  {
+    "text": "value 0.5 plug in the value 1 to 10 all",
+    "start": 959.519,
+    "duration": 5.161
+  },
+  {
+    "text": "of these values right and for each of",
+    "start": 962.88,
+    "duration": 4.38
+  },
+  {
+    "text": "these you will get a new value for 2 w t",
+    "start": 964.68,
+    "duration": 5.099
+  },
+  {
+    "text": "plus 1 right so this would be w t plus 1",
+    "start": 967.26,
+    "duration": 5.639
+  },
+  {
+    "text": "corresponding to Eta 1 another WT plus 1",
+    "start": 969.779,
+    "duration": 4.92
+  },
+  {
+    "text": "corresponding to ETA two and so on so",
+    "start": 972.899,
+    "duration": 4.261
+  },
+  {
+    "text": "now we have found a new value for weight",
+    "start": 974.699,
+    "duration": 4.561
+  },
+  {
+    "text": "and not just one new value you have",
+    "start": 977.16,
+    "duration": 3.479
+  },
+  {
+    "text": "found a bunch of new values each",
+    "start": 979.26,
+    "duration": 4.56
+  },
+  {
+    "text": "corresponding to a particular ETA now",
+    "start": 980.639,
+    "duration": 4.681
+  },
+  {
+    "text": "plug in all these values in the loss",
+    "start": 983.82,
+    "duration": 3.12
+  },
+  {
+    "text": "function right so all of these values",
+    "start": 985.32,
+    "duration": 3.72
+  },
+  {
+    "text": "you could plug in into the loss function",
+    "start": 986.94,
+    "duration": 3.48
+  },
+  {
+    "text": "all the different W's that you have",
+    "start": 989.04,
+    "duration": 3.96
+  },
+  {
+    "text": "computed and now whichever W gives you",
+    "start": 990.42,
+    "duration": 5.219
+  },
+  {
+    "text": "the minimum loss you pick that up so",
+    "start": 993.0,
+    "duration": 4.019
+  },
+  {
+    "text": "what you have done effectively is that",
+    "start": 995.639,
+    "duration": 2.7
+  },
+  {
+    "text": "you have tried different learning rates",
+    "start": 997.019,
+    "duration": 3.841
+  },
+  {
+    "text": "and you have made an update so you got a",
+    "start": 998.339,
+    "duration": 4.44
+  },
+  {
+    "text": "bunch of updated values now you're",
+    "start": 1000.86,
+    "duration": 3.479
+  },
+  {
+    "text": "looking at each of those values and",
+    "start": 1002.779,
+    "duration": 3.48
+  },
+  {
+    "text": "Computing the loss and whichever update",
+    "start": 1004.339,
+    "duration": 3.901
+  },
+  {
+    "text": "to updated value gives the minimum loss",
+    "start": 1006.259,
+    "duration": 3.421
+  },
+  {
+    "text": "you're retaining that and throwing away",
+    "start": 1008.24,
+    "duration": 3.36
+  },
+  {
+    "text": "all of that and then again doing the",
+    "start": 1009.68,
+    "duration": 3.599
+  },
+  {
+    "text": "same in the next iteration so the",
+    "start": 1011.6,
+    "duration": 3.359
+  },
+  {
+    "text": "derivative only gets computed once",
+    "start": 1013.279,
+    "duration": 3.42
+  },
+  {
+    "text": "because that does not change but you",
+    "start": 1014.959,
+    "duration": 3.18
+  },
+  {
+    "text": "just use different learning rates to",
+    "start": 1016.699,
+    "duration": 3.601
+  },
+  {
+    "text": "come up with different updated values",
+    "start": 1018.139,
+    "duration": 4.021
+  },
+  {
+    "text": "and then select the best updated value",
+    "start": 1020.3,
+    "duration": 3.479
+  },
+  {
+    "text": "based on the loss right so that's what",
+    "start": 1022.16,
+    "duration": 5.46
+  },
+  {
+    "text": "you do in line search",
+    "start": 1023.779,
+    "duration": 5.701
+  },
+  {
+    "text": "you have a bunch of learning rates and",
+    "start": 1027.62,
+    "duration": 4.26
+  },
+  {
+    "text": "you don't get married to one learning",
+    "start": 1029.48,
+    "duration": 4.14
+  },
+  {
+    "text": "rate but just try all of them at every",
+    "start": 1031.88,
+    "duration": 3.78
+  },
+  {
+    "text": "stage of course there's a complexity",
+    "start": 1033.62,
+    "duration": 3.839
+  },
+  {
+    "text": "here involved here that you are trying",
+    "start": 1035.66,
+    "duration": 3.72
+  },
+  {
+    "text": "10 different learning rates then at",
+    "start": 1037.459,
+    "duration": 3.84
+  },
+  {
+    "text": "every step you're kind of computing 10",
+    "start": 1039.38,
+    "duration": 4.26
+  },
+  {
+    "text": "values so you have to do 10 times uh the",
+    "start": 1041.299,
+    "duration": 4.201
+  },
+  {
+    "text": "work and just in that update equation",
+    "start": 1043.64,
+    "duration": 4.14
+  },
+  {
+    "text": "and then compute the loss again and then",
+    "start": 1045.5,
+    "duration": 3.96
+  },
+  {
+    "text": "select the best one right so that's an",
+    "start": 1047.78,
+    "duration": 5.04
+  },
+  {
+    "text": "additional complexity that you have but",
+    "start": 1049.46,
+    "duration": 5.16
+  },
+  {
+    "text": "as you can imagine this would definitely",
+    "start": 1052.82,
+    "duration": 3.9
+  },
+  {
+    "text": "be good right so in the flat surfaces",
+    "start": 1054.62,
+    "duration": 4.08
+  },
+  {
+    "text": "you might end up choosing the larger",
+    "start": 1056.72,
+    "duration": 4.199
+  },
+  {
+    "text": "learning rates and in the valley regions",
+    "start": 1058.7,
+    "duration": 4.08
+  },
+  {
+    "text": "where already the slope is steep or when",
+    "start": 1060.919,
+    "duration": 3.421
+  },
+  {
+    "text": "you're entering the valley in those",
+    "start": 1062.78,
+    "duration": 3.779
+  },
+  {
+    "text": "regions if you have a high learning rate",
+    "start": 1064.34,
+    "duration": 3.66
+  },
+  {
+    "text": "you know that your loss would increase",
+    "start": 1066.559,
+    "duration": 3.541
+  },
+  {
+    "text": "because you would overshoot the Minima",
+    "start": 1068.0,
+    "duration": 4.62
+  },
+  {
+    "text": "so in those cases the smaller learning",
+    "start": 1070.1,
+    "duration": 3.78
+  },
+  {
+    "text": "rate would get selected right so you're",
+    "start": 1072.62,
+    "duration": 3.419
+  },
+  {
+    "text": "kind of in some sense making it a bit",
+    "start": 1073.88,
+    "duration": 4.38
+  },
+  {
+    "text": "adaptive based on which region you are",
+    "start": 1076.039,
+    "duration": 5.161
+  },
+  {
+    "text": "in right the flip side of course is that",
+    "start": 1078.26,
+    "duration": 6.36
+  },
+  {
+    "text": "you are doing a lot more computations",
+    "start": 1081.2,
+    "duration": 5.28
+  },
+  {
+    "text": "okay so let's see what happens when we",
+    "start": 1084.62,
+    "duration": 4.38
+  },
+  {
+    "text": "do line search",
+    "start": 1086.48,
+    "duration": 4.439
+  },
+  {
+    "text": "so you see what happened right so the",
+    "start": 1089.0,
+    "duration": 3.72
+  },
+  {
+    "text": "gradient descent was moving at a certain",
+    "start": 1090.919,
+    "duration": 3.721
+  },
+  {
+    "text": "speed it's taking more time to converge",
+    "start": 1092.72,
+    "duration": 5.04
+  },
+  {
+    "text": "but the line search you can see that in",
+    "start": 1094.64,
+    "duration": 4.86
+  },
+  {
+    "text": "the flat regions it was able to move",
+    "start": 1097.76,
+    "duration": 3.96
+  },
+  {
+    "text": "very quickly and it also did not",
+    "start": 1099.5,
+    "duration": 4.38
+  },
+  {
+    "text": "overshoot right it did not go out of the",
+    "start": 1101.72,
+    "duration": 4.8
+  },
+  {
+    "text": "valley because in the Steep regions a",
+    "start": 1103.88,
+    "duration": 4.26
+  },
+  {
+    "text": "smaller learning rate would have worked",
+    "start": 1106.52,
+    "duration": 4.08
+  },
+  {
+    "text": "and it would have not selected the",
+    "start": 1108.14,
+    "duration": 3.6
+  },
+  {
+    "text": "larger learning rate which would have",
+    "start": 1110.6,
+    "duration": 2.64
+  },
+  {
+    "text": "taken it out of the value right so it",
+    "start": 1111.74,
+    "duration": 3.54
+  },
+  {
+    "text": "kind of works very nicely and it of",
+    "start": 1113.24,
+    "duration": 4.439
+  },
+  {
+    "text": "course converges much faster than the",
+    "start": 1115.28,
+    "duration": 4.68
+  },
+  {
+    "text": "gradient descent which was used with a",
+    "start": 1117.679,
+    "duration": 4.681
+  },
+  {
+    "text": "fixed learning rate of one in this case",
+    "start": 1119.96,
+    "duration": 4.86
+  },
+  {
+    "text": "right so I think that's the that",
+    "start": 1122.36,
+    "duration": 4.98
+  },
+  {
+    "text": "advantage of line search is clear",
+    "start": 1124.82,
+    "duration": 5.94
+  },
+  {
+    "text": "so that's all I have for uh today uh we",
+    "start": 1127.34,
+    "duration": 4.5
+  },
+  {
+    "text": "are",
+    "start": 1130.76,
+    "duration": 3.18
+  },
+  {
+    "text": "just going going over the slides the",
+    "start": 1131.84,
+    "duration": 4.44
+  },
+  {
+    "text": "convergence is much faster we see some",
+    "start": 1133.94,
+    "duration": 5.28
+  },
+  {
+    "text": "oscillations but these are not as bad as",
+    "start": 1136.28,
+    "duration": 6.0
+  },
+  {
+    "text": "uh what we had in momentum and nag and",
+    "start": 1139.22,
+    "duration": 4.68
+  },
+  {
+    "text": "overall the line search worked better",
+    "start": 1142.28,
+    "duration": 2.58
+  },
+  {
+    "text": "right",
+    "start": 1143.9,
+    "duration": 3.24
+  },
+  {
+    "text": "so that's where I'll end uh for today",
+    "start": 1144.86,
+    "duration": 6.36
+  },
+  {
+    "text": "and in the next week we'll see uh some",
+    "start": 1147.14,
+    "duration": 6.08
+  },
+  {
+    "text": "uh",
+    "start": 1151.22,
+    "duration": 4.56
+  },
+  {
+    "text": "variations of gradient descent algorithm",
+    "start": 1153.22,
+    "duration": 4.78
+  },
+  {
+    "text": "which use an Adaptive learning array",
+    "start": 1155.78,
+    "duration": 6.38
+  },
+  {
+    "text": "okay so I'll see you next week thank you",
+    "start": 1158.0,
+    "duration": 4.16
+  }
+]

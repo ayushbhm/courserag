@@ -1,0 +1,9 @@
+here it will roll down it will not stop here it'll go up then again come back go up then.
+again come back and it will keep oscillating it so let's see if this effect is what we see in.
+the momentum based gradient descent algorithms oh my God so now you see gradient descent is moving very slow but.
+it's decidedly going towards its goal okay I'll have to play this video a few times so this gradient isn't.
+just slowly converging now you can see that it's found the configuration where both the points lie on the sigmoid.
+function right so this is actually a sigmoid function like this right so I'm just showing you a slice so.
+it's a sigmoid function like this and I'm just showing you this portion of the sigm point functions it's not.
+a line it's still a sigmoid function it's just that it's a very uh gentle slope sigmoid function so it's.
+going to go like this and at this point it's going to go like this okay but let's focus on.

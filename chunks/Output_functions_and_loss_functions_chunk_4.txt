@@ -1,0 +1,10 @@
+pass it through some output function and that is going to give me uh the output y hat which is.
+shown as the dark or the shaded green part here right so what should my output function be right so.
+now let me ask you a question it can it be the logistic function right so we had seen the.
+logistic function which takes any input right so a3 would be the input and i am asking whether o can.
+be the logistic function right and what would that mean it would just take the input and it would compute.
+the logistic function for that right now can that uh is is that okay is the question right so it.
+just should be it will compute it element wise eight so a three one a three two a three three.
+is what it will compute and that would be y hat one y hat two y hat three right because.
+the three values that i'm trying to predict so is that a good choice right and as all of you.
+realize it wouldn't be a good choice because the logistic function i know is going to clamp all my outputs.

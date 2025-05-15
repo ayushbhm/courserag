@@ -1,0 +1,9 @@
+base algorithm is moving faster and we understand why that is also happening right let's look at the other view.
+now so this is the contour map you understand what the contour map is so this region here is a.
+flat region so this region here is a flat region and then here that the slope is very Steep and.
+then again here the slope is very gentle this is again the slope is steep these are again flat regions.
+right so you understand what that is so this is just the contour map corresponding to the 3D plot that.
+we had and now we'll try to run uh gradient descent on this contour map it's nothing different from what.
+I have shown here but now I can see the other view of what is happening to the sigmoid function.
+and you will see something interesting here right so let's run it of course it's moving very fast and it's.
+almost reached there but then again it has moved far and then again come to something which is some things.

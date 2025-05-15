@@ -1,0 +1,10 @@
+and this would become clear on the next slide so let me just do that and then come back uh.
+to this slide right so what is is happening here so this is what my equation is right that UT.
+and I was saying that UT is my history Vector so let's see how I'm constructing this UT so of.
+course at time step 0 because my U minus 1 is not defined right so if I want to compute.
+u0 I need beta times U minus 1 and there's no minus one step so I'm just going to set.
+it to 0. so at time step equal to uh 0 this is how this will turn out right and.
+this quantity is 0 so we'll just have uh U 0 is equal to the derivative of the loss function.
+with respect to the parameter at time step 0. now let's see what U1 would be so U1 will be.
+beta times u0 plus the current derivative so now if I substitute the value of U 0 then it would.
+be beta times Delta the previous derivative plus W1 right so this is what I mean by the history now.

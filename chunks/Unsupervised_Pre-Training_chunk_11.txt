@@ -1,0 +1,9 @@
+hidden and output and this is a shallow Network and shallow Network training was not a challenge right so I.
+could train a shallow neural network so I've reduced my problem to training a shallow neural network now how do.
+I go from here again because eventually I want to train the Deep inner Network that is not clear now.
+but the first step is to just learn layer 1 effectively is that clear no no this could be W1.
+and W2 yeah so you when you compute the loss you are using that right so excited you are Computing.
+the difference between X hat and X so there you are using that information right what was my original input.
+so loss is defined in terms of what your original input was right so that is getting used there so.
+it will be the same depends upon the input layers right no so this is n dimensional and then you.
+are reconstructing the n-dimensional input yeah right yeah yeah okay so ah so this is what we have done now.

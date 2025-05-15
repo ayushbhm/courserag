@@ -1,0 +1,10 @@
+and this dot here means here I should have had the row index instead of the row index I have.
+a DOT here that means I don't care about the row I'm going to take all the rows and all.
+the rows from which column the jth column right so that is what this notation means I have the W3.
+Matrix I'm going to take all the rows of that Matrix because I have not specified an index for the.
+row but I haven't specified an index for the column so that means I'm taking all the rows for the.
+jth column which is the same as taking the entire jth column right so how would I write that Matrix.
+this is how I'll write this this is w 3 the first row jth column second row jth column all.
+the way up to care through jfcon right so these are two uh matrices that I have now if sorry.
+these are two vectors that I have I have still not shown why I came from here to here right.
+that will become clear in a while why did I start discussing about these two just assume that these two.

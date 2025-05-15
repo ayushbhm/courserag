@@ -1,0 +1,9 @@
+that in many applications our input has a lot of redundancy right so I would have captured weight height and.
+BMI all three are not needed from the weight and height I can know the BMI right similarly I would.
+have captured several correlated things I would have captured weight and centimeter oh sorry weight in kilograms maybe I would.
+have captured weight in pounds also or weight in grams also similarly height in centimeters process data is flowing in.
+from multiple channels so I do not know even for example I would have calculated the salary I would have.
+salary as one of the inputs and I might also have the income tax as one of the inputs right.
+now these two are completely correlated so in that case I did not have both these inputs right so my.
+data has lot of redundancy so I am doing some sort of a compression where I am reducing it to.
+256 values and then I'm trying to reconstruct the input from these 256 values so if I am able to.

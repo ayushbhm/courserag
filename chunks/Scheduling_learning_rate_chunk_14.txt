@@ -1,0 +1,9 @@
+something like this if you use a smaller value of K it would Decay more smoothly right so now what.
+is the right value of K that also needs to be determined so this makes it even more complex right.
+so I typically do not uh recommend uh this to be used and there's another way of doing this exponential.
+uh learning rate uh which is to use the 1 by t d k right which is again similarly you.
+had some initial learning rate and then you divide it by the number of time steps that you have done.
+so far and again K helps you decide how fast the DK will happen right so again you have this.
+K to decide which makes it a bit uh tricky right so again this any kind of this exponential decay.
+which introduces this parameter K which controls how fast the DK will happen is again tricky to fix it because.
+you could have different values of K so my personal choice is always to go by the validation loss and.

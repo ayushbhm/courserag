@@ -1,0 +1,10 @@
+correct class is the second class then when i evaluate this indicator variable which is l equal to 1 i'll.
+get the answer as 0 for the next one i'll get the answer as 1 and everywhere else i'll get.
+a 0 right similarly if l is equal to 3 then i'll get 0 0 1 and then all 0.
+right so any only one of these elements would be one so these kind of vectors are called one hot.
+vector because only one of their entries is going to be one right so let me just clear the slide.
+okay so this is what it looks like i'm going to call this vector as the one hot vector e.
+l where this contains a one in the l position this is a vector containing one in the l position.
+and zero everywhere else and that's just a more compact way of writing this i have not done anything new.
+i've just introduced a new notation for the vector e right okay ah so so far so good right so.
+what have we been able to do so far remember that this was h3 this part was h3 which was.

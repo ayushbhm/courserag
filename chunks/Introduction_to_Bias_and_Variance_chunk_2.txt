@@ -1,0 +1,9 @@
+instead of focusing on billions and millions is that deep learning models are often over parameterized right that means they.
+have a large number of parameters which are often more than the training points that you have right and in.
+such over parameterized models it's a well-known uh fact right that they are prone to overfitting right this is true.
+for machine learning that you have a large number of parameters and only a few points then you can easily.
+over fit on the training data that means you can drive the training error to zero uh for all the.
+training points right now that may be good but what happens is and that's what we will see in the.
+bias variance trade-off is that if you try to overfit the data on the training data right so you're trying.
+to kind of memorize everything that you see in the training data then you may not be able to generalize.
+well on the test data because that is unknown data so you have focused so much on uh they fixated.

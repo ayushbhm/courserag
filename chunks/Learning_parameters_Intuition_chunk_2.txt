@@ -1,0 +1,9 @@
+compactly where i am going to replace the collection of w and b by theta right that's the only change.
+i am going to do and that's fair enough this is how i'm going to write it more compactly so.
+theta naught is the collection of w naught b naught and once you understand that this falls in place right.
+so theta t plus 1 is just now w t plus one comma b t plus one and you're just.
+doing vector uh operations now instead of like individual uh element wise operations right and that's perfectly fine as we.
+saw in the previous slide where i had annotated the vectors right so there's nothing wrong here and where the.
+gradient right so when i say grad delta theta right i am going to use this notation right the more.
+appropriate elaborate notation would be gradient of the loss function with theta evaluated at time t right but i'm just.
+going to use this shortcut notation and hence i am elaborating what i mean by that it means just the.

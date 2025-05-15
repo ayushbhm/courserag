@@ -1,0 +1,9 @@
+this is happening is because of the exponentially decaying average right so now uh initially if you look at the.
+sum so say at time step T the sum was some uh so if you look at the derivative at.
+time step 0 right so let's look at the formula if I have it yeah so here remember that this.
+is like a moving window right so at time step V1 the weightage of beta 2 was 0.09 at time.
+step V2 the weightage of beta 0 was 0.08 so at each time step we see this Behavior where the.
+blue curve which is the accumulator curve which is the curve for VT it starts decreasing also because now the.
+current sum is less than the previous sum right uh because of the exponential weighting right and now because of.
+that what is happening is that in the case of ADA grad because your history was always accumulating your denominator.
+was always growing so hence there was always a decay in the learning rate but now since your history can.

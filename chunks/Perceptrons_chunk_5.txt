@@ -1,0 +1,10 @@
+model which was later refined and analyzed by minsky and pappered again we had referred to this in the history.
+in 1969 so that's the model that we're going to uh be talking about is just to make it clear.
+that what we are talking about okay so let's go ahead right so what does the uh perceptron model look.
+like so it's it's very similar right in form at least so you have y is equal to one if.
+the weighted sum of the inputs is going to be greater than equal to threshold right so earlier oops in.
+the uh mcculloch pits neuron or the mp neuron there was no notion of weights so it was just that.
+if the sum of the inputs is greater than equal to threshold but now i have if the weighted sum.
+of the inputs is greater than equal to threshold and that's where i get to assign weights to input so.
+if the input value is small but the weight to the input is large then still the contribution would be.
+higher right and notice that this index is over 1 to n because there are n inputs so from the.

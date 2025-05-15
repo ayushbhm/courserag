@@ -1,0 +1,10 @@
+you could have different values of K so my personal choice is always to go by the validation loss and.
+decrease the learning rate if the validation loss is increasing right so that's the first method that we had looked.
+at right now similarly you could have adjust the momentum right and for momentum there was this method suggested in.
+uh this paper and this looks very uh complex equation but it is not really very complex so let's try.
+to decode what it is right so there's a log here so let's and this T here the T stands.
+for time step so at time step 0 you would have log of 0 Plus 1. and log of 1.
+is 0 so this term would disappear so we'll just have 1 minus 2 raised to minus 1 right which.
+would just be 0.5 right and this says minimum of 0.5 and beta Max so beta Max is typically one.
+of these values uh so it would be uh or even 0 0 means there is no momentum of course.
+so beta Max would be one of these values so now in this case it would be minimum of say.

@@ -1,0 +1,9 @@
+you're allowed to read the textbook and your goal would be to ensure that all the formulae which are given.
+in the chapter you don't make any errors on that is that correct that's what your goal would be that.
+is akin to saying that for all the training points that i am given i should not make any error.
+or i should make minimum errors the minimum possible errors right so that's what training is then at the end.
+of the chapter you have exercises right that's your validation set okay because now you you you have not seen.
+this formula you have just learned the formula in the training data but using that you should be able to.
+solve this exercise and you might make some mistakes here so you're again allowed to go back and relearn the.
+chapter right you could say oh i'm not able to figure this out maybe go back and look at this.
+right so that's your validation set and then you have a test set which is your exam so now you.

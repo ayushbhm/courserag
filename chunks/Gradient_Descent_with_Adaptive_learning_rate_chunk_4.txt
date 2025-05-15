@@ -1,0 +1,9 @@
+X and the output y now if you wanted the derivative of the loss function with respect to W1 which.
+is one of the weights in this network right so remember earlier we had derived when we just had one.
+weight w we had derived this quantity which was the derivative of the loss function with respect to uh W.
+and this is the formula that we had got and the only thing that has changed is that that time.
+we had only one input which was X now we have four inputs X One X two x three x.
+four so if you derive the formula this part which I have the under braces that would remain the same.
+and it would just get multiplied by the appropriate input right the input to which the weight uh corresponds to.
+similarly for the second weight W2 the derivative of the loss function with respect to the weight right so this.
+would be uh so this quantity here is derivative of the loss function with respect to the weight W2 and.

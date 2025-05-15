@@ -1,0 +1,8 @@
+is again a kind of Regulation that we have discussed and then we have looked at penalizing the law cost.
+itself right which is adding this Omega Theta term that we have seen L well regulation is something you can.
+use we have studied L2 but similarly you could use L1 regularization right so this is one way of grouping.
+the regularization techniques the other way of grouping them is into explicit regularization and implicit regularization so we have looked.
+at mainly looked at explicit regularization like L2 regulation data augmentation all of these we have looked at and these.
+two we will look at when we look at convolutional neural networks in the case of implicit regularization we have.
+mainly looked at early stopping right but but the gradient descent based methods that we have looked at also have.
+an implicit regularization in terms of their preference for like less complex Solutions and then even the initial learning rates.

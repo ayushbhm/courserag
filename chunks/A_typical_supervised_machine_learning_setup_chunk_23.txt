@@ -1,0 +1,9 @@
+that means no point misclassified that means zero error now your objective function which is going to guide the learning.
+algorithm has to be something about minimizing the error right how to do that what is error all of that.
+we'll see in the subsequent slides right but that should what the goal be right and let's see yeah so.
+the learning algorithm should aim to minimize the loss function right there is more to be said here but i'll.
+not say those things in this slide we are going to come back to this slide again in a different.
+form and then i'll say a bit more right so right now i think what should be clear is the.
+data set up those three examples that i showed the model which is our approximation of the relation between x.
+and y the learning algorithm which whole point is to learn w any learning has to be driven by an.
+objective right so that the objective is to minimize the error function and that's what the objective is now how.

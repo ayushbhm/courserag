@@ -1,0 +1,9 @@
+means you are only listening to the current instruction you are not really considering the fact that I've been constantly.
+being asked to go in the direction okay people might have asked me to go in this direction but where.
+am I asked where are people asking me to go in the current step in this direction okay I'll just.
+follow that right but this entire history which was there that you were constantly being asked to go in that.
+direction that is not being captured right so now instead of just moving according to the current uh derivative or.
+the current gradient you are actually also considering the entire history right and this is a recursive equation and we'll.
+just open this recursive equation soon but this is akin to kind of taking all your past gradients and giving.
+them some importance and then moving in the cumulative direction right so that's what you are trying to do here.
+and this would become clear on the next slide so let me just do that and then come back uh.

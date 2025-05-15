@@ -1,0 +1,10 @@
+give me a zero error on the training data itself whereas complex models are able to overfit they are giving.
+me close to zero error on the training data at least some of them on average are giving me close.
+to zero error on the training data right so this is what is happening now so now what I have.
+drawn here I have the red curve which is my true sinusoidal function then the green curve that you see.
+that is the that is the average value of x hat for the simple model so what do I mean.
+by that what do I mean by that so I have computed 25 different models right I have each of.
+these models now I plug in a value of x into each of these models okay and I get y's.
+from each of these models right now I take the average value of that Y and I plot it so.
+if I plug in x equal to 0 I compute ah sorry there were 30 models not 25 right so.
+I compute ah F hat of x from all the 30 models and then take the average and plot it.

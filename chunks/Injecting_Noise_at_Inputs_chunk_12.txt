@@ -1,0 +1,9 @@
+down to 0 right so then the only thing that you are left with is this and this quantity uh.
+so let's see from there where do we go so this becomes the expected value of this error right plus.
+ah the the summation w i square is not the random variable so expectation of Epsilon Square into this sum.
+right this sum here and the expectation of Epsilon square is just Sigma Square so what you get effectively is.
+your loss term right which this was the training error right so if you estimate this expectation from the training.
+error from the training data that is what you are going to do because you only have the training data.
+at training time so this is your L Theta and this is your Omega Theta and this is actually the.
+same as the L2 loss because you are minimizing the sum of the squares of the weights which is the.
+same as the L2 Norm penalty right so in the simple input output Network without any non-linearity uh adding noise.

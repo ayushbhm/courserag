@@ -1,0 +1,9 @@
+were first introduced which is generative adversarial networks there have been a lot of innovations and improvements on that for.
+the past uh for the six seven years after that right and now uh again here uh there has been.
+like a paradigm shift right so in terms of what has now come out are what are known as diffusion.
+based models right which try to overcome several drawbacks of gan based models and you some of you might have.
+been so actually if you look at my twitter feed it's full of examples of hey i tried this generating.
+this with dali too and this is just fabulous hey i tried generating this with the stable diffusion model and.
+it's just fabulous right a lot of this kind of animations that you see on the right hand side of.
+the screen which is about generating images and daily what it actually does right it just takes a prompt and.
+generates very realistic images right so the example here is that it was given a prompt which says an arm.

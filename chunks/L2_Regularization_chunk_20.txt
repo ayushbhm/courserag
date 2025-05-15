@@ -1,0 +1,10 @@
+going to bring that back okay this pen work is fairly cumbersome I need to get rid of okay and.
+now instead of H so this is what we had on the previous slide right so this is what we.
+had derived so far and I'm just bringing that back and wherever I see H I'm going to substitute the.
+eigenvalue decomposition of H again all of this is nothing great happening here it is all just a series of.
+steps that I am doing I am trying to reach a point after which I can make some conceptual comments.
+where I can get some insights into what is happening into L2 regularization right so right now I'm just going.
+through the drill now I am just going to do a few more simple things yeah so again instead of.
+I here I have written it as q i q transpose so Q into I is of course equal to.
+q and then q q transpose is again equal to I so there is no harm in writing this this.
+is uh correct right and now once I have done that I can now regroup some terms and I can.

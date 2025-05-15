@@ -1,0 +1,9 @@
+hands down right and beat humans at them what i mean by that then uh the one popular breakthrough which.
+was which came was this uh the reinforcement learning agent which could play this game of go right if you're.
+not aware of go then in very layman terms i would tell you that it's something much more complex than.
+chess you all know that chess has many rules and there's an exponential number of possibilities there depending on what.
+i play and then there are many roots or many parts which open up right so go is something which.
+is even more complex than it is again a strategy based game and unlike previous algorithms which used brute force.
+kind of strategies this reinforcement learning agent based on deep reinforcement learning was able to beat the best go players.
+at that time right in 2015 and this of course gained a lot of popularity and attention and deep rl.
+became a very popular area and it still continues to be right then in 2016 again using the same uh.

@@ -1,0 +1,9 @@
+empirical train error plus a small constant plus some term and now we are seeing that this term is actually.
+proportional to model complexity or it is a function of model complexity so I am just going to write it.
+as Omega Model complexity right so just to indicate that this is actually dependent on the model complexity so higher.
+the model complexity larger this term would be that means your true error would be farther away from the empirical.
+trainer so you would estimate the train error and tell me hey it's almost zero but I will not believe.
+you because you have not told me anything about this quantity you have only estimated the train error which is.
+given by summation I equal to 1 to n y i minus y hat I the whole Square on the.
+training data right you have not given me anything about this so even if you tell me that hey your.
+training error is 0 I will not believe you because this quantity has not been accounted for and I know.

@@ -1,0 +1,9 @@
+you don't want the sensitivity towards eat or not right because you really want it to adapt and not get.
+stuck with an initial choice that you have made because at the start of the algorithm you make this choice.
+that Eternal is going to be 0.1 or 0.6 or 0.05 and then you are stuck with that choice right.
+instead can I get rid of this ETA naught and have like a more adaptive setup right so all of.
+this is trying to make a case for that okay so that's what is being said on the slide also.
+and therefore we wish the numerator also to change with respect to the gradient or the current slope right so.
+if I'm in a steeper region I want the numerator and denominator to adjust in uh kind of concurrence so.
+that I get a good effective learning rate and if I'm in a flat region again I want to want.
+them to adjust in kind of correlation so that I have have a good effective learning rate right right now.

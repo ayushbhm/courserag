@@ -1,0 +1,9 @@
+sides i want a closed tower right just as that 2d thing where you had a tower like this i'd.
+want a tower which is closed from all the four sides right now right now it's open from two sides.
+and that's where i had this discussion on what happens with the orientation right so you could have you could.
+see that one of the weights controls the movement in one direction and the other weight controls the movement in.
+the other direction right so right now is adjusting one of the weights right you can see here that w1.
+and w3 is what i have played with i have kept w2 and w4 as zero right and w2 and.
+w4 would help me move in this direction so it will probably form a block which would be in this.
+direction so it will bring in the remaining two walls i already have two walls for the tower i'm looking.
+for two more walls and all of this will become clear when i show you the illustration on the next.

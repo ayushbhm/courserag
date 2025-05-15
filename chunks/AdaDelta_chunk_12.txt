@@ -1,0 +1,9 @@
+this one time step delay what will happen is VT will start looking at a much bigger gradient than what.
+UT is looking at right so UT might be looking at these guys whereas V T minus v u t.
+minus 1 would be looking at sorry yeah U T minus 1 might be looking at these guys whereas VT.
+will start looking at the current gradient also and this is a very large value so it has more benefit.
+from the current large value and hence it would be larger than UT minus 1 and hence the effective learning.
+rate will again decrease right so that's what is happening here okay so that's that's the explanation of why having.
+this two histories one delayed by one time step is helping because it allows you to catch up with what.
+is happening in the history and then update the gradients according right so these values are not important but as.
+long as you have understood the pictorial explanation you will be able to relate it to what is happening with.

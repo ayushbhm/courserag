@@ -1,0 +1,9 @@
+now if I increase the number of towers okay this as you can read here is a poor approximation as.
+I increase the number of towers right my approximation becomes better and better right now you can see that the.
+tower the sum of the towers that I have right I'm just calling it a sum of towers because I.
+have many of these individual towers and I've just added them they're just all at displaced locations and when I.
+add all of them together as you'll see on the next slide I get this function back right and now.
+when I'm using a large number of towers where each Tower is very narrow then my approximation is becoming better.
+right so this slide as such has nothing to do with neural networks so far right so don't try to.
+connect it to what does this mean in respect to sigmoid neurons perceptrons nothing we're just trying to make a.
+basic observation that any arbitrary function I could I could approximate it by a series of tower functions right and.

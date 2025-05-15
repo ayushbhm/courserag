@@ -1,0 +1,9 @@
+any of these are possible that we have seen it so we take the prediction from all the K models.
+and then we take the average is 1 possibility or you could take the max that is another possibility you.
+could even take voting all of those possibilities exist right so this is what happens in uh model averaging and.
+then in deep neural networks the way we had done that was using uh Dropout right so we had uh.
+we knew that it's difficult to train multiple models so Dropout was a substitute for uh uh for getting the.
+effect of model average okay now uh the same thing I'll just repeat right so the model weights get optimized.
+for a specific set of sample each of those buckets corresponding to one of the models the model is over.
+trained on that bucket so it overfits but in dropouts we don't have a similar luxury right so in dropouts.
+what is happening is that you have these multiple sub models each sub model is getting sampled rarely right because.

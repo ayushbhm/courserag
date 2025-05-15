@@ -1,0 +1,10 @@
+very close right i would say this weight is closer to the loss function and the weight that i am.
+interested is much farther right but i know how to use the chain rule right so i can compute the.
+derivative of the loss function with this guy which is the green guy dark green guy then the derivative of.
+the dark green guy with respect to al1 and then i keep going down right and this is something that.
+you have done right so if i could write y hat is equal to say sine of cosine of square.
+of say tan of e of log of something right then you know how to compute this derivative right and.
+that's that's the chain this is a very long chain and you see a very long chain here too but.
+you know how to compute that right you just go about it one by one you compute the last guy.
+the derivative of y hat with the last guy that you had then the guy previous to that and so.
+on it just keep going uh in a chain that's a chain rule of derivative that all of you know.

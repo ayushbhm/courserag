@@ -1,0 +1,6 @@
+important because the eigen values these are remember the eigen values of the Hessian and the eigen values of the.
+Haitian tell us which directions are more sensitive and which directions are less sensitive right so I am not proving.
+that but you can go back and look at that the eigen values of the Hessian matrix these were the.
+eigen values of uh yeah of the Haitian Matrix so these tell us or which directions are more important and.
+which directions are less important right so all of this has now fallen in place and this picture kind of.
+summarizes what happens with LD regulations so that's all I had about L2 regularization I'll end this video here.

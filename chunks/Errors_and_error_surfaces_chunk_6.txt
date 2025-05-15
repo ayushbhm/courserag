@@ -1,0 +1,10 @@
+this yeah so error is a function of W1 and W 2 right so this is my W1 this is.
+my W2 and along the Z axis I am plotting the error and what are the values that the error.
+function can take integer values right it can either be zero error one error two error or three errors right.
+those are the values that it can take so that is why you see this step function here so for.
+certain values of w the error would be 0 which is the dark blue region for certain values it would.
+be 1 which is the purple region for certain values it would be 2 which is the orange region and.
+for certain values it would be 3 which is the yellow region right so that's those so now what I.
+have done is I've taken all possible values of oops yeah I've taken all possible values of w one W.
+two I've just restricted to minus four to plus 4 because that's all I can show on the plot and.
+this and I have substituted that those values in the equation and then just counted the number of errors that.

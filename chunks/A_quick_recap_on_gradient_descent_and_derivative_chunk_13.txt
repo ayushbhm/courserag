@@ -1,0 +1,9 @@
+the current loss right and when we solved for this uh inequality uh we made some arguments and what we.
+realized is that if you want that then this U which was the change that you were making uh which.
+is a vector should be in the direction opposite to the gradient right so that's what we arrived at so.
+we arrived at the gradient descent update rule that wherever you are okay you just move in the direction oppose.
+it hence minus take a small step in the direction oppose it to the gradient and this is the gradient.
+and what is this quantity what was the definition this is important because we will be using this quantity throughout.
+this lecture was that you compute the partial derivative of the loss function with respect to w and then evaluate.
+it at w equal to WT and be equal to b or BT right so suppose your loss function is.
+x square so you have only one parameter X or let me just instead of x square let me just.

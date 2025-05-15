@@ -1,0 +1,9 @@
+in the second case also it will draw some boundary and here the situation is better as you can see.
+it's making an error on some three orange points which are getting classified as blue and maybe a couple of.
+blue points which are getting classified as orange right and in most real-world applications we could deal with this kind.
+of an error right so there are like maybe uh 10 uh blue points here of its two are wrong.
+and 10 orange points of which two or three are wrong so 20 error we could deal with unless this.
+is like a mission critical uh application in which case it might be difficult but in most real world applications.
+we might be okay with it right for example if you're predicting whether this person is likely to vote for.
+one party or the other and if you make some error in that prediction like 20 of the people you.
+predict wrongly it won't make much of a difference right so it would still give you some rough idea of.

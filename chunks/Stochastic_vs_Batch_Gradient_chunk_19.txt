@@ -1,0 +1,9 @@
+so number of steps in one Epoch is just one right because after uh in one Epoch you just keep.
+accumulating all the gradients and then update once in stochastic gradient descent the number of steps in one Epoch is.
+equal to n right so because you are making an update for every data point and mini batch gradient is.
+said the number of steps in one Epoch is n by B which is the total number of data points.
+divided by your batch size so if you have thousand data points and hundred batch size then after every 100.
+points you'll be making an update so you'll be making a total of 10 updates right so that's what you.
+should remember okay uh similarly we can have the stochastic versions of momentum based gradient descent and nest of accelerated.
+gradient the same idea applies that you for stochastic momentum based gradient descent you'll just indent the update uh the.
+lines of code corresponding to update because after every data point you will make the update right and similarly for.

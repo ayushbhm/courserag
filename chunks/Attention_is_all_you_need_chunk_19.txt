@@ -1,0 +1,9 @@
+compute this I need H6 and H3 which I already have I don't need to see what is happening here.
+to be able to compute this function right so you already have a feeling that all these rows can be.
+computed in parallel as compared to the previous case where each row dependent on the previous row right because of.
+this St minus 1 that you have right so this Matrix is what I want to compute and I should.
+be able to compute this Matrix in parallel is what my wish list would be so essentially what we want.
+is a table like this which has some numbers and those numbers are meaningful in the sense that here it.
+and animal are related so the contextual similarity between them should be higher right in particular when I am Computing.
+the contextual representation for it I should have more weight on animal as opposed to the other words in the.
+sentence right so that's what we want so we want to learn these Alphas in that manner okay so how.

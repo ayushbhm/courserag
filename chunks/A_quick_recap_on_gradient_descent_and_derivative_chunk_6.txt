@@ -1,0 +1,9 @@
+to the two points but what is it that you are doing right intuition is clear but what's the connection.
+to the math path so the connection was the loss function right what you're trying to do subconsciously is that.
+every time you are adjusting the W and the B you're trying to make that sure that the loss that.
+I have which is the difference between the true value and the predicted value right is you're trying to make.
+sure that that decreases that's what you are trying to do and you are able to actually compute that loss.
+right so we knew what the loss function is we are using the squared error loss you knew the True.
+Value you knew the predicted value and you could just actually compute that physical quantity and in this case with.
+the current values of w and B this is how bad my uh approximation was right this is how bad.
+my current sigmoid function is it gives me a loss of 0.099 now once I had handled for this loss.

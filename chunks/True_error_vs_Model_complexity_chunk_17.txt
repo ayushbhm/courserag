@@ -1,0 +1,9 @@
+is what you should try to minimize now how do you encode this model complexity drive just Define a generic.
+function which says that this captures the model complexity now how do you define model complexity something that we will.
+see as we go along but the main idea here is that you should not just try to minimize this.
+error but you should also try to minimize the model complexity and yeah this Omega Theta would be high for.
+complex models and small for simple models so if you have complex models this quantity would be high and hence.
+your the loss that you are trying to minimize is still going to be high so it will not allow.
+you to make the models very complex right and this acts as an approximation for the quantity that we just.
+saw right so this is this is the model complexity term that we had seen and now you have to.
+come up with some functions which act as an approximation of this and when you are trying to reduce this.

@@ -1,0 +1,8 @@
+the current literature is on Transformers I mean they're popularly used in many applications so what happens is that in.
+warm start you initially let the learning rate increase right in all the other algorithms you start whatever adaptive algorithms.
+we had seen in you start with some learning rate and then it keeps decaying right and even the earlier.
+learning rate schedules that we had said step DK exponential decay you start with some value and there's always a.
+DK there right incident warm start what you do is you let the learning rate gradually increase to the maximum.
+point and from that point onwards you start the Decay right so initially when you don't know much right the.
+parameters are all randomly initialized you're not sure of your gradients then slowly slowly have the learning rate very small.
+so that you are not making very large updates and then as you gain confidence you keep increasing the learning.

@@ -1,0 +1,10 @@
+a sentence and you produce an output and what was being claimed is i can make a model which can.
+take an english sentence and give you a russian sentence as output which would be very close to the true.
+russian sentence that you would expect so those are the claims being made right any you could take a bunch.
+of inputs and give the output which would be very close to the human output that you would expect now.
+what uh minsky and pepper show that even for very simple functions right where this is not a very complex.
+function but a very simple function like the xor function for two variables right just take one say a and.
+b as input and you know what the xor function should give an output the perceptron is not capable of.
+learning that also that means i cannot come up with a perceptron model which takes a and b as input.
+and if i change a and b from 0 0 0 1 1 0 1 1 the output would be.
+the same as the truth table of the xor function right so that's what they showed right and that kind.

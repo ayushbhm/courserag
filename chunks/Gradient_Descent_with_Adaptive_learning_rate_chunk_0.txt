@@ -1,0 +1,9 @@
+foreign [Music] so we are in on this journey of looking at different variants of gradient descent and we looked.
+at quite a few of them in the last lecture and the main takeaways was the idea of momentum and.
+then how do you correct for momentum because momentum often takes you very fast so the correction was done through.
+natural accelerated gradient descent and then we saw the stochastic and the mini batch versions of these algorithms and also.
+talked a bit about how do you come up with learning rate schedules right and during the discussion at some.
+point we felt the need for like an Adaptive learning rate right so when you are on the Steep regions.
+you want the learning rate to be small and when you are on the gentle regions you want the learning.
+rate to be fast right so that's what I mean by adaptive so it should look at okay how is.
+the history been and where am I currently and can I accordingly slow down or maybe speed up a bit.

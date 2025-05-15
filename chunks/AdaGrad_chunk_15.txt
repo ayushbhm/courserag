@@ -1,0 +1,8 @@
+if we can somehow solve that problem okay so now let's examine this a bit more uh closely yeah so.
+you remember that we are accumulating this history now V 0 is Delta W 0 squared V1 is Delta W.
+0 squared plus Delta W1 square and so on right so this is constantly growing VT is constantly growing uninhibitedly.
+because you are adding those uh derivatives right and uh our derivative is proportional to X that means for the.
+uh feature which is pass these derivatives would be small so then our history will accumulate slowly hence this effective.
+learning rate will Decay slowly and it's also possible that initially it increases because us denominator might be less than.
+one so the effective learning rate increases and even when it decreases it is slow to decrease right because your.
+accumulations may happen only after a large number of iterations such that the denominator becomes large and then the effect.

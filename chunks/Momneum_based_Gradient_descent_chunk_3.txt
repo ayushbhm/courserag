@@ -1,0 +1,9 @@
+uh surface looked like okay this is very gentle slope here so here every step is small right but you.
+have been moving along this direction for a long time so what if you accumulate all this and then start.
+moving very fast so that you can come out of this uh this gentle region very quickly right so that's.
+the idea of momentum gaze gradient descent and we now need to take this uh intuition and convert it into.
+an equation right so let's see and this is the same as a ball gains momentum while rolling down a.
+slope right so it's slowly moving when it's on the gentle part here right but that it's moving it gains.
+momentum and then it starts moving very fast and because one way of looking at it is that it's constantly.
+being pushed in that direction so you're also constantly being asked to go in that direction the slope is small.
+but the direction is constantly this way you're saying okay go here at every point you are saying go here.

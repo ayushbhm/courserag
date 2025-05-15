@@ -1,0 +1,9 @@
+2 w t plus 1 right so this would be w t plus 1 corresponding to Eta 1 another WT.
+plus 1 corresponding to ETA two and so on so now we have found a new value for weight and.
+not just one new value you have found a bunch of new values each corresponding to a particular ETA now.
+plug in all these values in the loss function right so all of these values you could plug in into.
+the loss function all the different W's that you have computed and now whichever W gives you the minimum loss.
+you pick that up so what you have done effectively is that you have tried different learning rates and you.
+have made an update so you got a bunch of updated values now you're looking at each of those values.
+and Computing the loss and whichever update to updated value gives the minimum loss you're retaining that and throwing away.
+all of that and then again doing the same in the next iteration so the derivative only gets computed once.

@@ -1,0 +1,9 @@
+know how to compute every quantity in this vector right and we did this for those two simple values w.
+and b and that itself was quite a bit of a derivation so our quest would be somehow come up.
+with a formula which allows us to compute all of this at one go right without painfully deriving that in.
+fact we'll derive it but we derive it in such a way that we could compute an entire matrix of.
+their partial derivatives at one go instead of computing each of those n square values one by one right so.
+that's what one of the quests of this lecture is going to be but that's all for later for now.
+i want you to focus on this graduation from theta naught being a collection of two elements to theta naught.
+being a collection of many elements but as long as i can tell you what these are the same algorithm.
+still applies right because you just want to compute the derivative of the loss function with respect to each parameter.

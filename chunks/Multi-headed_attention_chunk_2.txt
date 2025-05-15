@@ -1,0 +1,10 @@
+you get you get a Z1 you get Z1 Z2 all the way up to ZT right so this is.
+what we had seen uh when we ended the last lecture now this is called one head so what what.
+I mean by a head here so this is a one such unit which takes the inputs H1 to H2.
+and gives you the elements Z1 to Z2 right or the refined representation Z1 to ZT which also take care.
+of the contextual information because they depend on the key they depend on the value and they depend on the.
+query right so they take care of the contextual information now you could have one more such block right so.
+you could have the same block repeated so let me just call this z11z21 and z uh one t right.
+so this is the output of the first attention head similarly you could have the same block repeated where you.
+have another set of parameters right so let me just call these uh W1 right these are the first set.
+of eight matrices you have similarly you could have another's repeated block right and let me just show it on.

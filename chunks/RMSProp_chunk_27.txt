@@ -1,0 +1,8 @@
+was accumulating the history over a period of time it starts decreasing because now all for the past many time.
+steps your history has been smaller gradients so all the high weightage things of R of small values and the.
+initial High values of gradients are now have diminished because they are being multiplied by a very high power of.
+beta right so as the VT starts decreasing the learning state starts increasing right so just to repeat till this.
+point your gradients were high hence your history was increasing after this point the current gradients were very small and.
+hence your history started decreasing because now all all you're in a steep region so all the things that are.
+getting added from this point onwards they're all small all so your effective sum is decreasing and in these two.
+halves you see the right behavior of the learning rate initially it decreases and then it increases when the curve.

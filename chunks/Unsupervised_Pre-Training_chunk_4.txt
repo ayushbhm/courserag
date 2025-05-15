@@ -1,0 +1,10 @@
+ah ok so what we will do is we will take X as the input okay and we will focus.
+on a very simple problem first right so this x is the input I have just taken the first hidden.
+layer so I have taken the hidden layer as it is and now instead of feeding this hidden layer to.
+the next layer I just disconnected the network and what I have done is I am now trying to predict.
+X again right so think of this this way that I had say some 1 0 2 4 dimensional input.
+then I have a hidden layer in between which is say 256 dimensional and then again an output layer which.
+is one zero two four and my goal is to do the following right first compute this 256 dimensional hidden.
+representation and then again reconstruct the output from it right and I my goal would be that if I call.
+this x hat and this says X then since I am reconstructing my X hat should be as close to.
+X right and that is what this loss function is calculating so my X was n dimensional so along each.

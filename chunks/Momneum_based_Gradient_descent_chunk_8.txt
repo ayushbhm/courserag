@@ -1,0 +1,8 @@
+but you are also taking all the history into account right so that's what is happening in momentum based gradient.
+descent and this beta is typically less than one right so typical value for beta would be 0.9 so what.
+does that mean you are giving weightage of 1 to the current gradient that's the maximum weightage you are giving.
+gradient of point weightage of 0.9 to the previous gradient weightage of 0.9 Square which would be 0.81 to the.
+previous gradient so we are giving decreasing importance to your uh previous and previous gradients right as you are farther.
+from the current step your weightage of that gradient is less but you are still accumulating all of that and.
+hence collectively this sum should tell you right because instead of just moving with this now collectively you will be.
+moving by a larger amount and that's exactly what you want on the flat surfaces because you're moving slow slow.

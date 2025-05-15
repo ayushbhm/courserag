@@ -1,0 +1,8 @@
+region so roughly half the problem solved but computational is of course very efficient right there is no exponent here.
+you just look at the value and the simple implementation is if greater than zero pass it right so it's.
+a very simple uh uh function to compute and in practice at least that's what this paper and as I.
+said it's a decade old paper had shown that it converges much faster than sigmoid and tannage and this was.
+in the context of deep convolutional neural networks then but thereafter it has been used in all sorts of networks.
+as I said great feed power networks recurrent networks Transformers also right all the now in Transformers there are there's.
+the Gedo activation function which is perhaps the default but yeah this has been used in multiple contexts right so.
+now uh although this all sounds good right so what all sounds good one is it does not saturate at.

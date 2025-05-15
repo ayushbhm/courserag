@@ -1,0 +1,9 @@
+have lied in the negative half space but there are these two green points which are also lying in negative.
+half space so i'm making errors on two inputs so in this configuration my perceptron is not actually representing the.
+or function it's not implementing the or function because it is making errors right so this is not an implementation.
+of the or function but there could be other values this i already showed i could even adjust the threshold.
+right so this w naught actually in the terms of a line tells me what my y intercept is going.
+to be right so i'm going to adjust it and it will intersect or intercept the y axis at different.
+points right and now so far the error is zero so all these solutions are valid but now if i.
+come here then i have a problem you can see error is equal to one because one point which red.
+point which should have been in the negative half space is now lying in the positive half space right so.

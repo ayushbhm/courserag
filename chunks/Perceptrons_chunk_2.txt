@@ -1,0 +1,9 @@
+decision and there is no notion of importance all the things like is it training am i in the mood.
+is the movie is good all of these inputs were some of given equal weights right and if you go.
+back to the biological neuron again there was this connection there and that connection is actually the weight or the.
+strength of the connection between two neurons so there also it was of all the neurons giving an input to.
+one neuron maybe some had more importance than the others right so that notion of weight or importance is not.
+being captured and the last is i ended the previous video saying that could there be not non-linearly separable boolean.
+functions and we'll try to address that what what are these functions and are what do you do if they're.
+not linearly separable right so not maybe in this particular module or video but these are the questions that we'll.
+try to answer over the course of this lecture so so you had this mp neuron or the mecolic bits.

@@ -1,0 +1,4002 @@
+[
+  {
+    "text": "[Music]",
+    "start": 0.33,
+    "duration": 10.029
+  },
+  {
+    "text": "hi everyone uh so let's start with uh",
+    "start": 18.08,
+    "duration": 4.32
+  },
+  {
+    "text": "lecture one of this course uh where",
+    "start": 20.56,
+    "duration": 3.44
+  },
+  {
+    "text": "we'll be talking about",
+    "start": 22.4,
+    "duration": 3.6
+  },
+  {
+    "text": "a brief and maybe a bit selective",
+    "start": 24.0,
+    "duration": 4.08
+  },
+  {
+    "text": "partial history of uh deep learning",
+    "start": 26.0,
+    "duration": 4.88
+  },
+  {
+    "text": "right so you talk about uh deep learning",
+    "start": 28.08,
+    "duration": 4.8
+  },
+  {
+    "text": "right so most of this material uh the",
+    "start": 30.88,
+    "duration": 3.76
+  },
+  {
+    "text": "early material that is that at least",
+    "start": 32.88,
+    "duration": 4.8
+  },
+  {
+    "text": "there in these slides uh is taken by",
+    "start": 34.64,
+    "duration": 4.8
+  },
+  {
+    "text": "from this article on deep learning in",
+    "start": 37.68,
+    "duration": 3.52
+  },
+  {
+    "text": "neural networks and overview by",
+    "start": 39.44,
+    "duration": 3.68
+  },
+  {
+    "text": "schmidtober",
+    "start": 41.2,
+    "duration": 3.6
+  },
+  {
+    "text": "there might be some errors in my",
+    "start": 43.12,
+    "duration": 3.36
+  },
+  {
+    "text": "accounting of the history and if they",
+    "start": 44.8,
+    "duration": 3.919
+  },
+  {
+    "text": "are then i apologize for them and also",
+    "start": 46.48,
+    "duration": 3.84
+  },
+  {
+    "text": "feel free to contact me if you think",
+    "start": 48.719,
+    "duration": 3.84
+  },
+  {
+    "text": "certain portions need to be corrected or",
+    "start": 50.32,
+    "duration": 3.36
+  },
+  {
+    "text": "there are more things which have",
+    "start": 52.559,
+    "duration": 2.801
+  },
+  {
+    "text": "happened and you would like to",
+    "start": 53.68,
+    "duration": 3.76
+  },
+  {
+    "text": "uh me to add them right so",
+    "start": 55.36,
+    "duration": 4.879
+  },
+  {
+    "text": "i first did this history lecture almost",
+    "start": 57.44,
+    "duration": 5.759
+  },
+  {
+    "text": "like six years back uh and it was more",
+    "start": 60.239,
+    "duration": 5.441
+  },
+  {
+    "text": "easier to manage but in the past four",
+    "start": 63.199,
+    "duration": 4.721
+  },
+  {
+    "text": "five years i think there's been a",
+    "start": 65.68,
+    "duration": 4.56
+  },
+  {
+    "text": "much rapid explosion than what it was",
+    "start": 67.92,
+    "duration": 4.0
+  },
+  {
+    "text": "earlier even at that time there was",
+    "start": 70.24,
+    "duration": 3.84
+  },
+  {
+    "text": "quite a bit of work happening but it has",
+    "start": 71.92,
+    "duration": 4.559
+  },
+  {
+    "text": "exponentially grown since then and it's",
+    "start": 74.08,
+    "duration": 4.64
+  },
+  {
+    "text": "often hard to keep track of uh different",
+    "start": 76.479,
+    "duration": 4.241
+  },
+  {
+    "text": "things so maybe i've missed quite a few",
+    "start": 78.72,
+    "duration": 4.079
+  },
+  {
+    "text": "things i understand for example",
+    "start": 80.72,
+    "duration": 5.28
+  },
+  {
+    "text": "uh speech progress in speech is not very",
+    "start": 82.799,
+    "duration": 5.521
+  },
+  {
+    "text": "appropriately captured in these slides",
+    "start": 86.0,
+    "duration": 4.079
+  },
+  {
+    "text": "but the idea is just to give you an",
+    "start": 88.32,
+    "duration": 4.159
+  },
+  {
+    "text": "overall flavor from where we are and",
+    "start": 90.079,
+    "duration": 4.561
+  },
+  {
+    "text": "where we have reached and maybe a few",
+    "start": 92.479,
+    "duration": 3.361
+  },
+  {
+    "text": "things here and there would have been",
+    "start": 94.64,
+    "duration": 2.479
+  },
+  {
+    "text": "missed but it should still give you a",
+    "start": 95.84,
+    "duration": 3.2
+  },
+  {
+    "text": "fairly reasonable idea of",
+    "start": 97.119,
+    "duration": 4.081
+  },
+  {
+    "text": "what are the latest developments and how",
+    "start": 99.04,
+    "duration": 4.32
+  },
+  {
+    "text": "they have evolved over the years okay so",
+    "start": 101.2,
+    "duration": 4.559
+  },
+  {
+    "text": "with that uh primer let me just",
+    "start": 103.36,
+    "duration": 3.439
+  },
+  {
+    "text": "start",
+    "start": 105.759,
+    "duration": 2.961
+  },
+  {
+    "text": "so as i was trying to say that when we",
+    "start": 106.799,
+    "duration": 3.921
+  },
+  {
+    "text": "talk about deep learning uh we're",
+    "start": 108.72,
+    "duration": 4.16
+  },
+  {
+    "text": "talking about neural networks and at",
+    "start": 110.72,
+    "duration": 4.719
+  },
+  {
+    "text": "least we hear that keep hearing that a",
+    "start": 112.88,
+    "duration": 3.76
+  },
+  {
+    "text": "lot of inspiration comes from the",
+    "start": 115.439,
+    "duration": 3.121
+  },
+  {
+    "text": "biological neurons or at least we are",
+    "start": 116.64,
+    "duration": 3.28
+  },
+  {
+    "text": "also currently",
+    "start": 118.56,
+    "duration": 2.879
+  },
+  {
+    "text": "uh",
+    "start": 119.92,
+    "duration": 3.44
+  },
+  {
+    "text": "still striving right to try to",
+    "start": 121.439,
+    "duration": 3.761
+  },
+  {
+    "text": "understand how the brain does things and",
+    "start": 123.36,
+    "duration": 3.439
+  },
+  {
+    "text": "maybe come up with models of that right",
+    "start": 125.2,
+    "duration": 3.919
+  },
+  {
+    "text": "so let's start that history uh from",
+    "start": 126.799,
+    "duration": 5.761
+  },
+  {
+    "text": "biology actually and we go back uh quite",
+    "start": 129.119,
+    "duration": 6.721
+  },
+  {
+    "text": "a bit of quite a few years 150 years in",
+    "start": 132.56,
+    "duration": 4.16
+  },
+  {
+    "text": "time",
+    "start": 135.84,
+    "duration": 3.759
+  },
+  {
+    "text": "uh to around 1871 right and this was a",
+    "start": 136.72,
+    "duration": 4.0
+  },
+  {
+    "text": "time when people are trying to",
+    "start": 139.599,
+    "duration": 3.121
+  },
+  {
+    "text": "understand what does our nervous system",
+    "start": 140.72,
+    "duration": 3.28
+  },
+  {
+    "text": "look like right",
+    "start": 142.72,
+    "duration": 2.239
+  },
+  {
+    "text": "and",
+    "start": 144.0,
+    "duration": 4.4
+  },
+  {
+    "text": "joseph von gerlach who was one of the",
+    "start": 144.959,
+    "duration": 6.321
+  },
+  {
+    "text": "researchers or scientists in this field",
+    "start": 148.4,
+    "duration": 5.04
+  },
+  {
+    "text": "he came up with this idea that our",
+    "start": 151.28,
+    "duration": 4.48
+  },
+  {
+    "text": "nervous system is a continuous network",
+    "start": 153.44,
+    "duration": 4.72
+  },
+  {
+    "text": "right as opposed to being composed of",
+    "start": 155.76,
+    "duration": 4.32
+  },
+  {
+    "text": "various discrete cells which are",
+    "start": 158.16,
+    "duration": 3.68
+  },
+  {
+    "text": "connected to each other right and this",
+    "start": 160.08,
+    "duration": 4.08
+  },
+  {
+    "text": "view of the brain or the nervous system",
+    "start": 161.84,
+    "duration": 6.0
+  },
+  {
+    "text": "was called the reticular theory",
+    "start": 164.16,
+    "duration": 5.52
+  },
+  {
+    "text": "and this will be important in our",
+    "start": 167.84,
+    "duration": 3.84
+  },
+  {
+    "text": "discussions on deep learning as we uh",
+    "start": 169.68,
+    "duration": 3.76
+  },
+  {
+    "text": "keep seeing through these uh slides",
+    "start": 171.68,
+    "duration": 2.8
+  },
+  {
+    "text": "right so",
+    "start": 173.44,
+    "duration": 3.2
+  },
+  {
+    "text": "and again one of the things i want to",
+    "start": 174.48,
+    "duration": 3.52
+  },
+  {
+    "text": "emphasize through this history is that",
+    "start": 176.64,
+    "duration": 3.28
+  },
+  {
+    "text": "there are various discoveries happen not",
+    "start": 178.0,
+    "duration": 3.519
+  },
+  {
+    "text": "necessarily in deep learning or in",
+    "start": 179.92,
+    "duration": 3.039
+  },
+  {
+    "text": "computer science but in different fields",
+    "start": 181.519,
+    "duration": 3.201
+  },
+  {
+    "text": "right which have over the years",
+    "start": 182.959,
+    "duration": 4.081
+  },
+  {
+    "text": "influenced where we are today so one of",
+    "start": 184.72,
+    "duration": 5.519
+  },
+  {
+    "text": "these was again very early in the 1870s",
+    "start": 187.04,
+    "duration": 6.4
+  },
+  {
+    "text": "the staining technique was developed",
+    "start": 190.239,
+    "duration": 5.681
+  },
+  {
+    "text": "and it allowed it was a basically a",
+    "start": 193.44,
+    "duration": 4.079
+  },
+  {
+    "text": "chemical reaction which allowed you to",
+    "start": 195.92,
+    "duration": 4.64
+  },
+  {
+    "text": "examine nervous tissues better right and",
+    "start": 197.519,
+    "duration": 5.921
+  },
+  {
+    "text": "camillio golgi came up with this and",
+    "start": 200.56,
+    "duration": 5.36
+  },
+  {
+    "text": "using that chemical reaction he",
+    "start": 203.44,
+    "duration": 4.879
+  },
+  {
+    "text": "analyzed a slice of the nervous tissue",
+    "start": 205.92,
+    "duration": 4.0
+  },
+  {
+    "text": "and he came up",
+    "start": 208.319,
+    "duration": 4.0
+  },
+  {
+    "text": "with the same conclusion that actually",
+    "start": 209.92,
+    "duration": 4.8
+  },
+  {
+    "text": "this nervous system is like one",
+    "start": 212.319,
+    "duration": 4.321
+  },
+  {
+    "text": "continuous network and it's not composed",
+    "start": 214.72,
+    "duration": 3.68
+  },
+  {
+    "text": "of discrete units so he was also a",
+    "start": 216.64,
+    "duration": 3.92
+  },
+  {
+    "text": "proponent of reticular theory right and",
+    "start": 218.4,
+    "duration": 2.96
+  },
+  {
+    "text": "he",
+    "start": 220.56,
+    "duration": 1.599
+  },
+  {
+    "text": "his",
+    "start": 221.36,
+    "duration": 1.92
+  },
+  {
+    "text": "evidence for that was through the",
+    "start": 222.159,
+    "duration": 2.561
+  },
+  {
+    "text": "staining technique",
+    "start": 223.28,
+    "duration": 3.28
+  },
+  {
+    "text": "but quite interestingly",
+    "start": 224.72,
+    "duration": 4.159
+  },
+  {
+    "text": "around the same time",
+    "start": 226.56,
+    "duration": 4.72
+  },
+  {
+    "text": "uh santiago i won't pronounce the full",
+    "start": 228.879,
+    "duration": 4.401
+  },
+  {
+    "text": "name because i can't use the same",
+    "start": 231.28,
+    "duration": 4.239
+  },
+  {
+    "text": "technique the same straining technique",
+    "start": 233.28,
+    "duration": 3.84
+  },
+  {
+    "text": "which uh",
+    "start": 235.519,
+    "duration": 5.121
+  },
+  {
+    "text": "golgi had come up with right and",
+    "start": 237.12,
+    "duration": 5.199
+  },
+  {
+    "text": "by making similar observations using the",
+    "start": 240.64,
+    "duration": 3.28
+  },
+  {
+    "text": "same technique but maybe seeing things a",
+    "start": 242.319,
+    "duration": 3.601
+  },
+  {
+    "text": "bit differently he came up with the",
+    "start": 243.92,
+    "duration": 5.599
+  },
+  {
+    "text": "conclusion around 88 and 1888 1891 time",
+    "start": 245.92,
+    "duration": 4.48
+  },
+  {
+    "text": "frame",
+    "start": 249.519,
+    "duration": 3.761
+  },
+  {
+    "text": "that no actually the nervous system is",
+    "start": 250.4,
+    "duration": 5.52
+  },
+  {
+    "text": "made up of discrete individual cells",
+    "start": 253.28,
+    "duration": 5.44
+  },
+  {
+    "text": "forming a network right so two different",
+    "start": 255.92,
+    "duration": 5.12
+  },
+  {
+    "text": "uh prominent theories at that time one",
+    "start": 258.72,
+    "duration": 3.919
+  },
+  {
+    "text": "says that it's a",
+    "start": 261.04,
+    "duration": 4.32
+  },
+  {
+    "text": "single uh network the other says that",
+    "start": 262.639,
+    "duration": 3.84
+  },
+  {
+    "text": "it's a",
+    "start": 265.36,
+    "duration": 2.64
+  },
+  {
+    "text": "single continuous network the other says",
+    "start": 266.479,
+    "duration": 3.28
+  },
+  {
+    "text": "it's a network of discrete elements",
+    "start": 268.0,
+    "duration": 2.72
+  },
+  {
+    "text": "right that means there are many",
+    "start": 269.759,
+    "duration": 2.641
+  },
+  {
+    "text": "individual components which are",
+    "start": 270.72,
+    "duration": 3.52
+  },
+  {
+    "text": "connected together right and one is the",
+    "start": 272.4,
+    "duration": 4.32
+  },
+  {
+    "text": "neural neuron doctrine and the other is",
+    "start": 274.24,
+    "duration": 4.16
+  },
+  {
+    "text": "the reticular theory",
+    "start": 276.72,
+    "duration": 3.0
+  },
+  {
+    "text": "and then around",
+    "start": 278.4,
+    "duration": 3.28
+  },
+  {
+    "text": "1891",
+    "start": 279.72,
+    "duration": 3.479
+  },
+  {
+    "text": "this gentleman",
+    "start": 281.68,
+    "duration": 4.079
+  },
+  {
+    "text": "i'll again not pronounce the full name",
+    "start": 283.199,
+    "duration": 3.521
+  },
+  {
+    "text": "he",
+    "start": 285.759,
+    "duration": 3.281
+  },
+  {
+    "text": "coined the term neuron right this term",
+    "start": 286.72,
+    "duration": 4.08
+  },
+  {
+    "text": "was coined by him and today when we talk",
+    "start": 289.04,
+    "duration": 4.4
+  },
+  {
+    "text": "about artificial neurons the word neuron",
+    "start": 290.8,
+    "duration": 4.72
+  },
+  {
+    "text": "originally is attributed to this",
+    "start": 293.44,
+    "duration": 3.199
+  },
+  {
+    "text": "gentleman",
+    "start": 295.52,
+    "duration": 2.959
+  },
+  {
+    "text": "and he further consolidated the neuron",
+    "start": 296.639,
+    "duration": 3.361
+  },
+  {
+    "text": "doctrine that means he found further",
+    "start": 298.479,
+    "duration": 3.041
+  },
+  {
+    "text": "evidence and consolidated different",
+    "start": 300.0,
+    "duration": 4.88
+  },
+  {
+    "text": "views and said that indeed it seems that",
+    "start": 301.52,
+    "duration": 5.28
+  },
+  {
+    "text": "the neuron doctrine is the right way of",
+    "start": 304.88,
+    "duration": 3.759
+  },
+  {
+    "text": "explaining what the nervous system is as",
+    "start": 306.8,
+    "duration": 3.679
+  },
+  {
+    "text": "opposed to the reticular",
+    "start": 308.639,
+    "duration": 4.4
+  },
+  {
+    "text": "theory right and just uh trivia here he",
+    "start": 310.479,
+    "duration": 5.121
+  },
+  {
+    "text": "was also the person who coined the term",
+    "start": 313.039,
+    "duration": 4.321
+  },
+  {
+    "text": "chromosome it's the two very important",
+    "start": 315.6,
+    "duration": 4.08
+  },
+  {
+    "text": "terms that we hear about today both are",
+    "start": 317.36,
+    "duration": 5.2
+  },
+  {
+    "text": "coined by this gentleman here right",
+    "start": 319.68,
+    "duration": 4.16
+  },
+  {
+    "text": "now here's a question right so there are",
+    "start": 322.56,
+    "duration": 3.68
+  },
+  {
+    "text": "these computing theories one proposed by",
+    "start": 323.84,
+    "duration": 4.48
+  },
+  {
+    "text": "um golgi and the one by the other",
+    "start": 326.24,
+    "duration": 3.04
+  },
+  {
+    "text": "gentleman",
+    "start": 328.32,
+    "duration": 2.879
+  },
+  {
+    "text": "uh reticular theory and neuron doctrine",
+    "start": 329.28,
+    "duration": 4.56
+  },
+  {
+    "text": "right so now around 1905",
+    "start": 331.199,
+    "duration": 4.961
+  },
+  {
+    "text": "when the nobel prize in medicine was",
+    "start": 333.84,
+    "duration": 4.639
+  },
+  {
+    "text": "given who do you think it went to right",
+    "start": 336.16,
+    "duration": 3.92
+  },
+  {
+    "text": "the person who propagated the reticular",
+    "start": 338.479,
+    "duration": 3.361
+  },
+  {
+    "text": "theory or the neuron doctrine what's",
+    "start": 340.08,
+    "duration": 4.8
+  },
+  {
+    "text": "your take on that",
+    "start": 341.84,
+    "duration": 5.199
+  },
+  {
+    "text": "so i hear various answers",
+    "start": 344.88,
+    "duration": 4.48
+  },
+  {
+    "text": "but it turns out that",
+    "start": 347.039,
+    "duration": 4.16
+  },
+  {
+    "text": "both of them got it right so by that",
+    "start": 349.36,
+    "duration": 4.72
+  },
+  {
+    "text": "time again i mean we have been like 1871",
+    "start": 351.199,
+    "duration": 5.84
+  },
+  {
+    "text": "to 1906 quite a few years that in terms",
+    "start": 354.08,
+    "duration": 5.92
+  },
+  {
+    "text": "of the way uh research progresses today",
+    "start": 357.039,
+    "duration": 4.88
+  },
+  {
+    "text": "at least in deep learning",
+    "start": 360.0,
+    "duration": 4.639
+  },
+  {
+    "text": "like several generations right 35 years",
+    "start": 361.919,
+    "duration": 4.961
+  },
+  {
+    "text": "but still there was not uh any",
+    "start": 364.639,
+    "duration": 3.84
+  },
+  {
+    "text": "conclusion of these and both these",
+    "start": 366.88,
+    "duration": 4.159
+  },
+  {
+    "text": "schools of thoughts uh were in existence",
+    "start": 368.479,
+    "duration": 5.761
+  },
+  {
+    "text": "with their own champions right and again",
+    "start": 371.039,
+    "duration": 4.72
+  },
+  {
+    "text": "given that the nobel prize was given to",
+    "start": 374.24,
+    "duration": 3.36
+  },
+  {
+    "text": "both of them this resulted in lasting",
+    "start": 375.759,
+    "duration": 4.481
+  },
+  {
+    "text": "conflicting ideas and between the two",
+    "start": 377.6,
+    "duration": 4.719
+  },
+  {
+    "text": "groups of scientists who believed in",
+    "start": 380.24,
+    "duration": 3.12
+  },
+  {
+    "text": "this",
+    "start": 382.319,
+    "duration": 3.44
+  },
+  {
+    "text": "these two different theories right and",
+    "start": 383.36,
+    "duration": 4.399
+  },
+  {
+    "text": "this took quite a bit of time to resolve",
+    "start": 385.759,
+    "duration": 3.521
+  },
+  {
+    "text": "and not by",
+    "start": 387.759,
+    "duration": 4.481
+  },
+  {
+    "text": "developments in biology but developments",
+    "start": 389.28,
+    "duration": 5.199
+  },
+  {
+    "text": "in a very different field so around",
+    "start": 392.24,
+    "duration": 7.76
+  },
+  {
+    "text": "1950s when electron microscopy was",
+    "start": 394.479,
+    "duration": 6.961
+  },
+  {
+    "text": "became",
+    "start": 400.0,
+    "duration": 2.8
+  },
+  {
+    "text": "useful",
+    "start": 401.44,
+    "duration": 3.28
+  },
+  {
+    "text": "at that time using the electron",
+    "start": 402.8,
+    "duration": 4.0
+  },
+  {
+    "text": "microscopy technology it was finally",
+    "start": 404.72,
+    "duration": 4.72
+  },
+  {
+    "text": "confirmed that the neuron doctrine is",
+    "start": 406.8,
+    "duration": 5.6
+  },
+  {
+    "text": "the right one that means that the brain",
+    "start": 409.44,
+    "duration": 5.039
+  },
+  {
+    "text": "or the nervous system has many small",
+    "start": 412.4,
+    "duration": 4.56
+  },
+  {
+    "text": "cells called neurons and they are all",
+    "start": 414.479,
+    "duration": 4.0
+  },
+  {
+    "text": "interconnected to each other through",
+    "start": 416.96,
+    "duration": 3.519
+  },
+  {
+    "text": "synapses right and this",
+    "start": 418.479,
+    "duration": 4.0
+  },
+  {
+    "text": "structure where you have neurons and",
+    "start": 420.479,
+    "duration": 4.0
+  },
+  {
+    "text": "they have connections between them is",
+    "start": 422.479,
+    "duration": 3.361
+  },
+  {
+    "text": "what kind of",
+    "start": 424.479,
+    "duration": 3.361
+  },
+  {
+    "text": "forms the foundation of modern deep",
+    "start": 425.84,
+    "duration": 4.0
+  },
+  {
+    "text": "neural networks also it took over quite",
+    "start": 427.84,
+    "duration": 4.32
+  },
+  {
+    "text": "a bit of time and progress in different",
+    "start": 429.84,
+    "duration": 4.72
+  },
+  {
+    "text": "fields to come to this conclusion which",
+    "start": 432.16,
+    "duration": 4.64
+  },
+  {
+    "text": "then motivated work uh in deep neural",
+    "start": 434.56,
+    "duration": 4.4
+  },
+  {
+    "text": "networks or neural networks at that time",
+    "start": 436.8,
+    "duration": 4.32
+  },
+  {
+    "text": "which has now evolved to where it has",
+    "start": 438.96,
+    "duration": 4.48
+  },
+  {
+    "text": "right so quite a bit of history and",
+    "start": 441.12,
+    "duration": 3.6
+  },
+  {
+    "text": "quite a bit of developments from",
+    "start": 443.44,
+    "duration": 3.199
+  },
+  {
+    "text": "different fields which have led to this",
+    "start": 444.72,
+    "duration": 4.879
+  },
+  {
+    "text": "place right so now moving on or in fact",
+    "start": 446.639,
+    "duration": 4.321
+  },
+  {
+    "text": "there is one more",
+    "start": 449.599,
+    "duration": 2.961
+  },
+  {
+    "text": "before we move on right there's one more",
+    "start": 450.96,
+    "duration": 3.519
+  },
+  {
+    "text": "thing about the brains which there was a",
+    "start": 452.56,
+    "duration": 3.6
+  },
+  {
+    "text": "great debate about",
+    "start": 454.479,
+    "duration": 3.84
+  },
+  {
+    "text": "which was uh whether the processing in",
+    "start": 456.16,
+    "duration": 4.72
+  },
+  {
+    "text": "brain is localized or is it distributed",
+    "start": 458.319,
+    "duration": 4.32
+  },
+  {
+    "text": "so what it means by",
+    "start": 460.88,
+    "duration": 4.319
+  },
+  {
+    "text": "means that there was one group",
+    "start": 462.639,
+    "duration": 4.081
+  },
+  {
+    "text": "which felt that if you're talking about",
+    "start": 465.199,
+    "duration": 4.72
+  },
+  {
+    "text": "speech or vision or any specific uh",
+    "start": 466.72,
+    "duration": 5.36
+  },
+  {
+    "text": "activities that the brain is responsible",
+    "start": 469.919,
+    "duration": 4.081
+  },
+  {
+    "text": "for they are localized there are certain",
+    "start": 472.08,
+    "duration": 2.959
+  },
+  {
+    "text": "portions of the brain which are",
+    "start": 474.0,
+    "duration": 2.639
+  },
+  {
+    "text": "responsible for speech certain for",
+    "start": 475.039,
+    "duration": 3.361
+  },
+  {
+    "text": "vision and so on and there was this",
+    "start": 476.639,
+    "duration": 3.28
+  },
+  {
+    "text": "another group which thought it's",
+    "start": 478.4,
+    "duration": 3.04
+  },
+  {
+    "text": "distributed that means different parts",
+    "start": 479.919,
+    "duration": 3.68
+  },
+  {
+    "text": "of the brain connect in different ways",
+    "start": 481.44,
+    "duration": 4.159
+  },
+  {
+    "text": "to do different activities it's not that",
+    "start": 483.599,
+    "duration": 3.521
+  },
+  {
+    "text": "one part of speech and the other part is",
+    "start": 485.599,
+    "duration": 4.16
+  },
+  {
+    "text": "so right and you can go back and look at",
+    "start": 487.12,
+    "duration": 5.12
+  },
+  {
+    "text": "this video i'll not play it which is",
+    "start": 489.759,
+    "duration": 4.081
+  },
+  {
+    "text": "about this great",
+    "start": 492.24,
+    "duration": 3.519
+  },
+  {
+    "text": "brain debate about localized versus",
+    "start": 493.84,
+    "duration": 4.16
+  },
+  {
+    "text": "distributed processing and that again",
+    "start": 495.759,
+    "duration": 4.0
+  },
+  {
+    "text": "took a while to",
+    "start": 498.0,
+    "duration": 3.52
+  },
+  {
+    "text": "settle right and now this is again",
+    "start": 499.759,
+    "duration": 3.28
+  },
+  {
+    "text": "important because again in modern deep",
+    "start": 501.52,
+    "duration": 2.799
+  },
+  {
+    "text": "networks we",
+    "start": 503.039,
+    "duration": 3.041
+  },
+  {
+    "text": "believe that it's more distributed",
+    "start": 504.319,
+    "duration": 3.041
+  },
+  {
+    "text": "different parts",
+    "start": 506.08,
+    "duration": 3.2
+  },
+  {
+    "text": "interact with each other to do different",
+    "start": 507.36,
+    "duration": 3.44
+  },
+  {
+    "text": "things whereas there's also push for",
+    "start": 509.28,
+    "duration": 3.119
+  },
+  {
+    "text": "having what is known as localized",
+    "start": 510.8,
+    "duration": 3.359
+  },
+  {
+    "text": "processing especially in modern",
+    "start": 512.399,
+    "duration": 3.921
+  },
+  {
+    "text": "multilingual models we want certain",
+    "start": 514.159,
+    "duration": 4.481
+  },
+  {
+    "text": "portions of the network to only adhere",
+    "start": 516.32,
+    "duration": 4.399
+  },
+  {
+    "text": "to computations related to a certain",
+    "start": 518.64,
+    "duration": 4.16
+  },
+  {
+    "text": "language or even now certain inputs",
+    "start": 520.719,
+    "duration": 4.081
+  },
+  {
+    "text": "right and the rest of the network may be",
+    "start": 522.8,
+    "duration": 3.36
+  },
+  {
+    "text": "doing other things and so on right so",
+    "start": 524.8,
+    "duration": 3.44
+  },
+  {
+    "text": "you can just look at this video also",
+    "start": 526.16,
+    "duration": 4.16
+  },
+  {
+    "text": "which is uh again another kind of a",
+    "start": 528.24,
+    "duration": 3.76
+  },
+  {
+    "text": "debate about brains the first one was",
+    "start": 530.32,
+    "duration": 3.76
+  },
+  {
+    "text": "whether it's single or distribu or",
+    "start": 532.0,
+    "duration": 4.24
+  },
+  {
+    "text": "disconnected now this is more about",
+    "start": 534.08,
+    "duration": 4.0
+  },
+  {
+    "text": "whether it's localized or distributed",
+    "start": 536.24,
+    "duration": 3.52
+  },
+  {
+    "text": "right and both of these are relevant",
+    "start": 538.08,
+    "duration": 3.759
+  },
+  {
+    "text": "even today in terms of modern deep",
+    "start": 539.76,
+    "duration": 4.8
+  },
+  {
+    "text": "neural networks right so from these uh",
+    "start": 541.839,
+    "duration": 5.041
+  },
+  {
+    "text": "biological neurons where the inspiration",
+    "start": 544.56,
+    "duration": 4.8
+  },
+  {
+    "text": "for neural networks came now let's move",
+    "start": 546.88,
+    "duration": 4.72
+  },
+  {
+    "text": "to the actual artificial neuron set and",
+    "start": 549.36,
+    "duration": 4.56
+  },
+  {
+    "text": "that's where this period of time that",
+    "start": 551.6,
+    "duration": 4.32
+  },
+  {
+    "text": "we'll cover which is called the spring",
+    "start": 553.92,
+    "duration": 3.76
+  },
+  {
+    "text": "to the winter of ai and i'll tell you",
+    "start": 555.92,
+    "duration": 3.2
+  },
+  {
+    "text": "why these two",
+    "start": 557.68,
+    "duration": 3.2
+  },
+  {
+    "text": "seasons have cropped up in us in our",
+    "start": 559.12,
+    "duration": 2.96
+  },
+  {
+    "text": "discussion right",
+    "start": 560.88,
+    "duration": 3.92
+  },
+  {
+    "text": "so around 1943 while we were still",
+    "start": 562.08,
+    "duration": 5.28
+  },
+  {
+    "text": "trying to understand uh what uh the",
+    "start": 564.8,
+    "duration": 4.24
+  },
+  {
+    "text": "brain is and we are in fact i mean still",
+    "start": 567.36,
+    "duration": 4.56
+  },
+  {
+    "text": "today trying to understand it uh uh",
+    "start": 569.04,
+    "duration": 4.88
+  },
+  {
+    "text": "mcculloch and pits right to",
+    "start": 571.92,
+    "duration": 3.919
+  },
+  {
+    "text": "neuroscientists and logistics right and",
+    "start": 573.92,
+    "duration": 3.44
+  },
+  {
+    "text": "again people coming from different",
+    "start": 575.839,
+    "duration": 2.481
+  },
+  {
+    "text": "fields",
+    "start": 577.36,
+    "duration": 3.039
+  },
+  {
+    "text": "who were contributing to this area right",
+    "start": 578.32,
+    "duration": 3.68
+  },
+  {
+    "text": "of course at that time computer science",
+    "start": 580.399,
+    "duration": 4.0
+  },
+  {
+    "text": "was not so evolved",
+    "start": 582.0,
+    "duration": 5.04
+  },
+  {
+    "text": "it was still a field which was in",
+    "start": 584.399,
+    "duration": 6.961
+  },
+  {
+    "text": "formation right so uh or just getting",
+    "start": 587.04,
+    "duration": 8.0
+  },
+  {
+    "text": "formed so so these two uh uh",
+    "start": 591.36,
+    "duration": 5.36
+  },
+  {
+    "text": "one neuroscientist and logician they",
+    "start": 595.04,
+    "duration": 3.359
+  },
+  {
+    "text": "proposed a simplified model of the",
+    "start": 596.72,
+    "duration": 3.04
+  },
+  {
+    "text": "neuron and this is something that we'll",
+    "start": 598.399,
+    "duration": 3.761
+  },
+  {
+    "text": "do in the course in uh detail in the",
+    "start": 599.76,
+    "duration": 4.4
+  },
+  {
+    "text": "next lecture itself where they just said",
+    "start": 602.16,
+    "duration": 4.0
+  },
+  {
+    "text": "that a neuron a model of the brain would",
+    "start": 604.16,
+    "duration": 3.84
+  },
+  {
+    "text": "be that there are multiple inputs coming",
+    "start": 606.16,
+    "duration": 3.359
+  },
+  {
+    "text": "to it right and these could be inputs",
+    "start": 608.0,
+    "duration": 3.2
+  },
+  {
+    "text": "from a sensory organs and based on that",
+    "start": 609.519,
+    "duration": 3.361
+  },
+  {
+    "text": "it takes a decision and a very",
+    "start": 611.2,
+    "duration": 3.199
+  },
+  {
+    "text": "simplified model is where all these",
+    "start": 612.88,
+    "duration": 3.04
+  },
+  {
+    "text": "inputs are binary and the decision is",
+    "start": 614.399,
+    "duration": 4.481
+  },
+  {
+    "text": "also binary so i take inputs like uh is",
+    "start": 615.92,
+    "duration": 5.68
+  },
+  {
+    "text": "it raining outside do i have money do i",
+    "start": 618.88,
+    "duration": 5.04
+  },
+  {
+    "text": "have time and if so maybe i'll go out to",
+    "start": 621.6,
+    "duration": 4.4
+  },
+  {
+    "text": "watch a movie right so that's how the",
+    "start": 623.92,
+    "duration": 3.039
+  },
+  {
+    "text": "decision",
+    "start": 626.0,
+    "duration": 1.92
+  },
+  {
+    "text": "uh",
+    "start": 626.959,
+    "duration": 2.721
+  },
+  {
+    "text": "making processes modeled with a very",
+    "start": 627.92,
+    "duration": 5.52
+  },
+  {
+    "text": "simplified model right and then this",
+    "start": 629.68,
+    "duration": 5.839
+  },
+  {
+    "text": "again got modified",
+    "start": 633.44,
+    "duration": 4.32
+  },
+  {
+    "text": "and",
+    "start": 635.519,
+    "duration": 2.241
+  },
+  {
+    "text": "this perceptron model was proposed by",
+    "start": 638.16,
+    "duration": 4.4
+  },
+  {
+    "text": "frank rosenblatt and this is what he had",
+    "start": 640.72,
+    "duration": 4.4
+  },
+  {
+    "text": "to say about it when he proposed it and",
+    "start": 642.56,
+    "duration": 3.68
+  },
+  {
+    "text": "if you look at the diagram of course the",
+    "start": 645.12,
+    "duration": 2.48
+  },
+  {
+    "text": "perceptron model is again something that",
+    "start": 646.24,
+    "duration": 3.279
+  },
+  {
+    "text": "we'll do in detail in the course",
+    "start": 647.6,
+    "duration": 4.239
+  },
+  {
+    "text": "uh you'll see that it's very similar to",
+    "start": 649.519,
+    "duration": 3.841
+  },
+  {
+    "text": "the earlier diagram except you see some",
+    "start": 651.839,
+    "duration": 2.721
+  },
+  {
+    "text": "weights here right so now these",
+    "start": 653.36,
+    "duration": 2.88
+  },
+  {
+    "text": "different decision factors have some",
+    "start": 654.56,
+    "duration": 3.839
+  },
+  {
+    "text": "weight i would give more",
+    "start": 656.24,
+    "duration": 5.599
+  },
+  {
+    "text": "emphasis to the input about me having",
+    "start": 658.399,
+    "duration": 6.081
+  },
+  {
+    "text": "money or not as opposed to whether i'm",
+    "start": 661.839,
+    "duration": 4.161
+  },
+  {
+    "text": "in the mood to go out or not because if",
+    "start": 664.48,
+    "duration": 3.12
+  },
+  {
+    "text": "i don't have money maybe i can't go out",
+    "start": 666.0,
+    "duration": 3.36
+  },
+  {
+    "text": "and really spend anything or do anything",
+    "start": 667.6,
+    "duration": 4.64
+  },
+  {
+    "text": "right so that's the basic idea here and",
+    "start": 669.36,
+    "duration": 4.08
+  },
+  {
+    "text": "this is what he had to say that the",
+    "start": 672.24,
+    "duration": 3.279
+  },
+  {
+    "text": "perceptron may eventually be able to",
+    "start": 673.44,
+    "duration": 2.959
+  },
+  {
+    "text": "learn",
+    "start": 675.519,
+    "duration": 3.921
+  },
+  {
+    "text": "make decisions and translate languages",
+    "start": 676.399,
+    "duration": 3.841
+  },
+  {
+    "text": "right",
+    "start": 679.44,
+    "duration": 2.88
+  },
+  {
+    "text": "now when i read this i i find something",
+    "start": 680.24,
+    "duration": 4.0
+  },
+  {
+    "text": "very strange about this statement right",
+    "start": 682.32,
+    "duration": 4.16
+  },
+  {
+    "text": "learn make decisions and translate",
+    "start": 684.24,
+    "duration": 4.32
+  },
+  {
+    "text": "languages so what is the oddity here",
+    "start": 686.48,
+    "duration": 4.16
+  },
+  {
+    "text": "right what what seems a bit odd here",
+    "start": 688.56,
+    "duration": 5.2
+  },
+  {
+    "text": "[Music]",
+    "start": 690.64,
+    "duration": 3.12
+  },
+  {
+    "text": "yeah so the phrase translate language i",
+    "start": 694.24,
+    "duration": 3.44
+  },
+  {
+    "text": "can understand about learning and making",
+    "start": 696.399,
+    "duration": 2.721
+  },
+  {
+    "text": "decisions because that's generally what",
+    "start": 697.68,
+    "duration": 3.599
+  },
+  {
+    "text": "we associate the brain with but why",
+    "start": 699.12,
+    "duration": 4.08
+  },
+  {
+    "text": "something so specific which is about",
+    "start": 701.279,
+    "duration": 4.161
+  },
+  {
+    "text": "translate languages right so this as you",
+    "start": 703.2,
+    "duration": 4.639
+  },
+  {
+    "text": "can see this is a period 1957 to 58",
+    "start": 705.44,
+    "duration": 4.24
+  },
+  {
+    "text": "which is after the war",
+    "start": 707.839,
+    "duration": 3.601
+  },
+  {
+    "text": "and even during the war right i mean",
+    "start": 709.68,
+    "duration": 3.04
+  },
+  {
+    "text": "there was a lot of emphasis on being",
+    "start": 711.44,
+    "duration": 3.839
+  },
+  {
+    "text": "able to translate messages from enemies",
+    "start": 712.72,
+    "duration": 5.04
+  },
+  {
+    "text": "which spoke different languages german",
+    "start": 715.279,
+    "duration": 4.641
+  },
+  {
+    "text": "russian english and so on right and so",
+    "start": 717.76,
+    "duration": 4.0
+  },
+  {
+    "text": "translation was an important problem to",
+    "start": 719.92,
+    "duration": 5.52
+  },
+  {
+    "text": "be solved in that era and hence this was",
+    "start": 721.76,
+    "duration": 5.199
+  },
+  {
+    "text": "said that this will also be able to",
+    "start": 725.44,
+    "duration": 3.839
+  },
+  {
+    "text": "learn how to translate languages",
+    "start": 726.959,
+    "duration": 4.241
+  },
+  {
+    "text": "and today",
+    "start": 729.279,
+    "duration": 4.721
+  },
+  {
+    "text": "are almost like 70 years later right we",
+    "start": 731.2,
+    "duration": 4.879
+  },
+  {
+    "text": "are still trying to solve that problem",
+    "start": 734.0,
+    "duration": 4.079
+  },
+  {
+    "text": "very recently facebook has released a",
+    "start": 736.079,
+    "duration": 4.161
+  },
+  {
+    "text": "paper on which can do translation",
+    "start": 738.079,
+    "duration": 5.44
+  },
+  {
+    "text": "between 40 000 pairs involving 200",
+    "start": 740.24,
+    "duration": 5.279
+  },
+  {
+    "text": "languages but there's still a very long",
+    "start": 743.519,
+    "duration": 4.241
+  },
+  {
+    "text": "tale of languages that we still need to",
+    "start": 745.519,
+    "duration": 3.841
+  },
+  {
+    "text": "enable translation for and of course",
+    "start": 747.76,
+    "duration": 2.639
+  },
+  {
+    "text": "this is",
+    "start": 749.36,
+    "duration": 2.88
+  },
+  {
+    "text": "just initial flag planting in the sense",
+    "start": 750.399,
+    "duration": 4.161
+  },
+  {
+    "text": "that by no means are these 40 000",
+    "start": 752.24,
+    "duration": 4.88
+  },
+  {
+    "text": "directions uh the translations adequate",
+    "start": 754.56,
+    "duration": 4.32
+  },
+  {
+    "text": "they're still at various levels of",
+    "start": 757.12,
+    "duration": 3.519
+  },
+  {
+    "text": "quality and much more is desired to make",
+    "start": 758.88,
+    "duration": 3.44
+  },
+  {
+    "text": "them really useful so we are still",
+    "start": 760.639,
+    "duration": 3.041
+  },
+  {
+    "text": "trying to",
+    "start": 762.32,
+    "duration": 3.519
+  },
+  {
+    "text": "solve that problem after so many years",
+    "start": 763.68,
+    "duration": 4.08
+  },
+  {
+    "text": "right while this statement was made many",
+    "start": 765.839,
+    "duration": 3.601
+  },
+  {
+    "text": "years back and the reason i'm saying",
+    "start": 767.76,
+    "duration": 3.6
+  },
+  {
+    "text": "that is that as has been a",
+    "start": 769.44,
+    "duration": 3.6
+  },
+  {
+    "text": "characteristic of",
+    "start": 771.36,
+    "duration": 4.0
+  },
+  {
+    "text": "machine learning deep learning a lot of",
+    "start": 773.04,
+    "duration": 3.28
+  },
+  {
+    "text": "tall",
+    "start": 775.36,
+    "duration": 3.12
+  },
+  {
+    "text": "claims get made but it takes time for",
+    "start": 776.32,
+    "duration": 5.199
+  },
+  {
+    "text": "those claims to uh realize right and",
+    "start": 778.48,
+    "duration": 4.24
+  },
+  {
+    "text": "that often leads to certain",
+    "start": 781.519,
+    "duration": 3.041
+  },
+  {
+    "text": "dissatisfaction in terms of what we",
+    "start": 782.72,
+    "duration": 3.44
+  },
+  {
+    "text": "expect these systems to do versus what",
+    "start": 784.56,
+    "duration": 3.36
+  },
+  {
+    "text": "they can do of late of course we are",
+    "start": 786.16,
+    "duration": 2.64
+  },
+  {
+    "text": "making",
+    "start": 787.92,
+    "duration": 3.2
+  },
+  {
+    "text": "uh rapid progress where we're trying to",
+    "start": 788.8,
+    "duration": 3.839
+  },
+  {
+    "text": "meet some of these expectations but",
+    "start": 791.12,
+    "duration": 3.12
+  },
+  {
+    "text": "still i would say a lot needs a lot",
+    "start": 792.639,
+    "duration": 4.32
+  },
+  {
+    "text": "still a lot of still desire in terms of",
+    "start": 794.24,
+    "duration": 7.599
+  },
+  {
+    "text": "really understanding the way humans do",
+    "start": 796.959,
+    "duration": 4.88
+  },
+  {
+    "text": "and this statement right again very",
+    "start": 802.8,
+    "duration": 4.0
+  },
+  {
+    "text": "interesting the am this is the embryo of",
+    "start": 804.32,
+    "duration": 4.88
+  },
+  {
+    "text": "an electronic computer that the navy",
+    "start": 806.8,
+    "duration": 5.36
+  },
+  {
+    "text": "expects will be able to walk talk see",
+    "start": 809.2,
+    "duration": 5.68
+  },
+  {
+    "text": "write reproduce itself and be conscious",
+    "start": 812.16,
+    "duration": 5.44
+  },
+  {
+    "text": "of its existence right even today 70",
+    "start": 814.88,
+    "duration": 4.72
+  },
+  {
+    "text": "years later this is the stuff of sci-fi",
+    "start": 817.6,
+    "duration": 3.359
+  },
+  {
+    "text": "movies right there's a stuff of",
+    "start": 819.6,
+    "duration": 3.84
+  },
+  {
+    "text": "futuristic movies where we see that okay",
+    "start": 820.959,
+    "duration": 5.201
+  },
+  {
+    "text": "ai can now become conscious it can",
+    "start": 823.44,
+    "duration": 4.56
+  },
+  {
+    "text": "reproduce itself it can take over the",
+    "start": 826.16,
+    "duration": 3.44
+  },
+  {
+    "text": "world and so on if you're still it's",
+    "start": 828.0,
+    "duration": 3.76
+  },
+  {
+    "text": "still the subject of sci-fi movies it's",
+    "start": 829.6,
+    "duration": 3.599
+  },
+  {
+    "text": "still not something that",
+    "start": 831.76,
+    "duration": 3.92
+  },
+  {
+    "text": "has happened in reality right so and",
+    "start": 833.199,
+    "duration": 5.121
+  },
+  {
+    "text": "this is an article from way back 1957-58",
+    "start": 835.68,
+    "duration": 4.88
+  },
+  {
+    "text": "even today we see these such similar",
+    "start": 838.32,
+    "duration": 3.92
+  },
+  {
+    "text": "articles right so much not much has",
+    "start": 840.56,
+    "duration": 3.839
+  },
+  {
+    "text": "changed in terms of the hype that is",
+    "start": 842.24,
+    "duration": 4.56
+  },
+  {
+    "text": "generally there around ai machine",
+    "start": 844.399,
+    "duration": 5.44
+  },
+  {
+    "text": "learning deep learning",
+    "start": 846.8,
+    "duration": 3.039
+  },
+  {
+    "text": "then this all was for a single",
+    "start": 850.72,
+    "duration": 4.16
+  },
+  {
+    "text": "perceptron and what we know today as",
+    "start": 852.639,
+    "duration": 4.0
+  },
+  {
+    "text": "deep learnings which is like a",
+    "start": 854.88,
+    "duration": 4.88
+  },
+  {
+    "text": "multi-layer network of neurons right so",
+    "start": 856.639,
+    "duration": 5.681
+  },
+  {
+    "text": "this idea is also not new right this was",
+    "start": 859.76,
+    "duration": 5.759
+  },
+  {
+    "text": "there way back in 1965-68",
+    "start": 862.32,
+    "duration": 4.24
+  },
+  {
+    "text": "by",
+    "start": 865.519,
+    "duration": 3.12
+  },
+  {
+    "text": "by scientist called evac nenco and his",
+    "start": 866.56,
+    "duration": 3.839
+  },
+  {
+    "text": "group who proposed what is looking like",
+    "start": 868.639,
+    "duration": 3.041
+  },
+  {
+    "text": "a very modern",
+    "start": 870.399,
+    "duration": 3.12
+  },
+  {
+    "text": "uh deep neural network right so this",
+    "start": 871.68,
+    "duration": 4.08
+  },
+  {
+    "text": "idea also existed quite bad a lot of",
+    "start": 873.519,
+    "duration": 3.68
+  },
+  {
+    "text": "these ideas",
+    "start": 875.76,
+    "duration": 3.28
+  },
+  {
+    "text": "have had their generations right they",
+    "start": 877.199,
+    "duration": 4.161
+  },
+  {
+    "text": "were proposed initially maybe the",
+    "start": 879.04,
+    "duration": 3.76
+  },
+  {
+    "text": "conditions at that time were not so",
+    "start": 881.36,
+    "duration": 3.12
+  },
+  {
+    "text": "conducive for these ideas maybe they",
+    "start": 882.8,
+    "duration": 3.76
+  },
+  {
+    "text": "were a bit ahead of their times and then",
+    "start": 884.48,
+    "duration": 3.84
+  },
+  {
+    "text": "30 years back again people picked up",
+    "start": 886.56,
+    "duration": 2.959
+  },
+  {
+    "text": "those ideas and then maybe the",
+    "start": 888.32,
+    "duration": 2.639
+  },
+  {
+    "text": "conditions were right so there's again",
+    "start": 889.519,
+    "duration": 3.361
+  },
+  {
+    "text": "like a repeating theme in this",
+    "start": 890.959,
+    "duration": 3.44
+  },
+  {
+    "text": "area",
+    "start": 892.88,
+    "duration": 3.199
+  },
+  {
+    "text": "but around the same time what happened",
+    "start": 894.399,
+    "duration": 4.721
+  },
+  {
+    "text": "right in 1969 so 1957 when you saw those",
+    "start": 896.079,
+    "duration": 5.12
+  },
+  {
+    "text": "statements being made about perceptron",
+    "start": 899.12,
+    "duration": 3.839
+  },
+  {
+    "text": "and then the new york times articles and",
+    "start": 901.199,
+    "duration": 4.481
+  },
+  {
+    "text": "many such similar articles the next 12",
+    "start": 902.959,
+    "duration": 4.88
+  },
+  {
+    "text": "to 13 years was what i would call as the",
+    "start": 905.68,
+    "duration": 4.08
+  },
+  {
+    "text": "spring time of ei that was a lot of",
+    "start": 907.839,
+    "duration": 4.24
+  },
+  {
+    "text": "curiosity around this area a lot of",
+    "start": 909.76,
+    "duration": 4.0
+  },
+  {
+    "text": "government funding available for this",
+    "start": 912.079,
+    "duration": 3.2
+  },
+  {
+    "text": "right at least in the u.s a lot of the",
+    "start": 913.76,
+    "duration": 3.439
+  },
+  {
+    "text": "funding was on science and technology",
+    "start": 915.279,
+    "duration": 3.36
+  },
+  {
+    "text": "was driven by",
+    "start": 917.199,
+    "duration": 2.88
+  },
+  {
+    "text": "government bodies at that time and there",
+    "start": 918.639,
+    "duration": 2.961
+  },
+  {
+    "text": "was a lot of interest in making really",
+    "start": 920.079,
+    "duration": 3.921
+  },
+  {
+    "text": "ai work given the promise",
+    "start": 921.6,
+    "duration": 5.28
+  },
+  {
+    "text": "made of what it could do if allowed to",
+    "start": 924.0,
+    "duration": 5.56
+  },
+  {
+    "text": "flourish right but then around",
+    "start": 926.88,
+    "duration": 6.24
+  },
+  {
+    "text": "1969 in their now famous book uh minsky",
+    "start": 929.56,
+    "duration": 4.76
+  },
+  {
+    "text": "and pepper",
+    "start": 933.12,
+    "duration": 2.56
+  },
+  {
+    "text": "uh",
+    "start": 934.32,
+    "duration": 3.199
+  },
+  {
+    "text": "outlined the limits of what perceptrons",
+    "start": 935.68,
+    "duration": 4.32
+  },
+  {
+    "text": "could do right and what they said in",
+    "start": 937.519,
+    "duration": 4.481
+  },
+  {
+    "text": "very simple terms is that",
+    "start": 940.0,
+    "duration": 4.639
+  },
+  {
+    "text": "uh while we are thinking that",
+    "start": 942.0,
+    "duration": 5.839
+  },
+  {
+    "text": "uh perceptron can model any real world",
+    "start": 944.639,
+    "duration": 5.44
+  },
+  {
+    "text": "phenomenon what that means is that",
+    "start": 947.839,
+    "duration": 4.8
+  },
+  {
+    "text": "suppose i have a complex decision to",
+    "start": 950.079,
+    "duration": 5.841
+  },
+  {
+    "text": "make right which depends on say various",
+    "start": 952.639,
+    "duration": 4.32
+  },
+  {
+    "text": "inputs",
+    "start": 955.92,
+    "duration": 2.64
+  },
+  {
+    "text": "right and i'll just start using some",
+    "start": 956.959,
+    "duration": 2.88
+  },
+  {
+    "text": "terminology",
+    "start": 958.56,
+    "duration": 6.8
+  },
+  {
+    "text": "say rn x belongs to rn which oh sorry",
+    "start": 959.839,
+    "duration": 5.521
+  },
+  {
+    "text": "right which means there are n inputs",
+    "start": 966.32,
+    "duration": 4.24
+  },
+  {
+    "text": "right and you have a function and you",
+    "start": 968.56,
+    "duration": 3.76
+  },
+  {
+    "text": "want to take a decision",
+    "start": 970.56,
+    "duration": 3.76
+  },
+  {
+    "text": "and this function is of course complex",
+    "start": 972.32,
+    "duration": 4.319
+  },
+  {
+    "text": "that you don't know what it is right so",
+    "start": 974.32,
+    "duration": 4.639
+  },
+  {
+    "text": "what claims were being made is that if",
+    "start": 976.639,
+    "duration": 4.161
+  },
+  {
+    "text": "you have this relation where you have an",
+    "start": 978.959,
+    "duration": 2.641
+  },
+  {
+    "text": "x",
+    "start": 980.8,
+    "duration": 2.64
+  },
+  {
+    "text": "you have some function",
+    "start": 981.6,
+    "duration": 4.56
+  },
+  {
+    "text": "which gives you out y right and if you",
+    "start": 983.44,
+    "duration": 5.28
+  },
+  {
+    "text": "give me enough instances of",
+    "start": 986.16,
+    "duration": 5.039
+  },
+  {
+    "text": "this which means",
+    "start": 988.72,
+    "duration": 4.799
+  },
+  {
+    "text": "okay",
+    "start": 991.199,
+    "duration": 2.32
+  },
+  {
+    "text": "yeah if you give me x 1 y 1 x 2 y 2",
+    "start": 995.68,
+    "duration": 7.92
+  },
+  {
+    "text": "x 3 y 3 enough input output pairs of",
+    "start": 1000.32,
+    "duration": 4.639
+  },
+  {
+    "text": "this function right so you have",
+    "start": 1003.6,
+    "duration": 3.28
+  },
+  {
+    "text": "decisions that you have taken in",
+    "start": 1004.959,
+    "duration": 4.24
+  },
+  {
+    "text": "the past for certain inputs then i could",
+    "start": 1006.88,
+    "duration": 3.92
+  },
+  {
+    "text": "train a model",
+    "start": 1009.199,
+    "duration": 2.401
+  },
+  {
+    "text": "right",
+    "start": 1010.8,
+    "duration": 3.52
+  },
+  {
+    "text": "which could take again an input x and",
+    "start": 1011.6,
+    "duration": 5.359
+  },
+  {
+    "text": "give out an output y which would be very",
+    "start": 1014.32,
+    "duration": 4.879
+  },
+  {
+    "text": "close to the true y that should have",
+    "start": 1016.959,
+    "duration": 3.601
+  },
+  {
+    "text": "been there right that is the claim that",
+    "start": 1019.199,
+    "duration": 4.56
+  },
+  {
+    "text": "was being made right and what uh",
+    "start": 1020.56,
+    "duration": 4.56
+  },
+  {
+    "text": "and that's why right i mean translation",
+    "start": 1023.759,
+    "duration": 3.2
+  },
+  {
+    "text": "languages could be one such example you",
+    "start": 1025.12,
+    "duration": 3.199
+  },
+  {
+    "text": "have an input which is a sentence and",
+    "start": 1026.959,
+    "duration": 3.441
+  },
+  {
+    "text": "you produce an output and what was being",
+    "start": 1028.319,
+    "duration": 4.0
+  },
+  {
+    "text": "claimed is i can make a model which can",
+    "start": 1030.4,
+    "duration": 3.519
+  },
+  {
+    "text": "take an english sentence and give you a",
+    "start": 1032.319,
+    "duration": 3.6
+  },
+  {
+    "text": "russian sentence as output which would",
+    "start": 1033.919,
+    "duration": 3.841
+  },
+  {
+    "text": "be very close to the true russian",
+    "start": 1035.919,
+    "duration": 3.601
+  },
+  {
+    "text": "sentence that you would expect so those",
+    "start": 1037.76,
+    "duration": 3.84
+  },
+  {
+    "text": "are the claims being made right any you",
+    "start": 1039.52,
+    "duration": 3.6
+  },
+  {
+    "text": "could take a bunch of inputs and give",
+    "start": 1041.6,
+    "duration": 3.04
+  },
+  {
+    "text": "the output which would be very close to",
+    "start": 1043.12,
+    "duration": 4.079
+  },
+  {
+    "text": "the human output that you would expect",
+    "start": 1044.64,
+    "duration": 4.64
+  },
+  {
+    "text": "now what uh minsky and pepper show that",
+    "start": 1047.199,
+    "duration": 3.84
+  },
+  {
+    "text": "even for very simple functions right",
+    "start": 1049.28,
+    "duration": 3.2
+  },
+  {
+    "text": "where this is not a very complex",
+    "start": 1051.039,
+    "duration": 3.041
+  },
+  {
+    "text": "function but a very simple function like",
+    "start": 1052.48,
+    "duration": 3.439
+  },
+  {
+    "text": "the xor function",
+    "start": 1054.08,
+    "duration": 4.959
+  },
+  {
+    "text": "for two variables right just take one",
+    "start": 1055.919,
+    "duration": 5.12
+  },
+  {
+    "text": "say a and b as input and you know what",
+    "start": 1059.039,
+    "duration": 4.0
+  },
+  {
+    "text": "the xor function should give an output",
+    "start": 1061.039,
+    "duration": 4.321
+  },
+  {
+    "text": "the perceptron is not capable of",
+    "start": 1063.039,
+    "duration": 4.561
+  },
+  {
+    "text": "learning that also that means i cannot",
+    "start": 1065.36,
+    "duration": 4.88
+  },
+  {
+    "text": "come up with a perceptron model which",
+    "start": 1067.6,
+    "duration": 5.439
+  },
+  {
+    "text": "takes a and b as input and if i change a",
+    "start": 1070.24,
+    "duration": 5.92
+  },
+  {
+    "text": "and b from 0 0 0 1 1 0 1 1 the output",
+    "start": 1073.039,
+    "duration": 4.88
+  },
+  {
+    "text": "would be the same as the truth table of",
+    "start": 1076.16,
+    "duration": 3.28
+  },
+  {
+    "text": "the xor function right so that's what",
+    "start": 1077.919,
+    "duration": 4.64
+  },
+  {
+    "text": "they showed right and that kind of",
+    "start": 1079.44,
+    "duration": 4.64
+  },
+  {
+    "text": "led to significant disappointment",
+    "start": 1082.559,
+    "duration": 3.041
+  },
+  {
+    "text": "because now you have like a very simple",
+    "start": 1084.08,
+    "duration": 3.12
+  },
+  {
+    "text": "function and you're claiming that a",
+    "start": 1085.6,
+    "duration": 3.36
+  },
+  {
+    "text": "perceptron cannot even solve that then",
+    "start": 1087.2,
+    "duration": 3.52
+  },
+  {
+    "text": "how do you expect you to solve much more",
+    "start": 1088.96,
+    "duration": 4.16
+  },
+  {
+    "text": "complex real-world examples like the",
+    "start": 1090.72,
+    "duration": 4.4
+  },
+  {
+    "text": "translation example or complex decision",
+    "start": 1093.12,
+    "duration": 3.2
+  },
+  {
+    "text": "making like",
+    "start": 1095.12,
+    "duration": 3.2
+  },
+  {
+    "text": "giving a bunch of parameters about a",
+    "start": 1096.32,
+    "duration": 4.0
+  },
+  {
+    "text": "patient right blood sugar level",
+    "start": 1098.32,
+    "duration": 3.84
+  },
+  {
+    "text": "cholesterol and so on and trying to",
+    "start": 1100.32,
+    "duration": 3.76
+  },
+  {
+    "text": "predict the",
+    "start": 1102.16,
+    "duration": 4.24
+  },
+  {
+    "text": "life expectancy or the possibility of a",
+    "start": 1104.08,
+    "duration": 3.28
+  },
+  {
+    "text": "person",
+    "start": 1106.4,
+    "duration": 2.56
+  },
+  {
+    "text": "getting a cardiac",
+    "start": 1107.36,
+    "duration": 3.04
+  },
+  {
+    "text": "ailment in the future and so on and",
+    "start": 1108.96,
+    "duration": 2.959
+  },
+  {
+    "text": "those are much more complex decisions",
+    "start": 1110.4,
+    "duration": 3.2
+  },
+  {
+    "text": "than just a simple xor function right so",
+    "start": 1111.919,
+    "duration": 3.921
+  },
+  {
+    "text": "this led to a lot of disappointment",
+    "start": 1113.6,
+    "duration": 2.959
+  },
+  {
+    "text": "but",
+    "start": 1115.84,
+    "duration": 3.28
+  },
+  {
+    "text": "unfortunately right so",
+    "start": 1116.559,
+    "duration": 4.48
+  },
+  {
+    "text": "while this statement is true right and",
+    "start": 1119.12,
+    "duration": 4.0
+  },
+  {
+    "text": "it's a classic example that we also use",
+    "start": 1121.039,
+    "duration": 3.441
+  },
+  {
+    "text": "today i'll also be doing this in the",
+    "start": 1123.12,
+    "duration": 2.559
+  },
+  {
+    "text": "course",
+    "start": 1124.48,
+    "duration": 3.6
+  },
+  {
+    "text": "uh minsky and pepper said this only in",
+    "start": 1125.679,
+    "duration": 4.321
+  },
+  {
+    "text": "the context of a single percept right",
+    "start": 1128.08,
+    "duration": 3.599
+  },
+  {
+    "text": "they said they still said that if you",
+    "start": 1130.0,
+    "duration": 3.84
+  },
+  {
+    "text": "have a network of perceptrons you could",
+    "start": 1131.679,
+    "duration": 4.321
+  },
+  {
+    "text": "solve uh complex function right but",
+    "start": 1133.84,
+    "duration": 4.88
+  },
+  {
+    "text": "somehow this second part that",
+    "start": 1136.0,
+    "duration": 4.4
+  },
+  {
+    "text": "you cannot do this",
+    "start": 1138.72,
+    "duration": 4.0
+  },
+  {
+    "text": "with a single neuron but with a layer of",
+    "start": 1140.4,
+    "duration": 5.04
+  },
+  {
+    "text": "multiple multiple or multi-layer network",
+    "start": 1142.72,
+    "duration": 4.72
+  },
+  {
+    "text": "of perceptrons but you can do it with a",
+    "start": 1145.44,
+    "duration": 3.44
+  },
+  {
+    "text": "multi-layer network of perceptrons the",
+    "start": 1147.44,
+    "duration": 3.68
+  },
+  {
+    "text": "second part often got lost and the first",
+    "start": 1148.88,
+    "duration": 3.84
+  },
+  {
+    "text": "part got emphasized that hey you cannot",
+    "start": 1151.12,
+    "duration": 3.6
+  },
+  {
+    "text": "do this and that led to a lot of",
+    "start": 1152.72,
+    "duration": 4.0
+  },
+  {
+    "text": "disappointment and following this and of",
+    "start": 1154.72,
+    "duration": 3.839
+  },
+  {
+    "text": "course i can't say that this was the",
+    "start": 1156.72,
+    "duration": 4.24
+  },
+  {
+    "text": "primary reason but this and similar",
+    "start": 1158.559,
+    "duration": 3.36
+  },
+  {
+    "text": "uh",
+    "start": 1160.96,
+    "duration": 2.88
+  },
+  {
+    "text": "evidences which started emerging there's",
+    "start": 1161.919,
+    "duration": 4.0
+  },
+  {
+    "text": "a slight decline in the interest in",
+    "start": 1163.84,
+    "duration": 4.88
+  },
+  {
+    "text": "funding ai for almost the next two",
+    "start": 1165.919,
+    "duration": 5.521
+  },
+  {
+    "text": "decades and this is what we call the",
+    "start": 1168.72,
+    "duration": 5.12
+  },
+  {
+    "text": "winter of ai where the interest in",
+    "start": 1171.44,
+    "duration": 4.72
+  },
+  {
+    "text": "funding large scale projects in ai",
+    "start": 1173.84,
+    "duration": 6.0
+  },
+  {
+    "text": "started declining and people started",
+    "start": 1176.16,
+    "duration": 5.28
+  },
+  {
+    "text": "i would say rationalizing their",
+    "start": 1179.84,
+    "duration": 4.48
+  },
+  {
+    "text": "expectations from ai a bit more right",
+    "start": 1181.44,
+    "duration": 4.4
+  },
+  {
+    "text": "but that does not mean that work",
+    "start": 1184.32,
+    "duration": 4.239
+  },
+  {
+    "text": "completely stopped no one was doing uh",
+    "start": 1185.84,
+    "duration": 4.88
+  },
+  {
+    "text": "yeah there was still work happening and",
+    "start": 1188.559,
+    "duration": 3.521
+  },
+  {
+    "text": "small progress was being made in",
+    "start": 1190.72,
+    "duration": 3.839
+  },
+  {
+    "text": "different uh areas right in particular",
+    "start": 1192.08,
+    "duration": 4.56
+  },
+  {
+    "text": "in 1986",
+    "start": 1194.559,
+    "duration": 4.48
+  },
+  {
+    "text": "uh yeah so as i said this was the ai",
+    "start": 1196.64,
+    "duration": 4.64
+  },
+  {
+    "text": "winter of connectionism and for some of",
+    "start": 1199.039,
+    "duration": 3.841
+  },
+  {
+    "text": "you are initiated in this there's",
+    "start": 1201.28,
+    "duration": 4.08
+  },
+  {
+    "text": "connexious ti and there's a symbolic ai",
+    "start": 1202.88,
+    "duration": 3.76
+  },
+  {
+    "text": "so people were still interested in",
+    "start": 1205.36,
+    "duration": 3.92
+  },
+  {
+    "text": "symbolic ai but lost interest in",
+    "start": 1206.64,
+    "duration": 4.159
+  },
+  {
+    "text": "what is known as connectionist ai",
+    "start": 1209.28,
+    "duration": 3.68
+  },
+  {
+    "text": "whereas today's ai is largely",
+    "start": 1210.799,
+    "duration": 4.401
+  },
+  {
+    "text": "dominated by connectionist ai and we",
+    "start": 1212.96,
+    "duration": 3.36
+  },
+  {
+    "text": "want to again",
+    "start": 1215.2,
+    "duration": 2.719
+  },
+  {
+    "text": "try to see if you can come up with",
+    "start": 1216.32,
+    "duration": 3.44
+  },
+  {
+    "text": "hybrid models because again today people",
+    "start": 1217.919,
+    "duration": 4.401
+  },
+  {
+    "text": "are realizing that this way of doing ai",
+    "start": 1219.76,
+    "duration": 4.08
+  },
+  {
+    "text": "the deep learning view of ai has its",
+    "start": 1222.32,
+    "duration": 3.68
+  },
+  {
+    "text": "limitations and we need to start looking",
+    "start": 1223.84,
+    "duration": 4.4
+  },
+  {
+    "text": "at hybrid methods or complete different",
+    "start": 1226.0,
+    "duration": 4.64
+  },
+  {
+    "text": "alternatives to really push the frontier",
+    "start": 1228.24,
+    "duration": 4.64
+  },
+  {
+    "text": "a bit more right and this during this",
+    "start": 1230.64,
+    "duration": 3.76
+  },
+  {
+    "text": "period which i'm calling the ai winter",
+    "start": 1232.88,
+    "duration": 2.96
+  },
+  {
+    "text": "not i it's generally called the ai",
+    "start": 1234.4,
+    "duration": 3.84
+  },
+  {
+    "text": "winter there's also this abandonment of",
+    "start": 1235.84,
+    "duration": 4.56
+  },
+  {
+    "text": "these ideas which were similar to deep",
+    "start": 1238.24,
+    "duration": 4.08
+  },
+  {
+    "text": "learning at that time",
+    "start": 1240.4,
+    "duration": 3.519
+  },
+  {
+    "text": "but some workforce",
+    "start": 1242.32,
+    "duration": 3.2
+  },
+  {
+    "text": "of course continued and in particular",
+    "start": 1243.919,
+    "duration": 3.281
+  },
+  {
+    "text": "there was this back propagation",
+    "start": 1245.52,
+    "duration": 3.6
+  },
+  {
+    "text": "algorithm which all of you would have",
+    "start": 1247.2,
+    "duration": 4.08
+  },
+  {
+    "text": "read about in blogs or various articles",
+    "start": 1249.12,
+    "duration": 4.16
+  },
+  {
+    "text": "that you have read on deep learning this",
+    "start": 1251.28,
+    "duration": 4.08
+  },
+  {
+    "text": "was again not something which has been",
+    "start": 1253.28,
+    "duration": 3.92
+  },
+  {
+    "text": "discovered in the last 10 15 years in",
+    "start": 1255.36,
+    "duration": 3.84
+  },
+  {
+    "text": "fact it was discovered and rediscovered",
+    "start": 1257.2,
+    "duration": 4.959
+  },
+  {
+    "text": "several times throughout 1960s and 70s",
+    "start": 1259.2,
+    "duration": 4.56
+  },
+  {
+    "text": "and of course there's not the benefit of",
+    "start": 1262.159,
+    "duration": 3.121
+  },
+  {
+    "text": "having internet where if something gets",
+    "start": 1263.76,
+    "duration": 2.88
+  },
+  {
+    "text": "discovered in one part of the world it",
+    "start": 1265.28,
+    "duration": 3.12
+  },
+  {
+    "text": "immediately propagates so you might not",
+    "start": 1266.64,
+    "duration": 3.519
+  },
+  {
+    "text": "be aware that someone else has",
+    "start": 1268.4,
+    "duration": 2.96
+  },
+  {
+    "text": "discovered it and independently",
+    "start": 1270.159,
+    "duration": 2.64
+  },
+  {
+    "text": "discovered this algorithm that's what",
+    "start": 1271.36,
+    "duration": 3.04
+  },
+  {
+    "text": "was happening at that time",
+    "start": 1272.799,
+    "duration": 4.401
+  },
+  {
+    "text": "and around uh 1986",
+    "start": 1274.4,
+    "duration": 4.72
+  },
+  {
+    "text": "uh rumel heart and",
+    "start": 1277.2,
+    "duration": 4.479
+  },
+  {
+    "text": "others that including jeffrey hinton",
+    "start": 1279.12,
+    "duration": 4.0
+  },
+  {
+    "text": "uh",
+    "start": 1281.679,
+    "duration": 3.681
+  },
+  {
+    "text": "popularized in the this in the context",
+    "start": 1283.12,
+    "duration": 3.76
+  },
+  {
+    "text": "of neural networks and they showed that",
+    "start": 1285.36,
+    "duration": 3.439
+  },
+  {
+    "text": "this back propaganda propagation",
+    "start": 1286.88,
+    "duration": 4.32
+  },
+  {
+    "text": "algorithm can be used for training uh",
+    "start": 1288.799,
+    "duration": 3.281
+  },
+  {
+    "text": "neural",
+    "start": 1291.2,
+    "duration": 2.16
+  },
+  {
+    "text": "neural networks and this was an",
+    "start": 1292.08,
+    "duration": 3.52
+  },
+  {
+    "text": "important breakthrough because even to",
+    "start": 1293.36,
+    "duration": 3.36
+  },
+  {
+    "text": "this day",
+    "start": 1295.6,
+    "duration": 3.199
+  },
+  {
+    "text": "uh most modern deep neural networks are",
+    "start": 1296.72,
+    "duration": 3.68
+  },
+  {
+    "text": "trained using the back propagation",
+    "start": 1298.799,
+    "duration": 4.401
+  },
+  {
+    "text": "algorithm right",
+    "start": 1300.4,
+    "duration": 2.8
+  },
+  {
+    "text": "there was another important and uh an",
+    "start": 1303.52,
+    "duration": 3.279
+  },
+  {
+    "text": "interesting fact is this back",
+    "start": 1305.52,
+    "duration": 2.639
+  },
+  {
+    "text": "propagation",
+    "start": 1306.799,
+    "duration": 3.841
+  },
+  {
+    "text": "uh within it right or at the heart of it",
+    "start": 1308.159,
+    "duration": 5.121
+  },
+  {
+    "text": "there's also gradient descent right",
+    "start": 1310.64,
+    "duration": 5.36
+  },
+  {
+    "text": "which was much older right like almost",
+    "start": 1313.28,
+    "duration": 4.32
+  },
+  {
+    "text": "one century one and a half century",
+    "start": 1316.0,
+    "duration": 3.28
+  },
+  {
+    "text": "before back propagation",
+    "start": 1317.6,
+    "duration": 3.199
+  },
+  {
+    "text": "and this was",
+    "start": 1319.28,
+    "duration": 4.24
+  },
+  {
+    "text": "discovered or proposed by koshi and for",
+    "start": 1320.799,
+    "duration": 4.481
+  },
+  {
+    "text": "a very different purpose right and he",
+    "start": 1323.52,
+    "duration": 5.2
+  },
+  {
+    "text": "was trying to use gradient descent",
+    "start": 1325.28,
+    "duration": 5.759
+  },
+  {
+    "text": "to compute the orbit of heavenly body so",
+    "start": 1328.72,
+    "duration": 3.6
+  },
+  {
+    "text": "there's a lot of interest in astronomy",
+    "start": 1331.039,
+    "duration": 2.721
+  },
+  {
+    "text": "at that time and he was trying to look",
+    "start": 1332.32,
+    "duration": 4.0
+  },
+  {
+    "text": "at what is the orbit of heavenly bodies",
+    "start": 1333.76,
+    "duration": 5.039
+  },
+  {
+    "text": "and in that context he had",
+    "start": 1336.32,
+    "duration": 4.8
+  },
+  {
+    "text": "discovered gradient distance right so",
+    "start": 1338.799,
+    "duration": 3.76
+  },
+  {
+    "text": "again",
+    "start": 1341.12,
+    "duration": 3.28
+  },
+  {
+    "text": "whatever benefits we are enjoying today",
+    "start": 1342.559,
+    "duration": 2.961
+  },
+  {
+    "text": "they come",
+    "start": 1344.4,
+    "duration": 2.639
+  },
+  {
+    "text": "through the work of many great",
+    "start": 1345.52,
+    "duration": 3.84
+  },
+  {
+    "text": "scientists over centuries in different",
+    "start": 1347.039,
+    "duration": 4.561
+  },
+  {
+    "text": "fields and that's where that has helped",
+    "start": 1349.36,
+    "duration": 4.64
+  },
+  {
+    "text": "us reach where we are today right in",
+    "start": 1351.6,
+    "duration": 5.36
+  },
+  {
+    "text": "very unexpected uh ways",
+    "start": 1354.0,
+    "duration": 4.799
+  },
+  {
+    "text": "so while we were still in this winter",
+    "start": 1356.96,
+    "duration": 5.88
+  },
+  {
+    "text": "period again this 1989",
+    "start": 1358.799,
+    "duration": 4.041
+  },
+  {
+    "text": "what came up is this universal",
+    "start": 1363.44,
+    "duration": 2.88
+  },
+  {
+    "text": "approximation theorem which is again",
+    "start": 1364.88,
+    "duration": 3.039
+  },
+  {
+    "text": "something that will come up in the",
+    "start": 1366.32,
+    "duration": 3.52
+  },
+  {
+    "text": "course right and what this said again to",
+    "start": 1367.919,
+    "duration": 3.921
+  },
+  {
+    "text": "repeat what i said earlier that if you",
+    "start": 1369.84,
+    "duration": 4.719
+  },
+  {
+    "text": "have a function which takes certain x as",
+    "start": 1371.84,
+    "duration": 3.68
+  },
+  {
+    "text": "input",
+    "start": 1374.559,
+    "duration": 3.12
+  },
+  {
+    "text": "and gives you y and in real world you",
+    "start": 1375.52,
+    "duration": 4.08
+  },
+  {
+    "text": "don't know what this f is right so in",
+    "start": 1377.679,
+    "duration": 4.561
+  },
+  {
+    "text": "real world if i want to say okay what is",
+    "start": 1379.6,
+    "duration": 6.12
+  },
+  {
+    "text": "my decision",
+    "start": 1382.24,
+    "duration": 3.48
+  },
+  {
+    "text": "in real examples suppose f is the",
+    "start": 1395.28,
+    "duration": 4.24
+  },
+  {
+    "text": "function that i'm using to decide how to",
+    "start": 1397.6,
+    "duration": 4.88
+  },
+  {
+    "text": "hire people or how to predict the",
+    "start": 1399.52,
+    "duration": 4.8
+  },
+  {
+    "text": "life expectancy of a person i don't know",
+    "start": 1402.48,
+    "duration": 3.92
+  },
+  {
+    "text": "what this f is that is not really known",
+    "start": 1404.32,
+    "duration": 3.44
+  },
+  {
+    "text": "i just know it depends on certain",
+    "start": 1406.4,
+    "duration": 3.519
+  },
+  {
+    "text": "factors right but and what i have is",
+    "start": 1407.76,
+    "duration": 4.24
+  },
+  {
+    "text": "several examples of",
+    "start": 1409.919,
+    "duration": 3.921
+  },
+  {
+    "text": "these inputs and outputs right i know a",
+    "start": 1412.0,
+    "duration": 4.24
+  },
+  {
+    "text": "person who had a certain blood pressure",
+    "start": 1413.84,
+    "duration": 4.4
+  },
+  {
+    "text": "level cholesterol level and so on sugar",
+    "start": 1416.24,
+    "duration": 3.919
+  },
+  {
+    "text": "level and then i know how long that",
+    "start": 1418.24,
+    "duration": 3.52
+  },
+  {
+    "text": "person lived and so on right so i have",
+    "start": 1420.159,
+    "duration": 3.361
+  },
+  {
+    "text": "many such examples",
+    "start": 1421.76,
+    "duration": 5.039
+  },
+  {
+    "text": "now what this theorem said is that",
+    "start": 1423.52,
+    "duration": 5.68
+  },
+  {
+    "text": "you could come up with a multi-layered",
+    "start": 1426.799,
+    "duration": 5.12
+  },
+  {
+    "text": "network of neurons right not unlike what",
+    "start": 1429.2,
+    "duration": 4.4
+  },
+  {
+    "text": "papad and minsky had said that a single",
+    "start": 1431.919,
+    "duration": 3.601
+  },
+  {
+    "text": "neuron cannot do it they said that if",
+    "start": 1433.6,
+    "duration": 3.679
+  },
+  {
+    "text": "you have a multi-layered network of",
+    "start": 1435.52,
+    "duration": 5.2
+  },
+  {
+    "text": "neurons right then you could take an x",
+    "start": 1437.279,
+    "duration": 5.52
+  },
+  {
+    "text": "given many such examples",
+    "start": 1440.72,
+    "duration": 4.0
+  },
+  {
+    "text": "you could learn a model such that now if",
+    "start": 1442.799,
+    "duration": 4.081
+  },
+  {
+    "text": "you feed an x to it the y that it",
+    "start": 1444.72,
+    "duration": 6.24
+  },
+  {
+    "text": "predicts would be very close to f of x",
+    "start": 1446.88,
+    "duration": 5.84
+  },
+  {
+    "text": "which is the true value of the y that",
+    "start": 1450.96,
+    "duration": 3.599
+  },
+  {
+    "text": "you would have got if you knew what that",
+    "start": 1452.72,
+    "duration": 3.76
+  },
+  {
+    "text": "function is right so what it means is",
+    "start": 1454.559,
+    "duration": 2.881
+  },
+  {
+    "text": "that",
+    "start": 1456.48,
+    "duration": 2.4
+  },
+  {
+    "text": "what i'm trying to show in this diagram",
+    "start": 1457.44,
+    "duration": 4.8
+  },
+  {
+    "text": "is this orange curve that you see here",
+    "start": 1458.88,
+    "duration": 5.6
+  },
+  {
+    "text": "right",
+    "start": 1462.24,
+    "duration": 2.24
+  },
+  {
+    "text": "okay somehow the pen is behaving a bit",
+    "start": 1464.799,
+    "duration": 4.48
+  },
+  {
+    "text": "strange",
+    "start": 1466.88,
+    "duration": 2.399
+  },
+  {
+    "text": "yeah the orange curve that you see here",
+    "start": 1470.4,
+    "duration": 4.639
+  },
+  {
+    "text": "suppose this is what my actual f is and",
+    "start": 1472.72,
+    "duration": 4.319
+  },
+  {
+    "text": "i don't know that right and now i'm",
+    "start": 1475.039,
+    "duration": 4.161
+  },
+  {
+    "text": "trying to approximate it and those i'm",
+    "start": 1477.039,
+    "duration": 4.561
+  },
+  {
+    "text": "doing that approximation with the help",
+    "start": 1479.2,
+    "duration": 4.56
+  },
+  {
+    "text": "of these uh rectangular bars that you",
+    "start": 1481.6,
+    "duration": 4.559
+  },
+  {
+    "text": "see right and what this was uh this",
+    "start": 1483.76,
+    "duration": 4.159
+  },
+  {
+    "text": "theorem said is that",
+    "start": 1486.159,
+    "duration": 3.52
+  },
+  {
+    "text": "if you have a very deep neural network",
+    "start": 1487.919,
+    "duration": 3.521
+  },
+  {
+    "text": "or a multi-layer in fact it said even if",
+    "start": 1489.679,
+    "duration": 3.12
+  },
+  {
+    "text": "you have a one layer network with a",
+    "start": 1491.44,
+    "duration": 3.52
+  },
+  {
+    "text": "large number of neurons then you can",
+    "start": 1492.799,
+    "duration": 4.801
+  },
+  {
+    "text": "approximate this very very well right",
+    "start": 1494.96,
+    "duration": 6.88
+  },
+  {
+    "text": "and that's what we want to do we had",
+    "start": 1497.6,
+    "duration": 4.24
+  },
+  {
+    "text": "the true function which we did not know",
+    "start": 1502.32,
+    "duration": 6.479
+  },
+  {
+    "text": "all we knew was several instances of x1",
+    "start": 1505.279,
+    "duration": 5.681
+  },
+  {
+    "text": "and",
+    "start": 1508.799,
+    "duration": 2.161
+  },
+  {
+    "text": "y1 x2 y2 what this theorem says is that",
+    "start": 1512.96,
+    "duration": 4.959
+  },
+  {
+    "text": "if you have many such instances you",
+    "start": 1516.08,
+    "duration": 3.36
+  },
+  {
+    "text": "could come up with a neural network",
+    "start": 1517.919,
+    "duration": 3.841
+  },
+  {
+    "text": "right and that those rectangular bars",
+    "start": 1519.44,
+    "duration": 3.76
+  },
+  {
+    "text": "are in some sense",
+    "start": 1521.76,
+    "duration": 3.84
+  },
+  {
+    "text": "the output of the neural network",
+    "start": 1523.2,
+    "duration": 4.64
+  },
+  {
+    "text": "such that that output would be very",
+    "start": 1525.6,
+    "duration": 3.6
+  },
+  {
+    "text": "close to the",
+    "start": 1527.84,
+    "duration": 4.16
+  },
+  {
+    "text": "real output right and the more neurons",
+    "start": 1529.2,
+    "duration": 4.719
+  },
+  {
+    "text": "you add the better your approximation",
+    "start": 1532.0,
+    "duration": 3.919
+  },
+  {
+    "text": "would be if you had fear of neurons your",
+    "start": 1533.919,
+    "duration": 3.841
+  },
+  {
+    "text": "approximation would be poor like you see",
+    "start": 1535.919,
+    "duration": 3.76
+  },
+  {
+    "text": "in this case but the more neurons you",
+    "start": 1537.76,
+    "duration": 3.519
+  },
+  {
+    "text": "add it will be better right",
+    "start": 1539.679,
+    "duration": 4.0
+  },
+  {
+    "text": "this theorem an illustrative proof of it",
+    "start": 1541.279,
+    "duration": 4.161
+  },
+  {
+    "text": "is something that we will see but this",
+    "start": 1543.679,
+    "duration": 3.36
+  },
+  {
+    "text": "was a real breakthrough right because",
+    "start": 1545.44,
+    "duration": 4.56
+  },
+  {
+    "text": "now it has almost the reverse effect of",
+    "start": 1547.039,
+    "duration": 6.161
+  },
+  {
+    "text": "what we had for the proof by pepper and",
+    "start": 1550.0,
+    "duration": 5.52
+  },
+  {
+    "text": "minsky which said that even for simple",
+    "start": 1553.2,
+    "duration": 4.079
+  },
+  {
+    "text": "functions a single neuron does not work",
+    "start": 1555.52,
+    "duration": 4.32
+  },
+  {
+    "text": "now what this is saying is that for any",
+    "start": 1557.279,
+    "duration": 4.561
+  },
+  {
+    "text": "arbitrary complex function not even",
+    "start": 1559.84,
+    "duration": 4.959
+  },
+  {
+    "text": "boolean functions any arbitrary",
+    "start": 1561.84,
+    "duration": 5.04
+  },
+  {
+    "text": "function that you have no longer what",
+    "start": 1564.799,
+    "duration": 4.24
+  },
+  {
+    "text": "the function looks like you can always",
+    "start": 1566.88,
+    "duration": 3.919
+  },
+  {
+    "text": "come up the neural network which will be",
+    "start": 1569.039,
+    "duration": 4.24
+  },
+  {
+    "text": "able to approximate that function to any",
+    "start": 1570.799,
+    "duration": 4.161
+  },
+  {
+    "text": "desired degree of precision right and",
+    "start": 1573.279,
+    "duration": 3.681
+  },
+  {
+    "text": "that desired degree of precision is",
+    "start": 1574.96,
+    "duration": 3.52
+  },
+  {
+    "text": "controlled by the number of neurons that",
+    "start": 1576.96,
+    "duration": 3.28
+  },
+  {
+    "text": "you have if you're on fewer neurons my",
+    "start": 1578.48,
+    "duration": 3.84
+  },
+  {
+    "text": "approximation would be very bad but if i",
+    "start": 1580.24,
+    "duration": 3.679
+  },
+  {
+    "text": "keep adding neurons my approximation",
+    "start": 1582.32,
+    "duration": 3.12
+  },
+  {
+    "text": "would become better and better right so",
+    "start": 1583.919,
+    "duration": 3.76
+  },
+  {
+    "text": "this is a real breakthrough that was",
+    "start": 1585.44,
+    "duration": 3.04
+  },
+  {
+    "text": "there",
+    "start": 1587.679,
+    "duration": 3.761
+  },
+  {
+    "text": "and after this of course",
+    "start": 1588.48,
+    "duration": 4.96
+  },
+  {
+    "text": "nothing changed right but for",
+    "start": 1591.44,
+    "duration": 3.839
+  },
+  {
+    "text": "nothing changed much in the sense that",
+    "start": 1593.44,
+    "duration": 3.599
+  },
+  {
+    "text": "people realize okay there is a lot of",
+    "start": 1595.279,
+    "duration": 4.241
+  },
+  {
+    "text": "power in deep neural networks",
+    "start": 1597.039,
+    "duration": 4.561
+  },
+  {
+    "text": "but for the next uh",
+    "start": 1599.52,
+    "duration": 5.759
+  },
+  {
+    "text": "20 years or so or maybe 17 18 years",
+    "start": 1601.6,
+    "duration": 5.439
+  },
+  {
+    "text": "on the back of these two discoveries one",
+    "start": 1605.279,
+    "duration": 3.601
+  },
+  {
+    "text": "is back propagation which allows you to",
+    "start": 1607.039,
+    "duration": 3.601
+  },
+  {
+    "text": "train deep neural networks and the other",
+    "start": 1608.88,
+    "duration": 3.6
+  },
+  {
+    "text": "is this universal approximation theorem",
+    "start": 1610.64,
+    "duration": 3.039
+  },
+  {
+    "text": "which says that there is value in",
+    "start": 1612.48,
+    "duration": 2.799
+  },
+  {
+    "text": "training deep neural networks because",
+    "start": 1613.679,
+    "duration": 3.521
+  },
+  {
+    "text": "then you can approximate arbitrary real",
+    "start": 1615.279,
+    "duration": 3.441
+  },
+  {
+    "text": "world functions",
+    "start": 1617.2,
+    "duration": 4.24
+  },
+  {
+    "text": "uh people try to apply these ideas right",
+    "start": 1618.72,
+    "duration": 4.079
+  },
+  {
+    "text": "to real world problems but what they",
+    "start": 1621.44,
+    "duration": 3.68
+  },
+  {
+    "text": "notice is that training a multi-layer",
+    "start": 1622.799,
+    "duration": 3.841
+  },
+  {
+    "text": "network of neurons using back",
+    "start": 1625.12,
+    "duration": 4.559
+  },
+  {
+    "text": "propagation is not very stable and it",
+    "start": 1626.64,
+    "duration": 4.8
+  },
+  {
+    "text": "often does not lead to convergence so",
+    "start": 1629.679,
+    "duration": 3.36
+  },
+  {
+    "text": "while in theory you can use back",
+    "start": 1631.44,
+    "duration": 3.52
+  },
+  {
+    "text": "propagation while in theory you can",
+    "start": 1633.039,
+    "duration": 4.321
+  },
+  {
+    "text": "approximate any function but in practice",
+    "start": 1634.96,
+    "duration": 3.76
+  },
+  {
+    "text": "when you're trying to train this really",
+    "start": 1637.36,
+    "duration": 3.199
+  },
+  {
+    "text": "deep neural networks it's not working",
+    "start": 1638.72,
+    "duration": 4.88
+  },
+  {
+    "text": "right so uh in the next few years from",
+    "start": 1640.559,
+    "duration": 6.24
+  },
+  {
+    "text": "1989 to not few almost two decades",
+    "start": 1643.6,
+    "duration": 5.439
+  },
+  {
+    "text": "uh much practical progress did not",
+    "start": 1646.799,
+    "duration": 4.081
+  },
+  {
+    "text": "happen in terms of deep learning right",
+    "start": 1649.039,
+    "duration": 3.76
+  },
+  {
+    "text": "people knew these two things but they",
+    "start": 1650.88,
+    "duration": 3.84
+  },
+  {
+    "text": "were not really able to make them work",
+    "start": 1652.799,
+    "duration": 3.521
+  },
+  {
+    "text": "in most cases there were of course still",
+    "start": 1654.72,
+    "duration": 2.64
+  },
+  {
+    "text": "a lot of progress happened on",
+    "start": 1656.32,
+    "duration": 2.4
+  },
+  {
+    "text": "convolutional neural networks which",
+    "start": 1657.36,
+    "duration": 3.439
+  },
+  {
+    "text": "you'll see soon right so that's that's",
+    "start": 1658.72,
+    "duration": 3.6
+  },
+  {
+    "text": "where we were so we started with the",
+    "start": 1660.799,
+    "duration": 3.521
+  },
+  {
+    "text": "spring where there was a lot of hype and",
+    "start": 1662.32,
+    "duration": 4.079
+  },
+  {
+    "text": "enthusiasm around ai",
+    "start": 1664.32,
+    "duration": 4.16
+  },
+  {
+    "text": "then things collapsed and then things",
+    "start": 1666.399,
+    "duration": 3.52
+  },
+  {
+    "text": "kind of stabilized okay let's not",
+    "start": 1668.48,
+    "duration": 3.439
+  },
+  {
+    "text": "completely ignore it let's keep making",
+    "start": 1669.919,
+    "duration": 3.281
+  },
+  {
+    "text": "some progress and see if you can",
+    "start": 1671.919,
+    "duration": 3.041
+  },
+  {
+    "text": "actually use back propagation to train",
+    "start": 1673.2,
+    "duration": 5.4
+  },
+  {
+    "text": "the steep neural networks",
+    "start": 1674.96,
+    "duration": 3.64
+  }
+]

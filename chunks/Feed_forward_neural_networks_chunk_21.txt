@@ -1,0 +1,10 @@
+i see a y hat here and this should have been f hat of x you can ask the t.
+is to correct that with the f f x right so i have the x here and i have the.
+y hat but what is the function right i see what i'm seeing here is some kind of a network.
+but what is the function f hat of x i mean can you write the output as a function of.
+x all these arrows and all make sense and i can see that somehow these computations are happening but if.
+i ask you to write that function so that function in the previous lecture was just the sigmoid function right.
+so i could write it it's 1 over 1 plus e raised to minus w transpose x plus b i.
+could write that y hat explicitly now can i write this y hat explicitly or all that explanation that i.
+had in the last class where f hat is your approximation and now instead of telling you what f hat.
+is i've just given you a diagram where is the f hat in this diagram right so that's something that.

@@ -1,0 +1,11 @@
+to deal with this on the previous slide so i am going to write it as this that it's going.
+to be e raised to x right you understand what i am calling as e raised to x so the.
+derivative of e raised to x with respect to x is e raised to x itself here instead of x.
+we just have a l i right so it's going to be e raised to x if l is equal.
+to i just as i explained here sorry oops okay so it's going to be uh if l is equal.
+to i then the derivative would be e raised to this quantity otherwise it would be 0 hence the indicator.
+variable then i have copied the denominator as it is from the other place right now this quantity i have.
+copied as it is here the denominator i have split into two parts right so it's squares i've just put.
+into two separate parts and now i have this right so let's see what that quantity is so here i.
+have the sum of the exponents so what does that mean i have e raised to a l 1 plus.
+e raised to a l 2 plus all the way e raised to a l k and i'm taking the.

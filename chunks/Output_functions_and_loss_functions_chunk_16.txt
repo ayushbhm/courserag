@@ -1,0 +1,10 @@
+right again up to this point we have done all the computations and i'm trying to understand what should be.
+the output function so that i get this shaded green part right so i've done up to a l and.
+what should o be right so the choice of o that we are going to make is what is known.
+as the soft mac function and this is how you write the softmax function and let me now explain what.
+we are trying to do here right what does this function trying to say right so let's just look at.
+an explanation of that so i can do it i need some space to do that let me just make.
+some space okay so i can use this so now suppose our a l right this is a l okay.
+now suppose it had again we had say in this case we were looking at a four class classification problem.
+right so let's see it at a l the all the computations that have happened so far this is what.
+my al vector looks like right suppose it's minus 10 10 20 30 right so this is what my a.

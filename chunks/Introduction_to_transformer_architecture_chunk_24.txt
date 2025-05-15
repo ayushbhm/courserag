@@ -1,0 +1,9 @@
+so we don't want to get rid of the attention mechanism because the attention mechanism helps us to compute the.
+contextual representation but we want parallelism we also don't have a problem with the basic idea of recurrence right that.
+the recurrence actually allows us to compute things which are contextual right so we don't have a problem with this.
+here so we don't have a problem with this here this is fine because this is allowing us to compute.
+these recurrent uh or the contextual representations but we have a problem with the computational curves which comes with recurrence.
+that's the problem that we want to solve okay so that's the context so that's a quick recap of recurrent.
+neural networks and what we see as problems in the recurrent neural network and now we'll try to go towards.
+a solution for that right and that might probably lead us to a new architecture so I'll end this video.
+here and we'll come back and continue from this point.

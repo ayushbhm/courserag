@@ -1,0 +1,8 @@
+takeaway here is that there's like this massive network of interconnected neurons which are interacting with each other arranged in.
+layers one layer activating the neurons in the other layer and so on and this layered architecture is something that.
+we'll see frequently through the course right and when i say it's a massively parallel interconnected network i really mean.
+it right because it has the average human brain has around 10 raised to 11 that is 100 billion neurons.
+right and in this massive network there's also natural division of work right so each neuron may not perform all.
+the tasks that humans perform like each neuron may not be responsible for processing visual information as well as auditory.
+information as well as other information right it might just take care of certain information right and one way to.
+demonstrate uh this so i'll just first again illustrate with the cartoon and then go to a more real example.

@@ -1,0 +1,9 @@
+that is what convergence means i will just cycle through the entire data and if i do not have to.
+change my w that means all my positive points have the right angle with w a right angle meaning the.
+correct angle with w and all my negative points also have the correct angle with w so i don't need.
+to change anything right so that's how it has changed now the question whether i could have just kept toggling.
+so i picked up n2 i had to make a change if i pick p1 i had to make a.
+change at the beginning you saw you were making changes so what if these changes were counterproductive right it just.
+moved somewhere then again it moved somewhere and it ended up changing the angle with the original point which i.
+had corrected in the last step right so that is not yet clear right whether the algorithm will keep toggling.
+or whether it will converge that is not clear that something that we need to see.

@@ -1,0 +1,9 @@
+foreign [Music] so welcome back so we were talking about activation functions and we looked at a few popular ones.
+starting with the logistic function then the tan H function uh then the relu and a few of its parameters.
+like the Leaky relu the parametric uh relu and then the exponential uh a linear unit right and in all.
+of these cases we made some comments about how do the gradients behave and then what can we uh do.
+to uh how these activation functions evolved to take care of certain drawbacks of the earlier activation functions right so.
+tan H was preferred because sigmoid had certain problems it was not zero centered so moments only in few directions.
+were possible and relu is better than tanh and sigmoid because it's simple to compute and it does not saturate.
+in the positive region then the variance of relu are better because they allow some gradients to power flow even.
+when the in the negative region right and so on so we did all that and now we look at.

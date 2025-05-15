@@ -1,0 +1,10 @@
+Computing here is H1 which is a function of h0 and x 1 right and now once I have done.
+that this H1 then becomes an input to the next computation because H2 will be computed as H1 comma x.
+2 right so let's see this in the figure now so I have which one I compute H1 then I.
+get the next input which is enjoyed right it has some another sentence so I think it's I enjoyed the.
+movie Transformers so I got H1 and now I use that and H1 right so essentially I'm using this function.
+which is H1 comma X2 to compute this hidden representation or this yellow representation that you see here right so.
+what is happening here is that my computations are happening sequentially although my input was given to me at one.
+go I had the entire sentence at one go and now let's just get rid of some of these annotations.
+and just see the whole thing right so I had the entire sentence I am still Computing it one step.
+at a time and I'll compute it at Z H1 then H2 then I am Computing H3 then H4 and.

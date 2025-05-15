@@ -1,0 +1,9 @@
+objective right so that the objective is to minimize the error function and that's what the objective is now how.
+do you come up with the learning algorithm how do you define the objective function right so up till this.
+point i have defined everything mathematically right but now objective function have objective function i have not defined so i.
+will have to tell you what the objective function is but we will come back to that okay so now.
+consider our movie example so this is the movie data given to me right x i is equal to movie.
+i'm just using a shortcut when i say x is equal to movie i i mean that entire vector right.
+all the actor information budget information number of superstars blah blah and y i is equal to 0 comma 1.
+right so that's what it is our approximation of the relation between x and y so our approximation was that.
+y hat is equal to the sigmoid function of x right with the parameters being w okay then learning algorithm.

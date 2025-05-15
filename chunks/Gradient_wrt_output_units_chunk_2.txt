@@ -1,0 +1,11 @@
+function with respect to the output layer is what i am interested in okay now to begin with right so.
+and i know what the loss function is i know that this is minus log of y hat l where.
+l is the true class label okay and what i'm going to do is i'm going to focus first on.
+the upper half right which is the green dark shaded green portion right so what do i have here i.
+have y 1 hat y 2 hat all the way up to y k hat okay and my loss function.
+is minus log y hat l that means one of these the negative of the log of one of these.
+values which value the one which corresponds to the true class label right so that's what the situation is so.
+that's what my loss function is and i'm trying to take its derivative with respect to one of the values.
+it could be y one y two all the way up to y k right so now this is what.
+i am trying to do i am trying to take the derivative of the loss function which has the term.
+y hat l with respect to one of the y i's okay and we know that this log y hat.

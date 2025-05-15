@@ -1,0 +1,10 @@
+should be but now instead of Y hat you are actually Computing y tilde and why do I say y.
+tilde because now you don't have X's you have X tildas right you have the corrupted axis now for the.
+X if I substitute the value of x tilde as X Plus Epsilon then I can just rewrite this summation.
+as follows this is what will happen right so it is x i x i is equal to X Plus.
+Epsilon so that summation now splits into two parts and the first part of course is the same as your.
+y hat so I can write y tilde as y hat plus W I uh plus summation w i Epsilon.
+I okay now what are we interested in we are interested in this expected error now the expected error what.
+is it that I am Computing this is the output based on the corrupted input and this is the true.
+output right this is not y hat remember this is not y hat this is the true output the true.
+label that was given to me right and we are interested in this expected error this is what we have.

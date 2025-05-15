@@ -1,0 +1,10 @@
+Weights once you have that you can just update the weights using the gradient descent update right so now let's.
+zoom into the forward propagation and the backward propagation right so this is the forward propagation for k equal to.
+1 to L minus 1 this is what you will do you will compute a k as so A1 is.
+equal to B1 plus w k w 1 into H 0 and H 0 as I had said is going.
+to be equal to X right and then once you have that you can compute h k as the uh.
+by applying the activation function on the AK Vector this is all you just need to run this Loop l.
+minus 1 times and what happens to the lth layer there you will first compute uh Al okay I've just.
+computed I've just put the output layer outside because for the output layer you need to use a spatial function.
+you don't use the same G function right that's why I put it out so now we have computed everything.
+you have computed the activations for all the layers including the output layer activations and free activations and then you.

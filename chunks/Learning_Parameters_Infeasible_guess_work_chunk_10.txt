@@ -1,0 +1,10 @@
+and just on the previous slide we saw that when the network is trained or when i have learned the.
+values of wnb i would expect these points to lie on the sigmoid function but right now it's clearly not.
+the case so this is bad there is no argument about that but how bad is it can you quantify.
+that all of you are saying that it's bad right that's a qualitative answer can you quantify that yeah right.
+so the answer given is that we could look at the loss function right so we now what we will.
+do is that we look at the loss function which depends on w and b and we'll see how to.
+calculate the loss function and then we'll be able to say exactly how bad this is right so let's do.
+that right so my values of w and b i know are 3 and minus 1. so i know that.
+this is equal to 1 over 1 plus e raised to minus of 3x plus b and b i have.
+chosen s minus 1 so this is what my function looks like now in this function i'll plug in all.

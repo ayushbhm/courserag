@@ -1,0 +1,10 @@
+I am looking at here is a vector which belongs to RM right so that's the idea now so that's.
+what I meant by this that X belongs to RN and now what is it that I'm trying to predict.
+in this case I'm trying to predict a y which again belongs to R right so y again belongs to.
+R because Y is again a real number I am trying to predict the quantity of the oil that I.
+can get from that location right so this is a real world problem and you could think of various such.
+real world problems right so another example could be if you want to decide what is the interest rate that.
+you should set for a particular customer right as a bank and this often depends on the past history of.
+the person whether he'll be able to pay at a certain rate pay back the capital and so on right.
+so you might have factors like what is the salary what is the family size right what was the last.
+loan that that person had taken how many years that those loan was repaid in what was the interest rate.

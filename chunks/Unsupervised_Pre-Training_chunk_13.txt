@@ -1,0 +1,9 @@
+a supervised objective but right now whatever I am doing is unsupervised ok now once I have done this I.
+am going to repeat this process so what I'm going to do now is that I was happy that I.
+had learned H1 well right from the previous training so I did that round of training and I kept training.
+that my training loss reduce and my H1 was a good representation now I am happy with H1 right so.
+now H1 is some say d dimensional input now I'm going to plug in H2 okay and then again try.
+to reconstruct H1 hat right and I'm not going to touch these parameters so you can think of the entire.
+training data that was given me the M training samples that were given to me for each of those training.
+samples I have computed h okay I have done that sorry H one I have done that right now my.
+training data becomes H1 I pass it through a network a layer called H2 right so this was maybe D.

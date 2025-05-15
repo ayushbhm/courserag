@@ -1,0 +1,9 @@
+[Music] so while all this is happening great we're getting very good good models big models trained on very large.
+amounts of data very good performance on very complex tasks like generation but there are also calls for sanity right.
+we also need to be sure that whatever we are doing is interpretable fair responsible green right and these terms.
+which are not uh so popular like 10 15 years back i mean they were just maybe being discussed on.
+the sidelines now have become quite mainstream right because of these rapid advancements that we are making people are realizing.
+hey with all this happening we need to also be a bit conscious about the implications of what we are.
+building right and that's what this section would be about right so i'll start with the calls for sanity right.
+so so this is the paradox of deep learning right so why does deep learning work so well despite high.
+capacity these are very large models and when you start do a basic course on machine learning you will the.

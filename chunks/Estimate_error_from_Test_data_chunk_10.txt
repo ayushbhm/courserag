@@ -1,0 +1,9 @@
+not possible to do for all the possible X's I need to compute the Y hats also know the true.
+y but if I already knew the true y for all possible X's then there's nothing to estimate right so.
+I just have a small sample of reasonable size so I'm just going to empirically estimate the expectation using that.
+sample right so wherever I see expected value of y hat minus y the whole Square I am going to.
+replace it by this formula okay so that is the main idea and that's why on the previous slide I.
+was saying that this is something that we can compute and now I have shown you how to compute that.
+right so let us return back ah to our derivation now so this is the expectation this is the expected.
+error right the true error that we were interested in Computing I call this a true error because this is.
+the difference between the predicted value and the true function value right but we do not know the true function.

@@ -1,0 +1,9 @@
+is that this was not so much in focus a few years back right but now this has become quite.
+mainstream and a lot of you who are looking for interesting research problems to solve in this space this is.
+a very active area that you could pursue the second is about fairness and responsibility right so again if you.
+look at a brief history around 2011 there are hardly any papers talking about fairness or responsible ai and so.
+on and by 2017 when deep learning had almost taken over completely taken over nlp speech and vision there was.
+a massive increase in the number of papers talking about fairness and responsible ai and that has just grown in.
+the last has grown further in the last three to four years right and i'll tell you what fairness and.
+responsibility i why are we worrying about this problem right so look at this uh image right so this was.
+passed through a facial recognition kind of a software right which looks at images and try to make certain judgment.

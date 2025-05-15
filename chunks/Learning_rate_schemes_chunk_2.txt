@@ -1,0 +1,9 @@
+it's at the end of the valley right but that's clearly not where I want the algorithm to stop because.
+if I look at it this way then I would could have gone down from here I could have gone.
+further down from here right my Minima would have been somewhere down right but it's because of this saddle shape.
+where in One Direction you are seeing that okay I've reached the Minima but there is another Direction across which.
+you could have found a better Minima right and many times because the Deep learning uh the loss surfaces that.
+you typically encounter in deep learning are not convex loss functions it has been observed and this has been reported.
+in multiple papers that often when your training is getting stuck or it's low or something it's because you're stuck.
+in some saddle point right where there is a Minima down the valley but since you are already in this.
+Valley here you're not able to go further down right so suppose we had we initialize the weights to this.

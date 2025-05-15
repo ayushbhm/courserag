@@ -1,0 +1,9 @@
+basic observation that any arbitrary function I could I could approximate it by a series of tower functions right and.
+the reason I like this is that see all of these whether I look at this Tower or this Tower.
+or this Tower they're all rectangles right only their bits are only their heights are varying and their position on.
+the x-axis is way right but otherwise they all have the same form which means they are a rectangle right.
+so they are like the same function family so if I know how to construct one Tower I can scale.
+and displace and construct as many towers that I want right so that is something that I like that the.
+building block is very simple it's just a rectangle if I can understand how to make one rectangle then it's.
+just about making smaller bigger rectangles and placing them at different places on the x axis right so that is.
+something that I like about this idea here right and we're going to take it further the other thing is.

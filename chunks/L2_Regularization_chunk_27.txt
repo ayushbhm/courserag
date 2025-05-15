@@ -1,0 +1,9 @@
+has two components so first component is this so let us look at what that component looks like right ah.
+by this I mean the whole of it right so first Lambda plus Alpha I so you have so you.
+have a matrix which contains the eigen values on the diagonal everything else is 0 and you're adding the Alpha.
+I Matrix so it has Alpha s all the way on the diagonal and there are n of these Alphas.
+so adding these two matrices so we'll just get Lambda 1 plus Alpha Lambda 2 plus Alpha and so on.
+on the diagonal right now the inverse of a diagonal matrix is just the address is just another diagonal matrix.
+containing the reciprocals of the diagonal elements right so this would be what the inverse would look like every element.
+on the diagonal would be the inverse of it right so this is what is happening here so each of.
+these quantities is just going to be the inverse of that quantity now D is actually this further multiplied by.

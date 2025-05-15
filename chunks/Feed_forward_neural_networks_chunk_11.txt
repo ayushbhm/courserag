@@ -1,0 +1,9 @@
+then the output layer of course here there are k neurons and here there are n neurons so each of.
+these n neurons is connected to each of the k neurons in the output layer so you'll have a total.
+of n cross k or k cross n weights right and you will have only k bias term so it's.
+one for each of the output you know right so so that's the overall uh structure of the network so.
+i'll just quickly summarize input layer some hidden layers output layers within all the layers including the output layer you.
+have the pre activation and then the activation we'll see how to compute the pre-activation and the activation all of.
+these are vectors the a's and the edges the output layer is spatial you could call it h l or.
+y hat or f hat of x right and then you have weights every neuron in every layer is connected.
+to every neuron in the next layer i'm going to refer to the input also as a spatial layer as.

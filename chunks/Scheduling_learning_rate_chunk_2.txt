@@ -1,0 +1,9 @@
+Learning rate would still have been a large quantity and I would still have got the effect of moving faster.
+right and it does make sense that learning rate is how fast you move so maybe that would have helped.
+so now let's see what happens if we had gone by this intuition and set the learning rate to 10.
+instead of 1 right and it's like 10 times what I had set it otherwise right so let's see what.
+happens in that case so my learning rate is set to 10 now of course it's moving fast but then.
+again you see the problem of oscillation right so it kind of uh on this you want it to be.
+fast on the gentle places but you don't want it to be fast once it enters the value right because.
+on the Steep surfaces anyways the gradient is large so it's going to move fast but now we have multiplied.
+it by the large learning rate and hence you see that there's this oscillation effect right so we don't really.

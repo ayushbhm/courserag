@@ -1,0 +1,10 @@
+H into W minus W Star right so this again you can think of this as uh uh x h.
+x right so you are kind of taking the derivative of a quantity which has x square right and the.
+derivative of that one of the X's would disappear and just left with X and in this case X is.
+W minus W star and then we get 2 coming out which will get canceled with this right so that's.
+how you can think of this uh derivation that I have written here so this is what I get right.
+so the derivative of the loss function with respect to W turns out to be H into W minus W.
+star and we had seen earlier that this H is actually the Hessian which is a matrix containing the second.
+order uh partial derivative so we had already already seen this in a earlier lecture so I'll repeat that okay.
+so that's that's nothing great here right I've just applied Taylor series and done some simplifications I mean just taken.
+some derivatives so I have just a set set of steps which you can uh which one step follows from.

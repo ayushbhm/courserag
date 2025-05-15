@@ -1,0 +1,9 @@
+is again n dimensional so then the weight Matrix that you will have here would be n cross T dimensional.
+right and the weight Matrix that you will have here would be D cross n dimensional let's call this p.
+and let's call this Q then what you could do is you could say that I'll just enforce P transpose.
+equal to q that means I'll not have a separate P Matrix here I'll just use Q transpose and Q.
+transpose is indeed D cross n The Matrix that I was looking for so instead of having separate weights in.
+these two layers I am using the same weight in both the layers right so that's called weight tying and.
+this is also a common way of doing regularization it has also been tried in the modern Transformer based models.
+where you have eight different layers and multiple attention heads and you kind of do some parameter tying that means.
+you across all the layers instead of having a separate Matrix of Weights in each of these layers you you.

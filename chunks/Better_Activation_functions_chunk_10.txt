@@ -1,0 +1,9 @@
+and that is nothing but the sigmoid of the derivative of the sigmoid function with respect to A3 and that.
+is given by this formula right so that's something that we'll always encounter whenever we are doing a back propagation.
+with and using any gradient based method so now what is the consequence of this right uh so as I.
+said there is this concept of saturated neuron so a neuron is said to be saturated if it is at.
+its peak or lowest value rate minimum or maximum value in the case of sigmoid neurons it's 0 or 1..
+so whenever it is saturated the gradient is going to be 0 right and if it is 0 then your.
+training will not progress because once the neuron is saturated your gradients are zero now the weights are not getting.
+updated and then it's likely that because of these weights right especially if the weights are high so let's see.
+why would the neurons get saturated right so let's try to understand that why is it that it would get.

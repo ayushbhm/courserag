@@ -1,0 +1,9 @@
+axis okay and the vertical axis is the error axis right so for all possible values of w and b.
+i have just computed the loss i can do that i can do that programmatically and i have just plotted.
+it right and this is what the plot looks like okay and you can see that there is this region.
+here where the loss is low or minimum right and there are certain regions where the loss is very high.
+right so i could just plot this and then i could just pick up some value from this good region.
+here and that would what my answer be right and we had seen a similar argument when we're doing the.
+perceptron algorithm and we need the know the fallacy of this argument also that this is okay for this toy.
+example uh but it will become intractable as the number of data points increasing right so as the number of.
+data points increases just computing this loss would be very difficult for all the infinite values of w and b.

@@ -1,0 +1,10 @@
+to minimize is uh changing and that will act as a regularizer right because now you are not trying to.
+minimize the true loss but a slightly corrupted version of the loss because you have made some change to the.
+outputs right so that's what uh that's what you do in uh adding noise to the outputs and now since.
+you are not what what you're doing done is again you have added some kind of a corruption to the.
+loss function right so earlier you are looking at L theta plus Omega Theta right and now again if you.
+open this up right and now again what has happened is earlier you had only uh so what you have.
+now is Epsilon I Epsilon into log of P1 plus Epsilon into log of uh sorry P0 P1 Plus Epsilon.
+into log of P3 log of P 9 and then you also have this 1 minus Epsilon into log of.
+P2 which was the correct label right for the correct label this is the weight so now you can again.
+think of this this was actually your true loss earlier without regularization right so you can think of this as.

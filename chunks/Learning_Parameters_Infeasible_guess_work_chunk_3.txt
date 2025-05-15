@@ -1,0 +1,10 @@
+to predict the imdb rating on a scale of zero to one right so it could take values like zero.
+point zero five point one point two whatever right it could take any of these values so it's a real.
+input a real output right so that's it's easier for me to explain a few things in this setup but.
+it does not change anything that i'm going to talk about even if you had boolean inputs we'll see later.
+on how to adjust the same explanation to boolean inputs but for now i'll assume we have a real output.
+right sorry not input output so we have a real valued output okay so that's the setup that i'm going.
+to work with right and now the first thing is that i need some training data right so i've been.
+given some training data so as i said that there are capital n pairs of now this is a good.
+notation capital n for the number of training pairs and small n for the number of inputs that i have.
+the small n is equal to 1 in this case right so this is the training data that i have.

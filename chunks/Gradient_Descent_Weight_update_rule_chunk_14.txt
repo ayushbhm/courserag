@@ -1,0 +1,10 @@
+now this is of course a constant right because this is the value True Value which is given to us.
+it does not depend on wnb I can choose whatever W and B I want the True Value will not.
+change so that the derivative with respect to that will be zero so the only thing that I am read.
+is the partial derivative of the function with respect to uh uh the W right and you can see why.
+I had chosen this half here because this half N2 got canceled it just makes my life easier so and.
+now if I just substitute the value of f of x so this is the value and this is the.
+derivative that I want to compute so let's try to compute right right so this is the derivative of again.
+of the inverse of a function of w right so this is 1 over something which is a function of.
+w so the derivative would be minus 1 over that function square and then the derivative pushed inside so derivative.
+of this should have been 1 plus that e raised to minus W X plus b but 1 is a.

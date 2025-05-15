@@ -1,0 +1,8 @@
+essence of the task and then you'll be able to mark sentences as positive sentence or negative sentiment because you.
+already know so much about language right so lovely going by the same analogy the idea in birth is that.
+you could pre-train models using unlabeled data just as we learn in a very unstructured manner when we are growing.
+up about languages you just train on unlabeled corpora and then when you are dealing with specific tasks maybe small.
+amounts of label data would be enough right and this was like kind of reintroducing some sort of transfer learning.
+again right and that idea has really again been the dominant paradigm today where you do this unsupervised pre-training and.
+then train uh fine-tune on smaller amounts of data and the advantage of this is that with because you have.
+access to a large amount of unlabeled corporate so if you think of a language like english you have the.

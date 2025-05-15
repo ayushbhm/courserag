@@ -1,0 +1,9 @@
+have computed all the H1s using the x that was given to me and the training that I had done.
+in the first iteration I had computed all the W's I was happy with whatever WS I have computed and.
+using those W's I have computed H1 now as W times x plus C or B whatever we had used.
+into that right so this computation I have done now I'm thinking of H I's as H1s as my input.
+passing it through a hidden layer and then reconstructing H1 hat and again using the same objective function with X.
+replaced by H1 right so nothing new that I am doing so again I'm just training one layer at a.
+time right this is the only layer that is getting trained which means this is the only layer that I.
+am trying to reconstruct right and now what am I doing I had said that H1 captures all the characteristics.
+of X similarly now H2 is capturing all the important information of H1 so it's yet another level of abstract.

@@ -1,0 +1,9 @@
+have even moved past the billion parameter era right so this is the billion parameter club where as you can.
+see from uh 2018 onwards 2018 to 2020 right i mean just look at elmo at one end which is.
+the number of parameters in billions is what i'm showing on the y-axis uh to what we came to tnl.
+uh sorry the tnlg model right uh the yellow bar that you see like a really huge number of parameters.
+and then you have gpt3 which is not shown here this is only gpt 2 which is 175 billion parameters.
+so that wouldn't even fit in the scale that i've used on the y axis right so that's that's how.
+far we have come and that's how rapidly these models are increasing in terms of one the amount of training.
+data they need second the amount of parameters that they have and third is the performance that you get with.
+these models right all of these on all of these axis we are really pushing the frontier uh quite a.

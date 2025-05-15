@@ -1,0 +1,9 @@
+book Ali goat sees video lectures and regularization in the context of deep learning then this paper on dropout right.
+so all of these I have referred to so let's first look at what the problem is right so so.
+far we have focused on minimizing the objective function using a variety of optimization algorithms right so we had this.
+loss function and all our Focus was to how to minimize this loss how to minimize it faster how to.
+make sure that we don't overshoot uh the Minima and land in the right Minima and so on that's what.
+all our Focus has been on right but now the issue is that uh deep learning models uh typically have.
+billions of parameters right I wouldn't say typically have billions but I would say typically have like hundreds of millions.
+of parameters and the training data may have only a few millions of samples right so the main point here.
+instead of focusing on billions and millions is that deep learning models are often over parameterized right that means they.

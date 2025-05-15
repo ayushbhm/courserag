@@ -1,0 +1,3432 @@
+[
+  {
+    "text": "[Music]",
+    "start": 0.33,
+    "duration": 10.029
+  },
+  {
+    "text": "okay so we have done the intuition",
+    "start": 19.279,
+    "duration": 4.24
+  },
+  {
+    "text": "behind back propagation",
+    "start": 21.68,
+    "duration": 2.72
+  },
+  {
+    "text": "now",
+    "start": 23.519,
+    "duration": 3.281
+  },
+  {
+    "text": "we want to take this intuition forward",
+    "start": 24.4,
+    "duration": 5.44
+  },
+  {
+    "text": "and get into the mathematical details of",
+    "start": 26.8,
+    "duration": 6.24
+  },
+  {
+    "text": "how back propagation or how do you",
+    "start": 29.84,
+    "duration": 4.719
+  },
+  {
+    "text": "compute these",
+    "start": 33.04,
+    "duration": 3.12
+  },
+  {
+    "text": "partial derivatives or gradients that",
+    "start": 34.559,
+    "duration": 3.601
+  },
+  {
+    "text": "you're interested right so this was the",
+    "start": 36.16,
+    "duration": 5.6
+  },
+  {
+    "text": "outline so we said that we are going to",
+    "start": 38.16,
+    "duration": 6.559
+  },
+  {
+    "text": "slowly talk to all stakeholders in the",
+    "start": 41.76,
+    "duration": 5.04
+  },
+  {
+    "text": "neural network and we had divided this",
+    "start": 44.719,
+    "duration": 3.761
+  },
+  {
+    "text": "into three parts talk to the output",
+    "start": 46.8,
+    "duration": 3.2
+  },
+  {
+    "text": "layer talk to the hidden layers and talk",
+    "start": 48.48,
+    "duration": 3.12
+  },
+  {
+    "text": "to the weights so i'll start with the",
+    "start": 50.0,
+    "duration": 3.84
+  },
+  {
+    "text": "first part which is talk to the output",
+    "start": 51.6,
+    "duration": 3.439
+  },
+  {
+    "text": "layer right so that's what we're going",
+    "start": 53.84,
+    "duration": 4.0
+  },
+  {
+    "text": "to do now right so let's see what's what",
+    "start": 55.039,
+    "duration": 4.481
+  },
+  {
+    "text": "do you what do you mean by talk to the",
+    "start": 57.84,
+    "duration": 4.559
+  },
+  {
+    "text": "output layer i am interested",
+    "start": 59.52,
+    "duration": 5.12
+  },
+  {
+    "text": "in computing",
+    "start": 62.399,
+    "duration": 5.281
+  },
+  {
+    "text": "the derivative of the loss function with",
+    "start": 64.64,
+    "duration": 5.76
+  },
+  {
+    "text": "respect to the output layer right so",
+    "start": 67.68,
+    "duration": 5.2
+  },
+  {
+    "text": "this is the output layer right i",
+    "start": 70.4,
+    "duration": 4.56
+  },
+  {
+    "text": "collectively call it as the output layer",
+    "start": 72.88,
+    "duration": 3.76
+  },
+  {
+    "text": "although it has two parts activation and",
+    "start": 74.96,
+    "duration": 4.88
+  },
+  {
+    "text": "pre-activation uh i am going to call",
+    "start": 76.64,
+    "duration": 6.32
+  },
+  {
+    "text": "uh this layer which is a the a's is what",
+    "start": 79.84,
+    "duration": 4.959
+  },
+  {
+    "text": "i am going to call the output layer",
+    "start": 82.96,
+    "duration": 3.04
+  },
+  {
+    "text": "right which i want i am interested in",
+    "start": 84.799,
+    "duration": 2.401
+  },
+  {
+    "text": "the derivative",
+    "start": 86.0,
+    "duration": 3.2
+  },
+  {
+    "text": "of the output layer of the loss function",
+    "start": 87.2,
+    "duration": 4.0
+  },
+  {
+    "text": "with respect to this output",
+    "start": 89.2,
+    "duration": 4.0
+  },
+  {
+    "text": "activations or output pre-activations",
+    "start": 91.2,
+    "duration": 3.599
+  },
+  {
+    "text": "okay so that is the",
+    "start": 93.2,
+    "duration": 4.16
+  },
+  {
+    "text": "quest that i have and this i know would",
+    "start": 94.799,
+    "duration": 4.561
+  },
+  {
+    "text": "be a collection of some partial",
+    "start": 97.36,
+    "duration": 4.0
+  },
+  {
+    "text": "derivatives right so derivative partial",
+    "start": 99.36,
+    "duration": 4.0
+  },
+  {
+    "text": "derivative of the loss function with",
+    "start": 101.36,
+    "duration": 3.84
+  },
+  {
+    "text": "respect to the first",
+    "start": 103.36,
+    "duration": 3.28
+  },
+  {
+    "text": "uh",
+    "start": 105.2,
+    "duration": 4.32
+  },
+  {
+    "text": "output neuron with respect to the",
+    "start": 106.64,
+    "duration": 5.68
+  },
+  {
+    "text": "second output neuron",
+    "start": 109.52,
+    "duration": 5.52
+  },
+  {
+    "text": "and so on right and this would be the",
+    "start": 112.32,
+    "duration": 5.28
+  },
+  {
+    "text": "loss function here",
+    "start": 115.04,
+    "duration": 4.399
+  },
+  {
+    "text": "similarly the loss function here right",
+    "start": 117.6,
+    "duration": 4.32
+  },
+  {
+    "text": "so this is the quantity this entire",
+    "start": 119.439,
+    "duration": 4.881
+  },
+  {
+    "text": "vector which is the gradient vector",
+    "start": 121.92,
+    "duration": 3.92
+  },
+  {
+    "text": "of the loss function with respect to the",
+    "start": 124.32,
+    "duration": 3.6
+  },
+  {
+    "text": "output layer is what i am interested in",
+    "start": 125.84,
+    "duration": 2.96
+  },
+  {
+    "text": "okay",
+    "start": 127.92,
+    "duration": 2.88
+  },
+  {
+    "text": "now",
+    "start": 128.8,
+    "duration": 4.159
+  },
+  {
+    "text": "to begin with right so and i know what",
+    "start": 130.8,
+    "duration": 3.84
+  },
+  {
+    "text": "the loss function is i know that this is",
+    "start": 132.959,
+    "duration": 5.041
+  },
+  {
+    "text": "minus log of y hat l where l is the true",
+    "start": 134.64,
+    "duration": 6.0
+  },
+  {
+    "text": "class label okay and what i'm going to",
+    "start": 138.0,
+    "duration": 4.56
+  },
+  {
+    "text": "do is i'm going to",
+    "start": 140.64,
+    "duration": 4.72
+  },
+  {
+    "text": "focus first on the",
+    "start": 142.56,
+    "duration": 5.12
+  },
+  {
+    "text": "upper half right which is the green",
+    "start": 145.36,
+    "duration": 4.8
+  },
+  {
+    "text": "dark shaded green portion right so what",
+    "start": 147.68,
+    "duration": 5.839
+  },
+  {
+    "text": "do i have here i have",
+    "start": 150.16,
+    "duration": 5.6
+  },
+  {
+    "text": "y 1 hat",
+    "start": 153.519,
+    "duration": 5.201
+  },
+  {
+    "text": "y 2 hat all the way up to",
+    "start": 155.76,
+    "duration": 4.0
+  },
+  {
+    "text": "y k",
+    "start": 158.72,
+    "duration": 4.239
+  },
+  {
+    "text": "hat okay and my loss function is minus",
+    "start": 159.76,
+    "duration": 6.559
+  },
+  {
+    "text": "log y hat l that means one of these",
+    "start": 162.959,
+    "duration": 4.241
+  },
+  {
+    "text": "the",
+    "start": 166.319,
+    "duration": 3.28
+  },
+  {
+    "text": "negative of the log of one of these",
+    "start": 167.2,
+    "duration": 3.92
+  },
+  {
+    "text": "values which value the one which",
+    "start": 169.599,
+    "duration": 3.761
+  },
+  {
+    "text": "corresponds to the true class label",
+    "start": 171.12,
+    "duration": 4.08
+  },
+  {
+    "text": "right so that's what the situation is so",
+    "start": 173.36,
+    "duration": 3.76
+  },
+  {
+    "text": "that's what my loss function is and i'm",
+    "start": 175.2,
+    "duration": 3.52
+  },
+  {
+    "text": "trying to take its derivative with",
+    "start": 177.12,
+    "duration": 3.119
+  },
+  {
+    "text": "respect to one of the values it could be",
+    "start": 178.72,
+    "duration": 5.2
+  },
+  {
+    "text": "y one y two all the way up to y k right",
+    "start": 180.239,
+    "duration": 4.801
+  },
+  {
+    "text": "so now",
+    "start": 183.92,
+    "duration": 2.72
+  },
+  {
+    "text": "this is what i am trying to do i am",
+    "start": 185.04,
+    "duration": 3.52
+  },
+  {
+    "text": "trying to take the derivative of the",
+    "start": 186.64,
+    "duration": 4.4
+  },
+  {
+    "text": "loss function which has the term y hat l",
+    "start": 188.56,
+    "duration": 6.0
+  },
+  {
+    "text": "with respect to one of the y i's okay",
+    "start": 191.04,
+    "duration": 6.24
+  },
+  {
+    "text": "and we know that this log y hat l",
+    "start": 194.56,
+    "duration": 4.959
+  },
+  {
+    "text": "depends only on one of the elements in",
+    "start": 197.28,
+    "duration": 4.8
+  },
+  {
+    "text": "this array the one which corresponds to",
+    "start": 199.519,
+    "duration": 4.161
+  },
+  {
+    "text": "the true loss function right so in",
+    "start": 202.08,
+    "duration": 4.56
+  },
+  {
+    "text": "particular let's take an example suppose",
+    "start": 203.68,
+    "duration": 4.559
+  },
+  {
+    "text": "l is equal to 2 that means the second",
+    "start": 206.64,
+    "duration": 3.679
+  },
+  {
+    "text": "class was the correct class then the",
+    "start": 208.239,
+    "duration": 4.401
+  },
+  {
+    "text": "loss function would in effect be minus",
+    "start": 210.319,
+    "duration": 5.92
+  },
+  {
+    "text": "log hat y2 and now i have",
+    "start": 212.64,
+    "duration": 6.239
+  },
+  {
+    "text": "trying to take the derivatives of this",
+    "start": 216.239,
+    "duration": 4.801
+  },
+  {
+    "text": "with respect to any one of these right",
+    "start": 218.879,
+    "duration": 3.44
+  },
+  {
+    "text": "because i have",
+    "start": 221.04,
+    "duration": 3.759
+  },
+  {
+    "text": "considered a generic i here right so",
+    "start": 222.319,
+    "duration": 4.721
+  },
+  {
+    "text": "this is an i so any one of those",
+    "start": 224.799,
+    "duration": 4.08
+  },
+  {
+    "text": "elements so if i'm trying to compute",
+    "start": 227.04,
+    "duration": 3.839
+  },
+  {
+    "text": "with respect to y1 hat",
+    "start": 228.879,
+    "duration": 3.44
+  },
+  {
+    "text": "of course the loss would be zero right",
+    "start": 230.879,
+    "duration": 3.521
+  },
+  {
+    "text": "because this quantity does not depend on",
+    "start": 232.319,
+    "duration": 3.681
+  },
+  {
+    "text": "y one hat there is no y one hat that",
+    "start": 234.4,
+    "duration": 4.24
+  },
+  {
+    "text": "shows up here if i try to compute with y",
+    "start": 236.0,
+    "duration": 6.08
+  },
+  {
+    "text": "two hat then it would be minus 1 over",
+    "start": 238.64,
+    "duration": 5.76
+  },
+  {
+    "text": "y2 hat because that's the derivative of",
+    "start": 242.08,
+    "duration": 3.76
+  },
+  {
+    "text": "so if you want to compute the derivative",
+    "start": 244.4,
+    "duration": 2.24
+  },
+  {
+    "text": "of",
+    "start": 245.84,
+    "duration": 2.64
+  },
+  {
+    "text": "log x with respect to x that's 1 over x",
+    "start": 246.64,
+    "duration": 3.519
+  },
+  {
+    "text": "so the same thing apply here instead of",
+    "start": 248.48,
+    "duration": 3.679
+  },
+  {
+    "text": "x we have y 2 right if i want to compute",
+    "start": 250.159,
+    "duration": 4.08
+  },
+  {
+    "text": "with any of the other guys y 3 hat y 4",
+    "start": 252.159,
+    "duration": 4.561
+  },
+  {
+    "text": "add up to y k hat it's going to be 0",
+    "start": 254.239,
+    "duration": 4.72
+  },
+  {
+    "text": "right so that's that's very straight",
+    "start": 256.72,
+    "duration": 4.079
+  },
+  {
+    "text": "forward so what does it mean it's like",
+    "start": 258.959,
+    "duration": 4.081
+  },
+  {
+    "text": "an if else condition right so this is",
+    "start": 260.799,
+    "duration": 4.881
+  },
+  {
+    "text": "going to be equal to minus 1 of 1 over y",
+    "start": 263.04,
+    "duration": 5.92
+  },
+  {
+    "text": "hat l if i and l tend to be is are the",
+    "start": 265.68,
+    "duration": 5.12
+  },
+  {
+    "text": "same that means the quantity that i am",
+    "start": 268.96,
+    "duration": 4.0
+  },
+  {
+    "text": "taking the derivative with is also the",
+    "start": 270.8,
+    "duration": 3.92
+  },
+  {
+    "text": "quantity that is there inside the log",
+    "start": 272.96,
+    "duration": 4.0
+  },
+  {
+    "text": "then it would be minus 1 over y hat l",
+    "start": 274.72,
+    "duration": 3.68
+  },
+  {
+    "text": "otherwise it would be 0 because then",
+    "start": 276.96,
+    "duration": 3.6
+  },
+  {
+    "text": "there is i'm taking the derivative of",
+    "start": 278.4,
+    "duration": 3.84
+  },
+  {
+    "text": "one variable with respect to another and",
+    "start": 280.56,
+    "duration": 3.68
+  },
+  {
+    "text": "they don't depend on each other right so",
+    "start": 282.24,
+    "duration": 3.84
+  },
+  {
+    "text": "this is very straightforward i have",
+    "start": 284.24,
+    "duration": 4.08
+  },
+  {
+    "text": "computed the derivative of the loss",
+    "start": 286.08,
+    "duration": 5.2
+  },
+  {
+    "text": "function with one of the entries here",
+    "start": 288.32,
+    "duration": 5.2
+  },
+  {
+    "text": "any generic entity here and it would",
+    "start": 291.28,
+    "duration": 5.04
+  },
+  {
+    "text": "either be zero or one right so how do i",
+    "start": 293.52,
+    "duration": 6.16
+  },
+  {
+    "text": "write this formally",
+    "start": 296.32,
+    "duration": 5.599
+  },
+  {
+    "text": "does anyone know that",
+    "start": 299.68,
+    "duration": 4.079
+  },
+  {
+    "text": "so some of you might have heard of this",
+    "start": 301.919,
+    "duration": 3.921
+  },
+  {
+    "text": "indicator variable right so what does an",
+    "start": 303.759,
+    "duration": 4.16
+  },
+  {
+    "text": "indicator variable mean so let me just",
+    "start": 305.84,
+    "duration": 3.44
+  },
+  {
+    "text": "explain so i am going to write the",
+    "start": 307.919,
+    "duration": 3.921
+  },
+  {
+    "text": "derivative of l theta with respect to y",
+    "start": 309.28,
+    "duration": 5.44
+  },
+  {
+    "text": "i and again i repeat i can go from 1 to",
+    "start": 311.84,
+    "duration": 6.56
+  },
+  {
+    "text": "up to k right is equal to",
+    "start": 314.72,
+    "duration": 5.84
+  },
+  {
+    "text": "the indicator variable so this one here",
+    "start": 318.4,
+    "duration": 3.84
+  },
+  {
+    "text": "is the indicator variable i should have",
+    "start": 320.56,
+    "duration": 3.12
+  },
+  {
+    "text": "written it as",
+    "start": 322.24,
+    "duration": 4.32
+  },
+  {
+    "text": "this kind of a one okay and what's the",
+    "start": 323.68,
+    "duration": 5.68
+  },
+  {
+    "text": "condition associated with that",
+    "start": 326.56,
+    "duration": 5.84
+  },
+  {
+    "text": "i have suffixed something there so it's",
+    "start": 329.36,
+    "duration": 6.399
+  },
+  {
+    "text": "this is what it looks like i equal to l",
+    "start": 332.4,
+    "duration": 6.079
+  },
+  {
+    "text": "so what that means is that if i is equal",
+    "start": 335.759,
+    "duration": 4.72
+  },
+  {
+    "text": "to l then this indicator will take on",
+    "start": 338.479,
+    "duration": 3.361
+  },
+  {
+    "text": "the value 1",
+    "start": 340.479,
+    "duration": 3.28
+  },
+  {
+    "text": "otherwise it will take on the value 0.",
+    "start": 341.84,
+    "duration": 3.44
+  },
+  {
+    "text": "so that's what an indicator value",
+    "start": 343.759,
+    "duration": 3.44
+  },
+  {
+    "text": "variable means it just encodes this if",
+    "start": 345.28,
+    "duration": 4.96
+  },
+  {
+    "text": "else condition right so indicator",
+    "start": 347.199,
+    "duration": 5.121
+  },
+  {
+    "text": "variable is this is how you write it and",
+    "start": 350.24,
+    "duration": 3.6
+  },
+  {
+    "text": "it will take on the value one if the",
+    "start": 352.32,
+    "duration": 3.2
+  },
+  {
+    "text": "condition is satisfied that the",
+    "start": 353.84,
+    "duration": 3.12
+  },
+  {
+    "text": "condition in the suffix is satisfied",
+    "start": 355.52,
+    "duration": 4.239
+  },
+  {
+    "text": "otherwise not right so you can now agree",
+    "start": 356.96,
+    "duration": 3.6
+  },
+  {
+    "text": "that",
+    "start": 359.759,
+    "duration": 2.641
+  },
+  {
+    "text": "these two are the same right this is",
+    "start": 360.56,
+    "duration": 4.4
+  },
+  {
+    "text": "just a more compact way of writing that",
+    "start": 362.4,
+    "duration": 5.359
+  },
+  {
+    "text": "right okay",
+    "start": 364.96,
+    "duration": 4.72
+  },
+  {
+    "text": "so what do i have so far i have the",
+    "start": 367.759,
+    "duration": 3.28
+  },
+  {
+    "text": "derivative",
+    "start": 369.68,
+    "duration": 3.92
+  },
+  {
+    "text": "the partial uh derivative",
+    "start": 371.039,
+    "duration": 3.361
+  },
+  {
+    "text": "of",
+    "start": 373.6,
+    "duration": 1.84
+  },
+  {
+    "text": "one",
+    "start": 374.4,
+    "duration": 5.44
+  },
+  {
+    "text": "uh of the ayat da shaded green guy",
+    "start": 375.44,
+    "duration": 5.92
+  },
+  {
+    "text": "sorry the partial derivative of the loss",
+    "start": 379.84,
+    "duration": 4.24
+  },
+  {
+    "text": "function with respect to the ith shaded",
+    "start": 381.36,
+    "duration": 5.04
+  },
+  {
+    "text": "green guy right but we are all we are",
+    "start": 384.08,
+    "duration": 4.16
+  },
+  {
+    "text": "not interested in one partial derivative",
+    "start": 386.4,
+    "duration": 3.12
+  },
+  {
+    "text": "we are interested in the entire",
+    "start": 388.24,
+    "duration": 3.36
+  },
+  {
+    "text": "collection of partial derivatives so i",
+    "start": 389.52,
+    "duration": 4.48
+  },
+  {
+    "text": "want to talk about the gradient with",
+    "start": 391.6,
+    "duration": 5.439
+  },
+  {
+    "text": "respect to the vector y hat not just the",
+    "start": 394.0,
+    "duration": 4.72
+  },
+  {
+    "text": "partial derivative with respect to one",
+    "start": 397.039,
+    "duration": 3.201
+  },
+  {
+    "text": "of the elements of the screen right so",
+    "start": 398.72,
+    "duration": 3.44
+  },
+  {
+    "text": "what do i mean by that so this is i'm",
+    "start": 400.24,
+    "duration": 3.84
+  },
+  {
+    "text": "going to write the gradient",
+    "start": 402.16,
+    "duration": 4.56
+  },
+  {
+    "text": "of the loss function with respect to y",
+    "start": 404.08,
+    "duration": 4.559
+  },
+  {
+    "text": "hat right so this is what my notation is",
+    "start": 406.72,
+    "duration": 3.44
+  },
+  {
+    "text": "and what does this mean right this is",
+    "start": 408.639,
+    "duration": 3.28
+  },
+  {
+    "text": "what it means it's just a collection of",
+    "start": 410.16,
+    "duration": 4.72
+  },
+  {
+    "text": "the partial derivatives of the loss",
+    "start": 411.919,
+    "duration": 4.4
+  },
+  {
+    "text": "function with respect to all the",
+    "start": 414.88,
+    "duration": 3.36
+  },
+  {
+    "text": "elements of y hat and what are all the",
+    "start": 416.319,
+    "duration": 4.801
+  },
+  {
+    "text": "elements of y hat y 1 hat y 2 hat all",
+    "start": 418.24,
+    "duration": 4.64
+  },
+  {
+    "text": "the way up to y k hat right so it's just",
+    "start": 421.12,
+    "duration": 4.079
+  },
+  {
+    "text": "a collection of all these guys and i",
+    "start": 422.88,
+    "duration": 3.84
+  },
+  {
+    "text": "have the formula for any one of them",
+    "start": 425.199,
+    "duration": 3.12
+  },
+  {
+    "text": "right so this is what the formula looks",
+    "start": 426.72,
+    "duration": 2.479
+  },
+  {
+    "text": "like",
+    "start": 428.319,
+    "duration": 2.801
+  },
+  {
+    "text": "the formula was",
+    "start": 429.199,
+    "duration": 4.081
+  },
+  {
+    "text": "indicator variable",
+    "start": 431.12,
+    "duration": 6.32
+  },
+  {
+    "text": "l equal to i divided by y hat",
+    "start": 433.28,
+    "duration": 4.96
+  },
+  {
+    "text": "l",
+    "start": 437.44,
+    "duration": 3.12
+  },
+  {
+    "text": "and the minus of that right so",
+    "start": 438.24,
+    "duration": 5.359
+  },
+  {
+    "text": "uh if i want to compute the derivative",
+    "start": 440.56,
+    "duration": 4.88
+  },
+  {
+    "text": "of the loss function with respect to y 1",
+    "start": 443.599,
+    "duration": 3.761
+  },
+  {
+    "text": "hat in that case",
+    "start": 445.44,
+    "duration": 4.159
+  },
+  {
+    "text": "i is equal to 1 so hence i will write i",
+    "start": 447.36,
+    "duration": 4.559
+  },
+  {
+    "text": "equal to 1 here and l of course remains",
+    "start": 449.599,
+    "duration": 4.561
+  },
+  {
+    "text": "the same right l does not change so that",
+    "start": 451.919,
+    "duration": 4.481
+  },
+  {
+    "text": "1 by y hat l and the negative of that",
+    "start": 454.16,
+    "duration": 4.159
+  },
+  {
+    "text": "comes outside and this indicator",
+    "start": 456.4,
+    "duration": 5.04
+  },
+  {
+    "text": "variable just changes as i go down the",
+    "start": 458.319,
+    "duration": 5.201
+  },
+  {
+    "text": "vector the condition associated with the",
+    "start": 461.44,
+    "duration": 4.319
+  },
+  {
+    "text": "indicator variable changes right",
+    "start": 463.52,
+    "duration": 4.64
+  },
+  {
+    "text": "and since only one",
+    "start": 465.759,
+    "duration": 4.401
+  },
+  {
+    "text": "of the uh",
+    "start": 468.16,
+    "duration": 5.36
+  },
+  {
+    "text": "i mean l could take on any one of the",
+    "start": 470.16,
+    "duration": 4.879
+  },
+  {
+    "text": "k values",
+    "start": 473.52,
+    "duration": 2.64
+  },
+  {
+    "text": "this",
+    "start": 475.039,
+    "duration": 3.28
+  },
+  {
+    "text": "vector will have one in only one",
+    "start": 476.16,
+    "duration": 4.0
+  },
+  {
+    "text": "position and zero everywhere else right",
+    "start": 478.319,
+    "duration": 3.841
+  },
+  {
+    "text": "for example uh on the previous slide we",
+    "start": 480.16,
+    "duration": 3.84
+  },
+  {
+    "text": "were discussing that suppose l equal to",
+    "start": 482.16,
+    "duration": 4.479
+  },
+  {
+    "text": "two that means the correct class is the",
+    "start": 484.0,
+    "duration": 4.8
+  },
+  {
+    "text": "second class then when i evaluate this",
+    "start": 486.639,
+    "duration": 4.721
+  },
+  {
+    "text": "indicator variable which is l equal to 1",
+    "start": 488.8,
+    "duration": 4.56
+  },
+  {
+    "text": "i'll get the answer as 0 for the next",
+    "start": 491.36,
+    "duration": 3.76
+  },
+  {
+    "text": "one i'll get the answer as 1 and",
+    "start": 493.36,
+    "duration": 3.76
+  },
+  {
+    "text": "everywhere else i'll get a 0 right",
+    "start": 495.12,
+    "duration": 4.479
+  },
+  {
+    "text": "similarly if l is equal to 3 then i'll",
+    "start": 497.12,
+    "duration": 6.0
+  },
+  {
+    "text": "get 0 0 1 and then all 0 right so any",
+    "start": 499.599,
+    "duration": 6.32
+  },
+  {
+    "text": "only one of these elements would be one",
+    "start": 503.12,
+    "duration": 4.479
+  },
+  {
+    "text": "so these kind of vectors are called one",
+    "start": 505.919,
+    "duration": 3.28
+  },
+  {
+    "text": "hot vector because only one of their",
+    "start": 507.599,
+    "duration": 3.361
+  },
+  {
+    "text": "entries is going to be one right so let",
+    "start": 509.199,
+    "duration": 4.801
+  },
+  {
+    "text": "me just clear the slide",
+    "start": 510.96,
+    "duration": 5.12
+  },
+  {
+    "text": "okay so this is what it looks like i'm",
+    "start": 514.0,
+    "duration": 4.719
+  },
+  {
+    "text": "going to call this vector as the one hot",
+    "start": 516.08,
+    "duration": 4.639
+  },
+  {
+    "text": "vector e l",
+    "start": 518.719,
+    "duration": 3.281
+  },
+  {
+    "text": "where",
+    "start": 520.719,
+    "duration": 2.24
+  },
+  {
+    "text": "this",
+    "start": 522.0,
+    "duration": 2.959
+  },
+  {
+    "text": "contains a one in the l position this is",
+    "start": 522.959,
+    "duration": 4.161
+  },
+  {
+    "text": "a vector containing one in the l",
+    "start": 524.959,
+    "duration": 4.401
+  },
+  {
+    "text": "position and zero everywhere else and",
+    "start": 527.12,
+    "duration": 4.0
+  },
+  {
+    "text": "that's just a more compact way of",
+    "start": 529.36,
+    "duration": 3.36
+  },
+  {
+    "text": "writing this i have not done anything",
+    "start": 531.12,
+    "duration": 4.32
+  },
+  {
+    "text": "new i've just introduced a new notation",
+    "start": 532.72,
+    "duration": 5.679
+  },
+  {
+    "text": "for the vector e right okay",
+    "start": 535.44,
+    "duration": 5.2
+  },
+  {
+    "text": "ah so so far so good right so what have",
+    "start": 538.399,
+    "duration": 4.161
+  },
+  {
+    "text": "we been able to do so far remember that",
+    "start": 540.64,
+    "duration": 5.6
+  },
+  {
+    "text": "this was h3 this part was h3 which was",
+    "start": 542.56,
+    "duration": 5.04
+  },
+  {
+    "text": "the same as",
+    "start": 546.24,
+    "duration": 3.68
+  },
+  {
+    "text": "y hat sorry i should have written h 3 in",
+    "start": 547.6,
+    "duration": 4.32
+  },
+  {
+    "text": "the suffix right so i have the",
+    "start": 549.92,
+    "duration": 3.52
+  },
+  {
+    "text": "derivative of the loss function with",
+    "start": 551.92,
+    "duration": 3.76
+  },
+  {
+    "text": "respect to y hat but that is not the",
+    "start": 553.44,
+    "duration": 4.24
+  },
+  {
+    "text": "quantity that i was interested in i was",
+    "start": 555.68,
+    "duration": 3.68
+  },
+  {
+    "text": "interested in the derivative of the loss",
+    "start": 557.68,
+    "duration": 3.04
+  },
+  {
+    "text": "function",
+    "start": 559.36,
+    "duration": 3.2
+  },
+  {
+    "text": "with respect to a",
+    "start": 560.72,
+    "duration": 4.72
+  },
+  {
+    "text": "3 right or a l because l equal to 3 in",
+    "start": 562.56,
+    "duration": 4.959
+  },
+  {
+    "text": "this case right so that i have not done",
+    "start": 565.44,
+    "duration": 4.0
+  },
+  {
+    "text": "yet but what i have done the reason i",
+    "start": 567.519,
+    "duration": 5.841
+  },
+  {
+    "text": "did this part was to give you the uh",
+    "start": 569.44,
+    "duration": 5.6
+  },
+  {
+    "text": "give you like with help of a smaller",
+    "start": 573.36,
+    "duration": 3.36
+  },
+  {
+    "text": "example right try to explain how this",
+    "start": 575.04,
+    "duration": 3.76
+  },
+  {
+    "text": "entire discussion is going to go what",
+    "start": 576.72,
+    "duration": 4.4
+  },
+  {
+    "text": "did we do we first computed the partial",
+    "start": 578.8,
+    "duration": 3.92
+  },
+  {
+    "text": "derivative with respect to one of the",
+    "start": 581.12,
+    "duration": 3.2
+  },
+  {
+    "text": "elements so we were actually interested",
+    "start": 582.72,
+    "duration": 3.52
+  },
+  {
+    "text": "in the partial in the gradient with",
+    "start": 584.32,
+    "duration": 3.92
+  },
+  {
+    "text": "respect to the entire vector but we",
+    "start": 586.24,
+    "duration": 3.52
+  },
+  {
+    "text": "didn't go there directly we first",
+    "start": 588.24,
+    "duration": 3.12
+  },
+  {
+    "text": "computed the partial derivative with",
+    "start": 589.76,
+    "duration": 3.68
+  },
+  {
+    "text": "respect to one of the elements and then",
+    "start": 591.36,
+    "duration": 4.08
+  },
+  {
+    "text": "once we had that we were able to write",
+    "start": 593.44,
+    "duration": 4.56
+  },
+  {
+    "text": "down the formula for the entire vector",
+    "start": 595.44,
+    "duration": 4.8
+  },
+  {
+    "text": "right uh so this same recipe is going to",
+    "start": 598.0,
+    "duration": 3.76
+  },
+  {
+    "text": "repeat everywhere we are going to first",
+    "start": 600.24,
+    "duration": 3.52
+  },
+  {
+    "text": "try to if you have any interest in a",
+    "start": 601.76,
+    "duration": 3.199
+  },
+  {
+    "text": "derivative",
+    "start": 603.76,
+    "duration": 3.519
+  },
+  {
+    "text": "of some quantity with respect to vector",
+    "start": 604.959,
+    "duration": 4.32
+  },
+  {
+    "text": "we'll first try to find out the partial",
+    "start": 607.279,
+    "duration": 4.401
+  },
+  {
+    "text": "derivative with respect to one element",
+    "start": 609.279,
+    "duration": 4.721
+  },
+  {
+    "text": "of that vector right and then generalize",
+    "start": 611.68,
+    "duration": 4.24
+  },
+  {
+    "text": "for the entire vector okay that's what",
+    "start": 614.0,
+    "duration": 4.079
+  },
+  {
+    "text": "we are going to do so now with that let",
+    "start": 615.92,
+    "duration": 5.2
+  },
+  {
+    "text": "me just try to find",
+    "start": 618.079,
+    "duration": 3.041
+  },
+  {
+    "text": "the derivative of the loss function with",
+    "start": 621.839,
+    "duration": 4.961
+  },
+  {
+    "text": "respect to a l and what i am going to do",
+    "start": 623.92,
+    "duration": 4.8
+  },
+  {
+    "text": "is first try to find the derivative with",
+    "start": 626.8,
+    "duration": 3.76
+  },
+  {
+    "text": "respect to one of the elements which is",
+    "start": 628.72,
+    "duration": 5.44
+  },
+  {
+    "text": "the ith element so again a l is actually",
+    "start": 630.56,
+    "duration": 8.399
+  },
+  {
+    "text": "a l 1 a l 2 all the way up to a l k",
+    "start": 634.16,
+    "duration": 6.64
+  },
+  {
+    "text": "right so from with respect to any",
+    "start": 638.959,
+    "duration": 4.32
+  },
+  {
+    "text": "generic element of that vector i am",
+    "start": 640.8,
+    "duration": 4.0
+  },
+  {
+    "text": "trying to find the derivative of the",
+    "start": 643.279,
+    "duration": 3.12
+  },
+  {
+    "text": "loss function what is the loss function",
+    "start": 644.8,
+    "duration": 4.479
+  },
+  {
+    "text": "minus log y hat l so now what is this",
+    "start": 646.399,
+    "duration": 4.161
+  },
+  {
+    "text": "going to be",
+    "start": 649.279,
+    "duration": 3.12
+  },
+  {
+    "text": "i can split it into two parts i can",
+    "start": 650.56,
+    "duration": 3.68
+  },
+  {
+    "text": "write it as the derivative of the loss",
+    "start": 652.399,
+    "duration": 3.041
+  },
+  {
+    "text": "function",
+    "start": 654.24,
+    "duration": 3.2
+  },
+  {
+    "text": "with respect to y hat l and then the",
+    "start": 655.44,
+    "duration": 5.68
+  },
+  {
+    "text": "derivative of y hat l with respect to",
+    "start": 657.44,
+    "duration": 5.76
+  },
+  {
+    "text": "a l i right they can split it into these",
+    "start": 661.12,
+    "duration": 5.04
+  },
+  {
+    "text": "two paths okay and now the question is",
+    "start": 663.2,
+    "duration": 4.879
+  },
+  {
+    "text": "does y hat l",
+    "start": 666.16,
+    "duration": 4.32
+  },
+  {
+    "text": "depend on a l i right so what am i",
+    "start": 668.079,
+    "duration": 4.081
+  },
+  {
+    "text": "asking this is what i'm trying to ask",
+    "start": 670.48,
+    "duration": 5.2
+  },
+  {
+    "text": "right so this is what my",
+    "start": 672.16,
+    "duration": 7.119
+  },
+  {
+    "text": "a vector looks like",
+    "start": 675.68,
+    "duration": 3.599
+  },
+  {
+    "text": "okay and my i here in this",
+    "start": 680.079,
+    "duration": 6.721
+  },
+  {
+    "text": "is anything from 1 to k right and let us",
+    "start": 683.519,
+    "duration": 5.121
+  },
+  {
+    "text": "again consider the case",
+    "start": 686.8,
+    "duration": 4.88
+  },
+  {
+    "text": "when the correct output was",
+    "start": 688.64,
+    "duration": 5.52
+  },
+  {
+    "text": "uh 2 right so that means my loss",
+    "start": 691.68,
+    "duration": 3.52
+  },
+  {
+    "text": "function is",
+    "start": 694.16,
+    "duration": 2.56
+  },
+  {
+    "text": "minus log",
+    "start": 695.2,
+    "duration": 2.8
+  },
+  {
+    "text": "y hat",
+    "start": 696.72,
+    "duration": 2.08
+  },
+  {
+    "text": "2",
+    "start": 698.0,
+    "duration": 3.279
+  },
+  {
+    "text": "okay and that's why this i am trying to",
+    "start": 698.8,
+    "duration": 3.599
+  },
+  {
+    "text": "compute the derivative",
+    "start": 701.279,
+    "duration": 2.0
+  },
+  {
+    "text": "of",
+    "start": 702.399,
+    "duration": 2.081
+  },
+  {
+    "text": "y hat",
+    "start": 703.279,
+    "duration": 3.12
+  },
+  {
+    "text": "2 with respect to",
+    "start": 704.48,
+    "duration": 4.24
+  },
+  {
+    "text": "some ith element right it could be a l 1",
+    "start": 706.399,
+    "duration": 4.88
+  },
+  {
+    "text": "a l 2 a l 3 anything right so now i'm",
+    "start": 708.72,
+    "duration": 3.52
+  },
+  {
+    "text": "asking",
+    "start": 711.279,
+    "duration": 1.761
+  },
+  {
+    "text": "does",
+    "start": 712.24,
+    "duration": 3.839
+  },
+  {
+    "text": "y hat to depend on all these a's or does",
+    "start": 713.04,
+    "duration": 5.039
+  },
+  {
+    "text": "it only depend on one of them right",
+    "start": 716.079,
+    "duration": 4.32
+  },
+  {
+    "text": "because earlier we saw that the loss",
+    "start": 718.079,
+    "duration": 4.481
+  },
+  {
+    "text": "function depended on only on one of the",
+    "start": 720.399,
+    "duration": 4.481
+  },
+  {
+    "text": "y hats and not the entire vector for all",
+    "start": 722.56,
+    "duration": 4.719
+  },
+  {
+    "text": "the other elements the derivative was 0",
+    "start": 724.88,
+    "duration": 5.44
+  },
+  {
+    "text": "but now for y hat 2 which is this green",
+    "start": 727.279,
+    "duration": 4.641
+  },
+  {
+    "text": "guy not the loss function right this",
+    "start": 730.32,
+    "duration": 3.68
+  },
+  {
+    "text": "shaded green guy does it depend on",
+    "start": 731.92,
+    "duration": 3.28
+  },
+  {
+    "text": "everything",
+    "start": 734.0,
+    "duration": 3.279
+  },
+  {
+    "text": "every element of a it does right because",
+    "start": 735.2,
+    "duration": 4.48
+  },
+  {
+    "text": "how did you compute y hat y hat was",
+    "start": 737.279,
+    "duration": 4.8
+  },
+  {
+    "text": "computed using the soft max function so",
+    "start": 739.68,
+    "duration": 5.2
+  },
+  {
+    "text": "y hat 2 in particular was e raised to a",
+    "start": 742.079,
+    "duration": 6.241
+  },
+  {
+    "text": "l 2 divided by the summation of",
+    "start": 744.88,
+    "duration": 5.759
+  },
+  {
+    "text": "e raised to all a i's right so it",
+    "start": 748.32,
+    "duration": 4.72
+  },
+  {
+    "text": "depends on all the ais because all the",
+    "start": 750.639,
+    "duration": 4.961
+  },
+  {
+    "text": "ai ali's appear in the denominator right",
+    "start": 753.04,
+    "duration": 4.56
+  },
+  {
+    "text": "so it's a function of",
+    "start": 755.6,
+    "duration": 3.2
+  },
+  {
+    "text": "all the",
+    "start": 757.6,
+    "duration": 3.84
+  },
+  {
+    "text": "allies right this is how we had uh",
+    "start": 758.8,
+    "duration": 4.479
+  },
+  {
+    "text": "computed it right so this this should be",
+    "start": 761.44,
+    "duration": 4.32
+  },
+  {
+    "text": "clear uh that now we are trying to take",
+    "start": 763.279,
+    "duration": 4.321
+  },
+  {
+    "text": "the derivative of y hat",
+    "start": 765.76,
+    "duration": 4.879
+  },
+  {
+    "text": "l with respect to a l i and hence it's a",
+    "start": 767.6,
+    "duration": 4.72
+  },
+  {
+    "text": "function of all the variables okay so",
+    "start": 770.639,
+    "duration": 3.281
+  },
+  {
+    "text": "now that we have understood this and we",
+    "start": 772.32,
+    "duration": 3.759
+  },
+  {
+    "text": "understood what the final formula for y",
+    "start": 773.92,
+    "duration": 4.96
+  },
+  {
+    "text": "hat l is let's try to find it so let's",
+    "start": 776.079,
+    "duration": 6.081
+  },
+  {
+    "text": "try to derive this okay",
+    "start": 778.88,
+    "duration": 3.28
+  },
+  {
+    "text": "okay so this is what we are trying to do",
+    "start": 782.399,
+    "duration": 2.961
+  },
+  {
+    "text": "right we are trying to compute the",
+    "start": 784.32,
+    "duration": 2.639
+  },
+  {
+    "text": "derivative of the loss function with",
+    "start": 785.36,
+    "duration": 4.4
+  },
+  {
+    "text": "respect to one of the elements in the al",
+    "start": 786.959,
+    "duration": 4.32
+  },
+  {
+    "text": "vector okay",
+    "start": 789.76,
+    "duration": 4.0
+  },
+  {
+    "text": "now this is going to be and i've already",
+    "start": 791.279,
+    "duration": 5.281
+  },
+  {
+    "text": "established that y hat l depends on all",
+    "start": 793.76,
+    "duration": 5.44
+  },
+  {
+    "text": "the a's right so i it's not going to be",
+    "start": 796.56,
+    "duration": 5.279
+  },
+  {
+    "text": "the case of 1 in some cases and 0 in",
+    "start": 799.2,
+    "duration": 4.319
+  },
+  {
+    "text": "other cases right that the derivative is",
+    "start": 801.839,
+    "duration": 4.321
+  },
+  {
+    "text": "0 in some cases and not 0 in some cases",
+    "start": 803.519,
+    "duration": 4.401
+  },
+  {
+    "text": "the derivative would always exist now",
+    "start": 806.16,
+    "duration": 5.6
+  },
+  {
+    "text": "this is a derivative of the form",
+    "start": 807.92,
+    "duration": 3.84
+  },
+  {
+    "text": "derivative of the form",
+    "start": 812.88,
+    "duration": 3.6
+  },
+  {
+    "text": "of",
+    "start": 815.68,
+    "duration": 3.599
+  },
+  {
+    "text": "log of a quantity with respect to a",
+    "start": 816.48,
+    "duration": 4.64
+  },
+  {
+    "text": "variable and that quantity depends on",
+    "start": 819.279,
+    "duration": 4.8
+  },
+  {
+    "text": "that variable so this would just be uh",
+    "start": 821.12,
+    "duration": 4.159
+  },
+  {
+    "text": "1 by",
+    "start": 824.079,
+    "duration": 2.721
+  },
+  {
+    "text": "y hat l my",
+    "start": 825.279,
+    "duration": 4.8
+  },
+  {
+    "text": "1 by y hat l and then the derivative of",
+    "start": 826.8,
+    "duration": 5.039
+  },
+  {
+    "text": "y hat l with respect to a li right so",
+    "start": 830.079,
+    "duration": 3.681
+  },
+  {
+    "text": "this is just the chain",
+    "start": 831.839,
+    "duration": 4.401
+  },
+  {
+    "text": "rule applied right so this if you have",
+    "start": 833.76,
+    "duration": 5.439
+  },
+  {
+    "text": "derivative of log of x square with",
+    "start": 836.24,
+    "duration": 5.279
+  },
+  {
+    "text": "respect to",
+    "start": 839.199,
+    "duration": 5.681
+  },
+  {
+    "text": "x right then you will first write it as",
+    "start": 841.519,
+    "duration": 6.801
+  },
+  {
+    "text": "1 by x square and the derivative of",
+    "start": 844.88,
+    "duration": 5.92
+  },
+  {
+    "text": "x square with respect to x so the same",
+    "start": 848.32,
+    "duration": 4.24
+  },
+  {
+    "text": "thing is happening here",
+    "start": 850.8,
+    "duration": 3.599
+  },
+  {
+    "text": "here now instead of x and x squared",
+    "start": 852.56,
+    "duration": 4.48
+  },
+  {
+    "text": "which is very straightforward i have",
+    "start": 854.399,
+    "duration": 4.0
+  },
+  {
+    "text": "a l i",
+    "start": 857.04,
+    "duration": 2.56
+  },
+  {
+    "text": "and i have",
+    "start": 858.399,
+    "duration": 3.841
+  },
+  {
+    "text": "y hat and just as x square is a function",
+    "start": 859.6,
+    "duration": 5.919
+  },
+  {
+    "text": "of x y hat is a function of a l i so the",
+    "start": 862.24,
+    "duration": 5.92
+  },
+  {
+    "text": "same thing applies here i'll first take",
+    "start": 865.519,
+    "duration": 6.161
+  },
+  {
+    "text": "the derivative of log of y hat with",
+    "start": 868.16,
+    "duration": 4.64
+  },
+  {
+    "text": "respect to",
+    "start": 871.68,
+    "duration": 3.279
+  },
+  {
+    "text": "ali which would be just minus 1 by y hat",
+    "start": 872.8,
+    "duration": 4.32
+  },
+  {
+    "text": "li and then the derivative moves inside",
+    "start": 874.959,
+    "duration": 3.601
+  },
+  {
+    "text": "just as what has happened here right",
+    "start": 877.12,
+    "duration": 2.56
+  },
+  {
+    "text": "this",
+    "start": 878.56,
+    "duration": 2.32
+  },
+  {
+    "text": "high school",
+    "start": 879.68,
+    "duration": 2.88
+  },
+  {
+    "text": "calculus i am sure you know this but i",
+    "start": 880.88,
+    "duration": 3.759
+  },
+  {
+    "text": "just did it in some detail okay",
+    "start": 882.56,
+    "duration": 5.2
+  },
+  {
+    "text": "now let me just replace y hat l by what",
+    "start": 884.639,
+    "duration": 5.2
+  },
+  {
+    "text": "exactly is y hat n right so let me",
+    "start": 887.76,
+    "duration": 4.48
+  },
+  {
+    "text": "explain what this formula means right",
+    "start": 889.839,
+    "duration": 5.36
+  },
+  {
+    "text": "so what was y hat",
+    "start": 892.24,
+    "duration": 7.48
+  },
+  {
+    "text": "is actually the soft max of",
+    "start": 895.199,
+    "duration": 4.521
+  },
+  {
+    "text": "a l what does that mean that a l was a",
+    "start": 900.24,
+    "duration": 5.36
+  },
+  {
+    "text": "vector",
+    "start": 903.199,
+    "duration": 2.401
+  },
+  {
+    "text": "right which had these components a l 1",
+    "start": 905.76,
+    "duration": 3.759
+  },
+  {
+    "text": "a l",
+    "start": 908.56,
+    "duration": 4.32
+  },
+  {
+    "text": "2 all the way up to a l k",
+    "start": 909.519,
+    "duration": 5.281
+  },
+  {
+    "text": "and then how did i compute y hat from",
+    "start": 912.88,
+    "duration": 4.319
+  },
+  {
+    "text": "that y hat was computed by applying the",
+    "start": 914.8,
+    "duration": 5.039
+  },
+  {
+    "text": "soft max function which was e raised to",
+    "start": 917.199,
+    "duration": 5.76
+  },
+  {
+    "text": "a l 1 divided by the summation",
+    "start": 919.839,
+    "duration": 5.041
+  },
+  {
+    "text": "e raised to a l",
+    "start": 922.959,
+    "duration": 4.32
+  },
+  {
+    "text": "2 divided by the summation and so on",
+    "start": 924.88,
+    "duration": 5.199
+  },
+  {
+    "text": "right so this y hat is a vector a l is a",
+    "start": 927.279,
+    "duration": 6.161
+  },
+  {
+    "text": "vector so this soft max of a l is",
+    "start": 930.079,
+    "duration": 5.681
+  },
+  {
+    "text": "actually a vector and what this is",
+    "start": 933.44,
+    "duration": 5.199
+  },
+  {
+    "text": "saying is that i am looking at the lth",
+    "start": 935.76,
+    "duration": 6.0
+  },
+  {
+    "text": "element of that vector which is the same",
+    "start": 938.639,
+    "duration": 5.281
+  },
+  {
+    "text": "as y hat l right so that's what this",
+    "start": 941.76,
+    "duration": 4.24
+  },
+  {
+    "text": "formula is saying nothing great here and",
+    "start": 943.92,
+    "duration": 4.719
+  },
+  {
+    "text": "what is the l element of y hat l it's",
+    "start": 946.0,
+    "duration": 4.32
+  },
+  {
+    "text": "going to be e raised to",
+    "start": 948.639,
+    "duration": 3.2
+  },
+  {
+    "text": "a l",
+    "start": 950.32,
+    "duration": 3.6
+  },
+  {
+    "text": "again suffix with l divided by the",
+    "start": 951.839,
+    "duration": 4.081
+  },
+  {
+    "text": "summation of all the exponents right so",
+    "start": 953.92,
+    "duration": 4.159
+  },
+  {
+    "text": "that's what y hat l means that's what",
+    "start": 955.92,
+    "duration": 4.8
+  },
+  {
+    "text": "softmax off there's a softmax of the",
+    "start": 958.079,
+    "duration": 5.68
+  },
+  {
+    "text": "vector a l and then taking the small l",
+    "start": 960.72,
+    "duration": 4.479
+  },
+  {
+    "text": "component of that right so that's what",
+    "start": 963.759,
+    "duration": 3.681
+  },
+  {
+    "text": "that notation means okay",
+    "start": 965.199,
+    "duration": 4.801
+  },
+  {
+    "text": "let's go ahead so i'm just going to uh",
+    "start": 967.44,
+    "duration": 5.44
+  },
+  {
+    "text": "as i said what i just explained that",
+    "start": 970.0,
+    "duration": 4.72
+  },
+  {
+    "text": "y hat l",
+    "start": 972.88,
+    "duration": 4.399
+  },
+  {
+    "text": "which is the same as soft max a l l is",
+    "start": 974.72,
+    "duration": 4.88
+  },
+  {
+    "text": "essentially this guy right so i've just",
+    "start": 977.279,
+    "duration": 4.48
+  },
+  {
+    "text": "put in the formula for that",
+    "start": 979.6,
+    "duration": 5.679
+  },
+  {
+    "text": "sorry this should have been i",
+    "start": 981.759,
+    "duration": 3.52
+  },
+  {
+    "text": "right because here the index is over i",
+    "start": 985.519,
+    "duration": 4.801
+  },
+  {
+    "text": "uh so i'm summing over all the exponents",
+    "start": 988.0,
+    "duration": 4.56
+  },
+  {
+    "text": "okay",
+    "start": 990.32,
+    "duration": 2.24
+  },
+  {
+    "text": "now this is the derivative of the form u",
+    "start": 993.92,
+    "duration": 5.279
+  },
+  {
+    "text": "by v or i can call it as derivative of",
+    "start": 996.56,
+    "duration": 3.6
+  },
+  {
+    "text": "the form",
+    "start": 999.199,
+    "duration": 4.161
+  },
+  {
+    "text": "g x by h x right and we all know the",
+    "start": 1000.16,
+    "duration": 5.679
+  },
+  {
+    "text": "formula for that this is the formula for",
+    "start": 1003.36,
+    "duration": 5.279
+  },
+  {
+    "text": "the derivative of u by v right and you",
+    "start": 1005.839,
+    "duration": 4.881
+  },
+  {
+    "text": "would have again known this formula i",
+    "start": 1008.639,
+    "duration": 3.44
+  },
+  {
+    "text": "will not go into the details of that you",
+    "start": 1010.72,
+    "duration": 3.2
+  },
+  {
+    "text": "can refer to it if you don't know this",
+    "start": 1012.079,
+    "duration": 3.44
+  },
+  {
+    "text": "just maybe quickly brush up some",
+    "start": 1013.92,
+    "duration": 3.2
+  },
+  {
+    "text": "calculus and you will",
+    "start": 1015.519,
+    "duration": 5.68
+  },
+  {
+    "text": "realize that this is the formula okay",
+    "start": 1017.12,
+    "duration": 4.079
+  },
+  {
+    "text": "okay so let's go ahead",
+    "start": 1021.759,
+    "duration": 4.08
+  },
+  {
+    "text": "now uh so i'm just going to supply",
+    "start": 1027.36,
+    "duration": 4.319
+  },
+  {
+    "text": "substitute this formula blindly right so",
+    "start": 1029.76,
+    "duration": 4.159
+  },
+  {
+    "text": "this is g of x for me",
+    "start": 1031.679,
+    "duration": 3.76
+  },
+  {
+    "text": "and this is",
+    "start": 1033.919,
+    "duration": 3.12
+  },
+  {
+    "text": "h of x for me so i'm just going to",
+    "start": 1035.439,
+    "duration": 4.0
+  },
+  {
+    "text": "substitute g of x and h of x so this is",
+    "start": 1037.039,
+    "duration": 5.201
+  },
+  {
+    "text": "derivative of g of x with respect to x",
+    "start": 1039.439,
+    "duration": 6.081
+  },
+  {
+    "text": "so i'll have derivative of",
+    "start": 1042.24,
+    "duration": 6.319
+  },
+  {
+    "text": "this is my g of x with respect to a l i",
+    "start": 1045.52,
+    "duration": 5.76
+  },
+  {
+    "text": "into 1 by h x so i'm just",
+    "start": 1048.559,
+    "duration": 6.48
+  },
+  {
+    "text": "dividing it by h of x right and then uh",
+    "start": 1051.28,
+    "duration": 5.6
+  },
+  {
+    "text": "i'll not explain this entire formula",
+    "start": 1055.039,
+    "duration": 4.321
+  },
+  {
+    "text": "it's like two conversion uh to speak it",
+    "start": 1056.88,
+    "duration": 4.48
+  },
+  {
+    "text": "out right it's not uh difficult but it's",
+    "start": 1059.36,
+    "duration": 4.08
+  },
+  {
+    "text": "just too cumbersome to speak it out this",
+    "start": 1061.36,
+    "duration": 4.24
+  },
+  {
+    "text": "is again g of x as you would",
+    "start": 1063.44,
+    "duration": 5.28
+  },
+  {
+    "text": "as you would notice this is again h of x",
+    "start": 1065.6,
+    "duration": 4.48
+  },
+  {
+    "text": "so this is just",
+    "start": 1068.72,
+    "duration": 4.0
+  },
+  {
+    "text": "what i'm substituting then this is h of",
+    "start": 1070.08,
+    "duration": 5.2
+  },
+  {
+    "text": "x square right so all of this is",
+    "start": 1072.72,
+    "duration": 4.8
+  },
+  {
+    "text": "uh the routine substitutions that i'm",
+    "start": 1075.28,
+    "duration": 4.24
+  },
+  {
+    "text": "making in the original formula once you",
+    "start": 1077.52,
+    "duration": 4.8
+  },
+  {
+    "text": "get that this is g and this is h and you",
+    "start": 1079.52,
+    "duration": 4.72
+  },
+  {
+    "text": "buy this formula the rest of it is just",
+    "start": 1082.32,
+    "duration": 4.08
+  },
+  {
+    "text": "plain substitution right now let's try",
+    "start": 1084.24,
+    "duration": 4.48
+  },
+  {
+    "text": "start computing these derivatives so now",
+    "start": 1086.4,
+    "duration": 6.0
+  },
+  {
+    "text": "i am taking derivative of a l i",
+    "start": 1088.72,
+    "duration": 7.199
+  },
+  {
+    "text": "with respect to uh the exponent of a l l",
+    "start": 1092.4,
+    "duration": 5.2
+  },
+  {
+    "text": "right so let's see what am i trying to",
+    "start": 1095.919,
+    "duration": 2.481
+  },
+  {
+    "text": "do",
+    "start": 1097.6,
+    "duration": 3.68
+  },
+  {
+    "text": "again i had this vector a l which had",
+    "start": 1098.4,
+    "duration": 4.72
+  },
+  {
+    "text": "components a l 1",
+    "start": 1101.28,
+    "duration": 4.96
+  },
+  {
+    "text": "a l 2 all the way raised to a l",
+    "start": 1103.12,
+    "duration": 5.84
+  },
+  {
+    "text": "k right now i am considering this",
+    "start": 1106.24,
+    "duration": 5.2
+  },
+  {
+    "text": "quantity which is what e raised to",
+    "start": 1108.96,
+    "duration": 3.52
+  },
+  {
+    "text": "a l",
+    "start": 1111.44,
+    "duration": 2.64
+  },
+  {
+    "text": "l okay",
+    "start": 1112.48,
+    "duration": 2.88
+  },
+  {
+    "text": "there's no denominator here right it's",
+    "start": 1114.08,
+    "duration": 3.12
+  },
+  {
+    "text": "just e raised to a l i'm trying to take",
+    "start": 1115.36,
+    "duration": 3.84
+  },
+  {
+    "text": "the derivative of that with respect to",
+    "start": 1117.2,
+    "duration": 3.2
+  },
+  {
+    "text": "one of the",
+    "start": 1119.2,
+    "duration": 2.32
+  },
+  {
+    "text": "uh",
+    "start": 1120.4,
+    "duration": 3.76
+  },
+  {
+    "text": "guys here right and again you can notice",
+    "start": 1121.52,
+    "duration": 6.08
+  },
+  {
+    "text": "that this only depends on uh",
+    "start": 1124.16,
+    "duration": 5.759
+  },
+  {
+    "text": "one of the elements here where",
+    "start": 1127.6,
+    "duration": 4.4
+  },
+  {
+    "text": "corresponding to the l entry here it",
+    "start": 1129.919,
+    "duration": 3.841
+  },
+  {
+    "text": "does not depend on the other guys so",
+    "start": 1132.0,
+    "duration": 3.36
+  },
+  {
+    "text": "this would be zero",
+    "start": 1133.76,
+    "duration": 3.84
+  },
+  {
+    "text": "if i happens to be",
+    "start": 1135.36,
+    "duration": 4.319
+  },
+  {
+    "text": "anything other than l otherwise it would",
+    "start": 1137.6,
+    "duration": 3.76
+  },
+  {
+    "text": "be 1 right and we just saw how to deal",
+    "start": 1139.679,
+    "duration": 3.441
+  },
+  {
+    "text": "with this on the previous slide so i am",
+    "start": 1141.36,
+    "duration": 3.52
+  },
+  {
+    "text": "going to write it as this that it's",
+    "start": 1143.12,
+    "duration": 4.64
+  },
+  {
+    "text": "going to be e raised to x right you",
+    "start": 1144.88,
+    "duration": 4.159
+  },
+  {
+    "text": "understand what i am calling as e raised",
+    "start": 1147.76,
+    "duration": 3.44
+  },
+  {
+    "text": "to x so the derivative of e raised to x",
+    "start": 1149.039,
+    "duration": 4.161
+  },
+  {
+    "text": "with respect to x is",
+    "start": 1151.2,
+    "duration": 4.16
+  },
+  {
+    "text": "e raised to x itself here instead of x",
+    "start": 1153.2,
+    "duration": 5.52
+  },
+  {
+    "text": "we just have a l i right so it's going",
+    "start": 1155.36,
+    "duration": 4.319
+  },
+  {
+    "text": "to be",
+    "start": 1158.72,
+    "duration": 3.36
+  },
+  {
+    "text": "e raised to x",
+    "start": 1159.679,
+    "duration": 4.561
+  },
+  {
+    "text": "if l is equal to i just as i explained",
+    "start": 1162.08,
+    "duration": 4.08
+  },
+  {
+    "text": "here sorry",
+    "start": 1164.24,
+    "duration": 3.12
+  },
+  {
+    "text": "oops",
+    "start": 1166.16,
+    "duration": 3.68
+  },
+  {
+    "text": "okay so it's going to be uh",
+    "start": 1167.36,
+    "duration": 4.559
+  },
+  {
+    "text": "if l is equal to i then the derivative",
+    "start": 1169.84,
+    "duration": 4.079
+  },
+  {
+    "text": "would be e raised to",
+    "start": 1171.919,
+    "duration": 4.241
+  },
+  {
+    "text": "this quantity otherwise it would be 0",
+    "start": 1173.919,
+    "duration": 4.161
+  },
+  {
+    "text": "hence the indicator variable then i have",
+    "start": 1176.16,
+    "duration": 3.759
+  },
+  {
+    "text": "copied the denominator as it is from the",
+    "start": 1178.08,
+    "duration": 4.4
+  },
+  {
+    "text": "other place right now this quantity i",
+    "start": 1179.919,
+    "duration": 4.561
+  },
+  {
+    "text": "have copied as it is here the",
+    "start": 1182.48,
+    "duration": 4.24
+  },
+  {
+    "text": "denominator i have split into two parts",
+    "start": 1184.48,
+    "duration": 3.92
+  },
+  {
+    "text": "right so it's squares i've just put into",
+    "start": 1186.72,
+    "duration": 4.4
+  },
+  {
+    "text": "two separate parts and now i have this",
+    "start": 1188.4,
+    "duration": 4.56
+  },
+  {
+    "text": "right so let's see what that quantity is",
+    "start": 1191.12,
+    "duration": 3.76
+  },
+  {
+    "text": "so here i have the sum of the exponents",
+    "start": 1192.96,
+    "duration": 3.36
+  },
+  {
+    "text": "so what does that mean i have e raised",
+    "start": 1194.88,
+    "duration": 4.32
+  },
+  {
+    "text": "to a l 1",
+    "start": 1196.32,
+    "duration": 5.68
+  },
+  {
+    "text": "plus e raised to a l 2",
+    "start": 1199.2,
+    "duration": 5.359
+  },
+  {
+    "text": "plus all the way e raised to a l",
+    "start": 1202.0,
+    "duration": 3.2
+  },
+  {
+    "text": "k",
+    "start": 1204.559,
+    "duration": 2.401
+  },
+  {
+    "text": "and i'm taking the derivative of this",
+    "start": 1205.2,
+    "duration": 4.719
+  },
+  {
+    "text": "sum with respect to one of the e l i's",
+    "start": 1206.96,
+    "duration": 4.64
+  },
+  {
+    "text": "right and what will happen all the",
+    "start": 1209.919,
+    "duration": 3.521
+  },
+  {
+    "text": "elements in this sum will disappear",
+    "start": 1211.6,
+    "duration": 3.76
+  },
+  {
+    "text": "except the one which corresponds to e a",
+    "start": 1213.44,
+    "duration": 4.16
+  },
+  {
+    "text": "l i hence the derivative would just be e",
+    "start": 1215.36,
+    "duration": 4.72
+  },
+  {
+    "text": "raised to a l i right so this is again",
+    "start": 1217.6,
+    "duration": 4.4
+  },
+  {
+    "text": "straightforward i have a sum of terms",
+    "start": 1220.08,
+    "duration": 4.16
+  },
+  {
+    "text": "only one of them depends on the variable",
+    "start": 1222.0,
+    "duration": 5.039
+  },
+  {
+    "text": "with respect to where i'm com i'm",
+    "start": 1224.24,
+    "duration": 4.799
+  },
+  {
+    "text": "computing the derivative so only that",
+    "start": 1227.039,
+    "duration": 3.76
+  },
+  {
+    "text": "term will rem remain everything else",
+    "start": 1229.039,
+    "duration": 3.921
+  },
+  {
+    "text": "will disappear right so all of this",
+    "start": 1230.799,
+    "duration": 4.88
+  },
+  {
+    "text": "looks uh pretty straightforward don't",
+    "start": 1232.96,
+    "duration": 4.24
+  },
+  {
+    "text": "worry if you're not getting is as i'm",
+    "start": 1235.679,
+    "duration": 2.801
+  },
+  {
+    "text": "explaining it you can just pause the",
+    "start": 1237.2,
+    "duration": 2.88
+  },
+  {
+    "text": "video and look at it it's very",
+    "start": 1238.48,
+    "duration": 3.439
+  },
+  {
+    "text": "mechanical steps right so it's",
+    "start": 1240.08,
+    "duration": 4.16
+  },
+  {
+    "text": "this exp just looks very annoying but",
+    "start": 1241.919,
+    "duration": 4.0
+  },
+  {
+    "text": "it's just e raised to something right",
+    "start": 1244.24,
+    "duration": 3.439
+  },
+  {
+    "text": "and you know the derivative of e raised",
+    "start": 1245.919,
+    "duration": 3.281
+  },
+  {
+    "text": "to something",
+    "start": 1247.679,
+    "duration": 3.681
+  },
+  {
+    "text": "with respect to that same variable is",
+    "start": 1249.2,
+    "duration": 3.839
+  },
+  {
+    "text": "just e raised to x right so that's the",
+    "start": 1251.36,
+    "duration": 3.52
+  },
+  {
+    "text": "only formula that is being applied here",
+    "start": 1253.039,
+    "duration": 6.481
+  },
+  {
+    "text": "right uh okay so now let's get back",
+    "start": 1254.88,
+    "duration": 7.919
+  },
+  {
+    "text": "what is this",
+    "start": 1259.52,
+    "duration": 4.399
+  },
+  {
+    "text": "we",
+    "start": 1262.799,
+    "duration": 2.161
+  },
+  {
+    "text": "just",
+    "start": 1263.919,
+    "duration": 2.801
+  },
+  {
+    "text": "did that",
+    "start": 1264.96,
+    "duration": 3.76
+  },
+  {
+    "text": "do you remember what that is so in the",
+    "start": 1266.72,
+    "duration": 3.92
+  },
+  {
+    "text": "bottom i have the sum of",
+    "start": 1268.72,
+    "duration": 4.319
+  },
+  {
+    "text": "all the exponents right so again let me",
+    "start": 1270.64,
+    "duration": 3.84
+  },
+  {
+    "text": "just do this",
+    "start": 1273.039,
+    "duration": 5.841
+  },
+  {
+    "text": "so i had a l1 al2 up to al",
+    "start": 1274.48,
+    "duration": 5.199
+  },
+  {
+    "text": "k",
+    "start": 1278.88,
+    "duration": 1.76
+  },
+  {
+    "text": "so this",
+    "start": 1279.679,
+    "duration": 2.721
+  },
+  {
+    "text": "the guy the denominator is just the",
+    "start": 1280.64,
+    "duration": 3.44
+  },
+  {
+    "text": "summation of",
+    "start": 1282.4,
+    "duration": 4.639
+  },
+  {
+    "text": "the exponents of all these quantities so",
+    "start": 1284.08,
+    "duration": 4.16
+  },
+  {
+    "text": "that's what this",
+    "start": 1287.039,
+    "duration": 3.12
+  },
+  {
+    "text": "what denominator is and what is the",
+    "start": 1288.24,
+    "duration": 6.08
+  },
+  {
+    "text": "numerator the numerator is the exponent",
+    "start": 1290.159,
+    "duration": 6.64
+  },
+  {
+    "text": "with respect to the ith guy so that",
+    "start": 1294.32,
+    "duration": 4.32
+  },
+  {
+    "text": "means it's just the",
+    "start": 1296.799,
+    "duration": 3.681
+  },
+  {
+    "text": "soft max if you consider the soft max",
+    "start": 1298.64,
+    "duration": 4.08
+  },
+  {
+    "text": "vector which i had said which was y hat",
+    "start": 1300.48,
+    "duration": 4.64
+  },
+  {
+    "text": "then am just looking at the ith entry of",
+    "start": 1302.72,
+    "duration": 4.88
+  },
+  {
+    "text": "that vector so this is just y hat i",
+    "start": 1305.12,
+    "duration": 5.2
+  },
+  {
+    "text": "right that's what it is",
+    "start": 1307.6,
+    "duration": 4.48
+  },
+  {
+    "text": "this is the ith entry of the softmax",
+    "start": 1310.32,
+    "duration": 4.8
+  },
+  {
+    "text": "vector similarly this is the",
+    "start": 1312.08,
+    "duration": 4.959
+  },
+  {
+    "text": "lth entry of the softmax vector",
+    "start": 1315.12,
+    "duration": 4.32
+  },
+  {
+    "text": "similarly this",
+    "start": 1317.039,
+    "duration": 4.161
+  },
+  {
+    "text": "is the ellith",
+    "start": 1319.44,
+    "duration": 4.8
+  },
+  {
+    "text": "sorry this should not have been",
+    "start": 1321.2,
+    "duration": 3.04
+  },
+  {
+    "text": "l equal to i so this should have been",
+    "start": 1327.039,
+    "duration": 5.76
+  },
+  {
+    "text": "l entry right not i dash this should",
+    "start": 1330.96,
+    "duration": 3.04
+  },
+  {
+    "text": "have been the l",
+    "start": 1332.799,
+    "duration": 3.441
+  },
+  {
+    "text": "entry of the vector and now i can just",
+    "start": 1334.0,
+    "duration": 3.84
+  },
+  {
+    "text": "write all this as",
+    "start": 1336.24,
+    "duration": 4.4
+  },
+  {
+    "text": "this guy i can just write it as y hat l",
+    "start": 1337.84,
+    "duration": 4.959
+  },
+  {
+    "text": "this guy i can write it as y hat l and",
+    "start": 1340.64,
+    "duration": 5.2
+  },
+  {
+    "text": "this guy i can write it as y hat i right",
+    "start": 1342.799,
+    "duration": 5.041
+  },
+  {
+    "text": "and now of course the y hat l here and",
+    "start": 1345.84,
+    "duration": 3.68
+  },
+  {
+    "text": "here gets",
+    "start": 1347.84,
+    "duration": 2.8
+  },
+  {
+    "text": "cancelled",
+    "start": 1349.52,
+    "duration": 3.84
+  },
+  {
+    "text": "and so i have",
+    "start": 1350.64,
+    "duration": 5.36
+  },
+  {
+    "text": "i'm just left with this which is",
+    "start": 1353.36,
+    "duration": 3.679
+  },
+  {
+    "text": "uh",
+    "start": 1356.0,
+    "duration": 4.32
+  },
+  {
+    "text": "minus 1 l equal to i minus y hat i right",
+    "start": 1357.039,
+    "duration": 5.52
+  },
+  {
+    "text": "so this is what i have left with again",
+    "start": 1360.32,
+    "duration": 3.92
+  },
+  {
+    "text": "don't fret too much if you did not get",
+    "start": 1362.559,
+    "duration": 3.281
+  },
+  {
+    "text": "it at one go you just pause the video",
+    "start": 1364.24,
+    "duration": 3.36
+  },
+  {
+    "text": "and you will get it at this simple set",
+    "start": 1365.84,
+    "duration": 3.28
+  },
+  {
+    "text": "of",
+    "start": 1367.6,
+    "duration": 3.84
+  },
+  {
+    "text": "steps so this is where we are right so",
+    "start": 1369.12,
+    "duration": 4.799
+  },
+  {
+    "text": "we have the derivative of one of the",
+    "start": 1371.44,
+    "duration": 5.599
+  },
+  {
+    "text": "loss function with respect to one of the",
+    "start": 1373.919,
+    "duration": 7.12
+  },
+  {
+    "text": "elements of my output vector right and",
+    "start": 1377.039,
+    "duration": 6.801
+  },
+  {
+    "text": "this is what it turns out to be and now",
+    "start": 1381.039,
+    "duration": 5.201
+  },
+  {
+    "text": "i want to compute the derivative of the",
+    "start": 1383.84,
+    "duration": 5.76
+  },
+  {
+    "text": "loss function with respect to my entire",
+    "start": 1386.24,
+    "duration": 5.52
+  },
+  {
+    "text": "output vector so this is the quantity",
+    "start": 1389.6,
+    "duration": 4.64
+  },
+  {
+    "text": "that i am interested in and i know that",
+    "start": 1391.76,
+    "duration": 4.08
+  },
+  {
+    "text": "is just a collection of these partial",
+    "start": 1394.24,
+    "duration": 2.96
+  },
+  {
+    "text": "derivatives right so it's the derivative",
+    "start": 1395.84,
+    "duration": 4.0
+  },
+  {
+    "text": "with respect to a l 1 a l 2 all the way",
+    "start": 1397.2,
+    "duration": 5.2
+  },
+  {
+    "text": "up to a l k and i know the formula for",
+    "start": 1399.84,
+    "duration": 3.839
+  },
+  {
+    "text": "each of these guys right because this",
+    "start": 1402.4,
+    "duration": 3.6
+  },
+  {
+    "text": "formula is for i any generic i so i can",
+    "start": 1403.679,
+    "duration": 4.561
+  },
+  {
+    "text": "substitute i equal to 1 2 3 so on right",
+    "start": 1406.0,
+    "duration": 3.84
+  },
+  {
+    "text": "so i can just substitute i as the",
+    "start": 1408.24,
+    "duration": 3.679
+  },
+  {
+    "text": "appropriate value here and this is what",
+    "start": 1409.84,
+    "duration": 4.88
+  },
+  {
+    "text": "i'll get right so minus indicator",
+    "start": 1411.919,
+    "duration": 4.801
+  },
+  {
+    "text": "variable l equal to 1",
+    "start": 1414.72,
+    "duration": 4.64
+  },
+  {
+    "text": "y minus y 1 hat y 2 all the way up to y",
+    "start": 1416.72,
+    "duration": 5.6
+  },
+  {
+    "text": "k so i have just substituted the i",
+    "start": 1419.36,
+    "duration": 5.52
+  },
+  {
+    "text": "by the appropriate",
+    "start": 1422.32,
+    "duration": 5.04
+  },
+  {
+    "text": "index and just expanded the vector right",
+    "start": 1424.88,
+    "duration": 4.32
+  },
+  {
+    "text": "i've written down the full vector now",
+    "start": 1427.36,
+    "duration": 3.36
+  },
+  {
+    "text": "this here",
+    "start": 1429.2,
+    "duration": 4.64
+  },
+  {
+    "text": "is just my y hat vector and this here is",
+    "start": 1430.72,
+    "duration": 6.0
+  },
+  {
+    "text": "just my one hot vector which in which",
+    "start": 1433.84,
+    "duration": 4.64
+  },
+  {
+    "text": "only the lth entry would be one and",
+    "start": 1436.72,
+    "duration": 3.28
+  },
+  {
+    "text": "everything else would be zero just as we",
+    "start": 1438.48,
+    "duration": 3.36
+  },
+  {
+    "text": "had done on the previous slide so this",
+    "start": 1440.0,
+    "duration": 3.84
+  },
+  {
+    "text": "is just the difference between two",
+    "start": 1441.84,
+    "duration": 4.88
+  },
+  {
+    "text": "vectors okay and the minus sign has been",
+    "start": 1443.84,
+    "duration": 4.56
+  },
+  {
+    "text": "accommodated for",
+    "start": 1446.72,
+    "duration": 5.04
+  },
+  {
+    "text": "appropriately right so",
+    "start": 1448.4,
+    "duration": 3.36
+  },
+  {
+    "text": "i think",
+    "start": 1452.08,
+    "duration": 2.719
+  },
+  {
+    "text": "[Music]",
+    "start": 1452.81,
+    "duration": 4.989
+  },
+  {
+    "text": "yeah",
+    "start": 1454.799,
+    "duration": 3.0
+  },
+  {
+    "text": "okay this minus sign",
+    "start": 1461.84,
+    "duration": 4.719
+  },
+  {
+    "text": "should have been outside right because",
+    "start": 1464.64,
+    "duration": 4.0
+  },
+  {
+    "text": "this was there yeah whichever way you",
+    "start": 1466.559,
+    "duration": 5.441
+  },
+  {
+    "text": "could have thought of this as minus plus",
+    "start": 1468.64,
+    "duration": 6.24
+  },
+  {
+    "text": "minus plus minus plus and then you are",
+    "start": 1472.0,
+    "duration": 5.279
+  },
+  {
+    "text": "left with this right so these signs here",
+    "start": 1474.88,
+    "duration": 3.919
+  },
+  {
+    "text": "are consistent with the signs that you",
+    "start": 1477.279,
+    "duration": 3.28
+  },
+  {
+    "text": "had here right that's what is important",
+    "start": 1478.799,
+    "duration": 4.24
+  },
+  {
+    "text": "right okay so we are done with this so",
+    "start": 1480.559,
+    "duration": 5.281
+  },
+  {
+    "text": "what have we done so far uh we have done",
+    "start": 1483.039,
+    "duration": 4.801
+  },
+  {
+    "text": "the derivative we have done till this",
+    "start": 1485.84,
+    "duration": 4.079
+  },
+  {
+    "text": "far right remember we were talking to",
+    "start": 1487.84,
+    "duration": 4.4
+  },
+  {
+    "text": "every layer and this was our first goal",
+    "start": 1489.919,
+    "duration": 4.321
+  },
+  {
+    "text": "that talked to the output layer so we",
+    "start": 1492.24,
+    "duration": 4.0
+  },
+  {
+    "text": "now know the derivative of the loss",
+    "start": 1494.24,
+    "duration": 3.919
+  },
+  {
+    "text": "function with respect to the output",
+    "start": 1496.24,
+    "duration": 3.76
+  },
+  {
+    "text": "layer that means we know our first",
+    "start": 1498.159,
+    "duration": 3.681
+  },
+  {
+    "text": "gradient right which is the gradient of",
+    "start": 1500.0,
+    "duration": 3.36
+  },
+  {
+    "text": "the loss function with respect to output",
+    "start": 1501.84,
+    "duration": 3.839
+  },
+  {
+    "text": "layer this is a scalar quantity this is",
+    "start": 1503.36,
+    "duration": 4.88
+  },
+  {
+    "text": "a vector so what this tells you is that",
+    "start": 1505.679,
+    "duration": 4.721
+  },
+  {
+    "text": "what happens if i change one",
+    "start": 1508.24,
+    "duration": 4.88
+  },
+  {
+    "text": "value of each of the values of this al",
+    "start": 1510.4,
+    "duration": 5.12
+  },
+  {
+    "text": "vector then what is the change in l",
+    "start": 1513.12,
+    "duration": 4.0
+  },
+  {
+    "text": "theta right that is what each of these",
+    "start": 1515.52,
+    "duration": 3.759
+  },
+  {
+    "text": "elements captures and the collection of",
+    "start": 1517.12,
+    "duration": 4.159
+  },
+  {
+    "text": "all those elements is just the gradient",
+    "start": 1519.279,
+    "duration": 3.841
+  },
+  {
+    "text": "vector the gradient of the loss function",
+    "start": 1521.279,
+    "duration": 4.241
+  },
+  {
+    "text": "with respect to a f right so we are done",
+    "start": 1523.12,
+    "duration": 4.24
+  },
+  {
+    "text": "with the first",
+    "start": 1525.52,
+    "duration": 3.44
+  },
+  {
+    "text": "step that we had which was to talk to",
+    "start": 1527.36,
+    "duration": 3.28
+  },
+  {
+    "text": "the output layer now we are going to",
+    "start": 1528.96,
+    "duration": 3.68
+  },
+  {
+    "text": "talk to the hidden layers and then we",
+    "start": 1530.64,
+    "duration": 3.44
+  },
+  {
+    "text": "are going to talk to the waves okay so",
+    "start": 1532.64,
+    "duration": 4.84
+  },
+  {
+    "text": "we will come back",
+    "start": 1534.08,
+    "duration": 3.4
+  }
+]

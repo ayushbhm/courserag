@@ -1,0 +1,9 @@
+have hard coded the widths okay now i'm going to introduce some terminology and this terminology is going to stay.
+with us for the rest of the course right so this network contains three layers the layer containing the inputs.
+is called the input layer so x1 x2 is the input layer then the layer containing the four perceptrons is.
+called the hidden layer right because this is between the input and the output so it is not exposed to.
+the outer world i have something happening here which the outer world does not care about i don't care about.
+what is the output of these red perceptrons i care about the output of the y person or the green.
+perceptron this is a hidden layer and the output neuron is what is forming the output layer right so i.
+have three layers input layer hidden layer and output layer right and the outputs of the four perceptrons in the.
+hidden layer i am denoting them as h1 h2 h3h4 the output of the final layer i am denoting it.

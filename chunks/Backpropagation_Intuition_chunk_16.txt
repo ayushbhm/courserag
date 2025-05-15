@@ -1,0 +1,9 @@
+layer and then came to the last guy we just have to do the same thing which just gives us.
+the chain rule of property right so this is what we are going to do in the remaining part of.
+this lecture the quantities of interest that we have is the gradient with respect to the output layer okay the.
+gradients with respect to the hidden units sorry and there can be multiple hidden units and then the gradients with.
+respect to oh sorry i wanted to change the color but yeah the weights and the bias right so these.
+are the three parts to the remaining of to the remainder of this lecture right we'll first see how to.
+compute this then this and then this right and we want to do this in a manner that once i.
+do it for w11 i should somehow be able to do for all the w's all the weights in the.
+network right this formula should not be painfully computed for every weight in the network right so that's what we're.

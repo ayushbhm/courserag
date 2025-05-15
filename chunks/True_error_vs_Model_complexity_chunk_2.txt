@@ -1,0 +1,9 @@
+the expected value of this quantity and then this will not become zero hence the whole term will not become.
+zero right so now when you are trying to estimate it from the training data this term is not disappearing.
+right so now y minus f of x is not independent of F at x minus f of x because.
+the training data was used for estimating the parameters so now these two quantities this expectation cannot be written as.
+this product and hence it will not be zero and hence the empirical train error so now what is the.
+empirical train uh if I had assumed if I had just done this approximation right so if you had asked.
+me hey what is the error of your model and I said okay this is the error I have computed.
+it from the training error I have estimated it empirically from the training data then actually you would have been.
+way off why because this quantity is not zero so if this quantity is high then you are training your.

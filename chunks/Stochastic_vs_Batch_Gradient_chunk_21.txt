@@ -1,0 +1,8 @@
+momentum based gradient descendant so you are taking the derivative or you're taking Computing the gradient from all the points.
+but the reason you still see oscillations is because you have this very steep slopes and you are moving fast.
+so you're over overshooting and then trying to come back whereas the black curve has these oscillations uh because of.
+the stochastic nature of the estimates right so you're not making perfect estimates so you are going here and there.
+and then coming back right and also see that they diverse right initially they both Go in different directions and.
+the reason for that is that maybe the first few points that you selected in the stochastic version they were.
+not a true representation of the total gradient right so they said okay I need to go in this direction.
+and you went in that direction and then you later had to course correct and come back whereas when you're.

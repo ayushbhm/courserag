@@ -1,0 +1,10 @@
+this is how I would note the gradient as so it is the movement in the y direction divided by.
+the moment in the X direction right so in those regions now let's see this this here is a region.
+where the store slope is steep right and this here is a region where the slope is gentle so now.
+let's see what does the derivative look like in these two regions okay so I'll just try to move the.
+point so in this region uh you can look at the value being computed here right which is d y.
+by DX that's quite high right the derivative is minus 3.54 now and all of this are very steep regions.
+right now slowly the slope is becoming gentle and when I come here to this point right you can see.
+that the derivative is very small right why is that happening it's obvious because here for a small change in.
+X you are getting a large change in y and that's what the derivative captures but here when you're closer.
+to 1 right let me come this side so when you're closer to 1 when you're changing X by a.

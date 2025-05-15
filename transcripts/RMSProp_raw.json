@@ -1,0 +1,4062 @@
+[
+  {
+    "text": "foreign",
+    "start": 0.299,
+    "duration": 3.0
+  },
+  {
+    "text": "[Music]",
+    "start": 6.62,
+    "duration": 14.95
+  },
+  {
+    "text": "decays a learning rate very aggressively",
+    "start": 23.84,
+    "duration": 4.42
+  },
+  {
+    "text": "as the denominator Grows Right and we",
+    "start": 26.16,
+    "duration": 3.68
+  },
+  {
+    "text": "are allowing the denominator to grow",
+    "start": 28.26,
+    "duration": 3.24
+  },
+  {
+    "text": "inhibitedly because it's just",
+    "start": 29.84,
+    "duration": 4.54
+  },
+  {
+    "text": "accumulating the squares right so now uh",
+    "start": 31.5,
+    "duration": 4.44
+  },
+  {
+    "text": "frequent parameters will start receiving",
+    "start": 34.38,
+    "duration": 4.679
+  },
+  {
+    "text": "small updates so can we avoid this and",
+    "start": 35.94,
+    "duration": 4.74
+  },
+  {
+    "text": "prevent the rapid growth of the",
+    "start": 39.059,
+    "duration": 3.84
+  },
+  {
+    "text": "development right can we try to scale",
+    "start": 40.68,
+    "duration": 3.899
+  },
+  {
+    "text": "down the growth of the denominator and",
+    "start": 42.899,
+    "duration": 3.421
+  },
+  {
+    "text": "we know how to do that right and it's a",
+    "start": 44.579,
+    "duration": 4.861
+  },
+  {
+    "text": "simple uh thing that we could do is that",
+    "start": 46.32,
+    "duration": 4.919
+  },
+  {
+    "text": "instead of",
+    "start": 49.44,
+    "duration": 4.58
+  },
+  {
+    "text": "uh",
+    "start": 51.239,
+    "duration": 2.781
+  },
+  {
+    "text": "yeah instead of the original equation",
+    "start": 55.98,
+    "duration": 5.34
+  },
+  {
+    "text": "which was",
+    "start": 59.64,
+    "duration": 4.32
+  },
+  {
+    "text": "allowing the gradients to get added we",
+    "start": 61.32,
+    "duration": 4.44
+  },
+  {
+    "text": "can just take a fraction of the",
+    "start": 63.96,
+    "duration": 3.42
+  },
+  {
+    "text": "gradients right so now the typical value",
+    "start": 65.76,
+    "duration": 4.98
+  },
+  {
+    "text": "of beta would be say 0.9 so at any point",
+    "start": 67.38,
+    "duration": 5.7
+  },
+  {
+    "text": "you're just taking uh let me just get",
+    "start": 70.74,
+    "duration": 5.04
+  },
+  {
+    "text": "rid of this yeah so now you are taking 1",
+    "start": 73.08,
+    "duration": 5.34
+  },
+  {
+    "text": "minus beta which is 0.1 times the",
+    "start": 75.78,
+    "duration": 4.5
+  },
+  {
+    "text": "current gradient and also the history",
+    "start": 78.42,
+    "duration": 3.42
+  },
+  {
+    "text": "you are repeatedly exponentially",
+    "start": 80.28,
+    "duration": 3.42
+  },
+  {
+    "text": "decaying right the history continuously",
+    "start": 81.84,
+    "duration": 4.26
+  },
+  {
+    "text": "gets multiplied by 0.9 so whatever was",
+    "start": 83.7,
+    "duration": 4.38
+  },
+  {
+    "text": "my accumulated history that has also",
+    "start": 86.1,
+    "duration": 3.9
+  },
+  {
+    "text": "become 0.9 times the previous history",
+    "start": 88.08,
+    "duration": 4.32
+  },
+  {
+    "text": "and my current gradient also I am not",
+    "start": 90.0,
+    "duration": 4.259
+  },
+  {
+    "text": "taking it fully I'm just taking it a",
+    "start": 92.4,
+    "duration": 3.719
+  },
+  {
+    "text": "fraction of it so that's why I'm not",
+    "start": 94.259,
+    "duration": 3.781
+  },
+  {
+    "text": "allowing my history to grow as rapidly",
+    "start": 96.119,
+    "duration": 4.201
+  },
+  {
+    "text": "as it was going in the case of adagra",
+    "start": 98.04,
+    "duration": 3.48
+  },
+  {
+    "text": "right so that's the change I have made",
+    "start": 100.32,
+    "duration": 5.04
+  },
+  {
+    "text": "in RMS prop uh",
+    "start": 101.52,
+    "duration": 3.84
+  },
+  {
+    "text": "and then the update rule Remains the",
+    "start": 105.479,
+    "duration": 3.421
+  },
+  {
+    "text": "Same right so now everything else",
+    "start": 107.579,
+    "duration": 2.941
+  },
+  {
+    "text": "Remains the Same the only thing that",
+    "start": 108.9,
+    "duration": 3.84
+  },
+  {
+    "text": "I've changed is this denominator VT",
+    "start": 110.52,
+    "duration": 4.379
+  },
+  {
+    "text": "which was earlier growing aggressively",
+    "start": 112.74,
+    "duration": 4.559
+  },
+  {
+    "text": "now I've added like these multipliers",
+    "start": 114.899,
+    "duration": 4.141
+  },
+  {
+    "text": "beta and one minus beta which are both",
+    "start": 117.299,
+    "duration": 4.14
+  },
+  {
+    "text": "less than one which means I'm scaling",
+    "start": 119.04,
+    "duration": 4.2
+  },
+  {
+    "text": "down right I'm not allowing the history",
+    "start": 121.439,
+    "duration": 4.081
+  },
+  {
+    "text": "to grow at every point I am multiplying",
+    "start": 123.24,
+    "duration": 4.5
+  },
+  {
+    "text": "it by a exponentially decaying Factor",
+    "start": 125.52,
+    "duration": 3.599
+  },
+  {
+    "text": "right so that is what is happening here",
+    "start": 127.74,
+    "duration": 4.139
+  },
+  {
+    "text": "and that will become clear as I expand",
+    "start": 129.119,
+    "duration": 4.441
+  },
+  {
+    "text": "this equation here right so this is what",
+    "start": 131.879,
+    "duration": 4.201
+  },
+  {
+    "text": "was happening for radagride at VT it was",
+    "start": 133.56,
+    "duration": 4.74
+  },
+  {
+    "text": "Delta B 0 square plus Delta B1 square",
+    "start": 136.08,
+    "duration": 4.62
+  },
+  {
+    "text": "plus B2 square and so on but in the case",
+    "start": 138.3,
+    "duration": 4.92
+  },
+  {
+    "text": "of RMS prop uh you will have this",
+    "start": 140.7,
+    "duration": 4.679
+  },
+  {
+    "text": "equation right where beta is between 0",
+    "start": 143.22,
+    "duration": 5.7
+  },
+  {
+    "text": "to 1. so beta if it's 0.9 then your V 0",
+    "start": 145.379,
+    "duration": 7.44
+  },
+  {
+    "text": "is 0.1 times B 0 square B2 is 0.09 times",
+    "start": 148.92,
+    "duration": 6.6
+  },
+  {
+    "text": "Delta B 0 square plus this and so on and",
+    "start": 152.819,
+    "duration": 4.321
+  },
+  {
+    "text": "when you come to uh you can already",
+    "start": 155.52,
+    "duration": 3.6
+  },
+  {
+    "text": "compare these two quantities right so",
+    "start": 157.14,
+    "duration": 4.08
+  },
+  {
+    "text": "where's the pen yeah",
+    "start": 159.12,
+    "duration": 4.199
+  },
+  {
+    "text": "huh",
+    "start": 161.22,
+    "duration": 3.72
+  },
+  {
+    "text": "yeah",
+    "start": 163.319,
+    "duration": 3.42
+  },
+  {
+    "text": "um",
+    "start": 164.94,
+    "duration": 4.56
+  },
+  {
+    "text": "yeah so if I compare the V2 here with",
+    "start": 166.739,
+    "duration": 4.86
+  },
+  {
+    "text": "the V2 here it's clear that this is",
+    "start": 169.5,
+    "duration": 4.5
+  },
+  {
+    "text": "going to be much smaller because my",
+    "start": 171.599,
+    "duration": 5.041
+  },
+  {
+    "text": "history is now exponentially decaying",
+    "start": 174.0,
+    "duration": 4.379
+  },
+  {
+    "text": "right here I was taking the whole of b0",
+    "start": 176.64,
+    "duration": 3.9
+  },
+  {
+    "text": "square whereas here I am taking a small",
+    "start": 178.379,
+    "duration": 4.381
+  },
+  {
+    "text": "fraction again the whole of B1 square",
+    "start": 180.54,
+    "duration": 4.26
+  },
+  {
+    "text": "but a small fraction here again the",
+    "start": 182.76,
+    "duration": 4.14
+  },
+  {
+    "text": "whole of B2 square but even again a",
+    "start": 184.8,
+    "duration": 3.719
+  },
+  {
+    "text": "small fraction of P2 square right so now",
+    "start": 186.9,
+    "duration": 4.32
+  },
+  {
+    "text": "I'm controlling the rate at which V2 is",
+    "start": 188.519,
+    "duration": 4.321
+  },
+  {
+    "text": "going I'm not allowing it to shoot",
+    "start": 191.22,
+    "duration": 3.84
+  },
+  {
+    "text": "quickly I'm doing this exponentially",
+    "start": 192.84,
+    "duration": 5.179
+  },
+  {
+    "text": "decaying average",
+    "start": 195.06,
+    "duration": 2.959
+  },
+  {
+    "text": "foreign",
+    "start": 198.12,
+    "duration": 2.72
+  },
+  {
+    "text": "formula uh no I think we have not seen",
+    "start": 209.54,
+    "duration": 4.72
+  },
+  {
+    "text": "this earlier but you can see where the",
+    "start": 212.459,
+    "duration": 4.261
+  },
+  {
+    "text": "formula is coming from uh have you seen",
+    "start": 214.26,
+    "duration": 3.72
+  },
+  {
+    "text": "we have seen this formula earlier when",
+    "start": 216.72,
+    "duration": 2.7
+  },
+  {
+    "text": "we have been discussing momentum right",
+    "start": 217.98,
+    "duration": 3.36
+  },
+  {
+    "text": "this kind of a formula so if I just",
+    "start": 219.42,
+    "duration": 3.78
+  },
+  {
+    "text": "substitute here I have actually",
+    "start": 221.34,
+    "duration": 4.14
+  },
+  {
+    "text": "substituted the value of beta as 0.9 and",
+    "start": 223.2,
+    "duration": 5.039
+  },
+  {
+    "text": "1 minus beta is 0.1 but instead if I",
+    "start": 225.48,
+    "duration": 5.22
+  },
+  {
+    "text": "just kept beta and 1 minus beta and",
+    "start": 228.239,
+    "duration": 4.321
+  },
+  {
+    "text": "solve for that I would have got the",
+    "start": 230.7,
+    "duration": 3.959
+  },
+  {
+    "text": "formula as they said that at timestamp",
+    "start": 232.56,
+    "duration": 6.42
+  },
+  {
+    "text": "VT my uh wheat at time step T my v t is",
+    "start": 234.659,
+    "duration": 6.3
+  },
+  {
+    "text": "going to be given by this formula and",
+    "start": 238.98,
+    "duration": 3.66
+  },
+  {
+    "text": "what you see at V2 is just a",
+    "start": 240.959,
+    "duration": 3.901
+  },
+  {
+    "text": "manifestation of this formula applied at",
+    "start": 242.64,
+    "duration": 4.56
+  },
+  {
+    "text": "time Step 2 with the value of beta set",
+    "start": 244.86,
+    "duration": 4.62
+  },
+  {
+    "text": "to 0.9 right and the main takeaway here",
+    "start": 247.2,
+    "duration": 3.66
+  },
+  {
+    "text": "right this formula you can go back and",
+    "start": 249.48,
+    "duration": 3.36
+  },
+  {
+    "text": "ponder about but the main takeaway here",
+    "start": 250.86,
+    "duration": 3.299
+  },
+  {
+    "text": "is that you're using an exponentially",
+    "start": 252.84,
+    "duration": 4.019
+  },
+  {
+    "text": "decaying average and hence now your",
+    "start": 254.159,
+    "duration": 5.401
+  },
+  {
+    "text": "denominator is going to grow less",
+    "start": 256.859,
+    "duration": 4.56
+  },
+  {
+    "text": "aggressively and hence now your",
+    "start": 259.56,
+    "duration": 3.24
+  },
+  {
+    "text": "effective learning rate right and",
+    "start": 261.419,
+    "duration": 3.361
+  },
+  {
+    "text": "remember this is what I refer to was the",
+    "start": 262.8,
+    "duration": 4.86
+  },
+  {
+    "text": "effective learning rate",
+    "start": 264.78,
+    "duration": 4.8
+  },
+  {
+    "text": "my effective learning rate is going to",
+    "start": 267.66,
+    "duration": 4.2
+  },
+  {
+    "text": "Decay slowly",
+    "start": 269.58,
+    "duration": 4.44
+  },
+  {
+    "text": "okay so now let's see what the effect of",
+    "start": 271.86,
+    "duration": 4.64
+  },
+  {
+    "text": "this is",
+    "start": 274.02,
+    "duration": 2.48
+  },
+  {
+    "text": "yeah again I'm not going to ponder too",
+    "start": 277.139,
+    "duration": 3.961
+  },
+  {
+    "text": "much about the code here but you can see",
+    "start": 279.24,
+    "duration": 4.14
+  },
+  {
+    "text": "that now instead of only one line has",
+    "start": 281.1,
+    "duration": 5.34
+  },
+  {
+    "text": "changed right so VW plus DW Square I am",
+    "start": 283.38,
+    "duration": 5.34
+  },
+  {
+    "text": "doing beta into VW plus 1 minus beta",
+    "start": 286.44,
+    "duration": 4.319
+  },
+  {
+    "text": "into DW square right so that's the main",
+    "start": 288.72,
+    "duration": 3.96
+  },
+  {
+    "text": "change that I've done and now let me",
+    "start": 290.759,
+    "duration": 5.0
+  },
+  {
+    "text": "just play this",
+    "start": 292.68,
+    "duration": 3.079
+  },
+  {
+    "text": "okay",
+    "start": 303.36,
+    "duration": 2.66
+  },
+  {
+    "text": "yeah",
+    "start": 310.979,
+    "duration": 3.72
+  },
+  {
+    "text": "so you can see that RMS prop is now the",
+    "start": 312.06,
+    "duration": 4.44
+  },
+  {
+    "text": "yellow curve is RMS prop which is",
+    "start": 314.699,
+    "duration": 4.681
+  },
+  {
+    "text": "quickly reads the minimum right because",
+    "start": 316.5,
+    "duration": 5.34
+  },
+  {
+    "text": "its learning rate is not decaying and",
+    "start": 319.38,
+    "duration": 4.62
+  },
+  {
+    "text": "it's also following this hypotenuse part",
+    "start": 321.84,
+    "duration": 4.98
+  },
+  {
+    "text": "as I wanted right it's making updates in",
+    "start": 324.0,
+    "duration": 5.16
+  },
+  {
+    "text": "the direction of w and B uh",
+    "start": 326.82,
+    "duration": 4.26
+  },
+  {
+    "text": "proportionately even though the updates",
+    "start": 329.16,
+    "duration": 3.9
+  },
+  {
+    "text": "in the direction of w are smaller right",
+    "start": 331.08,
+    "duration": 4.14
+  },
+  {
+    "text": "but notice something and we'll come back",
+    "start": 333.06,
+    "duration": 5.66
+  },
+  {
+    "text": "to what you notice here",
+    "start": 335.22,
+    "duration": 3.5
+  },
+  {
+    "text": "oops",
+    "start": 339.78,
+    "duration": 4.859
+  },
+  {
+    "text": "okay just play it in the minimized",
+    "start": 342.539,
+    "duration": 4.44
+  },
+  {
+    "text": "version here",
+    "start": 344.639,
+    "duration": 5.521
+  },
+  {
+    "text": "so it's reached there uh quickly but now",
+    "start": 346.979,
+    "duration": 5.521
+  },
+  {
+    "text": "it's oscillating a bit around the Minima",
+    "start": 350.16,
+    "duration": 3.84
+  },
+  {
+    "text": "right so you can see the sigmoid curve",
+    "start": 352.5,
+    "duration": 3.18
+  },
+  {
+    "text": "it had reached the solution right all",
+    "start": 354.0,
+    "duration": 3.0
+  },
+  {
+    "text": "the points were lying on the sigmoid",
+    "start": 355.68,
+    "duration": 3.239
+  },
+  {
+    "text": "curve but then the yellow curve started",
+    "start": 357.0,
+    "duration": 3.539
+  },
+  {
+    "text": "oscillating there now why does that",
+    "start": 358.919,
+    "duration": 4.321
+  },
+  {
+    "text": "happen is not clear but for this Slide",
+    "start": 360.539,
+    "duration": 5.041
+  },
+  {
+    "text": "the takeaway is that RMS prop converged",
+    "start": 363.24,
+    "duration": 4.5
+  },
+  {
+    "text": "more quickly than attack rad because it",
+    "start": 365.58,
+    "duration": 4.44
+  },
+  {
+    "text": "is being less aggressive in decaying the",
+    "start": 367.74,
+    "duration": 3.6
+  },
+  {
+    "text": "learning rate right that's the main",
+    "start": 370.02,
+    "duration": 3.3
+  },
+  {
+    "text": "takeaway",
+    "start": 371.34,
+    "duration": 3.96
+  },
+  {
+    "text": "why are there oscillations right so that",
+    "start": 373.32,
+    "duration": 4.08
+  },
+  {
+    "text": "is something that we need to understand",
+    "start": 375.3,
+    "duration": 3.839
+  },
+  {
+    "text": "right so one of the implications could",
+    "start": 377.4,
+    "duration": 4.56
+  },
+  {
+    "text": "be that maybe the learning rate is",
+    "start": 379.139,
+    "duration": 5.521
+  },
+  {
+    "text": "becoming constant and that is causing of",
+    "start": 381.96,
+    "duration": 4.62
+  },
+  {
+    "text": "oscillations right why the two questions",
+    "start": 384.66,
+    "duration": 3.479
+  },
+  {
+    "text": "to be answered here right why is the",
+    "start": 386.58,
+    "duration": 3.42
+  },
+  {
+    "text": "learning rate becoming constant and if",
+    "start": 388.139,
+    "duration": 3.541
+  },
+  {
+    "text": "the learning rate becomes constant why",
+    "start": 390.0,
+    "duration": 3.0
+  },
+  {
+    "text": "should there be oscillations right so",
+    "start": 391.68,
+    "duration": 2.579
+  },
+  {
+    "text": "these are the two questions that we need",
+    "start": 393.0,
+    "duration": 2.039
+  },
+  {
+    "text": "to",
+    "start": 394.259,
+    "duration": 3.841
+  },
+  {
+    "text": "okay so now recall that in adagrad uh",
+    "start": 395.039,
+    "duration": 5.521
+  },
+  {
+    "text": "this VT was uh sorry this should have",
+    "start": 398.1,
+    "duration": 5.099
+  },
+  {
+    "text": "been Square so this Delta WT Square",
+    "start": 400.56,
+    "duration": 4.62
+  },
+  {
+    "text": "should have been there and I when I had",
+    "start": 403.199,
+    "duration": 3.72
+  },
+  {
+    "text": "shown you the plots I had shown that VT",
+    "start": 405.18,
+    "duration": 3.48
+  },
+  {
+    "text": "never decreases right it keeps",
+    "start": 406.919,
+    "duration": 3.78
+  },
+  {
+    "text": "increasing and then it saturates but",
+    "start": 408.66,
+    "duration": 3.78
+  },
+  {
+    "text": "does not decrease even though the",
+    "start": 410.699,
+    "duration": 4.261
+  },
+  {
+    "text": "derivative has become zero VT keeps",
+    "start": 412.44,
+    "duration": 4.199
+  },
+  {
+    "text": "increasing and then it saturates right",
+    "start": 414.96,
+    "duration": 4.019
+  },
+  {
+    "text": "so it does not ever decrease to it does",
+    "start": 416.639,
+    "duration": 6.12
+  },
+  {
+    "text": "not start falling down right uh now what",
+    "start": 418.979,
+    "duration": 5.821
+  },
+  {
+    "text": "happens in the case of RMS prompt right",
+    "start": 422.759,
+    "duration": 3.181
+  },
+  {
+    "text": "so let's see what is happening in the",
+    "start": 424.8,
+    "duration": 5.64
+  },
+  {
+    "text": "case of RMS prop so you have this uh",
+    "start": 425.94,
+    "duration": 7.819
+  },
+  {
+    "text": "let me just annotate",
+    "start": 430.44,
+    "duration": 3.319
+  },
+  {
+    "text": "so this is your derivative so derivative",
+    "start": 434.94,
+    "duration": 4.979
+  },
+  {
+    "text": "increased increase in the negative",
+    "start": 437.88,
+    "duration": 4.439
+  },
+  {
+    "text": "Direction and then it started decreasing",
+    "start": 439.919,
+    "duration": 4.62
+  },
+  {
+    "text": "and then it became zero and then you are",
+    "start": 442.319,
+    "duration": 3.901
+  },
+  {
+    "text": "seeing this oscillations right so that",
+    "start": 444.539,
+    "duration": 3.961
+  },
+  {
+    "text": "let's not go into the oscillations but",
+    "start": 446.22,
+    "duration": 3.78
+  },
+  {
+    "text": "the main point here is that if you look",
+    "start": 448.5,
+    "duration": 5.22
+  },
+  {
+    "text": "at your VT it is increasing and then it",
+    "start": 450.0,
+    "duration": 6.599
+  },
+  {
+    "text": "starts decreasing also right so e v t",
+    "start": 453.72,
+    "duration": 5.34
+  },
+  {
+    "text": "can decrease in the case of RMS prop and",
+    "start": 456.599,
+    "duration": 3.961
+  },
+  {
+    "text": "why does that happen can you think about",
+    "start": 459.06,
+    "duration": 4.4
+  },
+  {
+    "text": "an answer for that",
+    "start": 460.56,
+    "duration": 2.9
+  },
+  {
+    "text": "what is it",
+    "start": 464.88,
+    "duration": 2.96
+  },
+  {
+    "text": "uh no no but it's an accumulation of the",
+    "start": 471.72,
+    "duration": 5.34
+  },
+  {
+    "text": "history right so the accumulation should",
+    "start": 474.84,
+    "duration": 3.66
+  },
+  {
+    "text": "keep growing right so how is the",
+    "start": 477.06,
+    "duration": 4.579
+  },
+  {
+    "text": "accumulation decreasing",
+    "start": 478.5,
+    "duration": 3.139
+  },
+  {
+    "text": "in the case of undergrad we said that VT",
+    "start": 481.86,
+    "duration": 4.559
+  },
+  {
+    "text": "is an accumulator so it's keeping adding",
+    "start": 484.319,
+    "duration": 3.841
+  },
+  {
+    "text": "terms so it should only increase and in",
+    "start": 486.419,
+    "duration": 3.541
+  },
+  {
+    "text": "whatever it's adding if it becomes zero",
+    "start": 488.16,
+    "duration": 3.96
+  },
+  {
+    "text": "then it will become steady at that so",
+    "start": 489.96,
+    "duration": 4.26
+  },
+  {
+    "text": "here why is it increasing and then it",
+    "start": 492.12,
+    "duration": 5.9
+  },
+  {
+    "text": "can decrease also why is that happening",
+    "start": 494.22,
+    "duration": 3.8
+  },
+  {
+    "text": "same for uh",
+    "start": 499.319,
+    "duration": 3.201
+  },
+  {
+    "text": "now we are taking VT Square we are",
+    "start": 502.56,
+    "duration": 3.479
+  },
+  {
+    "text": "taking Square so direction does not",
+    "start": 504.72,
+    "duration": 3.24
+  },
+  {
+    "text": "matter see the reason this is happening",
+    "start": 506.039,
+    "duration": 3.78
+  },
+  {
+    "text": "is because of the exponentially decaying",
+    "start": 507.96,
+    "duration": 5.999
+  },
+  {
+    "text": "average right so now uh initially if you",
+    "start": 509.819,
+    "duration": 6.84
+  },
+  {
+    "text": "look at the sum so say at time step T",
+    "start": 513.959,
+    "duration": 6.721
+  },
+  {
+    "text": "the sum was some uh so if you look at",
+    "start": 516.659,
+    "duration": 6.24
+  },
+  {
+    "text": "the derivative at time step 0 right so",
+    "start": 520.68,
+    "duration": 5.04
+  },
+  {
+    "text": "let's look at the formula if I have it",
+    "start": 522.899,
+    "duration": 6.0
+  },
+  {
+    "text": "yeah so here remember that this is like",
+    "start": 525.72,
+    "duration": 6.78
+  },
+  {
+    "text": "a moving window right so at time step V1",
+    "start": 528.899,
+    "duration": 7.56
+  },
+  {
+    "text": "the weightage of beta 2 was 0.09 at time",
+    "start": 532.5,
+    "duration": 7.26
+  },
+  {
+    "text": "step V2 the weightage of beta 0 was 0.08",
+    "start": 536.459,
+    "duration": 5.281
+  },
+  {
+    "text": "so at each time step",
+    "start": 539.76,
+    "duration": 4.199
+  },
+  {
+    "text": "we see this Behavior where the blue",
+    "start": 541.74,
+    "duration": 4.14
+  },
+  {
+    "text": "curve which is the accumulator curve",
+    "start": 543.959,
+    "duration": 4.44
+  },
+  {
+    "text": "which is the curve for VT it starts",
+    "start": 545.88,
+    "duration": 4.98
+  },
+  {
+    "text": "decreasing also because now the current",
+    "start": 548.399,
+    "duration": 4.62
+  },
+  {
+    "text": "sum is less than the previous sum right",
+    "start": 550.86,
+    "duration": 4.56
+  },
+  {
+    "text": "uh because of the exponential weighting",
+    "start": 553.019,
+    "duration": 4.561
+  },
+  {
+    "text": "right and now because of that what is",
+    "start": 555.42,
+    "duration": 4.26
+  },
+  {
+    "text": "happening is that in the case of ADA",
+    "start": 557.58,
+    "duration": 3.72
+  },
+  {
+    "text": "grad because your history was always",
+    "start": 559.68,
+    "duration": 3.659
+  },
+  {
+    "text": "accumulating your denominator was always",
+    "start": 561.3,
+    "duration": 4.14
+  },
+  {
+    "text": "growing so hence there was always a",
+    "start": 563.339,
+    "duration": 5.041
+  },
+  {
+    "text": "decay in the learning rate but now since",
+    "start": 565.44,
+    "duration": 5.459
+  },
+  {
+    "text": "your history can grow and shrink and it",
+    "start": 568.38,
+    "duration": 3.959
+  },
+  {
+    "text": "can also become a constant right because",
+    "start": 570.899,
+    "duration": 3.661
+  },
+  {
+    "text": "now what is happening is as your current",
+    "start": 572.339,
+    "duration": 4.921
+  },
+  {
+    "text": "gradients are all zero then there all",
+    "start": 574.56,
+    "duration": 4.38
+  },
+  {
+    "text": "the sums are becoming close to zero",
+    "start": 577.26,
+    "duration": 3.3
+  },
+  {
+    "text": "right and so then after a point the",
+    "start": 578.94,
+    "duration": 2.88
+  },
+  {
+    "text": "history is becoming more or less",
+    "start": 580.56,
+    "duration": 3.12
+  },
+  {
+    "text": "constant and that the history is",
+    "start": 581.82,
+    "duration": 3.84
+  },
+  {
+    "text": "becoming constraint from one time step",
+    "start": 583.68,
+    "duration": 3.12
+  },
+  {
+    "text": "to another",
+    "start": 585.66,
+    "duration": 2.82
+  },
+  {
+    "text": "ETA divided by that history is again",
+    "start": 586.8,
+    "duration": 3.42
+  },
+  {
+    "text": "going to remain constant right so as you",
+    "start": 588.48,
+    "duration": 3.9
+  },
+  {
+    "text": "go ahead your learning rate is not going",
+    "start": 590.22,
+    "duration": 4.679
+  },
+  {
+    "text": "to change right so that is why the",
+    "start": 592.38,
+    "duration": 4.5
+  },
+  {
+    "text": "learning rate becomes constant in the",
+    "start": 594.899,
+    "duration": 3.841
+  },
+  {
+    "text": "case of RMS could become constant in the",
+    "start": 596.88,
+    "duration": 3.959
+  },
+  {
+    "text": "case of RMS prop after a certain number",
+    "start": 598.74,
+    "duration": 5.42
+  },
+  {
+    "text": "of iterations right",
+    "start": 600.839,
+    "duration": 3.321
+  },
+  {
+    "text": "it can increase it can decrease or it",
+    "start": 604.86,
+    "duration": 3.9
+  },
+  {
+    "text": "can remain constant because of the",
+    "start": 607.14,
+    "duration": 3.06
+  },
+  {
+    "text": "moving average of the gradients in the",
+    "start": 608.76,
+    "duration": 4.139
+  },
+  {
+    "text": "denominator right and after across 500",
+    "start": 610.2,
+    "duration": 6.139
+  },
+  {
+    "text": "iterations I have plotted the uh",
+    "start": 612.899,
+    "duration": 5.94
+  },
+  {
+    "text": "gradients here and this is what is uh",
+    "start": 616.339,
+    "duration": 5.081
+  },
+  {
+    "text": "happening and you have this oscillation",
+    "start": 618.839,
+    "duration": 5.521
+  },
+  {
+    "text": "around the Minima so if the learning",
+    "start": 621.42,
+    "duration": 5.039
+  },
+  {
+    "text": "rate is constant so now we have made a",
+    "start": 624.36,
+    "duration": 3.479
+  },
+  {
+    "text": "case that the learning rate could become",
+    "start": 626.459,
+    "duration": 3.121
+  },
+  {
+    "text": "constant now if the learning rate",
+    "start": 627.839,
+    "duration": 3.721
+  },
+  {
+    "text": "becomes constant why should there be",
+    "start": 629.58,
+    "duration": 3.6
+  },
+  {
+    "text": "oscillations right why could there be",
+    "start": 631.56,
+    "duration": 3.24
+  },
+  {
+    "text": "oscillation so let's try to see an",
+    "start": 633.18,
+    "duration": 4.26
+  },
+  {
+    "text": "explanation for that right suppose let",
+    "start": 634.8,
+    "duration": 4.32
+  },
+  {
+    "text": "me take a simple example this is what my",
+    "start": 637.44,
+    "duration": 6.0
+  },
+  {
+    "text": "curve is okay and now suppose I was here",
+    "start": 639.12,
+    "duration": 7.52
+  },
+  {
+    "text": "okay at this point",
+    "start": 643.44,
+    "duration": 3.2
+  },
+  {
+    "text": "okay suppose I was at this point",
+    "start": 647.76,
+    "duration": 6.079
+  },
+  {
+    "text": "uh",
+    "start": 651.12,
+    "duration": 2.719
+  },
+  {
+    "text": "yeah",
+    "start": 654.959,
+    "duration": 4.38
+  },
+  {
+    "text": "and I computed the derivative so this",
+    "start": 656.88,
+    "duration": 4.74
+  },
+  {
+    "text": "slope will give me the derivative and I",
+    "start": 659.339,
+    "duration": 4.74
+  },
+  {
+    "text": "made the update and after the update so",
+    "start": 661.62,
+    "duration": 5.1
+  },
+  {
+    "text": "let me just see I'm on the W axis I was",
+    "start": 664.079,
+    "duration": 4.801
+  },
+  {
+    "text": "here",
+    "start": 666.72,
+    "duration": 4.859
+  },
+  {
+    "text": "and I added the I mean I moved in the",
+    "start": 668.88,
+    "duration": 4.38
+  },
+  {
+    "text": "direction oppose it to the gradient and",
+    "start": 671.579,
+    "duration": 3.421
+  },
+  {
+    "text": "I ended up here",
+    "start": 673.26,
+    "duration": 4.019
+  },
+  {
+    "text": "right",
+    "start": 675.0,
+    "duration": 5.339
+  },
+  {
+    "text": "now again I compute the derivative here",
+    "start": 677.279,
+    "duration": 4.261
+  },
+  {
+    "text": "again I'll move in the direction",
+    "start": 680.339,
+    "duration": 2.521
+  },
+  {
+    "text": "opposite to the gradient with the same",
+    "start": 681.54,
+    "duration": 2.7
+  },
+  {
+    "text": "learning rate my learning rate has not",
+    "start": 682.86,
+    "duration": 4.14
+  },
+  {
+    "text": "changed so again I'll end up here",
+    "start": 684.24,
+    "duration": 4.38
+  },
+  {
+    "text": "at the same point because I'm moving",
+    "start": 687.0,
+    "duration": 4.26
+  },
+  {
+    "text": "from one point on the curve to its",
+    "start": 688.62,
+    "duration": 4.14
+  },
+  {
+    "text": "symmetrically opposite point on the",
+    "start": 691.26,
+    "duration": 3.3
+  },
+  {
+    "text": "curve this is possible I'm not saying",
+    "start": 692.76,
+    "duration": 2.819
+  },
+  {
+    "text": "this will always happen but this could",
+    "start": 694.56,
+    "duration": 2.16
+  },
+  {
+    "text": "happen right you're moving from here to",
+    "start": 695.579,
+    "duration": 3.061
+  },
+  {
+    "text": "here and again from here to here and you",
+    "start": 696.72,
+    "duration": 3.239
+  },
+  {
+    "text": "keep oscillating between those two",
+    "start": 698.64,
+    "duration": 4.08
+  },
+  {
+    "text": "points because from every movement you",
+    "start": 699.959,
+    "duration": 4.62
+  },
+  {
+    "text": "have the learning rate is constant so if",
+    "start": 702.72,
+    "duration": 4.08
+  },
+  {
+    "text": "the derivative is also similar you'll",
+    "start": 704.579,
+    "duration": 3.961
+  },
+  {
+    "text": "just keep moving from here to here right",
+    "start": 706.8,
+    "duration": 3.12
+  },
+  {
+    "text": "even if the derivative is slightly",
+    "start": 708.54,
+    "duration": 2.64
+  },
+  {
+    "text": "different you will keep making these",
+    "start": 709.92,
+    "duration": 2.4
+  },
+  {
+    "text": "movements from here to here right",
+    "start": 711.18,
+    "duration": 3.24
+  },
+  {
+    "text": "instead of directly going to the uh",
+    "start": 712.32,
+    "duration": 3.54
+  },
+  {
+    "text": "minimum all right so that's what can",
+    "start": 714.42,
+    "duration": 2.88
+  },
+  {
+    "text": "happen if your learning rate becomes",
+    "start": 715.86,
+    "duration": 3.599
+  },
+  {
+    "text": "constant and that's why you're seeing",
+    "start": 717.3,
+    "duration": 4.5
+  },
+  {
+    "text": "those oscillations in the case of RMS",
+    "start": 719.459,
+    "duration": 4.5
+  },
+  {
+    "text": "prop where the learning rate is indeed",
+    "start": 721.8,
+    "duration": 5.219
+  },
+  {
+    "text": "becoming constant uh after a while",
+    "start": 723.959,
+    "duration": 6.06
+  },
+  {
+    "text": "because your denominator VT is not",
+    "start": 727.019,
+    "duration": 4.5
+  },
+  {
+    "text": "changing right so it's accumulated",
+    "start": 730.019,
+    "duration": 4.081
+  },
+  {
+    "text": "history has also become like close to a",
+    "start": 731.519,
+    "duration": 3.961
+  },
+  {
+    "text": "very small number and your current",
+    "start": 734.1,
+    "duration": 3.6
+  },
+  {
+    "text": "derivatives are also small so now when",
+    "start": 735.48,
+    "duration": 3.84
+  },
+  {
+    "text": "you are adding all these terms from one",
+    "start": 737.7,
+    "duration": 3.6
+  },
+  {
+    "text": "time step to another nothing much is",
+    "start": 739.32,
+    "duration": 3.54
+  },
+  {
+    "text": "changing there right that's what is",
+    "start": 741.3,
+    "duration": 3.86
+  },
+  {
+    "text": "happening",
+    "start": 742.86,
+    "duration": 2.3
+  },
+  {
+    "text": "and that was not the case in Ada grad",
+    "start": 746.76,
+    "duration": 3.12
+  },
+  {
+    "text": "because you were just adding the",
+    "start": 748.74,
+    "duration": 3.0
+  },
+  {
+    "text": "gradients so the previous terms always",
+    "start": 749.88,
+    "duration": 3.44
+  },
+  {
+    "text": "remain right they are not getting",
+    "start": 751.74,
+    "duration": 4.2
+  },
+  {
+    "text": "exponentially weighted out right so what",
+    "start": 753.32,
+    "duration": 4.66
+  },
+  {
+    "text": "is the solution for this say this",
+    "start": 755.94,
+    "duration": 3.899
+  },
+  {
+    "text": "learning rate becoming constant and then",
+    "start": 757.98,
+    "duration": 4.32
+  },
+  {
+    "text": "resulting in oscillations",
+    "start": 759.839,
+    "duration": 5.281
+  },
+  {
+    "text": "so one solution is to set the learning",
+    "start": 762.3,
+    "duration": 4.8
+  },
+  {
+    "text": "rate initial learning rate appropriately",
+    "start": 765.12,
+    "duration": 4.08
+  },
+  {
+    "text": "right so this ETA that we have so",
+    "start": 767.1,
+    "duration": 4.26
+  },
+  {
+    "text": "remember our effective learning rate is",
+    "start": 769.2,
+    "duration": 6.12
+  },
+  {
+    "text": "ETA divided by that square root of VT so",
+    "start": 771.36,
+    "duration": 5.64
+  },
+  {
+    "text": "this ETA that we have in the numerator",
+    "start": 775.32,
+    "duration": 4.199
+  },
+  {
+    "text": "that's the initial learning rate and we",
+    "start": 777.0,
+    "duration": 5.22
+  },
+  {
+    "text": "could if we set that appropriately then",
+    "start": 779.519,
+    "duration": 4.26
+  },
+  {
+    "text": "we could solve this oscillation problem",
+    "start": 782.22,
+    "duration": 4.38
+  },
+  {
+    "text": "right so now for the same example I will",
+    "start": 783.779,
+    "duration": 4.321
+  },
+  {
+    "text": "show you the case where we had set the",
+    "start": 786.6,
+    "duration": 3.06
+  },
+  {
+    "text": "learning rate initial learning rate to",
+    "start": 788.1,
+    "duration": 5.88
+  },
+  {
+    "text": "be 0.05 and now if I uh run this",
+    "start": 789.66,
+    "duration": 6.6
+  },
+  {
+    "text": "algorithm RMS prop you can see that",
+    "start": 793.98,
+    "duration": 4.859
+  },
+  {
+    "text": "there are no oscillations here right so",
+    "start": 796.26,
+    "duration": 6.0
+  },
+  {
+    "text": "how does that happen so if you have this",
+    "start": 798.839,
+    "duration": 5.94
+  },
+  {
+    "text": "ETA set to a right value then in the",
+    "start": 802.26,
+    "duration": 4.92
+  },
+  {
+    "text": "example that I was giving earlier what",
+    "start": 804.779,
+    "duration": 4.881
+  },
+  {
+    "text": "could happen",
+    "start": 807.18,
+    "duration": 2.48
+  },
+  {
+    "text": "is that I was showing that this okay",
+    "start": 810.72,
+    "duration": 5.34
+  },
+  {
+    "text": "maybe let's do it again so I was saying",
+    "start": 813.779,
+    "duration": 3.961
+  },
+  {
+    "text": "that it was perhaps oscillating from",
+    "start": 816.06,
+    "duration": 3.54
+  },
+  {
+    "text": "this point to this point and then back",
+    "start": 817.74,
+    "duration": 4.56
+  },
+  {
+    "text": "and forth between these two points right",
+    "start": 819.6,
+    "duration": 7.799
+  },
+  {
+    "text": "and if the ETA was such that uh even",
+    "start": 822.3,
+    "duration": 7.14
+  },
+  {
+    "text": "though the the denominator has become",
+    "start": 827.399,
+    "duration": 4.201
+  },
+  {
+    "text": "more or less constant if the effective",
+    "start": 829.44,
+    "duration": 3.54
+  },
+  {
+    "text": "learning rate because of the initial",
+    "start": 831.6,
+    "duration": 3.239
+  },
+  {
+    "text": "learning rated so it depends on the",
+    "start": 832.98,
+    "duration": 4.44
+  },
+  {
+    "text": "initial learning rate if that was such",
+    "start": 834.839,
+    "duration": 5.881
+  },
+  {
+    "text": "that instead of just moving from the two",
+    "start": 837.42,
+    "duration": 4.859
+  },
+  {
+    "text": "symmetric points right two points on",
+    "start": 840.72,
+    "duration": 3.299
+  },
+  {
+    "text": "either side of the curve if it was",
+    "start": 842.279,
+    "duration": 4.5
+  },
+  {
+    "text": "moving like this it came here and then",
+    "start": 844.019,
+    "duration": 5.76
+  },
+  {
+    "text": "from it here and then from here then it",
+    "start": 846.779,
+    "duration": 4.5
+  },
+  {
+    "text": "would still converge right so if the",
+    "start": 849.779,
+    "duration": 3.721
+  },
+  {
+    "text": "learning rate is appropriate says that",
+    "start": 851.279,
+    "duration": 5.041
+  },
+  {
+    "text": "it's not uh kind of oscillating from one",
+    "start": 853.5,
+    "duration": 5.1
+  },
+  {
+    "text": "side to the other but it's gradually",
+    "start": 856.32,
+    "duration": 5.34
+  },
+  {
+    "text": "becoming uh towards the Minima right so",
+    "start": 858.6,
+    "duration": 4.679
+  },
+  {
+    "text": "if the learning rate is set",
+    "start": 861.66,
+    "duration": 3.54
+  },
+  {
+    "text": "appropriately then this could happen now",
+    "start": 863.279,
+    "duration": 3.3
+  },
+  {
+    "text": "of course this is hard right I mean you",
+    "start": 865.2,
+    "duration": 3.12
+  },
+  {
+    "text": "don't really know in this case since",
+    "start": 866.579,
+    "duration": 4.38
+  },
+  {
+    "text": "it's a toy example we experimented with",
+    "start": 868.32,
+    "duration": 4.079
+  },
+  {
+    "text": "a few learning rates and we found out",
+    "start": 870.959,
+    "duration": 3.481
+  },
+  {
+    "text": "that for a particular learning rate it",
+    "start": 872.399,
+    "duration": 5.101
+  },
+  {
+    "text": "kind of uh stabilizes the point that I'm",
+    "start": 874.44,
+    "duration": 5.1
+  },
+  {
+    "text": "trying to make here is not that hey you",
+    "start": 877.5,
+    "duration": 4.62
+  },
+  {
+    "text": "should use RMS prop and then try to set",
+    "start": 879.54,
+    "duration": 4.44
+  },
+  {
+    "text": "the learning rate appropriately this may",
+    "start": 882.12,
+    "duration": 3.36
+  },
+  {
+    "text": "work in some examples but in some",
+    "start": 883.98,
+    "duration": 3.419
+  },
+  {
+    "text": "examples you may not be able to get the",
+    "start": 885.48,
+    "duration": 3.9
+  },
+  {
+    "text": "right learning rate right the point that",
+    "start": 887.399,
+    "duration": 3.841
+  },
+  {
+    "text": "I'm trying to make is in fact the",
+    "start": 889.38,
+    "duration": 4.259
+  },
+  {
+    "text": "opposite that RMS prop is indeed",
+    "start": 891.24,
+    "duration": 3.839
+  },
+  {
+    "text": "sensitive to the initial learning rate",
+    "start": 893.639,
+    "duration": 3.301
+  },
+  {
+    "text": "and if you don't set it properly then",
+    "start": 895.079,
+    "duration": 3.781
+  },
+  {
+    "text": "you could see oscillations despite the",
+    "start": 896.94,
+    "duration": 4.259
+  },
+  {
+    "text": "other properties of the algorithm which",
+    "start": 898.86,
+    "duration": 5.159
+  },
+  {
+    "text": "allows for a more smoother DK of the",
+    "start": 901.199,
+    "duration": 5.101
+  },
+  {
+    "text": "learning rate despite that good property",
+    "start": 904.019,
+    "duration": 3.961
+  },
+  {
+    "text": "it might still oscillate if the learning",
+    "start": 906.3,
+    "duration": 3.06
+  },
+  {
+    "text": "rate is not proper right so the main",
+    "start": 907.98,
+    "duration": 3.659
+  },
+  {
+    "text": "takeaway is that it is sensitive to the",
+    "start": 909.36,
+    "duration": 4.2
+  },
+  {
+    "text": "learning rate and setting this learning",
+    "start": 911.639,
+    "duration": 3.781
+  },
+  {
+    "text": "rate to 0.05 and showing you that it",
+    "start": 913.56,
+    "duration": 3.839
+  },
+  {
+    "text": "converges is not to give the message",
+    "start": 915.42,
+    "duration": 3.779
+  },
+  {
+    "text": "that hey you could do this by setting",
+    "start": 917.399,
+    "duration": 3.481
+  },
+  {
+    "text": "the learning rate appropriately it is",
+    "start": 919.199,
+    "duration": 3.121
+  },
+  {
+    "text": "just to show that different learning",
+    "start": 920.88,
+    "duration": 2.639
+  },
+  {
+    "text": "initial learning rates could have",
+    "start": 922.32,
+    "duration": 3.18
+  },
+  {
+    "text": "different effects right so that's the",
+    "start": 923.519,
+    "duration": 4.141
+  },
+  {
+    "text": "idea here and we'll have to move to a",
+    "start": 925.5,
+    "duration": 4.86
+  },
+  {
+    "text": "stage where we kind of get to algorithms",
+    "start": 927.66,
+    "duration": 4.739
+  },
+  {
+    "text": "which are not too sensitive to the",
+    "start": 930.36,
+    "duration": 5.82
+  },
+  {
+    "text": "initial learning rate okay which one",
+    "start": 932.399,
+    "duration": 6.24
+  },
+  {
+    "text": "ha so VT plus Epsilon so V T is",
+    "start": 936.18,
+    "duration": 5.04
+  },
+  {
+    "text": "initially 0 so initially it would be ETA",
+    "start": 938.639,
+    "duration": 4.14
+  },
+  {
+    "text": "divided by square root of 10 raised to",
+    "start": 941.22,
+    "duration": 4.2
+  },
+  {
+    "text": "minus 4 right okay now let's see again",
+    "start": 942.779,
+    "duration": 4.261
+  },
+  {
+    "text": "just continuing in that direction right",
+    "start": 945.42,
+    "duration": 5.34
+  },
+  {
+    "text": "so if we uh were to initialize",
+    "start": 947.04,
+    "duration": 5.159
+  },
+  {
+    "text": "ETA with different values right so I",
+    "start": 950.76,
+    "duration": 3.48
+  },
+  {
+    "text": "have suppose ETA equal to Eta not equal",
+    "start": 952.199,
+    "duration": 4.561
+  },
+  {
+    "text": "to 0.6 that's what I should say so our",
+    "start": 954.24,
+    "duration": 4.2
+  },
+  {
+    "text": "effective learning rate is",
+    "start": 956.76,
+    "duration": 3.12
+  },
+  {
+    "text": "ETA",
+    "start": 958.44,
+    "duration": 4.98
+  },
+  {
+    "text": "ETA naught divided by square root of",
+    "start": 959.88,
+    "duration": 6.72
+  },
+  {
+    "text": "VT plus Epsilon and of course this ETA",
+    "start": 963.42,
+    "duration": 5.099
+  },
+  {
+    "text": "naught remains constant throughout right",
+    "start": 966.6,
+    "duration": 3.06
+  },
+  {
+    "text": "that's what you have said and only the",
+    "start": 968.519,
+    "duration": 3.541
+  },
+  {
+    "text": "denominator is change right so now if I",
+    "start": 969.66,
+    "duration": 5.1
+  },
+  {
+    "text": "change if I use different values for ETA",
+    "start": 972.06,
+    "duration": 4.74
+  },
+  {
+    "text": "naught what happens I already showed you",
+    "start": 974.76,
+    "duration": 5.46
+  },
+  {
+    "text": "that if I choose if I had chosen some",
+    "start": 976.8,
+    "duration": 6.479
+  },
+  {
+    "text": "favorable value for uh ETA naught then",
+    "start": 980.22,
+    "duration": 4.739
+  },
+  {
+    "text": "my algorithm would have conversation so",
+    "start": 983.279,
+    "duration": 2.941
+  },
+  {
+    "text": "I'm just going to show you a few more",
+    "start": 984.959,
+    "duration": 3.0
+  },
+  {
+    "text": "examples along that direction",
+    "start": 986.22,
+    "duration": 4.14
+  },
+  {
+    "text": "okay so I'll consider two values ETA not",
+    "start": 987.959,
+    "duration": 5.221
+  },
+  {
+    "text": "equal to 0.6 and 0.1 and let's see what",
+    "start": 990.36,
+    "duration": 5.76
+  },
+  {
+    "text": "happens to the to uh example right so",
+    "start": 993.18,
+    "duration": 5.099
+  },
+  {
+    "text": "first let me run 0.6",
+    "start": 996.12,
+    "duration": 4.92
+  },
+  {
+    "text": "and here you can see that there's a wide",
+    "start": 998.279,
+    "duration": 5.701
+  },
+  {
+    "text": "oscillation right so this is almost like",
+    "start": 1001.04,
+    "duration": 6.96
+  },
+  {
+    "text": "a case where uh",
+    "start": 1003.98,
+    "duration": 4.02
+  },
+  {
+    "text": "the following is happening right it's",
+    "start": 1008.779,
+    "duration": 3.661
+  },
+  {
+    "text": "oscillating from a high loss region to",
+    "start": 1010.339,
+    "duration": 4.141
+  },
+  {
+    "text": "another high loss region and is",
+    "start": 1012.44,
+    "duration": 4.019
+  },
+  {
+    "text": "oscillating between these two points as",
+    "start": 1014.48,
+    "duration": 3.419
+  },
+  {
+    "text": "opposed to a slightly better loss",
+    "start": 1016.459,
+    "duration": 3.481
+  },
+  {
+    "text": "oscillation where it's perhaps",
+    "start": 1017.899,
+    "duration": 5.221
+  },
+  {
+    "text": "oscillating between two low loss regions",
+    "start": 1019.94,
+    "duration": 4.499
+  },
+  {
+    "text": "right so that's not happening here you",
+    "start": 1023.12,
+    "duration": 3.42
+  },
+  {
+    "text": "can clearly see that it's oscillating",
+    "start": 1024.439,
+    "duration": 5.041
+  },
+  {
+    "text": "between very high loss regions right so",
+    "start": 1026.54,
+    "duration": 5.039
+  },
+  {
+    "text": "from one high loss point to another it",
+    "start": 1029.48,
+    "duration": 4.02
+  },
+  {
+    "text": "is going and you can see that because",
+    "start": 1031.579,
+    "duration": 4.801
+  },
+  {
+    "text": "this where it is stable I mean the point",
+    "start": 1033.5,
+    "duration": 5.22
+  },
+  {
+    "text": "of oscillation this is what the sigmoid",
+    "start": 1036.38,
+    "duration": 4.26
+  },
+  {
+    "text": "curve looks like which is nowhere close",
+    "start": 1038.72,
+    "duration": 4.68
+  },
+  {
+    "text": "to fitting the points that I have right",
+    "start": 1040.64,
+    "duration": 7.1
+  },
+  {
+    "text": "now let's look at the other example",
+    "start": 1043.4,
+    "duration": 4.34
+  },
+  {
+    "text": "here the learning rate is slow so you",
+    "start": 1049.88,
+    "duration": 3.6
+  },
+  {
+    "text": "can see that the curve is moving slowly",
+    "start": 1051.74,
+    "duration": 3.96
+  },
+  {
+    "text": "right the algorithm is progressing",
+    "start": 1053.48,
+    "duration": 4.98
+  },
+  {
+    "text": "slower to the Minima and now in this",
+    "start": 1055.7,
+    "duration": 4.56
+  },
+  {
+    "text": "case also there are oscillations this is",
+    "start": 1058.46,
+    "duration": 3.42
+  },
+  {
+    "text": "still not good in fact ETA not equal to",
+    "start": 1060.26,
+    "duration": 3.48
+  },
+  {
+    "text": "0.05 is what I had shown on the previous",
+    "start": 1061.88,
+    "duration": 4.02
+  },
+  {
+    "text": "slide was good so even with ETA not",
+    "start": 1063.74,
+    "duration": 4.98
+  },
+  {
+    "text": "equal to 0.1 the learning rate is still",
+    "start": 1065.9,
+    "duration": 5.58
+  },
+  {
+    "text": "high right so the numerator is still",
+    "start": 1068.72,
+    "duration": 5.24
+  },
+  {
+    "text": "high",
+    "start": 1071.48,
+    "duration": 2.48
+  },
+  {
+    "text": "so this is now point one this is still",
+    "start": 1078.86,
+    "duration": 4.02
+  },
+  {
+    "text": "high enough to cause the oscillations",
+    "start": 1081.26,
+    "duration": 3.36
+  },
+  {
+    "text": "it's just that the oscillations are",
+    "start": 1082.88,
+    "duration": 3.6
+  },
+  {
+    "text": "slightly better now they are between",
+    "start": 1084.62,
+    "duration": 4.98
+  },
+  {
+    "text": "these two low loss regions right and",
+    "start": 1086.48,
+    "duration": 5.819
+  },
+  {
+    "text": "when I change it to 0.05 as I had shown",
+    "start": 1089.6,
+    "duration": 5.28
+  },
+  {
+    "text": "on the previous slide then it was better",
+    "start": 1092.299,
+    "duration": 5.221
+  },
+  {
+    "text": "it was perhaps able to get here and then",
+    "start": 1094.88,
+    "duration": 4.5
+  },
+  {
+    "text": "converge quickly from that point right",
+    "start": 1097.52,
+    "duration": 4.26
+  },
+  {
+    "text": "so that's that's what the sensitivity to",
+    "start": 1099.38,
+    "duration": 4.02
+  },
+  {
+    "text": "the initial learning rate is right so",
+    "start": 1101.78,
+    "duration": 2.94
+  },
+  {
+    "text": "the point to note here is that",
+    "start": 1103.4,
+    "duration": 3.72
+  },
+  {
+    "text": "everything else here is remaining the",
+    "start": 1104.72,
+    "duration": 4.26
+  },
+  {
+    "text": "same right the Lost surface is the same",
+    "start": 1107.12,
+    "duration": 3.6
+  },
+  {
+    "text": "the training points are the same the",
+    "start": 1108.98,
+    "duration": 2.939
+  },
+  {
+    "text": "only thing that has changed is my",
+    "start": 1110.72,
+    "duration": 3.0
+  },
+  {
+    "text": "initial learning rate and that is",
+    "start": 1111.919,
+    "duration": 3.841
+  },
+  {
+    "text": "causing a difference between convergence",
+    "start": 1113.72,
+    "duration": 4.199
+  },
+  {
+    "text": "and we saw three scenarios one where it",
+    "start": 1115.76,
+    "duration": 4.74
+  },
+  {
+    "text": "converges one where it oscillates around",
+    "start": 1117.919,
+    "duration": 4.561
+  },
+  {
+    "text": "a solution which is acceptable right so",
+    "start": 1120.5,
+    "duration": 6.419
+  },
+  {
+    "text": "this is perhaps not as bad as this one",
+    "start": 1122.48,
+    "duration": 7.5
+  },
+  {
+    "text": "right so it converges or it reaches to",
+    "start": 1126.919,
+    "duration": 4.801
+  },
+  {
+    "text": "an acceptable solution or is like really",
+    "start": 1129.98,
+    "duration": 3.36
+  },
+  {
+    "text": "far off from the solution right all",
+    "start": 1131.72,
+    "duration": 3.6
+  },
+  {
+    "text": "three things could happen depending on",
+    "start": 1133.34,
+    "duration": 3.66
+  },
+  {
+    "text": "how we have chosen the learning rate so",
+    "start": 1135.32,
+    "duration": 3.599
+  },
+  {
+    "text": "this is in indeed not a favorable",
+    "start": 1137.0,
+    "duration": 4.679
+  },
+  {
+    "text": "situation right so we may want to look",
+    "start": 1138.919,
+    "duration": 5.64
+  },
+  {
+    "text": "at Alternatives and in most cases these",
+    "start": 1141.679,
+    "duration": 4.701
+  },
+  {
+    "text": "initial learning rates for several",
+    "start": 1144.559,
+    "duration": 4.141
+  },
+  {
+    "text": "problems have been kind of discovered",
+    "start": 1146.38,
+    "duration": 4.48
+  },
+  {
+    "text": "through experiments I mean like for",
+    "start": 1148.7,
+    "duration": 4.56
+  },
+  {
+    "text": "example for machine translation there",
+    "start": 1150.86,
+    "duration": 4.199
+  },
+  {
+    "text": "are certain data sets training data sets",
+    "start": 1153.26,
+    "duration": 3.539
+  },
+  {
+    "text": "which are used quite often right across",
+    "start": 1155.059,
+    "duration": 3.781
+  },
+  {
+    "text": "different papers and so many experiments",
+    "start": 1156.799,
+    "duration": 3.481
+  },
+  {
+    "text": "have been done with those data sets that",
+    "start": 1158.84,
+    "duration": 3.78
+  },
+  {
+    "text": "people now have a good range of what is",
+    "start": 1160.28,
+    "duration": 4.08
+  },
+  {
+    "text": "the right initial learning rate to use",
+    "start": 1162.62,
+    "duration": 3.96
+  },
+  {
+    "text": "and in that case you might not set such",
+    "start": 1164.36,
+    "duration": 3.96
+  },
+  {
+    "text": "CSS problems right but if you're dealing",
+    "start": 1166.58,
+    "duration": 3.54
+  },
+  {
+    "text": "with an esoteric problem a new data set",
+    "start": 1168.32,
+    "duration": 4.02
+  },
+  {
+    "text": "which only you are looking at for the",
+    "start": 1170.12,
+    "duration": 3.54
+  },
+  {
+    "text": "first time or if not me enough people",
+    "start": 1172.34,
+    "duration": 3.18
+  },
+  {
+    "text": "have looked at then you might not really",
+    "start": 1173.66,
+    "duration": 3.78
+  },
+  {
+    "text": "know what the right ETA naught should be",
+    "start": 1175.52,
+    "duration": 3.6
+  },
+  {
+    "text": "and then you could land up in any of",
+    "start": 1177.44,
+    "duration": 4.56
+  },
+  {
+    "text": "these situations right so let's just",
+    "start": 1179.12,
+    "duration": 4.86
+  },
+  {
+    "text": "talk about it a bit more so this is what",
+    "start": 1182.0,
+    "duration": 3.78
+  },
+  {
+    "text": "the effective learning rate is this is",
+    "start": 1183.98,
+    "duration": 5.579
+  },
+  {
+    "text": "what VT is and which value of ETA naught",
+    "start": 1185.78,
+    "duration": 7.5
+  },
+  {
+    "text": "is a good one right so uh",
+    "start": 1189.559,
+    "duration": 5.941
+  },
+  {
+    "text": "we don't know that and what we really",
+    "start": 1193.28,
+    "duration": 6.899
+  },
+  {
+    "text": "want is that some ETA not might be",
+    "start": 1195.5,
+    "duration": 6.539
+  },
+  {
+    "text": "better some eat or not may not be better",
+    "start": 1200.179,
+    "duration": 4.74
+  },
+  {
+    "text": "right and it's also not often that one",
+    "start": 1202.039,
+    "duration": 4.741
+  },
+  {
+    "text": "ETA naught is always better right so",
+    "start": 1204.919,
+    "duration": 3.841
+  },
+  {
+    "text": "let's see what I mean by that right so",
+    "start": 1206.78,
+    "duration": 4.86
+  },
+  {
+    "text": "in this again uh suppose ETA naught was",
+    "start": 1208.76,
+    "duration": 5.94
+  },
+  {
+    "text": "set to 0.6 okay that's the animation",
+    "start": 1211.64,
+    "duration": 5.34
+  },
+  {
+    "text": "that I'm going to show you now and I'll",
+    "start": 1214.7,
+    "duration": 4.08
+  },
+  {
+    "text": "tell you what all I'm going to show you",
+    "start": 1216.98,
+    "duration": 4.319
+  },
+  {
+    "text": "in this animation right so this is VT",
+    "start": 1218.78,
+    "duration": 4.74
+  },
+  {
+    "text": "oops",
+    "start": 1221.299,
+    "duration": 4.861
+  },
+  {
+    "text": "yeah so this is VT which is the",
+    "start": 1223.52,
+    "duration": 5.399
+  },
+  {
+    "text": "accumulation right so remember your",
+    "start": 1226.16,
+    "duration": 4.2
+  },
+  {
+    "text": "I don't know how many times I have",
+    "start": 1228.919,
+    "duration": 3.901
+  },
+  {
+    "text": "written this formula now yeah so this is",
+    "start": 1230.36,
+    "duration": 4.679
+  },
+  {
+    "text": "VT the blue curve is going to be VT",
+    "start": 1232.82,
+    "duration": 4.56
+  },
+  {
+    "text": "which is not coming yet this green curve",
+    "start": 1235.039,
+    "duration": 4.26
+  },
+  {
+    "text": "is your initial ETA naught in my example",
+    "start": 1237.38,
+    "duration": 4.679
+  },
+  {
+    "text": "it has been set to 0.6 so that's why the",
+    "start": 1239.299,
+    "duration": 4.081
+  },
+  {
+    "text": "green line does not change across",
+    "start": 1242.059,
+    "duration": 4.561
+  },
+  {
+    "text": "iterations and this is going to be your",
+    "start": 1243.38,
+    "duration": 4.74
+  },
+  {
+    "text": "effective learning rate or I have not",
+    "start": 1246.62,
+    "duration": 3.12
+  },
+  {
+    "text": "taken the square root here but it's",
+    "start": 1248.12,
+    "duration": 2.939
+  },
+  {
+    "text": "going to be proportional to the",
+    "start": 1249.74,
+    "duration": 5.4
+  },
+  {
+    "text": "effective learning rate right so now uh",
+    "start": 1251.059,
+    "duration": 5.991
+  },
+  {
+    "text": "so far so good",
+    "start": 1255.14,
+    "duration": 5.05
+  },
+  {
+    "text": "[Music]",
+    "start": 1257.05,
+    "duration": 3.14
+  },
+  {
+    "text": "let's see what is happening",
+    "start": 1261.559,
+    "duration": 3.5
+  },
+  {
+    "text": "as the iterations go along we are seeing",
+    "start": 1265.82,
+    "duration": 8.16
+  },
+  {
+    "text": "some behavior of the plots right in uh",
+    "start": 1269.36,
+    "duration": 6.6
+  },
+  {
+    "text": "before I comment on that I just want you",
+    "start": 1273.98,
+    "duration": 5.28
+  },
+  {
+    "text": "to look at what is happening here right",
+    "start": 1275.96,
+    "duration": 6.54
+  },
+  {
+    "text": "so you started off with some Eternal",
+    "start": 1279.26,
+    "duration": 6.36
+  },
+  {
+    "text": "which was 0.6 initially your gradients",
+    "start": 1282.5,
+    "duration": 5.94
+  },
+  {
+    "text": "your history was accumulating right this",
+    "start": 1285.62,
+    "duration": 5.58
+  },
+  {
+    "text": "VT was accumulating and you ended up",
+    "start": 1288.44,
+    "duration": 4.44
+  },
+  {
+    "text": "with some effective learning rate right",
+    "start": 1291.2,
+    "duration": 3.66
+  },
+  {
+    "text": "so remember this orange curve is the",
+    "start": 1292.88,
+    "duration": 3.419
+  },
+  {
+    "text": "effective learning rate",
+    "start": 1294.86,
+    "duration": 4.26
+  },
+  {
+    "text": "as what is happening in these regions",
+    "start": 1296.299,
+    "duration": 5.581
+  },
+  {
+    "text": "these are the regions where your uh",
+    "start": 1299.12,
+    "duration": 5.4
+  },
+  {
+    "text": "slope was high so your VT was",
+    "start": 1301.88,
+    "duration": 5.039
+  },
+  {
+    "text": "accumulating right and even though this",
+    "start": 1304.52,
+    "duration": 5.46
+  },
+  {
+    "text": "is uh exponentially weighted average",
+    "start": 1306.919,
+    "duration": 5.341
+  },
+  {
+    "text": "you have beta into VT minus 1 plus 1",
+    "start": 1309.98,
+    "duration": 6.0
+  },
+  {
+    "text": "minus beta into VT as long as you are in",
+    "start": 1312.26,
+    "duration": 5.82
+  },
+  {
+    "text": "regions uh where not really sorry",
+    "start": 1315.98,
+    "duration": 4.02
+  },
+  {
+    "text": "current gradient",
+    "start": 1318.08,
+    "duration": 3.599
+  },
+  {
+    "text": "as long as you are in regions where the",
+    "start": 1320.0,
+    "duration": 3.96
+  },
+  {
+    "text": "current gradient is high this will keep",
+    "start": 1321.679,
+    "duration": 3.781
+  },
+  {
+    "text": "accumulating right so as you are going",
+    "start": 1323.96,
+    "duration": 3.54
+  },
+  {
+    "text": "down steep regions your history was also",
+    "start": 1325.46,
+    "duration": 4.079
+  },
+  {
+    "text": "high and your current thing is also high",
+    "start": 1327.5,
+    "duration": 4.76
+  },
+  {
+    "text": "so your VT will keep increasing right",
+    "start": 1329.539,
+    "duration": 6.361
+  },
+  {
+    "text": "and now when you enter regions where you",
+    "start": 1332.26,
+    "duration": 6.039
+  },
+  {
+    "text": "are in a flat region then over a period",
+    "start": 1335.9,
+    "duration": 5.04
+  },
+  {
+    "text": "of time this VT will become flat right",
+    "start": 1338.299,
+    "duration": 4.86
+  },
+  {
+    "text": "because now your history is contributing",
+    "start": 1340.94,
+    "duration": 4.38
+  },
+  {
+    "text": "history's importance is gradually",
+    "start": 1343.159,
+    "duration": 3.9
+  },
+  {
+    "text": "decreasing because of the beta factor",
+    "start": 1345.32,
+    "duration": 4.2
+  },
+  {
+    "text": "and your new stuff is very small to make",
+    "start": 1347.059,
+    "duration": 4.201
+  },
+  {
+    "text": "a difference till it reaches a point",
+    "start": 1349.52,
+    "duration": 3.18
+  },
+  {
+    "text": "that you start seeing a Tipping Point",
+    "start": 1351.26,
+    "duration": 4.08
+  },
+  {
+    "text": "right now your his this new factor is",
+    "start": 1352.7,
+    "duration": 4.56
+  },
+  {
+    "text": "very small and your history is also",
+    "start": 1355.34,
+    "duration": 3.9
+  },
+  {
+    "text": "diminished significantly because the",
+    "start": 1357.26,
+    "duration": 3.299
+  },
+  {
+    "text": "initial higher gradients are now",
+    "start": 1359.24,
+    "duration": 3.36
+  },
+  {
+    "text": "multiplied by a very large power of beta",
+    "start": 1360.559,
+    "duration": 4.261
+  },
+  {
+    "text": "right so that initial history has",
+    "start": 1362.6,
+    "duration": 4.92
+  },
+  {
+    "text": "diminished and your current gradients",
+    "start": 1364.82,
+    "duration": 4.2
+  },
+  {
+    "text": "are very small when you are close to the",
+    "start": 1367.52,
+    "duration": 3.779
+  },
+  {
+    "text": "Minima or to the flat surface so then as",
+    "start": 1369.02,
+    "duration": 4.74
+  },
+  {
+    "text": "we had said right the is history can",
+    "start": 1371.299,
+    "duration": 5.101
+  },
+  {
+    "text": "then start decreasing right so this is",
+    "start": 1373.76,
+    "duration": 5.7
+  },
+  {
+    "text": "the region where you had ah High",
+    "start": 1376.4,
+    "duration": 4.019
+  },
+  {
+    "text": "gradients",
+    "start": 1379.46,
+    "duration": 4.02
+  },
+  {
+    "text": "right this is the region where your",
+    "start": 1380.419,
+    "duration": 5.161
+  },
+  {
+    "text": "gradients started decreasing right I",
+    "start": 1383.48,
+    "duration": 4.02
+  },
+  {
+    "text": "mean this is till this point they were",
+    "start": 1385.58,
+    "duration": 3.42
+  },
+  {
+    "text": "increasing and from here onwards they",
+    "start": 1387.5,
+    "duration": 3.84
+  },
+  {
+    "text": "started decreasing and if you now look",
+    "start": 1389.0,
+    "duration": 4.5
+  },
+  {
+    "text": "at this and compare it to the behavior",
+    "start": 1391.34,
+    "duration": 4.68
+  },
+  {
+    "text": "of the learning rate in this uh let me",
+    "start": 1393.5,
+    "duration": 5.7
+  },
+  {
+    "text": "just uh change the color",
+    "start": 1396.02,
+    "duration": 4.62
+  },
+  {
+    "text": "yeah",
+    "start": 1399.2,
+    "duration": 5.04
+  },
+  {
+    "text": "so in this region where your gradients",
+    "start": 1400.64,
+    "duration": 5.7
+  },
+  {
+    "text": "were increasing the learning rate is",
+    "start": 1404.24,
+    "duration": 4.559
+  },
+  {
+    "text": "steadily decreasing right and this is",
+    "start": 1406.34,
+    "duration": 4.02
+  },
+  {
+    "text": "exactly what you want when the gradients",
+    "start": 1408.799,
+    "duration": 3.061
+  },
+  {
+    "text": "are high you want the learning rate to",
+    "start": 1410.36,
+    "duration": 4.26
+  },
+  {
+    "text": "decrease and now in this region once",
+    "start": 1411.86,
+    "duration": 4.799
+  },
+  {
+    "text": "your gradient started becoming small the",
+    "start": 1414.62,
+    "duration": 4.2
+  },
+  {
+    "text": "learning rate started increasing because",
+    "start": 1416.659,
+    "duration": 3.201
+  },
+  {
+    "text": "your",
+    "start": 1418.82,
+    "duration": 3.06
+  },
+  {
+    "text": "denominator which was accumulating the",
+    "start": 1419.86,
+    "duration": 4.179
+  },
+  {
+    "text": "history over a period of time it starts",
+    "start": 1421.88,
+    "duration": 4.02
+  },
+  {
+    "text": "decreasing because now all for the past",
+    "start": 1424.039,
+    "duration": 4.081
+  },
+  {
+    "text": "many time steps your history has been",
+    "start": 1425.9,
+    "duration": 4.139
+  },
+  {
+    "text": "smaller gradients so all the high",
+    "start": 1428.12,
+    "duration": 4.08
+  },
+  {
+    "text": "weightage things of R of small values",
+    "start": 1430.039,
+    "duration": 4.741
+  },
+  {
+    "text": "and the initial High values of gradients",
+    "start": 1432.2,
+    "duration": 4.68
+  },
+  {
+    "text": "are now have diminished because they are",
+    "start": 1434.78,
+    "duration": 3.54
+  },
+  {
+    "text": "being multiplied by a very high power of",
+    "start": 1436.88,
+    "duration": 4.26
+  },
+  {
+    "text": "beta right so as the VT starts",
+    "start": 1438.32,
+    "duration": 4.26
+  },
+  {
+    "text": "decreasing the learning state starts",
+    "start": 1441.14,
+    "duration": 3.419
+  },
+  {
+    "text": "increasing right so just to repeat till",
+    "start": 1442.58,
+    "duration": 4.32
+  },
+  {
+    "text": "this point your gradients were high",
+    "start": 1444.559,
+    "duration": 4.86
+  },
+  {
+    "text": "hence your history was increasing after",
+    "start": 1446.9,
+    "duration": 4.38
+  },
+  {
+    "text": "this point the current gradients were",
+    "start": 1449.419,
+    "duration": 4.081
+  },
+  {
+    "text": "very small and hence your history",
+    "start": 1451.28,
+    "duration": 5.1
+  },
+  {
+    "text": "started decreasing because now all all",
+    "start": 1453.5,
+    "duration": 4.62
+  },
+  {
+    "text": "you're in a steep region so all the",
+    "start": 1456.38,
+    "duration": 3.179
+  },
+  {
+    "text": "things that are getting added from this",
+    "start": 1458.12,
+    "duration": 3.36
+  },
+  {
+    "text": "point onwards they're all small all so",
+    "start": 1459.559,
+    "duration": 5.1
+  },
+  {
+    "text": "your effective sum is decreasing and in",
+    "start": 1461.48,
+    "duration": 4.92
+  },
+  {
+    "text": "these two halves you see the right",
+    "start": 1464.659,
+    "duration": 3.301
+  },
+  {
+    "text": "behavior of the learning rate initially",
+    "start": 1466.4,
+    "duration": 3.6
+  },
+  {
+    "text": "it decreases and then it increases when",
+    "start": 1467.96,
+    "duration": 5.04
+  },
+  {
+    "text": "the curve becomes flat okay so this is",
+    "start": 1470.0,
+    "duration": 4.98
+  },
+  {
+    "text": "what is expected right this is what we",
+    "start": 1473.0,
+    "duration": 4.44
+  },
+  {
+    "text": "like about RMS prop but what we were",
+    "start": 1474.98,
+    "duration": 5.579
+  },
+  {
+    "text": "talking about its sensitivity to",
+    "start": 1477.44,
+    "duration": 5.219
+  },
+  {
+    "text": "uh learning rate right so the initial",
+    "start": 1480.559,
+    "duration": 3.36
+  },
+  {
+    "text": "learning rate so this is what happened",
+    "start": 1482.659,
+    "duration": 3.721
+  },
+  {
+    "text": "when I chose the initial learning rate",
+    "start": 1483.919,
+    "duration": 8.12
+  },
+  {
+    "text": "to be 0.6 right now uh",
+    "start": 1486.38,
+    "duration": 5.659
+  },
+  {
+    "text": "so this satisfies our wish list whatever",
+    "start": 1494.48,
+    "duration": 3.319
+  },
+  {
+    "text": "I just spoke is written on this slide",
+    "start": 1496.22,
+    "duration": 5.579
+  },
+  {
+    "text": "now if we had set it to 0.1 right then",
+    "start": 1497.799,
+    "duration": 7.38
+  },
+  {
+    "text": "let's see what would have happened",
+    "start": 1501.799,
+    "duration": 3.38
+  },
+  {
+    "text": "maybe I should maximize this",
+    "start": 1507.26,
+    "duration": 5.399
+  },
+  {
+    "text": "right so again let me just Define the",
+    "start": 1509.48,
+    "duration": 4.62
+  },
+  {
+    "text": "things here you would have already",
+    "start": 1512.659,
+    "duration": 4.801
+  },
+  {
+    "text": "understood but uh yeah so this is my",
+    "start": 1514.1,
+    "duration": 4.86
+  },
+  {
+    "text": "history the blue curve is the history",
+    "start": 1517.46,
+    "duration": 3.78
+  },
+  {
+    "text": "that behavior does not change the orange",
+    "start": 1518.96,
+    "duration": 5.28
+  },
+  {
+    "text": "curve is for the ETA node of 0.6 which",
+    "start": 1521.24,
+    "duration": 5.64
+  },
+  {
+    "text": "we just discussed in detail and the",
+    "start": 1524.24,
+    "duration": 4.679
+  },
+  {
+    "text": "black curve is for the ETA naught of",
+    "start": 1526.88,
+    "duration": 4.679
+  },
+  {
+    "text": "point Y right and now what is happening",
+    "start": 1528.919,
+    "duration": 4.561
+  },
+  {
+    "text": "is that because my initial learning rate",
+    "start": 1531.559,
+    "duration": 5.581
+  },
+  {
+    "text": "is small this behavior of how quickly it",
+    "start": 1533.48,
+    "duration": 5.52
+  },
+  {
+    "text": "changes with steep slopes and gentle",
+    "start": 1537.14,
+    "duration": 4.019
+  },
+  {
+    "text": "slopes is also changing right now you",
+    "start": 1539.0,
+    "duration": 4.62
+  },
+  {
+    "text": "can see that initially this was",
+    "start": 1541.159,
+    "duration": 5.76
+  },
+  {
+    "text": "decreasing rapidly right but now this is",
+    "start": 1543.62,
+    "duration": 5.64
+  },
+  {
+    "text": "not decreasing rapidly it's decreasing",
+    "start": 1546.919,
+    "duration": 4.62
+  },
+  {
+    "text": "slowly but it's still always lower than",
+    "start": 1549.26,
+    "duration": 4.14
+  },
+  {
+    "text": "the lowest point that I had reached here",
+    "start": 1551.539,
+    "duration": 3.301
+  },
+  {
+    "text": "right",
+    "start": 1553.4,
+    "duration": 3.54
+  },
+  {
+    "text": "so what does that mean that it is still",
+    "start": 1554.84,
+    "duration": 3.719
+  },
+  {
+    "text": "going to be lower than the lowest point",
+    "start": 1556.94,
+    "duration": 3.18
+  },
+  {
+    "text": "that I have reached and then again in",
+    "start": 1558.559,
+    "duration": 2.941
+  },
+  {
+    "text": "the Steep regions when it starts",
+    "start": 1560.12,
+    "duration": 3.36
+  },
+  {
+    "text": "increasing it does not increase that",
+    "start": 1561.5,
+    "duration": 3.6
+  },
+  {
+    "text": "rapidly right because it's still the",
+    "start": 1563.48,
+    "duration": 3.96
+  },
+  {
+    "text": "numerator is still small so it nowhere",
+    "start": 1565.1,
+    "duration": 4.559
+  },
+  {
+    "text": "grows as much as I wanted here right",
+    "start": 1567.44,
+    "duration": 4.8
+  },
+  {
+    "text": "hence in this case you are seeing very",
+    "start": 1569.659,
+    "duration": 5.041
+  },
+  {
+    "text": "wild oscillations in this case you are",
+    "start": 1572.24,
+    "duration": 4.74
+  },
+  {
+    "text": "seeing mylar oscillations and if I also",
+    "start": 1574.7,
+    "duration": 5.16
+  },
+  {
+    "text": "draw the curve for 0.05 then that you",
+    "start": 1576.98,
+    "duration": 5.52
+  },
+  {
+    "text": "would see would have even smaller",
+    "start": 1579.86,
+    "duration": 4.319
+  },
+  {
+    "text": "oscillations such that it allows it to",
+    "start": 1582.5,
+    "duration": 3.539
+  },
+  {
+    "text": "then settle it into the Minima right so",
+    "start": 1584.179,
+    "duration": 3.541
+  },
+  {
+    "text": "this what these curves are trying to",
+    "start": 1586.039,
+    "duration": 4.081
+  },
+  {
+    "text": "show is that how fast or slow the",
+    "start": 1587.72,
+    "duration": 4.38
+  },
+  {
+    "text": "learning rate adopts actually depends to",
+    "start": 1590.12,
+    "duration": 3.659
+  },
+  {
+    "text": "an extent on the initial learning rate",
+    "start": 1592.1,
+    "duration": 4.62
+  },
+  {
+    "text": "right so that's what is being shown here",
+    "start": 1593.779,
+    "duration": 5.4
+  },
+  {
+    "text": "so again multiple slides conveying the",
+    "start": 1596.72,
+    "duration": 6.42
+  },
+  {
+    "text": "same point that RMS prop is indeed",
+    "start": 1599.179,
+    "duration": 6.12
+  },
+  {
+    "text": "sensitive to the initial learning rate",
+    "start": 1603.14,
+    "duration": 4.38
+  },
+  {
+    "text": "right and we might want to get to a",
+    "start": 1605.299,
+    "duration": 4.98
+  },
+  {
+    "text": "situation or to an algorithm where this",
+    "start": 1607.52,
+    "duration": 6.32
+  },
+  {
+    "text": "dependency can be avoided",
+    "start": 1610.279,
+    "duration": 3.561
+  },
+  {
+    "text": "now you might argue right that I might",
+    "start": 1614.9,
+    "duration": 5.279
+  },
+  {
+    "text": "find something which is good right so I",
+    "start": 1617.6,
+    "duration": 4.679
+  },
+  {
+    "text": "might find ETA not equal to 0.1 and that",
+    "start": 1620.179,
+    "duration": 3.781
+  },
+  {
+    "text": "is perhaps always good or ETA not equal",
+    "start": 1622.279,
+    "duration": 3.961
+  },
+  {
+    "text": "to 0.6 which is always good right now",
+    "start": 1623.96,
+    "duration": 3.54
+  },
+  {
+    "text": "one more thing which I'm going to make",
+    "start": 1626.24,
+    "duration": 3.179
+  },
+  {
+    "text": "an argument for now is that that is also",
+    "start": 1627.5,
+    "duration": 3.779
+  },
+  {
+    "text": "not guaranteed so suppose you are in a",
+    "start": 1629.419,
+    "duration": 4.5
+  },
+  {
+    "text": "steep region right so you are in a steep",
+    "start": 1631.279,
+    "duration": 4.14
+  },
+  {
+    "text": "region so your history has been",
+    "start": 1633.919,
+    "duration": 3.301
+  },
+  {
+    "text": "accumulating and suppose your current",
+    "start": 1635.419,
+    "duration": 4.681
+  },
+  {
+    "text": "value of VT is 1.25 then what would your",
+    "start": 1637.22,
+    "duration": 5.059
+  },
+  {
+    "text": "effective learning rate be it would be",
+    "start": 1640.1,
+    "duration": 4.679
+  },
+  {
+    "text": "0.48 right if the learning rate was set",
+    "start": 1642.279,
+    "duration": 4.061
+  },
+  {
+    "text": "to 0.6",
+    "start": 1644.779,
+    "duration": 4.38
+  },
+  {
+    "text": "and if the learning rate was set to 0.1",
+    "start": 1646.34,
+    "duration": 6.0
+  },
+  {
+    "text": "then it would have been 0.08 right so",
+    "start": 1649.159,
+    "duration": 6.14
+  },
+  {
+    "text": "same situation",
+    "start": 1652.34,
+    "duration": 2.959
+  },
+  {
+    "text": "I'm just trying to make a case that",
+    "start": 1660.559,
+    "duration": 3.181
+  },
+  {
+    "text": "depending on the initial learning rate",
+    "start": 1662.179,
+    "duration": 3.6
+  },
+  {
+    "text": "your effective learning rate a Time step",
+    "start": 1663.74,
+    "duration": 4.5
+  },
+  {
+    "text": "would be different right and since I'm",
+    "start": 1665.779,
+    "duration": 5.28
+  },
+  {
+    "text": "in a steep region this is my preferred",
+    "start": 1668.24,
+    "duration": 4.86
+  },
+  {
+    "text": "effective learning rate I want a smaller",
+    "start": 1671.059,
+    "duration": 4.381
+  },
+  {
+    "text": "effective learning rate because I'm in a",
+    "start": 1673.1,
+    "duration": 4.079
+  },
+  {
+    "text": "steep region and that I would have",
+    "start": 1675.44,
+    "duration": 3.479
+  },
+  {
+    "text": "obtained if my initial learning rate was",
+    "start": 1677.179,
+    "duration": 5.461
+  },
+  {
+    "text": "0.1 right but now suppose I am in a uh",
+    "start": 1678.919,
+    "duration": 5.401
+  },
+  {
+    "text": "not in a",
+    "start": 1682.64,
+    "duration": 4.639
+  },
+  {
+    "text": "steep region",
+    "start": 1684.32,
+    "duration": 2.959
+  },
+  {
+    "text": "okay I am in a flat region and say now",
+    "start": 1687.799,
+    "duration": 3.601
+  },
+  {
+    "text": "because I'm in a flat region my history",
+    "start": 1690.02,
+    "duration": 4.019
+  },
+  {
+    "text": "is accumulating slowly so my VT is 0.1",
+    "start": 1691.4,
+    "duration": 4.98
+  },
+  {
+    "text": "and now if I compute the effective",
+    "start": 1694.039,
+    "duration": 4.981
+  },
+  {
+    "text": "learning rate with 0.6 then it's high",
+    "start": 1696.38,
+    "duration": 5.7
+  },
+  {
+    "text": "but with 0.1 it's going to be low right",
+    "start": 1699.02,
+    "duration": 8.24
+  },
+  {
+    "text": "and now in this case I might prefer uh",
+    "start": 1702.08,
+    "duration": 5.18
+  },
+  {
+    "text": "this as the learning rate",
+    "start": 1707.96,
+    "duration": 4.38
+  },
+  {
+    "text": "because I'm in a flat region so I want",
+    "start": 1709.76,
+    "duration": 4.32
+  },
+  {
+    "text": "the learning rate to be high which means",
+    "start": 1712.34,
+    "duration": 3.18
+  },
+  {
+    "text": "I am preferring a different initial",
+    "start": 1714.08,
+    "duration": 3.719
+  },
+  {
+    "text": "learning rate right so across along the",
+    "start": 1715.52,
+    "duration": 4.74
+  },
+  {
+    "text": "same loss surface your preference for",
+    "start": 1717.799,
+    "duration": 4.561
+  },
+  {
+    "text": "which would have been a good value of",
+    "start": 1720.26,
+    "duration": 3.84
+  },
+  {
+    "text": "ETA naught that decision might change",
+    "start": 1722.36,
+    "duration": 3.96
+  },
+  {
+    "text": "right so this is yet again uh kind of",
+    "start": 1724.1,
+    "duration": 4.38
+  },
+  {
+    "text": "making a case that you don't want the",
+    "start": 1726.32,
+    "duration": 3.78
+  },
+  {
+    "text": "sensitivity towards eat or not right",
+    "start": 1728.48,
+    "duration": 3.9
+  },
+  {
+    "text": "because you really want it to adapt and",
+    "start": 1730.1,
+    "duration": 3.959
+  },
+  {
+    "text": "not get stuck with an initial choice",
+    "start": 1732.38,
+    "duration": 2.82
+  },
+  {
+    "text": "that you have made because at the start",
+    "start": 1734.059,
+    "duration": 2.281
+  },
+  {
+    "text": "of the algorithm you make this choice",
+    "start": 1735.2,
+    "duration": 3.24
+  },
+  {
+    "text": "that Eternal is going to be 0.1 or 0.6",
+    "start": 1736.34,
+    "duration": 4.199
+  },
+  {
+    "text": "or 0.05 and then you are stuck with that",
+    "start": 1738.44,
+    "duration": 4.32
+  },
+  {
+    "text": "choice right instead can I get rid of",
+    "start": 1740.539,
+    "duration": 3.721
+  },
+  {
+    "text": "this ETA naught and have like a more",
+    "start": 1742.76,
+    "duration": 3.659
+  },
+  {
+    "text": "adaptive setup right so all of this is",
+    "start": 1744.26,
+    "duration": 6.38
+  },
+  {
+    "text": "trying to make a case for that",
+    "start": 1746.419,
+    "duration": 4.221
+  },
+  {
+    "text": "okay",
+    "start": 1751.1,
+    "duration": 3.84
+  },
+  {
+    "text": "so that's what is being said on the",
+    "start": 1752.659,
+    "duration": 3.9
+  },
+  {
+    "text": "slide also and therefore we wish the",
+    "start": 1754.94,
+    "duration": 3.66
+  },
+  {
+    "text": "numerator also to change with respect to",
+    "start": 1756.559,
+    "duration": 3.48
+  },
+  {
+    "text": "the gradient or the current slope right",
+    "start": 1758.6,
+    "duration": 3.78
+  },
+  {
+    "text": "so if I'm in a steeper region I want the",
+    "start": 1760.039,
+    "duration": 4.801
+  },
+  {
+    "text": "numerator and denominator to adjust in",
+    "start": 1762.38,
+    "duration": 4.98
+  },
+  {
+    "text": "uh kind of concurrence so that I get a",
+    "start": 1764.84,
+    "duration": 4.439
+  },
+  {
+    "text": "good effective learning rate and if I'm",
+    "start": 1767.36,
+    "duration": 3.84
+  },
+  {
+    "text": "in a flat region again I want to want",
+    "start": 1769.279,
+    "duration": 4.081
+  },
+  {
+    "text": "them to adjust in kind of correlation so",
+    "start": 1771.2,
+    "duration": 3.959
+  },
+  {
+    "text": "that I have have a good effective",
+    "start": 1773.36,
+    "duration": 3.059
+  },
+  {
+    "text": "learning rate right right now the only",
+    "start": 1775.159,
+    "duration": 2.701
+  },
+  {
+    "text": "the denominator is adjusting the",
+    "start": 1776.419,
+    "duration": 3.541
+  },
+  {
+    "text": "numerator is not adjusting",
+    "start": 1777.86,
+    "duration": 4.199
+  },
+  {
+    "text": "so let's quickly summarize the drawbacks",
+    "start": 1779.96,
+    "duration": 5.52
+  },
+  {
+    "text": "of adagrad and RMS prop so both are",
+    "start": 1782.059,
+    "duration": 5.72
+  },
+  {
+    "text": "sensitive to the initial learning rate",
+    "start": 1785.48,
+    "duration": 5.1
+  },
+  {
+    "text": "uh then if the initial learning rates",
+    "start": 1787.779,
+    "duration": 4.601
+  },
+  {
+    "text": "are great if the initial gradients are",
+    "start": 1790.58,
+    "duration": 4.14
+  },
+  {
+    "text": "large right if the initial gradients are",
+    "start": 1792.38,
+    "duration": 5.96
+  },
+  {
+    "text": "large my VT",
+    "start": 1794.72,
+    "duration": 3.62
+  },
+  {
+    "text": "would be large if my V 0 was large right",
+    "start": 1799.46,
+    "duration": 7.02
+  },
+  {
+    "text": "so my VT would be uh so V 0 itself would",
+    "start": 1802.279,
+    "duration": 7.081
+  },
+  {
+    "text": "be Delta V 0 square",
+    "start": 1806.48,
+    "duration": 5.76
+  },
+  {
+    "text": "right so if and then after that it will",
+    "start": 1809.36,
+    "duration": 5.6
+  },
+  {
+    "text": "keep adding",
+    "start": 1812.24,
+    "duration": 2.72
+  },
+  {
+    "text": "so this is at a grad where there is no",
+    "start": 1818.419,
+    "duration": 4.081
+  },
+  {
+    "text": "exponential decay so if my initial",
+    "start": 1820.58,
+    "duration": 3.959
+  },
+  {
+    "text": "gradients are large my VT takes on a",
+    "start": 1822.5,
+    "duration": 4.26
+  },
+  {
+    "text": "large value very early on my v0 V1",
+    "start": 1824.539,
+    "duration": 4.02
+  },
+  {
+    "text": "itself would be large and then my",
+    "start": 1826.76,
+    "duration": 3.72
+  },
+  {
+    "text": "effective learning rate right from the",
+    "start": 1828.559,
+    "duration": 4.321
+  },
+  {
+    "text": "beginning would become very small",
+    "start": 1830.48,
+    "duration": 3.9
+  },
+  {
+    "text": "and then there's no way for me to",
+    "start": 1832.88,
+    "duration": 3.299
+  },
+  {
+    "text": "recover from there because my VT has",
+    "start": 1834.38,
+    "duration": 3.96
+  },
+  {
+    "text": "become very large and in other grad it",
+    "start": 1836.179,
+    "duration": 3.781
+  },
+  {
+    "text": "never decreases again right it keeps",
+    "start": 1838.34,
+    "duration": 2.76
+  },
+  {
+    "text": "growing because I don't take an",
+    "start": 1839.96,
+    "duration": 2.339
+  },
+  {
+    "text": "exponential decay right so that's",
+    "start": 1841.1,
+    "duration": 3.6
+  },
+  {
+    "text": "clearly a disadvantage of ADA grad and",
+    "start": 1842.299,
+    "duration": 4.98
+  },
+  {
+    "text": "that we were able to kind of alleviate",
+    "start": 1844.7,
+    "duration": 6.02
+  },
+  {
+    "text": "using RMS prop",
+    "start": 1847.279,
+    "duration": 3.441
+  },
+  {
+    "text": "then if a gentle curvature is",
+    "start": 1856.52,
+    "duration": 4.86
+  },
+  {
+    "text": "encountered in Ada grad but there is no",
+    "start": 1858.919,
+    "duration": 3.721
+  },
+  {
+    "text": "way to increase the learning rate",
+    "start": 1861.38,
+    "duration": 2.64
+  },
+  {
+    "text": "because your history has again",
+    "start": 1862.64,
+    "duration": 6.919
+  },
+  {
+    "text": "accumulated right and now I want uh",
+    "start": 1864.02,
+    "duration": 5.539
+  },
+  {
+    "text": "my history has been accumulated and now",
+    "start": 1871.94,
+    "duration": 4.739
+  },
+  {
+    "text": "I really want this to be small VT to be",
+    "start": 1873.799,
+    "duration": 4.38
+  },
+  {
+    "text": "small only then my effective learning",
+    "start": 1876.679,
+    "duration": 2.761
+  },
+  {
+    "text": "rate will increase but that cannot",
+    "start": 1878.179,
+    "duration": 3.961
+  },
+  {
+    "text": "happen because once VT starts getting",
+    "start": 1879.44,
+    "duration": 5.82
+  },
+  {
+    "text": "big it never comes back down right so",
+    "start": 1882.14,
+    "duration": 4.74
+  },
+  {
+    "text": "again the same problem in order grad",
+    "start": 1885.26,
+    "duration": 4.38
+  },
+  {
+    "text": "that as you once you start accumulating",
+    "start": 1886.88,
+    "duration": 4.86
+  },
+  {
+    "text": "a lot of history then your learning rate",
+    "start": 1889.64,
+    "duration": 3.6
+  },
+  {
+    "text": "is bound to get killed right and that's",
+    "start": 1891.74,
+    "duration": 4.02
+  },
+  {
+    "text": "what we saw in that initial diagram that",
+    "start": 1893.24,
+    "duration": 4.799
+  },
+  {
+    "text": "when I had come close to my Minima my",
+    "start": 1895.76,
+    "duration": 4.08
+  },
+  {
+    "text": "movement had become very slow in the B",
+    "start": 1898.039,
+    "duration": 3.421
+  },
+  {
+    "text": "direction right because my effective",
+    "start": 1899.84,
+    "duration": 3.719
+  },
+  {
+    "text": "learning rate was I cannot increase it",
+    "start": 1901.46,
+    "duration": 3.78
+  },
+  {
+    "text": "now because I'm not taking an",
+    "start": 1903.559,
+    "duration": 3.48
+  },
+  {
+    "text": "exponential average right so this is",
+    "start": 1905.24,
+    "duration": 4.679
+  },
+  {
+    "text": "also kind of resolved in RMS Prof but",
+    "start": 1907.039,
+    "duration": 5.281
+  },
+  {
+    "text": "this sensitivity to the initial learning",
+    "start": 1909.919,
+    "duration": 4.38
+  },
+  {
+    "text": "rate still exists and we would like to",
+    "start": 1912.32,
+    "duration": 5.3
+  },
+  {
+    "text": "get rid of that okay",
+    "start": 1914.299,
+    "duration": 3.321
+  }
+]

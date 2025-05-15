@@ -1,0 +1,9 @@
+the hi's that you had all the edges these were your matrices these were the learnable matrices the transformation matrices.
+WQ for query WV V for value and w k k for key and what you get out is the.
+query Vector Q the value vector B and the key Vector okay right so for each word from your perspective.
+for each word you have now been able to create three vectors from it right now how do you use.
+these vectors how do you compute the attention is something that will come later on right but for now what.
+we're doing is something simple right for whatever reasons we are taking one vector and Computing three vectors from it.
+and these three vectors are being Computing with the help of linear Transformations coming from a matrix right so and.
+these are learnable parameters so you have already introduced some parameters into the X okay so I'm just repeating what.
+I had said on the slide and these are called the respective transformations now so now let's focus on uh.

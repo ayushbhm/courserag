@@ -1,0 +1,9 @@
+any values then how am i sure that my uh algorithm will not start or my y hats which i.
+am predicting it which is the output here why would it be like thousand ten thousand 100 and so on.
+whereas actually i just want values between 0 to 10 right so i want that the output should be 0.
+to 10 right that's why i did not choose the logistic function because i told you that logistic function will.
+give you between 0 to 1 right then perhaps i should have chosen something which gives me values between 0.
+to 10 i did not do that i chose it choose a linear function which is not bounded it could.
+give me any values it could give me 10 thousands 1 lakhs and so on so then how how how.
+would you how would the network deal with the situation right so the answer to this as most of you.
+would understand is that it's through the loss function right so now if my network starts predicting the value of.

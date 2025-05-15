@@ -1,0 +1,8 @@
+a very low loss whereas gradient descent was a very high loss right and 50 iterations corresponds to two seconds.
+of the video there are 25 iterations per second here so I'll just play it quickly again one second it's.
+already much ahead of gradient descent two seconds it's actually reached the Minima it's now just going to keep oscillating.
+there but gradient descent is still very far and now despite these oscillations it's reached its answer whereas gradient descent.
+is still trying to reach there reach there it's there still not there and now it is there right so.
+you can see that momentum based gradient doesn't reach there much quicker than gradient descent despite these oscillations so what.
+we would like to see next now is that can we the oscillations are a part of the life now.
+right given that we are moving fast but can we do something to reduce these oscillations and that's the idea.

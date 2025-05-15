@@ -1,0 +1,9 @@
+the other Concepts in the equations of Adam you already know right you already know what VT does it kind.
+of decays the learning rate you also know what Mt does right Mt is the classical momentum term the only.
+new thing which has come up in Adam is this bias correction right which is not uh clear to us.
+why we are doing that bias correction right so let's see why we are doing that bias correction right so.
+these are the update equations for uh atom so note that we are taking like a running average of empty.
+right we are in in Mt we are taking a running average of the gradients right so what do I.
+mean by taking a running average of the gradients like I have the current gradient I'm giving it some weightage.
+and I'm also accumulating the history so the reason we are doing this is that we don't want to rely.
+too much on the current gradient right because you might get a sudden High gradient and then you might take.

@@ -1,0 +1,9 @@
+my Max Norm is going to be the max of these two quantities right and then it will end up.
+being 0.5 so I'll start from here right and so max is of course more uh zigzag it's not as.
+smooth as you had in the L2 Norm it's understandable because you're just moving to the maximum values and say.
+this is so so that's why it's not susceptible to the initial zero bias so we don't need bias correction.
+when we are using the max knob right and we are taking the max between beta V time uh beta.
+times the history uh that means beta times the max up till time step T minus 1 and then the.
+current value right so this history is again decaying exponentially right because every time beta gets multiplied by the history.
+but the current gradient you are not multiplying by anything okay okay so that's the justification for not having bias.
+correction okay now let's see now suppose we initialize w0 so that's that so now we are trying to see.

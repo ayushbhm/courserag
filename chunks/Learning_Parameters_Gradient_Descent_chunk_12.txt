@@ -1,0 +1,10 @@
+to be favorable only if so only if this value is less than this value right otherwise it's not favorable.
+I was at certain loss now I have moved and if the loss increases then that's not a favorable move.
+right why I should have why would a better State there right so I would like uh you only if.
+uh the new loss is less than the previous loss right so that's the condition that I want so what.
+I want is that if I do the subtraction If I subtract the new loss from the old loss then.
+I should get a value less than 0 which is a simpler I mean it's just another way of saying.
+that the new loss is less than the Old Law so that's all I'm seeing right and now if I.
+just look at this equation here what is this quantity so I just take L Theta to the other side.
+and I am left with this right so what I am saying is that this quantity should be less than.
+zero that's what I'm effectively saying right so I'll just delete some stuff so this is the quantity that I.

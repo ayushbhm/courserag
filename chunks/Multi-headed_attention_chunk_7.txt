@@ -1,0 +1,9 @@
+representation for the tenth word right and I want this to be high right but I had also earlier made.
+the case that I want the attention on animal to be high because animal is the uh I mean it.
+is referring animal animal is the word for which it is the pronoun in this case right so that means.
+if I were to compute again the weights Alpha 10 and so on then I want this to be high.
+so I also have a case for this to be high I also have a case for this to be.
+high so one way of dealing with this would we have two separate attention heads right and compute two Alphas.
+one from one block of self attention another from the other block of self attention and this block could learn.
+to give more importance to this Alpha and the other block could learn to give more importance to this Alpha.
+right now of course this is slightly make believe right we understand that because we have already visited this in.

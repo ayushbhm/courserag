@@ -1,0 +1,8 @@
+capacity these are very large models and when you start do a basic course on machine learning you will the.
+first thing that you learn is that hey if you have very complex models then they are susceptible to overfitting.
+they'll completely learn the training data but they'll not perform well untested right but this is not what is happening.
+for deep learning models right they are high capacity but they are still somehow being able to overcome this problem.
+of overfitting right to a certain extent some cases they do overfit then there is this numerical instability i spoke.
+about this vanishing exploding gradients and even gans and diffusion based models they are often hard to uh not diffusion-based.
+models but at least gans are often very hard to train and get unstable during uh training right then they.
+have this sharp minima right because this uh the uh the the loss function that you have in deep data.

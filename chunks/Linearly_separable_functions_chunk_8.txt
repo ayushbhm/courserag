@@ -1,0 +1,10 @@
+general how many boolean functions can you have from n inputs it is 2 raised to 2 raised to n.
+right so that's what happened here it was n was 2 so you had 2 raised to 2 raised to.
+2 functions you can go back and convince yourself that if n is equal i mean if you have a.
+general n number of inputs then the number of boolean functions would be 2 raised to 2 raised to m.
+okay now of these how many are not linearly separable so when you had 16 functions two are not linearly.
+separable so if you have two raised to two raised to n functions how many would be not linearly separable.
+so many of you would try to say that the answer is n that's not the correct answer in fact.
+this is an unsolved problem so you can go back and try looking for an answer for this right but.
+that's that's not the point the point is that there are going to be some functions which are not linearly.
+separable right and if that is the case with the simple boolean functions and i said in real world we.

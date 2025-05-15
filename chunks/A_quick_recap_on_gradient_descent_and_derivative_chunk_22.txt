@@ -1,0 +1,9 @@
+will change by a large value so say w was uh here it will change by a large value and.
+go somewhere here and my B will also change by a large value and go somewhere else so hence now.
+if I look at the original point where I was which I'll now Mark as red right this is where.
+I was and if my Delta W and Delta B were large then I'll move to a point which is.
+farther away from it right so that is what will happen that means these Delta quantities that you see here.
+are controlling how much fast or or by La the amount by which I move right the magnitude by which.
+I move and what are these quantities these are actually the partial derivatives of the loss function with respect to.
+those parameters right so now how does this collect connect to the smooth and the gentle surfaces what is happening.
+then on the smooth surfaces you are moving slowly that means your Delta W is small that's why you're moving.

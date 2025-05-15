@@ -1,0 +1,9 @@
+way off why because this quantity is not zero so if this quantity is high then you are training your.
+estimate would actually have been way off your error would have been the empirical error computed from the training data.
+plus this quantity but what you have reported is only the empirical error computed from the training data you did.
+not report this quantity you don't even know how to compute this quantity right but there is this quantity sitting.
+here which you cannot ignore now in the case of test data you are able to ignore know that hence.
+if you had reported this as the test data then your true error your whatever estimate you got would have.
+been very close to the true error as we showed at the previous slide but if you are going to.
+estimate this from the training data then that is not the case right so that is what we have learned.
+and we had this intuition that training error as computed from the training data this is the empirical training error.

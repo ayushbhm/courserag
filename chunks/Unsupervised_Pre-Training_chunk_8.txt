@@ -1,0 +1,9 @@
+data has lot of redundancy so I am doing some sort of a compression where I am reducing it to.
+256 values and then I'm trying to reconstruct the input from these 256 values so if I am able to.
+do this perfectly that means this hidden layer that I had is capturing all the important characteristics of my input.
+right and that is enough for me to reconstruct the input right that's what typically happens in compression so that's.
+exactly what I am trying to do here and this is the idea in an auto encoder right I want.
+to learn a more compact representation of the input and the way I do it is that I use this.
+bottleneck layer right and then I try to reconstruct the loss and if I'm able to do this then I.
+have captured all the important information in this 1024 dimensional data it was by just using 256 Dimensions right and.
+we can show that under certain conditions this is actually equivalent to principle component analysis which is again a data.

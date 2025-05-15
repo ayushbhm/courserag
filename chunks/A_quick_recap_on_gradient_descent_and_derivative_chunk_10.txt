@@ -1,0 +1,9 @@
+infeasible the guesswork can lead you to uh false Direction so when I was guessed trying to guess the values.
+are W and B at some points I was making a guess such that my loss was actually more than.
+what it was at my previous case so that doesn't work and this is the brute force method which also.
+doesn't work right you cannot do this Brute Force search when you have a large number of parameters even for.
+two parameters we cannot do right so you want something which is better than the uh Brute Force as well.
+as the uh guesswork algorithm and now I just shown you the visualization for the guesswork algorithm right so what.
+I was doing is that as I keep picking values from this table here uh my loss changes and what.
+happens is actually I'm moving on this lost surface right so this yellow Point keeps changing depending on my current.
+wnb and subconsciously I was actually moving on this lost surface without actually knowing what the loss surface was that's.

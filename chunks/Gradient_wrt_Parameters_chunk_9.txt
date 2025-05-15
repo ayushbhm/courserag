@@ -1,0 +1,10 @@
+thing is that across the rows the entries are the same right these three guys are the same these three.
+guys are the same and these three guys are the same right so if I were to take say if.
+I were to take two vectors right a one A2 A3 multiplied by B1 B2 B3 right so this is.
+known as the outer product of two vectors this is a three cross one vector multiplied by a one cross.
+three Vector so the product is going to be a three cross three Matrix right so let's look at what.
+do the entries in The Matrix look like the entries in The Matrix would look something like this it would.
+be a one into B1 A1 into B2 A1 into B3 okay and then uh a 2 into B1 A2.
+into B2 A2 into B3 and then A3 into B1 A3 into B2 A3 into B3 right so you have.
+the same situation that you have uh here right if you compare all these guys were the same again all.
+of these are b1s all these guys are the same all of these are V2s all these guys are the.

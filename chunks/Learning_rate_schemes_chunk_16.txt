@@ -1,0 +1,3 @@
+different learning rate schedules that we had uh and this you could use in conjunction with the optimization algorithms that.
+we have used also right so both can be uh done so that's all for this lecture and we'll see.
+you next week again thank you.

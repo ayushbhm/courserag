@@ -1,0 +1,10 @@
+right then what we had seen was we are doing uh beta 2 uh raised to at time step T.
+right so T minus 1 into Delta W 0 squared Plus beta 2 into T minus 2 Delta W 1.
+square Plus all the way up to 1 minus beta Delta WT square right so this is what we had.
+seen so your history VT is actually if I just ignore all the beta right let me just ignore all.
+the betas then this is just like the L2 now right you're just taking the keeping the history of gradients.
+and then you are taking the L2 Norm of that is just exponentially weighted average L2 Norm that you are.
+taking right now the point is instead of doing that can we replace this by L Infinity norm and does.
+it have any parameters that's the thing that we want to check okay uh yeah so that's where we are.
+headed so now if we place it by Max then what it boils down to is that we're just going.
+to take the max of these quantities right and that in turn will just boil down to whatever we had.

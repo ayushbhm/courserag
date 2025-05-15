@@ -1,0 +1,9 @@
+are using right ah so this is it kind of again makes it uh more careful that why have you.
+selected a certain slope here maybe that slope needs to be adjusted as the training is going right so it.
+gives me more flexibility and again takes care of all the problems that you had with relu of neurons dying.
+and it not being zero center right while these variants have been proposed they are not like so popular I.
+think relu the default version is still the most popular among these variants and one more variant of relu is.
+the exponential linear unit right so yeah so far everything was linear on both sides it was like this but.
+now on the whenever the input is less than zero we are making it exponentially Decay so there's still some.
+gradient flowing on the negative side also it has all the benefits of relu because largely it has a linear.
+uh on the positive side and it's also now again close to zero centered right and some gradient always flows.

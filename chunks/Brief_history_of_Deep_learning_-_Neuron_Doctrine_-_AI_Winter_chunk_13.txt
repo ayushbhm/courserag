@@ -1,0 +1,9 @@
+to the earlier diagram except you see some weights here right so now these different decision factors have some weight.
+i would give more emphasis to the input about me having money or not as opposed to whether i'm in.
+the mood to go out or not because if i don't have money maybe i can't go out and really.
+spend anything or do anything right so that's the basic idea here and this is what he had to say.
+that the perceptron may eventually be able to learn make decisions and translate languages right now when i read this.
+i i find something very strange about this statement right learn make decisions and translate languages so what is the.
+oddity here right what what seems a bit odd here [Music] yeah so the phrase translate language i can understand.
+about learning and making decisions because that's generally what we associate the brain with but why something so specific which.
+is about translate languages right so this as you can see this is a period 1957 to 58 which is.

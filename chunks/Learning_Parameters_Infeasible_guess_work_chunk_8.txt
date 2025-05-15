@@ -1,0 +1,10 @@
+function of course it will be a sigmoid function of course it will have s shaped but there is respect.
+to the training data what should happen the two points that i have shown here should lie on the function.
+right so what what that means is let me just draw it apply or close to that function right so.
+i'm assuming it's perfectly done so this is what should happen right so whatever w comma b values i have.
+when i plug them here i know that when i plug in the value 0.5 i want something which is.
+close to 0.2 right i'm drawing the best case here that i should get a sigmoid function such that these.
+two points lie on that and that's what it means right that when i plug in the value of x.
+i get this y when i plug in the value x2 i get the other way right so this is.
+what we are looking for it so this connects uh i would say the math to the geometry right so.
+the algebra to the geometry that uh when you plug in these values you get some output and this is.

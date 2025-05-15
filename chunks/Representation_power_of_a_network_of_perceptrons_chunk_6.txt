@@ -1,0 +1,9 @@
+trying to say is that i can i have this generic template which has now four weights w1 w2 w3.
+w4 everything else in the network has been hard coded right the only four variables are w1 w2 w34 using.
+this template i am claiming that i can learn implement any of those 16 boolean functions which i had shown.
+including the xor and the naught of xor function right which uh are not linearly separable to billing below begin.
+with right so what does that mean is that i can learn specific values of w1 w2 w3 w4 for.
+each of these 16 boolean functions and these might be different values for the different functions such that when i.
+plug in those values and now i start feeding 0 0 0 1 1 0 1 1 then my output.
+would be the desired output as per the truth value of that function that's the claim i am making and.
+this looks like an astonishing claim right because i know that some of these functions are not linearly separable that's.

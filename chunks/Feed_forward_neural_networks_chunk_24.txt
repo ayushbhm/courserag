@@ -1,0 +1,10 @@
+to the input you multiplied it by the w1 weight and added the b1 vector what did you get here.
+you got a one right you got this output okay then what did you do you passed that through a.
+non-linear function g and that function was simple in the sense that it was just operating on every element of.
+a1 and then from here you got sorry oops i okay so this was a one this gave you h1.
+once you had h1 that became the input for the next layer what did you do with that you again.
+multiplied it by w2 right and then you added b2 and that gave you a2 then you passed it through.
+this non-linearity and you got not g2 sorry h2 right then h2 became the input for the next layer so.
+you multiplied it by w3 and then you added b3 and that gave you a3 and then you passed it.
+through a spatial output function to get h 3 which is the same as y hat which is the same.
+as f hat of x right so you have actually written the output as a function of the input it.

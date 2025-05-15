@@ -1,0 +1,9 @@
+compute can you take your ai models and make them run on these devices right so that's another push that.
+we have and a lot of things are being done to address these constraints of power storage you want real-time.
+output so you cannot have like you submit a sentence and the result comes back after one or two seconds.
+you want it to be in milliseconds right and what if you have drones which are not connected to internet.
+right they're just stand alone can you do computations on the devices a lot of research is also happening in.
+making these large models work for small devices so i do how do you take these multi-billion parameter models and.
+make them smaller while not compromising on the accuracy right so this is all i had so i'll just stop.
+here there are a few reference material here that you could look at but i'm done with the lecture i.
+hope you enjoyed the history of course there are many other things which i might not have covered in particular.

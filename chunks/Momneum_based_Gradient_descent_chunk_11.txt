@@ -1,0 +1,9 @@
+the entire history okay the weights are initialized randomly your U minus 1 is 0 and beta is a constant.
+quantity between 0 to 1. so what you're doing is taking an exponentially weighted average of all the gradients and.
+now it should be clear that instead of moving just by the current gradient which on a flat surface would.
+be very small you are moving by this current you this cumulative history right and that cumulative history would of.
+course be larger than the current gradient because it also includes the current gradient right so hence you'll be able.
+to move by larger amounts right so let's see what happens now uh when we run this algorithm foreign okay.
+so this is how I have written momentum based gradient descent so it's very similar to the gradient descent algorithm.
+that I had written let me just point out things here uh so this is my initialization so I have.
+initialized W and B to some random values for the sake of convenience minus 2 minus 2 e tabs has.

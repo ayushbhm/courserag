@@ -1,0 +1,9 @@
+right and now if you look at it right so let's look at some weight which was there this one.
+right so if you look at this weight this was present in both the networks there were some other weights.
+also which were present in both the networks maybe I should use a different color right so this weight participated.
+in both the networks so let me just call that weight as W okay so uh at time step one.
+I had updated the value of w using whatever update rule I wanted right let's assume I was just using.
+gradient descent so my value of w has changed now at time Step 2 since my weights are shared I.
+will start with the updated value of w I will not start from W naught I'll start with W 1.
+because that weight has already been upgraded and then update it again using this equation right so that's what sharing.
+weights means these are two different networks conceptually but actually it's the same network from which certain weights have been.

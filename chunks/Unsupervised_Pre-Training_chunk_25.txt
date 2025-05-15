@@ -1,0 +1,8 @@
+Merit in going after better optimization algorithms hey maybe there is better Merit in going after better regularization methods and.
+we saw that one of the regularization methods that came out drop out around 2012 to 2014 that is still.
+very popular right so because of these investigations people got excited and said okay it could be because of optimization.
+it could be because of regularization if that is the case then maybe unsupervised pre-training is not the only method.
+which leads to better optimization I could come up with better optimizers or maybe unsupervised pre-training is not the only.
+method which leads to better regularization I could come up with better regularizers then early stopping came drop Dropout came.
+and all of these right so then all of these got used in the context of deep neural networks and.
+then people also thought maybe there are other things maybe you could initialize the weights better because looks like unsupervised.

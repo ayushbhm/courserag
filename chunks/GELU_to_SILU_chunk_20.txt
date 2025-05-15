@@ -1,0 +1,9 @@
+silu which is yet another specialization of glue so this kind of covers all the popular activation functions that are.
+out there now of course the main question is given so many activation functions which one should I actually use.
+right so that's one question of interest and uh this is this plot right from the website papers with code.
+shows how these uh how the use of these activation functions has evolved over time so this was around the.
+time uh the Transformer idea became popular and that is the context in which the Galu activation function was proposed.
+and now as the as Transformers are kind of popular this is one of the most popular activation functions today.
+but relu over a large I mean almost greater than a decade now it has maintained its popularity so relu.
+and Galu are two important activation functions which are uh quite uh popular even today sigmoid is again used it.
+has because of its nice property of zero to one which makes it like a uh something that can look.

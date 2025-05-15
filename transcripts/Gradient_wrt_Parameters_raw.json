@@ -1,0 +1,1597 @@
+[
+  {
+    "text": "foreign",
+    "start": 0.299,
+    "duration": 3.0
+  },
+  {
+    "text": "[Music]",
+    "start": 6.62,
+    "duration": 14.689
+  },
+  {
+    "text": "with respect to the parameters where are",
+    "start": 21.56,
+    "duration": 4.6
+  },
+  {
+    "text": "we we finished this part then we",
+    "start": 24.0,
+    "duration": 3.96
+  },
+  {
+    "text": "finished this part we don't care how",
+    "start": 26.16,
+    "duration": 3.66
+  },
+  {
+    "text": "many hidden layers are there we'll just",
+    "start": 27.96,
+    "duration": 3.54
+  },
+  {
+    "text": "keep applying the same formula again and",
+    "start": 29.82,
+    "duration": 3.54
+  },
+  {
+    "text": "again so we are done with this very",
+    "start": 31.5,
+    "duration": 4.2
+  },
+  {
+    "text": "nasty part which could have repetitions",
+    "start": 33.36,
+    "duration": 4.379
+  },
+  {
+    "text": "there could be many hidden layers and",
+    "start": 35.7,
+    "duration": 4.08
+  },
+  {
+    "text": "now we are finally ready to compute this",
+    "start": 37.739,
+    "duration": 4.5
+  },
+  {
+    "text": "okay so let's go there",
+    "start": 39.78,
+    "duration": 5.58
+  },
+  {
+    "text": "okay uh so let's look at that right so",
+    "start": 42.239,
+    "duration": 5.221
+  },
+  {
+    "text": "what do we want now we want the",
+    "start": 45.36,
+    "duration": 5.219
+  },
+  {
+    "text": "derivative of the loss function",
+    "start": 47.46,
+    "duration": 5.7
+  },
+  {
+    "text": "with respect to one of the weight",
+    "start": 50.579,
+    "duration": 5.881
+  },
+  {
+    "text": "matrices right w k and I want this to be",
+    "start": 53.16,
+    "duration": 5.76
+  },
+  {
+    "text": "again generic I don't it should not the",
+    "start": 56.46,
+    "duration": 4.439
+  },
+  {
+    "text": "formula I need not have to recompute the",
+    "start": 58.92,
+    "duration": 4.5
+  },
+  {
+    "text": "formula for W1 W2 W3 I should just be",
+    "start": 60.899,
+    "duration": 5.821
+  },
+  {
+    "text": "able to do it for a generic uh WK that's",
+    "start": 63.42,
+    "duration": 5.699
+  },
+  {
+    "text": "what I'm interested in and again my",
+    "start": 66.72,
+    "duration": 4.079
+  },
+  {
+    "text": "recipe is going to be the same instead",
+    "start": 69.119,
+    "duration": 4.741
+  },
+  {
+    "text": "of computing this uh gradient at one go",
+    "start": 70.799,
+    "duration": 4.68
+  },
+  {
+    "text": "right so this is the derivative of a",
+    "start": 73.86,
+    "duration": 4.2
+  },
+  {
+    "text": "scalar with respect to a matrix so this",
+    "start": 75.479,
+    "duration": 5.221
+  },
+  {
+    "text": "is again going to be a matrix but",
+    "start": 78.06,
+    "duration": 4.44
+  },
+  {
+    "text": "instead of computing all the elements",
+    "start": 80.7,
+    "duration": 4.32
+  },
+  {
+    "text": "the entire Matrix at one go I am first",
+    "start": 82.5,
+    "duration": 5.28
+  },
+  {
+    "text": "going to compute the derivative of one",
+    "start": 85.02,
+    "duration": 4.44
+  },
+  {
+    "text": "of the elements of this Matrix right so",
+    "start": 87.78,
+    "duration": 5.159
+  },
+  {
+    "text": "what I'm going to do is I just ignore",
+    "start": 89.46,
+    "duration": 8.18
+  },
+  {
+    "text": "this part for now I'm going to let it be",
+    "start": 92.939,
+    "duration": 4.701
+  },
+  {
+    "text": "I'm going to compute the derivative of",
+    "start": 97.86,
+    "duration": 5.48
+  },
+  {
+    "text": "the loss function",
+    "start": 101.28,
+    "duration": 6.0
+  },
+  {
+    "text": "with respect to one element of the",
+    "start": 103.34,
+    "duration": 7.48
+  },
+  {
+    "text": "Matrix so that could be say w k i j",
+    "start": 107.28,
+    "duration": 6.6
+  },
+  {
+    "text": "right so this Matrix has n cross n or N1",
+    "start": 110.82,
+    "duration": 5.159
+  },
+  {
+    "text": "cross N2 entries so I'm going to focus",
+    "start": 113.88,
+    "duration": 3.66
+  },
+  {
+    "text": "on Computing the derivative with respect",
+    "start": 115.979,
+    "duration": 3.6
+  },
+  {
+    "text": "to one of these entries right and now",
+    "start": 117.54,
+    "duration": 4.259
+  },
+  {
+    "text": "let me just link it to the diagram that",
+    "start": 119.579,
+    "duration": 5.0
+  },
+  {
+    "text": "I have suppose this is the",
+    "start": 121.799,
+    "duration": 5.1
+  },
+  {
+    "text": "entry that I am looking for which in",
+    "start": 124.579,
+    "duration": 5.141
+  },
+  {
+    "text": "this case tragically happens to be W 2 2",
+    "start": 126.899,
+    "duration": 6.121
+  },
+  {
+    "text": "right so it's the yeah it's the weight",
+    "start": 129.72,
+    "duration": 4.98
+  },
+  {
+    "text": "connecting the second neuron in this",
+    "start": 133.02,
+    "duration": 3.48
+  },
+  {
+    "text": "layer to the second neuron in this layer",
+    "start": 134.7,
+    "duration": 5.759
+  },
+  {
+    "text": "so it's uh the 2 comma 2 entry of the W2",
+    "start": 136.5,
+    "duration": 6.84
+  },
+  {
+    "text": "mid so that's what that is",
+    "start": 140.459,
+    "duration": 5.581
+  },
+  {
+    "text": "and what have I done so far right so far",
+    "start": 143.34,
+    "duration": 5.16
+  },
+  {
+    "text": "I have done derivatives up to this point",
+    "start": 146.04,
+    "duration": 4.86
+  },
+  {
+    "text": "right I've already done the derivative",
+    "start": 148.5,
+    "duration": 3.959
+  },
+  {
+    "text": "of the loss function",
+    "start": 150.9,
+    "duration": 5.1
+  },
+  {
+    "text": "with respect to every element of this",
+    "start": 152.459,
+    "duration": 6.0
+  },
+  {
+    "text": "layer right and now I see that the",
+    "start": 156.0,
+    "duration": 4.62
+  },
+  {
+    "text": "weight is only connected to one of the",
+    "start": 158.459,
+    "duration": 6.121
+  },
+  {
+    "text": "guys here right so that guy may be a two",
+    "start": 160.62,
+    "duration": 5.94
+  },
+  {
+    "text": "two",
+    "start": 164.58,
+    "duration": 4.26
+  },
+  {
+    "text": "the weight is only connected to that so",
+    "start": 166.56,
+    "duration": 4.08
+  },
+  {
+    "text": "now I'm going to exploit this fact right",
+    "start": 168.84,
+    "duration": 4.44
+  },
+  {
+    "text": "so if I want to compute",
+    "start": 170.64,
+    "duration": 3.84
+  },
+  {
+    "text": "yeah",
+    "start": 173.28,
+    "duration": 3.36
+  },
+  {
+    "text": "so I want the derivative of the loss",
+    "start": 174.48,
+    "duration": 4.52
+  },
+  {
+    "text": "function",
+    "start": 176.64,
+    "duration": 2.36
+  },
+  {
+    "text": "with respect to one of the entries in",
+    "start": 180.0,
+    "duration": 4.86
+  },
+  {
+    "text": "The Matrix and now I can again split it",
+    "start": 182.34,
+    "duration": 5.28
+  },
+  {
+    "text": "into two parts right so let's see I",
+    "start": 184.86,
+    "duration": 4.56
+  },
+  {
+    "text": "already know the derivative of the loss",
+    "start": 187.62,
+    "duration": 3.899
+  },
+  {
+    "text": "function with respect to this guy right",
+    "start": 189.42,
+    "duration": 5.88
+  },
+  {
+    "text": "which is uh a k i",
+    "start": 191.519,
+    "duration": 7.8
+  },
+  {
+    "text": "right this is the ith neuron in the kth",
+    "start": 195.3,
+    "duration": 6.54
+  },
+  {
+    "text": "layer I already know the derivative of",
+    "start": 199.319,
+    "duration": 4.261
+  },
+  {
+    "text": "the loss function with respect to that",
+    "start": 201.84,
+    "duration": 3.84
+  },
+  {
+    "text": "and so I can find the derivative of the",
+    "start": 203.58,
+    "duration": 4.2
+  },
+  {
+    "text": "loss function with respect to a k i I",
+    "start": 205.68,
+    "duration": 4.26
+  },
+  {
+    "text": "already have some formula for that from",
+    "start": 207.78,
+    "duration": 3.959
+  },
+  {
+    "text": "the previous lectures and then the",
+    "start": 209.94,
+    "duration": 4.32
+  },
+  {
+    "text": "derivative of a k i with respect to w k",
+    "start": 211.739,
+    "duration": 6.241
+  },
+  {
+    "text": "i j right now this how do I compute this",
+    "start": 214.26,
+    "duration": 5.28
+  },
+  {
+    "text": "is the question and this is again going",
+    "start": 217.98,
+    "duration": 3.479
+  },
+  {
+    "text": "to be very uh straight forward so let's",
+    "start": 219.54,
+    "duration": 4.259
+  },
+  {
+    "text": "see what that is it just turns out to be",
+    "start": 221.459,
+    "duration": 4.5
+  },
+  {
+    "text": "h k i j right so let's see why that is",
+    "start": 223.799,
+    "duration": 6.121
+  },
+  {
+    "text": "the case okay so now uh let's see a k",
+    "start": 225.959,
+    "duration": 6.661
+  },
+  {
+    "text": "again I'll take a simple case of a 2",
+    "start": 229.92,
+    "duration": 4.86
+  },
+  {
+    "text": "cross so Suppose there are only two",
+    "start": 232.62,
+    "duration": 4.14
+  },
+  {
+    "text": "neurons here or maybe let's take all the",
+    "start": 234.78,
+    "duration": 5.3
+  },
+  {
+    "text": "three neurons okay",
+    "start": 236.76,
+    "duration": 3.32
+  },
+  {
+    "text": "right and now this",
+    "start": 241.099,
+    "duration": 4.801
+  },
+  {
+    "text": "so this is the AK Vector I'm going to",
+    "start": 247.92,
+    "duration": 4.019
+  },
+  {
+    "text": "just ignore B K I'm just going to write",
+    "start": 250.26,
+    "duration": 4.559
+  },
+  {
+    "text": "it at the end somewhere now this is my w",
+    "start": 251.939,
+    "duration": 7.381
+  },
+  {
+    "text": "Matrix so this is w k 1 1 uh this is",
+    "start": 254.819,
+    "duration": 10.861
+  },
+  {
+    "text": "going to be w k 1 3 uh this is w k 2 1",
+    "start": 259.32,
+    "duration": 7.98
+  },
+  {
+    "text": "I'm just going to write the second row",
+    "start": 265.68,
+    "duration": 4.2
+  },
+  {
+    "text": "completely w k",
+    "start": 267.3,
+    "duration": 8.04
+  },
+  {
+    "text": "2 3 okay and this multiplied by",
+    "start": 269.88,
+    "duration": 10.02
+  },
+  {
+    "text": "h k minus 1 which is just going to be h",
+    "start": 275.34,
+    "duration": 5.7
+  },
+  {
+    "text": "uh",
+    "start": 279.9,
+    "duration": 4.38
+  },
+  {
+    "text": "K minus 1 in this case uh so I had taken",
+    "start": 281.04,
+    "duration": 5.04
+  },
+  {
+    "text": "certain values okay let me just write it",
+    "start": 284.28,
+    "duration": 3.06
+  },
+  {
+    "text": "as",
+    "start": 286.08,
+    "duration": 3.119
+  },
+  {
+    "text": "K in this case was",
+    "start": 287.34,
+    "duration": 6.66
+  },
+  {
+    "text": "2 right K was equal to 2 uh",
+    "start": 289.199,
+    "duration": 9.141
+  },
+  {
+    "text": "so my h k minus 1 is going to be H 1",
+    "start": 294.0,
+    "duration": 11.4
+  },
+  {
+    "text": "1 H 1 2 H 1 3 right and plus I have the",
+    "start": 298.34,
+    "duration": 9.46
+  },
+  {
+    "text": "B Vector which is going to be I I'll",
+    "start": 305.4,
+    "duration": 3.9
+  },
+  {
+    "text": "ignore the B Vector right because you'll",
+    "start": 307.8,
+    "duration": 2.82
+  },
+  {
+    "text": "see that it does not show up in the",
+    "start": 309.3,
+    "duration": 5.399
+  },
+  {
+    "text": "formula right now this a K2",
+    "start": 310.62,
+    "duration": 6.24
+  },
+  {
+    "text": "how do I get a K2 I get it by",
+    "start": 314.699,
+    "duration": 4.141
+  },
+  {
+    "text": "multiplying this",
+    "start": 316.86,
+    "duration": 5.399
+  },
+  {
+    "text": "by this right so if I open that up it's",
+    "start": 318.84,
+    "duration": 5.16
+  },
+  {
+    "text": "going to be w k",
+    "start": 322.259,
+    "duration": 6.78
+  },
+  {
+    "text": "2 1 into h11 plus w k",
+    "start": 324.0,
+    "duration": 12.539
+  },
+  {
+    "text": "2 2 into H 1 2 plus w k 2 3 into h 2 3",
+    "start": 329.039,
+    "duration": 9.541
+  },
+  {
+    "text": "and plus there would be this bias term",
+    "start": 336.539,
+    "duration": 5.841
+  },
+  {
+    "text": "right which would be B",
+    "start": 338.58,
+    "duration": 3.8
+  },
+  {
+    "text": "oh",
+    "start": 343.68,
+    "duration": 3.48
+  },
+  {
+    "text": "okay",
+    "start": 345.12,
+    "duration": 4.74
+  },
+  {
+    "text": "2 in this case Okay so that's that's",
+    "start": 347.16,
+    "duration": 4.319
+  },
+  {
+    "text": "what it is going to be and now I'm",
+    "start": 349.86,
+    "duration": 3.3
+  },
+  {
+    "text": "taking the derivative of this quantity",
+    "start": 351.479,
+    "duration": 5.041
+  },
+  {
+    "text": "with respect to uh one of the weights",
+    "start": 353.16,
+    "duration": 4.979
+  },
+  {
+    "text": "right so what is the weight that I am",
+    "start": 356.52,
+    "duration": 4.86
+  },
+  {
+    "text": "looking at I'm looking at w k i j in",
+    "start": 358.139,
+    "duration": 6.9
+  },
+  {
+    "text": "which this case the wkij is w k 2 2. so",
+    "start": 361.38,
+    "duration": 5.039
+  },
+  {
+    "text": "all of these other terms are going to",
+    "start": 365.039,
+    "duration": 3.061
+  },
+  {
+    "text": "disappear right that's why I said the",
+    "start": 366.419,
+    "duration": 3.361
+  },
+  {
+    "text": "bias would matter in fact more terms",
+    "start": 368.1,
+    "duration": 4.14
+  },
+  {
+    "text": "don't matter and the derivative of this",
+    "start": 369.78,
+    "duration": 5.52
+  },
+  {
+    "text": "quantity with respect to w k 2 is just",
+    "start": 372.24,
+    "duration": 6.12
+  },
+  {
+    "text": "going to be H 1 2 right and now let's",
+    "start": 375.3,
+    "duration": 5.399
+  },
+  {
+    "text": "understand what is uh",
+    "start": 378.36,
+    "duration": 4.44
+  },
+  {
+    "text": "H what is this what are these indices",
+    "start": 380.699,
+    "duration": 6.661
+  },
+  {
+    "text": "one and two here so this was just the",
+    "start": 382.8,
+    "duration": 8.76
+  },
+  {
+    "text": "uh I and J right so that's what this one",
+    "start": 387.36,
+    "duration": 6.36
+  },
+  {
+    "text": "and two are so I was trying to take the",
+    "start": 391.56,
+    "duration": 6.66
+  },
+  {
+    "text": "derivative of uh a",
+    "start": 393.72,
+    "duration": 6.979
+  },
+  {
+    "text": "I was trying to take the derivative of a",
+    "start": 398.22,
+    "duration": 6.18
+  },
+  {
+    "text": "K2 with respect to w",
+    "start": 400.699,
+    "duration": 5.321
+  },
+  {
+    "text": "k",
+    "start": 404.4,
+    "duration": 3.6
+  },
+  {
+    "text": "this was the guy right so this was again",
+    "start": 406.02,
+    "duration": 4.679
+  },
+  {
+    "text": "2 2",
+    "start": 408.0,
+    "duration": 6.84
+  },
+  {
+    "text": "and my the answer which I got was h",
+    "start": 410.699,
+    "duration": 6.541
+  },
+  {
+    "text": "one two in this case right so this is",
+    "start": 414.84,
+    "duration": 6.419
+  },
+  {
+    "text": "actually I minus 1 and this is J so",
+    "start": 417.24,
+    "duration": 6.0
+  },
+  {
+    "text": "that's what our formula is going to be",
+    "start": 421.259,
+    "duration": 3.901
+  },
+  {
+    "text": "right so let me just delete all of this",
+    "start": 423.24,
+    "duration": 4.14
+  },
+  {
+    "text": "and show you the formula it's going to",
+    "start": 425.16,
+    "duration": 3.0
+  },
+  {
+    "text": "be",
+    "start": 427.38,
+    "duration": 2.22
+  },
+  {
+    "text": "uh",
+    "start": 428.16,
+    "duration": 4.44
+  },
+  {
+    "text": "K minus 1 sorry that was K minus 1 so I",
+    "start": 429.6,
+    "duration": 5.4
+  },
+  {
+    "text": "got H 1 2 so this one is for the",
+    "start": 432.6,
+    "duration": 4.92
+  },
+  {
+    "text": "previous layer so it's K minus 1 and the",
+    "start": 435.0,
+    "duration": 5.52
+  },
+  {
+    "text": "jth neuron in that layer so G right so",
+    "start": 437.52,
+    "duration": 5.22
+  },
+  {
+    "text": "that's how I got this answer so we just",
+    "start": 440.52,
+    "duration": 4.619
+  },
+  {
+    "text": "did that derivative I'm sorry I made",
+    "start": 442.74,
+    "duration": 3.72
+  },
+  {
+    "text": "some mistakes there but if you go back",
+    "start": 445.139,
+    "duration": 3.06
+  },
+  {
+    "text": "and look at it I think it should be fine",
+    "start": 446.46,
+    "duration": 4.56
+  },
+  {
+    "text": "so we got this as the answer so this is",
+    "start": 448.199,
+    "duration": 5.601
+  },
+  {
+    "text": "the derivative of the loss function with",
+    "start": 451.02,
+    "duration": 7.38
+  },
+  {
+    "text": "one element of the weight Matrix w k",
+    "start": 453.8,
+    "duration": 7.299
+  },
+  {
+    "text": "right so if I look at the derivative of",
+    "start": 458.4,
+    "duration": 4.139
+  },
+  {
+    "text": "the loss function with respect to the",
+    "start": 461.099,
+    "duration": 3.481
+  },
+  {
+    "text": "entire Matrix then it's going to be a",
+    "start": 462.539,
+    "duration": 4.38
+  },
+  {
+    "text": "collection of these entries and for any",
+    "start": 464.58,
+    "duration": 4.86
+  },
+  {
+    "text": "guy here I now have the formula I can",
+    "start": 466.919,
+    "duration": 4.021
+  },
+  {
+    "text": "just substitute those formula right so",
+    "start": 469.44,
+    "duration": 3.42
+  },
+  {
+    "text": "that's what I'm going to do now and I'm",
+    "start": 470.94,
+    "duration": 3.479
+  },
+  {
+    "text": "going to do that for this simple case",
+    "start": 472.86,
+    "duration": 4.2
+  },
+  {
+    "text": "when w k is 3 cross 3 Matrix right so",
+    "start": 474.419,
+    "duration": 4.021
+  },
+  {
+    "text": "the derivative of the loss function with",
+    "start": 477.06,
+    "duration": 3.12
+  },
+  {
+    "text": "respect to w k is going to be a part",
+    "start": 478.44,
+    "duration": 3.3
+  },
+  {
+    "text": "collection of the partial derivatives",
+    "start": 480.18,
+    "duration": 4.56
+  },
+  {
+    "text": "with respect to all elements of w k and",
+    "start": 481.74,
+    "duration": 5.7
+  },
+  {
+    "text": "there are nine such elements okay and",
+    "start": 484.74,
+    "duration": 5.88
+  },
+  {
+    "text": "the formula for any such guy was this so",
+    "start": 487.44,
+    "duration": 6.12
+  },
+  {
+    "text": "now I'm going to substitute",
+    "start": 490.62,
+    "duration": 5.46
+  },
+  {
+    "text": "this formula to get this Matrix right so",
+    "start": 493.56,
+    "duration": 3.96
+  },
+  {
+    "text": "what is this I'm going to just",
+    "start": 496.08,
+    "duration": 3.42
+  },
+  {
+    "text": "substitute the right values of K and I",
+    "start": 497.52,
+    "duration": 5.299
+  },
+  {
+    "text": "so this is going to be derivative of K1",
+    "start": 499.5,
+    "duration": 8.22
+  },
+  {
+    "text": "and then this is going to be K minus 1 1",
+    "start": 502.819,
+    "duration": 6.701
+  },
+  {
+    "text": "this is the formula that we had computed",
+    "start": 507.72,
+    "duration": 3.84
+  },
+  {
+    "text": "on the previous slide right this was h",
+    "start": 509.52,
+    "duration": 6.06
+  },
+  {
+    "text": "of K minus 1 comma J so I'm just going",
+    "start": 511.56,
+    "duration": 5.64
+  },
+  {
+    "text": "to substitute the values of I and J",
+    "start": 515.58,
+    "duration": 5.459
+  },
+  {
+    "text": "right so this is of K and J so this is J",
+    "start": 517.2,
+    "duration": 6.42
+  },
+  {
+    "text": "and you already know K so this is what I",
+    "start": 521.039,
+    "duration": 5.221
+  },
+  {
+    "text": "get right so this uh I've just",
+    "start": 523.62,
+    "duration": 4.02
+  },
+  {
+    "text": "substituted everything from the previous",
+    "start": 526.26,
+    "duration": 5.3
+  },
+  {
+    "text": "slide onto this slide",
+    "start": 527.64,
+    "duration": 3.92
+  },
+  {
+    "text": "okay now let's look at notice something",
+    "start": 531.959,
+    "duration": 5.161
+  },
+  {
+    "text": "about this Matrix right so all the",
+    "start": 534.42,
+    "duration": 5.22
+  },
+  {
+    "text": "guys in this column",
+    "start": 537.12,
+    "duration": 3.779
+  },
+  {
+    "text": "all the terms that are getting",
+    "start": 539.64,
+    "duration": 3.84
+  },
+  {
+    "text": "multiplied are the same same for the",
+    "start": 540.899,
+    "duration": 4.38
+  },
+  {
+    "text": "next column all of these guys are the",
+    "start": 543.48,
+    "duration": 5.76
+  },
+  {
+    "text": "same next for same for the next column",
+    "start": 545.279,
+    "duration": 5.641
+  },
+  {
+    "text": "the other interesting thing is that",
+    "start": 549.24,
+    "duration": 4.26
+  },
+  {
+    "text": "across the rows the entries are the same",
+    "start": 550.92,
+    "duration": 4.56
+  },
+  {
+    "text": "right these three guys are the same",
+    "start": 553.5,
+    "duration": 4.5
+  },
+  {
+    "text": "these three guys are the same",
+    "start": 555.48,
+    "duration": 6.0
+  },
+  {
+    "text": "and these three guys are the same right",
+    "start": 558.0,
+    "duration": 6.18
+  },
+  {
+    "text": "so if I were to take say if I were to",
+    "start": 561.48,
+    "duration": 4.859
+  },
+  {
+    "text": "take two vectors right a one",
+    "start": 564.18,
+    "duration": 3.42
+  },
+  {
+    "text": "A2",
+    "start": 566.339,
+    "duration": 3.721
+  },
+  {
+    "text": "A3",
+    "start": 567.6,
+    "duration": 7.2
+  },
+  {
+    "text": "multiplied by B1 B2 B3 right so this is",
+    "start": 570.06,
+    "duration": 6.0
+  },
+  {
+    "text": "known as the outer product of two",
+    "start": 574.8,
+    "duration": 3.659
+  },
+  {
+    "text": "vectors this is a three cross one vector",
+    "start": 576.06,
+    "duration": 4.56
+  },
+  {
+    "text": "multiplied by a one cross three Vector",
+    "start": 578.459,
+    "duration": 3.901
+  },
+  {
+    "text": "so the product is going to be a three",
+    "start": 580.62,
+    "duration": 3.96
+  },
+  {
+    "text": "cross three Matrix right so let's look",
+    "start": 582.36,
+    "duration": 4.5
+  },
+  {
+    "text": "at what do the entries in The Matrix",
+    "start": 584.58,
+    "duration": 4.319
+  },
+  {
+    "text": "look like the entries in The Matrix",
+    "start": 586.86,
+    "duration": 4.38
+  },
+  {
+    "text": "would look something like this it would",
+    "start": 588.899,
+    "duration": 4.341
+  },
+  {
+    "text": "be a one",
+    "start": 591.24,
+    "duration": 4.26
+  },
+  {
+    "text": "into B1",
+    "start": 593.24,
+    "duration": 6.06
+  },
+  {
+    "text": "A1 into B2",
+    "start": 595.5,
+    "duration": 3.8
+  },
+  {
+    "text": "A1 into B3 okay",
+    "start": 600.06,
+    "duration": 6.839
+  },
+  {
+    "text": "and then uh",
+    "start": 603.36,
+    "duration": 10.979
+  },
+  {
+    "text": "a 2 into B1 A2 into B2 A2 into B3 and",
+    "start": 606.899,
+    "duration": 9.841
+  },
+  {
+    "text": "then A3 into B1",
+    "start": 614.339,
+    "duration": 7.5
+  },
+  {
+    "text": "A3 into B2 A3 into B3 right so you have",
+    "start": 616.74,
+    "duration": 8.94
+  },
+  {
+    "text": "the same situation that you have uh",
+    "start": 621.839,
+    "duration": 6.541
+  },
+  {
+    "text": "here right if you compare all these guys",
+    "start": 625.68,
+    "duration": 5.7
+  },
+  {
+    "text": "were the same again all of these are b1s",
+    "start": 628.38,
+    "duration": 5.22
+  },
+  {
+    "text": "all these guys are the same all of these",
+    "start": 631.38,
+    "duration": 5.22
+  },
+  {
+    "text": "are V2s all these guys are the same all",
+    "start": 633.6,
+    "duration": 6.12
+  },
+  {
+    "text": "of these are p3s right and similarly all",
+    "start": 636.6,
+    "duration": 5.16
+  },
+  {
+    "text": "these three guys are the same just as",
+    "start": 639.72,
+    "duration": 4.38
+  },
+  {
+    "text": "these three guys were the same and so on",
+    "start": 641.76,
+    "duration": 3.78
+  },
+  {
+    "text": "right so what I'm trying to say is that",
+    "start": 644.1,
+    "duration": 3.9
+  },
+  {
+    "text": "this Matrix here can actually be written",
+    "start": 645.54,
+    "duration": 4.68
+  },
+  {
+    "text": "as the outer product of two vectors and",
+    "start": 648.0,
+    "duration": 5.459
+  },
+  {
+    "text": "what are those two vectors this is one",
+    "start": 650.22,
+    "duration": 5.72
+  },
+  {
+    "text": "vector",
+    "start": 653.459,
+    "duration": 2.481
+  },
+  {
+    "text": "right so this will be your B vector and",
+    "start": 658.98,
+    "duration": 7.799
+  },
+  {
+    "text": "uh this will form your a vector right so",
+    "start": 662.839,
+    "duration": 5.56
+  },
+  {
+    "text": "that's how I'm going to write it now the",
+    "start": 666.779,
+    "duration": 3.18
+  },
+  {
+    "text": "outer product between these two vectors",
+    "start": 668.399,
+    "duration": 2.94
+  },
+  {
+    "text": "so this is what it's going to look like",
+    "start": 669.959,
+    "duration": 4.32
+  },
+  {
+    "text": "this is the a vector and this is the B",
+    "start": 671.339,
+    "duration": 4.5
+  },
+  {
+    "text": "Vector the transpose operated because",
+    "start": 674.279,
+    "duration": 3.18
+  },
+  {
+    "text": "that was the sleeping vector and the a",
+    "start": 675.839,
+    "duration": 3.721
+  },
+  {
+    "text": "vector was the standing Vector right so",
+    "start": 677.459,
+    "duration": 3.601
+  },
+  {
+    "text": "now you have a formula for the",
+    "start": 679.56,
+    "duration": 2.88
+  },
+  {
+    "text": "derivative of the loss function with",
+    "start": 681.06,
+    "duration": 3.24
+  },
+  {
+    "text": "respect to K and what do you need for",
+    "start": 682.44,
+    "duration": 4.2
+  },
+  {
+    "text": "that you need two quantities one is the",
+    "start": 684.3,
+    "duration": 3.539
+  },
+  {
+    "text": "derivative of the loss function with",
+    "start": 686.64,
+    "duration": 2.939
+  },
+  {
+    "text": "respect to a k that we have already done",
+    "start": 687.839,
+    "duration": 3.301
+  },
+  {
+    "text": "in the previous lecture so I can compute",
+    "start": 689.579,
+    "duration": 4.32
+  },
+  {
+    "text": "this the other is the activation at the",
+    "start": 691.14,
+    "duration": 4.92
+  },
+  {
+    "text": "K minus 1 layer and that you anyways",
+    "start": 693.899,
+    "duration": 4.081
+  },
+  {
+    "text": "compute in the forward pass right so you",
+    "start": 696.06,
+    "duration": 3.959
+  },
+  {
+    "text": "compute you start with the input you do",
+    "start": 697.98,
+    "duration": 3.479
+  },
+  {
+    "text": "the First Transformation to that which",
+    "start": 700.019,
+    "duration": 4.141
+  },
+  {
+    "text": "is W X plus b then you get the first",
+    "start": 701.459,
+    "duration": 5.041
+  },
+  {
+    "text": "activation layer preactivation layer",
+    "start": 704.16,
+    "duration": 4.32
+  },
+  {
+    "text": "then you apply the activation on that to",
+    "start": 706.5,
+    "duration": 4.019
+  },
+  {
+    "text": "get the activation layer so this is does",
+    "start": 708.48,
+    "duration": 3.539
+  },
+  {
+    "text": "not require any derivatives any",
+    "start": 710.519,
+    "duration": 2.82
+  },
+  {
+    "text": "computations right this is just a",
+    "start": 712.019,
+    "duration": 3.301
+  },
+  {
+    "text": "forward pass and you know how to compute",
+    "start": 713.339,
+    "duration": 3.841
+  },
+  {
+    "text": "every element in the network during the",
+    "start": 715.32,
+    "duration": 3.54
+  },
+  {
+    "text": "forward pass so this does not have a",
+    "start": 717.18,
+    "duration": 3.54
+  },
+  {
+    "text": "gradient Associated it is not some",
+    "start": 718.86,
+    "duration": 4.44
+  },
+  {
+    "text": "derivative it's just h k minus this one",
+    "start": 720.72,
+    "duration": 4.98
+  },
+  {
+    "text": "which is the activation at the K minus 1",
+    "start": 723.3,
+    "duration": 3.719
+  },
+  {
+    "text": "at layer so that you already have so",
+    "start": 725.7,
+    "duration": 3.3
+  },
+  {
+    "text": "both these quantities you have so you",
+    "start": 727.019,
+    "duration": 3.361
+  },
+  {
+    "text": "now know how to compute the derivative",
+    "start": 729.0,
+    "duration": 3.6
+  },
+  {
+    "text": "of the loss function with respect to w k",
+    "start": 730.38,
+    "duration": 3.66
+  },
+  {
+    "text": "okay",
+    "start": 732.6,
+    "duration": 3.359
+  },
+  {
+    "text": "now going to the last part we just come",
+    "start": 734.04,
+    "duration": 4.2
+  },
+  {
+    "text": "find the biases so you want to compute",
+    "start": 735.959,
+    "duration": 3.661
+  },
+  {
+    "text": "the derivative of the loss function with",
+    "start": 738.24,
+    "duration": 4.02
+  },
+  {
+    "text": "respect to bias again the same idea so",
+    "start": 739.62,
+    "duration": 6.06
+  },
+  {
+    "text": "if I look at this bias okay",
+    "start": 742.26,
+    "duration": 5.9
+  },
+  {
+    "text": "and this is connected to this activation",
+    "start": 745.68,
+    "duration": 5.04
+  },
+  {
+    "text": "pre-activation here and I know what the",
+    "start": 748.16,
+    "duration": 3.7
+  },
+  {
+    "text": "formula for computing that",
+    "start": 750.72,
+    "duration": 3.359
+  },
+  {
+    "text": "pre-activation was so now if I want to",
+    "start": 751.86,
+    "duration": 3.599
+  },
+  {
+    "text": "take the derivative of the loss function",
+    "start": 754.079,
+    "duration": 5.221
+  },
+  {
+    "text": "with respect to one of the elements of",
+    "start": 755.459,
+    "duration": 6.361
+  },
+  {
+    "text": "the bias Vector then I can split it into",
+    "start": 759.3,
+    "duration": 4.44
+  },
+  {
+    "text": "these two parts this again I already",
+    "start": 761.82,
+    "duration": 3.78
+  },
+  {
+    "text": "know how to compute and what is the",
+    "start": 763.74,
+    "duration": 4.32
+  },
+  {
+    "text": "derivative of a k i with respect to bki",
+    "start": 765.6,
+    "duration": 4.62
+  },
+  {
+    "text": "you can just see from this formula that",
+    "start": 768.06,
+    "duration": 4.019
+  },
+  {
+    "text": "it's just equal to 1 8 so this part will",
+    "start": 770.22,
+    "duration": 3.48
+  },
+  {
+    "text": "disappear and you're just taking the",
+    "start": 772.079,
+    "duration": 3.661
+  },
+  {
+    "text": "derivative of b k i with respect to bki",
+    "start": 773.7,
+    "duration": 3.78
+  },
+  {
+    "text": "which is one so the only thing that you",
+    "start": 775.74,
+    "duration": 4.62
+  },
+  {
+    "text": "will get is this so this is now we can",
+    "start": 777.48,
+    "duration": 5.7
+  },
+  {
+    "text": "have the gradient Vector so uh",
+    "start": 780.36,
+    "duration": 4.44
+  },
+  {
+    "text": "the derivative of the loss function with",
+    "start": 783.18,
+    "duration": 4.26
+  },
+  {
+    "text": "respect to the BK Vector is just going",
+    "start": 784.8,
+    "duration": 4.08
+  },
+  {
+    "text": "to be a collection of all these partial",
+    "start": 787.44,
+    "duration": 3.72
+  },
+  {
+    "text": "derivatives which is just the derivative",
+    "start": 788.88,
+    "duration": 4.5
+  },
+  {
+    "text": "of the loss function with respect to a k",
+    "start": 791.16,
+    "duration": 4.38
+  },
+  {
+    "text": "right because each of these entries is",
+    "start": 793.38,
+    "duration": 4.079
+  },
+  {
+    "text": "just the partial derivative of the loss",
+    "start": 795.54,
+    "duration": 3.299
+  },
+  {
+    "text": "function with respect to one of the",
+    "start": 797.459,
+    "duration": 3.421
+  },
+  {
+    "text": "elements of a k so collection of all",
+    "start": 798.839,
+    "duration": 3.901
+  },
+  {
+    "text": "those is just going to be the gradient",
+    "start": 800.88,
+    "duration": 3.66
+  },
+  {
+    "text": "of the loss function with respect to a k",
+    "start": 802.74,
+    "duration": 3.659
+  },
+  {
+    "text": "right so we are done we have done the",
+    "start": 804.54,
+    "duration": 3.299
+  },
+  {
+    "text": "derivatives of the loss function with",
+    "start": 806.399,
+    "duration": 2.761
+  },
+  {
+    "text": "respect to",
+    "start": 807.839,
+    "duration": 3.361
+  },
+  {
+    "text": "the weights and the biases that is what",
+    "start": 809.16,
+    "duration": 4.14
+  },
+  {
+    "text": "our eventual goal was right now we are",
+    "start": 811.2,
+    "duration": 4.92
+  },
+  {
+    "text": "going to just recap all of this and try",
+    "start": 813.3,
+    "duration": 4.8
+  },
+  {
+    "text": "to put this into one algorithm in the",
+    "start": 816.12,
+    "duration": 5.36
+  },
+  {
+    "text": "next video thank you",
+    "start": 818.1,
+    "duration": 3.38
+  }
+]

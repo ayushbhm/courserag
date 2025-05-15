@@ -1,0 +1,2807 @@
+[
+  {
+    "text": "[Music]",
+    "start": 0.33,
+    "duration": 10.029
+  },
+  {
+    "text": "now what would happen if you have more",
+    "start": 19.279,
+    "duration": 4.321
+  },
+  {
+    "text": "than one input right so now this was all",
+    "start": 20.96,
+    "duration": 4.239
+  },
+  {
+    "text": "for a single input right i just had the",
+    "start": 23.6,
+    "duration": 4.08
+  },
+  {
+    "text": "x axis and the y axis so x was input and",
+    "start": 25.199,
+    "duration": 4.4
+  },
+  {
+    "text": "y was the output but now i have a",
+    "start": 27.68,
+    "duration": 4.399
+  },
+  {
+    "text": "situation where i have two inputs right",
+    "start": 29.599,
+    "duration": 3.681
+  },
+  {
+    "text": "and what is happening here is",
+    "start": 32.079,
+    "duration": 4.881
+  },
+  {
+    "text": "interesting right so this is my uh",
+    "start": 33.28,
+    "duration": 6.0
+  },
+  {
+    "text": "the orient oops i know intention of",
+    "start": 36.96,
+    "duration": 4.0
+  },
+  {
+    "text": "doing this",
+    "start": 39.28,
+    "duration": 4.08
+  },
+  {
+    "text": "so now here again this",
+    "start": 40.96,
+    "duration": 5.439
+  },
+  {
+    "text": "now let me be careful and do it well",
+    "start": 43.36,
+    "duration": 5.519
+  },
+  {
+    "text": "yeah so this is this orange plane that",
+    "start": 46.399,
+    "duration": 5.281
+  },
+  {
+    "text": "you see that is my x1",
+    "start": 48.879,
+    "duration": 6.721
+  },
+  {
+    "text": "x2 plane right and i have points on this",
+    "start": 51.68,
+    "duration": 6.24
+  },
+  {
+    "text": "plane right which you can see are some",
+    "start": 55.6,
+    "duration": 4.32
+  },
+  {
+    "text": "the blue points and the orange points",
+    "start": 57.92,
+    "duration": 3.92
+  },
+  {
+    "text": "right and what is this i've just taken",
+    "start": 59.92,
+    "duration": 4.48
+  },
+  {
+    "text": "my oil mining example again and suppose",
+    "start": 61.84,
+    "duration": 5.279
+  },
+  {
+    "text": "this is the salinity axis and this is",
+    "start": 64.4,
+    "duration": 5.6
+  },
+  {
+    "text": "the pressure axis right so a blue point",
+    "start": 67.119,
+    "duration": 6.32
+  },
+  {
+    "text": "here is simply the x1 comma x2 point on",
+    "start": 70.0,
+    "duration": 4.799
+  },
+  {
+    "text": "this planet where",
+    "start": 73.439,
+    "duration": 3.04
+  },
+  {
+    "text": "the salinity is equal to x1 and the",
+    "start": 74.799,
+    "duration": 3.36
+  },
+  {
+    "text": "pressure is equal to x2 and same the all",
+    "start": 76.479,
+    "duration": 3.28
+  },
+  {
+    "text": "the points here are just the x1 x2",
+    "start": 78.159,
+    "duration": 3.121
+  },
+  {
+    "text": "coordinates where x1 is silent and",
+    "start": 79.759,
+    "duration": 4.241
+  },
+  {
+    "text": "pressure x2 is pressure right now it so",
+    "start": 81.28,
+    "duration": 5.04
+  },
+  {
+    "text": "happens that some of these points you",
+    "start": 84.0,
+    "duration": 4.32
+  },
+  {
+    "text": "have found oil which are the orange",
+    "start": 86.32,
+    "duration": 4.159
+  },
+  {
+    "text": "points and some of these points you have",
+    "start": 88.32,
+    "duration": 4.64
+  },
+  {
+    "text": "not found oil which is the blue points",
+    "start": 90.479,
+    "duration": 4.241
+  },
+  {
+    "text": "right so now what is my decision",
+    "start": 92.96,
+    "duration": 3.119
+  },
+  {
+    "text": "boundary should look like i cannot have",
+    "start": 94.72,
+    "duration": 2.64
+  },
+  {
+    "text": "a decision boundary like this right",
+    "start": 96.079,
+    "duration": 2.641
+  },
+  {
+    "text": "because it does not separate the blue",
+    "start": 97.36,
+    "duration": 3.04
+  },
+  {
+    "text": "points from the orange points you can",
+    "start": 98.72,
+    "duration": 4.24
+  },
+  {
+    "text": "see that i cannot no matter what i try i",
+    "start": 100.4,
+    "duration": 4.88
+  },
+  {
+    "text": "cannot separate the orange points on the",
+    "start": 102.96,
+    "duration": 4.08
+  },
+  {
+    "text": "blue points by drawing a line right",
+    "start": 105.28,
+    "duration": 4.0
+  },
+  {
+    "text": "because this is not linearly separable",
+    "start": 107.04,
+    "duration": 4.32
+  },
+  {
+    "text": "but if i draw i have a function which",
+    "start": 109.28,
+    "duration": 3.839
+  },
+  {
+    "text": "looks like exactly what has been shown",
+    "start": 111.36,
+    "duration": 4.32
+  },
+  {
+    "text": "here and let me just delete and use a",
+    "start": 113.119,
+    "duration": 4.161
+  },
+  {
+    "text": "better color",
+    "start": 115.68,
+    "duration": 2.799
+  },
+  {
+    "text": "you know not",
+    "start": 117.28,
+    "duration": 3.36
+  },
+  {
+    "text": "black maybe",
+    "start": 118.479,
+    "duration": 4.561
+  },
+  {
+    "text": "the function is 0 everywhere here",
+    "start": 120.64,
+    "duration": 4.24
+  },
+  {
+    "text": "and then 1 here",
+    "start": 123.04,
+    "duration": 4.8
+  },
+  {
+    "text": "right and then again 1 here and 0",
+    "start": 124.88,
+    "duration": 5.359
+  },
+  {
+    "text": "everywhere here 0 everywhere here 0",
+    "start": 127.84,
+    "duration": 4.16
+  },
+  {
+    "text": "everywhere here right so for all the",
+    "start": 130.239,
+    "duration": 3.921
+  },
+  {
+    "text": "blue points now it is predicting 0. you",
+    "start": 132.0,
+    "duration": 4.8
+  },
+  {
+    "text": "can see that it's also obvious in the 2d",
+    "start": 134.16,
+    "duration": 4.56
+  },
+  {
+    "text": "version of the figure and for all the",
+    "start": 136.8,
+    "duration": 3.76
+  },
+  {
+    "text": "orange points it is predicting 1 and",
+    "start": 138.72,
+    "duration": 3.2
+  },
+  {
+    "text": "that's exactly what i want because for",
+    "start": 140.56,
+    "duration": 3.44
+  },
+  {
+    "text": "the orange points i found oil and for",
+    "start": 141.92,
+    "duration": 3.52
+  },
+  {
+    "text": "the blue points i did not find out right",
+    "start": 144.0,
+    "duration": 2.959
+  },
+  {
+    "text": "so even in two dimensions you could have",
+    "start": 145.44,
+    "duration": 3.6
+  },
+  {
+    "text": "this case where you have an arbitrary",
+    "start": 146.959,
+    "duration": 3.521
+  },
+  {
+    "text": "function now this is the shape of the",
+    "start": 149.04,
+    "duration": 3.279
+  },
+  {
+    "text": "function the entire orange surface that",
+    "start": 150.48,
+    "duration": 3.759
+  },
+  {
+    "text": "you see is the shape of the true",
+    "start": 152.319,
+    "duration": 3.361
+  },
+  {
+    "text": "function and that's what the true",
+    "start": 154.239,
+    "duration": 3.36
+  },
+  {
+    "text": "function looks like and now i want to",
+    "start": 155.68,
+    "duration": 4.8
+  },
+  {
+    "text": "approximate it right and now again",
+    "start": 157.599,
+    "duration": 4.241
+  },
+  {
+    "text": "if i had these",
+    "start": 160.48,
+    "duration": 3.759
+  },
+  {
+    "text": "small two dimensional toggles right so",
+    "start": 161.84,
+    "duration": 4.479
+  },
+  {
+    "text": "then i could just construct all of them",
+    "start": 164.239,
+    "duration": 5.201
+  },
+  {
+    "text": "side by side right and get the original",
+    "start": 166.319,
+    "duration": 5.521
+  },
+  {
+    "text": "figure back right original function back",
+    "start": 169.44,
+    "duration": 4.4
+  },
+  {
+    "text": "so now i want to have a two dimensional",
+    "start": 171.84,
+    "duration": 3.759
+  },
+  {
+    "text": "tower so how do i get a two dimensional",
+    "start": 173.84,
+    "duration": 3.28
+  },
+  {
+    "text": "toggle and once we understand two",
+    "start": 175.599,
+    "duration": 3.041
+  },
+  {
+    "text": "dimensional we will just say we can do",
+    "start": 177.12,
+    "duration": 3.199
+  },
+  {
+    "text": "this in three dimensions four dimensions",
+    "start": 178.64,
+    "duration": 3.36
+  },
+  {
+    "text": "n dimensions right so once the idea and",
+    "start": 180.319,
+    "duration": 4.64
+  },
+  {
+    "text": "two dimension becomes clear",
+    "start": 182.0,
+    "duration": 4.48
+  },
+  {
+    "text": "okay",
+    "start": 184.959,
+    "duration": 3.841
+  },
+  {
+    "text": "so now again i i'll just take this",
+    "start": 186.48,
+    "duration": 3.679
+  },
+  {
+    "text": "function which is a function of two",
+    "start": 188.8,
+    "duration": 3.439
+  },
+  {
+    "text": "inputs this is a sigmoid neuron",
+    "start": 190.159,
+    "duration": 4.961
+  },
+  {
+    "text": "function which takes two inputs x1 and",
+    "start": 192.239,
+    "duration": 5.441
+  },
+  {
+    "text": "x2 each input would have a weight w1 w2",
+    "start": 195.12,
+    "duration": 4.0
+  },
+  {
+    "text": "and then a bias right so now let's",
+    "start": 197.68,
+    "duration": 4.32
+  },
+  {
+    "text": "adjust a w1 and see what happens",
+    "start": 199.12,
+    "duration": 5.039
+  },
+  {
+    "text": "so if i increase w1",
+    "start": 202.0,
+    "duration": 5.28
+  },
+  {
+    "text": "right again as i keep",
+    "start": 204.159,
+    "duration": 5.041
+  },
+  {
+    "text": "you can see that as i keep increasing",
+    "start": 207.28,
+    "duration": 5.84
+  },
+  {
+    "text": "i'll do okay maybe i'll just use the",
+    "start": 209.2,
+    "duration": 7.119
+  },
+  {
+    "text": "yeah this is better so it's flat at zero",
+    "start": 213.12,
+    "duration": 6.64
+  },
+  {
+    "text": "and as i increase it starts becoming s",
+    "start": 216.319,
+    "duration": 6.241
+  },
+  {
+    "text": "right now the slope is very gentle right",
+    "start": 219.76,
+    "duration": 4.96
+  },
+  {
+    "text": "and as i keep increasing the value of w",
+    "start": 222.56,
+    "duration": 4.08
+  },
+  {
+    "text": "it becomes steep and steep till it",
+    "start": 224.72,
+    "duration": 3.12
+  },
+  {
+    "text": "becomes like a",
+    "start": 226.64,
+    "duration": 4.08
+  },
+  {
+    "text": "step function right so this w1 controls",
+    "start": 227.84,
+    "duration": 3.679
+  },
+  {
+    "text": "the",
+    "start": 230.72,
+    "duration": 2.4
+  },
+  {
+    "text": "uh movement",
+    "start": 231.519,
+    "duration": 3.521
+  },
+  {
+    "text": "in this direction right the slope in",
+    "start": 233.12,
+    "duration": 3.92
+  },
+  {
+    "text": "this direction okay now let's see what",
+    "start": 235.04,
+    "duration": 5.119
+  },
+  {
+    "text": "w2 does and for that i'll again make w",
+    "start": 237.04,
+    "duration": 6.08
+  },
+  {
+    "text": "one as zero",
+    "start": 240.159,
+    "duration": 2.961
+  },
+  {
+    "text": "okay and i'll start increasing w",
+    "start": 246.48,
+    "duration": 4.319
+  },
+  {
+    "text": "two",
+    "start": 249.68,
+    "duration": 2.88
+  },
+  {
+    "text": "you can see that w two is adjusting the",
+    "start": 250.799,
+    "duration": 4.64
+  },
+  {
+    "text": "slope in the other orientation right oh",
+    "start": 252.56,
+    "duration": 6.0
+  },
+  {
+    "text": "coordination so now what w 2 is doing is",
+    "start": 255.439,
+    "duration": 5.04
+  },
+  {
+    "text": "it's adjusting the slope in this",
+    "start": 258.56,
+    "duration": 3.919
+  },
+  {
+    "text": "direction right so as i keep increasing",
+    "start": 260.479,
+    "duration": 4.961
+  },
+  {
+    "text": "w 2 now",
+    "start": 262.479,
+    "duration": 2.961
+  },
+  {
+    "text": "oops",
+    "start": 266.479,
+    "duration": 3.0
+  },
+  {
+    "text": "as i keep increasing it it will become",
+    "start": 270.4,
+    "duration": 3.44
+  },
+  {
+    "text": "flatter and flatter in this direction",
+    "start": 272.16,
+    "duration": 4.72
+  },
+  {
+    "text": "right and now you can see b again just",
+    "start": 273.84,
+    "duration": 4.48
+  },
+  {
+    "text": "helps in movement",
+    "start": 276.88,
+    "duration": 3.039
+  },
+  {
+    "text": "along the direction right so i can",
+    "start": 278.32,
+    "duration": 2.56
+  },
+  {
+    "text": "change",
+    "start": 279.919,
+    "duration": 3.041
+  },
+  {
+    "text": "the point at which the crossover happens",
+    "start": 280.88,
+    "duration": 4.08
+  },
+  {
+    "text": "by changing b so you can go back and",
+    "start": 282.96,
+    "duration": 3.519
+  },
+  {
+    "text": "play around with this figure and",
+    "start": 284.96,
+    "duration": 3.2
+  },
+  {
+    "text": "animation and try to understand how",
+    "start": 286.479,
+    "duration": 4.401
+  },
+  {
+    "text": "changing the values of w1 and w2 affect",
+    "start": 288.16,
+    "duration": 4.64
+  },
+  {
+    "text": "these uh this sigmoid function if i",
+    "start": 290.88,
+    "duration": 3.44
+  },
+  {
+    "text": "increase both something interesting",
+    "start": 292.8,
+    "duration": 3.6
+  },
+  {
+    "text": "happens right so you can just play with",
+    "start": 294.32,
+    "duration": 3.84
+  },
+  {
+    "text": "this right",
+    "start": 296.4,
+    "duration": 3.84
+  },
+  {
+    "text": "so the point is again clear if i set the",
+    "start": 298.16,
+    "duration": 4.4
+  },
+  {
+    "text": "w1 very high i could again get the step",
+    "start": 300.24,
+    "duration": 4.32
+  },
+  {
+    "text": "function and the orientation and all i",
+    "start": 302.56,
+    "duration": 5.359
+  },
+  {
+    "text": "can control and if i have b as i move b",
+    "start": 304.56,
+    "duration": 5.04
+  },
+  {
+    "text": "the step function will",
+    "start": 307.919,
+    "duration": 3.521
+  },
+  {
+    "text": "move right at the threshold at which the",
+    "start": 309.6,
+    "duration": 3.28
+  },
+  {
+    "text": "crossover happens right so again the",
+    "start": 311.44,
+    "duration": 4.24
+  },
+  {
+    "text": "same idea as in 2d i can adjust the w's",
+    "start": 312.88,
+    "duration": 4.879
+  },
+  {
+    "text": "and b's to get something which looks",
+    "start": 315.68,
+    "duration": 3.6
+  },
+  {
+    "text": "like a step function right so now let's",
+    "start": 317.759,
+    "duration": 4.641
+  },
+  {
+    "text": "try to construct a tower in 3d okay now",
+    "start": 319.28,
+    "duration": 5.359
+  },
+  {
+    "text": "i didn't want to show you this okay",
+    "start": 322.4,
+    "duration": 5.28
+  },
+  {
+    "text": "right so first let's see h11 right so i",
+    "start": 324.639,
+    "duration": 4.161
+  },
+  {
+    "text": "have taken",
+    "start": 327.68,
+    "duration": 3.12
+  },
+  {
+    "text": "one neuron again again the same idea i",
+    "start": 328.8,
+    "duration": 4.239
+  },
+  {
+    "text": "have a network",
+    "start": 330.8,
+    "duration": 4.88
+  },
+  {
+    "text": "okay where x is my input",
+    "start": 333.039,
+    "duration": 5.521
+  },
+  {
+    "text": "and i have one neuron which is h11",
+    "start": 335.68,
+    "duration": 6.4
+  },
+  {
+    "text": "another neuron which is h12 and then",
+    "start": 338.56,
+    "duration": 5.52
+  },
+  {
+    "text": "both these outputs will be get added",
+    "start": 342.08,
+    "duration": 5.2
+  },
+  {
+    "text": "which i'm going to call as h21 right",
+    "start": 344.08,
+    "duration": 5.839
+  },
+  {
+    "text": "added meaning plus one and minus one",
+    "start": 347.28,
+    "duration": 4.639
+  },
+  {
+    "text": "right so now i'm showing you but it just",
+    "start": 349.919,
+    "duration": 5.28
+  },
+  {
+    "text": "that both of these are now this x is x 1",
+    "start": 351.919,
+    "duration": 6.081
+  },
+  {
+    "text": "comma x 2 right so the functions are",
+    "start": 355.199,
+    "duration": 4.801
+  },
+  {
+    "text": "1 over 1 plus",
+    "start": 358.0,
+    "duration": 4.56
+  },
+  {
+    "text": "e raised to minus",
+    "start": 360.0,
+    "duration": 4.84
+  },
+  {
+    "text": "w 1 x",
+    "start": 362.56,
+    "duration": 5.84
+  },
+  {
+    "text": "1. plus w 2 x 2",
+    "start": 364.84,
+    "duration": 6.359
+  },
+  {
+    "text": "plus b right so that's why you have w 1",
+    "start": 368.4,
+    "duration": 4.96
+  },
+  {
+    "text": "w 2 b right i'm going to",
+    "start": 371.199,
+    "duration": 3.84
+  },
+  {
+    "text": "uh",
+    "start": 373.36,
+    "duration": 4.32
+  },
+  {
+    "text": "just use the same parameters for both h",
+    "start": 375.039,
+    "duration": 5.361
+  },
+  {
+    "text": "1 1 and h 2 to explain this okay so now",
+    "start": 377.68,
+    "duration": 4.239
+  },
+  {
+    "text": "this is what",
+    "start": 380.4,
+    "duration": 3.919
+  },
+  {
+    "text": "h11 is looking like i have set the w",
+    "start": 381.919,
+    "duration": 5.921
+  },
+  {
+    "text": "very high as you can see here",
+    "start": 384.319,
+    "duration": 5.921
+  },
+  {
+    "text": "oops",
+    "start": 387.84,
+    "duration": 2.4
+  },
+  {
+    "text": "yeah i've set the w to a very high value",
+    "start": 392.72,
+    "duration": 4.64
+  },
+  {
+    "text": "which is 60 and hence it has become a",
+    "start": 395.12,
+    "duration": 6.079
+  },
+  {
+    "text": "step function and now if i change b",
+    "start": 397.36,
+    "duration": 5.76
+  },
+  {
+    "text": "it will move along here right i can make",
+    "start": 401.199,
+    "duration": 4.481
+  },
+  {
+    "text": "it move wherever i want right now let's",
+    "start": 403.12,
+    "duration": 5.6
+  },
+  {
+    "text": "see what h12 is so i have h12 which are",
+    "start": 405.68,
+    "duration": 5.519
+  },
+  {
+    "text": "parameters w3 w4 and b",
+    "start": 408.72,
+    "duration": 5.039
+  },
+  {
+    "text": "now again i have set w3 to be very high",
+    "start": 411.199,
+    "duration": 4.0
+  },
+  {
+    "text": "right so it has become like a step",
+    "start": 413.759,
+    "duration": 2.401
+  },
+  {
+    "text": "function",
+    "start": 415.199,
+    "duration": 4.801
+  },
+  {
+    "text": "okay don't think that it became uh",
+    "start": 416.16,
+    "duration": 3.84
+  },
+  {
+    "text": "yeah sorry i shouldn't have changed this",
+    "start": 420.319,
+    "duration": 5.6
+  },
+  {
+    "text": "yeah so in both cases one of the w's i",
+    "start": 424.16,
+    "duration": 3.439
+  },
+  {
+    "text": "have kept as zero and just changed the",
+    "start": 425.919,
+    "duration": 4.161
+  },
+  {
+    "text": "other w so now this has become again",
+    "start": 427.599,
+    "duration": 5.6
+  },
+  {
+    "text": "like a step function okay and now",
+    "start": 430.08,
+    "duration": 4.88
+  },
+  {
+    "text": "if i were to subtract them right which",
+    "start": 433.199,
+    "duration": 4.641
+  },
+  {
+    "text": "is h11 minus h2 and if i were to hide",
+    "start": 434.96,
+    "duration": 4.32
+  },
+  {
+    "text": "the other things",
+    "start": 437.84,
+    "duration": 2.96
+  },
+  {
+    "text": "then i'll get a tower function right",
+    "start": 439.28,
+    "duration": 3.919
+  },
+  {
+    "text": "again the same logic",
+    "start": 440.8,
+    "duration": 4.64
+  },
+  {
+    "text": "that i'll not show you this right so",
+    "start": 443.199,
+    "duration": 3.84
+  },
+  {
+    "text": "here both are",
+    "start": 445.44,
+    "duration": 2.96
+  },
+  {
+    "text": "oops",
+    "start": 447.039,
+    "duration": 4.241
+  },
+  {
+    "text": "yeah maybe this is fine",
+    "start": 448.4,
+    "duration": 6.079
+  },
+  {
+    "text": "yeah this looks better",
+    "start": 451.28,
+    "duration": 3.199
+  },
+  {
+    "text": "yeah so here both are 0 so the output",
+    "start": 455.36,
+    "duration": 4.48
+  },
+  {
+    "text": "will remain 0. here both are 1 so 1",
+    "start": 457.199,
+    "duration": 4.72
+  },
+  {
+    "text": "minus 1 is going to become 0 so it will",
+    "start": 459.84,
+    "duration": 4.479
+  },
+  {
+    "text": "become flat and here this is 1 and this",
+    "start": 461.919,
+    "duration": 5.28
+  },
+  {
+    "text": "is 0 so 1 minus 0 so you'll get a tower",
+    "start": 464.319,
+    "duration": 4.56
+  },
+  {
+    "text": "like this right so that is",
+    "start": 467.199,
+    "duration": 5.201
+  },
+  {
+    "text": "now if i hide h 1 1 and h 1 2 and only",
+    "start": 468.879,
+    "duration": 6.16
+  },
+  {
+    "text": "show you h 1 1 minus h 1 2",
+    "start": 472.4,
+    "duration": 4.72
+  },
+  {
+    "text": "then it's going to look like this tower",
+    "start": 475.039,
+    "duration": 4.0
+  },
+  {
+    "text": "right and let me just",
+    "start": 477.12,
+    "duration": 5.12
+  },
+  {
+    "text": "delete some of the",
+    "start": 479.039,
+    "duration": 3.201
+  },
+  {
+    "text": "okay right so this is looking like a",
+    "start": 486.16,
+    "duration": 4.24
+  },
+  {
+    "text": "tower so i have been able to construct a",
+    "start": 488.16,
+    "duration": 6.0
+  },
+  {
+    "text": "tower but this is still not complete",
+    "start": 490.4,
+    "duration": 5.919
+  },
+  {
+    "text": "right because this tower is like open",
+    "start": 494.16,
+    "duration": 3.84
+  },
+  {
+    "text": "from two sides i don't want a tower",
+    "start": 496.319,
+    "duration": 3.761
+  },
+  {
+    "text": "which is open from two sides i want a",
+    "start": 498.0,
+    "duration": 4.56
+  },
+  {
+    "text": "closed tower right just as that 2d thing",
+    "start": 500.08,
+    "duration": 4.64
+  },
+  {
+    "text": "where you had a tower like this i'd want",
+    "start": 502.56,
+    "duration": 4.72
+  },
+  {
+    "text": "a tower which is closed from all the",
+    "start": 504.72,
+    "duration": 4.08
+  },
+  {
+    "text": "four sides right now right now it's open",
+    "start": 507.28,
+    "duration": 3.759
+  },
+  {
+    "text": "from two sides and that's where i had",
+    "start": 508.8,
+    "duration": 3.919
+  },
+  {
+    "text": "this discussion on",
+    "start": 511.039,
+    "duration": 3.44
+  },
+  {
+    "text": "what happens with the orientation right",
+    "start": 512.719,
+    "duration": 3.361
+  },
+  {
+    "text": "so you could have you could see that one",
+    "start": 514.479,
+    "duration": 3.36
+  },
+  {
+    "text": "of the weights controls the movement in",
+    "start": 516.08,
+    "duration": 3.6
+  },
+  {
+    "text": "one direction and the other weight",
+    "start": 517.839,
+    "duration": 3.2
+  },
+  {
+    "text": "controls the movement in the other",
+    "start": 519.68,
+    "duration": 3.039
+  },
+  {
+    "text": "direction right so right now is",
+    "start": 521.039,
+    "duration": 3.441
+  },
+  {
+    "text": "adjusting one of the weights right you",
+    "start": 522.719,
+    "duration": 4.641
+  },
+  {
+    "text": "can see here that w1 and w3 is what i",
+    "start": 524.48,
+    "duration": 6.08
+  },
+  {
+    "text": "have played with i have kept w2 and w4",
+    "start": 527.36,
+    "duration": 6.72
+  },
+  {
+    "text": "as zero right and w2 and w4 would help",
+    "start": 530.56,
+    "duration": 5.52
+  },
+  {
+    "text": "me move in this direction so it will",
+    "start": 534.08,
+    "duration": 3.84
+  },
+  {
+    "text": "probably form a block",
+    "start": 536.08,
+    "duration": 3.84
+  },
+  {
+    "text": "which would be in this direction so it",
+    "start": 537.92,
+    "duration": 3.919
+  },
+  {
+    "text": "will bring in the remaining two walls i",
+    "start": 539.92,
+    "duration": 3.84
+  },
+  {
+    "text": "already have two walls for the tower i'm",
+    "start": 541.839,
+    "duration": 3.521
+  },
+  {
+    "text": "looking for two more walls and all of",
+    "start": 543.76,
+    "duration": 3.12
+  },
+  {
+    "text": "this will become clear when i show you",
+    "start": 545.36,
+    "duration": 5.12
+  },
+  {
+    "text": "the illustration on the next slide",
+    "start": 546.88,
+    "duration": 3.6
+  },
+  {
+    "text": "okay",
+    "start": 551.04,
+    "duration": 4.0
+  },
+  {
+    "text": "so this is what my network is right it's",
+    "start": 552.959,
+    "duration": 4.081
+  },
+  {
+    "text": "the same thing i have two sigmoid",
+    "start": 555.04,
+    "duration": 4.08
+  },
+  {
+    "text": "neurons and then one addition and i'm",
+    "start": 557.04,
+    "duration": 3.84
+  },
+  {
+    "text": "getting f of x one but at this i'm",
+    "start": 559.12,
+    "duration": 3.279
+  },
+  {
+    "text": "getting only",
+    "start": 560.88,
+    "duration": 3.12
+  },
+  {
+    "text": "open tower right i'm not still getting",
+    "start": 562.399,
+    "duration": 4.801
+  },
+  {
+    "text": "the fully uh closed tower right so now",
+    "start": 564.0,
+    "duration": 4.64
+  },
+  {
+    "text": "let's see if you can get a come up with",
+    "start": 567.2,
+    "duration": 3.6
+  },
+  {
+    "text": "a network for the entire thing okay let",
+    "start": 568.64,
+    "duration": 5.44
+  },
+  {
+    "text": "me just do some adjustments here first",
+    "start": 570.8,
+    "duration": 7.2
+  },
+  {
+    "text": "i guess this should be fine",
+    "start": 574.08,
+    "duration": 5.92
+  },
+  {
+    "text": "uh i think i've already pre-adjusted the",
+    "start": 578.0,
+    "duration": 3.839
+  },
+  {
+    "text": "values you can play with them later on",
+    "start": 580.0,
+    "duration": 5.839
+  },
+  {
+    "text": "so i already showed you h11 and h12 okay",
+    "start": 581.839,
+    "duration": 6.321
+  },
+  {
+    "text": "and when i do h11 minus h12 i get a",
+    "start": 585.839,
+    "duration": 3.841
+  },
+  {
+    "text": "tower so this is something that you are",
+    "start": 588.16,
+    "duration": 3.6
+  },
+  {
+    "text": "convinced about so i will not show you",
+    "start": 589.68,
+    "duration": 3.599
+  },
+  {
+    "text": "these two right",
+    "start": 591.76,
+    "duration": 5.04
+  },
+  {
+    "text": "now i'll take h13 where",
+    "start": 593.279,
+    "duration": 5.361
+  },
+  {
+    "text": "i am going to so if you look at this",
+    "start": 596.8,
+    "duration": 5.2
+  },
+  {
+    "text": "right so w11 was set to 200 right so",
+    "start": 598.64,
+    "duration": 5.759
+  },
+  {
+    "text": "that is and w one two are set to zero",
+    "start": 602.0,
+    "duration": 4.959
+  },
+  {
+    "text": "that's why it's a step in a particular",
+    "start": 604.399,
+    "duration": 5.041
+  },
+  {
+    "text": "direction but now for the remaining one",
+    "start": 606.959,
+    "duration": 4.88
+  },
+  {
+    "text": "right i have set w three one to zero and",
+    "start": 609.44,
+    "duration": 4.639
+  },
+  {
+    "text": "i've said w three to two hundred",
+    "start": 611.839,
+    "duration": 3.841
+  },
+  {
+    "text": "so what would happen in that case i",
+    "start": 614.079,
+    "duration": 3.921
+  },
+  {
+    "text": "would get a step function in this",
+    "start": 615.68,
+    "duration": 5.92
+  },
+  {
+    "text": "orientation right and similarly for h14",
+    "start": 618.0,
+    "duration": 7.279
+  },
+  {
+    "text": "i have set w41 to 0 and w4 to 200 so",
+    "start": 621.6,
+    "duration": 5.84
+  },
+  {
+    "text": "again i will get a step function in this",
+    "start": 625.279,
+    "duration": 4.8
+  },
+  {
+    "text": "orientation right and now if i subtract",
+    "start": 627.44,
+    "duration": 4.48
+  },
+  {
+    "text": "these two i get a tower in this",
+    "start": 630.079,
+    "duration": 3.361
+  },
+  {
+    "text": "orientation right so now let me just",
+    "start": 631.92,
+    "duration": 3.52
+  },
+  {
+    "text": "show you the towers only so i have one",
+    "start": 633.44,
+    "duration": 4.639
+  },
+  {
+    "text": "tower in this orientation i have another",
+    "start": 635.44,
+    "duration": 5.68
+  },
+  {
+    "text": "tower in the other orientation",
+    "start": 638.079,
+    "duration": 4.401
+  },
+  {
+    "text": "right",
+    "start": 641.12,
+    "duration": 2.959
+  },
+  {
+    "text": "so now you can see that the walls have",
+    "start": 642.48,
+    "duration": 3.2
+  },
+  {
+    "text": "closed here",
+    "start": 644.079,
+    "duration": 3.2
+  },
+  {
+    "text": "if i just move it around you can see",
+    "start": 645.68,
+    "duration": 3.44
+  },
+  {
+    "text": "that it's the walls have closed",
+    "start": 647.279,
+    "duration": 4.161
+  },
+  {
+    "text": "completely right so you can see that the",
+    "start": 649.12,
+    "duration": 4.399
+  },
+  {
+    "text": "walls there is no opening anywhere right",
+    "start": 651.44,
+    "duration": 4.16
+  },
+  {
+    "text": "you cannot see a white surface anywhere",
+    "start": 653.519,
+    "duration": 4.0
+  },
+  {
+    "text": "because on all four sides the wall has",
+    "start": 655.6,
+    "duration": 4.4
+  },
+  {
+    "text": "closed right but still i'm not there",
+    "start": 657.519,
+    "duration": 4.721
+  },
+  {
+    "text": "right it is not like a tower yet i mean",
+    "start": 660.0,
+    "duration": 4.64
+  },
+  {
+    "text": "there's a tower somewhere inside this",
+    "start": 662.24,
+    "duration": 5.12
+  },
+  {
+    "text": "middle portion",
+    "start": 664.64,
+    "duration": 6.08
+  },
+  {
+    "text": "this portion here right this",
+    "start": 667.36,
+    "duration": 5.599
+  },
+  {
+    "text": "okay maybe i should not have drawn it",
+    "start": 670.72,
+    "duration": 3.76
+  },
+  {
+    "text": "like that",
+    "start": 672.959,
+    "duration": 4.56
+  },
+  {
+    "text": "okay so this portion underneath this",
+    "start": 674.48,
+    "duration": 5.28
+  },
+  {
+    "text": "block here right that is the tower but",
+    "start": 677.519,
+    "duration": 4.081
+  },
+  {
+    "text": "i'm getting a lot of extra things also",
+    "start": 679.76,
+    "duration": 3.92
+  },
+  {
+    "text": "along with it right so there's some",
+    "start": 681.6,
+    "duration": 4.32
+  },
+  {
+    "text": "some things coming out and i don't want",
+    "start": 683.68,
+    "duration": 4.0
+  },
+  {
+    "text": "those for now so i'll see how to get rid",
+    "start": 685.92,
+    "duration": 4.0
+  },
+  {
+    "text": "of those right but for now you get what",
+    "start": 687.68,
+    "duration": 3.839
+  },
+  {
+    "text": "happens one the main thing to note is",
+    "start": 689.92,
+    "duration": 4.32
+  },
+  {
+    "text": "that now the walls have",
+    "start": 691.519,
+    "duration": 5.201
+  },
+  {
+    "text": "closed",
+    "start": 694.24,
+    "duration": 2.48
+  },
+  {
+    "text": "as i've shown you at no point in that",
+    "start": 700.16,
+    "duration": 4.4
+  },
+  {
+    "text": "region you cannot see",
+    "start": 702.72,
+    "duration": 3.679
+  },
+  {
+    "text": "uh you can see a blue wall then you can",
+    "start": 704.56,
+    "duration": 3.76
+  },
+  {
+    "text": "see the cyan wall here",
+    "start": 706.399,
+    "duration": 3.921
+  },
+  {
+    "text": "then again the blue or the purple wall",
+    "start": 708.32,
+    "duration": 4.0
+  },
+  {
+    "text": "and then again the cyan wall right so",
+    "start": 710.32,
+    "duration": 3.6
+  },
+  {
+    "text": "it's it's you have a tower sitting",
+    "start": 712.32,
+    "duration": 3.12
+  },
+  {
+    "text": "somewhere inside that",
+    "start": 713.92,
+    "duration": 3.919
+  },
+  {
+    "text": "so now let me look at the sum of these",
+    "start": 715.44,
+    "duration": 4.48
+  },
+  {
+    "text": "two functions right so now i have what",
+    "start": 717.839,
+    "duration": 5.601
+  },
+  {
+    "text": "i've shown you is h11 minus h12 and h13",
+    "start": 719.92,
+    "duration": 6.08
+  },
+  {
+    "text": "minus h14 one of them is the purple",
+    "start": 723.44,
+    "duration": 4.16
+  },
+  {
+    "text": "colored structure and the other is the",
+    "start": 726.0,
+    "duration": 3.279
+  },
+  {
+    "text": "cyan colored structure",
+    "start": 727.6,
+    "duration": 4.08
+  },
+  {
+    "text": "now let me take a sum of these two and",
+    "start": 729.279,
+    "duration": 4.481
+  },
+  {
+    "text": "see what happens right",
+    "start": 731.68,
+    "duration": 3.68
+  },
+  {
+    "text": "this looks quite",
+    "start": 733.76,
+    "duration": 3.12
+  },
+  {
+    "text": "weird",
+    "start": 735.36,
+    "duration": 3.36
+  },
+  {
+    "text": "let's see why this is happening right so",
+    "start": 736.88,
+    "duration": 4.32
+  },
+  {
+    "text": "let's just try to explain that again",
+    "start": 738.72,
+    "duration": 4.799
+  },
+  {
+    "text": "so now it's very simple actually nothing",
+    "start": 741.2,
+    "duration": 4.8
+  },
+  {
+    "text": "much to explain the same argument that i",
+    "start": 743.519,
+    "duration": 3.921
+  },
+  {
+    "text": "had earlier",
+    "start": 746.0,
+    "duration": 3.36
+  },
+  {
+    "text": "so in this region",
+    "start": 747.44,
+    "duration": 4.32
+  },
+  {
+    "text": "both are 0 right so if i add them again",
+    "start": 749.36,
+    "duration": 4.719
+  },
+  {
+    "text": "you will get 0 right similarly in this",
+    "start": 751.76,
+    "duration": 3.519
+  },
+  {
+    "text": "region",
+    "start": 754.079,
+    "duration": 3.041
+  },
+  {
+    "text": "both are 0 if you add them you will get",
+    "start": 755.279,
+    "duration": 4.881
+  },
+  {
+    "text": "0. similarly if i just maybe move it",
+    "start": 757.12,
+    "duration": 5.44
+  },
+  {
+    "text": "around",
+    "start": 760.16,
+    "duration": 2.4
+  },
+  {
+    "text": "yeah",
+    "start": 763.279,
+    "duration": 3.201
+  },
+  {
+    "text": "in this",
+    "start": 764.079,
+    "duration": 2.401
+  },
+  {
+    "text": "in this region again both are 0 so if",
+    "start": 769.04,
+    "duration": 3.2
+  },
+  {
+    "text": "you're going to add them you'll again",
+    "start": 770.959,
+    "duration": 3.361
+  },
+  {
+    "text": "get 0",
+    "start": 772.24,
+    "duration": 4.0
+  },
+  {
+    "text": "and then let me just move all the way",
+    "start": 774.32,
+    "duration": 5.519
+  },
+  {
+    "text": "back again in this region",
+    "start": 776.24,
+    "duration": 3.599
+  },
+  {
+    "text": "both are 0 so if you add them up you'll",
+    "start": 780.32,
+    "duration": 2.8
+  },
+  {
+    "text": "get 0. so you have understood what is",
+    "start": 781.839,
+    "duration": 2.961
+  },
+  {
+    "text": "happening at the flat surface is it you",
+    "start": 783.12,
+    "duration": 4.08
+  },
+  {
+    "text": "can just again go back and play around",
+    "start": 784.8,
+    "duration": 3.68
+  },
+  {
+    "text": "with this you can just move it around",
+    "start": 787.2,
+    "duration": 3.04
+  },
+  {
+    "text": "and you can see it right now let's look",
+    "start": 788.48,
+    "duration": 3.68
+  },
+  {
+    "text": "at the other regions right so where",
+    "start": 790.24,
+    "duration": 4.32
+  },
+  {
+    "text": "there's not going to be zero output if",
+    "start": 792.16,
+    "duration": 5.119
+  },
+  {
+    "text": "you look at this region okay so then you",
+    "start": 794.56,
+    "duration": 6.0
+  },
+  {
+    "text": "can see that the let me just orient it",
+    "start": 797.279,
+    "duration": 4.8
+  },
+  {
+    "text": "properly",
+    "start": 800.56,
+    "duration": 5.279
+  },
+  {
+    "text": "okay i'll just delete all my marks oops",
+    "start": 802.079,
+    "duration": 5.281
+  },
+  {
+    "text": "okay i'm really having trouble in",
+    "start": 805.839,
+    "duration": 2.961
+  },
+  {
+    "text": "adjusting to this",
+    "start": 807.36,
+    "duration": 3.36
+  },
+  {
+    "text": "okay",
+    "start": 808.8,
+    "duration": 4.92
+  },
+  {
+    "text": "um",
+    "start": 810.72,
+    "duration": 3.0
+  },
+  {
+    "text": "yeah this is a good view so now",
+    "start": 814.48,
+    "duration": 6.24
+  },
+  {
+    "text": "if i look in this region right so this",
+    "start": 818.48,
+    "duration": 5.2
+  },
+  {
+    "text": "purple guy was 1 but the cn guy was 0.",
+    "start": 820.72,
+    "duration": 5.44
+  },
+  {
+    "text": "so if i add 1 plus 0 i'll again get 1",
+    "start": 823.68,
+    "duration": 5.12
+  },
+  {
+    "text": "here right same argument for this region",
+    "start": 826.16,
+    "duration": 5.119
+  },
+  {
+    "text": "where the cn guy was 1 but the purple",
+    "start": 828.8,
+    "duration": 5.039
+  },
+  {
+    "text": "guy is 0 so i'll add them i'll get 0.",
+    "start": 831.279,
+    "duration": 4.401
+  },
+  {
+    "text": "same argument for this region and same",
+    "start": 833.839,
+    "duration": 3.761
+  },
+  {
+    "text": "argument for this region",
+    "start": 835.68,
+    "duration": 3.839
+  },
+  {
+    "text": "does that make sense",
+    "start": 837.6,
+    "duration": 4.64
+  },
+  {
+    "text": "now for this region in the middle both",
+    "start": 839.519,
+    "duration": 5.361
+  },
+  {
+    "text": "the cyan and the purple are one so if i",
+    "start": 842.24,
+    "duration": 5.12
+  },
+  {
+    "text": "add them i'll get a 2 which i'll get an",
+    "start": 844.88,
+    "duration": 4.639
+  },
+  {
+    "text": "elevation there and that's exactly what",
+    "start": 847.36,
+    "duration": 4.56
+  },
+  {
+    "text": "is happening when i show you the",
+    "start": 849.519,
+    "duration": 5.281
+  },
+  {
+    "text": "sum of these two",
+    "start": 851.92,
+    "duration": 2.88
+  },
+  {
+    "text": "right so in all these regions",
+    "start": 855.04,
+    "duration": 5.28
+  },
+  {
+    "text": "you can now see it yeah i think this is",
+    "start": 858.399,
+    "duration": 3.44
+  },
+  {
+    "text": "a good view",
+    "start": 860.32,
+    "duration": 5.199
+  },
+  {
+    "text": "uh i'll just stop it so",
+    "start": 861.839,
+    "duration": 3.68
+  },
+  {
+    "text": "in these regions it's zero",
+    "start": 865.6,
+    "duration": 5.52
+  },
+  {
+    "text": "in these regions it's one",
+    "start": 868.399,
+    "duration": 4.401
+  },
+  {
+    "text": "in these four regions and in this region",
+    "start": 871.12,
+    "duration": 4.159
+  },
+  {
+    "text": "it's two right so i've got my tower",
+    "start": 872.8,
+    "duration": 4.399
+  },
+  {
+    "text": "actually my tower is sitting here on the",
+    "start": 875.279,
+    "duration": 4.24
+  },
+  {
+    "text": "top of the structure this is the tower",
+    "start": 877.199,
+    "duration": 4.561
+  },
+  {
+    "text": "that i'm interested in but i have these",
+    "start": 879.519,
+    "duration": 4.961
+  },
+  {
+    "text": "some extra scaffoldings here and there",
+    "start": 881.76,
+    "duration": 4.319
+  },
+  {
+    "text": "which i want to get rid of right so now",
+    "start": 884.48,
+    "duration": 3.84
+  },
+  {
+    "text": "how do i get rid of that right so now if",
+    "start": 886.079,
+    "duration": 4.161
+  },
+  {
+    "text": "i look at this entire structure right",
+    "start": 888.32,
+    "duration": 4.48
+  },
+  {
+    "text": "i'll just get rid of the annotations and",
+    "start": 890.24,
+    "duration": 4.959
+  },
+  {
+    "text": "also get rid of the individual h11 and",
+    "start": 892.8,
+    "duration": 5.399
+  },
+  {
+    "text": "h12",
+    "start": 895.199,
+    "duration": 3.0
+  },
+  {
+    "text": "yeah",
+    "start": 899.76,
+    "duration": 4.24
+  },
+  {
+    "text": "yeah so this is what my structure looks",
+    "start": 901.839,
+    "duration": 2.961
+  },
+  {
+    "text": "like",
+    "start": 904.0,
+    "duration": 2.639
+  },
+  {
+    "text": "and you can see that at the bottom while",
+    "start": 904.8,
+    "duration": 5.24
+  },
+  {
+    "text": "it's open",
+    "start": 906.639,
+    "duration": 3.401
+  },
+  {
+    "text": "yeah the structure sitting at the top",
+    "start": 914.8,
+    "duration": 4.0
+  },
+  {
+    "text": "is closed from all sides so this",
+    "start": 921.199,
+    "duration": 3.521
+  },
+  {
+    "text": "structure sitting at the top",
+    "start": 922.88,
+    "duration": 4.0
+  },
+  {
+    "text": "is closed from all sides right now there",
+    "start": 924.72,
+    "duration": 4.08
+  },
+  {
+    "text": "are three levels of output here there's",
+    "start": 926.88,
+    "duration": 5.04
+  },
+  {
+    "text": "a zero level okay which is here then",
+    "start": 928.8,
+    "duration": 4.959
+  },
+  {
+    "text": "there is a level one and then there's a",
+    "start": 931.92,
+    "duration": 4.159
+  },
+  {
+    "text": "level two right and i only want to",
+    "start": 933.759,
+    "duration": 4.401
+  },
+  {
+    "text": "retain things which are greater than one",
+    "start": 936.079,
+    "duration": 4.32
+  },
+  {
+    "text": "right so that if i only retain things",
+    "start": 938.16,
+    "duration": 4.0
+  },
+  {
+    "text": "which are greater than one suppose i",
+    "start": 940.399,
+    "duration": 4.321
+  },
+  {
+    "text": "could have a way of filtering so that i",
+    "start": 942.16,
+    "duration": 4.0
+  },
+  {
+    "text": "could only retain things which are",
+    "start": 944.72,
+    "duration": 2.88
+  },
+  {
+    "text": "greater than one",
+    "start": 946.16,
+    "duration": 3.44
+  },
+  {
+    "text": "then only this part would remain right",
+    "start": 947.6,
+    "duration": 4.32
+  },
+  {
+    "text": "everything else is either one so this is",
+    "start": 949.6,
+    "duration": 3.52
+  },
+  {
+    "text": "all one",
+    "start": 951.92,
+    "duration": 4.4
+  },
+  {
+    "text": "okay and this is all zero right so if i",
+    "start": 953.12,
+    "duration": 4.32
+  },
+  {
+    "text": "have",
+    "start": 956.32,
+    "duration": 3.28
+  },
+  {
+    "text": "a thresholding",
+    "start": 957.44,
+    "duration": 3.839
+  },
+  {
+    "text": "such that i retain everything which is",
+    "start": 959.6,
+    "duration": 4.08
+  },
+  {
+    "text": "greater than one then i'll get my tower",
+    "start": 961.279,
+    "duration": 4.56
+  },
+  {
+    "text": "out of it does that make sense",
+    "start": 963.68,
+    "duration": 4.719
+  },
+  {
+    "text": "right so if i do a thresholding so how",
+    "start": 965.839,
+    "duration": 4.641
+  },
+  {
+    "text": "will i do that i can again introduce a",
+    "start": 968.399,
+    "duration": 4.0
+  },
+  {
+    "text": "sigmoid function there",
+    "start": 970.48,
+    "duration": 4.719
+  },
+  {
+    "text": "with a threshold of 1 so that the output",
+    "start": 972.399,
+    "duration": 3.921
+  },
+  {
+    "text": "is",
+    "start": 975.199,
+    "duration": 3.44
+  },
+  {
+    "text": "0",
+    "start": 976.32,
+    "duration": 2.319
+  },
+  {
+    "text": "till it reaches there and then it climbs",
+    "start": 979.519,
+    "duration": 4.481
+  },
+  {
+    "text": "to one right so if i have a sigmoid",
+    "start": 981.519,
+    "duration": 4.0
+  },
+  {
+    "text": "function which is a threshold of one or",
+    "start": 984.0,
+    "duration": 3.759
+  },
+  {
+    "text": "the switch over point set to one",
+    "start": 985.519,
+    "duration": 3.12
+  },
+  {
+    "text": "then",
+    "start": 987.759,
+    "duration": 3.361
+  },
+  {
+    "text": "when i take this output right so this is",
+    "start": 988.639,
+    "duration": 4.081
+  },
+  {
+    "text": "the output of some function right now",
+    "start": 991.12,
+    "duration": 4.24
+  },
+  {
+    "text": "let me just call it as h",
+    "start": 992.72,
+    "duration": 4.799
+  },
+  {
+    "text": "now when i take this edge so this is h",
+    "start": 995.36,
+    "duration": 4.56
+  },
+  {
+    "text": "and i'm going to pass it through another",
+    "start": 997.519,
+    "duration": 5.601
+  },
+  {
+    "text": "sigmoid okay such that it switches over",
+    "start": 999.92,
+    "duration": 4.32
+  },
+  {
+    "text": "at one",
+    "start": 1003.12,
+    "duration": 2.959
+  },
+  {
+    "text": "then everything which is less than one",
+    "start": 1004.24,
+    "duration": 4.959
+  },
+  {
+    "text": "all of this will disappear and only",
+    "start": 1006.079,
+    "duration": 4.801
+  },
+  {
+    "text": "these things at the top right which are",
+    "start": 1009.199,
+    "duration": 3.681
+  },
+  {
+    "text": "greater than one will remain and what",
+    "start": 1010.88,
+    "duration": 4.319
+  },
+  {
+    "text": "the result end result would be that i'll",
+    "start": 1012.88,
+    "duration": 5.199
+  },
+  {
+    "text": "get my tower function out so if i delete",
+    "start": 1015.199,
+    "duration": 4.721
+  },
+  {
+    "text": "this and i just show you the tower so",
+    "start": 1018.079,
+    "duration": 3.281
+  },
+  {
+    "text": "this is what will remain right so this",
+    "start": 1019.92,
+    "duration": 4.24
+  },
+  {
+    "text": "is just the part of the that entire",
+    "start": 1021.36,
+    "duration": 5.679
+  },
+  {
+    "text": "structure which was above level one",
+    "start": 1024.16,
+    "duration": 4.639
+  },
+  {
+    "text": "right and only that part will remain and",
+    "start": 1027.039,
+    "duration": 3.841
+  },
+  {
+    "text": "i get my tower function which is now",
+    "start": 1028.799,
+    "duration": 3.921
+  },
+  {
+    "text": "indeed close from all sides at which we",
+    "start": 1030.88,
+    "duration": 3.6
+  },
+  {
+    "text": "were already convinced about right so",
+    "start": 1032.72,
+    "duration": 3.359
+  },
+  {
+    "text": "you can go back play around with these",
+    "start": 1034.48,
+    "duration": 3.12
+  },
+  {
+    "text": "visuals and convince yourself that you",
+    "start": 1036.079,
+    "duration": 3.84
+  },
+  {
+    "text": "have got a 2d tower i am convinced that",
+    "start": 1037.6,
+    "duration": 4.4
+  },
+  {
+    "text": "we have got a 2d tower by constructing a",
+    "start": 1039.919,
+    "duration": 4.961
+  },
+  {
+    "text": "network like this i took x1 x2",
+    "start": 1042.0,
+    "duration": 5.12
+  },
+  {
+    "text": "i had these two sigmoids which were",
+    "start": 1044.88,
+    "duration": 4.64
+  },
+  {
+    "text": "oriented in one direction and when i",
+    "start": 1047.12,
+    "duration": 5.12
+  },
+  {
+    "text": "combined them i got a tower open tower",
+    "start": 1049.52,
+    "duration": 4.08
+  },
+  {
+    "text": "in one direction",
+    "start": 1052.24,
+    "duration": 3.28
+  },
+  {
+    "text": "then i had these two sigmoids which were",
+    "start": 1053.6,
+    "duration": 4.079
+  },
+  {
+    "text": "oriented in the other direction and when",
+    "start": 1055.52,
+    "duration": 4.64
+  },
+  {
+    "text": "i combined them here i got the tower in",
+    "start": 1057.679,
+    "duration": 3.921
+  },
+  {
+    "text": "the other direction",
+    "start": 1060.16,
+    "duration": 2.24
+  },
+  {
+    "text": "then",
+    "start": 1061.6,
+    "duration": 2.72
+  },
+  {
+    "text": "when i added both these structures i got",
+    "start": 1062.4,
+    "duration": 3.36
+  },
+  {
+    "text": "this weird structure which had three",
+    "start": 1064.32,
+    "duration": 3.2
+  },
+  {
+    "text": "levels a level zero a level one and a",
+    "start": 1065.76,
+    "duration": 3.919
+  },
+  {
+    "text": "level two and then again passed it to a",
+    "start": 1067.52,
+    "duration": 4.72
+  },
+  {
+    "text": "sigmoid such that it allowed only the",
+    "start": 1069.679,
+    "duration": 4.961
+  },
+  {
+    "text": "level one and above outputs and hence i",
+    "start": 1072.24,
+    "duration": 4.559
+  },
+  {
+    "text": "got the tower which was about one right",
+    "start": 1074.64,
+    "duration": 3.68
+  },
+  {
+    "text": "so that's the tower function that i got",
+    "start": 1076.799,
+    "duration": 3.681
+  },
+  {
+    "text": "out so i got a 2d tower function from",
+    "start": 1078.32,
+    "duration": 4.479
+  },
+  {
+    "text": "this network you can go back check out",
+    "start": 1080.48,
+    "duration": 4.319
+  },
+  {
+    "text": "the illustration check out this network",
+    "start": 1082.799,
+    "duration": 3.521
+  },
+  {
+    "text": "and convince yourself that you can get a",
+    "start": 1084.799,
+    "duration": 2.801
+  },
+  {
+    "text": "2d function",
+    "start": 1086.32,
+    "duration": 3.599
+  },
+  {
+    "text": "it's the same thing that we did for 1d",
+    "start": 1087.6,
+    "duration": 4.319
+  },
+  {
+    "text": "just like one more level of complexity",
+    "start": 1089.919,
+    "duration": 3.841
+  },
+  {
+    "text": "added right",
+    "start": 1091.919,
+    "duration": 3.361
+  },
+  {
+    "text": "and you can see that the number of",
+    "start": 1093.76,
+    "duration": 3.52
+  },
+  {
+    "text": "neurons in my middle layer has now",
+    "start": 1095.28,
+    "duration": 4.399
+  },
+  {
+    "text": "increased right this has become",
+    "start": 1097.28,
+    "duration": 5.84
+  },
+  {
+    "text": "four neurons okay and also our initial",
+    "start": 1099.679,
+    "duration": 4.401
+  },
+  {
+    "text": "goal",
+    "start": 1103.12,
+    "duration": 3.04
+  },
+  {
+    "text": "was to prove that a single layer neural",
+    "start": 1104.08,
+    "duration": 4.32
+  },
+  {
+    "text": "network should be sufficient i have not",
+    "start": 1106.16,
+    "duration": 3.6
+  },
+  {
+    "text": "proved it for a single layer right so",
+    "start": 1108.4,
+    "duration": 3.12
+  },
+  {
+    "text": "what you will have is one layer where",
+    "start": 1109.76,
+    "duration": 3.44
+  },
+  {
+    "text": "the number of neurons will keep growing",
+    "start": 1111.52,
+    "duration": 3.84
+  },
+  {
+    "text": "so it will be like a three layer network",
+    "start": 1113.2,
+    "duration": 4.16
+  },
+  {
+    "text": "which can approximate any arbitrary",
+    "start": 1115.36,
+    "duration": 3.76
+  },
+  {
+    "text": "function right now you could take this",
+    "start": 1117.36,
+    "duration": 3.92
+  },
+  {
+    "text": "idea further and prove for the one layer",
+    "start": 1119.12,
+    "duration": 3.84
+  },
+  {
+    "text": "case also but as i said that proof will",
+    "start": 1121.28,
+    "duration": 3.84
+  },
+  {
+    "text": "be a bit complicated but at least i have",
+    "start": 1122.96,
+    "duration": 5.04
+  },
+  {
+    "text": "shown you that with three layer network",
+    "start": 1125.12,
+    "duration": 5.04
+  },
+  {
+    "text": "you can",
+    "start": 1128.0,
+    "duration": 5.039
+  },
+  {
+    "text": "approximate a 2d function right to",
+    "start": 1130.16,
+    "duration": 4.72
+  },
+  {
+    "text": "arbitrary degree of precision right so",
+    "start": 1133.039,
+    "duration": 3.681
+  },
+  {
+    "text": "that's what we have been able to do so",
+    "start": 1134.88,
+    "duration": 4.4
+  },
+  {
+    "text": "now what will happen is the 2d 2d towers",
+    "start": 1136.72,
+    "duration": 4.4
+  },
+  {
+    "text": "that i got out of that",
+    "start": 1139.28,
+    "duration": 4.399
+  },
+  {
+    "text": "tower network i can put many of these",
+    "start": 1141.12,
+    "duration": 5.52
+  },
+  {
+    "text": "together right and construct my",
+    "start": 1143.679,
+    "duration": 5.961
+  },
+  {
+    "text": "uh",
+    "start": 1146.64,
+    "duration": 3.0
+  },
+  {
+    "text": "function as way i desire right and i can",
+    "start": 1150.24,
+    "duration": 4.0
+  },
+  {
+    "text": "adjust for the thickness of the towers",
+    "start": 1152.72,
+    "duration": 3.6
+  },
+  {
+    "text": "to make it more and more a better",
+    "start": 1154.24,
+    "duration": 4.08
+  },
+  {
+    "text": "approximation right so that's the idea",
+    "start": 1156.32,
+    "duration": 3.44
+  },
+  {
+    "text": "so this is what the universal",
+    "start": 1158.32,
+    "duration": 3.28
+  },
+  {
+    "text": "approximation theorem says and the",
+    "start": 1159.76,
+    "duration": 3.76
+  },
+  {
+    "text": "reason it is important is that in real",
+    "start": 1161.6,
+    "duration": 3.439
+  },
+  {
+    "text": "world you will have these complex",
+    "start": 1163.52,
+    "duration": 3.279
+  },
+  {
+    "text": "arbitrary functions",
+    "start": 1165.039,
+    "duration": 3.921
+  },
+  {
+    "text": "and now you have a way",
+    "start": 1166.799,
+    "duration": 3.361
+  },
+  {
+    "text": "of",
+    "start": 1168.96,
+    "duration": 2.88
+  },
+  {
+    "text": "coming up with a neural network it still",
+    "start": 1170.16,
+    "duration": 3.28
+  },
+  {
+    "text": "has a large number of neurons right and",
+    "start": 1171.84,
+    "duration": 4.079
+  },
+  {
+    "text": "we'll fix that it has a large number of",
+    "start": 1173.44,
+    "duration": 3.68
+  },
+  {
+    "text": "neurons",
+    "start": 1175.919,
+    "duration": 4.161
+  },
+  {
+    "text": "but if you keep that fact aside you can",
+    "start": 1177.12,
+    "duration": 5.2
+  },
+  {
+    "text": "what this theorem says that for any",
+    "start": 1180.08,
+    "duration": 3.92
+  },
+  {
+    "text": "function that you have any problem that",
+    "start": 1182.32,
+    "duration": 3.12
+  },
+  {
+    "text": "you're dealing with where there's a true",
+    "start": 1184.0,
+    "duration": 4.08
+  },
+  {
+    "text": "function x and let it be as arbitrary a",
+    "start": 1185.44,
+    "duration": 5.119
+  },
+  {
+    "text": "function as you want right you can",
+    "start": 1188.08,
+    "duration": 4.88
+  },
+  {
+    "text": "always come up with a neural network",
+    "start": 1190.559,
+    "duration": 4.321
+  },
+  {
+    "text": "which will be able to approximate it to",
+    "start": 1192.96,
+    "duration": 3.68
+  },
+  {
+    "text": "a desired degree of precision if you add",
+    "start": 1194.88,
+    "duration": 3.6
+  },
+  {
+    "text": "enough neurons in that neural network",
+    "start": 1196.64,
+    "duration": 3.76
+  },
+  {
+    "text": "right and that's the foundation right",
+    "start": 1198.48,
+    "duration": 3.52
+  },
+  {
+    "text": "that's the reason why deep learning is",
+    "start": 1200.4,
+    "duration": 3.519
+  },
+  {
+    "text": "so formula popular because it's saying",
+    "start": 1202.0,
+    "duration": 3.2
+  },
+  {
+    "text": "that you could take a deep neural",
+    "start": 1203.919,
+    "duration": 3.041
+  },
+  {
+    "text": "network which could approximate",
+    "start": 1205.2,
+    "duration": 3.2
+  },
+  {
+    "text": "arbitrary functions and that's what we",
+    "start": 1206.96,
+    "duration": 2.959
+  },
+  {
+    "text": "do in machine learning right you have an",
+    "start": 1208.4,
+    "duration": 3.84
+  },
+  {
+    "text": "x you have an f of x and you want to",
+    "start": 1209.919,
+    "duration": 5.281
+  },
+  {
+    "text": "come up with an approximation f hat of x",
+    "start": 1212.24,
+    "duration": 4.88
+  },
+  {
+    "text": "and now you have found an f hat of x",
+    "start": 1215.2,
+    "duration": 3.2
+  },
+  {
+    "text": "which is just what i showed you on the",
+    "start": 1217.12,
+    "duration": 2.72
+  },
+  {
+    "text": "previous slide right which is a neural",
+    "start": 1218.4,
+    "duration": 3.2
+  },
+  {
+    "text": "network that's the function it's just a",
+    "start": 1219.84,
+    "duration": 4.16
+  },
+  {
+    "text": "composite function you took the input",
+    "start": 1221.6,
+    "duration": 5.12
+  },
+  {
+    "text": "took some sigmoid took some out addition",
+    "start": 1224.0,
+    "duration": 4.88
+  },
+  {
+    "text": "then again added it but it's all a",
+    "start": 1226.72,
+    "duration": 4.4
+  },
+  {
+    "text": "function of x it's a composite function",
+    "start": 1228.88,
+    "duration": 4.56
+  },
+  {
+    "text": "of x you could construct these composite",
+    "start": 1231.12,
+    "duration": 4.08
+  },
+  {
+    "text": "functions such that you could",
+    "start": 1233.44,
+    "duration": 3.68
+  },
+  {
+    "text": "approximate any real function that you",
+    "start": 1235.2,
+    "duration": 3.76
+  },
+  {
+    "text": "are dealing right so that's the basic",
+    "start": 1237.12,
+    "duration": 2.799
+  },
+  {
+    "text": "idea",
+    "start": 1238.96,
+    "duration": 3.68
+  },
+  {
+    "text": "so i think i'm done with this one",
+    "start": 1239.919,
+    "duration": 4.081
+  },
+  {
+    "text": "i just leave you with this thought so",
+    "start": 1242.64,
+    "duration": 3.039
+  },
+  {
+    "text": "for one dimensional input we needed two",
+    "start": 1244.0,
+    "duration": 3.44
+  },
+  {
+    "text": "neurons for two dimensional input we",
+    "start": 1245.679,
+    "duration": 4.321
+  },
+  {
+    "text": "needed four neurons for n-dimensional",
+    "start": 1247.44,
+    "duration": 4.4
+  },
+  {
+    "text": "inputs how many neurons will you need",
+    "start": 1250.0,
+    "duration": 4.32
+  },
+  {
+    "text": "and the answer is obvious but i'll let",
+    "start": 1251.84,
+    "duration": 4.319
+  },
+  {
+    "text": "you think about it right so that's where",
+    "start": 1254.32,
+    "duration": 4.479
+  },
+  {
+    "text": "we end uh lecture three and the next",
+    "start": 1256.159,
+    "duration": 4.801
+  },
+  {
+    "text": "lecture we'll start with uh start",
+    "start": 1258.799,
+    "duration": 4.161
+  },
+  {
+    "text": "talking about deep neural networks and",
+    "start": 1260.96,
+    "duration": 4.16
+  },
+  {
+    "text": "then the back propagation acronym thank",
+    "start": 1262.96,
+    "duration": 5.16
+  },
+  {
+    "text": "you",
+    "start": 1265.12,
+    "duration": 3.0
+  }
+]

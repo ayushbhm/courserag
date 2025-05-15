@@ -1,0 +1,9 @@
+is the expected value of Z so our random variable here is z and it can take any value 0.
+1 2 3 4 5 6 7 maybe as many goals as you can score and you are interested in.
+the expected value right now expectation as you define in probability of course is you have to have repeat this.
+a large number of times but you only have like some K matches that you have seen the way you.
+compute the estimate or you empirically estimate the expectation is by using this formula right this is something that we.
+have been doing for ages right I mean in in our studies in high school engineering and so on where.
+we just compute we are given a set of samples and we compute the average as using this formula and.
+that average is actually the empirical estimate of the expectation right and the analogy to our our derivation where we.
+were stuck would be the following that I am interested in the expected value of the square error between y.

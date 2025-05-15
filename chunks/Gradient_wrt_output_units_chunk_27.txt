@@ -1,0 +1,9 @@
+our first goal that talked to the output layer so we now know the derivative of the loss function with.
+respect to the output layer that means we know our first gradient right which is the gradient of the loss.
+function with respect to output layer this is a scalar quantity this is a vector so what this tells you.
+is that what happens if i change one value of each of the values of this al vector then what.
+is the change in l theta right that is what each of these elements captures and the collection of all.
+those elements is just the gradient vector the gradient of the loss function with respect to a f right so.
+we are done with the first step that we had which was to talk to the output layer now we.
+are going to talk to the hidden layers and then we are going to talk to the waves okay so.
+we will come back.

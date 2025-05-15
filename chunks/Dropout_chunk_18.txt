@@ -1,0 +1,9 @@
+decide whether to keep it or not you just create this random vector by saying that I want 20 of.
+the units to be off and then at this layer whatever output you have computed you just multiply it by.
+this mask so 20 of the outputs will be set to zero that's the same as this node not participating.
+in the computation at all right now when you're masking it what is it that you are effectively doing right.
+so what happens is it prevents the nodes from co-adapting right so what does co-adapting mean that if you have.
+all the nodes active right then there could be this one lazy guy who says that okay I mean this.
+other guy suppose I'm trying to detect faces and this other guy is going to detect noses a nose and.
+someone is going to detect eyes and I don't need to do anything then right I can slack I can.
+I did not actually work much the other guys can do the work right so that's what co-adapting means right.

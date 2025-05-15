@@ -1,0 +1,9 @@
+this could be possible because X is part so it's a x is passed so you in the next time.
+steps when you are seeing the input that x is 0 so the gradient is going to be zero okay.
+so this is again a typical situation that you encounter in fact this is the situation that we have been.
+arguing about ever since we started the uh discussion on adaptive learning race right so now ideally we don't want.
+the learning rate to change right uh when the gradient is zero so now you have looked at uh an.
+update and your gradient was Zero you are in this time step and your gradient is zero you don't want.
+to do anything to the learning rate right why do you want to change the learning rate at this time.
+step right because you have not doing anything you did not get any update but now in the case of.
+uh in the case of the max value this is what will happen right it will not change right because.

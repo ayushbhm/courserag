@@ -1,0 +1,10 @@
+let me just link it to the diagram that I have suppose this is the entry that I am looking.
+for which in this case tragically happens to be W 2 2 right so it's the yeah it's the weight.
+connecting the second neuron in this layer to the second neuron in this layer so it's uh the 2 comma.
+2 entry of the W2 mid so that's what that is and what have I done so far right so.
+far I have done derivatives up to this point right I've already done the derivative of the loss function with.
+respect to every element of this layer right and now I see that the weight is only connected to one.
+of the guys here right so that guy may be a two two the weight is only connected to that.
+so now I'm going to exploit this fact right so if I want to compute yeah so I want the.
+derivative of the loss function with respect to one of the entries in The Matrix and now I can again.
+split it into two parts right so let's see I already know the derivative of the loss function with respect.

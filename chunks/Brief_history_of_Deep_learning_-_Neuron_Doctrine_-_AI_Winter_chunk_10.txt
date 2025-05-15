@@ -1,0 +1,9 @@
+processing especially in modern multilingual models we want certain portions of the network to only adhere to computations related to.
+a certain language or even now certain inputs right and the rest of the network may be doing other things.
+and so on right so you can just look at this video also which is uh again another kind of.
+a debate about brains the first one was whether it's single or distribu or disconnected now this is more about.
+whether it's localized or distributed right and both of these are relevant even today in terms of modern deep neural.
+networks right so from these uh biological neurons where the inspiration for neural networks came now let's move to the.
+actual artificial neuron set and that's where this period of time that we'll cover which is called the spring to.
+the winter of ai and i'll tell you why these two seasons have cropped up in us in our discussion.
+right so around 1943 while we were still trying to understand uh what uh the brain is and we are.

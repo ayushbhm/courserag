@@ -1,0 +1,9 @@
+classic example that we also use today i'll also be doing this in the course uh minsky and pepper said.
+this only in the context of a single percept right they said they still said that if you have a.
+network of perceptrons you could solve uh complex function right but somehow this second part that you cannot do this.
+with a single neuron but with a layer of multiple multiple or multi-layer network of perceptrons but you can do.
+it with a multi-layer network of perceptrons the second part often got lost and the first part got emphasized that.
+hey you cannot do this and that led to a lot of disappointment and following this and of course i.
+can't say that this was the primary reason but this and similar uh evidences which started emerging there's a slight.
+decline in the interest in funding ai for almost the next two decades and this is what we call the.
+winter of ai where the interest in funding large scale projects in ai started declining and people started i would.

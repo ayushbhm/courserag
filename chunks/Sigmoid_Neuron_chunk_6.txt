@@ -1,0 +1,9 @@
+on these real numbers which is a very high dimensional Vector because you're looking at a hundred cross hundred Vector.
+now and I can just flatten it out and I'll have 10 000 values which correspond to the pixel values.
+right so let's assume it's only a gray and white images right so you will have certain pixel values there.
+and this is uh uh 100 dimensional vector and based on this you might want to predict a certain y.
+right so this is again of all of these are cases where your inputs are real and your outputs are.
+also here and you have a high dimensional input where I'm just calling it as RN which is an N.
+dimensional Vector right so this is the situation that we want to uh deal with now given this situation or.
+given these kinds of problems what is our Quest right our Quest would be just as it is on the.
+case of perceptrons when we are dealing with or in the last lecture when we are dealing with Boolean functions.

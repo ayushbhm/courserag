@@ -1,0 +1,907 @@
+[
+  {
+    "text": "foreign",
+    "start": 0.299,
+    "duration": 3.0
+  },
+  {
+    "text": "[Music]",
+    "start": 6.62,
+    "duration": 14.93
+  },
+  {
+    "text": "simple but very effective technique so",
+    "start": 25.46,
+    "duration": 5.079
+  },
+  {
+    "text": "in data set augmented augmentation this",
+    "start": 28.8,
+    "duration": 3.059
+  },
+  {
+    "text": "is what you do right so suppose your",
+    "start": 30.539,
+    "duration": 3.661
+  },
+  {
+    "text": "training data set was about digit",
+    "start": 31.859,
+    "duration": 3.781
+  },
+  {
+    "text": "classification right and many of you",
+    "start": 34.2,
+    "duration": 3.06
+  },
+  {
+    "text": "would have experimented with the mnist",
+    "start": 35.64,
+    "duration": 4.68
+  },
+  {
+    "text": "dataset uh so this these are some images",
+    "start": 37.26,
+    "duration": 5.16
+  },
+  {
+    "text": "given in the MS data set so this is say",
+    "start": 40.32,
+    "duration": 4.259
+  },
+  {
+    "text": "one of the images that was given and",
+    "start": 42.42,
+    "duration": 4.979
+  },
+  {
+    "text": "whose label is of course uh two right so",
+    "start": 44.579,
+    "duration": 4.5
+  },
+  {
+    "text": "this is the digit two",
+    "start": 47.399,
+    "duration": 4.381
+  },
+  {
+    "text": "now what you could do is that from this",
+    "start": 49.079,
+    "duration": 5.581
+  },
+  {
+    "text": "image you could create some other images",
+    "start": 51.78,
+    "duration": 4.799
+  },
+  {
+    "text": "right so what what are the other images",
+    "start": 54.66,
+    "duration": 3.66
+  },
+  {
+    "text": "you could create you could Define",
+    "start": 56.579,
+    "duration": 3.0
+  },
+  {
+    "text": "certain",
+    "start": 58.32,
+    "duration": 2.579
+  },
+  {
+    "text": "uh",
+    "start": 59.579,
+    "duration": 2.881
+  },
+  {
+    "text": "transitions right so you could rotate",
+    "start": 60.899,
+    "duration": 4.08
+  },
+  {
+    "text": "this image by 20 20 degree and get a new",
+    "start": 62.46,
+    "duration": 5.22
+  },
+  {
+    "text": "image right and that image the label",
+    "start": 64.979,
+    "duration": 4.32
+  },
+  {
+    "text": "would still be two so you don't need to",
+    "start": 67.68,
+    "duration": 3.36
+  },
+  {
+    "text": "manually label this you know that even",
+    "start": 69.299,
+    "duration": 3.781
+  },
+  {
+    "text": "if I rotate the image by a small amount",
+    "start": 71.04,
+    "duration": 4.079
+  },
+  {
+    "text": "of course for some things like 6 and 9",
+    "start": 73.08,
+    "duration": 4.68
+  },
+  {
+    "text": "if you rotate by 180 degrees then you",
+    "start": 75.119,
+    "duration": 4.741
+  },
+  {
+    "text": "will have a problem but for most digits",
+    "start": 77.76,
+    "duration": 3.359
+  },
+  {
+    "text": "you will not have this problem right so",
+    "start": 79.86,
+    "duration": 3.18
+  },
+  {
+    "text": "you could rotate by a small amount you",
+    "start": 81.119,
+    "duration": 3.54
+  },
+  {
+    "text": "could shift it vertically right so the",
+    "start": 83.04,
+    "duration": 3.96
+  },
+  {
+    "text": "two being at the center of the image you",
+    "start": 84.659,
+    "duration": 4.021
+  },
+  {
+    "text": "could bring it down you could take it up",
+    "start": 87.0,
+    "duration": 3.84
+  },
+  {
+    "text": "and you would get a different image you",
+    "start": 88.68,
+    "duration": 4.619
+  },
+  {
+    "text": "could shift it horizontally or you could",
+    "start": 90.84,
+    "duration": 4.319
+  },
+  {
+    "text": "blur the image you could also change",
+    "start": 93.299,
+    "duration": 4.201
+  },
+  {
+    "text": "some pixels and add some noise right and",
+    "start": 95.159,
+    "duration": 4.381
+  },
+  {
+    "text": "both doing all of this",
+    "start": 97.5,
+    "duration": 4.619
+  },
+  {
+    "text": "you have just created more training data",
+    "start": 99.54,
+    "duration": 4.86
+  },
+  {
+    "text": "and what you're doing here is actually",
+    "start": 102.119,
+    "duration": 4.801
+  },
+  {
+    "text": "you are exploiting the knowledge of the",
+    "start": 104.4,
+    "duration": 4.74
+  },
+  {
+    "text": "task right so you know that if you",
+    "start": 106.92,
+    "duration": 4.019
+  },
+  {
+    "text": "rotate the image if you do any of these",
+    "start": 109.14,
+    "duration": 3.54
+  },
+  {
+    "text": "augmentations that you have seen and",
+    "start": 110.939,
+    "duration": 3.061
+  },
+  {
+    "text": "there are many such more augmentations",
+    "start": 112.68,
+    "duration": 3.36
+  },
+  {
+    "text": "in the possible in case of image",
+    "start": 114.0,
+    "duration": 3.899
+  },
+  {
+    "text": "classification the label does not change",
+    "start": 116.04,
+    "duration": 3.78
+  },
+  {
+    "text": "so I can create a lot of data for free",
+    "start": 117.899,
+    "duration": 4.801
+  },
+  {
+    "text": "from the data that was queued and now",
+    "start": 119.82,
+    "duration": 5.28
+  },
+  {
+    "text": "how does this help so now you have more",
+    "start": 122.7,
+    "duration": 4.98
+  },
+  {
+    "text": "training data and now it's no longer",
+    "start": 125.1,
+    "duration": 4.799
+  },
+  {
+    "text": "enough for the network",
+    "start": 127.68,
+    "duration": 5.58
+  },
+  {
+    "text": "to kind of uh overfit that okay whenever",
+    "start": 129.899,
+    "duration": 6.42
+  },
+  {
+    "text": "I see this combination of pixels I will",
+    "start": 133.26,
+    "duration": 5.64
+  },
+  {
+    "text": "mark it as two because now that will not",
+    "start": 136.319,
+    "duration": 4.381
+  },
+  {
+    "text": "work for this guy because now the pixels",
+    "start": 138.9,
+    "duration": 3.3
+  },
+  {
+    "text": "have changed a bit the orientation of",
+    "start": 140.7,
+    "duration": 3.6
+  },
+  {
+    "text": "the pixels have changed and so on so",
+    "start": 142.2,
+    "duration": 4.8
+  },
+  {
+    "text": "this this will not uh it cannot easily",
+    "start": 144.3,
+    "duration": 5.159
+  },
+  {
+    "text": "overfit right it has a harder task so",
+    "start": 147.0,
+    "duration": 3.959
+  },
+  {
+    "text": "you have given it much more training",
+    "start": 149.459,
+    "duration": 3.661
+  },
+  {
+    "text": "data that it has to by heart now right",
+    "start": 150.959,
+    "duration": 4.261
+  },
+  {
+    "text": "it has to memorize now and that will",
+    "start": 153.12,
+    "duration": 5.1
+  },
+  {
+    "text": "make it uh make it less prone to",
+    "start": 155.22,
+    "duration": 4.019
+  },
+  {
+    "text": "overfitting right because there's just",
+    "start": 158.22,
+    "duration": 3.78
+  },
+  {
+    "text": "so much to learn that it cannot hold",
+    "start": 159.239,
+    "duration": 4.921
+  },
+  {
+    "text": "over fit possibly on all of this of",
+    "start": 162.0,
+    "duration": 3.54
+  },
+  {
+    "text": "course modern deep neural networks will",
+    "start": 164.16,
+    "duration": 4.2
+  },
+  {
+    "text": "still over fit but it's found that doing",
+    "start": 165.54,
+    "duration": 4.26
+  },
+  {
+    "text": "this kind of data augmentation which",
+    "start": 168.36,
+    "duration": 3.3
+  },
+  {
+    "text": "comes for free it's not additional cost",
+    "start": 169.8,
+    "duration": 4.5
+  },
+  {
+    "text": "for you then why not just try it and you",
+    "start": 171.66,
+    "duration": 5.1
+  },
+  {
+    "text": "would be able to get uh",
+    "start": 174.3,
+    "duration": 5.1
+  },
+  {
+    "text": "a lesser chance of overfitting in this",
+    "start": 176.76,
+    "duration": 5.1
+  },
+  {
+    "text": "case right that's all there is to this",
+    "start": 179.4,
+    "duration": 3.96
+  },
+  {
+    "text": "technique there's nothing more to be",
+    "start": 181.86,
+    "duration": 3.3
+  },
+  {
+    "text": "said here the only intuition here is",
+    "start": 183.36,
+    "duration": 4.019
+  },
+  {
+    "text": "that you have more training data you",
+    "start": 185.16,
+    "duration": 4.799
+  },
+  {
+    "text": "have more variants of the same image and",
+    "start": 187.379,
+    "duration": 3.961
+  },
+  {
+    "text": "all of that you have to be able to",
+    "start": 189.959,
+    "duration": 4.56
+  },
+  {
+    "text": "classify as two so now this chance of",
+    "start": 191.34,
+    "duration": 5.22
+  },
+  {
+    "text": "just memorizing and not understanding",
+    "start": 194.519,
+    "duration": 4.021
+  },
+  {
+    "text": "reduces a bit right that's all that",
+    "start": 196.56,
+    "duration": 4.74
+  },
+  {
+    "text": "happens and this works well for image",
+    "start": 198.54,
+    "duration": 4.619
+  },
+  {
+    "text": "classification object recognition it has",
+    "start": 201.3,
+    "duration": 3.78
+  },
+  {
+    "text": "already also been tried well for speech",
+    "start": 203.159,
+    "duration": 4.141
+  },
+  {
+    "text": "now it has also been tried for text",
+    "start": 205.08,
+    "duration": 3.96
+  },
+  {
+    "text": "there are libraries which allow you to",
+    "start": 207.3,
+    "duration": 4.2
+  },
+  {
+    "text": "do data augmentations but in text it's",
+    "start": 209.04,
+    "duration": 4.26
+  },
+  {
+    "text": "still a bit harder to come up with very",
+    "start": 211.5,
+    "duration": 4.14
+  },
+  {
+    "text": "meaningful augmentations uh the main",
+    "start": 213.3,
+    "duration": 4.079
+  },
+  {
+    "text": "difference is in image and speech you",
+    "start": 215.64,
+    "duration": 3.78
+  },
+  {
+    "text": "have like continuous signals whereas in",
+    "start": 217.379,
+    "duration": 4.44
+  },
+  {
+    "text": "text you have discrete uh you have just",
+    "start": 219.42,
+    "duration": 3.899
+  },
+  {
+    "text": "words whether the speech you have a",
+    "start": 221.819,
+    "duration": 3.241
+  },
+  {
+    "text": "continuous signal similarly in image you",
+    "start": 223.319,
+    "duration": 4.5
+  },
+  {
+    "text": "have these pixels and so on so that's",
+    "start": 225.06,
+    "duration": 4.92
+  },
+  {
+    "text": "the main uh difference but even for text",
+    "start": 227.819,
+    "duration": 3.78
+  },
+  {
+    "text": "nowadays there are certain annotation",
+    "start": 229.98,
+    "duration": 3.539
+  },
+  {
+    "text": "techniques available right so that's all",
+    "start": 231.599,
+    "duration": 3.72
+  },
+  {
+    "text": "to be said about data set augmentation",
+    "start": 233.519,
+    "duration": 4.681
+  },
+  {
+    "text": "the next technique is about parameter",
+    "start": 235.319,
+    "duration": 5.28
+  },
+  {
+    "text": "sharing and tying and we will see this a",
+    "start": 238.2,
+    "duration": 5.16
+  },
+  {
+    "text": "bit more detail when we talk about ah",
+    "start": 240.599,
+    "duration": 4.801
+  },
+  {
+    "text": "convolutional neural networks so in",
+    "start": 243.36,
+    "duration": 4.019
+  },
+  {
+    "text": "convolutional neural networks you have",
+    "start": 245.4,
+    "duration": 4.86
+  },
+  {
+    "text": "if you want to process an image you do",
+    "start": 247.379,
+    "duration": 4.681
+  },
+  {
+    "text": "what is you use what is known as a",
+    "start": 250.26,
+    "duration": 4.14
+  },
+  {
+    "text": "convolutional filter and the same filter",
+    "start": 252.06,
+    "duration": 4.2
+  },
+  {
+    "text": "is applied to different parts of the",
+    "start": 254.4,
+    "duration": 3.72
+  },
+  {
+    "text": "image right so what I'm trying to show",
+    "start": 256.26,
+    "duration": 3.3
+  },
+  {
+    "text": "you here and this is of course become",
+    "start": 258.12,
+    "duration": 2.94
+  },
+  {
+    "text": "much more clear when we do convolutional",
+    "start": 259.56,
+    "duration": 3.419
+  },
+  {
+    "text": "neural networks is that I have a matrix",
+    "start": 261.06,
+    "duration": 3.24
+  },
+  {
+    "text": "you can think of there's a matrix of",
+    "start": 262.979,
+    "duration": 3.481
+  },
+  {
+    "text": "Weights now instead of defining a",
+    "start": 264.3,
+    "duration": 4.44
+  },
+  {
+    "text": "separate Matrix for every part of the",
+    "start": 266.46,
+    "duration": 4.5
+  },
+  {
+    "text": "image I am going to use the same Matrix",
+    "start": 268.74,
+    "duration": 4.019
+  },
+  {
+    "text": "and apply it to different parts of the",
+    "start": 270.96,
+    "duration": 4.019
+  },
+  {
+    "text": "image right so that's the basic idea",
+    "start": 272.759,
+    "duration": 4.141
+  },
+  {
+    "text": "I'll not say anything more at this point",
+    "start": 274.979,
+    "duration": 3.241
+  },
+  {
+    "text": "because you need to understand what",
+    "start": 276.9,
+    "duration": 3.6
+  },
+  {
+    "text": "convolution is and so on and we will see",
+    "start": 278.22,
+    "duration": 4.979
+  },
+  {
+    "text": "this in more detail when we reach there",
+    "start": 280.5,
+    "duration": 7.08
+  },
+  {
+    "text": "right okay and also in the case of Auto",
+    "start": 283.199,
+    "duration": 7.081
+  },
+  {
+    "text": "encoders which we'll see after a few",
+    "start": 287.58,
+    "duration": 4.5
+  },
+  {
+    "text": "lectures is also known as something",
+    "start": 290.28,
+    "duration": 3.66
+  },
+  {
+    "text": "known as weight tying so what you do in",
+    "start": 292.08,
+    "duration": 4.2
+  },
+  {
+    "text": "weight tying is that if you look at this",
+    "start": 293.94,
+    "duration": 4.38
+  },
+  {
+    "text": "suppose this is n dimensional and this",
+    "start": 296.28,
+    "duration": 4.199
+  },
+  {
+    "text": "is D dimensional and this is again n",
+    "start": 298.32,
+    "duration": 4.2
+  },
+  {
+    "text": "dimensional so then the weight Matrix",
+    "start": 300.479,
+    "duration": 4.381
+  },
+  {
+    "text": "that you will have here would be n cross",
+    "start": 302.52,
+    "duration": 4.739
+  },
+  {
+    "text": "T dimensional right and the weight",
+    "start": 304.86,
+    "duration": 3.839
+  },
+  {
+    "text": "Matrix that you will have here would be",
+    "start": 307.259,
+    "duration": 4.581
+  },
+  {
+    "text": "D cross n dimensional",
+    "start": 308.699,
+    "duration": 3.141
+  },
+  {
+    "text": "let's call this p and let's call this Q",
+    "start": 311.88,
+    "duration": 6.0
+  },
+  {
+    "text": "then what you could do is you could say",
+    "start": 315.06,
+    "duration": 5.82
+  },
+  {
+    "text": "that I'll just enforce P transpose equal",
+    "start": 317.88,
+    "duration": 5.58
+  },
+  {
+    "text": "to q that means I'll not have a separate",
+    "start": 320.88,
+    "duration": 5.52
+  },
+  {
+    "text": "P Matrix here I'll just use Q transpose",
+    "start": 323.46,
+    "duration": 6.299
+  },
+  {
+    "text": "and Q transpose is indeed D cross n The",
+    "start": 326.4,
+    "duration": 5.639
+  },
+  {
+    "text": "Matrix that I was looking for so instead",
+    "start": 329.759,
+    "duration": 4.081
+  },
+  {
+    "text": "of having separate weights in these two",
+    "start": 332.039,
+    "duration": 4.081
+  },
+  {
+    "text": "layers I am using the same weight in",
+    "start": 333.84,
+    "duration": 3.6
+  },
+  {
+    "text": "both the layers right so that's called",
+    "start": 336.12,
+    "duration": 3.66
+  },
+  {
+    "text": "weight tying and this is also a common",
+    "start": 337.44,
+    "duration": 5.46
+  },
+  {
+    "text": "way of doing regularization it has also",
+    "start": 339.78,
+    "duration": 4.859
+  },
+  {
+    "text": "been tried in the modern Transformer",
+    "start": 342.9,
+    "duration": 3.48
+  },
+  {
+    "text": "based models where you have eight",
+    "start": 344.639,
+    "duration": 3.241
+  },
+  {
+    "text": "different layers and multiple attention",
+    "start": 346.38,
+    "duration": 4.02
+  },
+  {
+    "text": "heads and you kind of do some parameter",
+    "start": 347.88,
+    "duration": 4.74
+  },
+  {
+    "text": "tying that means you across all the",
+    "start": 350.4,
+    "duration": 3.66
+  },
+  {
+    "text": "layers instead of having a separate",
+    "start": 352.62,
+    "duration": 3.419
+  },
+  {
+    "text": "Matrix of Weights in each of these",
+    "start": 354.06,
+    "duration": 4.26
+  },
+  {
+    "text": "layers you you just reuse the weights",
+    "start": 356.039,
+    "duration": 4.321
+  },
+  {
+    "text": "across all the layers or you share or",
+    "start": 358.32,
+    "duration": 3.54
+  },
+  {
+    "text": "tie the weights across all the layers",
+    "start": 360.36,
+    "duration": 3.66
+  },
+  {
+    "text": "right so this will again become make",
+    "start": 361.86,
+    "duration": 4.38
+  },
+  {
+    "text": "more sense when we do either when we do",
+    "start": 364.02,
+    "duration": 4.2
+  },
+  {
+    "text": "auto encoders or later on when we talk",
+    "start": 366.24,
+    "duration": 4.08
+  },
+  {
+    "text": "about Transformers but for the sake of",
+    "start": 368.22,
+    "duration": 3.6
+  },
+  {
+    "text": "completeness I'm just mentioning it here",
+    "start": 370.32,
+    "duration": 3.68
+  },
+  {
+    "text": "here so you know that these are also",
+    "start": 371.82,
+    "duration": 4.14
+  },
+  {
+    "text": "regularization techniques right and this",
+    "start": 374.0,
+    "duration": 3.46
+  },
+  {
+    "text": "here the regularization in both these",
+    "start": 375.96,
+    "duration": 3.78
+  },
+  {
+    "text": "cases is clear right so here I'm using",
+    "start": 377.46,
+    "duration": 4.44
+  },
+  {
+    "text": "the same weight Matrix that means I am",
+    "start": 379.74,
+    "duration": 4.679
+  },
+  {
+    "text": "not using separate weights that means",
+    "start": 381.9,
+    "duration": 4.32
+  },
+  {
+    "text": "I'm using fewer weights and fewer",
+    "start": 384.419,
+    "duration": 3.481
+  },
+  {
+    "text": "weights means smaller models smaller",
+    "start": 386.22,
+    "duration": 3.72
+  },
+  {
+    "text": "model means smaller complexity and the",
+    "start": 387.9,
+    "duration": 4.139
+  },
+  {
+    "text": "same thing I'm use doing here instead of",
+    "start": 389.94,
+    "duration": 4.379
+  },
+  {
+    "text": "using 2 times the number of Weights that",
+    "start": 392.039,
+    "duration": 4.861
+  },
+  {
+    "text": "I should have used I'm just using uh one",
+    "start": 394.319,
+    "duration": 4.141
+  },
+  {
+    "text": "time that right so I'm just using W",
+    "start": 396.9,
+    "duration": 4.32
+  },
+  {
+    "text": "instead of using two W's so again I'm",
+    "start": 398.46,
+    "duration": 4.44
+  },
+  {
+    "text": "reducing the model complexity right so",
+    "start": 401.22,
+    "duration": 2.94
+  },
+  {
+    "text": "in both these cases it should be clear",
+    "start": 402.9,
+    "duration": 4.079
+  },
+  {
+    "text": "how this is acting as a regularizer so",
+    "start": 404.16,
+    "duration": 7.039
+  },
+  {
+    "text": "I'll end this video here thank you",
+    "start": 406.979,
+    "duration": 4.22
+  }
+]

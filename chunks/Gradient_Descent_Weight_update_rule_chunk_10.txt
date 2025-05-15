@@ -1,0 +1,9 @@
+time step 0. we'll set up some Max iterations we'll initialize W and B randomly and well while we are.
+less than the max iterations we'll just keep doing this uh repeatedly right whatever is the current value of w.
+we're just going to get a new value of w from that by following the gradient descent rule right and.
+we keep doing this for the max number of iterations and by then uh the we should be at a.
+point which is very close to the Minima right that's what's the hope is okay now uh everything in this.
+algorithm is known right I could have actually run this algorithm it's just that I don't know what is Delta.
+W and Delta B is right for so let's see what I've given you the definitions of them right but.
+what is that formula how do I actually compute this the partial derivative of w with respect to the loss.
+function because I have not even told you very clearly what the loss function is in so far in the.

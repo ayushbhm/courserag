@@ -1,0 +1,10 @@
+a network I don't know what the network looks like and the network is going to give me a certain.
+output let me call that g of X so far I've been calling it at F hat of X and.
+is calling in G of X right and I know that there is some true function also such that when.
+I take this input and pass it through the two function I get the output as f of x what.
+I am saying is that what this statement is saying that I can come up with any network I can.
+come up with a network such that the difference between the true output okay this is how I'm quantifying the.
+difference I'm just taking the difference between these two values if these are real numbers I'm just talking about the.
+absolute uh difference uh between those two real numbers right would be less than Epsilon okay so I would be.
+able to approximate it up to the Precision of Epsilon for any of the inputs that are possible I'll pass.
+it through my network I'll get a g of X and I am confident that it will not deviate from.

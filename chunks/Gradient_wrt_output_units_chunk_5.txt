@@ -1,0 +1,9 @@
+there is i'm taking the derivative of one variable with respect to another and they don't depend on each other.
+right so this is very straightforward i have computed the derivative of the loss function with one of the entries.
+here any generic entity here and it would either be zero or one right so how do i write this.
+formally does anyone know that so some of you might have heard of this indicator variable right so what does.
+an indicator variable mean so let me just explain so i am going to write the derivative of l theta.
+with respect to y i and again i repeat i can go from 1 to up to k right is.
+equal to the indicator variable so this one here is the indicator variable i should have written it as this.
+kind of a one okay and what's the condition associated with that i have suffixed something there so it's this.
+is what it looks like i equal to l so what that means is that if i is equal to.

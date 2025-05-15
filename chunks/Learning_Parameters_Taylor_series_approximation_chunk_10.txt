@@ -1,0 +1,9 @@
+is this quantity this is L Dash W naught L Dash W naught is nothing but the first order derivative.
+of the loss function W minus W naught is actually the Delta between that right now what is happening here.
+all this looks very confusing to me so let's just try to draw a line here so what am I.
+doing here right I am the actual function has a curve right it's some it's definitely not a linear function.
+right but I'm approximating that function by a linear function I am saying that in this small neighborhood here right.
+say from this is the small neighborhood in this small neighborhood I'm going to assume that the function is linear.
+right now if the function is linear that means I have assumed that the function is of the form Y.
+is equal to MX plus C okay and I already know y naught which is MX naught plus C right.
+I already know that right and what is uh m m is simply the slope and the slope is just.

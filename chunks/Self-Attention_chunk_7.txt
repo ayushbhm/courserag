@@ -1,0 +1,10 @@
+my E's which are the unnormalized attention weights are just going to be the dot product between q1 and K1.
+Q2 and q1 and K2 q1 and K3 all the way up to q1 and K5 right so as I.
+mentioned here q1 remains fixed and I just keep changing the key that means the word or the representation with.
+which I want to compute the attention right so that keeps changing so I'll get some uh dot products here.
+it should be some real values and the way I'll compute the alphas from that is that I'll just do.
+a soft Max on this Vector right so that's what this equation is saying to compute Alpha so this is.
+e 1 1 this is e one two all the way up to E1 Phi so to compute alpha 1.
+2 I'll just take uh okay my I should have chosen my variables carefully so e raised to e Point.
+2 divided by the summation over all E's right that's what I'll do right so I'm just going to take.
+the soft Max here now once I have taken the soft Max that gives me the alphas but how am.

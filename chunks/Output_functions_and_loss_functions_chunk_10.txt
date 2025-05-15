@@ -1,0 +1,9 @@
+will start doing that so hence that is the reason why it will not learn to predict these high values.
+the only way it can get minimize the loss is by staying within that range the moment it goes very.
+far from that range it will not uh uh the the loss values would become very high and it will.
+be pushed away from those configurations and so the loss will make sure that my values stay in that range.
+but if i chosen the logistic function even if the loss is giving me that signal i can't do much.
+because no matter what happens the logistic function is only going to give me values between 0 to 1. it.
+doesn't matter how i adjust w1 w2 w3 b1 b2 b3 at the end my values are always going to.
+be 0 right hence that wouldn't have worked out okay okay so that's what you would do in the case.
+of regression now the next thing i'm going to do is talk about classification and to understand the loss function.

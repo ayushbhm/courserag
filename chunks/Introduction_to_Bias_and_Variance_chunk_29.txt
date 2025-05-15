@@ -1,0 +1,10 @@
+largely different from each other then I don't know how they'll perform on a test data so let's let's look.
+at what I mean by that right so suppose my model has a very high variance so this is one.
+training data this was the other training data right and I predicted some f hat of X using this training.
+data or estimated some effect of X and now again using this if these two are very different from each.
+other right so now let us assume this was the actual training data given to me then this is what.
+my model would have been right but now if I get a test instance which belongs here then this model.
+will do a bad job on that right because if I had been given this as the training data then.
+my F at X would have been quite different which means the current F at X would not have been.
+very similar to this F hat X and that means if I had a test instance from here this model.
+would perform very bad right whereas if my model has a low variance then irrespective of what training data I.

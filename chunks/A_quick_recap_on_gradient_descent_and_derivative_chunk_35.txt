@@ -1,0 +1,9 @@
+and it is a lot of distance to cover uh to reach the Minima right and you can see that.
+I've already exhausted my 100 iterations it's done I've done with 100 iterations but I have not been able to.
+reach the Minima which would have been somewhere here right so so that did not happen maybe if I ran.
+for 200 300 400 so you can go back and experiment and see how many iterations it takes and this.
+looks a bit frustrating right because you know that you're almost there you just need to run faster and get.
+there right but you're not able to run faster because the derivatives become small right and this will happen this.
+will always happen when you're close to the convergence so when you're close to convergence your surface does not have.
+a very high slope and now we are very very very slowly moving towards the Minima which you don't want.
+to happen right so the problem that you want to solve is that in regions where you have a gentle.

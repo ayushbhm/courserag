@@ -1,0 +1,10 @@
+respect to one of the elements of my output vector right and this is what it turns out to be.
+and now i want to compute the derivative of the loss function with respect to my entire output vector so.
+this is the quantity that i am interested in and i know that is just a collection of these partial.
+derivatives right so it's the derivative with respect to a l 1 a l 2 all the way up to.
+a l k and i know the formula for each of these guys right because this formula is for i.
+any generic i so i can substitute i equal to 1 2 3 so on right so i can just.
+substitute i as the appropriate value here and this is what i'll get right so minus indicator variable l equal.
+to 1 y minus y 1 hat y 2 all the way up to y k so i have just.
+substituted the i by the appropriate index and just expanded the vector right i've written down the full vector now.
+this here is just my y hat vector and this here is just my one hot vector which in which.

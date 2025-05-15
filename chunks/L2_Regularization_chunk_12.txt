@@ -1,0 +1,10 @@
+right so now what I have done here is this quantity has disappeared and this U I have written as.
+W minus W star so wherever I see do I have substituted as W minus W star nothing great again.
+about that and this Delta WL this quantity has disappeared so I'm just left with the first term and this.
+last term here okay that's what my LW looks like where LW uh yeah it's the unregularized loss now let's.
+just look at a few other quantities yeah so now uh this is the uh if I compute the derivative.
+of this right so this is what my LW was now if I compute the derivative of this that's the.
+same as the derivative on the uh of the quantity on the left hand side so I can take the.
+derivative of this quantity and I can just open up the brackets I have derivative of L W Star Plus.
+H into W minus W Star right so this again you can think of this as uh uh x h.
+x right so you are kind of taking the derivative of a quantity which has x square right and the.

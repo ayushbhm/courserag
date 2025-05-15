@@ -1,0 +1,10 @@
+the rest of it also in parallel is the question right so let's see how I can compute the entire.
+output in power right so this is how I can compute the entire output in parallel so what was I.
+doing earlier right so how did I compute uh Z1 so now can I compute the entire output in parallel.
+that means can I compute all the Z's in parallel and yes you can so this is what your Z.
+Matrix would look like again it would have these uh capital T outputs and all of them can be computed.
+in parallel by using this equation how does that make sense so what was what what did I wanted if.
+you remember I had started with this wish list that I had these words I am enjoying blah blah and.
+then I am enjoying blah blah so this was a t cross T Matrix right so I had to compute.
+this T cross T attention Matrix is that what is happening here indeed right so if you remember Q was.
+64 cross T So Q transpose would be T cross 64 and K was T cross 64. oh sorry 64.

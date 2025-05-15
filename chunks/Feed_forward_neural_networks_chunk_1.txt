@@ -1,0 +1,9 @@
+which are much more smoother so we move to the sigmoid neuron right and then for a single sigmoid neuron.
+which are just two weights uh w and b we looked at the gradient descent algorithm for learning these parameters.
+right and then we also spoke about the representation power of a kind of a network of sigmoid neurons right.
+and so we saw that if you have quite many layers in fact the universal approximation theorem said that if.
+you have one non-linear layer then you could approximate any arbitrary function to the desired degree of precision right and.
+we went through that statement we also saw an illustrative proof of what that statement does what that statement uh.
+means and then of course in the proof we had more than one layer but that was just an illustrative.
+proof the formal proof uh which is beyond the scope of this lecture you could prove it in with one.
+layer right but uh it doesn't matter whether we had one or two or three i mean just a small.

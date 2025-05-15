@@ -1,0 +1,10 @@
+the previous layer i multiplied them by the weights and the biases and then i get so this y hat.
+will tell me i can't do anything right whatever these guys gave me i just computed soft max on that.
+and gave you some values so if these guys had given me perfect values then i would also have been.
+perfect so please go and ask them you say okay this is fine that sounds interesting sounds correct that if.
+these guys are not doing the job properly then how will the shaded guide do its problem joint property so.
+you go and talk to these three guys who are these guys w's h and b right so the w.
+and uh b so you ask them what is wrong with you right so the w and b say yeah.
+we understand we have made a mistake because we are the weights we are the only things that can be.
+adjusted in the network and maybe we have not really been adjusted very well so far and hence the output.
+is bad right but then hl says that okay i am also part of this computation but i can't do.

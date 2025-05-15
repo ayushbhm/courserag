@@ -1,0 +1,9 @@
+[Music] so welcome back uh we're now going to talk about the proof of uh convergence right so the idea.
+is that you have some intuition about how this algorithm works so let's now formalize it right whether it will.
+actually converge or not right so i'm going to first state the theorem and before that i'll define something so.
+two sets p and n of points in n-dimensional space are called absolutely linearly separable and i'm just going to.
+read out the definition if n plus 1 real numbers w naught to w 9 exist and you recognize these.
+numbers or these variables as the weights that i want right so that's what i want to find so of.
+course the definition will contain these ways right so if such numbers exist such that for every point right and.
+remember the points are themselves vectors right so this is oops a vector x 1 to x n belonging to.
+p so every vector belonging to p satisfies this condition and similarly every vector belonging to n satisfies the other.

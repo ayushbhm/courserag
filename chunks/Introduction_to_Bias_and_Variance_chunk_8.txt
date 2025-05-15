@@ -1,0 +1,10 @@
+would have just assumed something so in both cases we are making an approximation ah now ah the training data.
+that is given to me it contains some 500 points right so I have been given some 500 x comma.
+y pairs which I have been given some 500 of these X comma y Pairs and using these I have.
+my job is to learn W1 W naught or these 26 parameters depending on which model I am going to.
+choose right so that's the setup so now we are going to uh sample sum actually not 500 I think.
+it should have been 100 points or here so I was maybe given okay let's assume a bit differently let's.
+assume that I was given some 500 points and I'm going to sample randomly pick up some 400 or 300.
+points from this and train a simple and a complex Point model I am going to repeat this process K.
+times what does that mean that this is what I mean by that right so in this model let us.
+try to understand what my full procedure looks like right so I have my loss as I equal to 1.

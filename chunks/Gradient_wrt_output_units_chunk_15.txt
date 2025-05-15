@@ -1,0 +1,10 @@
+on all the a's right so i it's not going to be the case of 1 in some cases and.
+0 in other cases right that the derivative is 0 in some cases and not 0 in some cases the.
+derivative would always exist now this is a derivative of the form derivative of the form of log of a.
+quantity with respect to a variable and that quantity depends on that variable so this would just be uh 1.
+by y hat l my 1 by y hat l and then the derivative of y hat l with respect.
+to a li right so this is just the chain rule applied right so this if you have derivative of.
+log of x square with respect to x right then you will first write it as 1 by x square.
+and the derivative of x square with respect to x so the same thing is happening here here now instead.
+of x and x squared which is very straightforward i have a l i and i have y hat and.
+just as x square is a function of x y hat is a function of a l i so the.

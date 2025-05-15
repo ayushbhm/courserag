@@ -1,0 +1,9 @@
+because you're taking the inputs now once you have done the forward propagation you do the backward propagation so once.
+you have done the forward propagation you compute y hat you also know y right so using that you can.
+compute the loss function okay loss function depends on y hat and Y and you will need all of these.
+things right they were showing up in the back propagation formula that you had seen right so we will see.
+that again so all of these quantities you will need right so everything that you have computed in the forward.
+propagation you will need it in the backward propagation also and what is the output of the backward propagation it's.
+the derivative of the loss function with respect to all the weights in the network and I'm just collectively calling.
+it as a derivative of the loss function with respect to Theta whereas the Theta is a large collection of.
+Weights once you have that you can just update the weights using the gradient descent update right so now let's.

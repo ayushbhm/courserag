@@ -1,0 +1,10 @@
+can write F of uh I can write this quantity okay let me just draw the other one so so.
+I can write this quantity okay you ignore the X here because this x corresponds to this x right so.
+this quantity P of X less than or equal to is given by this nasty formula without this x right.
+and then I can just multiply it by X to get the formula that I have here another approximation of.
+it is this right so it can also be given as X into Sigma of 1.702 X and I've drawn.
+both these formula here and you can see that they are very close to each other and look like the.
+CDF of the normal distribution right so that's why effectively uh the gelu activation function turns out to be f.
+of x is equal to X into Sigma of 1.702 X quite a weird function but well motivated right so.
+this formula if I just give you you don't you won't understand where it came from but now you from.
+this derivation you understand that it's multiplying the CDF value with the X itself and the CD F value there.

@@ -1,0 +1,9 @@
+toy example aside right the simple thing is this right so I'm asking you to go from place a to.
+place B but I am saying that hey certain types of turns are not allowed if you're not allowed to.
+take certain times of turns and you are restricted only to some types of turns then you are going to.
+take more time right so that's the main idea and that is happening because sigmoids are not zero centered hence.
+we get all values as positive hence this negative positive combination is not possible in the uh directions that you.
+choose to move in right and lastly of course sigmoids are computationally expensive because you have the exponent to compute.
+because there are faster ways of computing it but still it's a computation that you need to do right so.
+that's the other reason so that is all about the sigmoid neurons and why they are not the most convenient.
+activation function so then ah because of these limitations right so at some point uh so now because of these.

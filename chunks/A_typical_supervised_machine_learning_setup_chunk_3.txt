@@ -1,0 +1,10 @@
+do it for some thousand iterations for a fixed k i'll do it so what do you expect would happen.
+at the end it could draw some line right now there many lines possible you could draw this draw this.
+or this many things right so what do you think is a line a possible line here that it would.
+end up with if i just run the perceptron algorithm just think about it okay i don't i mean it's.
+hard for you to tell me what you're thinking but just think about it and then when i show you.
+the answer just see whether you are in agreement with that sorry somewhere in the middle of the data and.
+uh we all understand what he means by middle of the data right so let's see so this is what.
+it would do in the upper case right where most points are i mean some there are errors i mean.
+there's that's a hard problem given it cannot really separate by a linear boundary but it'll draw some boundary right.
+in the second case also it will draw some boundary and here the situation is better as you can see.

@@ -1,0 +1,9 @@
+cross V to give you a v dimensional output and then you apply a soft Max on that to give.
+you the distribution over the vocabulary and then pick the arc Max from there to feed it as the input.
+for the next time step right so that's what happens at the output layer right so we have seen the.
+full encoder decoder we have seen all the blocks within an encoder layer so the encoder has many layers each.
+layer is again composed of sub layers so you have the multi-added self attention and the feed forward neural network.
+the decoder again has many layers each layer is composed of sub layers and you have three sub layers here.
+the self attention within the decoder the cross attention between the encoder and the decoder then the feed power Network.
+and one key uh property or key difference in the decoder is that when you're looking at the inputs you.
+only look at whatever has been decoded so far that's why you need to do this masking so that the.

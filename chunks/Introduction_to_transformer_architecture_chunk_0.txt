@@ -1,0 +1,8 @@
+foreign [Music] ERS so we'll do an introduction to Transformers and compare them largely with the recurrent neural networks which.
+was the previous dominant set of models in various applications in NLP as well as a few Vision applications like.
+image captioning and so on right and now a lot of them have been replaced by Transformers so that's what.
+we're going to talk about today so to uh motivated what what is the content today going to look like.
+right so we have seen three types of architectures in this course one was the feed forward neural networks then.
+the convolutional neural networks and then recurrent neural networks right and in each of this we saw the building block.
+and then once we knew understood the building block properly we could Envision deep wide networks right so in the.
+case of feed forward neural networks the building block was essentially this sigmoid neuron right or any non-linear neuron which.

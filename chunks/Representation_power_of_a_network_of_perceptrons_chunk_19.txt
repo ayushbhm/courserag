@@ -1,0 +1,9 @@
+conditions right so note that this network which has 2 raised to n plus 1 perceptrons 2 raised to n.
+in the middle layer and 1 in the output layer is not necessary but sufficient all this is saying that.
+you have you if you have 2 raised to n plus 1 you can implement it but we have already.
+seen that the and function can be implemented by a single perceptron so you don't really need 2 raise to.
+n plus 1 perceptrons right and the catch here is of course while this theorem looks interesting is that as.
+n increases even if it becomes 10 20 100 also it becomes unmanageable right because you'll have 2 raised to.
+100 neurons which is obviously going to be very large right so this increases exponentially so we'll have to see.
+our way of coming back from here right coming back from this exponential situation but for now we are happy.
+that we can even though even if there are boolean functions which are not linearly separable which a single perceptron.

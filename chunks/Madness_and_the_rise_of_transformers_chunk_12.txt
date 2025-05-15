@@ -1,0 +1,9 @@
+google for uh examples from gp33 or something and like you could just type a prompt right you could type.
+a prompt of a famous personality i want to have a chat with you about the first computer right and.
+it will generate a very coherent conversation based on this prompt or you just give it a newspaper headline and.
+it will generate a very coherent one or two paragraphs of articles which is of an article which is in.
+line with the headlines right so we've come a long way in terms of our generation capabilities if you look.
+at where we were in 1954 where we had a simple system which had a few grammar rules and could.
+translate a few sentences between english and russian now we have these really large uh billion parameter models and we.
+have even moved past the billion parameter era right so this is the billion parameter club where as you can.
+see from uh 2018 onwards 2018 to 2020 right i mean just look at elmo at one end which is.

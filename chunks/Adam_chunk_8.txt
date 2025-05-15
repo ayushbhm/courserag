@@ -1,0 +1,9 @@
+this current value of the gradient right so instead of just looking at the current gradient I would have ideally.
+wanted to look at the expected value right so remember that our true gradient is actually a sum over all.
+the data points that we have right but here we are going to do mini batch or some such version.
+and say we are doing stochastic in the worst case right we are just looking at one data point then.
+I don't want to make decisions based on this one data point but I would like to be closer to.
+the mean of the gradients or the expected value of the gradients right and this exponentially weighted average is also.
+trying to capture some kind of an average right now the question is whether this exponentially weighted average is close.
+to the expected value of the gradient right because I am taking a average and exponentially moving average is that.
+close to the expected value because ideally I would wanted the expected value because that would tell me over all.

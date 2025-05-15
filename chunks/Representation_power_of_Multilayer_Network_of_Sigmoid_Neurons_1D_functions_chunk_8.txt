@@ -1,0 +1,9 @@
+about a single hidden layer right and one of the things that maybe you will see through an assignment or.
+in a quiz or something is that you if you had one more layer then you could reduce the number.
+of neurons in each layer right so from exponential it will fall down to something which is linear which is.
+manageable right so that is a separate topic but right now remember we are talking about this constraint case where.
+we are saying only a single hidden layer okay so that's what we want to be able to uh prove.
+right and this is the famous uh Universal approximation theorem and the actual proof would be a bit difficult but.
+what I'm going to show you is an illustrative proof which would be good enough just as we had seen.
+approved by construction it was actually an illustrative proof I just constructed a network and convinced you that this statement.
+is true I'm going to do something similar here right and whatever I'm going to do here is based on.

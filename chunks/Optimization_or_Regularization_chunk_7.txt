@@ -1,0 +1,8 @@
+it is helping in optimization and if you can improve the optimization then you can train large neural networks so.
+hey let's focus on designing better and better methods of optimization on supervised pre-training is one such method but what.
+what are the other possibilities there now let us look at the other view here right sorry this should have.
+been generalization we already saw it should have been regularization right so does it is it because of better regularization.
+some people try to argue that too and let's see what that argument was right so what does regularization actually.
+do it constrains the weights to lies within certain regions of the parameter space right we saw this when we.
+were doing L2 regularization that it constrains the weights to dry in some circle right because you are not allowing.
+the magnitude to grow beyond that that means only those weight configurations which lie on this circle are possible or.

@@ -1,0 +1,10 @@
+i've just introduced a new notation for the vector e right okay ah so so far so good right so.
+what have we been able to do so far remember that this was h3 this part was h3 which was.
+the same as y hat sorry i should have written h 3 in the suffix right so i have the.
+derivative of the loss function with respect to y hat but that is not the quantity that i was interested.
+in i was interested in the derivative of the loss function with respect to a 3 right or a l.
+because l equal to 3 in this case right so that i have not done yet but what i have.
+done the reason i did this part was to give you the uh give you like with help of a.
+smaller example right try to explain how this entire discussion is going to go what did we do we first.
+computed the partial derivative with respect to one of the elements so we were actually interested in the partial in.
+the gradient with respect to the entire vector but we didn't go there directly we first computed the partial derivative.

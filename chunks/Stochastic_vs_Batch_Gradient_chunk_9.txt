@@ -1,0 +1,9 @@
+heads is so a thousand may have been okay right similarly what you could do is that waiting for all.
+the million data points to get over before you make update is bad making an update after one data point.
+is also bad but some there in between maybe making an update after looking at 100 data points right so.
+instead of computing the average as 1 by n summation I equal to 1 by n and then the loss.
+value right instead of that maybe instead of using n equal to 1 million or all the training points I.
+could use n equal to 100 and that might give me a fair approximation right so that's the idea that.
+we'll head towards so while one approximating from one point really looks bad we need not do that that's only.
+for illustrating uh the concept right so I'll do that and once you do that whether you approximate from one.
+point ten point or 100 points as long as you're not using all the data points you are in trouble.

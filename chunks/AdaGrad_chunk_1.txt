@@ -1,0 +1,10 @@
+updates so let me at least move a bit aggressively in those update directions right so that's what uh kind.
+of is the intuition behind the update rule for Ada grad what I'm going to do is I'm going to.
+maintain the history of the updates that I am making right okay so now let me try to explain what.
+is happening here so now I am taking a running some of the history of the update so it's this.
+Delta WT tells me uh what was the update that I've made or what was my gradients right and this.
+is a running sum at every time step I am adding the current uh derivative and the square of it.
+right so I'm just taking the uh squared derivative and keeping it as the history so it tells me the.
+magnitude of the updates that I have done so far and then what I'm doing is I am taking the.
+learning rate and I'm dividing it by this history so what will happen is if they have a feature which.
+is very dense and which has got a lot of updates then this history keeps increasing right because you are.

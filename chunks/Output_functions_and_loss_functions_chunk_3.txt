@@ -1,0 +1,9 @@
+squared error loss function right so you have three values that you're predicting for each of these values you calculate.
+the square of the difference between the true value and the predicted value you sum it over all the n.
+training examples that you have and then take the mean or the average so this is the mean squared error.
+that you would compute so this we have already seen it when you're trying to predict real values it's best.
+to take the squared error loss because it computes the deviation between the true value and the captured value right.
+now a related question here should be what should the output function be right so you have the output function.
+sitting here right so this dark green guy is the output right and i'm taking a3 and i'm going to.
+pass it through some output function and that is going to give me uh the output y hat which is.
+shown as the dark or the shaded green part here right so what should my output function be right so.

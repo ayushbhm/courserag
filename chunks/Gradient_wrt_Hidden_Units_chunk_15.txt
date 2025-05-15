@@ -1,0 +1,9 @@
+these are two vectors that I have I have still not shown why I came from here to here right.
+that will become clear in a while why did I start discussing about these two just assume that these two.
+are the vectors given to you right now what is the uh dot product of these two vectors going to.
+be I'm going to take the dot product of these two vectors so it's going to be this multiplied by.
+this this multiplied by this all the way up to this multiplied by this and the summation of those right.
+so they are going to be K terms in the summation and every term in the summation is going to.
+look like the product of these two quantities right so this quantity that you have here is essentially the dot.
+product between the jth column of the W of the weight vector and this gradient Vector which you had already.
+computed right so that's all it says this is the same formula that I have here and again this is.

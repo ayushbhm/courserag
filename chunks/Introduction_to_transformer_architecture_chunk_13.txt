@@ -1,0 +1,9 @@
+output of the encoder which is these five vectors in this case in general it would be capital T vectors.
+where T is the length of my input sequence right so that's what I'll have now once I have these.
+the I'll feed these as input to the attention mechanism right and this is what the attention mechanism does at.
+every point it now feeds a contextual representation to the decoder so it will just compute uh what is the.
+most important word at this point right so you start okay go start Computing the output or start building the.
+output so it will just take a weighted representation of all the inputs to compute the contextual representation which is.
+just going to be like a attention weighted uh some of the inputs right so that's what it's going to.
+be so I have these Alphas coming in here so for some reason the animations are showing up very slowly.
+yeah so I have these Alphas showing up here and then I take a weighted sum and I compute this.

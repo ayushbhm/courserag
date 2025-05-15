@@ -1,0 +1,2307 @@
+[
+  {
+    "text": "foreign",
+    "start": 0.299,
+    "duration": 3.0
+  },
+  {
+    "text": "[Music]",
+    "start": 6.6,
+    "duration": 3.75
+  },
+  {
+    "text": "ER and we start looking at the decoder",
+    "start": 19.16,
+    "duration": 6.039
+  },
+  {
+    "text": "right so the decoder of course operates",
+    "start": 22.439,
+    "duration": 5.641
+  },
+  {
+    "text": "in the sequence here it will operate",
+    "start": 25.199,
+    "duration": 4.561
+  },
+  {
+    "text": "sequentially because it generates one",
+    "start": 28.08,
+    "duration": 4.019
+  },
+  {
+    "text": "output then that output feeds in as the",
+    "start": 29.76,
+    "duration": 4.08
+  },
+  {
+    "text": "input while generating the next output",
+    "start": 32.099,
+    "duration": 4.381
+  },
+  {
+    "text": "and so on right so now what does the",
+    "start": 33.84,
+    "duration": 4.62
+  },
+  {
+    "text": "decoder look like right so the decoder",
+    "start": 36.48,
+    "duration": 4.62
+  },
+  {
+    "text": "of course takes input from the encoder",
+    "start": 38.46,
+    "duration": 4.619
+  },
+  {
+    "text": "also so as I said the output of the",
+    "start": 41.1,
+    "duration": 5.94
+  },
+  {
+    "text": "encoder is E1 up to e t right this layer",
+    "start": 43.079,
+    "duration": 5.881
+  },
+  {
+    "text": "so this is of course fed as the decode",
+    "start": 47.04,
+    "duration": 3.3
+  },
+  {
+    "text": "right because the decoder needs the",
+    "start": 48.96,
+    "duration": 4.02
+  },
+  {
+    "text": "context of what the input was what is it",
+    "start": 50.34,
+    "duration": 4.379
+  },
+  {
+    "text": "translating right so that contextual",
+    "start": 52.98,
+    "duration": 3.899
+  },
+  {
+    "text": "representation you have captured at the",
+    "start": 54.719,
+    "duration": 3.901
+  },
+  {
+    "text": "last layer and that you feed to the",
+    "start": 56.879,
+    "duration": 3.421
+  },
+  {
+    "text": "decoder so the decoder is going to get",
+    "start": 58.62,
+    "duration": 4.38
+  },
+  {
+    "text": "inputs from the encoder it's also going",
+    "start": 60.3,
+    "duration": 4.8
+  },
+  {
+    "text": "to have his self inputs right which is",
+    "start": 63.0,
+    "duration": 4.439
+  },
+  {
+    "text": "the inputs of the words that have been",
+    "start": 65.1,
+    "duration": 4.44
+  },
+  {
+    "text": "decoded so far right so it'll have these",
+    "start": 67.439,
+    "duration": 4.86
+  },
+  {
+    "text": "two types of inputs and let's see how it",
+    "start": 69.54,
+    "duration": 7.52
+  },
+  {
+    "text": "deals with these two types of right so",
+    "start": 72.299,
+    "duration": 4.761
+  },
+  {
+    "text": "so what would be the output Dimension",
+    "start": 81.96,
+    "duration": 4.08
+  },
+  {
+    "text": "right so let's first look at that too so",
+    "start": 84.24,
+    "duration": 3.48
+  },
+  {
+    "text": "we know what the inputs are now we look",
+    "start": 86.04,
+    "duration": 4.259
+  },
+  {
+    "text": "at the output so the output and what do",
+    "start": 87.72,
+    "duration": 3.96
+  },
+  {
+    "text": "I need to generate at the output again",
+    "start": 90.299,
+    "duration": 3.121
+  },
+  {
+    "text": "this is not new to you we have already",
+    "start": 91.68,
+    "duration": 4.799
+  },
+  {
+    "text": "seen this in the context of rnns so each",
+    "start": 93.42,
+    "duration": 5.76
+  },
+  {
+    "text": "output here would tell you a probability",
+    "start": 96.479,
+    "duration": 5.46
+  },
+  {
+    "text": "distribution over the vocabulary right",
+    "start": 99.18,
+    "duration": 5.16
+  },
+  {
+    "text": "and you will take the arc Max from there",
+    "start": 101.939,
+    "duration": 3.661
+  },
+  {
+    "text": "right so you would want that if there",
+    "start": 104.34,
+    "duration": 3.0
+  },
+  {
+    "text": "are 37 000 words so that's what the",
+    "start": 105.6,
+    "duration": 4.5
+  },
+  {
+    "text": "number 37 000 is then you'll get the",
+    "start": 107.34,
+    "duration": 4.559
+  },
+  {
+    "text": "probability of each of these 37 000",
+    "start": 110.1,
+    "duration": 4.799
+  },
+  {
+    "text": "tokens and hopefully uh at the first",
+    "start": 111.899,
+    "duration": 6.301
+  },
+  {
+    "text": "position uh this should have been go",
+    "start": 114.899,
+    "duration": 4.68
+  },
+  {
+    "text": "actually right so let's assume there is",
+    "start": 118.2,
+    "duration": 4.26
+  },
+  {
+    "text": "a go input here and this is the first",
+    "start": 119.579,
+    "duration": 5.161
+  },
+  {
+    "text": "position so you hope that at the first",
+    "start": 122.46,
+    "duration": 4.92
+  },
+  {
+    "text": "position Nan has the maximum uh",
+    "start": 124.74,
+    "duration": 3.9
+  },
+  {
+    "text": "probability because that's the correct",
+    "start": 127.38,
+    "duration": 3.26
+  },
+  {
+    "text": "translation then at the second position",
+    "start": 128.64,
+    "duration": 3.959
+  },
+  {
+    "text": "Transformer has the right probability",
+    "start": 130.64,
+    "duration": 3.16
+  },
+  {
+    "text": "because that's the correct translation",
+    "start": 132.599,
+    "duration": 4.261
+  },
+  {
+    "text": "and so on like you continue uh like that",
+    "start": 133.8,
+    "duration": 5.82
+  },
+  {
+    "text": "till you produce stop uh at the last",
+    "start": 136.86,
+    "duration": 5.58
+  },
+  {
+    "text": "position right so your output is uh",
+    "start": 139.62,
+    "duration": 5.16
+  },
+  {
+    "text": "probability distribution over the entire",
+    "start": 142.44,
+    "duration": 4.14
+  },
+  {
+    "text": "vocabulary hence the output Dimension is",
+    "start": 144.78,
+    "duration": 4.8
+  },
+  {
+    "text": "one cross 37 000 where 37 000 is the",
+    "start": 146.58,
+    "duration": 5.04
+  },
+  {
+    "text": "size of the vocabulary so in general I",
+    "start": 149.58,
+    "duration": 4.2
+  },
+  {
+    "text": "should just say it is of size V right",
+    "start": 151.62,
+    "duration": 5.54
+  },
+  {
+    "text": "that's what I should have said",
+    "start": 153.78,
+    "duration": 3.38
+  },
+  {
+    "text": "so now we understand what the inputs and",
+    "start": 157.98,
+    "duration": 4.56
+  },
+  {
+    "text": "outputs for the decoder are so now let's",
+    "start": 160.26,
+    "duration": 4.38
+  },
+  {
+    "text": "just zoom into what the decoder actually",
+    "start": 162.54,
+    "duration": 4.32
+  },
+  {
+    "text": "contains right so just like the encoder",
+    "start": 164.64,
+    "duration": 4.02
+  },
+  {
+    "text": "the decoder would also be a",
+    "start": 166.86,
+    "duration": 4.379
+  },
+  {
+    "text": "multi-layered network so it would have",
+    "start": 168.66,
+    "duration": 6.359
+  },
+  {
+    "text": "say typically 6 to 12 8 any I mean",
+    "start": 171.239,
+    "duration": 6.0
+  },
+  {
+    "text": "depending on the kind of uh training",
+    "start": 175.019,
+    "duration": 3.481
+  },
+  {
+    "text": "data you have the amount of training",
+    "start": 177.239,
+    "duration": 2.761
+  },
+  {
+    "text": "data you have the kind of problem that",
+    "start": 178.5,
+    "duration": 3.36
+  },
+  {
+    "text": "you're dealing with you would have any",
+    "start": 180.0,
+    "duration": 4.5
+  },
+  {
+    "text": "number of layers but the most basic ones",
+    "start": 181.86,
+    "duration": 5.4
+  },
+  {
+    "text": "have six eight or twelve layers right so",
+    "start": 184.5,
+    "duration": 4.26
+  },
+  {
+    "text": "there are 12 layers of processing",
+    "start": 187.26,
+    "duration": 3.5
+  },
+  {
+    "text": "happening and just as in the case of",
+    "start": 188.76,
+    "duration": 5.52
+  },
+  {
+    "text": "encoder each of these layers has an",
+    "start": 190.76,
+    "duration": 5.32
+  },
+  {
+    "text": "identical structure right so whatever is",
+    "start": 194.28,
+    "duration": 4.08
+  },
+  {
+    "text": "happening within a layer is the same is",
+    "start": 196.08,
+    "duration": 3.96
+  },
+  {
+    "text": "just that the output of one layer acts",
+    "start": 198.36,
+    "duration": 2.94
+  },
+  {
+    "text": "as the input to the next layer right so",
+    "start": 200.04,
+    "duration": 2.52
+  },
+  {
+    "text": "that's the same as what we had in the",
+    "start": 201.3,
+    "duration": 3.18
+  },
+  {
+    "text": "encoder but now what we need to look at",
+    "start": 202.56,
+    "duration": 4.259
+  },
+  {
+    "text": "is what is inside each of these layers",
+    "start": 204.48,
+    "duration": 4.86
+  },
+  {
+    "text": "right that's what we need to understand",
+    "start": 206.819,
+    "duration": 5.101
+  },
+  {
+    "text": "so let's zoom into one such layer so you",
+    "start": 209.34,
+    "duration": 6.2
+  },
+  {
+    "text": "will have the inputs so these are the uh",
+    "start": 211.92,
+    "duration": 6.84
+  },
+  {
+    "text": "small H number of time steps which have",
+    "start": 215.54,
+    "duration": 6.1
+  },
+  {
+    "text": "been decoded so far right all the inputs",
+    "start": 218.76,
+    "duration": 4.5
+  },
+  {
+    "text": "have not been available because whatever",
+    "start": 221.64,
+    "duration": 3.659
+  },
+  {
+    "text": "has been decoded that comes in as input",
+    "start": 223.26,
+    "duration": 4.38
+  },
+  {
+    "text": "so whatever how many steps have been",
+    "start": 225.299,
+    "duration": 4.261
+  },
+  {
+    "text": "decoded so far only that many inputs",
+    "start": 227.64,
+    "duration": 3.78
+  },
+  {
+    "text": "would exist right then you have",
+    "start": 229.56,
+    "duration": 4.259
+  },
+  {
+    "text": "something known as the Mast multi-head",
+    "start": 231.42,
+    "duration": 6.599
+  },
+  {
+    "text": "self attention right uh so there's this",
+    "start": 233.819,
+    "duration": 6.301
+  },
+  {
+    "text": "Mast word which has been introduced here",
+    "start": 238.019,
+    "duration": 6.0
+  },
+  {
+    "text": "okay then again at the output",
+    "start": 240.12,
+    "duration": 5.699
+  },
+  {
+    "text": "of one layer you have the feed power",
+    "start": 244.019,
+    "duration": 3.481
+  },
+  {
+    "text": "Network so this as I said is the same",
+    "start": 245.819,
+    "duration": 4.56
+  },
+  {
+    "text": "exactly the same as what we saw earlier",
+    "start": 247.5,
+    "duration": 4.2
+  },
+  {
+    "text": "right so again the same thing is going",
+    "start": 250.379,
+    "duration": 3.241
+  },
+  {
+    "text": "to happen here you would have these",
+    "start": 251.7,
+    "duration": 5.52
+  },
+  {
+    "text": "inputs H1 up to h capital T right which",
+    "start": 253.62,
+    "duration": 5.28
+  },
+  {
+    "text": "would give you some intermediate outputs",
+    "start": 257.22,
+    "duration": 4.62
+  },
+  {
+    "text": "S1 S2 up to St and maybe there's some",
+    "start": 258.9,
+    "duration": 4.26
+  },
+  {
+    "text": "space here maybe something else would",
+    "start": 261.84,
+    "duration": 3.66
+  },
+  {
+    "text": "come uh so maybe you'll get some other",
+    "start": 263.16,
+    "duration": 6.06
+  },
+  {
+    "text": "outputs uh let me call them M1 M2 up to",
+    "start": 265.5,
+    "duration": 6.0
+  },
+  {
+    "text": "NT and then finally all of that will",
+    "start": 269.22,
+    "duration": 4.32
+  },
+  {
+    "text": "pass to the feed forward Network and you",
+    "start": 271.5,
+    "duration": 5.52
+  },
+  {
+    "text": "will get the outputs Z1 Z2 up to set T",
+    "start": 273.54,
+    "duration": 5.52
+  },
+  {
+    "text": "right and then this process will repeat",
+    "start": 277.02,
+    "duration": 4.92
+  },
+  {
+    "text": "across layers and in the final layer you",
+    "start": 279.06,
+    "duration": 4.98
+  },
+  {
+    "text": "will have the output projection to a",
+    "start": 281.94,
+    "duration": 3.66
+  },
+  {
+    "text": "soft Max layer right you'll have a soft",
+    "start": 284.04,
+    "duration": 2.82
+  },
+  {
+    "text": "Max layer which would predict a",
+    "start": 285.6,
+    "duration": 3.18
+  },
+  {
+    "text": "probability distribution over the",
+    "start": 286.86,
+    "duration": 3.66
+  },
+  {
+    "text": "vocabulary which will hopefully Peak at",
+    "start": 288.78,
+    "duration": 3.96
+  },
+  {
+    "text": "the right word right so this is what is",
+    "start": 290.52,
+    "duration": 4.86
+  },
+  {
+    "text": "happening here so",
+    "start": 292.74,
+    "duration": 4.8
+  },
+  {
+    "text": "I need to explain what is this mask and",
+    "start": 295.38,
+    "duration": 3.9
+  },
+  {
+    "text": "what is happening in between here right",
+    "start": 297.54,
+    "duration": 3.18
+  },
+  {
+    "text": "so these are the two things that I want",
+    "start": 299.28,
+    "duration": 3.479
+  },
+  {
+    "text": "to explain which are different than what",
+    "start": 300.72,
+    "duration": 6.06
+  },
+  {
+    "text": "happens in the encoder right uh yeah so",
+    "start": 302.759,
+    "duration": 6.301
+  },
+  {
+    "text": "this is what happens so you have the",
+    "start": 306.78,
+    "duration": 4.32
+  },
+  {
+    "text": "encoder inputs coming right those were",
+    "start": 309.06,
+    "duration": 4.139
+  },
+  {
+    "text": "the E's right so in addition it's of its",
+    "start": 311.1,
+    "duration": 4.319
+  },
+  {
+    "text": "own inputs which is the self part it",
+    "start": 313.199,
+    "duration": 4.56
+  },
+  {
+    "text": "also gets inputs from the encoder and",
+    "start": 315.419,
+    "duration": 3.901
+  },
+  {
+    "text": "helps you have a multi-headed cross",
+    "start": 317.759,
+    "duration": 3.241
+  },
+  {
+    "text": "attention right cross because this is",
+    "start": 319.32,
+    "duration": 3.54
+  },
+  {
+    "text": "between the encoder and the decoder",
+    "start": 321.0,
+    "duration": 3.539
+  },
+  {
+    "text": "hence you have the cross attention layer",
+    "start": 322.86,
+    "duration": 3.179
+  },
+  {
+    "text": "then the output of the Cross attention",
+    "start": 324.539,
+    "duration": 2.88
+  },
+  {
+    "text": "layer goes to the feed forward Network",
+    "start": 326.039,
+    "duration": 3.72
+  },
+  {
+    "text": "right so again I will repeat this as",
+    "start": 327.419,
+    "duration": 5.101
+  },
+  {
+    "text": "many times as required at every stage",
+    "start": 329.759,
+    "duration": 5.401
+  },
+  {
+    "text": "you have I should not call it t but say",
+    "start": 332.52,
+    "duration": 4.26
+  },
+  {
+    "text": "suppose Capital T1 right because the",
+    "start": 335.16,
+    "duration": 3.84
+  },
+  {
+    "text": "number of words in the input may be",
+    "start": 336.78,
+    "duration": 3.6
+  },
+  {
+    "text": "different for the number of words in the",
+    "start": 339.0,
+    "duration": 2.82
+  },
+  {
+    "text": "output right in Source language you",
+    "start": 340.38,
+    "duration": 2.7
+  },
+  {
+    "text": "might have six words in target language",
+    "start": 341.82,
+    "duration": 2.76
+  },
+  {
+    "text": "you might have eight words to say the",
+    "start": 343.08,
+    "duration": 3.54
+  },
+  {
+    "text": "same thing so you'll have Capital T1",
+    "start": 344.58,
+    "duration": 5.1
+  },
+  {
+    "text": "inputs here again at this point Capital",
+    "start": 346.62,
+    "duration": 5.22
+  },
+  {
+    "text": "T1 intermediate representations would be",
+    "start": 349.68,
+    "duration": 4.2
+  },
+  {
+    "text": "computed again here Capital T1",
+    "start": 351.84,
+    "duration": 3.359
+  },
+  {
+    "text": "intermediate representations would be",
+    "start": 353.88,
+    "duration": 3.78
+  },
+  {
+    "text": "computed and then again here Capital T1",
+    "start": 355.199,
+    "duration": 4.201
+  },
+  {
+    "text": "output representations would be computed",
+    "start": 357.66,
+    "duration": 5.52
+  },
+  {
+    "text": "this is one layer then these T1 outputs",
+    "start": 359.4,
+    "duration": 5.16
+  },
+  {
+    "text": "would feed to the next layer and again",
+    "start": 363.18,
+    "duration": 3.54
+  },
+  {
+    "text": "the same processing would app right and",
+    "start": 364.56,
+    "duration": 4.199
+  },
+  {
+    "text": "all of this this entire block is",
+    "start": 366.72,
+    "duration": 4.14
+  },
+  {
+    "text": "happening in parallel right all these",
+    "start": 368.759,
+    "duration": 4.021
+  },
+  {
+    "text": "computations are happening in parallel",
+    "start": 370.86,
+    "duration": 3.6
+  },
+  {
+    "text": "of course like what I mean by that is",
+    "start": 372.78,
+    "duration": 3.419
+  },
+  {
+    "text": "all these T1 outputs are getting",
+    "start": 374.46,
+    "duration": 4.079
+  },
+  {
+    "text": "computed in parallel then all these T1",
+    "start": 376.199,
+    "duration": 3.84
+  },
+  {
+    "text": "outputs are getting computed in parallel",
+    "start": 378.539,
+    "duration": 3.061
+  },
+  {
+    "text": "then all these T1 outputs are getting",
+    "start": 380.039,
+    "duration": 3.961
+  },
+  {
+    "text": "computers right so now what is this Mast",
+    "start": 381.6,
+    "duration": 4.56
+  },
+  {
+    "text": "and what is the multi-head cross",
+    "start": 384.0,
+    "duration": 3.9
+  },
+  {
+    "text": "attention these are the two things that",
+    "start": 386.16,
+    "duration": 3.84
+  },
+  {
+    "text": "we need to understand okay so now we'll",
+    "start": 387.9,
+    "duration": 5.96
+  },
+  {
+    "text": "try to understand uh what this uh",
+    "start": 390.0,
+    "duration": 7.56
+  },
+  {
+    "text": "uh the Mast self-attention and the",
+    "start": 393.86,
+    "duration": 5.8
+  },
+  {
+    "text": "multi-headed cross attention looks like",
+    "start": 397.56,
+    "duration": 4.74
+  },
+  {
+    "text": "right so we have these inputs so we'll",
+    "start": 399.66,
+    "duration": 4.8
+  },
+  {
+    "text": "assume right in any case now one",
+    "start": 402.3,
+    "duration": 4.26
+  },
+  {
+    "text": "question of course is that in the case",
+    "start": 404.46,
+    "duration": 3.78
+  },
+  {
+    "text": "of the encoder you know that the",
+    "start": 406.56,
+    "duration": 3.54
+  },
+  {
+    "text": "sequences of length T because that is",
+    "start": 408.24,
+    "duration": 3.78
+  },
+  {
+    "text": "the input given to you right but in the",
+    "start": 410.1,
+    "duration": 3.719
+  },
+  {
+    "text": "case of the decoder how do you know what",
+    "start": 412.02,
+    "duration": 3.54
+  },
+  {
+    "text": "the sequence length is right because you",
+    "start": 413.819,
+    "duration": 3.901
+  },
+  {
+    "text": "don't know what the output is you're",
+    "start": 415.56,
+    "duration": 3.72
+  },
+  {
+    "text": "trying to generate the output so the",
+    "start": 417.72,
+    "duration": 3.12
+  },
+  {
+    "text": "length of the output is unknown to you",
+    "start": 419.28,
+    "duration": 3.539
+  },
+  {
+    "text": "because unless you generate the stop",
+    "start": 420.84,
+    "duration": 4.68
+  },
+  {
+    "text": "signal or the stop word you don't really",
+    "start": 422.819,
+    "duration": 4.081
+  },
+  {
+    "text": "know what the length of the output is",
+    "start": 425.52,
+    "duration": 3.48
+  },
+  {
+    "text": "right so you'll assume some Max sequence",
+    "start": 426.9,
+    "duration": 4.079
+  },
+  {
+    "text": "length and let me call that Max sequence",
+    "start": 429.0,
+    "duration": 5.88
+  },
+  {
+    "text": "length as uh T1 right so that's for the",
+    "start": 430.979,
+    "duration": 5.521
+  },
+  {
+    "text": "max sequence limb that you will assume",
+    "start": 434.88,
+    "duration": 4.62
+  },
+  {
+    "text": "but now when you start producing the",
+    "start": 436.5,
+    "duration": 8.78
+  },
+  {
+    "text": "first word right at that time you have",
+    "start": 439.5,
+    "duration": 5.78
+  },
+  {
+    "text": "T1 inputs right of which only one is",
+    "start": 445.56,
+    "duration": 4.74
+  },
+  {
+    "text": "valid because that's the go word and you",
+    "start": 448.56,
+    "duration": 3.479
+  },
+  {
+    "text": "know that okay go is the start signal",
+    "start": 450.3,
+    "duration": 3.78
+  },
+  {
+    "text": "that I get but all of these are junk",
+    "start": 452.039,
+    "duration": 4.141
+  },
+  {
+    "text": "right you don't know what these are",
+    "start": 454.08,
+    "duration": 4.26
+  },
+  {
+    "text": "right and now what are you going to uh",
+    "start": 456.18,
+    "duration": 5.76
+  },
+  {
+    "text": "do uh for each of these you are going to",
+    "start": 458.34,
+    "duration": 6.139
+  },
+  {
+    "text": "compute",
+    "start": 461.94,
+    "duration": 2.539
+  },
+  {
+    "text": "the",
+    "start": 470.28,
+    "duration": 4.859
+  },
+  {
+    "text": "q k and V vectors right so these are the",
+    "start": 471.599,
+    "duration": 7.861
+  },
+  {
+    "text": "capital T1 inputs given to you right",
+    "start": 475.139,
+    "duration": 7.141
+  },
+  {
+    "text": "and you're going to compute the q1 K1 V1",
+    "start": 479.46,
+    "duration": 5.7
+  },
+  {
+    "text": "right the QQ Matrix the uh the query",
+    "start": 482.28,
+    "duration": 4.319
+  },
+  {
+    "text": "Matrix the key Matrix and the value",
+    "start": 485.16,
+    "duration": 4.62
+  },
+  {
+    "text": "Matrix right but while doing that you",
+    "start": 486.599,
+    "duration": 6.66
+  },
+  {
+    "text": "are aware that whatever value",
+    "start": 489.78,
+    "duration": 6.66
+  },
+  {
+    "text": "you're getting for these guys right that",
+    "start": 493.259,
+    "duration": 4.921
+  },
+  {
+    "text": "does not make sense whatever key you are",
+    "start": 496.44,
+    "duration": 3.0
+  },
+  {
+    "text": "getting for these guys does not make",
+    "start": 498.18,
+    "duration": 2.699
+  },
+  {
+    "text": "sense whatever query you are getting for",
+    "start": 499.44,
+    "duration": 2.58
+  },
+  {
+    "text": "these guys this does not make sense",
+    "start": 500.879,
+    "duration": 2.94
+  },
+  {
+    "text": "because these are some junk inputs you",
+    "start": 502.02,
+    "duration": 3.119
+  },
+  {
+    "text": "don't even know right this might just be",
+    "start": 503.819,
+    "duration": 3.301
+  },
+  {
+    "text": "a special symbol saying empty right you",
+    "start": 505.139,
+    "duration": 4.081
+  },
+  {
+    "text": "don't know what it is right now right so",
+    "start": 507.12,
+    "duration": 3.84
+  },
+  {
+    "text": "when you are Computing a refined",
+    "start": 509.22,
+    "duration": 4.02
+  },
+  {
+    "text": "representation for go right then let me",
+    "start": 510.96,
+    "duration": 5.759
+  },
+  {
+    "text": "call that as Z1 or rather sorry let me",
+    "start": 513.24,
+    "duration": 6.84
+  },
+  {
+    "text": "not make those mistakes again",
+    "start": 516.719,
+    "duration": 5.641
+  },
+  {
+    "text": "right so I'm going to call this as S1",
+    "start": 520.08,
+    "duration": 6.18
+  },
+  {
+    "text": "right uh",
+    "start": 522.36,
+    "duration": 3.9
+  },
+  {
+    "text": "when I'm going to compute a refined",
+    "start": 526.5,
+    "duration": 6.12
+  },
+  {
+    "text": "representation for S1 I don't",
+    "start": 528.66,
+    "duration": 5.88
+  },
+  {
+    "text": "so S1 if you remember is going to be",
+    "start": 532.62,
+    "duration": 5.159
+  },
+  {
+    "text": "summation Alpha over all the VJs where",
+    "start": 534.54,
+    "duration": 8.76
+  },
+  {
+    "text": "J's go from 1 to T1 right but from V2 to",
+    "start": 537.779,
+    "duration": 7.921
+  },
+  {
+    "text": "VT I don't trust my inputs because there",
+    "start": 543.3,
+    "duration": 3.78
+  },
+  {
+    "text": "are some junk inputs right I don't even",
+    "start": 545.7,
+    "duration": 3.24
+  },
+  {
+    "text": "know what symbols should come there so",
+    "start": 547.08,
+    "duration": 3.78
+  },
+  {
+    "text": "it does not make sense for me to compute",
+    "start": 548.94,
+    "duration": 4.079
+  },
+  {
+    "text": "a refined representation using V2 to VT",
+    "start": 550.86,
+    "duration": 4.14
+  },
+  {
+    "text": "right so what I will do and that's why",
+    "start": 553.019,
+    "duration": 4.921
+  },
+  {
+    "text": "this is called masked self attention is",
+    "start": 555.0,
+    "duration": 5.399
+  },
+  {
+    "text": "I'll I'll make these Alphas zero right",
+    "start": 557.94,
+    "duration": 5.579
+  },
+  {
+    "text": "so whatever Alpha is greater than the",
+    "start": 560.399,
+    "duration": 5.701
+  },
+  {
+    "text": "current decoded word I will make those",
+    "start": 563.519,
+    "duration": 5.701
+  },
+  {
+    "text": "zero right so Alpha 2 to Alpha capital T",
+    "start": 566.1,
+    "duration": 6.06
+  },
+  {
+    "text": "will become 0 so these V's will not",
+    "start": 569.22,
+    "duration": 5.88
+  },
+  {
+    "text": "participate in the computation so S1",
+    "start": 572.16,
+    "duration": 4.739
+  },
+  {
+    "text": "would only depend on the representation",
+    "start": 575.1,
+    "duration": 3.6
+  },
+  {
+    "text": "of go right and in the first case it",
+    "start": 576.899,
+    "duration": 4.081
+  },
+  {
+    "text": "makes sense right but now as you go",
+    "start": 578.7,
+    "duration": 4.319
+  },
+  {
+    "text": "deeper at the first case you might think",
+    "start": 580.98,
+    "duration": 3.72
+  },
+  {
+    "text": "this is just trivial right but now as",
+    "start": 583.019,
+    "duration": 3.361
+  },
+  {
+    "text": "you go deeper let's understand what will",
+    "start": 584.7,
+    "duration": 3.3
+  },
+  {
+    "text": "happen right so now suppose you have",
+    "start": 586.38,
+    "duration": 4.2
+  },
+  {
+    "text": "decoded this much right you have go none",
+    "start": 588.0,
+    "duration": 4.56
+  },
+  {
+    "text": "and Transformer right so you have these",
+    "start": 590.58,
+    "duration": 4.92
+  },
+  {
+    "text": "three inputs available to you now you",
+    "start": 592.56,
+    "duration": 4.5
+  },
+  {
+    "text": "are Computing a represent refined",
+    "start": 595.5,
+    "duration": 5.16
+  },
+  {
+    "text": "representation Z1 Z2 Z3 all the way up",
+    "start": 597.06,
+    "duration": 5.94
+  },
+  {
+    "text": "to Z T one",
+    "start": 600.66,
+    "duration": 4.56
+  },
+  {
+    "text": "right now what will you do when you're",
+    "start": 603.0,
+    "duration": 5.82
+  },
+  {
+    "text": "Computing Z1 your formula was Alpha",
+    "start": 605.22,
+    "duration": 7.619
+  },
+  {
+    "text": "into v j j is equal to 1 to Capital T1",
+    "start": 608.82,
+    "duration": 6.54
+  },
+  {
+    "text": "but now since you have decoded up till",
+    "start": 612.839,
+    "duration": 5.821
+  },
+  {
+    "text": "time step 3 you will set you will let",
+    "start": 615.36,
+    "duration": 5.88
+  },
+  {
+    "text": "alpha 1 Alpha 2 Alpha 3 be whatever they",
+    "start": 618.66,
+    "duration": 5.58
+  },
+  {
+    "text": "were right and then you will set the",
+    "start": 621.24,
+    "duration": 5.52
+  },
+  {
+    "text": "remaining ones to zero right",
+    "start": 624.24,
+    "duration": 3.84
+  },
+  {
+    "text": "that's what you will do that's what",
+    "start": 626.76,
+    "duration": 3.18
+  },
+  {
+    "text": "masking does so the masking means that",
+    "start": 628.08,
+    "duration": 4.08
+  },
+  {
+    "text": "zeroing out the attention weights which",
+    "start": 629.94,
+    "duration": 4.38
+  },
+  {
+    "text": "do not matter right I'm just doing a",
+    "start": 632.16,
+    "duration": 4.26
+  },
+  {
+    "text": "slight uh abuse of explanation here in",
+    "start": 634.32,
+    "duration": 4.5
+  },
+  {
+    "text": "the sense that uh the alphas need to sum",
+    "start": 636.42,
+    "duration": 3.84
+  },
+  {
+    "text": "up to one right so while you mask out",
+    "start": 638.82,
+    "duration": 3.3
+  },
+  {
+    "text": "the zero you'll also do something so",
+    "start": 640.26,
+    "duration": 4.5
+  },
+  {
+    "text": "that these three now scale them up so",
+    "start": 642.12,
+    "duration": 5.04
+  },
+  {
+    "text": "that they become they sum up to one",
+    "start": 644.76,
+    "duration": 4.8
+  },
+  {
+    "text": "right but that is internal detail what",
+    "start": 647.16,
+    "duration": 3.84
+  },
+  {
+    "text": "you need to understand conceptually is",
+    "start": 649.56,
+    "duration": 3.24
+  },
+  {
+    "text": "that when you're Computing a refined",
+    "start": 651.0,
+    "duration": 4.26
+  },
+  {
+    "text": "representation of a Z1 you will set all",
+    "start": 652.8,
+    "duration": 5.7
+  },
+  {
+    "text": "the other Alphas to zero right",
+    "start": 655.26,
+    "duration": 6.6
+  },
+  {
+    "text": "similarly so this I should call as alpha",
+    "start": 658.5,
+    "duration": 6.779
+  },
+  {
+    "text": "1 J so this is Alpha 1 1 Alpha 1 2 Alpha",
+    "start": 661.86,
+    "duration": 4.919
+  },
+  {
+    "text": "One three now similarly when you're",
+    "start": 665.279,
+    "duration": 3.781
+  },
+  {
+    "text": "Computing the defined representation for",
+    "start": 666.779,
+    "duration": 6.0
+  },
+  {
+    "text": "Z2 your equation would be Alpha to J",
+    "start": 669.06,
+    "duration": 8.459
+  },
+  {
+    "text": "into v j and again Alpha 2 1 Alpha 2 2",
+    "start": 672.779,
+    "duration": 7.441
+  },
+  {
+    "text": "Alpha 2 3 is what you care about and all",
+    "start": 677.519,
+    "duration": 4.681
+  },
+  {
+    "text": "the other Alphas you will set to zero",
+    "start": 680.22,
+    "duration": 3.84
+  },
+  {
+    "text": "right so that all that's all that",
+    "start": 682.2,
+    "duration": 4.079
+  },
+  {
+    "text": "masking does right now the question",
+    "start": 684.06,
+    "duration": 5.279
+  },
+  {
+    "text": "would be that what happens to Z4 right",
+    "start": 686.279,
+    "duration": 5.401
+  },
+  {
+    "text": "so I will I'm going to compute Z4 right",
+    "start": 689.339,
+    "duration": 4.861
+  },
+  {
+    "text": "Z4 would also have a formula so in that",
+    "start": 691.68,
+    "duration": 5.88
+  },
+  {
+    "text": "formula what do I do right so you you",
+    "start": 694.2,
+    "duration": 6.66
+  },
+  {
+    "text": "will again have only these Alphas ready",
+    "start": 697.56,
+    "duration": 5.16
+  },
+  {
+    "text": "in that formula all the other Alphas",
+    "start": 700.86,
+    "duration": 3.96
+  },
+  {
+    "text": "would not be of use but actually it",
+    "start": 702.72,
+    "duration": 4.32
+  },
+  {
+    "text": "doesn't matter right because again when",
+    "start": 704.82,
+    "duration": 4.079
+  },
+  {
+    "text": "you are doing so the key thing to",
+    "start": 707.04,
+    "duration": 4.02
+  },
+  {
+    "text": "realize here is that these did not",
+    "start": 708.899,
+    "duration": 3.721
+  },
+  {
+    "text": "participate in the computation right",
+    "start": 711.06,
+    "duration": 4.5
+  },
+  {
+    "text": "these gave you the uh corresponding q k",
+    "start": 712.62,
+    "duration": 5.399
+  },
+  {
+    "text": "and V but when it was time to use those",
+    "start": 715.56,
+    "duration": 5.1
+  },
+  {
+    "text": "V's you just zeroed out the waves right",
+    "start": 718.019,
+    "duration": 4.32
+  },
+  {
+    "text": "so irrespective of what your input was",
+    "start": 720.66,
+    "duration": 3.54
+  },
+  {
+    "text": "this did not participate in the",
+    "start": 722.339,
+    "duration": 3.721
+  },
+  {
+    "text": "computation similarly whatever you",
+    "start": 724.2,
+    "duration": 4.139
+  },
+  {
+    "text": "compute here will not participate in the",
+    "start": 726.06,
+    "duration": 3.66
+  },
+  {
+    "text": "rest of the computation because the",
+    "start": 728.339,
+    "duration": 3.481
+  },
+  {
+    "text": "corresponding Alphas would always be",
+    "start": 729.72,
+    "duration": 4.08
+  },
+  {
+    "text": "zeroed out you'll always use this",
+    "start": 731.82,
+    "duration": 4.139
+  },
+  {
+    "text": "masking right here also you will have a",
+    "start": 733.8,
+    "duration": 4.44
+  },
+  {
+    "text": "masking so only that part of the input",
+    "start": 735.959,
+    "duration": 5.101
+  },
+  {
+    "text": "which is currently being decoded is",
+    "start": 738.24,
+    "duration": 4.32
+  },
+  {
+    "text": "going to participate in the computations",
+    "start": 741.06,
+    "duration": 3.54
+  },
+  {
+    "text": "the rest of the input will get masked",
+    "start": 742.56,
+    "duration": 3.0
+  },
+  {
+    "text": "out because you will set the",
+    "start": 744.6,
+    "duration": 2.94
+  },
+  {
+    "text": "corresponding Alphas to zero right so",
+    "start": 745.56,
+    "duration": 4.92
+  },
+  {
+    "text": "that's what masking means",
+    "start": 747.54,
+    "duration": 5.16
+  },
+  {
+    "text": "so we are done with the first masked",
+    "start": 750.48,
+    "duration": 6.74
+  },
+  {
+    "text": "self-attention block here which is",
+    "start": 752.7,
+    "duration": 4.52
+  },
+  {
+    "text": "it's just going to use a",
+    "start": 759.3,
+    "duration": 6.24
+  },
+  {
+    "text": "only those many entries right one to h",
+    "start": 762.779,
+    "duration": 4.86
+  },
+  {
+    "text": "means the number of time steps which",
+    "start": 765.54,
+    "duration": 3.96
+  },
+  {
+    "text": "have been decoded so far instead of",
+    "start": 767.639,
+    "duration": 4.561
+  },
+  {
+    "text": "using one to Capital T1 it will only use",
+    "start": 769.5,
+    "duration": 4.86
+  },
+  {
+    "text": "those many entries which have already",
+    "start": 772.2,
+    "duration": 4.259
+  },
+  {
+    "text": "been decoded right so that's what you",
+    "start": 774.36,
+    "duration": 3.719
+  },
+  {
+    "text": "will have here at this point you'll have",
+    "start": 776.459,
+    "duration": 4.921
+  },
+  {
+    "text": "Z1 Z2 Z3 it also have some other things",
+    "start": 778.079,
+    "duration": 4.621
+  },
+  {
+    "text": "but you don't care about them because",
+    "start": 781.38,
+    "duration": 2.759
+  },
+  {
+    "text": "they will not participate in the rest of",
+    "start": 782.7,
+    "duration": 3.24
+  },
+  {
+    "text": "the computation right so now going",
+    "start": 784.139,
+    "duration": 3.781
+  },
+  {
+    "text": "forward you have the encoder",
+    "start": 785.94,
+    "duration": 3.959
+  },
+  {
+    "text": "representation coming up so this was the",
+    "start": 787.92,
+    "duration": 4.5
+  },
+  {
+    "text": "Mast self attention now this is the Mast",
+    "start": 789.899,
+    "duration": 4.201
+  },
+  {
+    "text": "cross attention right this is the layer",
+    "start": 792.42,
+    "duration": 3.719
+  },
+  {
+    "text": "which is new I need to understand what",
+    "start": 794.1,
+    "duration": 3.72
+  },
+  {
+    "text": "is happening in that layer right so",
+    "start": 796.139,
+    "duration": 4.76
+  },
+  {
+    "text": "let's see what happens there",
+    "start": 797.82,
+    "duration": 3.079
+  },
+  {
+    "text": "yeah so you have this S1 to T right all",
+    "start": 801.42,
+    "duration": 6.18
+  },
+  {
+    "text": "the s representations are computed and",
+    "start": 805.2,
+    "duration": 5.22
+  },
+  {
+    "text": "now again the ease that you had right",
+    "start": 807.6,
+    "duration": 5.1
+  },
+  {
+    "text": "the uh you had these capital T",
+    "start": 810.42,
+    "duration": 4.02
+  },
+  {
+    "text": "representations coming out from the",
+    "start": 812.7,
+    "duration": 3.78
+  },
+  {
+    "text": "encoder you'll again pass them through",
+    "start": 814.44,
+    "duration": 4.56
+  },
+  {
+    "text": "your standard QE uh key and value",
+    "start": 816.48,
+    "duration": 6.359
+  },
+  {
+    "text": "matrices right and then you will have to",
+    "start": 819.0,
+    "duration": 5.82
+  },
+  {
+    "text": "words within the decoder or the",
+    "start": 822.839,
+    "duration": 3.781
+  },
+  {
+    "text": "representations coming from the decoder",
+    "start": 824.82,
+    "duration": 3.78
+  },
+  {
+    "text": "as the query right so whatever has been",
+    "start": 826.62,
+    "duration": 4.019
+  },
+  {
+    "text": "decoded so far that will become the",
+    "start": 828.6,
+    "duration": 4.919
+  },
+  {
+    "text": "query and then you will pass it through",
+    "start": 830.639,
+    "duration": 5.161
+  },
+  {
+    "text": "this normal attention Network right so",
+    "start": 833.519,
+    "duration": 6.241
+  },
+  {
+    "text": "now what happens is the following that",
+    "start": 835.8,
+    "duration": 5.82
+  },
+  {
+    "text": "let's understand this conceptually so",
+    "start": 839.76,
+    "duration": 5.1
+  },
+  {
+    "text": "This S1 to St so far right I should call",
+    "start": 841.62,
+    "duration": 5.519
+  },
+  {
+    "text": "it S1 to S small Edge right that is the",
+    "start": 844.86,
+    "duration": 3.84
+  },
+  {
+    "text": "number of words that have indicated so",
+    "start": 847.139,
+    "duration": 5.041
+  },
+  {
+    "text": "far those have been uh refined",
+    "start": 848.7,
+    "duration": 5.1
+  },
+  {
+    "text": "representations of your original words",
+    "start": 852.18,
+    "duration": 3.959
+  },
+  {
+    "text": "by looking at the context also right the",
+    "start": 853.8,
+    "duration": 3.779
+  },
+  {
+    "text": "context came in through that summation",
+    "start": 856.139,
+    "duration": 4.081
+  },
+  {
+    "text": "Alpha V right so these are refined",
+    "start": 857.579,
+    "duration": 4.861
+  },
+  {
+    "text": "representations already but taking care",
+    "start": 860.22,
+    "duration": 4.619
+  },
+  {
+    "text": "only of self attention that means within",
+    "start": 862.44,
+    "duration": 4.98
+  },
+  {
+    "text": "the decoder now you want to refine these",
+    "start": 864.839,
+    "duration": 4.321
+  },
+  {
+    "text": "representations further in the light of",
+    "start": 867.42,
+    "duration": 3.359
+  },
+  {
+    "text": "whatever you had seen in the encoder",
+    "start": 869.16,
+    "duration": 3.9
+  },
+  {
+    "text": "right so now you want to take S1 as the",
+    "start": 870.779,
+    "duration": 4.74
+  },
+  {
+    "text": "input you want to generate a q1 from",
+    "start": 873.06,
+    "duration": 8.16
+  },
+  {
+    "text": "that okay then using q1 and these K1 K2",
+    "start": 875.519,
+    "duration": 8.76
+  },
+  {
+    "text": "up to K capital T where capital T was",
+    "start": 881.22,
+    "duration": 6.419
+  },
+  {
+    "text": "the number of tokens in the uh encoder",
+    "start": 884.279,
+    "duration": 5.701
+  },
+  {
+    "text": "right you will compute the corresponding",
+    "start": 887.639,
+    "duration": 4.44
+  },
+  {
+    "text": "Alphas right so you'll have alpha 1 1",
+    "start": 889.98,
+    "duration": 5.28
+  },
+  {
+    "text": "Alpha 1 2 Alpha One T so these Alphas",
+    "start": 892.079,
+    "duration": 5.521
+  },
+  {
+    "text": "tell you how much attention should you",
+    "start": 895.26,
+    "duration": 6.36
+  },
+  {
+    "text": "give to the ith input in the encoder",
+    "start": 897.6,
+    "duration": 6.179
+  },
+  {
+    "text": "while Computing a refined representation",
+    "start": 901.62,
+    "duration": 5.88
+  },
+  {
+    "text": "for the jth decoder value right and now",
+    "start": 903.779,
+    "duration": 7.021
+  },
+  {
+    "text": "using this you will compute your Z1 as",
+    "start": 907.5,
+    "duration": 5.76
+  },
+  {
+    "text": "whatever Alphas you have computed Alpha",
+    "start": 910.8,
+    "duration": 5.219
+  },
+  {
+    "text": "1j into the values which are coming out",
+    "start": 913.26,
+    "duration": 4.259
+  },
+  {
+    "text": "of here right so these are going to be",
+    "start": 916.019,
+    "duration": 4.861
+  },
+  {
+    "text": "some VJs and you're going to sum over J",
+    "start": 917.519,
+    "duration": 5.701
+  },
+  {
+    "text": "equal to 1 to T right the same",
+    "start": 920.88,
+    "duration": 4.019
+  },
+  {
+    "text": "computation happens again you have the",
+    "start": 923.22,
+    "duration": 3.9
+  },
+  {
+    "text": "key query and value it's just that now",
+    "start": 924.899,
+    "duration": 5.641
+  },
+  {
+    "text": "the attention is between the encoder the",
+    "start": 927.12,
+    "duration": 5.339
+  },
+  {
+    "text": "decoder representation and the encoder",
+    "start": 930.54,
+    "duration": 4.02
+  },
+  {
+    "text": "representation and you're Computing a",
+    "start": 932.459,
+    "duration": 4.221
+  },
+  {
+    "text": "new representation for the",
+    "start": 934.56,
+    "duration": 5.279
+  },
+  {
+    "text": "decoder using an attention weighted sum",
+    "start": 936.68,
+    "duration": 5.8
+  },
+  {
+    "text": "of the encoder values right so that's",
+    "start": 939.839,
+    "duration": 6.0
+  },
+  {
+    "text": "what is happening in the Mast uh cross",
+    "start": 942.48,
+    "duration": 4.859
+  },
+  {
+    "text": "attention you are doing a cross between",
+    "start": 945.839,
+    "duration": 3.781
+  },
+  {
+    "text": "the encoder and the decoder and at this",
+    "start": 947.339,
+    "duration": 4.081
+  },
+  {
+    "text": "level you will then perhaps get out I",
+    "start": 949.62,
+    "duration": 3.06
+  },
+  {
+    "text": "don't know what I was calling it earlier",
+    "start": 951.42,
+    "duration": 4.219
+  },
+  {
+    "text": "but maybe I'll just call it M1 up to M",
+    "start": 952.68,
+    "duration": 5.82
+  },
+  {
+    "text": "T1 and then these will pass through the",
+    "start": 955.639,
+    "duration": 5.921
+  },
+  {
+    "text": "feed forward Network to give you Z1 Z2",
+    "start": 958.5,
+    "duration": 6.3
+  },
+  {
+    "text": "up to Z D1 right so this is what the",
+    "start": 961.56,
+    "duration": 5.82
+  },
+  {
+    "text": "entire decoder block looks in the new",
+    "start": 964.8,
+    "duration": 6.0
+  },
+  {
+    "text": "edition was this cross attention where",
+    "start": 967.38,
+    "duration": 6.0
+  },
+  {
+    "text": "now the key and the value come from the",
+    "start": 970.8,
+    "duration": 5.76
+  },
+  {
+    "text": "encoder and the decoder brings the query",
+    "start": 973.38,
+    "duration": 5.759
+  },
+  {
+    "text": "and this Mast self-attention where the",
+    "start": 976.56,
+    "duration": 4.5
+  },
+  {
+    "text": "only concept was of this masking that",
+    "start": 979.139,
+    "duration": 3.661
+  },
+  {
+    "text": "The Words which have not been decoded so",
+    "start": 981.06,
+    "duration": 3.779
+  },
+  {
+    "text": "far you don't let them participate by",
+    "start": 982.8,
+    "duration": 4.14
+  },
+  {
+    "text": "setting the corresponding Alphas to zero",
+    "start": 984.839,
+    "duration": 3.421
+  },
+  {
+    "text": "right so that's all there is to learn",
+    "start": 986.94,
+    "duration": 5.04
+  },
+  {
+    "text": "about the decoder for now right now the",
+    "start": 988.26,
+    "duration": 5.579
+  },
+  {
+    "text": "Last Detail that we need is the output",
+    "start": 991.98,
+    "duration": 4.919
+  },
+  {
+    "text": "from the decoder so you have multiple",
+    "start": 993.839,
+    "duration": 4.74
+  },
+  {
+    "text": "such layers",
+    "start": 996.899,
+    "duration": 4.021
+  },
+  {
+    "text": "within the decoder right and let's",
+    "start": 998.579,
+    "duration": 4.021
+  },
+  {
+    "text": "assume this is the last layer which",
+    "start": 1000.92,
+    "duration": 3.18
+  },
+  {
+    "text": "again has the same identical structure",
+    "start": 1002.6,
+    "duration": 3.239
+  },
+  {
+    "text": "it receives the inputs from the previous",
+    "start": 1004.1,
+    "duration": 4.44
+  },
+  {
+    "text": "layer it has the Mast self-attention",
+    "start": 1005.839,
+    "duration": 4.92
+  },
+  {
+    "text": "must cross attention then the feed",
+    "start": 1008.54,
+    "duration": 4.38
+  },
+  {
+    "text": "forward Network and then whatever comes",
+    "start": 1010.759,
+    "duration": 3.901
+  },
+  {
+    "text": "out right so suppose you get these five",
+    "start": 1012.92,
+    "duration": 4.32
+  },
+  {
+    "text": "and two dimensional embeddings right uh",
+    "start": 1014.66,
+    "duration": 3.9
+  },
+  {
+    "text": "and at each stage you want to predict",
+    "start": 1017.24,
+    "duration": 3.42
+  },
+  {
+    "text": "what the next output is going to be so",
+    "start": 1018.56,
+    "duration": 3.899
+  },
+  {
+    "text": "you take this 512 dimensional input",
+    "start": 1020.66,
+    "duration": 4.919
+  },
+  {
+    "text": "embedding uh use a matrix of size 512",
+    "start": 1022.459,
+    "duration": 5.88
+  },
+  {
+    "text": "cross V to give you a v dimensional",
+    "start": 1025.579,
+    "duration": 5.22
+  },
+  {
+    "text": "output and then you apply a soft Max on",
+    "start": 1028.339,
+    "duration": 4.74
+  },
+  {
+    "text": "that to give you the distribution over",
+    "start": 1030.799,
+    "duration": 5.04
+  },
+  {
+    "text": "the vocabulary and then pick the arc Max",
+    "start": 1033.079,
+    "duration": 5.401
+  },
+  {
+    "text": "from there to feed it as the input for",
+    "start": 1035.839,
+    "duration": 4.921
+  },
+  {
+    "text": "the next time step right so that's what",
+    "start": 1038.48,
+    "duration": 4.5
+  },
+  {
+    "text": "happens at the output layer right so we",
+    "start": 1040.76,
+    "duration": 4.86
+  },
+  {
+    "text": "have seen the full encoder decoder we",
+    "start": 1042.98,
+    "duration": 4.5
+  },
+  {
+    "text": "have seen all the blocks within an",
+    "start": 1045.62,
+    "duration": 3.54
+  },
+  {
+    "text": "encoder layer so the encoder has many",
+    "start": 1047.48,
+    "duration": 4.62
+  },
+  {
+    "text": "layers each layer is again composed of",
+    "start": 1049.16,
+    "duration": 4.74
+  },
+  {
+    "text": "sub layers so you have the multi-added",
+    "start": 1052.1,
+    "duration": 3.0
+  },
+  {
+    "text": "self attention and the feed forward",
+    "start": 1053.9,
+    "duration": 3.24
+  },
+  {
+    "text": "neural network the decoder again has",
+    "start": 1055.1,
+    "duration": 4.199
+  },
+  {
+    "text": "many layers each layer is composed of",
+    "start": 1057.14,
+    "duration": 3.96
+  },
+  {
+    "text": "sub layers and you have three sub layers",
+    "start": 1059.299,
+    "duration": 3.901
+  },
+  {
+    "text": "here the self attention within the",
+    "start": 1061.1,
+    "duration": 4.5
+  },
+  {
+    "text": "decoder the cross attention between the",
+    "start": 1063.2,
+    "duration": 3.9
+  },
+  {
+    "text": "encoder and the decoder then the feed",
+    "start": 1065.6,
+    "duration": 4.92
+  },
+  {
+    "text": "power Network and one key uh property or",
+    "start": 1067.1,
+    "duration": 5.4
+  },
+  {
+    "text": "key difference in the decoder is that",
+    "start": 1070.52,
+    "duration": 4.2
+  },
+  {
+    "text": "when you're looking at the inputs you",
+    "start": 1072.5,
+    "duration": 3.9
+  },
+  {
+    "text": "only look at whatever has been decoded",
+    "start": 1074.72,
+    "duration": 3.12
+  },
+  {
+    "text": "so far that's why you need to do this",
+    "start": 1076.4,
+    "duration": 3.48
+  },
+  {
+    "text": "masking so that the inputs which are not",
+    "start": 1077.84,
+    "duration": 3.959
+  },
+  {
+    "text": "available so far do not participate in",
+    "start": 1079.88,
+    "duration": 3.48
+  },
+  {
+    "text": "the computation by setting the",
+    "start": 1081.799,
+    "duration": 3.721
+  },
+  {
+    "text": "corresponding Alphas to zero right so",
+    "start": 1083.36,
+    "duration": 3.5
+  },
+  {
+    "text": "that's all I have to say about",
+    "start": 1085.52,
+    "duration": 4.56
+  },
+  {
+    "text": "Transformers I'll end this lecture here",
+    "start": 1086.86,
+    "duration": 5.199
+  },
+  {
+    "text": "and this would probably be the last",
+    "start": 1090.08,
+    "duration": 5.219
+  },
+  {
+    "text": "recording for the course I will see you",
+    "start": 1092.059,
+    "duration": 5.701
+  },
+  {
+    "text": "in the next session if to clear any",
+    "start": 1095.299,
+    "duration": 4.62
+  },
+  {
+    "text": "doubts that you might have but we are",
+    "start": 1097.76,
+    "duration": 4.26
+  },
+  {
+    "text": "done with the syllabus for this part of",
+    "start": 1099.919,
+    "duration": 6.14
+  },
+  {
+    "text": "the course thank you everyone",
+    "start": 1102.02,
+    "duration": 4.039
+  }
+]

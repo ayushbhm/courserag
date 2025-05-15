@@ -1,0 +1,10 @@
+function okay so this is what h11 is looking like now let me take a b two a bit higher.
+so that I can show you the difference between one now let me show h12 again for now it looks.
+like a flat line because my W2 is 0 so let me increase W2 okay and you can again see.
+that it will become closer to the step function right and as I adjust B it will move to the.
+left or the right right that's what the B function does it tells you the point of crossover right from.
+at what point it will start going from 0 to 1 right so that's what the B controls okay and.
+now I want to do um I've defined h21 as h11 minus h12 right that's how I've defined it so.
+let me just do this here so I'll show you h21 oops uh maybe not this way yeah okay so.
+now let me just hide the other ones I'll reset everything and just show you HD one so this is.
+looking like a tar function now right so this is the kind of tower that I wanted it's not a.

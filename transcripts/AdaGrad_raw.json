@@ -1,0 +1,3382 @@
+[
+  {
+    "text": "foreign",
+    "start": 0.299,
+    "duration": 3.0
+  },
+  {
+    "text": "[Music]",
+    "start": 6.62,
+    "duration": 3.739
+  },
+  {
+    "text": "so let's see how do we go about that",
+    "start": 19.02,
+    "duration": 4.2
+  },
+  {
+    "text": "so the intuition is that we want to",
+    "start": 21.779,
+    "duration": 4.08
+  },
+  {
+    "text": "Decay The Learning rate in proportion to",
+    "start": 23.22,
+    "duration": 4.319
+  },
+  {
+    "text": "the update history right so for the",
+    "start": 25.859,
+    "duration": 2.881
+  },
+  {
+    "text": "features which are getting a lot of",
+    "start": 27.539,
+    "duration": 3.181
+  },
+  {
+    "text": "updates so I have a very dense feature",
+    "start": 28.74,
+    "duration": 4.68
+  },
+  {
+    "text": "so the derivatives are large and I",
+    "start": 30.72,
+    "duration": 5.4
+  },
+  {
+    "text": "updated it in the first step by a large",
+    "start": 33.42,
+    "duration": 4.5
+  },
+  {
+    "text": "value Second Step by a large value third",
+    "start": 36.12,
+    "duration": 3.119
+  },
+  {
+    "text": "step by a large value so I am doing",
+    "start": 37.92,
+    "duration": 3.36
+  },
+  {
+    "text": "reasonable updates for this so maybe now",
+    "start": 39.239,
+    "duration": 3.541
+  },
+  {
+    "text": "I need to be a bit conservative and",
+    "start": 41.28,
+    "duration": 3.36
+  },
+  {
+    "text": "Decay The Learning rate but if there was",
+    "start": 42.78,
+    "duration": 3.779
+  },
+  {
+    "text": "Speech feature which is very sparse got",
+    "start": 44.64,
+    "duration": 3.86
+  },
+  {
+    "text": "a very small update in the first",
+    "start": 46.559,
+    "duration": 4.441
+  },
+  {
+    "text": "iteration because the total gradient",
+    "start": 48.5,
+    "duration": 4.42
+  },
+  {
+    "text": "that I computed was very small again a",
+    "start": 51.0,
+    "duration": 3.539
+  },
+  {
+    "text": "small update in the second pass again a",
+    "start": 52.92,
+    "duration": 3.42
+  },
+  {
+    "text": "small update in the third pass then I",
+    "start": 54.539,
+    "duration": 3.241
+  },
+  {
+    "text": "need to let the learning rate be high",
+    "start": 56.34,
+    "duration": 2.94
+  },
+  {
+    "text": "right because I'm getting small updates",
+    "start": 57.78,
+    "duration": 3.24
+  },
+  {
+    "text": "so let me at least move a bit",
+    "start": 59.28,
+    "duration": 3.599
+  },
+  {
+    "text": "aggressively in those update directions",
+    "start": 61.02,
+    "duration": 5.22
+  },
+  {
+    "text": "right so that's what uh kind of is the",
+    "start": 62.879,
+    "duration": 5.1
+  },
+  {
+    "text": "intuition behind the update rule for Ada",
+    "start": 66.24,
+    "duration": 4.02
+  },
+  {
+    "text": "grad what I'm going to do is I'm going",
+    "start": 67.979,
+    "duration": 4.621
+  },
+  {
+    "text": "to maintain the history of the updates",
+    "start": 70.26,
+    "duration": 5.52
+  },
+  {
+    "text": "that I am making right",
+    "start": 72.6,
+    "duration": 5.46
+  },
+  {
+    "text": "okay so now let me try to explain what",
+    "start": 75.78,
+    "duration": 4.56
+  },
+  {
+    "text": "is happening here so now I am taking a",
+    "start": 78.06,
+    "duration": 3.96
+  },
+  {
+    "text": "running some of the history of the",
+    "start": 80.34,
+    "duration": 4.86
+  },
+  {
+    "text": "update so it's this Delta WT tells me uh",
+    "start": 82.02,
+    "duration": 5.16
+  },
+  {
+    "text": "what was the update that I've made or",
+    "start": 85.2,
+    "duration": 3.9
+  },
+  {
+    "text": "what was my gradients right and this is",
+    "start": 87.18,
+    "duration": 4.32
+  },
+  {
+    "text": "a running sum at every time step I am",
+    "start": 89.1,
+    "duration": 4.32
+  },
+  {
+    "text": "adding the current uh derivative and the",
+    "start": 91.5,
+    "duration": 3.06
+  },
+  {
+    "text": "square of it right so I'm just taking",
+    "start": 93.42,
+    "duration": 3.6
+  },
+  {
+    "text": "the uh squared derivative and keeping it",
+    "start": 94.56,
+    "duration": 4.199
+  },
+  {
+    "text": "as the history so it tells me the",
+    "start": 97.02,
+    "duration": 3.36
+  },
+  {
+    "text": "magnitude of the updates that I have",
+    "start": 98.759,
+    "duration": 4.021
+  },
+  {
+    "text": "done so far and then what I'm doing is I",
+    "start": 100.38,
+    "duration": 4.08
+  },
+  {
+    "text": "am taking the learning rate and I'm",
+    "start": 102.78,
+    "duration": 4.26
+  },
+  {
+    "text": "dividing it by this history so what will",
+    "start": 104.46,
+    "duration": 5.159
+  },
+  {
+    "text": "happen is if they have a feature which",
+    "start": 107.04,
+    "duration": 4.8
+  },
+  {
+    "text": "is very dense and which has got a lot of",
+    "start": 109.619,
+    "duration": 4.5
+  },
+  {
+    "text": "updates then this history keeps",
+    "start": 111.84,
+    "duration": 3.84
+  },
+  {
+    "text": "increasing right because you are making",
+    "start": 114.119,
+    "duration": 3.661
+  },
+  {
+    "text": "large updates at every time Step at time",
+    "start": 115.68,
+    "duration": 4.14
+  },
+  {
+    "text": "step 0 you made an update time step one",
+    "start": 117.78,
+    "duration": 3.839
+  },
+  {
+    "text": "you made an update time step two you",
+    "start": 119.82,
+    "duration": 3.54
+  },
+  {
+    "text": "made an update and all of this is",
+    "start": 121.619,
+    "duration": 3.661
+  },
+  {
+    "text": "getting added here and all of these were",
+    "start": 123.36,
+    "duration": 3.899
+  },
+  {
+    "text": "large quantities because this this was",
+    "start": 125.28,
+    "duration": 5.28
+  },
+  {
+    "text": "say a spa a dense feature right then",
+    "start": 127.259,
+    "duration": 5.401
+  },
+  {
+    "text": "your VT after a few iterations will grow",
+    "start": 130.56,
+    "duration": 3.42
+  },
+  {
+    "text": "and the learning rate would",
+    "start": 132.66,
+    "duration": 4.02
+  },
+  {
+    "text": "appropriately shrink right but if this",
+    "start": 133.98,
+    "duration": 5.339
+  },
+  {
+    "text": "was a sparse feature then across",
+    "start": 136.68,
+    "duration": 4.38
+  },
+  {
+    "text": "iterations maybe even when I reach t",
+    "start": 139.319,
+    "duration": 4.081
+  },
+  {
+    "text": "equal to 100 nothing much has been",
+    "start": 141.06,
+    "duration": 4.5
+  },
+  {
+    "text": "accumulated here right because all these",
+    "start": 143.4,
+    "duration": 3.6
+  },
+  {
+    "text": "updates were very very small because",
+    "start": 145.56,
+    "duration": 3.899
+  },
+  {
+    "text": "this was a sparse feature so hence my VT",
+    "start": 147.0,
+    "duration": 5.28
+  },
+  {
+    "text": "has not grown much and hence my learning",
+    "start": 149.459,
+    "duration": 4.621
+  },
+  {
+    "text": "rate will not decrease aggressively",
+    "start": 152.28,
+    "duration": 3.179
+  },
+  {
+    "text": "right so now the learning rate has",
+    "start": 154.08,
+    "duration": 5.46
+  },
+  {
+    "text": "become uh proportional or rather",
+    "start": 155.459,
+    "duration": 6.36
+  },
+  {
+    "text": "inversely proportional to my update",
+    "start": 159.54,
+    "duration": 4.5
+  },
+  {
+    "text": "history if I made large updates then I",
+    "start": 161.819,
+    "duration": 3.78
+  },
+  {
+    "text": "degrees the learning rate aggressively",
+    "start": 164.04,
+    "duration": 4.02
+  },
+  {
+    "text": "if I made only a few updates I don't",
+    "start": 165.599,
+    "duration": 4.14
+  },
+  {
+    "text": "decrease it aggressive right so that's",
+    "start": 168.06,
+    "duration": 3.72
+  },
+  {
+    "text": "what is happening here so just as have",
+    "start": 169.739,
+    "duration": 4.021
+  },
+  {
+    "text": "you have the update equations for w you",
+    "start": 171.78,
+    "duration": 3.84
+  },
+  {
+    "text": "can also have the update equations for",
+    "start": 173.76,
+    "duration": 5.52
+  },
+  {
+    "text": "uh B right",
+    "start": 175.62,
+    "duration": 6.42
+  },
+  {
+    "text": "okay so this is the algorithm from now",
+    "start": 179.28,
+    "duration": 4.679
+  },
+  {
+    "text": "on I'll not spend too much time on the",
+    "start": 182.04,
+    "duration": 4.919
+  },
+  {
+    "text": "code right I'll just uh uh modification",
+    "start": 183.959,
+    "duration": 4.621
+  },
+  {
+    "text": "of the codes that you have seen so far",
+    "start": 186.959,
+    "duration": 4.741
+  },
+  {
+    "text": "so in this place here this is where I'm",
+    "start": 188.58,
+    "duration": 4.739
+  },
+  {
+    "text": "accumulating the history right I'm just",
+    "start": 191.7,
+    "duration": 3.959
+  },
+  {
+    "text": "taking the previous update plus the",
+    "start": 193.319,
+    "duration": 3.84
+  },
+  {
+    "text": "current update square right that's what",
+    "start": 195.659,
+    "duration": 3.601
+  },
+  {
+    "text": "the equation said and then my learning",
+    "start": 197.159,
+    "duration": 4.8
+  },
+  {
+    "text": "rate here is going to be divided by this",
+    "start": 199.26,
+    "duration": 4.08
+  },
+  {
+    "text": "update right so now I think these are",
+    "start": 201.959,
+    "duration": 3.0
+  },
+  {
+    "text": "small code Snippets which you are",
+    "start": 203.34,
+    "duration": 3.539
+  },
+  {
+    "text": "comfortable with and you can take the",
+    "start": 204.959,
+    "duration": 3.601
+  },
+  {
+    "text": "equation and write the code for that",
+    "start": 206.879,
+    "duration": 4.14
+  },
+  {
+    "text": "right so to now to see this in action",
+    "start": 208.56,
+    "duration": 4.44
+  },
+  {
+    "text": "right we need to First create some data",
+    "start": 211.019,
+    "duration": 4.14
+  },
+  {
+    "text": "where one of the features is sparse",
+    "start": 213.0,
+    "duration": 3.3
+  },
+  {
+    "text": "right and I also remember that I can",
+    "start": 215.159,
+    "duration": 3.181
+  },
+  {
+    "text": "only show you a 2d plot that means I can",
+    "start": 216.3,
+    "duration": 4.799
+  },
+  {
+    "text": "have one feature on the air one axis and",
+    "start": 218.34,
+    "duration": 5.1
+  },
+  {
+    "text": "another feature on the other axis so I'm",
+    "start": 221.099,
+    "duration": 4.5
+  },
+  {
+    "text": "just going to be able to work with two",
+    "start": 223.44,
+    "duration": 3.54
+  },
+  {
+    "text": "features one of them is going to be W",
+    "start": 225.599,
+    "duration": 3.72
+  },
+  {
+    "text": "and the other one is going to be B right",
+    "start": 226.98,
+    "duration": 4.5
+  },
+  {
+    "text": "and remember the feature b or the",
+    "start": 229.319,
+    "duration": 4.081
+  },
+  {
+    "text": "feature corresponding to B is dense",
+    "start": 231.48,
+    "duration": 3.3
+  },
+  {
+    "text": "because it's always on right the",
+    "start": 233.4,
+    "duration": 3.54
+  },
+  {
+    "text": "corresponding input is always one so I",
+    "start": 234.78,
+    "duration": 3.9
+  },
+  {
+    "text": "can't do much about that so what I'm",
+    "start": 236.94,
+    "duration": 3.359
+  },
+  {
+    "text": "going to do is that I am going to create",
+    "start": 238.68,
+    "duration": 4.86
+  },
+  {
+    "text": "a data where my X which corresponds to W",
+    "start": 240.299,
+    "duration": 5.341
+  },
+  {
+    "text": "is going to be very sparse right so",
+    "start": 243.54,
+    "duration": 4.16
+  },
+  {
+    "text": "that's how I'm going to create this data",
+    "start": 245.64,
+    "duration": 4.379
+  },
+  {
+    "text": "so let's see this is what I'm going to",
+    "start": 247.7,
+    "duration": 4.119
+  },
+  {
+    "text": "do so this is what I'm saying right the",
+    "start": 250.019,
+    "duration": 3.481
+  },
+  {
+    "text": "third bullet point here says that we",
+    "start": 251.819,
+    "duration": 4.32
+  },
+  {
+    "text": "just have two parameters W and B of",
+    "start": 253.5,
+    "duration": 4.739
+  },
+  {
+    "text": "these the input feature correspond to B",
+    "start": 256.139,
+    "duration": 3.961
+  },
+  {
+    "text": "is always on so we can't really make its",
+    "start": 258.239,
+    "duration": 4.141
+  },
+  {
+    "text": "path so the only option is to make X",
+    "start": 260.1,
+    "duration": 4.379
+  },
+  {
+    "text": "pass so the way I've created the data",
+    "start": 262.38,
+    "duration": 4.92
+  },
+  {
+    "text": "for this is that I created some random",
+    "start": 264.479,
+    "duration": 6.181
+  },
+  {
+    "text": "500 random X comma y Pairs and then for",
+    "start": 267.3,
+    "duration": 6.3
+  },
+  {
+    "text": "roughly 80 of these pairs I set X to 0",
+    "start": 270.66,
+    "duration": 6.12
+  },
+  {
+    "text": "right and thereby making the feature uh",
+    "start": 273.6,
+    "duration": 5.52
+  },
+  {
+    "text": "X very sparse because 80 percent of the",
+    "start": 276.78,
+    "duration": 4.44
+  },
+  {
+    "text": "times it is 0 and that's the definition",
+    "start": 279.12,
+    "duration": 4.38
+  },
+  {
+    "text": "of a sparse feature that a majority of",
+    "start": 281.22,
+    "duration": 4.14
+  },
+  {
+    "text": "times are significantly more than a",
+    "start": 283.5,
+    "duration": 4.02
+  },
+  {
+    "text": "majority of times it's zero so that's",
+    "start": 285.36,
+    "duration": 4.559
+  },
+  {
+    "text": "how I created this training data and",
+    "start": 287.52,
+    "duration": 5.48
+  },
+  {
+    "text": "then I uh",
+    "start": 289.919,
+    "duration": 3.081
+  },
+  {
+    "text": "so I took that data and I",
+    "start": 296.4,
+    "duration": 7.44
+  },
+  {
+    "text": "ran the gradient descent momentum based",
+    "start": 300.5,
+    "duration": 5.74
+  },
+  {
+    "text": "gradient descent and nestro accelerated",
+    "start": 303.84,
+    "duration": 4.32
+  },
+  {
+    "text": "gradient descent algorithm on that using",
+    "start": 306.24,
+    "duration": 4.019
+  },
+  {
+    "text": "that data",
+    "start": 308.16,
+    "duration": 3.9
+  },
+  {
+    "text": "and uh",
+    "start": 310.259,
+    "duration": 4.141
+  },
+  {
+    "text": "the law surface was something like this",
+    "start": 312.06,
+    "duration": 4.74
+  },
+  {
+    "text": "and I am showing the 2D loss surface but",
+    "start": 314.4,
+    "duration": 4.2
+  },
+  {
+    "text": "let's try to understand uh let's try to",
+    "start": 316.8,
+    "duration": 3.54
+  },
+  {
+    "text": "make a commentary on it and try to see",
+    "start": 318.6,
+    "duration": 3.96
+  },
+  {
+    "text": "what it actually is right so as you know",
+    "start": 320.34,
+    "duration": 4.859
+  },
+  {
+    "text": "this red means high so these are the",
+    "start": 322.56,
+    "duration": 3.72
+  },
+  {
+    "text": "regions",
+    "start": 325.199,
+    "duration": 4.44
+  },
+  {
+    "text": "here where the loss is a bit high and",
+    "start": 326.28,
+    "duration": 5.04
+  },
+  {
+    "text": "also in those regions you see that",
+    "start": 329.639,
+    "duration": 3.301
+  },
+  {
+    "text": "there's a slightly larger difference",
+    "start": 331.32,
+    "duration": 4.98
+  },
+  {
+    "text": "between consecutive contour lines that",
+    "start": 332.94,
+    "duration": 5.46
+  },
+  {
+    "text": "means they are a bit flat region right",
+    "start": 336.3,
+    "duration": 6.6
+  },
+  {
+    "text": "and this region is blue here okay so",
+    "start": 338.4,
+    "duration": 6.54
+  },
+  {
+    "text": "that means in that region the loss is",
+    "start": 342.9,
+    "duration": 5.16
+  },
+  {
+    "text": "very low and and also from going from",
+    "start": 344.94,
+    "duration": 5.759
+  },
+  {
+    "text": "here to here as we go down let me just",
+    "start": 348.06,
+    "duration": 5.1
+  },
+  {
+    "text": "change the color going from here to here",
+    "start": 350.699,
+    "duration": 4.021
+  },
+  {
+    "text": "as we go down",
+    "start": 353.16,
+    "duration": 3.9
+  },
+  {
+    "text": "the slope is very Steep and that is",
+    "start": 354.72,
+    "duration": 4.44
+  },
+  {
+    "text": "obvious because the difference between",
+    "start": 357.06,
+    "duration": 4.26
+  },
+  {
+    "text": "two consecutive contour lines is now",
+    "start": 359.16,
+    "duration": 4.2
+  },
+  {
+    "text": "very small right so then this is",
+    "start": 361.32,
+    "duration": 3.96
+  },
+  {
+    "text": "essentially a surface like this which is",
+    "start": 363.36,
+    "duration": 4.8
+  },
+  {
+    "text": "peaking at the two red portions and then",
+    "start": 365.28,
+    "duration": 5.52
+  },
+  {
+    "text": "it's going into a valley which is the",
+    "start": 368.16,
+    "duration": 4.68
+  },
+  {
+    "text": "Blue Valley and it's going steeply into",
+    "start": 370.8,
+    "duration": 3.6
+  },
+  {
+    "text": "the valley right that's why you see this",
+    "start": 372.84,
+    "duration": 3.48
+  },
+  {
+    "text": "steep slopes here where the difference",
+    "start": 374.4,
+    "duration": 4.079
+  },
+  {
+    "text": "between two consecutive contour lines is",
+    "start": 376.32,
+    "duration": 4.379
+  },
+  {
+    "text": "very small right so that's what the loss",
+    "start": 378.479,
+    "duration": 5.28
+  },
+  {
+    "text": "surface looks like now I ran gradient",
+    "start": 380.699,
+    "duration": 4.921
+  },
+  {
+    "text": "descent I started from some point I",
+    "start": 383.759,
+    "duration": 3.481
+  },
+  {
+    "text": "started all the three algorithms from",
+    "start": 385.62,
+    "duration": 4.919
+  },
+  {
+    "text": "the same point right and I started",
+    "start": 387.24,
+    "duration": 5.88
+  },
+  {
+    "text": "gradient descent",
+    "start": 390.539,
+    "duration": 4.261
+  },
+  {
+    "text": "ah momentum based gradient is a",
+    "start": 393.12,
+    "duration": 4.56
+  },
+  {
+    "text": "menstrual right and the as I would like",
+    "start": 394.8,
+    "duration": 7.16
+  },
+  {
+    "text": "to say let me just go back to the slides",
+    "start": 397.68,
+    "duration": 4.28
+  },
+  {
+    "text": "so there's something interesting that is",
+    "start": 402.0,
+    "duration": 4.5
+  },
+  {
+    "text": "these three algorithms are doing right",
+    "start": 404.759,
+    "duration": 3.361
+  },
+  {
+    "text": "and can you spot it is the question",
+    "start": 406.5,
+    "duration": 3.78
+  },
+  {
+    "text": "right so what exactly is happening here",
+    "start": 408.12,
+    "duration": 4.56
+  },
+  {
+    "text": "and remember that uh I should have",
+    "start": 410.28,
+    "duration": 5.16
+  },
+  {
+    "text": "mentioned that my horizontal axis is the",
+    "start": 412.68,
+    "duration": 5.459
+  },
+  {
+    "text": "W axis and my vertical axis is the B",
+    "start": 415.44,
+    "duration": 4.979
+  },
+  {
+    "text": "axis as has been appropriately labeled",
+    "start": 418.139,
+    "duration": 4.62
+  },
+  {
+    "text": "on the plot right now with that",
+    "start": 420.419,
+    "duration": 3.9
+  },
+  {
+    "text": "information can you tell me what",
+    "start": 422.759,
+    "duration": 4.44
+  },
+  {
+    "text": "peculiar behavior is happening here",
+    "start": 424.319,
+    "duration": 5.461
+  },
+  {
+    "text": "okay good so what what you're saying is",
+    "start": 427.199,
+    "duration": 4.921
+  },
+  {
+    "text": "this right that uh",
+    "start": 429.78,
+    "duration": 4.919
+  },
+  {
+    "text": "I mean as I say it it looks like these",
+    "start": 432.12,
+    "duration": 4.68
+  },
+  {
+    "text": "algorithms went to a school where no one",
+    "start": 434.699,
+    "duration": 3.72
+  },
+  {
+    "text": "taught them greed in descent or no one",
+    "start": 436.8,
+    "duration": 3.48
+  },
+  {
+    "text": "taught them Pythagoras Theorem right so",
+    "start": 438.419,
+    "duration": 3.541
+  },
+  {
+    "text": "what what I mean by that is uh if you",
+    "start": 440.28,
+    "duration": 4.919
+  },
+  {
+    "text": "look here uh initially all the three",
+    "start": 441.96,
+    "duration": 4.859
+  },
+  {
+    "text": "algorithms are moving in the direction",
+    "start": 445.199,
+    "duration": 4.681
+  },
+  {
+    "text": "of B right they are not they have moved",
+    "start": 446.819,
+    "duration": 4.861
+  },
+  {
+    "text": "only till this point right till this",
+    "start": 449.88,
+    "duration": 4.62
+  },
+  {
+    "text": "year they've moved only little bit in",
+    "start": 451.68,
+    "duration": 5.639
+  },
+  {
+    "text": "the direction of w right so till this",
+    "start": 454.5,
+    "duration": 5.16
+  },
+  {
+    "text": "point is where they have reached so they",
+    "start": 457.319,
+    "duration": 4.201
+  },
+  {
+    "text": "have not much move from the initial",
+    "start": 459.66,
+    "duration": 4.379
+  },
+  {
+    "text": "value of w right but where they have",
+    "start": 461.52,
+    "duration": 4.92
+  },
+  {
+    "text": "moved a lot in the direction of B right",
+    "start": 464.039,
+    "duration": 5.701
+  },
+  {
+    "text": "and that is expected because B was the",
+    "start": 466.44,
+    "duration": 5.759
+  },
+  {
+    "text": "dense feature hence its gradients were",
+    "start": 469.74,
+    "duration": 4.5
+  },
+  {
+    "text": "larger and hence you were making larger",
+    "start": 472.199,
+    "duration": 4.261
+  },
+  {
+    "text": "movements in the direction of B whereas",
+    "start": 474.24,
+    "duration": 4.079
+  },
+  {
+    "text": "W was the sparse feature intentionally",
+    "start": 476.46,
+    "duration": 3.48
+  },
+  {
+    "text": "made sparse as explained on the previous",
+    "start": 478.319,
+    "duration": 3.961
+  },
+  {
+    "text": "slide so the gradients for w are smaller",
+    "start": 479.94,
+    "duration": 3.72
+  },
+  {
+    "text": "and hence you are making smaller",
+    "start": 482.28,
+    "duration": 3.0
+  },
+  {
+    "text": "movements in the direction of w right",
+    "start": 483.66,
+    "duration": 4.62
+  },
+  {
+    "text": "and after you reach the valley then the",
+    "start": 485.28,
+    "duration": 4.8
+  },
+  {
+    "text": "algorithms realize that now there is no",
+    "start": 488.28,
+    "duration": 3.419
+  },
+  {
+    "text": "more uh value in moving in the direction",
+    "start": 490.08,
+    "duration": 3.36
+  },
+  {
+    "text": "of B right anyways the gradients that",
+    "start": 491.699,
+    "duration": 3.301
+  },
+  {
+    "text": "are becoming smaller now because you",
+    "start": 493.44,
+    "duration": 3.72
+  },
+  {
+    "text": "have reached the Steep region and then",
+    "start": 495.0,
+    "duration": 4.44
+  },
+  {
+    "text": "it slowly starts moving very very slow",
+    "start": 497.16,
+    "duration": 4.56
+  },
+  {
+    "text": "steps in the direction of w because",
+    "start": 499.44,
+    "duration": 3.72
+  },
+  {
+    "text": "there again the gradients are small what",
+    "start": 501.72,
+    "duration": 3.24
+  },
+  {
+    "text": "can you do but then it still moves in",
+    "start": 503.16,
+    "duration": 3.719
+  },
+  {
+    "text": "that direction and then it reaches the",
+    "start": 504.96,
+    "duration": 3.84
+  },
+  {
+    "text": "minimum all right so it takes a right",
+    "start": 506.879,
+    "duration": 4.5
+  },
+  {
+    "text": "angled path right whereas ideally you",
+    "start": 508.8,
+    "duration": 3.84
+  },
+  {
+    "text": "would have wanted something which just",
+    "start": 511.379,
+    "duration": 3.421
+  },
+  {
+    "text": "directly travels like this which would",
+    "start": 512.64,
+    "duration": 4.98
+  },
+  {
+    "text": "mean that it is making proportionate",
+    "start": 514.8,
+    "duration": 4.679
+  },
+  {
+    "text": "movements in both the direction even",
+    "start": 517.62,
+    "duration": 3.12
+  },
+  {
+    "text": "though the derivatives in the direction",
+    "start": 519.479,
+    "duration": 3.541
+  },
+  {
+    "text": "of w are small you are still able to",
+    "start": 520.74,
+    "duration": 3.84
+  },
+  {
+    "text": "somehow jack up the learning rate so",
+    "start": 523.02,
+    "duration": 3.12
+  },
+  {
+    "text": "that you are able to make proportionate",
+    "start": 524.58,
+    "duration": 3.96
+  },
+  {
+    "text": "movements there and then reach the",
+    "start": 526.14,
+    "duration": 5.759
+  },
+  {
+    "text": "Minima faster or at least like a more",
+    "start": 528.54,
+    "duration": 4.919
+  },
+  {
+    "text": "appropriate root right so that's that's",
+    "start": 531.899,
+    "duration": 4.021
+  },
+  {
+    "text": "what is going wrong with these",
+    "start": 533.459,
+    "duration": 4.141
+  },
+  {
+    "text": "algorithms the algorithms that we've",
+    "start": 535.92,
+    "duration": 4.5
+  },
+  {
+    "text": "seen in the last lecture",
+    "start": 537.6,
+    "duration": 5.06
+  },
+  {
+    "text": "foreign",
+    "start": 540.42,
+    "duration": 2.24
+  },
+  {
+    "text": "are moving in the vertical Lexus and",
+    "start": 543.26,
+    "duration": 4.48
+  },
+  {
+    "text": "then they start moving along the W axis",
+    "start": 545.76,
+    "duration": 3.78
+  },
+  {
+    "text": "and we know the reason for this we",
+    "start": 547.74,
+    "duration": 3.9
+  },
+  {
+    "text": "already explained I just explained what",
+    "start": 549.54,
+    "duration": 4.88
+  },
+  {
+    "text": "the reason was",
+    "start": 551.64,
+    "duration": 2.78
+  },
+  {
+    "text": "and such sparsity right it is very",
+    "start": 555.24,
+    "duration": 3.539
+  },
+  {
+    "text": "common in large neural networks right",
+    "start": 557.339,
+    "duration": 3.721
+  },
+  {
+    "text": "you have thousands of input features and",
+    "start": 558.779,
+    "duration": 4.56
+  },
+  {
+    "text": "uh you many of them might be sparse",
+    "start": 561.06,
+    "duration": 3.48
+  },
+  {
+    "text": "right so there's not something like a",
+    "start": 563.339,
+    "duration": 3.781
+  },
+  {
+    "text": "toy example that I've created this is",
+    "start": 564.54,
+    "duration": 4.2
+  },
+  {
+    "text": "going to happen in many neural networks",
+    "start": 567.12,
+    "duration": 3.24
+  },
+  {
+    "text": "and hence you need to address this issue",
+    "start": 568.74,
+    "duration": 3.06
+  },
+  {
+    "text": "right that if you have sparse features",
+    "start": 570.36,
+    "duration": 3.24
+  },
+  {
+    "text": "can you still make faster movements in",
+    "start": 571.8,
+    "duration": 3.9
+  },
+  {
+    "text": "those directions right so now let's see",
+    "start": 573.6,
+    "duration": 6.419
+  },
+  {
+    "text": "what Ada grad does for this case Okay uh",
+    "start": 575.7,
+    "duration": 6.66
+  },
+  {
+    "text": "okay let me just play this",
+    "start": 580.019,
+    "duration": 5.82
+  },
+  {
+    "text": "so as you can see right aragrad is",
+    "start": 582.36,
+    "duration": 5.76
+  },
+  {
+    "text": "moving",
+    "start": 585.839,
+    "duration": 4.62
+  },
+  {
+    "text": "in the W direction also right why is",
+    "start": 588.12,
+    "duration": 4.38
+  },
+  {
+    "text": "that happening because the learning rate",
+    "start": 590.459,
+    "duration": 4.38
+  },
+  {
+    "text": "for w because our denominator is going",
+    "start": 592.5,
+    "duration": 4.2
+  },
+  {
+    "text": "to be small our square root of VT is",
+    "start": 594.839,
+    "duration": 3.781
+  },
+  {
+    "text": "going to be small right and if it's a",
+    "start": 596.7,
+    "duration": 4.259
+  },
+  {
+    "text": "quantity Which is less than 1 then the",
+    "start": 598.62,
+    "duration": 4.8
+  },
+  {
+    "text": "denominator is uh you're dividing ETA by",
+    "start": 600.959,
+    "duration": 4.801
+  },
+  {
+    "text": "a quantity Which is less than 1 so hence",
+    "start": 603.42,
+    "duration": 4.38
+  },
+  {
+    "text": "ETA increases and hence your updates in",
+    "start": 605.76,
+    "duration": 4.199
+  },
+  {
+    "text": "that direction increase and hence unlike",
+    "start": 607.8,
+    "duration": 3.719
+  },
+  {
+    "text": "the other algorithms you're",
+    "start": 609.959,
+    "duration": 2.88
+  },
+  {
+    "text": "proportionately moving in the direction",
+    "start": 611.519,
+    "duration": 4.621
+  },
+  {
+    "text": "of w Oz right of course here still the",
+    "start": 612.839,
+    "duration": 4.801
+  },
+  {
+    "text": "momentum wage algorithm was faster",
+    "start": 616.14,
+    "duration": 3.12
+  },
+  {
+    "text": "because momentum of course has its",
+    "start": 617.64,
+    "duration": 3.18
+  },
+  {
+    "text": "Advantage right it makes mistakes but it",
+    "start": 619.26,
+    "duration": 3.96
+  },
+  {
+    "text": "still reaches the Minima faster so let",
+    "start": 620.82,
+    "duration": 5.36
+  },
+  {
+    "text": "me just play that again",
+    "start": 623.22,
+    "duration": 2.96
+  },
+  {
+    "text": "you can see that the momentum based",
+    "start": 627.72,
+    "duration": 3.299
+  },
+  {
+    "text": "algorithms both nestrum and all this",
+    "start": 629.459,
+    "duration": 3.541
+  },
+  {
+    "text": "reached faster right but compared to",
+    "start": 631.019,
+    "duration": 3.841
+  },
+  {
+    "text": "gradient descent adagrad was able to",
+    "start": 633.0,
+    "duration": 3.3
+  },
+  {
+    "text": "move faster right and there is still",
+    "start": 634.86,
+    "duration": 3.539
+  },
+  {
+    "text": "scope to improve Ada guide because it",
+    "start": 636.3,
+    "duration": 3.539
+  },
+  {
+    "text": "does not have a momentum term if I had",
+    "start": 638.399,
+    "duration": 3.301
+  },
+  {
+    "text": "added a momentum term term then I could",
+    "start": 639.839,
+    "duration": 3.901
+  },
+  {
+    "text": "combine the advantages of momentum as",
+    "start": 641.7,
+    "duration": 3.54
+  },
+  {
+    "text": "well as this adaptive learning rate and",
+    "start": 643.74,
+    "duration": 3.12
+  },
+  {
+    "text": "we'll probably get in that direction at",
+    "start": 645.24,
+    "duration": 3.659
+  },
+  {
+    "text": "some point right we'll get in that",
+    "start": 646.86,
+    "duration": 3.479
+  },
+  {
+    "text": "direction meaning we'll get towards such",
+    "start": 648.899,
+    "duration": 2.94
+  },
+  {
+    "text": "an algorithm at some point right but for",
+    "start": 650.339,
+    "duration": 3.721
+  },
+  {
+    "text": "now you see the advantage that I'm able",
+    "start": 651.839,
+    "duration": 4.861
+  },
+  {
+    "text": "to move uh proportionately even though",
+    "start": 654.06,
+    "duration": 4.8
+  },
+  {
+    "text": "my derivatives are small I have",
+    "start": 656.7,
+    "duration": 4.139
+  },
+  {
+    "text": "adaptedly changed the learning rate ETA",
+    "start": 658.86,
+    "duration": 4.14
+  },
+  {
+    "text": "divided by the history of the updates",
+    "start": 660.839,
+    "duration": 4.321
+  },
+  {
+    "text": "and that is allowing me to do that right",
+    "start": 663.0,
+    "duration": 5.279
+  },
+  {
+    "text": "so remember my effective learning rate",
+    "start": 665.16,
+    "duration": 4.919
+  },
+  {
+    "text": "oh",
+    "start": 668.279,
+    "duration": 6.12
+  },
+  {
+    "text": "is ETA divided by square root of",
+    "start": 670.079,
+    "duration": 5.7
+  },
+  {
+    "text": "VT",
+    "start": 674.399,
+    "duration": 3.301
+  },
+  {
+    "text": "plus Epsilon and let me just ignore",
+    "start": 675.779,
+    "duration": 4.141
+  },
+  {
+    "text": "Epsilon for now so it's divided by the",
+    "start": 677.7,
+    "duration": 4.92
+  },
+  {
+    "text": "square root of VT and for w this VT is",
+    "start": 679.92,
+    "duration": 5.22
+  },
+  {
+    "text": "going to be very small because I am not",
+    "start": 682.62,
+    "duration": 5.58
+  },
+  {
+    "text": "getting large derivatives there hence",
+    "start": 685.14,
+    "duration": 4.68
+  },
+  {
+    "text": "ETA is getting divided by a very small",
+    "start": 688.2,
+    "duration": 3.6
+  },
+  {
+    "text": "quantity and if that quantity is less",
+    "start": 689.82,
+    "duration": 3.84
+  },
+  {
+    "text": "than 1 then effectively this learning",
+    "start": 691.8,
+    "duration": 3.539
+  },
+  {
+    "text": "rate is increasing right and that's what",
+    "start": 693.66,
+    "duration": 4.38
+  },
+  {
+    "text": "is pushing uh the derivative there right",
+    "start": 695.339,
+    "duration": 4.141
+  },
+  {
+    "text": "and I'll just explain this in more",
+    "start": 698.04,
+    "duration": 5.239
+  },
+  {
+    "text": "detail on the next slide",
+    "start": 699.48,
+    "duration": 3.799
+  },
+  {
+    "text": "foreign",
+    "start": 703.92,
+    "duration": 2.24
+  },
+  {
+    "text": "but one disadvantage that not",
+    "start": 707.36,
+    "duration": 4.419
+  },
+  {
+    "text": "disadvantaged but one thing I want you",
+    "start": 710.519,
+    "duration": 3.121
+  },
+  {
+    "text": "to notice and I'll just play this again",
+    "start": 711.779,
+    "duration": 5.641
+  },
+  {
+    "text": "if required is that as Ada grid starts",
+    "start": 713.64,
+    "duration": 5.879
+  },
+  {
+    "text": "reaching the Minima just observe from",
+    "start": 717.42,
+    "duration": 5.099
+  },
+  {
+    "text": "now on yeah so it's slowing down quite a",
+    "start": 719.519,
+    "duration": 4.921
+  },
+  {
+    "text": "bit right and what is happening is that",
+    "start": 722.519,
+    "duration": 6.781
+  },
+  {
+    "text": "by this time despite the uh smaller",
+    "start": 724.44,
+    "duration": 7.62
+  },
+  {
+    "text": "derivatives of in the direction of w by",
+    "start": 729.3,
+    "duration": 4.08
+  },
+  {
+    "text": "this time you have accumulated some",
+    "start": 732.06,
+    "duration": 3.36
+  },
+  {
+    "text": "history and now this effective learning",
+    "start": 733.38,
+    "duration": 3.6
+  },
+  {
+    "text": "rate is starting to slow down because it",
+    "start": 735.42,
+    "duration": 3.12
+  },
+  {
+    "text": "is getting divided by this accumulated",
+    "start": 736.98,
+    "duration": 3.359
+  },
+  {
+    "text": "history and by that time that history",
+    "start": 738.54,
+    "duration": 3.9
+  },
+  {
+    "text": "has increased right so as it comes close",
+    "start": 740.339,
+    "duration": 4.201
+  },
+  {
+    "text": "to the convergence not necessarily goes",
+    "start": 742.44,
+    "duration": 3.839
+  },
+  {
+    "text": "to conversions after a certain number of",
+    "start": 744.54,
+    "duration": 3.6
+  },
+  {
+    "text": "iterations when the history is becoming",
+    "start": 746.279,
+    "duration": 4.68
+  },
+  {
+    "text": "large then adagrad is slowing down it so",
+    "start": 748.14,
+    "duration": 4.139
+  },
+  {
+    "text": "that's one observation I'm making on",
+    "start": 750.959,
+    "duration": 3.361
+  },
+  {
+    "text": "this slide and we'll come back to see if",
+    "start": 752.279,
+    "duration": 4.68
+  },
+  {
+    "text": "we can somehow solve that problem",
+    "start": 754.32,
+    "duration": 5.04
+  },
+  {
+    "text": "okay so now let's examine this a bit",
+    "start": 756.959,
+    "duration": 4.5
+  },
+  {
+    "text": "more uh closely",
+    "start": 759.36,
+    "duration": 4.2
+  },
+  {
+    "text": "yeah so you remember that we are",
+    "start": 761.459,
+    "duration": 4.44
+  },
+  {
+    "text": "accumulating this history now V 0 is",
+    "start": 763.56,
+    "duration": 4.74
+  },
+  {
+    "text": "Delta W 0 squared V1 is Delta W 0",
+    "start": 765.899,
+    "duration": 4.44
+  },
+  {
+    "text": "squared plus Delta W1 square and so on",
+    "start": 768.3,
+    "duration": 4.26
+  },
+  {
+    "text": "right so this is constantly growing VT",
+    "start": 770.339,
+    "duration": 4.461
+  },
+  {
+    "text": "is constantly growing",
+    "start": 772.56,
+    "duration": 4.74
+  },
+  {
+    "text": "uninhibitedly because you are adding",
+    "start": 774.8,
+    "duration": 7.3
+  },
+  {
+    "text": "those uh derivatives right and uh our",
+    "start": 777.3,
+    "duration": 7.74
+  },
+  {
+    "text": "derivative is proportional to X that",
+    "start": 782.1,
+    "duration": 6.6
+  },
+  {
+    "text": "means for the uh feature which is pass",
+    "start": 785.04,
+    "duration": 6.78
+  },
+  {
+    "text": "these derivatives would be small so then",
+    "start": 788.7,
+    "duration": 6.54
+  },
+  {
+    "text": "our history will accumulate slowly hence",
+    "start": 791.82,
+    "duration": 5.519
+  },
+  {
+    "text": "this effective learning rate will Decay",
+    "start": 795.24,
+    "duration": 3.539
+  },
+  {
+    "text": "slowly and it's also possible that",
+    "start": 797.339,
+    "duration": 3.661
+  },
+  {
+    "text": "initially it increases because us",
+    "start": 798.779,
+    "duration": 4.201
+  },
+  {
+    "text": "denominator might be less than one so",
+    "start": 801.0,
+    "duration": 3.6
+  },
+  {
+    "text": "the effective learning rate increases",
+    "start": 802.98,
+    "duration": 4.62
+  },
+  {
+    "text": "and even when it decreases it is slow to",
+    "start": 804.6,
+    "duration": 3.84
+  },
+  {
+    "text": "decrease right because your",
+    "start": 807.6,
+    "duration": 2.82
+  },
+  {
+    "text": "accumulations may happen only after a",
+    "start": 808.44,
+    "duration": 4.019
+  },
+  {
+    "text": "large number of iterations such that the",
+    "start": 810.42,
+    "duration": 3.719
+  },
+  {
+    "text": "denominator becomes large and then the",
+    "start": 812.459,
+    "duration": 3.481
+  },
+  {
+    "text": "effect of slowing down kicks in right",
+    "start": 814.139,
+    "duration": 5.281
+  },
+  {
+    "text": "but as opposed to this uh for a dense",
+    "start": 815.94,
+    "duration": 5.04
+  },
+  {
+    "text": "feature what would happen is you had the",
+    "start": 819.42,
+    "duration": 3.84
+  },
+  {
+    "text": "B feature which was a dense feature now",
+    "start": 820.98,
+    "duration": 3.72
+  },
+  {
+    "text": "this history is accumulating faster",
+    "start": 823.26,
+    "duration": 4.1
+  },
+  {
+    "text": "right because now the derivatives are",
+    "start": 824.7,
+    "duration": 6.48
+  },
+  {
+    "text": "going to be non-zero uh quite always",
+    "start": 827.36,
+    "duration": 5.56
+  },
+  {
+    "text": "right because this is like an always on",
+    "start": 831.18,
+    "duration": 3.899
+  },
+  {
+    "text": "feature so your history is accumulating",
+    "start": 832.92,
+    "duration": 5.7
+  },
+  {
+    "text": "fast uh it will not be zero for most of",
+    "start": 835.079,
+    "duration": 6.421
+  },
+  {
+    "text": "the time steps and therefore",
+    "start": 838.62,
+    "duration": 5.519
+  },
+  {
+    "text": "what will happen is uh VT will start",
+    "start": 841.5,
+    "duration": 5.22
+  },
+  {
+    "text": "growing rapidly and hence this will",
+    "start": 844.139,
+    "duration": 4.5
+  },
+  {
+    "text": "start decaying rapidly right so now",
+    "start": 846.72,
+    "duration": 3.359
+  },
+  {
+    "text": "effectively what will happen is this",
+    "start": 848.639,
+    "duration": 3.361
+  },
+  {
+    "text": "advantage that you had that you quickly",
+    "start": 850.079,
+    "duration": 4.081
+  },
+  {
+    "text": "move in the direction of B and came to",
+    "start": 852.0,
+    "duration": 4.019
+  },
+  {
+    "text": "where you want it to be that will not",
+    "start": 854.16,
+    "duration": 3.119
+  },
+  {
+    "text": "happen right because now this directions",
+    "start": 856.019,
+    "duration": 4.141
+  },
+  {
+    "text": "the in the increments in the vertical",
+    "start": 857.279,
+    "duration": 5.401
+  },
+  {
+    "text": "direction will happen a bit slowly as",
+    "start": 860.16,
+    "duration": 3.96
+  },
+  {
+    "text": "opposed to earlier where it was quickly",
+    "start": 862.68,
+    "duration": 3.36
+  },
+  {
+    "text": "moving in the vertical Direction now you",
+    "start": 864.12,
+    "duration": 3.659
+  },
+  {
+    "text": "are moving a bit slowly in the vertical",
+    "start": 866.04,
+    "duration": 3.539
+  },
+  {
+    "text": "Direction because of this effective",
+    "start": 867.779,
+    "duration": 3.601
+  },
+  {
+    "text": "learning rate decaying as you keep",
+    "start": 869.579,
+    "duration": 3.481
+  },
+  {
+    "text": "making updates right so that's what is",
+    "start": 871.38,
+    "duration": 3.42
+  },
+  {
+    "text": "happening in this algorithm",
+    "start": 873.06,
+    "duration": 3.959
+  },
+  {
+    "text": "okay and we can now see that uh visually",
+    "start": 874.8,
+    "duration": 7.14
+  },
+  {
+    "text": "uh so here uh d w",
+    "start": 877.019,
+    "duration": 8.961
+  },
+  {
+    "text": "let me just annotate the plot a bit",
+    "start": 881.94,
+    "duration": 4.04
+  },
+  {
+    "text": "so here DW is essentially this Delta W",
+    "start": 886.079,
+    "duration": 7.081
+  },
+  {
+    "text": "that I have uh and BT is the history",
+    "start": 888.959,
+    "duration": 6.06
+  },
+  {
+    "text": "that is getting accumulated for the",
+    "start": 893.16,
+    "duration": 5.4
+  },
+  {
+    "text": "weight w and ETA T is the learning rate",
+    "start": 895.019,
+    "duration": 5.76
+  },
+  {
+    "text": "for the weight w right so now what is",
+    "start": 898.56,
+    "duration": 4.98
+  },
+  {
+    "text": "happening let me just uh show you things",
+    "start": 900.779,
+    "duration": 5.581
+  },
+  {
+    "text": "here right so as I had said right the VT",
+    "start": 903.54,
+    "duration": 4.919
+  },
+  {
+    "text": "will keep increasing",
+    "start": 906.36,
+    "duration": 3.719
+  },
+  {
+    "text": "right because it's accumulating the",
+    "start": 908.459,
+    "duration": 3.661
+  },
+  {
+    "text": "gradients of course at some point when",
+    "start": 910.079,
+    "duration": 4.62
+  },
+  {
+    "text": "you reach close to the Minima and your",
+    "start": 912.12,
+    "duration": 5.459
+  },
+  {
+    "text": "Delta W becomes zero then there's no",
+    "start": 914.699,
+    "duration": 4.2
+  },
+  {
+    "text": "more additions happening right so that's",
+    "start": 917.579,
+    "duration": 3.181
+  },
+  {
+    "text": "why this will saturate here in this",
+    "start": 918.899,
+    "duration": 3.721
+  },
+  {
+    "text": "region right and that you can see here",
+    "start": 920.76,
+    "duration": 4.68
+  },
+  {
+    "text": "if you look at the derivative right in",
+    "start": 922.62,
+    "duration": 4.26
+  },
+  {
+    "text": "that region the derivatives have now",
+    "start": 925.44,
+    "duration": 3.54
+  },
+  {
+    "text": "almost become zero and hence no",
+    "start": 926.88,
+    "duration": 4.38
+  },
+  {
+    "text": "additions are happening to the history",
+    "start": 928.98,
+    "duration": 4.08
+  },
+  {
+    "text": "right no large additions are happening",
+    "start": 931.26,
+    "duration": 3.66
+  },
+  {
+    "text": "to the history it is very close to zero",
+    "start": 933.06,
+    "duration": 3.24
+  },
+  {
+    "text": "so some small small additions are",
+    "start": 934.92,
+    "duration": 3.0
+  },
+  {
+    "text": "happening but it's not reflecting in the",
+    "start": 936.3,
+    "duration": 5.039
+  },
+  {
+    "text": "uh plot right and uh looking at this",
+    "start": 937.92,
+    "duration": 8.279
+  },
+  {
+    "text": "also so initially remember that the way",
+    "start": 941.339,
+    "duration": 7.68
+  },
+  {
+    "text": "your plot was and this this itself is",
+    "start": 946.199,
+    "duration": 5.64
+  },
+  {
+    "text": "interesting and we should try to look at",
+    "start": 949.019,
+    "duration": 5.461
+  },
+  {
+    "text": "it in the context of the",
+    "start": 951.839,
+    "duration": 5.041
+  },
+  {
+    "text": "uh now the last plot that we had right",
+    "start": 954.48,
+    "duration": 4.68
+  },
+  {
+    "text": "how is the derivative uh changing so",
+    "start": 956.88,
+    "duration": 3.72
+  },
+  {
+    "text": "I'll make some comments I'll go back to",
+    "start": 959.16,
+    "duration": 3.299
+  },
+  {
+    "text": "the loss plot and I'll make some",
+    "start": 960.6,
+    "duration": 5.479
+  },
+  {
+    "text": "comments there and then come back here",
+    "start": 962.459,
+    "duration": 3.62
+  },
+  {
+    "text": "yes yes and I'm on the access x-axis you",
+    "start": 968.16,
+    "duration": 5.76
+  },
+  {
+    "text": "have the number of iterations right",
+    "start": 971.579,
+    "duration": 5.401
+  },
+  {
+    "text": "yeah so if I look at the loss plot right",
+    "start": 973.92,
+    "duration": 5.34
+  },
+  {
+    "text": "and let me just clear this and then make",
+    "start": 976.98,
+    "duration": 4.14
+  },
+  {
+    "text": "some comments here",
+    "start": 979.26,
+    "duration": 3.96
+  },
+  {
+    "text": "yeah so remember we had started from",
+    "start": 981.12,
+    "duration": 6.48
+  },
+  {
+    "text": "here okay so initially the uh you are in",
+    "start": 983.22,
+    "duration": 7.08
+  },
+  {
+    "text": "a slightly it's t steep right from the",
+    "start": 987.6,
+    "duration": 3.96
+  },
+  {
+    "text": "beginning it's steep right but the",
+    "start": 990.3,
+    "duration": 3.479
+  },
+  {
+    "text": "steepness is increasing that means as I",
+    "start": 991.56,
+    "duration": 4.32
+  },
+  {
+    "text": "keep going down my derivatives will",
+    "start": 993.779,
+    "duration": 3.901
+  },
+  {
+    "text": "become larger and larger right in",
+    "start": 995.88,
+    "duration": 3.72
+  },
+  {
+    "text": "magnitude the direction may be positive",
+    "start": 997.68,
+    "duration": 3.719
+  },
+  {
+    "text": "or negative but the magnitude will keep",
+    "start": 999.6,
+    "duration": 3.9
+  },
+  {
+    "text": "increasing then when I enter this Valley",
+    "start": 1001.399,
+    "duration": 4.081
+  },
+  {
+    "text": "region my derivatives will start",
+    "start": 1003.5,
+    "duration": 5.399
+  },
+  {
+    "text": "becoming smaller again right until they",
+    "start": 1005.48,
+    "duration": 5.099
+  },
+  {
+    "text": "reach a point where the derivatives will",
+    "start": 1008.899,
+    "duration": 4.021
+  },
+  {
+    "text": "become close to zero right so remember",
+    "start": 1010.579,
+    "duration": 5.281
+  },
+  {
+    "text": "initially they'll increase because I'm",
+    "start": 1012.92,
+    "duration": 4.62
+  },
+  {
+    "text": "going down the slope and the slope is",
+    "start": 1015.86,
+    "duration": 3.06
+  },
+  {
+    "text": "increasing so the derivatives will",
+    "start": 1017.54,
+    "duration": 3.18
+  },
+  {
+    "text": "increase and I'm showing it this way",
+    "start": 1018.92,
+    "duration": 2.94
+  },
+  {
+    "text": "because they are increasing in the",
+    "start": 1020.72,
+    "duration": 3.059
+  },
+  {
+    "text": "negative direction right so the slope",
+    "start": 1021.86,
+    "duration": 4.439
+  },
+  {
+    "text": "here is negative uh so this is what the",
+    "start": 1023.779,
+    "duration": 5.04
+  },
+  {
+    "text": "curve is like so here the slope at this",
+    "start": 1026.299,
+    "duration": 4.081
+  },
+  {
+    "text": "point it's negative right because you're",
+    "start": 1028.819,
+    "duration": 4.681
+  },
+  {
+    "text": "going down as you are going down or as",
+    "start": 1030.38,
+    "duration": 5.22
+  },
+  {
+    "text": "you are moving in the X Direction the",
+    "start": 1033.5,
+    "duration": 5.22
+  },
+  {
+    "text": "value of y is decreasing right or as so",
+    "start": 1035.6,
+    "duration": 4.56
+  },
+  {
+    "text": "that's why the slope is going to be",
+    "start": 1038.72,
+    "duration": 4.079
+  },
+  {
+    "text": "negative so it's going to increase in",
+    "start": 1040.16,
+    "duration": 4.799
+  },
+  {
+    "text": "the negative Direction then again it's",
+    "start": 1042.799,
+    "duration": 5.04
+  },
+  {
+    "text": "going to start decreasing and then it",
+    "start": 1044.959,
+    "duration": 4.081
+  },
+  {
+    "text": "will come to zero right and that's",
+    "start": 1047.839,
+    "duration": 2.84
+  },
+  {
+    "text": "exactly what is happening in the",
+    "start": 1049.04,
+    "duration": 5.94
+  },
+  {
+    "text": "derivative plot that we just saw",
+    "start": 1050.679,
+    "duration": 6.641
+  },
+  {
+    "text": "now let me go back to the plot",
+    "start": 1054.98,
+    "duration": 4.5
+  },
+  {
+    "text": "yeah so this is what is happening right",
+    "start": 1057.32,
+    "duration": 5.52
+  },
+  {
+    "text": "so initially uh here your derivatives as",
+    "start": 1059.48,
+    "duration": 5.579
+  },
+  {
+    "text": "you keep going down it keeps increasing",
+    "start": 1062.84,
+    "duration": 4.14
+  },
+  {
+    "text": "in magnitude right I mean remember that",
+    "start": 1065.059,
+    "duration": 3.12
+  },
+  {
+    "text": "you are increasing on the negative side",
+    "start": 1066.98,
+    "duration": 2.699
+  },
+  {
+    "text": "which is fine its magnitude is",
+    "start": 1068.179,
+    "duration": 3.481
+  },
+  {
+    "text": "increasing and then at some point",
+    "start": 1069.679,
+    "duration": 3.301
+  },
+  {
+    "text": "because here I'm going to take the",
+    "start": 1071.66,
+    "duration": 3.12
+  },
+  {
+    "text": "square that's why I'm talking about the",
+    "start": 1072.98,
+    "duration": 3.96
+  },
+  {
+    "text": "magnitude right and then when it comes",
+    "start": 1074.78,
+    "duration": 3.899
+  },
+  {
+    "text": "close to the Minima it again starts",
+    "start": 1076.94,
+    "duration": 3.78
+  },
+  {
+    "text": "decreasing in magnitude and then it",
+    "start": 1078.679,
+    "duration": 3.961
+  },
+  {
+    "text": "comes to zero right and that's because",
+    "start": 1080.72,
+    "duration": 4.56
+  },
+  {
+    "text": "the loss surface was like that right so",
+    "start": 1082.64,
+    "duration": 5.22
+  },
+  {
+    "text": "this is how the history is getting",
+    "start": 1085.28,
+    "duration": 4.62
+  },
+  {
+    "text": "accumulated this is how the derivatives",
+    "start": 1087.86,
+    "duration": 3.96
+  },
+  {
+    "text": "are changing and this is what is",
+    "start": 1089.9,
+    "duration": 3.18
+  },
+  {
+    "text": "happening the red curve tells you what",
+    "start": 1091.82,
+    "duration": 2.52
+  },
+  {
+    "text": "is happening to the effective learning",
+    "start": 1093.08,
+    "duration": 3.36
+  },
+  {
+    "text": "rate as your history is accumulating the",
+    "start": 1094.34,
+    "duration": 3.48
+  },
+  {
+    "text": "learning rate keeps decreasing",
+    "start": 1096.44,
+    "duration": 3.96
+  },
+  {
+    "text": "exponentially right so if uh either to",
+    "start": 1097.82,
+    "duration": 6.14
+  },
+  {
+    "text": "just plot let's just see",
+    "start": 1100.4,
+    "duration": 3.56
+  },
+  {
+    "text": "this is what the learning rate curve",
+    "start": 1105.38,
+    "duration": 4.02
+  },
+  {
+    "text": "looks like right I'm the same plot I've",
+    "start": 1107.419,
+    "duration": 4.021
+  },
+  {
+    "text": "plotted separately so the red curve I",
+    "start": 1109.4,
+    "duration": 4.26
+  },
+  {
+    "text": "plotted in a new plot so that I can have",
+    "start": 1111.44,
+    "duration": 6.18
+  },
+  {
+    "text": "more range on the y-axis so the y-axis",
+    "start": 1113.66,
+    "duration": 5.399
+  },
+  {
+    "text": "tells you the learning rate and the x",
+    "start": 1117.62,
+    "duration": 3.66
+  },
+  {
+    "text": "axis is the number of iterations as the",
+    "start": 1119.059,
+    "duration": 3.661
+  },
+  {
+    "text": "number of iterations keeps increasing",
+    "start": 1121.28,
+    "duration": 3.12
+  },
+  {
+    "text": "the learning rate keeps decreasing",
+    "start": 1122.72,
+    "duration": 3.18
+  },
+  {
+    "text": "exponentially right so here it's",
+    "start": 1124.4,
+    "duration": 3.86
+  },
+  {
+    "text": "continuously decreasing okay",
+    "start": 1125.9,
+    "duration": 6.6
+  },
+  {
+    "text": "and here for example in the first step",
+    "start": 1128.26,
+    "duration": 6.64
+  },
+  {
+    "text": "the learning rate was 0.72 because I had",
+    "start": 1132.5,
+    "duration": 4.86
+  },
+  {
+    "text": "initialized ETA to 0.1 and then the",
+    "start": 1134.9,
+    "duration": 4.5
+  },
+  {
+    "text": "denominator turned out to be 0.01",
+    "start": 1137.36,
+    "duration": 4.199
+  },
+  {
+    "text": "because V 0 turned out to be uh",
+    "start": 1139.4,
+    "duration": 3.96
+  },
+  {
+    "text": "something which led to this point zero",
+    "start": 1141.559,
+    "duration": 3.721
+  },
+  {
+    "text": "one nine and then my learning rate",
+    "start": 1143.36,
+    "duration": 4.98
+  },
+  {
+    "text": "initially was 0.72 but as I kept going",
+    "start": 1145.28,
+    "duration": 5.7
+  },
+  {
+    "text": "down it decreased exponentially right so",
+    "start": 1148.34,
+    "duration": 5.82
+  },
+  {
+    "text": "the main thing here to show is that my I",
+    "start": 1150.98,
+    "duration": 4.86
+  },
+  {
+    "text": "had kept my learning rate initially",
+    "start": 1154.16,
+    "duration": 5.879
+  },
+  {
+    "text": "learning rate is 0.1 but it became 0.72",
+    "start": 1155.84,
+    "duration": 6.12
+  },
+  {
+    "text": "right because initially my history was",
+    "start": 1160.039,
+    "duration": 3.961
+  },
+  {
+    "text": "not large and hence the learning rate",
+    "start": 1161.96,
+    "duration": 4.26
+  },
+  {
+    "text": "increased and then it started decreasing",
+    "start": 1164.0,
+    "duration": 3.9
+  },
+  {
+    "text": "again and that's exactly what we wanted",
+    "start": 1166.22,
+    "duration": 3.24
+  },
+  {
+    "text": "initially it could be high and then it",
+    "start": 1167.9,
+    "duration": 4.68
+  },
+  {
+    "text": "starts decreasing okay",
+    "start": 1169.46,
+    "duration": 7.86
+  },
+  {
+    "text": "and the same argument for B also uh so",
+    "start": 1172.58,
+    "duration": 7.979
+  },
+  {
+    "text": "here for",
+    "start": 1177.32,
+    "duration": 3.239
+  },
+  {
+    "text": "yeah so the same argument for uh B uh so",
+    "start": 1184.1,
+    "duration": 5.28
+  },
+  {
+    "text": "the derivatives so here the scale is a",
+    "start": 1187.4,
+    "duration": 3.72
+  },
+  {
+    "text": "bit different right so derivatives are",
+    "start": 1189.38,
+    "duration": 4.86
+  },
+  {
+    "text": "on the x axis you have two thousand four",
+    "start": 1191.12,
+    "duration": 4.559
+  },
+  {
+    "text": "thousand sorry twenty thousand forty",
+    "start": 1194.24,
+    "duration": 2.4
+  },
+  {
+    "text": "thousand sixty thousand that's why",
+    "start": 1195.679,
+    "duration": 3.061
+  },
+  {
+    "text": "you're not able to see the DWS here",
+    "start": 1196.64,
+    "duration": 4.44
+  },
+  {
+    "text": "carefully uh so that again the same",
+    "start": 1198.74,
+    "duration": 3.84
+  },
+  {
+    "text": "behavior happens your gradients change",
+    "start": 1201.08,
+    "duration": 4.56
+  },
+  {
+    "text": "uh uh as you go along and the history",
+    "start": 1202.58,
+    "duration": 4.56
+  },
+  {
+    "text": "keeps getting accumulated the only thing",
+    "start": 1205.64,
+    "duration": 3.24
+  },
+  {
+    "text": "I need you to focus on in this plot is",
+    "start": 1207.14,
+    "duration": 3.6
+  },
+  {
+    "text": "that your history is constantly",
+    "start": 1208.88,
+    "duration": 3.84
+  },
+  {
+    "text": "increasing and as your history is",
+    "start": 1210.74,
+    "duration": 4.02
+  },
+  {
+    "text": "increasing here your learning rate is",
+    "start": 1212.72,
+    "duration": 4.079
+  },
+  {
+    "text": "decaying even more faster right so here",
+    "start": 1214.76,
+    "duration": 4.38
+  },
+  {
+    "text": "notice that the learning rate starts off",
+    "start": 1216.799,
+    "duration": 4.081
+  },
+  {
+    "text": "itself with a very small value which is",
+    "start": 1219.14,
+    "duration": 4.14
+  },
+  {
+    "text": "point zero one zero right and again I'd",
+    "start": 1220.88,
+    "duration": 3.96
+  },
+  {
+    "text": "initialize the learning rate to the same",
+    "start": 1223.28,
+    "duration": 5.22
+  },
+  {
+    "text": "value right so here again",
+    "start": 1224.84,
+    "duration": 5.579
+  },
+  {
+    "text": "so here see remember the learning rate",
+    "start": 1228.5,
+    "duration": 4.44
+  },
+  {
+    "text": "was 0.1 but your initial gradients were",
+    "start": 1230.419,
+    "duration": 4.62
+  },
+  {
+    "text": "high because B is a very Spa dense",
+    "start": 1232.94,
+    "duration": 5.76
+  },
+  {
+    "text": "feature so V 0 itself was 84.45 right",
+    "start": 1235.039,
+    "duration": 6.0
+  },
+  {
+    "text": "and since that was high your initial",
+    "start": 1238.7,
+    "duration": 4.26
+  },
+  {
+    "text": "learning rate itself was small and hence",
+    "start": 1241.039,
+    "duration": 3.541
+  },
+  {
+    "text": "you are moving less aggressive in the",
+    "start": 1242.96,
+    "duration": 3.42
+  },
+  {
+    "text": "direction of b as compared to gradient",
+    "start": 1244.58,
+    "duration": 4.26
+  },
+  {
+    "text": "descent and uh nestro and moment right",
+    "start": 1246.38,
+    "duration": 4.32
+  },
+  {
+    "text": "and that's why right these gradients are",
+    "start": 1248.84,
+    "duration": 3.3
+  },
+  {
+    "text": "also getting accumulated very quickly",
+    "start": 1250.7,
+    "duration": 4.32
+  },
+  {
+    "text": "it's already 84 this history right the",
+    "start": 1252.14,
+    "duration": 5.159
+  },
+  {
+    "text": "blue curve that you see already starts",
+    "start": 1255.02,
+    "duration": 4.14
+  },
+  {
+    "text": "off at 84 and it keeps growing from",
+    "start": 1257.299,
+    "duration": 3.421
+  },
+  {
+    "text": "there on right that's why it reaches",
+    "start": 1259.16,
+    "duration": 4.2
+  },
+  {
+    "text": "very high digits right it treats reaches",
+    "start": 1260.72,
+    "duration": 4.92
+  },
+  {
+    "text": "five digit numbers and that's why your",
+    "start": 1263.36,
+    "duration": 4.199
+  },
+  {
+    "text": "learning rate gets killed off",
+    "start": 1265.64,
+    "duration": 3.06
+  },
+  {
+    "text": "aggressively right because your",
+    "start": 1267.559,
+    "duration": 2.761
+  },
+  {
+    "text": "denominator has now become five digit",
+    "start": 1268.7,
+    "duration": 3.24
+  },
+  {
+    "text": "number right the square root of a five",
+    "start": 1270.32,
+    "duration": 4.68
+  },
+  {
+    "text": "digit number okay and that's again in",
+    "start": 1271.94,
+    "duration": 5.04
+  },
+  {
+    "text": "line with what the intuition that we had",
+    "start": 1275.0,
+    "duration": 4.02
+  },
+  {
+    "text": "right so these plots are again an",
+    "start": 1276.98,
+    "duration": 3.54
+  },
+  {
+    "text": "explanation of everything that we saw",
+    "start": 1279.02,
+    "duration": 2.88
+  },
+  {
+    "text": "right we're just seeing how the learning",
+    "start": 1280.52,
+    "duration": 3.18
+  },
+  {
+    "text": "rate is changing how the gradients are",
+    "start": 1281.9,
+    "duration": 3.48
+  },
+  {
+    "text": "accumulating aggressively in the case of",
+    "start": 1283.7,
+    "duration": 3.479
+  },
+  {
+    "text": "B and hence the learning rate is",
+    "start": 1285.38,
+    "duration": 3.0
+  },
+  {
+    "text": "decreasing aggressively right and the",
+    "start": 1287.179,
+    "duration": 3.181
+  },
+  {
+    "text": "main main point is that in B the",
+    "start": 1288.38,
+    "duration": 3.539
+  },
+  {
+    "text": "learning rate started off itself with",
+    "start": 1290.36,
+    "duration": 3.48
+  },
+  {
+    "text": "0.010 and then kept decreasing from",
+    "start": 1291.919,
+    "duration": 3.781
+  },
+  {
+    "text": "there whereas for w the learning rate",
+    "start": 1293.84,
+    "duration": 4.14
+  },
+  {
+    "text": "started off with 0.72 which was higher",
+    "start": 1295.7,
+    "duration": 4.38
+  },
+  {
+    "text": "than the ETA which I had said and then",
+    "start": 1297.98,
+    "duration": 3.42
+  },
+  {
+    "text": "started out decreasing from there and",
+    "start": 1300.08,
+    "duration": 3.42
+  },
+  {
+    "text": "that's exactly what we wanted because W",
+    "start": 1301.4,
+    "duration": 4.56
+  },
+  {
+    "text": "is a sparse feature so let the learning",
+    "start": 1303.5,
+    "duration": 4.559
+  },
+  {
+    "text": "rate be higher and then let it decay as",
+    "start": 1305.96,
+    "duration": 4.32
+  },
+  {
+    "text": "the gradients accumulate B is a dense",
+    "start": 1308.059,
+    "duration": 3.661
+  },
+  {
+    "text": "feature so let the learning rate be",
+    "start": 1310.28,
+    "duration": 3.48
+  },
+  {
+    "text": "small because anyways which are going to",
+    "start": 1311.72,
+    "duration": 3.78
+  },
+  {
+    "text": "get large gradients there right so that",
+    "start": 1313.76,
+    "duration": 4.26
+  },
+  {
+    "text": "adaptive Behavior has been seen here",
+    "start": 1315.5,
+    "duration": 4.08
+  },
+  {
+    "text": "right",
+    "start": 1318.02,
+    "duration": 4.159
+  },
+  {
+    "text": "okay",
+    "start": 1319.58,
+    "duration": 2.599
+  },
+  {
+    "text": "yeah now one more thing to note is that",
+    "start": 1324.2,
+    "duration": 7.32
+  },
+  {
+    "text": "even though as you come close to the",
+    "start": 1328.7,
+    "duration": 5.479
+  },
+  {
+    "text": "Minima",
+    "start": 1331.52,
+    "duration": 2.659
+  },
+  {
+    "text": "right",
+    "start": 1335.659,
+    "duration": 4.081
+  },
+  {
+    "text": "as you Class come close to the Minima",
+    "start": 1337.7,
+    "duration": 4.2
+  },
+  {
+    "text": "your derivatives have become zero you",
+    "start": 1339.74,
+    "duration": 4.2
+  },
+  {
+    "text": "here you can't see them also because the",
+    "start": 1341.9,
+    "duration": 6.96
+  },
+  {
+    "text": "scale here is very uh large uh so the",
+    "start": 1343.94,
+    "duration": 6.66
+  },
+  {
+    "text": "derivatives have become zero that means",
+    "start": 1348.86,
+    "duration": 4.5
+  },
+  {
+    "text": "these these quantities right that means",
+    "start": 1350.6,
+    "duration": 5.16
+  },
+  {
+    "text": "these quantities have become zero right",
+    "start": 1353.36,
+    "duration": 4.86
+  },
+  {
+    "text": "but your history does not become zero",
+    "start": 1355.76,
+    "duration": 3.659
+  },
+  {
+    "text": "and that makes sense right because it's",
+    "start": 1358.22,
+    "duration": 3.0
+  },
+  {
+    "text": "a running sum you're continuously",
+    "start": 1359.419,
+    "duration": 3.901
+  },
+  {
+    "text": "summing it up so even if the new terms",
+    "start": 1361.22,
+    "duration": 3.959
+  },
+  {
+    "text": "that are getting added are zero you",
+    "start": 1363.32,
+    "duration": 3.18
+  },
+  {
+    "text": "still have the previous terms which you",
+    "start": 1365.179,
+    "duration": 2.88
+  },
+  {
+    "text": "had accumulated in the sum so your",
+    "start": 1366.5,
+    "duration": 3.48
+  },
+  {
+    "text": "history will going to be remain large",
+    "start": 1368.059,
+    "duration": 3.36
+  },
+  {
+    "text": "only right so that's what is happening",
+    "start": 1369.98,
+    "duration": 4.679
+  },
+  {
+    "text": "here ah",
+    "start": 1371.419,
+    "duration": 3.24
+  },
+  {
+    "text": "and that could cause problems right and",
+    "start": 1376.039,
+    "duration": 3.841
+  },
+  {
+    "text": "that exactly what is causing problems",
+    "start": 1378.14,
+    "duration": 4.019
+  },
+  {
+    "text": "near the Minima when your gradients are",
+    "start": 1379.88,
+    "duration": 4.86
+  },
+  {
+    "text": "becoming small right but your history is",
+    "start": 1382.159,
+    "duration": 4.321
+  },
+  {
+    "text": "still large and hence your effective",
+    "start": 1384.74,
+    "duration": 3.36
+  },
+  {
+    "text": "learning rate is small so now the",
+    "start": 1386.48,
+    "duration": 2.819
+  },
+  {
+    "text": "gradients are small the effective",
+    "start": 1388.1,
+    "duration": 2.52
+  },
+  {
+    "text": "learning rate is small and hence when",
+    "start": 1389.299,
+    "duration": 3.12
+  },
+  {
+    "text": "you're close to the Minima I'll close in",
+    "start": 1390.62,
+    "duration": 3.9
+  },
+  {
+    "text": "these flat regions you're not able to",
+    "start": 1392.419,
+    "duration": 3.541
+  },
+  {
+    "text": "move fast right because you are not",
+    "start": 1394.52,
+    "duration": 3.42
+  },
+  {
+    "text": "getting rid of this accumulative history",
+    "start": 1395.96,
+    "duration": 4.079
+  },
+  {
+    "text": "that you have and we need to see if we",
+    "start": 1397.94,
+    "duration": 4.5
+  },
+  {
+    "text": "can do something about that right so",
+    "start": 1400.039,
+    "duration": 6.5
+  },
+  {
+    "text": "let's just uh look at that",
+    "start": 1402.44,
+    "duration": 4.099
+  },
+  {
+    "text": "is it clear what I just said",
+    "start": 1407.539,
+    "duration": 5.341
+  },
+  {
+    "text": "okay so now by using a parameter",
+    "start": 1409.94,
+    "duration": 4.979
+  },
+  {
+    "text": "specific learning rate uh we have",
+    "start": 1412.88,
+    "duration": 4.98
+  },
+  {
+    "text": "ensured that despite W being sparse we",
+    "start": 1414.919,
+    "duration": 4.201
+  },
+  {
+    "text": "are still being able to move in that",
+    "start": 1417.86,
+    "duration": 3.98
+  },
+  {
+    "text": "direction and also we have ensured that",
+    "start": 1419.12,
+    "duration": 5.28
+  },
+  {
+    "text": "uh B is going undergoing a lot of",
+    "start": 1421.84,
+    "duration": 4.0
+  },
+  {
+    "text": "updates but its effective learning rate",
+    "start": 1424.4,
+    "duration": 4.5
+  },
+  {
+    "text": "is decreasing uh and there is this was",
+    "start": 1425.84,
+    "duration": 5.699
+  },
+  {
+    "text": "something which is to ponder about which",
+    "start": 1428.9,
+    "duration": 5.1
+  },
+  {
+    "text": "is not theoretically Justified now you",
+    "start": 1431.539,
+    "duration": 4.26
+  },
+  {
+    "text": "could imagine that in the denominator I",
+    "start": 1434.0,
+    "duration": 4.62
+  },
+  {
+    "text": "could have had ETA divided by VT as",
+    "start": 1435.799,
+    "duration": 4.441
+  },
+  {
+    "text": "opposed to square root of VT right I",
+    "start": 1438.62,
+    "duration": 3.48
+  },
+  {
+    "text": "would have got the same effect that my",
+    "start": 1440.24,
+    "duration": 3.36
+  },
+  {
+    "text": "learning rate is inversely proportional",
+    "start": 1442.1,
+    "duration": 3.48
+  },
+  {
+    "text": "the effective learning rate is inversely",
+    "start": 1443.6,
+    "duration": 4.26
+  },
+  {
+    "text": "proportional to the accumulated history",
+    "start": 1445.58,
+    "duration": 5.04
+  },
+  {
+    "text": "right but if you replace square root by",
+    "start": 1447.86,
+    "duration": 4.86
+  },
+  {
+    "text": "just V T then this algorithm does not",
+    "start": 1450.62,
+    "duration": 4.38
+  },
+  {
+    "text": "work so well and at least my guess is",
+    "start": 1452.72,
+    "duration": 3.78
+  },
+  {
+    "text": "one of the reasons for that is that if",
+    "start": 1455.0,
+    "duration": 3.059
+  },
+  {
+    "text": "you don't take the square root then",
+    "start": 1456.5,
+    "duration": 3.419
+  },
+  {
+    "text": "these quantities become very large very",
+    "start": 1458.059,
+    "duration": 3.541
+  },
+  {
+    "text": "quickly right and maybe that kills of",
+    "start": 1459.919,
+    "duration": 4.201
+  },
+  {
+    "text": "the learning rate in an unfavorable way",
+    "start": 1461.6,
+    "duration": 4.04
+  },
+  {
+    "text": "right but it's there's no clear",
+    "start": 1464.12,
+    "duration": 3.539
+  },
+  {
+    "text": "theoretical justification that I have",
+    "start": 1465.64,
+    "duration": 4.36
+  },
+  {
+    "text": "seen what's the flip side while we got",
+    "start": 1467.659,
+    "duration": 4.26
+  },
+  {
+    "text": "an Adaptive learning rate for W and B",
+    "start": 1470.0,
+    "duration": 4.86
+  },
+  {
+    "text": "the flip side is that",
+    "start": 1471.919,
+    "duration": 4.62
+  },
+  {
+    "text": "over time the effective learning rate",
+    "start": 1474.86,
+    "duration": 4.199
+  },
+  {
+    "text": "for B became so small that it was having",
+    "start": 1476.539,
+    "duration": 4.02
+  },
+  {
+    "text": "a difficulty in moving in the W",
+    "start": 1479.059,
+    "duration": 3.0
+  },
+  {
+    "text": "Direction in the B direction right so",
+    "start": 1480.559,
+    "duration": 4.381
+  },
+  {
+    "text": "you see that now I was able to reach the",
+    "start": 1482.059,
+    "duration": 5.821
+  },
+  {
+    "text": "right value of w",
+    "start": 1484.94,
+    "duration": 4.739
+  },
+  {
+    "text": "right I was able to reach the right",
+    "start": 1487.88,
+    "duration": 3.299
+  },
+  {
+    "text": "value of w that's the right value of w",
+    "start": 1489.679,
+    "duration": 3.36
+  },
+  {
+    "text": "because my Minima is also here right so",
+    "start": 1491.179,
+    "duration": 3.421
+  },
+  {
+    "text": "I'm in line with the right value of w",
+    "start": 1493.039,
+    "duration": 3.841
+  },
+  {
+    "text": "but I took longer time to find the right",
+    "start": 1494.6,
+    "duration": 4.14
+  },
+  {
+    "text": "value of b as opposed to the other",
+    "start": 1496.88,
+    "duration": 3.36
+  },
+  {
+    "text": "algorithms which found the right value",
+    "start": 1498.74,
+    "duration": 3.72
+  },
+  {
+    "text": "of B first and then took a longer time",
+    "start": 1500.24,
+    "duration": 3.78
+  },
+  {
+    "text": "to find the right value of w right and",
+    "start": 1502.46,
+    "duration": 3.06
+  },
+  {
+    "text": "this is happening because the history",
+    "start": 1504.02,
+    "duration": 4.2
+  },
+  {
+    "text": "for B has accumulated and the updates in",
+    "start": 1505.52,
+    "duration": 4.92
+  },
+  {
+    "text": "B are now very very small and we saw",
+    "start": 1508.22,
+    "duration": 4.5
+  },
+  {
+    "text": "that in the plots where on the x axis on",
+    "start": 1510.44,
+    "duration": 3.92
+  },
+  {
+    "text": "the sorry on the",
+    "start": 1512.72,
+    "duration": 4.319
+  },
+  {
+    "text": "y-axis you had very large numbers which",
+    "start": 1514.36,
+    "duration": 4.54
+  },
+  {
+    "text": "indicated a large amount of History has",
+    "start": 1517.039,
+    "duration": 4.02
+  },
+  {
+    "text": "been accumulated so the question now is",
+    "start": 1518.9,
+    "duration": 5.6
+  },
+  {
+    "text": "can we avoid this",
+    "start": 1521.059,
+    "duration": 3.441
+  }
+]

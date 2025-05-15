@@ -1,0 +1,10 @@
+moving by a larger amount and that's exactly what you want on the flat surfaces because you're moving slow slow.
+slow slow at every time step your movement is slow but if you just accumulate this history then your movement.
+would become fast right so that's what is happening here so your UT is just going to be the sum.
+of this right so this was at time step two this was just uh you could write this as beta.
+2 minus 0 into W 0 then beta 2 minus 1 into W1 plus beta 2 minus 2 into W.
+2 right sorry Delta should have been here so that is what this equation is capturing right so this minus.
+0 is essentially minus Tau so you're going from time step 0 to time step Tau and at every stage.
+your weightage for that gradient is given by Beta T minus beta raised to T minus Tau right so that's.
+what u 2 is it's a collection of all the gradients that you have seen so far and this exponentially.
+weighted average of current and all pass gradients right as I was saying that if you are currently at time.

@@ -1,0 +1,9 @@
+why would the neurons get saturated right so let's try to understand that why is it that it would get.
+saturated and it's not given right because the function can take values between 0 to 1. so why is it.
+that it would suddenly become one or suddenly become zero right so let's let's try to answer that so this.
+if I were to consider any such neuron in the network right so suppose this is one of the neurons.
+this is not the output neuron but say some neuron in the network and this is what the output of.
+this neuron would be right it would be the sigmoid of the linear combination of the inputs connected to it.
+right so this is what the output would be now suppose I have initialized the weights to a very high.
+value right suppose my weights are say suppose 100 200 and so on and now my inputs are all standardized.
+it'll be anyway standardize the inputs that means we divide by the subtract the mean and then divide by the.

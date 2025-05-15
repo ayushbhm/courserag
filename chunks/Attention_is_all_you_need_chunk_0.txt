@@ -1,0 +1,9 @@
+foreign [Music] so that brings us to the next body which is on this some manual work on attention is.
+all you need or the Transformers right so the Transformer architecture which was introduced around 2017 maybe yeah uh so.
+that's that's what you're going to focus on while keeping in mind the limitations that we saw about in the.
+case of a recurrent neural networks right so this is how we'll transition to Transformers right so we have the.
+basic encoder decoder RNN based model where at first you have recurrent connections and that's causes a problem then you.
+also have the attention-based encoder decoder model where we said we'll do the uh encoder computations then get rid of.
+them and then we have the uh attention we just take the outputs of the encoder right um we just.
+take the outputs of the encoder and then we have the attention function on top of that at every step.
+we compute a new contextual Vector right so that's the attention-based model but here again uh we were able to.

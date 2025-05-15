@@ -1,0 +1,10 @@
+now if you try to visualize it now for L one the shape looks like this right so what does.
+that mean that for any point on this surface the norm is going to be 1 right and you can.
+see that so this point for example here is minus 0.5 sorry 0.5 comma minus 0.5 foreign with this right.
+and now if I substitute that in this formula I'll get the answer as 1. right so all the points.
+which lie on this uh uh Square they all are going to have the norm as uh one right and.
+now if you look at L2 Norm you would have seen this oops yeah so if you look at LD.
+Norm now all the points lying on this circle would have are the enormous one and it makes sense right.
+because the equation that you get is the following right so I'm saying that X1 I'll not use the mod.
+here because anyways I'm squaring okay let me just write the mod plus X2 Square equal to 1 right you.
+are looking for All Points which satisfy this equation and of course they will lie on a circle right so.

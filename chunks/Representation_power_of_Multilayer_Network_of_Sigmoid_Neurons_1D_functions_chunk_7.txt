@@ -1,0 +1,9 @@
+uh makes deep learning so attractor right so what is it saying right we are take any complex reliable function.
+that you have let's return back to our oil mining example where f of x was very complex we did.
+not even know what f is and we know that it's a very complex function based on your input variables.
+such as salinity pressure temperature Marine diversity and all that it's very hard to know what that function is but.
+now I can come up with a neural network which when takes an input its output would be very close.
+to the desired function right in theory I can do that of course the Practical difficulty is that this such.
+a neural network would have a hidden layer with a very large number of neurons and if it becomes exponential.
+then we know it's not practical right but at least theoretically I can do that and this is only talking.
+about a single hidden layer right and one of the things that maybe you will see through an assignment or.

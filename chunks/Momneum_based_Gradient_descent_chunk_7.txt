@@ -1,0 +1,9 @@
+beta times u0 plus the current derivative so now if I substitute the value of U 0 then it would.
+be beta times Delta the previous derivative plus W1 right so this is what I mean by the history now.
+you are not only considering the current derivative but you are also giving some importance to the past history right.
+you are saying oh in the past also I was asked to move in this some Direction so I'll take.
+that also into account right and Now Beta U2 would be beta Square into the derivative at time step 0.
+beta into the derivative is time Step 1 and then the current derivative right so your updates remember are WT.
+is equal to W T minus 1 minus ETA into u t right now this u t is essentially this.
+right so it's not only the current derivative so at time Step 2 you're not just taking the current derivative.
+but you are also taking all the history into account right so that's what is happening in momentum based gradient.

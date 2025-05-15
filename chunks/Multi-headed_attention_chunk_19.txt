@@ -1,0 +1,9 @@
+here so feed forward neural network is only acting as a projection layer here right so uh so this is.
+the input S1 okay there's some intermediate being computed let me just call it uh say m okay right and.
+then you get Z1 at the output right so this could again be five and two dimensional input one zero.
+two four dimensional projection and then again five into dimensional output and of course there would be a non-linearity here.
+you could use any non-linearity that you want right and typically it is one of the relu based either gelu.
+or one of those normal non-linearities okay and the same set of parameters right so this here would have some.
+parameters right so you'll have some W's here and then some another set of W's here right so let me.
+just call them W Feed forward Network and let me call this W1 because it's layer 1 and W2 Layer.
+Two right so the same set of parameters will be used everywhere right so each of these s1s or sis.

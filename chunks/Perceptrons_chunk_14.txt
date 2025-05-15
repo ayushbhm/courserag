@@ -1,0 +1,9 @@
+go and watch the movies if any of these inputs is not on right if either the actor is not.
+what you're looking for then you'll not go to watch so this is the bias right this is what it.
+tells you about that specific user and hence it's called the prior or the bias right but if you are.
+like a movie buff who does not care about who the director director director is and in that case your.
+threshold could be zero and even if none of these criteria are matched the actor is not matt damon the.
+director is not nolan the honor is not thriller still you will cross the threshold and still you will go.
+and watch the movie because you are just a movie buff so this threshold is trying to encode the initial.
+bias that you have right and it could be adjusted to reflect whether this person is a movie buff or.
+not right in other situations it could be reflected to uh it could be adjusted to reflect the prior as.

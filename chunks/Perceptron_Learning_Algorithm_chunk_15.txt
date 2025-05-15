@@ -1,0 +1,9 @@
+points lying in the positive half space satisfy this expression this inequality that's why the angle is going to be.
+less than 90 degrees and because the points lying in the negative half space satisfy this inequality that's why the.
+angle is going to be less than 90 degrees so you just don't know this pictorially now you also know.
+that it follows from this inequality right so all positive points will have a acute angle all positive negative points.
+will have an angle which is greater than 90 degrees right so now with this explanation in mind let's revisit.
+the algorithm and let's try to see what is happening right so what was i doing if i had a.
+positive point on which i was making an error then i was changing the weight vector by adding the point.
+to the weight vector and that's what is happening if i had a positive point on which i was making.
+an error then i was changing the weight vector by adding the point to it right so let's see what.

@@ -1,0 +1,10 @@
+the whole thing I'll just do the necessary part now what I can do is I can take this X1.
+by P outside right and let I'm assuming that X1 is the maximum value let's assume without loss of generality.
+we can assume that X1 is the maximum value so this would become X2 by X1 raised to p and.
+so on and you will have x n by X1 raised to p and then the 1 by P at.
+the root of the whole thing right now as P tends to Infinity what will happen is as each of.
+these quantities is uh each of these quantities is actually less than one right because X1 is the largest value.
+so all the other quantities divided by X1 is going to be a quantity less than one so now if.
+you're going to raise this to the power of P all of NP tends to Infinity then all of these.
+terms will disappear right so then you'll just have X1 raised to p and then the pth root of that.
+which will just be X1 so what you get back is just the maximum element that you had in the.

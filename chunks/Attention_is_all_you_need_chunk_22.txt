@@ -1,0 +1,9 @@
+were undergoing some linear transformation then the resulting output was going under a non-linearity so you have this tannage and.
+then you had a vector which was the same size as this vector and then you take the dot product.
+between these two vectors so you get just get a scalar quantity in fact we are calling it A's and.
+then the A's get normalized to give you the alphas right so that's the function that we were choosing earlier.
+now for the this work right the Transformers paper introduce a new attention function and that is what we'll uh.
+try to arrive at now right so if you notice this equation right there are three vectors involved here there.
+is s there is H and then there is B it remember this is also a vector right because the.
+output of this is a vector and that gets multiplied by our DOT product with another Vector let's have three.
+vectors and then you have uh two linear Transformations happening so this is the first linear transformation which is at.

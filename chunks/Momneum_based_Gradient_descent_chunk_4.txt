@@ -1,0 +1,9 @@
+but the direction is constantly this way you're saying okay go here at every point you are saying go here.
+go here go here so if so many times you have been asked to go here can you go a.
+bit faster right so how do you capture this intuition into a set of equations right so this is what.
+we will do so this is the update rule for momentum based gradient descent okay so this is what I'll.
+call as the history vector fine and uh you are giving some importance to the past history plus the current.
+update right so this is your derivative of the loss function with respect to the gradient oh sorry derivative of.
+the loss function with respect to the parameter w at the current time step right so now the difference is.
+the following right so in uh foreign descent your update rule was WT minus ETA times Delta w t that.
+means you are only listening to the current instruction you are not really considering the fact that I've been constantly.

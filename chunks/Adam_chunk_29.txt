@@ -1,0 +1,10 @@
+this weighted history right so at time step 40 I have 39 Blue Points below it and I'm going to.
+take the value of each of those 39 blue points and I will say that beta raised to 39 into.
+the value at time step or beta raised to 40 I guess right maybe 39 or 40 whatever that power.
+comes to into the value at time step 0 right then beta raised to 38 into the value of time.
+step T1 all the way up to 1 minus beta into the value at this t48 time step right so.
+my new value is going to be uh this exponentially weighted average right that's what I'm going to do so.
+let's see if I plot that so now for each of these Blue Points I could compute the new uh.
+exponentially weighted uh value and then I can plot that right so let me see what happens if I plot.
+that so this is what happens if I plot that without the bias correction right so what happens is that.
+I get you can see that my black curve now is a bit farther away from the red curve at.

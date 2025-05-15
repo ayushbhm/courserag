@@ -1,0 +1,9 @@
+epochs right after every five epochs or ten epochs I'll keep having the learning array right so as you are.
+training is progressing your learning rate is becoming smaller and smaller so you're making more conservative updates especially when you.
+are closer to the Minima you're not making a large update so that you cross the minimum right and your.
+approximation for here I am close to the Minima is just that hey I've been training for five epochs now.
+so maybe let me just reduce the learning rate so you're just using the number of epochs as an approximation.
+for how close you are to the uh Minima that you want to use right reach another strategy is that.
+you keep the learning rate uh you had finished one Epoch you compute the loss over your validation data right.
+so you have the training data using which you are training keep some data aside and now after you have.
+done one Epoch calculate what the validation loss is and let's say the value is some X okay now with.

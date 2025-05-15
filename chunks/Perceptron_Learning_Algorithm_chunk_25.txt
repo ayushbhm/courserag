@@ -1,0 +1,10 @@
+here it has already become less than 90 but i don't care about it all i care about is the.
+angle is decreased now let me pick up another point and this time maybe i picked up n1 right and.
+now with n1 i again need to apply correction because you can see that the angle is actually quite small.
+right it's forget about greater than 90 is actually quite small so i need to again change it and my.
+adjustment would be w into w is equal to w minus x and when i get do that i get.
+this new w right and i can again see that the angle has increased okay now let me do again.
+pick a random point and say it was n3 no correction is needed because you can see that n3 is.
+already making an obtuse angle with the weight vector right so no correction is needed because the condition is already.
+satisfied again i pick up a random point it's n2 so again n2 is already safe because the angle seems.
+to be greater than 90 degrees so i don't need to do any correction now i pick up the point.

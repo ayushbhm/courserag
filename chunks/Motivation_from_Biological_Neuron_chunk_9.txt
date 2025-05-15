@@ -1,0 +1,9 @@
+at bigger objects coming out from these smaller groups here all of these combine to make a face actually right.
+so this is how each layer is processed doing a different job and each layer is also doing more and.
+more complex processing or doing more abstraction of the input that was passed right so this is a very touch.
+explanation of how the human brain works and that's the main takeaways here is that you have a massively parallel.
+interconnected network of neurons there are many layers there are neurons which might do spatial things and then pass it.
+on to other neurons and information flows from one layer to another that's the main takeaways as far as the.
+deep learning course is concerned or as far as artificial neural networks are concerned right and as you can read.
+the disclaimers on this on this slide i know i know very little about how the human brain works and.
+whatever explanation i have given while is not suitable for any biology course it suffices for the purpose of this.

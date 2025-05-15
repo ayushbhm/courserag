@@ -1,0 +1,9 @@
+the current values of w and B this is how bad my uh approximation was right this is how bad.
+my current sigmoid function is it gives me a loss of 0.099 now once I had handled for this loss.
+I knew that I should keep trying to adjust the weights so that this loss decreases and I did that.
+by some doing a guesswork at every Point slide guesswork slight smart guesswork I was seeing okay this brought it.
+closer so maybe further move W in that direction this took it far so maybe let's not move W in.
+that direction but maybe uh make it in the other direction right and here the two directions are like either.
+increase W or decrease W right move it positive or move it negative and we are able to come up.
+with the sigmoid function right now what we wanted is something better than the guesswork algorithm right so then we.
+said that what you're trying to do is take every stage you're doing this random movements and trying to make.

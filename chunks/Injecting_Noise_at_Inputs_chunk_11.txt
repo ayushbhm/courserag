@@ -1,0 +1,10 @@
+what how I went from here to here right and again I have said that this quantity also becomes zero.
+so why does that quantity become zero so this is y hat minus y okay so here you are a.
+random variable is y hat and this is w i Epsilon I so Y is of course not a random.
+variable w i is also not a random variable so what is the random variable y hat and Epsilon I.
+right so this is again the product expectation of the product of two random variables and now again y hat.
+and Epsilon I are independent because y hat had nothing to do with Epsilon that was the uncorrupted output whereas.
+Epsilon is the noise that you have added and the noise that you have added had nothing to do with.
+the uncorrupted output so these two are independent random variables so this expectation you can also show that will go.
+down to 0 right so then the only thing that you are left with is this and this quantity uh.
+so let's see from there where do we go so this becomes the expected value of this error right plus.

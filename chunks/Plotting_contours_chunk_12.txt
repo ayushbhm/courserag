@@ -1,0 +1,9 @@
+lines is high but as I keep coming down the slope becomes sharp and my distance between the contour lines.
+decreases right and same thing you can see everywhere right wherever the slope is sharp you will see that the.
+distance between the contour lines is smaller now this entire gradient descent algorithm now I could just visualize it on.
+the contour map itself right and here you have both in Parable so these are the two views that we.
+have the 3D surface and its contour map at the bottom then the contour map and what happens actually to.
+the sigmoid function right so let's try to look at both this views and get comfortable with them right so.
+just as the point was moving on the 3D loss surface you can also show the point moving on the.
+2D surface so now I just have the WB plane and I can now I can see how the loss.
+function is imposed on the WB plane right because I can draw the contour map and the contour map gives.

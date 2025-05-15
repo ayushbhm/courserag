@@ -1,0 +1,9 @@
+that we have made right so then essentially now this becomes the L Infinity Norm of the history of the.
+gradients the exponentially weighted L Infinity Norm that you are taking here and if you're doing that uh let's see.
+what happens so that's a change we are making right we are saying that instead of using the L2 Norm.
+for VT we can use the uh L Infinity Norm which is just like taking the max it's also computationally.
+very simple and let's see if that leads to some benefits right and now we don't need to take the.
+square root because in the L Infinity Norm the max value comes out by P raised to 1 by P.
+right so I have already taken the p through it and then you have got the max value so there.
+is no more square root here square root is only associated associated with the L2 Norm but the proof that.
+we saw on the previous slide said that the lp Norm is just the max right this after that there.

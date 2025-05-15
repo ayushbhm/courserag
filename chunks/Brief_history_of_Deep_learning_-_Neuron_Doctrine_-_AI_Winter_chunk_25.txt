@@ -1,0 +1,8 @@
+it immediately propagates so you might not be aware that someone else has discovered it and independently discovered this algorithm.
+that's what was happening at that time and around uh 1986 uh rumel heart and others that including jeffrey hinton.
+uh popularized in the this in the context of neural networks and they showed that this back propaganda propagation algorithm.
+can be used for training uh neural neural networks and this was an important breakthrough because even to this day.
+uh most modern deep neural networks are trained using the back propagation algorithm right there was another important and uh.
+an interesting fact is this back propagation uh within it right or at the heart of it there's also gradient.
+descent right which was much older right like almost one century one and a half century before back propagation and.
+this was discovered or proposed by koshi and for a very different purpose right and he was trying to use.

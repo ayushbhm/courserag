@@ -1,0 +1,10 @@
+point to another i'm just getting lucky somewhere and i once i hit this point 0.94 minus 0.94 then i.
+get a sense of what is required i need to increase the w's and decrease the b's and then i.
+continued that way and then i went finally reach to the point 1.78 comma minus 2.27 where my error was.
+close to zero and you can see that the sigmoid function is in the way it should be and you.
+can see on the error surface also i am in that low error region in fact the error is actually.
+zero right so that's that's what i was doing i was actually uh uh subconsciously or like without really knowing.
+it actually navigating the error surface but i was navigating it randomly which is problematic because then i went down.
+then suddenly i came up then again went down came up and i want to avoid that i want to.
+have a more principled way of navigating this error surface right so that's what my quest is and that is.
+what we will do in the next module okay.

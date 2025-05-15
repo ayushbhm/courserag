@@ -1,0 +1,10 @@
+and you know the derivative of e raised to something with respect to that same variable is just e raised.
+to x right so that's the only formula that is being applied here right uh okay so now let's get.
+back what is this we just did that do you remember what that is so in the bottom i have.
+the sum of all the exponents right so again let me just do this so i had a l1 al2.
+up to al k so this the guy the denominator is just the summation of the exponents of all these.
+quantities so that's what this what denominator is and what is the numerator the numerator is the exponent with respect.
+to the ith guy so that means it's just the soft max if you consider the soft max vector which.
+i had said which was y hat then am just looking at the ith entry of that vector so this.
+is just y hat i right that's what it is this is the ith entry of the softmax vector similarly.
+this is the lth entry of the softmax vector similarly this is the ellith sorry this should not have been.

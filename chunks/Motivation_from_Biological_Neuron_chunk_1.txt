@@ -1,0 +1,8 @@
+so the inspiration actually comes from biology so i think you remember when we were talking about history we had.
+talked about these biological neurons and the term neurons getting coined somewhere in 1890s which was the processing unit in.
+the brain right and the idea is just as we have this neurons in the brain which can do fairly.
+complex processing can we have artificial neurons which can also help us do some computational processing right so that's where.
+the inspiration comes from so let's just look at what a biological neuron looks like so here's a picture i'm.
+showing two neurons here i'll go through some important parts of the neuron so you have a dendrite right which.
+receives signals from other neurons these neurons are connected as we had seen in the history again and then there's.
+the synapse which is the point of connection of the two neurons so dendrite is the part from which one.

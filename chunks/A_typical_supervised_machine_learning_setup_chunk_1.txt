@@ -1,0 +1,8 @@
+i want to have an algorithm which can learn these weights but before i had done the perceptron learning algorithm.
+i had taken a slight detour and spoken about errors right because that was important to understand the error because.
+the whole point of the algorithm was that whenever you make an error you do some correction right and that's.
+why understanding error was important here also there is something similar so i'm going to revisit the concept of error.
+again and then from there start working towards the algorithm right so but uh in this video we'll not do.
+the algorithm we'll just do the machine learning setup right so let's look at that so coming going back to.
+the perceptron algorithms and seen these kind of data distributions there and i had said that this is not linearly.
+separable of course it is not and we had said that a single perceptron cannot deal with this data right.

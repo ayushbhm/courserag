@@ -1,0 +1,9 @@
+we trained it we had a total of 500 training samples and then when we trained it using 30 different.
+samples this line did not change much right that means my f hat X did not change much right but.
+the same experiment then when we repeated it with a complex model right which was X raised to 25 all.
+the way up to W naught we saw that when we take these 30 different samples which is the same.
+as saying that I am changing the training data right and when I change the training data my estimation was.
+changing a lot in the case of the complex models right so hence this quantity you can say is going.
+to be high for complex models as compared to simple models right so that's that's what ah we are concluding.
+from these two points right that the expected quantity that we were interested in in which does not go to.
+0 in the case of training data is actually equal to this quantity and now we see that this quantity.

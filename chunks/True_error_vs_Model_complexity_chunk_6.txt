@@ -1,0 +1,10 @@
+are missing out on things right you are not really ah giving a true picture of the true error right.
+so this was the quantity that was bothering us and now this quantity again I could think of it uh.
+of about am of estimating it empirically right so what do I mean by that I could again think of.
+this as summation I equal to 1 to ah M or n Epsilon i f hat of x i minus.
+f of x i I can think of estimating this quantity empirically okay this is just a comment right just.
+an observation now why this I'm making this point is that uh there's this Lemma called Steins Lemma we can.
+show that uh yeah this should have been sorry n because we had n training samples and this should have.
+been average so what we can show that this quantity which is the empirical estimate of the expectation is actually.
+equal to this quantity ok now this is a joke that I have every year with my students you don't.
+ask me what Stein's Lemma is and I will not ask you what Stein's Lemma is but we just for.

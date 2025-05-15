@@ -1,0 +1,9 @@
+the vertical direction will happen a bit slowly as opposed to earlier where it was quickly moving in the vertical.
+Direction now you are moving a bit slowly in the vertical Direction because of this effective learning rate decaying as.
+you keep making updates right so that's what is happening in this algorithm okay and we can now see that.
+uh visually uh so here uh d w let me just annotate the plot a bit so here DW is.
+essentially this Delta W that I have uh and BT is the history that is getting accumulated for the weight.
+w and ETA T is the learning rate for the weight w right so now what is happening let me.
+just uh show you things here right so as I had said right the VT will keep increasing right because.
+it's accumulating the gradients of course at some point when you reach close to the Minima and your Delta W.
+becomes zero then there's no more additions happening right so that's why this will saturate here in this region right.

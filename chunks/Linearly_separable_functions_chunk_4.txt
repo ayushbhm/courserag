@@ -1,0 +1,9 @@
+because most real world data is going to be not linearly separable right so here suppose you have two classes.
+of people right people who like machine learning and people who don't like machine learning right now it's going to.
+be the case that there are some people here maybe the blue guys here right okay which satisfy all the.
+characteristics of what the guys who like machine learning satisfy but they still don't like it right and same way.
+the other way around also right so you could think of it a more easier example would be that if.
+you have a certain locality right and you might assume that all people on that locality speak a particular language.
+right but there might be a few people there who don't speak that language or speak another language right and.
+so there would always be this outliers right so its data will never be linearly separable right and it need.
+not just be outliers you could have other things also now this is a very good example there is no.

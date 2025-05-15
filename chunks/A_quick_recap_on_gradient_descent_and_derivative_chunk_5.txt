@@ -1,0 +1,10 @@
+uh meant that's what we meant by uh training and to do that what we decided is okay let's start.
+with some uh random guesswork right so I was trying to take these W comma B values that you see.
+here right and I was trying to move them this slider so that the values of w and B change.
+and as every time I do that this blue sigmoid curve that you see was changing and ultimately I was.
+able to come up with some curve which was passing through both the point so this was just random guess.
+I used to move the w a bit okay it's changing like this I don't like it maybe I want.
+it to come a bit lower so maybe let's move it in the other direction and so on right and.
+uh then we were trying to connect this intuition right any one of you who takes this plot and tries.
+to adjust it will definitely be able to come up with a sigmoid function of the logistic function which passes.
+to the two points but what is it that you are doing right intuition is clear but what's the connection.

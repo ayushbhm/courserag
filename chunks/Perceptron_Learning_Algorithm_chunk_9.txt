@@ -1,0 +1,9 @@
+i'm just telling you which is obvious that this quantity is nothing but the dot product between the weight vector.
+and the data vector right the data point that i have so we can just rewrite the perceptron rule as.
+the following so y is equal to 1 if the dot product is greater than equal to zero and y.
+is equal to zero if the dot product is less than zero nothing magical here the dot product is just.
+equal to this so i have replaced that cumbersome notation of summation and w i x i by this more.
+compact dot product right now this is where now we need to start digging on if you're looking at the.
+dot product right so now i've gotten hold of some quantity that i can try to explore from a linear.
+algebra perspective right what does a dot product mean and then try to come up with some explanation for why.
+should the algorithm work or what does it make why is it making sense right so we are interested in.

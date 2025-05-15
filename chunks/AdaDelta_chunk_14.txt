@@ -1,0 +1,9 @@
+look at uh we we are also plotting now the VT and the UT right so uh because they are.
+delayed by one time step their curvature would be the same right they would have the same shape so both.
+of them have the same shape but their magnitudes are different right because of this delay one is relying on.
+more on the past history like one more time step from the past history whereas the other one is relying.
+more on the current history so what is happening is that when you are entering this uh uh let's see.
+so what is happening is in this curve so what happened was initially you were in a high loss region.
+right or a high loss region but also relatively flatter region right here the difference between the Constable contour lines.
+is higher than what happens as you keep going down towards the valley right so that means initially your gradients.
+were small right so the guy who is going to be behind which is U T minus 1 is going.

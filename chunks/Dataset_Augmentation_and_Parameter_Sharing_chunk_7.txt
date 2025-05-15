@@ -1,0 +1,9 @@
+you across all the layers instead of having a separate Matrix of Weights in each of these layers you you.
+just reuse the weights across all the layers or you share or tie the weights across all the layers right.
+so this will again become make more sense when we do either when we do auto encoders or later on.
+when we talk about Transformers but for the sake of completeness I'm just mentioning it here here so you know.
+that these are also regularization techniques right and this here the regularization in both these cases is clear right so.
+here I'm using the same weight Matrix that means I am not using separate weights that means I'm using fewer.
+weights and fewer weights means smaller models smaller model means smaller complexity and the same thing I'm use doing here.
+instead of using 2 times the number of Weights that I should have used I'm just using uh one time.
+that right so I'm just using W instead of using two W's so again I'm reducing the model complexity right.

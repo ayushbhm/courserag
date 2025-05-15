@@ -1,0 +1,9 @@
+understand okay so now we'll try to understand uh what this uh uh the Mast self-attention and the multi-headed cross.
+attention looks like right so we have these inputs so we'll assume right in any case now one question of.
+course is that in the case of the encoder you know that the sequences of length T because that is.
+the input given to you right but in the case of the decoder how do you know what the sequence.
+length is right because you don't know what the output is you're trying to generate the output so the length.
+of the output is unknown to you because unless you generate the stop signal or the stop word you don't.
+really know what the length of the output is right so you'll assume some Max sequence length and let me.
+call that Max sequence length as uh T1 right so that's for the max sequence limb that you will assume.
+but now when you start producing the first word right at that time you have T1 inputs right of which.

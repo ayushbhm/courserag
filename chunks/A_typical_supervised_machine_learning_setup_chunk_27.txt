@@ -1,0 +1,9 @@
+wanted the value to be 1 okay and it predicted it as 0.5 then my error is minus 0.5 okay.
+yeah this was y hat this was y so y hat minus y is minus 0.5 but there was another.
+example where i wanted y and y hat was predicted as 1.5 so now my difference would be 0.5 plus.
+0.5 so if i just take the sum of the differences then this minus 0.5 will cancel this 0.5 and.
+it will look like i have zero error whereas actually i have made two errors and two horrible errors right.
+both by off by 0.5 so the moment you square it that sign disappears right so you could take the.
+square and the other you could have argued that why not just take the norm right it's just the absolute.
+value right but the problem with the absolute value is that it's not a smooth differentiable function whereas a square.
+function is a smooth differentiable function and we want uh smooth differentiable functions because later on the hero of the.

@@ -1,0 +1,9 @@
+when we were doing that toy Network that to compute the loss function so the loss function is actually a.
+sum over all the training examples and then whatever formula you use right squared error or cross entropy and then.
+you take the average of that right so the true value of the loss is this right and it includes.
+all the training examples now if I want to take the derivative of this with respect to the loss function.
+then the derivative would also be a sum of all the values so it's also going to have a sum.
+over all the N terms and that is exactly what this for Loop is doing here right so this is.
+exactly the formula you just applied the formula and the formula says that you should sum over all the variables.
+and this is the true gradient there's no approximation happening here right so what you're doing is correct but and.
+because what you're doing is correct all the theoretical guarantees hold so what does that mean so when we are.

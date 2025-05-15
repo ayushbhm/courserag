@@ -1,0 +1,10 @@
+that I can mine from here right and I would May is base my decision on several factors so say.
+salinity could be one right then I could look at the density of the water there right sorry this pen.
+is not really working well but I'll just go ahead so salinity density you understand what I'm saying then maybe.
+I can look at the pressure at that location I could look at the temperature at that location I could.
+look at the Marine diversity at that location right so all of these are real values so it's all of.
+these belong to R all of these are real values and I might base my decision on N such different.
+factors right and this we have been discussing for a while that whenever I take decision I consider a lot.
+of inputs and now I'm talking about n inputs each of them is a real number so this Vector that.
+I am looking at here is a vector which belongs to RM right so that's the idea now so that's.
+what I meant by this that X belongs to RN and now what is it that I'm trying to predict.

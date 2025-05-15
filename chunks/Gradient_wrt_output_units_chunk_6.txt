@@ -1,0 +1,9 @@
+kind of a one okay and what's the condition associated with that i have suffixed something there so it's this.
+is what it looks like i equal to l so what that means is that if i is equal to.
+l then this indicator will take on the value 1 otherwise it will take on the value 0. so that's.
+what an indicator value variable means it just encodes this if else condition right so indicator variable is this is.
+how you write it and it will take on the value one if the condition is satisfied that the condition.
+in the suffix is satisfied otherwise not right so you can now agree that these two are the same right.
+this is just a more compact way of writing that right okay so what do i have so far i.
+have the derivative the partial uh derivative of one uh of the ayat da shaded green guy sorry the partial.
+derivative of the loss function with respect to the ith shaded green guy right but we are all we are.

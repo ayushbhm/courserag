@@ -1,0 +1,9 @@
+some data points the data points have actually come from the sinusoidal function that means I know what the true.
+f of x is in this case right so I have X and my true relation between X and Y.
+which is given by f of x for a change for once in my life I know what that is.
+that is the sinusoidal function because I've actually picked up the data points from there I know this right but.
+I am going to assume that I do not know this I have just been given some points and now.
+I'm going to try to fit a model to this points what does that mean that now I am going.
+to do the following I'm trying to going to come up with an approximation of what the relation is I'll.
+completely ignore the fact that I actually know what the true relationship is because in real world I wouldn't know.
+this right just for illustration I have taken points from sinusoidal functions so that's it's easy for me to illustrate.

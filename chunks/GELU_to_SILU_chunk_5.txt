@@ -1,0 +1,10 @@
+h21 right so this is the function that I am defining right h21 is equal to F of a to.
+1 and I have defined it as M into a to 1 where M itself is a function of a.
+2 sorry M uh m is a random variable which is Bernoulli distributed with the parameter Phi E21 right so.
+that's the what I'm trying to that's how this whole picture is right so you have a neural network within.
+that you have multiple hidden layers I'm looking at one of those hidden layers I'm looking at one of those.
+neurons and I want to define the activation function which is this and this is how I have defined the.
+activation function and now you can see that X actually is a21 which is just the preactivation of that neuron.
+and now I want to uh get a value between 0 to 1 based on a21 so one of the.
+simplest choice would be to just do one over one plus e raised to minus a218 this is the logistic.
+function that we had seen and we know that it gives values between 0 to 1 right so that is.

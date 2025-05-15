@@ -1,0 +1,9 @@
+the soft max function and then the loss function for the regression problems for squared error and for the classification.
+problems was cross entry right there could be other loss functions but these are the most popular loss functions that.
+you will encounter in a very large number of problems are greater than 90 of the problems that you will.
+encounter these two loss functions uh should suffice right or some variant of these two loss functions for the rest.
+of this lecture we are going to focus on the case where the output activation is soft max and the.
+loss function is cross entropy everything that we learn for that case is also applicable for this case by just.
+one small tweak right so that's i'm just going to focus on the uh softmax and cross entropy part okay.
+so i'll end this module here and then i'll come back and talk about the intuition behind back propagation and.
+then we'll do the back propagation algorithm in g2.

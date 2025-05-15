@@ -1,0 +1,9 @@
+two vectors right because the dot product between two vectors gives me a scalar this is the element wise multiplication.
+between two vectors right this first Vector is simply the the gradient of the loss function with respect to H.
+and this second Vector is just a collection of the derivatives of the uh activations with respect to preactivations right.
+so this element wise matrix multiplication I can show it as this this is called the hadamard product so I.
+can just multiply every element of the first Vector with every element of the second vector and I'll get this.
+quantity right so now I have computed a i Theta and let's see what it depends on right so it.
+depends on the derivative of the loss function with respect to h i right so now let's see if I.
+wanted to compute the derivative of the loss function with respect to A2 then I should know the derivative of.
+the loss function with respect to H2 and then I should know these G's so I already know that that.

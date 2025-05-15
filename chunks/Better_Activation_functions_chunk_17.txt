@@ -1,0 +1,9 @@
+so I know that this is going to be positive right both the blue quantities I know are going to.
+be positive right now if both the blue quantities are going to be positive then the sign of these two.
+gradients is decided by the red quantity right and the red quantity is the same for both the gradients so.
+now both the partial derivatives so now ah either the red quantity is negative in which case both these derivatives.
+are negative or the red quantity is positive in which case again both these derivatives are positive right so I.
+cannot have a situation where I have my gradient Vector which contains all these ah derivatives and either it will.
+be all positives or it will be all negatives right and this would be true even if I had like.
+n neurons here the same argument I could have extended to it so if I had computed those n partial.
+derivatives I would have had this red term common and then this blue term the blue term is always positive.

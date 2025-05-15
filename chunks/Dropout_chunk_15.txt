@@ -1,0 +1,9 @@
+a thousand steps every weight will get updated around 640 different uh times right at least 640 times okay so.
+now what do you do at test time this is what you are doing at training time at training time.
+every node was present only with probability P right now what do you do at test time at test time.
+now again you cannot sample these two raised to n networks past the output through all of those and then.
+take the final decision right so at test time you can use this neat trick which is saying that hey.
+every node was only present with probability P that means it was only present P faction of the times right.
+so that's let's say 80 percent of the times or sixty percent of times whatever is the probability that you.
+have chosen right so then I should trust the output of this node with only that fraction this guy only.
+participated in 80 of the discussions so whatever it says I only trust it with 80 value that's the same.

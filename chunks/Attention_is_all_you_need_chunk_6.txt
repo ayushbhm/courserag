@@ -1,0 +1,8 @@
+discuss as we go along okay so let's start yeah so let's look at each of these layers in detail.
+let's say my goal would be to kind of go over each of these yellow boxes that you see here.
+word embedding of course you know so there's nothing to say much over there but self-attention feed forward networks then.
+again self-attention the case of decoder encoder decoder attention and feed forward networks again in the case of decoder so.
+what do each of these blocks have right and of course there will be some overlap in the discussion so.
+if you understand this this should be fairly straightforward if you understand this then I'll not even say anything about.
+this right so mainly three components that we need to understand self-attention and good or decoder attention and the feed.
+forward neural networks so we'll look at these in the coming slides okay starting with self attention right so this.

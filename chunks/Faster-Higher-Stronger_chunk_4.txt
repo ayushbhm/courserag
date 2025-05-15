@@ -1,0 +1,8 @@
+on the slide here right but since then there's been like an industry of activation functions that has been proposed.
+and each of them with the motivation of stabilizing the training right or leading to better performance and faster conversions.
+right and many of these activation functions we are going to cover in the course tannic is something that we'll.
+see we'll see relu we'll see leaky relu parametric relu and some of these other functions right galu-lu and so.
+on right so many of these functions have been uh proposed and they all have shown to be useful in.
+different contexts right so we will look at many of these throughout the course and all of this is also.
+led to better stability and performance right so so once we discovered that deep neural networks can really be trained.
+there was a lot of interest in that and making them better and better and that's where better activation functions.

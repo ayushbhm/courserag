@@ -1,0 +1,10 @@
+i am going to so if you look at this right so w11 was set to 200 right so that.
+is and w one two are set to zero that's why it's a step in a particular direction but now.
+for the remaining one right i have set w three one to zero and i've said w three to two.
+hundred so what would happen in that case i would get a step function in this orientation right and similarly.
+for h14 i have set w41 to 0 and w4 to 200 so again i will get a step function.
+in this orientation right and now if i subtract these two i get a tower in this orientation right so.
+now let me just show you the towers only so i have one tower in this orientation i have another.
+tower in the other orientation right so now you can see that the walls have closed here if i just.
+move it around you can see that it's the walls have closed completely right so you can see that the.
+walls there is no opening anywhere right you cannot see a white surface anywhere because on all four sides the.

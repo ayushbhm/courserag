@@ -1,0 +1,10 @@
+here right and that's why that update makes sense still a bit more to it right i mean some of.
+you would start should start thinking oh wait when i see a positive point i make an error i change.
+the w so that this angle becomes something now if the next step if i take a negative point i.
+make an error i again change the w now how does this ensure that i don't keep toggling like this.
+right for a positive point i change the w so that the angle became less than what it was earlier.
+for a negative point i changed the w so that the angle became greater than what it was earlier but.
+if i keep doing this then what if i just keep toggling and never reach convergence right so what's the.
+proof of convergence that we have not done that i have just explained you the intuition behind these steps why.
+do these steps make sense i still need to explain whether this algorithm will converge or not we will get.
+to that later right so now let's try to see this algorithm on a toy data set right so to.

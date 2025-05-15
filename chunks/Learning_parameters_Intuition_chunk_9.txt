@@ -1,0 +1,9 @@
+the partial derivatives of all the elements at one goal right so that's what my quest is going to be.
+but if i can do that then i am done right so this is where we are this is what.
+the intuition is you can use the gradient descent algorithm as it is provided you have these quantities so we.
+need to answer two questions how to choose the loss function why do we need to answer this question because.
+we need to compute the partial derivatives of the loss function with respect to the weights right so unless i.
+know what the loss function is i can't even start writing down what that formula is going to be so.
+i need to know how to choose the loss function and once we choose the loss function i need to.
+compute every element of the gradient vector right which is the partial derivatives with respect to all the weights that.
+i had in the network right so if i know these two then i'll just come back to my gradient.

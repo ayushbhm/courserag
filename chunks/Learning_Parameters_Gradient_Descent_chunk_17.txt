@@ -1,0 +1,10 @@
+the cosine of the angle is minus 1 that's when I will get the most negative value for this quantity.
+which is my quantity of Interest right and when would the cosine be minus 1 when the angle between the.
+two vectors is 180 degrees which two vectors the vector U and the gradient vector so that's where I get.
+my U now I want you to be at 180 degrees with the gradient Vector that means I Want U.
+to be opposite to the gradient Vector hence in gradient descent and this is something you would have heard a.
+hundred times I move in the direction oppose it to the gradient right so this is how that formula or.
+how that rule comes we started off with the Taylor series that gave us a certain condition on what a.
+good use should be then we've pushed that condition to be to its limit right we wanted it to be.
+less than zero but we said let it be as less as newer as it can be and we found.
+that that happens when this happens okay and that happens when beta is equal to 180 degrees and beta is.

@@ -1,0 +1,9 @@
+what should the goal of this learning algorithm be so when would you say that the parameters that i have.
+learnt are good right so in the case of perceptron algorithm we had this loop which said while not convergence.
+to this right and there we had assumed that the data is linearly separable so i will keep running the.
+algorithm till no point moves right or still the w the new value of w does not move because all.
+the points are on the correct side of the line or the play right that was fine but that was.
+that means you were going for zero error right but now there is no idea of zero error as i.
+said in most available applications we'll have to deal with minimum error right so then what should your learning algorithm.
+do it should have a certain objective right in the case of perceptron the objective was to separate the data.
+that means no point misclassified that means zero error now your objective function which is going to guide the learning.

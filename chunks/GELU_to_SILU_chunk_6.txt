@@ -1,0 +1,9 @@
+simplest choice would be to just do one over one plus e raised to minus a218 this is the logistic.
+function that we had seen and we know that it gives values between 0 to 1 right so that is.
+one choice the other choice since we are in the domain of probability is to use the cumulative distribution function.
+of the normal distribution right so the probability density function of the normal distribution looks like this right this is.
+a bell shaped and if you look at the cumulative density uh function then it again has this s shape.
+right because it again uh at minus infinity it's around zero and around 1 when you have integrated over the.
+entire uh possibility of values you will get a probability of one right because a cumulative density function tells you.
+P of X taking on values less than equal to X so P of x less than equal to Infinity.
+is going to be 1 right so as this approaches Infinity uh your CDF would hit one right so that's.

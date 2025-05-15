@@ -1,0 +1,1287 @@
+[
+  {
+    "text": "foreign",
+    "start": 0.299,
+    "duration": 3.0
+  },
+  {
+    "text": "[Music]",
+    "start": 6.62,
+    "duration": 3.739
+  },
+  {
+    "text": "so now we are going to talk about train",
+    "start": 19.08,
+    "duration": 5.22
+  },
+  {
+    "text": "error versus test error so let's see ah",
+    "start": 21.24,
+    "duration": 5.58
+  },
+  {
+    "text": "so now consider a new point x comma Y",
+    "start": 24.3,
+    "duration": 4.2
+  },
+  {
+    "text": "which has not been seen during training",
+    "start": 26.82,
+    "duration": 4.74
+  },
+  {
+    "text": "and so what I mean by that that this is",
+    "start": 28.5,
+    "duration": 4.62
+  },
+  {
+    "text": "where I was kind of ending in the last",
+    "start": 31.56,
+    "duration": 3.42
+  },
+  {
+    "text": "video so you are given some training",
+    "start": 33.12,
+    "duration": 3.3
+  },
+  {
+    "text": "data and based on that you have",
+    "start": 34.98,
+    "duration": 4.079
+  },
+  {
+    "text": "estimated F hat X right and now consider",
+    "start": 36.42,
+    "duration": 4.68
+  },
+  {
+    "text": "some new points right and one such point",
+    "start": 39.059,
+    "duration": 4.441
+  },
+  {
+    "text": "x comma Y which was not there in the",
+    "start": 41.1,
+    "duration": 5.94
+  },
+  {
+    "text": "training data right and now ah you want",
+    "start": 43.5,
+    "duration": 6.78
+  },
+  {
+    "text": "to see what is the error that this model",
+    "start": 47.04,
+    "duration": 5.94
+  },
+  {
+    "text": "makes on this unseen Point why unseen",
+    "start": 50.28,
+    "duration": 4.439
+  },
+  {
+    "text": "because it was not seen during training",
+    "start": 52.98,
+    "duration": 4.559
+  },
+  {
+    "text": "right so that's what the setup is so if",
+    "start": 54.719,
+    "duration": 4.98
+  },
+  {
+    "text": "you use the model f at X to predict the",
+    "start": 57.539,
+    "duration": 4.5
+  },
+  {
+    "text": "value of y then the mean square error is",
+    "start": 59.699,
+    "duration": 4.5
+  },
+  {
+    "text": "given by this quantity right so this is",
+    "start": 62.039,
+    "duration": 4.44
+  },
+  {
+    "text": "the expected error and why do we have an",
+    "start": 64.199,
+    "duration": 4.441
+  },
+  {
+    "text": "expected expectation means like roughly",
+    "start": 66.479,
+    "duration": 4.441
+  },
+  {
+    "text": "average or mean so what is it that what",
+    "start": 68.64,
+    "duration": 3.96
+  },
+  {
+    "text": "is it that we are taking the average on",
+    "start": 70.92,
+    "duration": 3.6
+  },
+  {
+    "text": "so again the situation was I had certain",
+    "start": 72.6,
+    "duration": 3.9
+  },
+  {
+    "text": "training data and then I had certain",
+    "start": 74.52,
+    "duration": 4.86
+  },
+  {
+    "text": "test data and this test data had many X",
+    "start": 76.5,
+    "duration": 5.759
+  },
+  {
+    "text": "comma y pairs so the average error over",
+    "start": 79.38,
+    "duration": 4.86
+  },
+  {
+    "text": "all these X comma y Pairs and that's",
+    "start": 82.259,
+    "duration": 4.381
+  },
+  {
+    "text": "what this expectation stands for I want",
+    "start": 84.24,
+    "duration": 5.16
+  },
+  {
+    "text": "to take this mean error over all the X",
+    "start": 86.64,
+    "duration": 4.38
+  },
+  {
+    "text": "comma y Pairs and potentially there",
+    "start": 89.4,
+    "duration": 3.3
+  },
+  {
+    "text": "could be like a large large number of",
+    "start": 91.02,
+    "duration": 4.02
+  },
+  {
+    "text": "test points right so if I have built an",
+    "start": 92.7,
+    "duration": 4.98
+  },
+  {
+    "text": "image classifier this is an infinite set",
+    "start": 95.04,
+    "duration": 5.1
+  },
+  {
+    "text": "of I mean practically infinite a large",
+    "start": 97.68,
+    "duration": 4.68
+  },
+  {
+    "text": "number of images that I could feed it at",
+    "start": 100.14,
+    "duration": 3.78
+  },
+  {
+    "text": "test time at which it has not seen at",
+    "start": 102.36,
+    "duration": 3.06
+  },
+  {
+    "text": "training time right so every day I don't",
+    "start": 103.92,
+    "duration": 2.94
+  },
+  {
+    "text": "know how many images get uploaded on",
+    "start": 105.42,
+    "duration": 4.379
+  },
+  {
+    "text": "Instagram Facebook Etc so if you have",
+    "start": 106.86,
+    "duration": 4.799
+  },
+  {
+    "text": "trained a model using all the images",
+    "start": 109.799,
+    "duration": 3.661
+  },
+  {
+    "text": "that were there till today in another",
+    "start": 111.659,
+    "duration": 3.78
+  },
+  {
+    "text": "one week some million other images will",
+    "start": 113.46,
+    "duration": 4.38
+  },
+  {
+    "text": "get generated and now these are all of",
+    "start": 115.439,
+    "duration": 4.021
+  },
+  {
+    "text": "these images are not seen by the train",
+    "start": 117.84,
+    "duration": 4.98
+  },
+  {
+    "text": "by the model during training and now all",
+    "start": 119.46,
+    "duration": 5.939
+  },
+  {
+    "text": "of this if you feed it to this model you",
+    "start": 122.82,
+    "duration": 4.079
+  },
+  {
+    "text": "are interested in knowing what your",
+    "start": 125.399,
+    "duration": 3.601
+  },
+  {
+    "text": "expected error would be right which",
+    "start": 126.899,
+    "duration": 4.56
+  },
+  {
+    "text": "means the average error across all these",
+    "start": 129.0,
+    "duration": 4.5
+  },
+  {
+    "text": "unseen images that you have right and",
+    "start": 131.459,
+    "duration": 4.981
+  },
+  {
+    "text": "average you can represent as expectation",
+    "start": 133.5,
+    "duration": 4.98
+  },
+  {
+    "text": "right",
+    "start": 136.44,
+    "duration": 3.659
+  },
+  {
+    "text": "so this is the quantity that you are",
+    "start": 138.48,
+    "duration": 5.72
+  },
+  {
+    "text": "interested in and if",
+    "start": 140.099,
+    "duration": 4.101
+  },
+  {
+    "text": "you can show that this quantity is",
+    "start": 145.08,
+    "duration": 4.92
+  },
+  {
+    "text": "actually equal to bias square plus",
+    "start": 147.84,
+    "duration": 4.86
+  },
+  {
+    "text": "variance plus Sigma square and it's not",
+    "start": 150.0,
+    "duration": 6.239
+  },
+  {
+    "text": "I mean uh kind of I mean hard to see how",
+    "start": 152.7,
+    "duration": 5.399
+  },
+  {
+    "text": "you'll go from here to there because",
+    "start": 156.239,
+    "duration": 5.461
+  },
+  {
+    "text": "this is f of x right and we had seen",
+    "start": 158.099,
+    "duration": 5.941
+  },
+  {
+    "text": "that in the formula of bias you had e of",
+    "start": 161.7,
+    "duration": 4.619
+  },
+  {
+    "text": "f hat of x",
+    "start": 164.04,
+    "duration": 5.339
+  },
+  {
+    "text": "minus f of x and similarly in the",
+    "start": 166.319,
+    "duration": 6.901
+  },
+  {
+    "text": "formula of variance you had e of f hat",
+    "start": 169.379,
+    "duration": 9.121
+  },
+  {
+    "text": "of x minus E of f of x",
+    "start": 173.22,
+    "duration": 6.659
+  },
+  {
+    "text": "ah",
+    "start": 178.5,
+    "duration": 3.0
+  },
+  {
+    "text": "sorry",
+    "start": 179.879,
+    "duration": 3.901
+  },
+  {
+    "text": "the whole Square the expectation of that",
+    "start": 181.5,
+    "duration": 4.8
+  },
+  {
+    "text": "right so these terms are there in the",
+    "start": 183.78,
+    "duration": 4.62
+  },
+  {
+    "text": "bias formula these terms are there here",
+    "start": 186.3,
+    "duration": 4.62
+  },
+  {
+    "text": "also and there is a square here so if",
+    "start": 188.4,
+    "duration": 4.199
+  },
+  {
+    "text": "you open up the square by applying the",
+    "start": 190.92,
+    "duration": 3.3
+  },
+  {
+    "text": "formula for a minus B the whole square",
+    "start": 192.599,
+    "duration": 3.961
+  },
+  {
+    "text": "and then do some rearrangement of terms",
+    "start": 194.22,
+    "duration": 4.56
+  },
+  {
+    "text": "you will end up with this quantity right",
+    "start": 196.56,
+    "duration": 4.2
+  },
+  {
+    "text": "because this bias square is again going",
+    "start": 198.78,
+    "duration": 4.02
+  },
+  {
+    "text": "to be some square of this the variance",
+    "start": 200.76,
+    "duration": 4.759
+  },
+  {
+    "text": "again has the terms that you have on the",
+    "start": 202.8,
+    "duration": 5.34
+  },
+  {
+    "text": "left hand side so if you rearrange all",
+    "start": 205.519,
+    "duration": 4.481
+  },
+  {
+    "text": "of this you will get this and there is",
+    "start": 208.14,
+    "duration": 4.379
+  },
+  {
+    "text": "of course a formal derivation of this",
+    "start": 210.0,
+    "duration": 5.04
+  },
+  {
+    "text": "available online",
+    "start": 212.519,
+    "duration": 4.681
+  },
+  {
+    "text": "um which we have linked here so if you",
+    "start": 215.04,
+    "duration": 3.66
+  },
+  {
+    "text": "want to see the full derivation you can",
+    "start": 217.2,
+    "duration": 3.36
+  },
+  {
+    "text": "see this but what you can show is that",
+    "start": 218.7,
+    "duration": 6.179
+  },
+  {
+    "text": "the expected error on unseen data is",
+    "start": 220.56,
+    "duration": 6.84
+  },
+  {
+    "text": "actually dependent on the bias and the",
+    "start": 224.879,
+    "duration": 4.44
+  },
+  {
+    "text": "variance also so if you have a model",
+    "start": 227.4,
+    "duration": 3.839
+  },
+  {
+    "text": "which has a high bias like the simple",
+    "start": 229.319,
+    "duration": 4.2
+  },
+  {
+    "text": "model then your expected error on the",
+    "start": 231.239,
+    "duration": 4.201
+  },
+  {
+    "text": "test set is going to be high if you have",
+    "start": 233.519,
+    "duration": 3.901
+  },
+  {
+    "text": "a model which has a high variance like",
+    "start": 235.44,
+    "duration": 4.019
+  },
+  {
+    "text": "this High degree polynomial that you had",
+    "start": 237.42,
+    "duration": 4.2
+  },
+  {
+    "text": "then again your error on the test set is",
+    "start": 239.459,
+    "duration": 4.021
+  },
+  {
+    "text": "going to be high so what you need for",
+    "start": 241.62,
+    "duration": 4.86
+  },
+  {
+    "text": "this quantity to be small",
+    "start": 243.48,
+    "duration": 5.039
+  },
+  {
+    "text": "you need the bias also to be small and",
+    "start": 246.48,
+    "duration": 3.839
+  },
+  {
+    "text": "the variance also to be small and the",
+    "start": 248.519,
+    "duration": 3.3
+  },
+  {
+    "text": "intuition that we just developed is that",
+    "start": 250.319,
+    "duration": 3.541
+  },
+  {
+    "text": "these are contradictory right you cannot",
+    "start": 251.819,
+    "duration": 4.561
+  },
+  {
+    "text": "have both you will either have a high",
+    "start": 253.86,
+    "duration": 5.219
+  },
+  {
+    "text": "bias and low variance or you will have a",
+    "start": 256.38,
+    "duration": 4.8
+  },
+  {
+    "text": "low bias and high variance so somewhere",
+    "start": 259.079,
+    "duration": 4.021
+  },
+  {
+    "text": "in Middle you have to find the sweet",
+    "start": 261.18,
+    "duration": 4.019
+  },
+  {
+    "text": "spot where you have medium bias and",
+    "start": 263.1,
+    "duration": 4.5
+  },
+  {
+    "text": "medium variance that would give you the",
+    "start": 265.199,
+    "duration": 4.801
+  },
+  {
+    "text": "minimum error that you are seeking on",
+    "start": 267.6,
+    "duration": 4.44
+  },
+  {
+    "text": "the test data right so that's the",
+    "start": 270.0,
+    "duration": 5.1
+  },
+  {
+    "text": "connection between bias variance and the",
+    "start": 272.04,
+    "duration": 5.64
+  },
+  {
+    "text": "expected test error or the mean square",
+    "start": 275.1,
+    "duration": 5.28
+  },
+  {
+    "text": "error that you would have on the test",
+    "start": 277.68,
+    "duration": 6.18
+  },
+  {
+    "text": "data right or the Unseen data",
+    "start": 280.38,
+    "duration": 5.759
+  },
+  {
+    "text": "yeah so this is the situation that we",
+    "start": 283.86,
+    "duration": 5.16
+  },
+  {
+    "text": "have right the parameters of f hat X all",
+    "start": 286.139,
+    "duration": 5.461
+  },
+  {
+    "text": "the W's that we had they are estimated",
+    "start": 289.02,
+    "duration": 4.56
+  },
+  {
+    "text": "using the training data because that's",
+    "start": 291.6,
+    "duration": 4.56
+  },
+  {
+    "text": "all you have right but now why are we",
+    "start": 293.58,
+    "duration": 4.26
+  },
+  {
+    "text": "training the model because at test time",
+    "start": 296.16,
+    "duration": 3.84
+  },
+  {
+    "text": "you will get new images and you want to",
+    "start": 297.84,
+    "duration": 3.54
+  },
+  {
+    "text": "classify those images you want to say",
+    "start": 300.0,
+    "duration": 3.24
+  },
+  {
+    "text": "whether this image contains a bird or a",
+    "start": 301.38,
+    "duration": 3.9
+  },
+  {
+    "text": "parrot or does it contain a lion and so",
+    "start": 303.24,
+    "duration": 4.26
+  },
+  {
+    "text": "on right and that is what you want to do",
+    "start": 305.28,
+    "duration": 3.9
+  },
+  {
+    "text": "at test time you are going to work with",
+    "start": 307.5,
+    "duration": 4.139
+  },
+  {
+    "text": "unseen uh images right unseen meaning",
+    "start": 309.18,
+    "duration": 4.38
+  },
+  {
+    "text": "images which are not seen at training",
+    "start": 311.639,
+    "duration": 5.101
+  },
+  {
+    "text": "time right so now this gives us to the",
+    "start": 313.56,
+    "duration": 4.8
+  },
+  {
+    "text": "following two quantities right one is",
+    "start": 316.74,
+    "duration": 3.84
+  },
+  {
+    "text": "the training error right which is the",
+    "start": 318.36,
+    "duration": 5.399
+  },
+  {
+    "text": "error that you get on the training data",
+    "start": 320.58,
+    "duration": 5.52
+  },
+  {
+    "text": "so what does that mean uh I think we'll",
+    "start": 323.759,
+    "duration": 4.321
+  },
+  {
+    "text": "Define that quantity formally soon and",
+    "start": 326.1,
+    "duration": 3.9
+  },
+  {
+    "text": "the other is the test error which is the",
+    "start": 328.08,
+    "duration": 4.02
+  },
+  {
+    "text": "error that you get on the test data",
+    "start": 330.0,
+    "duration": 4.8
+  },
+  {
+    "text": "right and you would ideally want both to",
+    "start": 332.1,
+    "duration": 4.319
+  },
+  {
+    "text": "be zero you want the training error to",
+    "start": 334.8,
+    "duration": 2.88
+  },
+  {
+    "text": "also be zero that means once I have",
+    "start": 336.419,
+    "duration": 2.881
+  },
+  {
+    "text": "trained the model at least for the",
+    "start": 337.68,
+    "duration": 3.06
+  },
+  {
+    "text": "training data it should be able to",
+    "start": 339.3,
+    "duration": 3.48
+  },
+  {
+    "text": "predict everything perfectly right give",
+    "start": 340.74,
+    "duration": 3.959
+  },
+  {
+    "text": "me close to zero and then of course on",
+    "start": 342.78,
+    "duration": 3.9
+  },
+  {
+    "text": "the test data also I want it to be 0",
+    "start": 344.699,
+    "duration": 4.921
+  },
+  {
+    "text": "right so typically what happens is these",
+    "start": 346.68,
+    "duration": 4.739
+  },
+  {
+    "text": "errors exhibit the following behavior",
+    "start": 349.62,
+    "duration": 4.32
+  },
+  {
+    "text": "that if you have a high model complexity",
+    "start": 351.419,
+    "duration": 5.28
+  },
+  {
+    "text": "right and in our case we saw this degree",
+    "start": 353.94,
+    "duration": 4.74
+  },
+  {
+    "text": "25 polynomial if you had increased it",
+    "start": 356.699,
+    "duration": 4.321
+  },
+  {
+    "text": "further it would have almost perfectly",
+    "start": 358.68,
+    "duration": 4.5
+  },
+  {
+    "text": "fit the training data that means my",
+    "start": 361.02,
+    "duration": 5.16
+  },
+  {
+    "text": "training error would have gone 0 as my",
+    "start": 363.18,
+    "duration": 5.34
+  },
+  {
+    "text": "model complexity increased right but",
+    "start": 366.18,
+    "duration": 4.26
+  },
+  {
+    "text": "what would happen is the test error",
+    "start": 368.52,
+    "duration": 4.32
+  },
+  {
+    "text": "would behave like this right if my model",
+    "start": 370.44,
+    "duration": 6.18
+  },
+  {
+    "text": "is not complex like the like the linear",
+    "start": 372.84,
+    "duration": 5.82
+  },
+  {
+    "text": "model that I had had which is the one",
+    "start": 376.62,
+    "duration": 4.5
+  },
+  {
+    "text": "which is the one extreme then my test",
+    "start": 378.66,
+    "duration": 4.02
+  },
+  {
+    "text": "error is going to be high as the red",
+    "start": 381.12,
+    "duration": 5.22
+  },
+  {
+    "text": "error red curve is I there right but if",
+    "start": 382.68,
+    "duration": 6.0
+  },
+  {
+    "text": "my model is very complex then also my",
+    "start": 386.34,
+    "duration": 4.079
+  },
+  {
+    "text": "test error is going to be high for",
+    "start": 388.68,
+    "duration": 3.72
+  },
+  {
+    "text": "reasons that I mentioned earlier because",
+    "start": 390.419,
+    "duration": 4.201
+  },
+  {
+    "text": "now I have trained the model to",
+    "start": 392.4,
+    "duration": 4.44
+  },
+  {
+    "text": "completely overfit on one training data",
+    "start": 394.62,
+    "duration": 4.62
+  },
+  {
+    "text": "that I had seen and now if I have",
+    "start": 396.84,
+    "duration": 4.44
+  },
+  {
+    "text": "another point which are not similar to",
+    "start": 399.24,
+    "duration": 3.78
+  },
+  {
+    "text": "this or which are not like which were",
+    "start": 401.28,
+    "duration": 3.66
+  },
+  {
+    "text": "not seen during training then I don't",
+    "start": 403.02,
+    "duration": 3.0
+  },
+  {
+    "text": "know whether it will be able to perform",
+    "start": 404.94,
+    "duration": 2.699
+  },
+  {
+    "text": "well because its entire universe was",
+    "start": 406.02,
+    "duration": 3.84
+  },
+  {
+    "text": "restricted to these points and it did",
+    "start": 407.639,
+    "duration": 3.721
+  },
+  {
+    "text": "like everything that it could to fit",
+    "start": 409.86,
+    "duration": 4.619
+  },
+  {
+    "text": "those points properly and in that effort",
+    "start": 411.36,
+    "duration": 6.959
+  },
+  {
+    "text": "it might have now missed uh considering",
+    "start": 414.479,
+    "duration": 6.121
+  },
+  {
+    "text": "the other points which are unseen right",
+    "start": 418.319,
+    "duration": 4.141
+  },
+  {
+    "text": "and for those points it will make a high",
+    "start": 420.6,
+    "duration": 3.659
+  },
+  {
+    "text": "error right so this is typically the",
+    "start": 422.46,
+    "duration": 4.5
+  },
+  {
+    "text": "behavior that the training error will",
+    "start": 424.259,
+    "duration": 4.201
+  },
+  {
+    "text": "keep Inc decreasing as the model",
+    "start": 426.96,
+    "duration": 4.5
+  },
+  {
+    "text": "complexity increasing the test error",
+    "start": 428.46,
+    "duration": 5.04
+  },
+  {
+    "text": "will decrease up to a certain point but",
+    "start": 431.46,
+    "duration": 3.6
+  },
+  {
+    "text": "if you make the model extremely complex",
+    "start": 433.5,
+    "duration": 2.94
+  },
+  {
+    "text": "it is going to overfit on the training",
+    "start": 435.06,
+    "duration": 3.479
+  },
+  {
+    "text": "data and make severe errors on the test",
+    "start": 436.44,
+    "duration": 3.96
+  },
+  {
+    "text": "data right so what you are looking for",
+    "start": 438.539,
+    "duration": 4.201
+  },
+  {
+    "text": "is The Sweet Spot somewhere in the",
+    "start": 440.4,
+    "duration": 4.56
+  },
+  {
+    "text": "center right and on the left hand side",
+    "start": 442.74,
+    "duration": 4.38
+  },
+  {
+    "text": "you have high bias models like the",
+    "start": 444.96,
+    "duration": 4.139
+  },
+  {
+    "text": "simple models which give you very high",
+    "start": 447.12,
+    "duration": 3.66
+  },
+  {
+    "text": "error both on the training data as well",
+    "start": 449.099,
+    "duration": 3.301
+  },
+  {
+    "text": "as test data right because the simple",
+    "start": 450.78,
+    "duration": 3.72
+  },
+  {
+    "text": "line model even on the training data it",
+    "start": 452.4,
+    "duration": 3.6
+  },
+  {
+    "text": "was giving us a high error it was",
+    "start": 454.5,
+    "duration": 3.12
+  },
+  {
+    "text": "nowhere close to the two sinusoidal",
+    "start": 456.0,
+    "duration": 4.319
+  },
+  {
+    "text": "function and on the right hand side you",
+    "start": 457.62,
+    "duration": 4.68
+  },
+  {
+    "text": "have the high variance models which give",
+    "start": 460.319,
+    "duration": 3.66
+  },
+  {
+    "text": "a low error on the training data but",
+    "start": 462.3,
+    "duration": 3.66
+  },
+  {
+    "text": "still give you a high error on the test",
+    "start": 463.979,
+    "duration": 3.301
+  },
+  {
+    "text": "data right and you're looking for this",
+    "start": 465.96,
+    "duration": 3.54
+  },
+  {
+    "text": "Sweet Spot somewhere in the middle where",
+    "start": 467.28,
+    "duration": 3.72
+  },
+  {
+    "text": "you have a good trade-off and you have",
+    "start": 469.5,
+    "duration": 4.139
+  },
+  {
+    "text": "the ideal model complexity right so now",
+    "start": 471.0,
+    "duration": 4.68
+  },
+  {
+    "text": "let us formally ah",
+    "start": 473.639,
+    "duration": 4.381
+  },
+  {
+    "text": "Define the train error and the test",
+    "start": 475.68,
+    "duration": 5.22
+  },
+  {
+    "text": "error right so let there be n training",
+    "start": 478.02,
+    "duration": 5.28
+  },
+  {
+    "text": "points and M test points right so these",
+    "start": 480.9,
+    "duration": 3.6
+  },
+  {
+    "text": "are the N training points that were",
+    "start": 483.3,
+    "duration": 3.0
+  },
+  {
+    "text": "given to you then you can Define the",
+    "start": 484.5,
+    "duration": 4.139
+  },
+  {
+    "text": "training error as this right which is",
+    "start": 486.3,
+    "duration": 5.28
+  },
+  {
+    "text": "known to you so over all the end points",
+    "start": 488.639,
+    "duration": 5.161
+  },
+  {
+    "text": "I'm going to take the average mean",
+    "start": 491.58,
+    "duration": 4.14
+  },
+  {
+    "text": "square error right so average square",
+    "start": 493.8,
+    "duration": 3.78
+  },
+  {
+    "text": "error or the mean square error that's",
+    "start": 495.72,
+    "duration": 4.199
+  },
+  {
+    "text": "what I'm going to do and this is for the",
+    "start": 497.58,
+    "duration": 4.86
+  },
+  {
+    "text": "N training points and then for the m",
+    "start": 499.919,
+    "duration": 5.46
+  },
+  {
+    "text": "test points which is n plus 1 to n plus",
+    "start": 502.44,
+    "duration": 5.58
+  },
+  {
+    "text": "1 M points I can similarly Define the",
+    "start": 505.379,
+    "duration": 4.621
+  },
+  {
+    "text": "test error the average test error right",
+    "start": 508.02,
+    "duration": 3.959
+  },
+  {
+    "text": "so this is already known to you",
+    "start": 510.0,
+    "duration": 3.779
+  },
+  {
+    "text": "intuitively I've just formally defined",
+    "start": 511.979,
+    "duration": 4.141
+  },
+  {
+    "text": "it yeah so as the model complexity",
+    "start": 513.779,
+    "duration": 4.2
+  },
+  {
+    "text": "increases the train error becomes overly",
+    "start": 516.12,
+    "duration": 3.479
+  },
+  {
+    "text": "optimistic right because you saw that",
+    "start": 517.979,
+    "duration": 3.18
+  },
+  {
+    "text": "the blue curve was showing you or the",
+    "start": 519.599,
+    "duration": 2.701
+  },
+  {
+    "text": "training error is zero and you would",
+    "start": 521.159,
+    "duration": 2.94
+  },
+  {
+    "text": "think okay perfectly I've come from I",
+    "start": 522.3,
+    "duration": 3.479
+  },
+  {
+    "text": "have found the perfect relationship",
+    "start": 524.099,
+    "duration": 4.201
+  },
+  {
+    "text": "between Y and X but that's only for this",
+    "start": 525.779,
+    "duration": 4.261
+  },
+  {
+    "text": "training data right and as you as soon",
+    "start": 528.3,
+    "duration": 4.02
+  },
+  {
+    "text": "as you test it on the test data you will",
+    "start": 530.04,
+    "duration": 5.58
+  },
+  {
+    "text": "find the error is high and so what you",
+    "start": 532.32,
+    "duration": 5.4
+  },
+  {
+    "text": "actually want is that the validation",
+    "start": 535.62,
+    "duration": 4.74
+  },
+  {
+    "text": "error should be low right so the true",
+    "start": 537.72,
+    "duration": 5.04
+  },
+  {
+    "text": "picture of whether your F hat is really",
+    "start": 540.36,
+    "duration": 4.56
+  },
+  {
+    "text": "good comes from the validation data or",
+    "start": 542.76,
+    "duration": 4.32
+  },
+  {
+    "text": "the test data and not from the training",
+    "start": 544.92,
+    "duration": 3.9
+  },
+  {
+    "text": "data right you want the test error to be",
+    "start": 547.08,
+    "duration": 3.36
+  },
+  {
+    "text": "small that means the error on unknown",
+    "start": 548.82,
+    "duration": 4.079
+  },
+  {
+    "text": "points to be small driving the error to",
+    "start": 550.44,
+    "duration": 4.44
+  },
+  {
+    "text": "zero on the known points is easy you can",
+    "start": 552.899,
+    "duration": 3.0
+  },
+  {
+    "text": "just keep increasing the model",
+    "start": 554.88,
+    "duration": 2.88
+  },
+  {
+    "text": "complexity and it will go to zero right",
+    "start": 555.899,
+    "duration": 4.081
+  },
+  {
+    "text": "but what you want is to keep track of",
+    "start": 557.76,
+    "duration": 4.139
+  },
+  {
+    "text": "that sweet spot and to keep track of",
+    "start": 559.98,
+    "duration": 4.02
+  },
+  {
+    "text": "that sweet spot you need the test error",
+    "start": 561.899,
+    "duration": 3.781
+  },
+  {
+    "text": "because the moment the test error",
+    "start": 564.0,
+    "duration": 3.48
+  },
+  {
+    "text": "increases you need to stop you see I",
+    "start": 565.68,
+    "duration": 3.36
+  },
+  {
+    "text": "don't want more complexity than this",
+    "start": 567.48,
+    "duration": 3.6
+  },
+  {
+    "text": "because my test error is increasing",
+    "start": 569.04,
+    "duration": 4.26
+  },
+  {
+    "text": "right now whatever intuition we have",
+    "start": 571.08,
+    "duration": 4.319
+  },
+  {
+    "text": "developed so far we will try to convert",
+    "start": 573.3,
+    "duration": 5.94
+  },
+  {
+    "text": "this into a mathematical formulation and",
+    "start": 575.399,
+    "duration": 5.581
+  },
+  {
+    "text": "then we will try to make a case for",
+    "start": 579.24,
+    "duration": 3.599
+  },
+  {
+    "text": "regularization okay",
+    "start": 580.98,
+    "duration": 5.359
+  },
+  {
+    "text": "so I'll end this video here",
+    "start": 582.839,
+    "duration": 3.5
+  }
+]

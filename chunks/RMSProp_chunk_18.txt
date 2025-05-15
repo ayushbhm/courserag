@@ -1,0 +1,9 @@
+is ETA ETA naught divided by square root of VT plus Epsilon and of course this ETA naught remains constant.
+throughout right that's what you have said and only the denominator is change right so now if I change if.
+I use different values for ETA naught what happens I already showed you that if I choose if I had.
+chosen some favorable value for uh ETA naught then my algorithm would have conversation so I'm just going to show.
+you a few more examples along that direction okay so I'll consider two values ETA not equal to 0.6 and.
+0.1 and let's see what happens to the to uh example right so first let me run 0.6 and here.
+you can see that there's a wide oscillation right so this is almost like a case where uh the following.
+is happening right it's oscillating from a high loss region to another high loss region and is oscillating between these.
+two points as opposed to a slightly better loss oscillation where it's perhaps oscillating between two low loss regions right.

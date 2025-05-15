@@ -1,0 +1,9 @@
+vertical okay whatever reasons okay this is good yeah maybe this angle is good so at regular intervals along the.
+Z axis I have taken slices right so these are the slices that I have taken at regular intervals along.
+the z-axis and I've also labeled the intervals right so this is minus 0.8 this is the slice at minus.
+0.6 minus 0.4 minus 0.2 and this is at -1 right so these are regular intervals because they are happening.
+at intervals of 0.2 and similarly I keep doing so at every point two distance I have taken a slice.
+now if I were to see this from the top okay and maybe I should delete yeah so if I.
+were to um yeah so I've done these slices at regular intervals and I've also labeled the slices now if.
+I were to look at it from the top this is what it would look like right and this is.
+exactly what the contour map looks like which is drawn on the right hand side right so contour map is.

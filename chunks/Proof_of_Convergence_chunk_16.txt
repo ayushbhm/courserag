@@ -1,0 +1,10 @@
+many times as many times the condition was violated and the maximum number of times the condition can be violated.
+is t because i have made t update so far so i would have made some k less than t.
+updates is that okay less than equal to t updates right ah let's see yeah so we do not make.
+a correction at every time step so we make a correction only if this condition is satisfied and so at.
+time step p we would have made k less than equal to t corrections this is exactly what i had.
+said and every time we make a correction we get a delta term here right in this equation right because.
+here i made a correction so because of that i got a delta here here i made a correction so.
+because of that i got a delta again here right every time i make a correction i get delta so.
+i will get k such deltas okay so this is what the numerator looks like okay now so so far.
+we have that w transpose pi is less than equal to zero hence we made the correction right for the.

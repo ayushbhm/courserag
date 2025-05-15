@@ -1,0 +1,9 @@
+foreign [Music] technique that we're going to see is about adding noise to the inputs so earlier I used to.
+have a different sequence in the course where I used to First teach Auto encoders and then do that but.
+do this lecture but now I've changed that so I'll just make some changes on this slide accordingly so we.
+will see this in the auto encoder but for now let's assume you have the following setup that you are.
+given a certain input and you have say a one layer Network just ignore this for now right I'll come.
+back to this soon so this is your inputs assume this layer is not there this layer is directly feeding.
+into this and then you have the output right so this is what your normal neural network would look like.
+now what weight uh adding weight uh noise to the weights what this method does is you take your inputs.
+let's assume your inputs were say binary for the sake of simplicity right now what you do is you add.

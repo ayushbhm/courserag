@@ -1,0 +1,9 @@
+practice people have observed that uh as high as greater than 50 percent of the relu units can die if.
+the learning rate is set to high right why is this related to the running rate if the learning rate.
+is very high then this problem of a large gradient flowing to B and then getting multiplied by a reasonable.
+learning rate can cause B to be very negative right so that's where the learning rate has to be carefully.
+uh satisf carefully set and also when you are using uh relu it is advised to initialize bias to a.
+positive value right and in context of deep learning this is a fairly large positive value 0.01 because you have.
+many elements contributing to the sum so one of them is point zero one right so you should set it.
+properly otherwise many of your neurons would die or you could use some of the other variants of relu that.
+we will see soon so this is one variant which is the Leaky relu right and as the name suggests.

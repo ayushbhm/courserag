@@ -1,0 +1,9 @@
+one of course I minus 1 would be 0 so H 0 showed up here and at 0 was the.
+same as X the input but for any layer if I'm looking at this layer then the derivative of the.
+loss function with respect to this weight is going to be proportional to H2 that means the input that this.
+weight was connected right so the H's are the inputs coming from the previous layer they are of course also.
+the output of some layer but for this current layer they are the input right so the derivatives are always.
+proportional to the inputs connected to the weight so that's the main observation that we had made and I'm just.
+repeating that in this uh recap that we are doing right uh okay now uh if if there is a.
+network which is deep and wide again we calculated the same thing we calculated the derivative of the loss function.
+with respect to any weight by using this chain rule applied across multiple Parts not just one path but three.

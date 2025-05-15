@@ -1,0 +1,9 @@
+and this structure where you have neurons and they have connections between them is what kind of forms the foundation.
+of modern deep neural networks also it took over quite a bit of time and progress in different fields to.
+come to this conclusion which then motivated work uh in deep neural networks or neural networks at that time which.
+has now evolved to where it has right so quite a bit of history and quite a bit of developments.
+from different fields which have led to this place right so now moving on or in fact there is one.
+more before we move on right there's one more thing about the brains which there was a great debate about.
+which was uh whether the processing in brain is localized or is it distributed so what it means by means.
+that there was one group which felt that if you're talking about speech or vision or any specific uh activities.
+that the brain is responsible for they are localized there are certain portions of the brain which are responsible for.

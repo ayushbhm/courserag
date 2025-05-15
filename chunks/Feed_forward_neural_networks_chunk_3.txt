@@ -1,0 +1,9 @@
+on the net and you could take a look at them right so with that i start the first module.
+which is feed forward neural networks or a multi-layered network of neurons and in our case it would be it.
+could be sigmoid neurons or any other non-linear function that we might consider right so let's start defining every uh.
+component of this feed forward neural network right so at the input we have an n dimensional vector so these.
+are some n inputs that we might have and we have uh i think in the past refer to this.
+oil uh drilling example have you referred to that the or whether i can find oil from a given location.
+i think you have done that where you have a bunch of parameters right so you might consider the uh.
+salinity the pressure the temperature and so on right so these are some n variables that are given to you.
+and based on that you want to make a certain decision and this is an n dimensional input and i'll.

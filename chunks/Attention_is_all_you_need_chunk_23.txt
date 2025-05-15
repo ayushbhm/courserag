@@ -1,0 +1,8 @@
+vectors and then you have uh two linear Transformations happening so this is the first linear transformation which is at.
+here and then here's the second linear transformation that is happening right uh and then you have this one non-linearity.
+in the form of the tannage right uh and then what you have is that that internal non-linearity multiplied by.
+those two linear Transformations their entire equation gives you one vector and then you're taking a DOT product between that.
+vector and your V right so just to summarize there are three vectors two linear Transformations one nonlinearity and then.
+finally a DOT product right so the final answer that you get right if I were to simplify this what.
+you get at the end is just the dot product between two vectors this Vector in turn was computed using.
+two other vectors which in turn had gone through a linear transformation right so that is what is happening here.

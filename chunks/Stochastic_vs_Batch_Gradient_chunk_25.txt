@@ -1,0 +1,9 @@
+but you can also have mini batch the same thing after a batch you compute the uh derivatives and then.
+make the update uh and again you will see the same relative advantage that the oscillations due to the stochastic.
+nature would reduce because now your estimates are getting better they are not coming from a single point but from.
+a collection of points so that ends our discussion on the stochastic and the mini batch version of these algorithms.
+and the same ideas will apply to all the optimization algorithms that you see and in practice we use the.
+mini batch versions of all these algorithms because you will have a large number of training points so you'll have.
+to use a batch and make updates instead of waiting for all the data to be seen and similarly you'll.
+not use the stochastic version which is just like one data point so you'll use the mini batch version and.
+this mini batch size would be a bit dependent on the application that you're using and as I said in.

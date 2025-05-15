@@ -1,0 +1,9 @@
+behavior does not change the orange curve is for the ETA node of 0.6 which we just discussed in detail.
+and the black curve is for the ETA naught of point Y right and now what is happening is that.
+because my initial learning rate is small this behavior of how quickly it changes with steep slopes and gentle slopes.
+is also changing right now you can see that initially this was decreasing rapidly right but now this is not.
+decreasing rapidly it's decreasing slowly but it's still always lower than the lowest point that I had reached here right.
+so what does that mean that it is still going to be lower than the lowest point that I have.
+reached and then again in the Steep regions when it starts increasing it does not increase that rapidly right because.
+it's still the numerator is still small so it nowhere grows as much as I wanted here right hence in.
+this case you are seeing very wild oscillations in this case you are seeing mylar oscillations and if I also.

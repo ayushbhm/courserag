@@ -1,0 +1,9 @@
+we have made some observations about the gradient descent algorithm right and from here I want to move forward and.
+talk about why are we making those observations right what's the Intuition or are we yeah what's the intuition behind.
+the observations that we have made okay so let me go to the next slide yeah so now so let's.
+ignore this figure for now right so what we observed in the previous slide was that when the slope when.
+the curve was gentle right those ah yeah at the the red portion at the top or the pink portion.
+at the top the slope was very gentle my movements were very small when the slope became steep My movement.
+was a bit fast and then again when I came to this gentle slope my movement became slow right I'm.
+trying to now and get a reasoning for this right why is this happening so what exactly is happening there.
+right so what is our movement right what do I mean by the movement so let me just make that.

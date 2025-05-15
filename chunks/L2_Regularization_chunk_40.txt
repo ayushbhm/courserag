@@ -1,0 +1,9 @@
+slope right so this Gap if you remember indicates the slope the slope here is smaller that means a small.
+change in W does not cause a large change in uh the loss right whereas along this axis the slope.
+is steeper because this Gap is small so small change in W causes a large change in the law side.
+so this figure kind of summarizes everything that we wanted to understand about L2 loss it tells us what does.
+the shape of L2 loss look like it tells us what the optimum is in the absence of L2 loss.
+and then it tells us how there is a compromise being made where you are shrinking the weights but you.
+are not shrinking all the weights uniformly you are shrinking them according to different proportions and that's exactly what is.
+happening here and these proportions actually decide are decided based on which directions are important and which directions are not.
+important because the eigen values these are remember the eigen values of the Hessian and the eigen values of the.

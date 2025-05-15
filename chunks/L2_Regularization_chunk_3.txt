@@ -1,0 +1,9 @@
+this quantity is and this is some multiplying factor which decide how much weightage should be given to uh this.
+uh term in the total loss function right so this is the total loss function and this decides how much.
+weight to be given to this component if you set Alpha to zero then essentially you are not doing any.
+kind of regularization your total loss is just the empirical training loss and you are back to uh the non-regularization.
+non-regularization loss function right but if you set Alpha to a certain value it tells you how much do you.
+care about this regularization term now the question is ah how does this act as a regularization so this is.
+indeed a function of w right there is no denying that so we wanted the loss function to be of.
+this form so it is indeed in this form right but minimizing this how does this control for model complexity.
+that's the question that we would like to understand right so what are we saying right we are saying that.

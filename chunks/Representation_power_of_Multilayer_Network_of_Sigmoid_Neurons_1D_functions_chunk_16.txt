@@ -1,0 +1,10 @@
+right and all of these are similar except for their position on the x-axis and for their Heights or lengths.
+as you may see right okay so this is what we have come to so now if I take an.
+input and if I know I have been given an input X if I know if I have a magical.
+box called the tower maker okay so I will make a tower I have as many such boxes as I.
+want right which I'm making these towers okay and then I passed all of these towers so some there's a.
+tower maker right it is taking an input okay and it's just making a tower all of these boxes are.
+identical in what they do the only difference is the amplitude or the height and the position right but otherwise.
+they are all Tower makers if I get all these Tower makers and if I add them up then I.
+can construct my original function plan right that's the idea so what I'm looking for now is this fundamental unit.
+called the tower maker if I have that then I have given you a network which can approximate from given.

@@ -1,0 +1,1657 @@
+[
+  {
+    "text": "foreign",
+    "start": 0.299,
+    "duration": 3.0
+  },
+  {
+    "text": "[Music]",
+    "start": 3.43,
+    "duration": 20.57
+  },
+  {
+    "text": "so we are in on this journey of looking",
+    "start": 20.6,
+    "duration": 5.5
+  },
+  {
+    "text": "at different variants of gradient",
+    "start": 24.0,
+    "duration": 4.5
+  },
+  {
+    "text": "descent and we looked at quite a few of",
+    "start": 26.1,
+    "duration": 4.919
+  },
+  {
+    "text": "them in the last lecture and the main",
+    "start": 28.5,
+    "duration": 6.18
+  },
+  {
+    "text": "takeaways was the idea of momentum and",
+    "start": 31.019,
+    "duration": 5.521
+  },
+  {
+    "text": "then how do you correct for momentum",
+    "start": 34.68,
+    "duration": 4.14
+  },
+  {
+    "text": "because momentum often takes you very",
+    "start": 36.54,
+    "duration": 4.199
+  },
+  {
+    "text": "fast so the correction was done through",
+    "start": 38.82,
+    "duration": 4.62
+  },
+  {
+    "text": "natural accelerated gradient descent and",
+    "start": 40.739,
+    "duration": 4.681
+  },
+  {
+    "text": "then we saw the stochastic and the mini",
+    "start": 43.44,
+    "duration": 3.54
+  },
+  {
+    "text": "batch versions of these algorithms and",
+    "start": 45.42,
+    "duration": 3.479
+  },
+  {
+    "text": "also talked a bit about how do you come",
+    "start": 46.98,
+    "duration": 3.3
+  },
+  {
+    "text": "up with learning rate schedules right",
+    "start": 48.899,
+    "duration": 3.741
+  },
+  {
+    "text": "and during the discussion at some point",
+    "start": 50.28,
+    "duration": 6.299
+  },
+  {
+    "text": "we felt the need for like an Adaptive",
+    "start": 52.64,
+    "duration": 5.559
+  },
+  {
+    "text": "learning rate right so when you are on",
+    "start": 56.579,
+    "duration": 4.62
+  },
+  {
+    "text": "the Steep regions you want the learning",
+    "start": 58.199,
+    "duration": 5.941
+  },
+  {
+    "text": "rate to be small and when you are on the",
+    "start": 61.199,
+    "duration": 5.341
+  },
+  {
+    "text": "gentle regions you want the learning",
+    "start": 64.14,
+    "duration": 3.9
+  },
+  {
+    "text": "rate to be fast right so that's what I",
+    "start": 66.54,
+    "duration": 3.18
+  },
+  {
+    "text": "mean by adaptive so it should look at",
+    "start": 68.04,
+    "duration": 3.78
+  },
+  {
+    "text": "okay how is the history been and where",
+    "start": 69.72,
+    "duration": 4.14
+  },
+  {
+    "text": "am I currently and can I accordingly",
+    "start": 71.82,
+    "duration": 4.86
+  },
+  {
+    "text": "slow down or maybe speed up a bit right",
+    "start": 73.86,
+    "duration": 4.86
+  },
+  {
+    "text": "and the gradients will of course not",
+    "start": 76.68,
+    "duration": 3.6
+  },
+  {
+    "text": "change if you are in the Steep region",
+    "start": 78.72,
+    "duration": 3.96
+  },
+  {
+    "text": "they will be large and if you're in the",
+    "start": 80.28,
+    "duration": 3.78
+  },
+  {
+    "text": "general region they will be small right",
+    "start": 82.68,
+    "duration": 3.24
+  },
+  {
+    "text": "you can't do much with the gradients but",
+    "start": 84.06,
+    "duration": 3.54
+  },
+  {
+    "text": "then the multiplying factor which is the",
+    "start": 85.92,
+    "duration": 4.14
+  },
+  {
+    "text": "learning rate can you change that so",
+    "start": 87.6,
+    "duration": 5.159
+  },
+  {
+    "text": "that you can scale up and scale down the",
+    "start": 90.06,
+    "duration": 5.4
+  },
+  {
+    "text": "updates accordingly right so uh that's",
+    "start": 92.759,
+    "duration": 4.86
+  },
+  {
+    "text": "the idea that we want to explore in",
+    "start": 95.46,
+    "duration": 4.38
+  },
+  {
+    "text": "today's lecture right so let's first",
+    "start": 97.619,
+    "duration": 4.921
+  },
+  {
+    "text": "again make a case for it so here's again",
+    "start": 99.84,
+    "duration": 5.279
+  },
+  {
+    "text": "a simple neural network",
+    "start": 102.54,
+    "duration": 4.98
+  },
+  {
+    "text": "there's a slight change in notation",
+    "start": 105.119,
+    "duration": 4.741
+  },
+  {
+    "text": "which I had to do because now we have",
+    "start": 107.52,
+    "duration": 5.34
+  },
+  {
+    "text": "four inputs so it's not a change in",
+    "start": 109.86,
+    "duration": 4.5
+  },
+  {
+    "text": "notation just a new notation so we have",
+    "start": 112.86,
+    "duration": 3.299
+  },
+  {
+    "text": "these four inputs so far we have been",
+    "start": 114.36,
+    "duration": 3.06
+  },
+  {
+    "text": "dealing with a simple neural network",
+    "start": 116.159,
+    "duration": 3.841
+  },
+  {
+    "text": "where we had one input one bias and then",
+    "start": 117.42,
+    "duration": 5.22
+  },
+  {
+    "text": "the output I'm looking at four inputs X1",
+    "start": 120.0,
+    "duration": 6.18
+  },
+  {
+    "text": "X2 X3 X4 and then the bias which is a",
+    "start": 122.64,
+    "duration": 6.0
+  },
+  {
+    "text": "constant input of 1 and of course each",
+    "start": 126.18,
+    "duration": 4.76
+  },
+  {
+    "text": "of these inputs has an Associated weight",
+    "start": 128.64,
+    "duration": 6.12
+  },
+  {
+    "text": "W1 W2 w3w4 right so we have been using",
+    "start": 130.94,
+    "duration": 6.4
+  },
+  {
+    "text": "the subscript for the training instance",
+    "start": 134.76,
+    "duration": 4.979
+  },
+  {
+    "text": "so there are M training instances X1 to",
+    "start": 137.34,
+    "duration": 4.92
+  },
+  {
+    "text": "xn which is X is bold which is a vector",
+    "start": 139.739,
+    "duration": 4.681
+  },
+  {
+    "text": "but now we have these superscripts for",
+    "start": 142.26,
+    "duration": 5.04
+  },
+  {
+    "text": "the different uh inputs within a given",
+    "start": 144.42,
+    "duration": 4.92
+  },
+  {
+    "text": "training instance right so now you could",
+    "start": 147.3,
+    "duration": 7.76
+  },
+  {
+    "text": "think of X as in X as a vector",
+    "start": 149.34,
+    "duration": 8.46
+  },
+  {
+    "text": "X1 X2",
+    "start": 155.06,
+    "duration": 4.179
+  },
+  {
+    "text": "X3",
+    "start": 157.8,
+    "duration": 5.04
+  },
+  {
+    "text": "X4 and this is one input right so let's",
+    "start": 159.239,
+    "duration": 6.36
+  },
+  {
+    "text": "say this is the data about one movie and",
+    "start": 162.84,
+    "duration": 4.5
+  },
+  {
+    "text": "there would be many such movies so say",
+    "start": 165.599,
+    "duration": 3.901
+  },
+  {
+    "text": "this is the movie one so then we have x",
+    "start": 167.34,
+    "duration": 5.039
+  },
+  {
+    "text": "1 1 x 1 2 x 1 3 x 1 4. right so that's",
+    "start": 169.5,
+    "duration": 5.04
+  },
+  {
+    "text": "the notation that we are using so these",
+    "start": 172.379,
+    "duration": 3.541
+  },
+  {
+    "text": "are all the individual inputs that are",
+    "start": 174.54,
+    "duration": 3.54
+  },
+  {
+    "text": "going to the network and a collection of",
+    "start": 175.92,
+    "duration": 5.459
+  },
+  {
+    "text": "such inputs forms one training point or",
+    "start": 178.08,
+    "duration": 5.28
+  },
+  {
+    "text": "one uh data point right so that's the",
+    "start": 181.379,
+    "duration": 5.701
+  },
+  {
+    "text": "idea okay uh and so this is the notation",
+    "start": 183.36,
+    "duration": 6.599
+  },
+  {
+    "text": "and now uh so we have multiple weights",
+    "start": 187.08,
+    "duration": 5.28
+  },
+  {
+    "text": "now right we have W and W2 w3w4 and for",
+    "start": 189.959,
+    "duration": 4.92
+  },
+  {
+    "text": "the minute I have ignored the bias so",
+    "start": 192.36,
+    "duration": 4.68
+  },
+  {
+    "text": "now given this network that it should be",
+    "start": 194.879,
+    "duration": 4.08
+  },
+  {
+    "text": "easy that for a given a single data",
+    "start": 197.04,
+    "duration": 4.919
+  },
+  {
+    "text": "point right which is uh X and it should",
+    "start": 198.959,
+    "duration": 6.601
+  },
+  {
+    "text": "have been X comma y not X comma B sorry",
+    "start": 201.959,
+    "duration": 5.401
+  },
+  {
+    "text": "this should have been y so a single",
+    "start": 205.56,
+    "duration": 3.599
+  },
+  {
+    "text": "training point is the input X and the",
+    "start": 207.36,
+    "duration": 5.04
+  },
+  {
+    "text": "output y now if you wanted the",
+    "start": 209.159,
+    "duration": 5.101
+  },
+  {
+    "text": "derivative of the loss function with",
+    "start": 212.4,
+    "duration": 4.44
+  },
+  {
+    "text": "respect to W1 which is one of the",
+    "start": 214.26,
+    "duration": 4.32
+  },
+  {
+    "text": "weights in this network right so",
+    "start": 216.84,
+    "duration": 4.08
+  },
+  {
+    "text": "remember earlier we had derived when we",
+    "start": 218.58,
+    "duration": 4.799
+  },
+  {
+    "text": "just had one weight w we had derived",
+    "start": 220.92,
+    "duration": 3.78
+  },
+  {
+    "text": "this quantity which was the derivative",
+    "start": 223.379,
+    "duration": 4.021
+  },
+  {
+    "text": "of the loss function with respect to uh",
+    "start": 224.7,
+    "duration": 5.039
+  },
+  {
+    "text": "W and this is the formula that we had",
+    "start": 227.4,
+    "duration": 4.259
+  },
+  {
+    "text": "got and the only thing that has changed",
+    "start": 229.739,
+    "duration": 3.601
+  },
+  {
+    "text": "is that that time we had only one input",
+    "start": 231.659,
+    "duration": 4.021
+  },
+  {
+    "text": "which was X now we have four inputs X",
+    "start": 233.34,
+    "duration": 4.259
+  },
+  {
+    "text": "One X two x three x four so if you",
+    "start": 235.68,
+    "duration": 4.38
+  },
+  {
+    "text": "derive the formula this part which I",
+    "start": 237.599,
+    "duration": 4.2
+  },
+  {
+    "text": "have the under braces that would remain",
+    "start": 240.06,
+    "duration": 3.239
+  },
+  {
+    "text": "the same and it would just get",
+    "start": 241.799,
+    "duration": 3.241
+  },
+  {
+    "text": "multiplied by the appropriate input",
+    "start": 243.299,
+    "duration": 3.601
+  },
+  {
+    "text": "right the input to which the weight uh",
+    "start": 245.04,
+    "duration": 4.68
+  },
+  {
+    "text": "corresponds to similarly for the second",
+    "start": 246.9,
+    "duration": 6.0
+  },
+  {
+    "text": "weight W2 the derivative of the loss",
+    "start": 249.72,
+    "duration": 5.099
+  },
+  {
+    "text": "function with respect to the weight",
+    "start": 252.9,
+    "duration": 4.92
+  },
+  {
+    "text": "right so this would be uh so this",
+    "start": 254.819,
+    "duration": 5.221
+  },
+  {
+    "text": "quantity here is derivative of the loss",
+    "start": 257.82,
+    "duration": 5.4
+  },
+  {
+    "text": "function with respect to the weight W2",
+    "start": 260.04,
+    "duration": 5.46
+  },
+  {
+    "text": "and if you solve for that you will get",
+    "start": 263.22,
+    "duration": 4.02
+  },
+  {
+    "text": "this is the answer and this is not very",
+    "start": 265.5,
+    "duration": 3.24
+  },
+  {
+    "text": "different from what we had already done",
+    "start": 267.24,
+    "duration": 3.239
+  },
+  {
+    "text": "right so we had this network earlier",
+    "start": 268.74,
+    "duration": 4.86
+  },
+  {
+    "text": "which was uh",
+    "start": 270.479,
+    "duration": 5.121
+  },
+  {
+    "text": "a single input",
+    "start": 273.6,
+    "duration": 5.7
+  },
+  {
+    "text": "x 1 and then you had this com constant",
+    "start": 275.6,
+    "duration": 6.22
+  },
+  {
+    "text": "one and in this case when we had taken",
+    "start": 279.3,
+    "duration": 4.86
+  },
+  {
+    "text": "the loss function and then computed the",
+    "start": 281.82,
+    "duration": 3.72
+  },
+  {
+    "text": "derivative of the loss function with",
+    "start": 284.16,
+    "duration": 3.72
+  },
+  {
+    "text": "respect to this weight the formula that",
+    "start": 285.54,
+    "duration": 5.939
+  },
+  {
+    "text": "we had got was this multiplied by the",
+    "start": 287.88,
+    "duration": 5.46
+  },
+  {
+    "text": "corresponding input which is X right and",
+    "start": 291.479,
+    "duration": 4.021
+  },
+  {
+    "text": "all I'm saying is that now if you have",
+    "start": 293.34,
+    "duration": 4.38
+  },
+  {
+    "text": "four different inputs and four different",
+    "start": 295.5,
+    "duration": 4.38
+  },
+  {
+    "text": "weights associated with each of those",
+    "start": 297.72,
+    "duration": 4.02
+  },
+  {
+    "text": "inputs then if you take the derivative",
+    "start": 299.88,
+    "duration": 4.02
+  },
+  {
+    "text": "with respect to any of these weights the",
+    "start": 301.74,
+    "duration": 4.44
+  },
+  {
+    "text": "formula will not change only the last X",
+    "start": 303.9,
+    "duration": 4.5
+  },
+  {
+    "text": "will get replaced by the appropriate X",
+    "start": 306.18,
+    "duration": 4.079
+  },
+  {
+    "text": "right so you can go and check this but",
+    "start": 308.4,
+    "duration": 2.94
+  },
+  {
+    "text": "it should also be straightforward",
+    "start": 310.259,
+    "duration": 4.081
+  },
+  {
+    "text": "because you have this W transpose X here",
+    "start": 311.34,
+    "duration": 8.04
+  },
+  {
+    "text": "which is W1 X1 plus W2 X2 and so on so",
+    "start": 314.34,
+    "duration": 6.72
+  },
+  {
+    "text": "when you take the derivative of this",
+    "start": 319.38,
+    "duration": 3.36
+  },
+  {
+    "text": "quantity right so finally when you apply",
+    "start": 321.06,
+    "duration": 3.84
+  },
+  {
+    "text": "the chain rule at some point you will",
+    "start": 322.74,
+    "duration": 3.42
+  },
+  {
+    "text": "take the derivative of this quantity",
+    "start": 324.9,
+    "duration": 4.079
+  },
+  {
+    "text": "with respect to W1 and all the other",
+    "start": 326.16,
+    "duration": 4.68
+  },
+  {
+    "text": "quantities will disappear and the",
+    "start": 328.979,
+    "duration": 3.78
+  },
+  {
+    "text": "derivative of this quantity would be X1",
+    "start": 330.84,
+    "duration": 4.44
+  },
+  {
+    "text": "right so that's how this X1 is showing",
+    "start": 332.759,
+    "duration": 6.121
+  },
+  {
+    "text": "up here right so that's the idea",
+    "start": 335.28,
+    "duration": 6.3
+  },
+  {
+    "text": "so if there are end points we can just",
+    "start": 338.88,
+    "duration": 4.8
+  },
+  {
+    "text": "sum the gradients over all the endpoints",
+    "start": 341.58,
+    "duration": 3.48
+  },
+  {
+    "text": "to get the total gradient right so what",
+    "start": 343.68,
+    "duration": 2.64
+  },
+  {
+    "text": "does that mean that this was with",
+    "start": 345.06,
+    "duration": 3.12
+  },
+  {
+    "text": "respect to a single point where the",
+    "start": 346.32,
+    "duration": 5.64
+  },
+  {
+    "text": "input was 1X but I could have inputs",
+    "start": 348.18,
+    "duration": 6.799
+  },
+  {
+    "text": "which are",
+    "start": 351.96,
+    "duration": 3.019
+  },
+  {
+    "text": "X1",
+    "start": 355.44,
+    "duration": 5.759
+  },
+  {
+    "text": "x 2 all the way up to x m right so here",
+    "start": 357.66,
+    "duration": 5.099
+  },
+  {
+    "text": "I have shown the derivative with respect",
+    "start": 361.199,
+    "duration": 5.041
+  },
+  {
+    "text": "to one such input but if you have many",
+    "start": 362.759,
+    "duration": 5.401
+  },
+  {
+    "text": "inputs then you will just sum the",
+    "start": 366.24,
+    "duration": 4.62
+  },
+  {
+    "text": "derivative across all these inputs at",
+    "start": 368.16,
+    "duration": 4.62
+  },
+  {
+    "text": "this we have again done some before so",
+    "start": 370.86,
+    "duration": 4.92
+  },
+  {
+    "text": "the the derivative of w derivative of",
+    "start": 372.78,
+    "duration": 4.8
+  },
+  {
+    "text": "the loss function that will secure W 2",
+    "start": 375.78,
+    "duration": 4.919
+  },
+  {
+    "text": "would be summation",
+    "start": 377.58,
+    "duration": 8.1
+  },
+  {
+    "text": "I equal to 1 to M right and then uh you",
+    "start": 380.699,
+    "duration": 7.081
+  },
+  {
+    "text": "will have this entire quantity inside",
+    "start": 385.68,
+    "duration": 4.44
+  },
+  {
+    "text": "and",
+    "start": 387.78,
+    "duration": 6.359
+  },
+  {
+    "text": "in the end that would be multiplied by",
+    "start": 390.12,
+    "duration": 7.919
+  },
+  {
+    "text": "x 2 of the appropriate I right so that's",
+    "start": 394.139,
+    "duration": 5.941
+  },
+  {
+    "text": "what the derivative would look like",
+    "start": 398.039,
+    "duration": 4.981
+  },
+  {
+    "text": "right so uh maybe this is not clear here",
+    "start": 400.08,
+    "duration": 6.2
+  },
+  {
+    "text": "let me just undo that",
+    "start": 403.02,
+    "duration": 3.26
+  },
+  {
+    "text": "yeah so you'll have this",
+    "start": 406.62,
+    "duration": 3.799
+  },
+  {
+    "text": "so you'll have this term which is in the",
+    "start": 413.4,
+    "duration": 6.78
+  },
+  {
+    "text": "bracket and then multiplied by x 2 of",
+    "start": 416.28,
+    "duration": 5.58
+  },
+  {
+    "text": "the corresponding input right so that's",
+    "start": 420.18,
+    "duration": 3.54
+  },
+  {
+    "text": "what the total derivative would look",
+    "start": 421.86,
+    "duration": 3.24
+  },
+  {
+    "text": "like right so you're just the derivative",
+    "start": 423.72,
+    "duration": 3.0
+  },
+  {
+    "text": "of the loss function with respect to W2",
+    "start": 425.1,
+    "duration": 3.42
+  },
+  {
+    "text": "is going to the sum of this quantity",
+    "start": 426.72,
+    "duration": 6.14
+  },
+  {
+    "text": "that I have shown here okay now",
+    "start": 428.52,
+    "duration": 4.34
+  },
+  {
+    "text": "now what happens if a feature X2 is",
+    "start": 433.919,
+    "duration": 4.62
+  },
+  {
+    "text": "passed right so X2 is one of the",
+    "start": 436.979,
+    "duration": 3.241
+  },
+  {
+    "text": "features so in our oil drilling example",
+    "start": 438.539,
+    "duration": 3.06
+  },
+  {
+    "text": "it could be salinity pressure",
+    "start": 440.22,
+    "duration": 4.319
+  },
+  {
+    "text": "temperature Etc in our movie example it",
+    "start": 441.599,
+    "duration": 4.981
+  },
+  {
+    "text": "could be the director actor and so on",
+    "start": 444.539,
+    "duration": 4.44
+  },
+  {
+    "text": "right now if one of these features is",
+    "start": 446.58,
+    "duration": 5.519
+  },
+  {
+    "text": "sparse what does that mean that across",
+    "start": 448.979,
+    "duration": 4.981
+  },
+  {
+    "text": "all the M training points that I had",
+    "start": 452.099,
+    "duration": 4.38
+  },
+  {
+    "text": "happen this feature is always in many",
+    "start": 453.96,
+    "duration": 4.2
+  },
+  {
+    "text": "cases is going to be 0 right in a",
+    "start": 456.479,
+    "duration": 3.66
+  },
+  {
+    "text": "classic example for this would be if I",
+    "start": 458.16,
+    "duration": 4.68
+  },
+  {
+    "text": "have data for the past say 1000",
+    "start": 460.139,
+    "duration": 5.34
+  },
+  {
+    "text": "Bollywood movies right and if I have one",
+    "start": 462.84,
+    "duration": 4.859
+  },
+  {
+    "text": "of the features as is actor Amir Khan",
+    "start": 465.479,
+    "duration": 5.28
+  },
+  {
+    "text": "now Amir Khan acts in very few movies so",
+    "start": 467.699,
+    "duration": 4.5
+  },
+  {
+    "text": "for these thousand movies maybe there",
+    "start": 470.759,
+    "duration": 3.481
+  },
+  {
+    "text": "would be four to five movies for which",
+    "start": 472.199,
+    "duration": 4.321
+  },
+  {
+    "text": "this feature is on and everywhere else",
+    "start": 474.24,
+    "duration": 4.26
+  },
+  {
+    "text": "this feature would be zero right so",
+    "start": 476.52,
+    "duration": 3.84
+  },
+  {
+    "text": "that's what a sparse feature looks like",
+    "start": 478.5,
+    "duration": 3.66
+  },
+  {
+    "text": "and again as you can imagine in real",
+    "start": 480.36,
+    "duration": 3.0
+  },
+  {
+    "text": "world applications there are many",
+    "start": 482.16,
+    "duration": 3.84
+  },
+  {
+    "text": "features which are sparse now what's the",
+    "start": 483.36,
+    "duration": 5.16
+  },
+  {
+    "text": "consequence of that right so if my",
+    "start": 486.0,
+    "duration": 4.259
+  },
+  {
+    "text": "derivative",
+    "start": 488.52,
+    "duration": 4.619
+  },
+  {
+    "text": "formula that I just showed you as the",
+    "start": 490.259,
+    "duration": 7.401
+  },
+  {
+    "text": "sum right is summation",
+    "start": 493.139,
+    "duration": 4.521
+  },
+  {
+    "text": "I equal to 1 to M then that quantity",
+    "start": 499.199,
+    "duration": 8.101
+  },
+  {
+    "text": "that I just mentioned multiplied by",
+    "start": 503.52,
+    "duration": 6.66
+  },
+  {
+    "text": "this feature value right this is what my",
+    "start": 507.3,
+    "duration": 4.44
+  },
+  {
+    "text": "derivative is",
+    "start": 510.18,
+    "duration": 3.419
+  },
+  {
+    "text": "going to be",
+    "start": 511.74,
+    "duration": 4.799
+  },
+  {
+    "text": "right and now if this feature is very",
+    "start": 513.599,
+    "duration": 4.8
+  },
+  {
+    "text": "sparse that means when I am taking the",
+    "start": 516.539,
+    "duration": 4.321
+  },
+  {
+    "text": "sum for if this m is equal to thousand",
+    "start": 518.399,
+    "duration": 4.861
+  },
+  {
+    "text": "and out of 1000 times if 990 times this",
+    "start": 520.86,
+    "duration": 4.919
+  },
+  {
+    "text": "feature is going to be 0 then 990 terms",
+    "start": 523.26,
+    "duration": 3.9
+  },
+  {
+    "text": "in this derivative are going to be 0",
+    "start": 525.779,
+    "duration": 3.24
+  },
+  {
+    "text": "right that means my total derivative",
+    "start": 527.16,
+    "duration": 3.6
+  },
+  {
+    "text": "that I am going to compute is going to",
+    "start": 529.019,
+    "duration": 5.401
+  },
+  {
+    "text": "be very sparse for features uh is going",
+    "start": 530.76,
+    "duration": 5.699
+  },
+  {
+    "text": "to be very small for weights",
+    "start": 534.42,
+    "duration": 4.14
+  },
+  {
+    "text": "corresponding to sparse features now",
+    "start": 536.459,
+    "duration": 3.481
+  },
+  {
+    "text": "what's the consequence of that the",
+    "start": 538.56,
+    "duration": 3.18
+  },
+  {
+    "text": "consequence consequence of that is that",
+    "start": 539.94,
+    "duration": 4.26
+  },
+  {
+    "text": "in my any gradient descent based update",
+    "start": 541.74,
+    "duration": 5.64
+  },
+  {
+    "text": "my new weight is going to be my old",
+    "start": 544.2,
+    "duration": 4.62
+  },
+  {
+    "text": "weight right so let me just call this",
+    "start": 547.38,
+    "duration": 2.459
+  },
+  {
+    "text": "new",
+    "start": 548.82,
+    "duration": 4.139
+  },
+  {
+    "text": "and this old minus ETA times whatever",
+    "start": 549.839,
+    "duration": 6.241
+  },
+  {
+    "text": "derivative I compute and I've just told",
+    "start": 552.959,
+    "duration": 6.181
+  },
+  {
+    "text": "you that if X is sparse or that feature",
+    "start": 556.08,
+    "duration": 5.16
+  },
+  {
+    "text": "is pass then the derivative is going to",
+    "start": 559.14,
+    "duration": 3.66
+  },
+  {
+    "text": "be small and if the derivative is going",
+    "start": 561.24,
+    "duration": 3.48
+  },
+  {
+    "text": "to be small then it means that my",
+    "start": 562.8,
+    "duration": 3.84
+  },
+  {
+    "text": "updates are going to be small and if my",
+    "start": 564.72,
+    "duration": 3.36
+  },
+  {
+    "text": "updates are going to be small then I'm",
+    "start": 566.64,
+    "duration": 3.96
+  },
+  {
+    "text": "not making much changes along that",
+    "start": 568.08,
+    "duration": 3.66
+  },
+  {
+    "text": "direction right and that is not",
+    "start": 570.6,
+    "duration": 3.9
+  },
+  {
+    "text": "something that I desire right and now a",
+    "start": 571.74,
+    "duration": 4.5
+  },
+  {
+    "text": "wish list here would be that if I know",
+    "start": 574.5,
+    "duration": 3.779
+  },
+  {
+    "text": "my derivatives are going to be small can",
+    "start": 576.24,
+    "duration": 3.659
+  },
+  {
+    "text": "my learning rate would have been high",
+    "start": 578.279,
+    "duration": 3.661
+  },
+  {
+    "text": "for such sparse features so if the",
+    "start": 579.899,
+    "duration": 3.721
+  },
+  {
+    "text": "learning rate would have been high then",
+    "start": 581.94,
+    "duration": 4.2
+  },
+  {
+    "text": "still my updates would have been larger",
+    "start": 583.62,
+    "duration": 4.38
+  },
+  {
+    "text": "right so this is one more case for",
+    "start": 586.14,
+    "duration": 3.42
+  },
+  {
+    "text": "having an Adaptive learning rate so we",
+    "start": 588.0,
+    "duration": 3.899
+  },
+  {
+    "text": "talked about two cases one is in the",
+    "start": 589.56,
+    "duration": 3.899
+  },
+  {
+    "text": "Steep regions I want the learning rate",
+    "start": 591.899,
+    "duration": 3.601
+  },
+  {
+    "text": "to adopt and in the flat regions again I",
+    "start": 593.459,
+    "duration": 3.781
+  },
+  {
+    "text": "wanted to increase and the Steep regions",
+    "start": 595.5,
+    "duration": 4.74
+  },
+  {
+    "text": "I wanted to be small the other cases",
+    "start": 597.24,
+    "duration": 5.099
+  },
+  {
+    "text": "which is again related is that if you",
+    "start": 600.24,
+    "duration": 4.74
+  },
+  {
+    "text": "have sparse features where you know that",
+    "start": 602.339,
+    "duration": 4.321
+  },
+  {
+    "text": "the when you compute the total",
+    "start": 604.98,
+    "duration": 4.02
+  },
+  {
+    "text": "derivative it's going to be very small",
+    "start": 606.66,
+    "duration": 4.619
+  },
+  {
+    "text": "because in most cases this x i the",
+    "start": 609.0,
+    "duration": 4.62
+  },
+  {
+    "text": "circled x i is going to be 0 and then",
+    "start": 611.279,
+    "duration": 4.261
+  },
+  {
+    "text": "hence my total derivative is small and",
+    "start": 613.62,
+    "duration": 3.839
+  },
+  {
+    "text": "if my total derivative is small can and",
+    "start": 615.54,
+    "duration": 3.84
+  },
+  {
+    "text": "I just jack up the learning rate so that",
+    "start": 617.459,
+    "duration": 3.421
+  },
+  {
+    "text": "my updates are a bit larger right",
+    "start": 619.38,
+    "duration": 2.579
+  },
+  {
+    "text": "because now I don't need to be",
+    "start": 620.88,
+    "duration": 2.459
+  },
+  {
+    "text": "conservative because anyways I'm going",
+    "start": 621.959,
+    "duration": 3.0
+  },
+  {
+    "text": "to get very sparse updates for this",
+    "start": 623.339,
+    "duration": 5.341
+  },
+  {
+    "text": "feature okay so that's the overall idea",
+    "start": 624.959,
+    "duration": 5.521
+  },
+  {
+    "text": "yeah so that's what is happening here",
+    "start": 628.68,
+    "duration": 5.88
+  },
+  {
+    "text": "now why is this important right so my uh",
+    "start": 630.48,
+    "duration": 6.479
+  },
+  {
+    "text": "my weight now you might say that if this",
+    "start": 634.56,
+    "duration": 4.68
+  },
+  {
+    "text": "feature is passed then why do I care",
+    "start": 636.959,
+    "duration": 3.721
+  },
+  {
+    "text": "about it right I mean let it not get",
+    "start": 639.24,
+    "duration": 2.88
+  },
+  {
+    "text": "updates let those weights not get",
+    "start": 640.68,
+    "duration": 3.12
+  },
+  {
+    "text": "updated because then maybe this feature",
+    "start": 642.12,
+    "duration": 3.839
+  },
+  {
+    "text": "will not contribute much to my final",
+    "start": 643.8,
+    "duration": 4.02
+  },
+  {
+    "text": "classification but that's not the case",
+    "start": 645.959,
+    "duration": 4.141
+  },
+  {
+    "text": "right so there could be a case that a",
+    "start": 647.82,
+    "duration": 4.079
+  },
+  {
+    "text": "feature is passed as well as important",
+    "start": 650.1,
+    "duration": 4.2
+  },
+  {
+    "text": "so returning back to the movie example",
+    "start": 651.899,
+    "duration": 3.901
+  },
+  {
+    "text": "right there could be an actor or a",
+    "start": 654.3,
+    "duration": 2.94
+  },
+  {
+    "text": "director right take maybe Christopher",
+    "start": 655.8,
+    "duration": 3.9
+  },
+  {
+    "text": "Nolan who directs very few movies right",
+    "start": 657.24,
+    "duration": 4.8
+  },
+  {
+    "text": "maybe one in few years right so if I",
+    "start": 659.7,
+    "duration": 3.72
+  },
+  {
+    "text": "look at all the data for the past 10",
+    "start": 662.04,
+    "duration": 3.6
+  },
+  {
+    "text": "years we will have four to five of his",
+    "start": 663.42,
+    "duration": 4.68
+  },
+  {
+    "text": "movies right but this would be a very",
+    "start": 665.64,
+    "duration": 4.259
+  },
+  {
+    "text": "important deciding fact uh feature",
+    "start": 668.1,
+    "duration": 4.44
+  },
+  {
+    "text": "because his movies are generally good",
+    "start": 669.899,
+    "duration": 5.281
+  },
+  {
+    "text": "right so now if you completely ignore",
+    "start": 672.54,
+    "duration": 4.26
+  },
+  {
+    "text": "that feature if you are not bothered",
+    "start": 675.18,
+    "duration": 3.48
+  },
+  {
+    "text": "that hey this weights are corresponding",
+    "start": 676.8,
+    "duration": 3.36
+  },
+  {
+    "text": "to this feature are not getting updated",
+    "start": 678.66,
+    "duration": 3.0
+  },
+  {
+    "text": "so whatever initial value you had",
+    "start": 680.16,
+    "duration": 3.9
+  },
+  {
+    "text": "started if that value was small and you",
+    "start": 681.66,
+    "duration": 4.08
+  },
+  {
+    "text": "ran this algorithm for thousand time",
+    "start": 684.06,
+    "duration": 4.2
+  },
+  {
+    "text": "steps and this feature got updated only",
+    "start": 685.74,
+    "duration": 4.74
+  },
+  {
+    "text": "a few times and that too with very small",
+    "start": 688.26,
+    "duration": 3.62
+  },
+  {
+    "text": "quantities",
+    "start": 690.48,
+    "duration": 4.62
+  },
+  {
+    "text": "then you are missing out on an important",
+    "start": 691.88,
+    "duration": 5.74
+  },
+  {
+    "text": "feature right so it is often the case",
+    "start": 695.1,
+    "duration": 4.2
+  },
+  {
+    "text": "that's passed the features has passed",
+    "start": 697.62,
+    "duration": 2.82
+  },
+  {
+    "text": "but at the same time they are also",
+    "start": 699.3,
+    "duration": 3.3
+  },
+  {
+    "text": "important whenever they are present they",
+    "start": 700.44,
+    "duration": 3.48
+  },
+  {
+    "text": "play a very important role in the",
+    "start": 702.6,
+    "duration": 3.299
+  },
+  {
+    "text": "decision right so that's why you cannot",
+    "start": 703.92,
+    "duration": 4.44
+  },
+  {
+    "text": "ignore this so we want these updates to",
+    "start": 705.899,
+    "duration": 5.161
+  },
+  {
+    "text": "be good so that we get a good uh",
+    "start": 708.36,
+    "duration": 6.599
+  },
+  {
+    "text": "contribution from this feature in our W",
+    "start": 711.06,
+    "duration": 5.76
+  },
+  {
+    "text": "transpose X Plus y right because W",
+    "start": 714.959,
+    "duration": 3.481
+  },
+  {
+    "text": "decides how much the feature X",
+    "start": 716.82,
+    "duration": 5.579
+  },
+  {
+    "text": "contributes and if that feature if W is",
+    "start": 718.44,
+    "duration": 5.339
+  },
+  {
+    "text": "not changing much you have initialized",
+    "start": 722.399,
+    "duration": 3.301
+  },
+  {
+    "text": "it to a very small value and then it's",
+    "start": 723.779,
+    "duration": 3.421
+  },
+  {
+    "text": "not changing much because the",
+    "start": 725.7,
+    "duration": 3.12
+  },
+  {
+    "text": "derivatives are small as I just",
+    "start": 727.2,
+    "duration": 4.02
+  },
+  {
+    "text": "Illustrated then you are losing out on",
+    "start": 728.82,
+    "duration": 4.019
+  },
+  {
+    "text": "the information in this feature right so",
+    "start": 731.22,
+    "duration": 3.54
+  },
+  {
+    "text": "you can't let that happen right so then",
+    "start": 732.839,
+    "duration": 3.301
+  },
+  {
+    "text": "can we have a different learning rate",
+    "start": 734.76,
+    "duration": 3.84
+  },
+  {
+    "text": "for each parameter which takes care of",
+    "start": 736.14,
+    "duration": 3.84
+  },
+  {
+    "text": "the frequency of the features let's say",
+    "start": 738.6,
+    "duration": 2.58
+  },
+  {
+    "text": "if there are certain features which are",
+    "start": 739.98,
+    "duration": 3.419
+  },
+  {
+    "text": "very sparse then you just jack up the",
+    "start": 741.18,
+    "duration": 4.02
+  },
+  {
+    "text": "learning rate for them right and of",
+    "start": 743.399,
+    "duration": 3.301
+  },
+  {
+    "text": "course this all has to be done in a",
+    "start": 745.2,
+    "duration": 3.36
+  },
+  {
+    "text": "non-neuristic non-hacky way right you",
+    "start": 746.7,
+    "duration": 4.079
+  },
+  {
+    "text": "just have some equations which",
+    "start": 748.56,
+    "duration": 4.92
+  },
+  {
+    "text": "automatically take care of okay if this",
+    "start": 750.779,
+    "duration": 4.68
+  },
+  {
+    "text": "was sparse then the learning rate is",
+    "start": 753.48,
+    "duration": 3.78
+  },
+  {
+    "text": "adjusted to high value if this was dense",
+    "start": 755.459,
+    "duration": 3.361
+  },
+  {
+    "text": "then the learning rate is adjusted to a",
+    "start": 757.26,
+    "duration": 3.06
+  },
+  {
+    "text": "small value right you cannot you know",
+    "start": 758.82,
+    "duration": 2.639
+  },
+  {
+    "text": "there are millions of features so you",
+    "start": 760.32,
+    "duration": 2.819
+  },
+  {
+    "text": "cannot have if else kind of conditions",
+    "start": 761.459,
+    "duration": 2.88
+  },
+  {
+    "text": "you just have to have some equations",
+    "start": 763.139,
+    "duration": 3.241
+  },
+  {
+    "text": "which inherently take care of this right",
+    "start": 764.339,
+    "duration": 3.481
+  },
+  {
+    "text": "so now you have to convert this",
+    "start": 766.38,
+    "duration": 4.079
+  },
+  {
+    "text": "intuition to a mathematical equation or",
+    "start": 767.82,
+    "duration": 5.959
+  },
+  {
+    "text": "to an update rule right",
+    "start": 770.459,
+    "duration": 3.32
+  }
+]

@@ -1,0 +1,3127 @@
+[
+  {
+    "text": "[Music]",
+    "start": 0.33,
+    "duration": 10.029
+  },
+  {
+    "text": "so let's begin the next module which is",
+    "start": 18.88,
+    "duration": 4.559
+  },
+  {
+    "text": "on uh perceptrons right and uh just",
+    "start": 20.56,
+    "duration": 5.2
+  },
+  {
+    "text": "again talk about the story uh so far and",
+    "start": 23.439,
+    "duration": 4.321
+  },
+  {
+    "text": "the story ahead right so",
+    "start": 25.76,
+    "duration": 4.08
+  },
+  {
+    "text": "so the one question which i asked is",
+    "start": 27.76,
+    "duration": 4.639
+  },
+  {
+    "text": "like what about non-boolean inputs right",
+    "start": 29.84,
+    "duration": 4.16
+  },
+  {
+    "text": "so we have so far been focusing on the",
+    "start": 32.399,
+    "duration": 3.601
+  },
+  {
+    "text": "case where the inputs are only boolean",
+    "start": 34.0,
+    "duration": 3.28
+  },
+  {
+    "text": "so we'll have to see what happens if the",
+    "start": 36.0,
+    "duration": 3.2
+  },
+  {
+    "text": "boolean inputs are not boolean",
+    "start": 37.28,
+    "duration": 4.08
+  },
+  {
+    "text": "then the second is in this toy example",
+    "start": 39.2,
+    "duration": 3.28
+  },
+  {
+    "text": "is the boolean functions that we are",
+    "start": 41.36,
+    "duration": 2.64
+  },
+  {
+    "text": "looking at so far we were just hand",
+    "start": 42.48,
+    "duration": 3.36
+  },
+  {
+    "text": "coding the threshold i gave you the",
+    "start": 44.0,
+    "duration": 3.44
+  },
+  {
+    "text": "example of the and function then asked",
+    "start": 45.84,
+    "duration": 3.6
+  },
+  {
+    "text": "you what should the threshold be and you",
+    "start": 47.44,
+    "duration": 4.16
+  },
+  {
+    "text": "are able to quickly calculate uh in your",
+    "start": 49.44,
+    "duration": 3.439
+  },
+  {
+    "text": "head of course you're doing some",
+    "start": 51.6,
+    "duration": 3.04
+  },
+  {
+    "text": "calculations in that case it's not hand",
+    "start": 52.879,
+    "duration": 3.2
+  },
+  {
+    "text": "coded but it's just like you worked it",
+    "start": 54.64,
+    "duration": 3.919
+  },
+  {
+    "text": "out by hand and you arrive at a solution",
+    "start": 56.079,
+    "duration": 4.881
+  },
+  {
+    "text": "but do we always have to do that is it",
+    "start": 58.559,
+    "duration": 4.0
+  },
+  {
+    "text": "like won't it become cumbersome in",
+    "start": 60.96,
+    "duration": 3.12
+  },
+  {
+    "text": "complex cases",
+    "start": 62.559,
+    "duration": 3.6
+  },
+  {
+    "text": "then the other",
+    "start": 64.08,
+    "duration": 3.44
+  },
+  {
+    "text": "more",
+    "start": 66.159,
+    "duration": 2.64
+  },
+  {
+    "text": "i wouldn't say more important but the",
+    "start": 67.52,
+    "duration": 3.599
+  },
+  {
+    "text": "other slightly different point here",
+    "start": 68.799,
+    "duration": 4.401
+  },
+  {
+    "text": "is that when we are looking at the uh",
+    "start": 71.119,
+    "duration": 4.401
+  },
+  {
+    "text": "mccaulick pits neuron right all the",
+    "start": 73.2,
+    "duration": 3.52
+  },
+  {
+    "text": "inputs were",
+    "start": 75.52,
+    "duration": 3.84
+  },
+  {
+    "text": "equal right and that is often not the",
+    "start": 76.72,
+    "duration": 4.399
+  },
+  {
+    "text": "case right when we make decisions if you",
+    "start": 79.36,
+    "duration": 3.52
+  },
+  {
+    "text": "are making a decision based on 10",
+    "start": 81.119,
+    "duration": 3.121
+  },
+  {
+    "text": "different inputs",
+    "start": 82.88,
+    "duration": 3.04
+  },
+  {
+    "text": "some of them would be more important",
+    "start": 84.24,
+    "duration": 3.28
+  },
+  {
+    "text": "than the others so there's always this",
+    "start": 85.92,
+    "duration": 2.64
+  },
+  {
+    "text": "one",
+    "start": 87.52,
+    "duration": 3.12
+  },
+  {
+    "text": "like a few important things based on",
+    "start": 88.56,
+    "duration": 3.28
+  },
+  {
+    "text": "which you might",
+    "start": 90.64,
+    "duration": 2.799
+  },
+  {
+    "text": "which might sway your decision one way",
+    "start": 91.84,
+    "duration": 3.52
+  },
+  {
+    "text": "or the other while there might be many",
+    "start": 93.439,
+    "duration": 3.281
+  },
+  {
+    "text": "factors on which you are basing your",
+    "start": 95.36,
+    "duration": 2.799
+  },
+  {
+    "text": "decision and there is no notion of",
+    "start": 96.72,
+    "duration": 3.68
+  },
+  {
+    "text": "importance all the things like is it",
+    "start": 98.159,
+    "duration": 4.721
+  },
+  {
+    "text": "training am i in the mood is the movie",
+    "start": 100.4,
+    "duration": 4.399
+  },
+  {
+    "text": "is good all of these inputs were some of",
+    "start": 102.88,
+    "duration": 4.64
+  },
+  {
+    "text": "given equal weights right and if you go",
+    "start": 104.799,
+    "duration": 5.121
+  },
+  {
+    "text": "back to the",
+    "start": 107.52,
+    "duration": 2.4
+  },
+  {
+    "text": "biological neuron again there was this",
+    "start": 110.079,
+    "duration": 3.201
+  },
+  {
+    "text": "connection there and that connection is",
+    "start": 111.6,
+    "duration": 3.68
+  },
+  {
+    "text": "actually the weight or the strength of",
+    "start": 113.28,
+    "duration": 3.68
+  },
+  {
+    "text": "the connection between two neurons so",
+    "start": 115.28,
+    "duration": 3.199
+  },
+  {
+    "text": "there also it was",
+    "start": 116.96,
+    "duration": 3.839
+  },
+  {
+    "text": "of all the neurons giving an input to",
+    "start": 118.479,
+    "duration": 4.24
+  },
+  {
+    "text": "one neuron maybe some had more",
+    "start": 120.799,
+    "duration": 3.6
+  },
+  {
+    "text": "importance than the others right so that",
+    "start": 122.719,
+    "duration": 3.601
+  },
+  {
+    "text": "notion of weight or importance is not",
+    "start": 124.399,
+    "duration": 4.64
+  },
+  {
+    "text": "being captured and the last is i ended",
+    "start": 126.32,
+    "duration": 4.48
+  },
+  {
+    "text": "the previous video saying that could",
+    "start": 129.039,
+    "duration": 4.001
+  },
+  {
+    "text": "there be not non-linearly separable",
+    "start": 130.8,
+    "duration": 3.84
+  },
+  {
+    "text": "boolean functions and we'll try to",
+    "start": 133.04,
+    "duration": 3.36
+  },
+  {
+    "text": "address that what what are these",
+    "start": 134.64,
+    "duration": 3.28
+  },
+  {
+    "text": "functions and",
+    "start": 136.4,
+    "duration": 2.72
+  },
+  {
+    "text": "are",
+    "start": 137.92,
+    "duration": 2.72
+  },
+  {
+    "text": "what do you do if they're not linearly",
+    "start": 139.12,
+    "duration": 3.119
+  },
+  {
+    "text": "separable right so not maybe in this",
+    "start": 140.64,
+    "duration": 3.36
+  },
+  {
+    "text": "particular module or video but these are",
+    "start": 142.239,
+    "duration": 3.921
+  },
+  {
+    "text": "the questions that we'll try to answer",
+    "start": 144.0,
+    "duration": 5.599
+  },
+  {
+    "text": "over the course of this lecture",
+    "start": 146.16,
+    "duration": 3.439
+  },
+  {
+    "text": "so so you had this",
+    "start": 150.72,
+    "duration": 4.4
+  },
+  {
+    "text": "mp neuron or the mecolic bits neuron and",
+    "start": 153.04,
+    "duration": 3.919
+  },
+  {
+    "text": "then came this",
+    "start": 155.12,
+    "duration": 4.399
+  },
+  {
+    "text": "perceptron right which was",
+    "start": 156.959,
+    "duration": 4.481
+  },
+  {
+    "text": "proposed by frank rosenblatt again we",
+    "start": 159.519,
+    "duration": 4.961
+  },
+  {
+    "text": "had seen this in the history around 1958",
+    "start": 161.44,
+    "duration": 4.48
+  },
+  {
+    "text": "and the main differences were the",
+    "start": 164.48,
+    "duration": 3.039
+  },
+  {
+    "text": "falling and they are some of them are",
+    "start": 165.92,
+    "duration": 3.92
+  },
+  {
+    "text": "already obvious in the diagram itself",
+    "start": 167.519,
+    "duration": 3.44
+  },
+  {
+    "text": "that",
+    "start": 169.84,
+    "duration": 3.52
+  },
+  {
+    "text": "earlier the neurons the inputs are only",
+    "start": 170.959,
+    "duration": 5.201
+  },
+  {
+    "text": "boolean but now",
+    "start": 173.36,
+    "duration": 5.04
+  },
+  {
+    "text": "the inputs could also be real that was",
+    "start": 176.16,
+    "duration": 3.68
+  },
+  {
+    "text": "one difference",
+    "start": 178.4,
+    "duration": 3.119
+  },
+  {
+    "text": "the other was that now you have these",
+    "start": 179.84,
+    "duration": 2.96
+  },
+  {
+    "text": "weights right so these weights could",
+    "start": 181.519,
+    "duration": 2.961
+  },
+  {
+    "text": "tell you which inputs are more important",
+    "start": 182.8,
+    "duration": 3.12
+  },
+  {
+    "text": "than the other",
+    "start": 184.48,
+    "duration": 3.36
+  },
+  {
+    "text": "and",
+    "start": 185.92,
+    "duration": 4.239
+  },
+  {
+    "text": "there's also now that you have these",
+    "start": 187.84,
+    "duration": 4.72
+  },
+  {
+    "text": "weights there's also a mechanism or a",
+    "start": 190.159,
+    "duration": 4.321
+  },
+  {
+    "text": "learning algorithm to learn these",
+    "start": 192.56,
+    "duration": 3.84
+  },
+  {
+    "text": "weights right so you might",
+    "start": 194.48,
+    "duration": 3.679
+  },
+  {
+    "text": "vaguely have an idea of which inputs are",
+    "start": 196.4,
+    "duration": 3.52
+  },
+  {
+    "text": "important which are not but typically",
+    "start": 198.159,
+    "duration": 3.681
+  },
+  {
+    "text": "you would want to learn this from data",
+    "start": 199.92,
+    "duration": 3.92
+  },
+  {
+    "text": "that in the past maybe while making",
+    "start": 201.84,
+    "duration": 4.16
+  },
+  {
+    "text": "decisions i have given more importance",
+    "start": 203.84,
+    "duration": 3.759
+  },
+  {
+    "text": "to who is the actor in the movie as",
+    "start": 206.0,
+    "duration": 3.04
+  },
+  {
+    "text": "opposed to who is the director in the",
+    "start": 207.599,
+    "duration": 3.121
+  },
+  {
+    "text": "movie right so maybe these things you",
+    "start": 209.04,
+    "duration": 4.08
+  },
+  {
+    "text": "want to learn from data so these weights",
+    "start": 210.72,
+    "duration": 4.239
+  },
+  {
+    "text": "are now learnable right so you have when",
+    "start": 213.12,
+    "duration": 2.88
+  },
+  {
+    "text": "we're going to look at a learning",
+    "start": 214.959,
+    "duration": 3.28
+  },
+  {
+    "text": "algorithm for learning these obvious so",
+    "start": 216.0,
+    "duration": 3.92
+  },
+  {
+    "text": "like three main differences now you have",
+    "start": 218.239,
+    "duration": 4.161
+  },
+  {
+    "text": "weights the inputs are no longer boolean",
+    "start": 219.92,
+    "duration": 3.92
+  },
+  {
+    "text": "you could have real input so that was",
+    "start": 222.4,
+    "duration": 3.36
+  },
+  {
+    "text": "one action item that we had and we have",
+    "start": 223.84,
+    "duration": 4.479
+  },
+  {
+    "text": "taken care of that in this model",
+    "start": 225.76,
+    "duration": 4.24
+  },
+  {
+    "text": "and the third is a learning algorithm so",
+    "start": 228.319,
+    "duration": 3.92
+  },
+  {
+    "text": "far we were talking about hard coding or",
+    "start": 230.0,
+    "duration": 4.319
+  },
+  {
+    "text": "like like mentally calculating what the",
+    "start": 232.239,
+    "duration": 4.321
+  },
+  {
+    "text": "threshold is but now we look at a good",
+    "start": 234.319,
+    "duration": 3.84
+  },
+  {
+    "text": "learning algorithm for learning the",
+    "start": 236.56,
+    "duration": 2.8
+  },
+  {
+    "text": "weights right",
+    "start": 238.159,
+    "duration": 2.961
+  },
+  {
+    "text": "so what we're going to",
+    "start": 239.36,
+    "duration": 3.92
+  },
+  {
+    "text": "learn in this course is",
+    "start": 241.12,
+    "duration": 4.16
+  },
+  {
+    "text": "not the original perceptron or the",
+    "start": 243.28,
+    "duration": 4.4
+  },
+  {
+    "text": "classical perceptron model but more the",
+    "start": 245.28,
+    "duration": 4.959
+  },
+  {
+    "text": "perceptron model which was later refined",
+    "start": 247.68,
+    "duration": 4.559
+  },
+  {
+    "text": "and analyzed by minsky and pappered",
+    "start": 250.239,
+    "duration": 3.121
+  },
+  {
+    "text": "again we had referred to this in the",
+    "start": 252.239,
+    "duration": 4.0
+  },
+  {
+    "text": "history in 1969 so that's the model that",
+    "start": 253.36,
+    "duration": 5.04
+  },
+  {
+    "text": "we're going to uh be talking about is",
+    "start": 256.239,
+    "duration": 4.24
+  },
+  {
+    "text": "just to make it clear that what we are",
+    "start": 258.4,
+    "duration": 4.16
+  },
+  {
+    "text": "talking about okay so let's go ahead",
+    "start": 260.479,
+    "duration": 4.401
+  },
+  {
+    "text": "right so what does the uh perceptron",
+    "start": 262.56,
+    "duration": 4.72
+  },
+  {
+    "text": "model look like",
+    "start": 264.88,
+    "duration": 4.72
+  },
+  {
+    "text": "so it's it's very similar right in form",
+    "start": 267.28,
+    "duration": 4.08
+  },
+  {
+    "text": "at least so you have",
+    "start": 269.6,
+    "duration": 4.4
+  },
+  {
+    "text": "y is equal to one if",
+    "start": 271.36,
+    "duration": 4.559
+  },
+  {
+    "text": "the weighted sum of the inputs is going",
+    "start": 274.0,
+    "duration": 3.36
+  },
+  {
+    "text": "to be greater than equal to threshold",
+    "start": 275.919,
+    "duration": 4.081
+  },
+  {
+    "text": "right so earlier oops",
+    "start": 277.36,
+    "duration": 3.92
+  },
+  {
+    "text": "in the uh",
+    "start": 280.0,
+    "duration": 3.199
+  },
+  {
+    "text": "mcculloch pits neuron or the mp neuron",
+    "start": 281.28,
+    "duration": 4.24
+  },
+  {
+    "text": "there was no notion of",
+    "start": 283.199,
+    "duration": 4.641
+  },
+  {
+    "text": "weights so it was just that if the sum",
+    "start": 285.52,
+    "duration": 4.16
+  },
+  {
+    "text": "of the inputs is greater than equal to",
+    "start": 287.84,
+    "duration": 4.48
+  },
+  {
+    "text": "threshold but now i have if the weighted",
+    "start": 289.68,
+    "duration": 4.16
+  },
+  {
+    "text": "sum of the inputs is greater than equal",
+    "start": 292.32,
+    "duration": 2.879
+  },
+  {
+    "text": "to threshold and that's where i get to",
+    "start": 293.84,
+    "duration": 3.04
+  },
+  {
+    "text": "assign weights to",
+    "start": 295.199,
+    "duration": 4.641
+  },
+  {
+    "text": "input so if the input value is small",
+    "start": 296.88,
+    "duration": 5.12
+  },
+  {
+    "text": "but the weight to the input is large",
+    "start": 299.84,
+    "duration": 3.68
+  },
+  {
+    "text": "then still the contribution would be",
+    "start": 302.0,
+    "duration": 2.72
+  },
+  {
+    "text": "higher right",
+    "start": 303.52,
+    "duration": 3.36
+  },
+  {
+    "text": "and notice that this index is over 1 to",
+    "start": 304.72,
+    "duration": 4.4
+  },
+  {
+    "text": "n because there are n inputs so from the",
+    "start": 306.88,
+    "duration": 4.159
+  },
+  {
+    "text": "first input to the last input right so 1",
+    "start": 309.12,
+    "duration": 3.919
+  },
+  {
+    "text": "to n that's where the indices are coming",
+    "start": 311.039,
+    "duration": 2.88
+  },
+  {
+    "text": "from",
+    "start": 313.039,
+    "duration": 2.88
+  },
+  {
+    "text": "and it's going to be 0 if this weighted",
+    "start": 313.919,
+    "duration": 3.601
+  },
+  {
+    "text": "sum is less than threshold right so",
+    "start": 315.919,
+    "duration": 3.681
+  },
+  {
+    "text": "again a very similar form to the mp",
+    "start": 317.52,
+    "duration": 3.04
+  },
+  {
+    "text": "neuron",
+    "start": 319.6,
+    "duration": 2.319
+  },
+  {
+    "text": "now on the rest of the slide i'm just",
+    "start": 320.56,
+    "duration": 4.079
+  },
+  {
+    "text": "going to do some rewriting to arrive at",
+    "start": 321.919,
+    "duration": 5.12
+  },
+  {
+    "text": "a more neater form right i don't want to",
+    "start": 324.639,
+    "duration": 4.161
+  },
+  {
+    "text": "keep writing this",
+    "start": 327.039,
+    "duration": 4.401
+  },
+  {
+    "text": "let's see where i reach there so if i",
+    "start": 328.8,
+    "duration": 5.119
+  },
+  {
+    "text": "rewrite the above i'm just going to take",
+    "start": 331.44,
+    "duration": 5.599
+  },
+  {
+    "text": "theta on one side so this minus theta",
+    "start": 333.919,
+    "duration": 5.521
+  },
+  {
+    "text": "greater than equal to zero nothing wrong",
+    "start": 337.039,
+    "duration": 4.801
+  },
+  {
+    "text": "with this and minus theta less than zero",
+    "start": 339.44,
+    "duration": 4.16
+  },
+  {
+    "text": "right so i have just taken theta on one",
+    "start": 341.84,
+    "duration": 3.199
+  },
+  {
+    "text": "side",
+    "start": 343.6,
+    "duration": 2.48
+  },
+  {
+    "text": "now",
+    "start": 345.039,
+    "duration": 3.521
+  },
+  {
+    "text": "uh something interesting will happen so",
+    "start": 346.08,
+    "duration": 4.8
+  },
+  {
+    "text": "now the theta has disappeared",
+    "start": 348.56,
+    "duration": 3.76
+  },
+  {
+    "text": "looks like the theta has disappeared but",
+    "start": 350.88,
+    "duration": 2.96
+  },
+  {
+    "text": "actually it hasn't",
+    "start": 352.32,
+    "duration": 4.4
+  },
+  {
+    "text": "because i have added this i equal to 0",
+    "start": 353.84,
+    "duration": 5.84
+  },
+  {
+    "text": "right so what i am saying now is that my",
+    "start": 356.72,
+    "duration": 4.72
+  },
+  {
+    "text": "sum earlier was",
+    "start": 359.68,
+    "duration": 5.92
+  },
+  {
+    "text": "w 1 x 1 plus w 2 x 2",
+    "start": 361.44,
+    "duration": 7.28
+  },
+  {
+    "text": "plus blah blah blah up to minus theta",
+    "start": 365.6,
+    "duration": 4.719
+  },
+  {
+    "text": "greater than equal to 0 right that's",
+    "start": 368.72,
+    "duration": 3.68
+  },
+  {
+    "text": "what this equation was saying",
+    "start": 370.319,
+    "duration": 3.361
+  },
+  {
+    "text": "now i am",
+    "start": 372.4,
+    "duration": 3.519
+  },
+  {
+    "text": "starting from w naught right because",
+    "start": 373.68,
+    "duration": 5.04
+  },
+  {
+    "text": "it's i equal to 0 so i have w naught x",
+    "start": 375.919,
+    "duration": 3.84
+  },
+  {
+    "text": "naught",
+    "start": 378.72,
+    "duration": 3.44
+  },
+  {
+    "text": "plus all of this and then the theta is",
+    "start": 379.759,
+    "duration": 4.081
+  },
+  {
+    "text": "disappeared there is no theta in this",
+    "start": 382.16,
+    "duration": 3.759
+  },
+  {
+    "text": "equation so what have i done actually",
+    "start": 383.84,
+    "duration": 3.76
+  },
+  {
+    "text": "all i am saying is that i am going to",
+    "start": 385.919,
+    "duration": 3.521
+  },
+  {
+    "text": "have an imaginary input x naught which",
+    "start": 387.6,
+    "duration": 3.36
+  },
+  {
+    "text": "is equal to 1",
+    "start": 389.44,
+    "duration": 3.68
+  },
+  {
+    "text": "and then another weight w naught which",
+    "start": 390.96,
+    "duration": 4.56
+  },
+  {
+    "text": "is actually equal to minus theta so if i",
+    "start": 393.12,
+    "duration": 4.4
+  },
+  {
+    "text": "substitute these values then these two",
+    "start": 395.52,
+    "duration": 3.84
+  },
+  {
+    "text": "inequalities become the same right if i",
+    "start": 397.52,
+    "duration": 4.0
+  },
+  {
+    "text": "make w naught as minus theta and x",
+    "start": 399.36,
+    "duration": 4.64
+  },
+  {
+    "text": "naught as 1 and i just get minus theta",
+    "start": 401.52,
+    "duration": 4.88
+  },
+  {
+    "text": "as the first term of this",
+    "start": 404.0,
+    "duration": 3.84
+  },
+  {
+    "text": "sum of terms",
+    "start": 406.4,
+    "duration": 4.239
+  },
+  {
+    "text": "and then uh that these two inequalities",
+    "start": 407.84,
+    "duration": 5.759
+  },
+  {
+    "text": "that i have here right so as i said this",
+    "start": 410.639,
+    "duration": 4.321
+  },
+  {
+    "text": "was same and then greater than equal to",
+    "start": 413.599,
+    "duration": 2.801
+  },
+  {
+    "text": "zero so these two inequalities become",
+    "start": 414.96,
+    "duration": 2.959
+  },
+  {
+    "text": "zero so the simple",
+    "start": 416.4,
+    "duration": 3.919
+  },
+  {
+    "text": "change which i have made quite",
+    "start": 417.919,
+    "duration": 4.801
+  },
+  {
+    "text": "obvious",
+    "start": 420.319,
+    "duration": 3.361
+  },
+  {
+    "text": "and",
+    "start": 422.72,
+    "duration": 2.56
+  },
+  {
+    "text": "what it means is that i have this extra",
+    "start": 423.68,
+    "duration": 3.6
+  },
+  {
+    "text": "input which is x 0 equal to 1 and w",
+    "start": 425.28,
+    "duration": 4.16
+  },
+  {
+    "text": "naught is actually minus theta and so",
+    "start": 427.28,
+    "duration": 4.4
+  },
+  {
+    "text": "now the inequality falls in place so now",
+    "start": 429.44,
+    "duration": 4.479
+  },
+  {
+    "text": "i my summation is from 0 to n",
+    "start": 431.68,
+    "duration": 3.76
+  },
+  {
+    "text": "with the understanding that x naught is",
+    "start": 433.919,
+    "duration": 3.84
+  },
+  {
+    "text": "1 and w naught is minus theta which is",
+    "start": 435.44,
+    "duration": 4.4
+  },
+  {
+    "text": "the same as saying summation 1 to n",
+    "start": 437.759,
+    "duration": 4.401
+  },
+  {
+    "text": "minus theta that's what my original uh",
+    "start": 439.84,
+    "duration": 4.799
+  },
+  {
+    "text": "inequality is where i started from so",
+    "start": 442.16,
+    "duration": 4.319
+  },
+  {
+    "text": "this just makes it neater in some sense",
+    "start": 444.639,
+    "duration": 3.761
+  },
+  {
+    "text": "i have no theta now now theta has become",
+    "start": 446.479,
+    "duration": 4.401
+  },
+  {
+    "text": "w naught or minus w",
+    "start": 448.4,
+    "duration": 4.639
+  },
+  {
+    "text": "okay so we'll now try to answer the",
+    "start": 450.88,
+    "duration": 4.159
+  },
+  {
+    "text": "following questions right why are we",
+    "start": 453.039,
+    "duration": 3.361
+  },
+  {
+    "text": "trying to implement boolean functions",
+    "start": 455.039,
+    "duration": 2.961
+  },
+  {
+    "text": "right so why am i talking about boolean",
+    "start": 456.4,
+    "duration": 3.68
+  },
+  {
+    "text": "functions so much i said that we can",
+    "start": 458.0,
+    "duration": 3.84
+  },
+  {
+    "text": "implement real functions",
+    "start": 460.08,
+    "duration": 3.44
+  },
+  {
+    "text": "but still for the last part of this",
+    "start": 461.84,
+    "duration": 3.199
+  },
+  {
+    "text": "lecture i'm going to focus on boolean",
+    "start": 463.52,
+    "duration": 2.959
+  },
+  {
+    "text": "functions i'll tell you why i'm focusing",
+    "start": 465.039,
+    "duration": 3.361
+  },
+  {
+    "text": "on boolean functions the second is why",
+    "start": 466.479,
+    "duration": 4.641
+  },
+  {
+    "text": "do we need weights and why is this w",
+    "start": 468.4,
+    "duration": 4.72
+  },
+  {
+    "text": "naught called the bias right so these",
+    "start": 471.12,
+    "duration": 4.079
+  },
+  {
+    "text": "are some very",
+    "start": 473.12,
+    "duration": 3.84
+  },
+  {
+    "text": "i would say heterogeneous set of",
+    "start": 475.199,
+    "duration": 3.201
+  },
+  {
+    "text": "questions that i'm going to try to",
+    "start": 476.96,
+    "duration": 4.239
+  },
+  {
+    "text": "answer right",
+    "start": 478.4,
+    "duration": 4.96
+  },
+  {
+    "text": "so first why why are we talking about",
+    "start": 481.199,
+    "duration": 3.601
+  },
+  {
+    "text": "boolean functions so let's take the",
+    "start": 483.36,
+    "duration": 3.04
+  },
+  {
+    "text": "simple thing of task of predicting",
+    "start": 484.8,
+    "duration": 3.92
+  },
+  {
+    "text": "whether we would like to uh go for a",
+    "start": 486.4,
+    "duration": 4.16
+  },
+  {
+    "text": "movie or not or whether we like a movie",
+    "start": 488.72,
+    "duration": 3.68
+  },
+  {
+    "text": "or not right and this decision",
+    "start": 490.56,
+    "duration": 3.52
+  },
+  {
+    "text": "might depend on several factors like who",
+    "start": 492.4,
+    "duration": 3.199
+  },
+  {
+    "text": "is the actor of the movie who is the",
+    "start": 494.08,
+    "duration": 3.2
+  },
+  {
+    "text": "director of the movie what's the genre",
+    "start": 495.599,
+    "duration": 3.44
+  },
+  {
+    "text": "of the movie and all of this",
+    "start": 497.28,
+    "duration": 4.4
+  },
+  {
+    "text": "you could convert to bullion inputs",
+    "start": 499.039,
+    "duration": 4.801
+  },
+  {
+    "text": "right is actor matt damon his actor",
+    "start": 501.68,
+    "duration": 4.4
+  },
+  {
+    "text": "christian bale is john a thriller it is",
+    "start": 503.84,
+    "duration": 4.479
+  },
+  {
+    "text": "johnner comedy is director nolan and so",
+    "start": 506.08,
+    "duration": 3.519
+  },
+  {
+    "text": "on right so you could just convert it",
+    "start": 508.319,
+    "duration": 2.081
+  },
+  {
+    "text": "into",
+    "start": 509.599,
+    "duration": 3.521
+  },
+  {
+    "text": "these series of boolean inputs right so",
+    "start": 510.4,
+    "duration": 4.639
+  },
+  {
+    "text": "many real world problems you could just",
+    "start": 513.12,
+    "duration": 4.159
+  },
+  {
+    "text": "try to convert them to problems where",
+    "start": 515.039,
+    "duration": 4.401
+  },
+  {
+    "text": "the inputs are boolean and the output is",
+    "start": 517.279,
+    "duration": 5.601
+  },
+  {
+    "text": "of course bullying right whether",
+    "start": 519.44,
+    "duration": 3.44
+  },
+  {
+    "text": "the whether you are going to watch the",
+    "start": 523.039,
+    "duration": 3.041
+  },
+  {
+    "text": "movie or whether you want to watch the",
+    "start": 524.56,
+    "duration": 2.64
+  },
+  {
+    "text": "movie whether you're going to like the",
+    "start": 526.08,
+    "duration": 2.8
+  },
+  {
+    "text": "movie and so on right",
+    "start": 527.2,
+    "duration": 4.079
+  },
+  {
+    "text": "and now based on the past viewing",
+    "start": 528.88,
+    "duration": 4.72
+  },
+  {
+    "text": "experience now that this model has",
+    "start": 531.279,
+    "duration": 3.68
+  },
+  {
+    "text": "weights",
+    "start": 533.6,
+    "duration": 3.359
+  },
+  {
+    "text": "we could learn the waves from some data",
+    "start": 534.959,
+    "duration": 3.521
+  },
+  {
+    "text": "how we are going to learn that is not",
+    "start": 536.959,
+    "duration": 3.281
+  },
+  {
+    "text": "clear yet right and it's going to take a",
+    "start": 538.48,
+    "duration": 4.08
+  },
+  {
+    "text": "series of lectures to understand that in",
+    "start": 540.24,
+    "duration": 5.039
+  },
+  {
+    "text": "a much broader context we will do it in",
+    "start": 542.56,
+    "duration": 5.12
+  },
+  {
+    "text": "the context of perceptron soon but the",
+    "start": 545.279,
+    "duration": 4.081
+  },
+  {
+    "text": "broader context would get clear over a",
+    "start": 547.68,
+    "duration": 3.68
+  },
+  {
+    "text": "series of lectures right",
+    "start": 549.36,
+    "duration": 3.76
+  },
+  {
+    "text": "so",
+    "start": 551.36,
+    "duration": 3.039
+  },
+  {
+    "text": "this is something that we would like to",
+    "start": 553.12,
+    "duration": 2.96
+  },
+  {
+    "text": "learn and now this model has these",
+    "start": 554.399,
+    "duration": 3.12
+  },
+  {
+    "text": "placeholders for weights which could",
+    "start": 556.08,
+    "duration": 3.759
+  },
+  {
+    "text": "potentially be learned right",
+    "start": 557.519,
+    "duration": 5.32
+  },
+  {
+    "text": "and",
+    "start": 559.839,
+    "duration": 3.0
+  },
+  {
+    "text": "these weights could be such that",
+    "start": 562.959,
+    "duration": 3.681
+  },
+  {
+    "text": "what do we want right we want the",
+    "start": 565.2,
+    "duration": 3.04
+  },
+  {
+    "text": "weighted sum to be greater than some",
+    "start": 566.64,
+    "duration": 3.52
+  },
+  {
+    "text": "threshold right or the weighted sum",
+    "start": 568.24,
+    "duration": 3.36
+  },
+  {
+    "text": "including the threshold to be greater",
+    "start": 570.16,
+    "duration": 3.44
+  },
+  {
+    "text": "than equal to 0 that's what we want",
+    "start": 571.6,
+    "duration": 3.679
+  },
+  {
+    "text": "right so now you could imagine that",
+    "start": 573.6,
+    "duration": 4.16
+  },
+  {
+    "text": "there's an input signal which is weak",
+    "start": 575.279,
+    "duration": 4.481
+  },
+  {
+    "text": "but the weight for that input signal is",
+    "start": 577.76,
+    "duration": 4.96
+  },
+  {
+    "text": "so high that collectively it crosses the",
+    "start": 579.76,
+    "duration": 5.44
+  },
+  {
+    "text": "border right and so it's possible that",
+    "start": 582.72,
+    "duration": 4.64
+  },
+  {
+    "text": "you only have one input which is on",
+    "start": 585.2,
+    "duration": 5.36
+  },
+  {
+    "text": "right which is the director is nolan",
+    "start": 587.36,
+    "duration": 4.32
+  },
+  {
+    "text": "and",
+    "start": 590.56,
+    "duration": 2.56
+  },
+  {
+    "text": "all the other inputs are off but the",
+    "start": 591.68,
+    "duration": 3.2
+  },
+  {
+    "text": "weight of this input might be very high",
+    "start": 593.12,
+    "duration": 3.12
+  },
+  {
+    "text": "based on your data because you have",
+    "start": 594.88,
+    "duration": 3.2
+  },
+  {
+    "text": "always liked movies directed by",
+    "start": 596.24,
+    "duration": 4.08
+  },
+  {
+    "text": "christopher nolan so you would have a",
+    "start": 598.08,
+    "duration": 4.08
+  },
+  {
+    "text": "very high weight for this and because",
+    "start": 600.32,
+    "duration": 3.199
+  },
+  {
+    "text": "the weight is high even though there's",
+    "start": 602.16,
+    "duration": 3.6
+  },
+  {
+    "text": "only one input which is on the weighted",
+    "start": 603.519,
+    "duration": 3.921
+  },
+  {
+    "text": "sum might still cross the threshold",
+    "start": 605.76,
+    "duration": 3.04
+  },
+  {
+    "text": "right and that's that's what the weights",
+    "start": 607.44,
+    "duration": 2.959
+  },
+  {
+    "text": "help you and that's the notion of",
+    "start": 608.8,
+    "duration": 3.68
+  },
+  {
+    "text": "importance encoded in an inequality",
+    "start": 610.399,
+    "duration": 3.68
+  },
+  {
+    "text": "right so that's where the weights are",
+    "start": 612.48,
+    "duration": 4.56
+  },
+  {
+    "text": "helping right now coming to the bias why",
+    "start": 614.079,
+    "duration": 6.0
+  },
+  {
+    "text": "is w naught called the uh",
+    "start": 617.04,
+    "duration": 5.84
+  },
+  {
+    "text": "why is w naught called the bias so w",
+    "start": 620.079,
+    "duration": 4.88
+  },
+  {
+    "text": "naught actually refers to the prior or",
+    "start": 622.88,
+    "duration": 4.0
+  },
+  {
+    "text": "the prejudice so what's the role that it",
+    "start": 624.959,
+    "duration": 4.081
+  },
+  {
+    "text": "is playing right it is one of the terms",
+    "start": 626.88,
+    "duration": 3.6
+  },
+  {
+    "text": "in the summation",
+    "start": 629.04,
+    "duration": 4.08
+  },
+  {
+    "text": "and it's like the blockage right so if w",
+    "start": 630.48,
+    "duration": 5.039
+  },
+  {
+    "text": "naught or or if",
+    "start": 633.12,
+    "duration": 5.04
+  },
+  {
+    "text": "theta is a very high value right so then",
+    "start": 635.519,
+    "duration": 4.88
+  },
+  {
+    "text": "your sum has started off with a very low",
+    "start": 638.16,
+    "duration": 4.08
+  },
+  {
+    "text": "value it's a high negative value that",
+    "start": 640.399,
+    "duration": 4.321
+  },
+  {
+    "text": "you have started off and now to cross",
+    "start": 642.24,
+    "duration": 4.96
+  },
+  {
+    "text": "this so that your total weighted sum is",
+    "start": 644.72,
+    "duration": 4.559
+  },
+  {
+    "text": "greater than zero all of these inputs",
+    "start": 647.2,
+    "duration": 3.6
+  },
+  {
+    "text": "will have to contribute a lot right that",
+    "start": 649.279,
+    "duration": 3.201
+  },
+  {
+    "text": "means many inputs may have to be on and",
+    "start": 650.8,
+    "duration": 3.68
+  },
+  {
+    "text": "many high weighted inputs have to be on",
+    "start": 652.48,
+    "duration": 4.08
+  },
+  {
+    "text": "right so this theta is telling you that",
+    "start": 654.48,
+    "duration": 3.919
+  },
+  {
+    "text": "what is your inertia for crossing the",
+    "start": 656.56,
+    "duration": 5.839
+  },
+  {
+    "text": "border right so if you are a very niche",
+    "start": 658.399,
+    "duration": 5.281
+  },
+  {
+    "text": "moviegoer",
+    "start": 662.399,
+    "duration": 3.68
+  },
+  {
+    "text": "who only watches movies which have mad",
+    "start": 663.68,
+    "duration": 4.08
+  },
+  {
+    "text": "demon which are thriller and which are",
+    "start": 666.079,
+    "duration": 4.161
+  },
+  {
+    "text": "directed by christopher nolan right",
+    "start": 667.76,
+    "duration": 4.16
+  },
+  {
+    "text": "then your theta let's assume all the",
+    "start": 670.24,
+    "duration": 3.76
+  },
+  {
+    "text": "weights are one then your theta would be",
+    "start": 671.92,
+    "duration": 3.44
+  },
+  {
+    "text": "-3",
+    "start": 674.0,
+    "duration": 4.16
+  },
+  {
+    "text": "and only if these 3 inputs are on",
+    "start": 675.36,
+    "duration": 6.08
+  },
+  {
+    "text": "then you will have minus theta which is",
+    "start": 678.16,
+    "duration": 4.799
+  },
+  {
+    "text": "minus 3",
+    "start": 681.44,
+    "duration": 4.88
+  },
+  {
+    "text": "plus the actor is diamond plus the genre",
+    "start": 682.959,
+    "duration": 5.681
+  },
+  {
+    "text": "is thriller plus the director is nolan",
+    "start": 686.32,
+    "duration": 3.6
+  },
+  {
+    "text": "and then this would be greater than",
+    "start": 688.64,
+    "duration": 2.72
+  },
+  {
+    "text": "equal to zero and only then you will go",
+    "start": 689.92,
+    "duration": 3.28
+  },
+  {
+    "text": "and watch the movies if any of these",
+    "start": 691.36,
+    "duration": 4.64
+  },
+  {
+    "text": "inputs is not on right if either the",
+    "start": 693.2,
+    "duration": 4.0
+  },
+  {
+    "text": "actor is not what you're looking for",
+    "start": 696.0,
+    "duration": 2.8
+  },
+  {
+    "text": "then you'll not go to watch so this is",
+    "start": 697.2,
+    "duration": 3.84
+  },
+  {
+    "text": "the bias right this is what it tells you",
+    "start": 698.8,
+    "duration": 4.88
+  },
+  {
+    "text": "about that specific user and hence it's",
+    "start": 701.04,
+    "duration": 4.64
+  },
+  {
+    "text": "called the prior or the bias right but",
+    "start": 703.68,
+    "duration": 4.399
+  },
+  {
+    "text": "if you are like a movie buff",
+    "start": 705.68,
+    "duration": 4.399
+  },
+  {
+    "text": "who does not care about who the director",
+    "start": 708.079,
+    "duration": 3.921
+  },
+  {
+    "text": "director director is and in that case",
+    "start": 710.079,
+    "duration": 3.841
+  },
+  {
+    "text": "your threshold could be zero",
+    "start": 712.0,
+    "duration": 3.519
+  },
+  {
+    "text": "and even if none of these criteria are",
+    "start": 713.92,
+    "duration": 3.84
+  },
+  {
+    "text": "matched the actor is not matt damon the",
+    "start": 715.519,
+    "duration": 4.481
+  },
+  {
+    "text": "director is not nolan the honor is not",
+    "start": 717.76,
+    "duration": 3.92
+  },
+  {
+    "text": "thriller still you will cross the",
+    "start": 720.0,
+    "duration": 3.279
+  },
+  {
+    "text": "threshold and still you will go and",
+    "start": 721.68,
+    "duration": 2.8
+  },
+  {
+    "text": "watch the movie because you are just a",
+    "start": 723.279,
+    "duration": 3.201
+  },
+  {
+    "text": "movie buff so this threshold is trying",
+    "start": 724.48,
+    "duration": 3.84
+  },
+  {
+    "text": "to encode the initial",
+    "start": 726.48,
+    "duration": 4.08
+  },
+  {
+    "text": "bias that you have right and it could be",
+    "start": 728.32,
+    "duration": 4.4
+  },
+  {
+    "text": "adjusted to reflect whether this person",
+    "start": 730.56,
+    "duration": 4.24
+  },
+  {
+    "text": "is a movie buff or not right in other",
+    "start": 732.72,
+    "duration": 4.799
+  },
+  {
+    "text": "situations it could be reflected to uh",
+    "start": 734.8,
+    "duration": 4.159
+  },
+  {
+    "text": "it could be adjusted to reflect the",
+    "start": 737.519,
+    "duration": 3.921
+  },
+  {
+    "text": "prior as we say right so what is the",
+    "start": 738.959,
+    "duration": 4.081
+  },
+  {
+    "text": "without knowing the data without knowing",
+    "start": 741.44,
+    "duration": 2.959
+  },
+  {
+    "text": "the inputs what is the",
+    "start": 743.04,
+    "duration": 3.52
+  },
+  {
+    "text": "prior that is",
+    "start": 744.399,
+    "duration": 4.0
+  },
+  {
+    "text": "about you taking this decision as a",
+    "start": 746.56,
+    "duration": 3.519
+  },
+  {
+    "text": "positive versus negative right zero",
+    "start": 748.399,
+    "duration": 3.841
+  },
+  {
+    "text": "versus one so that's why it's called the",
+    "start": 750.079,
+    "duration": 3.681
+  },
+  {
+    "text": "prejudice and the same thing i have",
+    "start": 752.24,
+    "duration": 3.36
+  },
+  {
+    "text": "explained on the slides you can go back",
+    "start": 753.76,
+    "duration": 3.04
+  },
+  {
+    "text": "and",
+    "start": 755.6,
+    "duration": 3.28
+  },
+  {
+    "text": "read it later right",
+    "start": 756.8,
+    "duration": 3.279
+  },
+  {
+    "text": "okay",
+    "start": 758.88,
+    "duration": 3.519
+  },
+  {
+    "text": "so now coming to the question so this is",
+    "start": 760.079,
+    "duration": 4.641
+  },
+  {
+    "text": "this was to motivate a few things right",
+    "start": 762.399,
+    "duration": 3.68
+  },
+  {
+    "text": "that why are we interested in boolean",
+    "start": 764.72,
+    "duration": 2.64
+  },
+  {
+    "text": "functions because many real world",
+    "start": 766.079,
+    "duration": 2.721
+  },
+  {
+    "text": "problems you can map it to boolean",
+    "start": 767.36,
+    "duration": 3.919
+  },
+  {
+    "text": "functions then why do we have weights",
+    "start": 768.8,
+    "duration": 4.4
+  },
+  {
+    "text": "because in many real function world",
+    "start": 771.279,
+    "duration": 3.761
+  },
+  {
+    "text": "problems you want weighted inputs you",
+    "start": 773.2,
+    "duration": 3.439
+  },
+  {
+    "text": "want certain inputs to be more important",
+    "start": 775.04,
+    "duration": 4.0
+  },
+  {
+    "text": "than others and what is theta what is",
+    "start": 776.639,
+    "duration": 3.841
+  },
+  {
+    "text": "the prior so that has also been",
+    "start": 779.04,
+    "duration": 3.039
+  },
+  {
+    "text": "explained right now let's move on to a",
+    "start": 780.48,
+    "duration": 3.2
+  },
+  {
+    "text": "different set of questions so",
+    "start": 782.079,
+    "duration": 3.121
+  },
+  {
+    "text": "what kind of functions can be",
+    "start": 783.68,
+    "duration": 3.04
+  },
+  {
+    "text": "implemented using the perceptron right",
+    "start": 785.2,
+    "duration": 3.84
+  },
+  {
+    "text": "we know the answer for the mecolic bits",
+    "start": 786.72,
+    "duration": 4.0
+  },
+  {
+    "text": "neuron can it can only be used to",
+    "start": 789.04,
+    "duration": 3.919
+  },
+  {
+    "text": "implement boolean functions which are",
+    "start": 790.72,
+    "duration": 3.679
+  },
+  {
+    "text": "linearly separable that means you can",
+    "start": 792.959,
+    "duration": 3.521
+  },
+  {
+    "text": "draw a line and all inputs which have a",
+    "start": 794.399,
+    "duration": 3.68
+  },
+  {
+    "text": "positive output will lie on one side and",
+    "start": 796.48,
+    "duration": 3.039
+  },
+  {
+    "text": "all inputs which have a negative output",
+    "start": 798.079,
+    "duration": 3.361
+  },
+  {
+    "text": "will lie on the other side so is the",
+    "start": 799.519,
+    "duration": 4.161
+  },
+  {
+    "text": "perceptron any different or what kind of",
+    "start": 801.44,
+    "duration": 3.92
+  },
+  {
+    "text": "functions can it be used",
+    "start": 803.68,
+    "duration": 3.44
+  },
+  {
+    "text": "so if you look at the mathematical form",
+    "start": 805.36,
+    "duration": 3.84
+  },
+  {
+    "text": "of these two there is only the red part",
+    "start": 807.12,
+    "duration": 3.68
+  },
+  {
+    "text": "is different right so earlier you had",
+    "start": 809.2,
+    "duration": 3.52
+  },
+  {
+    "text": "summation x i greater than equal to zero",
+    "start": 810.8,
+    "duration": 3.599
+  },
+  {
+    "text": "now you have summation w i x i greater",
+    "start": 812.72,
+    "duration": 4.0
+  },
+  {
+    "text": "than equal to 0. so in",
+    "start": 814.399,
+    "duration": 4.24
+  },
+  {
+    "text": "essence both of these are actually",
+    "start": 816.72,
+    "duration": 3.679
+  },
+  {
+    "text": "finding linear boundaries right just",
+    "start": 818.639,
+    "duration": 4.161
+  },
+  {
+    "text": "that now you have certain coefficients",
+    "start": 820.399,
+    "duration": 5.12
+  },
+  {
+    "text": "for your inputs right",
+    "start": 822.8,
+    "duration": 4.719
+  },
+  {
+    "text": "so that's what is happening here it",
+    "start": 825.519,
+    "duration": 4.961
+  },
+  {
+    "text": "should be clear that even for a mecca",
+    "start": 827.519,
+    "duration": 5.201
+  },
+  {
+    "text": "for a perceptron you're just learning a",
+    "start": 830.48,
+    "duration": 4.799
+  },
+  {
+    "text": "line and then you will have some points",
+    "start": 832.72,
+    "duration": 4.16
+  },
+  {
+    "text": "which lie in the positive half space of",
+    "start": 835.279,
+    "duration": 4.161
+  },
+  {
+    "text": "the line and for those points the output",
+    "start": 836.88,
+    "duration": 4.16
+  },
+  {
+    "text": "would be one and some points which lie",
+    "start": 839.44,
+    "duration": 2.88
+  },
+  {
+    "text": "in the negative half space of the line",
+    "start": 841.04,
+    "duration": 2.72
+  },
+  {
+    "text": "and for those points the output would be",
+    "start": 842.32,
+    "duration": 4.879
+  },
+  {
+    "text": "zero so just in case this is not very",
+    "start": 843.76,
+    "duration": 5.36
+  },
+  {
+    "text": "clear we'll look at an example and it",
+    "start": 847.199,
+    "duration": 3.44
+  },
+  {
+    "text": "will become clear",
+    "start": 849.12,
+    "duration": 2.88
+  },
+  {
+    "text": "but then the question which already",
+    "start": 850.639,
+    "duration": 3.361
+  },
+  {
+    "text": "comes up is that if it's not different",
+    "start": 852.0,
+    "duration": 3.36
+  },
+  {
+    "text": "if it's also learning a decision",
+    "start": 854.0,
+    "duration": 3.279
+  },
+  {
+    "text": "boundary then what's linear decision",
+    "start": 855.36,
+    "duration": 3.52
+  },
+  {
+    "text": "boundary then what's the difference the",
+    "start": 857.279,
+    "duration": 4.161
+  },
+  {
+    "text": "difference is that now we have weights",
+    "start": 858.88,
+    "duration": 4.72
+  },
+  {
+    "text": "and we also have a learning algorithm",
+    "start": 861.44,
+    "duration": 3.6
+  },
+  {
+    "text": "for learning those weights right so we",
+    "start": 863.6,
+    "duration": 4.239
+  },
+  {
+    "text": "are slowly moving in the territory of",
+    "start": 865.04,
+    "duration": 4.88
+  },
+  {
+    "text": "learning with the perceptron and we'll",
+    "start": 867.839,
+    "duration": 4.321
+  },
+  {
+    "text": "go deeper in this territory as we go to",
+    "start": 869.92,
+    "duration": 5.359
+  },
+  {
+    "text": "sigmoid neurons and then eventually to a",
+    "start": 872.16,
+    "duration": 4.479
+  },
+  {
+    "text": "deep neural networks right so that's",
+    "start": 875.279,
+    "duration": 3.12
+  },
+  {
+    "text": "where we're slowly making a transition",
+    "start": 876.639,
+    "duration": 4.0
+  },
+  {
+    "text": "to right",
+    "start": 878.399,
+    "duration": 3.841
+  },
+  {
+    "text": "so let us first revisit some boolean",
+    "start": 880.639,
+    "duration": 3.2
+  },
+  {
+    "text": "functions to convince ourselves that",
+    "start": 882.24,
+    "duration": 2.88
+  },
+  {
+    "text": "this is actually drawing a linear",
+    "start": 883.839,
+    "duration": 3.36
+  },
+  {
+    "text": "decision boundary right so you have the",
+    "start": 885.12,
+    "duration": 3.92
+  },
+  {
+    "text": "or function i know what the or function",
+    "start": 887.199,
+    "duration": 2.961
+  },
+  {
+    "text": "looks like",
+    "start": 889.04,
+    "duration": 3.359
+  },
+  {
+    "text": "and now in terms of the perceptron what",
+    "start": 890.16,
+    "duration": 4.56
+  },
+  {
+    "text": "does it mean this is what my perceptron",
+    "start": 892.399,
+    "duration": 3.761
+  },
+  {
+    "text": "function is right so i'm going to take a",
+    "start": 894.72,
+    "duration": 4.0
+  },
+  {
+    "text": "weighted sum of the two inputs plus w",
+    "start": 896.16,
+    "duration": 5.039
+  },
+  {
+    "text": "naught and i want that to be less than",
+    "start": 898.72,
+    "duration": 4.32
+  },
+  {
+    "text": "zero in this case",
+    "start": 901.199,
+    "duration": 2.64
+  },
+  {
+    "text": "right",
+    "start": 903.04,
+    "duration": 2.32
+  },
+  {
+    "text": "i want that to be greater than equal to",
+    "start": 903.839,
+    "duration": 3.12
+  },
+  {
+    "text": "zero in this case greater than equal to",
+    "start": 905.36,
+    "duration": 3.039
+  },
+  {
+    "text": "zero in this case greater than equal to",
+    "start": 906.959,
+    "duration": 2.961
+  },
+  {
+    "text": "zero in this case because that's how my",
+    "start": 908.399,
+    "duration": 4.8
+  },
+  {
+    "text": "or function is right now let me just",
+    "start": 909.92,
+    "duration": 5.039
+  },
+  {
+    "text": "expand this right so what is this first",
+    "start": 913.199,
+    "duration": 3.601
+  },
+  {
+    "text": "guy is telling w naught",
+    "start": 914.959,
+    "duration": 3.761
+  },
+  {
+    "text": "plus w 1 into 0",
+    "start": 916.8,
+    "duration": 4.08
+  },
+  {
+    "text": "plus w 2 into 0 should be less than 0",
+    "start": 918.72,
+    "duration": 3.6
+  },
+  {
+    "text": "which implies that w naught should be",
+    "start": 920.88,
+    "duration": 4.319
+  },
+  {
+    "text": "less than 0. similarly the second",
+    "start": 922.32,
+    "duration": 5.519
+  },
+  {
+    "text": "equation",
+    "start": 925.199,
+    "duration": 2.64
+  },
+  {
+    "text": "is saying w naught plus w 1 into 0 plus",
+    "start": 927.92,
+    "duration": 4.32
+  },
+  {
+    "text": "w 2 into 1 should be greater than equal",
+    "start": 930.24,
+    "duration": 2.959
+  },
+  {
+    "text": "to 0",
+    "start": 932.24,
+    "duration": 2.64
+  },
+  {
+    "text": "which is just saying that w 2 should be",
+    "start": 933.199,
+    "duration": 3.44
+  },
+  {
+    "text": "greater than equal to minus w naught",
+    "start": 934.88,
+    "duration": 4.319
+  },
+  {
+    "text": "right similarly the third equation is",
+    "start": 936.639,
+    "duration": 4.88
+  },
+  {
+    "text": "this is what it implies and similarly",
+    "start": 939.199,
+    "duration": 4.161
+  },
+  {
+    "text": "this is what the fourth equation implies",
+    "start": 941.519,
+    "duration": 3.281
+  },
+  {
+    "text": "right so i'll just take a pause for 10",
+    "start": 943.36,
+    "duration": 3.44
+  },
+  {
+    "text": "seconds here so that you could just",
+    "start": 944.8,
+    "duration": 3.68
+  },
+  {
+    "text": "look at the equations",
+    "start": 946.8,
+    "duration": 3.039
+  },
+  {
+    "text": "and convince yourself that this is",
+    "start": 948.48,
+    "duration": 2.64
+  },
+  {
+    "text": "indeed the case",
+    "start": 949.839,
+    "duration": 3.041
+  },
+  {
+    "text": "okay",
+    "start": 951.12,
+    "duration": 3.04
+  },
+  {
+    "text": "now this is not the equations",
+    "start": 952.88,
+    "duration": 3.36
+  },
+  {
+    "text": "inequalities so these are the four",
+    "start": 954.16,
+    "duration": 5.2
+  },
+  {
+    "text": "inequalities given to me right and now i",
+    "start": 956.24,
+    "duration": 5.44
+  },
+  {
+    "text": "could just look try different values of",
+    "start": 959.36,
+    "duration": 5.2
+  },
+  {
+    "text": "w one and w two and w naught and try to",
+    "start": 961.68,
+    "duration": 5.12
+  },
+  {
+    "text": "figure out one combination of w one w",
+    "start": 964.56,
+    "duration": 4.719
+  },
+  {
+    "text": "two w naught which satisfies these",
+    "start": 966.8,
+    "duration": 4.88
+  },
+  {
+    "text": "inequalities of course in practice i",
+    "start": 969.279,
+    "duration": 4.161
+  },
+  {
+    "text": "would not like to do this randomly but",
+    "start": 971.68,
+    "duration": 3.279
+  },
+  {
+    "text": "have a learning algorithm which does it",
+    "start": 973.44,
+    "duration": 2.72
+  },
+  {
+    "text": "and we will go there we will go to the",
+    "start": 974.959,
+    "duration": 3.361
+  },
+  {
+    "text": "perceptron learning algorithm but for",
+    "start": 976.16,
+    "duration": 4.64
+  },
+  {
+    "text": "now it's ok if i just think a bit about",
+    "start": 978.32,
+    "duration": 4.0
+  },
+  {
+    "text": "it and i have already thought about it",
+    "start": 980.8,
+    "duration": 2.8
+  },
+  {
+    "text": "and this is a set of values which i am",
+    "start": 982.32,
+    "duration": 4.48
+  },
+  {
+    "text": "going to give you if w not equal to 1",
+    "start": 983.6,
+    "duration": 4.72
+  },
+  {
+    "text": "also not 1 sorry this should have been",
+    "start": 986.8,
+    "duration": 2.88
+  },
+  {
+    "text": "minus 1",
+    "start": 988.32,
+    "duration": 3.199
+  },
+  {
+    "text": "right so this should have been minus 1",
+    "start": 989.68,
+    "duration": 4.56
+  },
+  {
+    "text": "so if w not equal to minus 1 if w 1",
+    "start": 991.519,
+    "duration": 4.961
+  },
+  {
+    "text": "equal to 1.1 and w t equal to one point",
+    "start": 994.24,
+    "duration": 4.0
+  },
+  {
+    "text": "one then all these equations are",
+    "start": 996.48,
+    "duration": 3.359
+  },
+  {
+    "text": "satisfied you can just plug in these",
+    "start": 998.24,
+    "duration": 3.36
+  },
+  {
+    "text": "values and see that all the four",
+    "start": 999.839,
+    "duration": 4.321
+  },
+  {
+    "text": "inequalities are satisfied right and now",
+    "start": 1001.6,
+    "duration": 4.4
+  },
+  {
+    "text": "i'll look at the geometric",
+    "start": 1004.16,
+    "duration": 3.119
+  },
+  {
+    "text": "interpretation of that so what is the",
+    "start": 1006.0,
+    "duration": 2.88
+  },
+  {
+    "text": "geometric interpretation i am saying",
+    "start": 1007.279,
+    "duration": 2.401
+  },
+  {
+    "text": "that",
+    "start": 1008.88,
+    "duration": 2.319
+  },
+  {
+    "text": "minus 1",
+    "start": 1009.68,
+    "duration": 2.399
+  },
+  {
+    "text": "okay",
+    "start": 1011.199,
+    "duration": 4.0
+  },
+  {
+    "text": "plus 1.1 into x1",
+    "start": 1012.079,
+    "duration": 6.241
+  },
+  {
+    "text": "plus 1.1 into x2",
+    "start": 1015.199,
+    "duration": 5.121
+  },
+  {
+    "text": "greater than equal to 0 this is the",
+    "start": 1018.32,
+    "duration": 4.4
+  },
+  {
+    "text": "positive half space less than 0 this is",
+    "start": 1020.32,
+    "duration": 4.8
+  },
+  {
+    "text": "the negative half space so if i eq look",
+    "start": 1022.72,
+    "duration": 4.719
+  },
+  {
+    "text": "at the line equal to 0 that's the",
+    "start": 1025.12,
+    "duration": 4.0
+  },
+  {
+    "text": "separating line which is separating my",
+    "start": 1027.439,
+    "duration": 3.201
+  },
+  {
+    "text": "inputs into this positive and negative",
+    "start": 1029.12,
+    "duration": 3.6
+  },
+  {
+    "text": "half space right so let's see what that",
+    "start": 1030.64,
+    "duration": 5.96
+  },
+  {
+    "text": "line is looking like",
+    "start": 1032.72,
+    "duration": 3.88
+  },
+  {
+    "text": "so here i have this line",
+    "start": 1038.079,
+    "duration": 5.041
+  },
+  {
+    "text": "so this is the line minus one plus one",
+    "start": 1040.88,
+    "duration": 4.079
+  },
+  {
+    "text": "point one x one plus one point one x two",
+    "start": 1043.12,
+    "duration": 5.76
+  },
+  {
+    "text": "equal to zero as i said earlier uh",
+    "start": 1044.959,
+    "duration": 3.921
+  },
+  {
+    "text": "this is minus one right so this i",
+    "start": 1048.96,
+    "duration": 4.32
+  },
+  {
+    "text": "already mentioned so that is why this is",
+    "start": 1050.96,
+    "duration": 3.76
+  },
+  {
+    "text": "minus one here",
+    "start": 1053.28,
+    "duration": 3.6
+  },
+  {
+    "text": "ok",
+    "start": 1054.72,
+    "duration": 2.16
+  },
+  {
+    "text": "oh it is already deleted",
+    "start": 1062.88,
+    "duration": 3.72
+  },
+  {
+    "text": "okay so now uh what is happening here",
+    "start": 1066.64,
+    "duration": 5.279
+  },
+  {
+    "text": "right so the green shaded region is",
+    "start": 1069.679,
+    "duration": 4.0
+  },
+  {
+    "text": "actually the positive half space of the",
+    "start": 1071.919,
+    "duration": 4.481
+  },
+  {
+    "text": "line all the points in this half space",
+    "start": 1073.679,
+    "duration": 5.36
+  },
+  {
+    "text": "will satisfy the equation minus 1 plus",
+    "start": 1076.4,
+    "duration": 5.279
+  },
+  {
+    "text": "one point one x one plus one point one x",
+    "start": 1079.039,
+    "duration": 4.241
+  },
+  {
+    "text": "two greater than equal to zero they'll",
+    "start": 1081.679,
+    "duration": 3.601
+  },
+  {
+    "text": "satisfy that inequality hence there is a",
+    "start": 1083.28,
+    "duration": 4.08
+  },
+  {
+    "text": "positive half space and all the points",
+    "start": 1085.28,
+    "duration": 3.68
+  },
+  {
+    "text": "which are in the red zone and in my",
+    "start": 1087.36,
+    "duration": 3.12
+  },
+  {
+    "text": "boolean world there is only one such",
+    "start": 1088.96,
+    "duration": 3.44
+  },
+  {
+    "text": "point which is zero comma zero",
+    "start": 1090.48,
+    "duration": 3.76
+  },
+  {
+    "text": "so that is going to lie in the negative",
+    "start": 1092.4,
+    "duration": 3.279
+  },
+  {
+    "text": "half space and that is exactly what we",
+    "start": 1094.24,
+    "duration": 3.52
+  },
+  {
+    "text": "wanted right so this is a correct",
+    "start": 1095.679,
+    "duration": 3.921
+  },
+  {
+    "text": "solution of course this is not the only",
+    "start": 1097.76,
+    "duration": 6.919
+  },
+  {
+    "text": "correct solution so i will go ahead and",
+    "start": 1099.6,
+    "duration": 5.079
+  },
+  {
+    "text": "yeah so i'll go ahead and change this a",
+    "start": 1108.16,
+    "duration": 3.68
+  },
+  {
+    "text": "bit",
+    "start": 1110.559,
+    "duration": 2.881
+  },
+  {
+    "text": "so i've changed this this is also a",
+    "start": 1111.84,
+    "duration": 3.52
+  },
+  {
+    "text": "valid solution right because again my",
+    "start": 1113.44,
+    "duration": 5.04
+  },
+  {
+    "text": "green region has the positive points",
+    "start": 1115.36,
+    "duration": 5.12
+  },
+  {
+    "text": "this is not a valid solution and you can",
+    "start": 1118.48,
+    "duration": 5.28
+  },
+  {
+    "text": "see here the error is 2 why is the error",
+    "start": 1120.48,
+    "duration": 6.319
+  },
+  {
+    "text": "2 because this is the one point which",
+    "start": 1123.76,
+    "duration": 5.2
+  },
+  {
+    "text": "lies in the positive half space",
+    "start": 1126.799,
+    "duration": 4.481
+  },
+  {
+    "text": "and it rightly lies in the positive half",
+    "start": 1128.96,
+    "duration": 4.4
+  },
+  {
+    "text": "space there are three points which lie",
+    "start": 1131.28,
+    "duration": 3.92
+  },
+  {
+    "text": "in the negative half space of which",
+    "start": 1133.36,
+    "duration": 3.36
+  },
+  {
+    "text": "actually only one should have lied the",
+    "start": 1135.2,
+    "duration": 2.56
+  },
+  {
+    "text": "red point should have lied in the",
+    "start": 1136.72,
+    "duration": 2.8
+  },
+  {
+    "text": "negative half space but there are these",
+    "start": 1137.76,
+    "duration": 3.68
+  },
+  {
+    "text": "two green points which are also lying in",
+    "start": 1139.52,
+    "duration": 3.68
+  },
+  {
+    "text": "negative half space so i'm making errors",
+    "start": 1141.44,
+    "duration": 5.359
+  },
+  {
+    "text": "on two inputs so in this configuration",
+    "start": 1143.2,
+    "duration": 5.599
+  },
+  {
+    "text": "my perceptron",
+    "start": 1146.799,
+    "duration": 4.161
+  },
+  {
+    "text": "is not actually representing the or",
+    "start": 1148.799,
+    "duration": 4.321
+  },
+  {
+    "text": "function it's not implementing the or",
+    "start": 1150.96,
+    "duration": 3.839
+  },
+  {
+    "text": "function because it is making errors",
+    "start": 1153.12,
+    "duration": 3.52
+  },
+  {
+    "text": "right so this is not an implementation",
+    "start": 1154.799,
+    "duration": 3.76
+  },
+  {
+    "text": "of the or function but there could be",
+    "start": 1156.64,
+    "duration": 3.2
+  },
+  {
+    "text": "other values",
+    "start": 1158.559,
+    "duration": 2.961
+  },
+  {
+    "text": "this i already showed i could even",
+    "start": 1159.84,
+    "duration": 3.68
+  },
+  {
+    "text": "adjust the threshold right so this w",
+    "start": 1161.52,
+    "duration": 4.64
+  },
+  {
+    "text": "naught actually in the terms of a line",
+    "start": 1163.52,
+    "duration": 4.64
+  },
+  {
+    "text": "tells me what my y intercept is going to",
+    "start": 1166.16,
+    "duration": 3.519
+  },
+  {
+    "text": "be right so i'm going to adjust it and",
+    "start": 1168.16,
+    "duration": 3.759
+  },
+  {
+    "text": "it will intersect or intercept the y",
+    "start": 1169.679,
+    "duration": 4.24
+  },
+  {
+    "text": "axis at different points right and now",
+    "start": 1171.919,
+    "duration": 3.76
+  },
+  {
+    "text": "so far the error is zero so all these",
+    "start": 1173.919,
+    "duration": 4.081
+  },
+  {
+    "text": "solutions are valid but now if i come",
+    "start": 1175.679,
+    "duration": 3.281
+  },
+  {
+    "text": "here",
+    "start": 1178.0,
+    "duration": 2.559
+  },
+  {
+    "text": "then i have a problem you can see error",
+    "start": 1178.96,
+    "duration": 4.959
+  },
+  {
+    "text": "is equal to one because one point which",
+    "start": 1180.559,
+    "duration": 4.721
+  },
+  {
+    "text": "red point which should have been in the",
+    "start": 1183.919,
+    "duration": 3.601
+  },
+  {
+    "text": "negative half space is now lying in the",
+    "start": 1185.28,
+    "duration": 4.32
+  },
+  {
+    "text": "positive half space right so now my",
+    "start": 1187.52,
+    "duration": 4.08
+  },
+  {
+    "text": "learning algorithm should be such that",
+    "start": 1189.6,
+    "duration": 4.319
+  },
+  {
+    "text": "you should draw the line in a way that",
+    "start": 1191.6,
+    "duration": 4.0
+  },
+  {
+    "text": "my negative points are on one side and",
+    "start": 1193.919,
+    "duration": 3.201
+  },
+  {
+    "text": "the positive points or the points which",
+    "start": 1195.6,
+    "duration": 2.959
+  },
+  {
+    "text": "give a negative output are on one side",
+    "start": 1197.12,
+    "duration": 2.88
+  },
+  {
+    "text": "and positive output on the other side",
+    "start": 1198.559,
+    "duration": 3.36
+  },
+  {
+    "text": "right so that's what we would want from",
+    "start": 1200.0,
+    "duration": 5.039
+  },
+  {
+    "text": "the perceptron algorithm",
+    "start": 1201.919,
+    "duration": 5.361
+  },
+  {
+    "text": "and this uh same thing right where i",
+    "start": 1205.039,
+    "duration": 4.721
+  },
+  {
+    "text": "have put in these uh",
+    "start": 1207.28,
+    "duration": 4.56
+  },
+  {
+    "text": "try to substitute the values",
+    "start": 1209.76,
+    "duration": 3.84
+  },
+  {
+    "text": "and then come up with inequalities and",
+    "start": 1211.84,
+    "duration": 3.36
+  },
+  {
+    "text": "then just hand solve for the",
+    "start": 1213.6,
+    "duration": 3.36
+  },
+  {
+    "text": "inequalities the same thing you could",
+    "start": 1215.2,
+    "duration": 3.76
+  },
+  {
+    "text": "have done for the mecolic pits neuron",
+    "start": 1216.96,
+    "duration": 4.32
+  },
+  {
+    "text": "there you would have had only w naught",
+    "start": 1218.96,
+    "duration": 4.719
+  },
+  {
+    "text": "right there was no w1 and w2 so you",
+    "start": 1221.28,
+    "duration": 3.759
+  },
+  {
+    "text": "would have come up with four sets of",
+    "start": 1223.679,
+    "duration": 3.921
+  },
+  {
+    "text": "inequalities and only one variable which",
+    "start": 1225.039,
+    "duration": 5.201
+  },
+  {
+    "text": "is theta or w naught and then you could",
+    "start": 1227.6,
+    "duration": 4.319
+  },
+  {
+    "text": "have tried to find the value of that",
+    "start": 1230.24,
+    "duration": 3.52
+  },
+  {
+    "text": "data so you can go home and try this try",
+    "start": 1231.919,
+    "duration": 3.76
+  },
+  {
+    "text": "to write the four inequalities for the",
+    "start": 1233.76,
+    "duration": 3.52
+  },
+  {
+    "text": "mcculloch pits neuron remember there",
+    "start": 1235.679,
+    "duration": 4.0
+  },
+  {
+    "text": "will be no w one w two and then just see",
+    "start": 1237.28,
+    "duration": 3.84
+  },
+  {
+    "text": "if you can come up with the right value",
+    "start": 1239.679,
+    "duration": 3.441
+  },
+  {
+    "text": "of theta so that is also doable right so",
+    "start": 1241.12,
+    "duration": 4.72
+  },
+  {
+    "text": "this the idea of learning is or finding",
+    "start": 1243.12,
+    "duration": 5.12
+  },
+  {
+    "text": "the right value for the parameters is",
+    "start": 1245.84,
+    "duration": 3.68
+  },
+  {
+    "text": "not something that we have come to",
+    "start": 1248.24,
+    "duration": 2.559
+  },
+  {
+    "text": "suddenly i'm just saying that we had",
+    "start": 1249.52,
+    "duration": 2.8
+  },
+  {
+    "text": "already done it in the case of the mp",
+    "start": 1250.799,
+    "duration": 3.76
+  },
+  {
+    "text": "neuron also where we had tried to find",
+    "start": 1252.32,
+    "duration": 3.839
+  },
+  {
+    "text": "this value of theta it's just that there",
+    "start": 1254.559,
+    "duration": 3.201
+  },
+  {
+    "text": "it was very obvious what the value of",
+    "start": 1256.159,
+    "duration": 3.76
+  },
+  {
+    "text": "theta should be as here it could be a",
+    "start": 1257.76,
+    "duration": 5.36
+  },
+  {
+    "text": "bit difficult right and we'll have a",
+    "start": 1259.919,
+    "duration": 4.88
+  },
+  {
+    "text": "learning algorithm to do that",
+    "start": 1263.12,
+    "duration": 4.799
+  },
+  {
+    "text": "so i'll end this module here",
+    "start": 1264.799,
+    "duration": 4.961
+  },
+  {
+    "text": "and when we come back i am going to talk",
+    "start": 1267.919,
+    "duration": 6.201
+  },
+  {
+    "text": "about errors and error surface",
+    "start": 1269.76,
+    "duration": 4.36
+  }
+]

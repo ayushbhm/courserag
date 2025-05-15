@@ -1,0 +1,9 @@
+said that ah even if I have like K different neural networks and K was of course much smaller than.
+2 raised to n then I have a challenge in training it so now I'm talking about two raised to.
+n different neural networks which are possible so how am I going to train these uh many networks right so.
+the trick that we use is that you share the weights across all the networks so you have two raised.
+to n networks but the weight matrices are the same right so now suppose this weight exists or this node.
+is retained suppose in such uh 2 raised to n by 2 of the networks right because half the networks.
+if you are retaining and dropping with 50 probability then half the networks would have this node how the networks.
+would not have this node right so that means this weight will be retained in half the networks right but.
+this weight would remain the same in all the networks right I'll be using the same copy of the weight.

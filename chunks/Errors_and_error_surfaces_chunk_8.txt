@@ -1,0 +1,10 @@
+case you would be making an error on three points or all the Four Points lie in the negative half.
+space that's the worst case scenario right in which case you will be making an error on three points right.
+because one one of the two things would be right right I mean it would either be the positive point.
+would be correct or the negative points will be correct so that's why it can be only maximum three you.
+cannot make an error on all the Four Points um okay so now what I've done here actually is just.
+uh plotted the error for all possible values of w one W two and now from the plot I can.
+see which are the values which are useful right and I can just pick any of those W and W2.
+values which correspond to that dark blue region of the plot right ah so this is what we have done.
+but this is okay visually to do but ideally we would want an algorithm such that I don't now I.
+can plot this visually for two inputs right but if I had n inputs I can't even plot and visualize.

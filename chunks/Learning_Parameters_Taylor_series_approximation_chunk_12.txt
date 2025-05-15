@@ -1,0 +1,10 @@
+W minus W naught is the same as x 1 minus X naught right so that's what it's saying that.
+now you can find y1 by assuming that this is a linear function okay and then you know the slope.
+because you can compute the derivative at that point and now I can get a new value for y I.
+can get the value for y1 where y1 is the value of the function at the point X1 and there.
+is a small Delta between X1 minus X naught that means x 1 lies in the neighborhood of X naught.
+okay and it will soon become clear why this is important okay so everything that needs to be explained has.
+not been explained on the slide yet I still have some visuals on the next two slides which will make.
+things more clear right but let's just go ahead with what we have now right let's just try to understand.
+what it means to have a linear approximation you're just drawing a line at that point right and you're saying.
+that if I just move along this line right so instead of moving along this curve which is what you.

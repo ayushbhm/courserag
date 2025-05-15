@@ -1,0 +1,9 @@
+so just to summarize the discussion so far right so I mean everything about the RNA model is good right.
+so what do I mean by that uh we saw that across papers right I mean we saw the architecture.
+they are used for machine translation summarization video captioning image captioning right so they gave very good performance and a.
+wide variety of tasks right but the only uh issue that we have is that given a training example we.
+cannot paralyze the sequence of computations because each of these guys needs to be computed one at a time that.
+I cannot compute all of them in parallel of course on top of that if I have attention attention at.
+a given time step can be computed in power right so now a wish list would be can we come.
+up with a new architecture right that incorporates the attention mechanism and also allows us to do things in parallel.
+so we don't want to get rid of the attention mechanism because the attention mechanism helps us to compute the.

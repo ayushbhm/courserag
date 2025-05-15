@@ -1,0 +1,9 @@
+and if i change a and b from 0 0 0 1 1 0 1 1 the output would be.
+the same as the truth table of the xor function right so that's what they showed right and that kind.
+of led to significant disappointment because now you have like a very simple function and you're claiming that a perceptron.
+cannot even solve that then how do you expect you to solve much more complex real-world examples like the translation.
+example or complex decision making like giving a bunch of parameters about a patient right blood sugar level cholesterol and.
+so on and trying to predict the life expectancy or the possibility of a person getting a cardiac ailment in.
+the future and so on and those are much more complex decisions than just a simple xor function right so.
+this led to a lot of disappointment but unfortunately right so while this statement is true right and it's a.
+classic example that we also use today i'll also be doing this in the course uh minsky and pepper said.

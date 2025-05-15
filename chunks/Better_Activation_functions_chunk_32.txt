@@ -1,0 +1,10 @@
+be 0 then the derivative is going to be 0. so if the derivative is 0 again you have this.
+problem that when you are trying to update W1 at some point in the chain you have this derivative of.
+H1 with respect to A1 and that derivative is going to be 0 right which means the derivative of the.
+loss function with respect to W 1 W 2 is going to be 0 right now if and also with.
+respect to B is going to be 0. so now if that happens the neuron of course output at zeros.
+or the neurons output was Zero which means it was a dead neuron which is fine if it's dead for.
+this training example I can live with it right but now it's not got updated neither has B got an.
+update right and now from here on what will happen is that the neuron will remain dead for the rest.
+of the training it will never become alive again right so why is that the case so this is all.
+just the explanation that I gave in uh just I was speaking through it this is all on the slides.

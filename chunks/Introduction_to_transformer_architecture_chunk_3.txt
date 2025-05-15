@@ -1,0 +1,10 @@
+case of translation right then my input is I am going home and I want to produce its translation in.
+the target language right now the input is given to me at one go right the input is not like.
+coming to me one word at a time where I just tell the machine hey this is the sentence that.
+I want to translate right but the computation is not happening at one go right so let's see what I.
+mean by that right so what happens here is that you get the uh you have the initialization Vector right.
+and then you have this word I and then you pass it through the nuclear neural network so what you.
+have here is say the embedding of the word I right so let's call this as X1 so this is.
+the first words you have the embedding of that and then what the output is H1 right or what you're.
+Computing here is H1 which is a function of h0 and x 1 right and now once I have done.
+that this H1 then becomes an input to the next computation because H2 will be computed as H1 comma x.

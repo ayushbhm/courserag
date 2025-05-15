@@ -1,0 +1,9 @@
+right now let's move on to a different set of questions so what kind of functions can be implemented using.
+the perceptron right we know the answer for the mecolic bits neuron can it can only be used to implement.
+boolean functions which are linearly separable that means you can draw a line and all inputs which have a positive.
+output will lie on one side and all inputs which have a negative output will lie on the other side.
+so is the perceptron any different or what kind of functions can it be used so if you look at.
+the mathematical form of these two there is only the red part is different right so earlier you had summation.
+x i greater than equal to zero now you have summation w i x i greater than equal to 0..
+so in essence both of these are actually finding linear boundaries right just that now you have certain coefficients for.
+your inputs right so that's what is happening here it should be clear that even for a mecca for a.

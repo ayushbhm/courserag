@@ -1,0 +1,9 @@
+good right so now if you completely ignore that feature if you are not bothered that hey this weights are.
+corresponding to this feature are not getting updated so whatever initial value you had started if that value was small.
+and you ran this algorithm for thousand time steps and this feature got updated only a few times and that.
+too with very small quantities then you are missing out on an important feature right so it is often the.
+case that's passed the features has passed but at the same time they are also important whenever they are present.
+they play a very important role in the decision right so that's why you cannot ignore this so we want.
+these updates to be good so that we get a good uh contribution from this feature in our W transpose.
+X Plus y right because W decides how much the feature X contributes and if that feature if W is.
+not changing much you have initialized it to a very small value and then it's not changing much because the.

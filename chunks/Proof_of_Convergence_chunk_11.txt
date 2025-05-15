@@ -1,0 +1,10 @@
+cost beta is now let's just try to expand this right so i'll now look at the numerator alone uh.
+let me just get rid of some stuff here so the numerator is uh w star the dot product between.
+w star and w t plus one remember that w star and w t plus one are weight vectors right.
+these are vectors so i can talk about the dot product and now i can just substitute the value of.
+w t plus 1 which is nothing but w t plus p i which is again of course a vector.
+it's the addition of two vectors now i'm going to open up these brackets so i get w star the.
+dot product between w star and w t and the dot product between w star and p i okay now.
+i'm going to define a new quantity so let me just explain something before i define that quantity so i.
+have the points p1 p2 all the way up to some pm right these are all the points which belong.
+to my p prime okay now i can compute the dot product between each of these points and w star.

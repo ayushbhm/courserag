@@ -1,0 +1,9 @@
+we can show that under certain conditions this is actually equivalent to principle component analysis which is again a data.
+dimensional ID reduction technique right and the same thing you are doing here you're using the dimensions of the input.
+data right so that's all that we want to know about Auto encoders this is what an auto encoder tries.
+to do and this is what I am trying to do here right so while doing so I am actually.
+Computing ending up Computing a abstract representation of the input in this layer right so my this layer is now.
+Computing a good representation of the input it's capturing all the vital characteristics of the input which are enough to.
+reconstruct the inputs right so that is what is happening here and this is the objective that I am going.
+to work with now notice that this is a single layer network network right so I had a problem I.
+had difficulties in training a deep neural network so I've ignored that problem I've said okay I'll worry about that.

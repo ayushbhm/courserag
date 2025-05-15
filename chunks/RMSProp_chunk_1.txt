@@ -1,0 +1,9 @@
+say 0.9 so at any point you're just taking uh let me just get rid of this yeah so now.
+you are taking 1 minus beta which is 0.1 times the current gradient and also the history you are repeatedly.
+exponentially decaying right the history continuously gets multiplied by 0.9 so whatever was my accumulated history that has also become.
+0.9 times the previous history and my current gradient also I am not taking it fully I'm just taking it.
+a fraction of it so that's why I'm not allowing my history to grow as rapidly as it was going.
+in the case of adagra right so that's the change I have made in RMS prop uh and then the.
+update rule Remains the Same right so now everything else Remains the Same the only thing that I've changed is.
+this denominator VT which was earlier growing aggressively now I've added like these multipliers beta and one minus beta which.
+are both less than one which means I'm scaling down right I'm not allowing the history to grow at every.

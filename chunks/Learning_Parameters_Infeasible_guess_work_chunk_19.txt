@@ -1,0 +1,10 @@
+more favorable right and you can see that the loss has also decreased right but since i was randomly guessing.
+i did not have this error surface in front of me so i just continued randomly right and then i.
+went to the point minus 0.1 comma 0 okay and i goofed up you can see that i actually went.
+up on the error surfaces i was somewhere um yeah it was somewhere here and i climbed up on the.
+error surface right and then i changed it further so what i did is oops yeah then i changed it.
+to a 0.94 and minus 0.94 and then the loss decreased right and i can see from the sigmoid function.
+also that i am going in the right direction and then i kept in continuing in this direction but you.
+can see that my movements if you look at the wb plane they're very random that is jumping from one.
+point to another i'm just getting lucky somewhere and i once i hit this point 0.94 minus 0.94 then i.
+get a sense of what is required i need to increase the w's and decrease the b's and then i.

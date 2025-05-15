@@ -1,0 +1,9 @@
+was always growing so hence there was always a decay in the learning rate but now since your history can.
+grow and shrink and it can also become a constant right because now what is happening is as your current.
+gradients are all zero then there all the sums are becoming close to zero right and so then after a.
+point the history is becoming more or less constant and that the history is becoming constraint from one time step.
+to another ETA divided by that history is again going to remain constant right so as you go ahead your.
+learning rate is not going to change right so that is why the learning rate becomes constant in the case.
+of RMS could become constant in the case of RMS prop after a certain number of iterations right it can.
+increase it can decrease or it can remain constant because of the moving average of the gradients in the denominator.
+right and after across 500 iterations I have plotted the uh gradients here and this is what is uh happening.

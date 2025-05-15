@@ -1,0 +1,10 @@
+input is minus one minus 1 so we'll get minus 1 into 1 is 1 1 into 1 is 1.
+so 1 plus 1 is 2 plus the bias is minus 2 so this quantity would be greater than equal.
+to 0 hence the perceptron will fire and you can check for any of the other 3 inputs it will.
+not fire similarly the third perceptron will only fire for one minus one the fourth perceptron will only fire for.
+one comma one okay so each perceptron is like kind of specializing for a specific input and it will only.
+fire for that input and the question is so what right i mean what what how does this show that.
+it can handle any function right so we need to go back to the uh the table that we had.
+and the algebra the calculations that were happening there right so let's see what is happening here so if you.
+have the xor function now xor function is the troublesome function because it's a not it's not a linearly separable.
+function so let's see what will happen in this network for the xor function so when you have the input.

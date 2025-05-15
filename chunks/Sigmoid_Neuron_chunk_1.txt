@@ -1,0 +1,10 @@
+add it to the slides okay so let's start with the first module uh which is on sigmoid neurons right.
+so where are we right now and what is the story ahead they just get that picture clear and then.
+we can start uh so frankly enough about Boolean functions right so the last lecture and entire thing was about.
+Boolean functions where we were looking at functions Y is equal to f of x where both X was Boolean.
+and Y was Boolean of course when we were looking at perceptrons we said that real inputs are allowed but.
+for most of the discussion we were focusing only on Boolean infosets I want to move away from there and.
+where do I want to move right so we want to look at arbitrary functions of the form Y is.
+equal to f of x okay where X belongs to r n instead of 0 comma 1 or instead of.
+like Boolean and Y also belongs to R right so what that means is that both X and Y contain.
+real numbers right and so now let's let's uh look at an example of this right so what do I.

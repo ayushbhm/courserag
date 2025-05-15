@@ -1,0 +1,10 @@
+ring for example corresponds to the level one right so this link here is level one ring this ring here.
+is level 0.8 ring point six point four point two and so on right so that's how uh this has.
+been uh drawn it's every ring corresponds to one value along the Z axis in our case or the X.
+Y axis would be like the w b axis and the Z axis would be the loss axis so every.
+slice here would correspond to the same value of the loss function because R cross along the ring the value.
+of the loss function is there because we have taken a slice along the vertical axis right so you have.
+a parallel plane so the loss would be the same across that axis right and when you look at it.
+from the top uh this is how it looks like and that's exactly what the contour map looks like now.
+there are certain other interesting things to be said about the contour map right and let me just get a.
+hang of this I want to put certain view from which the point that I want to explain becomes easy.

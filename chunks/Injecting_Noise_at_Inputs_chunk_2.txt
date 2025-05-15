@@ -1,0 +1,10 @@
+it will get a change right so now you have added noise to the input and now once you have.
+added noise to the input what is a deep neural network good at it is good at mapping x to.
+the true y right that means it's very good at reducing the training error but now from this x you.
+have given created a random X like a modified X or a corrupted X sorry not a random X but.
+a corrupted X and now it is trying to map this corrupted x to the input right and now every.
+time you see this training instance this corruption would be slightly different so across epochs as you are modifying the.
+every time you are applying this noise process you are seeing a slightly different corrupted version of the original input.
+and every time it has to map that to the same y so now again the job of the network.
+has become harder because it's it's in a way similar to what you did with the augmentation of the data.
+set right so you had an original two and then you passed it uh shifted to or rotated two and.

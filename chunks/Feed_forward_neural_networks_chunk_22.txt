@@ -1,0 +1,9 @@
+had in the last class where f hat is your approximation and now instead of telling you what f hat.
+is i've just given you a diagram where is the f hat in this diagram right so that's something that.
+we should try to figure out right what does the f hat look like and that should give you confidence.
+that this is just yet another choice of function families within the machine learning paradigm where you could choose different.
+functions you could choose the linear function quadratic function and this is yet another function it just happens to be.
+a very complex composite function but you can still write down what f hat is right so we will try.
+to do that so i'll go back to that setting of a typical machine learning supervised machine learning setup where.
+you have data which comprises of x's and y's so that is there i have the x i have the.
+y's and i want to now come up with a model okay which is my approximation of the result of.

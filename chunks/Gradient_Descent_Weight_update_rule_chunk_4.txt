@@ -1,0 +1,9 @@
+start going towards this Minima if you initialize it to a point here it will start going towards this Minima.
+right so what I've done is I'd initialize it at this point right which was on this side of the.
+slope so that's why it went there if I had initialize it here at this value then it would have.
+gone into this minimal so just play around with this try different values of w and keep following the formula.
+and see whether you are able to reach the Minima I'm sure you will not be easily able to reach.
+the Minima and one of the problems there is that ETA is a bit large so it's not helping you.
+to control ETA into DW here I wanted the ETA to be small which so that I could have reached.
+the Minima instead of Crossing it I've crossed the minimine going in the upper Direction so all of this is.
+something that we'll do in detailer and at this point I just want you to kind of break your heads.

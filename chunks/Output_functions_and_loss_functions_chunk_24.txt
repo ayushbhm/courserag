@@ -1,0 +1,9 @@
+so although i've written this as a summation it will only have one term which would be y l multiplied.
+by log of y hat l and that y hat yl is again going to be just one right so.
+because l is the true class and for the true class y l is equal to 1 right so then.
+what remains and of course there's a negative sign here is just log of y hat n right so this.
+is what remain it's and let's understand what that quantity is right so it is negative log of the predicted.
+probability of the true class right negative log predicted probability of the true class and hence this is also called.
+the negative log likelihood right because likelihood meaning it's telling you the probability of the true class the predicted probability.
+of the true class so cross entropy minimizing the cross entropy is the same as uh maximizing or the log.
+likelihood of the correct class right so that's what it means okay because you are going to minimize minus of.

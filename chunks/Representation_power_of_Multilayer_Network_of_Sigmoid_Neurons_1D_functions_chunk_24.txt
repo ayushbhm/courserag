@@ -1,0 +1,10 @@
+it up it way so now I've got a network which can produce a tower function and not just any.
+network it uses my sigmoid neurons I just have to set the W's to a high value and I can.
+control the B's to control the uh width of this Tower function right so let me just show you that.
+now if I make [Music] um okay now if any if I increase the gap between the bees okay then.
+the width of the Tau function increases if I make it very small of course the length also decreases the.
+height also decreases but the width also decreases I can use the bees to control the uh width of the.
+tower function right so that's that's what is happening here okay so now I have got my tower maker that.
+I was looking for so let's go ahead right so this was a basic function now let's look at the.
+entire network so you have X you have two sigmoid neurons the first one will give you a step function.
+because you set the W to very high the second one will also give you a step function which will.

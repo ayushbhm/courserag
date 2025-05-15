@@ -1,0 +1,10 @@
+naught divided by VT right and I assumed that ETA naught is equal to 1 just for the sake of.
+Simplicity okay so now ETA T remains 1 in this case uh becomes one in this case now let's see.
+what happens at the next time Step at the next time step my derivative was 0 right so my V1.
+is just uh 0.999 times my history right so that's almost one so my effective learning rate again becomes 1.
+by V T which is 1.001 so my effective learning rate has not changed much right and same for time.
+Step 2 now the gradient is one right oops yeah now the derivative is one and my history was 0.999.
+sorry this should have been Max of 0.999 uh multiplied by 0.99 because it is beta times VT minus 1.
+but it doesn't matter the max would anyways have been one so my V2 is 1 and my learning rate.
+again becomes uh 1 right so my learning rate is not changing and the same thing will keep repeating right.
+the next input is 0 so again it will be 1.001 and so on right so this is what my.

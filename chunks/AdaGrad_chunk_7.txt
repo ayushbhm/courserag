@@ -1,0 +1,9 @@
+consecutive contour lines is now very small right so then this is essentially a surface like this which is peaking.
+at the two red portions and then it's going into a valley which is the Blue Valley and it's going.
+steeply into the valley right that's why you see this steep slopes here where the difference between two consecutive contour.
+lines is very small right so that's what the loss surface looks like now I ran gradient descent I started.
+from some point I started all the three algorithms from the same point right and I started gradient descent ah.
+momentum based gradient is a menstrual right and the as I would like to say let me just go back.
+to the slides so there's something interesting that is these three algorithms are doing right and can you spot it.
+is the question right so what exactly is happening here and remember that uh I should have mentioned that my.
+horizontal axis is the W axis and my vertical axis is the B axis as has been appropriately labeled on.

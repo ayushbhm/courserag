@@ -1,0 +1,9 @@
+might find ETA not equal to 0.1 and that is perhaps always good or ETA not equal to 0.6 which.
+is always good right now one more thing which I'm going to make an argument for now is that that.
+is also not guaranteed so suppose you are in a steep region right so you are in a steep region.
+so your history has been accumulating and suppose your current value of VT is 1.25 then what would your effective.
+learning rate be it would be 0.48 right if the learning rate was set to 0.6 and if the learning.
+rate was set to 0.1 then it would have been 0.08 right so same situation I'm just trying to make.
+a case that depending on the initial learning rate your effective learning rate a Time step would be different right.
+and since I'm in a steep region this is my preferred effective learning rate I want a smaller effective learning.
+rate because I'm in a steep region and that I would have obtained if my initial learning rate was 0.1.

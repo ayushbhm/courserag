@@ -1,0 +1,10 @@
+now similarly you can compute the derivative of B and you can see that all of this is same the.
+only thing extra here is this x i and that is coming from the fact that you had W X.
+plus b so when you take the derivative with respect to W this x is what you get but when.
+you take the derivative with respect to B you don't get this x that you just get 1 here that's.
+why you are having this uh into 1 here and into X there right so now you have the formula.
+for Delta uh for the uh partial derivative of the loss function with respect to W and the partial derivative.
+of the loss function with respect to B right so you have both of these and now we can construct.
+an algorithm out of this okay so let's see what that algorithm is so I started off wow so this.
+I hope you can see it so these were the two points given to me these are the same two.
+points that we have been looking at since the last lecture so x equal to 0.5 where the value of.

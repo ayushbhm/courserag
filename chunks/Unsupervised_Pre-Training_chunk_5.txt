@@ -1,0 +1,10 @@
+this x hat and this says X then since I am reconstructing my X hat should be as close to.
+X right and that is what this loss function is calculating so my X was n dimensional so along each.
+of these n Dimensions I want to reduce the error between the prediction and the construction and I want to.
+do this for all the M training examples and I want to consider the average right so that's the objective.
+function this is clear now what what am I trying to do here right what is happening here right so.
+let us try to understand this conceptually that suppose I'm able to do this suppose I'm able to train a.
+network which is able to reconstruct X hat with zero error that means I am taking an X I am.
+doing a w x y that is a transformation I do then I pass it through a sigmoid function I.
+am ignoring the biases okay so I get some hidden layer H1 right and then from the hidden layer I.
+am reconstructing X hat as say W Times H1 okay this is what I am doing in this network right.

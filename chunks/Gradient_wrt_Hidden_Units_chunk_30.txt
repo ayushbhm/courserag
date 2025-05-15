@@ -1,0 +1,9 @@
+with respect to H1 and I just computed now I want to compute the derivative of the loss function with.
+respect to A1 so for that the two con the quantity that I need is the derivative of the loss.
+function with respect to H1 right and apart from that I need this simple quantity which I just showed is.
+easy to compute right so that's if I just keep going one by one at every stage I have all.
+the quantities that I wanted to uh want or want at that stage for computing the quantity of Interest right.
+so now at this point you should be convinced that we have a generic formula for computing the derivative of.
+the loss function with respect to the hidden layer no matter where the hidden layer is the first hidden layer.
+second third fourth everyone we have this formula so we are almost done and now we'll reach the final part.
+in our uh chain rule so let's look at that in the next module.

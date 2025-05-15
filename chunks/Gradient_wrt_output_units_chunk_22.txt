@@ -1,0 +1,10 @@
+have the sum of the exponents so what does that mean i have e raised to a l 1 plus.
+e raised to a l 2 plus all the way e raised to a l k and i'm taking the.
+derivative of this sum with respect to one of the e l i's right and what will happen all the.
+elements in this sum will disappear except the one which corresponds to e a l i hence the derivative would.
+just be e raised to a l i right so this is again straightforward i have a sum of terms.
+only one of them depends on the variable with respect to where i'm com i'm computing the derivative so only.
+that term will rem remain everything else will disappear right so all of this looks uh pretty straightforward don't worry.
+if you're not getting is as i'm explaining it you can just pause the video and look at it it's.
+very mechanical steps right so it's this exp just looks very annoying but it's just e raised to something right.
+and you know the derivative of e raised to something with respect to that same variable is just e raised.

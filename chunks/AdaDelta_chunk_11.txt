@@ -1,0 +1,9 @@
+that make sense because VT is one step higher so once you enter the Steep regions after a while because.
+this new guy is getting more weightage in VT that sum would stop start becoming smaller as compared to UT.
+because UT still has to come to that step it's still in the older history and the older history was.
+all high gradients so it's still taking more benefit from the older history whereas VT is now relying more on.
+the current guy and this current guy will affect U T minus 1 only in the next time step right.
+so now the history the U T minus 1 is going to be larger than VT and hence the ratio.
+is going to be larger and hence the effective learning rate is increasing as you are entering the uh flat.
+regions right and then you can continue arguing that once again if you enter the Steep region again because of.
+this one time step delay what will happen is VT will start looking at a much bigger gradient than what.

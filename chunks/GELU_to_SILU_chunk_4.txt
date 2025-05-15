@@ -1,0 +1,10 @@
+is supposed to be a probability right because it has to be the probability of heads or probability of one.
+so it should lie between 0 to 1. right so that's the idea the Phi of x should lie between.
+uh zero to one right that's the uh range that it can have right now what is the function that.
+you know which gives you output between zero to one so the obvious choice which comes to minus the logistic.
+function right so you could think of Phi of X as a logistic function of the input that you have.
+now what is the input here let's try to understand that clearly right I am saying X but let's not.
+confuse uh say this is your deep neural network and this is some hidden layer right let's call this the.
+H2 hidden layer okay and now you have this preactivation let me call it a21 and this is the activation.
+h21 right so this is the function that I am defining right h21 is equal to F of a to.
+1 and I have defined it as M into a to 1 where M itself is a function of a.

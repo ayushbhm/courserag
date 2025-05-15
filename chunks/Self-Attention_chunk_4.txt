@@ -1,0 +1,10 @@
+showing it for the last word again so I'll take uh H Phi in this case pass it through WQ.
+and I'll get my Q Phi similarly I'll get K Phi and similarly I'll get V5 right so if I.
+had t words in the input I have computed this 3 into T vectors using these linear Transformations okay now.
+what next what am I going to do next right so now what I want to do is I want.
+to compute earlier I was Computing the score let me just flash the equation and then I can do it.
+so earlier I was Computing the score between St minus 1 and HJ and this was used to give me.
+the importance of the j8 word and the TX time step right so again now I'll have some score and.
+my indices would be I and J right the ith word and the jth word but now what does go.
+here that's the question right so let's see what goes here the function that I'm going to use is to.
+compute the score between q1 and K J right so now my this is my query Vector so I'm interested.

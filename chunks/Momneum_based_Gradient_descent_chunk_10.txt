@@ -1,0 +1,9 @@
+weighted average of current and all pass gradients right as I was saying that if you are currently at time.
+step 9 right then the weightage for the current gradient would be one right because this would be 9 minus.
+9 and that would be 0 if you are at time step if you are looking at the gradient at.
+time step 8 then that would be 9 minus 8 so it would be given the weightage of beta and.
+as I said beta is typically 0.9 so this would keep decreasing exponentially so gradients which were taken very long.
+back will have very less say in this cumulative history right so that's what the idea behind momentum is and.
+now with this idea in mind let me go back to the previous slide I'll again try to look at.
+the equations right so this is what the equations look like now we understand that this quantity here actually captures.
+the entire history okay the weights are initialized randomly your U minus 1 is 0 and beta is a constant.

@@ -1,0 +1,8 @@
+kind of popularize this research in rl right where are these complex games which require this 10 000 hours of.
+playing and so on maybe only the big deep tech companies can do that but can you have simpler environments.
+which have a lot of this complexity but you can you use those environments to train some of these or.
+advance the research and deep reinforcement learning so that's why this open ai gym was released which became a toolkit.
+for developing and comparing reinforcement learning algorithms because this entire deep reinforcement learning based work is something that we will.
+not cover in this course but it's important that you are aware of that that's one branch which you could.
+explore as you continue on your journey on deep learning right similarly there was another gym retro right a newer.
+version of that which had thousand games very different environments which people could experiment with right and again complex strategy.

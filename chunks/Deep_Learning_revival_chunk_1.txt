@@ -1,0 +1,9 @@
+which internally contained the derivative right so this is the quantity that was important and we saw various variants of.
+the gradient descent algorithm but in all of these the gradient shows up in one way or the other right.
+so this is a quantity which is important ah and uh we also saw how to this how to compute.
+this quantity right so uh we saw we had derived this for the simple Network and the key observation that.
+we had made there was that the derivative is actually proportional to the input X right that's the one important.
+observation that we had made and that also had kind of aided our discussion on what happens when the input.
+is passed because in most cases this x would be 0 and then we came up with these adaptive methods.
+and so on right so this observation we have made a column of couple of times before about the derivative.
+formula having this X as a factor and hence if x is large something can happen if x is small.

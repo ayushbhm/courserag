@@ -1,0 +1,9 @@
+the aggregated that i get right now what is my y if the aggregation is less than w naught then.
+it will be 0 if it is greater than w naught it will be 1 right so now for this.
+to behave like the xor function w 1 should be less than w naught w 2 should be greater than.
+equal to w naught w 3 should be greater than equal to w naught w 4 should be less than.
+w 1. there is nothing new i have done here we did the same exercise earlier on right but now.
+what is the difference do i have any contradictions here i do not have any contradictions here earlier when i.
+had the xor function with a single perceptron i had contradictions in these inequalities now i don't have any contradictions.
+because i have four weights w one w two w three w four i have four independent conditions that they.
+need to satisfy there is no condition that is contradicting right and why is this happening because this is how.

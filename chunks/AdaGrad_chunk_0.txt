@@ -1,0 +1,9 @@
+foreign [Music] so let's see how do we go about that so the intuition is that we want to Decay.
+The Learning rate in proportion to the update history right so for the features which are getting a lot of.
+updates so I have a very dense feature so the derivatives are large and I updated it in the first.
+step by a large value Second Step by a large value third step by a large value so I am.
+doing reasonable updates for this so maybe now I need to be a bit conservative and Decay The Learning rate.
+but if there was Speech feature which is very sparse got a very small update in the first iteration because.
+the total gradient that I computed was very small again a small update in the second pass again a small.
+update in the third pass then I need to let the learning rate be high right because I'm getting small.
+updates so let me at least move a bit aggressively in those update directions right so that's what uh kind.

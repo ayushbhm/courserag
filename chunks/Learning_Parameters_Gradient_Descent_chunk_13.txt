@@ -1,0 +1,10 @@
+zero that's what I'm effectively saying right so I'll just delete some stuff so this is the quantity that I.
+want to be less than 0 if I take L Theta this side then that is the quantity that I.
+get and that is just equal to this quantity right so if I want this quantity to be less than.
+equal to 0 that means essentially I want this quantity to be less than zero right and I have omitted.
+the ETA here because ETA is a positive scale right that's uh you we don't take a negative scalar there.
+so ETA is positive so that will not affect so I can ignore ETA here and this quantity should be.
+less than zero okay so that is what I have arrived at from the uh Taylor series and why is.
+this why am I interested in this because this is a condition which depends on you right so now I'm.
+what is being told to me that you have to select a u such that U transpose the dot product.
+of U with the gradient Vector would be less than zero only then your U would be good so this.

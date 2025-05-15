@@ -1,0 +1,9 @@
+you don't need to manually label this you know that even if I rotate the image by a small amount.
+of course for some things like 6 and 9 if you rotate by 180 degrees then you will have a.
+problem but for most digits you will not have this problem right so you could rotate by a small amount.
+you could shift it vertically right so the two being at the center of the image you could bring it.
+down you could take it up and you would get a different image you could shift it horizontally or you.
+could blur the image you could also change some pixels and add some noise right and both doing all of.
+this you have just created more training data and what you're doing here is actually you are exploiting the knowledge.
+of the task right so you know that if you rotate the image if you do any of these augmentations.
+that you have seen and there are many such more augmentations in the possible in case of image classification the.

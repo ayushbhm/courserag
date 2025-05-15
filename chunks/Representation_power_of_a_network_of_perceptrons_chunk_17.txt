@@ -1,0 +1,9 @@
+conditions like w1 has a specific condition w 2 has a specific condition none of these conditions will contradict none.
+of the weights will interact with each other in any of these conditions so you can find the values of.
+w 1 to w 8 such that all your 8 inequalities are satisfied for any of the boolean functions right.
+so again you will be able to implement all the boolean functions which are possible okay right so that's the.
+same template that you have used so what if we have uh n inputs right more than three inputs which.
+is n inputs okay so then how many perceptrons will you need in the middle layer 2 to the power.
+n right so when you had two inputs you needed four when you had three inputs you had eight so.
+when you have n inputs there are two raised to n possible values that the inputs can take right so.
+each perceptron will handle one of these specific inputs and then you will have two raised to n weights in.

@@ -1,0 +1,10 @@
+and this is what the u-turns are what we saw on the momentum gradient descent right so it actually overshot.
+right so it come here so it actually if you look at yeah this is what it looked like right.
+so now uh so it went down in the valley now it should have gone towards its goal but it.
+overshadowed the goal right it went further ahead then it took a U-turn and came back now again it should.
+have gone somewhere here but its momentum carried it here in this direction and then again it had to take.
+a U-turn and come back here right so that is what we saw so clearly it's moving fast but it's.
+it's kind of moving a bit out of control right so we need to see whether if we can control.
+the way it is moving right and so make let's see this in a more you know one more setting.
+right so now we have this kind of an input and we have a very weird looking 3D surface here.
+right and this is what the contour map looks like and now I'm just going to focus on the contour.

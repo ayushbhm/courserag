@@ -1,0 +1,9 @@
+this idea was again not completely new there were very deep Learners proposed by schmidur in 191 1991 1993. again.
+many things did not fall in place at that time right around that time internet was not what it was.
+in 2006 and there was not like large tons of data available to you uh even storages at that time.
+were much smaller and there's not enough compute available right so while this idea was there it did not fructify.
+because the other conditions were not conducive right you do not have enough Computing of data to really train very.
+deep models whereas in 2006 the compute was better The gpus had still not entered the scene at least in.
+deep learning but still the compute was better and you had more data to train so that's why it worked.
+well in that era right of course some other Innovations also but there was the basic idea was there earlier.
+and then after this what happened right from the period from 2007 to 2009 once this spark came in hey.

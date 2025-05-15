@@ -1,0 +1,9 @@
+can see that I have a very arbitrary looking function right it's maybe I I it's not a sine X.
+it's not a cosine X it's maybe a mixture of some of these functions right uh it's not x square.
+X Cube or any of the standard functions that you might know now we are interested in knowing that if.
+this is what my true relation is can I come up with a network of neurons that can represent this.
+arbitrary function to a certain desired degree of precision okay that's what I want to do okay so let's see.
+how I go about it so what we observe is that such an arbitrary function can be approximated by several.
+Tower functions right so these are what I call as taus ok and I have constructed towers of certain widths.
+and it should be obvious that so this this this sum of all these towers right or this the function.
+that you see here outlined here okay and I can just go on is what my approximation of the original.

@@ -1,0 +1,8 @@
+you want to do some kind of video classification at the end so it's important that every sequence interacts with.
+the other sequence so that it understands what is happening in the entire sequence as a whole so rick canadian.
+neural network allows us to do that it was it entered natural language processing in around 2013 or 14 but.
+this idea has been there much before that right and there were two different types of neural recurrent neural networks.
+which were popular well the question of course is that if they were proposed in 1990 and if it made.
+sense for sequences and people were interested in a lot of nlp and speech at that time both nlp and.
+speech have sequence of words and sequence of phonemes and why were these networks not being used again the same.
+challenge a lot of work around that time which showed that it's very hard to train these networks in particular.

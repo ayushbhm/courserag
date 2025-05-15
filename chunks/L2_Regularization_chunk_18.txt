@@ -1,0 +1,10 @@
+get H inverse h w star so in that case my w tilde is actually equal to W star and.
+that should indeed be the case right because if Alpha is 0 that means my second term was not this.
+if the second term was not there then I'm just left with my original loss function and for the original.
+loss function I had already defined that the optimal is W star so if I'm going to get rid of.
+alpha if Alpha is equal to 0 then even for the regularized loss which is just equal to the original.
+loss my w tilde equal to W Star right so simple uh observation but just trying to make the point.
+clear okay now we are of course not interested in the case of alpha not equal to zero we are.
+interested in the case when Alpha is not equal to zero right because we are using regularization and in that.
+case we want to see what is the solution between W tilde and W star okay so let's go ahead.
+so since H is a symmetric positive semi-definite Matrix we know that its eigenvalue decomposition will exist not just that.

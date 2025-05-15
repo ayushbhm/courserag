@@ -1,0 +1,9 @@
+y hat is equal to the sigmoid function of x right with the parameters being w okay then learning algorithm.
+is gradient decent we don't know that but the idea of gradient descent is to find the w right and.
+what is the objective function what should my objective function be right we can let's try to arrive at an.
+objective function so i am given some data okay x comma y and now i have this approximation at the.
+end of learning what would you want you would want that this y hat should be as close to y.
+right that means the difference between y hat and y should be as small as possible okay for all the.
+training examples that i have maybe n right if i sum up this difference okay and i'll not i'll just.
+call it as difference right so difference between y hat and y and i can now define the difference the.
+function the way i want to right so the difference between y hat and y sum across all the training.

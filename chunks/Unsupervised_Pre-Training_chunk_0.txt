@@ -1,0 +1,9 @@
+foreign [Music] ing so the main question is right what has changed now right what has happened in 2006 which.
+has allowed us to train these deep neural networks and why has big deep learning become so popular that's the.
+main question so far right uh so if we look at this seminal work in 2006 which made uh training.
+deep neural networks are more uh possible Right so the original paper I was actually talks about something known as.
+rbms we have not done ibms yet and we'll not do it in this part of the course uh I.
+will try to explain it in the context of Auto encoders again we have not done Auto encoders now I've.
+also Auto encoders will also not be a part of this course because we have replaced it by other more.
+advanced optimization algorithms as well as discussion on Transformers so we did not have place to put in autoencoders given.
+the number of lectures that we had so but you could refer to my older lectures and auto encoders if.

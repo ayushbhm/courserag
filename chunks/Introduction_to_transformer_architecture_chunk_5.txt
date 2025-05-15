@@ -1,0 +1,10 @@
+and just see the whole thing right so I had the entire sentence I am still Computing it one step.
+at a time and I'll compute it at Z H1 then H2 then I am Computing H3 then H4 and.
+so on right so I'm just doing all of this one step at a time although this entire sentence was.
+available to me right at the beginning right so now the question is what's the benefit of what is happening.
+here right so why am I Computing H2 only after I have looked at H1 right so the reason for.
+that is that I know that for every word I already have the word embedding right so that's what my.
+input is and this word embedding could be computed from your favorite algorithm like what to make or fast X.
+or glove embedding or it could just be randomly initialized it could just be a learnable parameter in the network.
+right but that is the word that is the embedding of the word computed from a corpus but I want.
+to know the embedding of this word in the context of the center so that's what these Yellow Boxes are.

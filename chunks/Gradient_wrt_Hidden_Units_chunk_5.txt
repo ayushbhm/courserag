@@ -1,0 +1,10 @@
+respect to Z and I'm just going to sum all these parts that means there are M such parts and.
+I'm going to sum the chain rule across each of these parts set and in any One path the chain.
+rule this is what the chain rule looks like it's a product of these two quantities which is derivative of.
+p with respect to q and then derivative of Q with respect to Z right so that's what it looks.
+like straight forward this is what you know already from calculus and just quickly revise that right and that's exactly.
+the kind of situation that we have here you have this quantity H22 you are interested in the derivative of.
+the loss with respect to H22 you know that the loss depends on H to 2 because it is it.
+depends on quantities which you are computed using H22 right which dependent on H2 so the loss depends on H2.
+and there are multiple paths how many parts are there there are K Parts here right because from s to.
+2 you go to a31 okay and from a31 you can go to the loss a32 you go to the.

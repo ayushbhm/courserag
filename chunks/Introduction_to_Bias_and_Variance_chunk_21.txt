@@ -1,0 +1,9 @@
+for the green curve as well as the for the simple model which is the green line and for the.
+complex model which is the blue curve right and now I can define a quantity called bias which is the.
+difference between the average value and the True Value right so it's for the simple model its difference between the.
+Green curve or the green line and the red curve right and how do I compute that difference I can.
+just compute it by summing it up over all the points right so for every Point Let's assume you just.
+have 100 points on this axis then for all the hundred points I can compute what the average value is.
+going to be right that is the green value minus the red value and the square of that right so.
+that is what my ah average error is going to be but what I am defining as the bias is.
+that whatever is the average value right that divided by sorry that minus the True Value right so that's what.

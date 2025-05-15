@@ -1,0 +1,9 @@
+and text also you can do data augmentation and you also did this noise injection where at the output where.
+the input we were adding some noise to the inputs right so both at the input and output we had.
+manipulated the data a bit so that you add some noise and now the model cannot overfit because your data.
+itself has some noise right the other is you could change the architecture right so there we saw Dropout is.
+one such change then skip connections which are used in convolutional neural networks is another such thing and weight sharing.
+right which we just briefly touched upon we again looked at it in the case of Dropout but weight sharing.
+is again something which is used in convolutional neural networks and it acts as a good regularizer right and then.
+again pooling which is used in the context of convolutional neural networks all of these three I am mentioning here.
+for the sake of completeness but we'll see them in the context of cnns and that that time it will.

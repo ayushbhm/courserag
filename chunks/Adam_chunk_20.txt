@@ -1,0 +1,9 @@
+V2 would be V2 would be 0.999 into V naught plus 0.01 into 0 square and that would give me.
+this quantity okay and that is again a reasonably High Learning array right so what we are seeing is that.
+uh in the absence of bias correction this is not bias corrected I just took VT I did not take.
+VT hat right please note that so in the absence of bias correction as the paper says uh your initial.
+steps could be very large because your initial learning rate would be very high but now if I had done.
+bias correction okay and I had the same situation my w naught was 0.1 so now V naught is this.
+the bias collected value is 0.01 okay and now if I substitute this bias corrected value in ETA my effective.
+learning rate is 10 as opposed to 316 here right similarly V2 gives me a certain value if I bias.
+corrected it I get certain value and now my learning rate is 13.8 as opposed to 316 here right so.

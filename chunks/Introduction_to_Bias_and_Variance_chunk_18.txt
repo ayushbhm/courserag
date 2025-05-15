@@ -1,0 +1,9 @@
+while there is a huge variance in them you can see that on average the gap between the True Value.
+and the predicted value is much smaller if you look at on average across the entire x axis then if.
+you plug in different values of X and if you have to compute the error for all the values of.
+X it's much smaller here as compared to the simple model that's visually clear right I mean the complex model.
+is at least able to give me a sinusoidal shape whereas the simple model was not even able to do.
+that right okay so these are just observations that you are making and then we will try to formalize these.
+observations right yeah so simple models very close to each other not much variance between them complex models they're far.
+from each other that means there's High variance but simple models tend to underfit they are not even able to.
+give me a zero error on the training data itself whereas complex models are able to overfit they are giving.

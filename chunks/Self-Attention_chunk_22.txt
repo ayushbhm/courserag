@@ -1,0 +1,10 @@
+64 in the examples that I had done so there is uh some uh there's some justification for why you.
+need to do that I'll not go into it uh but for all practical purposes you're taking the dot product.
+and then just scaling it by some value right so this is what the dimensions look like as I had.
+already explained uh so you get all the capital T outputs and since you're taking the dot product and then.
+scaling it this is known as scaled dot product attention and this is how you should look at the series.
+of operations happening here right so you had Q you had K and B you did a matrix multiplication to.
+get Q transpose K when you did a scaling to get the scaled output then you did a soft Max.
+on that and then whatever you got as soft Max which would have been a matrix right this soft Max.
+of this entire thing this is again going to be a t cross T Matrix which is going to get.
+multiplied by a t cross 64 Matrix and that's the mat mile that I'm talking about here and then finally.

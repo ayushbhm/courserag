@@ -1,0 +1,9 @@
+recognizing handwritten digits right and the motivation at that time was this uh Postal Services where PIN codes and other.
+digits get written and you want to automatically be able to pass them to sort the letters according to the.
+PIN codes right so that's the application is trying to use convolutional neural networks to take an image of the.
+postcard and like kind of try to extract the handwritten digits from there and just uh and kind of do.
+a recognition of what that five digit number or seven digit number is and in 1998 from his initial model.
+in 1989 which was the laneet model uh he proposed several improvements and we had the lane at Phi model.
+in 1998 and this is also around the time when he introduced the now famous amnest data set right so.
+almost every newbie today uh in the first delve into deep learning that I think the among the first few.
+data sets that he experiment with is Ms so this data set was proposed in 1998 and this is what.

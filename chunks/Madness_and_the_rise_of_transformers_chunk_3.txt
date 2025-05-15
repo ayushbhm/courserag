@@ -1,0 +1,8 @@
+from a different lens of how the research and development output has increased in ai in the past few years.
+okay now again coming back to uh the technology side of things right so we talked about uh convolutional neural.
+networks recurrent neural networks and so on becoming very popular and solve becoming these state of the art de facto.
+models for speech and nlp right around this time while this was happening right ah in a very short span.
+of time while we were seeing all this success uh there came what is known as transformers and which is.
+again revolutionize the field of ai most models that you see today are transformer-based models so that's what we are.
+going to talk about now and you'll again go back in time and talk about machine translation so transformers are.
+first introduced in the context of nlp and machine translation so we'll go back to machine translation where the first.

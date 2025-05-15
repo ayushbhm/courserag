@@ -1,0 +1,8 @@
+that the brain is responsible for they are localized there are certain portions of the brain which are responsible for.
+speech certain for vision and so on and there was this another group which thought it's distributed that means different.
+parts of the brain connect in different ways to do different activities it's not that one part of speech and.
+the other part is so right and you can go back and look at this video i'll not play it.
+which is about this great brain debate about localized versus distributed processing and that again took a while to settle.
+right and now this is again important because again in modern deep networks we believe that it's more distributed different.
+parts interact with each other to do different things whereas there's also push for having what is known as localized.
+processing especially in modern multilingual models we want certain portions of the network to only adhere to computations related to.

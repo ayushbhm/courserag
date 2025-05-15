@@ -1,0 +1,10 @@
+the using the max Norm for VT as opposed to the L2 norm and that's it right so this is.
+as simple as it gets you just replace the uh L to num by the max norm and we can.
+also extend this to Adam when calling Adam access atom X is actually an algorithm that is used in practice.
+right so the key idea here was to use the maximum instead of the editor right okay so this is.
+what the update rule for Adam Max would be so this is Adam you had the momentum term you had.
+the bias correction that will remain the same then you had VT which was uh L to Norm and then.
+you had the bias correction but here you will have me T which is going to be the max knob.
+and since its Max Norm you don't need the bias correction and then you will have that update tool for.
+WT right so everything Remains the Same it's just the equation of VT that changes and VT does not need.
+bias correction in atom X right so that's all there is.

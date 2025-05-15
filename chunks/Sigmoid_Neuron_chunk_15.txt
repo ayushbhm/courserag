@@ -1,0 +1,9 @@
+one if not you say zeros this if else nature is what is bringing this discreetness right we're just saying.
+that okay it will suddenly become one right so it's the nature of the function itself this is a step.
+function right and there'll always be the sudden change whenever you have a set a threshold function right and as.
+I said like for most real world applications we don't want this we want the decision to be much smoother.
+where the difference between 0.49 and 0.51 is not yes and no right it should be something more smoother than.
+that right so let's see how do we get there now this looks like a smoother version of the function.
+right so what is happening here again this is my z-axis okay and this is what Z is right and.
+now I have not explained what this function is I have not given you the formula for the perceptron I.
+have given you a formula that Y is equal to 1 if something Y is equal to zero something I.

@@ -1,0 +1,9 @@
+idea of what i mean right it cannot find a line which separates the positive points from the negative points.
+okay so now with a single perceptron we cannot do this right now what i am going to show is.
+that with a network of perceptrons you can do that with the network of perceptrons whatever a network means i.
+have not defined what a network means we will define that with that you can separate positive points from negative.
+points even if the data is not linearly separable to begin with right but before we see that so you.
+start with this question right so how many boolean functions can you design from two inputs so let me start.
+with some easy ones and then we'll try to calculate the number of functions and i once i show you.
+a few patterns you should be able to guess the number of functions so these are two inputs given to.
+the u and here's one function that you know which is the always off function similarly the always on function.

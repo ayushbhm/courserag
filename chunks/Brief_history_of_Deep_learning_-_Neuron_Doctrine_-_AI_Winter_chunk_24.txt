@@ -1,0 +1,8 @@
+we need to start looking at hybrid methods or complete different alternatives to really push the frontier a bit more.
+right and this during this period which i'm calling the ai winter not i it's generally called the ai winter.
+there's also this abandonment of these ideas which were similar to deep learning at that time but some workforce of.
+course continued and in particular there was this back propagation algorithm which all of you would have read about in.
+blogs or various articles that you have read on deep learning this was again not something which has been discovered.
+in the last 10 15 years in fact it was discovered and rediscovered several times throughout 1960s and 70s and.
+of course there's not the benefit of having internet where if something gets discovered in one part of the world.
+it immediately propagates so you might not be aware that someone else has discovered it and independently discovered this algorithm.

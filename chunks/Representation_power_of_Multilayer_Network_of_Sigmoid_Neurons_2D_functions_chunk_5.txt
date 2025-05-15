@@ -1,0 +1,9 @@
+flatter in this direction right and now you can see b again just helps in movement along the direction right.
+so i can change the point at which the crossover happens by changing b so you can go back and.
+play around with this figure and animation and try to understand how changing the values of w1 and w2 affect.
+these uh this sigmoid function if i increase both something interesting happens right so you can just play with this.
+right so the point is again clear if i set the w1 very high i could again get the step.
+function and the orientation and all i can control and if i have b as i move b the step.
+function will move right at the threshold at which the crossover happens right so again the same idea as in.
+2d i can adjust the w's and b's to get something which looks like a step function right so now.
+let's try to construct a tower in 3d okay now i didn't want to show you this okay right so.

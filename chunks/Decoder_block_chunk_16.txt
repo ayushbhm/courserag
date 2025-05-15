@@ -1,0 +1,9 @@
+coming out from the encoder you'll again pass them through your standard QE uh key and value matrices right and.
+then you will have to words within the decoder or the representations coming from the decoder as the query right.
+so whatever has been decoded so far that will become the query and then you will pass it through this.
+normal attention Network right so now what happens is the following that let's understand this conceptually so This S1 to.
+St so far right I should call it S1 to S small Edge right that is the number of words.
+that have indicated so far those have been uh refined representations of your original words by looking at the context.
+also right the context came in through that summation Alpha V right so these are refined representations already but taking.
+care only of self attention that means within the decoder now you want to refine these representations further in the.
+light of whatever you had seen in the encoder right so now you want to take S1 as the input.

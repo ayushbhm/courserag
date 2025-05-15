@@ -1,0 +1,9 @@
+H2 dependent on H1 so hence you had all seen all the information up to or rather HD dependent on.
+HT minus one so when you are Computing HT you had information of all the T minus one Birds before.
+it that's where the contextual representation was coming out but at each step what you are doing is this right.
+so you are Computing a new representation for that word which was a context of a representation here looks like.
+more computations are happening but at the output you just have these Z1 Z2 Z5 so again you could think.
+of it as you have the excise as input and you are producing these zis as an output and these.
+z-is are again some kind of a contextual representation of the input that you have given that means zis are.
+not only aware of X I's they are also aware of all the other words in the uh sentence right.
+so that's that's what is happening here so the similarity is that RNN takes X1 to x y and gives.

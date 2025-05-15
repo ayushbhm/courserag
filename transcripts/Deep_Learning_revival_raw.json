@@ -1,0 +1,1142 @@
+[
+  {
+    "text": "foreign",
+    "start": 0.299,
+    "duration": 3.0
+  },
+  {
+    "text": "[Music]",
+    "start": 6.62,
+    "duration": 14.93
+  },
+  {
+    "text": "functions and initialization methods and",
+    "start": 26.42,
+    "duration": 6.94
+  },
+  {
+    "text": "these are all geared towards making deep",
+    "start": 29.279,
+    "duration": 6.3
+  },
+  {
+    "text": "learning or deep neural networks train",
+    "start": 33.36,
+    "duration": 4.5
+  },
+  {
+    "text": "better right so we'll first do a quick",
+    "start": 35.579,
+    "duration": 5.041
+  },
+  {
+    "text": "recap set the context about why we are",
+    "start": 37.86,
+    "duration": 4.14
+  },
+  {
+    "text": "talking about activation functions and",
+    "start": 40.62,
+    "duration": 3.42
+  },
+  {
+    "text": "initialization methods and then",
+    "start": 42.0,
+    "duration": 4.739
+  },
+  {
+    "text": "introduce a bunch of activation",
+    "start": 44.04,
+    "duration": 4.08
+  },
+  {
+    "text": "functions as well as initialization",
+    "start": 46.739,
+    "duration": 3.181
+  },
+  {
+    "text": "methods okay so let's start with a quick",
+    "start": 48.12,
+    "duration": 4.74
+  },
+  {
+    "text": "recap as I said so uh when you train",
+    "start": 49.92,
+    "duration": 4.5
+  },
+  {
+    "text": "neural networks so we started with this",
+    "start": 52.86,
+    "duration": 3.3
+  },
+  {
+    "text": "very simple Network which had just one",
+    "start": 54.42,
+    "duration": 3.54
+  },
+  {
+    "text": "parameter W in fact we started with two",
+    "start": 56.16,
+    "duration": 3.719
+  },
+  {
+    "text": "parameters wnb but I've just kept one",
+    "start": 57.96,
+    "duration": 4.32
+  },
+  {
+    "text": "parameter and we already saw how to",
+    "start": 59.879,
+    "duration": 4.441
+  },
+  {
+    "text": "train this network the idea was to use",
+    "start": 62.28,
+    "duration": 3.96
+  },
+  {
+    "text": "gradient descent or any of its variants",
+    "start": 64.32,
+    "duration": 4.619
+  },
+  {
+    "text": "and the main ingredient there was to",
+    "start": 66.24,
+    "duration": 4.98
+  },
+  {
+    "text": "update the weight using some kind of an",
+    "start": 68.939,
+    "duration": 4.741
+  },
+  {
+    "text": "update rule which internally contained",
+    "start": 71.22,
+    "duration": 4.68
+  },
+  {
+    "text": "the derivative right so this is the",
+    "start": 73.68,
+    "duration": 6.299
+  },
+  {
+    "text": "quantity that was important",
+    "start": 75.9,
+    "duration": 6.899
+  },
+  {
+    "text": "and we saw various variants of the",
+    "start": 79.979,
+    "duration": 4.621
+  },
+  {
+    "text": "gradient descent algorithm but in all of",
+    "start": 82.799,
+    "duration": 4.081
+  },
+  {
+    "text": "these the gradient shows up in one way",
+    "start": 84.6,
+    "duration": 3.659
+  },
+  {
+    "text": "or the other right so this is a quantity",
+    "start": 86.88,
+    "duration": 5.64
+  },
+  {
+    "text": "which is important ah and uh we also saw",
+    "start": 88.259,
+    "duration": 6.121
+  },
+  {
+    "text": "how to this how to compute this quantity",
+    "start": 92.52,
+    "duration": 5.4
+  },
+  {
+    "text": "right so uh we saw we had derived this",
+    "start": 94.38,
+    "duration": 5.4
+  },
+  {
+    "text": "for the simple Network and the key",
+    "start": 97.92,
+    "duration": 4.32
+  },
+  {
+    "text": "observation that we had made there was",
+    "start": 99.78,
+    "duration": 3.839
+  },
+  {
+    "text": "that the derivative is actually",
+    "start": 102.24,
+    "duration": 3.78
+  },
+  {
+    "text": "proportional to the input X right that's",
+    "start": 103.619,
+    "duration": 4.14
+  },
+  {
+    "text": "the one important observation that we",
+    "start": 106.02,
+    "duration": 5.279
+  },
+  {
+    "text": "had made and that also had kind of aided",
+    "start": 107.759,
+    "duration": 5.701
+  },
+  {
+    "text": "our discussion on what happens when the",
+    "start": 111.299,
+    "duration": 3.96
+  },
+  {
+    "text": "input is passed because in most cases",
+    "start": 113.46,
+    "duration": 3.9
+  },
+  {
+    "text": "this x would be 0 and then we came up",
+    "start": 115.259,
+    "duration": 3.661
+  },
+  {
+    "text": "with these adaptive methods and so on",
+    "start": 117.36,
+    "duration": 3.42
+  },
+  {
+    "text": "right so this observation we have made a",
+    "start": 118.92,
+    "duration": 3.9
+  },
+  {
+    "text": "column of couple of times before about",
+    "start": 120.78,
+    "duration": 4.56
+  },
+  {
+    "text": "the derivative formula having this X as",
+    "start": 122.82,
+    "duration": 4.619
+  },
+  {
+    "text": "a factor and hence if x is large",
+    "start": 125.34,
+    "duration": 3.66
+  },
+  {
+    "text": "something can happen if x is small",
+    "start": 127.439,
+    "duration": 3.8
+  },
+  {
+    "text": "something can happen and so on right",
+    "start": 129.0,
+    "duration": 7.4
+  },
+  {
+    "text": "yeah so uh then from this",
+    "start": 131.239,
+    "duration": 8.321
+  },
+  {
+    "text": "very thin and very shallow Network we",
+    "start": 136.4,
+    "duration": 5.199
+  },
+  {
+    "text": "went to wider Network which had many",
+    "start": 139.56,
+    "duration": 4.2
+  },
+  {
+    "text": "inputs but it's still a shallow Network",
+    "start": 141.599,
+    "duration": 4.201
+  },
+  {
+    "text": "there's only one layer input and now in",
+    "start": 143.76,
+    "duration": 3.3
+  },
+  {
+    "text": "fact there's no layer input and output",
+    "start": 145.8,
+    "duration": 3.6
+  },
+  {
+    "text": "that's it and even in this case when the",
+    "start": 147.06,
+    "duration": 3.899
+  },
+  {
+    "text": "update rule Remains the Same it's just",
+    "start": 149.4,
+    "duration": 3.24
+  },
+  {
+    "text": "that the same update will applies to all",
+    "start": 150.959,
+    "duration": 4.5
+  },
+  {
+    "text": "the parameters and the derivative for",
+    "start": 152.64,
+    "duration": 4.86
+  },
+  {
+    "text": "any parameter again shows up this red",
+    "start": 155.459,
+    "duration": 4.321
+  },
+  {
+    "text": "term here which is the input connected",
+    "start": 157.5,
+    "duration": 4.14
+  },
+  {
+    "text": "to that way right so again this term was",
+    "start": 159.78,
+    "duration": 4.62
+  },
+  {
+    "text": "showing up and if this is high low 0 and",
+    "start": 161.64,
+    "duration": 5.04
+  },
+  {
+    "text": "so on uh we saw what are the",
+    "start": 164.4,
+    "duration": 4.979
+  },
+  {
+    "text": "ramifications of that right similarly",
+    "start": 166.68,
+    "duration": 4.98
+  },
+  {
+    "text": "now if you have a thin network but a",
+    "start": 169.379,
+    "duration": 4.261
+  },
+  {
+    "text": "deeper Network we still use the",
+    "start": 171.66,
+    "duration": 4.02
+  },
+  {
+    "text": "derivative it's just that we compute the",
+    "start": 173.64,
+    "duration": 4.5
+  },
+  {
+    "text": "derivative using a chain rule but",
+    "start": 175.68,
+    "duration": 3.96
+  },
+  {
+    "text": "nothing else changes right I mean the",
+    "start": 178.14,
+    "duration": 3.12
+  },
+  {
+    "text": "conceptually everything Remains the Same",
+    "start": 179.64,
+    "duration": 5.04
+  },
+  {
+    "text": "and again in this chain rule this H 0",
+    "start": 181.26,
+    "duration": 5.58
+  },
+  {
+    "text": "has shown up here which is again the",
+    "start": 184.68,
+    "duration": 4.8
+  },
+  {
+    "text": "input to the network and this is for the",
+    "start": 186.84,
+    "duration": 5.22
+  },
+  {
+    "text": "weight W1 but in general for any weight",
+    "start": 189.48,
+    "duration": 4.5
+  },
+  {
+    "text": "you had some formula for the derivative",
+    "start": 192.06,
+    "duration": 3.539
+  },
+  {
+    "text": "we don't care what the actual formula",
+    "start": 193.98,
+    "duration": 3.479
+  },
+  {
+    "text": "was but all we care about is there was",
+    "start": 195.599,
+    "duration": 5.761
+  },
+  {
+    "text": "this term h of I minus 1 uh sorry this",
+    "start": 197.459,
+    "duration": 7.221
+  },
+  {
+    "text": "should have been suffix",
+    "start": 201.36,
+    "duration": 3.32
+  },
+  {
+    "text": "it's I minus 1 and not like h i minus 1",
+    "start": 204.9,
+    "duration": 5.22
+  },
+  {
+    "text": "right so it's just the suffix is I minus",
+    "start": 208.08,
+    "duration": 5.22
+  },
+  {
+    "text": "one and for w one of course I minus 1",
+    "start": 210.12,
+    "duration": 5.94
+  },
+  {
+    "text": "would be 0 so H 0 showed up here and at",
+    "start": 213.3,
+    "duration": 5.88
+  },
+  {
+    "text": "0 was the same as X the input but for",
+    "start": 216.06,
+    "duration": 5.759
+  },
+  {
+    "text": "any layer if I'm looking at this layer",
+    "start": 219.18,
+    "duration": 4.619
+  },
+  {
+    "text": "then the derivative of the loss function",
+    "start": 221.819,
+    "duration": 4.14
+  },
+  {
+    "text": "with respect to this weight is going to",
+    "start": 223.799,
+    "duration": 4.8
+  },
+  {
+    "text": "be proportional to H2 that means the",
+    "start": 225.959,
+    "duration": 4.321
+  },
+  {
+    "text": "input that this weight was connected",
+    "start": 228.599,
+    "duration": 4.14
+  },
+  {
+    "text": "right so the H's are the inputs coming",
+    "start": 230.28,
+    "duration": 4.26
+  },
+  {
+    "text": "from the previous layer they are of",
+    "start": 232.739,
+    "duration": 4.261
+  },
+  {
+    "text": "course also the output of some layer but",
+    "start": 234.54,
+    "duration": 3.9
+  },
+  {
+    "text": "for this current layer they are the",
+    "start": 237.0,
+    "duration": 3.18
+  },
+  {
+    "text": "input right so the derivatives are",
+    "start": 238.44,
+    "duration": 3.84
+  },
+  {
+    "text": "always proportional to the inputs",
+    "start": 240.18,
+    "duration": 3.419
+  },
+  {
+    "text": "connected to the weight so that's the",
+    "start": 242.28,
+    "duration": 3.599
+  },
+  {
+    "text": "main observation that we had made and",
+    "start": 243.599,
+    "duration": 5.341
+  },
+  {
+    "text": "I'm just repeating that in this uh recap",
+    "start": 245.879,
+    "duration": 5.22
+  },
+  {
+    "text": "that we are doing",
+    "start": 248.94,
+    "duration": 6.54
+  },
+  {
+    "text": "right uh okay now uh if if there is a",
+    "start": 251.099,
+    "duration": 6.721
+  },
+  {
+    "text": "network which is deep and wide again we",
+    "start": 255.48,
+    "duration": 4.2
+  },
+  {
+    "text": "calculated the same thing we calculated",
+    "start": 257.82,
+    "duration": 3.24
+  },
+  {
+    "text": "the derivative of the loss function with",
+    "start": 259.68,
+    "duration": 3.54
+  },
+  {
+    "text": "respect to any weight by using this",
+    "start": 261.06,
+    "duration": 4.26
+  },
+  {
+    "text": "chain rule applied across multiple Parts",
+    "start": 263.22,
+    "duration": 4.14
+  },
+  {
+    "text": "not just one path but three different",
+    "start": 265.32,
+    "duration": 6.5
+  },
+  {
+    "text": "parts here and again we saw uh some uh",
+    "start": 267.36,
+    "duration": 6.839
+  },
+  {
+    "text": "formula for this and we derived this in",
+    "start": 271.82,
+    "duration": 4.36
+  },
+  {
+    "text": "quite detail when we studied the back",
+    "start": 274.199,
+    "duration": 4.56
+  },
+  {
+    "text": "propagation algorithm right so now the",
+    "start": 276.18,
+    "duration": 3.98
+  },
+  {
+    "text": "question is",
+    "start": 278.759,
+    "duration": 4.141
+  },
+  {
+    "text": "are the points to remember right now are",
+    "start": 280.16,
+    "duration": 4.9
+  },
+  {
+    "text": "that training neural networks is a game",
+    "start": 282.9,
+    "duration": 4.2
+  },
+  {
+    "text": "of gradients you have you compute",
+    "start": 285.06,
+    "duration": 3.66
+  },
+  {
+    "text": "gradients at every layer and then you",
+    "start": 287.1,
+    "duration": 3.3
+  },
+  {
+    "text": "use whatever variant or your favorite",
+    "start": 288.72,
+    "duration": 4.08
+  },
+  {
+    "text": "variant of the gradient based approach",
+    "start": 290.4,
+    "duration": 4.739
+  },
+  {
+    "text": "it could be momentum nag atom add a Max",
+    "start": 292.8,
+    "duration": 3.899
+  },
+  {
+    "text": "whatever you want to use but the",
+    "start": 295.139,
+    "duration": 3.361
+  },
+  {
+    "text": "derivators will get used inside them",
+    "start": 296.699,
+    "duration": 4.021
+  },
+  {
+    "text": "right and this gradient is the way of",
+    "start": 298.5,
+    "duration": 3.78
+  },
+  {
+    "text": "quantifying the responsibility of the",
+    "start": 300.72,
+    "duration": 3.12
+  },
+  {
+    "text": "parameter towards the loss the higher",
+    "start": 302.28,
+    "duration": 2.76
+  },
+  {
+    "text": "the gradient higher the responsibility",
+    "start": 303.84,
+    "duration": 2.88
+  },
+  {
+    "text": "lower the gradient lower the",
+    "start": 305.04,
+    "duration": 3.36
+  },
+  {
+    "text": "responsibility right and the gradient",
+    "start": 306.72,
+    "duration": 3.3
+  },
+  {
+    "text": "with respect to a parameter is",
+    "start": 308.4,
+    "duration": 3.48
+  },
+  {
+    "text": "proportional to the input connected to",
+    "start": 310.02,
+    "duration": 4.679
+  },
+  {
+    "text": "that parameter in the single or the",
+    "start": 311.88,
+    "duration": 5.16
+  },
+  {
+    "text": "input output Network this input was just",
+    "start": 314.699,
+    "duration": 4.56
+  },
+  {
+    "text": "X in a multi-layer network it's just the",
+    "start": 317.04,
+    "duration": 3.9
+  },
+  {
+    "text": "input from the previous layer which is h",
+    "start": 319.259,
+    "duration": 3.901
+  },
+  {
+    "text": "i minus 1 right so that's these are",
+    "start": 320.94,
+    "duration": 3.9
+  },
+  {
+    "text": "things to remember",
+    "start": 323.16,
+    "duration": 5.64
+  },
+  {
+    "text": "now things to uh wonder about are that",
+    "start": 324.84,
+    "duration": 5.52
+  },
+  {
+    "text": "we learned this back propagation",
+    "start": 328.8,
+    "duration": 3.06
+  },
+  {
+    "text": "algorithm right and we said that this is",
+    "start": 330.36,
+    "duration": 3.059
+  },
+  {
+    "text": "the basis for training all the Deep",
+    "start": 331.86,
+    "duration": 3.54
+  },
+  {
+    "text": "neural networks right and we saw feed",
+    "start": 333.419,
+    "duration": 4.141
+  },
+  {
+    "text": "forward neural networks already later on",
+    "start": 335.4,
+    "duration": 4.019
+  },
+  {
+    "text": "in the course we will see convolutional",
+    "start": 337.56,
+    "duration": 3.479
+  },
+  {
+    "text": "neural networks recurrent neural",
+    "start": 339.419,
+    "duration": 4.021
+  },
+  {
+    "text": "networks and then Transformers and for",
+    "start": 341.039,
+    "duration": 4.621
+  },
+  {
+    "text": "all of them training happens using the",
+    "start": 343.44,
+    "duration": 4.5
+  },
+  {
+    "text": "back propagation algorithm right so is",
+    "start": 345.66,
+    "duration": 4.56
+  },
+  {
+    "text": "it that this back propagation algorithm",
+    "start": 347.94,
+    "duration": 5.039
+  },
+  {
+    "text": "was something that was discovered in the",
+    "start": 350.22,
+    "duration": 6.06
+  },
+  {
+    "text": "last decade maybe around 2009 2010 and",
+    "start": 352.979,
+    "duration": 4.681
+  },
+  {
+    "text": "then deep learning became so popular",
+    "start": 356.28,
+    "duration": 3.78
+  },
+  {
+    "text": "because we have been uh we I mean kind",
+    "start": 357.66,
+    "duration": 3.479
+  },
+  {
+    "text": "of know that deep learning has been",
+    "start": 360.06,
+    "duration": 4.5
+  },
+  {
+    "text": "popular since 2009 2010 in NLP maybe",
+    "start": 361.139,
+    "duration": 5.881
+  },
+  {
+    "text": "around 2014 and so on but in the last",
+    "start": 364.56,
+    "duration": 4.74
+  },
+  {
+    "text": "decade right so is it that around that",
+    "start": 367.02,
+    "duration": 4.739
+  },
+  {
+    "text": "time this algorithm got discovered and",
+    "start": 369.3,
+    "duration": 5.04
+  },
+  {
+    "text": "then we all started switching to deep",
+    "start": 371.759,
+    "duration": 4.38
+  },
+  {
+    "text": "neural networks no actually right so the",
+    "start": 374.34,
+    "duration": 4.62
+  },
+  {
+    "text": "back propagation algorithm existed much",
+    "start": 376.139,
+    "duration": 5.701
+  },
+  {
+    "text": "before anything late 70s or even before",
+    "start": 378.96,
+    "duration": 5.16
+  },
+  {
+    "text": "that if for all I know but I definitely",
+    "start": 381.84,
+    "duration": 5.28
+  },
+  {
+    "text": "know that in 90 1986 there was this it",
+    "start": 384.12,
+    "duration": 4.68
+  },
+  {
+    "text": "was made popular in the context of",
+    "start": 387.12,
+    "duration": 5.519
+  },
+  {
+    "text": "neural networks by rumala heart and team",
+    "start": 388.8,
+    "duration": 6.239
+  },
+  {
+    "text": "right so it has existed for a long time",
+    "start": 392.639,
+    "duration": 4.981
+  },
+  {
+    "text": "so what was happening since from 1986 to",
+    "start": 395.039,
+    "duration": 5.16
+  },
+  {
+    "text": "2009 2010 when deep learning became",
+    "start": 397.62,
+    "duration": 4.68
+  },
+  {
+    "text": "really popular right why was deep",
+    "start": 400.199,
+    "duration": 4.62
+  },
+  {
+    "text": "learning not so popular in the 90s or",
+    "start": 402.3,
+    "duration": 4.98
+  },
+  {
+    "text": "early 2000s given that the algorithm",
+    "start": 404.819,
+    "duration": 4.32
+  },
+  {
+    "text": "used for training it existed back then",
+    "start": 407.28,
+    "duration": 3.3
+  },
+  {
+    "text": "right so what was stopping it from",
+    "start": 409.139,
+    "duration": 2.941
+  },
+  {
+    "text": "becoming popular",
+    "start": 410.58,
+    "duration": 4.86
+  },
+  {
+    "text": "so the issue is that while this",
+    "start": 412.08,
+    "duration": 5.339
+  },
+  {
+    "text": "algorithm existed in theory you know",
+    "start": 415.44,
+    "duration": 3.66
+  },
+  {
+    "text": "that you can train a deep neural network",
+    "start": 417.419,
+    "duration": 4.081
+  },
+  {
+    "text": "by just chaining the gradients and",
+    "start": 419.1,
+    "duration": 4.02
+  },
+  {
+    "text": "Computing the gradients using the chain",
+    "start": 421.5,
+    "duration": 4.38
+  },
+  {
+    "text": "rule in practice when you're trying to",
+    "start": 423.12,
+    "duration": 4.5
+  },
+  {
+    "text": "train deep neural networks as deep as",
+    "start": 425.88,
+    "duration": 3.659
+  },
+  {
+    "text": "four or five layers",
+    "start": 427.62,
+    "duration": 3.66
+  },
+  {
+    "text": "it was not very successful right and",
+    "start": 429.539,
+    "duration": 3.241
+  },
+  {
+    "text": "what I mean by successful not successful",
+    "start": 431.28,
+    "duration": 3.24
+  },
+  {
+    "text": "is that the networks did not converge",
+    "start": 432.78,
+    "duration": 3.72
+  },
+  {
+    "text": "right did not converge reliably of",
+    "start": 434.52,
+    "duration": 3.06
+  },
+  {
+    "text": "course a lot of other things have",
+    "start": 436.5,
+    "duration": 3.66
+  },
+  {
+    "text": "changed now you have faster compute so",
+    "start": 437.58,
+    "duration": 4.5
+  },
+  {
+    "text": "earlier if you had to use a certain",
+    "start": 440.16,
+    "duration": 3.78
+  },
+  {
+    "text": "number of flops then you would need so",
+    "start": 442.08,
+    "duration": 3.839
+  },
+  {
+    "text": "many days of computation now maybe you",
+    "start": 443.94,
+    "duration": 4.199
+  },
+  {
+    "text": "need a few days of computation so that",
+    "start": 445.919,
+    "duration": 4.441
+  },
+  {
+    "text": "has changed but in general there were",
+    "start": 448.139,
+    "duration": 5.101
+  },
+  {
+    "text": "other things other more uh theoretical",
+    "start": 450.36,
+    "duration": 5.339
+  },
+  {
+    "text": "things because of which it was hard to",
+    "start": 453.24,
+    "duration": 3.959
+  },
+  {
+    "text": "train deep neural network it's not just",
+    "start": 455.699,
+    "duration": 3.601
+  },
+  {
+    "text": "a com issue of compute right so there",
+    "start": 457.199,
+    "duration": 3.9
+  },
+  {
+    "text": "are three things that have changed since",
+    "start": 459.3,
+    "duration": 3.839
+  },
+  {
+    "text": "the 1990s right one is of course we have",
+    "start": 461.099,
+    "duration": 4.32
+  },
+  {
+    "text": "much more data now so if you have many",
+    "start": 463.139,
+    "duration": 4.201
+  },
+  {
+    "text": "parameters to train as a deep neural",
+    "start": 465.419,
+    "duration": 3.481
+  },
+  {
+    "text": "network would have you need larger",
+    "start": 467.34,
+    "duration": 3.6
+  },
+  {
+    "text": "amount of data that we have you need",
+    "start": 468.9,
+    "duration": 4.32
+  },
+  {
+    "text": "faster compute we have that but there",
+    "start": 470.94,
+    "duration": 3.9
+  },
+  {
+    "text": "were some other things also which needed",
+    "start": 473.22,
+    "duration": 3.36
+  },
+  {
+    "text": "to fall in place and that's what we'll",
+    "start": 474.84,
+    "duration": 3.66
+  },
+  {
+    "text": "focus on in this lecture right so it's",
+    "start": 476.58,
+    "duration": 4.019
+  },
+  {
+    "text": "not that this suddenly got discovered in",
+    "start": 478.5,
+    "duration": 4.38
+  },
+  {
+    "text": "2019 and then people started using deep",
+    "start": 480.599,
+    "duration": 5.641
+  },
+  {
+    "text": "learning right so until 2006 it was very",
+    "start": 482.88,
+    "duration": 7.379
+  },
+  {
+    "text": "hard to train them and in 2006 there was",
+    "start": 486.24,
+    "duration": 6.079
+  },
+  {
+    "text": "a seminal work that I'll talk about",
+    "start": 490.259,
+    "duration": 4.681
+  },
+  {
+    "text": "which allowed us to train deep neural",
+    "start": 492.319,
+    "duration": 4.901
+  },
+  {
+    "text": "networks and that suddenly sparked or",
+    "start": 494.94,
+    "duration": 3.72
+  },
+  {
+    "text": "revived the interest in deep neural",
+    "start": 497.22,
+    "duration": 3.78
+  },
+  {
+    "text": "networks and from then on we have seen",
+    "start": 498.66,
+    "duration": 4.02
+  },
+  {
+    "text": "the success story which has led us to",
+    "start": 501.0,
+    "duration": 4.62
+  },
+  {
+    "text": "where we are currently in 2022 right so",
+    "start": 502.68,
+    "duration": 5.28
+  },
+  {
+    "text": "we will talk about what happened in this",
+    "start": 505.62,
+    "duration": 5.579
+  },
+  {
+    "text": "initial years from 2006 to 2019 which",
+    "start": 507.96,
+    "duration": 5.34
+  },
+  {
+    "text": "kind of helped us train this deep neural",
+    "start": 511.199,
+    "duration": 4.2
+  },
+  {
+    "text": "networks and what was the effect of that",
+    "start": 513.3,
+    "duration": 4.08
+  },
+  {
+    "text": "and how is that connected to the lecture",
+    "start": 515.399,
+    "duration": 3.961
+  },
+  {
+    "text": "that we are looking at today right so",
+    "start": 517.38,
+    "duration": 4.92
+  },
+  {
+    "text": "that's going to be the focus",
+    "start": 519.36,
+    "duration": 4.739
+  },
+  {
+    "text": "so I'll end this video here and I'll",
+    "start": 522.3,
+    "duration": 3.72
+  },
+  {
+    "text": "come back and talk about unsupervised",
+    "start": 524.099,
+    "duration": 4.201
+  },
+  {
+    "text": "pre-training which is something that",
+    "start": 526.02,
+    "duration": 4.56
+  },
+  {
+    "text": "happened in 2006 and enabled the",
+    "start": 528.3,
+    "duration": 5.539
+  },
+  {
+    "text": "training of DPR Networks",
+    "start": 530.58,
+    "duration": 3.259
+  }
+]

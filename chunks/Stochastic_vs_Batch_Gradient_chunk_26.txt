@@ -1,0 +1,8 @@
+this mini batch size would be a bit dependent on the application that you're using and as I said in.
+NLP when you're using Transformers some popular batch sizes are force uh around 4096 but it again there's nothing to.
+memorize here or tell you this is a good value as you read papers and look at existing implementations of.
+uh these algorithms you will understand what the right batch size is to use is all I'm saying is that.
+in practice you'll use the mini batch version of these algorithms and there would be slight sensitivity to the bats.
+size okay yeah so now again before going to uh some of the other algorithms which I want to cover.
+I'll talk a bit about adjusting the learning rate and the moment right uh so uh so let's look at.
+what the problem is.

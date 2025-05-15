@@ -1,0 +1,9 @@
+[Music] um welcome back so we are in the next module now where we'll be talking about the perceptron learning.
+algorithm right so far we introduced the perceptron we saw that the decision boundary that the perceptron learns is linear.
+and then we introduce this concept of error where if the weights are not proper or if w1 w2 values.
+are not proper then you will make some errors in dividing the points into the right half spaces right so.
+that's that's what we have learned so far but we did not talk about how did we get in this.
+w1 wt we were mainly trying to adjust it by hand so now we look at the perceptron learning algorithm.
+which allows us to learn these ways right so now before we do that let us try to understand that.
+apart from implementing boolean functions right i mean which does not look very interesting right why would you care about.
+boolean functions so what is it that the perceptron can be used for and what is this connection to the.

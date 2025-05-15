@@ -1,0 +1,10 @@
+had were these H1 to HT right so you had these word representations for the keywords and we were calling.
+them as H1 H2 and so on right now from the H1 H2 what happens uh you pass them through.
+the linear projection right through the WQ W K and W V matrices to get the Q K and V.
+matrices right so this is just multiplying WQ by these vectors and you just stack up these vectors into a.
+matrix so that you can use this 2W key multiplied by that H Matrix right let's just call it h.
+then you get the Q Matrix similarly w k multiplied by this gives you the K Matrix and WV multiplied.
+by this gives you the V Matrix right all of this happening in parallel as uh three Matrix operations then.
+you get the qkv and then this is what happens inside the self-attention head and at the output what do.
+you get you get a Z1 you get Z1 Z2 all the way up to ZT right so this is.
+what we had seen uh when we ended the last lecture now this is called one head so what what.

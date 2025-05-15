@@ -1,0 +1,10 @@
+in a vector this is nothing but Theta t plus 1 okay maybe not the best choice of colors here.
+if I put this in a vector this is Theta t and if I put this quantity in a vector.
+then this is the gradient of the loss function with respect to Theta right okay at time step T right.
+at the time step T right so now let's try to again uh clarify the notation so this are the.
+entire thing I can write in Vector form that's what I've just shown now some more clarification so what does.
+this quantity Delta WT mean right so Delta WT is the partial derivative of the loss function which is a.
+function of two variables W and B with respect to W and then evaluated at w is equal to WT.
+and B is equal to BT what does that mean so now if I have the function is W square.
+plus b square then the formula would be 2W 2B right this is what the formulaic representation of the gradient.
+would be but now I can evaluate this at the current value of my w right so I'll just substitute.

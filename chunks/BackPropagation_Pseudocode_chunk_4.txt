@@ -1,0 +1,9 @@
+you have computed the activations for all the layers including the output layer activations and free activations and then you.
+have computed the output also and this is all you need to compute the loss so if you have y.
+hat you can also compute the loss right so once you do the forward propagation you have all the edges.
+all the A's and the Y hat now you start doing the backward propagation so first what will you do.
+you will compute the gradient with respect to the output layer and this is what our formula was now this.
+you already know because you have computed in the forward propagation this is just the one hot Vector where there.
+will be a one in the correct class and this you know from the training data right you know for.
+this example what is the correct class right so this entire algorithm is run for one example for now okay.
+one input X so that input you know what the Y Vector is and that's why you can compute the.

@@ -1,0 +1,10 @@
+such cyclic learning rate which is the Triangular schedule that you could use and this here mu which is the.
+uh period right so you could mu is 20 here so that that is the number of time steps it.
+takes from going to the minimum value to the maximum value and once it reaches the maximum value it again.
+goes down right so on the x axis you have the learning rate and this is the maximum value which.
+is in this case is 0.5 the minimum value is 0.01 and the value at any time step can be.
+given by this uh complex equation but it just looks complex if you break it down it's very simple so.
+let's look at it right so if T is equal to 20 I'll just substitute the value t equal to.
+20 in this equation let me just get rid of the annotations yeah so let me just substitute the value.
+t equal to 20. now uh I'm going to substitute it here first right so when I'm Computing this quantity.
+it's turning out to be T right so everything inside the bracket is T oops and now I'm looking at.

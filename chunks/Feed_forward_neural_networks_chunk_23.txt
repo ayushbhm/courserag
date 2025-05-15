@@ -1,0 +1,10 @@
+you have data which comprises of x's and y's so that is there i have the x i have the.
+y's and i want to now come up with a model okay which is my approximation of the result of.
+the relation between x and y and here i'm not come up with a model i'm not given you a.
+function actually i've come up with a model but i've not given you what that function is i've just given.
+you a diagram right so now can you write down that function right can you write down f hat so.
+you could pause the video here and try to write it on your own and when you come back i'll.
+just talk about it okay so let me talk about it so this is what the function is right this.
+is exactly what the function looks like so let me explain you had the input x what did you do.
+to the input you multiplied it by the w1 weight and added the b1 vector what did you get here.
+you got a one right you got this output okay then what did you do you passed that through a.

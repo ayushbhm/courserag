@@ -1,0 +1,10 @@
+computing these derivatives so now i am taking derivative of a l i with respect to uh the exponent of.
+a l l right so let's see what am i trying to do again i had this vector a l.
+which had components a l 1 a l 2 all the way raised to a l k right now i.
+am considering this quantity which is what e raised to a l l okay there's no denominator here right it's.
+just e raised to a l i'm trying to take the derivative of that with respect to one of the.
+uh guys here right and again you can notice that this only depends on uh one of the elements here.
+where corresponding to the l entry here it does not depend on the other guys so this would be zero.
+if i happens to be anything other than l otherwise it would be 1 right and we just saw how.
+to deal with this on the previous slide so i am going to write it as this that it's going.
+to be e raised to x right you understand what i am calling as e raised to x so the.

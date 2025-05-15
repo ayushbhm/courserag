@@ -1,0 +1,9 @@
+composition gives you a better way and do this search in an Optimum way using some ideas from RL and.
+then do you arrive at better activation functions right so they did this and the many activation functions popped out.
+right so you can see for reference here this one looks somewhat like the elu gelu family right but there.
+are other activation functions which also popped out and what they uh arrived it as that any function of this.
+form which is X into sigmoid of a beta into X is a good activation function and this is actually.
+uh the swish activation function and if you set the constant to 1.702 then you get uh gelu or if.
+you make it a learnable parameter then you have uh the switch activation function right so they again when they.
+try to search this they again arrived at this form which was similar to the form that gelu had and.
+the generic form which is parametric is called Swish and if you set it to a specific value then you.

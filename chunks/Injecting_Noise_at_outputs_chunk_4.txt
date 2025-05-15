@@ -1,0 +1,7 @@
+think of this this was actually your true loss earlier without regularization right so you can think of this as.
+L Theta so now you have some weighted L Theta so let me just call it as alpha 1 L.
+Theta where alpha 1 is 1 minus Epsilon and then you have Plus or let me just call it 1.
+minus Epsilon only right so you have 1 minus Epsilon times your earlier loss plus Epsilon times some other loss.
+which I can call as Omega Theta now so again you can see that you are doing some kind of.
+a regularization here and that will help avoid overfitting right so that's the idea behind adding noise to the output.
+levels so we'll end this here.

@@ -1,0 +1,9 @@
+then after that there were no offenses right but what is happening here right is that since the second person.
+is black and the model has a certain bias towards black people it is recommending or it is uh falsely.
+judging right or in a very biased way uh judging that this person has a higher chance of becoming a.
+criminal in the future right so it's biased against blacks it's not fair to black set and this is a.
+repeating theme in various ai models where they are biased based on the biases that they see in the training.
+data maybe this model saw a lot of images during training of black people who were criminals maybe that's the.
+bias in the data that you had and most white people images that it show they were not criminals right.
+and that bias then gets reflected in the outputs that the model generates uh when deployed in real-world situations right.
+uh similar studies were done on facial recognition software and it was found people took the uh facial recognition systems.

@@ -1,0 +1,9 @@
+saturate and if they saturate then the training kind of becomes problematic because the gradients are not flowing through right.
+and if if the neuron is saturating with a value one that means actually these weights were like uh strongly.
+participating in the output right and hence they would have had some impact on the loss function but that signal.
+will not flow back to these weights because the derivatives have died right so that's a serious problem so this.
+could lead to challenges during training since this is not a good the next problem is that sigmoids are not.
+a zero Center that's again obvious from the plot because the plot is from zero to one zero centered would.
+be something like say from example minus one to one so there is a zero in between so it's equally.
+distributed around zero whereas this itself starts from zero and goes to one so the center is around 0.5 right.
+so what if it's not zero center right what could the possible what could the problem be right so now.

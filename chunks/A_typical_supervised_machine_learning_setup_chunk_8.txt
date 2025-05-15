@@ -1,0 +1,10 @@
+okay this is a vector which belongs to r let me just call it m right because i'm using n.
+for something else and i have n such data points right so in my uh just i have n such.
+data points so in my oil mining case uh i'm assuming that there are already n drilling stations set up.
+somewhere and i have all the data about them right what was the pressure what was the salinity these end.
+points by which i am defining a location or characterizing a location and i also know the y for them.
+right so i have a m dimensional input i have a single dimensional output which is the amount of oil.
+in mind for them and i have given some n such training points right so this is what a typical.
+machine learning setup looks like similarly if i look at the other example where i had the credit card or.
+maybe i had the bank interest rate that i wanted to decide right so i have the past history of.
+the person and this history is being characterized by various things what is the salary of the person what is.

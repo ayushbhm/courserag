@@ -1,0 +1,9 @@
+[Music] okay so we are now at the last uh module for lecture two where we will be introducing a.
+network of perceptrons right so now the word network has come in and will be seeing what a network looks.
+like and then we will talk about the representation power of such a network of perceptrons right so what we.
+are going to do is we are going to see how do you implement any boolean function irrespective of whether.
+it is linearly separable or not to begin with using a network of perceptrons although we know that we're using.
+a single perceptron we cannot build it all right we cannot implement okay so now for this discussion uh this.
+is more like an illustrative proof right so we are going to not have a proof which has like a.
+set of mathematical steps it will just be like we'll prove something by constructing a network itself right so let's.
+for this discussion right we'll assume that uh true is equal to plus 1 and false equal to minus 1.

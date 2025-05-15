@@ -1,0 +1,9 @@
+neuron which had a range between minus one to one then it would have been possible some of these Blues.
+were positive some of these Blues were negative and then accordingly the the vectors the elements of the vector some.
+of them would be positive some of them would be negative but because you are using a sigmoid neuron all.
+W's are positive and hence all the elements of the gradient Vector would have the same sign now what is.
+the problem with that that is I've just told you what the what is happening but we don't know what.
+the problem with that is right so this is just in words whatever I explained so let's see what the.
+problem is right so this is the uh uh say derivative of the partial derivative with respect to W1 partial.
+derivative with respect to W2 so now if I consider the plane right which has uh all possible values of.
+partial derivative of W1 and W2 so now which are the quadrants which are possible either the quadrant where both.

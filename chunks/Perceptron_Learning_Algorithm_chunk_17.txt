@@ -1,0 +1,10 @@
+decrease from where it is currently because right now i am in a bad situation and that's what i should.
+do so let's see if what happens if we do this update so this is the update that we do.
+our goal was to want it to be less than 90 degrees we somehow ignored that goal and went ahead.
+and said okay let me do this so what i need to convince you is that whether this is in.
+line with my goal right so if my new w is w plus x so let me now check what.
+my new angle would be right my new angle would be proportional to this right now let me just substitute.
+the value of w new it's w plus x okay let me just open up the bracket w transpose x.
+plus x transpose x w transpose x is cos alpha right so cos alpha nu is actually greater than cos.
+alpha that means alpha nu would be less than alpha that's what i wanted whatever was my current alpha i.
+wanted my new alpha to be less than that eventually i want to get it to less than 90 degrees.

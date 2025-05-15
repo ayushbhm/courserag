@@ -1,0 +1,10 @@
+right they should have been very close to the red curve but I mean the moment I chose a simple.
+model I was just going to get a line right and my actual function happened to be a sinusoidal curve.
+so I know that my model is going to be very bad no matter how well I try to fit.
+it it's just trying to pass it like through the center if you are I mean some sort of ah.
+pass it through the average uh it's getting some sort of a line which is kind of balancing the positive.
+and negative points right so that's all I would get right and it's very far off from the ah True.
+Value so what do I mean that mean by that is that suppose I substitute the value of x here.
+right then my my predicted value is this whereas my true value is this right and there is a clear.
+gap between the predicted and the True Value this is happening for the simple models but for the complex models.
+while there is a huge variance in them you can see that on average the gap between the True Value.

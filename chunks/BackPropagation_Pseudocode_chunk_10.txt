@@ -1,0 +1,11 @@
+so you just pass that a and you substitute in this formula so you get G Dash right that's all.
+that this says and in fact it can be written even more uh simply it's just G of Z into.
+1 minus G of Z you can derive this this is not and similarly for this you can derive and.
+it's just 1 minus U of Z square right so those G primes are easy to compute so that's all.
+I had so if I got this formula as saying right so if I had H already right and if.
+I want to compute G then I already have G Prime then I already have everything that I wanted to.
+compute right so this is all we are done with the entire back propagation algorithm uh we have seen it.
+in quite gory details uh you have to watch these videos a few times to get a complete grasp on.
+it but everything that you need to understand it is there in the videos and the slides so please look.
+at it so I'll end here and the next class we'll go back to gradient descent and look at a.
+few variants of your data so thank you.

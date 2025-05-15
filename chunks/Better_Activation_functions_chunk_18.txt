@@ -1,0 +1,9 @@
+derivatives I would have had this red term common and then this blue term the blue term is always positive.
+because it is the output of a sigmoid neuron so it has no say on the sign and then the.
+sign is then determined by or other I mean it contributes equally I mean whatever it is all of it.
+is positive the sign will just depend on the red part and the red part is same for all these.
+guys so if the red part is negative all of them would be negative it's positive all of them would.
+be positive right so a gradient Vector is either consisting all positive values or all negative values right so that's.
+what is happening and the why am I discussing this in the case of sigmoid Duron because this happened because.
+you had used sigmoid neurons hence the blue parts were always positive right if you had some use some other.
+neuron which had a range between minus one to one then it would have been possible some of these Blues.

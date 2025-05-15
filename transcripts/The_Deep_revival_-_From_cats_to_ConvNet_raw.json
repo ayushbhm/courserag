@@ -1,0 +1,1337 @@
+[
+  {
+    "text": "foreign",
+    "start": 0.299,
+    "duration": 3.0
+  },
+  {
+    "text": "[Music]",
+    "start": 6.62,
+    "duration": 15.7
+  },
+  {
+    "text": "things were not working but now let's",
+    "start": 20.06,
+    "duration": 4.24
+  },
+  {
+    "text": "see if things start working so there",
+    "start": 22.32,
+    "duration": 4.56
+  },
+  {
+    "text": "this important contribution by Jeff",
+    "start": 24.3,
+    "duration": 6.66
+  },
+  {
+    "text": "hinton's group around 2016. now what you",
+    "start": 26.88,
+    "duration": 5.879
+  },
+  {
+    "text": "see here is a deep neural network of",
+    "start": 30.96,
+    "duration": 3.54
+  },
+  {
+    "text": "course by today's standards maybe it's a",
+    "start": 32.759,
+    "duration": 3.661
+  },
+  {
+    "text": "shallow network but at that time it was",
+    "start": 34.5,
+    "duration": 3.66
+  },
+  {
+    "text": "a deep neural network and even such",
+    "start": 36.42,
+    "duration": 3.92
+  },
+  {
+    "text": "networks were not being able to train by",
+    "start": 38.16,
+    "duration": 5.579
+  },
+  {
+    "text": "back propagation but they propose a",
+    "start": 40.34,
+    "duration": 5.26
+  },
+  {
+    "text": "simple idea right and we'll see this in",
+    "start": 43.739,
+    "duration": 4.561
+  },
+  {
+    "text": "the course where if you do something to",
+    "start": 45.6,
+    "duration": 4.38
+  },
+  {
+    "text": "initialize the weights of this network",
+    "start": 48.3,
+    "duration": 3.12
+  },
+  {
+    "text": "properly because earlier you are",
+    "start": 49.98,
+    "duration": 3.239
+  },
+  {
+    "text": "initializing the weights randomly and",
+    "start": 51.42,
+    "duration": 3.6
+  },
+  {
+    "text": "expecting back propagation to learn them",
+    "start": 53.219,
+    "duration": 3.601
+  },
+  {
+    "text": "but if you do something to initialize",
+    "start": 55.02,
+    "duration": 3.839
+  },
+  {
+    "text": "the weights properly then the training",
+    "start": 56.82,
+    "duration": 3.96
+  },
+  {
+    "text": "with back propagation becomes stable and",
+    "start": 58.859,
+    "duration": 3.84
+  },
+  {
+    "text": "you're able to train a very deep neural",
+    "start": 60.78,
+    "duration": 2.64
+  },
+  {
+    "text": "network",
+    "start": 62.699,
+    "duration": 3.301
+  },
+  {
+    "text": "of course this idea was again not",
+    "start": 63.42,
+    "duration": 4.08
+  },
+  {
+    "text": "completely new there were very deep",
+    "start": 66.0,
+    "duration": 3.96
+  },
+  {
+    "text": "Learners proposed by schmidur in 191",
+    "start": 67.5,
+    "duration": 6.18
+  },
+  {
+    "text": "1991 1993. again many things did not",
+    "start": 69.96,
+    "duration": 5.22
+  },
+  {
+    "text": "fall in place at that time right around",
+    "start": 73.68,
+    "duration": 4.2
+  },
+  {
+    "text": "that time internet was not what it was",
+    "start": 75.18,
+    "duration": 5.16
+  },
+  {
+    "text": "in 2006 and there was not like large",
+    "start": 77.88,
+    "duration": 5.099
+  },
+  {
+    "text": "tons of data available to you uh even",
+    "start": 80.34,
+    "duration": 4.74
+  },
+  {
+    "text": "storages at that time were much smaller",
+    "start": 82.979,
+    "duration": 4.081
+  },
+  {
+    "text": "and there's not enough compute available",
+    "start": 85.08,
+    "duration": 4.38
+  },
+  {
+    "text": "right so while this idea was there it",
+    "start": 87.06,
+    "duration": 4.559
+  },
+  {
+    "text": "did not fructify because the other",
+    "start": 89.46,
+    "duration": 3.78
+  },
+  {
+    "text": "conditions were not conducive right you",
+    "start": 91.619,
+    "duration": 3.661
+  },
+  {
+    "text": "do not have enough Computing of data to",
+    "start": 93.24,
+    "duration": 4.08
+  },
+  {
+    "text": "really train very deep models whereas in",
+    "start": 95.28,
+    "duration": 4.799
+  },
+  {
+    "text": "2006 the compute was better The gpus had",
+    "start": 97.32,
+    "duration": 4.32
+  },
+  {
+    "text": "still not entered the scene at least in",
+    "start": 100.079,
+    "duration": 3.481
+  },
+  {
+    "text": "deep learning but still the compute was",
+    "start": 101.64,
+    "duration": 4.2
+  },
+  {
+    "text": "better and you had more data to train so",
+    "start": 103.56,
+    "duration": 4.739
+  },
+  {
+    "text": "that's why it worked well in that era",
+    "start": 105.84,
+    "duration": 4.139
+  },
+  {
+    "text": "right of course some other Innovations",
+    "start": 108.299,
+    "duration": 3.421
+  },
+  {
+    "text": "also but there was the basic idea was",
+    "start": 109.979,
+    "duration": 3.78
+  },
+  {
+    "text": "there earlier",
+    "start": 111.72,
+    "duration": 4.02
+  },
+  {
+    "text": "and then after this what happened right",
+    "start": 113.759,
+    "duration": 5.22
+  },
+  {
+    "text": "from the period from 2007 to 2009 once",
+    "start": 115.74,
+    "duration": 5.94
+  },
+  {
+    "text": "this spark came in hey we always knew",
+    "start": 118.979,
+    "duration": 4.561
+  },
+  {
+    "text": "that deep learning is good because of",
+    "start": 121.68,
+    "duration": 4.02
+  },
+  {
+    "text": "the universal approximation theorem",
+    "start": 123.54,
+    "duration": 4.38
+  },
+  {
+    "text": "the only thing that was lacking was the",
+    "start": 125.7,
+    "duration": 4.14
+  },
+  {
+    "text": "ability to be able to train it now we",
+    "start": 127.92,
+    "duration": 3.72
+  },
+  {
+    "text": "have that so let's investigate this",
+    "start": 129.84,
+    "duration": 4.259
+  },
+  {
+    "text": "further right and the next three years a",
+    "start": 131.64,
+    "duration": 4.62
+  },
+  {
+    "text": "lot of ideas came in a lot of",
+    "start": 134.099,
+    "duration": 4.681
+  },
+  {
+    "text": "Investigations were done into why",
+    "start": 136.26,
+    "duration": 5.16
+  },
+  {
+    "text": "unsupervised pre-training works and that",
+    "start": 138.78,
+    "duration": 4.86
+  },
+  {
+    "text": "in turn led to insights hey maybe it",
+    "start": 141.42,
+    "duration": 4.319
+  },
+  {
+    "text": "works better because the optimization",
+    "start": 143.64,
+    "duration": 4.14
+  },
+  {
+    "text": "problem becomes simpler or hey maybe it",
+    "start": 145.739,
+    "duration": 4.86
+  },
+  {
+    "text": "works better because it allows it to",
+    "start": 147.78,
+    "duration": 4.38
+  },
+  {
+    "text": "generalize better so it acts as a",
+    "start": 150.599,
+    "duration": 3.601
+  },
+  {
+    "text": "regularizer in some sense right and",
+    "start": 152.16,
+    "duration": 4.26
+  },
+  {
+    "text": "these things led to developments in",
+    "start": 154.2,
+    "duration": 3.899
+  },
+  {
+    "text": "better optimization algorithms better",
+    "start": 156.42,
+    "duration": 4.02
+  },
+  {
+    "text": "regularization algorithms which then",
+    "start": 158.099,
+    "duration": 4.561
+  },
+  {
+    "text": "helped further in improving the training",
+    "start": 160.44,
+    "duration": 3.6
+  },
+  {
+    "text": "of these networks and some of these",
+    "start": 162.66,
+    "duration": 3.12
+  },
+  {
+    "text": "ideas about what these better",
+    "start": 164.04,
+    "duration": 3.36
+  },
+  {
+    "text": "initializations were better",
+    "start": 165.78,
+    "duration": 3.0
+  },
+  {
+    "text": "regularizations were better",
+    "start": 167.4,
+    "duration": 3.6
+  },
+  {
+    "text": "optimizations work all of this is things",
+    "start": 168.78,
+    "duration": 4.5
+  },
+  {
+    "text": "that we'll cover in the course right and",
+    "start": 171.0,
+    "duration": 3.84
+  },
+  {
+    "text": "then now at this point deep learning",
+    "start": 173.28,
+    "duration": 3.84
+  },
+  {
+    "text": "started becoming useful where people",
+    "start": 174.84,
+    "duration": 4.86
+  },
+  {
+    "text": "started winning uh",
+    "start": 177.12,
+    "duration": 6.24
+  },
+  {
+    "text": "a fairly competitive competitions right",
+    "start": 179.7,
+    "duration": 8.28
+  },
+  {
+    "text": "on handwriting recognition on mnist data",
+    "start": 183.36,
+    "duration": 6.299
+  },
+  {
+    "text": "set right",
+    "start": 187.98,
+    "duration": 7.74
+  },
+  {
+    "text": "then on a speech recognition and then uh",
+    "start": 189.659,
+    "duration": 7.681
+  },
+  {
+    "text": "visual pattern recognition this was on",
+    "start": 195.72,
+    "duration": 3.96
+  },
+  {
+    "text": "the traffic sign data so all of this now",
+    "start": 197.34,
+    "duration": 4.14
+  },
+  {
+    "text": "started materializing that now you just",
+    "start": 199.68,
+    "duration": 3.3
+  },
+  {
+    "text": "don't have it in theory that okay I'm",
+    "start": 201.48,
+    "duration": 3.36
+  },
+  {
+    "text": "able to train a deep network but using",
+    "start": 202.98,
+    "duration": 3.479
+  },
+  {
+    "text": "that I'm able to compete with the best",
+    "start": 204.84,
+    "duration": 3.66
+  },
+  {
+    "text": "models at that time and outperformed",
+    "start": 206.459,
+    "duration": 3.721
+  },
+  {
+    "text": "right so that's what happened around",
+    "start": 208.5,
+    "duration": 4.5
+  },
+  {
+    "text": "that time and then the image net famous",
+    "start": 210.18,
+    "duration": 4.619
+  },
+  {
+    "text": "image net challenge which came around",
+    "start": 213.0,
+    "duration": 5.4
+  },
+  {
+    "text": "which is I think around 2008 or 10 when",
+    "start": 214.799,
+    "duration": 6.181
+  },
+  {
+    "text": "it was first there and then in 2012",
+    "start": 218.4,
+    "duration": 5.22
+  },
+  {
+    "text": "onwards the winner in the image net",
+    "start": 220.98,
+    "duration": 5.339
+  },
+  {
+    "text": "challenge which is roughly like you have",
+    "start": 223.62,
+    "duration": 5.46
+  },
+  {
+    "text": "1000 different classes of Images cats",
+    "start": 226.319,
+    "duration": 5.521
+  },
+  {
+    "text": "dogs airplanes trucks and so on and you",
+    "start": 229.08,
+    "duration": 5.579
+  },
+  {
+    "text": "have a million uh training points and",
+    "start": 231.84,
+    "duration": 5.52
+  },
+  {
+    "text": "then you have a test set which contains",
+    "start": 234.659,
+    "duration": 5.821
+  },
+  {
+    "text": "images from this set and you have to",
+    "start": 237.36,
+    "duration": 5.22
+  },
+  {
+    "text": "classify those images accurately right",
+    "start": 240.48,
+    "duration": 5.22
+  },
+  {
+    "text": "so in 2012 we were able to do this with",
+    "start": 242.58,
+    "duration": 6.78
+  },
+  {
+    "text": "lxnet with a 16 error rate right so 84",
+    "start": 245.7,
+    "duration": 6.06
+  },
+  {
+    "text": "percent sometimes the model was correct",
+    "start": 249.36,
+    "duration": 5.64
+  },
+  {
+    "text": "but then after right so then came zfnet",
+    "start": 251.76,
+    "duration": 4.56
+  },
+  {
+    "text": "which was again an eight layer network",
+    "start": 255.0,
+    "duration": 3.239
+  },
+  {
+    "text": "but we were able to do 11.2 percent",
+    "start": 256.32,
+    "duration": 4.8
+  },
+  {
+    "text": "reduce the error till 1.2 percent and",
+    "start": 258.239,
+    "duration": 4.861
+  },
+  {
+    "text": "then within a few years right which is",
+    "start": 261.12,
+    "duration": 5.82
+  },
+  {
+    "text": "around 2016 or 17. it went down to 3.6",
+    "start": 263.1,
+    "duration": 7.02
+  },
+  {
+    "text": "percent at which point it became better",
+    "start": 266.94,
+    "duration": 5.039
+  },
+  {
+    "text": "than humans right so what does that mean",
+    "start": 270.12,
+    "duration": 3.78
+  },
+  {
+    "text": "is that if I show these test images",
+    "start": 271.979,
+    "duration": 3.541
+  },
+  {
+    "text": "Suppose there are thousand images in the",
+    "start": 273.9,
+    "duration": 4.32
+  },
+  {
+    "text": "test set even a human makes error on",
+    "start": 275.52,
+    "duration": 3.959
+  },
+  {
+    "text": "four or five percent of them right",
+    "start": 278.22,
+    "duration": 2.82
+  },
+  {
+    "text": "because some of those images may not be",
+    "start": 279.479,
+    "duration": 3.181
+  },
+  {
+    "text": "clear you may not the face of the dog",
+    "start": 281.04,
+    "duration": 4.2
+  },
+  {
+    "text": "may not be very clearly visible so you",
+    "start": 282.66,
+    "duration": 4.319
+  },
+  {
+    "text": "may not know be able to distinguish",
+    "start": 285.24,
+    "duration": 4.019
+  },
+  {
+    "text": "between two subclasses within the doc",
+    "start": 286.979,
+    "duration": 3.601
+  },
+  {
+    "text": "class right two different breeds of",
+    "start": 289.259,
+    "duration": 3.961
+  },
+  {
+    "text": "toxin and so similar errors whereas the",
+    "start": 290.58,
+    "duration": 4.26
+  },
+  {
+    "text": "model was now able to do it at 3.6",
+    "start": 293.22,
+    "duration": 3.78
+  },
+  {
+    "text": "percent and you can see that the number",
+    "start": 294.84,
+    "duration": 3.84
+  },
+  {
+    "text": "of layers has also increased",
+    "start": 297.0,
+    "duration": 4.979
+  },
+  {
+    "text": "significantly starting with 8 in LX net",
+    "start": 298.68,
+    "duration": 6.6
+  },
+  {
+    "text": "going all the way up to 152 uh in the",
+    "start": 301.979,
+    "duration": 6.241
+  },
+  {
+    "text": "resnet model right and this is when it",
+    "start": 305.28,
+    "duration": 6.06
+  },
+  {
+    "text": "was I mean almost uh clear or",
+    "start": 308.22,
+    "duration": 4.919
+  },
+  {
+    "text": "universally accepted that now deep",
+    "start": 311.34,
+    "duration": 3.6
+  },
+  {
+    "text": "learning has arrived and for all image",
+    "start": 313.139,
+    "duration": 4.861
+  },
+  {
+    "text": "problems we have to migrate to uh what",
+    "start": 314.94,
+    "duration": 4.38
+  },
+  {
+    "text": "are known as convolutional neural",
+    "start": 318.0,
+    "duration": 2.699
+  },
+  {
+    "text": "networks or the Deep learning way of",
+    "start": 319.32,
+    "duration": 4.8
+  },
+  {
+    "text": "doing things right and similar uh",
+    "start": 320.699,
+    "duration": 6.421
+  },
+  {
+    "text": "inroads also started happening in the",
+    "start": 324.12,
+    "duration": 5.4
+  },
+  {
+    "text": "field of NLP and speech right slowly",
+    "start": 327.12,
+    "duration": 4.799
+  },
+  {
+    "text": "deep neural networks started penetrating",
+    "start": 329.52,
+    "duration": 4.98
+  },
+  {
+    "text": "and overtaking or rather replacing all",
+    "start": 331.919,
+    "duration": 4.141
+  },
+  {
+    "text": "the older methods right so this is like",
+    "start": 334.5,
+    "duration": 4.08
+  },
+  {
+    "text": "the golden period where everyone of",
+    "start": 336.06,
+    "duration": 3.72
+  },
+  {
+    "text": "course maybe you could say that the",
+    "start": 338.58,
+    "duration": 3.059
+  },
+  {
+    "text": "golden period is now where even just",
+    "start": 339.78,
+    "duration": 3.0
+  },
+  {
+    "text": "talks about deep learning and nothing",
+    "start": 341.639,
+    "duration": 3.241
+  },
+  {
+    "text": "else but this is the time where the real",
+    "start": 342.78,
+    "duration": 3.84
+  },
+  {
+    "text": "boom or the shift happened and you could",
+    "start": 344.88,
+    "duration": 3.78
+  },
+  {
+    "text": "talk of this as a transition uh period",
+    "start": 346.62,
+    "duration": 5.46
+  },
+  {
+    "text": "2012 to 2016 right so while we are",
+    "start": 348.66,
+    "duration": 4.979
+  },
+  {
+    "text": "talking about the success on image",
+    "start": 352.08,
+    "duration": 4.02
+  },
+  {
+    "text": "Network right what image net data set",
+    "start": 353.639,
+    "duration": 4.5
+  },
+  {
+    "text": "the key",
+    "start": 356.1,
+    "duration": 4.8
+  },
+  {
+    "text": "deep Learning Network there was what are",
+    "start": 358.139,
+    "duration": 4.921
+  },
+  {
+    "text": "known as convolutional neural networks",
+    "start": 360.9,
+    "duration": 4.019
+  },
+  {
+    "text": "and this section is interestingly titled",
+    "start": 363.06,
+    "duration": 3.66
+  },
+  {
+    "text": "as from cats to convolutional neural",
+    "start": 364.919,
+    "duration": 3.541
+  },
+  {
+    "text": "networks so let's see if I use that",
+    "start": 366.72,
+    "duration": 3.18
+  },
+  {
+    "text": "title",
+    "start": 368.46,
+    "duration": 5.28
+  },
+  {
+    "text": "so again going back 1959 right uh uh",
+    "start": 369.9,
+    "duration": 6.72
+  },
+  {
+    "text": "Hubble and uh weasel did this experiment",
+    "start": 373.74,
+    "duration": 4.739
+  },
+  {
+    "text": "right what the experiment did was they",
+    "start": 376.62,
+    "duration": 4.56
+  },
+  {
+    "text": "had a cat which had different electrodes",
+    "start": 378.479,
+    "duration": 4.201
+  },
+  {
+    "text": "connected to different parts of its",
+    "start": 381.18,
+    "duration": 3.54
+  },
+  {
+    "text": "brain and now there's a screen in front",
+    "start": 382.68,
+    "duration": 3.959
+  },
+  {
+    "text": "of it where you see that stick there",
+    "start": 384.72,
+    "duration": 4.68
+  },
+  {
+    "text": "right so just imagine some stick pattern",
+    "start": 386.639,
+    "duration": 4.861
+  },
+  {
+    "text": "appearing on different portions of the",
+    "start": 389.4,
+    "duration": 3.96
+  },
+  {
+    "text": "image maybe on the top right corner top",
+    "start": 391.5,
+    "duration": 4.259
+  },
+  {
+    "text": "left corner Center maybe in the center",
+    "start": 393.36,
+    "duration": 4.679
+  },
+  {
+    "text": "on the left right and so on right and",
+    "start": 395.759,
+    "duration": 4.5
+  },
+  {
+    "text": "what they observed is depending on where",
+    "start": 398.039,
+    "duration": 3.901
+  },
+  {
+    "text": "the stick is",
+    "start": 400.259,
+    "duration": 4.5
+  },
+  {
+    "text": "different parts of the brain of the cat",
+    "start": 401.94,
+    "duration": 5.46
+  },
+  {
+    "text": "were getting activated that means the",
+    "start": 404.759,
+    "duration": 5.461
+  },
+  {
+    "text": "cat has certain receptive field and only",
+    "start": 407.4,
+    "duration": 4.32
+  },
+  {
+    "text": "if things get triggered and those",
+    "start": 410.22,
+    "duration": 3.36
+  },
+  {
+    "text": "receptive field to certain sections fire",
+    "start": 411.72,
+    "duration": 4.199
+  },
+  {
+    "text": "if drinks get triggered in a triggered",
+    "start": 413.58,
+    "duration": 4.14
+  },
+  {
+    "text": "in a different receptor field that means",
+    "start": 415.919,
+    "duration": 3.72
+  },
+  {
+    "text": "the stick is in a different position say",
+    "start": 417.72,
+    "duration": 4.14
+  },
+  {
+    "text": "the top right corner instead of the top",
+    "start": 419.639,
+    "duration": 4.261
+  },
+  {
+    "text": "left corner then a different portion of",
+    "start": 421.86,
+    "duration": 4.08
+  },
+  {
+    "text": "the brain fires right that means as",
+    "start": 423.9,
+    "duration": 3.419
+  },
+  {
+    "text": "we're talking about this distributed",
+    "start": 425.94,
+    "duration": 2.879
+  },
+  {
+    "text": "processing so different parts of the",
+    "start": 427.319,
+    "duration": 2.82
+  },
+  {
+    "text": "brain are actually looking at different",
+    "start": 428.819,
+    "duration": 4.081
+  },
+  {
+    "text": "things in the uh scene in front of you",
+    "start": 430.139,
+    "duration": 4.5
+  },
+  {
+    "text": "right and this is essentially the",
+    "start": 432.9,
+    "duration": 4.44
+  },
+  {
+    "text": "motivation behind the",
+    "start": 434.639,
+    "duration": 4.741
+  },
+  {
+    "text": "convolutional neural networks right",
+    "start": 437.34,
+    "duration": 5.88
+  },
+  {
+    "text": "which is uh okay I think this",
+    "start": 439.38,
+    "duration": 7.379
+  },
+  {
+    "text": "slide statement is wrong this is uh from",
+    "start": 443.22,
+    "duration": 5.039
+  },
+  {
+    "text": "a different place we'll fix it in the",
+    "start": 446.759,
+    "duration": 3.66
+  },
+  {
+    "text": "slides later on uh this was the",
+    "start": 448.259,
+    "duration": 6.421
+  },
+  {
+    "text": "neocognitron model right which is uh uh",
+    "start": 450.419,
+    "duration": 5.881
+  },
+  {
+    "text": "which essentially if you look at it",
+    "start": 454.68,
+    "duration": 4.26
+  },
+  {
+    "text": "right here again the same idea",
+    "start": 456.3,
+    "duration": 5.16
+  },
+  {
+    "text": "inspired by the cat experiment that",
+    "start": 458.94,
+    "duration": 4.979
+  },
+  {
+    "text": "different parts in the image are being",
+    "start": 461.46,
+    "duration": 4.5
+  },
+  {
+    "text": "handled by different parts of the",
+    "start": 463.919,
+    "duration": 4.201
+  },
+  {
+    "text": "network right so the receptive field as",
+    "start": 465.96,
+    "duration": 4.139
+  },
+  {
+    "text": "a concept emerged here that for",
+    "start": 468.12,
+    "duration": 3.479
+  },
+  {
+    "text": "different parts you could use different",
+    "start": 470.099,
+    "duration": 3.181
+  },
+  {
+    "text": "portions of the network very Loosely",
+    "start": 471.599,
+    "duration": 3.78
+  },
+  {
+    "text": "speaking of course we'll see this in",
+    "start": 473.28,
+    "duration": 5.039
+  },
+  {
+    "text": "detail so this title is wrong please",
+    "start": 475.379,
+    "duration": 4.621
+  },
+  {
+    "text": "note this and we'll change this later",
+    "start": 478.319,
+    "duration": 4.861
+  },
+  {
+    "text": "right so the slide number 36 yeah so",
+    "start": 480.0,
+    "duration": 5.039
+  },
+  {
+    "text": "this new cognitive model was proposed in",
+    "start": 483.18,
+    "duration": 6.12
+  },
+  {
+    "text": "1980 right so quite uh and quite old and",
+    "start": 485.039,
+    "duration": 7.44
+  },
+  {
+    "text": "this idea of like using uh",
+    "start": 489.3,
+    "duration": 5.82
+  },
+  {
+    "text": "you know creating to different parts and",
+    "start": 492.479,
+    "duration": 4.081
+  },
+  {
+    "text": "having like a water is known as a",
+    "start": 495.12,
+    "duration": 3.78
+  },
+  {
+    "text": "shallow uh processing right in terms of",
+    "start": 496.56,
+    "duration": 4.319
+  },
+  {
+    "text": "not having a fully connected Network all",
+    "start": 498.9,
+    "duration": 3.9
+  },
+  {
+    "text": "of these are ideas that we'll uh see",
+    "start": 500.879,
+    "duration": 4.5
+  },
+  {
+    "text": "later in the course right and then of",
+    "start": 502.8,
+    "duration": 5.519
+  },
+  {
+    "text": "course in 1989 uh Jan likuno is",
+    "start": 505.379,
+    "duration": 3.961
+  },
+  {
+    "text": "considered as one of the founding",
+    "start": 508.319,
+    "duration": 4.08
+  },
+  {
+    "text": "fathers of deep learning uh was using",
+    "start": 509.34,
+    "duration": 4.379
+  },
+  {
+    "text": "convolutional neural networks and",
+    "start": 512.399,
+    "duration": 2.88
+  },
+  {
+    "text": "there's an interesting video on YouTube",
+    "start": 513.719,
+    "duration": 5.101
+  },
+  {
+    "text": "office demo from that time uh which was",
+    "start": 515.279,
+    "duration": 6.721
+  },
+  {
+    "text": "being used for recognizing handwritten",
+    "start": 518.82,
+    "duration": 4.74
+  },
+  {
+    "text": "digits right and the motivation at that",
+    "start": 522.0,
+    "duration": 4.62
+  },
+  {
+    "text": "time was this uh Postal Services where",
+    "start": 523.56,
+    "duration": 5.16
+  },
+  {
+    "text": "PIN codes and other digits get written",
+    "start": 526.62,
+    "duration": 4.14
+  },
+  {
+    "text": "and you want to automatically be able to",
+    "start": 528.72,
+    "duration": 4.14
+  },
+  {
+    "text": "pass them to sort the letters according",
+    "start": 530.76,
+    "duration": 3.66
+  },
+  {
+    "text": "to the PIN codes right so that's the",
+    "start": 532.86,
+    "duration": 3.599
+  },
+  {
+    "text": "application is trying to use",
+    "start": 534.42,
+    "duration": 4.56
+  },
+  {
+    "text": "convolutional neural networks to take an",
+    "start": 536.459,
+    "duration": 5.401
+  },
+  {
+    "text": "image of the postcard and like kind of",
+    "start": 538.98,
+    "duration": 5.4
+  },
+  {
+    "text": "try to extract the handwritten digits",
+    "start": 541.86,
+    "duration": 4.8
+  },
+  {
+    "text": "from there and just uh",
+    "start": 544.38,
+    "duration": 4.74
+  },
+  {
+    "text": "and kind of do a recognition of what",
+    "start": 546.66,
+    "duration": 5.28
+  },
+  {
+    "text": "that five digit number or seven digit",
+    "start": 549.12,
+    "duration": 4.32
+  },
+  {
+    "text": "number is",
+    "start": 551.94,
+    "duration": 2.94
+  },
+  {
+    "text": "and",
+    "start": 553.44,
+    "duration": 4.86
+  },
+  {
+    "text": "in 1998 from his initial model in 1989",
+    "start": 554.88,
+    "duration": 6.66
+  },
+  {
+    "text": "which was the laneet model uh he",
+    "start": 558.3,
+    "duration": 5.28
+  },
+  {
+    "text": "proposed several improvements and we had",
+    "start": 561.54,
+    "duration": 4.14
+  },
+  {
+    "text": "the lane at Phi model in 1998 and this",
+    "start": 563.58,
+    "duration": 4.259
+  },
+  {
+    "text": "is also around the time when he",
+    "start": 565.68,
+    "duration": 4.44
+  },
+  {
+    "text": "introduced the now famous amnest data",
+    "start": 567.839,
+    "duration": 4.641
+  },
+  {
+    "text": "set right so almost every newbie today",
+    "start": 570.12,
+    "duration": 5.279
+  },
+  {
+    "text": "uh in the first delve into deep learning",
+    "start": 572.48,
+    "duration": 4.06
+  },
+  {
+    "text": "that I think the among the first few",
+    "start": 575.399,
+    "duration": 3.301
+  },
+  {
+    "text": "data sets that he experiment with is Ms",
+    "start": 576.54,
+    "duration": 4.919
+  },
+  {
+    "text": "so this data set was proposed in 1998",
+    "start": 578.7,
+    "duration": 5.639
+  },
+  {
+    "text": "and this is what he had tested",
+    "start": 581.459,
+    "duration": 4.741
+  },
+  {
+    "text": "convolution neural networks on at that",
+    "start": 584.339,
+    "duration": 4.081
+  },
+  {
+    "text": "time right so the idea of cnns which",
+    "start": 586.2,
+    "duration": 5.1
+  },
+  {
+    "text": "became popular in image net in around",
+    "start": 588.42,
+    "duration": 6.84
+  },
+  {
+    "text": "2012 was much earlier in existence it's",
+    "start": 591.3,
+    "duration": 5.34
+  },
+  {
+    "text": "just that it was not applied to very",
+    "start": 595.26,
+    "duration": 3.72
+  },
+  {
+    "text": "large scale problems like image net and",
+    "start": 596.64,
+    "duration": 4.02
+  },
+  {
+    "text": "then in 2012 when things were more",
+    "start": 598.98,
+    "duration": 3.9
+  },
+  {
+    "text": "conducive you had better optimization",
+    "start": 600.66,
+    "duration": 4.32
+  },
+  {
+    "text": "algorithms better initialization methods",
+    "start": 602.88,
+    "duration": 4.32
+  },
+  {
+    "text": "better activation functions better",
+    "start": 604.98,
+    "duration": 3.66
+  },
+  {
+    "text": "understanding of how to train deep",
+    "start": 607.2,
+    "duration": 3.66
+  },
+  {
+    "text": "neural networks it started showing",
+    "start": 608.64,
+    "duration": 4.139
+  },
+  {
+    "text": "success in those real world or other",
+    "start": 610.86,
+    "duration": 4.62
+  },
+  {
+    "text": "large-scale problems like image pilot",
+    "start": 612.779,
+    "duration": 5.641
+  },
+  {
+    "text": "had been in existence for quite a few",
+    "start": 615.48,
+    "duration": 5.66
+  },
+  {
+    "text": "years right",
+    "start": 618.42,
+    "duration": 2.72
+  }
+]

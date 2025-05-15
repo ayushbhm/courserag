@@ -1,0 +1,10 @@
+just get your hands a bit dirty with this okay yeah so now we have the gradient descent rule that.
+the direction U that we intend to move in should be at 180 degrees with respect to the gradient in.
+other words move in the direction opposite to the gradient so this phrase I'm sure you have heard a million.
+times but now you know where this phrase comes from uh and this is what my update would look like.
+whatever is my current value of w uh sorry whatever is my current value of w I just take the.
+gradient or the derivative right and then move in the direction opposite to that because of the minus here and.
+by a small conservative step because of ETA and this ETA comes from the fact that Taylor series works well.
+in a small neighborhood hence we are using a small ETA there right now this year if I put it.
+in a vector this is nothing but Theta t plus 1 okay maybe not the best choice of colors here.
+if I put this in a vector this is Theta t and if I put this quantity in a vector.

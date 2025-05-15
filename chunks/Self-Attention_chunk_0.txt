@@ -1,0 +1,9 @@
+foreign [Music] so you had this this is what is happening here so you had this one word embedding okay.
+hi let's just call it H1 right if you want H1 H1 you did this linear transformation right so let's.
+say this was an r t dimensional embedding then you could multiply it by a d cross D dimensional Matrix.
+and again get a d dimensional vector and you could do the same thing at all these three places right.
+so from now one vector you have been able to generate three vectors and you needed these three vectors because.
+three vectors were participating in your attention equation earlier right so you have these three vectors now now what do.
+you do with these three vectors so these are they just look at their names again so this was all.
+the hi's that you had all the edges these were your matrices these were the learnable matrices the transformation matrices.
+WQ for query WV V for value and w k k for key and what you get out is the.

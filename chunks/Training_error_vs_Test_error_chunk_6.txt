@@ -1,0 +1,9 @@
+is the training error right which is the error that you get on the training data so what does that.
+mean uh I think we'll Define that quantity formally soon and the other is the test error which is the.
+error that you get on the test data right and you would ideally want both to be zero you want.
+the training error to also be zero that means once I have trained the model at least for the training.
+data it should be able to predict everything perfectly right give me close to zero and then of course on.
+the test data also I want it to be 0 right so typically what happens is these errors exhibit the.
+following behavior that if you have a high model complexity right and in our case we saw this degree 25.
+polynomial if you had increased it further it would have almost perfectly fit the training data that means my training.
+error would have gone 0 as my model complexity increased right but what would happen is the test error would.

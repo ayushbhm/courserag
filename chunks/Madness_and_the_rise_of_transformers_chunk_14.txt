@@ -1,0 +1,10 @@
+these models right all of these on all of these axis we are really pushing the frontier uh quite a.
+bit and then came the trillion parameter club so this is an interesting animation so you have these number of.
+synapses right so uh i remember at some point uh or maybe i'll be talking about that later or i.
+don't know whether i already said that so human brain i think has 10 is to 10 or maybe 10.
+billion neurons right so 10 billion neurons and or maybe i'm like off by one order and then there are.
+connections between these neurons those connections are called synapses and there are like 10 raise to 15 synapses in a.
+human brain right so for a fruit fly it's greater than 10 raised to six for a honey bee it's.
+around 10 raised to nine for mouse it is around 10 to 12 for cats 10 raised to 13 and.
+for humans brains it has 10 to 15 synapses right on these synapses i would roughly equate them to the.
+number of weights that are there in a neural network right if i used to if i were to take.

@@ -1,0 +1,10 @@
+and now if you're just stuck there and making these small changes to W you'd run the code for thousand.
+iterations and you will see oh nothing is happening my loss is not changing my I'm not going towards a.
+Minima and so on it will just be stuck there so you need to be able to come out of.
+these situations right so this is one problem that you have with gradient descent that if it's stuck in regions.
+which have a flat surface or have a very gentle slope then it'll take a lot of time if you.
+perhaps run it for 10 000 iterations then it will come out and go to some slope and then take.
+go towards the Minima right but then you might not have the patience to run it for 10 000 iteration.
+so can we do something so that in these gentle regions the movement of gradient descent is fast right so.
+that's the drawback that we want to solve okay so that's where we are headed and just to convince you.
+that is not like uh I mean this is not a characteristic of where I started with and so on.

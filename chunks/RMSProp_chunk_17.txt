@@ -1,0 +1,9 @@
+it is sensitive to the learning rate and setting this learning rate to 0.05 and showing you that it converges.
+is not to give the message that hey you could do this by setting the learning rate appropriately it is.
+just to show that different learning initial learning rates could have different effects right so that's the idea here and.
+we'll have to move to a stage where we kind of get to algorithms which are not too sensitive to.
+the initial learning rate okay which one ha so VT plus Epsilon so V T is initially 0 so initially.
+it would be ETA divided by square root of 10 raised to minus 4 right okay now let's see again.
+just continuing in that direction right so if we uh were to initialize ETA with different values right so I.
+have suppose ETA equal to Eta not equal to 0.6 that's what I should say so our effective learning rate.
+is ETA ETA naught divided by square root of VT plus Epsilon and of course this ETA naught remains constant.

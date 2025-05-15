@@ -1,0 +1,10 @@
+and i just get minus theta as the first term of this sum of terms and then uh that these.
+two inequalities that i have here right so as i said this was same and then greater than equal to.
+zero so these two inequalities become zero so the simple change which i have made quite obvious and what it.
+means is that i have this extra input which is x 0 equal to 1 and w naught is actually.
+minus theta and so now the inequality falls in place so now i my summation is from 0 to n.
+with the understanding that x naught is 1 and w naught is minus theta which is the same as saying.
+summation 1 to n minus theta that's what my original uh inequality is where i started from so this just.
+makes it neater in some sense i have no theta now now theta has become w naught or minus w.
+okay so we'll now try to answer the following questions right why are we trying to implement boolean functions right.
+so why am i talking about boolean functions so much i said that we can implement real functions but still.

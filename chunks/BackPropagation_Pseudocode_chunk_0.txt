@@ -1,0 +1,9 @@
+foreign [Music] okay so now we are ready to wrap up this discussion on back propagation we'll take everything that.
+we have done so far and put it together into a nice algorithm so why we have all the pieces.
+of the puzzle so we have the derivative of the loss function with respect to the output layer we have.
+the derivative of the loss function with respect to any hidden layer activation and pre-activation we have the derivative of.
+the loss function with respect to the weights and the biases right now we can write all of this into.
+a full learning algorithm so this is what it looks like I'm going to start with the gradient descent algorithm.
+so you had start at time step 0 you run it for some thousand iterations you initialize all the weights.
+in the network at every stage what will you do you will first compute all the activations and all the.
+actually should have been the other way around all the pre-activations and the activations and the output using the forward.

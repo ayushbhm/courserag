@@ -1,0 +1,9 @@
+gradient at the lookahead value right and once you compute the gradient at the look ahead value then you are.
+Computing uh empty as the history plus the gradient at the look ahead value and then you are updating the.
+new value as uh uh as this updated history right that's what you were doing now one thing I want.
+you to notice here is the time steps that you have you have t you have T minus 1 and.
+you have P plus 1 also right and it looks a bit cumbersome and we're going to try to rewrite.
+that a bit more compact it that's one challenge the other challenge is what is written here but I'll come.
+come to that right so let's now see what happens uh maybe I'll just go back a bit yeah so.
+let's say you started at w0 okay and you computed a derivative at this point so which would be somewhere.
+here it'll just screw it on the plot so that's where you have computed the derivative then at m0 uh.

@@ -1,0 +1,9 @@
+the error from the training data this is again a small constant and now we have this quantity here now.
+earlier we showed that this quantity becomes 0 because we showed that these two are actually independent and Y were.
+those two independent because Epsilon was y minus f of x right and the other quantity was F of f.
+hat of x minus f of x and we argued that these y's which are actually coming from the test.
+data did not participate in the estimation of hefat hex hence these two quantities were independent of each other right.
+but now we cannot make that argument because why which is coming from the training data now has actually participated.
+in the estimation of f hat X so now these two quantities are not independent hence Epsilon and this this.
+quantity is not independent hence I cannot write this as a product of the expected value of Epsilon multiplied by.
+the expected value of this quantity and then this will not become zero hence the whole term will not become.

@@ -1,0 +1,9 @@
+computed right so that's all it says this is the same formula that I have here and again this is.
+a not very difficult right so even if you didn't get it now you could just go back and take.
+a look at the slides all the notations have been explained clearly if you understand the notations this is a.
+straightforward leap from there right so whatever we had computed what did I what am I trying to say what's.
+my summary I have computed the derivative of the loss function with respect to one of the Hidden units right.
+I wanted to in fact not even this right just one the dark red guy right I actually wanted to.
+compute the derivative with respect to entire H2 but I've just computed with one element of H2 right and that.
+is this quantity it's the dot product between two vectors one of the vectors is the jth column right and.
+J comes from here the jth column of the weight Matrix and the gradient Vector right the gradient Vector is.

@@ -1,0 +1,10 @@
+angle right so this greedy step has worked in doing whatever it was said to do right so it has.
+reduced the angle now let me do it again right so now again randomly pick a point and say this.
+time the point that i pick is p2 okay so i'll compute the angle between sorry i'll just compute the.
+dot product w transpose x and again i am seeing that the uh [Music] sorry yeah this is where i.
+was so i picked the point p 2 and again you can see with this w the angle is still.
+greater than 0 right sorry greater than 90 degrees so i don't want that so i'll have to apply a.
+correction here also what will the correction be i'll add p2 to w and i'll get a new w so.
+this is what my new w looks like and you can again see that the angle has decreased in fact.
+here it has already become less than 90 but i don't care about it all i care about is the.
+angle is decreased now let me pick up another point and this time maybe i picked up n1 right and.

@@ -1,0 +1,9 @@
+the image right so what I'm trying to show you here and this is of course become much more clear.
+when we do convolutional neural networks is that I have a matrix you can think of there's a matrix of.
+Weights now instead of defining a separate Matrix for every part of the image I am going to use the.
+same Matrix and apply it to different parts of the image right so that's the basic idea I'll not say.
+anything more at this point because you need to understand what convolution is and so on and we will see.
+this in more detail when we reach there right okay and also in the case of Auto encoders which we'll.
+see after a few lectures is also known as something known as weight tying so what you do in weight.
+tying is that if you look at this suppose this is n dimensional and this is D dimensional and this.
+is again n dimensional so then the weight Matrix that you will have here would be n cross T dimensional.

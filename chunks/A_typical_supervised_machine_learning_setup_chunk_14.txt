@@ -1,0 +1,10 @@
+location i'm considering can you tell me what is the oil that i could mine from there so you want.
+to plug in that here and tell the company that this is what the quantity of oil i estimate right.
+so you want to do that so what do you do in this case and this is the crux of.
+machine learning that you assume some function okay you assume there is a function x parameterized by some parameters w.
+or more generically we call it theta also at times so i'll just use theta maybe okay so you assume.
+some form and that assumption is up to you right you assume that there is a function f hat which.
+relates the inputs to the outputs it has certain parameters and now your job is to learn these parameters from.
+the given data okay now let's look at a simple k so suppose you assume that y is equal to.
+w x plus b this is a function okay and you have assumed that y depends on x it's capturing.
+that and you have some parameters now how would you estimate the values of w and b if i give.

@@ -1,0 +1,9 @@
+foreign [Music] okay so now let's talk about stochastic and mini batch gradient descent let me first motivate this with.
+some intuition and then we will look at how to go about it right so we'll dig us a bit.
+uh actually after nag there are a few other algorithms that we should cover but before that since we are.
+still in a slightly easier territory gradient descent momentum nag those are easier to understand so in this easier territory.
+I'll talk about the stochastic version of these algorithms and then later on I'll talk about other algorithms like Adam.
+adagrad at adult and so on okay yeah so if you look at the code for uh gradient descent right.
+and the same code I mean with some variations was used for momentum as well as nag then what you're.
+doing here is that for all the training points so this for Loop is looking at all the training data.
+in this case I had only two training samples but the for Loop is going over all the training samples.

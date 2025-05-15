@@ -1,0 +1,9 @@
+hey training data we can easily drive to zero we just improve the complexity of the model and we can.
+drive it to zero but before 2006 is it that even on the training data I was not able to.
+drive the error to zero or was it that because of unsupervised pre-training I was able to get better performance.
+on the test data right so which of these is the reason for it to work better was it acting.
+as a regularizer or was it acting as a better Optimizer right so now I comment that I want to.
+make here right so this is I'm talking about the work which happened in the uh period of 2006 to.
+2009 right so this work 2006 happened this unsuper SP training idea came out everybody was excited that now we.
+can train deep neural networks and then people started inspecting right why is this working is it optimization regularization and.
+so on and not many clear answers emerged right but what got reinforced that hey indeed something is happening and.

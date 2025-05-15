@@ -1,0 +1,9 @@
+from or what kind of models have that notion and that is the attention based model so it's in the.
+attention-based models I have that where I have I compute the RNN encodings right and now I'm just going to.
+look at it a bit differently right so once I have computed this I once I've computed H1 to H5.
+now I don't need the RNN block I just need these yellow representation that I have computed which are the.
+H1 to H5 which I can just take them out and those can be my those are now with me.
+right so I don't need to do any further computation on this right and once these five blocks are available.
+to me right so I've just made a copy of those representations and kept it sorry the network seems to.
+be yeah so once all these vectors are available I can just throw away the encoder and just have the.
+output of the encoder which is these five vectors in this case in general it would be capital T vectors.

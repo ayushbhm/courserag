@@ -1,0 +1,2592 @@
+[
+  {
+    "text": "foreign",
+    "start": 0.299,
+    "duration": 3.0
+  },
+  {
+    "text": "[Music]",
+    "start": 6.62,
+    "duration": 14.95
+  },
+  {
+    "text": "descent and we'll see whether it tries",
+    "start": 23.0,
+    "duration": 3.939
+  },
+  {
+    "text": "to fix the problem so what were our",
+    "start": 25.32,
+    "duration": 3.719
+  },
+  {
+    "text": "observations about gradient descent that",
+    "start": 26.939,
+    "duration": 3.721
+  },
+  {
+    "text": "it takes a lot of time to navigate",
+    "start": 29.039,
+    "duration": 3.421
+  },
+  {
+    "text": "regions having a gentle slope right so",
+    "start": 30.66,
+    "duration": 3.6
+  },
+  {
+    "text": "wherever we have gentle slope and now",
+    "start": 32.46,
+    "duration": 3.24
+  },
+  {
+    "text": "again connecting it to the discussion on",
+    "start": 34.26,
+    "duration": 3.479
+  },
+  {
+    "text": "Contours gender slope means if you have",
+    "start": 35.7,
+    "duration": 3.9
+  },
+  {
+    "text": "two successive Rings the distance",
+    "start": 37.739,
+    "duration": 4.261
+  },
+  {
+    "text": "between them would be very large and in",
+    "start": 39.6,
+    "duration": 4.56
+  },
+  {
+    "text": "those gentle slope regions it takes a",
+    "start": 42.0,
+    "duration": 3.48
+  },
+  {
+    "text": "long time and the intuition is clear",
+    "start": 44.16,
+    "duration": 3.6
+  },
+  {
+    "text": "because on those slopes the gradients",
+    "start": 45.48,
+    "duration": 4.86
+  },
+  {
+    "text": "are small and if the gradients are small",
+    "start": 47.76,
+    "duration": 4.26
+  },
+  {
+    "text": "your updates are small so at every Point",
+    "start": 50.34,
+    "duration": 3.239
+  },
+  {
+    "text": "you're moving like a very very very",
+    "start": 52.02,
+    "duration": 3.719
+  },
+  {
+    "text": "small step so it'll take a lot of steps",
+    "start": 53.579,
+    "duration": 4.64
+  },
+  {
+    "text": "to get out of that flat surface right",
+    "start": 55.739,
+    "duration": 4.861
+  },
+  {
+    "text": "and this is what is explained here so",
+    "start": 58.219,
+    "duration": 4.66
+  },
+  {
+    "text": "can we do something better so let's take",
+    "start": 60.6,
+    "duration": 3.959
+  },
+  {
+    "text": "a look at momentum based gradient",
+    "start": 62.879,
+    "duration": 4.74
+  },
+  {
+    "text": "descent okay uh so there's the intuition",
+    "start": 64.559,
+    "duration": 5.221
+  },
+  {
+    "text": "right and uh I'll repeat the intuition",
+    "start": 67.619,
+    "duration": 5.341
+  },
+  {
+    "text": "which I always give for this right so uh",
+    "start": 69.78,
+    "duration": 5.04
+  },
+  {
+    "text": "this would be relevant to the audience",
+    "start": 72.96,
+    "duration": 4.38
+  },
+  {
+    "text": "here at IIT Madras so now suppose you're",
+    "start": 74.82,
+    "duration": 5.339
+  },
+  {
+    "text": "standing at the velachery gate right and",
+    "start": 77.34,
+    "duration": 5.04
+  },
+  {
+    "text": "you're asking instructions you ask the",
+    "start": 80.159,
+    "duration": 5.761
+  },
+  {
+    "text": "uh some person there about how do I go",
+    "start": 82.38,
+    "duration": 5.58
+  },
+  {
+    "text": "to Phoenix",
+    "start": 85.92,
+    "duration": 4.86
+  },
+  {
+    "text": "Market City Mall right and that person",
+    "start": 87.96,
+    "duration": 6.36
+  },
+  {
+    "text": "would say that you take a right uh from",
+    "start": 90.78,
+    "duration": 5.699
+  },
+  {
+    "text": "the gate and you will reach the ball",
+    "start": 94.32,
+    "duration": 5.1
+  },
+  {
+    "text": "right so now you have asked someone but",
+    "start": 96.479,
+    "duration": 4.801
+  },
+  {
+    "text": "you are a bit conservative so you take a",
+    "start": 99.42,
+    "duration": 5.28
+  },
+  {
+    "text": "small step towards in that direction you",
+    "start": 101.28,
+    "duration": 5.82
+  },
+  {
+    "text": "take small small steps and say after say",
+    "start": 104.7,
+    "duration": 4.98
+  },
+  {
+    "text": "10 steps or 20 steps or say about 100",
+    "start": 107.1,
+    "duration": 4.86
+  },
+  {
+    "text": "steps you ask someone else hey where is",
+    "start": 109.68,
+    "duration": 5.34
+  },
+  {
+    "text": "uh the mall and that person again says",
+    "start": 111.96,
+    "duration": 4.68
+  },
+  {
+    "text": "yeah go in this direction right go",
+    "start": 115.02,
+    "duration": 3.779
+  },
+  {
+    "text": "towards the right so now your confidence",
+    "start": 116.64,
+    "duration": 3.6
+  },
+  {
+    "text": "would increase right because now",
+    "start": 118.799,
+    "duration": 3.78
+  },
+  {
+    "text": "repeatedly you are being told to go in",
+    "start": 120.24,
+    "duration": 3.96
+  },
+  {
+    "text": "that direction someone said go to the",
+    "start": 122.579,
+    "duration": 3.121
+  },
+  {
+    "text": "right again someone said go to the right",
+    "start": 124.2,
+    "duration": 3.48
+  },
+  {
+    "text": "so now maybe you'll start want to",
+    "start": 125.7,
+    "duration": 3.779
+  },
+  {
+    "text": "increase your speed a bit right because",
+    "start": 127.68,
+    "duration": 5.46
+  },
+  {
+    "text": "you have two uh validations for uh this",
+    "start": 129.479,
+    "duration": 4.861
+  },
+  {
+    "text": "direction that this is the right",
+    "start": 133.14,
+    "duration": 3.239
+  },
+  {
+    "text": "direction right then you again walk a",
+    "start": 134.34,
+    "duration": 3.899
+  },
+  {
+    "text": "few steps and then you ask someone where",
+    "start": 136.379,
+    "duration": 3.481
+  },
+  {
+    "text": "to go again that person points you in",
+    "start": 138.239,
+    "duration": 2.821
+  },
+  {
+    "text": "that direction",
+    "start": 139.86,
+    "duration": 3.54
+  },
+  {
+    "text": "so then you again start your confidence",
+    "start": 141.06,
+    "duration": 4.74
+  },
+  {
+    "text": "increases and you gain more momentum",
+    "start": 143.4,
+    "duration": 3.78
+  },
+  {
+    "text": "right so what we are trying to say here",
+    "start": 145.8,
+    "duration": 4.019
+  },
+  {
+    "text": "is that if you're repeatedly being asked",
+    "start": 147.18,
+    "duration": 4.44
+  },
+  {
+    "text": "to go in the same direction",
+    "start": 149.819,
+    "duration": 3.601
+  },
+  {
+    "text": "then you should probably gain confidence",
+    "start": 151.62,
+    "duration": 3.72
+  },
+  {
+    "text": "and start taking bigger steps in that",
+    "start": 153.42,
+    "duration": 4.8
+  },
+  {
+    "text": "direction right so at this step when you",
+    "start": 155.34,
+    "duration": 4.86
+  },
+  {
+    "text": "are Computing the gradient maybe the",
+    "start": 158.22,
+    "duration": 3.72
+  },
+  {
+    "text": "gradient is small because you're on a",
+    "start": 160.2,
+    "duration": 3.72
+  },
+  {
+    "text": "gentle surface but you have been moving",
+    "start": 161.94,
+    "duration": 3.6
+  },
+  {
+    "text": "in this direction for a long time right",
+    "start": 163.92,
+    "duration": 5.12
+  },
+  {
+    "text": "so this is what your uh",
+    "start": 165.54,
+    "duration": 3.5
+  },
+  {
+    "text": "surface looked like okay this is very",
+    "start": 169.22,
+    "duration": 4.36
+  },
+  {
+    "text": "gentle slope here",
+    "start": 171.9,
+    "duration": 4.14
+  },
+  {
+    "text": "so here every step is small right but",
+    "start": 173.58,
+    "duration": 3.84
+  },
+  {
+    "text": "you have been moving along this",
+    "start": 176.04,
+    "duration": 3.96
+  },
+  {
+    "text": "direction for a long time so what if you",
+    "start": 177.42,
+    "duration": 5.039
+  },
+  {
+    "text": "accumulate all this and then start",
+    "start": 180.0,
+    "duration": 4.26
+  },
+  {
+    "text": "moving very fast so that you can come",
+    "start": 182.459,
+    "duration": 5.521
+  },
+  {
+    "text": "out of this uh this gentle region very",
+    "start": 184.26,
+    "duration": 5.46
+  },
+  {
+    "text": "quickly right so that's the idea of",
+    "start": 187.98,
+    "duration": 4.259
+  },
+  {
+    "text": "momentum gaze gradient descent and we",
+    "start": 189.72,
+    "duration": 5.159
+  },
+  {
+    "text": "now need to take this uh intuition and",
+    "start": 192.239,
+    "duration": 4.201
+  },
+  {
+    "text": "convert it into an equation right so",
+    "start": 194.879,
+    "duration": 3.901
+  },
+  {
+    "text": "let's see and this is the same as a ball",
+    "start": 196.44,
+    "duration": 4.019
+  },
+  {
+    "text": "gains momentum while rolling down a",
+    "start": 198.78,
+    "duration": 3.78
+  },
+  {
+    "text": "slope right so it's slowly moving when",
+    "start": 200.459,
+    "duration": 4.741
+  },
+  {
+    "text": "it's on the gentle part here right but",
+    "start": 202.56,
+    "duration": 4.5
+  },
+  {
+    "text": "that it's moving it gains momentum and",
+    "start": 205.2,
+    "duration": 3.36
+  },
+  {
+    "text": "then it starts moving very fast and",
+    "start": 207.06,
+    "duration": 3.179
+  },
+  {
+    "text": "because one way of looking at it is that",
+    "start": 208.56,
+    "duration": 2.94
+  },
+  {
+    "text": "it's constantly being pushed in that",
+    "start": 210.239,
+    "duration": 2.941
+  },
+  {
+    "text": "direction so you're also constantly",
+    "start": 211.5,
+    "duration": 3.54
+  },
+  {
+    "text": "being asked to go in that direction the",
+    "start": 213.18,
+    "duration": 3.419
+  },
+  {
+    "text": "slope is small",
+    "start": 215.04,
+    "duration": 3.779
+  },
+  {
+    "text": "but the direction is constantly this way",
+    "start": 216.599,
+    "duration": 3.961
+  },
+  {
+    "text": "you're saying okay go here at every",
+    "start": 218.819,
+    "duration": 3.661
+  },
+  {
+    "text": "point you are saying go here go here go",
+    "start": 220.56,
+    "duration": 3.72
+  },
+  {
+    "text": "here so if so many times you have been",
+    "start": 222.48,
+    "duration": 4.259
+  },
+  {
+    "text": "asked to go here can you go a bit faster",
+    "start": 224.28,
+    "duration": 3.959
+  },
+  {
+    "text": "right so how do you capture this",
+    "start": 226.739,
+    "duration": 3.841
+  },
+  {
+    "text": "intuition into a set of equations right",
+    "start": 228.239,
+    "duration": 4.681
+  },
+  {
+    "text": "so this is what we will do so this is",
+    "start": 230.58,
+    "duration": 4.2
+  },
+  {
+    "text": "the update rule for momentum based",
+    "start": 232.92,
+    "duration": 4.08
+  },
+  {
+    "text": "gradient descent okay so this is what",
+    "start": 234.78,
+    "duration": 4.679
+  },
+  {
+    "text": "I'll call as the history vector",
+    "start": 237.0,
+    "duration": 5.819
+  },
+  {
+    "text": "fine and uh",
+    "start": 239.459,
+    "duration": 5.7
+  },
+  {
+    "text": "you are giving some importance to the",
+    "start": 242.819,
+    "duration": 3.84
+  },
+  {
+    "text": "past history",
+    "start": 245.159,
+    "duration": 4.381
+  },
+  {
+    "text": "plus the current update right so this is",
+    "start": 246.659,
+    "duration": 4.561
+  },
+  {
+    "text": "your derivative of the loss function",
+    "start": 249.54,
+    "duration": 3.54
+  },
+  {
+    "text": "with respect to the gradient oh sorry",
+    "start": 251.22,
+    "duration": 3.299
+  },
+  {
+    "text": "derivative of the loss function with",
+    "start": 253.08,
+    "duration": 3.42
+  },
+  {
+    "text": "respect to the parameter w at the",
+    "start": 254.519,
+    "duration": 3.9
+  },
+  {
+    "text": "current time step right so now the",
+    "start": 256.5,
+    "duration": 3.959
+  },
+  {
+    "text": "difference is the following right so in",
+    "start": 258.419,
+    "duration": 4.94
+  },
+  {
+    "text": "uh",
+    "start": 260.459,
+    "duration": 2.9
+  },
+  {
+    "text": "foreign descent",
+    "start": 264.419,
+    "duration": 6.901
+  },
+  {
+    "text": "your update rule was WT minus",
+    "start": 267.419,
+    "duration": 6.961
+  },
+  {
+    "text": "ETA times Delta w t that means you are",
+    "start": 271.32,
+    "duration": 4.02
+  },
+  {
+    "text": "only listening to the current",
+    "start": 274.38,
+    "duration": 2.4
+  },
+  {
+    "text": "instruction you are not really",
+    "start": 275.34,
+    "duration": 3.359
+  },
+  {
+    "text": "considering the fact that I've been",
+    "start": 276.78,
+    "duration": 3.66
+  },
+  {
+    "text": "constantly being asked to go in the",
+    "start": 278.699,
+    "duration": 3.661
+  },
+  {
+    "text": "direction okay people might have asked",
+    "start": 280.44,
+    "duration": 3.78
+  },
+  {
+    "text": "me to go in this direction but where am",
+    "start": 282.36,
+    "duration": 3.72
+  },
+  {
+    "text": "I asked where are people asking me to go",
+    "start": 284.22,
+    "duration": 3.479
+  },
+  {
+    "text": "in the current step in this direction",
+    "start": 286.08,
+    "duration": 3.66
+  },
+  {
+    "text": "okay I'll just follow that right but",
+    "start": 287.699,
+    "duration": 4.141
+  },
+  {
+    "text": "this entire history which was there that",
+    "start": 289.74,
+    "duration": 4.38
+  },
+  {
+    "text": "you were constantly being asked to go in",
+    "start": 291.84,
+    "duration": 4.32
+  },
+  {
+    "text": "that direction that is not being",
+    "start": 294.12,
+    "duration": 3.84
+  },
+  {
+    "text": "captured right so now instead of just",
+    "start": 296.16,
+    "duration": 4.62
+  },
+  {
+    "text": "moving according to the current uh",
+    "start": 297.96,
+    "duration": 5.459
+  },
+  {
+    "text": "derivative or the current gradient you",
+    "start": 300.78,
+    "duration": 5.16
+  },
+  {
+    "text": "are actually also considering the entire",
+    "start": 303.419,
+    "duration": 4.141
+  },
+  {
+    "text": "history right and this is a recursive",
+    "start": 305.94,
+    "duration": 3.06
+  },
+  {
+    "text": "equation and we'll just open this",
+    "start": 307.56,
+    "duration": 4.26
+  },
+  {
+    "text": "recursive equation soon but this is akin",
+    "start": 309.0,
+    "duration": 5.16
+  },
+  {
+    "text": "to kind of taking all your past",
+    "start": 311.82,
+    "duration": 4.319
+  },
+  {
+    "text": "gradients and giving them some",
+    "start": 314.16,
+    "duration": 4.14
+  },
+  {
+    "text": "importance and then moving in the",
+    "start": 316.139,
+    "duration": 4.021
+  },
+  {
+    "text": "cumulative direction right so that's",
+    "start": 318.3,
+    "duration": 3.66
+  },
+  {
+    "text": "what you are trying to do here and this",
+    "start": 320.16,
+    "duration": 3.9
+  },
+  {
+    "text": "would become clear on the next slide so",
+    "start": 321.96,
+    "duration": 3.9
+  },
+  {
+    "text": "let me just do that and then come back",
+    "start": 324.06,
+    "duration": 3.66
+  },
+  {
+    "text": "uh to this slide right so what is is",
+    "start": 325.86,
+    "duration": 3.66
+  },
+  {
+    "text": "happening here so this is what my",
+    "start": 327.72,
+    "duration": 3.72
+  },
+  {
+    "text": "equation is right that UT and I was",
+    "start": 329.52,
+    "duration": 4.019
+  },
+  {
+    "text": "saying that UT is my history Vector so",
+    "start": 331.44,
+    "duration": 4.5
+  },
+  {
+    "text": "let's see how I'm constructing this UT",
+    "start": 333.539,
+    "duration": 5.761
+  },
+  {
+    "text": "so of course at time step 0 because my U",
+    "start": 335.94,
+    "duration": 5.759
+  },
+  {
+    "text": "minus 1 is not defined right so if I",
+    "start": 339.3,
+    "duration": 6.54
+  },
+  {
+    "text": "want to compute u0 I need beta times U",
+    "start": 341.699,
+    "duration": 6.601
+  },
+  {
+    "text": "minus 1 and there's no minus one step so",
+    "start": 345.84,
+    "duration": 4.98
+  },
+  {
+    "text": "I'm just going to set it to 0. so at",
+    "start": 348.3,
+    "duration": 6.54
+  },
+  {
+    "text": "time step equal to uh 0 this is how this",
+    "start": 350.82,
+    "duration": 6.36
+  },
+  {
+    "text": "will turn out right and this quantity is",
+    "start": 354.84,
+    "duration": 6.84
+  },
+  {
+    "text": "0 so we'll just have uh U 0 is equal to",
+    "start": 357.18,
+    "duration": 6.359
+  },
+  {
+    "text": "the derivative of the loss function with",
+    "start": 361.68,
+    "duration": 3.959
+  },
+  {
+    "text": "respect to the parameter at time step 0.",
+    "start": 363.539,
+    "duration": 5.781
+  },
+  {
+    "text": "now let's see what U1 would be",
+    "start": 365.639,
+    "duration": 3.681
+  },
+  {
+    "text": "so U1 will be beta times u0 plus the",
+    "start": 371.52,
+    "duration": 7.14
+  },
+  {
+    "text": "current derivative so now if I",
+    "start": 376.259,
+    "duration": 4.201
+  },
+  {
+    "text": "substitute the value of U 0 then it",
+    "start": 378.66,
+    "duration": 4.08
+  },
+  {
+    "text": "would be beta times Delta the previous",
+    "start": 380.46,
+    "duration": 4.739
+  },
+  {
+    "text": "derivative plus W1 right so this is what",
+    "start": 382.74,
+    "duration": 5.16
+  },
+  {
+    "text": "I mean by the history now you are not",
+    "start": 385.199,
+    "duration": 4.201
+  },
+  {
+    "text": "only considering the current derivative",
+    "start": 387.9,
+    "duration": 3.419
+  },
+  {
+    "text": "but you are also giving some importance",
+    "start": 389.4,
+    "duration": 3.54
+  },
+  {
+    "text": "to the past history right you are saying",
+    "start": 391.319,
+    "duration": 3.181
+  },
+  {
+    "text": "oh in the past also I was asked to move",
+    "start": 392.94,
+    "duration": 3.479
+  },
+  {
+    "text": "in this some Direction so I'll take that",
+    "start": 394.5,
+    "duration": 6.36
+  },
+  {
+    "text": "also into account right and Now Beta U2",
+    "start": 396.419,
+    "duration": 7.5
+  },
+  {
+    "text": "would be beta Square",
+    "start": 400.86,
+    "duration": 6.54
+  },
+  {
+    "text": "into the derivative at time step 0 beta",
+    "start": 403.919,
+    "duration": 5.581
+  },
+  {
+    "text": "into the derivative is time Step 1 and",
+    "start": 407.4,
+    "duration": 3.78
+  },
+  {
+    "text": "then the current derivative right so",
+    "start": 409.5,
+    "duration": 5.94
+  },
+  {
+    "text": "your updates remember are WT is equal to",
+    "start": 411.18,
+    "duration": 10.62
+  },
+  {
+    "text": "W T minus 1 minus ETA into u t right now",
+    "start": 415.44,
+    "duration": 9.06
+  },
+  {
+    "text": "this u t is essentially this right so",
+    "start": 421.8,
+    "duration": 4.739
+  },
+  {
+    "text": "it's not only the current derivative so",
+    "start": 424.5,
+    "duration": 4.08
+  },
+  {
+    "text": "at time Step 2 you're not just taking",
+    "start": 426.539,
+    "duration": 3.72
+  },
+  {
+    "text": "the current derivative but you are also",
+    "start": 428.58,
+    "duration": 3.54
+  },
+  {
+    "text": "taking all the history into account",
+    "start": 430.259,
+    "duration": 3.181
+  },
+  {
+    "text": "right so that's what is happening in",
+    "start": 432.12,
+    "duration": 3.299
+  },
+  {
+    "text": "momentum based gradient descent and this",
+    "start": 433.44,
+    "duration": 4.44
+  },
+  {
+    "text": "beta is typically less than one right so",
+    "start": 435.419,
+    "duration": 4.921
+  },
+  {
+    "text": "typical value for beta would be 0.9 so",
+    "start": 437.88,
+    "duration": 3.539
+  },
+  {
+    "text": "what does that mean you are giving",
+    "start": 440.34,
+    "duration": 3.18
+  },
+  {
+    "text": "weightage of 1 to the current gradient",
+    "start": 441.419,
+    "duration": 3.78
+  },
+  {
+    "text": "that's the maximum weightage you are",
+    "start": 443.52,
+    "duration": 3.72
+  },
+  {
+    "text": "giving gradient of point weightage of",
+    "start": 445.199,
+    "duration": 4.381
+  },
+  {
+    "text": "0.9 to the previous gradient weightage",
+    "start": 447.24,
+    "duration": 5.28
+  },
+  {
+    "text": "of 0.9 Square which would be 0.81 to the",
+    "start": 449.58,
+    "duration": 4.38
+  },
+  {
+    "text": "previous gradient so we are giving",
+    "start": 452.52,
+    "duration": 3.959
+  },
+  {
+    "text": "decreasing importance to your uh",
+    "start": 453.96,
+    "duration": 4.26
+  },
+  {
+    "text": "previous and previous gradients right as",
+    "start": 456.479,
+    "duration": 3.241
+  },
+  {
+    "text": "you are farther from the current step",
+    "start": 458.22,
+    "duration": 3.479
+  },
+  {
+    "text": "your weightage of that gradient is less",
+    "start": 459.72,
+    "duration": 3.96
+  },
+  {
+    "text": "but you are still accumulating all of",
+    "start": 461.699,
+    "duration": 4.381
+  },
+  {
+    "text": "that and hence collectively this sum",
+    "start": 463.68,
+    "duration": 3.78
+  },
+  {
+    "text": "should tell you right because instead of",
+    "start": 466.08,
+    "duration": 3.54
+  },
+  {
+    "text": "just moving with this now collectively",
+    "start": 467.46,
+    "duration": 3.78
+  },
+  {
+    "text": "you will be moving by a larger amount",
+    "start": 469.62,
+    "duration": 3.06
+  },
+  {
+    "text": "and that's exactly what you want on the",
+    "start": 471.24,
+    "duration": 3.42
+  },
+  {
+    "text": "flat surfaces because you're moving slow",
+    "start": 472.68,
+    "duration": 4.139
+  },
+  {
+    "text": "slow slow slow at every time step your",
+    "start": 474.66,
+    "duration": 4.259
+  },
+  {
+    "text": "movement is slow but if you just",
+    "start": 476.819,
+    "duration": 3.901
+  },
+  {
+    "text": "accumulate this history then your",
+    "start": 478.919,
+    "duration": 3.361
+  },
+  {
+    "text": "movement would become fast right so",
+    "start": 480.72,
+    "duration": 4.74
+  },
+  {
+    "text": "that's what is happening here",
+    "start": 482.28,
+    "duration": 5.819
+  },
+  {
+    "text": "so your UT is just going to be the sum",
+    "start": 485.46,
+    "duration": 4.92
+  },
+  {
+    "text": "of this right so this was at time step",
+    "start": 488.099,
+    "duration": 4.921
+  },
+  {
+    "text": "two this was just uh you could write",
+    "start": 490.38,
+    "duration": 6.48
+  },
+  {
+    "text": "this as beta 2 minus 0 into W 0 then",
+    "start": 493.02,
+    "duration": 8.579
+  },
+  {
+    "text": "beta 2 minus 1 into W1 plus beta",
+    "start": 496.86,
+    "duration": 8.7
+  },
+  {
+    "text": "2 minus 2 into W 2 right sorry Delta",
+    "start": 501.599,
+    "duration": 5.82
+  },
+  {
+    "text": "should have been here so that is what",
+    "start": 505.56,
+    "duration": 3.6
+  },
+  {
+    "text": "this equation is capturing right so this",
+    "start": 507.419,
+    "duration": 4.081
+  },
+  {
+    "text": "minus 0 is essentially minus Tau so",
+    "start": 509.16,
+    "duration": 3.9
+  },
+  {
+    "text": "you're going from time step 0 to time",
+    "start": 511.5,
+    "duration": 4.2
+  },
+  {
+    "text": "step Tau and at every stage your",
+    "start": 513.06,
+    "duration": 4.5
+  },
+  {
+    "text": "weightage for that gradient is given by",
+    "start": 515.7,
+    "duration": 4.139
+  },
+  {
+    "text": "Beta T minus beta raised to T minus Tau",
+    "start": 517.56,
+    "duration": 3.96
+  },
+  {
+    "text": "right so that's what u 2 is it's a",
+    "start": 519.839,
+    "duration": 3.12
+  },
+  {
+    "text": "collection of all the gradients that you",
+    "start": 521.52,
+    "duration": 4.14
+  },
+  {
+    "text": "have seen so far and this exponentially",
+    "start": 522.959,
+    "duration": 4.921
+  },
+  {
+    "text": "weighted average of current and all pass",
+    "start": 525.66,
+    "duration": 4.2
+  },
+  {
+    "text": "gradients right as I was saying that if",
+    "start": 527.88,
+    "duration": 4.7
+  },
+  {
+    "text": "you are currently",
+    "start": 529.86,
+    "duration": 2.72
+  },
+  {
+    "text": "at time step 9 right then the weightage",
+    "start": 533.88,
+    "duration": 5.399
+  },
+  {
+    "text": "for the current gradient would be one",
+    "start": 537.6,
+    "duration": 4.62
+  },
+  {
+    "text": "right because this would be 9 minus 9",
+    "start": 539.279,
+    "duration": 5.761
+  },
+  {
+    "text": "and that would be 0 if you are at time",
+    "start": 542.22,
+    "duration": 4.2
+  },
+  {
+    "text": "step if you are looking at the gradient",
+    "start": 545.04,
+    "duration": 3.12
+  },
+  {
+    "text": "at time step 8 then that would be 9",
+    "start": 546.42,
+    "duration": 4.08
+  },
+  {
+    "text": "minus 8 so it would be given the",
+    "start": 548.16,
+    "duration": 4.2
+  },
+  {
+    "text": "weightage of beta and as I said beta is",
+    "start": 550.5,
+    "duration": 3.839
+  },
+  {
+    "text": "typically 0.9 so this would keep",
+    "start": 552.36,
+    "duration": 4.56
+  },
+  {
+    "text": "decreasing exponentially so gradients",
+    "start": 554.339,
+    "duration": 4.381
+  },
+  {
+    "text": "which were taken very long back will",
+    "start": 556.92,
+    "duration": 3.599
+  },
+  {
+    "text": "have very less say in this cumulative",
+    "start": 558.72,
+    "duration": 3.84
+  },
+  {
+    "text": "history right so that's what the idea",
+    "start": 560.519,
+    "duration": 4.44
+  },
+  {
+    "text": "behind momentum is and now with this",
+    "start": 562.56,
+    "duration": 4.44
+  },
+  {
+    "text": "idea in mind let me go back to the",
+    "start": 564.959,
+    "duration": 4.081
+  },
+  {
+    "text": "previous slide",
+    "start": 567.0,
+    "duration": 4.32
+  },
+  {
+    "text": "I'll again try to look at the equations",
+    "start": 569.04,
+    "duration": 4.5
+  },
+  {
+    "text": "right so this is what the equations look",
+    "start": 571.32,
+    "duration": 3.66
+  },
+  {
+    "text": "like now we understand that this",
+    "start": 573.54,
+    "duration": 3.9
+  },
+  {
+    "text": "quantity here actually captures the",
+    "start": 574.98,
+    "duration": 4.919
+  },
+  {
+    "text": "entire history okay the weights are",
+    "start": 577.44,
+    "duration": 5.88
+  },
+  {
+    "text": "initialized randomly your U minus 1 is 0",
+    "start": 579.899,
+    "duration": 5.581
+  },
+  {
+    "text": "and beta is a constant quantity between",
+    "start": 583.32,
+    "duration": 4.56
+  },
+  {
+    "text": "0 to 1. so what you're doing is taking",
+    "start": 585.48,
+    "duration": 5.039
+  },
+  {
+    "text": "an exponentially weighted average of all",
+    "start": 587.88,
+    "duration": 4.98
+  },
+  {
+    "text": "the gradients and now it should be clear",
+    "start": 590.519,
+    "duration": 4.921
+  },
+  {
+    "text": "that instead of moving just by the",
+    "start": 592.86,
+    "duration": 5.82
+  },
+  {
+    "text": "current gradient which on a flat surface",
+    "start": 595.44,
+    "duration": 5.88
+  },
+  {
+    "text": "would be very small you are moving by",
+    "start": 598.68,
+    "duration": 4.44
+  },
+  {
+    "text": "this current you this cumulative history",
+    "start": 601.32,
+    "duration": 3.3
+  },
+  {
+    "text": "right and that cumulative history would",
+    "start": 603.12,
+    "duration": 3.3
+  },
+  {
+    "text": "of course be larger than the current",
+    "start": 604.62,
+    "duration": 3.3
+  },
+  {
+    "text": "gradient because it also includes the",
+    "start": 606.42,
+    "duration": 2.7
+  },
+  {
+    "text": "current gradient right so hence you'll",
+    "start": 607.92,
+    "duration": 3.479
+  },
+  {
+    "text": "be able to move by larger amounts right",
+    "start": 609.12,
+    "duration": 5.219
+  },
+  {
+    "text": "so let's see what happens now uh when we",
+    "start": 611.399,
+    "duration": 5.901
+  },
+  {
+    "text": "run this algorithm",
+    "start": 614.339,
+    "duration": 2.961
+  },
+  {
+    "text": "foreign",
+    "start": 620.04,
+    "duration": 2.239
+  },
+  {
+    "text": "okay so this is how I have written",
+    "start": 629.88,
+    "duration": 3.84
+  },
+  {
+    "text": "momentum based gradient descent so it's",
+    "start": 631.92,
+    "duration": 4.08
+  },
+  {
+    "text": "very similar to the gradient descent",
+    "start": 633.72,
+    "duration": 4.2
+  },
+  {
+    "text": "algorithm that I had written let me just",
+    "start": 636.0,
+    "duration": 3.839
+  },
+  {
+    "text": "point out things here",
+    "start": 637.92,
+    "duration": 4.62
+  },
+  {
+    "text": "uh so this is my initialization so I",
+    "start": 639.839,
+    "duration": 4.921
+  },
+  {
+    "text": "have initialized W and B to some random",
+    "start": 642.54,
+    "duration": 3.84
+  },
+  {
+    "text": "values for the sake of convenience minus",
+    "start": 644.76,
+    "duration": 4.079
+  },
+  {
+    "text": "2 minus 2 e tabs has taken one I'm not",
+    "start": 646.38,
+    "duration": 3.54
+  },
+  {
+    "text": "planning playing around with the",
+    "start": 648.839,
+    "duration": 5.521
+  },
+  {
+    "text": "learning rate and I have this uh for the",
+    "start": 649.92,
+    "duration": 6.72
+  },
+  {
+    "text": "u t right which was storing the history",
+    "start": 654.36,
+    "duration": 5.219
+  },
+  {
+    "text": "so I've initialized the history for w as",
+    "start": 656.64,
+    "duration": 7.199
+  },
+  {
+    "text": "well as B to be equal to 0 right and I",
+    "start": 659.579,
+    "duration": 6.481
+  },
+  {
+    "text": "have taken beta is 0.10 as I said 0.9 is",
+    "start": 663.839,
+    "duration": 4.56
+  },
+  {
+    "text": "the typical value now this part is the",
+    "start": 666.06,
+    "duration": 4.5
+  },
+  {
+    "text": "same as green gradient descent for every",
+    "start": 668.399,
+    "duration": 5.221
+  },
+  {
+    "text": "point in my training data I am Computing",
+    "start": 670.56,
+    "duration": 5.1
+  },
+  {
+    "text": "the derivative and just summing up the",
+    "start": 673.62,
+    "duration": 4.26
+  },
+  {
+    "text": "derivative so that's the derivative of",
+    "start": 675.66,
+    "duration": 4.2
+  },
+  {
+    "text": "the loss function and now I'm",
+    "start": 677.88,
+    "duration": 4.38
+  },
+  {
+    "text": "maintaining this cumulative history in",
+    "start": 679.86,
+    "duration": 5.7
+  },
+  {
+    "text": "VW and VB and then updating according to",
+    "start": 682.26,
+    "duration": 5.639
+  },
+  {
+    "text": "the cumulative history as opposed to the",
+    "start": 685.56,
+    "duration": 4.92
+  },
+  {
+    "text": "current uh or as as opposed to only",
+    "start": 687.899,
+    "duration": 4.081
+  },
+  {
+    "text": "using the current grade unit so that's",
+    "start": 690.48,
+    "duration": 3.12
+  },
+  {
+    "text": "what the code is doing it's in line with",
+    "start": 691.98,
+    "duration": 4.56
+  },
+  {
+    "text": "the uh set of equations that you had if",
+    "start": 693.6,
+    "duration": 4.62
+  },
+  {
+    "text": "you want you can pause at this point and",
+    "start": 696.54,
+    "duration": 4.14
+  },
+  {
+    "text": "look at the code more carefully",
+    "start": 698.22,
+    "duration": 4.02
+  },
+  {
+    "text": "um but it's pretty uh straight forward",
+    "start": 700.68,
+    "duration": 4.62
+  },
+  {
+    "text": "okay so now let's try to run uh",
+    "start": 702.24,
+    "duration": 6.92
+  },
+  {
+    "text": "momentum based gradient okay",
+    "start": 705.3,
+    "duration": 3.86
+  },
+  {
+    "text": "and now you will see that right earlier",
+    "start": 710.579,
+    "duration": 4.621
+  },
+  {
+    "text": "it was very slow now it started moving",
+    "start": 712.8,
+    "duration": 4.38
+  },
+  {
+    "text": "very fast and it has gone like somewhere",
+    "start": 715.2,
+    "duration": 4.92
+  },
+  {
+    "text": "and it's coming back now whether that's",
+    "start": 717.18,
+    "duration": 4.5
+  },
+  {
+    "text": "a problem or not is something that we'll",
+    "start": 720.12,
+    "duration": 3.899
+  },
+  {
+    "text": "discuss soon but what is clear it's that",
+    "start": 721.68,
+    "duration": 4.08
+  },
+  {
+    "text": "definitely moving much faster than the",
+    "start": 724.019,
+    "duration": 3.841
+  },
+  {
+    "text": "gradient descent algorithm right and",
+    "start": 725.76,
+    "duration": 5.519
+  },
+  {
+    "text": "later on we'll have some uh comment on",
+    "start": 727.86,
+    "duration": 5.94
+  },
+  {
+    "text": "both gradient descent and momentum",
+    "start": 731.279,
+    "duration": 4.74
+  },
+  {
+    "text": "starting together and you will see the",
+    "start": 733.8,
+    "duration": 4.14
+  },
+  {
+    "text": "difference in one moving faster than the",
+    "start": 736.019,
+    "duration": 4.681
+  },
+  {
+    "text": "other moving slower okay but here it's",
+    "start": 737.94,
+    "duration": 4.32
+  },
+  {
+    "text": "clear that the momentum base algorithm",
+    "start": 740.7,
+    "duration": 3.24
+  },
+  {
+    "text": "is moving faster and we understand why",
+    "start": 742.26,
+    "duration": 3.84
+  },
+  {
+    "text": "that is also happening right let's look",
+    "start": 743.94,
+    "duration": 4.139
+  },
+  {
+    "text": "at the other view now so this is the",
+    "start": 746.1,
+    "duration": 4.14
+  },
+  {
+    "text": "contour map you understand what the",
+    "start": 748.079,
+    "duration": 5.221
+  },
+  {
+    "text": "contour map is so this region here is a",
+    "start": 750.24,
+    "duration": 5.64
+  },
+  {
+    "text": "flat region",
+    "start": 753.3,
+    "duration": 5.58
+  },
+  {
+    "text": "so this region here is a flat region and",
+    "start": 755.88,
+    "duration": 5.94
+  },
+  {
+    "text": "then here that the slope is very Steep",
+    "start": 758.88,
+    "duration": 4.74
+  },
+  {
+    "text": "and then again here the slope is very",
+    "start": 761.82,
+    "duration": 4.5
+  },
+  {
+    "text": "gentle this is again the slope is steep",
+    "start": 763.62,
+    "duration": 4.98
+  },
+  {
+    "text": "these are again flat regions right so",
+    "start": 766.32,
+    "duration": 3.72
+  },
+  {
+    "text": "you understand what that is so this is",
+    "start": 768.6,
+    "duration": 3.78
+  },
+  {
+    "text": "just the contour map corresponding to",
+    "start": 770.04,
+    "duration": 4.68
+  },
+  {
+    "text": "the 3D plot that we had and now we'll",
+    "start": 772.38,
+    "duration": 4.32
+  },
+  {
+    "text": "try to run uh",
+    "start": 774.72,
+    "duration": 4.919
+  },
+  {
+    "text": "gradient descent on this contour map",
+    "start": 776.7,
+    "duration": 4.379
+  },
+  {
+    "text": "it's nothing different from what I have",
+    "start": 779.639,
+    "duration": 2.88
+  },
+  {
+    "text": "shown here but now I can see the other",
+    "start": 781.079,
+    "duration": 3.06
+  },
+  {
+    "text": "view of what is happening to the sigmoid",
+    "start": 782.519,
+    "duration": 3.541
+  },
+  {
+    "text": "function and you will see something",
+    "start": 784.139,
+    "duration": 3.481
+  },
+  {
+    "text": "interesting here right so let's run it",
+    "start": 786.06,
+    "duration": 4.32
+  },
+  {
+    "text": "of course it's moving very fast",
+    "start": 787.62,
+    "duration": 8.0
+  },
+  {
+    "text": "and it's almost reached there",
+    "start": 790.38,
+    "duration": 5.24
+  },
+  {
+    "text": "but then again it has moved far and then",
+    "start": 796.26,
+    "duration": 4.56
+  },
+  {
+    "text": "again come to something which is some",
+    "start": 798.959,
+    "duration": 3.901
+  },
+  {
+    "text": "things are happening here which many of",
+    "start": 800.82,
+    "duration": 3.18
+  },
+  {
+    "text": "you might be realizing that it's",
+    "start": 802.86,
+    "duration": 3.539
+  },
+  {
+    "text": "oscillating around the solution and",
+    "start": 804.0,
+    "duration": 4.26
+  },
+  {
+    "text": "we'll see why that is happening and how",
+    "start": 806.399,
+    "duration": 3.841
+  },
+  {
+    "text": "to fix that right what is clear for now",
+    "start": 808.26,
+    "duration": 3.54
+  },
+  {
+    "text": "is that it's moving faster than gradient",
+    "start": 810.24,
+    "duration": 3.539
+  },
+  {
+    "text": "descent right so some observations and",
+    "start": 811.8,
+    "duration": 3.24
+  },
+  {
+    "text": "questions",
+    "start": 813.779,
+    "duration": 3.541
+  },
+  {
+    "text": "even in the regions having gentle slopes",
+    "start": 815.04,
+    "duration": 4.2
+  },
+  {
+    "text": "momentum based gradientation is able to",
+    "start": 817.32,
+    "duration": 3.84
+  },
+  {
+    "text": "take large steps because the momentum",
+    "start": 819.24,
+    "duration": 3.18
+  },
+  {
+    "text": "carries it along right because it is",
+    "start": 821.16,
+    "duration": 3.119
+  },
+  {
+    "text": "having the entire history behind it it",
+    "start": 822.42,
+    "duration": 4.38
+  },
+  {
+    "text": "just goes faster now",
+    "start": 824.279,
+    "duration": 4.981
+  },
+  {
+    "text": "but is moving fast always so good right",
+    "start": 826.8,
+    "duration": 4.2
+  },
+  {
+    "text": "would there be a situation where",
+    "start": 829.26,
+    "duration": 4.019
+  },
+  {
+    "text": "momentum would cause us to run past our",
+    "start": 831.0,
+    "duration": 3.779
+  },
+  {
+    "text": "goal right and again I'll go back to my",
+    "start": 833.279,
+    "duration": 3.541
+  },
+  {
+    "text": "analogy so you're going towards the",
+    "start": 834.779,
+    "duration": 3.781
+  },
+  {
+    "text": "Phoenix Market City a lot of momentum",
+    "start": 836.82,
+    "duration": 3.06
+  },
+  {
+    "text": "has been built many people have asked",
+    "start": 838.56,
+    "duration": 2.76
+  },
+  {
+    "text": "you to go in the right right right right",
+    "start": 839.88,
+    "duration": 3.72
+  },
+  {
+    "text": "and now suppose imagine you are on a",
+    "start": 841.32,
+    "duration": 4.079
+  },
+  {
+    "text": "scooter because now you are fast",
+    "start": 843.6,
+    "duration": 3.12
+  },
+  {
+    "text": "and you go",
+    "start": 845.399,
+    "duration": 3.24
+  },
+  {
+    "text": "very fast okay people have said Gora so",
+    "start": 846.72,
+    "duration": 3.66
+  },
+  {
+    "text": "you just zoom and go now what will",
+    "start": 848.639,
+    "duration": 2.521
+  },
+  {
+    "text": "happen",
+    "start": 850.38,
+    "duration": 2.759
+  },
+  {
+    "text": "you will cross the mall and go ahead",
+    "start": 851.16,
+    "duration": 3.84
+  },
+  {
+    "text": "right and then you'll have to take a",
+    "start": 853.139,
+    "duration": 3.721
+  },
+  {
+    "text": "U-turn and come back and you're taking a",
+    "start": 855.0,
+    "duration": 3.72
+  },
+  {
+    "text": "U-turn people will say okay go in the",
+    "start": 856.86,
+    "duration": 4.32
+  },
+  {
+    "text": "left direction or go this way and again",
+    "start": 858.72,
+    "duration": 3.96
+  },
+  {
+    "text": "you will say Okay many people are saying",
+    "start": 861.18,
+    "duration": 3.0
+  },
+  {
+    "text": "that so let me go fast then again you",
+    "start": 862.68,
+    "duration": 3.06
+  },
+  {
+    "text": "might overshoot and then again come back",
+    "start": 864.18,
+    "duration": 3.54
+  },
+  {
+    "text": "take a U-turn come back and so on right",
+    "start": 865.74,
+    "duration": 4.08
+  },
+  {
+    "text": "so going fast is not always good as",
+    "start": 867.72,
+    "duration": 3.78
+  },
+  {
+    "text": "you'd say I mean you could imagine in",
+    "start": 869.82,
+    "duration": 3.9
+  },
+  {
+    "text": "any navigation problem you just keep",
+    "start": 871.5,
+    "duration": 4.019
+  },
+  {
+    "text": "going fast without checking whether okay",
+    "start": 873.72,
+    "duration": 3.6
+  },
+  {
+    "text": "everything is fine you might overshoot",
+    "start": 875.519,
+    "duration": 3.241
+  },
+  {
+    "text": "and then I have to take a U-turn and",
+    "start": 877.32,
+    "duration": 3.24
+  },
+  {
+    "text": "come back right in fact and this is what",
+    "start": 878.76,
+    "duration": 4.5
+  },
+  {
+    "text": "the u-turns are what we saw on the",
+    "start": 880.56,
+    "duration": 4.74
+  },
+  {
+    "text": "momentum gradient descent right so it",
+    "start": 883.26,
+    "duration": 3.019
+  },
+  {
+    "text": "actually",
+    "start": 885.3,
+    "duration": 4.2
+  },
+  {
+    "text": "overshot right so it come here",
+    "start": 886.279,
+    "duration": 7.321
+  },
+  {
+    "text": "so it actually if you look at",
+    "start": 889.5,
+    "duration": 4.1
+  },
+  {
+    "text": "yeah this is what it looked like right",
+    "start": 895.8,
+    "duration": 2.82
+  },
+  {
+    "text": "so now",
+    "start": 897.54,
+    "duration": 4.56
+  },
+  {
+    "text": "uh so it went down in the valley",
+    "start": 898.62,
+    "duration": 5.04
+  },
+  {
+    "text": "now it should have gone towards its goal",
+    "start": 902.1,
+    "duration": 3.299
+  },
+  {
+    "text": "but it overshadowed the goal right it",
+    "start": 903.66,
+    "duration": 3.78
+  },
+  {
+    "text": "went further ahead then it took a U-turn",
+    "start": 905.399,
+    "duration": 3.661
+  },
+  {
+    "text": "and came back now again it should have",
+    "start": 907.44,
+    "duration": 3.0
+  },
+  {
+    "text": "gone somewhere here but its momentum",
+    "start": 909.06,
+    "duration": 3.779
+  },
+  {
+    "text": "carried it here in this direction and",
+    "start": 910.44,
+    "duration": 3.959
+  },
+  {
+    "text": "then again it had to take a U-turn and",
+    "start": 912.839,
+    "duration": 3.0
+  },
+  {
+    "text": "come back here right so that is what we",
+    "start": 914.399,
+    "duration": 4.74
+  },
+  {
+    "text": "saw so clearly it's moving fast but it's",
+    "start": 915.839,
+    "duration": 5.94
+  },
+  {
+    "text": "it's kind of moving a bit out of control",
+    "start": 919.139,
+    "duration": 4.14
+  },
+  {
+    "text": "right so we need to see whether if we",
+    "start": 921.779,
+    "duration": 4.221
+  },
+  {
+    "text": "can control the way it is moving right",
+    "start": 923.279,
+    "duration": 5.821
+  },
+  {
+    "text": "and so make let's see this in a more you",
+    "start": 926.0,
+    "duration": 4.54
+  },
+  {
+    "text": "know one more setting right so now we",
+    "start": 929.1,
+    "duration": 3.66
+  },
+  {
+    "text": "have this kind of an input and we have a",
+    "start": 930.54,
+    "duration": 4.62
+  },
+  {
+    "text": "very weird looking 3D surface here right",
+    "start": 932.76,
+    "duration": 4.199
+  },
+  {
+    "text": "and this is what the contour map looks",
+    "start": 935.16,
+    "duration": 3.0
+  },
+  {
+    "text": "like and now I'm just going to focus on",
+    "start": 936.959,
+    "duration": 2.581
+  },
+  {
+    "text": "the contour map because the contour map",
+    "start": 938.16,
+    "duration": 2.52
+  },
+  {
+    "text": "tells me everything",
+    "start": 939.54,
+    "duration": 3.84
+  },
+  {
+    "text": "this is a flat surface and from this",
+    "start": 940.68,
+    "duration": 4.8
+  },
+  {
+    "text": "flat surface I am quickly moving into a",
+    "start": 943.38,
+    "duration": 3.66
+  },
+  {
+    "text": "value rate so there's a steep slope",
+    "start": 945.48,
+    "duration": 3.479
+  },
+  {
+    "text": "which takes me to a valley similarly",
+    "start": 947.04,
+    "duration": 3.9
+  },
+  {
+    "text": "here I have a flat surface and I am",
+    "start": 948.959,
+    "duration": 3.841
+  },
+  {
+    "text": "going into a Valley from a steep slope",
+    "start": 950.94,
+    "duration": 3.78
+  },
+  {
+    "text": "so this is a Surface where you have like",
+    "start": 952.8,
+    "duration": 4.56
+  },
+  {
+    "text": "flat surfaces here and then you quickly",
+    "start": 954.72,
+    "duration": 4.679
+  },
+  {
+    "text": "move into a Valley from both sides right",
+    "start": 957.36,
+    "duration": 4.56
+  },
+  {
+    "text": "so from all sides you have flat surfaces",
+    "start": 959.399,
+    "duration": 4.261
+  },
+  {
+    "text": "and then you quickly move into a valley",
+    "start": 961.92,
+    "duration": 3.779
+  },
+  {
+    "text": "so this is what it looks like is it's a",
+    "start": 963.66,
+    "duration": 4.38
+  },
+  {
+    "text": "very steep valley and now you can",
+    "start": 965.699,
+    "duration": 4.801
+  },
+  {
+    "text": "imagine right so if I put a ball here",
+    "start": 968.04,
+    "duration": 4.5
+  },
+  {
+    "text": "it will roll down it will not stop here",
+    "start": 970.5,
+    "duration": 4.38
+  },
+  {
+    "text": "it'll go up then again come back go up",
+    "start": 972.54,
+    "duration": 4.02
+  },
+  {
+    "text": "then again come back and it will keep",
+    "start": 974.88,
+    "duration": 3.12
+  },
+  {
+    "text": "oscillating it so let's see if this",
+    "start": 976.56,
+    "duration": 4.019
+  },
+  {
+    "text": "effect is what we see in the momentum",
+    "start": 978.0,
+    "duration": 6.199
+  },
+  {
+    "text": "based gradient descent algorithms",
+    "start": 980.579,
+    "duration": 3.62
+  },
+  {
+    "text": "oh my God",
+    "start": 985.199,
+    "duration": 3.08
+  },
+  {
+    "text": "so now you see gradient descent is",
+    "start": 991.32,
+    "duration": 4.459
+  },
+  {
+    "text": "moving very slow but it's",
+    "start": 993.3,
+    "duration": 5.58
+  },
+  {
+    "text": "decidedly going towards its goal okay",
+    "start": 995.779,
+    "duration": 4.48
+  },
+  {
+    "text": "I'll have to play this video a few times",
+    "start": 998.88,
+    "duration": 3.3
+  },
+  {
+    "text": "so this gradient isn't just slowly",
+    "start": 1000.259,
+    "duration": 3.541
+  },
+  {
+    "text": "converging now you can see that it's",
+    "start": 1002.18,
+    "duration": 4.019
+  },
+  {
+    "text": "found the configuration where both the",
+    "start": 1003.8,
+    "duration": 4.02
+  },
+  {
+    "text": "points lie on the sigmoid function right",
+    "start": 1006.199,
+    "duration": 4.021
+  },
+  {
+    "text": "so this is actually a sigmoid function",
+    "start": 1007.82,
+    "duration": 4.379
+  },
+  {
+    "text": "like this right so",
+    "start": 1010.22,
+    "duration": 4.08
+  },
+  {
+    "text": "I'm just showing you a slice so it's a",
+    "start": 1012.199,
+    "duration": 4.5
+  },
+  {
+    "text": "sigmoid function like this and I'm just",
+    "start": 1014.3,
+    "duration": 3.839
+  },
+  {
+    "text": "showing you this portion of the sigm",
+    "start": 1016.699,
+    "duration": 2.7
+  },
+  {
+    "text": "point functions it's not a line it's",
+    "start": 1018.139,
+    "duration": 3.0
+  },
+  {
+    "text": "still a sigmoid function it's just that",
+    "start": 1019.399,
+    "duration": 5.101
+  },
+  {
+    "text": "it's a very uh gentle slope sigmoid",
+    "start": 1021.139,
+    "duration": 5.221
+  },
+  {
+    "text": "function so it's going to go like this",
+    "start": 1024.5,
+    "duration": 3.72
+  },
+  {
+    "text": "and at this point it's going to go like",
+    "start": 1026.36,
+    "duration": 4.62
+  },
+  {
+    "text": "this okay but let's focus on the uh",
+    "start": 1028.22,
+    "duration": 5.54
+  },
+  {
+    "text": "movement again",
+    "start": 1030.98,
+    "duration": 2.78
+  },
+  {
+    "text": "so let's see now you can see clearly",
+    "start": 1033.98,
+    "duration": 5.099
+  },
+  {
+    "text": "that momentum based gradient descent is",
+    "start": 1036.339,
+    "duration": 4.84
+  },
+  {
+    "text": "moving much faster right but then it's",
+    "start": 1039.079,
+    "duration": 4.201
+  },
+  {
+    "text": "also oscillating a lot right so it kind",
+    "start": 1041.179,
+    "duration": 5.221
+  },
+  {
+    "text": "of went uh let me now just minimize this",
+    "start": 1043.28,
+    "duration": 6.0
+  },
+  {
+    "text": "it's better to do it",
+    "start": 1046.4,
+    "duration": 6.899
+  },
+  {
+    "text": "yeah so this is what it looks like and",
+    "start": 1049.28,
+    "duration": 6.24
+  },
+  {
+    "text": "yeah so the momentum base gradient",
+    "start": 1053.299,
+    "duration": 3.781
+  },
+  {
+    "text": "descent it was clear from the speed it",
+    "start": 1055.52,
+    "duration": 3.24
+  },
+  {
+    "text": "was going faster right but then what was",
+    "start": 1057.08,
+    "duration": 3.36
+  },
+  {
+    "text": "happening is that it was often",
+    "start": 1058.76,
+    "duration": 3.299
+  },
+  {
+    "text": "overshooting right so it went here it",
+    "start": 1060.44,
+    "duration": 3.119
+  },
+  {
+    "text": "should have gone here but it just went",
+    "start": 1062.059,
+    "duration": 3.901
+  },
+  {
+    "text": "here then it took a U-turn and again",
+    "start": 1063.559,
+    "duration": 4.321
+  },
+  {
+    "text": "took a U-turn then again took a U-turn",
+    "start": 1065.96,
+    "duration": 3.599
+  },
+  {
+    "text": "right so you can see that uh you can",
+    "start": 1067.88,
+    "duration": 3.06
+  },
+  {
+    "text": "play the video again and you can see",
+    "start": 1069.559,
+    "duration": 3.48
+  },
+  {
+    "text": "that it's taking quite a few u-turns",
+    "start": 1070.94,
+    "duration": 4.5
+  },
+  {
+    "text": "before it reaches its goal and this is",
+    "start": 1073.039,
+    "duration": 4.5
+  },
+  {
+    "text": "exactly the analogy very good if it's on",
+    "start": 1075.44,
+    "duration": 4.08
+  },
+  {
+    "text": "a scooter or a bike or a car and it is",
+    "start": 1077.539,
+    "duration": 3.961
+  },
+  {
+    "text": "going fast an overshoot come back",
+    "start": 1079.52,
+    "duration": 4.56
+  },
+  {
+    "text": "overshoot come back but what is",
+    "start": 1081.5,
+    "duration": 4.2
+  },
+  {
+    "text": "happening in this case as happens in",
+    "start": 1084.08,
+    "duration": 4.5
+  },
+  {
+    "text": "real life also you will still reach your",
+    "start": 1085.7,
+    "duration": 5.099
+  },
+  {
+    "text": "goal faster than the guy who is walking",
+    "start": 1088.58,
+    "duration": 4.08
+  },
+  {
+    "text": "right in this case so momentum base",
+    "start": 1090.799,
+    "duration": 3.961
+  },
+  {
+    "text": "gradient descent oscillates in and out",
+    "start": 1092.66,
+    "duration": 3.66
+  },
+  {
+    "text": "of the Minima Valley as the momentum",
+    "start": 1094.76,
+    "duration": 3.72
+  },
+  {
+    "text": "carries it out of the valley right and",
+    "start": 1096.32,
+    "duration": 3.66
+  },
+  {
+    "text": "then it takes a lot of u-turns before",
+    "start": 1098.48,
+    "duration": 3.66
+  },
+  {
+    "text": "finally converging despite these used U",
+    "start": 1099.98,
+    "duration": 4.8
+  },
+  {
+    "text": "turns it still converges faster than the",
+    "start": 1102.14,
+    "duration": 4.5
+  },
+  {
+    "text": "gradient vanilla gradient descent right",
+    "start": 1104.78,
+    "duration": 3.06
+  },
+  {
+    "text": "and I'll just quickly play the video",
+    "start": 1106.64,
+    "duration": 3.36
+  },
+  {
+    "text": "Once More to show this is important",
+    "start": 1107.84,
+    "duration": 5.1
+  },
+  {
+    "text": "right so after 50 iterations momentum",
+    "start": 1110.0,
+    "duration": 5.039
+  },
+  {
+    "text": "based gradient descent is at a very low",
+    "start": 1112.94,
+    "duration": 4.56
+  },
+  {
+    "text": "loss whereas gradient descent was a very",
+    "start": 1115.039,
+    "duration": 3.901
+  },
+  {
+    "text": "high loss right and 50 iterations",
+    "start": 1117.5,
+    "duration": 3.179
+  },
+  {
+    "text": "corresponds to two seconds of the video",
+    "start": 1118.94,
+    "duration": 4.56
+  },
+  {
+    "text": "there are 25 iterations per second here",
+    "start": 1120.679,
+    "duration": 6.181
+  },
+  {
+    "text": "so I'll just play it quickly again",
+    "start": 1123.5,
+    "duration": 6.419
+  },
+  {
+    "text": "one second it's already much ahead of",
+    "start": 1126.86,
+    "duration": 4.38
+  },
+  {
+    "text": "gradient descent",
+    "start": 1129.919,
+    "duration": 3.721
+  },
+  {
+    "text": "two seconds it's actually",
+    "start": 1131.24,
+    "duration": 4.2
+  },
+  {
+    "text": "reached the Minima it's now just going",
+    "start": 1133.64,
+    "duration": 3.779
+  },
+  {
+    "text": "to keep oscillating there but gradient",
+    "start": 1135.44,
+    "duration": 4.2
+  },
+  {
+    "text": "descent is still very far and now",
+    "start": 1137.419,
+    "duration": 4.38
+  },
+  {
+    "text": "despite these oscillations it's reached",
+    "start": 1139.64,
+    "duration": 3.96
+  },
+  {
+    "text": "its answer whereas gradient descent is",
+    "start": 1141.799,
+    "duration": 3.781
+  },
+  {
+    "text": "still trying to reach there reach there",
+    "start": 1143.6,
+    "duration": 3.3
+  },
+  {
+    "text": "it's there",
+    "start": 1145.58,
+    "duration": 2.94
+  },
+  {
+    "text": "still not there",
+    "start": 1146.9,
+    "duration": 3.54
+  },
+  {
+    "text": "and now it is there right so you can see",
+    "start": 1148.52,
+    "duration": 3.659
+  },
+  {
+    "text": "that momentum based gradient doesn't",
+    "start": 1150.44,
+    "duration": 4.5
+  },
+  {
+    "text": "reach there much quicker than gradient",
+    "start": 1152.179,
+    "duration": 6.421
+  },
+  {
+    "text": "descent despite these oscillations",
+    "start": 1154.94,
+    "duration": 6.18
+  },
+  {
+    "text": "so what we would like to see next now is",
+    "start": 1158.6,
+    "duration": 6.0
+  },
+  {
+    "text": "that can we the oscillations are a part",
+    "start": 1161.12,
+    "duration": 4.919
+  },
+  {
+    "text": "of the life now right given that we are",
+    "start": 1164.6,
+    "duration": 3.42
+  },
+  {
+    "text": "moving fast but can we do something to",
+    "start": 1166.039,
+    "duration": 3.841
+  },
+  {
+    "text": "reduce these oscillations and that's the",
+    "start": 1168.02,
+    "duration": 5.22
+  },
+  {
+    "text": "idea behind nestro based uh gradient",
+    "start": 1169.88,
+    "duration": 5.52
+  },
+  {
+    "text": "nest of accelerated gradient descent so",
+    "start": 1173.24,
+    "duration": 3.9
+  },
+  {
+    "text": "that is what we'll see in the next video",
+    "start": 1175.4,
+    "duration": 4.639
+  },
+  {
+    "text": "thank you",
+    "start": 1177.14,
+    "duration": 2.899
+  }
+]

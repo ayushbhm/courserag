@@ -1,0 +1,10 @@
+again wt minus 1 plus some pj so at the previous time step i would have taken some pj right.
+and wt minus 1 i would have adjusted by adding some pj so pj is again one of these p.
+points that you see here so again i'll do that expansion so i'll have i let me just yeah so.
+this is what the expansion will look like and now again this quantity i know that this quantity is going.
+to be greater than equal to delta the same argument so this quantity is the dot product between w star.
+and one of these points and if delta is the minimum of those dot products so this quantity is going.
+to be greater than equal to delta so i can replace that by delta and now i will have 2.
+delta is that ok and i can keep going like this unless a till from t i'll have t t.
+minus 1 t minus 2 till i reach w naught right and i'll have some multiplier k here right so.
+now the question is why is this multiplier k and why is it not t t is the number of.

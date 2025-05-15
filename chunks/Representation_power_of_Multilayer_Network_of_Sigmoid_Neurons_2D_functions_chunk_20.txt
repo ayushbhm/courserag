@@ -1,0 +1,9 @@
+check out this network and convince yourself that you can get a 2d function it's the same thing that we.
+did for 1d just like one more level of complexity added right and you can see that the number of.
+neurons in my middle layer has now increased right this has become four neurons okay and also our initial goal.
+was to prove that a single layer neural network should be sufficient i have not proved it for a single.
+layer right so what you will have is one layer where the number of neurons will keep growing so it.
+will be like a three layer network which can approximate any arbitrary function right now you could take this idea.
+further and prove for the one layer case also but as i said that proof will be a bit complicated.
+but at least i have shown you that with three layer network you can approximate a 2d function right to.
+arbitrary degree of precision right so that's what we have been able to do so now what will happen is.

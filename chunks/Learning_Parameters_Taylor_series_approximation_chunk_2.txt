@@ -1,0 +1,10 @@
+the case I don't know what the correct Theta is so I'm going to start off with some random value.
+for Theta and when I start off with this random value of theta I want to know how much to.
+change it so that at this Step at least I'm looking at it one step at a time at this.
+Step at least the error should decrease right so I'm looking for that change in Theta which is nothing but.
+a change in W and a change in B so that I get a new value of theta and then.
+my loss is hopefully decreased I'm not sure of that yet but that's what the goal is right so this.
+is my Theta some Vector Delta Theta is also a vector it is also a vector in R2 this is.
+a vector in R2 and similarly this is also a vector in R2 right now these are two vectors now.
+what I'm going to do is my change is going to be just given as Theta Nu is equal to.
+wherever I am currently I'll move by this change right so Theta Nu is equal to theta plus Delta Theta.

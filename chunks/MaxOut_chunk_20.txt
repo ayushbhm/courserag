@@ -1,0 +1,9 @@
+number of parameters you could think of that as a disadvantage but there is a proof which also shows that.
+two max out neurons with sufficient number of affine Transformations right so just have two of these but you have.
+a large number of affine Transformations inside them right then these can act as a universal approximate so you just.
+need like two max out neurons to approximate any function so that's a uh kind of a testimony for the.
+uh non-linearity or the representation power that max out neurons brings in August makes out neurons uh despite whatever I.
+have explained are still not very popular I think their special case which is relu or any of its variants.
+they are still more popular but it's good to know about them it's good to see the analogy with Dropout.
+it's also good to see how they generalize relu and other functions is also good to know that just two.
+max out neurons are uh can act as a universal approximately so this all helps you build a better understanding.

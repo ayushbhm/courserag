@@ -1,0 +1,9 @@
+and then continue from there right so this is like more data driven learning rate that okay my validation loss.
+is increasing that means my training is not helping me to generalize well so let me just not make a.
+aggressive updates because my updates are according to the training data not according to the validation data so let me.
+not make aggressive updates and one way of ensuring that is to just halve the learning rate and then run.
+okay right and if it keeps increasing after that then maybe you have just conversed then you should stop training.
+at that point right so that's one strategy for annealing the learning rate another way of annealing the learning rate.
+is to use an exponentially decaying learning rate so you have some initial learning rate and then you keep exponentially.
+decaying it right so what is happening here is that you are having 1 over ETA 0 raised to KT.
+right so at time step 0 suppose your ETA 0 is 1 right so at time step 0 and let's.

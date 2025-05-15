@@ -1,0 +1,8 @@
+foreign [Music] methods are good right so what does that mean that if we average the output of several models.
+then it always helps right but now in the context of deep neural networks this is of course a challenge.
+right so if you have to train several large neural networks then it is going to be prohibitively expensive right.
+because then you are going to combine these neural networks but then you have to train so many of those.
+right and what uh there are two options here right one is you train several neural networks having different architectures.
+so that's what I've shown in the first figure here where you have all of these are neural networks but.
+they have different architectures or the other option is that you have the same neural network same architecture rather and.
+you're going to train it using different subsets of the training data right now both these options are obviously expensive.

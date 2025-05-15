@@ -1,0 +1,9 @@
+so that you are not making very large updates and then as you gain confidence you keep increasing the learning.
+rate to a high value and then once you reach a high value from there on you start decaying at.
+explanation right so this is the default learning rate schedule used in uh a Transformer based architectures and this is.
+what uh it looks like right so as you keep and if you use different so the warm-up step is.
+the number of steps for which you will let the learning rate to climb so in one case I have.
+the warm-up step as uh 2000 and in the other case I have the warm-up step is four thousand so.
+the 2000 curve of course Rises rapidly and then Falls and the 4000 step Rises more uh smoothly and then.
+it uh Falls right so starts ticking exponentially from there okay so that's that's all we had we covered the.
+different learning rate schedules that we had uh and this you could use in conjunction with the optimization algorithms that.

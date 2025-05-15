@@ -1,0 +1,10 @@
+we saw on the previous slide said that the lp Norm is just the max right this after that there.
+is no squaring square root of any of those things right so we do not need the square root here.
+so this is what the WT plus 1 would be and we did not uh do any bias correction for.
+VT right we just took we are just going to take VT as it is because it turns out that.
+the max Norm is not susceptible to the initial zero bias as opposed to the exponentially weighted average norm that.
+we have right so let's see why that is the case so this is what happens right so now if.
+you have the max Norm so again what will happen is that your m 0 is sorry M minus 1.
+at initialization is 0 and now in this case my at time step 0 I had the value 0.5 so.
+my Max Norm is going to be the max of these two quantities right and then it will end up.
+being 0.5 so I'll start from here right and so max is of course more uh zigzag it's not as.

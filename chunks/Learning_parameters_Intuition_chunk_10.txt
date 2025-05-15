@@ -1,0 +1,8 @@
+i had in the network right so if i know these two then i'll just come back to my gradient.
+descent algorithm and i can find the i can learn the parameters right so that's the intuition this idea should.
+be clear that while we have graduated from that two parameter case to like a very large number of parameters.
+case the basic idea still remains the same i just need to be able to compute the partial derivatives of.
+the loss function with respect to the weights if i can do that i can run gradient descent and to.
+compute that i need to know the loss function and i need to know how to compute the partial derivative.
+so that's what we are going to do uh in today's lecture right so this is going to be a.
+very long lecture but this is what we are going to do okay.

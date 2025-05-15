@@ -1,0 +1,10 @@
+elements of the bias Vector then I can split it into these two parts this again I already know how.
+to compute and what is the derivative of a k i with respect to bki you can just see from.
+this formula that it's just equal to 1 8 so this part will disappear and you're just taking the derivative.
+of b k i with respect to bki which is one so the only thing that you will get is.
+this so this is now we can have the gradient Vector so uh the derivative of the loss function with.
+respect to the BK Vector is just going to be a collection of all these partial derivatives which is just.
+the derivative of the loss function with respect to a k right because each of these entries is just the.
+partial derivative of the loss function with respect to one of the elements of a k so collection of all.
+those is just going to be the gradient of the loss function with respect to a k right so we.
+are done we have done the derivatives of the loss function with respect to the weights and the biases that.

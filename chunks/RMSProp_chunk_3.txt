@@ -1,0 +1,10 @@
+taking the whole of b0 square whereas here I am taking a small fraction again the whole of B1 square.
+but a small fraction here again the whole of B2 square but even again a small fraction of P2 square.
+right so now I'm controlling the rate at which V2 is going I'm not allowing it to shoot quickly I'm.
+doing this exponentially decaying average foreign formula uh no I think we have not seen this earlier but you can.
+see where the formula is coming from uh have you seen we have seen this formula earlier when we have.
+been discussing momentum right this kind of a formula so if I just substitute here I have actually substituted the.
+value of beta as 0.9 and 1 minus beta is 0.1 but instead if I just kept beta and 1.
+minus beta and solve for that I would have got the formula as they said that at timestamp VT my.
+uh wheat at time step T my v t is going to be given by this formula and what you.
+see at V2 is just a manifestation of this formula applied at time Step 2 with the value of beta.

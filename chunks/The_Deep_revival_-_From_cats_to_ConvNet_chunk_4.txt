@@ -1,0 +1,9 @@
+which came around which is I think around 2008 or 10 when it was first there and then in 2012.
+onwards the winner in the image net challenge which is roughly like you have 1000 different classes of Images cats.
+dogs airplanes trucks and so on and you have a million uh training points and then you have a test.
+set which contains images from this set and you have to classify those images accurately right so in 2012 we.
+were able to do this with lxnet with a 16 error rate right so 84 percent sometimes the model was.
+correct but then after right so then came zfnet which was again an eight layer network but we were able.
+to do 11.2 percent reduce the error till 1.2 percent and then within a few years right which is around.
+2016 or 17. it went down to 3.6 percent at which point it became better than humans right so what.
+does that mean is that if I show these test images Suppose there are thousand images in the test set.

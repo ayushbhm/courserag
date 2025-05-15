@@ -1,0 +1,10 @@
+of this function with respect to W so this is the quantity that I want to compute now right uh.
+so this is the partial derivative now this is easy right so this I can just I know that this.
+is a function of w comma B right this is my sigmoid function which has the parameters W and B.
+so this is a function of w and B so I'll just take the derivative and then push the derivative.
+inside it so this is the derivative of uh of fun of the square of a function of w so.
+it will just be 2 times that function into the derivative of the function right you just you this chain.
+rule of derivative that you know so this is some function which depends on W then you have taken the.
+square of that function and now you are taking the derivative the first thing would be 2 times the function.
+and then you push the derivative inside so you get the derivative of the function with respect to W okay.
+now this is of course a constant right because this is the value True Value which is given to us.

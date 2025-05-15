@@ -1,0 +1,10 @@
+w x plus b this is a function okay and you have assumed that y depends on x it's capturing.
+that and you have some parameters now how would you estimate the values of w and b if i give.
+you two points maybe i should use a different form which is y is equal to mx plus c and.
+now you would remember from my school that how do you estimate m and c if you're given two points.
+you can get these two simultaneous equations and then you can find the values of m and c right so.
+that is how we could do now in real-world applications it won't be like i mean i've taken a very.
+simplistic example but what would happen is that you'll be given many such data points the key takeaway from the.
+example is that if you're given data points which was two x comma y pairs right i have n x.
+comma y pairs here if i just had 2 x comma y plus then i could predict the values of.
+w and p right i could find out the values right and from that i just want you to extrapolate.

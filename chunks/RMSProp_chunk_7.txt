@@ -1,0 +1,9 @@
+in adagrad uh this VT was uh sorry this should have been Square so this Delta WT Square should have.
+been there and I when I had shown you the plots I had shown that VT never decreases right it.
+keeps increasing and then it saturates but does not decrease even though the derivative has become zero VT keeps increasing.
+and then it saturates right so it does not ever decrease to it does not start falling down right uh.
+now what happens in the case of RMS prompt right so let's see what is happening in the case of.
+RMS prop so you have this uh let me just annotate so this is your derivative so derivative increased increase.
+in the negative Direction and then it started decreasing and then it became zero and then you are seeing this.
+oscillations right so that let's not go into the oscillations but the main point here is that if you look.
+at your VT it is increasing and then it starts decreasing also right so e v t can decrease in.

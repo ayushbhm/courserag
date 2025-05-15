@@ -1,0 +1,8 @@
+few examples of examples on the previous slide where some stickers were added to the sign or some random patterns.
+were generated and now uh the models this this repository allows you to benchmark the models on such adversarial examples.
+and if they don't do well then you know that they're not really learning to solve the problem but are.
+somewhat like clever hands where they are relying on some other cues to arrive at the right answers without really.
+understanding what is the question being asked right and then there are now several workshops on blackbox nlp where the.
+focus is on analyzing and interpreting the neural networks which are used for nlp and there's this nice uh textbook.
+interpretable machine learning a guide for making black box models explainable right so the reason i'm bringing up all this.
+is that this was not so much in focus a few years back right but now this has become quite.

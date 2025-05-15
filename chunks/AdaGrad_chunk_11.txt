@@ -1,0 +1,9 @@
+thousands of input features and uh you many of them might be sparse right so there's not something like a.
+toy example that I've created this is going to happen in many neural networks and hence you need to address.
+this issue right that if you have sparse features can you still make faster movements in those directions right so.
+now let's see what Ada grad does for this case Okay uh okay let me just play this so as.
+you can see right aragrad is moving in the W direction also right why is that happening because the learning.
+rate for w because our denominator is going to be small our square root of VT is going to be.
+small right and if it's a quantity Which is less than 1 then the denominator is uh you're dividing ETA.
+by a quantity Which is less than 1 so hence ETA increases and hence your updates in that direction increase.
+and hence unlike the other algorithms you're proportionately moving in the direction of w Oz right of course here still.

@@ -1,0 +1,9 @@
+line in 2D it would just be a plane right so I've just approximated the function by a plane and.
+you can see that in this small neighborhood my approximation is still good right let me just get the right.
+angle so that you can see it properly yeah see now I can see that the my plane is very.
+close uh to the curve but now if I increase this ETA then as was the case earlier my approximation.
+becomes bad right so at this point my approximation of my original point w naught was here then if my.
+new point is very far out of the neighborhood then the approximation would be bad but even in a small.
+neighborhood the linear approximation Works quite well right and again I could just change the value of x and if.
+I go to a region where the slope is changing then the approximation accordingly will become good or bad but.
+that doesn't matter if you keep the ETA small then your approximations would be good right and now if I.

@@ -1,0 +1,9 @@
+not changing much you have initialized it to a very small value and then it's not changing much because the.
+derivatives are small as I just Illustrated then you are losing out on the information in this feature right so.
+you can't let that happen right so then can we have a different learning rate for each parameter which takes.
+care of the frequency of the features let's say if there are certain features which are very sparse then you.
+just jack up the learning rate for them right and of course this all has to be done in a.
+non-neuristic non-hacky way right you just have some equations which automatically take care of okay if this was sparse then.
+the learning rate is adjusted to high value if this was dense then the learning rate is adjusted to a.
+small value right you cannot you know there are millions of features so you cannot have if else kind of.
+conditions you just have to have some equations which inherently take care of this right so now you have to.

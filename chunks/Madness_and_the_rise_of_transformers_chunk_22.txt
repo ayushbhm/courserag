@@ -1,0 +1,9 @@
+generates very realistic images right so the example here is that it was given a prompt which says an arm.
+chair in the shape of an avocado right and it generates such beautiful images this is not a retrieval mind.
+you this is not that it has gone on the internet and retrieved images which were of avocado chairs these.
+are images that it has generated starting with a noise vector and based on this prompt so think of it.
+that you have told an artist that i want the image of a chair in the shape of an avocado.
+and this is the artist's imagination right so dally is the artist here and an illustration of a baby daikon.
+radish in a tutu walking a dog right a brilliant rendering in terms of faithfulness to the prompt that it.
+was given right it was trained on many such text image pairs so that at test time when you're giving.
+it a text it is able to generate an appropriate image corresponding to that text right and dali was a.

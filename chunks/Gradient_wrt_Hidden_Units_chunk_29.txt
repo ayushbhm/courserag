@@ -1,0 +1,10 @@
+I want to compute the derivative of H22 with respect to a22 I can do that right I can apply.
+the UV Rule and keep going and I'll be able to get it right so this quantity is easy to.
+compute okay so that's why I'm not worrying about that yeah but apart from that it only depends on derivative.
+of h 2 and that we just computed on the previous slide right so I'm I have everything that I.
+want till this point then again I want to compute the derivative of the loss function with respect to H1.
+and I know for that I just need the derivative of the loss function with respect to H2 and I.
+need W2 these are the two quantities involved and I have that because I just come sorry not H2 uh.
+A2 and W2 right so these are the two quantities that I need for computing derivative of the loss function.
+with respect to H1 and I just computed now I want to compute the derivative of the loss function with.
+respect to A1 so for that the two con the quantity that I need is the derivative of the loss.

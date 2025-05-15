@@ -1,0 +1,10 @@
+okay so recall the equation so now one thing which I have done here is that I have so remember.
+that you could have beta U T minus 1 plus 1 minus beta times uh Delta WT right so both.
+these forms are popular right so where you have beta and 1 minus beta where of course they sum up.
+to one or you could just have beta and then no weight multiplied by the derivative of WT right so.
+when we had originally introduced momentum we had used this equation but from when you used it in atom we.
+were using this equation so both are popular so when I start off I will stick to this but at.
+some point I will switch to this equation so just remember that both of these can be used interchangeably right.
+so when I start off I'll just use this because it's easier to convey what I want to convey but.
+at a later point I'll switch back to the this version of momentum okay um now you recall the equation.
+for Mac the main idea in nag was that instead of looking at the gradient at time step T you.

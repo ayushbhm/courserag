@@ -1,0 +1,10 @@
+I hope you can see it so these were the two points given to me these are the same two.
+points that we have been looking at since the last lecture so x equal to 0.5 where the value of.
+the function was 2.5 and x equal to 0.2 where the value of the function was 0.9 okay now I.
+want to do gradient descent to find the right W's and B's so I've set W to minus 2 my.
+initialization is minus 2 B is also minus 2 I have kept ETA is 1 and I have set the.
+max epox as 1000 right so this is what my initializes are now for I in range of Max epox.
+that means for thousand iterations I have initialized the derivatives to zero and for X Y in my data points.
+right so all the data points and iterate over all the data points I'll compute the gradient with respect to.
+W or the derivative partial derivative with respect to W I'd also compute so let's see now I want to.
+compute the partial derivative with respect to W how will I do that so I have this function uh here.

@@ -1,0 +1,9 @@
+relu uh leaky relu and so on and we'll be seeing a whole bunch of functions for g right and.
+all of them are going to operate element whether this one thing you need to just get into your heads.
+is that i'm talking about non-linear functions and all that but at the end it's just simple right it's just.
+operating element wise you give me a vector i'll take every element of the vector and pass it through a.
+function right and just tan h is a function that you know so i'm just taking every element of the.
+vector and passing it to the tanning function right so nothing very complex is happening there i mean in that.
+one operation of course all of this gets combined and gives you a very complex composite function but in that.
+particular computation there is nothing great right so the activation at the output layer is given by uh so you.
+have alx right so this is your free activation at the output layer and i'm going to use a sum.

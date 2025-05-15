@@ -1,0 +1,9 @@
+at your VT it is increasing and then it starts decreasing also right so e v t can decrease in.
+the case of RMS prop and why does that happen can you think about an answer for that what is.
+it uh no no but it's an accumulation of the history right so the accumulation should keep growing right so.
+how is the accumulation decreasing in the case of undergrad we said that VT is an accumulator so it's keeping.
+adding terms so it should only increase and in whatever it's adding if it becomes zero then it will become.
+steady at that so here why is it increasing and then it can decrease also why is that happening same.
+for uh now we are taking VT Square we are taking Square so direction does not matter see the reason.
+this is happening is because of the exponentially decaying average right so now uh initially if you look at the.
+sum so say at time step T the sum was some uh so if you look at the derivative at.

@@ -1,0 +1,9 @@
+gradients there are small when the learning it just waits till the learning rate increases and then it gets per.
+push and then it comes down into the valley right so with this cyclic learning rate you are able to.
+get out of this saddle point and saddle points are a big pain as reported in multiple papers when you're.
+dealing with deep neural networks right so this kind of takes care of such bad uh learning rate studies right.
+um yeah so now again we are going to use another cyclic learning rate which is the cosine learning rate.
+and uh here instead of having a fixed learning rate which is one we are going to use this cyclic.
+one and you can see that this algorithm has converged much faster right because it still has some oscillations here.
+but you could just take care of that by using some kind of an early stopping or something right so.
+now let's see what this uh cosine early annealing look likes and I just see that so this is what.

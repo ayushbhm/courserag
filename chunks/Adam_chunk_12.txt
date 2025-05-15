@@ -1,0 +1,11 @@
+Delta W 1 and I'll keep doing this right so as I keep doing this let's see where I reach.
+I'll again reach at some kind of a formula and so M3 is going to be this and if I.
+expand it I get this and so now if I look at M3 it's actually 1 minus beta the 1.
+minus beta factor I can take out and it is time Step 1 2 3 beta raised to T minus.
+Tau into the derivative at that time step right so that's what exactly what is happening here so I have.
+the 1 minus beta term which I have taken out common then I have for t equal to 1 I.
+have beta square into derivative of letter one right then I have beta into derivative of Delta W 2 and.
+then I just have Delta W3 right so for 3 this would be 3 minus 3 which would become 0.
+so the beta Factor would disappear and you'll just have Delta W3 for 2 it would be uh 3 minus.
+2 so beta raised to 3 minus 2 which is the same as beta and then you will have the.
+Delta W 2 here so this is how the formula has been arrived at so in general for the tth.

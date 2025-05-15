@@ -1,0 +1,10 @@
+last rear which is W3 so this will be a from L uh going from L to 1 right so.
+w 3 uh which will depend on the derivative of the loss function with respect to A3 and uh H2.
+right so this you have already computed in the forward pass this you have already computed this is just computed.
+outside the loop so you have all the elements that you require to compute this right similarly you can compute.
+the derivative of the loss function with respect to the weights in the layer three so this also you can.
+do because you just need this quantity which you have already computed because K is equal to l right now.
+we are running the loop from L to 1 okay so this is done now you compute the ingredients with.
+respect to the layer below so now you can compute the derivative of the loss function with respect to K.
+uh K minus 1 so you had started with k equal to l to 1 right so now at this.
+point uh K is equal to l so K minus 1 would be L minus 1 so which would be.

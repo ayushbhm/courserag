@@ -1,0 +1,9 @@
+at that time right in 2015 and this of course gained a lot of popularity and attention and deep rl.
+became a very popular area and it still continues to be right then in 2016 again using the same uh.
+deep reinforcement learning based players or agents people were able to beat professional poker players right i mean these are.
+the people who participate in these world championships in pokers and they were able to beat many of them in.
+the game of poker right similar advances in much more complex strategy games which have complex visual environments as well.
+as complex strategies which for example the defense of the ancients some of you would have played it and openly.
+i did this very interesting thing that it just made an agent play with itself right and it played like.
+10 000 years of gaming and just imagine that i mean we play i mean there's no way you can.
+compare to this kind of scale right and so 10 000 years of training they did on of course a.

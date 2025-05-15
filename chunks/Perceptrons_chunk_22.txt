@@ -1,0 +1,9 @@
+all the points which are in the red zone and in my boolean world there is only one such point.
+which is zero comma zero so that is going to lie in the negative half space and that is exactly.
+what we wanted right so this is a correct solution of course this is not the only correct solution so.
+i will go ahead and yeah so i'll go ahead and change this a bit so i've changed this this.
+is also a valid solution right because again my green region has the positive points this is not a valid.
+solution and you can see here the error is 2 why is the error 2 because this is the one.
+point which lies in the positive half space and it rightly lies in the positive half space there are three.
+points which lie in the negative half space of which actually only one should have lied the red point should.
+have lied in the negative half space but there are these two green points which are also lying in negative.

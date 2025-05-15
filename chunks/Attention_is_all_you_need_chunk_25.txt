@@ -1,0 +1,9 @@
+these three vectors to participate in this equation right so you have these three vectors participating in the equation but.
+now you just have h i and H J so where do you get these three vectors from right how.
+do you generate these three vectors that's the question and that's what uh one of the uh Innovations are one.
+of the uh equations proposed in the case of Transformer based models how do you get these three vectors uh.
+from these two uh word embeddings so that's the idea so what we'll do is we'll use this Matrix transformation.
+and that's not surprising because anyways in the case of the original equation also you had this linear transformation right.
+and now from each Vector I want to be able to generate these three uh vectors so I'll use three.
+linear Transformations right and they call them specifically as key query and value vectors and the corresponding matrices as the.
+key Matrix the query Matrix and the value Matrix right so that's what we'll do on the next slide.

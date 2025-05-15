@@ -1,0 +1,8 @@
+case of feed forward neural networks the building block was essentially this sigmoid neuron right or any non-linear neuron which.
+used to take um a bunch of inputs do a weighted aggregation and then pass it through a non-linearity right.
+so that was the basic building block and then we had many of these connected in a layer and across.
+layers to get a deep and wide neural network okay similarly in the case of convolutional neural networks the basic.
+building block was the convolution operation and maybe even the max pooling operation then the case of recurrent neural networks.
+the basic building block was this recurrent equation where you could compute HT which was a state at time t.
+as a function of HT minus 1. and the input at that time step right so this is what the.
+basic building block was and then we saw the attention-based recurrent neural network where we had the attention function which.

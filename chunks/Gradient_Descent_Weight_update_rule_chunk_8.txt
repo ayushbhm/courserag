@@ -1,0 +1,10 @@
+would be but now I can evaluate this at the current value of my w right so I'll just substitute.
+the value of w and if I do that then I'll get a two real numbers so I'll get a.
+real valued Vector right as opposed to a formula I'll get a vector so this is always this that you.
+have the formula for the derivative then you can evaluate the derivative at a specific point by putting it those.
+uh points uh the that point into the formula so that's what I mean by evaluated at w is equal.
+to WT right so that's what this quantity is signifying that it's the partial derivative evaluated at that point and.
+that's exactly what we are doing in the previous slide we are getting a real number at the end which.
+we could add and subtract and so on right so that's the idea yeah so now we have a more.
+principled way of moving in the WB plane we are no longer doing our guesswork we know that if we.
+do we just saw a proof or we arrived with the formula mathematically that if we keep moving in the.

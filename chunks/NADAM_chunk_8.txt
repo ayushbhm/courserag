@@ -1,0 +1,10 @@
+quantity from it instead if I already had passed it a value which was already equal to this right because.
+this I already had the previous time Step at the previous time step I already had M naught so if.
+at the previous time previous time step itself I could have computed an updated value and send it here then.
+I wouldn't have had to do this here right so that's the idea and you can see that what is.
+happening here is that you have t t minus 1 and t plus 1 uh these are the three time.
+steps that you see here right and instead can we write everything in terms of t and t plus 1.
+and push the look ahead uh such that I don't have to do these computations again right so that's what.
+we want to do so let's see what we are going to do about it so the key thing here.
+is that the vector M naught or M minus 1 or M of T minus 1 is being used twice.
+then you're doing this temporary computation which is W1 minus beta M naught and you compute the gradient there and.

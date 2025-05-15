@@ -1,0 +1,9 @@
+empty which is empty hat which is just empty divided by 1 minus beta 1 raised to T then we.
+have VT which was the usual VT which acted as a denominator for the effective learning rate this is the.
+same as what we had in RMS prop right so as I said do everything that RMS prop does plus.
+just add this classical momentum term right that's what Atom does so again you have a bias correction for VT.
+also so you'll compute a VT hat which is VT divided by 1 minus beta 2 raised to T right.
+and then your update is WT minus the effective learning rate into this uh moving average right as you have.
+in momentum which is the exponentially weighted average right so this is what uh the update rules update equations for.
+atom look like and here this is looking at the L2 Norm what we mean by that is that if.
+you have or rather exponentially weighted average L2 numerate so you have uh V 0 it is simply Delta W.

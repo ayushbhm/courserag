@@ -1,0 +1,10 @@
+has become harder because it's it's in a way similar to what you did with the augmentation of the data.
+set right so you had an original two and then you passed it uh shifted to or rotated two and.
+now both of these it needs to map to the label two right so now it has a more to.
+learn and same thing you're doing here you had an original X you corrupted it and it has to map.
+it to Y next Epoch you again corrupted it but this time the corruption would be different maybe in the.
+first Epoch uh the say the first 20 bits were corrupted now maybe the bits from 20 to 40 are.
+corrupted and so on it's every time it's seeing a different corrupted version of the input right and this this.
+index here is the epoch or that I'm looking at and it has to map all of those two wire.
+right so now memorizing the input becomes or this taking the input memorizing it and mapping to the Y becomes.
+input because now your input is every time a bit corrupted so it has to deal with these Corruptions also.

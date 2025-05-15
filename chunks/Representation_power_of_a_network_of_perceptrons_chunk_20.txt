@@ -1,0 +1,9 @@
+that we can even though even if there are boolean functions which are not linearly separable which a single perceptron.
+cannot handle we can have a network of perceptrons which can handle that how to make this network a bit.
+more compact is a question for later but now we know that we can handle with a network of perceptrons.
+so again while we have proved this why do we care about boolean functions right so let's try to relate.
+this to a real-world example the same example of predicting movies right so this is how the example plays out.
+that you have certain features as you call it so these were is actor matt damon is the genre thriller.
+is the director christopher nolan and so on okay all these factors and these are the labels that you are.
+given and these are all your past movie examples there are some examples which i'm yeah there are some examples.
+which i am calling the positive examples because their label was one and some examples which i am calling the.

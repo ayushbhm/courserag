@@ -1,0 +1,9 @@
+so our approximation of the relation between x and y is called the model right so when i say that.
+i have a machine learning model what does a model mean model means your belief of what is the relation.
+between y and x right and it could be anything it could be this function we just saw this that.
+why it does it satisfy the criteria that i have y is a function of x it also has some.
+parameters okay what is this have you seen this before in machine learning in machine learning what is this called.
+it's called logistic regression right this is the logistic regression model what is this linear regression you are assuming there.
+is a linear relationship between y and x this is you are assuming there is a quadratic relation right any.
+of this assumption is equally good or bad right now in deep learning you are going to we'll see that.
+later on again you assume some f right and as the name suggests this f is going to be very.

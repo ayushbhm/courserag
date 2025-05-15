@@ -1,0 +1,9 @@
+a million points in the training data right then you'll run this for Loop for all the million points okay.
+you will painfully compute this derivatives then come out and make one update right so now if you have to.
+run the algorithm for 100 steps which is quite small right in terms of modern deep learning then you would.
+be making like 100 million computations and making 100 steps and 100 steps your weights wouldn't have actually moved much.
+right so you would be nowhere close to conversions and you have done so many computations right so that's the.
+flip side of this to make one update you have to do so many calculations and obviously this is going.
+to be very slow so the question is can we do something better and the answer is that we can.
+do what is known as stochastic gradient descent so as opposed to uh the Computing the true gradients can we.
+just estimate the gradients using fewer points instead of looking at all the endpoints so that's the idea I will.

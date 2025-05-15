@@ -1,0 +1,9 @@
+your uh favorite uh word Vector so for word embedding so you have again your feeding word embeddings and this.
+block right if I were to look at it as an encoder as same as what I had in the.
+rnns so the N output of the encoder was these representations right and don't worry about the change in notation.
+because there are more uh intermediate outputs here so I need to use no more variables but in the case.
+of rnns you had X1 X2 up to X Phi as input and the output was H1 h2h5 right so.
+in a sense what you are doing is that you are taking the inward embeddings as input right and then.
+you were Computing a contextual representation how are you Computing a conflict contextual representation using the bi-directional lstm right so.
+H2 dependent on H1 so hence you had all seen all the information up to or rather HD dependent on.
+HT minus one so when you are Computing HT you had information of all the T minus one Birds before.

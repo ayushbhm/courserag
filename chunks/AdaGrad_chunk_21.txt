@@ -1,0 +1,9 @@
+your derivatives as you keep going down it keeps increasing in magnitude right I mean remember that you are increasing.
+on the negative side which is fine its magnitude is increasing and then at some point because here I'm going.
+to take the square that's why I'm talking about the magnitude right and then when it comes close to the.
+Minima it again starts decreasing in magnitude and then it comes to zero right and that's because the loss surface.
+was like that right so this is how the history is getting accumulated this is how the derivatives are changing.
+and this is what is happening the red curve tells you what is happening to the effective learning rate as.
+your history is accumulating the learning rate keeps decreasing exponentially right so if uh either to just plot let's just.
+see this is what the learning rate curve looks like right I'm the same plot I've plotted separately so the.
+red curve I plotted in a new plot so that I can have more range on the y-axis so the.

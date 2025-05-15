@@ -1,0 +1,10 @@
+am ignoring the biases okay so I get some hidden layer H1 right and then from the hidden layer I.
+am reconstructing X hat as say W Times H1 okay this is what I am doing in this network right.
+my input layer I am doing first a linear transformation followed by a non-linearity and then whatever H1 I get.
+I just reconstructed the X hat from there if you want I can just add the bias also here and.
+I can add the bias here also right so you if you want that's that makes you more comfortable then.
+that is what it is right now suppose I am able to do this in a way that I am.
+able to reconstruct X hat from X perfectly that means my error is zero what does that tell you about.
+H1 so so it tells you that H1 actually character captures all the information that was there in X right.
+because I have done a compression I have gone from one zero to four dimensions to 256. now we know.
+that in many applications our input has a lot of redundancy right so I would have captured weight height and.

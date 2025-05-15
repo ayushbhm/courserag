@@ -1,0 +1,8 @@
+the same effect as Dropout similarly you have these two nodes here three this max out neuron here which has.
+inside three linear Transformations happening okay let me just call them as W1 maybe call it w tilde transpose x.
+w 2 tilde transpose X and W 3 tilde transpose X see here again I had three linear Transformations then.
+I just selected the max of those and dropped out these neurons right so now as opposed to Dropout where.
+after dropping out all all the neurons participate and even during inference we take equal weightage to all the participating.
+neurons now we are ensuring that the neurons which participate Only The Strongest Ones of those are actually active and.
+we are further dropping out the weak one okay so this is uh what max out looks like so you.
+have Max of multiple affine Transformations I've been saying linear but they would be a fine because there's a plus.

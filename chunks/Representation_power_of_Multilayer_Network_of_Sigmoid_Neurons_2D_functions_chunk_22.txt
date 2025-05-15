@@ -1,0 +1,9 @@
+where there's a true function x and let it be as arbitrary a function as you want right you can.
+always come up with a neural network which will be able to approximate it to a desired degree of precision.
+if you add enough neurons in that neural network right and that's the foundation right that's the reason why deep.
+learning is so formula popular because it's saying that you could take a deep neural network which could approximate arbitrary.
+functions and that's what we do in machine learning right you have an x you have an f of x.
+and you want to come up with an approximation f hat of x and now you have found an f.
+hat of x which is just what i showed you on the previous slide right which is a neural network.
+that's the function it's just a composite function you took the input took some sigmoid took some out addition then.
+again added it but it's all a function of x it's a composite function of x you could construct these.

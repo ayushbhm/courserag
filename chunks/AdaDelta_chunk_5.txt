@@ -1,0 +1,10 @@
+confused you can just pause and verify that we have used the same equations right so V 0 is going.
+to be point one into Delta W 0 squares then you will have the sorry nabla W zero square and.
+nabla W 0 is the derivative then you have the update which is the Delta W naught the change that.
+you're going to make in W naught and you're currently your U minus 1 is 0 right so then you.
+only have Epsilon in the numerator U minus 1 is going to be 0. so we make that update then.
+you do W 1 is equal to W naught plus Delta W naught then you compute U naught right and.
+this is what I was emphasizing on right that this U naught is just taking a fraction of the derivative.
+that you had right and now uh so yeah you U naught was actually uh beta times the old history.
+which is 0 in this case and 1 minus beta time the current update that we have made but the.
+current update which is Delta is in turn a function of this nabla so I've just substituted the value of.

@@ -1,0 +1,10 @@
+to remove that instead of a i of x that converts something i'm just going to write it as a.
+i h i and so on right so that off x is something that i have deleted but it's understood.
+that you have this input everything that is getting computed here all the white guys red guys and the green.
+guys they are all the functions of the input right so that's very obvious i'm not going to write it.
+explicitly it just makes the notation more cumbersome right so i have introduced a feed forward neural network now in.
+the previous lecture we saw this supervised machine learning setup right where we said that in machine learning you always.
+have an input x you know there's some true function which x is between x and y but you don't.
+know that so you come up with an approximation of that function and that is your y hat right so.
+i see a y hat here and this should have been f hat of x you can ask the t.
+is to correct that with the f f x right so i have the x here and i have the.

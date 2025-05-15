@@ -1,0 +1,9 @@
+training error is 0 I will not believe you because this quantity has not been accounted for and I know.
+that higher the model complexity this value would be high that means more complex your model more farther away would.
+your empirical estimate of the training error be from the true error right and just to make sure that this.
+indeed happens that complex models are actually more sensitive to changes in the training data as opposed to simple models.
+let's just take a look at that right let's just try to see that yeah so now what I have.
+taken this is some training data that was given to me and I estimated the true model I estimated the.
+complex model which is the red colored model and the simple model which was the green color model now what.
+I've done is uh I have changed one of these data points only one of the data points right I.
+have instead of taking X comma y I have taken this x comma y right and now you can see.

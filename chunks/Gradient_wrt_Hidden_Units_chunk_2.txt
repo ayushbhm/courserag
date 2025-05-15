@@ -1,0 +1,11 @@
+so I've computed uh q1 of Z from Z similarly I say have another function right say Q2 of Z.
+let that be Z Cube and I have computed that also from Z right and then let me have say.
+Q 3 of Z which is equal to e raised to Z it's all of these are functions of Z.
+and then say using these three as inputs I am Computing some p okay and suppose that P is just.
+say q1 divided by Q2 I'm just not writing the off Z in the bracket right just to avoid I.
+mean this is cumbersome to write and now is p a function of Z yes it is a function of.
+z y because q1 is a function of Z Q2 is a function of Z Q3 is a function of.
+Z so this p is also a function of Z because it has been computed using quantities which in turn.
+were computed using right so I have this kind of a situation so now I can can I ask the.
+question do can I ask you to compute the derivative of P of Z with respect to Z what do.
+I mean by that would this derivative exist like or would it just be 0 the derivative would exist right.

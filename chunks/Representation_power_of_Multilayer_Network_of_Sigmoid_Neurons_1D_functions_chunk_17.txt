@@ -1,0 +1,10 @@
+called the tower maker if I have that then I have given you a network which can approximate from given.
+function to any arbitrary degree of precision right this is exactly the cartoon version of the network now you need.
+to quantitize it why is this the cartoon version of the network it takes an input X okay and it.
+gives an output which is f of x which is an approximation of the original output the thinner my Towers.
+the better the approximation would be so I could control that knob now the only thing missing here is what.
+the tower makers are right so I give the input make the towers add them all up and that's what.
+my network is looking like Okay so let's see okay so our job now is to figure out what this.
+Tower maker black box is okay so we'll figure that out so let's start uh yeah let me just see.
+what I want to do on this slide um yeah so I have an input X let me just explain.
+what all is obvious here at the input X okay and I have two parameters W1 B1 W2 B2 so.

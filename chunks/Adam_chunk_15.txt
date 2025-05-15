@@ -1,0 +1,8 @@
+itself could have different values right and that those values could come from some distribution right so these are your.
+derivative values on the x axis and you have a distribution that means certain values here have a higher density.
+as opposed to other values right and now at every time step because your updates are changing and your weights.
+are changing and you're moving along uh the loss surface this distribution might be different right at some time steps.
+you might expect more smaller gradients at terms time trips you might expect larger gradients but we are making a.
+simplifying assumption here that every time step this distribution looks the same right so whatever what does this distribution come.
+from where does the randomness come from so it comes from the data point that I'm picking up right I'm.
+picking up random data points at every time step so depending on the time data point that I have picked.

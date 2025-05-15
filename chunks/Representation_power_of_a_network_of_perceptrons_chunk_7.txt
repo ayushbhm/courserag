@@ -1,0 +1,9 @@
+this looks like an astonishing claim right because i know that some of these functions are not linearly separable that's.
+one reason why this is an astonishing claim because i'm claiming that even non-linearly separable boolean functions i can start.
+the other reason why this is an astonishing claim is that this is like a single template i'm not having.
+like a separate network or separate configuration for different boolean functions i have the same configuration the only thing that.
+is changing is the weights of w 1 w 2 w 3 w 4 if i change those values then.
+i can implement any boolean function right this may look like an astonishing claim but it's not really if you.
+really understand what is going on so what is going on here let us try to understand that right so.
+each perceptron in the middle layer fires only for a specific input let's see why that happens right so as.
+i said the red weights are minus 1 minus 1 okay now if the input is minus 1 minus 1.

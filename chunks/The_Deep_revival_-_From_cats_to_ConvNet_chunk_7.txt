@@ -1,0 +1,9 @@
+as from cats to convolutional neural networks so let's see if I use that title so again going back 1959.
+right uh uh Hubble and uh weasel did this experiment right what the experiment did was they had a cat.
+which had different electrodes connected to different parts of its brain and now there's a screen in front of it.
+where you see that stick there right so just imagine some stick pattern appearing on different portions of the image.
+maybe on the top right corner top left corner Center maybe in the center on the left right and so.
+on right and what they observed is depending on where the stick is different parts of the brain of the.
+cat were getting activated that means the cat has certain receptive field and only if things get triggered and those.
+receptive field to certain sections fire if drinks get triggered in a triggered in a different receptor field that means.
+the stick is in a different position say the top right corner instead of the top left corner then a.

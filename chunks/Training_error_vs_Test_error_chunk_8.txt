@@ -1,0 +1,9 @@
+it could to fit those points properly and in that effort it might have now missed uh considering the other.
+points which are unseen right and for those points it will make a high error right so this is typically.
+the behavior that the training error will keep Inc decreasing as the model complexity increasing the test error will decrease.
+up to a certain point but if you make the model extremely complex it is going to overfit on the.
+training data and make severe errors on the test data right so what you are looking for is The Sweet.
+Spot somewhere in the center right and on the left hand side you have high bias models like the simple.
+models which give you very high error both on the training data as well as test data right because the.
+simple line model even on the training data it was giving us a high error it was nowhere close to.
+the two sinusoidal function and on the right hand side you have the high variance models which give a low.

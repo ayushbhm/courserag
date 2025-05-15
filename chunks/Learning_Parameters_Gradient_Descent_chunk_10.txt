@@ -1,0 +1,10 @@
+the gradient the gradient of the gradient is the Hessian right and here are a few things to note now.
+right so if you have a scalar quantity right so if I have a function which is Y is equal.
+to x square okay then the derivative would be 2x so if I were to compute this at a particular.
+value of x then I'll get a square right so derivative of a scalar with respect to a single variable.
+is a scalar but now if you have a vector or if you have a quantity uh x square okay.
+all this is x square plus Z square right then I can take the derivative with respect to X and.
+I can also take the derivative with respect to Z so then I'll get a vector right so the derivative.
+of this would be a vector which will be basically the gradient right so that's that's what uh we are.
+uh understanding now and this is where I'm going to draw the line right so my argument for that would.
+be that ETA is small so ETA square is going to be even smaller hence I can ignore this ETA.

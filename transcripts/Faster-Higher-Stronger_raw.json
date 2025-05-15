@@ -1,0 +1,2537 @@
+[
+  {
+    "text": "[Music]",
+    "start": 0.33,
+    "duration": 10.029
+  },
+  {
+    "text": "now so where are we in the history right",
+    "start": 18.48,
+    "duration": 3.84
+  },
+  {
+    "text": "we did a bit of back and forth so we",
+    "start": 20.48,
+    "duration": 5.039
+  },
+  {
+    "text": "came from the 1950s where there was",
+    "start": 22.32,
+    "duration": 4.959
+  },
+  {
+    "text": "enthusiasm then the",
+    "start": 25.519,
+    "duration": 3.361
+  },
+  {
+    "text": "and the spring period then the winter",
+    "start": 27.279,
+    "duration": 3.681
+  },
+  {
+    "text": "period then the more stable period where",
+    "start": 28.88,
+    "duration": 3.679
+  },
+  {
+    "text": "people were still looking at things",
+    "start": 30.96,
+    "duration": 3.84
+  },
+  {
+    "text": "there were some success in the 1990s in",
+    "start": 32.559,
+    "duration": 3.921
+  },
+  {
+    "text": "terms of convolutional neural networks",
+    "start": 34.8,
+    "duration": 3.04
+  },
+  {
+    "text": "actually being used for real world",
+    "start": 36.48,
+    "duration": 2.48
+  },
+  {
+    "text": "problems",
+    "start": 37.84,
+    "duration": 3.039
+  },
+  {
+    "text": "and but still some disappointment in",
+    "start": 38.96,
+    "duration": 3.759
+  },
+  {
+    "text": "terms of very large networks not being",
+    "start": 40.879,
+    "duration": 4.561
+  },
+  {
+    "text": "able to train despite back propagation",
+    "start": 42.719,
+    "duration": 4.561
+  },
+  {
+    "text": "being known and universal approximation",
+    "start": 45.44,
+    "duration": 4.16
+  },
+  {
+    "text": "theorem being understood right and then",
+    "start": 47.28,
+    "duration": 4.32
+  },
+  {
+    "text": "2006 around that time these things",
+    "start": 49.6,
+    "duration": 5.439
+  },
+  {
+    "text": "changed and then from 2006 to 2012 a lot",
+    "start": 51.6,
+    "duration": 5.119
+  },
+  {
+    "text": "of other advances happened which gave us",
+    "start": 55.039,
+    "duration": 3.601
+  },
+  {
+    "text": "a better understanding of deep learning",
+    "start": 56.719,
+    "duration": 3.601
+  },
+  {
+    "text": "and we were able to train these networks",
+    "start": 58.64,
+    "duration": 3.68
+  },
+  {
+    "text": "to work for the image net and similar",
+    "start": 60.32,
+    "duration": 5.199
+  },
+  {
+    "text": "challenges and started showing uh",
+    "start": 62.32,
+    "duration": 4.799
+  },
+  {
+    "text": "again it's not just gain but starting",
+    "start": 65.519,
+    "duration": 4.001
+  },
+  {
+    "text": "winning some of these uh prestigious",
+    "start": 67.119,
+    "duration": 4.0
+  },
+  {
+    "text": "competitions right so that's where we",
+    "start": 69.52,
+    "duration": 4.8
+  },
+  {
+    "text": "are and then after that from 2016",
+    "start": 71.119,
+    "duration": 5.601
+  },
+  {
+    "text": "onwards there was further acceleration",
+    "start": 74.32,
+    "duration": 4.159
+  },
+  {
+    "text": "right so we wanted to come with better",
+    "start": 76.72,
+    "duration": 3.439
+  },
+  {
+    "text": "optimization methods so now we know that",
+    "start": 78.479,
+    "duration": 3.201
+  },
+  {
+    "text": "it's possible to train deep neural",
+    "start": 80.159,
+    "duration": 3.921
+  },
+  {
+    "text": "networks but now can we do it faster can",
+    "start": 81.68,
+    "duration": 4.32
+  },
+  {
+    "text": "we lead to convergence faster right what",
+    "start": 84.08,
+    "duration": 3.84
+  },
+  {
+    "text": "this animation here is trying to show",
+    "start": 86.0,
+    "duration": 3.119
+  },
+  {
+    "text": "that i want to come to this",
+    "start": 87.92,
+    "duration": 3.76
+  },
+  {
+    "text": "configuration where the two points on",
+    "start": 89.119,
+    "duration": 3.441
+  },
+  {
+    "text": "the",
+    "start": 91.68,
+    "duration": 3.36
+  },
+  {
+    "text": "left-hand side figure exactly fit or the",
+    "start": 92.56,
+    "duration": 4.32
+  },
+  {
+    "text": "sigmoid function exactly fits to those",
+    "start": 95.04,
+    "duration": 4.0
+  },
+  {
+    "text": "two points and i'm trying to solve some",
+    "start": 96.88,
+    "duration": 4.16
+  },
+  {
+    "text": "optimization problem for that and it's",
+    "start": 99.04,
+    "duration": 3.52
+  },
+  {
+    "text": "taking me a while to reach to the",
+    "start": 101.04,
+    "duration": 3.439
+  },
+  {
+    "text": "solution right so can i speed that up",
+    "start": 102.56,
+    "duration": 4.239
+  },
+  {
+    "text": "right of course faster convergence was",
+    "start": 104.479,
+    "duration": 4.64
+  },
+  {
+    "text": "always",
+    "start": 106.799,
+    "duration": 4.32
+  },
+  {
+    "text": "a goal all right which existed in",
+    "start": 109.119,
+    "duration": 3.601
+  },
+  {
+    "text": "machine learning when we had the machine",
+    "start": 111.119,
+    "duration": 3.36
+  },
+  {
+    "text": "learning approaches which were again",
+    "start": 112.72,
+    "duration": 3.12
+  },
+  {
+    "text": "solved using optimization problems we",
+    "start": 114.479,
+    "duration": 3.361
+  },
+  {
+    "text": "always wanted faster conversions and",
+    "start": 115.84,
+    "duration": 4.72
+  },
+  {
+    "text": "nestrov in 1983 had proposed a method",
+    "start": 117.84,
+    "duration": 4.239
+  },
+  {
+    "text": "which does better than the gradient",
+    "start": 120.56,
+    "duration": 3.199
+  },
+  {
+    "text": "descent approach which i had mentioned",
+    "start": 122.079,
+    "duration": 3.04
+  },
+  {
+    "text": "earlier right it leads to faster",
+    "start": 123.759,
+    "duration": 4.64
+  },
+  {
+    "text": "convergence now that idea got scaled",
+    "start": 125.119,
+    "duration": 6.721
+  },
+  {
+    "text": "further and a series of uh optimization",
+    "start": 128.399,
+    "duration": 5.041
+  },
+  {
+    "text": "algorithms all of which we are going to",
+    "start": 131.84,
+    "duration": 3.119
+  },
+  {
+    "text": "cover and discuss on most of this not",
+    "start": 133.44,
+    "duration": 5.04
+  },
+  {
+    "text": "maybe all of this adagrad rms prop",
+    "start": 134.959,
+    "duration": 4.64
+  },
+  {
+    "text": "adam",
+    "start": 138.48,
+    "duration": 2.399
+  },
+  {
+    "text": "and adam",
+    "start": 139.599,
+    "duration": 4.72
+  },
+  {
+    "text": "adam w random and so on right this",
+    "start": 140.879,
+    "duration": 6.241
+  },
+  {
+    "text": "continues and all of these the goals was",
+    "start": 144.319,
+    "duration": 5.28
+  },
+  {
+    "text": "to have models or have algorithms which",
+    "start": 147.12,
+    "duration": 4.72
+  },
+  {
+    "text": "lead to faster and better conversions",
+    "start": 149.599,
+    "duration": 3.441
+  },
+  {
+    "text": "right you lead",
+    "start": 151.84,
+    "duration": 4.16
+  },
+  {
+    "text": "in deep learning there are multiple",
+    "start": 153.04,
+    "duration": 5.68
+  },
+  {
+    "text": "minima possible so can you lead to the",
+    "start": 156.0,
+    "duration": 4.4
+  },
+  {
+    "text": "can you reach to a better minima and",
+    "start": 158.72,
+    "duration": 3.12
+  },
+  {
+    "text": "faster time right and there's been a",
+    "start": 160.4,
+    "duration": 4.24
+  },
+  {
+    "text": "series of algorithms proposed to that",
+    "start": 161.84,
+    "duration": 4.72
+  },
+  {
+    "text": "which has led to now deep learning",
+    "start": 164.64,
+    "duration": 4.4
+  },
+  {
+    "text": "models being able to train faster in",
+    "start": 166.56,
+    "duration": 4.0
+  },
+  {
+    "text": "parallel that also be in progress in",
+    "start": 169.04,
+    "duration": 2.72
+  },
+  {
+    "text": "what are known as learning rate",
+    "start": 170.56,
+    "duration": 3.44
+  },
+  {
+    "text": "schedules now we have much more complex",
+    "start": 171.76,
+    "duration": 3.839
+  },
+  {
+    "text": "learning rate schedules than what we use",
+    "start": 174.0,
+    "duration": 5.04
+  },
+  {
+    "text": "10 years back and all of that has led to",
+    "start": 175.599,
+    "duration": 5.28
+  },
+  {
+    "text": "stable as well as faster training of",
+    "start": 179.04,
+    "duration": 3.119
+  },
+  {
+    "text": "deep neural networks of course still",
+    "start": 180.879,
+    "duration": 3.521
+  },
+  {
+    "text": "much more is desired but we have made a",
+    "start": 182.159,
+    "duration": 4.321
+  },
+  {
+    "text": "lot of progress and these advances are",
+    "start": 184.4,
+    "duration": 5.28
+  },
+  {
+    "text": "something that we'll cover in the course",
+    "start": 186.48,
+    "duration": 4.24
+  },
+  {
+    "text": "uh",
+    "start": 189.68,
+    "duration": 2.96
+  },
+  {
+    "text": "yeah this is still about the better",
+    "start": 190.72,
+    "duration": 3.68
+  },
+  {
+    "text": "optimization methods",
+    "start": 192.64,
+    "duration": 3.519
+  },
+  {
+    "text": "and then we also had better activation",
+    "start": 194.4,
+    "duration": 3.919
+  },
+  {
+    "text": "functions right so earlier uh in the",
+    "start": 196.159,
+    "duration": 4.481
+  },
+  {
+    "text": "1980s to 90s",
+    "start": 198.319,
+    "duration": 4.081
+  },
+  {
+    "text": "there's only the logistic function right",
+    "start": 200.64,
+    "duration": 3.12
+  },
+  {
+    "text": "this is the first function the blue",
+    "start": 202.4,
+    "duration": 3.119
+  },
+  {
+    "text": "colored function that you see on the",
+    "start": 203.76,
+    "duration": 3.119
+  },
+  {
+    "text": "slide here",
+    "start": 205.519,
+    "duration": 2.481
+  },
+  {
+    "text": "right",
+    "start": 206.879,
+    "duration": 2.64
+  },
+  {
+    "text": "but since then",
+    "start": 208.0,
+    "duration": 3.84
+  },
+  {
+    "text": "there's been like an industry of",
+    "start": 209.519,
+    "duration": 3.761
+  },
+  {
+    "text": "activation functions that has been",
+    "start": 211.84,
+    "duration": 2.8
+  },
+  {
+    "text": "proposed and each of them with the",
+    "start": 213.28,
+    "duration": 4.319
+  },
+  {
+    "text": "motivation of stabilizing the training",
+    "start": 214.64,
+    "duration": 4.56
+  },
+  {
+    "text": "right or leading to better performance",
+    "start": 217.599,
+    "duration": 4.0
+  },
+  {
+    "text": "and faster conversions right and many of",
+    "start": 219.2,
+    "duration": 3.84
+  },
+  {
+    "text": "these activation functions we are going",
+    "start": 221.599,
+    "duration": 3.441
+  },
+  {
+    "text": "to cover in the course tannic is",
+    "start": 223.04,
+    "duration": 4.0
+  },
+  {
+    "text": "something that we'll see we'll see relu",
+    "start": 225.04,
+    "duration": 5.279
+  },
+  {
+    "text": "we'll see leaky relu parametric relu and",
+    "start": 227.04,
+    "duration": 4.96
+  },
+  {
+    "text": "some of these other functions right",
+    "start": 230.319,
+    "duration": 3.521
+  },
+  {
+    "text": "galu-lu and so on right so many of these",
+    "start": 232.0,
+    "duration": 4.64
+  },
+  {
+    "text": "functions have been uh proposed and they",
+    "start": 233.84,
+    "duration": 5.52
+  },
+  {
+    "text": "all have shown to be useful in different",
+    "start": 236.64,
+    "duration": 5.44
+  },
+  {
+    "text": "contexts right so we will look at many",
+    "start": 239.36,
+    "duration": 4.32
+  },
+  {
+    "text": "of these throughout the course and all",
+    "start": 242.08,
+    "duration": 4.96
+  },
+  {
+    "text": "of this is also led to better",
+    "start": 243.68,
+    "duration": 6.479
+  },
+  {
+    "text": "stability and performance right so so",
+    "start": 247.04,
+    "duration": 4.8
+  },
+  {
+    "text": "once we discovered that deep neural",
+    "start": 250.159,
+    "duration": 4.561
+  },
+  {
+    "text": "networks can really be trained there was",
+    "start": 251.84,
+    "duration": 4.48
+  },
+  {
+    "text": "a lot of interest in that and making",
+    "start": 254.72,
+    "duration": 3.44
+  },
+  {
+    "text": "them better and better and that's where",
+    "start": 256.32,
+    "duration": 3.439
+  },
+  {
+    "text": "better activation functions better",
+    "start": 258.16,
+    "duration": 3.28
+  },
+  {
+    "text": "optimization functions better",
+    "start": 259.759,
+    "duration": 3.601
+  },
+  {
+    "text": "regularizations i forgot to include a",
+    "start": 261.44,
+    "duration": 3.68
+  },
+  {
+    "text": "slide on that so regularization in the",
+    "start": 263.36,
+    "duration": 4.16
+  },
+  {
+    "text": "terms of a dropout or even batch",
+    "start": 265.12,
+    "duration": 3.92
+  },
+  {
+    "text": "normalization you could think of it as a",
+    "start": 267.52,
+    "duration": 3.679
+  },
+  {
+    "text": "regularization in some sense have been",
+    "start": 269.04,
+    "duration": 4.159
+  },
+  {
+    "text": "proposed to improve the",
+    "start": 271.199,
+    "duration": 4.161
+  },
+  {
+    "text": "training and stability of these networks",
+    "start": 273.199,
+    "duration": 4.401
+  },
+  {
+    "text": "right so that's what this uh",
+    "start": 275.36,
+    "duration": 4.72
+  },
+  {
+    "text": "period was about",
+    "start": 277.6,
+    "duration": 3.44
+  },
+  {
+    "text": "okay",
+    "start": 280.08,
+    "duration": 3.679
+  },
+  {
+    "text": "so so far we have discussed about uh the",
+    "start": 281.04,
+    "duration": 4.4
+  },
+  {
+    "text": "progress of deep learning in general and",
+    "start": 283.759,
+    "duration": 3.521
+  },
+  {
+    "text": "then zoomed into a bit of image",
+    "start": 285.44,
+    "duration": 3.28
+  },
+  {
+    "text": "processing where we",
+    "start": 287.28,
+    "duration": 3.359
+  },
+  {
+    "text": "uh or image applications where we talked",
+    "start": 288.72,
+    "duration": 3.84
+  },
+  {
+    "text": "about convolutional neural networks",
+    "start": 290.639,
+    "duration": 3.761
+  },
+  {
+    "text": "right the other important category of",
+    "start": 292.56,
+    "duration": 3.919
+  },
+  {
+    "text": "problems that you",
+    "start": 294.4,
+    "duration": 3.68
+  },
+  {
+    "text": "deal with in your life and which are",
+    "start": 296.479,
+    "duration": 4.0
+  },
+  {
+    "text": "popular in the deep learning context is",
+    "start": 298.08,
+    "duration": 4.72
+  },
+  {
+    "text": "the problems involving sequences so",
+    "start": 300.479,
+    "duration": 4.401
+  },
+  {
+    "text": "let's look at what these problems are so",
+    "start": 302.8,
+    "duration": 4.959
+  },
+  {
+    "text": "you encounter sequences everywhere right",
+    "start": 304.88,
+    "duration": 4.159
+  },
+  {
+    "text": "so",
+    "start": 307.759,
+    "duration": 3.601
+  },
+  {
+    "text": "okay so we encounter sequences",
+    "start": 309.039,
+    "duration": 4.801
+  },
+  {
+    "text": "everywhere right if you beat videos or",
+    "start": 311.36,
+    "duration": 4.88
+  },
+  {
+    "text": "if you have speech a speech is like a",
+    "start": 313.84,
+    "duration": 4.32
+  },
+  {
+    "text": "sequence of uh",
+    "start": 316.24,
+    "duration": 4.08
+  },
+  {
+    "text": "phonemes right and we need to do speech",
+    "start": 318.16,
+    "duration": 3.599
+  },
+  {
+    "text": "processing we need to do video",
+    "start": 320.32,
+    "duration": 3.2
+  },
+  {
+    "text": "processing and these are all",
+    "start": 321.759,
+    "duration": 4.081
+  },
+  {
+    "text": "inputs here are naturally sequenced",
+    "start": 323.52,
+    "duration": 3.76
+  },
+  {
+    "text": "right so we need sequence processing",
+    "start": 325.84,
+    "duration": 3.199
+  },
+  {
+    "text": "angles of course this need were",
+    "start": 327.28,
+    "duration": 3.919
+  },
+  {
+    "text": "discovered i mean reid was realized long",
+    "start": 329.039,
+    "duration": 2.961
+  },
+  {
+    "text": "back",
+    "start": 331.199,
+    "duration": 3.28
+  },
+  {
+    "text": "and he as is the case with convolutional",
+    "start": 332.0,
+    "duration": 5.68
+  },
+  {
+    "text": "neural networks very long back in 1982",
+    "start": 334.479,
+    "duration": 4.801
+  },
+  {
+    "text": "we had something known as an off field",
+    "start": 337.68,
+    "duration": 3.6
+  },
+  {
+    "text": "network i'm not going to the details of",
+    "start": 339.28,
+    "duration": 3.359
+  },
+  {
+    "text": "it it's not something that we'll cover",
+    "start": 341.28,
+    "duration": 2.8
+  },
+  {
+    "text": "in the course also but it was something",
+    "start": 342.639,
+    "duration": 4.4
+  },
+  {
+    "text": "which was able to uh do some kind of a",
+    "start": 344.08,
+    "duration": 4.959
+  },
+  {
+    "text": "sequence processing right",
+    "start": 347.039,
+    "duration": 3.841
+  },
+  {
+    "text": "more relevant to this course is this",
+    "start": 349.039,
+    "duration": 3.121
+  },
+  {
+    "text": "what is known as recurrent neural",
+    "start": 350.88,
+    "duration": 2.879
+  },
+  {
+    "text": "networks",
+    "start": 352.16,
+    "duration": 3.36
+  },
+  {
+    "text": "where the idea is that you have a",
+    "start": 353.759,
+    "duration": 3.841
+  },
+  {
+    "text": "sequence of inputs and you want to have",
+    "start": 355.52,
+    "duration": 3.84
+  },
+  {
+    "text": "some interaction between these inputs",
+    "start": 357.6,
+    "duration": 4.319
+  },
+  {
+    "text": "right so for example when i'm talking",
+    "start": 359.36,
+    "duration": 4.559
+  },
+  {
+    "text": "it's not that every phoneme or every",
+    "start": 361.919,
+    "duration": 5.12
+  },
+  {
+    "text": "microsecond of speech can be ah",
+    "start": 363.919,
+    "duration": 4.72
+  },
+  {
+    "text": "a millisecond of speech can be analyzed",
+    "start": 367.039,
+    "duration": 3.041
+  },
+  {
+    "text": "independently it has some connection to",
+    "start": 368.639,
+    "duration": 4.0
+  },
+  {
+    "text": "what i just spoke previously right so i",
+    "start": 370.08,
+    "duration": 4.559
+  },
+  {
+    "text": "should have networks which are",
+    "start": 372.639,
+    "duration": 4.0
+  },
+  {
+    "text": "aware that such dependency between the",
+    "start": 374.639,
+    "duration": 3.441
+  },
+  {
+    "text": "inputs or interactions between the",
+    "start": 376.639,
+    "duration": 3.84
+  },
+  {
+    "text": "inputs are useful and should allow for",
+    "start": 378.08,
+    "duration": 4.0
+  },
+  {
+    "text": "those interactions right so the jordan",
+    "start": 380.479,
+    "duration": 3.28
+  },
+  {
+    "text": "network which is one time of recurrent",
+    "start": 382.08,
+    "duration": 3.36
+  },
+  {
+    "text": "neural network",
+    "start": 383.759,
+    "duration": 3.601
+  },
+  {
+    "text": "allowed the output at each time step to",
+    "start": 385.44,
+    "duration": 3.92
+  },
+  {
+    "text": "be fed as input for the next time step",
+    "start": 387.36,
+    "duration": 3.76
+  },
+  {
+    "text": "and that will allow interactions between",
+    "start": 389.36,
+    "duration": 3.679
+  },
+  {
+    "text": "different times so think of a sequence",
+    "start": 391.12,
+    "duration": 4.0
+  },
+  {
+    "text": "of images or sequence of frames which",
+    "start": 393.039,
+    "duration": 3.921
+  },
+  {
+    "text": "forms a video and you want to do some",
+    "start": 395.12,
+    "duration": 4.0
+  },
+  {
+    "text": "kind of video classification at the end",
+    "start": 396.96,
+    "duration": 4.32
+  },
+  {
+    "text": "so it's important that every sequence",
+    "start": 399.12,
+    "duration": 3.68
+  },
+  {
+    "text": "interacts with the other sequence so",
+    "start": 401.28,
+    "duration": 3.759
+  },
+  {
+    "text": "that it understands what is happening in",
+    "start": 402.8,
+    "duration": 4.239
+  },
+  {
+    "text": "the entire sequence as a whole so rick",
+    "start": 405.039,
+    "duration": 4.241
+  },
+  {
+    "text": "canadian neural network allows us to do",
+    "start": 407.039,
+    "duration": 3.44
+  },
+  {
+    "text": "that",
+    "start": 409.28,
+    "duration": 3.28
+  },
+  {
+    "text": "it was it entered natural language",
+    "start": 410.479,
+    "duration": 5.361
+  },
+  {
+    "text": "processing in around 2013 or 14 but this",
+    "start": 412.56,
+    "duration": 5.28
+  },
+  {
+    "text": "idea has been there much before that",
+    "start": 415.84,
+    "duration": 3.12
+  },
+  {
+    "text": "right and there were two different types",
+    "start": 417.84,
+    "duration": 2.72
+  },
+  {
+    "text": "of neural recurrent neural networks",
+    "start": 418.96,
+    "duration": 3.84
+  },
+  {
+    "text": "which were popular well the question of",
+    "start": 420.56,
+    "duration": 4.479
+  },
+  {
+    "text": "course is that if they were proposed in",
+    "start": 422.8,
+    "duration": 5.28
+  },
+  {
+    "text": "1990 and if it made sense for sequences",
+    "start": 425.039,
+    "duration": 4.56
+  },
+  {
+    "text": "and people were interested in a lot of",
+    "start": 428.08,
+    "duration": 4.32
+  },
+  {
+    "text": "nlp and speech at that time both nlp and",
+    "start": 429.599,
+    "duration": 4.32
+  },
+  {
+    "text": "speech have sequence of words and",
+    "start": 432.4,
+    "duration": 3.28
+  },
+  {
+    "text": "sequence of phonemes and why were these",
+    "start": 433.919,
+    "duration": 3.601
+  },
+  {
+    "text": "networks not being used again the same",
+    "start": 435.68,
+    "duration": 4.16
+  },
+  {
+    "text": "challenge a lot of work around that time",
+    "start": 437.52,
+    "duration": 4.16
+  },
+  {
+    "text": "which showed that it's very hard to",
+    "start": 439.84,
+    "duration": 5.12
+  },
+  {
+    "text": "train these networks in particular there",
+    "start": 441.68,
+    "duration": 4.72
+  },
+  {
+    "text": "was this problem of exploding and",
+    "start": 444.96,
+    "duration": 2.88
+  },
+  {
+    "text": "vanishing gradients which will again",
+    "start": 446.4,
+    "duration": 3.6
+  },
+  {
+    "text": "cover in the course which did not allow",
+    "start": 447.84,
+    "duration": 4.56
+  },
+  {
+    "text": "these networks at that time to be used",
+    "start": 450.0,
+    "duration": 3.199
+  },
+  {
+    "text": "for",
+    "start": 452.4,
+    "duration": 2.079
+  },
+  {
+    "text": "uh",
+    "start": 453.199,
+    "duration": 3.201
+  },
+  {
+    "text": "real world problems right but as things",
+    "start": 454.479,
+    "duration": 4.56
+  },
+  {
+    "text": "changed after 2006 2006 is when we",
+    "start": 456.4,
+    "duration": 4.239
+  },
+  {
+    "text": "discovered hey we can suddenly strain",
+    "start": 459.039,
+    "duration": 3.361
+  },
+  {
+    "text": "deep neural networks and in the next",
+    "start": 460.639,
+    "duration": 4.321
+  },
+  {
+    "text": "seven eight years we made uh advances in",
+    "start": 462.4,
+    "duration": 4.079
+  },
+  {
+    "text": "optimization algorithms activation",
+    "start": 464.96,
+    "duration": 4.88
+  },
+  {
+    "text": "functions uh regularization and so on",
+    "start": 466.479,
+    "duration": 5.041
+  },
+  {
+    "text": "things started improving",
+    "start": 469.84,
+    "duration": 4.799
+  },
+  {
+    "text": "and uh again in 1997 uh sorry i should",
+    "start": 471.52,
+    "duration": 4.799
+  },
+  {
+    "text": "have before going to 2006 i should have",
+    "start": 474.639,
+    "duration": 4.721
+  },
+  {
+    "text": "finished this in 1997 uh long short term",
+    "start": 476.319,
+    "duration": 5.681
+  },
+  {
+    "text": "memory cells lstms was proposed which",
+    "start": 479.36,
+    "duration": 6.32
+  },
+  {
+    "text": "again alleviated this problem of uh",
+    "start": 482.0,
+    "duration": 7.039
+  },
+  {
+    "text": "exploding uh of vanishing gradients",
+    "start": 485.68,
+    "duration": 5.919
+  },
+  {
+    "text": "in particular and",
+    "start": 489.039,
+    "duration": 4.401
+  },
+  {
+    "text": "but still they were not being used for",
+    "start": 491.599,
+    "duration": 3.521
+  },
+  {
+    "text": "real-world applications due to the other",
+    "start": 493.44,
+    "duration": 2.96
+  },
+  {
+    "text": "reasons which i had said right i mean",
+    "start": 495.12,
+    "duration": 2.88
+  },
+  {
+    "text": "compute was a challenge large scale data",
+    "start": 496.4,
+    "duration": 3.84
+  },
+  {
+    "text": "sets were a challenge but now when we",
+    "start": 498.0,
+    "duration": 5.039
+  },
+  {
+    "text": "enter 2014 a lot of things fell into",
+    "start": 500.24,
+    "duration": 4.56
+  },
+  {
+    "text": "place right deep learning got better we",
+    "start": 503.039,
+    "duration": 3.84
+  },
+  {
+    "text": "had a better understanding of how to",
+    "start": 504.8,
+    "duration": 4.399
+  },
+  {
+    "text": "stabilize the training we had much more",
+    "start": 506.879,
+    "duration": 4.16
+  },
+  {
+    "text": "compute by this time gpus had already",
+    "start": 509.199,
+    "duration": 4.4
+  },
+  {
+    "text": "entered the scene we had much more data",
+    "start": 511.039,
+    "duration": 4.161
+  },
+  {
+    "text": "large-scale data sets which allowed",
+    "start": 513.599,
+    "duration": 3.201
+  },
+  {
+    "text": "training these networks right so and",
+    "start": 515.2,
+    "duration": 3.759
+  },
+  {
+    "text": "that's when in 2014",
+    "start": 516.8,
+    "duration": 4.0
+  },
+  {
+    "text": "uh deep neural networks or recurrent",
+    "start": 518.959,
+    "duration": 5.44
+  },
+  {
+    "text": "neural network based models entered nlp",
+    "start": 520.8,
+    "duration": 5.52
+  },
+  {
+    "text": "and since then there's been almost no",
+    "start": 524.399,
+    "duration": 3.44
+  },
+  {
+    "text": "looking back right all these traditional",
+    "start": 526.32,
+    "duration": 3.12
+  },
+  {
+    "text": "models which were",
+    "start": 527.839,
+    "duration": 4.161
+  },
+  {
+    "text": "probabilistic and statistical in nature",
+    "start": 529.44,
+    "duration": 3.76
+  },
+  {
+    "text": "of course you also have some",
+    "start": 532.0,
+    "duration": 2.8
+  },
+  {
+    "text": "probabilistic modeling here but the",
+    "start": 533.2,
+    "duration": 3.28
+  },
+  {
+    "text": "statistical machine translation models",
+    "start": 534.8,
+    "duration": 4.64
+  },
+  {
+    "text": "which were popular at that time",
+    "start": 536.48,
+    "duration": 5.2
+  },
+  {
+    "text": "uh were almost completely replaced by",
+    "start": 539.44,
+    "duration": 3.04
+  },
+  {
+    "text": "these",
+    "start": 541.68,
+    "duration": 2.88
+  },
+  {
+    "text": "recurrent neural networks and lstms",
+    "start": 542.48,
+    "duration": 3.6
+  },
+  {
+    "text": "right",
+    "start": 544.56,
+    "duration": 5.04
+  },
+  {
+    "text": "and then in 2017 came by what are known",
+    "start": 546.08,
+    "duration": 5.28
+  },
+  {
+    "text": "as transformer networks and we'll have a",
+    "start": 549.6,
+    "duration": 4.08
+  },
+  {
+    "text": "separate section on them later on which",
+    "start": 551.36,
+    "duration": 4.4
+  },
+  {
+    "text": "then slowly started replacing these rn",
+    "start": 553.68,
+    "duration": 4.0
+  },
+  {
+    "text": "and lstm it was but it took a couple of",
+    "start": 555.76,
+    "duration": 4.0
+  },
+  {
+    "text": "years at least for that transition to",
+    "start": 557.68,
+    "duration": 5.159
+  },
+  {
+    "text": "happen so i think around 2014 to",
+    "start": 559.76,
+    "duration": 4.639
+  },
+  {
+    "text": "2019-ish",
+    "start": 562.839,
+    "duration": 4.041
+  },
+  {
+    "text": "is when this rnns and lstms which were",
+    "start": 564.399,
+    "duration": 6.0
+  },
+  {
+    "text": "proposed way back in 1990s and 1997",
+    "start": 566.88,
+    "duration": 5.44
+  },
+  {
+    "text": "dominated the at least the nlp and",
+    "start": 570.399,
+    "duration": 3.681
+  },
+  {
+    "text": "speech uh scene",
+    "start": 572.32,
+    "duration": 4.48
+  },
+  {
+    "text": "uh as far as uh uh deep learning was",
+    "start": 574.08,
+    "duration": 5.04
+  },
+  {
+    "text": "considered concerned and then",
+    "start": 576.8,
+    "duration": 3.84
+  },
+  {
+    "text": "they were slowly replaced by",
+    "start": 579.12,
+    "duration": 3.04
+  },
+  {
+    "text": "transformers right and today we are in",
+    "start": 580.64,
+    "duration": 3.68
+  },
+  {
+    "text": "the era of transformers and we'll have a",
+    "start": 582.16,
+    "duration": 3.76
+  },
+  {
+    "text": "separate section discovering uh",
+    "start": 584.32,
+    "duration": 3.199
+  },
+  {
+    "text": "discussing the history of transformers",
+    "start": 585.92,
+    "duration": 3.919
+  },
+  {
+    "text": "later all right so i think i'll end this",
+    "start": 587.519,
+    "duration": 4.721
+  },
+  {
+    "text": "section here where we looked at a new",
+    "start": 589.839,
+    "duration": 4.881
+  },
+  {
+    "text": "type of input sequences and again the",
+    "start": 592.24,
+    "duration": 5.68
+  },
+  {
+    "text": "same story nothing new these models",
+    "start": 594.72,
+    "duration": 5.36
+  },
+  {
+    "text": "the need for processing sequences was",
+    "start": 597.92,
+    "duration": 3.68
+  },
+  {
+    "text": "felt much earlier",
+    "start": 600.08,
+    "duration": 3.6
+  },
+  {
+    "text": "the relevant neural network models",
+    "start": 601.6,
+    "duration": 3.52
+  },
+  {
+    "text": "itself for proposing speech were",
+    "start": 603.68,
+    "duration": 5.2
+  },
+  {
+    "text": "proposed in 1986 1990 1997 but at that",
+    "start": 605.12,
+    "duration": 6.32
+  },
+  {
+    "text": "time due to various reasons it was not",
+    "start": 608.88,
+    "duration": 4.399
+  },
+  {
+    "text": "conducive to train them on large scale",
+    "start": 611.44,
+    "duration": 4.72
+  },
+  {
+    "text": "data sets with good compute trained for",
+    "start": 613.279,
+    "duration": 4.641
+  },
+  {
+    "text": "longer durations they had also this",
+    "start": 616.16,
+    "duration": 3.679
+  },
+  {
+    "text": "vanishing exploding gradient problem",
+    "start": 617.92,
+    "duration": 3.52
+  },
+  {
+    "text": "some of these things were fixed in the",
+    "start": 619.839,
+    "duration": 4.56
+  },
+  {
+    "text": "period of 2006 to 2014 and then they",
+    "start": 621.44,
+    "duration": 5.12
+  },
+  {
+    "text": "became popular in the sequence learning",
+    "start": 624.399,
+    "duration": 4.56
+  },
+  {
+    "text": "problems in nlp and speech it and even",
+    "start": 626.56,
+    "duration": 4.48
+  },
+  {
+    "text": "envision for example captioning a video",
+    "start": 628.959,
+    "duration": 3.44
+  },
+  {
+    "text": "or an image",
+    "start": 631.04,
+    "duration": 3.039
+  },
+  {
+    "text": "okay",
+    "start": 632.399,
+    "duration": 3.12
+  },
+  {
+    "text": "now the next thing that i would like to",
+    "start": 634.079,
+    "duration": 3.44
+  },
+  {
+    "text": "talk about is another class of problems",
+    "start": 635.519,
+    "duration": 3.681
+  },
+  {
+    "text": "where deep learning became very popular",
+    "start": 637.519,
+    "duration": 4.401
+  },
+  {
+    "text": "which was at game playing right and we",
+    "start": 639.2,
+    "duration": 5.199
+  },
+  {
+    "text": "started seeing various results where in",
+    "start": 641.92,
+    "duration": 5.68
+  },
+  {
+    "text": "extremely complex game environments uh",
+    "start": 644.399,
+    "duration": 5.841
+  },
+  {
+    "text": "rl reinforcement learning agents started",
+    "start": 647.6,
+    "duration": 5.28
+  },
+  {
+    "text": "beating humans right so let's start",
+    "start": 650.24,
+    "duration": 5.839
+  },
+  {
+    "text": "around 2015 you have these atari games",
+    "start": 652.88,
+    "duration": 5.519
+  },
+  {
+    "text": "and reinforcement learning was always",
+    "start": 656.079,
+    "duration": 4.241
+  },
+  {
+    "text": "used for uh playing games so there was",
+    "start": 658.399,
+    "duration": 4.321
+  },
+  {
+    "text": "many uh classical textbooks on that",
+    "start": 660.32,
+    "duration": 3.68
+  },
+  {
+    "text": "where you had certain gaming",
+    "start": 662.72,
+    "duration": 2.72
+  },
+  {
+    "text": "environments like the pac-man",
+    "start": 664.0,
+    "duration": 3.44
+  },
+  {
+    "text": "environment or the ping-pong environment",
+    "start": 665.44,
+    "duration": 3.92
+  },
+  {
+    "text": "and you could train a rl agent to kind",
+    "start": 667.44,
+    "duration": 2.8
+  },
+  {
+    "text": "of",
+    "start": 669.36,
+    "duration": 2.64
+  },
+  {
+    "text": "learn how to play those games so these",
+    "start": 670.24,
+    "duration": 4.56
+  },
+  {
+    "text": "are those console based games that",
+    "start": 672.0,
+    "duration": 5.519
+  },
+  {
+    "text": "were popular many years ago right",
+    "start": 674.8,
+    "duration": 6.0
+  },
+  {
+    "text": "and in 2015 came this deep reinforcement",
+    "start": 677.519,
+    "duration": 5.681
+  },
+  {
+    "text": "learning paradigm which was able to play",
+    "start": 680.8,
+    "duration": 5.52
+  },
+  {
+    "text": "all these atari games and win all of",
+    "start": 683.2,
+    "duration": 6.24
+  },
+  {
+    "text": "them hands down right and beat humans at",
+    "start": 686.32,
+    "duration": 5.28
+  },
+  {
+    "text": "them what i mean by that",
+    "start": 689.44,
+    "duration": 4.72
+  },
+  {
+    "text": "then uh the one popular breakthrough",
+    "start": 691.6,
+    "duration": 6.0
+  },
+  {
+    "text": "which was which came was this uh the",
+    "start": 694.16,
+    "duration": 5.119
+  },
+  {
+    "text": "reinforcement learning agent which could",
+    "start": 697.6,
+    "duration": 3.52
+  },
+  {
+    "text": "play this game of go right if you're not",
+    "start": 699.279,
+    "duration": 4.401
+  },
+  {
+    "text": "aware of go then in very layman terms i",
+    "start": 701.12,
+    "duration": 4.0
+  },
+  {
+    "text": "would tell you that it's something much",
+    "start": 703.68,
+    "duration": 3.12
+  },
+  {
+    "text": "more complex than chess you all know",
+    "start": 705.12,
+    "duration": 3.279
+  },
+  {
+    "text": "that chess has many rules and there's an",
+    "start": 706.8,
+    "duration": 3.839
+  },
+  {
+    "text": "exponential number of",
+    "start": 708.399,
+    "duration": 4.161
+  },
+  {
+    "text": "possibilities there depending on what i",
+    "start": 710.639,
+    "duration": 3.76
+  },
+  {
+    "text": "play and then there are many roots or",
+    "start": 712.56,
+    "duration": 4.16
+  },
+  {
+    "text": "many parts which open up right so go is",
+    "start": 714.399,
+    "duration": 3.841
+  },
+  {
+    "text": "something which is even more complex",
+    "start": 716.72,
+    "duration": 4.239
+  },
+  {
+    "text": "than it is again a strategy based game",
+    "start": 718.24,
+    "duration": 4.64
+  },
+  {
+    "text": "and unlike previous algorithms which",
+    "start": 720.959,
+    "duration": 4.56
+  },
+  {
+    "text": "used brute force kind of strategies this",
+    "start": 722.88,
+    "duration": 4.399
+  },
+  {
+    "text": "reinforcement learning agent based on",
+    "start": 725.519,
+    "duration": 4.0
+  },
+  {
+    "text": "deep reinforcement learning was able to",
+    "start": 727.279,
+    "duration": 4.881
+  },
+  {
+    "text": "beat the best go players at that time",
+    "start": 729.519,
+    "duration": 4.481
+  },
+  {
+    "text": "right in 2015",
+    "start": 732.16,
+    "duration": 4.16
+  },
+  {
+    "text": "and this of course gained a lot of",
+    "start": 734.0,
+    "duration": 4.8
+  },
+  {
+    "text": "popularity and attention and deep rl",
+    "start": 736.32,
+    "duration": 5.199
+  },
+  {
+    "text": "became a very popular area and it still",
+    "start": 738.8,
+    "duration": 6.32
+  },
+  {
+    "text": "continues to be right then in 2016 again",
+    "start": 741.519,
+    "duration": 5.76
+  },
+  {
+    "text": "using the same uh",
+    "start": 745.12,
+    "duration": 4.08
+  },
+  {
+    "text": "deep reinforcement learning based",
+    "start": 747.279,
+    "duration": 4.24
+  },
+  {
+    "text": "players or agents people were able to",
+    "start": 749.2,
+    "duration": 5.04
+  },
+  {
+    "text": "beat professional poker players right i",
+    "start": 751.519,
+    "duration": 3.601
+  },
+  {
+    "text": "mean these are the people who",
+    "start": 754.24,
+    "duration": 2.56
+  },
+  {
+    "text": "participate in these",
+    "start": 755.12,
+    "duration": 3.36
+  },
+  {
+    "text": "world championships in pokers and they",
+    "start": 756.8,
+    "duration": 3.839
+  },
+  {
+    "text": "were able to beat many of them in the",
+    "start": 758.48,
+    "duration": 3.28
+  },
+  {
+    "text": "game of",
+    "start": 760.639,
+    "duration": 3.841
+  },
+  {
+    "text": "poker right similar advances in much",
+    "start": 761.76,
+    "duration": 4.96
+  },
+  {
+    "text": "more complex strategy games which have",
+    "start": 764.48,
+    "duration": 4.4
+  },
+  {
+    "text": "complex visual environments as well as",
+    "start": 766.72,
+    "duration": 4.239
+  },
+  {
+    "text": "complex strategies",
+    "start": 768.88,
+    "duration": 4.079
+  },
+  {
+    "text": "which for example the defense of the",
+    "start": 770.959,
+    "duration": 3.601
+  },
+  {
+    "text": "ancients some of you would have played",
+    "start": 772.959,
+    "duration": 2.32
+  },
+  {
+    "text": "it",
+    "start": 774.56,
+    "duration": 2.56
+  },
+  {
+    "text": "and openly i did this very interesting",
+    "start": 775.279,
+    "duration": 3.281
+  },
+  {
+    "text": "thing that",
+    "start": 777.12,
+    "duration": 4.32
+  },
+  {
+    "text": "it just made an agent play with itself",
+    "start": 778.56,
+    "duration": 5.68
+  },
+  {
+    "text": "right and it played like 10 000 years of",
+    "start": 781.44,
+    "duration": 4.48
+  },
+  {
+    "text": "gaming and just imagine that i mean we",
+    "start": 784.24,
+    "duration": 2.88
+  },
+  {
+    "text": "play",
+    "start": 785.92,
+    "duration": 2.88
+  },
+  {
+    "text": "i mean there's no way you can compare to",
+    "start": 787.12,
+    "duration": 3.839
+  },
+  {
+    "text": "this kind of scale right and so 10 000",
+    "start": 788.8,
+    "duration": 4.64
+  },
+  {
+    "text": "years of training they did on of course",
+    "start": 790.959,
+    "duration": 5.041
+  },
+  {
+    "text": "a distributed set of compute",
+    "start": 793.44,
+    "duration": 3.44
+  },
+  {
+    "text": "and",
+    "start": 796.0,
+    "duration": 2.8
+  },
+  {
+    "text": "they were able to demonstrate that just",
+    "start": 796.88,
+    "duration": 4.24
+  },
+  {
+    "text": "by playing with itself the agent is able",
+    "start": 798.8,
+    "duration": 4.96
+  },
+  {
+    "text": "to get this expert level performance and",
+    "start": 801.12,
+    "duration": 5.68
+  },
+  {
+    "text": "beat the best dota players at that time",
+    "start": 803.76,
+    "duration": 5.68
+  },
+  {
+    "text": "right so again very complex problems",
+    "start": 806.8,
+    "duration": 3.839
+  },
+  {
+    "text": "very",
+    "start": 809.44,
+    "duration": 3.36
+  },
+  {
+    "text": "strategy based games with the inputs",
+    "start": 810.639,
+    "duration": 3.521
+  },
+  {
+    "text": "also being complex you're getting the",
+    "start": 812.8,
+    "duration": 3.36
+  },
+  {
+    "text": "inputs in form of images right it's not",
+    "start": 814.16,
+    "duration": 4.239
+  },
+  {
+    "text": "like some signals but an entire image is",
+    "start": 816.16,
+    "duration": 3.6
+  },
+  {
+    "text": "being fed and looking at the image",
+    "start": 818.399,
+    "duration": 2.641
+  },
+  {
+    "text": "you're trying to decide what the next",
+    "start": 819.76,
+    "duration": 2.72
+  },
+  {
+    "text": "step is going to be",
+    "start": 821.04,
+    "duration": 3.28
+  },
+  {
+    "text": "and there are various possibilities",
+    "start": 822.48,
+    "duration": 3.68
+  },
+  {
+    "text": "there various strategies to learn it's",
+    "start": 824.32,
+    "duration": 3.68
+  },
+  {
+    "text": "able to learn all of this and being able",
+    "start": 826.16,
+    "duration": 3.6
+  },
+  {
+    "text": "to beat humans right",
+    "start": 828.0,
+    "duration": 4.32
+  },
+  {
+    "text": "and then around the same time",
+    "start": 829.76,
+    "duration": 5.199
+  },
+  {
+    "text": "to kind of popularize this research in",
+    "start": 832.32,
+    "duration": 4.56
+  },
+  {
+    "text": "rl right where are these complex games",
+    "start": 834.959,
+    "duration": 3.68
+  },
+  {
+    "text": "which require this 10 000 hours of",
+    "start": 836.88,
+    "duration": 4.16
+  },
+  {
+    "text": "playing and so on maybe only the",
+    "start": 838.639,
+    "duration": 4.56
+  },
+  {
+    "text": "big deep tech companies can do that but",
+    "start": 841.04,
+    "duration": 4.08
+  },
+  {
+    "text": "can you have simpler environments which",
+    "start": 843.199,
+    "duration": 4.961
+  },
+  {
+    "text": "have a lot of this complexity but",
+    "start": 845.12,
+    "duration": 5.6
+  },
+  {
+    "text": "you can you use those environments to",
+    "start": 848.16,
+    "duration": 4.479
+  },
+  {
+    "text": "train some of these or advance the",
+    "start": 850.72,
+    "duration": 3.76
+  },
+  {
+    "text": "research and deep reinforcement learning",
+    "start": 852.639,
+    "duration": 3.841
+  },
+  {
+    "text": "so that's why this open ai gym was",
+    "start": 854.48,
+    "duration": 3.599
+  },
+  {
+    "text": "released which became a toolkit for",
+    "start": 856.48,
+    "duration": 3.68
+  },
+  {
+    "text": "developing and comparing reinforcement",
+    "start": 858.079,
+    "duration": 3.601
+  },
+  {
+    "text": "learning algorithms because this entire",
+    "start": 860.16,
+    "duration": 3.76
+  },
+  {
+    "text": "deep reinforcement learning based work",
+    "start": 861.68,
+    "duration": 3.519
+  },
+  {
+    "text": "is something that we will not cover in",
+    "start": 863.92,
+    "duration": 2.719
+  },
+  {
+    "text": "this course but it's important that you",
+    "start": 865.199,
+    "duration": 3.76
+  },
+  {
+    "text": "are aware of that that's one branch",
+    "start": 866.639,
+    "duration": 5.041
+  },
+  {
+    "text": "which you could explore as you continue",
+    "start": 868.959,
+    "duration": 4.961
+  },
+  {
+    "text": "on your journey on deep learning right",
+    "start": 871.68,
+    "duration": 4.48
+  },
+  {
+    "text": "similarly there was another",
+    "start": 873.92,
+    "duration": 4.24
+  },
+  {
+    "text": "gym retro right a newer version of that",
+    "start": 876.16,
+    "duration": 4.16
+  },
+  {
+    "text": "which had thousand games",
+    "start": 878.16,
+    "duration": 4.799
+  },
+  {
+    "text": "very different environments which people",
+    "start": 880.32,
+    "duration": 3.519
+  },
+  {
+    "text": "could",
+    "start": 882.959,
+    "duration": 2.961
+  },
+  {
+    "text": "experiment with right and again complex",
+    "start": 883.839,
+    "duration": 4.961
+  },
+  {
+    "text": "strategy games",
+    "start": 885.92,
+    "duration": 5.76
+  },
+  {
+    "text": "then uh similarly alpha star which uh",
+    "start": 888.8,
+    "duration": 4.719
+  },
+  {
+    "text": "has to balance to learn short-term and",
+    "start": 891.68,
+    "duration": 3.279
+  },
+  {
+    "text": "long-term goals these are all games",
+    "start": 893.519,
+    "duration": 3.12
+  },
+  {
+    "text": "which you are aware of these are complex",
+    "start": 894.959,
+    "duration": 3.521
+  },
+  {
+    "text": "strategy games which you",
+    "start": 896.639,
+    "duration": 4.241
+  },
+  {
+    "text": "play and you can imagine as humans also",
+    "start": 898.48,
+    "duration": 4.0
+  },
+  {
+    "text": "we take a while to understand what needs",
+    "start": 900.88,
+    "duration": 3.12
+  },
+  {
+    "text": "to be done and we are never perfect in",
+    "start": 902.48,
+    "duration": 3.76
+  },
+  {
+    "text": "any of these but now rl agents are being",
+    "start": 904.0,
+    "duration": 4.8
+  },
+  {
+    "text": "able to learn how to be play these games",
+    "start": 906.24,
+    "duration": 4.959
+  },
+  {
+    "text": "on their own right this was again a very",
+    "start": 908.8,
+    "duration": 5.2
+  },
+  {
+    "text": "interesting uh demo video which uh or",
+    "start": 911.199,
+    "duration": 3.921
+  },
+  {
+    "text": "of the",
+    "start": 914.0,
+    "duration": 3.199
+  },
+  {
+    "text": "work that they had done where they had",
+    "start": 915.12,
+    "duration": 3.44
+  },
+  {
+    "text": "these agents the",
+    "start": 917.199,
+    "duration": 3.601
+  },
+  {
+    "text": "the blue orange guys that you see in the",
+    "start": 918.56,
+    "duration": 3.76
+  },
+  {
+    "text": "screenshot there",
+    "start": 920.8,
+    "duration": 2.96
+  },
+  {
+    "text": "where you have this",
+    "start": 922.32,
+    "duration": 2.879
+  },
+  {
+    "text": "a flat",
+    "start": 923.76,
+    "duration": 3.12
+  },
+  {
+    "text": "floor right you can imagine it's a floor",
+    "start": 925.199,
+    "duration": 3.841
+  },
+  {
+    "text": "in which you could have some places",
+    "start": 926.88,
+    "duration": 4.399
+  },
+  {
+    "text": "where you could hide you could construct",
+    "start": 929.04,
+    "duration": 3.84
+  },
+  {
+    "text": "a wall so that you can hide from the",
+    "start": 931.279,
+    "duration": 3.761
+  },
+  {
+    "text": "person who is chasing you if you are a",
+    "start": 932.88,
+    "duration": 4.72
+  },
+  {
+    "text": "chaser you could destroy a wild wall to",
+    "start": 935.04,
+    "duration": 3.599
+  },
+  {
+    "text": "find",
+    "start": 937.6,
+    "duration": 3.039
+  },
+  {
+    "text": "to look for people inside or you could",
+    "start": 938.639,
+    "duration": 3.681
+  },
+  {
+    "text": "build a ramp you can see that yellow",
+    "start": 940.639,
+    "duration": 4.56
+  },
+  {
+    "text": "ramp in the figure",
+    "start": 942.32,
+    "duration": 4.639
+  },
+  {
+    "text": "so you could climb up the ramp and peep",
+    "start": 945.199,
+    "duration": 3.2
+  },
+  {
+    "text": "inside the structure and see whether",
+    "start": 946.959,
+    "duration": 3.44
+  },
+  {
+    "text": "someone is hiding right and all of this",
+    "start": 948.399,
+    "duration": 4.641
+  },
+  {
+    "text": "the rl agents were able to learn uh",
+    "start": 950.399,
+    "duration": 4.721
+  },
+  {
+    "text": "quite well right that is the ability to",
+    "start": 953.04,
+    "duration": 4.719
+  },
+  {
+    "text": "chase and hide build a defensive shelter",
+    "start": 955.12,
+    "duration": 4.48
+  },
+  {
+    "text": "break a shelter use a ramp to search",
+    "start": 957.759,
+    "duration": 3.76
+  },
+  {
+    "text": "inside and so on as a very interesting",
+    "start": 959.6,
+    "duration": 4.56
+  },
+  {
+    "text": "demo video that you should see right and",
+    "start": 961.519,
+    "duration": 4.081
+  },
+  {
+    "text": "what is emerging in all of this the",
+    "start": 964.16,
+    "duration": 3.039
+  },
+  {
+    "text": "underlying theme is that very complex",
+    "start": 965.6,
+    "duration": 3.28
+  },
+  {
+    "text": "decision making strategies were being",
+    "start": 967.199,
+    "duration": 4.0
+  },
+  {
+    "text": "able to learn using these different",
+    "start": 968.88,
+    "duration": 4.319
+  },
+  {
+    "text": "deep reinforcement learning agents and",
+    "start": 971.199,
+    "duration": 3.681
+  },
+  {
+    "text": "while all of these specialized in like",
+    "start": 973.199,
+    "duration": 4.32
+  },
+  {
+    "text": "one task then came this mu zero",
+    "start": 974.88,
+    "duration": 4.079
+  },
+  {
+    "text": "which can do multiple things right",
+    "start": 977.519,
+    "duration": 3.12
+  },
+  {
+    "text": "because you always aim for always one",
+    "start": 978.959,
+    "duration": 3.361
+  },
+  {
+    "text": "argument is that hey your ai agent can",
+    "start": 980.639,
+    "duration": 3.601
+  },
+  {
+    "text": "do only one thing whereas a typical",
+    "start": 982.32,
+    "duration": 3.36
+  },
+  {
+    "text": "human",
+    "start": 984.24,
+    "duration": 2.8
+  },
+  {
+    "text": "and you might be able to beat a human in",
+    "start": 985.68,
+    "duration": 3.12
+  },
+  {
+    "text": "that one thing but a human can do many",
+    "start": 987.04,
+    "duration": 3.12
+  },
+  {
+    "text": "other things right so if you have a good",
+    "start": 988.8,
+    "duration": 2.959
+  },
+  {
+    "text": "go player",
+    "start": 990.16,
+    "duration": 4.32
+  },
+  {
+    "text": "go rl agent maybe it beats the best go",
+    "start": 991.759,
+    "duration": 4.801
+  },
+  {
+    "text": "player but that player can also play",
+    "start": 994.48,
+    "duration": 3.68
+  },
+  {
+    "text": "chess that could also play badminton",
+    "start": 996.56,
+    "duration": 3.199
+  },
+  {
+    "text": "could also play table tennis and so many",
+    "start": 998.16,
+    "duration": 3.28
+  },
+  {
+    "text": "other things whether our agent is doing",
+    "start": 999.759,
+    "duration": 3.44
+  },
+  {
+    "text": "one thing itself right and so now",
+    "start": 1001.44,
+    "duration": 3.28
+  },
+  {
+    "text": "there's this push to have what are known",
+    "start": 1003.199,
+    "duration": 4.401
+  },
+  {
+    "text": "as master of all models so this mu zero",
+    "start": 1004.72,
+    "duration": 4.559
+  },
+  {
+    "text": "was the first among the first step in",
+    "start": 1007.6,
+    "duration": 3.52
+  },
+  {
+    "text": "that direction which could not only play",
+    "start": 1009.279,
+    "duration": 4.641
+  },
+  {
+    "text": "go but also chess shogi and atari right",
+    "start": 1011.12,
+    "duration": 4.959
+  },
+  {
+    "text": "these are again all uh decision making",
+    "start": 1013.92,
+    "duration": 4.4
+  },
+  {
+    "text": "games and so it could do multiple of",
+    "start": 1016.079,
+    "duration": 5.2
+  },
+  {
+    "text": "these games uh in a single rl agent",
+    "start": 1018.32,
+    "duration": 5.759
+  },
+  {
+    "text": "right so going towards more uh general",
+    "start": 1021.279,
+    "duration": 4.481
+  },
+  {
+    "text": "intelligence right and becoming a master",
+    "start": 1024.079,
+    "duration": 4.801
+  },
+  {
+    "text": "of many uh traits right and",
+    "start": 1025.76,
+    "duration": 5.039
+  },
+  {
+    "text": "similar research is progressing where",
+    "start": 1028.88,
+    "duration": 3.28
+  },
+  {
+    "text": "you now have this player of games a",
+    "start": 1030.799,
+    "duration": 3.12
+  },
+  {
+    "text": "general purpose algorithm",
+    "start": 1032.16,
+    "duration": 3.519
+  },
+  {
+    "text": "which learns to play in different",
+    "start": 1033.919,
+    "duration": 3.28
+  },
+  {
+    "text": "conditions it's a lot of progress has",
+    "start": 1035.679,
+    "duration": 3.201
+  },
+  {
+    "text": "happened in this deep reinforcement",
+    "start": 1037.199,
+    "duration": 2.88
+  },
+  {
+    "text": "learning",
+    "start": 1038.88,
+    "duration": 3.439
+  },
+  {
+    "text": "over the years none of this will cover",
+    "start": 1040.079,
+    "duration": 4.321
+  },
+  {
+    "text": "in the course but this is important for",
+    "start": 1042.319,
+    "duration": 3.76
+  },
+  {
+    "text": "you to know as i said and you could",
+    "start": 1044.4,
+    "duration": 2.88
+  },
+  {
+    "text": "explore this",
+    "start": 1046.079,
+    "duration": 2.641
+  },
+  {
+    "text": "on your own once you understand the",
+    "start": 1047.28,
+    "duration": 3.519
+  },
+  {
+    "text": "other basic concepts in the course",
+    "start": 1048.72,
+    "duration": 6.36
+  },
+  {
+    "text": "so i'll end this module here",
+    "start": 1050.799,
+    "duration": 4.281
+  }
+]

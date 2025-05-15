@@ -1,0 +1,10 @@
+10 if I take 20 then would these oscillations reduce right what this uh I would would I please take.
+closer to the green curve right I know in the limit if I take n equal to all the points.
+then I would be exactly following the green curve right because and there's no surprise there right but if I.
+look at a mini batch as opposed to the full data and as opposed to just one point if I.
+look at a mini Point mini batch which is say 25 points 100 points then what my estimates be better.
+right so that's the question uh so let's look at that uh so now we are using a mini batch.
+version of gradient descent so in stochastic gradient descent you are updating after every point right whereas here you are.
+keeping track of the number of points that you have seen and if the number of points is equal to.
+some mini batch size let's say the mini batch size is 100 or 200 so if the number of points.
+that you have seen so far if it's equal to some mini batch size then you make an update right.

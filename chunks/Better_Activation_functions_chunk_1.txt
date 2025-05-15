@@ -1,0 +1,11 @@
+deep neural network which is important in granting it its power right so let's see what that is so now.
+suppose I have this deep neural network right it's a thin network but doesn't matter it's still a deep neural.
+network and suppose all my sigmars which are the sigmoid or the logistic function I just replace them by a.
+simple linear transformation it's earlier I had a any of the A's is equal to W into h plus b.
+and then H was sigmoid of a so I am just saying instead of H equal to sigmoid of a.
+if I just make it h equal to a right so there's only a linear layer and there is no.
+non-linear layer so that's the situation that I am considering uh so this is what it would look like right.
+so Y is a function of X so X first gets transformed linearly by W1 so that is what a.
+one is a one is W one into X but then H1 is just a one so it is again.
+W one into X then this x is the input to the next layer and then you get W 2.
+is into W1 into X right so w 2 into H1 which is W 2 into W 1 into X.

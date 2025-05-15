@@ -1,0 +1,9 @@
+whatever I started with I get the same so I can just adjust the parameters accordingly and then I do.
+a linear transformation to get my final Z1 to ZT right so remember this concatenation is happening per word right.
+that means uh the Z1 representations coming out of each of these are getting concatenated here then the Z2 representations.
+coming out of each of these are getting concatenated here right uh so it's per word so the input is.
+a set of words you have capital t word embeddings and the output at this layer or at every layer.
+right here here here at all these layers the output is again capital T embeddings right so that's you should.
+remember that so we are done so we have the multi-headed attention okay so we are back to the basic.
+block that we had so this is what we had we had these uh inputs coming in here right and.
+then now we have seen this self attention in detail which could be a multi-headed self attention and I gave.

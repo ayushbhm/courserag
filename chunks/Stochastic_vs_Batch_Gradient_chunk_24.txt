@@ -1,0 +1,8 @@
+of them converge much faster than the stochastic gradient descent right so after 500 steps you can see that the.
+black guy is still somewhere on the plateau it has not even entered the valley whereas of both of these.
+algorithms have conversed despite the stochastic nature of the algorithm and despite their own problems with oscillations they're still much.
+faster than grain gradient descent which is again nothing new this is what is expected uh where we have discussed.
+this during uh while discussing the vanilla versions of these algorithms as opposed to the stochastic or not the vanilla.
+the full batch version of these algorithms as opposed to the stochastic versions okay and of course you could also.
+have the mini batch versions of momentum and nag so what I showed on the previous slide was uh stochastic.
+but you can also have mini batch the same thing after a batch you compute the uh derivatives and then.

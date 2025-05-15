@@ -1,0 +1,8 @@
+was existing ah uh early stopping also to an extent but it got popularized in deep learning and then Dropout.
+was something which just specifically came in the context of deep learning right and now today we are going to.
+talk about activation functions maybe activations if I change then maybe perhaps something could happen and better weight initialization strategies.
+because some of these studies also saw that maybe initialization is what it is doing right so that's the context.
+of this lecture or the context of the past two lectures also right where we looked at a series of.
+optimization methods regularization methods so now you know that why we were studying that right because of this spark that.
+happened in 2006 and that led to some investigations and pointed out in this direction that hey let's focus on.
+these four areas and then maybe we'll be able to better train the Deep neural networks right so today we.

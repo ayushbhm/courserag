@@ -1,0 +1,9 @@
+foreign [Music] with this idea that we want to estimate the parameters and we reintroduce the concept of error and.
+what we understood is that in our random guess algorithm or the guesswork algorithm right we were actually navigating the.
+error surface although we were not realizing we're just moving from here and there and at times we are making.
+a mistake where we went up the error surface right or went to a higher error and we don't want.
+that to happen right we want a journey which is smooth that you keep going down as far as the.
+error is concerned and then settle to a point where the error is minimum right if not zero so we.
+need a more principled approach and that's what we're going to do in this module right so this is the.
+goal as I just stated that find a way of traversing this error surface so that we can reach the.
+minimum quickly and without a lot of back tracing or like going back or not back racing actually but random.

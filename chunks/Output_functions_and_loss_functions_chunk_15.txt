@@ -1,0 +1,9 @@
+probability distributions so that's what you want to do in the case of classification so now let's fill in the.
+glaps gaps suppose you want to classify an image into one of k classes here again we could use the.
+squared error loss to capture the deviation but can you think of a better function right so that's the idea.
+that's the motivation that i have set up now notice that y is a probability distribution where the two y.
+is a probability distribution as i said all the mass is on the correct class and zero on the other.
+class right that is something that you understand therefore we should ensure that whatever y hat we are going to.
+predict should also be a probability distribution again i've already explained all this just re doing it so now what.
+is the choice of the output function that you should choose right and this is what we have so far.
+right again up to this point we have done all the computations and i'm trying to understand what should be.

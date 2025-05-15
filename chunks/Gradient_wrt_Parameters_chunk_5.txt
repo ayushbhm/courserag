@@ -1,0 +1,11 @@
+I get it by multiplying this by this right so if I open that up it's going to be w.
+k 2 1 into h11 plus w k 2 2 into H 1 2 plus w k 2 3 into.
+h 2 3 and plus there would be this bias term right which would be B oh okay 2 in.
+this case Okay so that's that's what it is going to be and now I'm taking the derivative of this.
+quantity with respect to uh one of the weights right so what is the weight that I am looking at.
+I'm looking at w k i j in which this case the wkij is w k 2 2. so all.
+of these other terms are going to disappear right that's why I said the bias would matter in fact more.
+terms don't matter and the derivative of this quantity with respect to w k 2 is just going to be.
+H 1 2 right and now let's understand what is uh H what is this what are these indices one.
+and two here so this was just the uh I and J right so that's what this one and two.
+are so I was trying to take the derivative of uh a I was trying to take the derivative of.

@@ -1,0 +1,9 @@
+it i somehow found the right function right so this is what my guesswork was and you can all imagine.
+that this guesswork could have possibly never ended these are very specific values and i chose them because i knew.
+what the right value was and i was just trying to get that i mean i have reverse engineer these.
+wasn't if i was completely randomly trying this this would not really converge that i would not end up anywhere.
+right so now let us look at uh something better than this guesswork algorithm right so this is slightly better.
+than the guesswork algorithm so what i have done here is again i had seen we had seen this earlier.
+so i've just plotted so my this is my uh oops this is my w axis this is my b.
+axis okay and the vertical axis is the error axis right so for all possible values of w and b.
+i have just computed the loss i can do that i can do that programmatically and i have just plotted.

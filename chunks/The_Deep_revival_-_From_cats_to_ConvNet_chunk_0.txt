@@ -1,0 +1,8 @@
+foreign [Music] things were not working but now let's see if things start working so there this important contribution by.
+Jeff hinton's group around 2016. now what you see here is a deep neural network of course by today's standards.
+maybe it's a shallow network but at that time it was a deep neural network and even such networks were.
+not being able to train by back propagation but they propose a simple idea right and we'll see this in.
+the course where if you do something to initialize the weights of this network properly because earlier you are initializing.
+the weights randomly and expecting back propagation to learn them but if you do something to initialize the weights properly.
+then the training with back propagation becomes stable and you're able to train a very deep neural network of course.
+this idea was again not completely new there were very deep Learners proposed by schmidur in 191 1991 1993. again.

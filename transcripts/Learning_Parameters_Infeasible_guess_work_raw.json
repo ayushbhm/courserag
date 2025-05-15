@@ -1,0 +1,2477 @@
+[
+  {
+    "text": "[Music]",
+    "start": 0.33,
+    "duration": 10.029
+  },
+  {
+    "text": "so welcome back uh so in the previous",
+    "start": 18.88,
+    "duration": 3.76
+  },
+  {
+    "text": "module we looked at this typical machine",
+    "start": 20.56,
+    "duration": 3.44
+  },
+  {
+    "text": "learning supervised machine learning",
+    "start": 22.64,
+    "duration": 4.399
+  },
+  {
+    "text": "setup and the key there was to now come",
+    "start": 24.0,
+    "duration": 5.199
+  },
+  {
+    "text": "up with a algorithm for learning the",
+    "start": 27.039,
+    "duration": 3.921
+  },
+  {
+    "text": "parameters right so what we'll do is now",
+    "start": 29.199,
+    "duration": 3.52
+  },
+  {
+    "text": "start with an infeasible algorithm right",
+    "start": 30.96,
+    "duration": 3.68
+  },
+  {
+    "text": "which will not really work in practice",
+    "start": 32.719,
+    "duration": 4.241
+  },
+  {
+    "text": "but it will give us intuitions about",
+    "start": 34.64,
+    "duration": 4.4
+  },
+  {
+    "text": "how what should we do to make it i mean",
+    "start": 36.96,
+    "duration": 4.16
+  },
+  {
+    "text": "go towards the more practical approach",
+    "start": 39.04,
+    "duration": 4.24
+  },
+  {
+    "text": "right so let's start",
+    "start": 41.12,
+    "duration": 3.52
+  },
+  {
+    "text": "so this is the supervised machine",
+    "start": 43.28,
+    "duration": 3.92
+  },
+  {
+    "text": "learning setup that i have i have n",
+    "start": 44.64,
+    "duration": 4.48
+  },
+  {
+    "text": "inputs okay",
+    "start": 47.2,
+    "duration": 3.6
+  },
+  {
+    "text": "and i have some weights and then i have",
+    "start": 49.12,
+    "duration": 4.0
+  },
+  {
+    "text": "the output now this is the model right",
+    "start": 50.8,
+    "duration": 4.32
+  },
+  {
+    "text": "this is my approximation of the relation",
+    "start": 53.12,
+    "duration": 5.68
+  },
+  {
+    "text": "between y and f y and x right so this is",
+    "start": 55.12,
+    "duration": 6.959
+  },
+  {
+    "text": "f hat actually this is the model",
+    "start": 58.8,
+    "duration": 6.399
+  },
+  {
+    "text": "and now i want to know an algorithm okay",
+    "start": 62.079,
+    "duration": 4.801
+  },
+  {
+    "text": "which can be used to learn the",
+    "start": 65.199,
+    "duration": 3.681
+  },
+  {
+    "text": "parameters of this model",
+    "start": 66.88,
+    "duration": 4.4
+  },
+  {
+    "text": "given the data that is would be given to",
+    "start": 68.88,
+    "duration": 5.04
+  },
+  {
+    "text": "me and using some objective function",
+    "start": 71.28,
+    "duration": 4.4
+  },
+  {
+    "text": "which makes sense right so that's what",
+    "start": 73.92,
+    "duration": 3.76
+  },
+  {
+    "text": "my quest is okay",
+    "start": 75.68,
+    "duration": 4.64
+  },
+  {
+    "text": "now then this is what my f hat of x is i",
+    "start": 77.68,
+    "duration": 4.32
+  },
+  {
+    "text": "generally use therefore fake side i mean",
+    "start": 80.32,
+    "duration": 3.119
+  },
+  {
+    "text": "i've explained the difference between f",
+    "start": 82.0,
+    "duration": 3.759
+  },
+  {
+    "text": "of x and f dot x but i'll just call it f",
+    "start": 83.439,
+    "duration": 3.68
+  },
+  {
+    "text": "of x and from the context it should be",
+    "start": 85.759,
+    "duration": 2.881
+  },
+  {
+    "text": "clear that i'm talking about my",
+    "start": 87.119,
+    "duration": 3.521
+  },
+  {
+    "text": "approximation because the true function",
+    "start": 88.64,
+    "duration": 3.519
+  },
+  {
+    "text": "of course is not known right so i cannot",
+    "start": 90.64,
+    "duration": 3.36
+  },
+  {
+    "text": "even define that right",
+    "start": 92.159,
+    "duration": 4.881
+  },
+  {
+    "text": "and i'll use sigma here which is written",
+    "start": 94.0,
+    "duration": 5.119
+  },
+  {
+    "text": "here is actually a short form or the",
+    "start": 97.04,
+    "duration": 6.719
+  },
+  {
+    "text": "notation for the sigmoid function okay",
+    "start": 99.119,
+    "duration": 6.801
+  },
+  {
+    "text": "so now we'll consider a very simplified",
+    "start": 103.759,
+    "duration": 3.521
+  },
+  {
+    "text": "version of this model right for all that",
+    "start": 105.92,
+    "duration": 3.12
+  },
+  {
+    "text": "explanation that there's only one input",
+    "start": 107.28,
+    "duration": 4.0
+  },
+  {
+    "text": "which is connected by the weight w and",
+    "start": 109.04,
+    "duration": 3.92
+  },
+  {
+    "text": "then there's this constantly on input",
+    "start": 111.28,
+    "duration": 3.92
+  },
+  {
+    "text": "which was connected by minus w naught",
+    "start": 112.96,
+    "duration": 3.759
+  },
+  {
+    "text": "but now to be consistent with the",
+    "start": 115.2,
+    "duration": 3.919
+  },
+  {
+    "text": "literature going forward we are going to",
+    "start": 116.719,
+    "duration": 4.881
+  },
+  {
+    "text": "call it as b right b stands for bias so",
+    "start": 119.119,
+    "duration": 4.241
+  },
+  {
+    "text": "instead of w naught we are going to use",
+    "start": 121.6,
+    "duration": 3.76
+  },
+  {
+    "text": "b and our function would then become",
+    "start": 123.36,
+    "duration": 5.599
+  },
+  {
+    "text": "minus of w x plus b earlier it was minus",
+    "start": 125.36,
+    "duration": 5.519
+  },
+  {
+    "text": "of w x plus w naught right so you're",
+    "start": 128.959,
+    "duration": 3.521
+  },
+  {
+    "text": "just changing that notation and i'll",
+    "start": 130.879,
+    "duration": 3.041
+  },
+  {
+    "text": "stick to this notation for the rest of",
+    "start": 132.48,
+    "duration": 3.36
+  },
+  {
+    "text": "the course now right",
+    "start": 133.92,
+    "duration": 4.08
+  },
+  {
+    "text": "yeah",
+    "start": 135.84,
+    "duration": 2.16
+  },
+  {
+    "text": "and",
+    "start": 139.12,
+    "duration": 3.28
+  },
+  {
+    "text": "lastly right so so far what we have been",
+    "start": 140.56,
+    "duration": 3.44
+  },
+  {
+    "text": "doing is we have been trying to talk",
+    "start": 142.4,
+    "duration": 3.199
+  },
+  {
+    "text": "about the problem that you are given one",
+    "start": 144.0,
+    "duration": 3.68
+  },
+  {
+    "text": "input and you are trying to predict the",
+    "start": 145.599,
+    "duration": 3.121
+  },
+  {
+    "text": "value",
+    "start": 147.68,
+    "duration": 4.24
+  },
+  {
+    "text": "of the uh zero or one right whether this",
+    "start": 148.72,
+    "duration": 5.04
+  },
+  {
+    "text": "movie are going to like it or not but",
+    "start": 151.92,
+    "duration": 3.76
+  },
+  {
+    "text": "now i'm going to make it uh",
+    "start": 153.76,
+    "duration": 3.199
+  },
+  {
+    "text": "make it a problem where you're trying to",
+    "start": 155.68,
+    "duration": 3.6
+  },
+  {
+    "text": "predict a real value instead of a",
+    "start": 156.959,
+    "duration": 3.92
+  },
+  {
+    "text": "boolean value and you're trying to",
+    "start": 159.28,
+    "duration": 3.84
+  },
+  {
+    "text": "predict the imdb rating on a scale of",
+    "start": 160.879,
+    "duration": 3.921
+  },
+  {
+    "text": "zero to one right so it could take",
+    "start": 163.12,
+    "duration": 3.759
+  },
+  {
+    "text": "values like zero point zero five point",
+    "start": 164.8,
+    "duration": 3.519
+  },
+  {
+    "text": "one point two whatever right it could",
+    "start": 166.879,
+    "duration": 4.64
+  },
+  {
+    "text": "take any of these values so it's a real",
+    "start": 168.319,
+    "duration": 5.841
+  },
+  {
+    "text": "input a real output right so that's it's",
+    "start": 171.519,
+    "duration": 4.241
+  },
+  {
+    "text": "easier for me to explain a few things in",
+    "start": 174.16,
+    "duration": 3.439
+  },
+  {
+    "text": "this setup but it does not",
+    "start": 175.76,
+    "duration": 3.839
+  },
+  {
+    "text": "change anything that i'm going to talk",
+    "start": 177.599,
+    "duration": 3.761
+  },
+  {
+    "text": "about even if you had boolean inputs",
+    "start": 179.599,
+    "duration": 4.081
+  },
+  {
+    "text": "we'll see later on how to adjust the",
+    "start": 181.36,
+    "duration": 4.239
+  },
+  {
+    "text": "same explanation to boolean inputs but",
+    "start": 183.68,
+    "duration": 3.6
+  },
+  {
+    "text": "for now i'll assume we have a real",
+    "start": 185.599,
+    "duration": 3.601
+  },
+  {
+    "text": "output right sorry not input output so",
+    "start": 187.28,
+    "duration": 4.16
+  },
+  {
+    "text": "we have a real valued output okay so",
+    "start": 189.2,
+    "duration": 3.84
+  },
+  {
+    "text": "that's the setup that i'm going to work",
+    "start": 191.44,
+    "duration": 2.719
+  },
+  {
+    "text": "with right",
+    "start": 193.04,
+    "duration": 3.919
+  },
+  {
+    "text": "and now the first thing is that i need",
+    "start": 194.159,
+    "duration": 4.321
+  },
+  {
+    "text": "some training data right so i've been",
+    "start": 196.959,
+    "duration": 4.721
+  },
+  {
+    "text": "given some training data so as i said",
+    "start": 198.48,
+    "duration": 5.679
+  },
+  {
+    "text": "that there are capital n pairs of now",
+    "start": 201.68,
+    "duration": 4.96
+  },
+  {
+    "text": "this is a good notation capital n for",
+    "start": 204.159,
+    "duration": 5.201
+  },
+  {
+    "text": "the number of training pairs and small n",
+    "start": 206.64,
+    "duration": 4.56
+  },
+  {
+    "text": "for the number of inputs that i have the",
+    "start": 209.36,
+    "duration": 3.84
+  },
+  {
+    "text": "small n is equal to 1 in this case right",
+    "start": 211.2,
+    "duration": 3.28
+  },
+  {
+    "text": "so this is",
+    "start": 213.2,
+    "duration": 4.8
+  },
+  {
+    "text": "the training data that i have",
+    "start": 214.48,
+    "duration": 6.16
+  },
+  {
+    "text": "now my training objective as i said is",
+    "start": 218.0,
+    "duration": 5.76
+  },
+  {
+    "text": "going to be that when i make predictions",
+    "start": 220.64,
+    "duration": 4.72
+  },
+  {
+    "text": "and these are the true values and these",
+    "start": 223.76,
+    "duration": 3.6
+  },
+  {
+    "text": "are the prediction values i want the",
+    "start": 225.36,
+    "duration": 3.68
+  },
+  {
+    "text": "difference between them to be as small",
+    "start": 227.36,
+    "duration": 3.92
+  },
+  {
+    "text": "as possible so this is my difference",
+    "start": 229.04,
+    "duration": 4.479
+  },
+  {
+    "text": "function and this i'm going to calculate",
+    "start": 231.28,
+    "duration": 4.56
+  },
+  {
+    "text": "over all the training points take the",
+    "start": 233.519,
+    "duration": 4.481
+  },
+  {
+    "text": "average and i'm going to define that as",
+    "start": 235.84,
+    "duration": 5.119
+  },
+  {
+    "text": "my loss function and my objective is to",
+    "start": 238.0,
+    "duration": 6.4
+  },
+  {
+    "text": "find w and b right such that my loss",
+    "start": 240.959,
+    "duration": 5.761
+  },
+  {
+    "text": "function is minimized right so that's an",
+    "start": 244.4,
+    "duration": 6.16
+  },
+  {
+    "text": "english explanation of this entire",
+    "start": 246.72,
+    "duration": 6.0
+  },
+  {
+    "text": "expression written here minimize",
+    "start": 250.56,
+    "duration": 4.239
+  },
+  {
+    "text": "with respect to w and b which means find",
+    "start": 252.72,
+    "duration": 4.4
+  },
+  {
+    "text": "the values of w and b which minimizes",
+    "start": 254.799,
+    "duration": 4.16
+  },
+  {
+    "text": "this quantity and this is how this",
+    "start": 257.12,
+    "duration": 4.16
+  },
+  {
+    "text": "quantity is defined it's the average",
+    "start": 258.959,
+    "duration": 4.8
+  },
+  {
+    "text": "difference of the predictions from the",
+    "start": 261.28,
+    "duration": 4.639
+  },
+  {
+    "text": "two values for all the training points",
+    "start": 263.759,
+    "duration": 5.121
+  },
+  {
+    "text": "right so that's a clear notation right",
+    "start": 265.919,
+    "duration": 5.041
+  },
+  {
+    "text": "now suppose",
+    "start": 268.88,
+    "duration": 4.319
+  },
+  {
+    "text": "i was given only two training points",
+    "start": 270.96,
+    "duration": 3.76
+  },
+  {
+    "text": "okay these are the two training points",
+    "start": 273.199,
+    "duration": 4.161
+  },
+  {
+    "text": "given to me these are the x's and these",
+    "start": 274.72,
+    "duration": 6.24
+  },
+  {
+    "text": "are the y's so this is one x one comma y",
+    "start": 277.36,
+    "duration": 6.32
+  },
+  {
+    "text": "one pair and this is the other x2 comma",
+    "start": 280.96,
+    "duration": 5.44
+  },
+  {
+    "text": "y2 pair i'm just given two training",
+    "start": 283.68,
+    "duration": 5.12
+  },
+  {
+    "text": "examples okay",
+    "start": 286.4,
+    "duration": 4.0
+  },
+  {
+    "text": "and these are the values also right i",
+    "start": 288.8,
+    "duration": 2.959
+  },
+  {
+    "text": "mean these are actual points on the",
+    "start": 290.4,
+    "duration": 4.4
+  },
+  {
+    "text": "graph so i can see that one point is 0.5",
+    "start": 291.759,
+    "duration": 7.44
+  },
+  {
+    "text": "comma 0.2 right so this is the point 0.5",
+    "start": 294.8,
+    "duration": 6.959
+  },
+  {
+    "text": "comma 0.2 as you can see and the other",
+    "start": 299.199,
+    "duration": 5.44
+  },
+  {
+    "text": "point is 2.5 comma 0.9 right so these",
+    "start": 301.759,
+    "duration": 4.72
+  },
+  {
+    "text": "are the points which are given to me",
+    "start": 304.639,
+    "duration": 4.241
+  },
+  {
+    "text": "okay this is my input training data and",
+    "start": 306.479,
+    "duration": 4.481
+  },
+  {
+    "text": "using this data i want to learn",
+    "start": 308.88,
+    "duration": 5.039
+  },
+  {
+    "text": "w and b and that's the setup that i have",
+    "start": 310.96,
+    "duration": 4.56
+  },
+  {
+    "text": "okay",
+    "start": 313.919,
+    "duration": 2.801
+  },
+  {
+    "text": "now",
+    "start": 315.52,
+    "duration": 4.56
+  },
+  {
+    "text": "um what is happening",
+    "start": 316.72,
+    "duration": 3.36
+  },
+  {
+    "text": "yeah so at the end of training we've",
+    "start": 321.919,
+    "duration": 5.521
+  },
+  {
+    "text": "we expect to find the optimal values of",
+    "start": 325.28,
+    "duration": 3.759
+  },
+  {
+    "text": "w and p right what are the optimal",
+    "start": 327.44,
+    "duration": 2.64
+  },
+  {
+    "text": "values",
+    "start": 329.039,
+    "duration": 3.041
+  },
+  {
+    "text": "though these are those values which",
+    "start": 330.08,
+    "duration": 4.0
+  },
+  {
+    "text": "minim minimize the loss function that we",
+    "start": 332.08,
+    "duration": 3.36
+  },
+  {
+    "text": "had defined in the previous slide right",
+    "start": 334.08,
+    "duration": 3.52
+  },
+  {
+    "text": "so those are the values that we want to",
+    "start": 335.44,
+    "duration": 6.16
+  },
+  {
+    "text": "find so now suppose so now what do you",
+    "start": 337.6,
+    "duration": 5.52
+  },
+  {
+    "text": "expect right so suppose at the end of",
+    "start": 341.6,
+    "duration": 3.52
+  },
+  {
+    "text": "training i told you that i found w star",
+    "start": 343.12,
+    "duration": 3.12
+  },
+  {
+    "text": "b star",
+    "start": 345.12,
+    "duration": 4.24
+  },
+  {
+    "text": "what is it that you expect",
+    "start": 346.24,
+    "duration": 4.64
+  },
+  {
+    "text": "what would happen i'll ask a more",
+    "start": 349.36,
+    "duration": 6.24
+  },
+  {
+    "text": "specific question if i plug in the value",
+    "start": 350.88,
+    "duration": 4.72
+  },
+  {
+    "text": "0.5 here if i pass 0.5 as the input and",
+    "start": 357.28,
+    "duration": 6.639
+  },
+  {
+    "text": "if you have learned w and b well what do",
+    "start": 361.52,
+    "duration": 3.84
+  },
+  {
+    "text": "you expect to happen",
+    "start": 363.919,
+    "duration": 4.4
+  },
+  {
+    "text": "the output should be",
+    "start": 365.36,
+    "duration": 2.959
+  },
+  {
+    "text": "the output should be close to 0.2",
+    "start": 368.639,
+    "duration": 5.521
+  },
+  {
+    "text": "similarly if i plug in the value 2.5 i",
+    "start": 370.8,
+    "duration": 5.839
+  },
+  {
+    "text": "would want the output to be close to 0.9",
+    "start": 374.16,
+    "duration": 4.24
+  },
+  {
+    "text": "right this is what i expect to be and",
+    "start": 376.639,
+    "duration": 2.801
+  },
+  {
+    "text": "this is what i've written here right so",
+    "start": 378.4,
+    "duration": 3.519
+  },
+  {
+    "text": "if i plug in f of 0.5 then it should be",
+    "start": 379.44,
+    "duration": 5.12
+  },
+  {
+    "text": "as close to 0.2 right tending to 0.2 and",
+    "start": 381.919,
+    "duration": 5.601
+  },
+  {
+    "text": "f of 2.5 should be as close to 0.9 right",
+    "start": 384.56,
+    "duration": 5.44
+  },
+  {
+    "text": "now let's try to relate this",
+    "start": 387.52,
+    "duration": 6.0
+  },
+  {
+    "text": "algebra to the geometry right so now",
+    "start": 390.0,
+    "duration": 5.12
+  },
+  {
+    "text": "geometrically i know that i am looking",
+    "start": 393.52,
+    "duration": 3.92
+  },
+  {
+    "text": "for a sigmoid function which is a",
+    "start": 395.12,
+    "duration": 4.24
+  },
+  {
+    "text": "s-shaped function right",
+    "start": 397.44,
+    "duration": 3.44
+  },
+  {
+    "text": "now algebraically what i am telling you",
+    "start": 399.36,
+    "duration": 3.119
+  },
+  {
+    "text": "is that when i plug in these values they",
+    "start": 400.88,
+    "duration": 3.36
+  },
+  {
+    "text": "should be as close to 0.2 and as close",
+    "start": 402.479,
+    "duration": 3.761
+  },
+  {
+    "text": "to 0.9 so now can you tell me what is",
+    "start": 404.24,
+    "duration": 4.64
+  },
+  {
+    "text": "the geometric interpretation of that",
+    "start": 406.24,
+    "duration": 4.239
+  },
+  {
+    "text": "i'm going to get some function because",
+    "start": 408.88,
+    "duration": 4.4
+  },
+  {
+    "text": "this actually defines a sigmoid function",
+    "start": 410.479,
+    "duration": 5.201
+  },
+  {
+    "text": "right and now i'm found on w and b so",
+    "start": 413.28,
+    "duration": 4.88
+  },
+  {
+    "text": "i'm going to plug in those values right",
+    "start": 415.68,
+    "duration": 4.48
+  },
+  {
+    "text": "and then i can draw that function so",
+    "start": 418.16,
+    "duration": 4.159
+  },
+  {
+    "text": "what should that function look like or",
+    "start": 420.16,
+    "duration": 4.159
+  },
+  {
+    "text": "what should be a characteristic of that",
+    "start": 422.319,
+    "duration": 3.681
+  },
+  {
+    "text": "function of course it will be a sigmoid",
+    "start": 424.319,
+    "duration": 3.521
+  },
+  {
+    "text": "function of course it will have s shaped",
+    "start": 426.0,
+    "duration": 3.28
+  },
+  {
+    "text": "but there is respect to the training",
+    "start": 427.84,
+    "duration": 4.16
+  },
+  {
+    "text": "data what should happen",
+    "start": 429.28,
+    "duration": 5.28
+  },
+  {
+    "text": "the two points that i have shown here",
+    "start": 432.0,
+    "duration": 5.56
+  },
+  {
+    "text": "should",
+    "start": 434.56,
+    "duration": 3.0
+  },
+  {
+    "text": "lie on the function",
+    "start": 437.68,
+    "duration": 3.68
+  },
+  {
+    "text": "right so what what that means is",
+    "start": 439.12,
+    "duration": 5.359
+  },
+  {
+    "text": "let me just draw it",
+    "start": 441.36,
+    "duration": 3.119
+  },
+  {
+    "text": "apply or close to that function right so",
+    "start": 446.24,
+    "duration": 3.76
+  },
+  {
+    "text": "i'm assuming it's perfectly done so this",
+    "start": 447.919,
+    "duration": 4.321
+  },
+  {
+    "text": "is what should happen right so whatever",
+    "start": 450.0,
+    "duration": 5.52
+  },
+  {
+    "text": "w comma b values i have when i plug them",
+    "start": 452.24,
+    "duration": 4.399
+  },
+  {
+    "text": "here",
+    "start": 455.52,
+    "duration": 3.44
+  },
+  {
+    "text": "i know that when i plug in the value 0.5",
+    "start": 456.639,
+    "duration": 4.161
+  },
+  {
+    "text": "i want something which is close to 0.2",
+    "start": 458.96,
+    "duration": 3.679
+  },
+  {
+    "text": "right i'm drawing the best case here",
+    "start": 460.8,
+    "duration": 3.36
+  },
+  {
+    "text": "that i should get a sigmoid function",
+    "start": 462.639,
+    "duration": 3.201
+  },
+  {
+    "text": "such that these two points lie on that",
+    "start": 464.16,
+    "duration": 2.879
+  },
+  {
+    "text": "and that's what it means right that when",
+    "start": 465.84,
+    "duration": 3.199
+  },
+  {
+    "text": "i plug in the value of x i get this y",
+    "start": 467.039,
+    "duration": 3.681
+  },
+  {
+    "text": "when i plug in the value x2 i get the",
+    "start": 469.039,
+    "duration": 3.761
+  },
+  {
+    "text": "other way right so this is what we are",
+    "start": 470.72,
+    "duration": 4.0
+  },
+  {
+    "text": "looking for it so this connects",
+    "start": 472.8,
+    "duration": 3.679
+  },
+  {
+    "text": "uh i would say the math to the geometry",
+    "start": 474.72,
+    "duration": 3.28
+  },
+  {
+    "text": "right so the algebra to the geometry",
+    "start": 476.479,
+    "duration": 3.84
+  },
+  {
+    "text": "that uh when you plug in these values",
+    "start": 478.0,
+    "duration": 4.56
+  },
+  {
+    "text": "you get some output and this is what it",
+    "start": 480.319,
+    "duration": 5.921
+  },
+  {
+    "text": "would mean geometrically right okay",
+    "start": 482.56,
+    "duration": 5.52
+  },
+  {
+    "text": "so now let us see this in more detail",
+    "start": 486.24,
+    "duration": 5.519
+  },
+  {
+    "text": "right so as usual i never know what the",
+    "start": 488.08,
+    "duration": 5.679
+  },
+  {
+    "text": "w's and b's are right i've given these",
+    "start": 491.759,
+    "duration": 4.241
+  },
+  {
+    "text": "two points i'm going to start with some",
+    "start": 493.759,
+    "duration": 4.081
+  },
+  {
+    "text": "random w's and b's so here i have",
+    "start": 496.0,
+    "duration": 4.16
+  },
+  {
+    "text": "started with uh if you can't see it let",
+    "start": 497.84,
+    "duration": 4.72
+  },
+  {
+    "text": "me just see if it's on the file",
+    "start": 500.16,
+    "duration": 4.4
+  },
+  {
+    "text": "ah so w equal to three and b is equal to",
+    "start": 502.56,
+    "duration": 3.84
+  },
+  {
+    "text": "minus one 1. that's what i have started",
+    "start": 504.56,
+    "duration": 3.28
+  },
+  {
+    "text": "with okay",
+    "start": 506.4,
+    "duration": 3.04
+  },
+  {
+    "text": "and now this is the sigmoid function",
+    "start": 507.84,
+    "duration": 2.72
+  },
+  {
+    "text": "that we get",
+    "start": 509.44,
+    "duration": 3.36
+  },
+  {
+    "text": "i know that intuitively i know that this",
+    "start": 510.56,
+    "duration": 6.479
+  },
+  {
+    "text": "is not correct why is this not correct",
+    "start": 512.8,
+    "duration": 4.239
+  },
+  {
+    "text": "both the points are not on the function",
+    "start": 518.159,
+    "duration": 2.481
+  },
+  {
+    "text": "right this point is also not on the",
+    "start": 519.44,
+    "duration": 2.88
+  },
+  {
+    "text": "function right so both the points are",
+    "start": 520.64,
+    "duration": 2.959
+  },
+  {
+    "text": "not on the function and just on the",
+    "start": 522.32,
+    "duration": 2.88
+  },
+  {
+    "text": "previous slide we saw",
+    "start": 523.599,
+    "duration": 4.481
+  },
+  {
+    "text": "that when the network is trained or when",
+    "start": 525.2,
+    "duration": 4.56
+  },
+  {
+    "text": "i have learned the values of wnb i would",
+    "start": 528.08,
+    "duration": 3.04
+  },
+  {
+    "text": "expect these points to lie on the",
+    "start": 529.76,
+    "duration": 3.04
+  },
+  {
+    "text": "sigmoid function but right now it's",
+    "start": 531.12,
+    "duration": 3.68
+  },
+  {
+    "text": "clearly not the case so this is bad",
+    "start": 532.8,
+    "duration": 4.32
+  },
+  {
+    "text": "there is no argument about that but how",
+    "start": 534.8,
+    "duration": 4.88
+  },
+  {
+    "text": "bad is it",
+    "start": 537.12,
+    "duration": 2.56
+  },
+  {
+    "text": "can you quantify that all of you are",
+    "start": 541.12,
+    "duration": 2.96
+  },
+  {
+    "text": "saying that it's bad right that's a",
+    "start": 542.56,
+    "duration": 5.2
+  },
+  {
+    "text": "qualitative answer can you quantify that",
+    "start": 544.08,
+    "duration": 5.759
+  },
+  {
+    "text": "yeah",
+    "start": 547.76,
+    "duration": 2.079
+  },
+  {
+    "text": "right so the answer given is that we",
+    "start": 551.6,
+    "duration": 3.919
+  },
+  {
+    "text": "could look at the loss function right so",
+    "start": 553.44,
+    "duration": 4.72
+  },
+  {
+    "text": "we now what we will do",
+    "start": 555.519,
+    "duration": 5.281
+  },
+  {
+    "text": "is that we look at the loss function",
+    "start": 558.16,
+    "duration": 4.48
+  },
+  {
+    "text": "which depends on w and b and we'll see",
+    "start": 560.8,
+    "duration": 3.599
+  },
+  {
+    "text": "how to calculate the loss function and",
+    "start": 562.64,
+    "duration": 3.36
+  },
+  {
+    "text": "then we'll be able to say exactly how",
+    "start": 564.399,
+    "duration": 3.761
+  },
+  {
+    "text": "bad this is right so let's do that right",
+    "start": 566.0,
+    "duration": 5.12
+  },
+  {
+    "text": "so my values of w and b i know are 3 and",
+    "start": 568.16,
+    "duration": 6.239
+  },
+  {
+    "text": "minus 1. so i know that this is equal to",
+    "start": 571.12,
+    "duration": 6.64
+  },
+  {
+    "text": "1 over 1 plus e raised to",
+    "start": 574.399,
+    "duration": 4.88
+  },
+  {
+    "text": "minus of",
+    "start": 577.76,
+    "duration": 2.88
+  },
+  {
+    "text": "3x",
+    "start": 579.279,
+    "duration": 4.081
+  },
+  {
+    "text": "plus b and b i have chosen s minus 1 so",
+    "start": 580.64,
+    "duration": 4.879
+  },
+  {
+    "text": "this is what my function looks like now",
+    "start": 583.36,
+    "duration": 4.159
+  },
+  {
+    "text": "in this function i'll plug in all the",
+    "start": 585.519,
+    "duration": 3.681
+  },
+  {
+    "text": "points that i have how many points do i",
+    "start": 587.519,
+    "duration": 3.841
+  },
+  {
+    "text": "have only two points so for one point",
+    "start": 589.2,
+    "duration": 5.84
+  },
+  {
+    "text": "the value would be the x is 0.5 and the",
+    "start": 591.36,
+    "duration": 6.08
+  },
+  {
+    "text": "other x is 2.5 so i'll plug in these",
+    "start": 595.04,
+    "duration": 4.239
+  },
+  {
+    "text": "values and i'll be able to compute this",
+    "start": 597.44,
+    "duration": 3.519
+  },
+  {
+    "text": "quantity and i already know what the",
+    "start": 599.279,
+    "duration": 3.281
+  },
+  {
+    "text": "true y should be right so i can",
+    "start": 600.959,
+    "duration": 3.12
+  },
+  {
+    "text": "calculate this so i'm just going to go",
+    "start": 602.56,
+    "duration": 3.44
+  },
+  {
+    "text": "ahead and calculate this right so this",
+    "start": 604.079,
+    "duration": 5.041
+  },
+  {
+    "text": "is what it looks like",
+    "start": 606.0,
+    "duration": 5.2
+  },
+  {
+    "text": "okay i just expanded the sum",
+    "start": 609.12,
+    "duration": 5.36
+  },
+  {
+    "text": "now i've going to calculate those values",
+    "start": 611.2,
+    "duration": 4.96
+  },
+  {
+    "text": "and this is what the values turn out to",
+    "start": 614.48,
+    "duration": 3.919
+  },
+  {
+    "text": "be now i'm just going to do the math and",
+    "start": 616.16,
+    "duration": 5.6
+  },
+  {
+    "text": "this is the value right so this is 0.099",
+    "start": 618.399,
+    "duration": 5.361
+  },
+  {
+    "text": "that's the loss if it was perfect the",
+    "start": 621.76,
+    "duration": 3.44
+  },
+  {
+    "text": "loss would have been zero right but this",
+    "start": 623.76,
+    "duration": 4.48
+  },
+  {
+    "text": "is 0.099 so that's how bad this is now i",
+    "start": 625.2,
+    "duration": 5.759
+  },
+  {
+    "text": "am able to quantify",
+    "start": 628.24,
+    "duration": 3.68
+  },
+  {
+    "text": "my",
+    "start": 630.959,
+    "duration": 2.161
+  },
+  {
+    "text": "answer",
+    "start": 631.92,
+    "duration": 3.039
+  },
+  {
+    "text": "using the loss value if you give me a w",
+    "start": 633.12,
+    "duration": 3.68
+  },
+  {
+    "text": "comma b i can tell you how bad that is",
+    "start": 634.959,
+    "duration": 3.761
+  },
+  {
+    "text": "right that's right what i am able to do",
+    "start": 636.8,
+    "duration": 4.08
+  },
+  {
+    "text": "right now we want the loss to be as",
+    "start": 638.72,
+    "duration": 4.239
+  },
+  {
+    "text": "close to zero as possible ideally zero",
+    "start": 640.88,
+    "duration": 4.0
+  },
+  {
+    "text": "but as i said i would settle for",
+    "start": 642.959,
+    "duration": 3.841
+  },
+  {
+    "text": "approximately zero also right so that's",
+    "start": 644.88,
+    "duration": 4.0
+  },
+  {
+    "text": "what we want to do so let us try some",
+    "start": 646.8,
+    "duration": 4.479
+  },
+  {
+    "text": "other values of w comma b right and",
+    "start": 648.88,
+    "duration": 4.959
+  },
+  {
+    "text": "we'll change we'll use the slider to",
+    "start": 651.279,
+    "duration": 5.68
+  },
+  {
+    "text": "change it okay so first i'll try uh",
+    "start": 653.839,
+    "duration": 6.56
+  },
+  {
+    "text": "let me just see if i can do that",
+    "start": 656.959,
+    "duration": 5.201
+  },
+  {
+    "text": "so first i'm going to try w is equal to",
+    "start": 660.399,
+    "duration": 4.721
+  },
+  {
+    "text": "0.5",
+    "start": 662.16,
+    "duration": 2.96
+  },
+  {
+    "text": "okay",
+    "start": 665.839,
+    "duration": 4.161
+  },
+  {
+    "text": "okay this is 0.5 and b is equal to 0",
+    "start": 667.6,
+    "duration": 6.52
+  },
+  {
+    "text": "right so let me just oh",
+    "start": 670.0,
+    "duration": 4.12
+  },
+  {
+    "text": "for some reason i'm not able to change",
+    "start": 674.959,
+    "duration": 2.88
+  },
+  {
+    "text": "it okay so suppose i do w is equal to",
+    "start": 676.24,
+    "duration": 4.24
+  },
+  {
+    "text": "0.5 and b is equal to minus 1 right this",
+    "start": 677.839,
+    "duration": 4.24
+  },
+  {
+    "text": "is also bad and how bad is it it's",
+    "start": 680.48,
+    "duration": 4.56
+  },
+  {
+    "text": "saying it's 0.121 right so earlier my",
+    "start": 682.079,
+    "duration": 4.961
+  },
+  {
+    "text": "loss was 0.09",
+    "start": 685.04,
+    "duration": 4.96
+  },
+  {
+    "text": "now my loss is 0.121 right so it's even",
+    "start": 687.04,
+    "duration": 4.16
+  },
+  {
+    "text": "worse right and you can see from the",
+    "start": 690.0,
+    "duration": 3.12
+  },
+  {
+    "text": "figure also that's even worse right so",
+    "start": 691.2,
+    "duration": 4.0
+  },
+  {
+    "text": "let me try something else i'll try minus",
+    "start": 693.12,
+    "duration": 4.48
+  },
+  {
+    "text": "0.1 now okay",
+    "start": 695.2,
+    "duration": 4.16
+  },
+  {
+    "text": "like some of these values are not here",
+    "start": 697.6,
+    "duration": 3.76
+  },
+  {
+    "text": "but let's say i try this value right",
+    "start": 699.36,
+    "duration": 4.32
+  },
+  {
+    "text": "again i see that my loss is increasing",
+    "start": 701.36,
+    "duration": 4.24
+  },
+  {
+    "text": "so then i keep changing right so i keep",
+    "start": 703.68,
+    "duration": 4.159
+  },
+  {
+    "text": "trying different values and then i tried",
+    "start": 705.6,
+    "duration": 5.2
+  },
+  {
+    "text": "0.94",
+    "start": 707.839,
+    "duration": 2.961
+  },
+  {
+    "text": "and minus 0.94 and i saw that the loss",
+    "start": 712.399,
+    "duration": 4.24
+  },
+  {
+    "text": "is 0.0214",
+    "start": 715.04,
+    "duration": 4.0
+  },
+  {
+    "text": "okay so this is good okay this seems to",
+    "start": 716.639,
+    "duration": 5.041
+  },
+  {
+    "text": "be good so let's let's see what my",
+    "start": 719.04,
+    "duration": 4.799
+  },
+  {
+    "text": "rational was it it started with 0.50 i",
+    "start": 721.68,
+    "duration": 4.24
+  },
+  {
+    "text": "got a loss of 0.07",
+    "start": 723.839,
+    "duration": 3.68
+  },
+  {
+    "text": "then i randomly jumped to some other",
+    "start": 725.92,
+    "duration": 3.599
+  },
+  {
+    "text": "point the value increased",
+    "start": 727.519,
+    "duration": 4.161
+  },
+  {
+    "text": "okay so then i concluded",
+    "start": 729.519,
+    "duration": 4.401
+  },
+  {
+    "text": "that",
+    "start": 731.68,
+    "duration": 2.24
+  },
+  {
+    "text": "i made the w negative maybe that's a",
+    "start": 734.16,
+    "duration": 3.679
+  },
+  {
+    "text": "problem right this is what my thinking",
+    "start": 736.32,
+    "duration": 2.88
+  },
+  {
+    "text": "was this is how i have come up with",
+    "start": 737.839,
+    "duration": 2.961
+  },
+  {
+    "text": "these numbers so let me interest",
+    "start": 739.2,
+    "duration": 4.0
+  },
+  {
+    "text": "increase the w so i increased the w and",
+    "start": 740.8,
+    "duration": 4.24
+  },
+  {
+    "text": "i made b a bit negative and the loss",
+    "start": 743.2,
+    "duration": 2.879
+  },
+  {
+    "text": "decreased",
+    "start": 745.04,
+    "duration": 2.88
+  },
+  {
+    "text": "okay so then i assumed okay increasing",
+    "start": 746.079,
+    "duration": 4.161
+  },
+  {
+    "text": "the w further and decreasing would be",
+    "start": 747.92,
+    "duration": 3.919
+  },
+  {
+    "text": "further might help and that actually",
+    "start": 750.24,
+    "duration": 3.839
+  },
+  {
+    "text": "helped and i kept continuing that way",
+    "start": 751.839,
+    "duration": 3.921
+  },
+  {
+    "text": "and it had right i'm doing random",
+    "start": 754.079,
+    "duration": 3.921
+  },
+  {
+    "text": "guesswork but it's slightly not so",
+    "start": 755.76,
+    "duration": 4.079
+  },
+  {
+    "text": "random because i'm looking at the loss",
+    "start": 758.0,
+    "duration": 3.76
+  },
+  {
+    "text": "values and slowly trying to adjust the",
+    "start": 759.839,
+    "duration": 3.761
+  },
+  {
+    "text": "weights right and all these values that",
+    "start": 761.76,
+    "duration": 4.0
+  },
+  {
+    "text": "i tried these are all the different",
+    "start": 763.6,
+    "duration": 3.44
+  },
+  {
+    "text": "functions that i got right so you can",
+    "start": 765.76,
+    "duration": 2.8
+  },
+  {
+    "text": "see what had happened for w equal to",
+    "start": 767.04,
+    "duration": 3.359
+  },
+  {
+    "text": "0.50 you can go back and look at all",
+    "start": 768.56,
+    "duration": 3.76
+  },
+  {
+    "text": "these values so i was getting different",
+    "start": 770.399,
+    "duration": 3.521
+  },
+  {
+    "text": "uh functions",
+    "start": 772.32,
+    "duration": 4.639
+  },
+  {
+    "text": "and then as i kept changing it i somehow",
+    "start": 773.92,
+    "duration": 4.96
+  },
+  {
+    "text": "found the right function right so this",
+    "start": 776.959,
+    "duration": 3.041
+  },
+  {
+    "text": "is what my",
+    "start": 778.88,
+    "duration": 3.44
+  },
+  {
+    "text": "guesswork was and you can all imagine",
+    "start": 780.0,
+    "duration": 4.24
+  },
+  {
+    "text": "that this guesswork could have possibly",
+    "start": 782.32,
+    "duration": 3.84
+  },
+  {
+    "text": "never ended these are very specific",
+    "start": 784.24,
+    "duration": 4.159
+  },
+  {
+    "text": "values and i chose them because i knew",
+    "start": 786.16,
+    "duration": 3.6
+  },
+  {
+    "text": "what the right value was and i was just",
+    "start": 788.399,
+    "duration": 2.88
+  },
+  {
+    "text": "trying to get that i mean i have reverse",
+    "start": 789.76,
+    "duration": 3.04
+  },
+  {
+    "text": "engineer these wasn't if i was",
+    "start": 791.279,
+    "duration": 3.12
+  },
+  {
+    "text": "completely randomly trying this this",
+    "start": 792.8,
+    "duration": 3.599
+  },
+  {
+    "text": "would not really converge that i would",
+    "start": 794.399,
+    "duration": 5.12
+  },
+  {
+    "text": "not end up anywhere right",
+    "start": 796.399,
+    "duration": 5.521
+  },
+  {
+    "text": "so now let us look at uh something",
+    "start": 799.519,
+    "duration": 4.0
+  },
+  {
+    "text": "better than this guesswork algorithm",
+    "start": 801.92,
+    "duration": 3.039
+  },
+  {
+    "text": "right so this is slightly better than",
+    "start": 803.519,
+    "duration": 3.12
+  },
+  {
+    "text": "the guesswork algorithm so what i have",
+    "start": 804.959,
+    "duration": 3.601
+  },
+  {
+    "text": "done here is",
+    "start": 806.639,
+    "duration": 3.44
+  },
+  {
+    "text": "again i had seen we had seen this",
+    "start": 808.56,
+    "duration": 5.92
+  },
+  {
+    "text": "earlier so i've just plotted so",
+    "start": 810.079,
+    "duration": 6.241
+  },
+  {
+    "text": "my this is my",
+    "start": 814.48,
+    "duration": 2.799
+  },
+  {
+    "text": "uh",
+    "start": 816.32,
+    "duration": 2.319
+  },
+  {
+    "text": "oops",
+    "start": 817.279,
+    "duration": 4.8
+  },
+  {
+    "text": "this is my w axis this is my b axis okay",
+    "start": 818.639,
+    "duration": 5.521
+  },
+  {
+    "text": "and the vertical axis is the error axis",
+    "start": 822.079,
+    "duration": 4.56
+  },
+  {
+    "text": "right so for all possible values of w",
+    "start": 824.16,
+    "duration": 3.359
+  },
+  {
+    "text": "and b",
+    "start": 826.639,
+    "duration": 2.401
+  },
+  {
+    "text": "i have just computed the loss i can do",
+    "start": 827.519,
+    "duration": 3.44
+  },
+  {
+    "text": "that i can do that programmatically and",
+    "start": 829.04,
+    "duration": 4.479
+  },
+  {
+    "text": "i have just plotted it right and this is",
+    "start": 830.959,
+    "duration": 4.56
+  },
+  {
+    "text": "what the plot looks like",
+    "start": 833.519,
+    "duration": 3.921
+  },
+  {
+    "text": "okay and you can see that there is this",
+    "start": 835.519,
+    "duration": 4.961
+  },
+  {
+    "text": "region here where the loss is low or",
+    "start": 837.44,
+    "duration": 4.72
+  },
+  {
+    "text": "minimum right and there are certain",
+    "start": 840.48,
+    "duration": 3.28
+  },
+  {
+    "text": "regions where the loss is very high",
+    "start": 842.16,
+    "duration": 4.32
+  },
+  {
+    "text": "right so i could just plot this and then",
+    "start": 843.76,
+    "duration": 4.24
+  },
+  {
+    "text": "i could just pick up some value from",
+    "start": 846.48,
+    "duration": 3.359
+  },
+  {
+    "text": "this good region here and that would",
+    "start": 848.0,
+    "duration": 3.68
+  },
+  {
+    "text": "what my answer be right and we had seen",
+    "start": 849.839,
+    "duration": 3.44
+  },
+  {
+    "text": "a similar argument when we're doing the",
+    "start": 851.68,
+    "duration": 3.599
+  },
+  {
+    "text": "perceptron algorithm and we need the",
+    "start": 853.279,
+    "duration": 4.321
+  },
+  {
+    "text": "know the fallacy of this argument also",
+    "start": 855.279,
+    "duration": 6.0
+  },
+  {
+    "text": "that this is okay for this toy example",
+    "start": 857.6,
+    "duration": 5.52
+  },
+  {
+    "text": "uh",
+    "start": 861.279,
+    "duration": 3.36
+  },
+  {
+    "text": "but it will become intractable as the",
+    "start": 863.12,
+    "duration": 3.2
+  },
+  {
+    "text": "number of data points increasing right",
+    "start": 864.639,
+    "duration": 2.801
+  },
+  {
+    "text": "so as the number of data points",
+    "start": 866.32,
+    "duration": 2.639
+  },
+  {
+    "text": "increases just computing this loss would",
+    "start": 867.44,
+    "duration": 4.32
+  },
+  {
+    "text": "be very difficult for all the infinite",
+    "start": 868.959,
+    "duration": 4.88
+  },
+  {
+    "text": "values of w and b right and here",
+    "start": 871.76,
+    "duration": 3.36
+  },
+  {
+    "text": "although i'm saying infinite i've",
+    "start": 873.839,
+    "duration": 2.961
+  },
+  {
+    "text": "actually plotted this only from minus 6",
+    "start": 875.12,
+    "duration": 3.12
+  },
+  {
+    "text": "to plus 6. right those are the only",
+    "start": 876.8,
+    "duration": 3.12
+  },
+  {
+    "text": "values i'm not really plot i mean i",
+    "start": 878.24,
+    "duration": 3.68
+  },
+  {
+    "text": "cannot plot for minus infinity",
+    "start": 879.92,
+    "duration": 4.159
+  },
+  {
+    "text": "so what if there was a value here right",
+    "start": 881.92,
+    "duration": 3.599
+  },
+  {
+    "text": "going forward",
+    "start": 884.079,
+    "duration": 3.921
+  },
+  {
+    "text": "this side for which the loss was even",
+    "start": 885.519,
+    "duration": 4.88
+  },
+  {
+    "text": "lower right so what would what why i",
+    "start": 888.0,
+    "duration": 3.76
+  },
+  {
+    "text": "could have chosen that also right so",
+    "start": 890.399,
+    "duration": 3.361
+  },
+  {
+    "text": "this kind of just plotting the error",
+    "start": 891.76,
+    "duration": 4.16
+  },
+  {
+    "text": "surface and looking at it and figuring",
+    "start": 893.76,
+    "duration": 3.84
+  },
+  {
+    "text": "out the value that does not work in",
+    "start": 895.92,
+    "duration": 3.44
+  },
+  {
+    "text": "practice right even although this is a",
+    "start": 897.6,
+    "duration": 3.919
+  },
+  {
+    "text": "good way of seeing what is happening",
+    "start": 899.36,
+    "duration": 3.76
+  },
+  {
+    "text": "it does not you cannot do this in",
+    "start": 901.519,
+    "duration": 3.12
+  },
+  {
+    "text": "practice right you won't be able to get",
+    "start": 903.12,
+    "duration": 3.519
+  },
+  {
+    "text": "anywhere okay",
+    "start": 904.639,
+    "duration": 5.361
+  },
+  {
+    "text": "so now let us with that plot in mind and",
+    "start": 906.639,
+    "duration": 5.841
+  },
+  {
+    "text": "my guesswork in mind let us try to look",
+    "start": 910.0,
+    "duration": 4.079
+  },
+  {
+    "text": "at the geometric interpretation of what",
+    "start": 912.48,
+    "duration": 3.2
+  },
+  {
+    "text": "was happening in my guesswork algorithm",
+    "start": 914.079,
+    "duration": 3.841
+  },
+  {
+    "text": "right so we will try to do that okay so",
+    "start": 915.68,
+    "duration": 6.24
+  },
+  {
+    "text": "what had i done i had initially",
+    "start": 917.92,
+    "duration": 4.0
+  },
+  {
+    "text": "chosen 3 and one",
+    "start": 924.079,
+    "duration": 7.12
+  },
+  {
+    "text": "as my values right and then uh three and",
+    "start": 928.16,
+    "duration": 5.84
+  },
+  {
+    "text": "one or was it three n minus one i guess",
+    "start": 931.199,
+    "duration": 3.521
+  },
+  {
+    "text": "right",
+    "start": 934.0,
+    "duration": 2.72
+  },
+  {
+    "text": "so three n minus one",
+    "start": 934.72,
+    "duration": 4.239
+  },
+  {
+    "text": "is what i had chosen right so this is",
+    "start": 936.72,
+    "duration": 4.32
+  },
+  {
+    "text": "where i was on the lost surface this is",
+    "start": 938.959,
+    "duration": 4.481
+  },
+  {
+    "text": "my three comma minus one point and my",
+    "start": 941.04,
+    "duration": 5.2
+  },
+  {
+    "text": "loss was very high right and then from",
+    "start": 943.44,
+    "duration": 5.839
+  },
+  {
+    "text": "there i randomly jumped to this point",
+    "start": 946.24,
+    "duration": 5.44
+  },
+  {
+    "text": "uh 0.5",
+    "start": 949.279,
+    "duration": 4.081
+  },
+  {
+    "text": "uh comma",
+    "start": 951.68,
+    "duration": 3.76
+  },
+  {
+    "text": "0.",
+    "start": 953.36,
+    "duration": 3.599
+  },
+  {
+    "text": "and before i click enter just see that",
+    "start": 955.44,
+    "duration": 3.28
+  },
+  {
+    "text": "when the value of x",
+    "start": 956.959,
+    "duration": 4.88
+  },
+  {
+    "text": "w1 wnb is 3 comma minus 1 this is what",
+    "start": 958.72,
+    "duration": 5.119
+  },
+  {
+    "text": "the sigmoid function looks like and it's",
+    "start": 961.839,
+    "duration": 3.761
+  },
+  {
+    "text": "obvious that the error is high because",
+    "start": 963.839,
+    "duration": 3.44
+  },
+  {
+    "text": "it's nowhere close to fitting the two",
+    "start": 965.6,
+    "duration": 3.599
+  },
+  {
+    "text": "points that i have right so then i tried",
+    "start": 967.279,
+    "duration": 4.641
+  },
+  {
+    "text": "0.5 comma 0 and let's see what happened",
+    "start": 969.199,
+    "duration": 4.481
+  },
+  {
+    "text": "now if you look at the sigmoid function",
+    "start": 971.92,
+    "duration": 4.479
+  },
+  {
+    "text": "it looks a bit more favorable right and",
+    "start": 973.68,
+    "duration": 4.079
+  },
+  {
+    "text": "you can see that the loss has also",
+    "start": 976.399,
+    "duration": 3.44
+  },
+  {
+    "text": "decreased right but since i was randomly",
+    "start": 977.759,
+    "duration": 3.52
+  },
+  {
+    "text": "guessing i did not have this error",
+    "start": 979.839,
+    "duration": 3.281
+  },
+  {
+    "text": "surface in front of me so i just",
+    "start": 981.279,
+    "duration": 3.841
+  },
+  {
+    "text": "continued randomly right and then i went",
+    "start": 983.12,
+    "duration": 3.6
+  },
+  {
+    "text": "to the point",
+    "start": 985.12,
+    "duration": 5.04
+  },
+  {
+    "text": "minus 0.1",
+    "start": 986.72,
+    "duration": 3.44
+  },
+  {
+    "text": "comma 0",
+    "start": 992.24,
+    "duration": 2.24
+  },
+  {
+    "text": "okay",
+    "start": 993.6,
+    "duration": 2.64
+  },
+  {
+    "text": "and i goofed up you can see that i",
+    "start": 994.48,
+    "duration": 4.159
+  },
+  {
+    "text": "actually went up on the error surfaces i",
+    "start": 996.24,
+    "duration": 3.839
+  },
+  {
+    "text": "was somewhere",
+    "start": 998.639,
+    "duration": 3.76
+  },
+  {
+    "text": "um",
+    "start": 1000.079,
+    "duration": 2.32
+  },
+  {
+    "text": "yeah it was somewhere here",
+    "start": 1003.44,
+    "duration": 3.28
+  },
+  {
+    "text": "and i climbed up on the error surface",
+    "start": 1007.839,
+    "duration": 4.24
+  },
+  {
+    "text": "right and then i changed it further so",
+    "start": 1009.759,
+    "duration": 4.161
+  },
+  {
+    "text": "what i did is",
+    "start": 1012.079,
+    "duration": 4.161
+  },
+  {
+    "text": "oops",
+    "start": 1013.92,
+    "duration": 2.32
+  },
+  {
+    "text": "yeah then i changed it to a 0.94",
+    "start": 1017.199,
+    "duration": 5.0
+  },
+  {
+    "text": "and minus 0.94",
+    "start": 1024.64,
+    "duration": 3.84
+  },
+  {
+    "text": "and then the loss decreased right and i",
+    "start": 1031.919,
+    "duration": 3.841
+  },
+  {
+    "text": "can see from the sigmoid function also",
+    "start": 1034.24,
+    "duration": 2.559
+  },
+  {
+    "text": "that i am going in the right direction",
+    "start": 1035.76,
+    "duration": 2.72
+  },
+  {
+    "text": "and then i kept in continuing in this",
+    "start": 1036.799,
+    "duration": 3.361
+  },
+  {
+    "text": "direction but you can see that my",
+    "start": 1038.48,
+    "duration": 3.359
+  },
+  {
+    "text": "movements if you look at the wb plane",
+    "start": 1040.16,
+    "duration": 3.12
+  },
+  {
+    "text": "they're very random that is jumping from",
+    "start": 1041.839,
+    "duration": 3.521
+  },
+  {
+    "text": "one point to another i'm just getting",
+    "start": 1043.28,
+    "duration": 4.0
+  },
+  {
+    "text": "lucky somewhere and i once i hit this",
+    "start": 1045.36,
+    "duration": 5.04
+  },
+  {
+    "text": "point 0.94 minus 0.94 then i get a sense",
+    "start": 1047.28,
+    "duration": 4.72
+  },
+  {
+    "text": "of what is required i need to increase",
+    "start": 1050.4,
+    "duration": 3.76
+  },
+  {
+    "text": "the w's and decrease the b's and then i",
+    "start": 1052.0,
+    "duration": 4.08
+  },
+  {
+    "text": "continued that way and then i went",
+    "start": 1054.16,
+    "duration": 4.639
+  },
+  {
+    "text": "finally reach to the point",
+    "start": 1056.08,
+    "duration": 5.36
+  },
+  {
+    "text": "1.78",
+    "start": 1058.799,
+    "duration": 6.521
+  },
+  {
+    "text": "comma minus 2.27",
+    "start": 1061.44,
+    "duration": 3.88
+  },
+  {
+    "text": "where my error was close to zero and you",
+    "start": 1065.52,
+    "duration": 5.6
+  },
+  {
+    "text": "can see that the sigmoid function is in",
+    "start": 1068.48,
+    "duration": 4.319
+  },
+  {
+    "text": "the way it should be and you can see on",
+    "start": 1071.12,
+    "duration": 4.4
+  },
+  {
+    "text": "the error surface also i am in that low",
+    "start": 1072.799,
+    "duration": 4.801
+  },
+  {
+    "text": "error region in fact the error is",
+    "start": 1075.52,
+    "duration": 4.08
+  },
+  {
+    "text": "actually zero right so that's that's",
+    "start": 1077.6,
+    "duration": 4.319
+  },
+  {
+    "text": "what i was doing i was actually",
+    "start": 1079.6,
+    "duration": 4.56
+  },
+  {
+    "text": "uh uh subconsciously or like without",
+    "start": 1081.919,
+    "duration": 4.161
+  },
+  {
+    "text": "really knowing it actually navigating",
+    "start": 1084.16,
+    "duration": 4.0
+  },
+  {
+    "text": "the error surface but i was navigating",
+    "start": 1086.08,
+    "duration": 4.16
+  },
+  {
+    "text": "it randomly which is problematic because",
+    "start": 1088.16,
+    "duration": 4.0
+  },
+  {
+    "text": "then i went down then suddenly i came up",
+    "start": 1090.24,
+    "duration": 3.679
+  },
+  {
+    "text": "then again went down came up and i want",
+    "start": 1092.16,
+    "duration": 5.36
+  },
+  {
+    "text": "to avoid that i want to have a more",
+    "start": 1093.919,
+    "duration": 6.561
+  },
+  {
+    "text": "principled way of navigating this error",
+    "start": 1097.52,
+    "duration": 5.2
+  },
+  {
+    "text": "surface right so that's what my quest is",
+    "start": 1100.48,
+    "duration": 5.04
+  },
+  {
+    "text": "and that is what we will do",
+    "start": 1102.72,
+    "duration": 7.12
+  },
+  {
+    "text": "in the next module okay",
+    "start": 1105.52,
+    "duration": 4.32
+  }
+]

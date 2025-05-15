@@ -1,0 +1,9 @@
+adjusted in the network and maybe we have not really been adjusted very well so far and hence the output.
+is bad right but then hl says that okay i am also part of this computation but i can't do.
+much right because i am again as good as the previous activation layer after all how do you compute hl.
+hl is again a function of the previous guys right so it's again a function of what these weights were.
+and what were the inputs that got passed to those weights right so then again you go and talk to.
+these guys so again the weights will say that hey we are fine right okay we made a mistake maybe.
+we need to get adjusted we take responsibilities but these shaded red guys they'll again say hey what can i.
+do i am a function of the previous guys so maybe you should go and talk to them right and.
+then of course you cannot pass the responsibility to the input input is whatever it is right you cannot say.

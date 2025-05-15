@@ -1,0 +1,9 @@
+eigen value is large then those weights will not get Scaled let's suppose Lambda 1 was very large then nothing.
+no change will happen to this guy similarly if Lambda 2 was very large then nothing would happen to this.
+guy because Lambda by Lambda plus Alpha would almost be equal to 1 right now on the other hand if.
+yeah if Lambda is very less than Alpha then this quantity almost becomes zero that means whatever elements were there.
+if this is what your W star was and say this is the ith element if the corresponding ith eigen.
+value was very small then it is almost like this weight will go to zero and this is actually what.
+we wanted what the effect that we were hoping for was that some of the weights should shrink because if.
+all the weights are large then your L2 regularization term which is W transpose W is going to be high.
+and now what we are seeing is that if the eigen values are small right then those weights are going.

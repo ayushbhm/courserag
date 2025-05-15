@@ -1,0 +1,11 @@
+w so the derivative would be minus 1 over that function square and then the derivative pushed inside so derivative.
+of this should have been 1 plus that e raised to minus W X plus b but 1 is a.
+constant so it's anyway is going to the derivative will be 0 so I have not written that right so.
+now derivative of e raised to minus W X plus b so that would be e raised to minus W.
+X plus b into the derivative of minus W X plus b and now again B is a constant so.
+that would just give me minus one so oh sorry uh minus X sorry derivative of w x with respect.
+to W would be minus X so I have these two negatives minus 1 and minus X so that will.
+become a positive okay so this is what I get now what is this this is just my original f.
+of x right so this is f of x so I can just write f of x and you can.
+go back and check this this is essentially 1 minus f of x right so you can go back and.
+work it out so if you just take 1 minus 1 over this formula right then you will sorry 1.

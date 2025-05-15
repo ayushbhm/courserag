@@ -1,0 +1,9 @@
+right which is M of T minus 1 it is used twice right first it is being used to make.
+this temporary update to the value okay you make that temporary update and then switch back to the original value.
+again right we because you are not using the temporary value again right so you're switching back to the original.
+value so using the B time not here and then again you are using beta I am not here and.
+then again you are switching back from this temporary computed value that you had to the original value that you.
+have right so you're making some extra computations here which could be our uh kind of done away with that's.
+the goal that we want to achieve while giving you the same effect right so now what is happening here.
+is that you look at G1 and it's getting some input which was W1 and then it is subtracting some.
+quantity from it instead if I already had passed it a value which was already equal to this right because.

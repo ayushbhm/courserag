@@ -1,0 +1,8 @@
+we compute a new contextual Vector right so that's the attention-based model but here again uh we were able to.
+compute the attention weights for one time Step In Parallel but across time steps T1 T2 and so on we.
+had to wait for the previous computations to finish right that's where we were so from here we'll transition to.
+the Transformer Network which kind of again has an encoder decoder architecture but there are some other blocks that I.
+am naming here as is something known as a self-attention block then something known as a feed forward Network then.
+in the decoder you have self-attention encoder decoder attention again feed forward Network so it's all of this we need.
+to understand the words look familiar you have attention your feed forward Network so that doesn't look too problematic but.
+uh how these different blocks interact what exactly is there in each of these blocks is something that we'll have.

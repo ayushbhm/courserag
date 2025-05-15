@@ -1,0 +1,9 @@
+that you have seen and there are many such more augmentations in the possible in case of image classification the.
+label does not change so I can create a lot of data for free from the data that was queued.
+and now how does this help so now you have more training data and now it's no longer enough for.
+the network to kind of uh overfit that okay whenever I see this combination of pixels I will mark it.
+as two because now that will not work for this guy because now the pixels have changed a bit the.
+orientation of the pixels have changed and so on so this this will not uh it cannot easily overfit right.
+it has a harder task so you have given it much more training data that it has to by heart.
+now right it has to memorize now and that will make it uh make it less prone to overfitting right.
+because there's just so much to learn that it cannot hold over fit possibly on all of this of course.

@@ -1,0 +1,10 @@
+so now that's that's the main thing i wanted to say uh yeah now one last thing i'll say suppose.
+i have just assumed everything is n right for the sake of convince convenience now let me just assume uh.
+make it different let's let this be p i'm sorry m and let this b be p now what would.
+the weights w1 v w1 would belong to what so you have n inputs each of them connected to these.
+m neurons so you have m cross n weights so this would be m cross n okay and what would.
+b1 be you have one bias for every neuron in this layer so you will have m such right and.
+now again you can see that these computations go well so this is an m cross n matrix multiplied by.
+an n dimensional input okay and then add it with an m dimensional vector right so m cross n multiplied.
+by n dimensional vector will give you an m dimensional output and then you can add it to a m.
+dimensional vector and then when you pass it to this element wise non-linearity you will again get an m dimensional.

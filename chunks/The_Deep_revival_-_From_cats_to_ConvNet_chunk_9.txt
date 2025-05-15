@@ -1,0 +1,9 @@
+so the receptive field as a concept emerged here that for different parts you could use different portions of the.
+network very Loosely speaking of course we'll see this in detail so this title is wrong please note this and.
+we'll change this later right so the slide number 36 yeah so this new cognitive model was proposed in 1980.
+right so quite uh and quite old and this idea of like using uh you know creating to different parts.
+and having like a water is known as a shallow uh processing right in terms of not having a fully.
+connected Network all of these are ideas that we'll uh see later in the course right and then of course.
+in 1989 uh Jan likuno is considered as one of the founding fathers of deep learning uh was using convolutional.
+neural networks and there's an interesting video on YouTube office demo from that time uh which was being used for.
+recognizing handwritten digits right and the motivation at that time was this uh Postal Services where PIN codes and other.

@@ -1,0 +1,10 @@
+set this to 2. okay so this is where I'm going to start now and now you can see that.
+it's a slightly favorable point because I'm on a slope I'm not in a flat surface I am on a.
+flow so on a on a steep surface so let's see what happens if I run now right see it's.
+moving faster now it's immediately gone into the valley and I don't see now you can also see that these.
+yellow dots are actually farther from each other because the updates are larger right so there is a corresponding plot.
+being drawn on the WB plane also which you could perhaps uh see offline where you can see how the.
+movement on the WB plane is happening and now again it has reached a region of uh of a flat.
+surface out of a gentle slope and now you can't do anything right it'll just keep moving very very slowly.
+and it is a lot of distance to cover uh to reach the Minima right and you can see that.
+I've already exhausted my 100 iterations it's done I've done with 100 iterations but I have not been able to.

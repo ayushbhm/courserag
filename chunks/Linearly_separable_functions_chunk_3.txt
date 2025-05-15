@@ -1,0 +1,9 @@
+0 and 2 positive points sitting at 0 0 and 1 1 right and now you can go home and.
+practice this you can try to adjust these weights w1 w2 as much as you want right but you will.
+not be able to draw a line such that the two positive points are on one side and so many.
+of you will guess from the figure it's not possible that you cannot have a line such that only the.
+positive points are on one side and only the negative points are on the other side you cannot draw such.
+a line so it's clear from the figure it's actually clear from the inequalities the set of inequalities that you.
+see there right so this is not going to be possible so this is an example of a function a.
+simple boolean function which is not linearly separable right now the reason we're talking about uh not linearly separable functions.
+because most real world data is going to be not linearly separable right so here suppose you have two classes.

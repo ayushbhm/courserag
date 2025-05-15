@@ -1,0 +1,9 @@
+that happening because the slope in that region right is quite less so my Delta or my M right it's.
+very less and that's helping right but now if I change the value of w a bit right if I.
+go here now here my slope is very high as you can see right the gradient is very high and.
+now in that case my approximation is becoming very bad right so this is what the same window I have.
+not changed the window right but uh now if you can see this is the approximation and this is the.
+true value and the Gap is very high right whereas with the same window if I'm in a region where.
+the slope is small right then still the approximation is quite good you can see that the points on the.
+Orange Line are very close to the points on the blue line because this is a region where the slope.
+is very low right whereas this was the reason where the slope was very high right that's just some observation.

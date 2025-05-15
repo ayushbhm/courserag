@@ -1,0 +1,10 @@
+have when will that be high right this is a derivative so what does that mean that if you have.
+a small change in the observation right if there is a small change ah in the observation then it causes.
+a large change in the estimation right so if you are y i right so you are given this x.
+i comma y i pairs right and now if there was a small suppose you are given the x i.
+s ten and the Y I was 20 right and instead of that now if the X I was 10.
+and the Y high was 20.1 this is small change right what this says is that if there is a.
+small change in y i there is a large change in the estimated value right so you are now your.
+training data has changed instead of this you had this point and now ideally you would expect that whatever F.
+hat X you got right that means whatever parameters you estimated that shouldn't change much because there is a very.
+small change in the data right but when would this quantity be high if this quantity is high it means.

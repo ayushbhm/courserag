@@ -1,0 +1,8 @@
+saw right so this is this is the model complexity term that we had seen and now you have to.
+come up with some functions which act as an approximation of this and when you are trying to reduce this.
+it actually decreases the model complexity which means it will decrease this quantity which means it will decrease this sum.
+right so you should come up with omegas which decrease the model complexity because if the model complexity decreases this.
+term will decrease and hence this term will also decrease right so that's the way you are going to handle.
+this complex term here because directly handling it make looks difficult but you could Define some omega thetas such that.
+you are sure that if you minimize that Omega Theta your model complexity is going to be reduced and hence.
+you will be sure that this term that was bothering you is going to be reduced right so this actually.

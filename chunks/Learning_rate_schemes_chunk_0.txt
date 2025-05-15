@@ -1,0 +1,9 @@
+foreign [Music] schedulers and so this is the chart for learning rate schemes right so you have what we saw.
+earlier was based on epochs where we had step Decay so after one Epoch if something goes wrong then just.
+decade or for every Epoch just exponentially keep decaying the learning rate uh then we have based on validation where.
+we had line search right so we were doing trying multiple learning rates and then based on which one gives.
+the smallest loss we were trying to use that as the learning rate it could also be a log search.
+similar to a line search where you would search for learning rates on a log scale and then based on.
+gradients right these were the Adaptive learning rates that we had so we had adagrad RMS Prof ATA Delta Adam.
+atomax we did an Adam also uh we did not do AMS grad and we did not do Adam W.
+uh so these are all the things that we have seen so far but there are a few more learning.

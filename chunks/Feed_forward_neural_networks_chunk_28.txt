@@ -1,0 +1,9 @@
+you can actually write it down and even if they give you a hundred layered network technically you could still.
+write it down it just would be a very laborious equation to write down that's all right now what are.
+the parameters all the w's all the b's are the parameters and those are the parameters that you had introduced.
+everything else was just x but these are the parameters that you have introduced and now you want to learn.
+these parameters so you'll use gradient descent with back propagation so we'll see what back propagation that is one of.
+the main topics of this lecture and then what's the loss function you could use uh the squared error loss.
+function right so you are predicting k quantities you know what the true k quantities are right so you just.
+take the squared error difference between those k quantities sum it over all the n training examples that you have.
+and then take the average so that's what your loss function is and you want to minimize this loss function.

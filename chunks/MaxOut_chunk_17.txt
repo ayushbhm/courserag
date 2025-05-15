@@ -1,0 +1,10 @@
+have Max of multiple affine Transformations I've been saying linear but they would be a fine because there's a plus.
+b also possible there right yeah so these are in multiple uh neuron multiple uh affine Transformations inside I have.
+shown n of those and then you're just selecting the max of those two right and uh you you could.
+even think of max out as a generalization of the relu function right so now you could think of uh.
+a relu function uh any of the relu functions right relu or leaky value or parametric relu as a generalization.
+of uh or as a special case of the max out neuron uh such that there are two max out.
+I mean two neurons inside the max out neuron and for one of them the weight and the bias is.
+zero and then for the other one you have W2 X plus b now in the case of uh relu.
+now W2 is again just equal to 1 and B is equal to zero so then you're just left with.
+Max of uh this quantity is 0 and the other quantity is just X right now in the case of.

@@ -1,0 +1,5 @@
+same as the L2 Norm penalty right so in the simple input output Network without any non-linearity uh adding noise.
+to the inputs is the same as using a weight DK right so this is the L2 Norm penalty is.
+also called weight Decay because as we saw it decays the weights right by this Factor Lambda by Lambda Lambda.
+plus Alpha okay so that's this is another regularization technique and we have seen its relation to uh weight DK.
+in the simple input output Network without any non-linearity okay uh silent this here.

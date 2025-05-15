@@ -1,0 +1,10 @@
+just going to do w is equal to w plus x okay i am not going to say anything more.
+about this at this point if the point was negative and if my summation was greater than equal to 0.
+then again i know that something wrong has happened because for such a point i wanted the summation to be.
+less than 0 right but that has not happened so again i need to do some correction and my correction.
+is going to be w equal to w minus x again i am not explaining why this magic formula right.
+why am i doing plus x in one case and minus x in one case and how does this lead.
+me to where i want to go and where do i want to go i want to go to convergence.
+where my weights are such that that these two conditions are satisfied by all the positive and negative points right.
+so how does this ensure that that is what is going to happen sorry okay yeah so why would this.
+work right that's the question that i'm trying to ask right it's not very clear to me that why should.

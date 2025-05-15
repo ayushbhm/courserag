@@ -1,0 +1,9 @@
+of this entire thing this is again going to be a t cross T Matrix which is going to get.
+multiplied by a t cross 64 Matrix and that's the mat mile that I'm talking about here and then finally.
+you will get a t cross uh 64 output right so this is the attention that you get this is.
+the self attention layer block that you have this is what the full block looks like it starts with these.
+linear Transformations then the matrix multiplication soft Max and then again matrix multiplication to give you the capital Z at.
+the output which in turn contains Z1 Z2 all the way up to set T right so we have been.
+able to see the self attention layer which does a parallel computation to give you a contextual representation for the.
+input vectors that you had provided right so I'll stop here and then uh in the next lecture we'll look.
+at uh multi-headed attention and then I'll talk about a few other components of the Transformer Network thank you.

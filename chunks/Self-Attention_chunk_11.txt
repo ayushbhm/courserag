@@ -1,0 +1,10 @@
+be clear from the diagram and the equation how the zis will be computed so you'll just do this Z1.
+Z2 for all the cells right now let's see if we can vectorize all of these computations right that means.
+can we compute the Z1 to ZT in one group right so here I first told you how to compute.
+Z1 then I told you how to compute Z2 and then similarly Z3 up to ZT right but my whole.
+point was that I don't want to compute these outputs sequentially right that's why I didn't like rnns because the.
+output of the RN and if this was the RNN block then these outputs were coming one by one and.
+at the end of all this I don't want to do the same thing again right I want all of.
+these to come out in parallel otherwise it doesn't help me right I might as well have stayed with RNs.
+right so now can I do this in parallel so now let's see how I am Computing uh q1 q1.
+was The Matrix WQ multiplied by H1 how would I compute Q2 it would be the Matrix WQ multiplied by.

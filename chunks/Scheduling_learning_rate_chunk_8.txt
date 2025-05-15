@@ -1,0 +1,9 @@
+of experiment a bit around it and this is a good way of experiment you just try a few different.
+values and then narrow down on what a good value is and then just maybe zoom in a bit around.
+that right so that's why uh the other is uh as you initially when you start off maybe you don't.
+know anything right because the weights are completely random so may you some learning rate even slightly higher might work.
+right but as you have started moving towards the uh Minima you don't want to retain a very high learning.
+rate right because then there's always this chance of overshooting the Minima so they you should do what is known.
+as Anil the learning rate right which means keep reducing the learning rate as the training progresses right so one.
+strategy there is to use what is known as a step Decay and you could use some fixed number of.
+epochs right after every five epochs or ten epochs I'll keep having the learning array right so as you are.

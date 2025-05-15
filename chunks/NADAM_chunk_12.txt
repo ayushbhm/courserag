@@ -1,0 +1,10 @@
+this right which look ahead I was doing here what if I just do the look ahead in the previous.
+iteration itself and when I'm Computing uh W1 what if I just put in this quantity also a over there.
+foreign so now I am rewriting the equations and this is how I'm going to do when I compute GT.
+plus 1 I'm just going to compute the derivative at the current value of w there is no look ahead.
+happening here then I'm going to just compute the Mt plus 1 using the equations that I have okay and.
+then I'm going to compute WT plus 1 as WT minus ETA so I have taken the look ahead value.
+here and then the GT plus one right so now what the effectively what I'm doing is the following foreign.
+I computed the look I had now look at is computed only at the momentum step which is Mt plus.
+1 and then I look at W1 and I'm going to compute the look ahead of the gradient in the.
+next time step right so I've just changed the time steps a bit now notice in my new equations uh.

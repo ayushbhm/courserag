@@ -1,0 +1,9 @@
+[Music] so let's begin the next module which is on uh perceptrons right and uh just again talk about the.
+story uh so far and the story ahead right so so the one question which i asked is like what.
+about non-boolean inputs right so we have so far been focusing on the case where the inputs are only boolean.
+so we'll have to see what happens if the boolean inputs are not boolean then the second is in this.
+toy example is the boolean functions that we are looking at so far we were just hand coding the threshold.
+i gave you the example of the and function then asked you what should the threshold be and you are.
+able to quickly calculate uh in your head of course you're doing some calculations in that case it's not hand.
+coded but it's just like you worked it out by hand and you arrive at a solution but do we.
+always have to do that is it like won't it become cumbersome in complex cases then the other more i.

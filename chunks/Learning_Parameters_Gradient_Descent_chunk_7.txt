@@ -1,0 +1,9 @@
+dou dou b dou w and similarly you could fill the remaining two entries here right so this would be.
+dou b square and this would be dou w dou b right so the way you should remember this is.
+the following right so when you are taking the derivative of a vector okay with respect to some another vector.
+okay what are you trying to do you're trying to say that if this value changes how much does this.
+value change how much does this value change right and if this value changes how much does this value change.
+how much does this value change right so the derivative of a vector with respect to a vector would thus.
+be a matrix right and what would the dimension of the Matrix be if this was M dimensional and this.
+was n dimensional then this would be an M cross n Matrix right so if you had for example three.
+elements in this vector okay and you're taking the derivative of that Vector with respect to two elements so what.

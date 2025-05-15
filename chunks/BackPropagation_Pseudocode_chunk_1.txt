@@ -1,0 +1,9 @@
+actually should have been the other way around all the pre-activations and the activations and the output using the forward.
+pass right and you know the formula for this right you start with X you compute A1 as W1 X.
+plus b and you compute H1 as G of A1 then you compute A2 as W 2 H1 plus v.
+and so on right so this all is simple Matrix Vector multiplication there are no gradients involved this is just.
+taking the input and passing it through a series of Transformations and all of this is coming from a formula.
+that you can Implement right you know how to implement these functions right you know how to implement this you.
+know how to compute the element wise uh logistic for example if G is equal to the logistic function okay.
+so this is straightforward you'll just do a forward propagation on the input right this should have been comma X8.
+because you're taking the inputs now once you have done the forward propagation you do the backward propagation so once.

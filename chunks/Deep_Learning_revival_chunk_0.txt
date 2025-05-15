@@ -1,0 +1,8 @@
+foreign [Music] functions and initialization methods and these are all geared towards making deep learning or deep neural networks train.
+better right so we'll first do a quick recap set the context about why we are talking about activation functions.
+and initialization methods and then introduce a bunch of activation functions as well as initialization methods okay so let's start.
+with a quick recap as I said so uh when you train neural networks so we started with this very.
+simple Network which had just one parameter W in fact we started with two parameters wnb but I've just kept.
+one parameter and we already saw how to train this network the idea was to use gradient descent or any.
+of its variants and the main ingredient there was to update the weight using some kind of an update rule.
+which internally contained the derivative right so this is the quantity that was important and we saw various variants of.

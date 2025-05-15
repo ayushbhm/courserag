@@ -1,0 +1,10 @@
+p to be greater than equal to 0 and suppose it's less than 0 right suppose the condition has been.
+violated okay so now what will i do we make the correction that my new weight vector is going to.
+be the weight vector the current time step plus pi right that's what the correction that we are going to.
+do is that correct okay now if i am going to make that correction so now let beta be the.
+angle between w and w t plus 1. okay now what does cos of beta going to be it's going.
+to be this dot product okay and why don't i have a w star here the norm of w star.
+in the denominator because i had already assumed that w star is the normalized wake twitter right that means the.
+norm is equal to 1 so i don't need to write that in the denominator okay so this is what.
+cost beta is now let's just try to expand this right so i'll now look at the numerator alone uh.
+let me just get rid of some stuff here so the numerator is uh w star the dot product between.

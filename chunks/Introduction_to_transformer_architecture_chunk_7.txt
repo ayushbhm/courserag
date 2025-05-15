@@ -1,0 +1,8 @@
+again do the computation and then again compute some other say green boxes right and now I have two representations.
+for every word same movie I have one representation computed from the forward Direction and another representation computed from the.
+backward Direction and I could just simply concatenate the those two representations to get the final representation of the word.
+movie right and the reason I'm doing this or reason I am Computing this one step at a time is.
+because I am interested in the context of the sentence right I want a contextual representation for the word movie.
+so that's why I was doing this one step at a time to get the contextual representations for every word.
+in the input right so which is also aware about what is happening in the words around it so this.
+is important it's a contextual representation is important what is not good is in the interest of doing this contextual.

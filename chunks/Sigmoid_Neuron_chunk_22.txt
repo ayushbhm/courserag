@@ -1,0 +1,9 @@
+to do that you have to predict a certain binary value and you would like to predict it as a.
+probability that this not harsh zero and one but this is a 49 chance of finding oil there there's a.
+49 chance that this person will not return the rule and then as a domain expert you can decide whether.
+you want to invest in that or not right okay okay so that's that's what it is and this is.
+how the two functions look like very similar right the inputs are actually similar as you can see the weights.
+are also available you have an output you know that these are all real values you know that the output.
+is real value right in fact in the perceptron also you could have had real values it's just that we.
+were only looking at Boolean but the main difference is in this function here right you have the sigmoid function.
+here and you have the step function there and that step function is obvious because of the formula that we.

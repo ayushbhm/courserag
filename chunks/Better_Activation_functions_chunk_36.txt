@@ -1,0 +1,9 @@
+which are positive also so this problem of gradients only being in One Direction is also taken care of it.
+so multiple advantages of leaky relu and then there are a few such other variants right so one of them.
+is parametric relu so then the question is right that y set this to point One X right so let.
+it be some Alpha and this Alpha could also be learned and it will also get updated during back preparation.
+right so one simple way of thinking is that you set Alpha equal to 0.1 to begin with right and.
+then just as all the weights are getting updated compute this derivative of the loss function with respect to Alpha.
+also and then update Alpha also as Alpha minus ETA times this gradient or whatever gradient doesn't update rule you.
+are using right ah so this is it kind of again makes it uh more careful that why have you.
+selected a certain slope here maybe that slope needs to be adjusted as the training is going right so it.

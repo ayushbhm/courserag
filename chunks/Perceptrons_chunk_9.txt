@@ -1,0 +1,9 @@
+so why am i talking about boolean functions so much i said that we can implement real functions but still.
+for the last part of this lecture i'm going to focus on boolean functions i'll tell you why i'm focusing.
+on boolean functions the second is why do we need weights and why is this w naught called the bias.
+right so these are some very i would say heterogeneous set of questions that i'm going to try to answer.
+right so first why why are we talking about boolean functions so let's take the simple thing of task of.
+predicting whether we would like to uh go for a movie or not or whether we like a movie or.
+not right and this decision might depend on several factors like who is the actor of the movie who is.
+the director of the movie what's the genre of the movie and all of this you could convert to bullion.
+inputs right is actor matt damon his actor christian bale is john a thriller it is johnner comedy is director.

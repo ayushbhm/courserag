@@ -1,0 +1,9 @@
+do is you will try to try you try different learning rates and on a log scale right point zero.
+zero zero one point zero zero one and so on right and then you will run the training for a.
+few epochs with all of these algorithms you'll not do the full training you just run it for a few.
+epochs and you'll observe the loss uh how the loss behaves right and based on observing this loss curve you.
+will get a sense of which is the best learning rate among these four five values that you have chosen.
+on the log scale and now suppose point one turns out to be the best learning rate that means the.
+loss uh the behavior on the loss function so you could plot how the loss is decreasing from one Epoch.
+to another or from One update to another you can keep losing the loss for some uh learning rates you'll.
+see that the loss will increase right because these are probably very high learning rates and you are quickly overshooting.

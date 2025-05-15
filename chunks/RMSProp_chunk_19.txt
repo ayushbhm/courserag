@@ -1,0 +1,9 @@
+two points as opposed to a slightly better loss oscillation where it's perhaps oscillating between two low loss regions right.
+so that's not happening here you can clearly see that it's oscillating between very high loss regions right so from.
+one high loss point to another it is going and you can see that because this where it is stable.
+I mean the point of oscillation this is what the sigmoid curve looks like which is nowhere close to fitting.
+the points that I have right now let's look at the other example here the learning rate is slow so.
+you can see that the curve is moving slowly right the algorithm is progressing slower to the Minima and now.
+in this case also there are oscillations this is still not good in fact ETA not equal to 0.05 is.
+what I had shown on the previous slide was good so even with ETA not equal to 0.1 the learning.
+rate is still high right so the numerator is still high so this is now point one this is still.

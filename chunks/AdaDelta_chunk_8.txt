@@ -1,0 +1,9 @@
+just going to focus on the U's and the v's okay so now if you look at this at this.
+time step right yeah so when I was here at t equal to 2 time step I will use U1.
+divided by V 2 right so this is my U1 and this is my V2 and you can compare these.
+two equations and you will know that U1 is actually smaller than V2 right so if U1 is smaller than.
+V2 then the numerator is smaller than the denominator and hence the effective learning rate would be small and hence.
+my problem has been taken care of right in the Steep region I am having a smaller denominator a smaller.
+effective learning rate right that's exactly what I wanted and the entire picture will become clear also when I talk.
+about what happens in the flat regions right so that's also something which is coming so let's wait for that.
+to happen so both VT and UT are increasing right because both are accumulating gradients but because of this one.

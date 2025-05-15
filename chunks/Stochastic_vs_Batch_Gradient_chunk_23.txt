@@ -1,0 +1,8 @@
+well as nestrov you see some oscillations as we are going again ahead again because of the stochastic version of.
+the algorithms but the relative strengths remain the same right so you can see that the moment of curve which.
+is green it takes a longer U-turn as compared to the Maestra one which is blue it quickly comes back.
+right and that is the expected behavior of nestra versus momentum right so the relative qualities remain the same in.
+addition you see this stochastic related uh oscillations because your estimates are not perfect right so that's the only difference.
+that you have and I'll make the same commentary on the next like yeah so while the stochastic versions uh.
+retain their relative advantages of Nag over momentum uh there is still this oscillation Behavior which is there and both.
+of them converge much faster than the stochastic gradient descent right so after 500 steps you can see that the.

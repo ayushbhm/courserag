@@ -1,0 +1,9 @@
+activation function so then ah because of these limitations right so at some point uh so now because of these.
+limitations the tan H function is popular because one of the things that you immediately see is that it's zero.
+centered right and then whatever explanation I gave at the end that is kind of taken care of of course.
+tanh is not a new activation function it has been used since 1990s but we are just going over all.
+the activation functions so sigmoid is the default that we start explanations with but now I have shown you certain.
+problems with it and then tanh overcomes some of those problems it is zero centered uh but let's see what.
+is the derivative of this so it's a derivative of this is 1 minus tan H Square X and again.
+at saturation the gradients will vanish right and that you don't need to look at the formula the same problem.
+as the graph itself shows you that if the function value lies here then the derivative is very small or.

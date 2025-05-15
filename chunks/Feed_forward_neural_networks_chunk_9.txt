@@ -1,0 +1,10 @@
+that okay the input layer is actually layer 0 the output layer is actually layer uh l is something that.
+you would not need to remember right so i'm going to then soon start calling this layer h zero right.
+so h0 is the same as x in my notation okay okay now let's get rid of the annotations again.
+yeah so now every neuron in the previous layer so now this is the previous for this layer this is.
+going to be the previous layer right this is the previous layer so every neuron in the previous layer is.
+connected to every neuron in the next layer by a weight right so there are n neurons here each of.
+them is connected to n neurons in this layer right so how many weights would you have you would have.
+n cross n weights right so all those weights i'm going to put together in a matrix and call it.
+w 1 for here this is w 1 as already mentioned there so w1 belongs to n cross n and.
+they'll also be a bias right so every neuron in this layer is going to have a bias connected to.

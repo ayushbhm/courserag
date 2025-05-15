@@ -1,0 +1,9 @@
+do i am a function of the previous guys so maybe you should go and talk to them right and.
+then of course you cannot pass the responsibility to the input input is whatever it is right you cannot say.
+oh change your input if you want the right output right no i have given you a certain input i.
+expect you to uh give me the output so the responsibility never goes to the input but what you realize.
+is that in the entire network the responsibility lies with all the weights all the yellow things that i have.
+shown here right all the weights and all the biases these guys although they are being computed they are just.
+a function of the weights and the biases so their weights and biases are wrong then these guys are going.
+to be wrong right and this argument flows all through the network and then you find out that the responsibility.
+lies between the weights and the biases right and this is what i am trying to do right so i.

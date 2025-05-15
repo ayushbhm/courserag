@@ -1,0 +1,9 @@
+attention that was between decoder and encoder now I have attention within the encoder right I'm looking at all the.
+words in the input itself this is not as opposed to earlier where I had the attention between the encoder.
+and the decoder so I was looking at the decoder to State at time step T and then Computing the.
+attention at attention of all the inputs that's not what is happening here this is self-attention this is attention within.
+the input itself right and this can already you have a feeling that this can be paralyzed we'll concretize that.
+feeling further as we go along okay yeah so this is what uh now now what I want to do.
+is try to First motivate right that what we are doing here and why do we need to do this.
+right why do we need to compute this attention or why do we need to rely on all the other.
+inputs because that is not what we were doing earlier we are of course computer contextual representation but earlier the.

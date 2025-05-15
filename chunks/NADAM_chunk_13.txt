@@ -1,0 +1,10 @@
+1 and then I look at W1 and I'm going to compute the look ahead of the gradient in the.
+next time step right so I've just changed the time steps a bit now notice in my new equations uh.
+there is no WT minus one right everything in terms of t and t plus 1 so an easier way.
+to look at this is that if you have a while loop if you put one step outside the while.
+loop right then all your computations go like one step behind that right so that's that's what you are doing.
+here you're just doing the look ahead before and then coming into the while loop so then you don't have.
+to do the look ahead here and that is simplifying all your computations because now T minus 1 is nowhere.
+here at this point you are not Computing a temporary value of w you are just Computing a new value.
+of w at one go in the previous case you had to compute a new value of w twice once.
+for the temporary look ahead and then one more time when you are updating right in this equation now all.

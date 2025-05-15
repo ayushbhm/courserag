@@ -1,0 +1,9 @@
+here you can see that the distance between the contour lines is very smaller as compared to the distance between.
+the contour lines along this direction so this is the W1 Direction and this is the W2 Direction what does.
+that tell us that along this w n axis even if I change the weight a lot I'm not losing.
+much in terms of my loss right so I have more flexibility here if I want to shrink the weights.
+then I have a better chance of shrinking this weight because whatever is the optimum value for this weight even.
+if I shrink it my loss is going to shrink a bit more slowly because there's a higher gap between.
+the contour lines here so the loss is not rapidly changing along this direction but along the W2 Direction you.
+can see that the loss is rapidly changing so now if I ever to aggressively shrink W2 that even for.
+small shrinks in W2 my loss will go increase right and that is not not acceptable to me because I.

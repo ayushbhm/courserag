@@ -1,0 +1,9 @@
+saying then i need to make a correction as i just simplified my algorithm nothing has changed conceptually it's just.
+that i've conveniently changed all the ends to n minus and then that's why all my points in the data.
+become positive points that means for all of them the label is one now and then in that case i.
+only need to worry about one condition right that's what i have done further for convenience what i'm going to.
+do is that i'm going to normalize all my inputs i can do that right whatever inputs i have i'll.
+just normalize them and that does not change anything because my original point was p and i have normalized it.
+so it has become p divided by the norm of p that's what normalization mean and if w transpose p.
+is greater than equal to zero then this is also greater than equal to zero so it does not change.
+anything with respect to the conditions so it's a simple step which does not change anything conceptually for me so.

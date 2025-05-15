@@ -1,0 +1,10 @@
+said that what you're trying to do is take every stage you're doing this random movements and trying to make.
+sure that the loss decreases but what you know is there's some true loss for for a surface which exists.
+right so this is the loss surface right which exists and if I had directly plotted this loss function and.
+how do I plot this logs function for all values of w comma B all possible values of w comma.
+B and in this case I have only com considered values which are ranging from say minus 6 to plus.
+six right for both W and B I just computed the loss I plugged it into the formula of loss.
+and whatever I got I just kept plotting here and that way I got this entire surface right but this.
+and now in this surface I can see that the loss is very high here if I choose the values.
+of w and B to be um say minus Phi and Phi then it's very high if I choose it.
+to be 4 and minus 4 close to 4 and minus 4 then the loss seems to be low right.

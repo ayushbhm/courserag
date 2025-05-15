@@ -1,0 +1,9 @@
+the flat surfaces you might end up choosing the larger learning rates and in the valley regions where already the.
+slope is steep or when you're entering the valley in those regions if you have a high learning rate you.
+know that your loss would increase because you would overshoot the Minima so in those cases the smaller learning rate.
+would get selected right so you're kind of in some sense making it a bit adaptive based on which region.
+you are in right the flip side of course is that you are doing a lot more computations okay so.
+let's see what happens when we do line search so you see what happened right so the gradient descent was.
+moving at a certain speed it's taking more time to converge but the line search you can see that in.
+the flat regions it was able to move very quickly and it also did not overshoot right it did not.
+go out of the valley because in the Steep regions a smaller learning rate would have worked and it would.

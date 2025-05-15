@@ -1,0 +1,9 @@
+happening now I can show you uh this more clearly on the next slide where uh if you look at.
+the learning rates for Ada Delta and RMS prop then RMS prop it constantly decreases right because it does not.
+have any adaptive nature as it uh kind of uh it has to keep uh decreasing because it's one over.
+the accumulated uh history in this case and since the history was always steep whereas in other Delta you see.
+some kind of adoption happening adaptation happening and overall Adar Delta is able to converge faster on the plot that.
+we had see wow yeah so let's look at some of these values also so here we had set the.
+initial learning rate to 0.013 so this curve is 0.013 divided by the square root of whatever and this both.
+started at Point 20 right that's the uh what the initial value was but this only decreased up to 0.12.
+and hence it was able to kind of converge faster whereas this was 0.05 and then it became uh uh.

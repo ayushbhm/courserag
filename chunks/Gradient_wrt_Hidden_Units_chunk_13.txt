@@ -1,0 +1,10 @@
+move ahead so this we had already computed in the previous lecture and this we just uh proved why this.
+is equal to this way so am I done here not quite yet so let's let's uh spend some more.
+time on this so now suppose I have this Vector right what is this Vector this is the derivative of.
+the loss function with respect to the layer I Plus 1. this is how I will write it it will.
+be a collection of the partial derivatives so in this case since I plus 1 is equal to l i.
+have K elements here so I have the derivative of the loss function with respect to the first neuron in.
+the output layer with respect to the second neuron in the output layer third neuron all the way up to.
+kth neuron right and now what is this w i plus 1 so I had the w three Matrix okay.
+and this dot here means here I should have had the row index instead of the row index I have.
+a DOT here that means I don't care about the row I'm going to take all the rows and all.

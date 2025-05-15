@@ -1,0 +1,10 @@
+have reached a state where I have non-zero U naught and Epsilon is very small so U naught plus Epsilon.
+is going to be very close to U naught anyways right so this is what the update is I make.
+this update and then I compute U1 right and again U1 is a function of Deltas remember but the Deltas.
+in terms are functions of the nablas so I just put those values appropriately and I have computed this right.
+and now if you look at this right so or maybe let me just go to one more time step.
+t equal to 2 again I am doing the same thing as I'm just mechanically substituting values into the formula.
+and just making sure that I express everything in terms of Delta W I's right that's the only idea so.
+that all the formulas become comparable right all the values become comparative so this is where I am now I'm.
+just going to focus on the U's and the v's okay so now if you look at this at this.
+time step right yeah so when I was here at t equal to 2 time step I will use U1.

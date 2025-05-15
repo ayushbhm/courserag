@@ -1,0 +1,9 @@
+these plots also so let's understand these plots so when we don't have bias correction you see that your learning.
+rates are higher right there on this scale you have values which are 2 2.5 and so on whereas when.
+you use bias correction your learning rates initially are smaller and then initially the learning rate was uh large uh.
+and then it starts decaying and in the case of I battum with bias correction so remember this brown or.
+the red curve actually corresponds to the learning rate for w and W was the direction which was sparse so.
+as it uh came close to the Minima and it went into the valley it still had to make some.
+updates for w so the learning rate was still increasing which is what we would want right so this atom.
+with bias correction was able to adjust easier whereas this guy had some initial very high learning rate and then.
+it had to follow some trajectory of course both of them converged that is not a problem but this is.

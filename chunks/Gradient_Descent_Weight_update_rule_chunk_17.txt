@@ -1,0 +1,10 @@
+then it will just be a sum of all those right so this is uh the derivative of uh the.
+loss function with respect to W when there was only one one point right so in that case LW itself.
+was uh just f of x minus y the whole square right but now if I have many points then.
+I'll have a summation here and I'll Index this by I I'll Index this also by I right so I.
+have a summation so I have told you the derivative for one term in this summation if there are such.
+n terms in the summation then the the derivative will also get added up right so the derivative of a.
+sum is just the sum of the derivatives right so that's what is happening here so I have just taken.
+the sum now so if there are two points I'll have this the sum here so I have this right.
+now similarly you can compute the derivative of B and you can see that all of this is same the.
+only thing extra here is this x i and that is coming from the fact that you had W X.

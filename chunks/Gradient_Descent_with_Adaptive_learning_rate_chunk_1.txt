@@ -1,0 +1,9 @@
+rate to be fast right so that's what I mean by adaptive so it should look at okay how is.
+the history been and where am I currently and can I accordingly slow down or maybe speed up a bit.
+right and the gradients will of course not change if you are in the Steep region they will be large.
+and if you're in the general region they will be small right you can't do much with the gradients but.
+then the multiplying factor which is the learning rate can you change that so that you can scale up and.
+scale down the updates accordingly right so uh that's the idea that we want to explore in today's lecture right.
+so let's first again make a case for it so here's again a simple neural network there's a slight change.
+in notation which I had to do because now we have four inputs so it's not a change in notation.
+just a new notation so we have these four inputs so far we have been dealing with a simple neural.

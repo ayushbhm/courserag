@@ -1,0 +1,10 @@
+chapter right you could say oh i'm not able to figure this out maybe go back and look at this.
+right so that's your validation set and then you have a test set which is your exam so now you.
+have done the training you have done the validation set again toggle between training and validation and maybe you have.
+some confidence now once you go to the test set once you go to write the exam you're not again.
+allowed to do the training right so you have a training error you have a validation error and you have.
+a test error during training what we are talking about is the training error which means the error on the.
+training data right which is the error on the chapter that you have read right the contents of the chapter.
+you should know all everything well or you have minimum errors right so that's the analogy you should keep in.
+mind okay uh yeah so i'll end this uh module here and we'll come back and talk about and ways.
+of learning these parameters right so let's let's do that.

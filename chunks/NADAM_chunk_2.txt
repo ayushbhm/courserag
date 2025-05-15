@@ -1,0 +1,9 @@
+at a later point I'll switch back to the this version of momentum okay um now you recall the equation.
+for Mac the main idea in nag was that instead of looking at the gradient at time step T you.
+first did the look ahead and then computed the gradient right that was the main idea in nag and then.
+the rest of it of course Remains the Same right now what we're going to do is we're going to.
+rewrite nag in a more convenient way and then import it into atom right or that rather than Port it.
+to atom right so this is what we were doing in nag we were Computing a quantity called GT which.
+was the gradient okay let me just write down the equations all of it first and then that becomes easier.
+for me too explain okay okay so I'll just now walk you through the slide so we were Computing the.
+gradient at the lookahead value right and once you compute the gradient at the look ahead value then you are.

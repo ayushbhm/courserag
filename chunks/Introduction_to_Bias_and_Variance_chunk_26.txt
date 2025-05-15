@@ -1,0 +1,9 @@
+is very similar to I mean this is the definition of variance that you know from statistic right so you.
+could look at it as suppose a fat of X you can think of it as a random variable Z.
+then this is essentially expected value of Z minus expected value of Z the whole Square and this is essentially.
+the definition of variance so all you have is here the Z is the F hat X which is a.
+random variable because it is random depending on the training samples that you have you will get different blue lines.
+and hence there is a Randomness there right so this is the standard definition nothing much to say here but.
+this is what the bias looks like now what do we off uh see that all the blue lines are.
+actually very close to the ah green line right which was there on the previous slide that means they are.
+not very far away from the average and hence the variance is going to be small for the simple models.

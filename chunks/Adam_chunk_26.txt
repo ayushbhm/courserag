@@ -1,0 +1,9 @@
+to illustrate is that suppose I had computed the derivatives from the full batch right suppose the red function here.
+is what my true derivative function would have looked like from time step 0 to time step 100 right but.
+since I'm doing this mini batch version of the algorithms I'm Computing the derivatives from a smaller batch and hence.
+I might get noisy estimates so you can see that every time step so this is the gradient that I.
+computed at time step 0 this is at one this is a two and so on it's every Point here.
+corresponds to one time step right so it's 0 200 so there are 100 points here right uh now uh.
+as you can see that it's like kind of varying right it's uh not it's close to the true derivatives.
+but also there is some noise right you see some up and down a movement there right and one way.
+of dealing with this is to kind of say that instead of just relying on this gradient at this time.

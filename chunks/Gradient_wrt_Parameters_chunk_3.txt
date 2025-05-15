@@ -1,0 +1,10 @@
+split it into two parts right so let's see I already know the derivative of the loss function with respect.
+to this guy right which is uh a k i right this is the ith neuron in the kth layer.
+I already know the derivative of the loss function with respect to that and so I can find the derivative.
+of the loss function with respect to a k i I already have some formula for that from the previous.
+lectures and then the derivative of a k i with respect to w k i j right now this how.
+do I compute this is the question and this is again going to be very uh straight forward so let's.
+see what that is it just turns out to be h k i j right so let's see why that.
+is the case okay so now uh let's see a k again I'll take a simple case of a 2.
+cross so Suppose there are only two neurons here or maybe let's take all the three neurons okay right and.
+now this so this is the AK Vector I'm going to just ignore B K I'm just going to write.

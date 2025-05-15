@@ -1,0 +1,9 @@
+but now when you start producing the first word right at that time you have T1 inputs right of which.
+only one is valid because that's the go word and you know that okay go is the start signal that.
+I get but all of these are junk right you don't know what these are right and now what are.
+you going to uh do uh for each of these you are going to compute the q k and V.
+vectors right so these are the capital T1 inputs given to you right and you're going to compute the q1.
+K1 V1 right the QQ Matrix the uh the query Matrix the key Matrix and the value Matrix right but.
+while doing that you are aware that whatever value you're getting for these guys right that does not make sense.
+whatever key you are getting for these guys does not make sense whatever query you are getting for these guys.
+this does not make sense because these are some junk inputs you don't even know right this might just be.

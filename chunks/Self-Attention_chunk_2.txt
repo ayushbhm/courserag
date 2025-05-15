@@ -1,0 +1,9 @@
+I had said on the slide and these are called the respective transformations now so now let's focus on uh.
+Computing the output for the first uh guy right so this is the first input right let's see so you.
+have H1 H2 all the way up to H5 and now let's see how Z1 gets computed right which is.
+the contextual representation for the word I right and through the self retention layer and what do these key query.
+value vectors that I showed how do they play a role in this right so let's see what is going.
+to happen there yeah so just zoom into this I'll just clear the annotations so you had this single embedding.
+which was H1 right and from there you can see there are three arrows coming out so you would have.
+realized that I'm going to compute three different values from this one vector right so let's see what those three.
+values are sorry so I'll first do a linear transformation with WQ to get a new Vector which is I'm.

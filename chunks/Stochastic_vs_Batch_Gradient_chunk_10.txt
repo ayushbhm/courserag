@@ -1,0 +1,9 @@
+point ten point or 100 points as long as you're not using all the data points you are in trouble.
+right because you are not really doing a true estimate of the gradient but you have to make this trade.
+off between what is true which is all the multimedial points taken together versus what is approximate and let's see.
+what happens when you do this approximate right so uh now what I'm going to do is I'm going to.
+run stochastic gradient descent and gradient descent on this loss surface and we'll make some observations about it yeah so.
+the green guy is gradient descent and the black guy is stochastic gradient descent and as you can see in.
+the black guy there are a few oscillations whereas the green guy is going finer it's smoothly going down whereas.
+the black guy is often getting off course and then coming back right and the reason that is happening is.
+because you are not making a true estimate of the gradient you're just making like a approximation or a stochastic.

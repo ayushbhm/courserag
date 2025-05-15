@@ -1,0 +1,9 @@
+this case you are seeing very wild oscillations in this case you are seeing mylar oscillations and if I also.
+draw the curve for 0.05 then that you would see would have even smaller oscillations such that it allows it.
+to then settle it into the Minima right so this what these curves are trying to show is that how.
+fast or slow the learning rate adopts actually depends to an extent on the initial learning rate right so that's.
+what is being shown here so again multiple slides conveying the same point that RMS prop is indeed sensitive to.
+the initial learning rate right and we might want to get to a situation or to an algorithm where this.
+dependency can be avoided now you might argue right that I might find something which is good right so I.
+might find ETA not equal to 0.1 and that is perhaps always good or ETA not equal to 0.6 which.
+is always good right now one more thing which I'm going to make an argument for now is that that.

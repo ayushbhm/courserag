@@ -1,0 +1,10 @@
+y hat or f hat of x right and then you have weights every neuron in every layer is connected.
+to every neuron in the next layer i'm going to refer to the input also as a spatial layer as.
+h0 right so that's and you also have biases connected to every neuron right so that kind of summarizes the.
+slide and you should so we'll do more of this but you should get used to these dimensions okay so.
+now with that let's go to the next side now how do you compute the ai's okay so let's see.
+that now remember a i is a vector so let me just focus on a 1 right so that means.
+i am focusing on this white part here okay so there are let's assume n equal to 3 for this.
+example there are only three neurons that have drawn so i'm actually a 1 1 a 1 2 a 1.
+3 okay this is actually equal to the vector a right and how am i computing that i have b.
+1 1 b 1 2 b 1 3 plus so this is also a vector okay because i have three.

@@ -1,0 +1,9 @@
+which i am calling the positive examples because their label was one and some examples which i am calling the.
+negative examples which for my labels are zero and as we have argued earlier for most real world examples the.
+data will not be linearly separable that means you cannot draw a line such that all your positive examples lie.
+on one side all your negative examples lie on the other side right so whatever i have shown you here.
+is a boolean function right these are all boolean outputs and i have taken all the boolean all inputs as.
+boolean right so this is a boolean function and in reality in real world examples this will not be linearly.
+separable and this is a very real example right you have some n boolean decision factors based on which you.
+are taking a boolean decision or a binary decision and now you want to be able to learn that what.
+this theorem is saying is that you can come up with a network of perceptrons which will exactly implement this.

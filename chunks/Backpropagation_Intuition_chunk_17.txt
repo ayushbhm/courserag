@@ -1,0 +1,6 @@
+network right this formula should not be painfully computed for every weight in the network right so that's what we're.
+going to do in the remaining part of this lecture and our focus is going to be on cross entropy.
+so our loss function is going to be cross entropy which means we are going to deal with classification problems.
+which means we are going to have the output function as soft marks right so i'll end here and we'll.
+come back and do the entire back propagation in its in the gory details of the mathematical details of it.
+in the subsequent lectures thank you.

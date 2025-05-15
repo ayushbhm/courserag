@@ -1,0 +1,9 @@
+have this sharp minima right because this uh the uh the the loss function that you have in deep data.
+networks is not a good convex loss function right so it has a many multiple local minima and some of.
+these are very sharp and then it leads to certain kind of challenges during our training despite all this deep.
+learning works quite well in practice right it's also not very robust right so this is an example where you.
+have the image of a stop symbol and now you just put some stickers on it right and for a.
+human it does not matter right it's still the stop signal right but now uh the machine is reading it.
+as a speed limit of 45 right so now it's like completely different from what the intended meaning here was.
+right so it's not very robust in practice right so we still don't know right why this ah this happens.
+right because it looks like it should not work it is also not very robust but still in very many.

@@ -1,0 +1,10 @@
+have come up with four sets of inequalities and only one variable which is theta or w naught and then.
+you could have tried to find the value of that data so you can go home and try this try.
+to write the four inequalities for the mcculloch pits neuron remember there will be no w one w two and.
+then just see if you can come up with the right value of theta so that is also doable right.
+so this the idea of learning is or finding the right value for the parameters is not something that we.
+have come to suddenly i'm just saying that we had already done it in the case of the mp neuron.
+also where we had tried to find this value of theta it's just that there it was very obvious what.
+the value of theta should be as here it could be a bit difficult right and we'll have a learning.
+algorithm to do that so i'll end this module here and when we come back i am going to talk.
+about errors and error surface.

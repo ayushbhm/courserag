@@ -1,0 +1,9 @@
+Taylor series is only used in small uh Windows okay now that was one now let me just reset this.
+okay and I change the function okay I want to make it the sine function okay and now this is.
+what my approximation looks like now I'm going to increase the degree so this is a linear approximation right now.
+right because I've just cut off the formula at the first order term now this is a quadratic approximation you.
+can see that it looks better right the orange curve is closer to the blue curve right and now what.
+I'm trying to prove actually is the uh utility of the Taylor series or uh how good the approximations get.
+as you keep increasing the degree so this is a degree to approximation where I cut the formula at the.
+second order terms if I cut the formula the third order terms this is what I get right and now.
+you can see that in a very larger neighborhood also right the approximation is quite good right I mean the.

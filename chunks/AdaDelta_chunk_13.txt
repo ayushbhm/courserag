@@ -1,0 +1,9 @@
+long as you have understood the pictorial explanation you will be able to relate it to what is happening with.
+these values right so therefore Delta allows the numerator to increase or decrease based on the current and past gradients.
+and that exactly what we wanted now let's see what happens if we run Ada Delta so as usual RMS.
+prop is oscillating Ada grad is taking more time to reach the Minima because it aggressively kills the learning rate.
+whereas adaptive Delta let's just look at it again right so yeah so in the Steep regions as it became.
+steeper it's decreased and then it again it did whatever was required to reach the Minima quickly right well the.
+other two algorithms are struggling one is oscillating while the other one is slow right yeah okay yeah now let's.
+look at uh we we are also plotting now the VT and the UT right so uh because they are.
+delayed by one time step their curvature would be the same right they would have the same shape so both.

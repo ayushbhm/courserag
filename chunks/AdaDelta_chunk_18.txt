@@ -1,0 +1,9 @@
+it had a reasonably High Learning rate which allowed it to converge RMS prop is slowly getting there because it.
+has aggressively decreased the learning rate right and now the maybe the usual problem of oscillations may be there or.
+maybe not I think the figure has ended so I don't know the animation has ended so I don't know.
+but the main thing is the difference between these two plots which is explained by these two products these are.
+the same two plots drawn on the same scale right so now I've drawn both the plots on the same.
+scale here and in the case of R Delta it was not decaying aggressively whereas in this case it was.
+leaking aggressively right okay yeah so that's what we have already gone through now let's put all the algorithms together.
+on one plot and see how they behave so the same loss function same starting point uh and we have.
+these different algorithms right from gradient descent all the way up to Ida Delta and other Delta is the only.

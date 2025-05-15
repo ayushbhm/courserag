@@ -1,0 +1,9 @@
+a flat floor right you can imagine it's a floor in which you could have some places where you could.
+hide you could construct a wall so that you can hide from the person who is chasing you if you.
+are a chaser you could destroy a wild wall to find to look for people inside or you could build.
+a ramp you can see that yellow ramp in the figure so you could climb up the ramp and peep.
+inside the structure and see whether someone is hiding right and all of this the rl agents were able to.
+learn uh quite well right that is the ability to chase and hide build a defensive shelter break a shelter.
+use a ramp to search inside and so on as a very interesting demo video that you should see right.
+and what is emerging in all of this the underlying theme is that very complex decision making strategies were being.
+able to learn using these different deep reinforcement learning agents and while all of these specialized in like one task.

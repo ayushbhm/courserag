@@ -1,0 +1,9 @@
+it solve my problem is still not clear but right now we are just trying to understand what the equations.
+are right so instead of one history which was VT I have two histories now it's also clear that one.
+history is kind of ahead of the other history right so VT was tracking everything that is happening up to.
+this time step but UT is also tracking what has happened at this time step because it was also taking.
+into account the current update which has been made okay uh so these two changes are these two ratios are.
+being uh these two histories are being tracked and then I'm taking a ratio of these two histories and that.
+is my effective learning rate so how does this help is the question okay foreign that's what I meant by.
+that one history is running ahead the other St VT is already used in the current iteration but the UT.
+that I have computed now will be used in the next iteration as UT minus 1 right so the numerator.

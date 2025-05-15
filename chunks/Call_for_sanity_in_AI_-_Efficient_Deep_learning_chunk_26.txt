@@ -1,0 +1,5 @@
+hope you enjoyed the history of course there are many other things which i might not have covered in particular.
+i have not talked much about the advances in things like text to speech voice conversion even automatic speech recognition.
+but the idea was to give you a very high view of how the field has evolved from early neural.
+networks to recurrent networks to transform the base models gans diffusion-based models and so on so with that i'll end.
+this lecture thank you.

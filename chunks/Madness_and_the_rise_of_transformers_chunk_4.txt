@@ -1,0 +1,8 @@
+first introduced in the context of nlp and machine translation so we'll go back to machine translation where the first.
+effort started way back in 1954 and touched upon this earlier there was interest in translating between some politically important.
+languages such as english russian due to the political environment at that time right a lot of promises were made.
+right that within a few years we'll be able to have perfect translation machine translation between these languages right but.
+then research went on and nothing much really happened right in fact there was this very uh critical report which.
+came out in 1966 which said that hey the initial hype was just too much and people have not lived.
+up to those expectations and we're not really seeing much progress in this field and this was around the same.
+time as the ai winter right so this also contributed to that saying that hey all this hype is not.

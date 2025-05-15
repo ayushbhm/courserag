@@ -1,0 +1,2947 @@
+[
+  {
+    "text": "foreign",
+    "start": 0.299,
+    "duration": 3.0
+  },
+  {
+    "text": "[Music]",
+    "start": 6.62,
+    "duration": 14.91
+  },
+  {
+    "text": "with this idea that we want to estimate",
+    "start": 25.34,
+    "duration": 6.58
+  },
+  {
+    "text": "the parameters and we reintroduce the",
+    "start": 28.32,
+    "duration": 5.88
+  },
+  {
+    "text": "concept of error and what we understood",
+    "start": 31.92,
+    "duration": 5.04
+  },
+  {
+    "text": "is that in our random guess algorithm or",
+    "start": 34.2,
+    "duration": 5.28
+  },
+  {
+    "text": "the guesswork algorithm right we were",
+    "start": 36.96,
+    "duration": 4.2
+  },
+  {
+    "text": "actually navigating the error surface",
+    "start": 39.48,
+    "duration": 2.94
+  },
+  {
+    "text": "although we were not realizing we're",
+    "start": 41.16,
+    "duration": 3.239
+  },
+  {
+    "text": "just moving from here and there and at",
+    "start": 42.42,
+    "duration": 3.479
+  },
+  {
+    "text": "times we are making a mistake where we",
+    "start": 44.399,
+    "duration": 3.84
+  },
+  {
+    "text": "went up the error surface right or went",
+    "start": 45.899,
+    "duration": 4.381
+  },
+  {
+    "text": "to a higher error and we don't want that",
+    "start": 48.239,
+    "duration": 3.66
+  },
+  {
+    "text": "to happen right we want a journey which",
+    "start": 50.28,
+    "duration": 4.259
+  },
+  {
+    "text": "is smooth that you keep going down as",
+    "start": 51.899,
+    "duration": 4.68
+  },
+  {
+    "text": "far as the error is concerned and then",
+    "start": 54.539,
+    "duration": 4.081
+  },
+  {
+    "text": "settle to a point where the error is",
+    "start": 56.579,
+    "duration": 5.16
+  },
+  {
+    "text": "minimum right if not zero so we need a",
+    "start": 58.62,
+    "duration": 5.099
+  },
+  {
+    "text": "more principled approach and that's what",
+    "start": 61.739,
+    "duration": 3.481
+  },
+  {
+    "text": "we're going to do in this module right",
+    "start": 63.719,
+    "duration": 3.661
+  },
+  {
+    "text": "so this is the goal as I just stated",
+    "start": 65.22,
+    "duration": 4.259
+  },
+  {
+    "text": "that find a way of traversing this error",
+    "start": 67.38,
+    "duration": 4.38
+  },
+  {
+    "text": "surface so that we can reach the minimum",
+    "start": 69.479,
+    "duration": 5.101
+  },
+  {
+    "text": "quickly and without a lot of back",
+    "start": 71.76,
+    "duration": 5.399
+  },
+  {
+    "text": "tracing or like going back or not back",
+    "start": 74.58,
+    "duration": 4.74
+  },
+  {
+    "text": "racing actually but random jumps here in",
+    "start": 77.159,
+    "duration": 4.32
+  },
+  {
+    "text": "there which don't necessarily decrease",
+    "start": 79.32,
+    "duration": 4.14
+  },
+  {
+    "text": "the error at each iteration right and we",
+    "start": 81.479,
+    "duration": 3.78
+  },
+  {
+    "text": "don't want to do this brute for search",
+    "start": 83.46,
+    "duration": 3.54
+  },
+  {
+    "text": "either right so that is not possible",
+    "start": 85.259,
+    "duration": 3.781
+  },
+  {
+    "text": "right we cannot plug in all the values",
+    "start": 87.0,
+    "duration": 4.68
+  },
+  {
+    "text": "of the parameters and then see that",
+    "start": 89.04,
+    "duration": 4.079
+  },
+  {
+    "text": "value which gives us the minimum value",
+    "start": 91.68,
+    "duration": 3.119
+  },
+  {
+    "text": "that would be the Brute Forces we cannot",
+    "start": 93.119,
+    "duration": 3.241
+  },
+  {
+    "text": "do that and we have argued why that is",
+    "start": 94.799,
+    "duration": 3.241
+  },
+  {
+    "text": "infeasible there are infinite values",
+    "start": 96.36,
+    "duration": 4.079
+  },
+  {
+    "text": "there okay",
+    "start": 98.04,
+    "duration": 4.92
+  },
+  {
+    "text": "so let's look at the setup now right so",
+    "start": 100.439,
+    "duration": 5.101
+  },
+  {
+    "text": "we have our parameters in the toy",
+    "start": 102.96,
+    "duration": 5.4
+  },
+  {
+    "text": "Network where W comma B and I'm just",
+    "start": 105.54,
+    "duration": 5.1
+  },
+  {
+    "text": "going to put them in a array or a vector",
+    "start": 108.36,
+    "duration": 4.32
+  },
+  {
+    "text": "and call that Vector as Theta right so",
+    "start": 110.64,
+    "duration": 4.619
+  },
+  {
+    "text": "now Theta is my parameter of vectors",
+    "start": 112.68,
+    "duration": 6.36
+  },
+  {
+    "text": "and now I'm looking for changing this",
+    "start": 115.259,
+    "duration": 5.46
+  },
+  {
+    "text": "value right so just as is always the",
+    "start": 119.04,
+    "duration": 3.899
+  },
+  {
+    "text": "case I don't know what the correct Theta",
+    "start": 120.719,
+    "duration": 3.72
+  },
+  {
+    "text": "is so I'm going to start off with some",
+    "start": 122.939,
+    "duration": 3.72
+  },
+  {
+    "text": "random value for Theta and when I start",
+    "start": 124.439,
+    "duration": 4.501
+  },
+  {
+    "text": "off with this random value of theta I",
+    "start": 126.659,
+    "duration": 5.341
+  },
+  {
+    "text": "want to know how much to change it so",
+    "start": 128.94,
+    "duration": 4.68
+  },
+  {
+    "text": "that at this Step at least I'm looking",
+    "start": 132.0,
+    "duration": 4.14
+  },
+  {
+    "text": "at it one step at a time at this Step at",
+    "start": 133.62,
+    "duration": 4.86
+  },
+  {
+    "text": "least the error should decrease right so",
+    "start": 136.14,
+    "duration": 4.679
+  },
+  {
+    "text": "I'm looking for that change in Theta",
+    "start": 138.48,
+    "duration": 4.44
+  },
+  {
+    "text": "which is nothing but a change in W and a",
+    "start": 140.819,
+    "duration": 5.461
+  },
+  {
+    "text": "change in B so that I get a new value of",
+    "start": 142.92,
+    "duration": 6.959
+  },
+  {
+    "text": "theta and then my loss is hopefully",
+    "start": 146.28,
+    "duration": 5.039
+  },
+  {
+    "text": "decreased I'm not sure of that yet but",
+    "start": 149.879,
+    "duration": 3.421
+  },
+  {
+    "text": "that's what the goal is right so this is",
+    "start": 151.319,
+    "duration": 5.221
+  },
+  {
+    "text": "my Theta some Vector Delta Theta is also",
+    "start": 153.3,
+    "duration": 5.34
+  },
+  {
+    "text": "a vector it is also a vector in R2 this",
+    "start": 156.54,
+    "duration": 4.86
+  },
+  {
+    "text": "is a vector in R2 and similarly this is",
+    "start": 158.64,
+    "duration": 5.7
+  },
+  {
+    "text": "also a vector in R2 right now these are",
+    "start": 161.4,
+    "duration": 5.82
+  },
+  {
+    "text": "two vectors now",
+    "start": 164.34,
+    "duration": 5.16
+  },
+  {
+    "text": "what I'm going to do is my change is",
+    "start": 167.22,
+    "duration": 5.159
+  },
+  {
+    "text": "going to be just given as",
+    "start": 169.5,
+    "duration": 4.26
+  },
+  {
+    "text": "Theta",
+    "start": 172.379,
+    "duration": 4.14
+  },
+  {
+    "text": "Nu",
+    "start": 173.76,
+    "duration": 5.46
+  },
+  {
+    "text": "is equal to wherever I am currently I'll",
+    "start": 176.519,
+    "duration": 5.701
+  },
+  {
+    "text": "move by this change right so Theta Nu is",
+    "start": 179.22,
+    "duration": 6.54
+  },
+  {
+    "text": "equal to theta plus Delta Theta okay so",
+    "start": 182.22,
+    "duration": 5.099
+  },
+  {
+    "text": "what is happening here is that I was",
+    "start": 185.76,
+    "duration": 2.88
+  },
+  {
+    "text": "here",
+    "start": 187.319,
+    "duration": 3.601
+  },
+  {
+    "text": "and I mean sorry this this is where I",
+    "start": 188.64,
+    "duration": 4.56
+  },
+  {
+    "text": "was and I then added this vector and",
+    "start": 190.92,
+    "duration": 3.66
+  },
+  {
+    "text": "what has happened effectively that I",
+    "start": 193.2,
+    "duration": 3.0
+  },
+  {
+    "text": "moved in the direction of Delta Theta",
+    "start": 194.58,
+    "duration": 3.54
+  },
+  {
+    "text": "right I've come closer to Delta Theta",
+    "start": 196.2,
+    "duration": 3.899
+  },
+  {
+    "text": "and we know this from the perceptron",
+    "start": 198.12,
+    "duration": 3.92
+  },
+  {
+    "text": "Rolling algorithm also when we add it it",
+    "start": 200.099,
+    "duration": 5.401
+  },
+  {
+    "text": "comes closer to it right so now instead",
+    "start": 202.04,
+    "duration": 6.339
+  },
+  {
+    "text": "of uh moving fully so let me just delete",
+    "start": 205.5,
+    "duration": 6.239
+  },
+  {
+    "text": "this right so instead of moving fully uh",
+    "start": 208.379,
+    "duration": 5.28
+  },
+  {
+    "text": "in the direction of Delta Theta what I'm",
+    "start": 211.739,
+    "duration": 3.06
+  },
+  {
+    "text": "going to do is I'm going to be a bit",
+    "start": 213.659,
+    "duration": 4.021
+  },
+  {
+    "text": "conservative and whatever change you",
+    "start": 214.799,
+    "duration": 5.101
+  },
+  {
+    "text": "tell me to do I'm not going to do that",
+    "start": 217.68,
+    "duration": 3.96
+  },
+  {
+    "text": "full change I'm just going to multiply",
+    "start": 219.9,
+    "duration": 4.08
+  },
+  {
+    "text": "that change by a very small value which",
+    "start": 221.64,
+    "duration": 4.56
+  },
+  {
+    "text": "is ETA so essentially what that does is",
+    "start": 223.98,
+    "duration": 4.679
+  },
+  {
+    "text": "the following right so this is my Delta",
+    "start": 226.2,
+    "duration": 4.92
+  },
+  {
+    "text": "Theta Vector the black one I am going to",
+    "start": 228.659,
+    "duration": 4.381
+  },
+  {
+    "text": "multiply by a small scalar so",
+    "start": 231.12,
+    "duration": 3.72
+  },
+  {
+    "text": "essentially the magnitude of the vector",
+    "start": 233.04,
+    "duration": 3.36
+  },
+  {
+    "text": "will decrease the direction does not",
+    "start": 234.84,
+    "duration": 3.179
+  },
+  {
+    "text": "change so I'm still going to move in",
+    "start": 236.4,
+    "duration": 3.24
+  },
+  {
+    "text": "that direction but I'm just going to be",
+    "start": 238.019,
+    "duration": 3.481
+  },
+  {
+    "text": "a bit conservative and take a small step",
+    "start": 239.64,
+    "duration": 4.14
+  },
+  {
+    "text": "right one small step at a time right so",
+    "start": 241.5,
+    "duration": 6.0
+  },
+  {
+    "text": "that gives me my update rule which is if",
+    "start": 243.78,
+    "duration": 6.12
+  },
+  {
+    "text": "you tell me what is Delta Theta then I'm",
+    "start": 247.5,
+    "duration": 4.159
+  },
+  {
+    "text": "going to move",
+    "start": 249.9,
+    "duration": 5.699
+  },
+  {
+    "text": "by a small value in that direction right",
+    "start": 251.659,
+    "duration": 5.501
+  },
+  {
+    "text": "that's that's what my update rule is",
+    "start": 255.599,
+    "duration": 3.42
+  },
+  {
+    "text": "going to be now the question of course",
+    "start": 257.16,
+    "duration": 4.319
+  },
+  {
+    "text": "is what is the right Delta Theta to use",
+    "start": 259.019,
+    "duration": 4.321
+  },
+  {
+    "text": "right I was earlier what was my",
+    "start": 261.479,
+    "duration": 3.601
+  },
+  {
+    "text": "algorithm in the random guess I was just",
+    "start": 263.34,
+    "duration": 3.6
+  },
+  {
+    "text": "coming up with some Delta Theta just",
+    "start": 265.08,
+    "duration": 3.78
+  },
+  {
+    "text": "moving there oh and then realizing oh",
+    "start": 266.94,
+    "duration": 3.36
+  },
+  {
+    "text": "the error has decreased so let me just",
+    "start": 268.86,
+    "duration": 4.26
+  },
+  {
+    "text": "go back and then try to find some new",
+    "start": 270.3,
+    "duration": 4.8
+  },
+  {
+    "text": "Delta Theta change that and I mean",
+    "start": 273.12,
+    "duration": 4.079
+  },
+  {
+    "text": "change that much and then find a new",
+    "start": 275.1,
+    "duration": 3.36
+  },
+  {
+    "text": "value I don't want to do that someone",
+    "start": 277.199,
+    "duration": 3.661
+  },
+  {
+    "text": "has to give me the right Delta Data to",
+    "start": 278.46,
+    "duration": 5.58
+  },
+  {
+    "text": "use and it turns out that what is the",
+    "start": 280.86,
+    "duration": 5.279
+  },
+  {
+    "text": "right Delta Theta to use the answer from",
+    "start": 284.04,
+    "duration": 3.9
+  },
+  {
+    "text": "this comes from the Taylor series right",
+    "start": 286.139,
+    "duration": 4.381
+  },
+  {
+    "text": "so let's see first what is Taylor series",
+    "start": 287.94,
+    "duration": 4.02
+  },
+  {
+    "text": "I'm sure some of you have seen this in",
+    "start": 290.52,
+    "duration": 2.82
+  },
+  {
+    "text": "high school",
+    "start": 291.96,
+    "duration": 4.019
+  },
+  {
+    "text": "well let's quickly refresh this right so",
+    "start": 293.34,
+    "duration": 4.38
+  },
+  {
+    "text": "Taylor series as I'm just going to read",
+    "start": 295.979,
+    "duration": 3.241
+  },
+  {
+    "text": "out the definition here is a way of",
+    "start": 297.72,
+    "duration": 3.18
+  },
+  {
+    "text": "approximating any continuously",
+    "start": 299.22,
+    "duration": 3.12
+  },
+  {
+    "text": "differentiable function right and this",
+    "start": 300.9,
+    "duration": 4.26
+  },
+  {
+    "text": "is important for us because whatever",
+    "start": 302.34,
+    "duration": 4.74
+  },
+  {
+    "text": "loss function we are dealing with is a",
+    "start": 305.16,
+    "duration": 3.96
+  },
+  {
+    "text": "differentiable function because we have",
+    "start": 307.08,
+    "duration": 3.48
+  },
+  {
+    "text": "the sigmoid neuron which is",
+    "start": 309.12,
+    "duration": 3.54
+  },
+  {
+    "text": "differentiable and then on top of that a",
+    "start": 310.56,
+    "duration": 4.079
+  },
+  {
+    "text": "loss function currently is the squared",
+    "start": 312.66,
+    "duration": 3.539
+  },
+  {
+    "text": "error loss which is again differentiable",
+    "start": 314.639,
+    "duration": 3.78
+  },
+  {
+    "text": "right so this is a differentiable",
+    "start": 316.199,
+    "duration": 4.621
+  },
+  {
+    "text": "function that we are dealing with and",
+    "start": 318.419,
+    "duration": 4.56
+  },
+  {
+    "text": "this differentiable function may have",
+    "start": 320.82,
+    "duration": 4.379
+  },
+  {
+    "text": "any shape right it could have a shape",
+    "start": 322.979,
+    "duration": 4.321
+  },
+  {
+    "text": "like this it could have any shape it",
+    "start": 325.199,
+    "duration": 4.981
+  },
+  {
+    "text": "just smooth and differentiable right and",
+    "start": 327.3,
+    "duration": 5.04
+  },
+  {
+    "text": "what Taylor series does is it gives us a",
+    "start": 330.18,
+    "duration": 4.079
+  },
+  {
+    "text": "way of approximating this using",
+    "start": 332.34,
+    "duration": 5.16
+  },
+  {
+    "text": "polynomials of degree n right and the",
+    "start": 334.259,
+    "duration": 4.621
+  },
+  {
+    "text": "higher the degree the better the",
+    "start": 337.5,
+    "duration": 3.6
+  },
+  {
+    "text": "approximation now this part may not be",
+    "start": 338.88,
+    "duration": 4.22
+  },
+  {
+    "text": "clear right what do I mean by",
+    "start": 341.1,
+    "duration": 4.439
+  },
+  {
+    "text": "approximate using polynomials of degree",
+    "start": 343.1,
+    "duration": 4.9
+  },
+  {
+    "text": "N I should have circled n also that part",
+    "start": 345.539,
+    "duration": 4.141
+  },
+  {
+    "text": "is not clear and we'll fix that right",
+    "start": 348.0,
+    "duration": 3.419
+  },
+  {
+    "text": "let's try to understand what we mean by",
+    "start": 349.68,
+    "duration": 5.34
+  },
+  {
+    "text": "that okay so I'll delete some of of this",
+    "start": 351.419,
+    "duration": 5.881
+  },
+  {
+    "text": "okay so here's a function right so let's",
+    "start": 355.02,
+    "duration": 5.1
+  },
+  {
+    "text": "assume this is my w I have a single",
+    "start": 357.3,
+    "duration": 5.16
+  },
+  {
+    "text": "parameter for a use of explanation and",
+    "start": 360.12,
+    "duration": 4.139
+  },
+  {
+    "text": "this is my loss function right this is L",
+    "start": 362.46,
+    "duration": 4.739
+  },
+  {
+    "text": "of w suppose okay and what it's saying",
+    "start": 364.259,
+    "duration": 5.28
+  },
+  {
+    "text": "is that as W increases L seems to",
+    "start": 367.199,
+    "duration": 3.961
+  },
+  {
+    "text": "increase right so that's that's okay",
+    "start": 369.539,
+    "duration": 3.061
+  },
+  {
+    "text": "whatever this function is I don't care",
+    "start": 371.16,
+    "duration": 3.12
+  },
+  {
+    "text": "about it but this is how the function",
+    "start": 372.6,
+    "duration": 4.379
+  },
+  {
+    "text": "looks like okay now Suppose there is a",
+    "start": 374.28,
+    "duration": 6.84
+  },
+  {
+    "text": "point uh W naught okay at which I know",
+    "start": 376.979,
+    "duration": 6.72
+  },
+  {
+    "text": "the loss okay and where is this coming",
+    "start": 381.12,
+    "duration": 4.62
+  },
+  {
+    "text": "from how does this relate to our",
+    "start": 383.699,
+    "duration": 5.28
+  },
+  {
+    "text": "original R uh",
+    "start": 385.74,
+    "duration": 7.44
+  },
+  {
+    "text": "uh our goal right which is to find uh a",
+    "start": 388.979,
+    "duration": 7.201
+  },
+  {
+    "text": "new value of uh W says that the loss is",
+    "start": 393.18,
+    "duration": 4.98
+  },
+  {
+    "text": "less right so that will soon get related",
+    "start": 396.18,
+    "duration": 4.38
+  },
+  {
+    "text": "but for now I'll give you some intuition",
+    "start": 398.16,
+    "duration": 3.96
+  },
+  {
+    "text": "right so Suppose there was only one",
+    "start": 400.56,
+    "duration": 3.96
+  },
+  {
+    "text": "parameter and I timed step 0 I started",
+    "start": 402.12,
+    "duration": 4.26
+  },
+  {
+    "text": "with the value W naught and I could",
+    "start": 404.52,
+    "duration": 3.42
+  },
+  {
+    "text": "compute the loss I don't know the full",
+    "start": 406.38,
+    "duration": 3.84
+  },
+  {
+    "text": "loss surface but I could compute the",
+    "start": 407.94,
+    "duration": 4.5
+  },
+  {
+    "text": "loss right now I'm looking to change",
+    "start": 410.22,
+    "duration": 4.5
+  },
+  {
+    "text": "this value W naught right and I want to",
+    "start": 412.44,
+    "duration": 4.92
+  },
+  {
+    "text": "decide whether to go here or here so",
+    "start": 414.72,
+    "duration": 4.68
+  },
+  {
+    "text": "that my loss decreases that's what the",
+    "start": 417.36,
+    "duration": 4.14
+  },
+  {
+    "text": "goal is and we'll relate all of this",
+    "start": 419.4,
+    "duration": 4.5
+  },
+  {
+    "text": "discussion to that goal uh soon right in",
+    "start": 421.5,
+    "duration": 3.84
+  },
+  {
+    "text": "the figure it's clear that I should move",
+    "start": 423.9,
+    "duration": 3.54
+  },
+  {
+    "text": "to the left because there is where the",
+    "start": 425.34,
+    "duration": 3.54
+  },
+  {
+    "text": "loss is decreasing right but that's",
+    "start": 427.44,
+    "duration": 3.72
+  },
+  {
+    "text": "that's what we are trying to do so now",
+    "start": 428.88,
+    "duration": 5.64
+  },
+  {
+    "text": "if I know this W naught what the Taylor",
+    "start": 431.16,
+    "duration": 7.5
+  },
+  {
+    "text": "series does is that if I know a point w",
+    "start": 434.52,
+    "duration": 6.84
+  },
+  {
+    "text": "okay which is",
+    "start": 438.66,
+    "duration": 6.18
+  },
+  {
+    "text": "W naught plus sum Delta",
+    "start": 441.36,
+    "duration": 6.119
+  },
+  {
+    "text": "okay if that is the point right so then",
+    "start": 444.84,
+    "duration": 6.9
+  },
+  {
+    "text": "Delta is equal to W minus W naught right",
+    "start": 447.479,
+    "duration": 6.0
+  },
+  {
+    "text": "and you see that W minus W naught",
+    "start": 451.74,
+    "duration": 4.739
+  },
+  {
+    "text": "quantity everywhere here right so if I",
+    "start": 453.479,
+    "duration": 4.62
+  },
+  {
+    "text": "know the value of the loss at a certain",
+    "start": 456.479,
+    "duration": 5.521
+  },
+  {
+    "text": "point then I can approximate the value",
+    "start": 458.099,
+    "duration": 5.94
+  },
+  {
+    "text": "of the function",
+    "start": 462.0,
+    "duration": 4.5
+  },
+  {
+    "text": "in a neighborhood around that what do I",
+    "start": 464.039,
+    "duration": 4.5
+  },
+  {
+    "text": "mean by that this w",
+    "start": 466.5,
+    "duration": 4.62
+  },
+  {
+    "text": "if this Delta is very solid then W lies",
+    "start": 468.539,
+    "duration": 4.621
+  },
+  {
+    "text": "in the neighborhood of w naught right so",
+    "start": 471.12,
+    "duration": 4.44
+  },
+  {
+    "text": "in that neighborhood I can approximate",
+    "start": 473.16,
+    "duration": 5.159
+  },
+  {
+    "text": "it by using this formula right and the",
+    "start": 475.56,
+    "duration": 4.139
+  },
+  {
+    "text": "interesting thing about this formula is",
+    "start": 478.319,
+    "duration": 4.201
+  },
+  {
+    "text": "that it has this uh first order term it",
+    "start": 479.699,
+    "duration": 4.5
+  },
+  {
+    "text": "has a second order term third order term",
+    "start": 482.52,
+    "duration": 4.2
+  },
+  {
+    "text": "and so on and I can cut off the formula",
+    "start": 484.199,
+    "duration": 4.261
+  },
+  {
+    "text": "wherever I want if I cut off the formula",
+    "start": 486.72,
+    "duration": 3.36
+  },
+  {
+    "text": "here I am doing a second order",
+    "start": 488.46,
+    "duration": 3.959
+  },
+  {
+    "text": "approximation if I cut off the formula",
+    "start": 490.08,
+    "duration": 4.32
+  },
+  {
+    "text": "here I'm doing a first order or a linear",
+    "start": 492.419,
+    "duration": 3.661
+  },
+  {
+    "text": "approximation so let's see what happens",
+    "start": 494.4,
+    "duration": 4.019
+  },
+  {
+    "text": "when I do a linear approximation okay so",
+    "start": 496.08,
+    "duration": 5.64
+  },
+  {
+    "text": "again uh delete stuff on the slide",
+    "start": 498.419,
+    "duration": 5.041
+  },
+  {
+    "text": "so this is what the formula looks like",
+    "start": 501.72,
+    "duration": 4.979
+  },
+  {
+    "text": "I've just cut off the formula at uh the",
+    "start": 503.46,
+    "duration": 5.16
+  },
+  {
+    "text": "first order terms right so I just have",
+    "start": 506.699,
+    "duration": 6.421
+  },
+  {
+    "text": "this much okay and now I want to find",
+    "start": 508.62,
+    "duration": 7.68
+  },
+  {
+    "text": "the value of w and I'm saying that I",
+    "start": 513.12,
+    "duration": 5.52
+  },
+  {
+    "text": "already know this right I already know",
+    "start": 516.3,
+    "duration": 4.619
+  },
+  {
+    "text": "what LW naught is right that is given to",
+    "start": 518.64,
+    "duration": 6.3
+  },
+  {
+    "text": "me now I'm saying that LW is just going",
+    "start": 520.919,
+    "duration": 8.161
+  },
+  {
+    "text": "to be this oh sorry LW is just going to",
+    "start": 524.94,
+    "duration": 6.899
+  },
+  {
+    "text": "be this which is whatever was my current",
+    "start": 529.08,
+    "duration": 6.06
+  },
+  {
+    "text": "value plus some quantity okay and what",
+    "start": 531.839,
+    "duration": 5.401
+  },
+  {
+    "text": "is this quantity this is L Dash W naught",
+    "start": 535.14,
+    "duration": 4.02
+  },
+  {
+    "text": "L Dash W naught is nothing but the first",
+    "start": 537.24,
+    "duration": 5.279
+  },
+  {
+    "text": "order derivative of the loss function W",
+    "start": 539.16,
+    "duration": 5.94
+  },
+  {
+    "text": "minus W naught is actually the Delta",
+    "start": 542.519,
+    "duration": 5.161
+  },
+  {
+    "text": "between that right now what is happening",
+    "start": 545.1,
+    "duration": 4.56
+  },
+  {
+    "text": "here all this looks very confusing to me",
+    "start": 547.68,
+    "duration": 3.9
+  },
+  {
+    "text": "so let's just try to draw a line here so",
+    "start": 549.66,
+    "duration": 4.799
+  },
+  {
+    "text": "what am I doing here right I am the",
+    "start": 551.58,
+    "duration": 5.04
+  },
+  {
+    "text": "actual function has a curve right it's",
+    "start": 554.459,
+    "duration": 4.201
+  },
+  {
+    "text": "some it's definitely not a linear",
+    "start": 556.62,
+    "duration": 4.2
+  },
+  {
+    "text": "function right but I'm approximating",
+    "start": 558.66,
+    "duration": 5.4
+  },
+  {
+    "text": "that function by a linear function I am",
+    "start": 560.82,
+    "duration": 5.94
+  },
+  {
+    "text": "saying that in this small neighborhood",
+    "start": 564.06,
+    "duration": 6.66
+  },
+  {
+    "text": "here right say from",
+    "start": 566.76,
+    "duration": 5.94
+  },
+  {
+    "text": "this is the small neighborhood",
+    "start": 570.72,
+    "duration": 3.84
+  },
+  {
+    "text": "in this small neighborhood I'm going to",
+    "start": 572.7,
+    "duration": 4.199
+  },
+  {
+    "text": "assume that the function is linear right",
+    "start": 574.56,
+    "duration": 4.92
+  },
+  {
+    "text": "now if the function is linear that means",
+    "start": 576.899,
+    "duration": 4.38
+  },
+  {
+    "text": "I have assumed that the function is of",
+    "start": 579.48,
+    "duration": 6.72
+  },
+  {
+    "text": "the form Y is equal to MX plus C okay",
+    "start": 581.279,
+    "duration": 7.801
+  },
+  {
+    "text": "and I already know y naught",
+    "start": 586.2,
+    "duration": 5.94
+  },
+  {
+    "text": "which is MX naught plus C right I",
+    "start": 589.08,
+    "duration": 8.34
+  },
+  {
+    "text": "already know that right and what is uh m",
+    "start": 592.14,
+    "duration": 7.98
+  },
+  {
+    "text": "m is simply the slope and the slope is",
+    "start": 597.42,
+    "duration": 4.5
+  },
+  {
+    "text": "just the derivative right so this is L",
+    "start": 600.12,
+    "duration": 4.98
+  },
+  {
+    "text": "Dash W right so this is what uh the",
+    "start": 601.92,
+    "duration": 6.72
+  },
+  {
+    "text": "slope is right now",
+    "start": 605.1,
+    "duration": 8.52
+  },
+  {
+    "text": "I want to find the value of y1 right and",
+    "start": 608.64,
+    "duration": 8.639
+  },
+  {
+    "text": "I know that say uh y1 lets you see right",
+    "start": 613.62,
+    "duration": 8.58
+  },
+  {
+    "text": "so y1 would be M into x 1 plus",
+    "start": 617.279,
+    "duration": 8.761
+  },
+  {
+    "text": "C right now if I subtract these two If I",
+    "start": 622.2,
+    "duration": 6.06
+  },
+  {
+    "text": "subtract the SEC first equation from the",
+    "start": 626.04,
+    "duration": 5.299
+  },
+  {
+    "text": "second equation I get y1",
+    "start": 628.26,
+    "duration": 5.4
+  },
+  {
+    "text": "minus y naught",
+    "start": 631.339,
+    "duration": 6.701
+  },
+  {
+    "text": "okay is equal to the C's will cancel and",
+    "start": 633.66,
+    "duration": 8.76
+  },
+  {
+    "text": "you will have M into X1 minus X naught",
+    "start": 638.04,
+    "duration": 7.68
+  },
+  {
+    "text": "okay and if I rewrite this I'll have y1",
+    "start": 642.42,
+    "duration": 8.64
+  },
+  {
+    "text": "is equal to Y naught okay plus",
+    "start": 645.72,
+    "duration": 10.26
+  },
+  {
+    "text": "M into x 1 minus X naught right and that",
+    "start": 651.06,
+    "duration": 6.719
+  },
+  {
+    "text": "is exactly what this formula is saying",
+    "start": 655.98,
+    "duration": 4.5
+  },
+  {
+    "text": "right so y naught is nothing but l w",
+    "start": 657.779,
+    "duration": 6.421
+  },
+  {
+    "text": "naught m is the slope and W minus W",
+    "start": 660.48,
+    "duration": 5.64
+  },
+  {
+    "text": "naught is the same as x 1 minus X naught",
+    "start": 664.2,
+    "duration": 3.48
+  },
+  {
+    "text": "right so that's what it's saying that",
+    "start": 666.12,
+    "duration": 4.8
+  },
+  {
+    "text": "now you can find y1 by assuming that",
+    "start": 667.68,
+    "duration": 6.06
+  },
+  {
+    "text": "this is a linear function okay and then",
+    "start": 670.92,
+    "duration": 4.2
+  },
+  {
+    "text": "you know the slope because you can",
+    "start": 673.74,
+    "duration": 3.48
+  },
+  {
+    "text": "compute the derivative at that point and",
+    "start": 675.12,
+    "duration": 5.52
+  },
+  {
+    "text": "now I can get a new value for y I can",
+    "start": 677.22,
+    "duration": 6.48
+  },
+  {
+    "text": "get the value for y1 where y1 is the",
+    "start": 680.64,
+    "duration": 5.639
+  },
+  {
+    "text": "value of the function at the point X1",
+    "start": 683.7,
+    "duration": 5.16
+  },
+  {
+    "text": "and there is a small Delta between X1",
+    "start": 686.279,
+    "duration": 4.921
+  },
+  {
+    "text": "minus X naught that means x 1 lies in",
+    "start": 688.86,
+    "duration": 5.219
+  },
+  {
+    "text": "the neighborhood of X naught okay and it",
+    "start": 691.2,
+    "duration": 4.86
+  },
+  {
+    "text": "will soon become clear why this is",
+    "start": 694.079,
+    "duration": 4.921
+  },
+  {
+    "text": "important okay so everything that needs",
+    "start": 696.06,
+    "duration": 4.62
+  },
+  {
+    "text": "to be explained has not been explained",
+    "start": 699.0,
+    "duration": 3.6
+  },
+  {
+    "text": "on the slide yet I still have some",
+    "start": 700.68,
+    "duration": 3.899
+  },
+  {
+    "text": "visuals on the next two slides which",
+    "start": 702.6,
+    "duration": 3.6
+  },
+  {
+    "text": "will make things more clear right but",
+    "start": 704.579,
+    "duration": 3.541
+  },
+  {
+    "text": "let's just go ahead with what we have",
+    "start": 706.2,
+    "duration": 3.06
+  },
+  {
+    "text": "now right let's just try to understand",
+    "start": 708.12,
+    "duration": 2.88
+  },
+  {
+    "text": "what it means to have a linear",
+    "start": 709.26,
+    "duration": 3.84
+  },
+  {
+    "text": "approximation you're just drawing a line",
+    "start": 711.0,
+    "duration": 4.38
+  },
+  {
+    "text": "at that point right and you're saying",
+    "start": 713.1,
+    "duration": 4.2
+  },
+  {
+    "text": "that if I just move along this line",
+    "start": 715.38,
+    "duration": 4.079
+  },
+  {
+    "text": "right so instead of moving along this",
+    "start": 717.3,
+    "duration": 3.779
+  },
+  {
+    "text": "curve which is what you should have done",
+    "start": 719.459,
+    "duration": 4.081
+  },
+  {
+    "text": "you are moving along that line and",
+    "start": 721.079,
+    "duration": 4.32
+  },
+  {
+    "text": "whatever value you get on that line that",
+    "start": 723.54,
+    "duration": 3.78
+  },
+  {
+    "text": "is the value you are assuming for y1",
+    "start": 725.399,
+    "duration": 4.141
+  },
+  {
+    "text": "right so that's an approximation and you",
+    "start": 727.32,
+    "duration": 4.98
+  },
+  {
+    "text": "can already see",
+    "start": 729.54,
+    "duration": 6.66
+  },
+  {
+    "text": "right that this value here let me just",
+    "start": 732.3,
+    "duration": 6.24
+  },
+  {
+    "text": "mark it with a different color",
+    "start": 736.2,
+    "duration": 5.16
+  },
+  {
+    "text": "right so this blue value here is what",
+    "start": 738.54,
+    "duration": 4.32
+  },
+  {
+    "text": "you would get right that's the point on",
+    "start": 741.36,
+    "duration": 4.02
+  },
+  {
+    "text": "the line it's slightly above the red",
+    "start": 742.86,
+    "duration": 4.32
+  },
+  {
+    "text": "curve right so it's an approximation you",
+    "start": 745.38,
+    "duration": 3.12
+  },
+  {
+    "text": "will get some error there because you",
+    "start": 747.18,
+    "duration": 2.94
+  },
+  {
+    "text": "have done a linear approximation right",
+    "start": 748.5,
+    "duration": 3.899
+  },
+  {
+    "text": "now let me just get rid of all this",
+    "start": 750.12,
+    "duration": 5.159
+  },
+  {
+    "text": "content and now let's see if I had done",
+    "start": 752.399,
+    "duration": 4.74
+  },
+  {
+    "text": "a quadratic approximation that means if",
+    "start": 755.279,
+    "duration": 4.441
+  },
+  {
+    "text": "I had cut the formula here right so what",
+    "start": 757.139,
+    "duration": 4.021
+  },
+  {
+    "text": "happens in that case this is what the",
+    "start": 759.72,
+    "duration": 4.08
+  },
+  {
+    "text": "formula looks like right and just as the",
+    "start": 761.16,
+    "duration": 5.7
+  },
+  {
+    "text": "first one was of the form Y is equal to",
+    "start": 763.8,
+    "duration": 6.0
+  },
+  {
+    "text": "MX plus C right and here you have a",
+    "start": 766.86,
+    "duration": 5.34
+  },
+  {
+    "text": "quadratic term so this is nothing but Y",
+    "start": 769.8,
+    "duration": 4.74
+  },
+  {
+    "text": "is equal to ax Square",
+    "start": 772.2,
+    "duration": 5.46
+  },
+  {
+    "text": "plus BX plus C right so now I'm",
+    "start": 774.54,
+    "duration": 5.34
+  },
+  {
+    "text": "approximating the function as a",
+    "start": 777.66,
+    "duration": 4.14
+  },
+  {
+    "text": "quadratic function right and these",
+    "start": 779.88,
+    "duration": 3.24
+  },
+  {
+    "text": "coefficients are coming from the",
+    "start": 781.8,
+    "duration": 3.42
+  },
+  {
+    "text": "derivatives as was the case in the first",
+    "start": 783.12,
+    "duration": 3.719
+  },
+  {
+    "text": "case the first first order derivative",
+    "start": 785.22,
+    "duration": 3.419
+  },
+  {
+    "text": "the second order derivative right so",
+    "start": 786.839,
+    "duration": 3.901
+  },
+  {
+    "text": "what does that mean it means that now",
+    "start": 788.639,
+    "duration": 5.64
+  },
+  {
+    "text": "I'm approximating the red curve by this",
+    "start": 790.74,
+    "duration": 6.42
+  },
+  {
+    "text": "uh c n or blue colored curve right and",
+    "start": 794.279,
+    "duration": 4.381
+  },
+  {
+    "text": "you can see that in the small",
+    "start": 797.16,
+    "duration": 3.54
+  },
+  {
+    "text": "neighborhood now right this neighborhood",
+    "start": 798.66,
+    "duration": 4.4
+  },
+  {
+    "text": "now",
+    "start": 800.7,
+    "duration": 2.36
+  },
+  {
+    "text": "the second order approximation is",
+    "start": 804.3,
+    "duration": 3.42
+  },
+  {
+    "text": "actually better than the first other",
+    "start": 806.459,
+    "duration": 3.901
+  },
+  {
+    "text": "approximation right it's more closer the",
+    "start": 807.72,
+    "duration": 4.919
+  },
+  {
+    "text": "blue curve in that small neighborhood is",
+    "start": 810.36,
+    "duration": 5.039
+  },
+  {
+    "text": "more closer to the red curve than the",
+    "start": 812.639,
+    "duration": 5.101
+  },
+  {
+    "text": "black curve is to the red curve right so",
+    "start": 815.399,
+    "duration": 4.261
+  },
+  {
+    "text": "this is you can just keep cutting the",
+    "start": 817.74,
+    "duration": 3.959
+  },
+  {
+    "text": "formula wherever you want and that's",
+    "start": 819.66,
+    "duration": 4.14
+  },
+  {
+    "text": "what the approximation gives how this",
+    "start": 821.699,
+    "duration": 3.781
+  },
+  {
+    "text": "relates to what we are trying to do all",
+    "start": 823.8,
+    "duration": 3.18
+  },
+  {
+    "text": "that is not clear right now right now we",
+    "start": 825.48,
+    "duration": 2.7
+  },
+  {
+    "text": "just want to understand what Taylor",
+    "start": 826.98,
+    "duration": 3.419
+  },
+  {
+    "text": "series is Taylor series just gives a way",
+    "start": 828.18,
+    "duration": 6.0
+  },
+  {
+    "text": "of approximating uh the function and you",
+    "start": 830.399,
+    "duration": 5.761
+  },
+  {
+    "text": "can use any order of approximation n",
+    "start": 834.18,
+    "duration": 3.599
+  },
+  {
+    "text": "equal to 1 n equal to n equal to three",
+    "start": 836.16,
+    "duration": 3.239
+  },
+  {
+    "text": "the higher the order the better the",
+    "start": 837.779,
+    "duration": 4.5
+  },
+  {
+    "text": "approximation okay so now let's uh kind",
+    "start": 839.399,
+    "duration": 7.641
+  },
+  {
+    "text": "of move ahead from here and see",
+    "start": 842.279,
+    "duration": 4.761
+  },
+  {
+    "text": "way to go yeah so now here's the same",
+    "start": 847.74,
+    "duration": 5.279
+  },
+  {
+    "text": "plot right and now I'll do some uh stuff",
+    "start": 850.62,
+    "duration": 5.94
+  },
+  {
+    "text": "here so this Epsilon actually defines",
+    "start": 853.019,
+    "duration": 6.68
+  },
+  {
+    "text": "the neighborhood oops",
+    "start": 856.56,
+    "duration": 3.139
+  },
+  {
+    "text": "right so the smaller the value of",
+    "start": 864.42,
+    "duration": 5.64
+  },
+  {
+    "text": "Epsilon you can see that smaller is the",
+    "start": 867.66,
+    "duration": 4.5
+  },
+  {
+    "text": "neighborhood that I am considering here",
+    "start": 870.06,
+    "duration": 4.68
+  },
+  {
+    "text": "okay and I'll tell you why that is",
+    "start": 872.16,
+    "duration": 6.84
+  },
+  {
+    "text": "important okay uh now uh this function",
+    "start": 874.74,
+    "duration": 8.64
+  },
+  {
+    "text": "is log of w okay and now I know the",
+    "start": 879.0,
+    "duration": 6.72
+  },
+  {
+    "text": "value of the function at this point here",
+    "start": 883.38,
+    "duration": 4.68
+  },
+  {
+    "text": "right this point here I am going to",
+    "start": 885.72,
+    "duration": 4.44
+  },
+  {
+    "text": "approximate its value in a small",
+    "start": 888.06,
+    "duration": 4.38
+  },
+  {
+    "text": "neighborhood around it right and the",
+    "start": 890.16,
+    "duration": 5.4
+  },
+  {
+    "text": "value would be whatever is on the Orange",
+    "start": 892.44,
+    "duration": 4.74
+  },
+  {
+    "text": "Line because that's the linear",
+    "start": 895.56,
+    "duration": 3.66
+  },
+  {
+    "text": "approximation I have made that's the",
+    "start": 897.18,
+    "duration": 3.779
+  },
+  {
+    "text": "line that I have drawn and I'm trying to",
+    "start": 899.22,
+    "duration": 3.96
+  },
+  {
+    "text": "approximate the blue curve by this line",
+    "start": 900.959,
+    "duration": 4.56
+  },
+  {
+    "text": "now when the Epsilon is small that means",
+    "start": 903.18,
+    "duration": 3.54
+  },
+  {
+    "text": "when I am looking at a very small",
+    "start": 905.519,
+    "duration": 3.901
+  },
+  {
+    "text": "neighborhood this Orange Line acts as a",
+    "start": 906.72,
+    "duration": 4.2
+  },
+  {
+    "text": "good approximation of the blue curve",
+    "start": 909.42,
+    "duration": 3.0
+  },
+  {
+    "text": "right in that small neighborhood that",
+    "start": 910.92,
+    "duration": 3.24
+  },
+  {
+    "text": "you see between these two points here",
+    "start": 912.42,
+    "duration": 4.74
+  },
+  {
+    "text": "that is the orange line is very close to",
+    "start": 914.16,
+    "duration": 5.46
+  },
+  {
+    "text": "the Blue Line but as the neighborhood",
+    "start": 917.16,
+    "duration": 4.679
+  },
+  {
+    "text": "increases if you come go very far from",
+    "start": 919.62,
+    "duration": 4.5
+  },
+  {
+    "text": "the point that you were and now you're",
+    "start": 921.839,
+    "duration": 4.261
+  },
+  {
+    "text": "going to try it so this is your X naught",
+    "start": 924.12,
+    "duration": 4.7
+  },
+  {
+    "text": "right this",
+    "start": 926.1,
+    "duration": 2.72
+  },
+  {
+    "text": "this point here is your X naught right",
+    "start": 929.519,
+    "duration": 5.281
+  },
+  {
+    "text": "and let me consider some x one here",
+    "start": 931.98,
+    "duration": 5.159
+  },
+  {
+    "text": "right so now what is sorry this should",
+    "start": 934.8,
+    "duration": 4.5
+  },
+  {
+    "text": "have been X1 so now what it is telling",
+    "start": 937.139,
+    "duration": 4.56
+  },
+  {
+    "text": "me is that if I try to compute y1",
+    "start": 939.3,
+    "duration": 5.459
+  },
+  {
+    "text": "is equal to Y naught right so this point",
+    "start": 941.699,
+    "duration": 6.181
+  },
+  {
+    "text": "here on the line is y naught okay if I",
+    "start": 944.759,
+    "duration": 5.101
+  },
+  {
+    "text": "try to compute y1 is equal to Y naught",
+    "start": 947.88,
+    "duration": 5.879
+  },
+  {
+    "text": "plus the formula that I had at M into X1",
+    "start": 949.86,
+    "duration": 6.779
+  },
+  {
+    "text": "minus X naught right then the answer",
+    "start": 953.759,
+    "duration": 5.64
+  },
+  {
+    "text": "that I'll get is this and you can see",
+    "start": 956.639,
+    "duration": 5.581
+  },
+  {
+    "text": "that it's way off right it's not not",
+    "start": 959.399,
+    "duration": 6.421
+  },
+  {
+    "text": "really a good approximation even if uh",
+    "start": 962.22,
+    "duration": 8.34
+  },
+  {
+    "text": "my X1 I was here right and then what",
+    "start": 965.82,
+    "duration": 6.6
+  },
+  {
+    "text": "I'll get if I substitute in this formula",
+    "start": 970.56,
+    "duration": 4.56
+  },
+  {
+    "text": "I'll get the y1 as this point and you",
+    "start": 972.42,
+    "duration": 4.5
+  },
+  {
+    "text": "can see that it's actually very far off",
+    "start": 975.12,
+    "duration": 4.98
+  },
+  {
+    "text": "from the true value of y1 right so hence",
+    "start": 976.92,
+    "duration": 5.82
+  },
+  {
+    "text": "this as the neighborhood goes this",
+    "start": 980.1,
+    "duration": 5.039
+  },
+  {
+    "text": "approximation becomes bad so that is a",
+    "start": 982.74,
+    "duration": 4.56
+  },
+  {
+    "text": "key thing that you can do this only in a",
+    "start": 985.139,
+    "duration": 4.021
+  },
+  {
+    "text": "small neighborhood that means the",
+    "start": 987.3,
+    "duration": 3.36
+  },
+  {
+    "text": "difference between X1 and X naught",
+    "start": 989.16,
+    "duration": 5.239
+  },
+  {
+    "text": "should be very small that is one okay",
+    "start": 990.66,
+    "duration": 3.739
+  },
+  {
+    "text": "now let's see something else also",
+    "start": 994.62,
+    "duration": 6.42
+  },
+  {
+    "text": "the other thing is that as I increase uh",
+    "start": 997.92,
+    "duration": 4.919
+  },
+  {
+    "text": "W naught right I mean I'm just changing",
+    "start": 1001.04,
+    "duration": 4.38
+  },
+  {
+    "text": "the value of w naught and you can see",
+    "start": 1002.839,
+    "duration": 6.0
+  },
+  {
+    "text": "that the orange curve is a very good",
+    "start": 1005.42,
+    "duration": 6.2
+  },
+  {
+    "text": "approximation",
+    "start": 1008.839,
+    "duration": 2.781
+  },
+  {
+    "text": "let me just increase the Delta but let",
+    "start": 1013.94,
+    "duration": 5.399
+  },
+  {
+    "text": "me reset this yeah uh now I'm just going",
+    "start": 1016.279,
+    "duration": 7.56
+  },
+  {
+    "text": "to increase uh the neighborhood right",
+    "start": 1019.339,
+    "duration": 6.781
+  },
+  {
+    "text": "okay now even with this increase in",
+    "start": 1023.839,
+    "duration": 3.781
+  },
+  {
+    "text": "neighborhood",
+    "start": 1026.12,
+    "duration": 3.9
+  },
+  {
+    "text": "the orange line still seems to be a very",
+    "start": 1027.62,
+    "duration": 4.62
+  },
+  {
+    "text": "good approximation of the blue curve and",
+    "start": 1030.02,
+    "duration": 4.5
+  },
+  {
+    "text": "why is that happening because the slope",
+    "start": 1032.24,
+    "duration": 4.98
+  },
+  {
+    "text": "in that region right is quite less so my",
+    "start": 1034.52,
+    "duration": 6.36
+  },
+  {
+    "text": "Delta or my M right it's very less and",
+    "start": 1037.22,
+    "duration": 5.28
+  },
+  {
+    "text": "that's helping right but now if I change",
+    "start": 1040.88,
+    "duration": 4.02
+  },
+  {
+    "text": "the value of w a bit right if I go here",
+    "start": 1042.5,
+    "duration": 5.64
+  },
+  {
+    "text": "now here my slope is very high as you",
+    "start": 1044.9,
+    "duration": 5.46
+  },
+  {
+    "text": "can see right the gradient is very high",
+    "start": 1048.14,
+    "duration": 5.58
+  },
+  {
+    "text": "and now in that case my approximation is",
+    "start": 1050.36,
+    "duration": 5.58
+  },
+  {
+    "text": "becoming very bad right so this is what",
+    "start": 1053.72,
+    "duration": 3.839
+  },
+  {
+    "text": "the same window I have not changed the",
+    "start": 1055.94,
+    "duration": 6.0
+  },
+  {
+    "text": "window right but uh now if you can see",
+    "start": 1057.559,
+    "duration": 6.48
+  },
+  {
+    "text": "this is the approximation and this is",
+    "start": 1061.94,
+    "duration": 4.2
+  },
+  {
+    "text": "the true value and the Gap is very high",
+    "start": 1064.039,
+    "duration": 6.721
+  },
+  {
+    "text": "right whereas with the same window",
+    "start": 1066.14,
+    "duration": 7.94
+  },
+  {
+    "text": "if I'm in a region",
+    "start": 1070.76,
+    "duration": 3.32
+  },
+  {
+    "text": "where the slope is small right then",
+    "start": 1076.28,
+    "duration": 4.68
+  },
+  {
+    "text": "still the approximation is quite good",
+    "start": 1079.46,
+    "duration": 3.12
+  },
+  {
+    "text": "you can see that the points on the",
+    "start": 1080.96,
+    "duration": 4.26
+  },
+  {
+    "text": "Orange Line are very close to the points",
+    "start": 1082.58,
+    "duration": 3.839
+  },
+  {
+    "text": "on the blue line because this is a",
+    "start": 1085.22,
+    "duration": 3.54
+  },
+  {
+    "text": "region where the slope is very low right",
+    "start": 1086.419,
+    "duration": 3.601
+  },
+  {
+    "text": "whereas this was the reason where the",
+    "start": 1088.76,
+    "duration": 3.539
+  },
+  {
+    "text": "slope was very high right that's just",
+    "start": 1090.02,
+    "duration": 3.96
+  },
+  {
+    "text": "some observation so now you can see what",
+    "start": 1092.299,
+    "duration": 3.421
+  },
+  {
+    "text": "is actually happening in the Taylor",
+    "start": 1093.98,
+    "duration": 3.66
+  },
+  {
+    "text": "series approximation wherever you are",
+    "start": 1095.72,
+    "duration": 4.02
+  },
+  {
+    "text": "you are drawing a tangent and you are",
+    "start": 1097.64,
+    "duration": 3.36
+  },
+  {
+    "text": "saying that this line given by the",
+    "start": 1099.74,
+    "duration": 3.24
+  },
+  {
+    "text": "tangent is my approximation for the",
+    "start": 1101.0,
+    "duration": 4.62
+  },
+  {
+    "text": "original function and in small windows",
+    "start": 1102.98,
+    "duration": 5.46
+  },
+  {
+    "text": "that approximation works very well right",
+    "start": 1105.62,
+    "duration": 6.24
+  },
+  {
+    "text": "even when the gradient is large right so",
+    "start": 1108.44,
+    "duration": 5.94
+  },
+  {
+    "text": "if my window is small",
+    "start": 1111.86,
+    "duration": 5.179
+  },
+  {
+    "text": "oops",
+    "start": 1114.38,
+    "duration": 2.659
+  },
+  {
+    "text": "then even as my gradient changes right",
+    "start": 1119.179,
+    "duration": 4.38
+  },
+  {
+    "text": "my approximation is still quite good",
+    "start": 1121.52,
+    "duration": 4.32
+  },
+  {
+    "text": "right so in the small neighborhoods my",
+    "start": 1123.559,
+    "duration": 4.261
+  },
+  {
+    "text": "approximation always remains quite good",
+    "start": 1125.84,
+    "duration": 4.26
+  },
+  {
+    "text": "even for high values of the gradient but",
+    "start": 1127.82,
+    "duration": 6.06
+  },
+  {
+    "text": "if my uh my window is large then the",
+    "start": 1130.1,
+    "duration": 5.88
+  },
+  {
+    "text": "approximation becomes quite bad as you",
+    "start": 1133.88,
+    "duration": 3.539
+  },
+  {
+    "text": "can see here right so that's important",
+    "start": 1135.98,
+    "duration": 4.199
+  },
+  {
+    "text": "that Taylor series is only used in small",
+    "start": 1137.419,
+    "duration": 6.841
+  },
+  {
+    "text": "uh Windows okay now that was one now let",
+    "start": 1140.179,
+    "duration": 6.841
+  },
+  {
+    "text": "me just reset this okay and I change the",
+    "start": 1144.26,
+    "duration": 5.88
+  },
+  {
+    "text": "function okay I want to make it the sine",
+    "start": 1147.02,
+    "duration": 5.6
+  },
+  {
+    "text": "function",
+    "start": 1150.14,
+    "duration": 2.48
+  },
+  {
+    "text": "okay and now this is what my",
+    "start": 1152.66,
+    "duration": 3.84
+  },
+  {
+    "text": "approximation looks like now I'm going",
+    "start": 1154.64,
+    "duration": 3.72
+  },
+  {
+    "text": "to increase the degree so this is a",
+    "start": 1156.5,
+    "duration": 3.66
+  },
+  {
+    "text": "linear approximation right now right",
+    "start": 1158.36,
+    "duration": 3.84
+  },
+  {
+    "text": "because I've just cut off the formula at",
+    "start": 1160.16,
+    "duration": 4.74
+  },
+  {
+    "text": "the first order term now this is a",
+    "start": 1162.2,
+    "duration": 5.28
+  },
+  {
+    "text": "quadratic approximation you can see that",
+    "start": 1164.9,
+    "duration": 4.86
+  },
+  {
+    "text": "it looks better right the orange curve",
+    "start": 1167.48,
+    "duration": 5.34
+  },
+  {
+    "text": "is closer to the blue curve right and",
+    "start": 1169.76,
+    "duration": 4.86
+  },
+  {
+    "text": "now what I'm trying to prove actually is",
+    "start": 1172.82,
+    "duration": 5.7
+  },
+  {
+    "text": "the uh utility of the Taylor series or",
+    "start": 1174.62,
+    "duration": 7.08
+  },
+  {
+    "text": "uh how good the approximations get as",
+    "start": 1178.52,
+    "duration": 4.74
+  },
+  {
+    "text": "you keep increasing the degree so this",
+    "start": 1181.7,
+    "duration": 4.2
+  },
+  {
+    "text": "is a degree to approximation where I cut",
+    "start": 1183.26,
+    "duration": 5.039
+  },
+  {
+    "text": "the formula at the second order terms if",
+    "start": 1185.9,
+    "duration": 4.2
+  },
+  {
+    "text": "I cut the formula the third order terms",
+    "start": 1188.299,
+    "duration": 4.021
+  },
+  {
+    "text": "this is what I get right and now you can",
+    "start": 1190.1,
+    "duration": 4.98
+  },
+  {
+    "text": "see that in a very larger neighborhood",
+    "start": 1192.32,
+    "duration": 4.02
+  },
+  {
+    "text": "also",
+    "start": 1195.08,
+    "duration": 4.02
+  },
+  {
+    "text": "right the approximation is quite good",
+    "start": 1196.34,
+    "duration": 5.819
+  },
+  {
+    "text": "right I mean the the true curve is very",
+    "start": 1199.1,
+    "duration": 7.14
+  },
+  {
+    "text": "close uh to the orange curve right let's",
+    "start": 1202.159,
+    "duration": 6.9
+  },
+  {
+    "text": "increase it further further",
+    "start": 1206.24,
+    "duration": 4.319
+  },
+  {
+    "text": "further",
+    "start": 1209.059,
+    "duration": 3.901
+  },
+  {
+    "text": "I think I'm at degree 7 or degree 8 now",
+    "start": 1210.559,
+    "duration": 4.98
+  },
+  {
+    "text": "and it's almost perfectly approximating",
+    "start": 1212.96,
+    "duration": 4.62
+  },
+  {
+    "text": "right so as I keep increasing the degree",
+    "start": 1215.539,
+    "duration": 4.321
+  },
+  {
+    "text": "the approximation becomes better than",
+    "start": 1217.58,
+    "duration": 4.44
+  },
+  {
+    "text": "that and if I go till the very large",
+    "start": 1219.86,
+    "duration": 4.86
+  },
+  {
+    "text": "terms then I'm all I'm constructing the",
+    "start": 1222.02,
+    "duration": 5.82
+  },
+  {
+    "text": "entire function in by as a sum of its",
+    "start": 1224.72,
+    "duration": 4.38
+  },
+  {
+    "text": "parts right and that's what the Taylor",
+    "start": 1227.84,
+    "duration": 3.36
+  },
+  {
+    "text": "series actually says that if I use the",
+    "start": 1229.1,
+    "duration": 3.66
+  },
+  {
+    "text": "full formula then you get the function",
+    "start": 1231.2,
+    "duration": 3.06
+  },
+  {
+    "text": "back right that's the beauty of the",
+    "start": 1232.76,
+    "duration": 3.779
+  },
+  {
+    "text": "Taylor series approximation if I keep",
+    "start": 1234.26,
+    "duration": 4.26
+  },
+  {
+    "text": "decreasing then my approximations become",
+    "start": 1236.539,
+    "duration": 4.081
+  },
+  {
+    "text": "bad and in the linear case my",
+    "start": 1238.52,
+    "duration": 4.86
+  },
+  {
+    "text": "approximations are bad but they're very",
+    "start": 1240.62,
+    "duration": 5.4
+  },
+  {
+    "text": "good in a small neighborhood around the",
+    "start": 1243.38,
+    "duration": 5.1
+  },
+  {
+    "text": "point right that's the main in the small",
+    "start": 1246.02,
+    "duration": 4.94
+  },
+  {
+    "text": "neighborhood",
+    "start": 1248.48,
+    "duration": 2.48
+  },
+  {
+    "text": "yeah my approximations are quite good",
+    "start": 1251.78,
+    "duration": 4.62
+  },
+  {
+    "text": "right so that's the main thing you need",
+    "start": 1255.08,
+    "duration": 3.12
+  },
+  {
+    "text": "to understand about the Taylor series",
+    "start": 1256.4,
+    "duration": 4.92
+  },
+  {
+    "text": "okay so now let's go ahead",
+    "start": 1258.2,
+    "duration": 5.64
+  },
+  {
+    "text": "uh and see what happens if you have a 2d",
+    "start": 1261.32,
+    "duration": 4.739
+  },
+  {
+    "text": "function right so I had earlier now I",
+    "start": 1263.84,
+    "duration": 6.199
+  },
+  {
+    "text": "was just dealing with L of uh",
+    "start": 1266.059,
+    "duration": 3.98
+  },
+  {
+    "text": "w",
+    "start": 1272.179,
+    "duration": 6.721
+  },
+  {
+    "text": "now what if I have L of w comma B right",
+    "start": 1273.559,
+    "duration": 7.74
+  },
+  {
+    "text": "and in this case instead of w comma B I",
+    "start": 1278.9,
+    "duration": 4.08
+  },
+  {
+    "text": "just have X comma y right for",
+    "start": 1281.299,
+    "duration": 4.561
+  },
+  {
+    "text": "convenience uh those are the two axes",
+    "start": 1282.98,
+    "duration": 5.22
+  },
+  {
+    "text": "that I have taken okay but I just the",
+    "start": 1285.86,
+    "duration": 3.72
+  },
+  {
+    "text": "main point is if you want to move to two",
+    "start": 1288.2,
+    "duration": 5.3
+  },
+  {
+    "text": "variables right so now",
+    "start": 1289.58,
+    "duration": 3.92
+  },
+  {
+    "text": "yeah so this is what the curve looks",
+    "start": 1299.78,
+    "duration": 6.3
+  },
+  {
+    "text": "like okay and let me just delete my",
+    "start": 1302.48,
+    "duration": 6.48
+  },
+  {
+    "text": "annotations yeah so this is what the",
+    "start": 1306.08,
+    "duration": 5.28
+  },
+  {
+    "text": "curve looks like now again if I do a",
+    "start": 1308.96,
+    "duration": 4.26
+  },
+  {
+    "text": "linear approximation as you can see here",
+    "start": 1311.36,
+    "duration": 4.02
+  },
+  {
+    "text": "I'm doing a linear approximation then",
+    "start": 1313.22,
+    "duration": 4.74
+  },
+  {
+    "text": "what I'll get is a line in 2D it would",
+    "start": 1315.38,
+    "duration": 3.9
+  },
+  {
+    "text": "just be a plane right so I've just",
+    "start": 1317.96,
+    "duration": 3.959
+  },
+  {
+    "text": "approximated the function by a plane and",
+    "start": 1319.28,
+    "duration": 4.08
+  },
+  {
+    "text": "you can see that in this small",
+    "start": 1321.919,
+    "duration": 3.841
+  },
+  {
+    "text": "neighborhood my approximation is still",
+    "start": 1323.36,
+    "duration": 3.78
+  },
+  {
+    "text": "good right let me just get the right",
+    "start": 1325.76,
+    "duration": 3.48
+  },
+  {
+    "text": "angle so that you can see it properly",
+    "start": 1327.14,
+    "duration": 4.98
+  },
+  {
+    "text": "yeah see now I can see that the my plane",
+    "start": 1329.24,
+    "duration": 6.12
+  },
+  {
+    "text": "is very close uh to the curve but now if",
+    "start": 1332.12,
+    "duration": 6.24
+  },
+  {
+    "text": "I increase this ETA then as was the case",
+    "start": 1335.36,
+    "duration": 5.16
+  },
+  {
+    "text": "earlier my approximation becomes bad",
+    "start": 1338.36,
+    "duration": 4.799
+  },
+  {
+    "text": "right so at this point my approximation",
+    "start": 1340.52,
+    "duration": 4.62
+  },
+  {
+    "text": "of my original point w naught was here",
+    "start": 1343.159,
+    "duration": 5.4
+  },
+  {
+    "text": "then if my new point is very far out of",
+    "start": 1345.14,
+    "duration": 5.22
+  },
+  {
+    "text": "the neighborhood then the approximation",
+    "start": 1348.559,
+    "duration": 4.321
+  },
+  {
+    "text": "would be bad but even in a small",
+    "start": 1350.36,
+    "duration": 4.559
+  },
+  {
+    "text": "neighborhood the linear approximation",
+    "start": 1352.88,
+    "duration": 5.279
+  },
+  {
+    "text": "Works quite well right and again I could",
+    "start": 1354.919,
+    "duration": 6.24
+  },
+  {
+    "text": "just change the value of x and if I go",
+    "start": 1358.159,
+    "duration": 6.661
+  },
+  {
+    "text": "to a region where the slope is",
+    "start": 1361.159,
+    "duration": 5.101
+  },
+  {
+    "text": "changing then the approximation",
+    "start": 1364.82,
+    "duration": 3.239
+  },
+  {
+    "text": "accordingly will become good or bad but",
+    "start": 1366.26,
+    "duration": 3.48
+  },
+  {
+    "text": "that doesn't matter if you keep the ETA",
+    "start": 1368.059,
+    "duration": 3.721
+  },
+  {
+    "text": "small then your approximations would be",
+    "start": 1369.74,
+    "duration": 4.679
+  },
+  {
+    "text": "good right and now if I make a quadratic",
+    "start": 1371.78,
+    "duration": 4.5
+  },
+  {
+    "text": "approximation right I'll just remove the",
+    "start": 1374.419,
+    "duration": 4.081
+  },
+  {
+    "text": "linear one and just keep the quadratic",
+    "start": 1376.28,
+    "duration": 5.04
+  },
+  {
+    "text": "approximation uh I think you're not able",
+    "start": 1378.5,
+    "duration": 4.44
+  },
+  {
+    "text": "to see it yeah so here's the quadratic",
+    "start": 1381.32,
+    "duration": 3.839
+  },
+  {
+    "text": "approximation right and now even if I",
+    "start": 1382.94,
+    "duration": 5.28
+  },
+  {
+    "text": "increase the W the window a bit you can",
+    "start": 1385.159,
+    "duration": 5.52
+  },
+  {
+    "text": "see that my approximation is still quite",
+    "start": 1388.22,
+    "duration": 6.0
+  },
+  {
+    "text": "good right so that's the idea here in",
+    "start": 1390.679,
+    "duration": 5.941
+  },
+  {
+    "text": "fact the original function itself is uh",
+    "start": 1394.22,
+    "duration": 4.98
+  },
+  {
+    "text": "quadratic in various parts right so",
+    "start": 1396.62,
+    "duration": 4.26
+  },
+  {
+    "text": "that's why my approximation is quite",
+    "start": 1399.2,
+    "duration": 4.74
+  },
+  {
+    "text": "good right so that's uh that's that's",
+    "start": 1400.88,
+    "duration": 5.34
+  },
+  {
+    "text": "the idea here so the original function",
+    "start": 1403.94,
+    "duration": 4.619
+  },
+  {
+    "text": "is of course 0.5 sine X Plus 0.25 sine y",
+    "start": 1406.22,
+    "duration": 4.02
+  },
+  {
+    "text": "but what I meant it in some parts it's",
+    "start": 1408.559,
+    "duration": 3.181
+  },
+  {
+    "text": "Contra I mean it's looking like",
+    "start": 1410.24,
+    "duration": 3.36
+  },
+  {
+    "text": "quadratic function right so if you do a",
+    "start": 1411.74,
+    "duration": 3.9
+  },
+  {
+    "text": "quadratic approximation it still would",
+    "start": 1413.6,
+    "duration": 4.74
+  },
+  {
+    "text": "be very uh good right so you can do this",
+    "start": 1415.64,
+    "duration": 4.68
+  },
+  {
+    "text": "whether you have a one variable function",
+    "start": 1418.34,
+    "duration": 4.439
+  },
+  {
+    "text": "or a two variable function of course",
+    "start": 1420.32,
+    "duration": 4.859
+  },
+  {
+    "text": "three variable functions I cannot I'm",
+    "start": 1422.779,
+    "duration": 4.14
+  },
+  {
+    "text": "just trying to get the angle right yeah",
+    "start": 1425.179,
+    "duration": 3.301
+  },
+  {
+    "text": "this is what it is and you can see that",
+    "start": 1426.919,
+    "duration": 3.12
+  },
+  {
+    "text": "the approximation is good so this is",
+    "start": 1428.48,
+    "duration": 3.42
+  },
+  {
+    "text": "what the Taylor series does and you can",
+    "start": 1430.039,
+    "duration": 3.661
+  },
+  {
+    "text": "do this approximation in multiple",
+    "start": 1431.9,
+    "duration": 3.48
+  },
+  {
+    "text": "Dimensions also right so it need not be",
+    "start": 1433.7,
+    "duration": 3.66
+  },
+  {
+    "text": "a function of a single variable it can",
+    "start": 1435.38,
+    "duration": 3.84
+  },
+  {
+    "text": "also be a function of multiple variables",
+    "start": 1437.36,
+    "duration": 3.6
+  },
+  {
+    "text": "okay",
+    "start": 1439.22,
+    "duration": 2.64
+  },
+  {
+    "text": "um",
+    "start": 1440.96,
+    "duration": 3.18
+  },
+  {
+    "text": "second take a pause here I'll let you",
+    "start": 1441.86,
+    "duration": 4.62
+  },
+  {
+    "text": "reflect on this you could also go back",
+    "start": 1444.14,
+    "duration": 4.5
+  },
+  {
+    "text": "to the lecture slides right the slides",
+    "start": 1446.48,
+    "duration": 4.319
+  },
+  {
+    "text": "are also available on my web page and",
+    "start": 1448.64,
+    "duration": 3.899
+  },
+  {
+    "text": "you can just go and try to play around",
+    "start": 1450.799,
+    "duration": 4.26
+  },
+  {
+    "text": "with this digest this idea and then come",
+    "start": 1452.539,
+    "duration": 4.921
+  },
+  {
+    "text": "back and watch the next video okay I'll",
+    "start": 1455.059,
+    "duration": 5.901
+  },
+  {
+    "text": "just take a pause here thank you",
+    "start": 1457.46,
+    "duration": 3.5
+  }
+]

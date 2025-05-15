@@ -1,0 +1,11 @@
+wt plus pi norm square right that is what this is and the norm is just the dot product of.
+the vector with itself right so wt plus uh the square root of the dot product so now this would.
+be wt plus pi and dot product with wt plus pi okay now again i'll just open up the brackets.
+okay so i get the square of the norm of wt plus 2 times wt dot pi okay plus pi.
+square and i'd assume that the pi's are normalized so the norm of pi is going to be 1 so.
+i'm just going to replace that by 1 okay and i'm going to do something else also so how did.
+i get from here to here because of this condition i know that w t p i is less than.
+equal to 0 that's why i am here right and if that is the case then 2 times w t.
+p is also going to be less than equal to 0 that means this sum is going to be less.
+than or equal to this sum let me just get rid of all the marks so this sum okay has.
+a quantity which is negative okay this sum does not have that quantity so it follows that this sum is.

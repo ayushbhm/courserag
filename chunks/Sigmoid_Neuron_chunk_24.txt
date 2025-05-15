@@ -1,0 +1,7 @@
+that we study today and going forward in the next few lectures everywhere calculus would play an important role in.
+particular derivatives would play an important role and hence it's important that the functions that we deal with are differentiable.
+right so that's where I leave it for now I'll not delve further into it and you'll get to know.
+why differentiability is important because I'll soon start taking derivatives of something right and if I'm taking derivatives of something.
+in everything in the calculation is not differentiable of all the functions in world are not differentiable then you can't.
+take the derivatives right so that's why it's important to have differentiable functions and that's why we have it's good.
+to have the sigmoid Neutron okay.

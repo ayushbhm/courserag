@@ -1,0 +1,9 @@
+is being said in this slide so each thinned Network will get trained rarely because there are two raised to.
+end networks right so it's very unlikely that this network if n is very large right which is typically the.
+case that the same network will get sampled many times because there are two ways to end different configurations possible.
+so it was also possible that some of these networks will never get sampled at all right because if your.
+number of steps which you run the data for is less that run the training for is less than 2.
+raised to n right suppose you have a million nodes the two raised to million is going to be very.
+large and you're going to train for much fewer steps than that right so all these two raised to million.
+networks will not even get sampled some of them would get sample right but still because of its weight sharing.
+it's like every network is getting trained because even if this network was never sampled there were other networks which.

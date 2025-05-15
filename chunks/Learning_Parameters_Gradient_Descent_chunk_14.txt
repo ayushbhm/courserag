@@ -1,0 +1,10 @@
+what is being told to me that you have to select a u such that U transpose the dot product.
+of U with the gradient Vector would be less than zero only then your U would be good so this.
+is a condition that has been imposed on my U Now using this condition I want to find a good.
+U which not only satisfies this condition but satisfies this condition in the best possible way right and I'll tell.
+you what best possible way it means right so what is the range of this right so this is the.
+dot product uh between uh two vectors I think this should not be there this is the dot product so.
+what is the range of this right so let's try to understand that so let beta be the angle between.
+U transpose and the gradient vector then we know this right this is the COS of the angle this is.
+just the formula for the COS of the angle and this quantity which I was interested in luckily shows up.
+in this formula hence I am interested in it right so this is what uh cos beta is and the.

@@ -1,0 +1,10 @@
+that this yeah so now I have after doing the look ahead I have reached somewhere I have made that.
+updates uh and then I've read somewhere and then I have computed my history Vector again this is my history.
+Vector that I have computed again and then I've used that to make my final update right and this is.
+what my final update looks like it's w 1 minus M1 right because I'm just substituting uh values in this.
+equation now let me just use the pen so I'm just substituting values in this equation my ETA is equal.
+to 1 and time step is 1 so W1 minus M1 is what I get and now if I substitute.
+the value of M1 it turns out to be this quantity right it's beta M naught plus Delta W 1.
+minus beta M naught okay so now what is happening here is that if you look at this m naught.
+right which is M of T minus 1 it is used twice right first it is being used to make.
+this temporary update to the value okay you make that temporary update and then switch back to the original value.

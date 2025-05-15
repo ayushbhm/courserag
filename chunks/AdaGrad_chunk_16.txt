@@ -1,0 +1,9 @@
+accumulations may happen only after a large number of iterations such that the denominator becomes large and then the effect.
+of slowing down kicks in right but as opposed to this uh for a dense feature what would happen is.
+you had the B feature which was a dense feature now this history is accumulating faster right because now the.
+derivatives are going to be non-zero uh quite always right because this is like an always on feature so your.
+history is accumulating fast uh it will not be zero for most of the time steps and therefore what will.
+happen is uh VT will start growing rapidly and hence this will start decaying rapidly right so now effectively what.
+will happen is this advantage that you had that you quickly move in the direction of B and came to.
+where you want it to be that will not happen right because now this directions the in the increments in.
+the vertical direction will happen a bit slowly as opposed to earlier where it was quickly moving in the vertical.

@@ -1,0 +1,9 @@
+we had of derivation for w tilde and we have now been able to express W tilde as a function.
+of w star with these Matrix Q D and Q transpose right so what exactly is happening here right so.
+uh W star was my optimal solution for the unregularized case now when I am using the regularization what is.
+happening W star is first getting rotated by this Matrix Q transpose okay so this will give me some let's.
+call that quantity as Z right so Q transpose W star is again going to be a vector so Q.
+here would be an N cross n Matrix W is an N cross one vector so the result is again.
+going to be n cross 1. right and now that is getting multiplied by again an N cross n diagonal.
+matrix right so now multiply by multiplying by a diagonal matrix if you only have the diagonal terms and everything.
+else is 0 and if multiply the vector by such a matrix then it's the same as taking every entry.

@@ -1,0 +1,11 @@
+minus h2 and if i were to hide the other things then i'll get a tower function right again the.
+same logic that i'll not show you this right so here both are oops yeah maybe this is fine yeah.
+this looks better yeah so here both are 0 so the output will remain 0. here both are 1 so.
+1 minus 1 is going to become 0 so it will become flat and here this is 1 and this.
+is 0 so 1 minus 0 so you'll get a tower like this right so that is now if i.
+hide h 1 1 and h 1 2 and only show you h 1 1 minus h 1 2 then.
+it's going to look like this tower right and let me just delete some of the okay right so this.
+is looking like a tower so i have been able to construct a tower but this is still not complete.
+right because this tower is like open from two sides i don't want a tower which is open from two.
+sides i want a closed tower right just as that 2d thing where you had a tower like this i'd.
+want a tower which is closed from all the four sides right now right now it's open from two sides.

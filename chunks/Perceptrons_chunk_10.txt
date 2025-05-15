@@ -1,0 +1,9 @@
+inputs right is actor matt damon his actor christian bale is john a thriller it is johnner comedy is director.
+nolan and so on right so you could just convert it into these series of boolean inputs right so many.
+real world problems you could just try to convert them to problems where the inputs are boolean and the output.
+is of course bullying right whether the whether you are going to watch the movie or whether you want to.
+watch the movie whether you're going to like the movie and so on right and now based on the past.
+viewing experience now that this model has weights we could learn the waves from some data how we are going.
+to learn that is not clear yet right and it's going to take a series of lectures to understand that.
+in a much broader context we will do it in the context of perceptron soon but the broader context would.
+get clear over a series of lectures right so this is something that we would like to learn and now.

@@ -1,0 +1,10 @@
+explain this okay so now this is what h11 is looking like i have set the w very high as.
+you can see here oops yeah i've set the w to a very high value which is 60 and hence.
+it has become a step function and now if i change b it will move along here right i can.
+make it move wherever i want right now let's see what h12 is so i have h12 which are parameters.
+w3 w4 and b now again i have set w3 to be very high right so it has become like.
+a step function okay don't think that it became uh yeah sorry i shouldn't have changed this yeah so in.
+both cases one of the w's i have kept as zero and just changed the other w so now this.
+has become again like a step function okay and now if i were to subtract them right which is h11.
+minus h2 and if i were to hide the other things then i'll get a tower function right again the.
+same logic that i'll not show you this right so here both are oops yeah maybe this is fine yeah.

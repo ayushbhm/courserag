@@ -1,0 +1,9 @@
+now I'm talking about second order approximation and what this says is that the loss function in this neighborhood right.
+so w is the point in the neighborhood is the loss function at w Star Plus the first order term.
+plus the second order right so you already know this from the Taylor series that we have seen earlier and.
+now the interesting thing here is that this term is zero why is that zero because that's the optimal for.
+the loss LW right and if it's the optimal for the loss LW then the derivative at that point is.
+going to be zero right it's going to be some Minima at the Minima the derivative is going to be.
+0 right so that's why this quantity is going to be zero I know I'm just going to expand this.
+right so now what I have done here is this quantity has disappeared and this U I have written as.
+W minus W star so wherever I see do I have substituted as W minus W star nothing great again.

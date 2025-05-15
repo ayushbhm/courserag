@@ -1,0 +1,10 @@
+this case so it's just going to be 0.5 irrespective about the x is hence throughout the x axis the.
+value of the Y function is a 0.5 or the value of H1 is 0.5 it makes sense right now.
+to make it really a sigmoid meaningful sigmoid function I'll have to change W1 make it non-zero and as I.
+make it non-zero you can just see right and as I move from 1 it's still a very uh gentle.
+slope right it's not Steep and as I keep increasing W right the slope becomes steeper and steeper to the.
+point of almost becoming like a step function right as I keep increasing it almost becomes like a step function.
+right so this is how the sigmoid function looks like and if you have a very large the takeaway is.
+that if you have a very large W then you actually recover the step function right you get the step.
+function okay so this is what h11 is looking like now let me take a b two a bit higher.
+so that I can show you the difference between one now let me show h12 again for now it looks.

@@ -1,0 +1,10 @@
+w exists i'm sure about that and i'm going to call that w star it's just that i don't know.
+what that w star is but i can assume the existence of such a w star right so that's the.
+w star that i'm going to use right we don't know what it is but it exists right now suppose.
+at some time step t uh we inspected the point p i right what does that mean i have points.
+p1 p2 all the way up to such some pm which are belonging to my set p prime right these.
+are all the points and at every point inside that loop i'm going to randomly pick up one point right.
+so that lets that point be pi so i'm at the t iteration of the loop and the point which.
+i have picked up is p i okay and we found that the condition is violated we wanted w transpose.
+p to be greater than equal to 0 and suppose it's less than 0 right suppose the condition has been.
+violated okay so now what will i do we make the correction that my new weight vector is going to.

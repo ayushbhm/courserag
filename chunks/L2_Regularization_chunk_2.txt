@@ -1,0 +1,9 @@
+early stopping Ensemble methods drop out right so quite a bit of a long list and we will maybe look.
+at this formula in detail at least in the context of L2 regularization right so let's start there so in.
+L2 regularization this is what we do right so we Define our the loss that we want to minimize or.
+the effective loss that we want to minimize we Define it as a sum of the training loss which is.
+this so which is again I will just write it down once more this is again summation I equal to.
+1 to m or rather average oops M of whatever your training losses and we have been dealing with a.
+squared error loss right so in the LT case of L2 regularization instead of just minimizing this you also try.
+to minimize this right that means you are trying to minimize the L2 Norm of your weight say that's what.
+this quantity is and this is some multiplying factor which decide how much weightage should be given to uh this.

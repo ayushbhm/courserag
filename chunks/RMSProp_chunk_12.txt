@@ -1,0 +1,9 @@
+W axis I was here and I added the I mean I moved in the direction oppose it to the.
+gradient and I ended up here right now again I compute the derivative here again I'll move in the direction.
+opposite to the gradient with the same learning rate my learning rate has not changed so again I'll end up.
+here at the same point because I'm moving from one point on the curve to its symmetrically opposite point on.
+the curve this is possible I'm not saying this will always happen but this could happen right you're moving from.
+here to here and again from here to here and you keep oscillating between those two points because from every.
+movement you have the learning rate is constant so if the derivative is also similar you'll just keep moving from.
+here to here right even if the derivative is slightly different you will keep making these movements from here to.
+here right instead of directly going to the uh minimum all right so that's what can happen if your learning.

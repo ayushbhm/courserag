@@ -1,0 +1,9 @@
+exponentially weighted L2 Norm that you are taking right so that's what you need to remember if you look at.
+VT it has all the terms from Delta W 0 square all the way up to Delta w t square.
+and they are exponentially weighted and you are taking the square so that's the same as taking like an exponentially.
+weighted L2 Norm of a certain Vector right so that's what I wanted to indicate here uh and why am.
+I saying that is something that will become clear I think a little bit later in the discussion and typical.
+values for beta1 and beta 2 are beta 1 is 0.9 and beta2 is 0.999 so since beta 2 is.
+0.999 uh so this 1 minus beta 2 is essentially a very small quantity right so you're taking a very.
+small fraction of the current uh gradient okay so now let's learn Adam and try to compare it with the.
+other algorithms that we have yeah so let me just see again yeah so in this case again Ada Delta.

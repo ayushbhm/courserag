@@ -1,0 +1,9 @@
+intuition for how what would that formula look like and then do some hard work but then come back to.
+a state where we can then say okay once i know how to compute this this red guy can i.
+compute all the weights in that network in one go right can i compute the derivatives uh the partial derivatives.
+for the loss function with respect to all the weights in that layer once i know how to do it.
+for one weight in that layer right then that would not not require us to compute these many formulae but.
+just one formula and then we could generalize it and also not just that once i know it for one.
+layer can i do apply a similar formula for all the layers right then we are coming up with a.
+very generalized formula and the computations will become easier but that's for later for now i want to understand how.
+to compute this right so we'll see how to calculate that but first let us look at a very simple.

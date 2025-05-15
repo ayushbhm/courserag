@@ -1,0 +1,10 @@
+samples I have computed h okay I have done that sorry H one I have done that right now my.
+training data becomes H1 I pass it through a network a layer called H2 right so this was maybe D.
+dimensional this could be D dimensional or some D1 dimensional and then I again try to reconstruct H1 from there.
+so it's the same training objective right so now remember that the H is while we think of them as.
+hidden layers or outputs they are also the inputs to the net say to the next layer right so just.
+as X is H 0 and my first problem that I had solved was for its 0 now I am.
+solving the same problem for H1 given an H1 I want to reconstruct it through a single layered Network right.
+so again once again I am training a shallow Network one input layer which is H1 which is fixed I.
+have computed all the H1s using the x that was given to me and the training that I had done.
+in the first iteration I had computed all the W's I was happy with whatever WS I have computed and.

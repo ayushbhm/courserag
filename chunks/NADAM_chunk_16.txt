@@ -1,0 +1,10 @@
+so it's a bit messy uh I I couldn't find a better way of explaining this if you have suggestions.
+I'm open to using them but the main idea here is this the takeaway is this that you add the.
+nestrov factor into the atom equations which means you do a look ahead and to make this look ahead a.
+bit less Messier in terms of writing and making sure that most of your equations are same as atom and.
+you just push your head into the last look ahead into the last equation uh we did that rewriting of.
+Nag and we just explained that instead of doing something at T minus 1 then t and t plus 1.
+we had everything in terms of t and t plus one so the look ahead was already done before I.
+went to the next iteration hence I did not need to do a look ahead again in the next iteration.
+right and once you understand that then this equation is just the just a manifestation of that and the all.
+the one minus beta beta terms that you see here now let me just clear the all the annotations these.

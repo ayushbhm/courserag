@@ -1,0 +1,10 @@
+right let's look at the other case if x was a negative point and if i was making an error.
+right so if w transpose x was greater than equal to 0 that means the current angle is less than.
+90 degrees but what do i want i want it to be greater than 90 degrees right so if i.
+look at it at one point one step at a time whatever is the current angle i want the new.
+angle to be greater than this angle right so let's see if that happens if i do w nu equal.
+to w minus x the same explanation cos alpha nu is going to be this i'll substitute the value i'll.
+replace open up the bracket and now you can see that cos alpha nu is actually less than cos alpha.
+right if cos alpha nu is less than cos alpha that means alpha nu is greater than alpha right and.
+that's what i wanted my current angle was less than 90 degrees which was not acceptable to me i wanted.
+it to be more than 90 degrees so this step has at least ensured that my angle and new angle.

@@ -1,0 +1,9 @@
+that's the question that we would like to understand right so what are we saying right we are saying that.
+you find me weights such as that the training loss is minimized and also the weights values are very small.
+right so what does that actually mean suppose we consider only two weights right say w one and W two.
+now in the absence of this I'm just saying that you go ahead and pick up whatever weight values you.
+want right and just minimize my training error that means I could pick up very large values of the weight.
+of the weights rights all of the entire R2 plane is open to me right so let's just extend this.
+so any value in the R2 plane is open to me right now I am saying that hey you know.
+you can minimize the loss but I do not want these W values to blow up because if these W.
+values blow up my regularization term will blow up and hence my effective loss would still be high right so.

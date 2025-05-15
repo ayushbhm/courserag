@@ -1,0 +1,10 @@
+would perform very bad right whereas if my model has a low variance then irrespective of what training data I.
+have all my f hat X's would be very close to each other so now if I had used this.
+as a training data and then my test data comes from any of these other remaining data then I do.
+not have a problem because my f hat X would have been similar right but at the same time it.
+should not be the case that this low variance is coming with high bias because if there is high bias.
+then I know that all my f hat X's would be close to each other but then they will be.
+far away from the true function which is again useless to me right so there has to be this balance.
+that you want like you want a low bias by the same time you don't want a high variance or.
+you do other way of looking at it is that you want low variance but at the same time you.
+don't want a high bias in the model right so you want like reasonable variance reasonable bias so that your.

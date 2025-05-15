@@ -1,0 +1,9 @@
+you did not have the alpha term now since you have the alpha term this term gets added right so.
+L2 regularization is very easy to implement if you have already implemented gradient descent then all you need to do.
+is change this update Rule and add this term or subtract this term and you have the L2 regularized update.
+rule for green interesting right now this becomes more complicated as you look at other algorithms like atom and variance.
+of it and so on but we will not discuss those but at least in the case of vanilla gradient.
+descent where the update rule was just move in the direction opposite to the gradient it's now subtract that term.
+and then further subtract this term that's all your update rule is so extremely easy to implement now let us.
+see what is the geometric interpretation of this right so to understand the geometric interpretation we will do slightly uh.
+long ish I would say a derivation right we'll just try to uh go a bit deeper uh into what.

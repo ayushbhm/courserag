@@ -1,0 +1,9 @@
+is zero because Epsilon is a zero mean noise so all those terms which contain A1 A2 are going to.
+be disappearing why will they disappear because you are taking the expectation of a product and the two random variables.
+in the product are independent so that expectation can be written as the product of expectations and in the individual.
+terms are there now become zero so all these terms are going to be disappearing and so you will only.
+be left with the uh with the quantities which contain the squares so those are these quantities right so w.
+i square plus Epsilon I into Epsilon I square and you'll have n such terms so that's why you have.
+n terms here right so that's that's a pretty long ah um yeah I mean long set of explanation for.
+what how I went from here to here right and again I have said that this quantity also becomes zero.
+so why does that quantity become zero so this is y hat minus y okay so here you are a.

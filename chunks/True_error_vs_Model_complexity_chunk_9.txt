@@ -1,0 +1,10 @@
+small change in the data right but when would this quantity be high if this quantity is high it means.
+that if you have even a small change in y i you are seeing a very large change in your.
+F hat which means you are changing a very large change in the W's that you have estimated right and.
+this is not good right this is definitely not good because for this much small change you don't want the.
+model to vary a lot right and for what kind of models we saw that this happens that a small.
+change in the data could lead to a large change in the F hat x that you got this is.
+what we saw in the case of when we were discussing the first example of simple and complex models so.
+when we had the simple model of Y is equal to W and X plus W naught and then when.
+we trained it we had a total of 500 training samples and then when we trained it using 30 different.
+samples this line did not change much right that means my f hat X did not change much right but.

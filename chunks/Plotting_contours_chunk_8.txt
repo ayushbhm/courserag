@@ -1,0 +1,9 @@
+us about the slope in that direction if the distance is large then the slope was gentle and I gave.
+you explain it with the help of this example I have this slope was steep then the distance was small.
+as we saw here right so that's what the contour maps capture so in short they capture all the information.
+that we are interested in when we are talking about gradient descent based algorithms right so let me just look.
+at one more example right let me take a different function now suppose I take this function okay this is.
+what this function looks like right now let me try to guess what the contour map would look like right.
+uh or other let me just draw the contour map right this is what the contour map looks like and.
+here again you can see that here yeah here the distance is large and does it correspond to my intuition.
+that the slope would be large in that region so let's see that right indeed the slope was sorry the.

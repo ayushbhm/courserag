@@ -1,0 +1,9 @@
+just said that a neuron a model of the brain would be that there are multiple inputs coming to it.
+right and these could be inputs from a sensory organs and based on that it takes a decision and a.
+very simplified model is where all these inputs are binary and the decision is also binary so i take inputs.
+like uh is it raining outside do i have money do i have time and if so maybe i'll go.
+out to watch a movie right so that's how the decision uh making processes modeled with a very simplified model.
+right and then this again got modified and this perceptron model was proposed by frank rosenblatt and this is what.
+he had to say about it when he proposed it and if you look at the diagram of course the.
+perceptron model is again something that we'll do in detail in the course uh you'll see that it's very similar.
+to the earlier diagram except you see some weights here right so now these different decision factors have some weight.

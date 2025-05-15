@@ -1,0 +1,10 @@
+Blue Line but as the neighborhood increases if you come go very far from the point that you were and.
+now you're going to try it so this is your X naught right this this point here is your X.
+naught right and let me consider some x one here right so now what is sorry this should have been.
+X1 so now what it is telling me is that if I try to compute y1 is equal to Y.
+naught right so this point here on the line is y naught okay if I try to compute y1 is.
+equal to Y naught plus the formula that I had at M into X1 minus X naught right then the.
+answer that I'll get is this and you can see that it's way off right it's not not really a.
+good approximation even if uh my X1 I was here right and then what I'll get if I substitute in.
+this formula I'll get the y1 as this point and you can see that it's actually very far off from.
+the true value of y1 right so hence this as the neighborhood goes this approximation becomes bad so that is.

@@ -1,0 +1,9 @@
+2 divided by the summation over all E's right that's what I'll do right so I'm just going to take.
+the soft Max here now once I have taken the soft Max that gives me the alphas but how am.
+I going to compute my Z my Z is going to be a weighted sum of the inputs right and.
+what I what are the vectors that I am considering as input I am considering the v's now right so.
+these are known as the value vectors right so q and K participated in Computing Alphas once I am going.
+to compute Alphas my new representation which is z is going to be a weighted sum of the v's right.
+so you have all the three vectors participating in this computation q and K participate in Computing the alpha and.
+then there was a v right just as you had a v sitting outside if you remember right you had.
+this V getting multiplied by everything that was happening inside is here this VA transpose damage into something something and.

@@ -1,0 +1,9 @@
+be learned right so what would happen in the sigmoid case for example right this is what a sigmoid function.
+looks like right and it will look like this s-shaped but depending on the values of w and b it.
+will decide whether this is something like this something like this or is it something like this right so all.
+of this will depend on your values of them so you can have a function form but you can adjust.
+that form of the function by or adjust the shape of the function by using these parameters right so that's.
+why if you don't have parameters and all your data is useless right if you just say my equation is.
+this you have not even looked at the two points how do you know that those two points will satisfy.
+this equation right so to look at the points and then come up with this equation right then you have.
+to find the values of w and b so that's the same idea here that's why you need these parameters.

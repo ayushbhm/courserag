@@ -1,0 +1,9 @@
+will compute the Z as a weighted sum of your Phi input vectors and the weights would come from the.
+alpha right so very easy to understand now you had one vector you had H1 to H5 from each of.
+these H1 h2h5 you computed three vectors using the carry query transformation key transformation and value transformation the query Vector.
+is used to find the importance of all the words with respect to this word right so this is fixed.
+and you're trying to find the importance of all the words so the vector contains the dot product between your.
+query and all the keys that you have once you have computed the importance now you need to take a.
+weighted sum of all the words so for taking the weighted sum you look at the value Vector right so.
+that's how you have these three vectors which get used in this computation right so I think it's uh should.
+be clear from the diagram and the equation how the zis will be computed so you'll just do this Z1.

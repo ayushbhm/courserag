@@ -1,0 +1,9 @@
+you want to assume I want something which is exactly equal that's also fine right but I'm just going to.
+be a bit more relaxed in this uh lecture right I would just say approximately is also fine right so.
+that is what I want can I construct a network such that when I give this real valued inputs right.
+and I get a prediction from the network that should be as close to what is given to me in.
+the training data right that's what my quest is going to be okay and just to make it more concrete.
+so in the in the oil mining example there are already many uh locations where drilling stations have been set.
+up and oil is being mined for many years right so I know what was the quantity of oil mine.
+from those stations and I know what their X characteristics were right so what did the salinity of salinity what.
+was the pressure what was the density what was the temperature what was the marine diversity all I know right.

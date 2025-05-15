@@ -1,0 +1,9 @@
+it that what is it that we are taking the average on so again the situation was I had certain.
+training data and then I had certain test data and this test data had many X comma y pairs so.
+the average error over all these X comma y Pairs and that's what this expectation stands for I want to.
+take this mean error over all the X comma y Pairs and potentially there could be like a large large.
+number of test points right so if I have built an image classifier this is an infinite set of I.
+mean practically infinite a large number of images that I could feed it at test time at which it has.
+not seen at training time right so every day I don't know how many images get uploaded on Instagram Facebook.
+Etc so if you have trained a model using all the images that were there till today in another one.
+week some million other images will get generated and now these are all of these images are not seen by.

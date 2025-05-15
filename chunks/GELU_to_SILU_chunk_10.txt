@@ -1,0 +1,10 @@
+less than or equal to X right that's how what that's what Phi of X means right so if I.
+were to draw the cumulative density function then if I were to this is my x axis so if I.
+take any X I'll get a value here and this value is essentially the P of X taking on values.
+less than or equal to x z because it has been obtained by the integration of this curve and then.
+till this point whatever was the area under the density curve that is what gets plotted here right so this.
+is just probability of X less than or equal to X right and now this I could uh since this.
+this is the probability density function of the uh of the normal distribution I know how to compute this there.
+are certain approximations available for that and I can use those approximations right so what my FX actually is I.
+can write F of uh I can write this quantity okay let me just draw the other one so so.
+I can write this quantity okay you ignore the X here because this x corresponds to this x right so.

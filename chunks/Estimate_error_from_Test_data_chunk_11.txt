@@ -1,0 +1,9 @@
+the difference between the predicted value and the true function value right but we do not know the true function.
+value so we cannot estimate this quantity and now we have written it as a sum of three terms of.
+which I just showed you how to compute the first one empirically right so now you could compute it empirically.
+from the data but there are two cases you can either use the test data to compute this or to.
+estimate this quantity or you could use the training data right so let us look at both the cases so.
+first we look at the case when we are looking at the test data okay so now suppose I look.
+at the test data then this is the true error that I am interested in now the first quantity here.
+I'm going to replace it by the empirical estimate that I just showed on the previous slide which is the.
+average computed from the m test points that you had and the test points were the points from n plus.

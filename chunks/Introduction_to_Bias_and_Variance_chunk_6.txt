@@ -1,0 +1,9 @@
+to W and X plus W naught right so I have only two parameters here clearly not an over parameterized.
+model and the relationship that I have assumed is very simple the other I am going to assume is a.
+slightly complex model which is a degree 25 ah polynomial right so what does that mean that ah I am.
+saying that my ah Y is related to X by the following relationship W 25 x raised to 25 plus.
+W 24 x raised to 24 all the way up to WX then W naught right ah so w One.
+X plus W naught right so clearly I have 26 parameters here and my function is also not linear it's.
+a polynomial so this is clearly a complex function at least in relation to the ah first function where I.
+have just assumed a linear relationship so here I have only two parameters here I have 26 parameters so I.
+clearly have more capacity here as compared to the simple model right and if I take this to the extreme.

@@ -1,0 +1,9 @@
+foreign [Music] function that I want to talk about is gelu which is gaussian error linear unit it was first.
+introduced in the context of Transformer model the first Transformer model around 2017 used this gelu activation function so let's.
+motivate that so first we'll start with uh noting some similarity between relu and this hard thresholding right so this.
+is what our hard thresholding looks like it is 1 if x is greater than 0 and it is 0.
+if x is less than or equal to zero right that's what the hard thresholding looks like and now let's.
+look at what the value function looks like the value function can also be written in a similar form as.
+f of x is equal to 1 into x if x is greater than 0 and maybe 0 into X.
+if x is less than or equal to 0 this is how I'm going to rewrite it on the next.
+slide so main thing to note here is that both the activation functions the output depends on the sign of.
