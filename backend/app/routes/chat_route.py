@@ -3,11 +3,14 @@ from flask import Blueprint, request, jsonify
 import chromadb
 from transformers import pipeline
 
+
+
 from sentence_transformers import SentenceTransformer   
 model = SentenceTransformer("all-MiniLM-L6-v2")
 
 def embed_text( text: str):
     return model.encode(text)
+
 
 # Setup Blueprint
 chat_bp = Blueprint("chat", __name__)
@@ -17,11 +20,14 @@ client = None
 collection = None
 answer_model = pipeline("text2text-generation", model="google/flan-t5-base")
 
+
 def init_chat():
-    global client, collection
+    global client, collection, answer_model
     # Setup ChromaDB client and collection
     client = chromadb.PersistentClient(path="chroma_db")
     collection = client.get_collection("video_chunks")
+    # Setup answer generation model
+    answer_model = pipeline("text2text-generation", model="google/flan-t5-base")
 
 @chat_bp.route("/chat", methods=["POST"])
 def chat():
@@ -47,8 +53,12 @@ def chat():
         # Prepare search parameters
         search_params = {
             "query_embeddings": [query_embedding], 
-            "n_results": 5  # Increased from 3 to 5 for more context
+            "n_results": 3
         }
+        
+        # Filter by video if specified
+        
+
         
         # Search in ChromaDB
         results = collection.query(**search_params)
@@ -58,20 +68,15 @@ def chat():
         metas = results.get("metadatas", [[]])[0]
         print(f"Returned docs (no filter): {docs}")
         print(f"Returned metadatas (no filter): {metas}")
-        
         if video:
-            video_norm = video.strip().lower().replace(" ", "_")
-            filtered_docs = []
-            filtered_metas = []
-            for doc, meta in zip(docs, metas):
-                stored_title = meta.get("video_title", "").lower()
-                if video_norm in stored_title:
-                    filtered_docs.append(doc)
-                    filtered_metas.append(meta)
-            
-            if filtered_docs:  # Only use filtered docs if we found matches
-                docs = filtered_docs
-                metas = filtered_metas
+           video_norm = video.strip().lower().replace(" ", "_")
+           filtered_docs = []
+           filtered_metas = []
+           for doc, meta in zip(docs, metas):
+              stored_title = meta.get("video_title", "").lower()
+              if video_norm in stored_title:
+                 filtered_docs.append(doc)
+                 filtered_metas.append(meta)
         
         if not docs:
             return jsonify({
@@ -79,31 +84,15 @@ def chat():
                 "sources": []
             }), 200
         
-        # Generate answer with improved prompt
+        # Generate answer
         context = "\n\n".join(docs)
-        prompt = f"""Based on the following context, answer the question. If the context doesn't contain enough information, say so.
-
-Context:
-{context}
-
-Question: {question}
-
-Answer:"""
+        prompt = f"Context: {context}\n\nQuestion: {question}\n\nAnswer:"
         
-        # Generate answer with better parameters
-        answer = answer_model(
-            prompt,
-            max_length=300,  # Increased from 200
-            min_length=50,   # Added minimum length
-            do_sample=True,  # Enable sampling for more natural responses
-            temperature=0.7, # Add some randomness
-            top_p=0.9,      # Nucleus sampling
-            repetition_penalty=1.2  # Prevent repetitive text
-        )[0]["generated_text"]
+        answer = answer_model(prompt, max_length=200, do_sample=False)[0]["generated_text"]
         
         # Get source information
         sources = []
-        for meta in metas:  # Use metas instead of results.get() since we might have filtered
+        for meta in results.get("metadatas", [[]])[0]:
             if meta and "video_title" in meta:
                 sources.append(meta["video_title"])
         
